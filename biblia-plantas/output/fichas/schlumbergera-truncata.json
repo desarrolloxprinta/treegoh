@@ -1,0 +1,380 @@
+{
+  "nombre_cientifico": "Schlumbergera truncata",
+  "nombres_comunes": [
+    "cactus de Navidad",
+    "santa Teresita",
+    "cactus de Acción de Gracias",
+    "cactus cangrejo",
+    "Zygocactus"
+  ],
+  "familia": "Cactaceae",
+  "origen": "Endémica de una pequeña zona de las montañas costeras del sureste de Brasil (estado de Río de Janeiro: Serra dos Órgãos y Serra do Mar), a unos 700-1000 m de altitud (F13, F3, F14). Epífita sobre árboles y, a veces, litófita sobre rocas. Catalogada como Vulnerable en la Lista Roja de la UICN por recolección excesiva y expansión urbana (F14).",
+  "clima_nativo": "Selva atlántica tropical de montaña (bosque nuboso costero): húmeda todo el año, sombra moteada bajo el dosel, temperaturas suaves por la altitud y noches frescas. NO es un cactus del desierto: la convención de cactus de desierto (sol pleno, sustrato mineral muy seco, reposo invernal frío y seco) no se aplica a esta especie (F5, F2, F1).",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Sin hojas verdaderas. Lo que parecen hojas son segmentos de tallo aplanados (filocladios o cladodios), verdes, brillantes, carnosos, sin espinas, unidos en cadena. Cada segmento mide unos 4-6 cm de largo y 2-4 cm de ancho (NC State: 1,5-2,25 × 0,75-1,5 pulgadas) y tiene el extremo cortado en recto ('truncata'). RASGO CLAVE: cada margen lleva 2-4 dientes agudos, curvados hacia delante, como pinzas de cangrejo; el par del extremo es el más marcado (F1, F3). En las areolas del extremo hay pelillos cortos (F3). Flores en el extremo del segmento final: tubulares, zigomorfas (simetría bilateral), con la boca muy oblicua, sostenidas horizontales o hacia arriba (no cuelgan), de 5-8 cm, en rojo, rosa, fucsia, morado, naranja, blanco o bicolores; ANTERAS AMARILLAS (F1, F3). Fruto liso, rojo, redondo a periforme, sin costillas (F3).",
+    "nerviacion": "No aplicable: los filocladios no tienen nervios visibles como una hoja; solo se aprecia un engrosamiento central longitudinal (nervio medio aparente) del que salen los dientes laterales [orientativo, sin fuente prioritaria].",
+    "variegacion": "No tiene variegación. Los segmentos son verde medio a oscuro. Con sol fuerte, frío o estrés hídrico pueden enrojecer o amoratarse y con exceso de sol se ponen pálidos o amarillentos (F1, F3, F5); esto no es variegación sino estrés.",
+    "tallo": "Formado por la sucesión de filocladios articulados; los segmentos se separan con facilidad por la unión (de ahí la propagación por segmentos). Con los años la base se vuelve marrón y leñosa ('corchosa'), lo cual es envejecimiento normal (F2).",
+    "habito": "Epífita arbustiva muy ramificada, de tallos arqueados que acaban colgando; ideal para cesta colgante o borde de estantería (F1, F3, F4).",
+    "tamano_adulto_interior": "23-30 cm de alto y 30-60 cm de ancho (NC State); RHS: 10-50 cm de alto y de ancho, o unos 45 × 45 cm en la guía; tarda 5-10 años en llegar a ese tamaño (F3, F4, F5). Ejemplares muy viejos son mayores y pueden vivir décadas (F2).",
+    "confusiones": [
+      {
+        "especie": "Schlumbergera × buckleyi (cactus de Navidad 'verdadero'; híbrido S. russelliana × S. truncata; a veces vendido como S. bridgesii)",
+        "rasgo_diferenciador": "Segmentos con los márgenes redondeados u ondulados (festoneados), SIN dientes puntiagudos; flores que cuelgan, más simétricas; anteras púrpura-marrón (en S. truncata, amarillas). Florece aproximadamente un mes más tarde, hacia Navidad (F1, F3, F15). El cuidado es el mismo."
+      },
+      {
+        "especie": "Hatiora gaertneri (cactus de Pascua; sin. Rhipsalidopsis gaertneri, Schlumbergera gaertneri)",
+        "rasgo_diferenciador": "Segmentos más cortos y redondeados, con bordes suavemente festoneados y unas pocas cerdas finas marrones o amarillentas en las puntas y areolas, sin dientes en pinza; flores en ESTRELLA, abiertas, de tubo corto y simetría radial (no tubulares ni zigomorfas). Florece de finales de marzo a mayo, no en otoño-invierno (F10, F1)."
+      },
+      {
+        "especie": "Schlumbergera russelliana (cactus gamba)",
+        "rasgo_diferenciador": "Segmentos más pequeños y estrechos, de borde casi liso sin dientes; flores colgantes de pétalos más simétricos. Es rara en el comercio (F3) [orientativo, sin fuente prioritaria para el detalle morfológico]."
+      },
+      {
+        "especie": "Epiphyllum y otros cactus orquídea (Disocactus)",
+        "rasgo_diferenciador": "Tallos planos largos y continuos (no en segmentos cortos encadenados) con bordes ondulados o crenados; flores mucho mayores [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se describen intoxicaciones. NC State etiqueta S. truncata como no tóxica para perros y gatos; ASPCA clasifica como no tóxicos para perros, gatos y caballos a sus congéneres Schlumbergera bridgesii (cactus de Navidad) y S. russelliana. En personas, la lista del Minnesota Poison Control System incluye 'Christmas Cactus' y 'Easter Cactus' entre las plantas no tóxicas. Que no sea tóxica no significa que sea comestible: si un animal o un niño come una buena cantidad de segmentos puede tener una molestia digestiva leve y pasajera (vómito o diarrea), como con cualquier materia vegetal fibrosa. Los insecticidas aplicados a la planta sí pueden ser tóxicos. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F3",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "notas": "Perros y gatos: Alta (NC State a nivel de especie + ASPCA a nivel de género coinciden). La ASPCA no tiene entrada propia para S. truncata: la deducción para la especie se apoya en NC State. Niños: la lista de Minnesota usa solo el nombre común 'Christmas Cactus', que en EE. UU. abarca S. truncata y S. × buckleyi; para niños la confianza real es Media."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este como opción ideal (RHS). Vale también una ventana norte muy luminosa o una sur u oeste con cortina o a 1-2 m del cristal. En otoño e invierno puede recibir sol directo suave porque favorece la floración (Clemson); en primavera-verano, nada de sol de mediodía ni de tarde.",
+      "tolera_sol_directo": "Solo sol suave: de mañana o de invierno. Las fuentes discrepan en el matiz: RHS dice luz brillante 'sin sol directo'; NC State admite sombra parcial con 2-6 h de sol directo al día y la Univ. de Minnesota, en exterior, 3-6 h de sol filtrado. Se adopta la opción conservadora: sin sol directo fuerte de abril a septiembre. El sol intenso de verano pone los segmentos pálidos y amarillentos o los quema (Clemson, NC State, RHS).",
+      "notas": "Escala del proyecto: luz brillante indirecta, 500-1000 fc (≈5380-10760 lux); la conversión a lux de las expresiones cualitativas de las fuentes es [orientativo, sin fuente prioritaria]. Con poca luz crece poco y florece mal. Para florecer necesita además NOCHES LARGAS: ver bloque 'reposo'. Desde mediados de septiembre, cualquier luz artificial durante la noche (lámparas, televisión, farolas) impide que forme botones: Clemson indica que bastan 2 h de interrupción para inhibirlos (F1). Limpiar de vez en cuando los segmentos con un paño húmedo (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos; nunca por calendario. Regar a fondo hasta que salga agua por el drenaje (mejor en el fregadero) y vaciar el plato o el macetero a los 10-15 minutos: no debe quedar nunca agua estancada (Clemson, Univ. Minnesota). A diferencia de los cactus del desierto, NO se deja secar del todo el cepellón (Clemson, RHS).",
+      "primavera_verano": "Abril-septiembre (hemisferio norte): riego regular, sustrato húmedo pero nunca encharcado (RHS). Tolera bien quedarse algo corto de agua en esta época (Clemson). Con calor el sustrato se seca antes: comprobar con el dedo cada pocos días.",
+      "otono_invierno": "Desde mediados de septiembre hasta que aparecen los botones: regar menos, dejando secar los primeros centímetros, sin que llegue a secarse por completo (RHS). En cuanto se ven los botones y durante toda la floración: mantener el sustrato UNIFORMEMENTE húmedo, porque la sequía hace caer los botones (Clemson, Univ. Minnesota). Tras la floración (finales de enero-finales de marzo): segundo reposo, riego reducido de nuevo, solo cuando se sequen los primeros centímetros (RHS, Univ. Minnesota). Nunca encharcar en los días oscuros de invierno (Clemson).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Ninguna fuente prioritaria pide agua especial. El agua del grifo de Madrid (blanda, 10-47 mg/L CaCO3, cloramina, fluoruro <0,1 mg/L) es adecuada; dejarla reposar no elimina la cloramina pero tampoco hace falta. Usar agua a temperatura ambiente: los cambios bruscos de temperatura favorecen la caída de botones [orientativo, sin fuente prioritaria para la temperatura del agua].",
+      "notas": "La pudrición de raíz por exceso de riego es una de las causas más comunes de muerte (Univ. Minnesota, Clemson). Si la planta está lacia con el sustrato mojado, es exceso de agua, no sed: dejar secar y revisar el drenaje (Univ. Minnesota). Segmentos arrugados pueden deberse tanto a exceso como a falta de riego, porque en ambos casos fallan las raíces (RHS). UW Botanic Gardens propone regar 'cada dos semanas', pero el proyecto no fija días: manda el sustrato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 55,
+      "notas": "Las fuentes piden humedad 'alta' (Univ. Minnesota, NC State, Chicago Botanic Garden) o 'idealmente' húmeda (RHS), sin cifras: los porcentajes son [orientativo, sin fuente prioritaria]. NC State la considera resistente a la humedad; con humedad alta y poca ventilación aparece moho gris, así que hay que ventilar. Pulverizar los segmentos no sube la humedad de forma útil (convención del proyecto, aunque RHS lo recomiende): usar humidificador o agrupar plantas; la bandeja con grava húmeda que propone RHS solo ayuda poco y siempre que la maceta no toque el agua.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F11"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Crecimiento (abril-septiembre): ideal 21-27 °C (Clemson: 70-80 °F); RHS: 18-20 °C en crecimiento y en flor. Mínimo: RHS (H1B) y Clemson ponen el límite de supervivencia en 10 °C, pero a 10 °C caen los botones (Clemson) y UW Botanic Gardens pide entrarla si la noche baja de 13 °C (55 °F); la Univ. de Minnesota induce la floración con noches de 13-18 °C (55-65 °F). Se adopta min_c = 13 °C, el valor más alto y más prudente (contradicción C9 del proyecto: 13-15 °C nocturnos, nunca 10 °C). Inducción de la floración (otoño): noches frescas de 12-15 °C (RHS) a 13-15 °C (C9); por encima de 18 °C de noche apenas florece (RHS, Univ. Minnesota). Máximo: con botones formados, no pasar de 32 °C (Clemson: 90 °F); el calor continuo hace caer los botones y retrasa la floración (Clemson, RHS). Contradicción: NC State propone forzar la floración con noches de 4 °C (40 °F); se descarta por estar muy por debajo del mínimo de RHS y Clemson. Evitar corrientes, radiadores y cambios bruscos (Univ. Minnesota, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F9",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato ligero, aireado y con buen drenaje; no tolera mezclas pesadas y húmedas (Clemson, Univ. Minnesota). Opciones de fuentes prioritarias: 60-80 % de sustrato universal de calidad + 20-40 % de perlita (Clemson); 1 parte de sustrato estéril + 2 de turba (o fibra de coco como alternativa sin turba) + 1 de arena gruesa o perlita (Univ. Minnesota); sustrato para cactus o de base franca sin turba con mantillo de hojas y grava fina (RHS). No usar la mezcla mineral pura de cactus de desierto: esta especie necesita retener algo de humedad. Maceta con agujeros de drenaje.",
+      "ph": "Ácido a neutro (RHS: 'acid or neutral'; NC State: ácido <6,0 a neutro). Un rango de 5,5-6,5 es [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: agujeros suficientes, sin capa de grava en el fondo y sin agua en el plato (Univ. Minnesota, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior con microelementos (Clemson: 20-10-20 o 20-20-20; Univ. Minnesota: equilibrado). En otoño, si se abona, uno bajo en nitrógeno y alto en fósforo y potasio (Univ. Minnesota); RHS menciona abono rico en potasa.",
+      "npk": "Crecimiento: equilibrado (20-20-20 o 20-10-20). Previo a floración: bajo en N y alto en P y K (ej. 0-15-10).",
+      "primavera_verano": "Desde que arranca el crecimiento (marzo-abril) hasta finales de agosto: una vez al mes a ¼-½ de la dosis de etiqueta (convención del proyecto; Clemson y Univ. Minnesota: mitad de dosis, mensual). Último abono a finales de agosto: Clemson indica parar a finales de verano para que forme más botones.",
+      "otono_invierno": "Sin abono desde septiembre hasta después de la floración, durante la inducción y los reposos. La Univ. de Minnesota admite un abono bajo en N y alto en P-K en otoño mientras se forman los botones, a mitad de dosis; RHS abona hasta finales de septiembre. Se adopta la opción conservadora del proyecto (parar a finales de agosto, nada en reposo).",
+      "notas": "Clemson señala que los cactus de Navidad necesitan más magnesio que muchas plantas y propone sal de Epsom (sulfato de magnesio) a 1 cucharadita por galón (≈1,3 g/L) una vez al mes en crecimiento, nunca la misma semana que el abono; es una recomendación de una sola fuente prioritaria y opcional si el abono ya lleva magnesio. Contradicción menor de fechas de fin de abonado (Clemson: finales de verano; Univ. Minnesota: junio-agosto; RHS: abril-septiembre).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando las raíces llenen la maceta: florece mejor algo apretada en la maceta (Clemson, Univ. Minnesota, NC State: cada tres años; RHS: cada 1-2 años una vez llena). Las plantas recién compradas pueden seguir un par de años en su maceta (RHS).",
+      "epoca": "Primavera, tras el reposo posfloración: finales de marzo-abril en el hemisferio norte (RHS, Clemson). Nunca con botones o en flor.",
+      "senales": "Raíces saliendo por el drenaje, agua que pasa de largo sin empapar, sustrato agotado o compactado, o planta tan grande que se desequilibra y se le rompen ramas (Univ. Minnesota). Subir solo un tamaño de maceta (2-3 cm más de diámetro): una maceta demasiado grande frena el crecimiento y favorece la pudrición (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No imprescindible (RHS: 'no pruning required'), pero recomendable para ramificar: las flores salen solo en las puntas de los tallos, así que más ramas = más flores (RHS, Univ. Minnesota).",
+      "epoca": "Después de la floración o en primavera (Univ. Minnesota, RHS); despunte a principios de junio para ramificar (Clemson). 'Nivelado' a finales de septiembre: quitar los segmentos terminales de menos de 1 cm, que aún no florecerían, para que el botón se forme en el segmento maduro anterior (Clemson).",
+      "como": "Quitar segmentos enteros por la unión entre dos segmentos, girándolos o con una cuchilla limpia y afilada; no cortar a mitad de segmento. Cada corte produce 1-2 segmentos nuevos (Univ. Minnesota). En plantas viejas y congestionadas, retirar en primavera algunos de los tallos más viejos o dañados. Los trozos retirados sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: dos reposos. (1) Otoño, de mediados de septiembre hasta que se ven los botones (inducción floral). (2) Tras la floración, de finales de enero a finales de marzo (RHS). Hemisferio sur: desplazar 6 meses (inducción desde mediados de marzo; reposo posfloración de finales de julio a finales de septiembre). La floración natural de S. truncata cae en noviembre-diciembre (hemisferio norte), con posible segunda floración en febrero (NC State).",
+      "cambios": "INDUCCIÓN DE LA FLORACIÓN (convención C24 del proyecto): ≥14 h de oscuridad continua cada noche durante 6-8 semanas desde mediados de septiembre, con luz brillante de día (Clemson: ≥14 h durante al menos 6 semanas; NC State: al menos 13 h; Univ. Minnesota y UW: 12-14 h unas 6 semanas). La oscuridad debe ser total: ni lámparas, ni televisión, ni farolas, ni faros de coches; 2 h de luz intercaladas bastan para impedirla (Clemson). Alternativa o complemento: noches frescas de 13-15 °C, que inducen los botones incluso sin noches largas (Clemson, Univ. Minnesota), pero no bajar a 10 °C porque caen. Durante la inducción: riego reducido (dejar secar los primeros centímetros sin secar del todo) y sin abono (RHS, Clemson). Los botones se ven a las 3-4 semanas (Clemson); una vez formados, el fotoperiodo ya no influye. CON BOTONES: no mover la planta de sitio ni girarla, evitar corrientes y cambios de temperatura o de luz, y mantener el sustrato uniformemente húmedo; si se va a llevar a una habitación más cálida, hacerlo en cuanto aparezcan los botones (Univ. Minnesota, Clemson, Chicago Botanic Garden, RHS). En flor: 18-20 °C (RHS); a unos 20 °C la floración dura 7-8 semanas (Clemson). REPOSO POSFLORACIÓN: lugar más fresco (12-15 °C), riego reducido, sin abono, unas 6-8 semanas; en abril se vuelve al riego y abonado normales (RHS, Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F9",
+        "F11"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de segmentos de tallo",
+        "semilla (lento; solo para hibridar)"
+      ],
+      "epoca": "Mayo-junio en el hemisferio norte (Clemson, RHS); en general primavera-verano (RHS ficha).",
+      "pasos": "1) Separar por la unión un trozo del extremo de un tallo con 2-5 segmentos (RHS: un par; Clemson: 3-5). 2) Dejar secar la base 1-2 días a la sombra para que cicatrice (Clemson, RHS). 3) Plantar a unos 1-2,5 cm de profundidad, lo justo para que se sostenga (si se entierra demasiado se pudre), en sustrato que drene bien (RHS: 50:50 de sustrato de semillero/esquejes y perlita o arena; Univ. Minnesota: arena gruesa o sustrato drenante, opcional hormona de enraizamiento); varios esquejes por maceta (3 en maceta de 10 cm, 5 en una de 15 cm, Clemson). 4) Luz brillante sin sol directo y 18-27 °C (RHS: 18-24 °C; Univ. Minnesota: 21-27 °C). 5) Riego muy escaso: sustrato apenas húmedo, nunca mojado (RHS, Univ. Minnesota); Clemson propone cubrir con bolsa transparente para mantener la humedad, ventilando para evitar podredumbre. 6) Enraíza en 3-12 semanas (Clemson: 3-8; RHS: 3-12); comprobar a las 2 semanas levantando con cuidado (Univ. Minnesota). 7) Una vez enraizado, abonar diluido y trasplantar a maceta individual. Semilla: requiere polinización cruzada; las plántulas tardan 3-4 años en establecerse y no salen iguales a los padres (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz (Pythium y otros hongos) por exceso de riego, sustrato pesado o agua en el plato; la enfermedad principal de la especie y una de las causas más comunes de muerte (Clemson, Univ. Minnesota). Raíces oscuras y blandas."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Planta lacia con el sustrato mojado: exceso de agua que pudre las raíces, no sed (Univ. Minnesota). Con el sustrato seco, falta de riego. En los segmentos se nota como pérdida de tersura y caída de ramas."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo en la línea del sustrato por hongos: segmentos gris verdosos, la base se pudre, caen ramas y la planta se desploma (Univ. Minnesota). Distinguir de la base marrón y 'corchosa' firme, que es envejecimiento normal."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Pudrición blanda bacteriana: lesiones negras, húmedas y viscosas que suben desde el sustrato; o mancha de Drechslera (Helminthosporium) con lesiones negras circulares hundidas y esporas negras aterciopeladas. Destruir la planta afectada, regar al pie y lo justo (Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Segmentos arrugados o acartonados por raíces dañadas (exceso o falta de riego), o por demasiado calor o sol directo (RHS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Segmentos pálidos, amarillentos, rojizos o con quemaduras por sol directo de verano o de mediodía y por calor excesivo; no es un cactus del desierto (Clemson, NC State, RHS, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Equivalente más próximo en la lista para la CAÍDA DE BOTONES FLORALES (y a veces de segmentos): cambios de sitio, de orientación o de luz con botones formados, corrientes, cambios bruscos de temperatura (calor de día y frío de noche, transporte en frío desde la tienda), sustrato que se seca, exceso de riego o exceso de botones que la planta 'autopoda' (Clemson, Univ. Minnesota, RHS, Chicago Botanic Garden)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento escaso por maceta demasiado grande (sustrato que no se seca y raíces que no crecen) o por raíces deterioradas: comprobar el cepellón y, si hace falta, pasar a una maceta más pequeña (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las uniones entre segmentos y en la base: la plaga más citada (RHS, Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla parda o de escudo (soft brown scale) adherida a los segmentos (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y calor, típico de la calefacción invernal (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) cuando el sustrato rico en turba se mantiene demasiado húmedo (Clemson)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis) en flores y segmentos con humedad alta y poca ventilación (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Calor de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio). Nunca en ventana sur u oeste sin protección: el sol de tarde la quema y la pone amarilla; mejor ventana este o una luminosa sin sol directo, lejos del cristal caliente. Por encima de unos 32 °C sufre (Clemson): en olas de calor, el rincón más fresco de la casa, sin chorro directo del aire acondicionado. La terraza o el balcón solo si están en sombra luminosa todo el día (RHS y Univ. Minnesota la sacan en verano a sombra); en Madrid, una orientación norte o este protegida, nunca a pleno sol. El sustrato se seca mucho antes: comprobar con el dedo cada 2-3 días y regar en cuanto los 2-3 cm superiores estén secos, sin dejar agua en el plato. Agrupar con otras plantas o usar humidificador si el aire interior baja del 40 %. Proteger de babosas y caracoles si sale al exterior (RHS).",
+    "invierno": "El reto en Madrid es florecer con calefacción. (1) Inducción desde mediados de septiembre: lugar luminoso de día y totalmente oscuro ≥14 h por la noche (habitación que no se use de noche, sin farolas entrando por la ventana); el otoño madrileño suele dar noches frescas que ayudan. Puede seguir en un balcón protegido mientras las mínimas nocturnas no bajen de 13 °C; en Madrid eso suele ocurrir entre mediados de octubre y noviembre [orientativo, sin fuente prioritaria; consultar la previsión de AEMET], y entonces hay que entrarla. (2) Con botones: no moverla ni girarla; lejos de radiadores, bombas de calor y puertas que abren a la calle; la calefacción por encima de 18 °C de noche retrasa o impide la floración y los cambios bruscos tiran los botones. (3) Humedad interior a menudo <30 %: favorece la araña roja y seca los botones; humidificador o agrupar plantas, no pulverizar. (4) Cristales fríos: de noche, junto a una ventana simple, puede bajar de 10 °C y caen los botones; separarla del cristal o no dejarla atrapada entre cortina y ventana. (5) Riego: uniforme mientras haya botones y flores; reducido en el reposo de finales de enero a marzo, en una habitación fresca (12-15 °C).",
+    "ubicacion_recomendada": "Ventana este, o habitación luminosa sin sol directo de verano, en un cuarto que de noche quede a oscuras y algo fresco (13-18 °C) en otoño; maceta colgante o estante alto, lejos de radiadores y corrientes. No en un salón con lámparas encendidas por la noche de septiembre a noviembre."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) no pudo consultarse (bloqueo de seguridad de Cloudflare). GBIF da como aceptado 'Schlumbergera truncata (Haw.) Moran'. Sinónimos según NC State: Cactus truncatus, Epiphyllum truncatum y Zygocactus truncatus (de ahí el nombre comercial 'Zygocactus'). Sin cambio de nombre conocido; pendiente confirmar en POWO.",
+    "Nombres comunes ambiguos: en EE. UU. 'Christmas cactus' designa S. × buckleyi (ASPCA y Univ. Minnesota lo llaman S. bridgesii) y S. truncata es 'Thanksgiving cactus'; en España 'cactus de Navidad' y 'santa Teresita' se usan para ambas. La app debe identificar por los dientes de los segmentos y el color de las anteras, no por el nombre.",
+    "Humedad relativa: ninguna fuente prioritaria da cifras; min_pct 40 % e ideal 55 % son orientativos.",
+    "Lux: las fuentes solo dan descripciones cualitativas (sombra ligera, luz brillante filtrada, 2-6 h de sol); la conversión a 5380-10760 lux es aplicación de la escala del proyecto.",
+    "Toxicidad: ASPCA no tiene ficha propia de S. truncata (solo S. bridgesii y S. russelliana); la clasificación para la especie se apoya en NC State. Para niños solo hay una lista por nombre común (Minnesota Poison Control System).",
+    "pH: solo hay categorías (ácido a neutro); el rango numérico es orientativo.",
+    "La lista de síntomas no tiene un id para la caída de botones florales, el problema más consultado en esta especie; se ha usado S12 como equivalente más próximo. Propuesta: añadir un síntoma específico 'caída de botones o flores sin abrir'.",
+    "Fecha en que las mínimas nocturnas de Madrid bajan de 13 °C en otoño: no se ha consultado AEMET para esta ficha; el dato es orientativo."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center – HGIC 1554 Thanksgiving & Christmas Cacti",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://extension.umn.edu/houseplants/holiday-cacti",
+      "institucion": "University of Minnesota Extension – Holiday cacti",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-truncata/",
+      "institucion": "NC State Extension – Gardener Plant Toolbox, Schlumbergera truncata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/141323/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Schlumbergera truncata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/christmas-cactus/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow Christmas cactus (guía de cultivo de Schlumbergera)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/node/4757",
+      "institucion": "ASPCA Animal Poison Control Center – Christmas Cactus (Schlumbergera bridgesii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA – Toxic and Non-Toxic Plants, lista de gatos (S. bridgesii y S. russelliana; sin entrada propia para S. truncata)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://goodhuecountymn.gov/files/health_human_services/social_services/guidance_poisonous_plants_in_family_child_care_57277.pdf",
+      "institucion": "Minnesota Department of Human Services (2016) – Guidance: Poisonous Plants in Family Child Care, con la lista del Minnesota Poison Control System",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://botanicgardens.uw.edu/about/blog/2014/12/01/december-2014-plant-profile-schlumbergera/",
+      "institucion": "University of Washington Botanic Gardens – Plant Profile: Schlumbergera (S. × buckleyi y género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://plants.ces.ncsu.edu/plants/rhipsalidopsis-gaertneri/",
+      "institucion": "NC State Extension – Gardener Plant Toolbox, Rhipsalidopsis gaertneri (cactus de Pascua)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.chicagobotanic.org/plant-information/plant-finder/schlumbergera-truncata-christmas-cactus",
+      "institucion": "Chicago Botanic Garden – Plant Finder, Schlumbergera truncata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://api.gbif.org/v1/species/match?name=Schlumbergera%20truncata&kingdom=Plantae",
+      "institucion": "GBIF – Backbone Taxonomy (consulta de nombre)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://en.wikipedia.org/wiki/Schlumbergera_truncata",
+      "institucion": "Wikipedia (basado en McMillan y Horobin 1995, Anderson 2001)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://sun.gardenexplorer.org/taxon-4420.aspx",
+      "institucion": "Stellenbosch University Botanical Garden – ficha Schlumbergera truncata (distribución y estado UICN)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://henderson.ces.ncsu.edu/2024/12/christmas-or-thanksgiving-cactus",
+      "institucion": "NC State Extension, Henderson County Center – Christmas or Thanksgiving Cactus?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

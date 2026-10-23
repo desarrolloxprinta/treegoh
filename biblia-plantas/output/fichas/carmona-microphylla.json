@@ -1,0 +1,360 @@
+{
+  "nombre_cientifico": "Carmona microphylla",
+  "nombres_comunes": [
+    "carmona",
+    "té de Fukien",
+    "bonsái carmona",
+    "árbol del té de Fukien (Fukien tea)",
+    "té de Filipinas (Philippine tea)"
+  ],
+  "familia": "Boraginaceae (algunas clasificaciones la sitúan en Ehretiaceae, como NParks)",
+  "origen": "Asia tropical y subtropical hasta Australasia: sur de China (Guangdong, Hainan, sureste), Taiwán, Japón (islas Ryukyu/Nansei-shoto), Indochina, Tailandia, Myanmar, India, Sri Lanka, Malasia, Indonesia, Filipinas, Nueva Guinea y Australia (POWO, Flora of China). Introducida en Hawái, Marianas, Samoa, Trinidad y Tobago y otros lugares (POWO); en Hawái se comporta como invasora.",
+  "clima_nativo": "Tropical y subtropical; arbusto de matorrales (Flora of China) de 1-3 m, perenne o semicaducifolio en sequía (NParks), a pleno sol en su hábitat (NParks, RHS). RHS la clasifica H1C: en el Reino Unido solo se cultiva bajo cubierta o en interior (protegida del frío).",
+  "categoria": "bonsai",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Pequeñas, de 1,5-3,5 × 1-2 cm, obovadas a espatuladas, con base atenuada en un pecíolo corto (Flora of China). Coriáceas, verde oscuro brillante, ásperas al tacto. RASGO CLAVE: el haz lleva diminutos puntos blancos o pelillos blancos dispersos (Flora of China: 'adaxially white spotted'; Bonsai Empire). Margen con dientes gruesos o festoneado, sobre todo hacia el ápice, que es redondeado, agudo o algo escotado (NParks: ápice ligeramente hendido, de ahí 'retusa'). Alternas en los brotes del año y en fascículos de 3-5 sobre ramitas cortas (Flora of China, NParks).",
+    "nerviacion": "Pinnada, poco marcada: nervio central visible y pocos nervios secundarios finos; la lámina se ve compacta y lustrosa.",
+    "variegacion": "La especie es verde. No se han encontrado en fuentes prioritarias formas variegadas en el comercio.",
+    "tallo": "Muy ramificado, con ramitas finas y entrenudos cortos de 1-2 cm, algo pelosas de jóvenes (Flora of China). Corteza marrón a gris-beige que con la edad se agrieta (Flora of China; Bonsai Empire). Las ramas maduras son duras y quebradizas (Bonsai Empire). Sin savia lechosa al cortar.",
+    "habito": "Arbusto perenne muy ramificado (Flora of China), en interior siempre como bonsái en maceta baja de cerámica, a menudo con tronco curvado o en forma de escoba. Florece casi todo el año con flores blancas, pequeñas (4-6 mm), estrelladas o acampanadas, en grupos de 2-6 en las axilas (Flora of China, RHS), seguidas de drupas redondas de 3-5 mm que pasan de verde a rojo o naranja-pardo (Flora of China, NParks, RHS).",
+    "tamano_adulto_interior": "Como bonsái, habitualmente 15-50 cm de altura, mantenido por poda; en su hábitat alcanza 1-3 m (Flora of China; RHS indica 1,5-2,5 m de altura máxima).",
+    "confusiones": [
+      {
+        "especie": "Serissa japonica (serisa)",
+        "rasgo_diferenciador": "Hojas opuestas, enteras y sin dientes, más pequeñas y lisas, sin puntos blancos; flores en embudo; las ramas cortadas huelen mal. La carmona tiene hojas alternas o en fascículos, con dientes gruesos y punteado blanco en el haz."
+      },
+      {
+        "especie": "Ficus microcarpa (ficus ginseng/retusa)",
+        "rasgo_diferenciador": "Hojas mayores (2,5-7,5 cm), enteras, lisas y sin dientes; savia lechosa al cortar; base del tronco a menudo engrosada como un tubérculo. La carmona no tiene látex y sus hojas son ásperas, dentadas y con puntos blancos."
+      },
+      {
+        "especie": "Sageretia theezans (sageretia, 'té chino' de bonsái)",
+        "rasgo_diferenciador": "Hojas opuestas o casi opuestas, ovadas, con margen finamente aserrado y sin punteado blanco; corteza que se desprende en placas. La carmona tiene dientes gruesos solo hacia el ápice y punteado blanco."
+      },
+      {
+        "especie": "Ulmus parvifolia (olmo chino)",
+        "rasgo_diferenciador": "Hojas alternas pero con base asimétrica, margen aserrado regular a lo largo de todo el borde y nervios secundarios bien marcados y paralelos; sin flores blancas visibles todo el año."
+      },
+      {
+        "especie": "Buxus spp. (boj)",
+        "rasgo_diferenciador": "Hojas opuestas, enteras y sin dientes, sin pelos ni puntos blancos; tallos jóvenes cuadrangulares."
+      },
+      {
+        "especie": "Ehretia anacua (anacua)",
+        "rasgo_diferenciador": "Bonsái mucho menos frecuente; hojas bastante mayores (hasta unos 7 cm), muy ásperas como papel de lija (Phoenix Bonsai Society)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "notas": "ASPCA no incluye Carmona microphylla, Ehretia microphylla, Carmona retusa ni 'Fukien tea' en sus listas de plantas tóxicas ni no tóxicas para perros y gatos (comprobado en las listas). No se ha encontrado otra fuente prioritaria con datos de toxicidad. Las hojas se usan como infusión medicinal en Filipinas (NParks advierte que la información medicinal procede de obras de referencia y no debe usarse sin consulta médica); esto NO demuestra que sea segura para mascotas o niños. La app no debe presentarla como 'no tóxica'. Ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (915 620 420).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F10",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a la ventana más luminosa: sur o este (MBG para bonsáis de interior); RHS acepta orientación este, sur u oeste en lugar abrigado. A menos de 1 m del cristal; a 2-3 m de la ventana la luz cae por debajo de lo que necesita.",
+      "tolera_sol_directo": "Sí, y lo agradece aclimatado: la RHS la sitúa a pleno sol y NParks también en su hábitat. En interior, sol directo de mañana y sol de invierno sin problema. Evitar el sol fuerte de mediodía y tarde de verano tras el cristal en ventanas sur y oeste, sobre todo si se ha movido de golpe desde un sitio más sombrío (las fuentes complementarias aconsejan protegerla del sol de las horas centrales).",
+      "notas": "Necesita mucha luz: es una de las especies de bonsái de interior más exigentes en este sentido (RHS: bonsáis de interior requieren mucha luz; Universidad de Michigan: la luz es el principal problema del bonsái de interior y a menudo hace falta luz artificial). En invierno, o lejos de la ventana, añadir una lámpara de cultivo LED a 15-30 cm por encima de la copa (Universidad de Michigan). Rango en lux [orientativo, sin fuente prioritaria]: mitad alta de la luz brillante indirecta de la escala del proyecto (500-1000 fc), con algunas horas de sol directo suave. La falta de luz da brotes largos, hojas grandes y caída de hojas. Es muy sensible a cambios bruscos de luz y de sitio (Phoenix Bonsai Society): elegir un sitio definitivo y no moverla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F8",
+        "F9",
+        "F12"
+      ]
+    },
+    "riego": {
+      "criterio": "Revisar a diario, con el dedo o un palillo de madera, y sopesar la maceta (NYBG, Universidad de Michigan: comprobar cada día y regar solo cuando haga falta; nunca por calendario). En maceta de bonsái poco profunda, regar cuando la superficie y los 1-2 cm superiores estén secos al tacto y la maceta pese claramente menos; no esperar a que se seque la mitad del sustrato, porque la carmona no tolera que el cepellón se seque del todo (Bonsai Empire, Phoenix Bonsai Society). Regar despacio con una regadera de alcachofa fina hasta que salga agua por los agujeros, esperar un par de minutos y repetir (RHS, MBG, NYBG), o sumergir la maceta en un barreño hasta que dejen de salir burbujas y sacarla a escurrir (NYBG). Vaciar el plato: nunca debe quedar en agua. El exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "Las macetas de bonsái se secan muy deprisa: en primavera, verano y otoño a menudo hace falta regar a diario y, en días de calor, dos veces (MBG, NYBG). Aun así, es la condición la que manda: comprobar cada día y regar solo si la capa superior está seca. Si el agua resbala sin empapar porque el sustrato se ha encogido y separado del borde, sumergir la maceta para rehidratarlo (MBG).",
+      "otono_invierno": "Reducir el riego cuando el crecimiento se frena (MBG): dejar secar un poco más la capa superior, pero sin que el cepellón llegue a secarse por completo (Phoenix Bonsai Society: reducir solo ligeramente en invierno). Con calefacción el sustrato se sigue secando rápido; comprobar igualmente cada día o cada dos días. Agua a temperatura ambiente.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid apta: es blanda (10-47 mg/L CaCO3) y con flúor <0,1 mg/L; dejarla reposar no elimina la cloramina, pero no es necesario. La RHS prefiere agua de lluvia en bonsáis para reducir la acumulación de minerales; Bonsai Empire avisa de clorosis con aguas duras, algo poco probable con el agua de Madrid pero posible en zonas de agua dura. Regar a fondo hasta que drene lava las sales de abono, que en sustratos tan pequeños se acumulan y queman raíces.",
+      "notas": "Planta sensible a los dos extremos: se le caen las hojas tanto por sequía como por exceso de agua, y el encharcamiento amarillea las hojas (Phoenix Bonsai Society). Maceta siempre con agujeros de drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F11",
+        "F12"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Los bonsáis de interior tropicales necesitan humedad ambiental relativamente alta (RHS) y se benefician de ella; algunas especies la toleran peor que el ficus (Universidad de Michigan). Ninguna fuente prioritaria da cifras para esta especie. Con aire seco (calefacción o verano madrileño) aparecen la araña roja y la caída de hojas. Medidas útiles: humidificador o agrupar plantas, y una bandeja ancha con grava húmeda bajo la maceta sin que el fondo toque el agua (Universidad de Michigan, Bonsai Empire). Pulverizar las hojas no sube la humedad de forma útil (convención del proyecto; algunas fuentes lo recomiendan, ver lagunas).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F8",
+        "F11"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 24,
+      "notas": "Mínima: la Universidad de Michigan indica meter los bonsáis tropicales en interior cuando las noches bajan a 13 °C (55 °F) o menos; la RHS la clasifica H1C (mínima de unos 5-10 °C, solo bajo cubierta). Se adopta la más conservadora, 13 °C. Fuentes complementarias: prefiere 15,5-22 °C en invierno, tolera bajadas ocasionales puntuales, muere con heladas incluso leves o con corrientes frías (Phoenix Bonsai Society); crece bien en torno a 20 °C (Bonsai Empire). Rango ideal 16-24 °C [orientativo, sin fuente prioritaria]. Máxima: sin dato de fuente prioritaria; las complementarias piden protegerla del calor extremo. Muy sensible a cambios bruscos de temperatura y corrientes: lejos de radiadores, salidas de aire acondicionado y ventanas que se abren en invierno (Universidad de Michigan, Phoenix Bonsai Society).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F8",
+        "F11",
+        "F12"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de bonsái ligeramente ácido y que drene bien (RHS). Mezcla casera según la RHS: compost sin turba + arena gruesa o grava + John Innes nº 3 sin turba + abono de liberación lenta. MBG: suelo bien drenado con arena tamizada. Bonsai Empire propone akadama con algo de materia orgánica y pómez: debe drenar bien y a la vez retener algo de humedad, porque la carmona no soporta ni la sequía ni el encharcamiento.",
+      "ph": "Ligeramente ácido (RHS). Sin cifra concreta en fuentes prioritarias.",
+      "drenaje": "Imprescindible: maceta de bonsái con agujeros de drenaje, a menudo con malla; nunca dejar el plato con agua. Usar grava sin cal si se busca mantener el pH ácido (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F11"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono equilibrado: líquido soluble (MBG, RHS) o de liberación lenta añadido al trasplantar (RHS, MBG). Bonsai Empire sugiere abono orgánico sólido por sus raíces sensibles.",
+      "npk": "Equilibrado, por ejemplo 20-20-20 (MBG).",
+      "primavera_verano": "Con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (convención del proyecto). La RHS propone dosis baja cada dos semanas en temporada; equivale aproximadamente a la misma cantidad total. Si se usó abono de liberación lenta al trasplantar, no añadir líquido hasta que se agote (RHS). Aplicar siempre sobre sustrato ya húmedo, nunca seco, para no quemar raíces (Bonsai Empire, Phoenix Bonsai Society).",
+      "otono_invierno": "Nada mientras no haya crecimiento activo (MBG: reducir el abono cuando el crecimiento se frena; convención del proyecto: nada en reposo).",
+      "notas": "No tolera el exceso de abono: la RHS advierte de que sobrealimentar un bonsái da crecimiento excesivo y propenso a plagas y enfermedades, y la Phoenix Bonsai Society indica que esta especie no soporta la sobrefertilización.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F11",
+        "F12"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS para bonsáis; MBG; Bonsai Empire: cada 2 años; Phoenix Bonsai Society: cada 2-3 años).",
+      "epoca": "Primavera, justo antes de que empiece el crecimiento activo (MBG, RHS); en Madrid, marzo-abril. Evitar trasplantes en pleno verano o invierno.",
+      "senales": "Raíces que llenan la maceta y salen por los agujeros de drenaje, agua que tarda en empapar o se escurre sin mojar el cepellón, sustrato compactado o degradado.",
+      "notas": "Al trasplantar se poda parte de las raíces gruesas y se conservan el máximo de raicillas finas (MBG, RHS); en la carmona hacerlo con suavidad porque sus raíces son sensibles (Bonsai Empire) y las gruesas son más quebradizas de lo que parecen (Phoenix Bonsai Society). Después, colocarla en su sitio habitual, sin sol fuerte y regar con cuidado mientras enraíza.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F11",
+        "F12"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. Poda y pinzado regulares para mantener la forma y una copa densa (RHS: podar con regularidad para favorecer el crecimiento denso; MBG: la poda periódica es imprescindible para mantener el bonsái pequeño).",
+      "epoca": "Durante toda la temporada de crecimiento (primavera a otoño), cuando los brotes nuevos se alargan (MBG, RHS). Las intervenciones grandes, en primavera.",
+      "como": "Dejar crecer cada brote hasta 6-8 hojas y recortarlo a 2-3 hojas (Phoenix Bonsai Society). Retirar gran parte del crecimiento vigoroso en primavera y periódicamente en temporada, pero dejando siempre hojas suficientes para mantener el vigor (MBG). Los brotes jóvenes son tiernos y flexibles; las ramas maduras son duras y quebradizas: usar herramientas afiladas y limpias, y alambrar con mucho cuidado y no más de unos 3 meses (Bonsai Empire, Phoenix Bonsai Society). Sellar los cortes grandes con pasta cicatrizante, ya que por heridas frescas pueden entrar hongos (Bonsai Empire). La poda de hojas no suele ser necesaria por su tamaño pequeño.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F11",
+        "F12"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo invernal verdadero: es perenne y puede florecer todo el año (RHS). En invierno, con menos luz, ralentiza el crecimiento: reducir riego y suspender el abono mientras no crezca (MBG). Si se cultiva con lámpara y sigue creciendo, mantener el criterio de riego por humedad del sustrato.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso o de madera tierna",
+        "semilla"
+      ],
+      "epoca": "Verano (RHS); primavera-verano según la Phoenix Bonsai Society.",
+      "pasos": "Esqueje: 1) Cortar en verano un brote del año de 8-10 cm con herramienta limpia. 2) Quitar las hojas de la mitad inferior. 3) Plantarlo en una mezcla ligera y bien drenada (turba o fibra de coco con arena o perlita). 4) Mantener húmedo, con luz brillante sin sol directo y humedad alta (cubierta transparente ventilada a diario). 5) El calor de fondo favorece el enraizado (Phoenix Bonsai Society). 6) Trasplantar cuando aparezcan brotes nuevos y raíces. Semilla: sembrar las semillas de los frutos rojos maduros, limpias de pulpa, en verano (RHS). Detalles de longitud del esqueje y sustrato [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F12",
+        "F11"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy típico: tras la compra, un cambio de sitio, de luz o de temperatura, o al pasar de exterior a interior, deja caer muchas hojas (Universidad de Michigan; Phoenix Bonsai Society). No moverla, darle mucha luz y no regar de más mientras tenga pocas hojas, porque sin hojas consume menos agua y las raíces se pudren (Universidad de Michigan)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, plaga principal de esta especie (RHS; Phoenix Bonsai Society: la prefiere a cualquier otra planta). Favorecida por aire seco y calefacción. Hojas con punteado pálido y telilla fina."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento por araña roja en fase inicial, antes de que se vea la telaraña (RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en tallos y envés, favorecidas por poca ventilación (RHS; Universidad de Michigan; Phoenix Bonsai Society). Se retiran a mano con un bastoncillo."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca de invernadero (RHS; Bonsai Empire), sobre todo con poca luz y aire estancado."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (Universidad de Michigan; Phoenix Bonsai Society)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y ramas (Universidad de Michigan; Phoenix Bonsai Society)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de pulgón o cochinillas; puede ir seguida de negrilla (Universidad de Michigan)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato encharcado: hojas amarillentas y enfermizas (Phoenix Bonsai Society)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por sustrato siempre mojado, plato con agua o riego excesivo tras una caída de hojas (Universidad de Michigan; Bonsai Empire)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Cepellón seco por completo: en maceta de bonsái ocurre en un solo día de calor (MBG); después cae la hoja (Phoenix Bonsai Society)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: lejos de la ventana o en invierno sin lámpara; brotes largos y débiles y hojas más grandes y pálidas (RHS; Universidad de Michigan)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis férrica por riego con agua dura o sustrato alcalino (Bonsai Empire); poco probable con el agua blanda de Madrid."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, el sustrato de la maceta baja se seca en horas: comprobar por la mañana y por la tarde y regar a fondo cuando la superficie esté seca; nunca dejar el plato con agua. Proteger del sol directo de mediodía y tarde tras el cristal en ventanas sur y oeste (cortina fina o separarla un poco del vidrio), manteniéndola muy luminosa. Lejos de la salida del aire acondicionado (Universidad de Michigan). Puede pasar el verano en un balcón resguardado con sol de mañana cuando las noches superen 13 °C de forma estable (normalmente de finales de mayo a finales de septiembre), pero el paso debe ser gradual, en una o dos semanas, y después no cambiarla de sitio: es muy sensible a los cambios y responde perdiendo hojas. Vigilar la araña roja, muy favorecida por el calor seco.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: usar humidificador o agrupar plantas y apartarla de radiadores, que además resecan el cepellón. Mantenerla por encima de 13 °C también de noche y lejos del cristal frío (no tocar el vidrio) y de las corrientes al ventilar. Es la época de menos luz: ventana sur o este a menos de 1 m y, si se alargan los brotes o caen hojas, lámpara LED de cultivo a 15-30 cm sobre la copa unas 12 h al día [duración orientativa, sin fuente prioritaria]. Reducir algo el riego sin dejar que se seque del todo y no abonar si no crece. Revisar el envés con frecuencia: araña roja y cochinillas proliferan con aire seco.",
+    "ubicacion_recomendada": "Interior, en el lugar más luminoso de la casa: junto a una ventana sur o este (sur con cortina fina en verano), a menos de 1 m del cristal, lejos de radiadores y aire acondicionado, en un sitio fijo donde no haya que moverla. Opcional en verano: balcón o terraza resguardados con sol de mañana y sombra a mediodía, con traslado gradual."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) no acepta Carmona microphylla (Lam.) G.Don: la trata como sinónimo homotípico de Ehretia microphylla Lam. (1783), y también Carmona retusa (Vahl) Masam., Carmona heterophylla Cav., Ehretia buxifolia Roxb. y Cordia retusa Vahl como sinónimos. Flora of China (1995) aceptaba Carmona microphylla y señalaba que Flora of Java la incluye en C. retusa. La RHS mantiene Carmona retusa como nombre correcto, con C. microphylla como sinónimo. Se conserva Carmona microphylla como nombre de la ficha por la lista maestra; la app debe reconocer los tres nombres.",
+    "Toxicidad: ASPCA no tiene ficha de la especie ni de sus sinónimos y no se ha encontrado otra fuente prioritaria (NC State, RHS, UC ANR, Clemson) con datos; queda como desconocida para perros, gatos y niños.",
+    "No existe ficha de cultivo de un servicio de extensión agraria para esta especie: los datos de riego, abono, trasplante y poda proceden de guías generales de bonsái de interior de jardines botánicos (RHS, MBG, NYBG, Universidad de Michigan) y de la ficha del género de la RHS; los matices específicos de la especie (no dejar secar del todo, sensibilidad a cambios, poda a 6-8 hojas) solo están en fuentes complementarias.",
+    "Humedad relativa: ninguna fuente prioritaria da cifras; min_pct e ideal_pct quedan en null.",
+    "Temperatura máxima e ideal: sin cifra en fuentes prioritarias; max_c en null y rango ideal orientativo.",
+    "Luz en lux: ninguna fuente prioritaria da cifras; la Phoenix Bonsai Society cita 1000 lux, valor que parece bajo frente a 'pleno sol' de la RHS y no se adopta.",
+    "pH del sustrato: la RHS indica 'ácido/ligeramente ácido' sin cifra.",
+    "Sensibilidad a insecticidas: la Phoenix Bonsai Society (complementaria) indica que la especie es muy sensible a insecticidas y que los jabones insecticidas pueden defoliarla; no se ha confirmado en fuentes prioritarias. Por precaución, probar cualquier producto autorizado en una rama antes de tratar toda la planta.",
+    "La Universidad de Michigan y la NYBG recomiendan pulverizar el follaje para dar humedad; no se adopta porque contradice la convención del proyecto (pulverizar no sube la humedad de forma útil)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:116079-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200018948",
+      "institucion": "Flora of China vol. 16: 337 (1995), eFloras (Missouri Botanical Garden / Harvard University Herbaria)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/207663/carmona/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha del género Carmona",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/207665/carmona-retusa/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha Carmona retusa (sinónimos C. microphylla, C. heterophylla)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/types/trees/bonsai",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo 'Bonsai' (incluye bonsái de interior)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/950/how-do-i-care-for-a-bonsai-plant",
+      "institucion": "Missouri Botanical Garden, Gardening Help FAQ 'How do I care for a bonsai plant?'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://libanswers.nybg.org/faq/223000",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service (riego de bonsáis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://mbgna.umich.edu/node/791",
+      "institucion": "Matthaei Botanical Gardens & Nichols Arboretum, Universidad de Michigan, 'Horticulture at Home: Growing Bonsai Inside'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/1/7/1784",
+      "institucion": "National Parks Board de Singapur (NParks, gestor del Singapore Botanic Gardens), Flora & Fauna Web: Ehretia microphylla",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center, listas de plantas tóxicas y no tóxicas (gatos y perros)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.bonsaiempire.com/tree-species/carmona",
+      "institucion": "Bonsai Empire (portal especializado en bonsái)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://phoenixbonsai.com/?p=4857",
+      "institucion": "Phoenix Bonsai Society (club de bonsái; ficha recopilada de bibliografía de bonsái)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

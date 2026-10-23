@@ -1,0 +1,337 @@
+{
+  "nombre_cientifico": "Alocasia zebrina",
+  "nombres_comunes": [
+    "alocasia zebrina",
+    "alocasia cebra",
+    "oreja de elefante cebra",
+    "planta cebra (nombre ambiguo, compartido con otras especies)",
+    "Alocasia 'Tigrina' (nombre comercial no válido)"
+  ],
+  "familia": "Araceae",
+  "origen": "Endémica de Filipinas (POWO, Kew). Según Wikipedia (que resume a Hay 1999), vive en las islas de Luzón, Mindanao, Leyte, Samar, Biliran y Alabat; en tagalo se llama 'gabing tigre' (taro tigre). Está incluida en la lista nacional de especies amenazadas de Filipinas y está prohibido recolectarla en la naturaleza (Wikipedia, citando a Medecilo y Madulid 2013; Briones y Cuevas 2013 la describen como especie filipina en peligro). Las plantas del comercio europeo proceden de vivero (cultivo in vitro o división); conviene comprar solo a viveros, nunca ejemplares de origen silvestre.",
+  "clima_nativo": "Tropical húmedo de Filipinas, sin heladas y con calor todo el año. Crece en el sotobosque de bosque secundario: en el monte Makiling (Luzón) se estudió en un bosque dominado por Swietenia macrophylla con palmeras, con grandes claros en el dosel por donde entra luz intensa hasta el suelo; el número de hojas maduras aumenta con las horas de sol mensuales (Briones y Cuevas 2013). Es decir, planta de sombra luminosa con manchas de sol filtrado, no de sombra densa.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas en forma de punta de flecha (sagitadas), con dos lóbulos basales triangulares a ovados, de color verde oscuro uniforme, brillantes y de textura algo coriácea (RHS; Wikipedia, según Hay 1999). Las hojas se mantienen erguidas o algo inclinadas al final de pecíolos muy largos. En su hábitat la lámina mide 45-100 cm (Wikipedia); en interior suele quedarse en 20-45 cm [orientativo, sin fuente prioritaria]. Rasgo clave para visión: la lámina es lisa y de un solo verde, sin nervios blancos ni plateados que contrasten, y todo el interés está en el pecíolo.",
+    "nerviacion": "Pinnada, de tipo broquidódromo (UF/IFAS, para el género): nervio central y nervios laterales visibles en relieve pero del mismo tono verde que la lámina o apenas más claros; no forman un dibujo blanco como en Alocasia × amazonica.",
+    "variegacion": "La lámina no está variegada. El rasgo diagnóstico es el pecíolo: verde pálido a crema con rayas transversales o bandas irregulares verde oscuro, pardas o negras, como la piel de una cebra o un tigre (RHS: 'tallo con rayas blancas y negras'; Wikipedia: 'verde pálido con rayas verde oscuro a marrones'). Existen formas variegadas del comercio (p. ej. 'Variegata', con manchas crema en la hoja) que son selecciones aparte y más delicadas [orientativo, sin fuente prioritaria].",
+    "tallo": "Rizoma o tallo corto y carnoso, en gran parte bajo el sustrato, del que salen directamente los pecíolos largos y rayados (RHS: perenne rizomatosa). Produce cormelos (pequeños bulbillos) y a veces hijuelos alrededor de la base (Wikipedia; RHS para el género). Hojas nuevas protegidas por catafilos (vainas) en la base (Wikipedia).",
+    "habito": "Herbácea perenne, rizomatosa, en mata erguida, de hoja persistente en buenas condiciones (RHS: 'evergreen', porte 'bushy'), pero que pierde hojas con frecuencia y puede quedarse casi sin follaje en invierno durante el reposo, para rebrotar en primavera desde el rizoma o los cormelos (RHS ficha de especie y guía del género).",
+    "tamano_adulto_interior": "0,5-1 m de alto y 0,5-1 m de ancho en interior o invernadero; tarda 2-5 años en alcanzarlo (RHS). En su hábitat llega a unos 1,8 m, excepcionalmente 2,9 m (Wikipedia).",
+    "confusiones": [
+      {
+        "especie": "Alocasia 'Sarian' (híbrido comercial)",
+        "rasgo_diferenciador": "También tiene pecíolos moteados o rayados, pero la hoja es más alargada y lleva nervios blancos o verde lima muy marcados (RHS: 'follaje en flecha de nervio muy marcado'); A. zebrina tiene la lámina verde lisa sin nervios contrastados."
+      },
+      {
+        "especie": "Alocasia × amazonica / A. × mortfontanensis ('Polly')",
+        "rasgo_diferenciador": "Lámina casi negra con nervios blanco-plateados y margen festoneado (UF/IFAS, RHS); pecíolos lisos, verdes o rosados, sin rayas de cebra."
+      },
+      {
+        "especie": "Alocasia lauterbachiana",
+        "rasgo_diferenciador": "Hojas largas, estrechas, en forma de lanza y de borde ondulado (RHS), con pecíolos lisos de tono rojizo-purpúreo; no tiene el pecíolo rayado ni los lóbulos basales anchos de A. zebrina."
+      },
+      {
+        "especie": "Alocasia macrorrhizos y Alocasia odora",
+        "rasgo_diferenciador": "Plantas mucho mayores (hasta 1,5 m o más en interior, RHS) con hojas anchas, acorazonadas o en escudo, verde medio brillante, y pecíolos verdes lisos, sin rayas (UF/IFAS)."
+      },
+      {
+        "especie": "Colocasia esculenta (taro)",
+        "rasgo_diferenciador": "Hoja peltada (el pecíolo se inserta en el envés, cerca del centro) y mate, orientada hacia fuera o hacia abajo (Wisconsin); la alocasia zebrina tiene la hoja brillante, no peltada, con el pecíolo unido en la escotadura basal, y pecíolos rayados."
+      },
+      {
+        "especie": "Alocasia zebrina 'Reticulata' y 'Black Stem' (cultivares de la misma especie)",
+        "rasgo_diferenciador": "'Reticulata' tiene nervios claros en red sobre la lámina y 'Black Stem' pecíolos casi negros; ambos conservan la forma de hoja de la especie. La app debe tratarlos como la misma especie a efectos de cuidados [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios en forma de aguja) en todas las partes de la planta; la savia irrita piel y ojos (ASPCA, LSU y UF/IFAS para el género Alocasia; RHS para la especie: 'tóxica si se ingiere; irritante para piel y ojos').",
+    "sintomas": "En perros y gatos: irritación oral, dolor e hinchazón de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA, LSU). En personas, sobre todo niños: ardor y dolor de boca y garganta, hinchazón y molestias digestivas si se mastica; dermatitis de contacto e irritación ocular por la savia (UF/IFAS, RHS). Manipular con guantes al podar, dividir o trasplantar (RHS). Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F5",
+      "F6",
+      "F3"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS indica orientación este u oeste y exposición resguardada). En ventana sur, a 1-2 m del cristal o tras una cortina fina. En ventana norte sobrevive pero crece muy despacio, los pecíolos se alargan y se inclinan.",
+      "tolera_sol_directo": "No a pleno sol en interior: el sol fuerte quema la hoja (RHS, guía del género). Tolera bien el sol suave de primera hora de la mañana o la luz moteada.",
+      "notas": "La ficha de especie de RHS pide luz brillante e indirecta en su apartado de cultivo, aunque su casilla de 'posición' marca 'pleno sol y semisombra' (dato genérico del buscador de plantas). Se adopta la opción conservadora: luz brillante indirecta sin sol directo de mediodía ni de tarde. Los lux corresponden a la franja 'brillante indirecta' de la escala del proyecto (500-1000 fc); ninguna fuente prioritaria da cifras para esta especie. En su hábitat la luz es determinante: las plantas con más horas de sol filtrado tienen más hojas maduras y completan antes su ciclo (Briones y Cuevas 2013), así que con poca luz no prospera aunque sobreviva. Girar la maceta un poco en cada riego para que no se incline (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 5 cm superiores del sustrato estén secos al tacto (RHS, guía del género) y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Es más estricto que el criterio general del proyecto (2-3 cm) porque la especie es muy propensa a pudrir rizoma y raíces.",
+      "primavera_verano": "Con crecimiento activo (aprox. abril-octubre) RHS pide 'regar abundantemente': mantener el sustrato ligeramente húmedo, nunca encharcado, regando cada vez que se sequen los 5 cm superiores. Si el sustrato se seca muy rápido tras regar, la planta necesita una maceta algo mayor (RHS).",
+      "otono_invierno": "Reducir el riego al mínimo en invierno (RHS, ficha de especie): dejar secar casi todo el cepellón y dar solo pequeñas cantidades para que el rizoma no se deshidrate. Si está en reposo sin hojas, regar muy poco, apenas para que el sustrato no quede polvoriento. Si sigue sacando hojas en un piso cálido (>18 °C), aplicar el mismo criterio de 5 cm y peso; se secará más despacio.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda; la cloramina no se elimina dejándola reposar y no causa puntas marrones). Usar agua a temperatura ambiente. Lavar el sustrato con abundante agua cada pocos meses si se abona, porque el género tolera mal las sales (UF/IFAS).",
+      "notas": "Datos de especie solo en RHS (F1); el criterio de 5 cm y el riesgo de pudrición por exceso de riego, sobre todo en reposo, proceden de la guía del género (RHS F2). UF/IFAS indica que muchas Alocasia de jardín toleran suelos encharcados, pero eso no es aplicable a A. zebrina en maceta e interior, donde el exceso de riego es la causa principal de pudrición: confianza Media por depender en parte de fuentes del género.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS (ficha de especie) pide 'humedad alta'; la guía del género (RHS) y Wisconsin, humedad media a alta o alta. Ninguna fuente prioritaria da porcentajes: se dejan en null. Las cifras de blogs (>60 %) no están verificadas. El aire seco causa bordes marrones y favorece la araña roja (RHS, guía del género), plaga a la que esta especie es muy sensible. Según la convención del proyecto, pulverizar no sube la humedad de forma útil (aunque RHS lo sugiere): usar humidificador, agrupar plantas o una bandeja con grava húmeda sin que la maceta toque el agua (RHS). Un baño luminoso con ventana es buena ubicación (RHS). Lejos de radiadores y del aire acondicionado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": null,
+      "notas": "RHS (ficha de especie): mantener por encima de 15 °C en invierno (clasificación de rusticidad H1A: bajo cristal todo el año, >15 °C). RHS (guía del género): por encima de 16 °C durante la temporada de crecimiento y nunca por debajo de 10 °C en reposo. Wisconsin (género): las plantas se resienten con temperaturas prolongadas por debajo de 10 °C. Se adopta como mínimo 15 °C, el valor más alto y específico de la especie. Evitar corrientes frías y el transporte en frío tras la compra (RHS). Ninguna fuente prioritaria da máximos: max_c e ideal_max_c en null. Confianza Media porque el dato de especie procede de una sola institución (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior sin turba con grava hortícola añadida (RHS, ficha de especie): 3 partes de sustrato + 1 parte de grava o árido grueso (RHS, guía del género). Alternativa equivalente: sustrato de interior con un 25-30 % de perlita o corteza fina [orientativo, sin fuente prioritaria]. Plantar con la parte superior del cepellón o rizoma justo bajo la superficie, sin enterrar la base de los pecíolos (RHS). Maceta con agujeros de drenaje.",
+      "ph": "Ácido a neutro (RHS, ficha de especie); el género tolera suelos ácidos (UF/IFAS). Aproximadamente 5,5-7,0 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: húmedo pero bien drenado (RHS, ficha de especie). Sin plato con agua ni cubremacetas que retenga agua.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de follaje, diluido en el agua de riego.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras saque hojas nuevas (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada durante el reposo ni cuando no crece. Reanudar al aparecer la primera hoja nueva en primavera.",
+      "notas": "Contradicción de frecuencia: RHS (ficha de especie) recomienda abono líquido general cada 2-3 semanas de primavera a otoño; RHS (guía del género) remite a la dosis y frecuencia de la etiqueta de abril a octubre; Illinois y Wisconsin consideran el género muy exigente (abonar cada dos semanas, Illinois). Se adopta la opción más conservadora, la convención del proyecto (mensual, ¼-½ de dosis), porque el género tolera mal las sales (UF/IFAS) y en maceta el exceso de abono acumula sales que queman bordes y puntas. Ninguna fuente prioritaria da fórmula NPK.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F11",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Puede quedarse en su maceta original el primer año; después, cada 2 años aproximadamente (RHS, guía del género). Subir solo unos 5 cm de diámetro cada vez para no pasarse de maceta (RHS).",
+      "epoca": "Primavera, al reanudar el crecimiento (marzo-mayo en Madrid). Nunca en pleno reposo invernal.",
+      "senales": "Raíces que salen por el drenaje o rodean el cepellón, sustrato que se seca muy rápido tras regar (RHS), cormelos o hijuelos que llenan la maceta, planta inestable. Aprovechar para revisar el rizoma y retirar partes blandas, negras o malolientes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS, ficha de especie y guía del género), solo retirar hojas viejas, amarillas o secas.",
+      "epoca": "En cualquier momento, cuando una hoja amarillea por completo o se seca.",
+      "como": "Cortar el pecíolo de la hoja marchita en su base con tijera limpia (RHS; Wisconsin para el género). Usar guantes: la savia irrita piel y ojos. Es normal que pierda hojas a menudo: cada hoja nueva suele sustituir a una vieja (RHS, ficha de especie).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aprox. noviembre-marzo; en Madrid, cuando bajan la luz y la temperatura interior). En hemisferio sur, aprox. mayo-septiembre.",
+      "cambios": "Con menos luz y temperaturas más bajas frena o detiene el crecimiento y puede perder parte o casi todas las hojas: es normal y no significa que haya muerto (RHS, ficha de especie: 'suele perder hojas, lo que es perfectamente normal'; guía del género: el reposo invernal con pérdida de follaje no es motivo de preocupación). Durante el reposo: mantener por encima de 15 °C (RHS, ficha de especie), con buena luz, riego al mínimo, sin abono y sin trasplantar (RHS; Wisconsin: mantener más seca en semirreposo y reanudar riego y abono cuando vuelva a crecer). Antes de tirar una planta sin hojas, comprobar el rizoma: firme y duro = vivo; blando y maloliente = podrido. Puede rebrotar también desde los cormelos. Si el piso es cálido y luminoso, puede seguir creciendo despacio sin perder hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división del rizoma o de la mata",
+        "separación de hijuelos (offsets)",
+        "cormelos o bulbillos de la base",
+        "semilla (rara en interior)"
+      ],
+      "epoca": "Primavera o verano para la división (RHS, ficha de especie); hijuelos en primavera y división del rizoma a finales de primavera-principios de verano (RHS, guía del género).",
+      "pasos": "1) Con guantes, sacar la planta de la maceta y localizar hijuelos y cormelos alrededor de la base. 2) Separar cada hijuelo con un cuchillo limpio, llevándose el máximo de raíz posible (RHS). 3) Plantarlo en maceta pequeña con sustrato sin turba y grava (3:1). 4) Mantenerlo en calor (>18 °C [orientativo, sin fuente prioritaria]), buena luz indirecta y sustrato apenas húmedo hasta que saque hoja nueva. 5) Para dividir el rizoma: cortarlo en trozos con al menos una yema y plantarlos en las mismas condiciones; brotarán con calor y buena luz (RHS). 6) Los cormelos se semientierran en sustrato húmedo, no mojado, con calor; tardan semanas en brotar (Wikipedia; Wisconsin para el género). La semilla, si se forma, se siembra fresca a unos 23 °C (RHS). RHS menciona también esquejes de tallo en primavera, pero en la práctica la especie no se propaga por esqueje de hoja ni de pecíolo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F10"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja de invernadero (Tetranychus urticae): RHS la cita expresamente como plaga de esta especie y el aire seco la favorece (RHS, guía del género). Es la plaga más frecuente en pisos con calefacción o en el verano seco de Madrid. Revisar el envés cada 1-2 semanas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado del haz por la alimentación de la araña roja; suele preceder a la telaraña visible."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las axilas de los pecíolos, la base y el envés (RHS, ficha de especie)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato compacto, sobre todo en invierno durante el reposo (RHS, guía del género)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Rizoma o base de los pecíolos blanda, oscura y maloliente por riego excesivo con frío; aislar, retirar la parte podrida y recuperar cormelos o hijuelos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Renovación normal (cada hoja nueva sustituye a una vieja, RHS) o entrada en reposo invernal. Solo preocupa si es masivo en primavera-verano: revisar entonces riego y raíces."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Pecíolos que se doblan o caen por exceso de riego con raíces dañadas, por sequía puntual, por frío y corrientes (RHS) o por falta de luz (pecíolos largos y blandos que se inclinan hacia la ventana)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por humedad ambiental baja (RHS, guía del género), riego irregular o sales de abono acumuladas. No atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras por sol fuerte a través del cristal (RHS), habituales en ventanas sur u oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras la compra, el transporte en frío o un cambio brusco de ubicación; RHS advierte que el frío durante el transporte puede dañarla o matarla."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sin hojas nuevas en primavera-verano por luz insuficiente, temperatura por debajo de 16 °C o raíces dañadas. En invierno la parada es normal (reposo)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el riesgo principal es la araña roja: revisar el envés cada semana y subir la humedad con humidificador o agrupando plantas. Retirar de ventanas sur y oeste sin protección (el sol fuerte quema la hoja): a 1-2 m del cristal o tras cortina fina. El sustrato se seca deprisa: comprobar con el dedo (5 cm) y el peso cada 2-4 días, sin regar por calendario y sin dejar agua en el plato. No ponerla frente a la salida del aire acondicionado. Si se saca a terraza, solo en sombra luminosa, resguardada del viento (rompe las hojas, UF/IFAS), y con noches por encima de 15 °C.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: época de máximo riesgo de araña roja y bordes secos; usar humidificador y alejar de radiadores. Separar de los cristales fríos (por la noche pueden bajar de 15 °C junto a la ventana) y de corrientes de puertas y ventanas. Mantener siempre por encima de 15 °C. Es normal que entre en reposo y pierda hojas, incluso casi todas: reducir mucho el riego, no abonar ni trasplantar y no tirarla si el rizoma está firme. Si el piso está a 20-22 °C y bien iluminado puede seguir creciendo: regar solo con el sustrato seco a 5 cm.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana este u oeste (con cortina en verano en la oeste), o a 1-2 m de una ventana sur con cortina fina; un baño luminoso con ventana es buena opción por la humedad. Lejos de radiadores, aire acondicionado y corrientes, y fuera del alcance de perros, gatos y niños por su toxicidad."
+  },
+  "lagunas": [
+    "Nombre y autoría: POWO (Kew) acepta Alocasia zebrina G.W.Johnson & R.Hogg (nativa de Filipinas) y trata Alocasia liervalii Hérincq como sinónimo tentativo; IPNI y Wikipedia atribuyen el nombre a Schott ex Van Houtte o a Veitch ex J.Dix (1862). Se usa 'Alocasia zebrina' sin autor, como en lista-maestra.csv; no hay cambio de nombre. Wikipedia incluye además A. wenzelii Merr. como sinónimo (según Hay 1999), no comprobado en POWO. 'Alocasia tigrina' es un nombre comercial no válido (solo foros).",
+    "Información de cultivo específica de la especie: solo la ficha de RHS (F1); NC State, Missouri Botanical Garden, UF/IFAS, Clemson y Wisconsin no tienen ficha de A. zebrina. Riego, temperatura ideal, trasplante, sustrato y propagación se completan con fuentes del género Alocasia (RHS guía, UF/IFAS, Wisconsin, Illinois), indicado en cada bloque.",
+    "Monografía de Hay (1999, Gardens' Bulletin Singapore 51: 1-41) y revisión de Medecilo y Madulid (2013, Philippine Journal of Science): no se pudo abrir el texto (BHL bloqueado); los datos morfológicos de hábitat (lámina 45-100 cm, pecíolo ~1,1 m, altura 1,8-2,9 m) proceden de Wikipedia, que los cita.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes (solo 'alta'); min_pct e ideal_pct en null.",
+    "Temperatura máxima e ideal máxima: ninguna fuente prioritaria las da; max_c e ideal_max_c en null.",
+    "Luz: sin cifras en fc o lux en fuentes prioritarias; lux tomados de la franja 'brillante indirecta' de la escala del proyecto. La casilla 'pleno sol/semisombra' de la ficha RHS contradice su propio texto de cultivo (luz brillante indirecta).",
+    "Fertilización: sin fórmula NPK en fuentes prioritarias; frecuencia contradictoria (RHS ficha cada 2-3 semanas, Illinois cada 2 semanas, convención del proyecto mensual a ¼-½ dosis).",
+    "Toxicidad: ASPCA y LSU tratan Alocasia spp. a nivel de género; RHS confirma toxicidad para la especie. Sin datos de toxicidad específicos de A. zebrina en ensayos.",
+    "Plagas y enfermedades: RHS cita araña roja y cochinilla algodonosa y la considera 'generalmente libre de enfermedades'; no hay fuentes prioritarias sobre enfermedades bacterianas o fúngicas específicas de A. zebrina.",
+    "Umbral de temperatura que desencadena el reposo: no verificado en fuentes prioritarias."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/136827/i-alocasia-zebrina-i/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia zebrina",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow alocasias (Growing Guide, género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/FP033",
+      "institucion": "UF/IFAS Extension (University of Florida) — FPS33 Alocasia spp.: Elephant's Ear, Alocasia, Taro (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/elephant-ears-colocasia-alocasia-and-xanthosoma/",
+      "institucion": "University of Wisconsin–Madison Extension — Elephant Ears (Colocasia, Alocasia and Xanthosoma) (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "institucion": "ASPCA Animal Poison Control Center — Elephant's Ear (Alocasia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://artsci.lsu.edu/vetmed/toxic_plants/alocasia.php",
+      "institucion": "Louisiana State University School of Veterinary Medicine — Toxic plants: Alocasia spp.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77177187-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia zebrina G.W.Johnson & R.Hogg",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84191-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia liervalii Hérincq (sinónimo tentativo de A. zebrina)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.ukdr.uplb.edu.ph/journal-articles/2081/",
+      "institucion": "Briones, N.N.G. y Cuevas, V.C. (2013). Role of light in the life stages of Mt. Makiling populations of Alocasia zebrina. Philippine Journal of Science 142 (n.º especial): 69-82 (revista revisada por pares; consultado el resumen en el repositorio de UP Los Baños)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://en.wikipedia.org/wiki/Alocasia_zebrina",
+      "institucion": "Wikipedia — Alocasia zebrina (resume a Hay 1999, Gardens' Bulletin Singapore, y a Medecilo y Madulid 2013, Philippine Journal of Science)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://extension.illinois.edu/plants/alocasia",
+      "institucion": "University of Illinois Extension — Alocasia (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

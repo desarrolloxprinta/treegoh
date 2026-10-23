@@ -1,0 +1,327 @@
+{
+  "nombre_cientifico": "Anthurium veitchii",
+  "nombres_comunes": [
+    "anturio rey",
+    "anturio veitchii",
+    "king anthurium"
+  ],
+  "familia": "Araceae",
+  "origen": "Endémica de Colombia (departamentos de Antioquia y Chocó), en las regiones andina y del Pacífico, entre 300 y 1510 m de altitud (POWO; Catálogo de Plantas y Líquenes de Colombia vía Colplanta). Se cultiva también en Colombia. Nombre dedicado a los viveros Veitch de Exeter (Reino Unido).",
+  "clima_nativo": "Bosque húmedo tropical premontano (bioma tropical húmedo), con nubosidad casi permanente, sombra del dosel, humedad ambiental muy alta y sin heladas. Crece como epífita (POWO/Colplanta: hierba epífita); según viveros especializados, también en la base de árboles grandes.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Rasgo clave para visión: hojas adultas muy largas, estrechas y COLGANTES (cuelgan verticalmente desde el pecíolo), oblongo-alargadas que se estrechan poco a poco hacia la punta, de 50-90 cm de largo y 20-25 cm de ancho según la descripción botánica (CATE Araceae vía Colplanta); en ejemplares grandes de cultivo se citan más de 1 m (vivero especializado). Base acorazonada con lóbulos posteriores semioblongos, muy obtusos, solapados o separados por un seno estrecho. Lámina gruesa, coriácea, verde oscuro y BRILLANTE (RHS), no aterciopelada, con aspecto ondulado o acolchado ('en tabla de lavar') por los nervios hundidos. Pecíolo cilíndrico de 60-95 cm, con un genículo engrosado de unos 2,5 cm justo bajo la lámina. Las hojas jóvenes son más cortas, más erguidas y a menudo cobrizas o bronceadas al abrir [orientativo, sin fuente prioritaria].",
+    "nerviacion": "Pinnada muy marcada: nervio central prominente y 18-25 o más nervios laterales primarios a cada lado, casi perpendiculares al central ('como peldaños de escalera'), que se curvan cerca del margen. Los nervios laterales están HUNDIDOS en el haz y la lámina queda abombada entre ellos, en relieve (corrugada). Los nervios basales son retrorsos. Los nervios son del mismo verde que la lámina o algo más claros, sin el contraste blanco-plateado de los anturios aterciopelados.",
+    "variegacion": "Sin variegación: hoja uniformemente verde oscuro brillante (verde más claro o bronce en hojas nuevas). Las formas de comercio 'narrow' (estrecha) y 'wide' (ancha) son descripciones comerciales por el espaciado de los nervios y la anchura de la hoja, no categorías botánicas (vivero especializado).",
+    "tallo": "Tallo corto o contraído, rizoma grueso y compacto que no trepa (CATE; vivero especializado); raíces aéreas gruesas en la base. Pedúnculo de la inflorescencia de unos 50 cm. Espata pequeña (7-8 cm × 3-4 cm), ovado-lanceolada, coriácea, blanca a marfil o verde pálido, primero erguida y luego reflexa; espádice algo más corto que la espata, blanco rosado o crema a rosa pálido (CATE; RHS). La inflorescencia es poco vistosa comparada con las hojas.",
+    "habito": "Herbácea perenne epífita de porte en roseta, con pecíolos largos que parten de un tallo corto y hojas que cuelgan; RHS la describe como de porte columnar erguido. Necesita espacio vertical: se cultiva en alto (estantería, pedestal, cesta colgante) para que las hojas cuelguen sin tocar el suelo ni doblarse.",
+    "tamano_adulto_interior": "RHS: altura máxima 1,5-2,5 m y anchura 0,5-1 m, con 2-5 años hasta la madurez. En interior, el tamaño lo marca sobre todo la longitud de las hojas colgantes (50-90 cm, a veces más) más los pecíolos de 60-95 cm.",
+    "confusiones": [
+      {
+        "especie": "Anthurium warocqueanum (anturio reina)",
+        "rasgo_diferenciador": "También tiene hojas largas, estrechas y colgantes, pero su lámina es ATERCIOPELADA (mate, sin brillo) con nervios claros, plateados o verde pálido, contrastados y la superficie plana, sin corrugación; suele ser trepadora o rastrera con entrenudos visibles. A. veitchii tiene hojas brillantes, coriáceas, del mismo verde en nervios y lámina, y la lámina claramente ondulada entre nervios laterales hundidos y paralelos 'en escalera', sobre un tallo corto que no trepa."
+      },
+      {
+        "especie": "Anthurium andraeanum (anturio de flor)",
+        "rasgo_diferenciador": "Hojas acorazonadas de 20-30 cm, lisas y erguidas, con espata grande, plana, cerosa y de color intenso (roja, rosa, blanca). A. veitchii tiene hojas mucho más largas, colgantes y corrugadas, y una espata pequeña blanquecina o verdosa."
+      },
+      {
+        "especie": "Anthurium clarinervium y Anthurium crystallinum",
+        "rasgo_diferenciador": "Hojas acorazonadas aterciopeladas con nervios blancos o plateados muy contrastados y lámina lisa; A. veitchii tiene nervios del color de la hoja, hundidos, con lámina brillante y ondulada."
+      },
+      {
+        "especie": "Anthurium vittarifolium y otros anturios de hoja colgante en cinta",
+        "rasgo_diferenciador": "Hojas colgantes muy estrechas, lineares, en forma de cinta y sin corrugación; A. veitchii tiene hojas mucho más anchas (20-25 cm), con base acorazonada y nervios laterales en escalera marcados en relieve."
+      },
+      {
+        "especie": "Anthurium pallidiflorum",
+        "rasgo_diferenciador": "Hojas colgantes, estrechas y lineares, con nerviación lateral poco marcada; carece de la corrugación profunda y la lámina ancha de A. veitchii."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios), presentes en toda la planta; principio tóxico de todo el género Anthurium.",
+    "sintomas": "RHS (ficha de A. veitchii): nociva si se ingiere e irritante para piel y ojos; recomienda guantes al manipularla. Por el principio tóxico del género (ASPCA, UF/IFAS): al morder o masticar, irritación, dolor e inflamación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar; la savia puede causar dermatitis de contacto. Toxicidad de gravedad baja (UF/IFAS, género). Colocarla fuera del alcance de niños y mascotas; si hay ingestión con síntomas, contactar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F5",
+      "F6"
+    ],
+    "notas": "Solo RHS (F1) trata la especie de forma expresa (harmful if eaten; skin/eye irritant). ASPCA (F6) no tiene ficha de A. veitchii: su ficha 'Flamingo Flower' corresponde a Anthurium scherzeranum y se aplica al género por compartir el oxalato cálcico insoluble; UF/IFAS (F5) da la toxicidad para Anthurium spp. Por ser datos de género se baja a Media, aunque el riesgo es coherente en todo el género y con la ficha de A. andraeanum del proyecto."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS, ficha de especie: aspecto este u oeste, semisombra), o ventana sur tamizada con cortina fina o estor (RHS, género). En Madrid, a 1-2 m de una ventana sur u oeste o detrás de cortina en verano.",
+      "tolera_sol_directo": "No. Es planta de semisombra (RHS) y el sol directo de verano quema las hojas de los anturios (RHS, género). Como mucho, sol suave de primera hora de la mañana.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "RHS (F1) es la única fuente prioritaria que trata la especie: luz brillante indirecta, semisombra, orientación este u oeste. Los lux salen del género: UF/IFAS (F4) indica para producción de Anthurium 1000-2500 fc con 80-90 % de sombreo y advierte que por encima aparecen hojas pálidas; en interior el proyecto adopta el rango de luz brillante indirecta (100-1000 fc ≈ 1076-10 760 lux). Al ser una especie de bosque nublado y sombrío, conviene quedarse en la mitad baja-media del rango y evitar cualquier sol fuerte."
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato con el dedo a 2-3 cm (5 cm en macetas grandes, habituales en ejemplares adultos) y el peso de la maceta. Regar cuando esa capa esté seca y la maceta pese claramente menos que recién regada: entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos. No dejar que se seque el cepellón entero ni dejarla encharcada. Nunca regar por calendario.",
+      "primavera_verano": "Riego abundante (RHS: 'water freely') cada vez que se cumpla el criterio; con calor y crecimiento activo el sustrato aireado se seca rápido y hay que comprobarlo a menudo (en Madrid en verano puede ser cada 2-4 días). No tolera bien la sequía: el sustrato debe secarse solo en superficie.",
+      "otono_invierno": "Regar con moderación (RHS: 'water sparingly in winter'), esperando a que los 2-3 cm superiores estén secos y la maceta ligera. Con calefacción el sustrato puede secarse deprisa: guiarse por el dedo y el peso, no por la estación.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente, nunca fría (RHS, género: el agua fría puede dañar o matar anturios). RHS recomienda agua de lluvia o filtrada frente al agua del grifo dura; el agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y adecuada; el reposo no elimina la cloramina, pero no es causa de daños a esas dosis. Cada pocos meses, riego abundante para lavar sales de abono acumuladas, a las que el género es poco tolerante (UF/IFAS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F9"
+      ],
+      "notas": "RHS (F1) da para la especie 'water freely' en crecimiento y 'sparingly' en invierno, y cita pudrición de raíz por exceso de riego. El resto de criterios (dejar secar ligeramente y regar a fondo; lavar sales) son de género (UF/IFAS F4, RHS F2-F3) y de un blog especializado (F9: no tolera la sequía, regar a fondo). Las páginas comerciales dan intervalos en días, que no se adoptan."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 70,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F2",
+        "F9",
+        "F10"
+      ],
+      "notas": "RHS (F1, especie) pide humedad alta sin dar cifra. UF/IFAS (F5, género) indica que con humedad por debajo del 50 % las hojas de Anthurium pierden el brillo y pueden morir: se adopta 50 % como mínimo. El ideal del 70 % sale de fuentes complementarias (F9: al menos 50-60 %; F10: 60-80 %) [orientativo, sin fuente prioritaria]. Con humedad baja aparecen bordes marrones (RHS, género) y las hojas nuevas abren con dificultad o se deforman (F9). Las fuentes recomiendan pulverizar, pero según la convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador, agrupar plantas o bandeja con grava húmeda sin que la maceta toque el agua; mantener algo de ventilación para evitar hongos (F9). Es una de las especies del género más exigentes en humedad por su origen en bosque nublado."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F10"
+      ],
+      "notas": "RHS (F1, especie) la clasifica H1A ('bajo cristal todo el año, por encima de 15 °C') y pide mantenerla por encima de 18 °C en invierno. RHS (género) da 18-30 °C (F3) y 16-30 °C (F2), con daños o muerte a 10 °C o menos; UF/IFAS (F4, género) sitúa el daño por debajo de 13 °C (55 °F) y el óptimo en 21-32 °C (70-90 °F). Se adopta min_c 15 °C como umbral de seguridad, coherente con la clasificación H1A y con la ficha de A. andraeanum del proyecto; los 18 °C de RHS son la temperatura de mantenimiento invernal recomendada y se recogen como ideal_min_c (no como umbral de daño). Máximo 30 °C (RHS, el más conservador). El ideal máximo de 27 °C procede de una fuente complementaria (F10: 18-27 °C) [orientativo, sin fuente prioritaria], y es prudente por su origen premontano (300-1510 m) más fresco que el de otros anturios. Evitar corrientes frías, cristales fríos y fuentes de calor directo (radiadores)."
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada de drenaje rápido, tipo epífita. RHS (ficha de especie): 2 partes de sustrato ácido (para acidófilas) sin turba, 1 parte de grava hortícola (o perlita) y 1 parte de corteza de orquídea mediana. Alternativa de género (UF/IFAS): turba, perlita y corteza 1:1:1. Muchos cultivadores la tienen en cesta o maceta colgante con esa mezcla gruesa para que las hojas cuelguen libres (F9). Maceta con agujeros de drenaje y solo un tamaño mayor que la anterior.",
+      "ph": "Ácido a neutro (RHS, especie); 6.0-6.5 para el género en producción (UF/IFAS)",
+      "drenaje": "Excelente: húmedo pero bien drenado (RHS). El sustrato compacto o una maceta demasiado grande mantienen el agua y pudren las raíces.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para orquídeas o abono soluble equilibrado, diluido.",
+      "npk": "20-20-20 (equilibrado) para Anthurium en interior según UF/IFAS (género)",
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras haya crecimiento activo (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada en otoño-invierno si no crece. Si está en interior cálido y luminoso y sigue sacando hojas, como mucho una dosis mínima mensual.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F9",
+        "F10"
+      ],
+      "notas": "Contradicción de frecuencia: RHS (F1, ficha de especie) recomienda abono de orquídeas cada 2 semanas de primavera a otoño; UF/IFAS (F4, género) una vez al mes con 20-20-20 a 50 ppm de N en interior; las fuentes complementarias dicen mensual (F10) o en cada riego muy diluido (F9). Se adopta la opción más conservadora, que coincide con la convención del proyecto (mensual, ¼-½ de dosis). El exceso de abono acumula sales y quema puntas y bordes (UF/IFAS)."
+    },
+    "trasplante": {
+      "frecuencia": "Puede seguir en su maceta 1-2 años; después, cada 2-3 años o cuando esté apretada de raíces (RHS, género).",
+      "epoca": "Primavera (o principio de verano), coincidiendo con el crecimiento activo.",
+      "senales": "Raíces que salen por el drenaje o por encima del sustrato, cepellón lleno de raíces, agua que atraviesa la maceta sin empapar, corteza degradada y compacta o acumulación de sales. Al trasplantar, cuidar las hojas largas y los pecíolos, que se parten con facilidad.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS, ficha de especie).",
+      "epoca": "Todo el año, cuando aparezcan hojas secas o inflorescencias pasadas.",
+      "como": "Cortar por la base, con tijera limpia, las hojas muertas y los tallos de flores marchitas. Usar guantes: la savia irrita la piel. No cortar hojas sanas aunque estén dañadas solo en parte: la planta saca pocas hojas al año.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "Sin reposo verdadero: con calor, luz y humedad suficientes crece todo el año. En invierno, con menos luz, el crecimiento se frena: regar con moderación (RHS), suspender el abono si no crece y mantenerla por encima de 18 °C si es posible (RHS), nunca por debajo de 15 °C.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division de mata",
+        "esquejes de tallo o de rizoma",
+        "hijuelos",
+        "semilla"
+      ],
+      "epoca": "Primavera o verano (RHS, ficha de especie).",
+      "pasos": "División o hijuelos: sacar la planta de la maceta y separar un hijuelo o una sección con sus propias raíces; plantarla en la misma mezcla aireada. Esqueje de tallo o rizoma: cortar un trozo con un par de nudos y raíces aéreas visibles y enraizarlo en sustrato húmedo o musgo esfagno con humedad alta, en un propagador cerrado y cálido (unos 21-24 °C). Semilla: sembrar en cuanto madure, a 24-27 °C (RHS). Comercialmente se propaga mucho por cultivo in vitro. Usar guantes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego (RHS, ficha de especie), sustrato compacto o maceta demasiado grande. Es el problema más grave."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones y secos por aire seco, sobre todo con calefacción (RHS, género; blog especializado). Muy frecuente en esta especie fuera de invernadero."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas que no terminan de abrir, se pegan, se rasgan o salen deformadas por humedad baja durante el desarrollo de la hoja (blog especializado; dato complementario)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas quemadas por sales de abono acumuladas o riego irregular (UF/IFAS, género); no atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en la lámina por sol directo de verano (RHS, género)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas pálidas o blanqueadas por exceso de luz, a menudo confundidas con carencia nutritiva (UF/IFAS, género)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas que se curvan o enrollan por humedad baja, falta de agua o cambios bruscos de temperatura (fuente complementaria)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (RHS, ficha de especie)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (RHS, ficha de especie)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Ácaros (araña roja), citados para el género por UF/IFAS y favorecidos por el aire seco y caliente."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), es una de las especies que peor lo pasa: el sustrato aireado se seca en 2-4 días y la humedad cae muy por debajo del 50 %. Comprobar sustrato y peso a menudo y regar a fondo cuando estén secos los 2-3 cm superiores, sin dejar agua en el plato. Humidificador cerca (objetivo ≥50 %, ideal 60-80 %) o agruparla con otras plantas; las hojas nuevas abren mal con aire seco. Apartarla del sol directo de ventanas sur y oeste (1-2 m del cristal o detrás de cortina). Si dentro de casa se superan 27-30 °C, llevarla a la habitación más fresca y luminosa sin sol directo, sin chorro de aire acondicionado. Vigilar araña roja.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, muy lejos del mínimo del 50 %: humidificador imprescindible o una vitrina/rincón húmedo, y lejos de radiadores y salidas de aire caliente (bordes marrones, hojas nuevas deformes). Mantenerla por encima de 15 °C y, a ser posible, de 18 °C (RHS); por la noche, apartar las hojas colgantes de cristales fríos y corrientes. Regar menos, con agua a temperatura ambiente, siempre comprobando sustrato y peso. Sin abono si no crece. Puede acercarse a la ventana más luminosa porque el sol de invierno es suave, sin que las hojas toquen el cristal.",
+    "ubicacion_recomendada": "Interior todo el año, en alto (estantería, pedestal o cesta colgante) para que las hojas de 50-90 cm cuelguen libres, junto a una ventana este u oeste o a 1-2 m de una ventana sur con cortina. Ideal en una habitación con humidificador, un baño luminoso amplio o una vitrina de cultivo grande. Fuera del alcance de niños y mascotas. No sacarla al exterior en Madrid."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Anthurium veitchii Mast. (Gard. Chron., n.s., 6: 772, 1876; urn:lsid:ipni.org:names:85473-1). Sinónimos citados por POWO vía Wikipedia: Anthurium veitcheum Anon. y A. veitchii var. acuminatum N.E.Br. No hay cambio de nombre.",
+    "Información de cultivo escasa: solo una fuente prioritaria (RHS, ficha de especie) trata A. veitchii; no hay ficha en NC State, Missouri Botanical Garden ni servicios de extensión. Las cifras de lux, humedad mínima, pH, NPK y temperaturas de daño proceden de fuentes del género Anthurium (UF/IFAS, RHS), por lo que todos los bloques se dejan en confianza Media.",
+    "ASPCA no tiene ficha de A. veitchii; la toxicidad se toma de RHS (especie) y de ASPCA/UF/IFAS para el género.",
+    "Ninguna fuente prioritaria da humedad ideal en %, ni temperatura ideal máxima específica de la especie; los valores 70 % y 27 °C son orientativos de fuentes complementarias.",
+    "RHS cita para la especie mancha foliar (leaf spot) sin describir aspecto ni agente causal; no se asigna síntoma hasta tener una fuente de fitopatología.",
+    "No se ha encontrado fuente prioritaria que describa la coloración de las hojas nuevas (cobriza o bronce) ni el grado de corrugación como carácter diagnóstico; se marcan como orientativos. Un vivero describe las hojas como peltadas, lo que contradice la descripción botánica (CATE: lóbulos posteriores solapados o con seno estrecho); se sigue la descripción botánica.",
+    "No se pudo abrir la ficha del Catálogo de Plantas y Líquenes de Colombia (Universidad Nacional) directamente (404); sus datos de altitud y hábito se toman de Colplanta (Kew), que lo reproduce."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/26761/anthurium-veitchii/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Anthurium veitchii (king anthurium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/anthuriums",
+      "institucion": "Royal Horticultural Society (RHS) — Anthuriums (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow anthuriums (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/EP159",
+      "institucion": "UF/IFAS Extension (University of Florida) — EP159 Cultural Guidelines for Commercial Production of Interiorscape Anthurium (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/FP042",
+      "institucion": "UF/IFAS Extension (University of Florida) — FP042 Anthurium spp. (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "institucion": "ASPCA Animal Poison Control Center — Flamingo Flower (Anthurium scherzeranum, género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:85473-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Anthurium veitchii Mast.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:85473-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew — ColPlanta (Useful Plants and Fungi of Colombia; reproduce CATE Araceae y el Catálogo de Plantas y Líquenes de Colombia, Univ. Nacional de Colombia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.ohiotropics.com/?p=12210",
+      "institucion": "Ohio Tropics (blog especializado) — Anthurium veitchii care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://mygreenscape.ca/pages/how-to-care-for-anthurium-veitchii",
+      "institucion": "MyGreenScape (tienda de plantas) — How to care for Anthurium veitchii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.jungle-leaves.de/en/products/anthurium-veitchii",
+      "institucion": "Jungle Leaves (vivero especializado) — Anthurium veitchii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

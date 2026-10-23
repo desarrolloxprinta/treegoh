@@ -1,0 +1,307 @@
+{
+  "nombre_cientifico": "Epipremnum aureum",
+  "nombres_comunes": [
+    "poto",
+    "potus",
+    "pothos",
+    "hiedra del diablo"
+  ],
+  "familia": "Araceae",
+  "origen": "Islas de la Sociedad (Polinesia Francesa), según POWO (Kew), RHS y NC State. Naturalizada en muchas regiones tropicales y subtropicales: POWO la da como introducida en Florida, Hawái, Puerto Rico, Cuba, India, Sri Lanka, Bangladesh, sudeste de China, Tailandia, Malasia, Queensland, Brasil y África occidental y oriental, entre otras. Clemson la llama nativa de China, India y sudeste asiático, y UF/IFAS de las Islas Salomón; POWO trata esas zonas como áreas de introducción (ver lagunas).",
+  "clima_nativo": "Tropical cálido y húmedo, sin heladas. Es una trepadora de sotobosque que sube por troncos de árboles con raíces aéreas y recibe luz tamizada por el dosel y humedad ambiental alta (Clemson, UF/IFAS). En su hábitat trepa hasta 15 m y produce hojas adultas lobuladas y perforadas de hasta 90 cm (UF/IFAS, RHS).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, de acorazonadas a oval-elípticas, con base cordada y punta acuminada; margen entero, sin pelos, coriáceas y muy brillantes en el haz, con el envés más pálido (NC State). En interior conserva la hoja juvenil, entera, de 8-10 cm (NC State: 3-4 in) y rara vez más de 15 cm (UF/IFAS: <6 in). Si trepa por un tutor y tiene luz suficiente, produce hojas adultas mucho mayores, que en la naturaleza son lobuladas y perforadas y llegan a 90 cm (NC State, RHS, UF/IFAS). El pecíolo es delgado, más corto que la lámina y acanalado, abrazando el tallo; la estípula está soldada al pecíolo y sus bordes libres son blanquecinos, se secan, pardean y caen (NC State).",
+    "nerviacion": "Pinnada, con nervio central marcado y nervios laterales finos y arqueados hacia el margen. NC State indica que los nervios pueden ser rojizos.",
+    "variegacion": "La forma típica ('Golden Pothos') tiene hojas verde oscuro con salpicaduras, rayas y vetas irregulares amarillas y blanco crema (UF/IFAS, RHS). Cultivares frecuentes (NC State, Clemson, UF/IFAS): 'Marble Queen', jaspeado blanco o crema sobre verde, con tallos también jaspeados; 'Snow Queen', casi toda blanca con motas verdes; 'Pearls and Jade', hoja pequeña en lágrima con manchas blancas grandes y moteado verde claro y oscuro; 'Manjula', parecida a 'Pearls and Jade' pero de hoja ancha, erguida y crecimiento compacto; 'Njoy', hoja pequeña y fina, verde con zonas crema; 'Neon', amarillo lima uniforme; 'Jade', verde liso sin variegación; 'Jessenia', verde oscuro con vetas verde claro y amarillas; 'Shangri La', hojas verde oscuro que se curvan hacia dentro. Con poca luz las variedades variegadas pierden color (NC State, Clemson, UF/IFAS).",
+    "tallo": "Delgado, flexible, verde con rayas blancas o amarillas según el cultivar (blanquecino en 'Tricolor'), con nudos bien marcados y una raíz aérea marrón por nudo con la que se agarra a soportes (NC State). Con la edad pierde las hojas basales y las hojas quedan concentradas en el extremo de los tallos (NC State).",
+    "habito": "Trepadora o rastrera perennifolia que se fija con raíces aéreas. En interior se cultiva colgante en cesta o maceta alta, o guiada en tutor de musgo o madera, donde desarrolla hojas mayores (NC State, Clemson, RHS). Rara vez florece en cultivo: espádice con espata verde amarillenta o púrpura (NC State, RHS).",
+    "tamano_adulto_interior": "Tallos de 1-4 m o más si no se poda (RHS: 4 m o más), colgando o trepando. Hojas juveniles de 8-15 cm (NC State, UF/IFAS). En la naturaleza los tallos alcanzan 12 m (NC State: hasta 40 ft) y trepan árboles de unos 15 m (UF/IFAS).",
+    "confusiones": [
+      {
+        "especie": "Philodendron hederaceum (filodendro trepador, incluido 'Brasil' y 'Micans')",
+        "rasgo_diferenciador": "La confusión más frecuente (NC State, Clemson). El pecíolo del poto está acanalado; el del filodendro es liso y redondeado. En los brotes nuevos el filodendro lleva estípulas libres llamativas (catáfilos) que envuelven la hoja que sale; el poto no. La hoja del filodendro es más fina, blanda y mate o satinada, con un surco central más hundido; la del poto es más gruesa, coriácea y muy brillante."
+      },
+      {
+        "especie": "Scindapsus pictus (poto satinado, 'Silver Lady', 'Argyraeus', 'Exotica')",
+        "rasgo_diferenciador": "Hojas más anchas, de textura mate o satinada, con manchas o reflejos plateados en lugar de vetas amarillas o blancas. Crece mucho más despacio y tolera peor el exceso de riego (Clemson)."
+      },
+      {
+        "especie": "Epipremnum pinnatum (incluido 'Cebu Blue', 'Albo', 'Skeleton Key', 'Dragon Tail')",
+        "rasgo_diferenciador": "Especie distinta según NC State y Clemson. Hojas más estrechas o alargadas, a menudo con tono azul plateado ('Cebu Blue') y con más perforaciones y lóbulos al crecer en vertical. E. aureum en interior casi siempre tiene la hoja acorazonada entera y variegada de amarillo o blanco."
+      },
+      {
+        "especie": "Epipremnum amplissimum ('Silver Streak')",
+        "rasgo_diferenciador": "Hojas largas en forma de hoja de espada, con brillo plateado, cuya punta se curva hacia abajo en las hojas adultas (Clemson). No tiene la base acorazonada típica del poto."
+      },
+      {
+        "especie": "Syngonium podophyllum (singonio) en fase juvenil",
+        "rasgo_diferenciador": "La hoja juvenil del singonio es sagitada (en punta de flecha, con dos aurículas basales marcadas) y con el tiempo se divide en 3-5 segmentos; la del poto es acorazonada y entera. Sin fuente prioritaria que la cite como confusión: usar con prudencia."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios), presentes en todas las partes de la planta: hojas, tallos, raíces, flores, frutos y semillas (ASPCA, NC State, Clemson).",
+    "sintomas": "Perros y gatos (ASPCA): irritación oral, ardor intenso en boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Personas (NC State, Clemson): irritación y dolor de boca y garganta, hinchazón de labios, lengua y boca, babeo, vómitos, dificultad para tragar, diarrea y dermatitis de contacto por la savia. NC State le asigna gravedad media; Clemson la califica de levemente tóxica si se ingiere. RHS: nociva si se ingiere e irritante para piel y ojos; recomienda guantes al manipularla. Colocar fuera del alcance de niños y mascotas (Clemson); usar guantes para podar y para sacar esquejes.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 540,
+      "lux_max": 10760,
+      "orientacion_hn": "Lo ideal es luz brillante indirecta: junto a una ventana este o norte luminosa, o a 1,5-2 m de una ventana sur u oeste o tras una cortina fina. Aguanta rincones con luz baja durante mucho tiempo, pero allí crece despacio, con hojas pequeñas y menos variegación.",
+      "tolera_sol_directo": "Solo un poco de sol suave de primera hora de la mañana o tarde. El sol directo intenso del mediodía, o tras un cristal en ventana sur u oeste, quema las zonas variegadas (UF/IFAS: manchas necróticas en las partes claras que no se recuperan) y produce escaldado (Clemson).",
+      "notas": "UF/IFAS: tolera niveles tan bajos como 50 fc (≈540 lux), pero las hojas nuevas salen pequeñas y las variegadas pierden color; con 150 fc o más (≈1600 lux) mantiene color y tamaño de hoja. NC State y Clemson: prefiere luz brillante indirecta y tolera la luz baja. Los cultivares muy blancos ('Marble Queen', 'Snow Queen', 'Pearls and Jade') necesitan más luz que 'Golden', 'Neon' o 'Jade' (Clemson, NC State: 'Jade' es el mejor para luz baja). Contradicción: RHS indica 'pleno sol o semisombra' y 'luz plena o filtrada brillante' bajo cristal, pensando en invernadero británico; UF/IFAS y Clemson documentan quemaduras con luz intensa. Se adopta la opción conservadora: sin sol directo fuerte. El lux_max (≈1000 fc) es el techo de la luz brillante indirecta en la escala del proyecto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes o de más de 20 cm) y la maceta pese claramente menos que recién regada. Entonces regar a fondo, hasta que el agua llegue a todas las raíces y salga por los agujeros de drenaje, y vaciar el plato a los 15-30 minutos. Nunca regar por calendario. Prefiere ir 'un poco hacia lo seco' (UF/IFAS): ante la duda, esperar un día más.",
+      "primavera_verano": "Con crecimiento activo y temperaturas de 21-29 °C, el sustrato se seca antes y el riego suele ser más frecuente. Comprobar con el dedo y el peso cada pocos días, sobre todo en olas de calor.",
+      "otono_invierno": "Crecimiento lento y menos luz: el sustrato tarda mucho más en secarse. Dejar secar más a fondo (la mitad superior del sustrato) antes de regar, y nunca dejar agua en el plato. Con calefacción fuerte puede secarse antes de lo esperado: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Sirve el agua del grifo. En Madrid (Canal de Isabel II) el agua es blanda y la cloramina no se elimina dejándola reposar, pero no es la causa de puntas marrones en esta especie. Mayor riesgo: sales de abono acumuladas. UF/IFAS indica no abonar si la conductividad del sustrato es ≥3,0 dS/m y lavar el sustrato con abundante agua si supera 5,0 dS/m. En la práctica, cada 2-3 meses regar con 2-3 veces el volumen de la maceta para arrastrar sales.",
+      "notas": "El exceso de riego es la causa principal de pudrición radicular y del ennegrecimiento de los márgenes de las hojas (NC State, Clemson). Tolera bien sequías puntuales (NC State: resiste suelo seco); si se seca del todo, las hojas cuelgan lacias y se recuperan tras el riego. Clemson indica dejar secar el sustrato 'completamente' en su guía rápida y 'entre riegos' en el texto; UF/IFAS dice mantenerlo húmedo pero 'un poco hacia lo seco'. Criterio adoptado: secar la capa superior en temporada de crecimiento y más a fondo en invierno.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": 30,
+      "ideal_pct": 60,
+      "notas": "Clemson: prefiere 50-70 % y tolera la humedad media de una vivienda (30-60 %). La humedad baja, junto con la luz intensa, causa escaldado y puntas secas (Clemson). Para subirla, usar humidificador (Clemson, NC State) o agrupar plantas; pulverizar las hojas no la sube de forma útil. NC State menciona también la bandeja con guijarros mojados, de efecto limitado. 'Shangri La' necesita algo más de humedad (Clemson). UF/IFAS da 60-100 % solo para producción en vivero, no para interior.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "Clemson: 15-21 °C de noche y 21-29 °C de día. UF/IFAS: en interior recomienda 21-27 °C; la calidad y el crecimiento bajan cuando el día supera con frecuencia 35 °C o la noche baja de 18 °C; varias horas a 0,5-4,5 °C (33-40 °F), o los cambios bruscos de temperatura, causan manchas marrones dispersas en el centro de la hoja. RHS: H1B (exterior solo en verano, con mínimas no inferiores a 10-15 °C). Mantener lejos de rejillas de aire acondicionado en verano y de radiadores y alféizares fríos en invierno: el aire frío y el caliente secan las hojas y dañan las células (Clemson). No tolera heladas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato aireado y con buen drenaje (Clemson), que retenga humedad pero deje pasar el aire (UF/IFAS). Por ejemplo, sustrato universal para plantas de interior (turba o fibra de coco, o compost con base de tierra sin turba como recomienda RHS) con un 20-30 % de perlita o corteza de pino fina. UF/IFAS usa en producción mezclas de turba de esfagno, corteza de pino, vermiculita o perlita. Maceta siempre con agujeros de drenaje.",
+      "ph": "6,5-7,0 (UF/IFAS, sustrato de producción). RHS: tolera suelos ácidos, neutros o alcalinos.",
+      "drenaje": "Bueno, imprescindible: el sustrato con mal drenaje es, junto al exceso de riego, la causa de la pudrición radicular (Clemson). Nada de capas de grava en el fondo ni macetas sin agujero.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido o soluble para plantas de interior, equilibrado o algo rico en nitrógeno y potasio; también sirve abono de liberación lenta a dosis baja.",
+      "npk": "Proporción 3-1-2 o 3-1-3 (UF/IFAS, producción comercial).",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo mientras haya crecimiento activo (aprox. de marzo-abril a septiembre en Madrid). NC State y Clemson indican abonar cada dos meses; la dosis rebajada mensual del proyecto aporta una cantidad similar o menor.",
+      "otono_invierno": "Nada. NC State indica no abonar en reposo invernal y Clemson limita el abono a primavera y verano.",
+      "notas": "No abonar ni trasplantar durante unas 4 semanas tras llevar la planta a casa (UF/IFAS). Amarilleo de hojas puede deberse a falta de abono (Clemson); hojas nuevas pequeñas y sin variegación pueden indicar poca luz, falta de magnesio o abonado insuficiente (UF/IFAS). No abonar sobre sustrato seco: regar antes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años, según lo rápido que crezca (Clemson). Pasar a una maceta solo 2-5 cm más ancha.",
+      "epoca": "Primavera o inicio del verano, con crecimiento activo. Nunca en las primeras 4 semanas tras comprarla (UF/IFAS). Las fuentes no fijan un mes concreto (ver lagunas).",
+      "senales": "Raíces saliendo por los agujeros de drenaje; planta apiñada y con las raíces formando un ovillo (Clemson); el sustrato se seca en muy pocos días tras regar.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, para mantener el porte denso. Con los años pierde las hojas de la base y quedan concentradas en el extremo de los tallos (NC State).",
+      "epoca": "Primavera (RHS: despuntar en primavera para que ramifique); retoques ligeros durante todo el periodo de crecimiento.",
+      "como": "Con tijeras limpias y guantes (savia irritante), cortar los tallos largos o pelados justo por encima de un nudo, para que broten tallos nuevos y la planta se vuelva más densa (NC State, Clemson). Quitar hojas amarillas o secas. Los trozos cortados sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de octubre-noviembre a febrero-marzo en el hemisferio norte; en Madrid, mientras los días son cortos y fríos). En el hemisferio sur, los meses equivalentes (abril a agosto).",
+      "cambios": "No es un reposo estricto: la planta no pierde las hojas y simplemente crece más despacio. Suspender el abono (NC State, Clemson), espaciar el riego dejando secar más el sustrato, y mantenerla por encima de 15 °C, lejos de cristales fríos y radiadores.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo en agua",
+        "esqueje de tallo en sustrato",
+        "esqueje de yema y hoja (un nudo con su hoja)",
+        "acodo"
+      ],
+      "epoca": "Primavera y verano (RHS).",
+      "pasos": "1) Cortar un trozo de tallo con al menos un nudo (mejor 2-4) y su hoja; el nudo es imprescindible para enraizar (Clemson). UF/IFAS usa trozos de 2,5-4 cm con un nudo y una hoja. 2) Quitar la hoja que quede bajo el agua o el sustrato. 3) Ponerlo en agua (enraíza con facilidad, NC State) o en sustrato ligero húmedo, con luz brillante indirecta y 21-27 °C. 4) Las yemas brotan en 2-3 semanas y las raíces aparecen en 3-4 semanas (UF/IFAS). 5) Cuando las raíces midan 3-5 cm, pasar a maceta con sustrato y mantenerlo algo húmedo las primeras semanas. Para conseguir hojas grandes se usan esquejes de punta de plantas guiadas en tutor (UF/IFAS). El acodo se hace fijando un nudo sobre sustrato sin cortar el tallo (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato con mal drenaje; es el problema más frecuente (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Ennegrecimiento de los márgenes de las hojas por exceso de riego (NC State); también por acumulación de sales de abono."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas amarillas por sustrato demasiado seco o demasiado húmedo (UF/IFAS); también es normal la pérdida gradual de hojas basales con la edad (NC State)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo generalizado por exceso de riego o por falta de abono (Clemson)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Pérdida de variegación por luz insuficiente (NC State, Clemson, UF/IFAS); también por falta de magnesio o de abono (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas más pequeñas que las viejas por poca luz, falta de magnesio o abonado insuficiente (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos con entrenudos largos y pocas hojas por luz escasa; se corrige con más luz y poda por encima de un nudo (NC State)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas secas por humedad ambiental baja o luz intensa (Clemson), sales de abono acumuladas o riego irregular. En Madrid no atribuirlo al cloro o al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Manchas quemadas y necróticas limitadas a las zonas variegadas por exceso de luz o calor (UF/IFAS); no se recuperan."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones dispersas en el centro de la hoja tras varias horas a 0,5-4,5 °C o cambios bruscos de temperatura (UF/IFAS), p. ej. junto a un cristal frío o una puerta abierta en invierno."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato totalmente seco (se recupera al regar) o, si el sustrato está húmedo, por raíces podridas (ver S36)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo en tallos y nervios (NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de la calefacción o del verano (Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle y aire muy seco (≈38 % HR exterior en julio), apartarla al menos 1,5-2 m de ventanas sur y oeste o protegerla con cortina o estor: el sol tras el cristal quema las zonas variegadas sin remedio (UF/IFAS). Si la casa supera con frecuencia 32-35 °C, el crecimiento y la calidad caen (UF/IFAS): buscar la habitación más fresca, pero no ponerla en el chorro del aire acondicionado (Clemson). El sustrato se seca mucho antes: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. Si se saca a una terraza, solo a sombra total, nunca a pleno sol, y metiéndola antes de que las noches bajen de 15 °C (finales de septiembre o principios de octubre).",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %, en el límite de lo que tolera (Clemson): usar humidificador o agrupar plantas (pulverizar no sirve) y vigilar la araña roja. No ponerla sobre ni junto a radiadores. Apartarla de los cristales fríos y de las corrientes de puertas y ventanas: varias horas por debajo de 5 °C o los cambios bruscos producen manchas marrones (UF/IFAS); mantener por encima de 15 °C. Con menos luz, acercarla a la ventana más luminosa (el sol bajo de invierno en ventana sur es tolerable a 1 m), espaciar riegos y no abonar.",
+    "ubicacion_recomendada": "Estantería, repisa o cesta colgante a 1-2 m de una ventana este o sur con cortina, o junto a una ventana norte luminosa. Tolera habitaciones con luz baja (pasillos, baños con ventana), pero allí crece poco y pierde variegación; 'Jade' y 'Neon' son los cultivares que mejor la aguantan. Fuera del alcance de perros, gatos y niños pequeños, y con los tallos colgantes lejos de donde puedan mordisquearlos."
+  },
+  "lagunas": [
+    "Origen discutido entre fuentes prioritarias: POWO (Kew), RHS y NC State dan como nativas las Islas de la Sociedad (Polinesia Francesa); UF/IFAS (EP151) dice Islas Salomón y Clemson China, India y sudeste asiático. Se adopta POWO, que es la autoridad taxonómica y trata esas zonas como áreas de introducción.",
+    "Nomenclatura: nombre aceptado en POWO Epipremnum aureum (Linden & André) G.S.Bunting. Sinónimos que siguen apareciendo en etiquetas y fuentes: Scindapsus aureus, Pothos aureus, Raphidophora aurea, Epipremnum pinnatum 'Aureum' (RHS, NC State, UF/IFAS). Algunas floras (Flora Societensis, Puerto Rico) la tratan como E. pinnatum; NC State, POWO y Clemson la separan como especie distinta.",
+    "La 'General Description' de POWO (CATE Araceae) para E. aureum describe una hierba caducifolia con tubérculo y hoja trifoliolada, incompatible con la especie; parece un error de la base de datos y no se ha usado para la identificación ni para el clima nativo.",
+    "No se ha encontrado en fuentes prioritarias el clima detallado del hábitat nativo (lluvia, temperaturas): el campo se limita a lo que dicen Clemson y UF/IFAS.",
+    "No hay fuente prioritaria que indique el mes concreto de trasplante ni el umbral de temperatura nocturna para sacarla a exterior en primavera; se usa la regla general de trasplantar en primavera con crecimiento activo.",
+    "La humedad mínima (30 %) e ideal (60 %) sale solo de Clemson para interior; UF/IFAS da 60-100 % para producción en vivero. Confianza Media.",
+    "No se han encontrado en fuentes prioritarias datos específicos sobre trips, pulgón o mosca blanca en esta especie, ni sobre enfermedades foliares concretas (RHS la considera libre de plagas y enfermedades en general).",
+    "La confusión con Syngonium podophyllum no la recoge ninguna fuente prioritaria consultada; se incluye por rasgo morfológico evidente y se marca como de baja certeza.",
+    "Pet Poison Helpline no tiene accesible una ficha de pothos (404); la toxicidad se respalda con ASPCA, NC State, Clemson y RHS."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP151",
+      "institucion": "UF/IFAS Extension – EDIS EP151: Cultural Guidelines for Commercial Production of Interiorscape Epipremnum (McConnell, Chen, Henny y Everitt)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/91403/epipremnum-aureum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Epipremnum aureum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87014-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

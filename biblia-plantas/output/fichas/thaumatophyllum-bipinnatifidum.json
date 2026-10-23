@@ -1,0 +1,345 @@
+{
+  "nombre_cientifico": "Thaumatophyllum bipinnatifidum",
+  "nombres_comunes": [
+    "filodendro selloum",
+    "filodendro bipinnatifidum",
+    "filodendro arbóreo",
+    "filodendro de hoja cortada",
+    "Philodendron selloum (nombre comercial)"
+  ],
+  "familia": "Araceae",
+  "origen": "Sudamérica: este de Bolivia, sureste y sur de Brasil, Paraguay y noreste de Argentina (POWO, Kew; NC State coincide en el rango). Introducida en Bangladés y Belice (POWO).",
+  "clima_nativo": "Según Kew (POWO), arbusto de porte rastrero o semitrepador que crece sobre todo en el bioma tropical estacionalmente seco, no en selva húmeda permanente. NC State lo describe en su hábitat como arbusto leñoso, perenne y erguido, que con la edad se reclina o repta. Es el filodendro más resistente al frío de los habituales en cultivo: UF/IFAS lo llama 'resistente al frío' y la RHS le da rusticidad H2 (aguanta temperaturas bajas pero no la helada).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Enormes, brillantes, coriáceas, verde oscuro, de contorno acorazonado-sagitado y profundamente lobuladas: los senos entre lóbulos llegan a la mitad de la lámina o más (pinnatífidas; en hojas adultas los lóbulos vuelven a recortarse, de ahí 'bipinnatifidum') (NC State, Clemson). Margen entero y ondulado; sin pelos (NC State). Las hendiduras son siempre abiertas hacia el borde: la lámina no tiene agujeros cerrados (Clemson). Longitud: hasta unos 90 cm-1,2 m (Clemson: 3 ft; RHS: hasta 1 m; NC State y UF/IFAS: hasta 4 ft); UF/IFAS FP473 da 45-90 cm (18-36 in). Pecíolos largos, lisos y quebradizos (NC State, Clemson). Con poca luz o exceso de riego las hojas salen más pequeñas, con menos lóbulos o sin ellos (NC State): una planta joven o mal iluminada puede tener hojas casi enteras.",
+    "nerviacion": "Pinnada: un nervio central grueso y saliente del que parte un nervio principal hacia cada lóbulo (observación orientativa a partir de las imágenes de NC State; ninguna fuente prioritaria abierta describe la nerviación en texto).",
+    "variegacion": "La especie es verde uniforme, sin variegación (NC State: color de hoja verde). No se han encontrado en fuentes prioritarias cultivares variegados de la especie.",
+    "tallo": "Tronco corto, grueso y verde, erguido y semileñoso, que con los años se alarga y se inclina; muestra cicatrices foliares muy marcadas rodeadas de escamas rígidas y estípulas (catáfilos) grandes, libres y lanceoladas (NC State). Del tronco bajan raíces aéreas gruesas que la sujetan y absorben agua y nutrientes; si tiene soporte, trepa con raíces adventicias (NC State; también OSU: 'a menudo forma raíces aéreas').",
+    "habito": "Autoerguido ('self-heading'): saca todas las hojas desde una roseta en el ápice de un tronco corto, no es una enredadera (Clemson). Muy ancho, de textura gruesa y crecimiento medio (NC State) a rápido (UF/IFAS FP473). Rara vez florece en interior: puede tardar 10-15 años (NC State); la inflorescencia es una espata rojo-púrpura con espádice blanco (NC State).",
+    "tamano_adulto_interior": "En maceta e interior, 1,2-3 m de alto y 1,8-3 m de ancho (NC State: 4-10 ft × 6-10 ft); la RHS da 2,5-4 m de alto y de ancho, con 10-20 años hasta la madurez. En jardín de clima cálido llega a 1,8-3,7 m de alto y 3-4,5 m de ancho (UF/IFAS FP473). Es demasiado grande para la mayoría de viviendas (Clemson, NC State). El cultivar 'Dwarf Selloum' alcanza 1,8 × 1,8 m (Clemson).",
+    "confusiones": [
+      {
+        "especie": "Monstera deliciosa (costilla de Adán; también llamada 'split leaf philodendron')",
+        "rasgo_diferenciador": "La hoja adulta de Monstera tiene agujeros cerrados dentro de la lámina además de las hendiduras; Thaumatophyllum bipinnatifidum tiene hendiduras profundas pero ningún agujero (Clemson). Monstera es trepadora de tallo largo con raíces aéreas que se agarran al soporte; el selloum forma un tronco corto y erguido con cicatrices foliares marcadas rodeadas de escamas rígidas (NC State)."
+      },
+      {
+        "especie": "Thaumatophyllum xanadu (Philodendron 'Xanadu', 'Winterbourn')",
+        "rasgo_diferenciador": "Mucho más compacto y denso: unos 90 cm de alto y 1,5 m de ancho (Clemson: 3 ft × 5 ft; UF/IFAS: altura máxima de unos 3 ft), con hojas lobuladas más pequeñas que parecen una versión reducida del selloum (UF/IFAS). UF/IFAS lo trata como híbrido patentado de origen australiano y Clemson como cultivar de P. bipinnatifidum."
+      },
+      {
+        "especie": "Monstera epipremnoides",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. Es una Monstera trepadora: sus hojas tienen numerosos agujeros cerrados dentro de la lámina, mientras que el selloum solo tiene lóbulos abiertos hacia el margen y un tronco corto y erguido (criterio de Clemson para distinguir Monstera de filodendro)."
+      },
+      {
+        "especie": "Philodendron hederaceum (filodendro trepador, de hoja acorazonada)",
+        "rasgo_diferenciador": "NC State la cita como confusión por el nombre común compartido 'heartleaf philodendron'. P. hederaceum es una enredadera de tallos finos con hojas acorazonadas enteras de 5-10 cm (Clemson: 2-4 in), sin lóbulos; el selloum tiene hojas lobuladas de hasta 1 m y tronco erguido."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (ASPCA, NC State, Clemson).",
+    "sintomas": "Si se ingiere: irritación oral, dolor e hinchazón de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA en perros y gatos; NC State y Clemson también en personas). La savia irrita la piel (dermatitis de contacto, NC State) y la RHS la clasifica como dañina si se come e irritante para piel y ojos: usar guantes al podar o trasplantar. Todas las partes son tóxicas (NC State, Clemson). Gravedad baja según NC State. ASPCA indica que también es tóxica para caballos.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F5",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1614,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina (Clemson: luz media a brillante cerca de una ventana este, oeste o sur). Una ventana norte solo sirve en estancias muy luminosas y dará hojas más pequeñas y menos recortadas.",
+      "tolera_sol_directo": "Tolera algo de sol directo suave (NC State: sombra parcial, 2-6 h de sol directo, o luz moteada), pero el sol fuerte quema las hojas (NC State: el sol pleno puede causar quemaduras; RHS: sombra del sol fuerte; UF/IFAS: quemaduras en el centro y puntas de la hoja). En Madrid, nada de sol directo de mediodía o tarde en verano.",
+      "notas": "Es de los filodendros que más luz piden: UF/IFAS recomienda usarlo en interiores de luz alta y en vivero lo cultiva con mucha más luz (3000-5000 fc) que el resto del género (1500-2500 fc). NC State: prefiere luz alta aunque tolera poca; con poca luz las hojas salen más pequeñas y con menos lóbulos. lux_min = 150 fc (≈1614 lux), umbral de UF/IFAS para que el género mantenga color y tamaño de hoja (tolera hasta 75 fc); para hojas grandes y bien recortadas conviene la franja de luz brillante indirecta (500-1000 fc, 5380-10760 lux) de la escala del proyecto. lux_max = 1000 fc, techo de la luz brillante indirecta. Contradicción: UF/IFAS FP473 (uso en jardín de Florida) dice que crece bien a pleno sol; NC State y RHS advierten de quemaduras con sol fuerte. Se adopta la opción conservadora: luz brillante sin sol fuerte. Cualquier aumento de luz (sacarla a la terraza) debe ser gradual [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F2",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 5 cm superiores del sustrato estén secos al tacto (maceta grande) y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. Nunca por calendario. Mantener el sustrato húmedo pero nunca encharcado y no dejarla nunca con agua en el plato (Clemson). No tolera la sequía prolongada (NC State), así que tampoco se debe dejar secar todo el cepellón.",
+      "primavera_verano": "Con crecimiento activo, riego moderado (RHS), siempre con la capa superior ya seca. En verano y en macetas grandes al sol filtrado, comprobar dedo y peso cada pocos días.",
+      "otono_invierno": "Riego escaso (RHS): dejar secar más el sustrato antes de volver a regar. Con calefacción fuerte puede secarse antes: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "No tolera la acumulación de sales: NC State recomienda lavar el sustrato con regularidad o regar con agua destilada, y UF/IFAS FP473 le da tolerancia pobre a la sal. El agua del grifo de Madrid (Canal de Isabel II) es blanda y sirve; lleva cloramina, que no se elimina dejándola reposar, pero no causa puntas marrones. Lo importante es arrastrar las sales de abono: UF/IFAS no abona si la conductividad del sustrato es ≥2,0 dS/m y lava con abundante agua si supera 3,0 dS/m. En la práctica, cada 2-3 meses regar con 2-3 veces el volumen de la maceta [orientativo, sin fuente prioritaria].",
+      "notas": "El exceso de humedad causa pudrición radicular (NC State, Clemson) y amarilleo de hojas inferiores con muerte de los ápices (Clemson). Con exceso de riego las hojas nuevas salen más pequeñas y sin lóbulos (NC State). Discrepancia: UF/IFAS FP473 le da tolerancia moderada a la sequía (en jardín) y NC State dice que no tolera la sequía; Clemson pide sustrato uniformemente húmedo y RHS riego moderado/escaso. Se adopta el criterio del proyecto (secar la capa superior antes de regar), que evita la causa nº 1 de muerte, sin dejar secar el cepellón entero.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F2",
+        "F4",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State: prefiere humedad moderada. Clemson (género): la humedad alta es ideal, pero los filodendros toleran la baja humedad de la mayoría de las casas. UF/IFAS da 60-100 % de humedad relativa, pero para producción en vivero, no para interior. Ninguna fuente prioritaria da una cifra de humedad para interior (ver lagunas). La RHS recomienda pulverizar a diario, pero según el criterio del proyecto pulverizar no sube la humedad de forma útil: con humedad interior por debajo del 30 % (calefacción en Madrid) usar humidificador o agrupar plantas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15.5,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Mínimo para el cultivo: NC State indica meterla en casa cuando la temperatura baja de 15,5 °C (60 °F); es el mínimo más alto de las fuentes y se adopta como min_c. Ideal: UF/IFAS recomienda 21-27 °C (70-80 °F) en interior; Clemson (género) noches de 18-21 °C y días de 24-29 °C. Máximo: en vivero la calidad cae cuando el día supera a menudo 35 °C (95 °F) (UF/IFAS, género). Supervivencia al frío (no confundir con el mínimo de cultivo): es más resistente que otros filodendros. UF/IFAS (ENH893): 'filodendro resistente al frío'; los ejemplares adultos aguantan temperaturas ligeramente bajo cero durante periodos breves; pero varias horas a 0,5-4,5 °C (33-40 °F) amarillean las hojas inferiores (género). RHS: H2, tolera temperaturas bajas pero no sobrevive a la helada (1-5 °C). Zonas USDA: 8B-11 (UF/IFAS FP473), 9a-11b (NC State), 10 (OSU). Contradicción entre fuentes prioritarias sobre la helada (UF/IFAS la tolera breve en adultos; RHS no): se adopta la opción conservadora, sin heladas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F2",
+        "F3",
+        "F9"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato rico en materia orgánica, que retenga humedad pero drene bien (NC State; UF/IFAS FP473: suelo bastante rico y que retenga humedad). RHS: sustrato a base de tierra (loam) sin turba. UF/IFAS (producción del género): combinaciones de turba, corteza de pino, vermiculita o perlita, con buena retención de agua y aireación; en macetas grandes y altas, un 10-20 % de arena gruesa da peso y evita que vuelque.",
+      "ph": "6,0-6,5 (UF/IFAS, género); la RHS lo admite ácido, neutro o alcalino.",
+      "drenaje": "Imprescindible: maceta con agujeros y mezcla que drene rápido; un sustrato que no drena causa pudrición radicular (Clemson, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, diluido (RHS, Clemson); también vale abono de liberación lenta (Clemson).",
+      "npk": "Equilibrado (RHS); en producción UF/IFAS usa proporciones N:P:K 3:1:2 o 3:1:3.",
+      "primavera_verano": "Una vez al mes con crecimiento activo (RHS), a ¼-½ de la dosis de etiqueta (criterio del proyecto).",
+      "otono_invierno": "Nada mientras no crezca.",
+      "notas": "No tolera la acumulación de sales (NC State; UF/IFAS FP473: tolerancia a la sal pobre). El exceso de abono enrosca y pone marrones las puntas de las hojas (Clemson). UF/IFAS: no abonar si la conductividad del sustrato es ≥2,0 dS/m, y no abonar ni trasplantar en las 4 primeras semanas tras llevarla a casa. Falta de nitrógeno: clorosis y hojas pequeñas; falta de magnesio: clorosis en V en hojas viejas; falta de potasio: márgenes de hojas viejas marrones (UF/IFAS, género).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando la planta esté apretada en la maceta (Clemson). Como orientación, cada 2-3 años en ejemplares jóvenes; en ejemplares grandes, renovar los 5 cm superiores del sustrato si no se puede trasplantar [orientativo, sin fuente prioritaria].",
+      "epoca": "Clemson admite cualquier estación; mejor en primavera, con crecimiento activo [orientativo, sin fuente prioritaria]. No trasplantar en las 4 primeras semanas tras comprarla (UF/IFAS).",
+      "senales": "Raíces saliendo por los agujeros o dando vueltas al cepellón, el agua atraviesa la maceta sin empapar, la planta vuelca por peso o se seca muy deprisa tras regar [orientativo, sin fuente prioritaria]. Usar guantes: la savia irrita la piel (NC State, RHS). Los pecíolos son quebradizos (Clemson): manipular con cuidado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. No se poda el tronco para darle forma; solo se retiran hojas viejas, amarillas o dañadas [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (RHS).",
+      "como": "Cortar el pecíolo de la hoja vieja limpio, cerca del tronco, con tijera desinfectada y guantes (la savia irrita piel y ojos: NC State, RHS). Las raíces aéreas no se cortan si no estorban: sujetan la planta y absorben agua y nutrientes (NC State); se pueden guiar hacia el sustrato. Colocarla fuera de zonas de paso porque los pecíolos largos se rompen con facilidad (Clemson).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene un reposo verdadero, pero en otoño-invierno crece más despacio: riego escaso fuera del periodo de crecimiento y abono solo mientras crece (RHS). Mantenerla por encima de 15,5 °C (NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "división de hijuelos",
+        "acodo (también acodo aéreo)"
+      ],
+      "epoca": "Primavera (RHS).",
+      "pasos": "1) Hijuelos: separar con raíces los brotes que salen de la base y plantarlos en su propia maceta (UF/IFAS FP473: división de hijuelos; Clemson: algunos filodendros producen hijuelos). 2) Acodo en primavera (RHS) o acodo aéreo (Clemson, género) sobre el tronco. 3) Semilla: sembrar en superficie a 19-24 °C en primavera (RHS); la semilla pierde viabilidad muy pronto si no está bien procesada y envasada al vacío, y el semillero necesita instalaciones especiales (UF/IFAS ENH893), por lo que en casa es poco práctico. Usar guantes en todos los casos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato demasiado húmedo o que no drena (NC State, Clemson). Es el riesgo principal en maceta grande, que tarda mucho en secarse en invierno."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego o poca luz (Clemson); también varias horas a 0,5-4,5 °C, por ejemplo en terraza o junto a un cristal frío (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Poca luz o exceso de riego: las hojas nuevas salen más pequeñas, con menos lóbulos o sin ellos (NC State). En plantas jóvenes es normal que las primeras hojas sean poco recortadas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: pecíolos excesivamente largos y porte abierto y desgarbado (UF/IFAS, género)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo en ventanas sur u oeste o al sacarla a la terraza sin aclimatar: quemaduras en el centro y las puntas de las hojas (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Acumulación de sales de abono, a las que es poco tolerante (NC State, UF/IFAS FP473); el exceso de abono enrosca y pone marrones las puntas (Clemson). No atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Falta de agua combinada con luz alta (zonas del margen necrosadas) o falta de potasio (márgenes de hojas viejas marrones que avanzan hacia el nervio) (UF/IFAS, género)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de calefacción y del verano madrileño (RHS, NC State, Clemson, UF/IFAS FP473)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en pecíolos y nervios (RHS, NC State, UF/IFAS FP473)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y bases de pecíolos (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y hojas nuevas (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips, en concreto el trips de bandas de invernadero, que NC State cita como plaga frecuente de la especie."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre bacteriana del tallo, citada por Oklahoma State como susceptibilidad de la especie; favorecida por exceso de humedad (una sola fuente prioritaria)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares, citadas por Oklahoma State como susceptibilidad de la especie (una sola fuente prioritaria, sin detallar el patógeno)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire seco (HR exterior ≈38 % en julio), alejarla del sol directo de mediodía y tarde en ventanas sur y oeste (cortina fina o 1-2 m del cristal): el sol fuerte quema la hoja (NC State, RHS) y por encima de 35 °C su crecimiento empeora (UF/IFAS). Comprobar dedo y peso cada pocos días: la maceta grande se seca antes con calor, pero sin regar por calendario. Puede pasar el verano en una terraza o balcón resguardado del viento, a la sombra parcial o con luz moteada (NC State admite cultivarla en maceta fuera con tiempo cálido), mientras las noches no bajen de 15,5 °C; aclimatarla de forma gradual a la luz exterior [orientativo, sin fuente prioritaria]. Vigilar araña roja con el aire seco.",
+    "invierno": "Meterla en casa cuando las noches bajen de 15,5 °C (NC State). Aunque es el filodendro más tolerante al frío (UF/IFAS: los adultos aguantan breves heladas ligeras; RHS: H2, sin helada), varias horas a 0,5-4,5 °C ya amarillean las hojas inferiores (UF/IFAS), así que no se recomienda dejarla en la terraza en invierno en Madrid: es la opción conservadora ante la contradicción entre fuentes. Dentro, lejos de radiadores y de corrientes de aire, y sin hojas pegadas al cristal frío. Con calefacción la humedad baja a menudo del 30 %: humidificador o agrupar plantas (pulverizar no sirve). Riego escaso (RHS) y nada de abono. Darle la ventana más luminosa de la casa: la luz de invierno es débil y el sol suave de invierno no la quema.",
+    "ubicacion_recomendada": "Salón amplio y luminoso, junto a una ventana este o a 1-2 m de una ventana sur u oeste con cortina, con espacio libre de 1,5-3 m de ancho y fuera de zonas de paso, porque los pecíolos largos se rompen (Clemson). Con terraza: fuera de mayo a septiembre en un rincón resguardado y en sombra parcial, y dentro el resto del año [orientativo, sin fuente prioritaria para las fechas]. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nomenclatura: la lista maestra usa Thaumatophyllum bipinnatifidum (Schott ex Endl.) Sakur., Calazans & Mayo, combinación publicada en PhytoKeys 98: 60 (2018) (IPNI). Sin embargo, POWO (Kew), consultado el 2026-10-21, acepta actualmente Philodendron bipinnatifidum Schott ex Endl. (Gen. Pl.: 237, 1837) y trata Thaumatophyllum bipinnatifidum como sinónimo homotípico ('taxonomía alternativa'); también son sinónimos Philodendron selloum K.Koch, P. sellowii André, P. pygmaeum Chodat & Vischer y Arum pinnatifidum Vell. GBIF acepta Thaumatophyllum bipinnatifidum. RHS usa Philodendron bipinnatifidum (sinónimo P. selloum), NC State la lista como Philodendron bipinnatifidum ('antes Thaumatophyllum bipinnatifidum'), UF/IFAS y ASPCA como P. selloum. La app debe reconocer los tres nombres.",
+    "Sin cifra de humedad relativa mínima ni ideal para interior en fuentes prioritarias (min_pct e ideal_pct = null): NC State solo dice 'moderada' y el 60-100 % de UF/IFAS es para vivero.",
+    "Sin datos lumínicos en fc/lux específicos de la especie para interior: se usan el umbral del género (UF/IFAS ENH893) y la escala del proyecto; UF/IFAS solo da 3000-5000 fc para producción de P. selloum en vivero.",
+    "La temperatura mínima de supervivencia exacta no está bien definida: RHS (H2, 1-5 °C, sin helada), UF/IFAS (adultos toleran breve helada ligera; zona 8B-11), NC State (zona 9a-11b) y Oklahoma State (zona 10) no coinciden. No se ha encontrado fuente prioritaria que documente su supervivencia invernal al aire libre en Madrid.",
+    "Frecuencia de trasplante, señales de trasplante y técnica de poda no detalladas en fuentes prioritarias para esta especie (bloques en confianza Media).",
+    "Missouri Botanical Garden: no se encontró ficha de la especie en Plant Finder. La ficha de Oklahoma State (OSU) es muy breve; las enfermedades que cita (manchas foliares, podredumbre bacteriana del tallo) no se han confirmado en una segunda fuente prioritaria.",
+    "ASPCA no tiene ficha con el nombre Thaumatophyllum: su ficha 'Lacy Tree Philodendron' usa Philodendron selloum (sinónimo); además, su ficha 'Horsehead Philodendron' incluye 'Selloum' entre los nombres comunes pero con el nombre científico P. bipennifolium, que es otra especie."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/thaumatophyllum-bipinnatifidum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), Philodendron bipinnatifidum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/12672/philodendron-bipinnatifidum/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant Finder, Philodendron bipinnatifidum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://ask.ifas.ufl.edu/pdf/FP/FP47300.pdf",
+      "institucion": "UF/IFAS Extension – EDIS FPS473, Philodendron selloum (Gilman, Klein y Hansen; University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/EP150/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH893, Cultural Guidelines for Commercial Production of Interiorscape Philodendron (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1509, Philodendron)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lacy-tree-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, Lacy Tree Philodendron (Philodendron selloum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77306988-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Philodendron bipinnatifidum Schott ex Endl.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77178497-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Thaumatophyllum bipinnatifidum (Schott ex Endl.) Sakur., Calazans & Mayo",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://extension.okstate.edu/programs/plant-id/plant-profiles/tree-philodendron",
+      "institucion": "Oklahoma State University Extension – Plant ID, Tree Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/horsehead-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, Horsehead Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://api.gbif.org/v1/species/match?name=Thaumatophyllum%20bipinnatifidum",
+      "institucion": "GBIF – Backbone Taxonomy (consulta de nombre)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

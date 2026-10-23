@@ -1,0 +1,342 @@
+{
+  "nombre_cientifico": "Cordyline fruticosa",
+  "nombres_comunes": [
+    "cordiline",
+    "drácena roja",
+    "planta ti",
+    "ti hawaiano",
+    "planta de la buena suerte"
+  ],
+  "familia": "Asparagaceae",
+  "origen": "Asia tropical oriental, Nueva Guinea, norte de Australia e islas del Pacífico (UH-CTAHR: 'tropical Asia, Australia y las islas del Pacífico'; introducida en Hawái por los polinesios). Sinónimo muy usado en el comercio: Cordyline terminalis.",
+  "clima_nativo": "Tropical húmedo sin heladas: sotobosque y claros de bosques de valles lluviosos, en semisombra. En exterior vive en zonas USDA 9b-11b (UF/IFAS) o 10-12 (NC State); no tolera temperaturas por debajo de 10 °C según NC State. Crece mejor entre 18 y 35 °C.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, perennes, dispuestas en espiral apretada formando penachos en el extremo de los tallos; lámina oblongo-lanceolada a ampliamente elíptica, lisa, flexible y brillante, de 30-60 cm de largo y unos 10 cm de ancho (UH-CTAHR; NC State: hasta 76 x 15 cm; UF/IFAS: 20-45 cm); cultivares enanos como 'Baby Doll' con hojas de unos 15 x 3 cm. Rasgo clave: PECÍOLO BIEN DIFERENCIADO, acanalado (en canal profundo), de 5-15 cm, entre la base del tallo y la lámina. Margen entero. Las hojas basales viejas amarillean y caen dejando anillos de cicatrices.",
+    "nerviacion": "Paralela, de monocotiledónea, con nervio central prominente por el envés (UH-CTAHR); los nervios laterales salen del central en ángulo agudo y corren casi paralelos hacia el margen.",
+    "variegacion": "Muy variable según cultivar: verde liso (ti verde), rojo, granate, burdeos casi negro ('Black Magic'), rosa ('Pink Integrity'), crema, amarillo-lima ('Lemon Lime') o combinaciones a franjas y bordes rosados o rojos ('Red Edge', 'Kiwi', 'Baptistii', 'Hawaiian Flag'). Los colores rojos y rosas solo se mantienen con buena luz: con poca luz el crecimiento nuevo sale más verde y apagado y la variegación se reduce (UH-CTAHR, NC State). Penn State describe el 'mal color' (hojas apagadas granate oscuro sin tonos rosas) como trastorno cultural ligado a luz, temperatura y abonado.",
+    "tallo": "Tallos erectos, delgados, simples o ramificados, a menudo en grupo, de color rojizo en el crecimiento del año; con anillos de cicatrices foliares. Sistema radical rizomatoso con raíces y rizoma BLANCOS (NC State; UH-CTAHR: raíz pivotante larga, gruesa, blanca y dulce). Se vende también como 'ti log': trozos de tallo sin hojas para enraizar.",
+    "habito": "Arbusto erguido de crecimiento moderado, con aspecto de palmerita: tallos desnudos coronados por rosetas de hojas. En interior rara vez florece; en exterior da panículas de hasta 30 cm de flores pequeñas en estrella, blancas, rosadas, lilas o amarillentas, y bayas rojas.",
+    "tamano_adulto_interior": "0,6-1,5 m en maceta en la mayoría de casas (RHS 'Baptistii': 1-1,5 m de altura y 0,1-0,5 m de anchura en 2-5 años); los cultivares enanos se quedan en 30-60 cm [orientativo, sin fuente prioritaria]. En exterior tropical alcanza 1-3 m (UF/IFAS) y hasta 3-4,5 m (NC State).",
+    "confusiones": [
+      {
+        "especie": "Cordyline australis (cordiline australiana, 'palmera de Nueva Zelanda')",
+        "rasgo_diferenciador": "Hojas estrechas en forma de espada, de hasta unos 90 cm de largo y 5-7,5 cm de ancho, verde grisáceo o bronce/púrpura, coriáceas y rígidas, sin pecíolo (la base forma una vaina que abraza el tallo), y tronco con corteza gris, corchosa y fisurada (NC State). Es mucho más resistente al frío y se cultiva en exterior en zonas templadas (RHS). C. fruticosa tiene hojas anchas, flexibles y brillantes, con pecíolo acanalado bien visible, y es tierna (mínimo 10-15 °C)."
+      },
+      {
+        "especie": "Dracaena marginata (Dracaena reflexa var. angustifolia)",
+        "rasgo_diferenciador": "Hojas muy estrechas (1-1,5 cm) [orientativo, sin fuente prioritaria en esta ficha], con borde rojo o púrpura, SIN pecíolo (la base de la hoja abraza el tallo directamente) sobre tallos finos y a menudo curvados. Las raíces de Dracaena son naranjas o amarillas, mientras que las de Cordyline son blancas (NC State). C. fruticosa tiene láminas anchas (unos 10 cm) unidas al tallo por un pecíolo acanalado."
+      },
+      {
+        "especie": "Dracaena fragrans (tronco de Brasil, 'Massangeana')",
+        "rasgo_diferenciador": "Hojas acintadas tipo hoja de maíz, SIN pecíolo (abrazan el tallo), verdes o con franjas amarillas o blancas, nunca rojas o rosas, sobre caña gruesa. Raíces naranjas o amarillas frente a las raíces y rizoma blancos de Cordyline (NC State). En C. fruticosa la hoja tiene pecíolo acanalado de 5-15 cm y a menudo tonos rojos, rosas o púrpuras."
+      },
+      {
+        "especie": "Codiaeum variegatum (croton)",
+        "rasgo_diferenciador": "También tiene hojas rojas, amarillas y naranjas, pero es dicotiledónea: hojas coriáceas con nerviación pinnada reticulada (nervios secundarios ramificados y a menudo coloreados) y látex blanco al romperlas. C. fruticosa tiene nerviación paralela y no tiene látex. [orientativo, sin fuente prioritaria en esta ficha]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas (ASPCA; UF/IFAS).",
+    "sintomas": "Perros y gatos: vómitos (a veces con sangre), depresión, anorexia, hipersalivación y, en gatos, pupilas dilatadas (ASPCA). Personas: toxicidad baja; la ingestión puede causar molestias gastrointestinales y vómitos, y la savia puede producir irritación o dermatitis de contacto, por lo que conviene usar guantes al manipularla o podarla (NC State; UF/IFAS). También tóxica para caballos (NC State).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana este, o a 1,2-2,5 m de una ventana sur u oeste grande (UH-CTAHR: a 4-8 pies de ventanas sur, este u oeste), o tras cortina fina en sur/oeste en verano. En invierno, lo más cerca posible de la ventana más luminosa.",
+      "tolera_sol_directo": "Parcialmente. Sol suave de mañana o de invierno sí; UH-CTAHR indica que agradece unas 4 h de sol directo o luz brillante indirecta y que el color es más intenso con más luz, pero los cultivares muy coloreados o con franjas blancas se queman con sol pleno, y la RHS advierte que el sol fuerte apaga el color de las formas coloreadas. Evitar sol directo de mediodía y tarde en verano tras cristal sur u oeste.",
+      "notas": "Escala del proyecto: brillante indirecta 500-1000 fc (5380-10760 lux). UH-CTAHR: sobrevive con solo 75-150 fc (≈800-1600 lux), pero el crecimiento se estira, pierde color y variegación; la calidad y el color mejoran hacia unos 800 fc (≈8600 lux), y los ti coloreados tienen mayor exigencia de luz que el verde; es poco adecuada para luz solo artificial. NC State: necesita luz brillante indirecta para mantener los colores. Penn State: sombrear en verano y añadir luz en invierno si falta. Discrepancia: NC State y UF/IFAS la listan como tolerante a sombra profunda (contexto exterior/supervivencia); se adopta la opción conservadora para el color y el vigor (luz brillante indirecta). Los colores rojos y rosas dependen de la luz: si la planta 'se pone verde', necesita más luz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4",
+        "F6",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos; regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-20 minutos. Mantener el sustrato ligeramente húmedo pero nunca encharcado y evitar los extremos: UH-CTAHR indica que el secado excesivo entre riegos causa necrosis de puntas y márgenes, y el encharcamiento favorece podredumbres (UF/IFAS, Penn State). Nunca regar por calendario.",
+      "primavera_verano": "Riego regular: comprobar el sustrato cada pocos días; con calor y buena luz suele necesitar riego cuando se secan los 2-3 cm superiores, sin dejar que la maceta se seque por completo (NC State: dejar secar algo entre riegos; RHS: que se seque ligeramente la superficie).",
+      "otono_invierno": "Reducir de finales de otoño a finales de invierno (NC State); la RHS indica regar con moderación o escasamente en invierno. Dejar secar algo más los centímetros superiores, pero no hasta que el cepellón se separe de la maceta; con calefacción el sustrato puede secarse antes de lo esperado: comprobar con el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Especie muy sensible al fluoruro (UH-CTAHR, Penn State, UF/IFAS): el agua de riego debe tener menos de 0,25 ppm de fluoruro. El agua del grifo de Madrid (Canal de Isabel II) tiene fluoruro <0,1 mg/L y es blanda (10-47 mg/L CaCO3), así que cumple ese umbral y NO hay que culparla de las puntas marrones; dejar reposar el agua no elimina la cloramina, pero tampoco hace falta. En otras ubicaciones con agua fluorada o muy cálcica (UH-CTAHR recomienda evitar agua con mucho calcio), usar agua de lluvia, destilada u osmotizada. Las otras fuentes de flúor a vigilar son la perlita y los abonos con superfosfato (Penn State).",
+      "notas": "Agua a temperatura ambiente. No mojar el cogollo central ni regar por encima de las hojas (Penn State: evitar el riego por aspersión por Fusarium y bacteriosis).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "UH-CTAHR: prefiere 40-60 % de humedad relativa; la poca luz con aire caliente y seco provoca caída de hojas. NC State: prefiere humedad alta, puede necesitar humidificador en interior, y las puntas se ponen marrones si el aire es demasiado seco. Usar humidificador o agrupar plantas; pulverizar las hojas no sube la humedad de forma útil (aunque la RHS recomienda pulverizar, se sigue la convención del proyecto). Los valores numéricos proceden solo de UH-CTAHR; NC State coincide cualitativamente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "NC State: no tolera temperaturas por debajo de 10 °C y crece mejor entre 18 y 35 °C (65-95 °F). RHS 'Baptistii': categoría H1B, mínimo 10-15 °C. UH-CTAHR en interior: mantener entre 18 y 29 °C (65-85 °F), evitar zonas frías con corrientes; en exterior resiste breves descensos hasta unos -1 °C (30 °F), dato de jardín en Hawái no aplicable a interior. Se adopta como mínimo el valor más conservador de los mínimos (15 °C, extremo alto del rango H1B de la RHS); el 18 °C de UH-CTAHR es rango de mantenimiento ideal, no mínimo de supervivencia. Por encima de 35 °C con aire seco aparecen puntas secas y caída de hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad sin turba o con turba como máximo al 50-60 % (UH-CTAHR), bien aireado y con buena retención de agua; la RHS recomienda sustrato multiuso sin turba o a base de tierra franca tipo John Innes nº 2, y para macetas a largo plazo John Innes nº 3 con grava fina añadida. Evitar mezclas con mucha perlita (fuente de flúor, Penn State); usar como árido grava fina o arena gruesa. Maceta con agujeros de drenaje.",
+      "ph": "6,0-6,5 (Penn State y UH-CTAHR para reducir la toxicidad por flúor; UH-CTAHR da 5,5-6,5 para cultivo general: se adopta el rango más estrecho y conservador).",
+      "drenaje": "Bueno, imprescindible: nunca dejar la maceta en agua; el encharcamiento favorece Fusarium, Erwinia y Phytophthora (Penn State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes o abono de liberación lenta; sin superfosfato (aporta flúor).",
+      "npk": "Equilibrado o rico en nitrógeno y potasio, p. ej. 20-10-20 o relación 3:1:2 (UH-CTAHR)",
+      "primavera_verano": "Una vez al mes de primavera a finales de verano (RHS), a ¼-½ de la dosis de etiqueta (convención del proyecto) y solo con crecimiento activo, sobre sustrato ya húmedo.",
+      "otono_invierno": "Nada.",
+      "notas": "Penn State: el abonado debe ser moderado; el exceso o el contacto del abono o de abrillantadores de hojas con el cogollo mata las hojas jóvenes. UH-CTAHR: enjuagar el abono líquido que caiga en el cogollo para no quemar la hoja emergente; la falta de magnesio amarillea las hojas viejas y la de potasio apaga su color. NC State: abonar varias veces al año ayuda a mantener los colores. No usar abrillantadores de hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, a una maceta solo 2-5 cm más ancha; en los años sin trasplante, renovar los 5 cm superiores de sustrato en primavera (RHS).",
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte; septiembre-noviembre en el sur).",
+      "senales": "Raíces o rizomas blancos saliendo por los agujeros de drenaje o rodeando el cepellón, agua que atraviesa la maceta sin empapar, o sustrato que se seca en muy pocos días.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible (RHS: no requiere poda), pero sí limpieza de hojas basales amarillas o con manchas y, en plantas altas o desnudas, poda de rejuvenecimiento (UH-CTAHR).",
+      "epoca": "Primavera o principio de verano, con crecimiento activo.",
+      "como": "Cortar o arrancar con cuidado las hojas inferiores amarillas, marrones o con manchas. Para controlar la altura o rejuvenecer, cortar el tallo con herramienta limpia a unos 15 cm del sustrato: brotarán nuevos tallos por debajo del corte (UH-CTAHR); la parte cortada sirve de esqueje. Si el cogollo se seca tras daño por frío, cortar la parte dañada: suele rebrotar (RHS). Usar guantes por la savia irritante.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Noviembre-febrero en el hemisferio norte (mayo-agosto en el sur): no es una dormancia verdadera, sino un parón por menos luz y temperatura.",
+      "cambios": "Riego más escaso según el sustrato (NC State, RHS), sin abono (RHS: abonar solo de primavera a finales de verano), sin trasplantes ni podas fuertes; mantener por encima de 15 °C, lejos de cristales fríos y del chorro de radiadores, y acercarla a la luz (Penn State: añadir luz en invierno si falta).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F5",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes terminales",
+        "trozos de tallo (ti logs)",
+        "división de hijuelos o del rizoma",
+        "acodo aéreo",
+        "semilla"
+      ],
+      "epoca": "Abril-junio en el hemisferio norte (RHS); con calor (21-27 °C) [orientativo, sin fuente prioritaria] enraíza en 2-4 semanas (UH-CTAHR).",
+      "pasos": "1) Esqueje terminal: cortar 10-15 cm de punta (UH-CTAHR: hasta 15 cm de tallo) y quitar todas las hojas salvo el penacho superior (RHS). 2) Trozos de tallo: cortar secciones de 5-7,5 cm con al menos una yema, de tallos jóvenes mejor que leñosos, y enterrarlas en horizontal con la yema apenas visible o en vertical respetando la polaridad (RHS; UH-CTAHR). 3) Plantar en mezcla de turba y arena o sustrato para esquejes, mantener húmedo y en semisombra con calor (propagador calefactado si es posible, RHS); no hace falta hormona; enraízan en 2-4 semanas (UH-CTAHR). 4) En agua: esquejes de al menos 15 cm con 2-3 cm sumergidos, cambiando el agua a menudo, y pasar a maceta antes de que las raíces sean muy largas (UH-CTAHR). 5) Hijuelos: separarlos con raíces en primavera y plantarlos por separado (RHS; NC State: división del rizoma). 6) Semilla: sembrar fresca a unos 16 °C; los colores no se reproducen fieles (RHS; UH-CTAHR).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco (HR por debajo del 40 %, calefacción o verano madrileño), riego irregular con secados excesivos (UH-CTAHR) o sales de abono acumuladas. Es una especie muy sensible al fluoruro (agua >0,25 ppm, perlita, superfosfato), pero en Madrid no se debe atribuir al agua del grifo (fluoruro <0,1 mg/L). Las puntas dañadas no se recuperan."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Toxicidad por flúor procedente de perlita o abonos con superfosfato, pH del sustrato bajo (<6,0), exceso de abono, o secado excesivo entre riegos (UH-CTAHR, Penn State)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Falta de luz: los cultivares rojos y rosas sacan hojas nuevas más verdes y apagadas (UH-CTAHR). También el 'mal color' (granate oscuro sin tonos rosas) por luz, temperatura o abonado inadecuados (Penn State). Acercar a una ventana luminosa."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente (por debajo de unos 150 fc / 1600 lux): crecimiento estirado y pobre en color (UH-CTAHR)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal si es alguna hoja basal vieja de vez en cuando; si son muchas: falta de magnesio (amarilleo amplio de hojas viejas), riego insuficiente o pudrición de raíz o cuello por Fusarium (UH-CTAHR, Penn State)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Cambio brusco a un lugar con poca luz, aire caliente y seco o corrientes frías: UH-CTAHR señala que poca luz, baja humedad y aire caliente y seco provocan caída de hojas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo en cultivares muy coloreados o con franjas blancas, que se queman con facilidad (UH-CTAHR); el sol fuerte también apaga el color (RHS). Típico tras cristal sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Muerte o deformación de hojas muy jóvenes por abono o abrillantador caídos en el cogollo (Penn State); también trips o ácaro blanco (Polyphagotarsonemus latus) en el cogollo, que deforman y abarquillan las hojas nuevas (UH-CTAHR)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus spp.) con aire seco y calor: punteado grisáceo y telaraña en el envés (UH-CTAHR; RHS). Frecuente en Madrid en verano y con calefacción."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Ácaros (punteado amarillento o grisáceo) o trips (punteado plateado con rayas blanquecinas) (UH-CTAHR)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Pseudococcus longispinus y otras) en axilas y envés, a menudo con melaza y fumagina (UH-CTAHR; NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (p. ej. Pinnaspis buxi) en hojas, pecíolos y tallos, con estría amarilla alrededor del punto de fijación (UH-CTAHR; RHS; NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) por sustrato constantemente mojado (UH-CTAHR; NC State). Dejar secar más la capa superior."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State; UH-CTAHR)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca en el envés, con puntos amarillos y fumagina si la población es alta (UH-CTAHR)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha foliar por Fusarium (manchas ovales pardo-rojizas con halo amarillo brillante en puntas de hojas jóvenes) o por Phyllosticta (manchas pequeñas con borde púrpura y halo amarillo en hojas viejas); favorecidas por mojar las hojas (Penn State)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana (Erwinia/Dickeya) con hojas y tallos mojados y viscosos, o Phytophthora en hojas cercanas al sustrato (Penn State). Desechar la planta afectada."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo y cuello por Fusarium o Erwinia: lesiones pardas en la base del tallo, corteza suelta, esquejes que se pudren por la base con margen rojizo o púrpura; por exceso de riego o heridas (Penn State; UH-CTAHR)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato mal drenado: raíces pardas o negras, blandas, que se deshacen (Fusarium, Erwinia) (Penn State; UH-CTAHR)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y HR exterior en torno al 38 %, apartarla del sol directo de mediodía y tarde tras cristales sur y oeste (quemaduras y pérdida de color, sobre todo en cultivares rosas y con franjas blancas): mejor ventana este, o a 1,5-2 m de la ventana sur/oeste o tras cortina fina. Vigilar el sustrato más a menudo (puede secarse los 2-3 cm superiores en 3-5 días): regar a fondo cuando lo pida, sin dejar que se seque del todo para evitar puntas marrones. Si el aire acondicionado o el calor bajan la humedad del 40 %, usar humidificador o agrupar plantas, y revisar el envés por araña roja y trips. Si sale al balcón, solo en sombra luminosa y protegida del viento.",
+    "invierno": "Con calefacción la HR interior baja a menudo del 30 %: humidificador para acercarse al 40-60 %, lejos del chorro de radiadores. No dejarla junto a cristales fríos ni corrientes: mantener por encima de 15 °C (mejor 18 °C). Aprovechar al máximo la luz: acercarla a la ventana sur, donde el sol de invierno es suave y ayuda a conservar los rojos y rosas. Regar menos, solo cuando los 2-3 cm superiores estén secos y la maceta pese poco, y no abonar de noviembre a febrero.",
+    "ubicacion_recomendada": "Estancia luminosa a 1-2 m de una ventana este o junto a ventana sur/oeste con cortina fina (luz brillante indirecta, 5000-10000 lux), con temperatura estable de 18-29 °C, sin corrientes, alejada de radiadores y cristales fríos, y con humidificador en invierno. Fuera del alcance de perros y gatos."
+  },
+  "lagunas": [
+    "Nomenclatura: no se pudo abrir POWO (Kew) por bloqueo Cloudflare. UH-CTAHR y NC State dan como nombre Cordyline fruticosa (L.) A.Chev. con sinónimos Cordyline terminalis, Convallaria fruticosa, Dracaena terminalis, Terminalis fruticosa y Taetsia fruticosa; ASPCA la lista como Cordyline terminalis. No consta cambio de nombre aceptado, pero queda pendiente confirmarlo en POWO.",
+    "No se pudo abrir la ficha del Missouri Botanical Garden ni la nota de investigación UF/IFAS-CFREC 'Cordyline—Ti plant' (RH-91-34; la URL mrec.ifas.ufl.edu/foliage/folnotes/cordylin.htm devuelve 404), que podría dar niveles de luz de producción e interior.",
+    "Los valores numéricos de humedad (40-60 %) e intensidad de luz en interior (75-150 fc mínimo; ≈800 fc óptimo) proceden de una sola fuente prioritaria (UH-CTAHR); las demás coinciden solo cualitativamente.",
+    "La frecuencia de trasplante (cada 2-3 años) solo la da la RHS; ninguna otra fuente prioritaria la cuantifica.",
+    "El umbral de fluoruro (<0,25 ppm) procede de recomendaciones de producción comercial (UH-CTAHR, Penn State); no hay umbral específico para cultivo doméstico.",
+    "Ninguna fuente prioritaria da una temperatura máxima específica de interior; el máximo de 35 °C se toma del rango de crecimiento óptimo de NC State (65-95 °F).",
+    "El tamaño de los cultivares enanos en interior (30-60 cm) no tiene fuente prioritaria."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/cordyline-fruticosa/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University), ficha de Cordyline fruticosa",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ask.ifas.ufl.edu/publication/FP141",
+      "institucion": "UF/IFAS Extension, publicación FPS141 'Cordyline fruticosa: Ti Plant' (rev. 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.ctahr.hawaii.edu/oc/freepubs/pdf/of-33.pdf",
+      "institucion": "University of Hawaiʻi at Mānoa, CTAHR Cooperative Extension, OF-33 'Hawaiian Ti' (Kobayashi et al., 2007)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.psu.edu/cordyline-ti-plant-diseases",
+      "institucion": "Penn State Extension, 'Cordyline (Ti Plant) Diseases' (G. W. Moorman)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/176648/cordyline-fruticosa-baptistii/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de Cordyline fruticosa 'Baptistii'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/advice/profile?pid=543",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo 'How to grow cordyline'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ti-plant",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/cordyline-australis/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University), ficha de Cordyline australis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

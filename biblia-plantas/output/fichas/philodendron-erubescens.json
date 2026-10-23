@@ -1,0 +1,357 @@
+{
+  "nombre_cientifico": "Philodendron erubescens",
+  "nombres_comunes": [
+    "filodendro rojo",
+    "filodendro Pink Princess",
+    "filodendro Birkin",
+    "filodendro de hoja roja",
+    "filodendro ruborizado"
+  ],
+  "familia": "Araceae",
+  "origen": "Colombia, endémica según Kew (Colplanta/POWO: región Caribe y La Guajira, en torno a 520 m) y con origen colombiano también en RHS y NC State. Los cultivares de venta ('Pink Princess', 'Red Emerald', 'Green Emerald', 'White Princess', 'Prince of Orange') son selecciones de vivero; parte de ellos son híbridos (ver lagunas).",
+  "clima_nativo": "Tropical húmedo de selva (bioma 'wet tropical' en Kew), sin heladas. Trepadora que sube a gran altura por los árboles agarrándose con raíces en los nudos (Kew); en su hábitat alcanza unos 18 m (NC State: 60 ft). Recibe luz tamizada por el dosel (NC State: sombra parcial o luz moteada), calor constante y humedad ambiental alta.",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, de margen entero y sin pelos; de ovado-triangulares a sagitadas (en punta de flecha) con base acorazonada: lóbulo anterior triangular que acaba en una punta larga y bruscamente estrechada, y dos lóbulos basales semicirculares separados por un seno (Kew). Haz verde oscuro muy brillante, envés rojo-púrpura, cobrizo o burdeos (NC State, RHS, Clemson). En interior miden unos 23-46 cm (NC State: 9-18 in; RHS: hasta 40 cm; Kew en el hábitat: 15-25 × 12-18 cm). En la especie las hojas nuevas y los tallos jóvenes salen rojizos (Clemson). En 'Red Emerald' las fuentes discrepan: UF/IFAS dice que las hojas jóvenes salen rojo intenso y pasan a verde oscuro; NC State, que salen verde lima, con pecíolos rojo oscuro. Pecíolo púrpura-rojizo, casi tan largo como la lámina (NC State), de 15-25 cm, redondeado por debajo y aplanado por arriba cerca del ápice (Kew).",
+    "nerviacion": "Pinnada, con nervio central marcado y nervios laterales arqueados hacia el margen; en el envés los nervios destacan sobre el fondo rojizo o cobrizo. En 'Burgundy' los nervios son burdeos (Clemson).",
+    "variegacion": "La especie y 'Red Emerald', 'Green Emerald' y 'Burgundy' no son variegadas: verde oscuro con envés y pecíolos rojizos (NC State, Clemson). 'Pink Princess': hojas verde oscuro purpúreo casi negro con manchas, salpicaduras o medias hojas rosas (a veces también crema) y tallos rojo brillante cuando son jóvenes (NC State, RHS); el patrón cambia de una hoja a otra, es inestable y puede volver a verde (S19). 'White Princess': manchas blancas sobre verde (NC State). 'Birkin' (vendido a veces bajo este nombre, ver lagunas): verde oscuro con finas rayas paralelas a los nervios laterales, blanco crema, amarillas o verde claro, más marcadas en hojas maduras (NC State). En 'Prince of Orange' las hojas nuevas salen naranjas y pasan a cobre y verde (NC State, UF/IFAS).",
+    "tallo": "Robusto, trepador, verde rojizo o rojo-púrpura de joven (Clemson, Kew), de unos 1 cm de grosor, con raíces aéreas en los nudos con las que se agarra a tutores (Kew, NC State). Las hojas nuevas salen envueltas en catáfilos (vainas) carnosos y rojizos de 7-10 cm, con dos quillas afiladas en el dorso, que luego se secan y caen (Kew; Clemson para el género). Los cultivares autoerguidos ('Prince of Orange', 'Birkin', 'Red Emerald' según UF/IFAS) tienen el tallo muy corto y las hojas en roseta.",
+    "habito": "Trepadora perennifolia de raíces aéreas; en interior se guía por un tutor de musgo o un enrejado, o se deja extender (NC State). 'Pink Princess' es trepadora o colgante y algo arbustiva (RHS). En interior rara vez florece: espata rojo-burdeos o púrpura (exterior púrpura oscuro, interior carmesí según Kew) que envuelve un espádice blanco (NC State, Kew).",
+    "tamano_adulto_interior": "Unos 90 cm de alto y 40 cm de ancho en una vivienda (NC State: 3 ft × 16 in), más si trepa por un tutor: RHS da 2,5-4 m de altura y 0,5-1 m de anchura bajo cristal, en 5-10 años. 'Pink Princess': 1-1,5 m de alto y 0,5-1 m de ancho (RHS). 'Birkin': de 15 cm a 90 cm de alto y ancho, crecimiento lento (NC State).",
+    "confusiones": [
+      {
+        "especie": "Philodendron hederaceum (filodendro trepador, 'Micans', 'Brasil')",
+        "rasgo_diferenciador": "Hojas acorazonadas mucho más pequeñas (5-10 cm según Clemson) en tallos finos y colgantes, verdes por ambas caras o aterciopeladas con envés cobrizo ('Micans'). P. erubescens tiene hojas de 20-40 cm en punta de flecha, tallo grueso y pecíolos rojo-púrpura largos."
+      },
+      {
+        "especie": "Epipremnum aureum (poto)",
+        "rasgo_diferenciador": "Pecíolo acanalado y sin catáfilo protegiendo la hoja nueva (Clemson); hojas con vetas amarillas o blancas, nunca rosas, y envés verde claro, no rojizo."
+      },
+      {
+        "especie": "Philodendron híbridos autoerguidos ('Rojo Congo', 'Imperial Red', 'Black Cardinal', 'Red Empress', 'Prince of Orange', 'Moonlight')",
+        "rasgo_diferenciador": "Sin tallo trepador: hojas elípticas o lobuladas que salen en roseta desde una base corta (UF/IFAS, Clemson, NC State). Varios se venden como cultivares de P. erubescens aunque UF/IFAS los trata como híbridos; 'Red Empress' es el único con hoja coloreada y lobulada (Clemson)."
+      },
+      {
+        "especie": "Philodendron 'Birkin'",
+        "rasgo_diferenciador": "Porte compacto y autoerguido, sin tallo trepador, y hojas verde oscuro con rayas finas blanco crema siguiendo los nervios laterales (NC State). 'Pink Princess' trepa y sus manchas son rosas e irregulares, no en rayas."
+      },
+      {
+        "especie": "Philodendron 'White Princess' y otros filodendros de variegación blanca",
+        "rasgo_diferenciador": "Manchas blancas o crema sobre verde, sin rosa (NC State). En 'Pink Princess' predominan el rosa y el fondo verde casi negro."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico, presentes en todas las partes de la planta: hojas, tallos, raíces, savia, flores, frutos y semillas (NC State, Clemson, ASPCA para el género Philodendron).",
+    "sintomas": "Perros y gatos (ASPCA, ficha del género Philodendron que incluye los nombres 'Red Emerald' y 'Red Princess'): irritación oral, ardor intenso en boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Personas: irritación de boca y estómago si se ingiere; la savia irrita la piel (dermatitis de contacto) (NC State, gravedad baja). Clemson: ardor e irritación de boca, labios y lengua, babeo, vómitos y dificultad para tragar; mantener fuera del alcance de mascotas y niños pequeños. RHS: nociva si se ingiere e irritante o alergénica para piel y ojos; usar guantes al manipularla, también al podar y sacar esquejes.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F5",
+      "F2",
+      "F3",
+      "F8"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1600,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. Una ventana norte muy luminosa sirve para la forma verde y 'Red Emerald', pero no para 'Pink Princess' ni otros cultivares de color, que necesitan la luz más alta posible sin sol directo fuerte.",
+      "tolera_sol_directo": "No el sol fuerte: NC State indica evitar la luz solar directa, que quema las hojas; UF/IFAS describe quemaduras en el centro y las puntas de la hoja por sol y bordes bronceados por exceso de luz o calor. Un rato de sol suave de primera hora es tolerable. Las zonas rosas de 'Pink Princess' son las que antes se queman.",
+      "notas": "UF/IFAS (género Philodendron, interior): la mayoría tolera niveles tan bajos como 75 fc (≈800 lux), pero con 150 fc o más (≈1600 lux) mantiene color y tamaño de hoja; los cultivares de color ('Red Emerald', 'Prince of Orange', 'Red Empress') requieren luz interior alta para conservar el color y seguir creciendo. RHS: luz brillante filtrada con sombra del sol fuerte (especie) y luz brillante filtrada o indirecta ('Pink Princess'). NC State: sombra parcial o luz moteada; con poca luz 'Birkin' pierde variegación, se alarga y saca hojas pequeñas. lux_min = 150 fc (UF/IFAS); lux_max ≈1000 fc, techo de la luz brillante indirecta en la escala del proyecto. Discrepancia menor: la ficha RHS de la especie indica orientación sur o este y 'sombra parcial', pensando en invernadero británico; se adopta la opción conservadora: sin sol directo fuerte.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F2",
+        "F3",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. Nunca por calendario. No dejar que el cepellón se seque del todo ni que quede encharcado: no dejar la planta nunca con agua en el plato (Clemson).",
+      "primavera_verano": "Con crecimiento activo el sustrato se seca antes: comprobar dedo y peso cada pocos días. Riego moderado a generoso (RHS: 'moderado' en la especie, 'abundante' en 'Pink Princess'), siempre con la capa superior ya seca.",
+      "otono_invierno": "Riego escaso (RHS): dejar secar más el sustrato antes de volver a regar, porque crece despacio y tarda mucho más en secarse. Con calefacción fuerte puede secarse antes: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo. En Madrid (Canal de Isabel II) es blanda y lleva cloramina, que no se elimina dejándola reposar, pero no es causa de puntas marrones. El riesgo real son las sales de abono acumuladas: UF/IFAS recomienda no abonar si la conductividad del sustrato es ≥2,0 dS/m y lavar el sustrato con abundante agua si supera 3,0 dS/m. En la práctica, cada 2-3 meses regar con 2-3 veces el volumen de la maceta para arrastrar sales [orientativo, sin fuente prioritaria].",
+      "notas": "El exceso de riego causa pudrición radicular (NC State, Clemson) y amarilleo de las hojas inferiores con muerte de los ápices (Clemson). Discrepancia: Clemson y UF/IFAS dicen mantener el sustrato 'uniformemente húmedo, sin encharcar'; RHS distingue riego moderado en crecimiento y escaso el resto del año. Se adopta el criterio conservador del proyecto (secar la capa superior antes de regar), que evita la causa nº 1 de muerte. NC State: regar en la base sin mojar las hojas para prevenir manchas foliares.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 55,
+      "notas": "Prefiere humedad alta (NC State), pero los filodendros toleran la humedad baja de la mayoría de las casas (Clemson) y suelen adaptarse a la de una vivienda (NC State, género). NC State da 50-60 % para 'Birkin' e indica que las puntas marrones señalan falta de humedad; ideal_pct es el punto medio de ese rango. UF/IFAS da 60-100 % solo para producción en vivero. Ninguna fuente prioritaria da un mínimo en cifra (ver lagunas). Para subirla, humidificador o agrupar plantas; RHS recomienda pulverizar a diario, pero pulverizar no sube la humedad de forma útil (convención del proyecto) y NC State advierte que mojar las hojas favorece las manchas foliares.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "NC State: prefiere 18-29 °C (65-85 °F) y hay que protegerla de corrientes frías. Clemson: noches de 18-21 °C (65-70 °F) y días de 24-29 °C (75-85 °F). UF/IFAS: en interior 21-27 °C (70-80 °F); en producción la calidad cae cuando el día supera a menudo 35 °C (95 °F) o la noche baja de 18 °C (65 °F); varias horas a 0,5-4,5 °C (33-40 °F) amarillean las hojas inferiores. RHS: H1A, bajo cristal todo el año con mínimas por encima de 15 °C. min_c = 15 °C es el mínimo más alto dado como límite de supervivencia (RHS); el umbral de 18 °C de UF/IFAS es de calidad en vivero y se usa como ideal_min_c. No tolera heladas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F4",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior suelto, rico en materia orgánica y con buen drenaje (NC State, RHS 'Pink Princess'). RHS recomienda para la especie un compost con base de tierra (loam) sin turba. UF/IFAS usa en producción mezclas de turba de esfagno, corteza de pino, vermiculita o perlita, con buena retención de humedad y aireación. Por ejemplo: sustrato universal de interior con un 20-30 % de corteza de pino fina o perlita [orientativo, sin fuente prioritaria]. Maceta siempre con agujeros.",
+      "ph": "6,0-6,5 (UF/IFAS, sustrato de producción). NC State: ácido a neutro; RHS: tolera ácido, neutro o alcalino.",
+      "drenaje": "Bueno, imprescindible: un sustrato que no drena rápido, junto con el riego excesivo, causa la pudrición de raíces (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, diluido; también sirve abono de liberación lenta a dosis baja (RHS, Clemson, UF/IFAS).",
+      "npk": "Proporción 3-1-2 o 3-1-3 (UF/IFAS, producción comercial).",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (aprox. de marzo-abril a septiembre en Madrid). RHS indica abono líquido equilibrado mensual durante el crecimiento; la dosis rebajada es la convención del proyecto.",
+      "otono_invierno": "Nada mientras no haya crecimiento activo (RHS limita el abono al periodo de crecimiento).",
+      "notas": "El exceso de abono curva y pardea las puntas de las hojas (Clemson). No abonar ni trasplantar durante unas 4 semanas tras llevarla a casa (UF/IFAS). Hojas viejas con amarilleo en V desde el pecíolo y nervio central verde: falta de magnesio; hojas nuevas retorcidas en los híbridos: falta de calcio; clorosis con hojas pequeñas: falta de nitrógeno (UF/IFAS). En 'Pink Princess', un exceso de nitrógeno podría favorecer brotes verdes (Epic Gardening, fuente complementaria): otra razón para la dosis baja.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años ('Pink Princess', RHS), o cuando las raíces llenen la maceta (NC State). Pasar a una maceta solo 2-5 cm más ancha [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera, la mejor época según NC State; Clemson admite cualquier estación para plantas apiñadas. Nunca en las primeras 4 semanas tras comprarla (UF/IFAS).",
+      "senales": "Raíces saliendo por los agujeros o formando un ovillo, planta apiñada (NC State, Clemson) y sustrato que se seca en muy pocos días.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F7",
+        "F5",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. RHS no la considera necesaria en 'Pink Princess'; para la especie indica el grupo de poda 11 de trepadoras en primavera (poda ligera de mantenimiento). La poda ayuda a mantener la forma (NC State) y, en las trepadoras, a limitar su altura junto con el tutor (Clemson). En 'Pink Princess' se usa además para quitar brotes que han revertido a verde (ver S19).",
+      "epoca": "Primavera (RHS) o inicio del verano, con crecimiento activo.",
+      "como": "Con tijera limpia y guantes (savia irritante), cortar justo por encima de un nudo. Quitar hojas viejas amarillas o secas desde la base del pecíolo. Si un tallo de 'Pink Princess' saca solo hojas verdes, cortarlo hasta el último nudo con hoja bien variegada para que brote desde tejido variegado (Epic Gardening, complementaria). Las hojas 100 % rosas no hacen fotosíntesis y acaban pardeando; no hay que fomentar tallos solo rosas (Epic Gardening, complementaria). Los trozos cortados con nudo sirven como esquejes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F7",
+        "F5",
+        "F10"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de octubre-noviembre a febrero-marzo en el hemisferio norte; en Madrid, mientras los días son cortos y fríos). En el hemisferio sur, de abril a agosto.",
+      "cambios": "No es un reposo estricto: no pierde hojas, solo crece más despacio. Regar con moderación o escasamente fuera del periodo de crecimiento (RHS), suspender el abono (RHS: abono solo en crecimiento) y mantenerla por encima de 15 °C, lejos de cristales fríos y corrientes (NC State, RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con nudo (apical o de yema axilar)",
+        "acodo (también acodo aéreo)",
+        "semilla (solo producción especializada)"
+      ],
+      "epoca": "Primavera y verano, con crecimiento activo; Clemson admite cualquier estación para esquejes y acodo aéreo.",
+      "pasos": "1) Con guantes y tijera limpia, cortar un trozo de tallo de 10-15 cm con al menos un nudo (mejor con raíz aérea) y una hoja (RHS: esqueje apical o de yema axilar). 2) Enraizar en agua o en sustrato ligero húmedo (turba o fibra de coco con perlita), con calor (21-27 °C) y luz brillante indirecta [orientativo, sin fuente prioritaria]. 3) En el género, la yema brota en 3-5 semanas y enraíza en 4-6 semanas (UF/IFAS, para P. hederaceum). 4) Trasplantar cuando las raíces midan 3-5 cm. Acodo: enterrar o envolver en musgo húmedo un nudo sin separarlo de la planta madre y cortarlo cuando enraíce (RHS, NC State). La semilla (RHS: siembra en superficie a 19-24 °C en primavera) pierde viabilidad rápido y requiere instalaciones especializadas (UF/IFAS). En 'Pink Princess' solo los esquejes con variegación en el tallo y la hoja tienen probabilidad de dar plantas rosas [orientativo, sin fuente prioritaria]; 'Birkin' y los híbridos autoerguidos se multiplican comercialmente por cultivo de tejidos (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por riego excesivo o sustrato que no drena (NC State, Clemson). Es el problema más grave."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores con muerte de ápices por poca luz o exceso de riego (Clemson); también por varias horas a 0,5-4,5 °C junto a un cristal frío (UF/IFAS) o por falta de magnesio (amarilleo en V con nervio central verde, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "'Pink Princess' (y 'Birkin') pierden el rosa o el blanco y sacan hojas verdes con poca luz (NC State para 'Birkin'; UF/IFAS: los cultivares de color necesitan luz interior alta). La variegación de 'Pink Princess' es además inestable y un tallo puede revertir del todo: dar más luz indirecta y cortar el tallo revertido hasta un nudo variegado (Epic Gardening, complementaria)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallos y pecíolos largos, porte abierto y hojas pequeñas (NC State para 'Birkin', UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco (NC State para 'Birkin') o exceso de abono, que curva y pardea las puntas (Clemson); quemadura en puntas de hojas viejas por sales (UF/IFAS). No atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Puntas curvadas y pardas por exceso de abono (Clemson)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo tras el cristal: placas quemadas en el centro y las puntas de la hoja (UF/IFAS); el color se apaga o blanquea con luz excesiva (UF/IFAS). Las zonas rosas de 'Pink Princess' se queman primero."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemadura solar o falta de agua combinada con mucha luz, que necrosa zonas irregulares del margen (UF/IFAS). Las hojas totalmente rosas de 'Pink Princess' pardean y se secan por sí solas al no tener clorofila (Epic Gardening, complementaria)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Márgenes de hojas viejas pardos que avanzan hacia el nervio central por falta de potasio, o bordes bronceados por luz o calor excesivos (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas retorcidas por falta de calcio en los híbridos, o púrpuras, retorcidas y rasgadas por toxicidad de manganeso con pH bajo (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares bacterianas o fúngicas cuando las hojas quedan mojadas; regar en la base y mejorar la ventilación (NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de la calefacción (RHS, NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja o por trips (NC State cita el trips de bandas de invernadero, Hercinothrips femoralis)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en tallos, pecíolos y nervios (RHS, NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y hojas que se están abriendo (NC State, Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle y aire muy seco (≈38 % HR exterior en julio), apartarla al menos 1,5-2 m de ventanas sur y oeste o poner cortina o estor: el sol tras el cristal quema las hojas y sobre todo el rosa de 'Pink Princess' (NC State, UF/IFAS). Por encima de 35 °C la calidad cae y los bordes se broncean (UF/IFAS): buscar la habitación más fresca, sin ponerla en el chorro del aire acondicionado (corrientes, NC State). El sustrato se seca mucho antes: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. En terraza, solo a sombra total y resguardada, y metiéndola antes de que las noches bajen de 15 °C (finales de septiembre o principios de octubre).",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: usar humidificador o agrupar plantas (pulverizar no sirve) y vigilar la araña roja y las puntas secas. No ponerla junto a radiadores ni sobre ellos. Apartarla de cristales fríos y corrientes de puertas y ventanas (NC State): por debajo de 15 °C sufre (RHS) y unas horas a 0,5-4,5 °C amarillean las hojas inferiores (UF/IFAS). Con días cortos, acercarla a la ventana más luminosa (el sol bajo de invierno en ventana sur es tolerable a 1 m), sobre todo 'Pink Princess' para no perder el rosa; espaciar riegos y no abonar.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso a 1-2 m de una ventana este o sur con cortina, con un tutor de musgo o fibra de coco para que trepe y saque hojas mayores. 'Pink Princess' y 'Birkin' en el punto más luminoso sin sol directo de mediodía; la forma verde y 'Red Emerald' toleran algo menos de luz. Lejos de radiadores, salidas de aire acondicionado y del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado Philodendron erubescens K.Koch & Augustin (Index Seminum Berol. 1854, App.: 6, 1855) según Kew (Colplanta, que replica los datos de POWO; la página de POWO dio 403 y no se pudo abrir directamente). Kew no lista sinónimos en la página consultada. RHS da 'Name Status: Correct'.",
+    "Atribución de cultivares: 'Pink Princess' figura en RHS como Philodendron 'Pink Princess' (v) sin especie, aunque NC State y el comercio lo tratan como cultivar de P. erubescens. 'Red Emerald' y 'Green Emerald' son cultivares trepadores de P. erubescens para NC State, pero UF/IFAS (ENH893) los describe como híbridos autoerguidos de hoja elíptica; 'Prince of Orange' figura como cultivar de P. erubescens en NC State y Clemson y como híbrido patentado en UF/IFAS. Parentales sin confirmar en fuente taxonómica.",
+    "'Birkin': se vende a veces como P. erubescens 'Birkin', pero NC State lo trata como híbrido de origen incierto (posible mutación de P. 'Rojo Congo' o cruce de 'Congo' × 'Imperial Green'), introducido en 2010, autoerguido y de crecimiento lento. No hay fuente prioritaria que lo atribuya a P. erubescens; sus cuidados son parecidos, pero el porte y el tamaño difieren.",
+    "ASPCA no tiene ficha específica de P. erubescens: su ficha 'Red Emerald'/'Red Princess' lleva el nombre científico P. bipennifolium y agrupa nombres comunes de varios filodendros. Se usa como evidencia de género (oxalato cálcico) junto a NC State, Clemson y RHS, que sí nombran la especie o el cultivar.",
+    "Sin cifra de humedad mínima en fuentes prioritarias (min_pct = null). El rango de 50-60 % de NC State es para 'Birkin'.",
+    "Sin datos lumínicos en fc/lux específicos de la especie: se usan los del género (UF/IFAS ENH893).",
+    "Mecanismo y estabilidad de la variegación de 'Pink Princess' (quimera, reversión, poda de brotes verdes, efecto del nitrógeno) solo documentados en fuentes complementarias; ninguna fuente prioritaria abierta lo trata en detalle. Tampoco se ha encontrado fuente prioritaria sobre las 'Pink Princess' falsas o tratadas químicamente que circulan en el comercio.",
+    "La hoja de UConn Home & Garden sobre Philodendron enlazada por los buscadores devuelve 404; no se ha usado."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-erubescens/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/69146/philodendron-erubescens/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant Finder, Philodendron erubescens",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/272080/philodendron-pink-princess-v/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant Finder, Philodendron 'Pink Princess' (v)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/EP150/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH893, Cultural Guidelines for Commercial Production of Interiorscape Philodendron (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1509, Philodendron)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-birkin/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, Philodendron 'Birkin'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, género Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/red-emerald",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants ('Red Emerald', género Philodendron)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:87759-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – ColPlanta (datos de POWO/Flora de Colombia), Philodendron erubescens K.Koch & Augustin",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.epicgardening.com/variegation-pink-princess-philodendron/",
+      "institucion": "Epic Gardening (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

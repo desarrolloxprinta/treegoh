@@ -1,0 +1,365 @@
+{
+  "nombre_cientifico": "Monstera deliciosa",
+  "nombres_comunes": [
+    "costilla de Adán",
+    "cerimán",
+    "monstera",
+    "filodendro de hoja partida",
+    "planta queso suizo"
+  ],
+  "familia": "Araceae",
+  "origen": "Selvas tropicales de Centroamérica, desde el sur de México hasta Panamá (NC State, Wisconsin Horticulture, RHS). Penn State la sitúa en las selvas de Centroamérica. Cultivada y naturalizada en muchas regiones tropicales y subtropicales (UConn). Ver lagunas sobre el área nativa exacta según POWO.",
+  "clima_nativo": "Tropical húmedo de selva, sin heladas. Nace como planta terrestre de sotobosque: las plántulas crecen hacia la zona más oscura (fototropismo negativo) hasta encontrar un tronco, por el que trepan y pasan a vida epífita, sujetas con raíces aéreas (NC State, UConn, Wisconsin). En la naturaleza alcanza unos 20 m (NC State: 70 ft). Las heladas la matan y no crece por debajo de 10 °C (Wisconsin).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, de acorazonadas a ovadas o redondeadas, coriáceas, verde oscuro y brillantes, sin pelos, sobre pecíolos largos de unos 30 cm (NC State, Wisconsin, Penn State). La hoja adulta es pinnatífida: tiene perforaciones oblongas (fenestraciones) repartidas por la lámina, y hendiduras profundas que llegan hasta el margen y lo dividen en lóbulos (NC State, Wisconsin, UConn). En interior las hojas miden 30-45 cm de ancho (Penn State: 1 ft o más; Wisconsin: hasta 18 in); en ejemplares grandes y en la naturaleza llegan a 90 cm (RHS, UConn: hasta 36 in). Las hojas juveniles son pequeñas, enteras, sin agujeros ni lóbulos; las perforaciones aparecen al madurar la planta y aumentan con el tamaño de la hoja. Con luz insuficiente no desarrolla perforaciones (Wisconsin). En hojas adultas se ve una articulación engrosada (genículo) en la unión del pecíolo con la lámina (NC State).",
+    "nerviacion": "Pinnada, con un nervio central grueso y nervios laterales paralelos entre sí que van hacia el margen. Las perforaciones nacen junto al nervio central y se ordenan en filas que irradian hacia fuera, entre los nervios laterales (UConn, NC State).",
+    "variegacion": "La especie es verde oscuro uniforme. Cultivares variegados (NC State, Penn State, UConn, Wisconsin, RHS): 'Albo Variegata', con sectores y manchas blancas grandes e irregulares; 'Thai Constellation', con jaspeado y moteado fino blanco crema sobre verde, de porte más compacto por entrenudos más cortos (Penn State); 'Variegata', con jaspeado crema (RHS) y hojas algo más pequeñas que la especie (Wisconsin). Los variegados necesitan más luz que los verdes (NC State).",
+    "tallo": "Grueso, cilíndrico, de 6-7,5 cm de diámetro en plantas adultas (Wisconsin: 2½-3 in), verde, áspero por las cicatrices de las hojas caídas, y rara vez ramificado. Emite raíces aéreas largas, marrones y cordiformes, en forma de tentáculo, que se agarran a soportes y enraízan si llegan al suelo (Wisconsin, Penn State, UConn).",
+    "habito": "Trepadora leñosa perennifolia (liana) que se fija con raíces aéreas. En interior necesita un tutor robusto (de musgo, tablero forrado de esfagno, espaldera o caña) para que los tallos no se partan; si no lo tiene, se tumba y se extiende. Al trepar por un tutor de musgo las hojas crecen mucho más (NC State, Penn State, UConn, Wisconsin). Se vende a menudo con varios tallos en una maceta, con aspecto de arbusto (UConn). En interior casi nunca florece; la inflorescencia es una espata blanco crema de hasta 30 cm con un espádice grueso, y el fruto, verde y cubierto de placas hexagonales, tarda más de un año en madurar (NC State, Wisconsin, UConn).",
+    "tamano_adulto_interior": "1,8-2,4 m de alto en interior (NC State y Penn State: 6-8 ft), con 1,5-2,5 m de anchura (RHS). Puede llegar a 4-8 m si tiene espacio y soporte (RHS). Hojas de 30-45 cm en interior, hasta 90 cm en ejemplares grandes. Crecimiento rápido (NC State); tarda 10-20 años en alcanzar su tamaño máximo (RHS).",
+    "confusiones": [
+      {
+        "especie": "Thaumatophyllum bipinnatifidum (sin. Philodendron bipinnatifidum, Philodendron selloum; filodendro selloum)",
+        "rasgo_diferenciador": "Sus hojas son muy grandes y profundamente lobuladas, pero sin perforaciones cerradas dentro de la lámina: solo tiene lóbulos que llegan al margen, a menudo ondulados. No trepa como la monstera: tiene un tronco corto y erguido, con cicatrices foliares muy marcadas rodeadas de escamas rígidas, y estípulas grandes y libres (NC State). En Monstera deliciosa la hoja adulta tiene agujeros oblongos dentro de la lámina, además de las hendiduras, y el tallo es trepador, con raíces aéreas largas."
+      },
+      {
+        "especie": "Rhaphidophora tetrasperma (minimonstera, 'Monstera Ginny')",
+        "rasgo_diferenciador": "Mucho más pequeña: hojas de 15-30 cm (NC State: 6-12 in), ovadas a lanceoladas, divididas en segmentos estrechos casi hasta el nervio central, y tallos delgados (NC State). Monstera deliciosa tiene hojas acorazonadas mucho mayores, con perforaciones oblongas dentro de la lámina además de las hendiduras, y un tallo grueso de varios centímetros."
+      },
+      {
+        "especie": "Monstera adansonii (monstera de Adanson, 'cinco agujeros')",
+        "rasgo_diferenciador": "Planta más pequeña y densa, de tallos finos; sus hojas son mucho más pequeñas y finas, con agujeros ovalados cerrados dentro de la lámina y el margen normalmente entero, sin hendiduras hasta el borde (Penn State, NC State). En Monstera deliciosa adulta las hendiduras llegan al margen y la hoja es gruesa y coriácea."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico en forma de aguja (rafidios) en todas las partes de la planta salvo el fruto totalmente maduro; NC State apunta posibles otras toxinas no identificadas (ASPCA, NC State, Penn State, Wisconsin).",
+    "sintomas": "Animales (ASPCA): irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Personas (NC State, gravedad baja): ardor intenso de boca, lengua y garganta, náuseas, vómitos, dificultad para tragar, babeo y diarrea; la savia puede causar dermatitis de contacto e irritación de ojos (NC State, Penn State, RHS). El fruto verde, con las placas aún pegadas, contiene oxalato suficiente para irritar la garganta de forma inmediata y dolorosa (Wisconsin, UConn). Usar guantes al podar o manipular la planta (Penn State, RHS). Si hay ingestión, enjuagar la boca y consultar con el veterinario o con un centro de información toxicológica.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F2",
+      "F4",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana luminosa, a 1-2 m de una ventana este u oeste, o detrás de una cortina fina en ventanas sur. Una ventana norte solo sirve pegada al cristal, y suele quedarse corta para que salgan hojas perforadas.",
+      "tolera_sol_directo": "Solo el sol suave de invierno o de primera hora de la mañana. El sol directo fuerte quema las hojas grandes con facilidad; cualquier aumento de luz (sacarla al exterior, cambiar de ventana) debe hacerse de forma gradual (UConn, Wisconsin).",
+      "notas": "Rango en la escala del proyecto: de luz media alta (100 fc, 1076 lux, mínimo para mantenerla) a brillante indirecta (500-1000 fc, 5380-10760 lux, óptimo para que crezca y perfore las hojas). Con poca luz se vuelve 'larguirucha' (entrenudos largos) y las hojas nuevas no se perforan (Penn State, Wisconsin). Los cultivares variegados necesitan más luz que los verdes (NC State). Contradicción entre fuentes prioritarias: NC State, Penn State y RHS piden luz brillante sin sol directo; Wisconsin y Texas A&M aceptan sol directo en invierno; UConn habla de 3-6 h de sol directo al día. Se adopta la opción más conservadora: luz brillante indirecta todo el año, con el sol suave de invierno como único sol directo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F4",
+        "F3",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco al tacto a 2-3 cm de profundidad, o a 5 cm en macetas grandes (lo habitual en ejemplares adultos), y la maceta pese claramente menos que recién regada. Las fuentes dan márgenes parecidos: dejar secar el cuarto o tercio superior del sustrato (NC State), los 2,5-5 cm superiores (Penn State) o los 5-7,5 cm superiores (UConn). Entonces regar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato a los 15-30 minutos. Nunca regar por calendario. Si tiene tutor de musgo, humedecerlo también (Wisconsin).",
+      "primavera_verano": "Con crecimiento activo y calor el sustrato se seca antes y el riego es más frecuente. Comprobar con el dedo y el peso cada pocos días, sobre todo en olas de calor. Mantenerla un poco seca no la mata, pero frena su crecimiento (Wisconsin).",
+      "otono_invierno": "Regar menos: el crecimiento se frena y el sustrato tarda más en secarse. Mantener el sustrato apenas húmedo (RHS), dejando secar la capa superior más a fondo antes de volver a regar. UConn advierte que es más propensa a pudriciones de raíz en la estación fría. Con calefacción fuerte se seca antes de lo esperado: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo. En Madrid (Canal de Isabel II) el agua es blanda, con cloramina, que no se elimina dejándola reposar, y casi sin flúor; no es la causa de puntas o bordes marrones. Mayor riesgo: sales de abono, porque la monstera se quema con facilidad cuando hay muchas sales en el sustrato (UConn). Cada 2-3 meses, regar con 2-3 veces el volumen de la maceta para arrastrar las sales.",
+      "notas": "El exceso de riego causa pudrición de raíz (Penn State) y es el origen más habitual de la pudrición de raíz y tallo en interior (UConn). Si las hojas 'sudan' (gotitas de agua en el borde o la punta), el sustrato está demasiado húmedo: reducir el riego para prevenir la pudrición (Wisconsin). Nunca dejar la maceta en agua estancada (UConn).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "Prefiere humedad de moderada a alta (RHS, NC State), mejor por encima del 50 % (Penn State). Con humedad demasiado baja se secan los bordes de las hojas (Wisconsin). Es de las plantas que agradecen un humidificador cerca si el ambiente es muy seco (Penn State); también ayuda agrupar plantas. Pulverizar las hojas no sube la humedad de forma útil y UConn lo desaconseja porque favorece la antracnosis. Ninguna fuente prioritaria da un mínimo numérico (ver lagunas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 29,
+      "notas": "Ideal 16-29 °C (NC State y Penn State: 60-85 °F). No crece por debajo de 10 °C y la helada la mata (Wisconsin). UConn permite sacarla al exterior en verano mientras no baje de 7 °C (45 °F), pero cualquier exposición prolongada a temperaturas más bajas causa daños por frío. La RHS la clasifica como H1B (puede estar fuera en verano con mínimas de 10-15 °C) y pide no menos de 18 °C si se mantiene siempre en exterior. Se adopta 10 °C como mínimo absoluto. No soporta las corrientes de aire frío (Penn State). Ninguna fuente prioritaria da una máxima tolerada (ver lagunas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior que drene bien y rico en materia orgánica (UConn, Penn State). Se puede añadir corteza, perlita o carbón vegetal a un sustrato comercial (Penn State). La RHS recomienda un sustrato con base de tierra franca y sin turba. Para la monstera conviene una mezcla gruesa y aireada, porque es propensa a las pudriciones de raíz.",
+      "ph": "6,0-8,0 (rango 'neutro' según NC State y Penn State)",
+      "drenaje": "Imprescindible: maceta con agujeros de drenaje, sustrato que drene bien y nunca agua estancada en el plato (UConn, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS, Penn State).",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo, de primavera a finales de verano: ¼-½ de la dosis de la etiqueta, una vez al mes (criterio del proyecto, compatible con la RHS, que indica abono equilibrado mensual durante el crecimiento).",
+      "otono_invierno": "No abonar mientras no haya crecimiento activo.",
+      "notas": "La monstera se quema con facilidad si el sustrato acumula sales, aunque tolera abonados regulares cuando está en crecimiento activo (UConn). Contradicción entre fuentes prioritarias: Penn State aconseja abonar cada dos semanas en temporada de crecimiento y una vez al mes en invierno; la RHS, abono mensual solo durante el crecimiento; y Wisconsin, abonar regularmente de primavera a otoño. Se adopta la opción más conservadora para la planta: dosis reducida, mensual y solo con crecimiento activo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces ocupen el fondo y los laterales de la maceta, subiendo un tamaño cada vez. Tolera mucho mejor estar algo apretada que estar en una maceta demasiado grande (UConn). En plantas jóvenes, que crecen deprisa, esto ocurre a menudo y conviene darle espacio a las raíces para que saque hojas grandes (Wisconsin). Ninguna fuente da un intervalo fijo en años.",
+      "epoca": "Primavera (NC State).",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, sustrato que se seca muy rápido tras el riego, planta inestable que vuelca, crecimiento frenado en plena temporada. Al trasplantar, los tallos con raíces aéreas formadas se pueden enterrar 5-7,5 cm hasta el primer nudo con poco riesgo de pudrición, pero sin enterrar las yemas de crecimiento (UConn). Aprovechar para poner un tutor robusto clavado en la maceta (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Solo para controlar el tamaño, retirar hojas dañadas o viejas, o guiar los tallos al tutor. Rara vez se ramifica (Wisconsin).",
+      "epoca": "Primavera (NC State).",
+      "como": "Con guantes, porque la savia irrita la piel y los ojos (Penn State, RHS). Cortar con herramienta limpia y afilada justo por encima de un nudo; las puntas cortadas que lleven un nudo con raíz aérea sirven como esquejes. Atar los tallos al tutor con cuidado, usando sus raíces aéreas o el propio tallo (Penn State). Limpiar el polvo de las hojas de vez en cuando (NC State, Penn State, Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene un reposo verdadero, pero en otoño-invierno, con menos luz, crece más despacio: regar menos (Wisconsin), mantener el sustrato apenas húmedo (RHS) y no abonar. Mantenerla por encima de 10 °C y lejos de corrientes frías.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con nudo y raíz aérea",
+        "esqueje apical",
+        "acodo aéreo",
+        "acodo simple",
+        "trozos de tallo",
+        "semilla"
+      ],
+      "epoca": "Cualquier época del año (Wisconsin); mejor en primavera, con calor y crecimiento activo (Texas A&M).",
+      "pasos": "1) Esqueje: cortar la punta del tallo justo por debajo de una raíz aérea, dejando al menos un nudo y, a ser posible, dos hojas y varias raíces aéreas (Wisconsin, Texas A&M, UConn). 2) Plantarlo en una maceta pequeña (unos 10 cm) con una mezcla ligera; Texas A&M usa partes iguales de turba y arena. Mantenerlo con calor, luz indirecta y el sustrato apenas húmedo hasta que enraíce. 3) Trozos de tallo: cortar el tallo en tramos de unos 30 cm, presionarlos hasta la mitad sobre la superficie de un sustrato de enraizamiento y trasplantarlos cuando hayan echado raíces (Wisconsin). 4) Acodo aéreo o simple: es el método más fácil junto con el esqueje (Penn State, NC State). Se hace enraizar el tallo en la planta madre, envolviendo un nudo con esfagno húmedo o enterrándolo, y se corta cuando tenga raíces. 5) Semilla: posible pero poco práctica; las plántulas necesitan calor y humedad y crecen despacio (Wisconsin, UConn, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F2",
+        "F1",
+        "F7",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego, sustrato que no drena o maceta en agua estancada; más frecuente en la estación fría. Las raíces quedan marrones o negras y blandas (UConn, Penn State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo: el tejido podrido rodea el tallo a ras de sustrato. Se asocia al exceso de riego y aparece junto a la pudrición de raíz (UConn)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas y tallos marchitos y caídos por pudrición de raíz y tallo (UConn); con menos frecuencia, por sustrato totalmente seco."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes de las hojas marrones por humedad ambiental demasiado baja (Wisconsin), muy típico en invierno con calefacción. También puede deberse a antracnosis, que empieza como amarilleo en los bordes y pasa a pardo (UConn)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas y bordes quemados por sales de abono acumuladas: la monstera se quema con facilidad cuando hay muchas sales en el sustrato (UConn). Corregir regando a fondo y reduciendo el abono."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana: manchas marrón oscuro con borde amarillo, de tamaño parecido y a veces con exudado pegajoso. Se transmite con el agua; evitar frío, hacinamiento y mojar las hojas, y mejorar la ventilación. UConn no recomienda tratamientos químicos (UConn)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en la lámina por sol directo fuerte o por un cambio brusco de luz; las hojas grandes se queman con facilidad (UConn, Wisconsin). También por antracnosis, que avanza de los bordes hacia el interior (UConn)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas descoloridas o quemadas tras ponerla al sol o sacarla al exterior sin aclimatarla poco a poco (UConn, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Planta larguirucha, con entrenudos largos, por falta de luz (Penn State)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas pequeñas, enteras y sin perforaciones por falta de luz: con luz insuficiente no desarrolla fenestraciones (Wisconsin). En plantas jóvenes es normal que las hojas sean pequeñas y enteras; trepar por un tutor de musgo ayuda a que salgan hojas mayores (UConn)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento frenado si se mantiene demasiado seca (Wisconsin), con poca luz o en una maceta sin espacio para las raíces. Las cochinillas, los pulgones y las cochinillas de escudo también lo frenan (UConn)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino blanquecino en las hojas por araña roja (UConn); los trips, citados como plaga de la monstera por Penn State, dan un punteado plateado parecido."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña fina entre hojas y tallos por araña roja, sobre todo con aire seco. Revisar el envés (UConn)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa: cuerpos blancos cerosos y masas de huevos algodonosas en las grietas de la planta. Causa amarilleo y frena el crecimiento (UConn, Penn State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo blandas (cochinilla parda blanda, cochinilla hemisférica): bultos marrones o beige en hojas y tallos (UConn, Penn State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en los brotes y hojas nuevas, que son más vulnerables que las hojas viejas de cutícula gruesa y cerosa (UConn, Penn State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa producida por pulgones, cochinillas algodonosas o cochinillas de escudo (UConn)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla o fumagina que crece sobre la melaza de pulgones y cochinillas; los pulgones causan negrilla intensa (UConn)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (Penn State), favorecidos por un sustrato que se mantiene húmedo y rico en materia orgánica."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla del sol directo en ventanas sur y oeste: ponerla detrás de una cortina fina o a 1-2 m del cristal. Sus hojas grandes se queman con facilidad, y en ventanas al sol la temperatura junto al cristal supera de sobra los 29 °C, el máximo de su rango ideal. Si se saca a una terraza o balcón, que sea a sombra luminosa y aclimatándola poco a poco (UConn, Wisconsin). El calor y el aire seco (HR exterior en torno al 38 % en julio) secan el sustrato mucho más deprisa: comprobar a diario en olas de calor con el dedo (5 cm en maceta grande) y el peso, sin regar por calendario. Con aire seco aumenta el riesgo de araña roja: revisar el envés. Para la humedad, usar humidificador o agrupar plantas, no pulverizar. Abono a dosis reducida, una vez al mes, mientras crezca.",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %, muy por debajo de lo que prefiere (más del 50 %): aparecen bordes marrones (Wisconsin) y araña roja. Poner un humidificador cerca o agruparla con otras plantas, lejos de radiadores y salidas de aire caliente. Junto a cristales fríos, separarla de la ventana por la noche o comprobar que no baja de 10 °C, y evitar corrientes frías de puertas y ventanas (Penn State). Puede recibir el sol suave de invierno en una ventana sur o este. Regar menos y mantener el sustrato apenas húmedo; la calefacción puede secarlo antes de lo esperado, así que conviene guiarse por el dedo y el peso. No abonar.",
+    "ubicacion_recomendada": "Salón o estancia amplia y luminosa, a 1-2 m de una ventana este u oeste o detrás de una cortina fina en una ventana sur. Necesita espacio (1,8-2,4 m de alto y otro tanto de ancho) y un tutor robusto de musgo o similar. Lejos de radiadores, aire acondicionado directo y corrientes. Fuera del alcance de perros, gatos y niños pequeños, porque es tóxica."
+  },
+  "lagunas": [
+    "POWO (Kew) no se ha podido abrir (bloqueo Cloudflare/403). Según el resumen del buscador, POWO acepta Monstera deliciosa Liebm. (1849), con Monstera lennea K.Koch como sinónimo, y limita el área nativa a México (Veracruz, Oaxaca, Chiapas) y Guatemala, dando Costa Rica y Honduras como áreas de introducción. NC State, Wisconsin y la RHS dicen 'de México a Panamá'. No se ha verificado, y el origen se deja como 'sur de México a Panamá' según las fuentes abiertas.",
+    "El nombre aceptado actual de Philodendron bipinnatifidum (NC State usa ese nombre en su ficha) es Thaumatophyllum bipinnatifidum según el encargo; no se ha podido comprobar en POWO por el bloqueo.",
+    "Ninguna fuente prioritaria da una humedad mínima numérica; solo Penn State da un umbral preferido (>50 %). min_pct queda null.",
+    "Ninguna fuente prioritaria da una temperatura máxima tolerada; max_c queda null. El rango ideal llega hasta 29 °C (85 °F).",
+    "No se han encontrado valores de iluminación en lux o pie-candelas en fuentes prioritarias para esta especie; lux_min y lux_max se derivan de la escala del proyecto a partir de las descripciones cualitativas ('luz brillante indirecta', 'se vuelve larguirucha con poca luz').",
+    "Ninguna fuente prioritaria da la proporción NPK recomendada (solo 'abono equilibrado'); npk queda null.",
+    "Ninguna fuente prioritaria indica cada cuántos años trasplantar; se usa el criterio de UConn (cuando las raíces llegan al fondo y los laterales).",
+    "No se ha encontrado en fuentes prioritarias si se pueden cortar las raíces aéreas sin dañar la planta, ni datos sobre la reversión a verde de los cultivares variegados ('Albo Variegata', 'Thai Constellation'); no se incluye S19.",
+    "Pet Poison Helpline y la ficha EDIS de UF/IFAS (HS1071) no se han abierto; la toxicidad se respalda con ASPCA, NC State, Penn State, Wisconsin y RHS.",
+    "La ficha de Missouri Botanical Garden no se ha localizado (la URL probada devolvía una página sin la ficha)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://extension.psu.edu/monstera-as-a-houseplant",
+      "institucion": "Penn State Extension – Monstera as a Houseplant (Penn State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/monstera-deliciosa",
+      "institucion": "University of Connecticut – Home & Garden Education Center (UConn Extension)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "institucion": "University of Wisconsin–Madison Division of Extension – Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/11192/monstera-deliciosa/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Monstera deliciosa",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Cutleaf Philodendron, Monstera deliciosa)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://aggie-horticulture.tamu.edu/ornamental/a-reference-guide-to-plant-care-handling-and-merchandising/selected-foliage-flowering-plants/foliage-plants/split-leaf-philodendron",
+      "institucion": "Texas A&M AgriLife Extension – Aggie Horticulture, Reference Guide to Plant Care (Split-Leaf Philodendron)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-adansonii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Monstera adansonii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://plants.ces.ncsu.edu/plants/rhaphidophora-tetrasperma/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Rhaphidophora tetrasperma)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://plants.ces.ncsu.edu/plants/thaumatophyllum-bipinnatifidum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Philodendron/Thaumatophyllum bipinnatifidum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

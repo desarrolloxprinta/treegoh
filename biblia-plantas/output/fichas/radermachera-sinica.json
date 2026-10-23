@@ -1,0 +1,374 @@
+{
+  "nombre_cientifico": "Radermachera sinica",
+  "nombres_comunes": [
+    "radermachera",
+    "árbol serpiente",
+    "fresno de China",
+    "china doll",
+    "árbol esmeralda"
+  ],
+  "familia": "Bignoniaceae",
+  "origen": "Nombre aceptado: Radermachera sinica (Hance) Hemsl. (POWO, Kew). Basiónimo: Stereospermum sinicum Hance (MBG; WRA). Otros sinónimos citados: Radermachera borii C.E.C. Fisch. y Radermachera tonkinensis Dop (fuente complementaria). Nativa del Himalaya oriental (Assam), centro-sur y sureste de China, Myanmar, Vietnam y Taiwán (POWO); MBG y RHS la sitúan en las montañas subtropicales del sur de China y Taiwán. Introducida en los estados del Golfo de EE. UU. (POWO); en vías de naturalización en Florida y Oahu (Hawái) (WRA).",
+  "clima_nativo": "Subtropical húmedo de montaña: árbol perennifolio de laderas y bosques entre 300 y 800 m de altitud (Flora of China, citada en el informe WRA); NParks lo describe como especie de selva primaria. No tolera heladas (MBG; RHS H1B). En su hábitat llega a 10-30 m de altura.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas opuestas, compuestas, bipinnadas o tripinnadas (KPU; RHS; Flora of China), de 20-70 cm de largo, con muchos folíolos. Folíolos ovados a ovado-lanceolados, de 2-7 cm de largo y 2-3,5 cm de ancho (KPU: 3-4 x 2-3 cm; MBG: hasta 5 cm), lisos, sin pelos, verde brillante a verde oscuro, de margen entero o con algún diente aislado, base ancha en cuña y punta alargada en cola (caudado-acuminada). Aspecto general de encaje fino o 'helecho arbóreo'.",
+    "nerviacion": "Pinnada en cada folíolo: nervio central marcado y 5-6 nervios laterales por lado (Flora of China, citada en WRA). Raquis de la hoja de unos 30 cm (NParks; Flora of China); peciólulos laterales muy cortos (<5 mm) y el terminal de 1-2 cm.",
+    "variegacion": "Forma tipo totalmente verde y brillante. Las fuentes prioritarias consultadas no documentan cultivares variegados de interior; los cultivares 'Summerscent' (de exterior, en climas sin heladas) también son verdes.",
+    "tallo": "Tallos erguidos, verdes y tiernos cuando son jóvenes, que se lignifican y se vuelven grisáceos con la edad. En las plantas de vivero suele haber varios tallos (plantas de semilla) juntos en la misma maceta (Curtis's Botanical Magazine, citado en WRA), lo que da una mata densa.",
+    "habito": "Arbolito o arbusto perennifolio, erguido y de copa ovalada, de textura fina (KPU; RHS). Crecimiento moderado a rápido; con poca luz se alarga (se 'espiga') y pierde folíolos desde abajo, por lo que conviene despuntar (MBG; RHS). En interior casi nunca florece; en exterior da flores blancas o amarillo pálido en forma de trompeta o campana, de 6-8 cm, nocturnas y perfumadas, y cápsulas largas y retorcidas que dan el nombre de 'árbol serpiente' (MBG; NParks; Wikipedia).",
+    "tamano_adulto_interior": "Normalmente 1,2-1,8 m (MBG: 4-6 pies) y hasta 1,5-2,5 m de alto por 1-1,5 m de ancho al cabo de 5-10 años (RHS). Las plantas de venta habitual miden 20-60 cm (KPU indica 0,4-0,7 m para ejemplares de maceta).",
+    "confusiones": [
+      {
+        "especie": "Polyscias fruticosa y Polyscias spp. (aralia ming)",
+        "rasgo_diferenciador": "Las Polyscias (Araliaceae) tienen hojas alternas, a menudo con folíolos dentados, recortados o rizados, y suelen oler a resina al frotarlas; la radermachera tiene hojas opuestas con folíolos lisos, enteros, brillantes y de punta alargada en cola."
+      },
+      {
+        "especie": "Jacaranda mimosifolia (jacarandá)",
+        "rasgo_diferenciador": "Misma familia y también bipinnada, pero los folíolos del jacarandá son diminutos (menos de 1 cm) y muy numerosos, de aspecto plumoso o de mimosa; los de la radermachera miden 2-7 cm."
+      },
+      {
+        "especie": "Melia azedarach (cinamomo, árbol del paraíso)",
+        "rasgo_diferenciador": "Hojas bipinnadas pero alternas y con folíolos de margen claramente aserrado; la radermachera tiene hojas opuestas y folíolos de margen entero. El cinamomo es árbol caducifolio de exterior, raro como planta de interior."
+      },
+      {
+        "especie": "Zamioculcas zamiifolia",
+        "rasgo_diferenciador": "Hoja pinnada simple (no bipinnada) que nace directamente del sustrato desde un rizoma, con folíolos gruesos, carnosos y céreos y un peciolo hinchado; la radermachera tiene tallos leñosos ramificados y folíolos finos."
+      },
+      {
+        "especie": "Schefflera arboricola (cheflera)",
+        "rasgo_diferenciador": "Hojas palmeadas (folíolos que salen todos de un mismo punto, como dedos), alternas; la radermachera tiene hojas divididas a lo largo de un raquis (pinnadas) y opuestas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No hay ficha de esta especie en ASPCA (no aparece en sus listas de plantas tóxicas ni no tóxicas para perros y gatos) ni en Pet Poison Helpline. El informe de riesgo WRA de Hawái revisó dos obras de referencia de plantas venenosas (Wagstaff 2008, International poisonous plants checklist; Quattrocchi 2012, CRC World Dictionary of Medicinal and Poisonous Plants) y no encontró registros de toxicidad para animales ni para personas. La ausencia de registros NO equivale a 'no tóxica': algunos vendedores la anuncian como apta para mascotas sin citar fuente, y una web de alimentación de conejos la desaconseja también sin fuente. La app no debe afirmar que es segura. Ante ingestión con síntomas (vómitos, diarrea, babeo), llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F10",
+      "F11",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 2420,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana este u oeste, o sur con cortina fina que filtre el sol de mediodía (MBG: varias horas al día de sol filtrado por cortina en ventanas este, oeste o sur; RHS: orientación este, sur u oeste, sitio resguardado). Norte solo si se complementa con luz artificial.",
+      "tolera_sol_directo": "Solo sol suave o filtrado (primeras horas de la mañana o tras cortina). MBG pide evitar el sol directo pleno en interior. RHS la da como 'pleno sol a semisombra' pero refiriéndose al cultivo en exterior; KPU indica que tolera pleno sol solo si el sustrato se mantiene húmedo.",
+      "notas": "UF/IFAS (RH-93-15) fija en 225 fc (≈2420 lux) el mínimo recomendado para plantas aclimatadas de interior: tras 180 días, las plantas a 50 fc (≈540 lux) estaban en mal estado y solo las de 200 fc se consideraron atractivas; calidad, altura y peso aumentaron con la luz. En vivero crece mejor con 2000-3000 fc (≈21 500-32 300 lux, UF/IFAS RH-91-11), mucho más de lo que hay en una casa: al llegar a casa pierde luz de golpe y es normal que suelte folíolos. Por eso interesa darle la máxima luz indirecta disponible (escala del proyecto: brillante indirecta 500-1000 fc). lux_max = 10 760 lux (1000 fc), límite superior de la luz brillante indirecta del proyecto; por encima, solo con sol filtrado y sustrato siempre húmedo. Poca luz = tallos espigados y caída de hojas desde abajo (MBG: podar para evitar el ahilado).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F2",
+        "F1",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato uniformemente húmedo pero nunca encharcado (MBG; RHS). Comprobar con el dedo a 2-3 cm: regar cuando esos 2-3 cm superiores empiecen a estar secos al tacto, sin esperar a que se seque toda la maceta (MBG: no dejar que el sustrato se seque). Confirmar con el peso: una maceta que pesa claramente menos que recién regada pide agua. Regar a fondo hasta que salga por el drenaje y vaciar el plato a los 15-20 minutos. Nunca por calendario.",
+      "primavera_verano": "Consumo alto: el gasto de agua sube mucho con la luz (UF/IFAS RH-93-15: con más luz, más agua; en ese ensayo, con maceta autorriego a 200 fc, fue la que más agua consumió de las cuatro especies probadas). Comprobar el sustrato 2-3 veces por semana con calor; en Madrid con 35-40 °C puede pedir agua cada pocos días. Si se marchita, comprobar primero el sustrato: lacia con sustrato seco = falta de agua; lacia con sustrato mojado = posible pudrición de raíz.",
+      "otono_invierno": "Menos luz = menos consumo (UF/IFAS RH-93-15). Seguir comprobando con dedo y peso y espaciar riegos, pero sin dejar secar del todo: con calefacción el sustrato puede secarse igual de rápido que en verano. Agua a temperatura ambiente.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid apta (Canal de Isabel II: blanda, 10-47 mg/L CaCO3, fluoruro <0,1 mg/L; desinfección con cloramina, que no se elimina dejando reposar el agua). Si aparecen puntas o bordes marrones, revisar acumulación de sales de abono, riego irregular o aire seco, no el agua de Madrid. Lavar el sustrato con riego abundante cada pocos meses si se abona.",
+      "notas": "Doble sensibilidad: el encharcamiento favorece la pudrición de raíz y cuello por Phytophthora (UF/IFAS RH-91-11, que señala que el exceso de riego la agrava) y RHS advierte de que las raíces se pudren si está demasiado húmeda; la sequía provoca caída masiva de folíolos (MBG: no dejar secar). Es la especie de interior en la que más castiga el riego irregular.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "MBG indica que tolera el aire seco de la mayoría de las casas. Ninguna fuente prioritaria da un mínimo numérico. ideal_pct 50 %: es la humedad del ensayo de UF/IFAS (RH-93-15, 50 ± 5 %) en el que las plantas con buena luz se mantuvieron bien 180 días [orientativo, no es un óptimo determinado]. MBG recomienda pulverizar las hojas, pero según el criterio del proyecto pulverizar no sube la humedad de forma útil; si el ambiente baja del 30 % (calefacción en Madrid), usar humidificador o agrupar plantas. El aire seco favorece la araña roja (MBG la cita como plaga a vigilar en interior).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 24,
+      "notas": "Ideal de MBG: 21-24 °C de día (70-75 °F) y 16-18 °C de noche (60-65 °F). Mínimo: RHS la clasifica H1B (necesita protección con mínimos de unos 10-15 °C); se adopta 15 °C, el valor más conservador. KPU da zona USDA 10 (-1 a 4 °C), pero es resistencia de exterior en clima sin heladas y no aplica a interior. No tolera heladas (MBG). No hay máximo en fuentes prioritarias (laguna): calor por encima de unos 30 °C con aire seco aumenta el gasto de agua y el riesgo de caída de folíolos [orientativo, sin fuente prioritaria]. Muy sensible al etileno (UF/IFAS RH-91-11: con 2 mL de etileno perdió todos los folíolos en 22 horas); la caída de folíolos inducida por etileno depende de la temperatura (Labouriau y Høyer 1999, Acta Hort. 543). En casa: no ponerla junto a fruta madurando (plátanos, manzanas), estufas de gas o humos. Evitar corrientes de puertas y cambios bruscos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F12",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad (RHS: multiusos sin turba) con un 20-30 % de arena gruesa o grava hortícola para mejorar el drenaje [proporción orientativa, sin fuente prioritaria]. MBG prefiere una mezcla con base de tierra (soil-based). En los ensayos de UF/IFAS se cultivó en mezcla comercial de turba para macetas.",
+      "ph": "Neutro (RHS). Sin rango numérico en fuentes prioritarias.",
+      "drenaje": "Imprescindible: maceta con agujeros y sustrato que drene bien (RHS; MBG; KPU). Sin capa de grava en el fondo; vaciar el plato tras regar. El encharcamiento favorece Phytophthora (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido completo para plantas verdes, con algo más de nitrógeno que de potasio.",
+      "npk": "Relación aproximada 3-1-2 (en vivero, UF/IFAS usa 9-3-6 o 19-6-12)",
+      "primavera_verano": "Con crecimiento activo (marzo-septiembre en Madrid): ¼-½ de la dosis de la etiqueta, una vez al mes. UF/IFAS indica que crece rápido en un amplio rango de abonado, pero sus dosis son de producción en invernadero con mucha luz y no deben trasladarse a una casa.",
+      "otono_invierno": "Nada (octubre-febrero) o, si está junto a una ventana muy luminosa y sigue sacando hojas, como máximo ¼ de dosis cada 6-8 semanas [orientativo, sin fuente prioritaria].",
+      "notas": "La falta de nitrógeno se ve primero en las hojas más viejas, que pasan a verde claro o amarillo uniforme (UF/IFAS EDIS EP362 lo ilustra en esta especie). No abonar plantas recién compradas o trasplantadas durante 4-6 semanas ni plantas con sustrato seco. Lavar sales con riego abundante de vez en cuando.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años en plantas jóvenes, o cuando lo pidan las señales; las grandes, renovar solo los 3-5 cm superiores de sustrato [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (marzo-mayo en Madrid), con crecimiento activo. Nunca recién comprada: dejar que se aclimate 4-6 semanas antes, porque cualquier cambio puede provocar caída de hojas (RHS).",
+      "senales": "Raíces saliendo por los agujeros de drenaje, sustrato que se seca en 1-2 días tras regar a fondo, agua que no penetra o planta que vuelca. Usar una maceta solo 2-4 cm más ancha y sustrato drenante (RHS).",
+      "confianza": "Baja",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, ligera y frecuente: tiende a espigarse, sobre todo con poca luz (MBG: podar para evitar el ahilado).",
+      "epoca": "Primavera y verano, con crecimiento activo.",
+      "como": "En plantas jóvenes, despuntar (pellizcar) las puntas de los tallos para que ramifiquen (RHS). En plantas mayores, recortar los tallos largos por encima de un nudo para mantener el tamaño (RHS; MBG). Usar tijera limpia; retirar folíolos caídos del sustrato para reducir hongos (UF/IFAS cita manchas foliares por Corynespora que empiezan en hojas en contacto con el sustrato).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero: es perennifolia de clima sin heladas (MBG). En otoño-invierno (hemisferio norte; en Madrid, aprox. noviembre-febrero) el crecimiento se frena porque hay menos luz, y con menos luz consume menos agua (UF/IFAS RH-93-15). Cambios: espaciar riegos sin dejar secar, suspender el abono, acercarla a la ventana más luminosa (sin tocar el cristal frío) y mantenerla por encima de 15 °C, lejos de radiadores.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo semileñoso",
+        "semilla",
+        "división de la mata (varios tallos por maceta)"
+      ],
+      "epoca": "Verano (MBG) para esquejes; primavera-verano para división y semilla.",
+      "pasos": "Esquejes (RHS: semileñosos; MBG: de tallo en verano; NParks): 1) cortar puntas de 10-15 cm con 2-3 nudos de un tallo sano; 2) quitar las hojas inferiores; 3) opcionalmente mojar la base en hormona de enraizamiento; 4) plantar en mezcla húmeda de turba o fibra de coco con perlita; 5) cubrir con bolsa transparente o propagador, con luz brillante indirecta y 21-24 °C; 6) mantener húmedo sin encharcar; enraíza en unas semanas [tamaño del esqueje y tiempos orientativos, sin fuente prioritaria]. División: las plantas de venta suelen llevar varios tallos de semilla en una maceta que se pueden separar con cuidado (Curtis's Botanical Magazine, citado en WRA). Semilla: es el método comercial (Serviss 2001, citado en WRA; KPU; NParks); semilla alada, poco disponible.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F7",
+        "F6",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Problema nº 1. Caída masiva de folíolos al moverla, al llegar a casa o con cualquier cambio de luz, riego o temperatura (RHS). Causas: bajada brusca de luz desde el vivero (UF/IFAS: 2000-3000 fc en producción frente a unos cientos en casa) y su altísima sensibilidad al etileno (UF/IFAS: pierde todos los folíolos en 22 h con etileno). Elegir sitio luminoso definitivo, no moverla, no ponerla junto a fruta madura y mantener riego regular; suele rebrotar si las raíces están sanas."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Marchitez tanto por sequía (no tolera que el sustrato se seque, MBG) como por exceso de agua con pudrición de raíz (Phytophthora: marchitez, amarilleo y enanismo, UF/IFAS). Comprobar el sustrato antes de regar."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por Phytophthora y por encharcamiento; el exceso de riego la agrava (UF/IFAS RH-91-11; RHS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de cuello por Phytophthora, Myrothecium o Rhizoctonia, sobre todo en plántulas y plantas jóvenes con sustrato muy húmedo (UF/IFAS RH-91-11)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: por debajo de 225 fc (≈2400 lux) se deteriora (UF/IFAS RH-93-15); tallos espigados y caída de hojas desde abajo. Acercar a la ventana y despuntar (MBG; RHS)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Falta de nitrógeno: hojas viejas verde claro o amarillo uniforme (UF/IFAS EDIS EP362, ilustrado en esta especie); también envejecimiento normal de hojas bajas con poca luz."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de la calefacción o del verano madrileño (MBG; RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por ácaros (araña roja) o trips, plagas citadas en esta especie (UF/IFAS; KPU; RHS)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaro blanco (broad mite): hojas nuevas acopadas hacia abajo, arrugadas, pequeñas y de borde aserrado, con necrosis de la yema (UF/IFAS RH-91-11)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos; deforma los brotes nuevos (UF/IFAS; MBG; RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y raíces (UF/IFAS; RHS; KPU)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en hojas, peciolos y tallos (UF/IFAS; RHS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de pulgón o cochinilla algodonosa (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina sobre la melaza de pulgón o cochinilla (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosca del sustrato (sciáridos) con sustrato siempre empapado; sus larvas dañan raíces y favorecen enfermedades (UF/IFAS RH-91-11)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Mancha por Corynespora cassiicola: lesiones negras que crecen rápido, empiezan en hojas bajas en contacto con el sustrato y pueden ocupar todo el folíolo y hacerlo caer; casi nunca con halo (UF/IFAS RH-91-11). Favorecida por follaje mojado y plantas apiñadas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte tras el cristal en ventana sur u oeste en verano; MBG desaconseja el sol directo pleno en interior."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco, el sustrato se seca muy deprisa: comprobar con dedo y peso cada 1-2 días y no dejar que se seque, porque responde soltando folíolos. Retirarla 1-1,5 m del cristal o poner cortina en ventanas sur y oeste a mediodía y por la tarde: el sol directo tras el cristal quema los folíolos. Vigilar araña roja en el envés. Puede pasar el verano en terraza en semisombra resguardada (MBG), pero el cambio de luz, viento y temperatura puede provocar caída de hojas: si se saca, hacerlo de forma gradual, sin sol directo de tarde, y meterla antes de que las mínimas bajen de 15 °C (en Madrid, normalmente a finales de septiembre u octubre). Lejos de la salida del aire acondicionado.",
+    "invierno": "Calefacción: humedad interior a menudo por debajo del 30 %; usar humidificador o agrupar plantas (no pulverizar) y vigilar araña roja. Separarla de radiadores y salidas de aire caliente. Acercarla a la ventana más luminosa (en invierno la sur es buena), pero sin tocar el cristal frío: necesita al menos 15 °C. Evitar corrientes de puertas a la calle y ventanas abiertas para ventilar. Riego más espaciado según dedo y peso, sin dejar secar del todo; sin abono.",
+    "ubicacion_recomendada": "Sitio fijo y muy luminoso: a 0,5-1,5 m de una ventana este u oeste, o de una sur con cortina fina, sin corrientes ni radiadores cerca y lejos del frutero. Elegirlo al comprarla y no moverla: los cambios provocan caída de folíolos."
+  },
+  "lagunas": [
+    "Nombre: el aceptado en POWO es Radermachera sinica (Hance) Hemsl.; basiónimo Stereospermum sinicum Hance. Sin cambio de nombre.",
+    "Toxicidad: ASPCA y Pet Poison Helpline no tienen ficha; tampoco NParks, MBG, RHS ni KPU la indican. Las obras de referencia de plantas venenosas (Wagstaff 2008; Quattrocchi 2012), según el informe WRA, no la registran. Se deja 'desconocida' en perros, gatos y niños.",
+    "Reguladores de crecimiento: no se ha encontrado ninguna fuente fiable que confirme que las radermacheras de vivero se tratan con retardantes (paclobutrazol, uniconazol, etc.) ni que crezcan más al llegar a casa por ese motivo. No se incluye esa afirmación. La pérdida de folíolos al llegar a casa sí está respaldada: cambio de luz y sensibilidad al etileno (UF/IFAS).",
+    "Información escasa de fuentes prioritarias: no hay ficha de NC State, UF/IFAS EDIS de cuidado doméstico, Clemson ni Minnesota. Las fuentes UF/IFAS usadas son notas técnicas de producción e interiorismo de los años noventa (copias archivadas en web.archive.org).",
+    "Temperatura máxima: no la da ninguna fuente prioritaria (max_c = null).",
+    "Humedad mínima: no la da ninguna fuente prioritaria (min_pct = null); el 50 % ideal procede de las condiciones de un ensayo de UF/IFAS, no de un óptimo determinado.",
+    "Trasplante: frecuencia y tamaño de maceta sin fuente prioritaria; bloque con confianza Baja.",
+    "pH del sustrato: RHS solo dice 'neutro', sin rango numérico.",
+    "Detalles del esquejado (longitud, temperatura y tiempo de enraizamiento) sin fuente prioritaria; marcados como orientativos.",
+    "Labouriau y Høyer (1999, Acta Hort. 543) sobre caída de folíolos por etileno y temperatura: solo se ha podido consultar la referencia bibliográfica, no el resumen.",
+    "Las fuentes prioritarias no documentan cultivares variegados de interior.",
+    "Labouriau y Høyer 1999 (Acta Horticulturae 543) reclasificada como complementaria por el orquestador: solo se consultó el registro bibliográfico (IIF), no el texto; únicamente respalda lo que dice su título."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/106221/radermachera-sinica/details",
+      "institucion": "Royal Horticultural Society (RHS) – Find a plant",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277931",
+      "institucion": "Missouri Botanical Garden – Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://web.archive.org/web/2010/http://mrec.ifas.ufl.edu/foliage/folnotes/chinadol.htm",
+      "institucion": "University of Florida, IFAS – CFREC-Apopka, Foliage Plant Research Note RH-91-11 'China Doll Production Guide' (Poole, Chase y Osborne; copia archivada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://web.archive.org/web/2010/http://mrec.ifas.ufl.edu/foliage/resrpts/rh_93_15.htm",
+      "institucion": "University of Florida, IFAS – CFREC-Apopka, Research Report RH-93-15 (Conover, Caldwell y Steinkamp; copia archivada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://ask.ifas.ufl.edu/ep362",
+      "institucion": "University of Florida, IFAS Extension – EDIS ENH1098/EP362 'Nutrient Deficiency Symptoms of Woody Ornamental Plants in South Florida'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plantdatabase.kpu.ca/Plant/rasi",
+      "institucion": "Kwantlen Polytechnic University – School of Horticulture Plant Database",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/6/1/6120",
+      "institucion": "National Parks Board de Singapur (NParks) – Flora & Fauna Web",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:110522-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://plantpono.org/wp-content/uploads/WRA_Report_Radermachera-sinica_2025-02-11.pdf",
+      "institucion": "Hawaii-Pacific Weed Risk Assessment (Plant Pono), informe de Radermachera sinica, 11-02-2025; recopila citas de Flora of China, Curtis's Botanical Magazine (Bell y Yamanaka 2022), Serviss 2001 y Wagstaff 2008",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control – listas de plantas tóxicas y no tóxicas para gatos y perros (la especie no figura)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.petpoisonhelpline.com/?s=china+doll",
+      "institucion": "Pet Poison Helpline – búsqueda 'china doll' (sin resultados)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://iifiir.org/en/fridoc/temperature-dependence-of-ethylene-induced-leaflet-abscission-in-20136",
+      "institucion": "Labouriau y Høyer (1999), Acta Horticulturae 543: 79-82 (ISHS), ficha bibliográfica en IIR-FRIDOC; solo título y referencia",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://en.wikipedia.org/wiki/Radermachera_sinica",
+      "institucion": "Wikipedia – Radermachera sinica",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

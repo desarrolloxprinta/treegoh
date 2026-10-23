@@ -1,0 +1,333 @@
+{
+  "nombre_cientifico": "Echeveria elegans",
+  "nombres_comunes": [
+    "echeveria",
+    "rosa de alabastro",
+    "bola de nieve mexicana",
+    "rosa mexicana"
+  ],
+  "familia": "Crassulaceae",
+  "origen": "México: del nordeste de México a Veracruz, con presencia en el golfo, el nordeste y el suroeste del país (NC State, RHS). Nombre aceptado: Echeveria elegans Rose (GBIF). Sinónimos: Echeveria perelegans A.Berger (NC State, GBIF), Echeveria potosina E.Walther (RHS, GBIF) y Echeveria albicans E.Walther (GBIF). POWO no se pudo consultar (bloqueo de acceso).",
+  "clima_nativo": "Subtropical seco. Fuera de su zona se cultiva al aire libre en climas sin heladas fuertes, como el sur de California (NC State). Rusticidad USDA 9a-11b según NC State; RHS la clasifica H2: tolera temperaturas bajas pero no sobrevive a la congelación (mínimas de 1 a 5 °C). Las fuentes consultadas no describen con detalle su hábitat natural (altitud, suelo).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas carnosas, lisas y cerosas, en forma de cuchara u oblanceoladas (más anchas hacia la punta), de margen entero y sin pelos. Miden hasta unos 6,4 cm de largo y 2 cm de ancho (NC State). Color verde azulado pálido, verde plateado o verde blanquecino (NC State, RHS), con una capa de pruina (polvo ceroso blanquecino) que se marca con los dedos y deja zonas brillantes más verdes donde se ha frotado (Mountain Crest Gardens). Con poca luz se ven más verdes y la roseta se abre (UC ANR Sonoma).",
+    "nerviacion": "No visible: hoja suculenta gruesa sin nervios apreciables.",
+    "variegacion": "La especie no es variegada. Cultivares con color distinto: 'Alba' (hojas verde pálido que pasan a blancas con tono melocotón-rosado), 'Hyaliana' (rosetas apretadas verde pálido que viran a rosa y morado), 'Raspberry' (hojas pequeñas verde azuladas con capa de polvo blanco) y 'Super Clone' (hojas más grandes y gruesas, verde oliva a blanco) (NC State).",
+    "tallo": "Prácticamente sin tallo: las rosetas se apoyan en el sustrato. Tallos cortos, carnosos, verde grisáceo, cubiertos de pruina (NC State). Si le falta luz, el centro se alarga y aparece un tallo visible con hojas separadas (etiolación). Las flores salen en varas delgadas rosadas que nacen entre las hojas.",
+    "habito": "Roseta compacta, redondeada y apretada que forma matas o cojines por los hijuelos que brotan alrededor de la planta madre (NC State, RHS). Florece de finales de invierno a primavera (hasta el verano según NC State): racimos de un solo lado con 5-7 flores rosas en forma de farolillo o tubo, con la punta amarilla, sobre varas delgadas (NC State, RHS). Florece varias veces a lo largo de su vida: la roseta no muere tras florecer (NC State).",
+    "tamano_adulto_interior": "Muy pequeña: hasta 10 cm de alto (RHS; 5-10 cm según UC ANR Sonoma) y de 10 a 50 cm de ancho cuando forma mata, que alcanza en 2-5 años (RHS). Crecimiento lento (NC State).",
+    "confusiones": [
+      {
+        "especie": "Sempervivum spp. (siempreviva)",
+        "rasgo_diferenciador": "Hojas más estrechas y puntiagudas, a menudo con el borde ciliado (con pelitos) y sin pruina; la roseta que florece muere después. Es planta rústica de exterior. E. elegans tiene hojas en cuchara, lisas, con polvo blanquecino, y la roseta sobrevive a la floración (NC State). La ASPCA las lista por separado: el nombre común 'gallinas y pollitos' se usa para ambas."
+      },
+      {
+        "especie": "Echeveria derenbergii",
+        "rasgo_diferenciador": "Rosetas más pequeñas (hasta unos 8 cm de diámetro) de hojas en cuña gris azuladas con margen rojo, y flores amarillas acopadas con punta roja (NC State). E. elegans tiene hojas verde plateado sin borde rojo marcado y flores rosas con punta amarilla."
+      },
+      {
+        "especie": "Echeveria × gilva (rosa de cera)",
+        "rasgo_diferenciador": "Híbrido que NC State cita como planta de uso parecido; suele tener hojas verdes más largas y puntiagudas, con menos pruina blanca (rasgo no verificado en fuente prioritaria). E. elegans es verde plateado-blanquecina y de roseta más compacta."
+      },
+      {
+        "especie": "Graptopetalum paraguayense (planta fantasma)",
+        "rasgo_diferenciador": "Rosetas sobre tallos que se alargan y cuelgan, hojas gris rosadas más gruesas, y flores blancas estrelladas con puntos rojos. Se confunde por el nombre común 'planta fantasma mexicana', que NC State también aplica a E. elegans."
+      },
+      {
+        "especie": "Aeonium spp.",
+        "rasgo_diferenciador": "Rosetas planas al final de tallos ramificados de hasta 90 cm, flores estrelladas en grandes racimos que salen del centro de la roseta, que muere tras florecer (UC ANR Sonoma). E. elegans casi no tiene tallo y sus flores salen en varas laterales."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas de intoxicación: ASPCA la clasifica como no tóxica para perros, gatos y caballos, y NC State la etiqueta igual. Comer cualquier planta puede causar un leve malestar digestivo pasajero (vómito) en mascotas. Para niños, el servicio de información toxicológica PADIS (Alberta Health Services) incluye el género Echeveria entre las plantas no tóxicas; el dato es de género, no de especie. Ante una ingestión grande o síntomas, llamar al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F8",
+      "F1",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur u oeste (RHS) o la ventana más luminosa de la casa (Univ. Minnesota, RHS). Este solo si recibe varias horas de sol de mañana. Norte: luz insuficiente, la roseta se estira.",
+      "tolera_sol_directo": "Sí, con aclimatación y con matices. Admite sol pleno (6 h o más) o sol parcial (2-6 h) (NC State); RHS indica sol pleno. Pero UC ANR Sonoma avisa de que E. elegans necesita sombra parcial en climas calurosos y que el sol fuerte de verano la quema y la desfigura. En verano conviene evitar el sol de mediodía y primera hora de la tarde (11-15 h) al aire libre (Univ. Minnesota) y acostumbrarla poco a poco al pasar de interior a exterior.",
+      "notas": "Necesita mucha luz para mantener la roseta compacta. Con luz escasa sufre etiolación: el centro se alarga, las hojas se separan, se aplanan y palidecen, y la planta 'busca' la luz (UC ANR Orange County). La etiolación no tiene vuelta atrás: se corrige descabezando la roseta y reenraizándola (ver poda). Si falta luz natural, lámparas de cultivo a 15-30 cm de la planta, 14-16 h al día (Univ. Minnesota). Por la escala del proyecto el óptimo es luz directa (>10760 lux, >1000 fc) y el mínimo útil, luz brillante indirecta alta (≈5380 lux, 500 fc). Contradicción: la guía de género de RHS y UC ANR Sonoma recomiendan luz brillante indirecta o sombra parcial, mientras que la ficha de especie de RHS y NC State recomiendan sol pleno. Se adopta lo más prudente: máxima luz posible todo el año, con sol directo solo tras aclimatación y sombra en las horas centrales de los días de calor extremo. lux_max = null: ninguna fuente fija un techo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco del todo: comprobar con el dedo a unos 5 cm (suculenta) y notar que la maceta pesa claramente menos. Entonces empapar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato a los pocos minutos (Univ. Minnesota, RHS). Echar el agua sobre el sustrato, por el borde de la maceta, sin mojar la roseta ni las hojas. Nunca por calendario: el exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "En crecimiento (primavera y verano), empapar y dejar secar por completo antes de volver a regar (Univ. Minnesota, NC State). RHS: riego moderado cuando el sustrato empieza a estar seco, sin dejar que pase demasiado tiempo seco. Al aumentar la luz en primavera aumenta la necesidad de agua (Univ. Minnesota); al aire libre gasta más agua y hay que vigilarla más (Univ. Minnesota). Con calor extremo puede frenar el crecimiento unas semanas (UC ANR Orange County): entonces el sustrato tarda más en secarse y se riega menos.",
+      "otono_invierno": "Reposo de noviembre a principios de marzo (RHS): riego mínimo, solo un poco cada varias semanas para que las hojas no se arruguen ni caigan (RHS, Univ. Minnesota). RHS en su ficha llega a decir 'nada en reposo'. Si se mantiene caliente y se riega a menudo en invierno, crece débil y estirada (RHS). Con frío, el sustrato húmedo pudre las raíces.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo de Madrid (agua blanda del Canal de Isabel II, flúor <0,1 mg/L; dejarla reposar no quita la cloramina, pero no hace falta). RHS recomienda agua de lluvia porque el flúor y las sales del agua del grifo pueden dañar las hojas o dejar costras blancas; con el agua blanda y casi sin flúor de Madrid ese riesgo es bajo. Usar agua a temperatura ambiente.",
+      "notas": "Los riegos cortos y frecuentes deforman el crecimiento (Univ. Minnesota). La planta deshidratada tiene hojas arrugadas y blandas que se recuperan al regar (UC ANR Sonoma). La planta encharcada tiene hojas blandas, translúcidas o que se caen al tocarlas y base oscura. No dejar agua en el centro de la roseta ni gotas sobre las hojas: además de favorecer la podredumbre, estropean la pruina (Mountain Crest Gardens; dato solo de fuente complementaria). No pulverizar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F7",
+        "F11"
+      ]
+    },
+    "humedad": {
+      "min_pct": 10,
+      "ideal_pct": null,
+      "notas": "Las suculentas se adaptan bien al aire seco de las casas, con humedad relativa del 10 al 30 % (Univ. Minnesota), y soportan bien la calefacción central si no están junto a un radiador (RHS). No necesita humidificador ni agrupar plantas, y pulverizar es contraproducente (moja la roseta y la pruina). Agradece buena ventilación, sobre todo en verano (RHS). El dato es para suculentas en general, no específico de E. elegans; no hay valor ideal verificado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": null,
+      "ideal_min_c": 10,
+      "ideal_max_c": null,
+      "notas": "Mínima: RHS la califica H2 (tolera frío ligero, mínimas de 1 a 5 °C, pero no sobrevive a la congelación) y su guía de género pide mantenerla por encima de 10 °C. UC ANR Orange County: la mayoría de suculentas aguantan hasta 4,4 °C (40 °F) pero las heladas las dañan. Contradicción: NC State le da rusticidad USDA 9a-11b (la zona 9a implica mínimas de -6,7 a -3,9 °C). Se adopta lo más prudente: no exponerla a menos de 5 °C ni a heladas; en reposo invernal, noches de 8-10 °C (RHS). En crecimiento, temperatura de vivienda normal. No hay máxima verificada para la especie: tolera calor (NC State: resiste calor y sequía), pero con calor fuerte el sol la quema (UC ANR Sonoma) y puede frenar el crecimiento (UC ANR Orange County).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F6",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus sin turba, arenoso y de drenaje muy rápido (RHS), o sustrato a base de tierra franca con grava añadida (RHS ficha): 2 partes de sustrato tipo John Innes nº 2 sin turba por 1 parte de grava hortícola o arena gruesa lavada (RHS guía), o mitad sustrato universal y mitad arena gruesa (Univ. Minnesota). Prueba: humedecer la mezcla y apretarla en el puño; al soltarla debe deshacerse (Univ. Minnesota). Acabar con una capa de grava fina en superficie (RHS), que mantiene seco el cuello de la roseta.",
+      "ph": "Indiferente: ácido, neutro o alcalino (RHS, NC State).",
+      "drenaje": "Imprescindible. Maceta con agujeros de drenaje; el agua retenida pudre la planta en muy poco tiempo (Univ. Minnesota, RHS). Mejor macetas anchas y poco profundas (NC State: se cultiva sobre todo en contenedores poco profundos). Evitar macetas demasiado grandes: el exceso de sustrato se queda húmedo y provoca podredumbre (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para cactus y suculentas o abono líquido equilibrado, diluido.",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo (de abril a septiembre en el hemisferio norte): ¼-½ de la dosis de etiqueta, como máximo una vez al mes. Suele bastar con 2-4 aplicaciones por temporada (RHS ficha: 2-3 veces con abono equilibrado; Univ. Minnesota: 3-4 veces en los meses luminosos, a media dosis).",
+      "otono_invierno": "Nada en reposo (de noviembre a principios de marzo).",
+      "notas": "Necesita poco abono (Univ. Minnesota). Contradicción menor: RHS ficha propone abono equilibrado 2-3 veces por temporada; la guía de RHS, abono rico en potasio (tipo tomate) o de cactus una vez al mes de abril a septiembre; Univ. Minnesota, abono con más fósforo que nitrógeno a media dosis. Se adopta lo más prudente (dosis baja y pocas veces), porque el exceso de nitrógeno favorece un crecimiento blando y estirado. npk = null: ninguna fuente fija una fórmula concreta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando la mata de rosetas llena la maceta o la planta ha crecido demasiado para ella (RHS). Al crecer despacio (NC State), suele bastar cada varios años; no hay un intervalo verificado.",
+      "epoca": "Primavera (RHS), al empezar el crecimiento.",
+      "senales": "Rosetas e hijuelos que cubren toda la superficie y rebosan el borde, raíces que salen por el drenaje, sustrato que tarda mucho en secarse o se ha compactado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS ficha). Solo limpieza y, si se ha estirado, descabezado.",
+      "epoca": "Primavera o principio de verano, en crecimiento activo.",
+      "como": "1) Retirar con cuidado las hojas secas de la base para que no acumulen humedad ni plagas. 2) Cortar las varas florales secas por su base. 3) Si la roseta se ha estirado por falta de luz (etiolación) o ha quedado desgarbada, cortar la roseta dejando 2-3 cm de tallo, dejar secar el corte y reenraizarla como esqueje (RHS guía, UC ANR Sonoma); el tallo que queda suele echar hijuelos. Manipular las hojas lo menos posible y sin frotarlas: la pruina se va con los dedos y no vuelve a salir en esas hojas, solo en las nuevas (Mountain Crest Gardens, complementaria). No limpiar el polvo con un paño húmedo, aunque RHS lo recomiende para suculentas lisas: en las pruinosas, mejor un pincel suave (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F7",
+        "F11"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a principios de marzo (RHS). Hemisferio sur: de mayo a principios de septiembre (equivalente estacional). Puede haber además una pausa corta en lo más caluroso del verano (UC ANR Orange County).",
+      "cambios": "Lugar fresco (noches a 8-10 °C, RHS) y muy luminoso, lejos de radiadores. Riego mínimo, solo para que no se arrugue (RHS, Univ. Minnesota). Sin abono. Si se mantiene caliente y regada en invierno, crece débil y estirada (RHS). El reposo fresco y seco con mucha luz favorece la floración de finales de invierno (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos (división)",
+        "esqueje de hoja",
+        "esqueje de roseta o tallo",
+        "semilla"
+      ],
+      "epoca": "Primavera (RHS); los hijuelos también a principio de verano. La semilla se siembra en cuanto madura (RHS).",
+      "pasos": "Hijuelos: separar las rosetas pequeñas con raíz propia y plantarlas en sustrato para cactus (NC State, RHS). Esqueje de hoja: desprender una hoja entera con un ligero giro, sin dejar trozos pegados al tallo (UC ANR Sonoma). Esqueje de roseta: cortar con 2-3 cm de tallo. En todos los casos, dejar secar el corte hasta que forme callo (de 1 día a 1 semana, RHS). Colocar sobre una mezcla de 2 partes de sustrato tipo John Innes nº 1 sin turba y 1 parte de grava hortícola (RHS) o sobre arena estéril ligeramente húmeda (Univ. Minnesota). Mantener el sustrato apenas húmedo para evitar la podredumbre, con luz brillante pero sin sol directo fuerte. Cuando enraíce, trasplantar a la mezcla normal (Univ. Minnesota). Semilla: sembrar en superficie sobre sustrato con arena, a 21 °C, luz brillante sin sol directo, tapado y ventilando a diario (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz (ventana norte, lejos del cristal, interior oscuro) o invierno caliente con riego frecuente: la roseta se abre, se alarga el centro y las hojas palidecen (UC ANR Orange County, RHS). No tiene vuelta atrás: dar más luz y descabezar y reenraizar."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Exceso de riego, sustrato sin drenaje o agua estancada en el plato o en la roseta, sobre todo con frío: hojas blandas, translúcidas, que se caen al tocarlas (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Agua acumulada en el centro de la roseta o sustrato húmedo pegado al cuello, en invierno o con poca luz: la base se oscurece y se ablanda. Cortar por encima de lo sano, dejar secar y reenraizar."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Encharcamiento: riegos frecuentes, maceta demasiado grande o sin agujeros, riego en reposo invernal (RHS, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sequía prolongada o reposo invernal demasiado seco: hojas arrugadas y blandas que se recuperan al regar (UC ANR Sonoma, RHS). En las hojas de la base es normal que se sequen poco a poco al salir hojas nuevas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol fuerte de verano sin aclimatar (paso brusco de interior a terraza, ventana sur u oeste con 35-40 °C): manchas blanquecinas o pardas y hojas desfiguradas (UC ANR Sonoma, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las hojas de la roseta y en el cuello; es la plaga principal citada para la especie (NC State, RHS). Revisar también las raíces al trasplantar."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón, sobre todo en las varas y botones florales en primavera (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Roseta que se marchita y se suelta del sustrato sin causa aparente: revisar larvas de otiorrinco (gorgojo de la vid) comiendo raíces y cuello, plaga citada para la especie (NC State, RHS), o pudrición radicular."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste, el cristal concentra calor y la hoja se puede quemar (UC ANR Sonoma: necesita sombra parcial en climas calurosos). Detrás de una ventana sur u oeste, poner una cortina fina o separarla un poco del cristal en las horas centrales de julio y agosto. En terraza, sitio con sol de mañana y sombra de 11 a 15 h (Univ. Minnesota). Aclimatarla al sacarla: empezar en semisombra y pasar al sol poco a poco a lo largo de 1-2 semanas (Univ. Minnesota). Riego: empapar y dejar secar del todo; en terraza con calor el sustrato se seca antes, pero si la planta frena por el calor extremo (UC ANR Orange County), gasta menos agua: comprobar siempre sustrato y peso. Regar a primera hora o al anochecer, al sustrato, sin mojar la roseta. El aire seco del verano (HR ≈38 %) no le afecta: no pulverizar.",
+    "invierno": "Reposo de noviembre a principios de marzo: el mejor sitio es una habitación fresca y muy luminosa (noches de 8-10 °C según RHS), junto a la ventana más soleada pero sin que las hojas toquen el cristal frío, y lejos de radiadores. La calefacción y una humedad interior inferior al 30 % no le hacen daño (Univ. Minnesota: se adapta a 10-30 %). Calor más riego en invierno = roseta estirada (RHS): regar solo un poco cada varias semanas si las hojas se arrugan. Terraza en invierno: RHS la clasifica H2 (no sobrevive a la congelación) y recomienda resguardarla del frío y de la lluvia o, lo más seguro, meterla en casa. Como en Madrid hay noches de helada en invierno, lo prudente es meterla cuando las mínimas previstas bajen de 5 °C. Si se queda fuera, solo en un rincón muy protegido (pegada a la fachada, bajo techo, sin lluvia), con el sustrato seco y cubierta con velo térmico las noches de helada (RHS: el velo grueso da unos 2 °C de protección); aun así hay riesgo de perderla.",
+    "ubicacion_recomendada": "Ventana sur, oeste o este muy luminosa, con la planta pegada a la luz, todo el año. De mayo a octubre puede vivir en terraza o balcón soleado, con sombra en las horas centrales en pleno verano y protegida de la lluvia persistente; meterla en casa antes de la primera helada (RHS). En invierno, interior luminoso y fresco. Evitar rincones alejados de la ventana: se etiola."
+  },
+  "lagunas": [
+    "POWO (Kew) no se pudo consultar (bloqueo Cloudflare). Nombre comprobado en GBIF: Echeveria elegans Rose, aceptado; sinónimos Echeveria perelegans A.Berger, E. potosina E.Walther y E. albicans E.Walther. No hay cambio de nombre.",
+    "Ninguna fuente prioritaria da valores en lux o fc para la especie; lux_min se deriva de la escala del proyecto y lux_max queda en null.",
+    "Rusticidad exacta sin consenso: RHS H2 (no sobrevive a la congelación) frente a NC State USDA 9a-11b. Viveros dan desde 'sensible a heladas' hasta -4 °C. Falta un dato verificado de temperatura mínima para Madrid; se adopta 5 °C como límite prudente.",
+    "No hay temperatura máxima verificada para la especie (max_c e ideal_max_c en null).",
+    "Que el agua en la roseta favorece la podredumbre y que la pruina no se regenera al frotarla solo lo respalda una fuente complementaria (vivero Mountain Crest Gardens); falta fuente prioritaria específica.",
+    "Toxicidad en niños: solo hay dato a nivel de género (PADIS, Alberta Health Services); ASPCA y NC State cubren solo animales.",
+    "No hay intervalo de trasplante verificado ni humedad ideal específica de la especie.",
+    "Las fuentes no describen el hábitat natural con detalle (altitud, tipo de roca y suelo)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Echeveria elegans",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/6226/echeveria-elegans/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Echeveria elegans (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/echeveria",
+      "institucion": "Royal Horticultural Society (RHS) – Echeveria Genus Guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow houseplant cacti and succulents (Growing Guide)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ucanr.edu/site/uc-master-gardeners-orange-county/succulents-orange-county",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR) – UC Master Gardeners of Orange County, Succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR) – UC Master Gardeners of Sonoma County, Succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/node/4746",
+      "institucion": "ASPCA Animal Poison Control Center – Chickens and Hens (Echeveria elegans)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://myhealth.alberta.ca/alberta/Pages/non-toxic-and-toxic-plants-in-alberta.aspx",
+      "institucion": "Alberta Health Services – PADIS (Poison & Drug Information Service), Non-toxic and toxic plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://api.gbif.org/v1/species/match?name=Echeveria%20elegans&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy (estado del nombre y sinónimos)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://answers.mountaincrestgardens.com/3416554/What-is-the-powdery-farina-epicuticular-wax-on-succulent-leaves",
+      "institucion": "Mountain Crest Gardens (vivero especializado) – What is the powdery farina on succulent leaves",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

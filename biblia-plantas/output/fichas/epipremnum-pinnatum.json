@@ -1,0 +1,310 @@
+{
+  "nombre_cientifico": "Epipremnum pinnatum",
+  "nombres_comunes": [
+    "poto pinnatum",
+    "Cebu Blue",
+    "poto Cebu Blue",
+    "dragon-tail plant (cola de dragón)"
+  ],
+  "familia": "Araceae",
+  "origen": "Asia tropical y subtropical hasta el Pacífico. POWO (Kew) la da como nativa de India (incl. Assam, Andamán y Nicobar), Bangladés, Myanmar, Tailandia, Camboya, Laos, Vietnam, sur de China, Hainan, Taiwán, islas Nansei, Filipinas, Malasia, Sumatra, Java, Borneo, Célebes, Molucas, islas menores de la Sonda, Nueva Guinea, Bismarck, Queensland, Territorio del Norte, Islas Salomón, Vanuatu, Nueva Caledonia, Fiyi, Samoa, Tonga, Islas Cook, Carolinas y Marshall, Wallis y Futuna. Introducida en Colombia, Honduras, República Dominicana, Haití, Puerto Rico e islas de Barlovento y Sotavento (POWO, NC State). El cultivar 'Cebu Blue' se atribuye a la isla de Cebú (Filipinas) solo en fuentes comerciales (ver lagunas).",
+  "clima_nativo": "Tropical húmedo sin heladas. Trepadora de raíz que sube por troncos de árboles de la selva tropical, a veces perdiendo contacto con el suelo y viviendo como epífita; también trepa sobre rocas graníticas y calizas y muros en bosques de montaña (NC State, POWO). En su hábitat los tallos alcanzan 15 m (POWO) o 6-20 m (NC State: 20-65 ft).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Simples, alternas, lisas, brillantes y coriáceas (NC State). Las hojas juveniles, que son las que se ven casi siempre en interior, son elípticas, lanceoladas o en punta de flecha, de margen entero (NC State). En 'Cebu Blue' son pequeñas, estrechas, lanceoladas y puntiagudas, de color verde azulado con un brillo plateado metálico uniforme sobre toda la lámina (NC State, Clemson). Si la planta trepa por un tutor o poste de musgo y gana altura, las hojas maduran: se hacen mayores, gruesas, ovadas y pinnatífidas (divididas en segmentos como las pinnas de una pluma, de ahí el epíteto), con pequeñas perforaciones a lo largo y junto al nervio central y ventanas (fenestraciones) en la lámina (NC State, POWO). En 'Cebu Blue' las fenestraciones son pequeñas y es el cultivar de hoja más pequeña de la especie (Clemson). Hoja madura de la especie: 30-50 cm (NC State: 12-20 in); en la naturaleza 10-93 × 5-60 cm, base ligeramente cordada, punta acuminada, envés más pálido (POWO). Pecíolo verde oscuro, acanalado y liso, con vaina que se deshace en fibras en red (POWO).",
+    "nerviacion": "Pinnada, con nervio central marcado, prominente en el envés y hundido en el haz. En la hoja madura cada segmento (pinna) lleva un nervio lateral primario y varios nervios paralelos intermedios; la nerviación fina es reticulada. Pequeños puntos blancos y perforaciones a lo largo del nervio central en hojas maduras (POWO, NC State).",
+    "variegacion": "La especie y 'Cebu Blue' no son variegadas: 'Cebu Blue' es verde azulado plateado uniforme (NC State, Clemson). Otros cultivares (NC State, Clemson): 'Albo-Variegata' / 'Albo', hojas grandes verde oscuro con variegación blanco crema en sectores y fenestraciones profundas, de crecimiento más lento; 'Marble King', hojas pequeñas ovadas blanco crema con motas verdes; 'Baltic Blue', hojas verde azulado más oscuro con fenestraciones; 'Skeleton Key', verde claro sin variegación, hojas que maduran alargadas en forma de llave; 'cola de dragón' (dragon-tail plant) es el nombre común de la especie típica, de hoja verde que se divide al madurar. Con poca luz, los cultivares variegados pierden color (RHS, Clemson).",
+    "tallo": "Tallos verdes brillantes y robustos, con cicatrices foliares marcadas entre entrenudos (NC State). En tallos maduros (5-40 mm de diámetro) aparecen crestas longitudinales irregulares blanquecinas y fibras de las vainas (POWO). Raíces aéreas en los nudos con las que se agarra a troncos, postes de musgo o paredes (RHS). Las hojas tienden a agruparse en el extremo de los tallos (POWO).",
+    "habito": "Trepadora perennifolia de raíces adventicias, hemiepífita. En interior se cultiva colgante en cesta o estante alto, o guiada en tutor de madera, bambú o poste de musgo (NC State, RHS). Solo en vertical y con altura suficiente desarrolla la hoja madura fenestrada; colgando se mantiene en forma juvenil (NC State, Clemson). En cultivo de interior casi nunca florece; en la naturaleza produce espádice blanco crema a verde amarillento con espata en forma de canoa y bayas rojas (NC State, POWO).",
+    "tamano_adulto_interior": "Tallos de 2,5-4 m (RHS) o 2,4-3 m (NC State: 8-10 ft) en interior si no se poda; 'Cebu Blue' cuelga 1,5-1,8 m (NC State: 5-6 ft). Hojas juveniles de 'Cebu Blue' de unos pocos centímetros a unos 10-15 cm [orientativo, sin fuente prioritaria]; en tutor, hojas mucho mayores.",
+    "confusiones": [
+      {
+        "especie": "Epipremnum aureum (poto común, 'Golden', 'Marble Queen', 'Neon', 'Jade')",
+        "rasgo_diferenciador": "Hoja juvenil acorazonada, ancha y casi siempre variegada de amarillo o blanco, sin brillo azul plateado; la de E. pinnatum juvenil es más estrecha, elíptica o lanceolada, y en 'Cebu Blue' verde azulado metálico. Al madurar, E. pinnatum produce más fenestraciones y lóbulos (Clemson). Antes se trataba E. aureum como E. pinnatum 'Aureum'; NC State, Clemson y POWO las separan como especies distintas por caracteres vegetativos, pero RHS y algunas floras siguen llamando al poto común E. pinnatum 'Aureum': una etiqueta 'E. pinnatum' puede ser en realidad un poto común (ver lagunas)."
+      },
+      {
+        "especie": "Scindapsus pictus (poto satinado, 'Silver Lady', 'Argyraeus', 'Exotica')",
+        "rasgo_diferenciador": "Hojas más anchas, acorazonadas, de textura mate o satinada, con manchas o salpicaduras plateadas sobre fondo verde oscuro; 'Cebu Blue' tiene la hoja estrecha y lanceolada, lisa y brillante, con un tono azul plateado uniforme sin manchas. Scindapsus crece mucho más despacio, es más propensa a plagas y enfermedades y tolera peor el exceso de riego (Clemson)."
+      },
+      {
+        "especie": "Epipremnum amplissimum ('Silver Streak')",
+        "rasgo_diferenciador": "Hojas largas en forma de hoja de espada con brillo plateado, cuya punta se curva hacia abajo en las hojas maduras (Clemson). 'Cebu Blue' tiene hojas más cortas y pequeñas, azuladas y no curvadas, y al madurar se divide en segmentos."
+      },
+      {
+        "especie": "Philodendron hederaceum (filodendro trepador)",
+        "rasgo_diferenciador": "Hoja acorazonada, más fina y blanda, con un surco central más hundido, y pecíolo liso y redondeado; en los potos (Epipremnum) el pecíolo está acanalado (Clemson, POWO)."
+      },
+      {
+        "especie": "Rhaphidophora tetrasperma ('mini monstera')",
+        "rasgo_diferenciador": "NC State la cita como planta de nicho similar. Sus hojas, ya pequeñas, salen profundamente divididas casi desde jóvenes, mientras que E. pinnatum mantiene la hoja entera durante la fase juvenil y solo se divide al trepar. Rasgo morfológico sin fuente prioritaria que lo describa como confusión: usar con prudencia."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales de oxalato cálcico en hojas y tallos (NC State). Clemson lo indica para todas las partes de los potos (Epipremnum spp.).",
+    "sintomas": "NC State (gravedad media): tóxica si se ingiere para gatos, perros y personas; irritación de boca y garganta, babeo, vómitos, dificultad para respirar y para tragar. Clemson (Epipremnum spp.): levemente tóxica; irritación de boca y garganta, vómitos y dificultad para tragar; mantener fuera del alcance de niños y mascotas. RHS (género): tóxica, mantener lejos de niños y mascotas y usar guantes porque la savia puede irritar la piel. ASPCA no tiene ficha propia de E. pinnatum; su ficha del poto común (E. aureum, mismo principio tóxico) describe en perros y gatos irritación oral, ardor intenso en boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F4",
+      "F7"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Luz brillante indirecta: junto a una ventana este u oeste, o tras cortina fina o estor en una ventana sur (RHS). En ventana norte solo si es muy luminosa y sin obstáculos.",
+      "tolera_sol_directo": "Algo de sol suave de mañana o de última hora (NC State la clasifica en semisombra, 2-6 h de sol directo al día, en exterior). En interior, evitar el sol directo intenso, sobre todo en verano, porque quema la hoja (RHS); la luz intensa provoca escaldado y puntas secas (Clemson).",
+      "notas": "NC State, Clemson y RHS coinciden en luz brillante indirecta. Tolera algo de sombra, pero crece más despacio y, con sombra profunda, crece mal (RHS). Para que 'Cebu Blue' desarrolle hojas maduras fenestradas necesita trepar por un tutor o poste y buena luz (NC State, Clemson). Contradicción: la ficha RHS de la especie indica 'pleno sol o semisombra' y 'luz plena o filtrada brillante' bajo cristal (contexto de invernadero británico), mientras la guía RHS del género y Clemson desaconsejan el sol directo en verano. Se adopta la opción conservadora: sin sol directo fuerte. Ninguna fuente prioritaria da cifras de lux o fc para esta especie: lux_min (100 fc, límite inferior de luz media) y lux_max (1000 fc, techo de la luz brillante indirecta) salen de la escala del proyecto [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 2-3 cm superiores del sustrato estén secos al tacto (RHS: dejar secar los 2 cm superiores; 5 cm en macetas grandes) y la maceta pese claramente menos que recién regada. Entonces regar a fondo, hasta que el agua llegue a todas las raíces y salga por los agujeros de drenaje (Clemson), y vaciar el plato a los 15-30 minutos: no dejarla nunca encharcada (RHS). Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo, regar con generosidad cada vez que la capa superior esté seca (RHS: regar libremente en temporada de crecimiento). En calor el sustrato se seca antes: comprobar dedo y peso cada pocos días.",
+      "otono_invierno": "Regar con moderación (RHS) y dejar secar más a fondo antes de volver a regar. El exceso de riego en invierno es la causa típica de pudrición de raíces (RHS). Con calefacción fuerte puede secarse antes: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Sirve el agua del grifo de Madrid. RHS recomienda evitar el agua del grifo en zonas de agua dura para no alcalinizar el sustrato; el agua del Canal de Isabel II es blanda (10-47 mg/L CaCO3), así que no es un problema. La cloramina no se elimina dejando reposar el agua, pero no es causa de puntas marrones. Riesgo real: sales de abono acumuladas; cada 2-3 meses regar con 2-3 veces el volumen de la maceta para lavarlas. Si crece en poste de musgo, mantener el poste húmedo para que las raíces aéreas se agarren (RHS).",
+      "notas": "El exceso de riego provoca enfermedades fúngicas y bacterianas que llevan a la pudrición radicular (NC State, Clemson, RHS). Clemson dice 'dejar secar completamente' en su guía rápida y 'entre riegos' en el texto; RHS dice regar cuando el sustrato se acerque a la sequedad; NC State pide sustrato húmedo pero bien drenado. Criterio adoptado: secar la capa superior en temporada de crecimiento y más a fondo en invierno.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": 30,
+      "ideal_pct": 50,
+      "notas": "NC State: humedad moderada. Clemson (Epipremnum spp.): prefiere 50-70 % y tolera la humedad media de una vivienda (30-60 %); la humedad baja junto con luz intensa causa escaldado y puntas secas. RHS: a diferencia de muchas tropicales, no necesita humedad alta. Para subirla, humidificador o agrupar plantas; pulverizar las hojas no la sube de forma útil. Cifras solo de Clemson y para el género.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "RHS (guía del género): mejor entre 18 y 30 °C, sin corrientes frías y lejos de radiadores. Clemson: 15-21 °C de noche y 21-29 °C de día; lejos de rejillas de aire acondicionado y de alféizares fríos. NC State: temperaturas cálidas, evitar corrientes y aire frío; zonas USDA 10a-11b en exterior. RHS clasifica la especie H1B (exterior solo en verano, mínimas no inferiores a 10-15 °C). Se adopta 15 °C como mínimo (el más alto de los mínimos de Clemson y RHS H1B). max_c 30 °C es el techo del rango RHS; ninguna fuente prioritaria da un máximo letal para esta especie. No tolera heladas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Abierto, que retenga humedad pero drene bien y ligeramente ácido (RHS, NC State), rico en materia orgánica (NC State) y aireado (Clemson). RHS propone 3 partes de sustrato ácido (para acidófilas) sin turba, 1 parte de grava fina y 1 parte de corteza de orquídea mediana; también sirve un sustrato universal de interior con un 20-30 % de perlita o corteza de pino fina. Maceta siempre con agujeros de drenaje.",
+      "ph": "Ligeramente ácido (NC State, RHS). NC State admite ácido (<6,0) o neutro (6,0-8,0); ninguna fuente prioritaria da un rango exacto.",
+      "drenaje": "Bueno, imprescindible: el sustrato mal drenado y el exceso de riego causan la pudrición radicular (Clemson, NC State). No usar una maceta mucho mayor que el cepellón, porque el sustrato sobrante tarda en secarse (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS).",
+      "npk": null,
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (RHS: mensual de abril a octubre; Clemson: cada dos meses en primavera y verano). En Madrid, aprox. de marzo-abril a septiembre-octubre.",
+      "otono_invierno": "Nada mientras no haya crecimiento activo (RHS limita el abono a abril-octubre y Clemson a primavera-verano).",
+      "notas": "El amarilleo de hojas puede deberse a poca fertilidad, además de al exceso de riego (Clemson, género). No abonar sobre sustrato seco: regar antes. Ninguna fuente prioritaria da una proporción NPK para esta especie.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (NC State, RHS); Clemson indica cada 1-2 años según lo rápido que crezca. Pasar a una maceta solo un tamaño mayor (RHS).",
+      "epoca": "Primavera (RHS), con crecimiento activo.",
+      "senales": "Raíces apiñadas o saliendo por los agujeros de drenaje (RHS, Clemson); planta con el cepellón hecho un ovillo; el sustrato se seca en muy pocos días.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, para controlar tamaño y forma y para que la planta sea más densa (NC State, RHS).",
+      "epoca": "Primavera o inicio del verano (NC State); RHS indica despuntar en primavera para que ramifique.",
+      "como": "Con tijeras limpias y guantes (la savia puede irritar la piel, RHS), cortar los tallos largos o pelados justo por encima de una hoja; brotarán tallos laterales desde los nudos (RHS). Los trozos sirven como esquejes. En plantas guiadas en tutor, atar los tallos rebeldes y mantener húmedo el poste de musgo (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de noviembre a marzo en el hemisferio norte; en Madrid, mientras los días son cortos y frescos). En el hemisferio sur, de mayo a septiembre.",
+      "cambios": "No es un reposo estricto: no pierde hojas, solo crece más despacio. Riego moderado (RHS), sin abono fuera de la temporada de crecimiento (RHS, Clemson), por encima de 15 °C y lejos de cristales fríos, corrientes y radiadores.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo o de punta en agua",
+        "esqueje de tallo en sustrato",
+        "acodo"
+      ],
+      "epoca": "Verano (RHS: esquejes de punta en verano); en la práctica, toda la temporada de crecimiento.",
+      "pasos": "1) Cortar un trozo de tallo con al menos un nudo (mejor 2-3) y su hoja, cortando justo por debajo de un nudo; sin nudo no enraíza (Clemson, RHS). 2) Quitar la hoja que quede bajo el agua o el sustrato. 3) Ponerlo en un vaso de agua en un sitio luminoso sin sol directo, o en sustrato ligero y húmedo (Clemson, RHS). 4) Cuando las raíces midan unos 3-5 cm [orientativo, sin fuente prioritaria], plantar en maceta y mantener algo húmedo las primeras semanas. Acodo: sujetar un tallo colgante sobre una maceta con sustrato sin cortarlo; enraíza por el nudo y luego se separa (RHS). Usar guantes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego (sobre todo en invierno) o sustrato mal drenado, que favorece hongos y bacterias (NC State, RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (NC State, RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo en tallos y nervios (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de la calefacción o del verano (NC State, RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado o amarillento por trips o araña roja (NC State cita ambos)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo por exceso de riego o falta de abono (Clemson, para Epipremnum spp.)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas secas por humedad baja o luz intensa (Clemson), sales de abono acumuladas o riego irregular. En Madrid no atribuirlo al cloro o al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas quemadas o descoloridas por sol directo en verano (RHS) o luz intensa (Clemson); muy visible en el tono azulado de 'Cebu Blue'."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos con pocas hojas y crecimiento pobre en sombra profunda (RHS); corregir con más luz y poda por encima de un nudo."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Solo en cultivares variegados ('Albo', 'Marble King'): pérdida de variegación con poca luz (RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato totalmente seco (se recupera al regar) o, si el sustrato está húmedo, por raíces podridas (ver S36)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Daño en la lámina por corrientes frías (RHS) o aire frío o caliente de ventanas, radiadores y rejillas (Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle y aire muy seco (≈38 % HR exterior en julio), apartarla de ventanas sur y oeste o protegerla con cortina o estor: el sol directo de verano quema la hoja (RHS). Por encima de unos 30 °C sale del rango óptimo (RHS): buscar la habitación más fresca, sin ponerla en el chorro del aire acondicionado (Clemson). El sustrato se seca mucho antes: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. Vigilar la araña roja con el aire seco. Si se saca a la terraza (RHS H1B), solo a sombra total y metiéndola antes de que las noches bajen de 15 °C (finales de septiembre o principios de octubre).",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %, en el límite de lo que tolera el género (Clemson): usar humidificador o agrupar plantas (pulverizar no sirve) y vigilar araña roja y trips. Lejos de radiadores y de las corrientes frías de puertas y ventanas (RHS, Clemson); no dejar las hojas tocando el cristal frío; mantener por encima de 15 °C. Acercarla a la ventana más luminosa (el sol bajo de invierno en ventana sur se tolera mejor), regar con moderación (RHS) y no abonar.",
+    "ubicacion_recomendada": "Cesta colgante o estante alto a 1-2 m de una ventana este u oeste, o junto a una ventana sur con cortina fina. Para ver hojas maduras fenestradas, guiarla en un poste de musgo o tutor junto a la ventana más luminosa sin sol directo de mediodía. Fuera del alcance de perros, gatos y niños pequeños, con los tallos colgantes lejos de donde puedan mordisquearlos."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado en POWO Epipremnum pinnatum (L.) Engl.; sinónimos homotípicos Pothos pinnatus L., Monstera pinnata (L.) Schott, Philodendron pinnatum (L.) André, Rhaphidophora pinnata (L.) Schott y Scindapsus pinnatus (L.) Schott, y muchos heterotípicos (p. ej., Epipremnum mirabile Schott, E. formosanum Hayata, Rhaphidophora laciniata (Burm.f.) Merr.). No hay cambio de nombre.",
+    "Discrepancia taxonómica con el poto común: NC State, Clemson y POWO tratan E. aureum como especie distinta, pero RHS (fichas y guía de cultivo) y algunas floras siguen llamando al poto común E. pinnatum 'Aureum'. Por eso varias fuentes de cultivo 'del género' (RHS) mezclan datos de E. aureum con los de E. pinnatum. La guía RHS del género se ha usado solo para reglas generales del género; una etiqueta comercial 'Epipremnum pinnatum' puede corresponder a un poto común.",
+    "El origen de 'Cebu Blue' (isla de Cebú, Filipinas) solo aparece en viveros y blogs; no se ha encontrado registro de cultivar ni fuente prioritaria.",
+    "Ninguna fuente prioritaria da niveles de luz en lux o fc, rango de pH numérico, proporción NPK ni temperatura máxima letal para E. pinnatum; los valores de lux son los de la escala del proyecto y max_c es el techo del rango óptimo de RHS.",
+    "Las cifras de humedad (30 % mínimo, 50-70 % preferido) proceden solo de Clemson y están dadas para Epipremnum spp. en general; confianza Media.",
+    "ASPCA no tiene ficha propia de Epipremnum pinnatum; solo de E. aureum (poto común), con el mismo principio tóxico. La toxicidad de E. pinnatum se respalda con NC State, Clemson y RHS. NC State marca 'no causa dermatitis de contacto', mientras RHS avisa de que la savia del género irrita la piel; se adopta la opción prudente (usar guantes).",
+    "No se han encontrado en fuentes prioritarias datos sobre enfermedades foliares concretas ni sobre pulgón o mosca blanca en esta especie (RHS: generalmente libre de enfermedades).",
+    "El tamaño de las hojas juveniles de 'Cebu Blue' y la longitud de raíz para trasplantar esquejes no aparecen en fuentes prioritarias; van marcados como orientativos.",
+    "La confusión con Rhaphidophora tetrasperma no la describe ninguna fuente prioritaria (NC State solo la cita como planta de nicho similar)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-pinnatum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1568)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/97816/epipremnum-pinnatum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Epipremnum pinnatum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow epipremnum (guía de cultivo del género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/epipremnum",
+      "institucion": "Royal Horticultural Society (RHS) – Epipremnum, RHS Genus Guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87046-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (ficha de E. aureum, especie del mismo género y principio tóxico)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,355 @@
+{
+  "criterio": "La clave de cada especie en la biblia es el nombre de output/lista-maestra.csv (nombre de uso en el comercio español y nombre del archivo de ficha). Este archivo añade el nombre aceptado según la fuente indicada, el tipo de caso y el nombre que la app debe mostrar. La identificación por foto debe aceptar todos los nombres listados como equivalentes.",
+  "especies": {
+    "Dracaena marginata": {
+      "nombre_aceptado": "Dracaena reflexa var. angustifolia",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Dracaena reflexa var. angustifolia (antes Dracaena marginata)",
+      "nota": "POWO",
+      "laguna": "L113"
+    },
+    "Dypsis lutescens": {
+      "nombre_aceptado": "Chrysalidocarpus lutescens",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Chrysalidocarpus lutescens (antes Dypsis lutescens)",
+      "nota": "POWO (2022)",
+      "laguna": "L113"
+    },
+    "Dracaena trifasciata": {
+      "nombre_aceptado": "Dracaena trifasciata",
+      "tipo": "aceptado",
+      "nombre_mostrar": "Dracaena trifasciata",
+      "nota": "POWO; nombre antiguo Sansevieria trifasciata (2017)",
+      "laguna": "L113"
+    },
+    "Phalaenopsis hybrida": {
+      "nombre_aceptado": "Phalaenopsis (híbridos)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Phalaenopsis (híbridos)",
+      "nota": "nombre no válido; híbridos de Phalaenopsis Blume",
+      "laguna": "L113"
+    },
+    "Alocasia amazonica": {
+      "nombre_aceptado": "Alocasia × mortfontanensis",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Alocasia × mortfontanensis (antes Alocasia amazonica)",
+      "nota": "POWO",
+      "laguna": "L119"
+    },
+    "Dracaena angolensis": {
+      "nombre_aceptado": "Dracaena angolensis",
+      "tipo": "aceptado",
+      "nombre_mostrar": "Dracaena angolensis",
+      "nota": "POWO; nombre antiguo Sansevieria cylindrica",
+      "laguna": "L119"
+    },
+    "Dieffenbachia seguine": {
+      "nombre_aceptado": "Dieffenbachia seguine",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Dieffenbachia seguine",
+      "nota": "en el comercio, D. maculata y D. amoena",
+      "laguna": "L119"
+    },
+    "Dracaena sanderiana": {
+      "nombre_aceptado": "Dracaena sanderiana",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Dracaena sanderiana",
+      "nota": "citada a veces como D. braunii",
+      "laguna": "L119"
+    },
+    "Citrus limon": {
+      "nombre_aceptado": "Citrus × limon",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Citrus × limon (antes Citrus limon)",
+      "nota": "POWO",
+      "laguna": "L119"
+    },
+    "Dracaena fragrans": {
+      "nombre_aceptado": "Dracaena fragrans",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Dracaena fragrans",
+      "nota": "sinónimos D. deremensis y D. massangeana",
+      "laguna": "L119"
+    },
+    "Hippeastrum hybridum": {
+      "nombre_aceptado": "Hippeastrum (híbridos)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Hippeastrum (híbridos)",
+      "nota": "nombre no válido; híbridos comerciales",
+      "laguna": "L126"
+    },
+    "Goeppertia makoyana": {
+      "nombre_aceptado": "Goeppertia makoyana",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Goeppertia makoyana",
+      "nota": "casi todas las fuentes la citan como Calathea makoyana",
+      "laguna": "L126"
+    },
+    "Goeppertia orbifolia": {
+      "nombre_aceptado": "Goeppertia orbifolia",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Goeppertia orbifolia",
+      "nota": "casi todas las fuentes la citan como Calathea orbifolia",
+      "laguna": "L126"
+    },
+    "Fittonia albivenis": {
+      "nombre_aceptado": "Fittonia albivenis",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Fittonia albivenis",
+      "nota": "ASPCA y UF/IFAS la citan como F. verschaffeltii",
+      "laguna": "L126"
+    },
+    "Ficus microcarpa": {
+      "nombre_aceptado": "Ficus microcarpa",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Ficus microcarpa",
+      "nota": "en el comercio, 'Ficus retusa' y 'F. nitida'",
+      "laguna": "L126"
+    },
+    "Schefflera arboricola": {
+      "nombre_aceptado": "Heptapleurum arboricola",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Heptapleurum arboricola (antes Schefflera arboricola)",
+      "nota": "POWO",
+      "laguna": "L133"
+    },
+    "Streptocarpus ionanthus": {
+      "nombre_aceptado": "Streptocarpus ionanthus",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Streptocarpus ionanthus",
+      "nota": "nombre de uso común Saintpaulia ionantha",
+      "laguna": "L133"
+    },
+    "Yucca gigantea": {
+      "nombre_aceptado": "Yucca gigantea",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Yucca gigantea",
+      "nota": "Y. elephantipes es nom. illeg.",
+      "laguna": "L133"
+    },
+    "Tradescantia zebrina": {
+      "nombre_aceptado": "Tradescantia zebrina",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Tradescantia zebrina",
+      "nota": "sinónimo Zebrina pendula",
+      "laguna": "L133"
+    },
+    "Philodendron hederaceum": {
+      "nombre_aceptado": "Philodendron hederaceum",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Philodendron hederaceum",
+      "nota": "var. hederaceum (= P. scandens) y var. oxycardium; 'Birkin' y 'Pink Princess' sin especie asignada con seguridad",
+      "laguna": "L133"
+    },
+    "Cattleya hybrida": {
+      "nombre_aceptado": "Cattleya (híbridos y alianza)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Cattleya (híbridos y alianza)",
+      "nota": "POWO acepta Cattleya × hybrida J.Veitch f. (1863), híbrido natural C. guttata × C. loddigesii que no son los híbridos comerciales de la ficha",
+      "laguna": "L138"
+    },
+    "Begonia elatior": {
+      "nombre_aceptado": "Begonia × hiemalis (grupo)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Begonia × hiemalis (grupo)",
+      "nota": "grupo B. × hiemalis Fotsch",
+      "laguna": "L139"
+    },
+    "Begonia rex": {
+      "nombre_aceptado": "Begonia grupo Rex-cultorum",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Begonia grupo Rex-cultorum",
+      "nota": "la begonia rex comercial es el grupo Rex-cultorum",
+      "laguna": "L139"
+    },
+    "Carmona microphylla": {
+      "nombre_aceptado": "Ehretia microphylla",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Ehretia microphylla (antes Carmona microphylla)",
+      "nota": "POWO; RHS usa C. retusa",
+      "laguna": "L139"
+    },
+    "Asparagus setaceus": {
+      "nombre_aceptado": "Asparagus setaceus",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Asparagus setaceus",
+      "nota": "no es un helecho (Asparagaceae) aunque se vende como 'helecho espárrago'",
+      "laguna": "L139"
+    },
+    "Cymbidium hybridum": {
+      "nombre_aceptado": "Cymbidium (híbridos)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Cymbidium (híbridos)",
+      "nota": "IPNI sin resultados; híbridos comerciales",
+      "laguna": "L144"
+    },
+    "Ceropegia woodii": {
+      "nombre_aceptado": "Ceropegia linearis subsp. woodii",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Ceropegia linearis subsp. woodii (antes Ceropegia woodii)",
+      "nota": "RHS",
+      "laguna": "L144"
+    },
+    "Cissus rhombifolia": {
+      "nombre_aceptado": "Cissus alata",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Cissus alata (antes Cissus rhombifolia)",
+      "nota": "POWO",
+      "laguna": "L144"
+    },
+    "Citrus microcarpa": {
+      "nombre_aceptado": "Citrus × microcarpa",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Citrus × microcarpa (antes Citrus microcarpa)",
+      "nota": "POWO; ASPCA usa Citrus mitis",
+      "laguna": "L144"
+    },
+    "Curio rowleyanus": {
+      "nombre_aceptado": "Curio rowleyanus",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Curio rowleyanus",
+      "nota": "nombre de uso común Senecio rowleyanus",
+      "laguna": "L144"
+    },
+    "Davallia fejeensis": {
+      "nombre_aceptado": "Davallia fejeensis",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Davallia fejeensis",
+      "nota": "en el comercio, D. solida var. fejeensis",
+      "laguna": "L144"
+    },
+    "Chamaedorea seifrizii": {
+      "nombre_aceptado": "Chamaedorea seifrizii",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Chamaedorea seifrizii",
+      "nota": "sinónimo C. erumpens; ASPCA asigna 'Bamboo Palm' a C. elegans",
+      "laguna": "L144"
+    },
+    "Goeppertia lancifolia": {
+      "nombre_aceptado": "Goeppertia insignis",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Goeppertia insignis (antes Goeppertia lancifolia)",
+      "nota": "POWO, RHS, NC State",
+      "laguna": "L149"
+    },
+    "Echinocactus grusonii": {
+      "nombre_aceptado": "Kroenleinia grusonii",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Kroenleinia grusonii (antes Echinocactus grusonii)",
+      "nota": "POWO",
+      "laguna": "L149"
+    },
+    "Dracaena masoniana": {
+      "nombre_aceptado": "Dracaena masoniana",
+      "tipo": "aceptado",
+      "nombre_mostrar": "Dracaena masoniana",
+      "nota": "POWO; nombre antiguo Sansevieria masoniana",
+      "laguna": "L149"
+    },
+    "Gerbera jamesonii": {
+      "nombre_aceptado": "Gerbera (híbridos de maceta)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Gerbera (híbridos de maceta)",
+      "nota": "la gerbera de maceta son híbridos con G. viridifolia sin nombre aceptado",
+      "laguna": "L149"
+    },
+    "Epipremnum pinnatum": {
+      "nombre_aceptado": "Epipremnum pinnatum",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Epipremnum pinnatum",
+      "nota": "una etiqueta 'E. pinnatum' puede ser E. aureum; RHS llama al poto común E. pinnatum 'Aureum'",
+      "laguna": "L149"
+    },
+    "Oncidium hybridum": {
+      "nombre_aceptado": "Oncidium (híbridos)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Oncidium (híbridos)",
+      "nota": "IPNI sin resultados; híbridos comerciales",
+      "laguna": "L154"
+    },
+    "Paphiopedilum hybridum": {
+      "nombre_aceptado": "Paphiopedilum (híbridos)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Paphiopedilum (híbridos)",
+      "nota": "IPNI sin resultados; híbridos comerciales",
+      "laguna": "L154"
+    },
+    "Nepenthes alata": {
+      "nombre_aceptado": "Nepenthes alata",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Nepenthes alata",
+      "nota": "la planta comercial suele ser N. × ventrata o N. graciliflora",
+      "laguna": "L154"
+    },
+    "Hibiscus rosa-sinensis": {
+      "nombre_aceptado": "Hibiscus × rosa-sinensis",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Hibiscus × rosa-sinensis (antes Hibiscus rosa-sinensis)",
+      "nota": "POWO",
+      "laguna": "L154"
+    },
+    "Haworthiopsis attenuata": {
+      "nombre_aceptado": "Haworthiopsis attenuata",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Haworthiopsis attenuata",
+      "nota": "se vende a menudo como H. fasciata",
+      "laguna": "L154"
+    },
+    "Plectranthus scutellarioides": {
+      "nombre_aceptado": "Coleus scutellarioides",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Coleus scutellarioides (antes Plectranthus scutellarioides)",
+      "nota": "POWO",
+      "laguna": "L162"
+    },
+    "Rhaphidophora tetrasperma": {
+      "nombre_aceptado": "Rhaphidophora tetrasperma",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Rhaphidophora tetrasperma",
+      "nota": "se vende como 'Monstera minima' (nombre mal aplicado)",
+      "laguna": "L162"
+    },
+    "Thaumatophyllum bipinnatifidum": {
+      "nombre_aceptado": "Philodendron bipinnatifidum",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Philodendron bipinnatifidum (antes Thaumatophyllum bipinnatifidum)",
+      "nota": "POWO",
+      "laguna": "L166"
+    },
+    "Vriesea splendens": {
+      "nombre_aceptado": "Lutheria splendens",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Lutheria splendens (antes Vriesea splendens)",
+      "nota": "POWO",
+      "laguna": "L166"
+    },
+    "Serissa foetida": {
+      "nombre_aceptado": "Serissa japonica",
+      "tipo": "sinonimo",
+      "nombre_mostrar": "Serissa japonica (antes Serissa foetida)",
+      "nota": "POWO",
+      "laguna": "L166"
+    },
+    "Stephanotis floribunda": {
+      "nombre_aceptado": "Marsdenia floribunda",
+      "tipo": "cambio_de_genero",
+      "nombre_mostrar": "Marsdenia floribunda (antes Stephanotis floribunda)",
+      "nota": "POWO",
+      "laguna": "L166"
+    },
+    "Vanda hybrida": {
+      "nombre_aceptado": "Vanda (híbridos)",
+      "tipo": "grupo_de_hibridos",
+      "nombre_mostrar": "Vanda (híbridos)",
+      "nota": "nombre no válido; híbridos comerciales",
+      "laguna": "L166"
+    },
+    "Monstera obliqua": {
+      "nombre_aceptado": "Monstera obliqua",
+      "tipo": "nombre_comercial_ambiguo",
+      "nombre_mostrar": "Monstera obliqua",
+      "nota": "taxonomía inestable (Croat 2024); muchas plantas vendidas como 'obliqua' son M. adansonii",
+      "laguna": "L178"
+    }
+  }
+}

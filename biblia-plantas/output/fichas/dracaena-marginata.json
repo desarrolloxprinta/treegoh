@@ -1,0 +1,334 @@
+{
+  "nombre_cientifico": "Dracaena marginata",
+  "nombres_comunes": [
+    "drácena marginata",
+    "drácena de hoja fina",
+    "drago de Madagascar",
+    "árbol dragón de Madagascar"
+  ],
+  "familia": "Asparagaceae",
+  "origen": "Madagascar, Mauricio y otras islas del oeste del océano Índico (Aldabra, Comoras, Reunión, Rodrigues, Seychelles, archipiélago de Chagos), según POWO para Dracaena reflexa var. angustifolia.",
+  "clima_nativo": "Tropical insular sin heladas del océano Índico occidental; arbusto o arbolito perenne. NC State lo sitúa en zonas USDA 10a-12b (mínimas medias anuales por encima de -1 °C), aunque en interior conviene no bajar de 16 °C.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Lineares, estrechas y con forma de espada (aprox. hasta 60 cm de largo y 1-1,5 cm de ancho), coriáceas, brillantes, de color verde oscuro u oliva con un margen fino rojo, púrpura o pardo rojizo. Salen apiñadas en rosetas o penachos en el extremo de cada tallo; las viejas se arquean o cuelgan (se reflejan) y las inferiores se caen con la edad. Margen entero, sin pelos ni pecíolo diferenciado.",
+    "nerviacion": "Paralela, propia de monocotiledónea: nervios longitudinales finos, sin nervio central prominente ni nervios secundarios ramificados.",
+    "variegacion": "La especie tiene hoja verde con margen rojo-púrpura. Cultivares: 'Bicolor' (gris verdoso con bordes rosa o rojos), 'Tricolor' (franjas verdes, crema/blancas y rosa-rojas), 'Colorama' (hoja muy rosada con franjas blancas y verdes), 'Magenta' (margen rojo magenta intenso), 'Tarzan' (hojas más anchas, gruesas y rígidas). Los tonos rojos se intensifican con más luz.",
+    "tallo": "Uno o varios tallos leñosos delgados, de color canela o marrón claro, a menudo curvados o retorcidos (naturalmente o por entrenamiento), con cicatrices foliares en forma de rombo o anillo bien visibles donde cayeron las hojas; la parte inferior suele quedar desnuda.",
+    "habito": "Arbustivo-arborescente erguido: aspecto de 'palmerita' con tallos desnudos coronados por penachos de hojas finas. Crecimiento lento. Al despuntar un tallo, rebrota con 2 o más ramas. Rara vez florece en interior (espigas de flores pequeñas blancas, fragantes; bayas redondas amarillo-anaranjadas de menos de 1,5 cm).",
+    "tamano_adulto_interior": "1,5-3 m de altura en interior (NC State: hasta 1,8 m como planta de interior; Clemson: hasta 3 m), 0,5-1 m de anchura; fácil de mantener más baja con poda. En hábitat alcanza 4-6 m.",
+    "confusiones": [
+      {
+        "especie": "Dracaena fragrans (palo de agua, tronco del Brasil)",
+        "rasgo_diferenciador": "Hojas mucho más anchas (5-10 cm), tipo hoja de maíz, sin margen rojo; tallos gruesos tipo caña. D. marginata tiene hojas de ~1-1,5 cm de ancho con borde rojo-púrpura."
+      },
+      {
+        "especie": "Dracaena reflexa (pleomele, 'Song of India')",
+        "rasgo_diferenciador": "Hojas más cortas y algo más anchas, dispuestas en espiral densa a lo largo de tallos flexibles (no solo en penacho terminal) y sin margen rojo; los cultivares tienen franjas amarillas o crema."
+      },
+      {
+        "especie": "Cordyline fruticosa",
+        "rasgo_diferenciador": "Hojas mucho más anchas, con pecíolo acanalado diferenciado y nervio central marcado, a menudo enteramente rojas o rosadas; D. marginata no tiene pecíolo y su hoja es linear."
+      },
+      {
+        "especie": "Yucca gigantea (yuca de interior, Yucca elephantipes)",
+        "rasgo_diferenciador": "Hojas más anchas, rígidas, verde claro, con punta dura casi espinosa y sin margen rojo; tronco más grueso y basto."
+      },
+      {
+        "especie": "Beaucarnea recurvata (pata de elefante)",
+        "rasgo_diferenciador": "Base del tronco muy hinchada en forma de bulbo y hojas acintadas más finas, flexibles y colgantes, sin borde rojo."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas",
+    "sintomas": "Perros y gatos: vómitos (a veces con sangre), decaimiento, falta de apetito, salivación excesiva, incoordinación y debilidad; en gatos además pupilas dilatadas, dolor abdominal y aumento de la frecuencia cardiaca. Personas (niños): toxicidad de gravedad baja; irritación de boca y estómago, náuseas, vómitos y diarrea; la savia puede irritar la piel. Todas las partes se consideran tóxicas. Ante ingestión, llamar al veterinario o, en personas, al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana este (sol suave de mañana) o a 1-2 m de una ventana sur u oeste con visillo; norte solo si es muy luminosa, aceptando crecimiento lento.",
+      "tolera_sol_directo": "Solo sol suave de primeras o últimas horas. El sol directo intenso a través del cristal produce manchas secas redondeadas, rayas y zonas hundidas de color óxido (quemadura) y enrollamiento temporal de hojas.",
+      "notas": "Óptimo: luz brillante indirecta, 500-1000 fc (≈5400-10800 lux). Tolera luz media (100-500 fc, ≈1100-5400 lux) con crecimiento más lento, tallos más alargados y menos color rojo; por eso se usa mucho en oficinas. No es planta de luz baja sostenida (<1100 lux). Si se pasa de poca a mucha luz, hacerlo de forma gradual: las hojas nuevas serán más gruesas y fuertes. Los tonos rojos de los cultivares aumentan con más luz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes de más de 25-30 cm) y la maceta pese claramente menos; entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Dejar secar ligeramente entre riegos, pero no hasta que el cepellón se separe de la maceta. Nunca regar por calendario.",
+      "primavera_verano": "Con calor y buena luz el sustrato se seca antes: comprobar cada 4-7 días con el dedo y el peso; en macetas medianas suele resultar un riego cada 7-12 días, pero manda el estado del sustrato.",
+      "otono_invierno": "Con menos luz y crecimiento lento, el sustrato tarda más en secarse: comprobar cada 7-10 días; suele bastar un riego cada 2-4 semanas. Si la planta está junto a un radiador puede secarse antes: comprobar, no suponer.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Usar agua a temperatura ambiente (nunca fría). El género es muy sensible al fluoruro y al boro (puntas y márgenes amarillos o necrosados), pero el agua del grifo de Madrid (Canal de Isabel II) tiene fluoruro <0,1 mg/L y es blanda, por lo que es apta sin filtrar ni destilar; dejarla reposar no elimina la cloramina y no hace falta. En otras ciudades con agua fluorada o muy salina, usar agua de lluvia o de bajo contenido en sales.",
+      "notas": "El exceso de riego y el sustrato que no drena son la causa principal de pudrición radicular. Es tolerante a la sequía puntual. Para eliminar sales acumuladas, lavar el sustrato con abundante agua cada 3-4 meses en temporada de crecimiento. Contradicción: UF/IFAS (ENH892, cuidado en interior) dice mantener el sustrato húmedo, mientras que NC State y Clemson indican dejarlo secar ligeramente entre riegos; se adopta la opción más conservadora para la planta (secado ligero de la capa superior), porque el exceso de riego es la causa principal de muerte.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": 30,
+      "ideal_pct": 50,
+      "notas": "Tolera humedad doméstica normal, pero con HR por debajo del 30-40 % (típico en invierno con calefacción) aparecen puntas y bordes secos. Clemson sugiere pulverizar ocasionalmente, pero según las convenciones del proyecto la pulverización no sube la humedad de forma útil: usar humidificador o agrupar plantas. En producción se cultiva a 60-100 % HR, valor no necesario en casa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "UF/IFAS recomienda 21-27 °C en interior y mantenerla siempre por encima de 15,6 °C (60 °F): por debajo aparece daño por frío (manchas necróticas viscosas y caída masiva de hojas); unas horas a 0-3 °C producen bandas cloróticas en las hojas de D. marginata. Clemson indica 15,5-21 °C de día y unos 5-6 °C menos de noche, y RHS la clasifica como H1B (mínimo 10-15 °C). Se adopta el mínimo más conservador (16 °C). Por encima de 32 °C aparecen clorosis y enrollamiento temporal de hojas. Evitar corrientes de aire frío y cambios bruscos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad para plantas de interior o mezcla con base de turba o fibra de coco y corteza de pino fina, que retenga algo de humedad pero airee bien; RHS recomienda compost con base franca (loam) sin turba. Evitar mezclas con un porcentaje muy alto de perlita (puede aportar fluoruro). En macetas grandes, un 10-20 % de arena gruesa da estabilidad. Maceta siempre con agujeros de drenaje.",
+      "ph": "6,0-6,5",
+      "drenaje": "Bueno. Un sustrato que no drena rápido causa pudrición de raíces; nunca dejar la maceta en agua estancada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas verdes de interior con micronutrientes, o abono de liberación lenta. Preferir fórmulas bajas en boro y flúor y sin superfosfato.",
+      "npk": "Proporción 3:1:2 o 3:1:3 (según UF/IFAS)",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (marzo-septiembre en Madrid). Tiene necesidades de abono bajas.",
+      "otono_invierno": "Nada de noviembre a febrero. En octubre, solo si sigue sacando hojas.",
+      "notas": "El exceso de abono quema o amarillea puntas y márgenes. No abonar en las 4 semanas siguientes a la compra o al cambio de ubicación, ni si el sustrato tiene muchas sales; en ese caso, lavarlo con abundante agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-4 años, o antes si las raíces salen por los agujeros de drenaje. Crece despacio y tolera estar algo apretada en la maceta.",
+      "epoca": "Primavera (marzo-mayo en Madrid), al inicio del crecimiento. No trasplantar en las 4 semanas siguientes a llevarla a casa.",
+      "senales": "Raíces saliendo por el drenaje o en espiral en la superficie, el sustrato se seca en muy pocos días, la planta se desestabiliza por altura. Pasar a una maceta solo 2-3 cm más ancha, con sustrato nuevo.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible; sirve para controlar la altura, eliminar tallos débiles o desnudos y hacer que ramifique.",
+      "epoca": "Primavera (marzo-mayo en Madrid).",
+      "como": "Cortar el tallo a la altura deseada con tijera limpia y afilada; del corte suelen brotar 2 o más ramas con hojas nuevas. Los tallos débiles se pueden acortar hasta unos 15 cm. Las hojas inferiores que amarillean y se secan con la edad se retiran tirando suavemente cuando están secas. Aprovechar los trozos cortados como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Noviembre-febrero en el hemisferio norte (mayo-agosto en el sur): no es una dormancia verdadera, sino un parón por menos luz.",
+      "cambios": "Espaciar riegos según el sustrato, no abonar, no trasplantar ni podar fuerte, y mantener por encima de 16 °C lejos de cristales fríos y del chorro de radiadores.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje apical",
+        "trozos de tallo (caña)",
+        "acodo aéreo",
+        "separación de brotes basales",
+        "semilla (poco práctico)"
+      ],
+      "epoca": "Primavera o final del verano (esquejes con calor de fondo en verano).",
+      "pasos": "1) Cortar un esqueje apical de 10-20 cm (mínimo 8-10 cm) o trozos de tallo, marcando cuál es la parte de arriba. 2) Quitar las hojas inferiores. 3) Enraizar en sustrato ligero húmedo pero no encharcado, o en agua cambiándola con frecuencia, a 20-24 °C y con luz brillante indirecta; el calor de fondo acelera el enraizamiento. 4) Las raíces aparecen en unas 3-6 semanas. 5) Pasar a maceta con sustrato normal. Las plantas grandes también se propagan por acodo aéreo. La semilla requiere 18-21 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire muy seco (HR <30-40 %, calefacción), sales de abono acumuladas o riego irregular. Es una especie sensible al fluoruro y al boro, pero en Madrid no se debe atribuir al agua del grifo (fluoruro <0,1 mg/L)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Exceso de abono o sales (márgenes quemados o amarillos), aire seco o pH del sustrato demasiado bajo."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal si son pocas hojas inferiores: la especie pierde las hojas viejas con la edad y deja el tallo desnudo. Si caen muchas a la vez, revisar exceso de riego."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Riegos demasiado frecuentes o sustrato que no drena; plato con agua estancada."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Exceso de agua prolongado, sobre todo en invierno con frío: la base del tallo se ablanda."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Cambios bruscos de temperatura, corrientes de aire, exceso de agua o mal drenaje tras compra o traslado."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío: exposición por debajo de 15 °C (cristales fríos, transporte en invierno), con manchas necróticas viscosas y caída de hojas."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Sol directo intenso tras el cristal: manchas secas redondeadas, rayas o zonas hundidas color óxido cerca de las puntas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Traslado brusco a sol directo, sobre todo en ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Exceso de luz o de temperatura: el enrollamiento es temporal y revierte al bajar la luz o el calor."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: tallos alargados, hojas más finas y crecimiento lento."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "En cultivares 'Bicolor', 'Tricolor', 'Colorama' o 'Magenta', poca luz reduce los tonos rojos y rosados."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Temperaturas por encima de 32 °C con poco hierro disponible o pH del sustrato demasiado alto."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente (verano madrileño, calefacción)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (p. ej. trips de bandas de invernadero) o araña roja en fase inicial."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, una de las plagas más comunes de las drácenas."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (p. ej. cochinilla de cola larga) en axilas de las hojas y el penacho."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares fúngicas o bacterianas, poco frecuentes en interior; favorecidas por hojas mojadas y poca ventilación."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla 1-2 m de ventanas sur y oeste o poner visillo: el sol directo a través del cristal le quema las hojas y por encima de 32 °C sufre clorosis y enrollamiento. Comprobar el sustrato cada 4-7 días porque se seca antes, pero no regar por si acaso: regar solo si los 2-3 cm superiores están secos. Con el aire muy seco (HR exterior ≈38 %) revisar el envés y las axilas cada semana por si hay araña roja y trips. No ponerla en el chorro directo del aire acondicionado. Abonar una vez al mes a ¼-½ de la dosis.",
+    "invierno": "Con calefacción la HR interior suele bajar del 30 %: aparecen puntas secas y araña roja. Usar humidificador o agrupar plantas (pulverizar no sirve). Alejarla de radiadores y de los cristales fríos por la noche: no debe bajar de 16 °C. Las corrientes frías y unas horas a 0-3 °C dejan bandas amarillas y manchas necróticas. Espaciar los riegos (a menudo cada 2-4 semanas, según el sustrato), sin abonar de noviembre a febrero. Si se compra en invierno, protegerla del frío en el trayecto. El agua del grifo de Madrid sirve tal cual, a temperatura ambiente.",
+    "ubicacion_recomendada": "Salón o despacho luminoso a 1-2 m de una ventana este, o a 2-3 m de una ventana sur u oeste con visillo; lejos de radiadores, de la salida del aire acondicionado y de puertas a la calle o terrazas en invierno. Fuera del alcance de perros, gatos y niños pequeños. En terraza, solo de junio a septiembre a la sombra, nunca por debajo de 16 °C."
+  },
+  "lagunas": [
+    "Nombre aceptado: POWO (Kew) trata Dracaena marginata Lam. como sinónimo heterotípico de Dracaena reflexa var. angustifolia Baker (nombre aceptado); NC State también usa el nombre nuevo. Se mantiene el archivo y el nombre comercial 'Dracaena marginata' por uso común; conviene que la app acepte ambos nombres.",
+    "No se ha encontrado en fuentes prioritarias un rango en lux o pies-candela para interior específico de D. marginata; los valores de 3250-4000 fc de UF/IFAS son de producción en vivero. Los lux de la ficha aplican la escala del proyecto a lo que dicen las fuentes ('bright, indirect' ideal, tolera luz más baja).",
+    "Frecuencia de trasplante (cada 2-4 años) y tamaño de la maceta nueva solo de fuente complementaria (Plantura); sin fuente prioritaria.",
+    "Humedad: solo Clemson da una cifra para interior (molestias por debajo de 30-40 % HR); el ideal del 50 % es orientativo.",
+    "La fecha de los riegos en días (7-12 días en verano, 2-4 semanas en invierno) es orientativa y no viene de fuentes prioritarias; el criterio válido es el estado del sustrato y el peso.",
+    "Missouri Botanical Garden Plant Finder no se pudo consultar para esta especie (no se localizó la ficha)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-marginata/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC 1504)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP149",
+      "institucion": "UF/IFAS Extension, EDIS ENH892 'Cultural Guidelines for Commercial Production of Interiorscape Dracaena' (rev. 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/mastergardener/resources/plantid/flowers-and-foliage/dracaena",
+      "institucion": "UF/IFAS Gardening Solutions, Plant Identification Learning Module",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/31916/dracaena-marginata-v/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77189099-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plantura.garden/uk/houseplants/dracaena/dracaena-marginata",
+      "institucion": "Plantura (blog especializado/tienda)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

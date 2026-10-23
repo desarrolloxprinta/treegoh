@@ -1,0 +1,357 @@
+{
+  "nombre_cientifico": "Phalaenopsis hybrida",
+  "nombres_comunes": [
+    "orquídea mariposa",
+    "orquídea alevilla",
+    "phalaenopsis",
+    "falenopsis"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "Género nativo de Asia tropical y subtropical y del noreste de Australia (NC State). Las plantas de venta son híbridos: hay más de 34.000 registrados, y un híbrido moderno puede tener una docena o más de especies en su ascendencia; la producción comercial se concentra en Taiwán y Países Bajos (NC State). Los antiguos híbridos ×Doritaenopsis se incluyen hoy en Phalaenopsis, porque Doritis se trata como sinónimo (NC State).",
+  "clima_nativo": "Epífita de selva tropical y subtropical: crece sobre troncos y ramas a la sombra del dosel, con calor todo el año (28-35 °C de día y 20-24 °C de noche en su hábitat, según MSU/AOS), humedad alta y sin heladas (zonas USDA 10-12).",
+  "categoria": "orquidea",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Roseta baja de 3-6 hojas grandes, gruesas, carnosas y coriáceas, de oblongas a obovadas o elípticas, de 8-25 cm de largo (más en híbridos grandes), verde medio a oscuro, lisas y brillantes, sin pelos y de margen entero; dispuestas alternas en dos filas (dísticas) y abrazando la base unas a otras (NC State, RHS). Algunos híbridos tienen hojas moteadas o jaspeadas de plata o verde oscuro sobre fondo verde. Rasgo clave para visión: vara floral larga, fina y arqueada que sale de la axila de una hoja, con una fila de flores planas y redondeadas en forma de mariposa (blancas, rosas, púrpuras, amarillas, melocotón o granate, a menudo veteadas o moteadas), y raíces aéreas gruesas, blancas plateadas o verdosas, que se salen de la maceta.",
+    "nerviacion": "Paralela, típica de monocotiledónea; los nervios casi no se ven en la hoja gruesa (NC State: 'few visible veins'). Se marca solo un surco central longitudinal.",
+    "variegacion": "La mayoría de híbridos tiene hojas verde uniforme. Hay híbridos con hojas moteadas (herencia de especies como P. schilleriana) y algunos cultivares con hojas de borde variegado. Las flores sí son muy variables (veteadas, punteadas tipo 'arlequín', con labelo de otro color). Las flores teñidas de azul son tinte artificial: si vuelve a florecer, saldrán blancas (NC State).",
+    "tallo": "Sin tallo visible (acaule, NC State): un rizoma muy corto (crecimiento monopodial) del que salen las hojas por arriba y las raíces por abajo. No tiene pseudobulbos que almacenen agua (Maryland). Las raíces son gruesas y cilíndricas, cubiertas de velamen: plateadas o blancas en seco y verdes al mojarse (Maryland).",
+    "habito": "Epífita perenne de crecimiento monopodial, en roseta baja; vara floral erguida o arqueada que suele necesitar tutor (Maryland, RHS). La vara sale normalmente en la axila de la tercera hoja madura contando desde arriba (a veces la segunda o la cuarta) (MSU/AOS). Puede florecer en cualquier época del año (RHS) y la floración dura de uno a cuatro meses o más (Maryland, NC State).",
+    "tamano_adulto_interior": "Roseta de 15-60 cm de ancho; altura con vara floral de 15-20 cm en miniaturas a 50 cm o más en híbridos grandes (RHS); NC State da 45-60 cm de alto y 15-60 cm de ancho. Flores de 7-15 cm en híbridos de flor grande y de 2,5-5 cm en miniaturas (NC State).",
+    "confusiones": [
+      {
+        "especie": "Doritaenopsis (nombre antiguo, hoy Phalaenopsis)",
+        "rasgo_diferenciador": "No es otra planta: son híbridos con la antigua Doritis, que ahora se incluyen en Phalaenopsis (NC State). Suelen tener flores más pequeñas, más numerosas y de color más intenso. Se cuidan igual."
+      },
+      {
+        "especie": "Vanda y otras orquídeas monopodiales (Ascocenda, Aerides)",
+        "rasgo_diferenciador": "Tallo alargado y visible, con hojas estrechas, en forma de cinta o en V, en dos filas a lo largo del tallo, y muchas raíces aéreas colgando, a menudo en cesta sin sustrato. Phalaenopsis no tiene tallo visible y sus hojas son anchas, carnosas y pocas (3-6)."
+      },
+      {
+        "especie": "Dendrobium (sobre todo los tipo 'Phalaenopsis', D. bigibbum y sus híbridos)",
+        "rasgo_diferenciador": "Tiene pseudobulbos en forma de caña, altos y segmentados, con hojas a lo largo de la caña, y la vara floral sale de la parte alta de la caña. Phalaenopsis no tiene cañas ni pseudobulbos: solo una roseta baja de hojas anchas."
+      },
+      {
+        "especie": "Paphiopedilum (zapatito de Venus)",
+        "rasgo_diferenciador": "Roseta parecida (a veces con hojas moteadas), pero las hojas son más finas y estrechas, crece en sustrato terrestre sin raíces aéreas plateadas, y tiene una sola flor (o pocas) por vara, con el labelo en forma de bolsa o zapato. Phalaenopsis tiene varias flores planas en mariposa por vara."
+      },
+      {
+        "especie": "Oncidium y Miltonia/Miltoniopsis (orquídea pensamiento)",
+        "rasgo_diferenciador": "Tienen pseudobulbos ovalados y aplanados, con hojas finas y estrechas encima. Phalaenopsis no tiene pseudobulbos y sus hojas son gruesas y anchas."
+      },
+      {
+        "especie": "Cymbidium",
+        "rasgo_diferenciador": "Hojas largas, estrechas y en forma de cinta, que salen de pseudobulbos redondeados, y crece en sustrato denso. Phalaenopsis tiene pocas hojas anchas, sin pseudobulbos, y raíces aéreas gruesas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: no tóxica (ASPCA, ficha 'Phalaenopsis Orchid', Phalaenopsis sp.: 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'; NC State la etiqueta como no tóxica para perros, gatos y caballos). Si un animal come mucha hoja o flor puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En personas no se ha encontrado una ficha de un centro de toxicología ni de una fuente prioritaria: se marca 'desconocida' por prudencia, aunque no hay indicios de toxicidad. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F10",
+      "F6"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA y NC State coinciden). Niños: sin fuente fiable; véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 16140,
+      "orientacion_hn": "Ventana este, la mejor (Clemson, Iowa State, NC State, NYBG); oeste también vale (Maryland, RHS) si se filtra el sol de la tarde; norte solo si es muy luminosa (Iowa State). En ventana sur, con cortina fina o a 1-2 m del cristal (Iowa State, NYBG). En invierno, con días cortos, se puede acercar a la ventana sur o dar sol directo suave (Maryland, RHS). Con luz de cultivo: 12-16 h al día a 15-20 cm de las hojas (Iowa State).",
+      "tolera_sol_directo": "No en verano: el sol directo quema las hojas (RHS, Iowa State). Por encima de 1500 fc (≈16.000 lux), con calor o en plantas criadas con poca luz, aparece quemadura solar irreversible (MSU/AOS). Solo admite sol directo suave de invierno.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F8",
+        "F7",
+        "F4",
+        "F3",
+        "F1",
+        "F2"
+      ],
+      "notas": "Rango de lux: MSU/AOS recomienda 1000-1500 fc (200-300 µmol·m⁻²·s⁻¹) en floración y avisa de que menos de 500 fc ralentiza la planta; NYBG da 1000-1600 fc. Con la escala del proyecto (1 fc = 10,76 lux), lux_min = 500 fc = 5380 lux y lux_max = 1500 fc = 16.140 lux. Ese techo cae en la franja 'directa' de la escala del proyecto (>1000 fc), pero las fuentes la tratan como luz filtrada; se mantiene tipo 'brillante_indirecta'. Clemson y NC State la llaman planta de 'poca luz' por comparación con otras orquídeas: no significa que tolere un rincón oscuro. Señales por color de hoja (Maryland): verde claro = luz correcta; verde oscuro y rígida = poca luz; amarillenta con borde rojizo = exceso de luz. La falta de luz es la causa más común de que no vuelva a florecer (Maryland)."
+    },
+    "riego": {
+      "criterio": "Regar cuando la corteza esté casi seca, sin dejar que las raíces se sequen del todo (RHS, Iowa State, NYBG). Tres señales, en este orden: (1) color de las raíces: plateadas o blancas = toca regar; verdes = aún tienen agua (Maryland); en maceta transparente se ve también si la corteza de abajo sigue húmeda (RHS); (2) peso: si la maceta pesa, no regar (Clemson); (3) dedo a 2-3 cm en la corteza: si está húmeda, esperar (NYBG da 2,5 cm). Nunca por calendario. Método recomendado: en el fregadero, con agua a temperatura ambiente o templada, mojar bien la corteza y las raíces aéreas en 3 o 4 pasadas durante unos 10 minutos para que la corteza absorba (Maryland), dejar escurrir del todo y no dejar agua en el plato (RHS, NC State). Regar por la mañana y sin mojar el cogollo (corona) ni las hojas; si cae agua en la corona, secarla (RHS, MSU/AOS).",
+      "primavera_verano": "Con corteza y unos 20-25 °C, la referencia de las fuentes es aproximadamente una vez por semana (Maryland, Clemson, RHS, NC State), y más a menudo con calor (Clemson, NC State). En Madrid con 30-35 °C dentro de casa y aire seco, la corteza puede secarse en 4-6 días: comprobar raíces y peso, no los días. En musgo esfagno, bastante menos a menudo: retiene mucha más agua (Clemson, Iowa State).",
+      "otono_invierno": "Reducir un poco (RHS, Clemson): con menos luz y temperatura la corteza tarda más en secarse, a menudo 10-14 días. Con calefacción fuerte y HR <30 % puede secarse casi igual que en verano: comprobar siempre. No dejar que las raíces se queden secas del todo.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid a temperatura ambiente, adecuada: es blanda (10-47 mg/L CaCO3) y con fluoruro <0,1 mg/L; la cloramina no se elimina dejando reposar el agua. RHS recomienda agua templada, mejor de lluvia; NC State y Maryland, agua templada. Por defecto, agua a temperatura ambiente, nunca muy fría. Cubitos de hielo: NO se recomiendan por defecto (véase notas). Las sales que dañan las raíces vienen sobre todo del abono acumulado: regar sin abono cada cuarto riego para lavarlas (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F8",
+        "F11"
+      ],
+      "notas": "Cubitos de hielo (contradicción ya registrada en el proyecto, C26): un ensayo de Ohio State y Univ. de Georgia (ASHS 2017, 48 plantas, 3 cubitos por semana durante 4-6 meses) no encontró daño: la corteza bajó a 11 °C como mínimo y la floración duró lo mismo. NYBG, en cambio, dice que no se usen nunca cubitos, y otras fuentes de extensión recomiendan agua templada. Opción adoptada: por defecto agua a temperatura ambiente. El hielo solo es tolerable en Phalaenopsis en corteza, sin tocar hojas, corona ni raíces aéreas, y la app no lo propone como método. En ningún caso se aplica a otras plantas tropicales. Raíces: las sanas son gruesas, firmes y plateadas o verdes; las podridas, marrones, blandas o huecas (RHS). Las raíces aéreas que salen de la maceta son normales: no cortarlas ni enterrarlas (Maryland, RHS). Hojas arrugadas o blandas = falta de agua o raíces dañadas, a menudo podridas por exceso de agua (NC State, Maryland): mirar las raíces antes de regar más."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F7",
+        "F1"
+      ],
+      "notas": "Iowa State da 40-60 %; NYBG, 65 % o más con un mínimo del 50 %. Se adopta el mínimo más prudente (50 %) y un ideal del 60 %, que una vivienda puede alcanzar con humidificador. Confianza Media: las dos fuentes prioritarias no coinciden en las cifras. Cómo subirla: humidificador de habitación (Iowa State, NYBG) o agrupar plantas; bandeja con grava y agua sin que la maceta toque el agua (Iowa State, Maryland), cuyo efecto es pequeño y local. Pulverizar no sube la humedad de forma útil (Maryland: 'usually does not provide enough moisture'); la RHS aconseja pulverizar en verano, pero se sigue la convención del proyecto y no se recomienda (mojar la corona favorece podredumbres). Sin pseudobulbos, la falta de humedad y de agua se nota enseguida en hojas arrugadas (Maryland)."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F3",
+        "F7",
+        "F8",
+        "F2",
+        "F6"
+      ],
+      "notas": "Día 19-30 °C y noche 16-19 °C (RHS); día 21-27 °C y noche 16-21 °C (Iowa State); día 18-29 °C y noche 13-16 °C (NYBG); 16-29 °C (Clemson). Mínimo: la RHS pide más de 16 °C siempre; Iowa State, no bajar de 13 °C; MSU/AOS, nunca por debajo de 10 °C ni cambios bruscos, porque el daño por frío aparece en pocas horas (manchas amarillas, empapadas y hundidas en el haz). Se adopta min_c 15 °C como mínimo nocturno habitual seguro, aceptando noches de 13-15 °C solo durante la inducción floral. Máximo: tolera 32-35 °C unas horas al día si la corteza está húmeda y hay buena ventilación (MSU/AOS); por encima de 32 °C hay que bajar la luz. INDUCCIÓN DE LA VARA FLORAL: la vara se forma cuando la temperatura baja de 26-28 °C, sobre todo la de día (MSU/AOS; Lopez y Runkle 2004 con datos de Lee y Lin 1984). Con 25/20 °C o 20/15 °C día/noche durante 4-5 semanas se induce de forma uniforme; por encima de 28 °C de día no florece, y una vara joven (menos de 10 cm) expuesta a ≥28 °C puede dar un keiki en vez de flores o abortar los botones (MSU/AOS). La duración del día no influye (Lopez y Runkle). En casa: noches de 13-16 °C en otoño durante varias semanas (Iowa State, NYBG, Maryland), o bajar unos 5 °C durante un mes (RHS). NC State matiza que los híbridos grandes de flor blanca necesitan unos 13 °C de noche durante una semana, y que los enanos modernos no necesitan frío. Desde la aparición de la vara hasta la primera flor pasan unos 72-89 días, según la temperatura (MSU/AOS). Lejos de radiadores, aire acondicionado y corrientes, y que las hojas no toquen el cristal frío en invierno (RHS, Clemson). Las flores abiertas con calor (>28 °C) son menos y duran menos (MSU/AOS). La caída de botones se produce con cambios de temperatura, humedad, riego o ubicación (NC State)."
+    },
+    "sustrato": {
+      "mezcla": "Corteza de pino de orquídeas, de grano medio, sola o en mezcla comercial específica para orquídeas epífitas (RHS, Maryland, NC State, NYBG). Muchas plantas de supermercado vienen en musgo esfagno, que retiene mucha más agua: hay que regar menos a menudo (Iowa State, Clemson), y NC State aconseja pasarlas a corteza si el musgo cuesta de rehidratar. Nunca tierra universal ni sustrato con tierra: matan la planta (RHS). Tampoco mantillo de jardín (NYBG). Maceta transparente con agujeros amplios: deja ver las raíces y la humedad, y las raíces hacen fotosíntesis (RHS, NC State).",
+      "ph": null,
+      "drenaje": "Muy alto y aireado: el agua debe atravesar la corteza y salir enseguida; la planta nunca debe quedar en agua (RHS, NC State, Maryland). La corteza se descompone con el tiempo, se vuelve densa como mantillo, drena mal y retiene agua; entonces hay que cambiarla (Maryland, RHS). No sobredimensionar la maceta: el exceso de sustrato se queda mojado y pudre las raíces (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F6",
+        "F7",
+        "F3",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido específico para orquídeas o abono equilibrado soluble (Maryland, RHS, Clemson, NC State).",
+      "npk": "Equilibrado, tipo 10-10-10 (Clemson) o 20-20-20 (NYBG).",
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (hojas o raíces nuevas, o vara en desarrollo). Clemson abona de mediados de primavera a principios de otoño. Regar sin abono al menos cada cuarto riego para lavar sales (RHS).",
+      "otono_invierno": "Nada con el frío y la poca luz del invierno (Maryland: 'skip fertilization'; RHS: con moderación o nada). Excepción: planta bajo luz de cultivo con crecimiento activo, a la dosis más baja.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2",
+        "F6",
+        "F7"
+      ],
+      "notas": "Las fuentes coinciden en abonar poco y diluido, y en que el exceso de abono da hojas en vez de flores (Maryland, NYBG) y acumula sales que dañan las raíces (RHS). Las frecuencias que dan son más altas que la convención del proyecto: Maryland, cada 3-4 riegos a dosis de etiqueta; NC State, ½ dosis dos veces al mes o ¼ cada semana; NYBG, ¼ en cada riego o en uno de cada dos y todo el año. Se adopta la convención del proyecto (¼-½ mensual), que es la opción más conservadora; se anota como contradicción en el informe. Cortar el abono no hace florecer: la floración depende de la temperatura y la luz (Lopez y Runkle 2004)."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años de media (RHS, NC State), o cada 1-2 años si la corteza se descompone antes (Maryland); el intervalo de Clemson es 1-3 años y el de NYBG, 2-3. Siempre con corteza nueva.",
+      "epoca": "Cuando empieza el crecimiento nuevo: raíces con puntas verdes activas u hojas nuevas (Maryland, RHS, NYBG), lo que suele coincidir con el final de la floración (Clemson, NC State). Nunca en flor ni con botones (Clemson, NYBG). NYBG desaconseja pleno invierno y lo más caluroso del verano: en Madrid, mejor primavera (abril-junio) o principio de otoño.",
+      "senales": "Corteza descompuesta que parece mantillo, que drena mal y se queda empapada (Maryland, RHS); planta demasiado grande para la maceta (Maryland, RHS); dos años en el mismo sustrato (RHS); raíces podridas o mal olor.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2",
+        "F6",
+        "F7"
+      ],
+      "notas": "Pasos (RHS, Maryland): sacar la planta (si las raíces están pegadas, remojar hasta que se suelten); quitar toda la corteza vieja; cortar con tijera desinfectada las raíces marrones, blandas o huecas; dejar las sanas (firmes, plateadas o verdes), acortándolas a unos 12 cm si hace falta (RHS); usar una maceta igual o algo mayor, sin pasarse; colocar la planta a la misma altura y rellenar con corteza nueva, apretándola suavemente para que quede estable (usar tutor si se tumba); no enterrar las raíces aéreas; regar bien y escurrir. Tras el trasplante, luz difusa suave (menos de 1000 fc) unas semanas (MSU/AOS) y evitar que la corteza esté siempre mojada."
+    },
+    "poda": {
+      "necesita": "Solo la vara floral cuando termina, y las hojas viejas cuando amarillean del todo. No cortar las raíces aéreas sanas (Maryland, RHS).",
+      "epoca": "Cuando caen las últimas flores de la vara.",
+      "como": "Dos opciones. (1) Para intentar una floración lateral rápida: cortar la vara con tijera desinfectada justo por encima del segundo nudo (bulto) por debajo de las flores ya caídas (RHS, Maryland, NYBG); NC State dice el primer nudo. A menudo sale una rama floral nueva en 8-12 semanas (NYBG), aunque no siempre (NC State). (2) Si la planta es joven o está débil, o la vara se seca y amarillea: cortar la vara en la base (RHS, Maryland), o a la altura de las hojas (Clemson), para que la planta se recupere y saque una vara fuerte en menos de un año. Quitar las hojas viejas solo cuando estén amarillas o secas (RHS, Maryland). Desinfectar la tijera entre plantas con alcohol, por los virus de orquídeas (NYBG). Atar la vara nueva a un tutor fino con pinzas, sin pinchar raíces (Maryland, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F7",
+        "F6",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene un reposo verdadero: es perennifolia, sin pseudobulbos, y puede florecer en cualquier época (RHS). En otoño-invierno, con menos luz y temperatura, el crecimiento se frena: reducir algo el riego (RHS, Clemson) y no abonar (Maryland). El otoño es justo cuando conviene darle noches más frescas (13-16 °C) para que saque la vara floral (Iowa State, Maryland, NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "keikis (hijuelos en la vara floral)"
+      ],
+      "epoca": "Cuando el keiki tiene varias raíces de 3-5 cm, preferiblemente en primavera o principio de verano.",
+      "pasos": "1) Esperar a que el keiki tenga varias raíces propias (RHS) y 2-3 hojas. 2) Cortar la vara 1-2 cm por debajo y por encima del keiki con una tijera desinfectada. 3) Plantarlo en una maceta pequeña con corteza fina de orquídea (RHS). 4) Regar poco al principio (RHS) y mantener luz suave y calor (20-25 °C). La RHS sugiere pulverizar las hojas a diario; según la convención del proyecto es mejor subir la humedad con humidificador o agrupando plantas. En el hogar no hay otros métodos prácticos: la planta crece en un solo punto y la división no se aplica.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F8"
+      ],
+      "notas": "Los keikis salen sobre todo cuando la vara joven pasa calor (≥28 °C) (MSU/AOS). La RHS describe la 'pasta de keikis' (un regulador de crecimiento) aplicada en los nudos; la app no la recomienda: es un regulador del crecimiento, cuyo uso por particulares en España no se ha verificado (véase lagunas). Confianza Media: solo la RHS da los pasos de separación."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego, corteza vieja y descompuesta que se queda mojada, maceta demasiado grande o planta dejada en agua en el plato (RHS, Iowa State, Maryland). Es la causa nº 1 de muerte. Raíces sanas: firmes y plateadas o verdes; podridas: marrones, blandas o huecas (RHS). Hongos del suelo como Pythium, Phytophthora, Fusarium y Rhizoctonia aparecen con malas condiciones de cultivo (MSU/AOS)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas y blandas: falta de agua o poca humedad, o raíces dañadas, a menudo podridas por exceso de agua, que ya no absorben (NC State, Maryland). No tiene pseudobulbos que la protejan (Maryland). Revisar las raíces antes de regar más."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias o caídas por pérdida de raíces (podredumbre o sequedad prolongada) o tras un trasplante; las hojas recuperan la turgencia cuando salen raíces nuevas (MSU/AOS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Agua estancada en la corona (cogollo) o riego por la tarde que deja la planta mojada de noche: podredumbre blanda bacteriana (Erwinia) o pardo (Pseudomonas), más frecuentes con calor y humedad (MSU/AOS). La RHS pide no echar agua en la corona. Regar por la mañana."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas amarillas, empapadas de agua y hundidas en el haz por daño de frío (por debajo de 10 °C o cambios bruscos, p. ej. hoja pegada al cristal en invierno o transporte) (MSU/AOS, Clemson); o manchas blandas que se extienden rápido, típicas de podredumbre bacteriana (MSU/AOS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de verano tras el cristal, sobre todo en ventana sur u oeste de Madrid, o más de 1500 fc con calor: quemadura irreversible (RHS, MSU/AOS). Con algo de exceso de luz, la hoja se vuelve verde amarillenta con el borde rojizo (Maryland)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Es normal que la hoja más baja y vieja amarillee y caiga de vez en cuando; se corta cuando está seca (RHS, Maryland). Si amarillean varias a la vez, revisar raíces (exceso de agua) o daño por frío."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa: es la plaga más habitual (RHS, NC State, MSU/AOS). Se esconde en las axilas de las hojas, bajo las hojas, en la base de la vara y entre las raíces; revisar con frecuencia (RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en el envés y a lo largo del nervio central y la vara floral (NC State, MSU/AOS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y caliente: calefacción en invierno o verano de Madrid (MSU/AOS cita los ácaros entre sus plagas)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botrytis en las flores: pequeñas manchas marrones en botones y flores abiertas, con tiempo fresco y húmedo y poca ventilación (NC State, MSU/AOS). Quitar flores afectadas y ventilar."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "No vuelve a florecer (parada sin vara): poca luz, que es la causa más común (Maryland), o ausencia de noches frescas en otoño porque la casa está siempre por encima de 26-28 °C de día (MSU/AOS, Iowa State, RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera, el interior puede pasar de 30 °C. Por encima de 28 °C de día no saca vara y las flores duran menos (MSU/AOS); tolera 32-35 °C unas horas si la corteza está húmeda y hay ventilación (MSU/AOS). Sin sol directo: en ventana sur u oeste, apartarla 1-2 m o poner cortina fina; mejor ventana este. Revisar raíces y peso cada 3-4 días: la corteza se seca mucho más rápido con aire seco (HR exterior ≈38 %). Regar por la mañana, sin mojar la corona. Usar humidificador o agrupar plantas, no pulverizar. Lejos del chorro del aire acondicionado. Ojo con araña roja y cochinilla.",
+    "invierno": "Con calefacción la HR interior baja a menudo del 30 %: humidificador para acercarla al 50-60 %, lejos de radiadores (RHS). Que las hojas no toquen el cristal frío (Clemson): el daño por frío aparece en pocas horas por debajo de 10 °C (MSU/AOS). Aprovechar la luz: en invierno puede ir a ventana sur con el sol suave (Maryland, RHS). Riego algo menos frecuente, siempre según raíces y peso; sin abono. Para que florezca: en otoño (octubre-noviembre), noches de 13-16 °C durante 4-5 semanas, por ejemplo en una habitación sin calefacción o junto a una ventana (sin tocar el cristal) (Iowa State, MSU/AOS, NYBG). Nunca por debajo de 13 °C en casa ni sacarla al balcón en las noches de invierno de Madrid. Al comprarla o traerla a casa en invierno, protegerla del frío en el transporte.",
+    "ubicacion_recomendada": "Ventana este, a menos de 1 m del cristal, en una habitación con 18-29 °C, sin corrientes ni radiadores cerca. Alternativas: ventana oeste o sur con cortina fina (verano) o directamente en invierno; ventana norte solo si es muy luminosa. Con luz de cultivo LED, 12-16 h al día a 15-20 cm. Maceta transparente dentro de una maceta decorativa que no acumule agua (vaciarla tras regar)."
+  },
+  "lagunas": [
+    "Nomenclatura: 'Phalaenopsis hybrida' no es un nombre botánico válido; no figura como especie aceptada. Las plantas comerciales son híbridos registrados del género Phalaenopsis Blume (más de 34.000, según NC State), a menudo sin nombre en la etiqueta (RHS). Esta ficha trata el grupo de híbridos comerciales. No se pudo abrir POWO (Kew) por un bloqueo anti-bot para confirmar la sinonimia del género; NC State da Doritaenopsis, Doritis y Lesliea como nombres anteriores incluidos hoy en Phalaenopsis. Conviene renombrar el archivo o el id en la app como 'Phalaenopsis (híbridos)'.",
+    "Toxicidad en niños: no se encontró ninguna ficha de un centro de toxicología ni de una fuente prioritaria sobre ingestión humana de Phalaenopsis; se marca 'desconocida' por prudencia.",
+    "pH del sustrato: ninguna fuente prioritaria da un rango concreto para la corteza de orquídeas; NC State solo la clasifica en ácido (<6,0) a neutro (6,0-8,0). Se deja en null.",
+    "Humedad: Iowa State (40-60 %) y NYBG (≥65 %, mínimo 50 %) no coinciden; no se encontró una tercera fuente prioritaria con cifra.",
+    "Pasta de keikis (regulador de crecimiento con citoquinina): la RHS la describe, pero no se ha verificado si hay productos de este tipo inscritos en el Registro del MAPA para uso no profesional en plantas de interior; la app no la recomienda.",
+    "Caída de botones (bud blast): NC State la describe (cambios de temperatura, humedad, riego, abono o ubicación), pero no hay id de síntoma específico en la lista; no se incluye en problemas_frecuentes.",
+    "Virus de orquídeas (p. ej. mosaico del Cymbidium, CymMV, y virus de las manchas anulares de Odontoglossum, ORSV): NYBG menciona la susceptibilidad a virus, pero no se han abierto fuentes con síntomas y manejo; pendiente de una fuente de fitopatología.",
+    "Las cifras de luz y temperatura de inducción de MSU/AOS proceden de cultivo comercial en invernadero; su aplicación a viviendas es una extrapolación, aunque coincide con las fuentes de extensión para el hogar (Iowa State, Maryland, NYBG).",
+    "Nombre con autor o aceptado según las fuentes: Phalaenopsis Blume (híbridos comerciales; 'Phalaenopsis hybrida' no es un nombre botánico válido)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://extension.umd.edu/resource/care-phalaenopsis-orchids-moth-orchids",
+      "institucion": "University of Maryland Extension — Home and Garden Information Center: Care of Phalaenopsis Orchids (Moth Orchids)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/general-care-for-phalaenopsis-orchids/",
+      "institucion": "Clemson Cooperative Extension — Home & Garden Information Center: General Care for Phalaenopsis Orchids",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/what-proper-care-moth-orchid",
+      "institucion": "Iowa State University Extension and Outreach — Yard and Garden: What is the proper care for a moth orchid?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow Phalaenopsis (moth orchids), Growing Guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/popular/phalaenopsis",
+      "institucion": "Royal Horticultural Society (RHS) — Moth orchids, Genus Guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Phalaenopsis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://libguides.nybg.org/phalaenopsis",
+      "institucion": "New York Botanical Garden (NYBG) — Plant Information: Phalaenopsis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://secure.aos.org/media/Content-Images/PDFs/GrowingtheBestPhalsPart_3.pdf",
+      "institucion": "Michigan State University y Texas A&M University (Lopez, Runkle, Wang, Blanchard, Hsu) — Growing the Best Phalaenopsis, Part 3: Temperature and Light Requirements, Insect and Disease Control; Orchids (American Orchid Society), marzo 2007",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://mail.staugorchidsociety.org/PDF/FloweringofOrchids-LopezRunkle.pdf",
+      "institucion": "Lopez y Runkle (Michigan State University) — The Flowering of Orchids: A Reality Check; Orchids (AOS), marzo 2004, copia alojada por la St. Augustine Orchid Society",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid",
+      "institucion": "ASPCA Animal Poison Control Center — Phalaenopsis Orchid",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://ashs.confex.com/ashs/2017/webprogramarchives/Paper26192.html",
+      "institucion": "The Ohio State University (OARDC) y University of Georgia — South et al., Ice Cube Irrigation of Potted Phalaenopsis Orchids Does Not Decrease Display Life, congreso ASHS 2017",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

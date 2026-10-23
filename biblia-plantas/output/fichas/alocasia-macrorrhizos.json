@@ -1,0 +1,376 @@
+{
+  "nombre_cientifico": "Alocasia macrorrhizos",
+  "nombres_comunes": [
+    "alocasia gigante",
+    "oreja de elefante gigante",
+    "taro gigante",
+    "giant taro (inglés)",
+    "cunjevoi (inglés, Australia)"
+  ],
+  "familia": "Araceae",
+  "origen": "POWO (Kew) la da como nativa de Borneo, Molucas, Sulawesi, Filipinas, Nueva Guinea, archipiélago Bismarck, islas Salomón y Queensland (Malesia central hasta el NE de Australia; RHS: 'C Malesia to NE Australia'). Kew advierte que no está claro dónde crece realmente silvestre: se dispersó por Asia tropical en tiempos prehistóricos como cultivo de subsistencia (rizoma feculento) y hoy es pantropical como ornamental introducida.",
+  "clima_nativo": "Tropical húmedo de tierras bajas (bosque tropical húmedo y zonas húmedas alteradas: cunetas, bordes de cultivos, solares húmedos, casi siempre cerca de asentamientos humanos, según Kew y CATE Araceae), con calor todo el año, lluvias abundantes y sin heladas. NC State indica para el género un óptimo de temperaturas diurnas de 20-25 °C (68-77 °F) y zonas USDA 10a-12b.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas enormes, simples, sagitadas (en punta de flecha), de contorno triangular romo, sostenidas ERGUIDAS con la punta hacia arriba o hacia fuera. En la naturaleza la lámina mide hasta unos 120 × 50 cm (Flora of China, vía POWO) o más de 1 m (Kew); en maceta, bastante menos. Lámina verde claro por las dos caras (Flora of China), lisa, brillante y gruesa (NC State, NParks). Lóbulos basales (posteriores) redondeados, de 1/3 a 1/2 de la longitud del lóbulo anterior, a menudo solapados; seno basal abierto ('desnudo'): en ejemplares adultos el pecíolo se inserta en el borde de la lámina, NO dentro de ella (no peltada); en plantas jóvenes puede ser débilmente peltada (Flora of China). Margen entero o ligeramente sinuoso-ondulado (NC State la describe como 'ruffled'). Pecíolos muy largos (hasta 1,3 m), robustos, envainadores en su mitad inferior (Kew/CATE). Rasgo útil: con sustrato húmedo y aire saturado (de noche o al amanecer) suelen verse gotas de agua colgando de la punta de la hoja (gutación), que es un fenómeno fisiológico normal.",
+    "nerviacion": "Pinnada: nervio central grueso y unos 9 nervios laterales primarios por lado en el lóbulo anterior, bastante separados y divergentes en un ángulo de unos 60°, con glándulas visibles en sus axilas por el envés; la nerviación secundaria queda a ras de la lámina y NO forma nervios colectores interprimarios (o apenas definidos) (CATE Araceae y Flora of China, vía POWO). Nervios del mismo color que la lámina o algo más claros en la forma típica; morados en 'Metallica' y dorados en 'New Guinea Gold'.",
+    "variegacion": "La especie tipo es verde liso sin variegación. Existen cultivares: 'Variegata' (manchas irregulares blancas o crema), 'New Guinea Gold' (= 'Solid Gold', 'Jungle Gold'; pecíolos, nervios y motas dorados sobre verde oscuro, NParks), 'Metallica' (hojas verde plateado con nervios morados, NC State) y 'Borneo Giant' (verde brillante, ondulada, muy grande, NC State).",
+    "tallo": "Paquicaule: con la edad forma un tronco grueso, erguido o decumbente, de hasta ~1,5 m (Flora of China) y la planta entera llega a ~4 m en origen (Kew). El tallo es un rizoma/cormo carnoso que se alarga y emerge sobre el suelo, normalmente sin restos de hojas viejas; las hojas se agrupan en la punta del tronco. Látex ligeramente lechoso e irritante.",
+    "habito": "Herbácea perenne gigante, de hoja persistente (RHS: evergreen, porte columnar erguido), en roseta de pocas hojas grandes en lo alto de un tronco carnoso; puede producir hijuelos en la base. En interior con frío y poca luz puede entrar en reposo y perder hojas. Inflorescencias (espata amarillo pálido de 13-35 cm y espádice con apéndice amarillento) raras en interior; frutos en baya roja.",
+    "tamano_adulto_interior": "RHS: altura y anchura máximas de 1,5-2,5 m (cultivo en invernadero o galería, madurez en 2-5 años); la guía de RHS indica que puede alcanzar 1,5 m como planta de interior. UC ANR (complementaria) da 1,2-1,8 m en interior. En exterior tropical llega a 4 m (Kew) y 'Borneo Giant' hasta 4,5 m (NC State). Necesita espacio: una sola hoja puede medir más de 1 m con pecíolo.",
+    "confusiones": [
+      {
+        "especie": "Colocasia esculenta (taro, oreja de elefante)",
+        "rasgo_diferenciador": "Hoja claramente peltada (el pecíolo se clava cerca del centro del envés) y orientada hacia fuera o hacia abajo, perpendicular al pecíolo; la forma típica es mate (Wisconsin). En A. macrorrhizos adulta el pecíolo se une al borde de la lámina en un seno abierto y la hoja apunta hacia arriba, brillante. Colocasia no forma tronco aéreo grueso."
+      },
+      {
+        "especie": "Alocasia odora (oreja de elefante olorosa)",
+        "rasgo_diferenciador": "Lámina peltada también en adultos, acorazonado-sagitada y más ancha (hasta 130 × 100 cm), con 9-12 nervios primarios por lado y nervios colectores interprimarios bien marcados entre ellos; espata blanco verdosa y apéndice del espádice blanco, de ~1/3 de su longitud (POWO). A. macrorrhizos: seno abierto no peltado en adultos, ~9 nervios primarios sin colectores interprimarios definidos, espata amarillo pálido y apéndice amarillento de al menos la mitad del espádice."
+      },
+      {
+        "especie": "Alocasia 'Portora' (A. portei × A. odora)",
+        "rasgo_diferenciador": "Híbrido grande con hoja sagitada fuertemente ondulada y acanalada en el margen y pecíolos morados (NC State); la forma típica de A. macrorrhizos tiene pecíolos verdes y margen apenas sinuoso."
+      },
+      {
+        "especie": "Alocasia macrorrhizos 'Metallica' y 'New Guinea Gold' (cultivares de la misma especie)",
+        "rasgo_diferenciador": "Misma especie; se distinguen por color: 'Metallica' plateada con nervios morados (NC State); 'New Guinea Gold' con pecíolos, nervios y motas dorados (NParks). Los cuidados son los mismos."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios en forma de aguja) en todas las partes de la planta, incluido el látex ligeramente lechoso (ASPCA para Alocasia spp., NC State, UF/IFAS, NParks). Kew señala además que el rizoma contiene cristales urticantes y solo es comestible tras cocción prolongada.",
+    "sintomas": "Perros y gatos: irritación oral, dolor e hinchazón de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA). Personas y niños: dolor e irritación intensa de labios, boca, lengua y garganta al masticar, dificultad para hablar, náuseas, vómitos y diarrea; la savia causa dermatitis de contacto e irritación o lesión ocular (NC State, UF/IFAS, RHS). Manipular siempre con guantes y lavarse las manos; no tocarse los ojos. Las gotas de gutación pueden arrastrar compuestos de la planta: limpiarlas si hay niños o mascotas cerca (Plantura, complementaria). Ante ingestión: veterinario o Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F3",
+      "F4",
+      "F1",
+      "F8",
+      "F10"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana este u oeste (UC ANR, complementaria; RHS admite orientación este, sur u oeste con exposición resguardada). En ventana sur, a 1-2 m del cristal o tras cortina fina. Ventana norte: solo si es muy luminosa; crecerá despacio.",
+      "tolera_sol_directo": "En interior, no: el sol fuerte quema la hoja (RHS). Tolera sol suave de primera hora de la mañana. En exterior tropical tolera pleno sol (NParks), pero en Madrid el sol de mediodía y tarde tras un cristal la quema.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F3",
+        "F10"
+      ],
+      "notas": "Contradicción de contexto: RHS (ficha de especie) y NC State la sitúan en semisombra/sombra moteada; NParks (Singapur, exterior) dice que crece mejor con luz intensa y algo de sombra pero tolera pleno sol, y RHS da 'full sun' para A. odora. La guía RHS para interior advierte de quemaduras por sol fuerte. Se adopta la opción más conservadora: luz brillante indirecta. Las fuentes no dan cifras: los lux corresponden a la franja 'brillante indirecta' de la escala del proyecto (500-1000 fc). Con poca luz sobrevive pero crece mucho más lento (RHS). Girar la maceta un poco en cada riego para que no se incline hacia la luz y se desequilibre (RHS), algo importante en una planta tan alta y pesada."
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 5 cm superiores del sustrato estén secos al tacto (RHS; coincide con la convención del proyecto para macetas grandes) y la maceta pese claramente menos. Entonces regar a fondo hasta que drene y vaciar el plato a los 15-30 minutos. Nunca por calendario.",
+      "primavera_verano": "En crecimiento activo (aprox. abril-octubre) consume mucha agua (Wisconsin: 'copious water'; NParks: mucha agua o moderada): el sustrato se seca rápido y puede necesitar riego frecuente, pero siempre comprobando primero los 5 cm superiores y el peso. Si se seca muy deprisa tras regar, probablemente necesita maceta mayor (RHS).",
+      "otono_invierno": "Si entra en reposo (deja de sacar hojas o las pierde), reducir el riego al mínimo (RHS; Wisconsin: mantener más seca en semirreposo): dejar secar gran parte del cepellón y dar poca agua para que el rizoma no se deshidrate. Si sigue creciendo en un piso cálido y luminoso, regar algo menos que en verano con el mismo criterio de sustrato y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda; la cloramina no se elimina dejándola reposar y no causa puntas marrones). Agua a temperatura ambiente. Tolerancia a sales baja (UF/IFAS): lavar el sustrato con abundante agua cada pocos meses si se abona.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F10",
+        "F5"
+      ],
+      "notas": "Contradicción de contexto: Wisconsin y UF/IFAS indican que en jardín las orejas de elefante toleran suelos encharcados o incluso unos centímetros de agua; NParks advierte que en suelo húmedo y mal drenado los cormos se pudren, NC State asocia el exceso de riego con pudrición de raíz y manchas foliares, y RHS señala que el exceso de riego, sobre todo en reposo, pudre las raíces. En maceta e interior se aplica la opción conservadora: sustrato húmedo pero nunca encharcado. La gutación (gotas en las puntas de las hojas por la mañana) indica que la planta tiene buena presión radicular; no es por sí sola señal de exceso de riego, pero si ocurre a diario con el sustrato siempre mojado conviene espaciar riegos (PLNTS, Plantura, complementarias)."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F3"
+      ],
+      "notas": "RHS (humedad media a alta), Wisconsin (crece mejor con calor y humedad alta) y NC State (propensa a araña roja, favorecida por aire seco) coinciden cualitativamente, pero ninguna fuente prioritaria da porcentajes: min_pct e ideal_pct en null (ver lagunas). RHS relaciona la humedad baja con bordes marrones y araña roja. Según la convención del proyecto, pulverizar no sube la humedad de forma útil (aunque RHS y UC ANR lo sugieren): usar humidificador, agrupar plantas o bandeja de grava húmeda sin que la maceta toque el agua. Lejos de radiadores y salidas de aire acondicionado."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 20,
+      "ideal_max_c": 25,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "notas": "RHS clasifica la especie como H1A (bajo cristal todo el año, mínimo >15 °C); la guía RHS del género pide >16 °C en temporada de crecimiento y nunca <10 °C, aceptando 10-16 °C en invierno para que entre en reposo; Wisconsin indica que se resiente con temperaturas prolongadas por debajo de 10 °C (50 °F). Se adopta 15 °C como mínimo (el más conservador de aplicación todo el año, RHS H1A); 16 °C es el umbral de crecimiento activo y 10 °C el límite absoluto que no debe alcanzarse ni en reposo. Óptimo diurno de 20-25 °C (68-77 °F) según NC State para el género. Ninguna fuente prioritaria da máxima: max_c en null. Evitar corrientes frías, sobre todo en invierno, y el frío durante el transporte tras la compra (RHS)."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato fértil, rico en materia orgánica y aireado: 3 partes de sustrato de interior o universal sin turba + 1 parte de grava hortícola o árido grueso (RHS). Alternativa equivalente: sustrato de interior con 25-30 % de perlita o corteza [orientativo, sin fuente prioritaria]. Plantar con la parte superior del cepellón justo bajo la superficie, sin enterrar el tronco. Al ser una planta alta y pesada, usar maceta pesada de terracota o con base ancha para que no vuelque (RHS).",
+      "ph": "Ácido a neutro: NC State indica ácido (<6,0) a neutro (6,0-8,0) y suelo ligeramente ácido para el género; RHS la da como tolerante a pH ácido, neutro o alcalino. UC ANR (complementaria) recomienda 5,5-6,5.",
+      "drenaje": "Imprescindible: húmedo pero bien drenado (RHS, NC State, NParks). En sustrato encharcado y mal drenado el cormo se pudre (NParks). Maceta con agujeros, sin cubremacetas que retenga agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F10"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de follaje, diluido en el agua de riego.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras saque hojas nuevas (aprox. abril-octubre en Madrid), regando antes si el sustrato está seco.",
+      "otono_invierno": "Nada durante el reposo ni mientras no crezca. Reanudar con la primera hoja nueva de primavera (Wisconsin).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F4"
+      ],
+      "notas": "Contradicción de frecuencia: Wisconsin la califica de muy exigente ('heavy feeders', abono abundante); RHS remite a la dosis y frecuencia de la etiqueta de abril a octubre; UC ANR (complementaria) propone 20-20-20 a media dosis mensual o bimensual, o abono de liberación lenta cada 6-8 semanas. Se adopta la convención conservadora del proyecto (mensual, ¼-½ de dosis) porque UF/IFAS indica tolerancia a sales baja y en interior el exceso de abono acumula sales que queman puntas y bordes y deja costras blancas en las puntas donde gotea la gutación. Ninguna fuente prioritaria da NPK."
+    },
+    "trasplante": {
+      "frecuencia": "Puede quedarse en su maceta original el primer año; luego cada 2 años aproximadamente, antes en las especies de crecimiento rápido como esta (RHS). UC ANR (complementaria) indica cada año y medio. Subir solo unos 5 cm de diámetro cada vez para evitar exceso de sustrato húmedo (RHS).",
+      "epoca": "Primavera, al reanudar el crecimiento (marzo-mayo en Madrid). Nunca en pleno reposo invernal.",
+      "senales": "Raíces que salen por los agujeros o rodean el cepellón, sustrato que se seca muy rápido tras regar (RHS), hijuelos que llenan la maceta, planta inestable que vuelca. Aprovechar para revisar raíces y cormo y retirar partes blandas o negras. Usar guantes: la savia irrita.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F13"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS), solo retirar hojas viejas, amarillas o secas.",
+      "epoca": "En cualquier momento, cuando una hoja amarillea del todo o se seca.",
+      "como": "Cortar el pecíolo de la hoja marchita por su base con tijera o cuchillo limpio (RHS; Wisconsin: las hojas viejas que van muriendo se retiran). Usar guantes y protección ocular si el corte es grande: la savia irrita piel y ojos. Es normal que al abrirse una hoja nueva muera una vieja. No cortar el tronco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aprox. noviembre-marzo; en Madrid, cuando bajan la luz y la temperatura interior). En hemisferio sur, aprox. mayo-septiembre.",
+      "cambios": "Con menos luz y más fresco frena o detiene el crecimiento y puede perder parte de las hojas: es normal, rebrotará en primavera (RHS). Durante el reposo: mantener por encima de 15 °C si es posible y nunca por debajo de 10 °C, con buena luz; regar al mínimo (RHS; Wisconsin: mantener más seca en semirreposo); no abonar ni trasplantar (NC State: reducir el riego en invierno). Antes de dar la planta por muerta, comprobar que el tronco o cormo esté firme: duro = vivo; blando y maloliente = podrido. Reanudar riego normal y abono con la primera hoja nueva. En un piso cálido y luminoso puede seguir creciendo despacio sin perder hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos (offsets)",
+        "división del rizoma o cormo",
+        "cormelos de la base"
+      ],
+      "epoca": "Primavera para los hijuelos; finales de primavera-principios de verano para la división del rizoma (RHS).",
+      "pasos": "1) Con guantes, sacar la planta de la maceta y localizar los hijuelos de la base (NC State recomienda la división de hijuelos). 2) Separar cada hijuelo con un cuchillo limpio, llevándose el máximo de raíz (RHS). 3) Plantarlo en maceta pequeña con sustrato aireado (3 partes de sustrato sin turba + 1 de grava). 4) Mantenerlo en calor (≥20 °C), luz brillante indirecta y sustrato apenas húmedo hasta que saque hoja nueva. 5) División: cortar el rizoma/cormo carnoso en trozos con al menos una yema, dejar secar el corte unas horas y plantar en las mismas condiciones; brotará en unas semanas (RHS; NParks cita propagación por órgano de reserva y división). No se propaga por esqueje de hoja. Las semillas son raras en interior.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F10"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros tetraníquidos): la plaga más típica en interior, favorecida por aire seco (RHS, NC State; RHS cita araña roja de invernadero para A. odora). Revisar el envés de las hojas cada 1-2 semanas, sobre todo con calefacción o en verano seco."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado del haz por la alimentación de la araña roja; suele preceder a la telaraña visible."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las vainas de los pecíolos y el envés (NC State; RHS para A. odora)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas que se están abriendo (NC State)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego, maceta sobredimensionada o sustrato compacto, sobre todo en invierno durante el reposo (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del cormo o base del tronco en sustrato mojado y mal drenado (NParks): base blanda, oscura y maloliente. Aislar y recuperar hijuelos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Renovación normal (las hojas viejas van muriendo mientras salen nuevas, Wisconsin) o entrada en reposo invernal con menos luz y frío (RHS). Si es masivo en temporada de crecimiento, revisar riego y raíces."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo por exceso de riego, por falta de agua o por luz insuficiente (NC State)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por humedad ambiental baja (RHS): calefacción en invierno o aire acondicionado y aire seco del verano madrileño."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por aire seco, riego irregular o sales de abono acumuladas (tolerancia a sales baja, UF/IFAS); las sales pueden concentrarse en la punta donde se produce la gutación. No atribuir al agua del grifo de Madrid. Las gotas de agua en las puntas (gutación) por sí solas son normales y no son un síntoma."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras por sol directo a través del cristal (RHS), habituales en ventanas sur u oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Desgarros de la lámina por viento o golpes: las hojas son tiernas y grandes y el viento las rompe (UF/IFAS, NC State), típico si se saca a terraza o junto a zonas de paso; en exterior también mordeduras de insectos masticadores (NParks)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas o pecíolos caídos por exceso de riego con raíces dañadas, por sequía puntual del sustrato en verano, por frío y corrientes (RHS) o por inclinación hacia la luz si no se gira la maceta."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras la compra o el transporte en frío y tras cambios bruscos de ubicación; RHS advierte que el frío en el transporte puede dañarla o matarla."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sin hojas nuevas en primavera-verano por luz insuficiente (RHS: crece mucho más despacio con poca luz), temperatura <16 °C o raíces dañadas. En invierno la parada es normal (reposo)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio) aumenta el riesgo de araña roja y de bordes secos: revisar el envés cada semana y subir la humedad con humidificador o agrupando plantas. Es una planta de mucho consumo en verano: comprobar los 5 cm superiores del sustrato y el peso cada 2-3 días, sin regar por calendario. Retirar de ventanas sur y oeste sin protección (el sol directo tras el cristal quema la hoja); poner a 1-2 m del cristal o tras cortina fina. No colocar frente al aire acondicionado. Puede pasar el verano en terraza solo en sombra luminosa, muy protegida del viento (las hojas se rasgan) y cuando las noches superen los 15 °C; aclimatarla de forma gradual y volver a entrarla antes de que las noches bajen de 15 °C (a finales de septiembre o principios de octubre).",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: máximo riesgo de araña roja y bordes y puntas secos; humidificador y lejos de radiadores. Separar de los cristales fríos (de noche pueden bajar de 10-15 °C junto a la ventana) y de corrientes de puertas. Es normal que frene y pierda alguna hoja: reducir mucho el riego, no abonar ni trasplantar. Si el piso está a 20-22 °C con buena luz puede seguir creciendo: regar solo con el sustrato seco a 5 cm. Nunca por debajo de 10 °C.",
+    "ubicacion_recomendada": "Salón amplio y luminoso, junto a ventana este u oeste (con cortina en verano en la oeste) o a 1-2 m de una ventana sur con cortina fina, con espacio libre de 1,5-2 m de alto y ancho para las hojas. Maceta pesada y estable. Lejos de radiadores, aire acondicionado, corrientes y zonas de paso, y fuera del alcance de perros, gatos y niños por su toxicidad."
+  },
+  "lagunas": [
+    "Nombre: la ficha usa \"Alocasia macrorrhizos\" (nombre de lista-maestra.csv). POWO (Kew) lo acepta como Alocasia macrorrhizos (L.) G.Don (Hort. Brit., ed. 3, 1839), con basiónimo Arum macrorrhizon L. (1753) y sinónimos homotípicos Caladium macrorrhizon (L.) R.Br. y Colocasia macrorrhizos (L.) Schott; entre los heterotípicos figuran Alocasia cordifolia, A. gigas, A. marginata, A. pallida, A. plumbea, A. rapiformis y Caladium metallicum. RHS indica que 'Alocasia indica (Lour.) Spach' se ha aplicado erróneamente a esta especie. No hay cambio de nombre. La grafía 'Alocasia macrorrhiza', habitual en el comercio, no figura en el listado de sinónimos de POWO consultado: se trata como variante ortográfica no verificada.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes (solo 'media-alta' o 'alta'); min_pct e ideal_pct en null.",
+    "Temperatura máxima: ninguna fuente prioritaria la da; max_c en null. El óptimo de 20-25 °C de NC State se refiere al género, no a la especie.",
+    "Luz: ninguna fuente prioritaria da cifras en fc o lux; se usa la franja 'brillante indirecta' de la escala del proyecto.",
+    "Gutación: ninguna fuente prioritaria consultada la describe para esta especie; el carácter normal del fenómeno y su relación con riego y sales solo está respaldado por fuentes complementarias (Plantura, PLNTS). La búsqueda de una fuente de extensión universitaria quedó sin resultado.",
+    "Fertilización: sin NPK específico en fuentes prioritarias; frecuencia contradictoria (Wisconsin 'heavy feeders' frente a la etiqueta en RHS).",
+    "Trasplante: solo RHS (fuente prioritaria) da frecuencia; confianza Media.",
+    "Dormancia: no hay umbral de temperatura de entrada en reposo verificado en fuentes prioritarias para esta especie.",
+    "Missouri Botanical Garden Plant Finder no fue accesible (bloqueo del servidor) y NC State no tiene ficha propia de la especie (solo la del género con descripción de A. macrorrhizos y cultivares); ASPCA tiene ficha del género Alocasia spp., no de la especie."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/197177/alocasia-macrorrhizos/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia macrorrhizos (giant taro)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow alocasias (Growing Guide)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Alocasia (incluye A. macrorrhizos, 'Borneo Giant' y 'Metallica')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/FP033",
+      "institucion": "UF/IFAS Extension (University of Florida) — FPS33 Alocasia spp.: Elephant's Ear, Alocasia, Taro (rev. 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/elephant-ears-colocasia-alocasia-and-xanthosoma/",
+      "institucion": "University of Wisconsin–Madison Extension — Elephant Ears (Colocasia, Alocasia and Xanthosoma)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "institucion": "ASPCA Animal Poison Control Center — Alocasia (Alocasia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60444565-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia macrorrhizos (L.) G.Don, taxonomía y distribución",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60444565-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew — POWO, información general de A. macrorrhizos (Kew Species Profiles, CATE Araceae y descripción de Flora of China)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60469948-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew — POWO, información general de Alocasia odora (G.Lodd.) Spach",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/1/6/1638",
+      "institucion": "National Parks Board de Singapur (NParks, Flora & Fauna Web) — Alocasia macrorrhizos 'Metallica'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/8/0/8001",
+      "institucion": "National Parks Board de Singapur (NParks, Flora & Fauna Web) — Alocasia macrorrhizos 'New Guinea Gold'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.rhs.org.uk/plants/136814/alocasia-odora/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia odora",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://ucanr.edu/blog/under-solano-sun/article/alocasia-macrorrhizos-plant-giant-nature",
+      "institucion": "UC ANR, blog Under the Solano Sun (Master Gardener del condado de Solano) — Alocasia macrorrhizos",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://plantura.garden/uk/green-living/knowledge/guttation",
+      "institucion": "Plantura (guía de jardinería) — Guttation in plants",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://plnts.com/en/blog/what-is-guttation",
+      "institucion": "PLNTS.com (vivero/tienda de plantas de interior) — What is guttation",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

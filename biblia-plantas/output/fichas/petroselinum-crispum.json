@@ -1,0 +1,352 @@
+{
+  "nombre_cientifico": "Petroselinum crispum",
+  "nombres_comunes": [
+    "perejil",
+    "perejil rizado",
+    "perejil liso",
+    "perejil italiano"
+  ],
+  "familia": "Apiaceae",
+  "origen": "Mediterráneo. POWO (Kew) la da como nativa de Argelia, Grecia, Marruecos y el noroeste de los Balcanes, e introducida en el resto del mundo, incluida España. Otras fuentes amplían el origen: sur de Europa y oeste de Asia (Purdue), Mediterráneo oriental (Wisconsin) o zona mediterránea en general (Univ. Minnesota, NC State).",
+  "clima_nativo": "Mediterráneo templado. Es una planta de temporada fresca: rinde más con veranos suaves y puede marchitarse con calor intenso (NC State). Aguanta heladas ligeras (Univ. Minnesota). Óptimo de cultivo de 15,5-18 °C, con mínimo de 7 °C y máximo de 24 °C (UC ANR).",
+  "categoria": "aromatica",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Compuestas y alternas, divididas en folíolos triangulares de 2,5-7,5 cm, verde oscuro y sin pelos (NC State). Son comestibles y huelen a perejil al frotarlas. Hay dos formas principales. El perejil rizado (var. crispum) tiene folíolos muy recortados y rizados que forman una masa compacta y crespa. El perejil liso o italiano (var. neapolitanum) tiene folíolos planos, muy recortados y dentados (Univ. Minnesota, Purdue). El liso tiene más aceite esencial y sabe más fuerte (Wisconsin). Las hojas salen de largos peciolos que parten de la base.",
+    "nerviacion": "Pinnada en cada folíolo, con nervios finos poco marcados. La hoja entera es pinnaticompuesta, dividida varias veces. En el perejil rizado la lámina queda tan rizada que apenas se ven los nervios.",
+    "variegacion": "No existe variegación en la especie: es verde oscuro uniforme (NC State). Las hojas amarillas o pálidas indican un problema o la vejez de la hoja, no un cultivar.",
+    "tallo": "El primer año no tiene tallo visible: forma una roseta de peciolos largos, finos, verdes y huecos que salen de una corona a ras de sustrato (NC State, Wisconsin). Raíz principal pivotante, blanca y profunda; en la var. tuberosum (perejil de raíz o de Hamburgo) se engrosa como una chirivía (Wisconsin, Univ. Minnesota). El segundo año sube un tallo floral hueco, ramificado y estriado.",
+    "habito": "Bienal herbácea, cultivada como anual. Primer año: roseta compacta y erguida de hojas (NC State, Wisconsin). Segundo año, tras el invierno: espiga, es decir, echa un tallo floral con umbelas compuestas de 2,5-7,5 cm de flores diminutas de color amarillo verdoso. Después produce frutos pequeños y estriados y la planta muere (NC State, RHS, Univ. Minnesota). Cuando espiga, las hojas se vuelven más bastas y amargas y la planta deja de producir buena hoja (NC State, RHS, Univ. Minnesota).",
+    "tamano_adulto_interior": "En el primer año, 20-45 cm de alto y 20-30 cm de ancho (NC State: roseta de unos 30 cm; Wisconsin: 30-45 cm; Univ. Minnesota: rizado de 20-35 cm, liso de hasta 60-90 cm y desgarbado). El segundo año la vara floral llega a 60-90 cm (NC State). En interior con poca luz crece algo ahilado (Univ. Minnesota).",
+    "confusiones": [
+      {
+        "especie": "Conium maculatum (cicuta)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual con el perejil. Es MUY TÓXICA y puede ser mortal. Tiene el tallo liso con manchas moradas, pardas o rojizas, huele mal al aplastarla y es una planta grande de 1,8-3 m. Sus flores son blancas, mientras que las del perejil son amarillo verdosas (NC State). No consumir nunca perejil 'silvestre' recogido en el campo."
+      },
+      {
+        "especie": "Coriandrum sativum (cilantro)",
+        "rasgo_diferenciador": "Se confunde con el perejil liso. Las hojas basales del cilantro son más redondeadas y lobuladas, de verde más claro, y tienen un olor muy distinto, característico del cilantro. Las flores son blancas o rosadas. Rasgo orientativo, no descrito en las fuentes prioritarias consultadas."
+      },
+      {
+        "especie": "Aethusa cynapium (cicuta menor, perejil de perro)",
+        "rasgo_diferenciador": "Mala hierba tóxica de la misma familia, con hojas muy parecidas al perejil liso. Las flores son blancas, bajo cada umbélula cuelgan 3-4 brácteas finas como una 'barba' y las hojas huelen desagradable. Rasgo orientativo, sin fuente prioritaria consultada (ver lagunas)."
+      },
+      {
+        "especie": "Apium graveolens (apio) y Anthriscus cerefolium (perifollo)",
+        "rasgo_diferenciador": "Son de la misma familia y comparten plagas con el perejil (RHS). El apio tiene peciolos gruesos y acanalados y huele a apio. El perifollo tiene hojas más finas, verde claro, que huelen a anís. Rasgo orientativo."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "no_toxica",
+    "principio_activo": "Furanocumarinas (psoralenos), sustancias fotosensibilizantes (ASPCA, NC State).",
+    "sintomas": "ASPCA la clasifica como tóxica para perros, gatos y caballos. El signo clínico es la fotosensibilización: quemadura solar y dermatitis en piel poco pigmentada o con poco pelo, tras exponerse al sol. Hace falta comer grandes cantidades para que aparezca (ASPCA, NC State). El riesgo real para un perro o un gato que mordisquea la maceta es bajo. Si come mucho y luego aparecen enrojecimiento, costras o quemaduras en hocico, orejas o vientre, hay que acudir al veterinario y mantenerlo a la sombra. En niños es una hierba comestible: NC State da gravedad baja para humanos y no causa dermatitis por contacto. Las semillas y frutos son tóxicos para aves (NC State).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F13"
+    ],
+    "notas": "En la app hay que distinguir dos cosas. 'Tóxica' para perros y gatos (ASPCA) no significa peligro con un mordisco: el efecto depende de la dosis y necesita grandes cantidades. Para niños se marca 'no_toxica' porque es un alimento (NC State: gravedad baja). Aun así, comer cantidades muy grandes también puede dar fotosensibilización. El riesgo práctico en niños es comer hojas tratadas con un fitosanitario antes de cumplirse el plazo de seguridad de la etiqueta. La cicuta (Conium maculatum), con la que se confunde, es mortal (NC State)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "En interior, junto a una ventana sur u oeste. Necesita 6 h de luz intensa de una ventana soleada; si no las tiene, hay que darle 12-16 h de luz con lámparas LED o fluorescentes de luz fría (UC Master Gardeners). Rinde más en balcón o terraza, a pleno sol en primavera y otoño. En verano, mejor con sombra por la tarde en zonas calurosas (UC Master Gardeners) y llevando la maceta a la sombra si hace mucho calor (RHS).",
+      "tolera_sol_directo": "Sí: prefiere pleno sol, 6-8 h de luz directa al día, aunque tolera algo de sombra ligera (Univ. Minnesota, NC State, RHS, Univ. Delaware). La excepción es el sol de verano a pleno mediodía con calor. Por encima de unos 24 °C (UC ANR) la planta se resiente, así que conviene darle sombra por la tarde (UC Master Gardeners, RHS).",
+      "notas": "Luz directa según la escala del proyecto: más de 1000 fc, es decir, más de 10 760 lux. Ninguna fuente da un máximo de lux. Dentro de casa suele crecer algo ahilado por falta de luz (Univ. Minnesota), así que la luz es el factor que más limita su cultivo en interior.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F10",
+        "F11"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato uniformemente húmedo, nunca encharcado (RHS). Su raíz absorbe poco a poco y sufre si se seca: el estrés hídrico frena la producción de hoja (Texas A&M). No dejes que la maceta se seque del todo entre riegos (Univ. Minnesota). Mete el dedo 2-3 cm y riega a fondo cuando esté casi seco; comprueba también el peso, porque una maceta ligera pide agua. Nunca riegues por calendario. Vacía el plato a los 15-20 min, porque el exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "Con calor y sol, la maceta se seca deprisa: compruébala a menudo (RHS). En pleno verano de Madrid puede necesitar riego casi a diario en macetas pequeñas, pero decide siempre por el dedo y el peso. En el exterior, Univ. Minnesota habla de riego profundo al menos semanal en suelo, que equivale a mucho menos tiempo en maceta. La sequía adelanta el espigado [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Crece más despacio y gasta menos agua. Riega cuando los 2-3 cm de arriba estén secos y el agua escurra del todo. Con frío y sustrato empapado aumentan los hongos de raíz y cuello (Pythium; ver Purdue). En interior con calefacción se seca antes de lo esperado: comprueba con el dedo.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "El agua del grifo de Madrid sirve. Es blanda y su cloramina no se elimina dejándola reposar, pero no causa problemas a esta planta. Lo importante es que la maceta tenga agujeros de drenaje (Univ. Minnesota).",
+      "notas": "Las plántulas son muy propensas al damping-off (caída de plántulas) por Pythium con sustrato frío y húmedo (Purdue, Univ. Delaware). Moja el sustrato, no las hojas: la septoriosis se propaga con salpicaduras de agua y el riego por goteo la reduce frente al riego por aspersión (Purdue).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da un porcentaje de humedad relativa para el perejil (ver lagunas). No es una planta tropical y no necesita ambiente húmedo. Penn State indica que el oídio se ve favorecido por humedad alta, temperaturas moderadas y sombra, así que conviene buena ventilación. Pulverizar las hojas no sube la humedad de forma útil y mantiene la hoja mojada, lo que favorece la septoriosis (Purdue). Con calefacción, el aire seco afecta más por el secado rápido del sustrato que por la humedad ambiental [orientativo, sin fuente prioritaria].",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 24,
+      "ideal_min_c": 15,
+      "ideal_max_c": 18,
+      "notas": "UC ANR da para el perejil un óptimo de 60-65 °F (15,5-18 °C), un mínimo de 45 °F (7 °C) y un máximo de 75 °F (24 °C). Penn State da un mejor crecimiento entre 7 y 16 °C. Texas A&M lo amplía a 45-85 °F (7-29 °C). Ante esta contradicción en el máximo se adopta el valor más conservador, 24 °C. La planta aguanta heladas ligeras: Univ. Minnesota dice que soporta heladas suaves y NC State recomienda meterla en casa antes de que baje a unos -4/-7 °C. Aun así, min_c se fija en 7 °C porque Texas A&M indica que 1-2 meses por debajo de 7 °C provocan el espigado cuando sube la temperatura. Este frío es lo que dispara la floración del segundo año. Por encima de 24 °C crece mal y puede marchitarse con calor (NC State). Germina con el suelo entre 10 y 27 °C (Texas A&M: 50-80 °F) y necesita tiempo fresco para germinar (UC Master Gardeners).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F7",
+        "F8",
+        "F4",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de buena calidad, rico en materia orgánica y que drene bien (Univ. Minnesota, Univ. Delaware, Wisconsin). Para semillero, sustrato de semillas sin turba (RHS). Necesita más fertilidad que otras aromáticas mediterráneas (Wisconsin). Usa una maceta profunda por la raíz pivotante: al menos 25 cm de ancho y de fondo (RHS).",
+      "ph": "6,0-7,0 (Univ. Minnesota, Texas A&M); tolera 5,3-7,3 (Purdue).",
+      "drenaje": "Imprescindible: maceta con agujeros (Univ. Minnesota) y nunca encharcada (RHS). Evita platos con agua permanente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F5",
+        "F7",
+        "F6",
+        "F11"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes o aromáticas, preferiblemente orgánico (RHS).",
+      "npk": "Equilibrado 1-1-1, o con algo más de nitrógeno (3-1-2), por ser cultivo de hoja (Purdue).",
+      "primavera_verano": "Con crecimiento activo, ¼-½ de la dosis de etiqueta una vez al mes (criterio del proyecto). Univ. Minnesota indica media dosis cada 4-6 semanas en interior y cada 3-4 semanas en maceta en el exterior. RHS indica un abono líquido equilibrado cada pocas semanas en maceta. Tras una cosecha fuerte, el rebrote agradece un aporte (Purdue y Texas A&M aportan nitrógeno tras cada corte en cultivo comercial).",
+      "otono_invierno": "Si sigue creciendo en interior junto a una ventana luminosa o bajo lámpara, la misma pauta pero más espaciada. Si apenas crece por poca luz o frío, nada.",
+      "notas": "No abones en exceso: Penn State indica que el exceso de abono favorece el oídio. Abona solo con el sustrato húmedo. Si es para consumo, usa solo abonos autorizados para cultivos comestibles.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F6",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Prácticamente no se trasplanta. Es bienal y se renueva cada año, con siembra o planta nueva en primavera (UC Master Gardeners). Solo se pasa una vez, del semillero o la maceta de compra a su maceta definitiva y profunda.",
+      "epoca": "En Madrid, de marzo a mayo para la producción más larga antes de espigar (UC Master Gardeners: sembrar o plantar en primavera). También a finales de verano o en otoño, cuando baja el calor. Al exterior, después de las heladas y tras aclimatar la planta (RHS, NC State).",
+      "senales": "Raíces saliendo por los agujeros, sustrato que se seca en horas o maceta de supermercado muy apretada. RHS advierte que las macetas de supermercado están pensadas para uso corto en interior y suelen ir sobrepobladas. Trasplantar con mucho cuidado: la raíz pivotante no tolera bien que la muevan, así que conviene moverla con todo el cepellón y sin romper la raíz principal (Wisconsin, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F3",
+        "F10"
+      ]
+    },
+    "poda": {
+      "necesita": "No se poda como tal: la cosecha es la poda. Cosechar con regularidad estimula hojas nuevas (RHS).",
+      "epoca": "Durante todo el periodo de crecimiento, cuando la planta tenga unos 20 cm (NC State, Penn State). En cultivo comercial rebrota en unos 30 días tras cada corte (Texas A&M).",
+      "como": "Corta los tallos exteriores enteros por la base, cerca del suelo, y deja intactos los del centro para que siga produciendo (RHS, Univ. Minnesota). No cortes solo las puntas dejando los peciolos: la planta produce menos (Univ. Minnesota). Si se corta la planta entera, hay que dejar 2,5-3 cm sobre la corona para que rebrote (Purdue). Cuando espigue en el segundo año, la hoja se vuelve basta y amarga; lo práctico es sustituir la planta (RHS, Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2",
+        "F6",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno. En el exterior la parte aérea se reduce o muere con el frío (RHS, Univ. Minnesota). Si se queda dentro de casa con poca luz, crece muy despacio, sin un reposo verdadero.",
+      "cambios": "Menos riego, siempre según el dedo y el peso, y sin abono si no crece. Es la fase fría que, en una bienal, prepara la floración. Después de 1-2 meses por debajo de 7 °C (Texas A&M), al llegar la primavera echará el tallo floral y dejará de dar buena hoja (RHS, Univ. Minnesota). Para mantener la cosecha de hojas, siembra o planta perejil nuevo cada primavera.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "epoca": "Siembra en interior desde finales de invierno, 6-10 semanas antes de la última helada; en Madrid, febrero-marzo (Univ. Minnesota, Wisconsin). Siembra directa en maceta desde mediados de primavera hasta finales de verano, en pequeñas tandas cada pocas semanas (RHS). En Madrid conviene evitar la siembra en julio, porque germina mal con calor [orientativo, sin fuente prioritaria]; UC Master Gardeners indica que necesita tiempo fresco para germinar.",
+      "pasos": "1) Remoja la semilla en agua templada hasta 24 h para acelerar la germinación (Univ. Minnesota; Wisconsin y Penn State: una noche). 2) Siembra directamente en la maceta definitiva para no dañar la raíz pivotante (Univ. Minnesota: la siembra directa es lo más fácil), o en alveolos individuales de sustrato de semillero sin turba (RHS). Cubre con 3-10 mm de sustrato (Univ. Minnesota: 3 mm; Purdue: no más de 6 mm; RHS: unos 1 cm). 3) Mantén el sustrato húmedo sin dejar que se seque nunca (RHS). 4) Ten paciencia: tarda de 2 a 5 semanas según lo fresca que sea la semilla, y a veces más de un mes; las plántulas aparecen en unas 6 semanas (Univ. Minnesota, RHS). La germinación es irregular y baja incluso en condiciones óptimas (Purdue, Wisconsin). 5) Las plántulas parecen hierba, con dos cotiledones estrechos y opuestos (Univ. Minnesota). Aclara cuando midan 5-7 cm y deja 1-3 plantas por maceta de 25 cm (RHS: 15-30 cm entre plantas). 6) Primera cosecha unos 70-80 días tras la siembra (Texas A&M, Penn State). No se propaga por esquejes ni por división (ver lagunas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F3",
+        "F6",
+        "F8",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón, la plaga más común del perejil (Wisconsin, RHS); por ejemplo, el pulgón del sauce y la zanahoria, Cavariella aegopodii (Penn State). Hojas amarillas o deformadas y brotes enanos. Retíralo a mano o con chorro de agua (Wisconsin, Penn State). Si hace falta un producto, usa solo uno listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado en su etiqueta para aromáticas o perejil, y respeta su plazo de seguridad antes de cosechar."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza del pulgón en hojas y peciolos (Penn State)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina que crece sobre la melaza del pulgón (Penn State). Se resuelve controlando el pulgón."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Septoriosis (Septoria petroselini, S. apiicola), la enfermedad más común del perejil (Wisconsin, Purdue). Manchas pequeñas, angulosas, de color gris pardo con borde pardo rojizo y puntitos negros; la hoja acaba amarilla y seca (Penn State). Se transmite por semilla y por salpicaduras. Usa semilla de calidad, riega sin mojar las hojas y retira las hojas afectadas (Purdue, Wisconsin). Univ. Delaware también cita manchas foliares por Alternaria y Cercospora."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (Erysiphe heraclei): polvo blanco en hojas y peciolos que amarillea la hoja. Le favorecen la humedad alta, las temperaturas moderadas, la sombra y el exceso de abono (Penn State, Univ. Delaware)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Damping-off (caída de plántulas) y podredumbre de tallo por Pythium y otros hongos del suelo con sustrato frío y empapado: las plántulas se doblan por la base y mueren (Purdue, Univ. Delaware, NC State). Riega solo cuando lo pida el dedo y usa sustrato nuevo de semillero."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Raíz pivotante podrida por encharcamiento o plato con agua (hongos de suelo como Pythium; Purdue). La planta entera se vuelve lacia aunque el sustrato esté mojado."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior: peciolos largos y débiles y hoja pálida (Univ. Minnesota: en interior crece algo ahilado). Ponla en la ventana más soleada o complementa con 12-16 h de LED (UC Master Gardeners)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Calor por encima de unos 24 °C con sol de tarde, o maceta seca: el perejil se marchita con calor (NC State) y la maceta se seca deprisa (RHS). Dale sombra por la tarde y riega según el dedo. Si está lacio con el sustrato mojado, sospecha de podredumbre de raíz (S36)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Envejecimiento normal de las hojas exteriores, falta de abono en maceta (Univ. Minnesota recomienda abonar la planta en maceta), o el final del ciclo bienal tras espigar. Corta por la base las hojas viejas amarillas [orientativo, sin fuente prioritaria para la relación causa-síntoma]."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Babosas y caracoles en balcón o terraza (RHS) y orugas de mariposa que se alimentan de umbelíferas (NC State y Wisconsin citan la oruga de Papilio polyxenes en Norteamérica; en España el equivalente esperable es Papilio machaon, ver lagunas). Retíralas a mano."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es la peor estación para el perejil. Con 35-40 °C supera con mucho su máximo de unos 24 °C (UC ANR) y se marchita con el calor (NC State). Ponlo donde reciba sol de mañana y sombra por la tarde (UC Master Gardeners); en olas de calor, lleva la maceta a la sombra (RHS). Nada de ventana sur u oeste sin protección en julio y agosto. Comprueba el sustrato a diario, porque con aire seco (HR ≈38 %) y sol la maceta se seca en horas (RHS); riega temprano por la mañana. Usa maceta grande (≥25 cm) para que tenga más reserva de agua. Producirá menos: es normal. No siembres en pleno verano; espera a finales de agosto o septiembre.",
+    "invierno": "En el balcón aguanta heladas ligeras (Univ. Minnesota). Pero 1-2 meses por debajo de 7 °C harán que espigue en primavera (Texas A&M). Como es bienal, lo hará igualmente en su segundo año: lo práctico es renovarlo cada primavera. Dentro de casa, ponlo en la ventana más soleada (sur) o bajo LED 12-16 h (UC Master Gardeners). Aléjalo de radiadores y de la salida de aire caliente. Con calefacción y humedad interior por debajo del 30 % el sustrato se seca antes: riega según el dedo y el peso, no por costumbre. Evita que las hojas toquen el cristal frío de noche. Si crece poco por falta de luz, no abones.",
+    "ubicacion_recomendada": "Primavera (marzo-junio) y otoño (septiembre-noviembre): balcón o terraza a pleno sol, o junto a una ventana sur u oeste. Verano: balcón este, o con sombra por la tarde. Invierno: dentro, junto a la ventana más luminosa (sur) o con lámpara de cultivo. Siempre en maceta profunda con drenaje, de al menos 25 cm de ancho y fondo (RHS)."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Petroselinum crispum (Mill.) Fuss; Purdue usa la autoría (Mill.) Nyman ex A.W.Hill. Basiónimo: Apium crispum Mill. Sinónimos homotípicos según POWO: Apium crispum Mill., Carum petroselinum var. crispum (Mill.) Beck, Petroselinum hortense var. crispum (Mill.) L.H.Bailey, Petroselinum sativum var. crispum (Mill.) Gaudin y Petroselinum vulgare var. crispum (Mill.) Gray. No hay cambio de nombre aceptado. Univ. Minnesota escribe 'P. neapolitanum' y 'P. tuberosum' como si fueran especies, pero son variedades de P. crispum (NC State, Purdue, Wisconsin).",
+    "Humedad relativa: ninguna fuente prioritaria da un porcentaje mínimo ni ideal para el perejil en interior (min_pct e ideal_pct a null).",
+    "Lux: ninguna fuente da un máximo de iluminancia ni cifras en lux; solo horas de sol directo (6-8 h) o de lámpara (12-16 h).",
+    "Aethusa cynapium (cicuta menor), confusión tóxica relevante en España: no se ha consultado una fuente prioritaria para sus rasgos diferenciadores (solo guías de forrajeo complementarias); el rasgo descrito es orientativo.",
+    "Mariposas: NC State y Wisconsin citan la oruga de Papilio polyxenes (Norteamérica). No se ha verificado con fuente prioritaria que Papilio machaon se alimente de perejil cultivado en España.",
+    "RHS cita la mosca minadora del apio (Euleia heraclei) y la mosca de la zanahoria como plagas; no hay un síntoma de 'galerías en la hoja' en la lista del proyecto, así que no se ha incluido en problemas_frecuentes.",
+    "Sensibilidad del perejil a ácaros (araña roja) y mosca blanca en interior: no documentada en las fuentes prioritarias consultadas.",
+    "Propagación vegetativa (esquejes o división): ninguna fuente la describe. Todas las fuentes prioritarias consultadas indican semilla o planta de vivero (NC State: estrategia recomendada, semilla). No se ha verificado si dividir las macetas de supermercado sobrepobladas en matas pequeñas da buen resultado.",
+    "Efecto de la sequía o el calor en el adelanto del espigado: solo en fuentes complementarias; se marca como orientativo.",
+    "Toxicidad en niños: no se ha encontrado una fuente toxicológica específica para personas, más allá de NC State (gravedad baja; fotosensibilización solo con grandes cantidades)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/petroselinum-crispum/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/herbs/parsley/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umn.edu/vegetables/growing-parsley",
+      "institucion": "University of Minnesota Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/parsley",
+      "institucion": "University of Wisconsin-Madison Extension, Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.extension.purdue.edu/extmedia/HO/HO-202.html",
+      "institucion": "Purdue University Cooperative Extension (HO-202, Parsley: A Production Guide)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://aggiehorticulture.tamu.edu/vegetable/wp-content/uploads/sites/10/2011/10/parsley.pdf",
+      "institucion": "Texas A&M AgriLife Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plantvillage.psu.edu/topics/parsley/infos",
+      "institucion": "Penn State University, PlantVillage",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://oc4h.ucanr.edu/sites/default/files/2017-01/142583.pdf",
+      "institucion": "University of California ANR, Cooperative Extension Placer-Nevada (Pub. 31-043C, Vegetable Characteristics)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://mgsantaclara.ucanr.edu/garden-help/herbs/parsley",
+      "institucion": "UC ANR, UC Master Gardeners of Santa Clara County",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/parsley/",
+      "institucion": "University of Delaware Cooperative Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60442790-2",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://plants.ces.ncsu.edu/plants/conium-maculatum/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox (Conium maculatum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

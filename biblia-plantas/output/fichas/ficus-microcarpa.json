@@ -1,0 +1,358 @@
+{
+  "nombre_cientifico": "Ficus microcarpa",
+  "nombres_comunes": [
+    "ficus ginseng",
+    "ficus retusa",
+    "laurel de Indias",
+    "ficus bonsái",
+    "higuera de cortina (curtain fig)",
+    "baniano chino (Chinese banyan)"
+  ],
+  "familia": "Moraceae",
+  "origen": "Asia tropical y subtropical hasta el Pacífico occidental: India, Sri Lanka, Himalaya, sur de China, Taiwán, Japón (Nansei-shoto), Indochina, Malesia, Nueva Guinea, Queensland, Nueva Caledonia y Vanuatu (POWO). Naturalizada en Florida, Hawái, California, Canarias, Baleares y otras zonas cálidas, también en España (POWO).",
+  "clima_nativo": "Tropical y subtropical húmedo; árbol (a menudo hemiepífito, estrangulador y con raíces aéreas) que en su hábitat supera los 12-15 m. Prefiere temperaturas por encima de 20 °C todo el año y humedad alta, 70-100 %, que favorece las raíces aéreas (NC State). Zonas USDA 9a-11b (NC State); RHS H1B: necesita protección, mínima de 10-15 °C.",
+  "categoria": "bonsai",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, de margen entero, elípticas u ovadas a oblanceoladas, de 2,5-7,5 cm (NC State), coriáceas, gruesas, verde oscuro muy brillante en el haz y más pálidas en el envés. Ápice corto, romo o con una punta corta y poco marcada, nunca con una punta larga y fina (NC State, RHS). Los cultivares para bonsái injertados en la copa ('Green Island', 'Golden Gate', 'Mini Flat Leaf') tienen hojas más pequeñas, redondeadas y densas que el patrón.",
+    "nerviacion": "Pinnada, con nervio central marcado y nervios secundarios finos y poco visibles, casi paralelos, que se unen cerca del margen; la lámina se ve lisa y lustrosa.",
+    "variegacion": "La especie y 'Ginseng' son verdes. Existen formas variegadas en el comercio (por ejemplo, con manchas o bordes crema o blancos), menos frecuentes; ninguna fuente prioritaria consultada las describe.",
+    "tallo": "Rasgo diagnóstico del 'ficus ginseng': base del tronco y raíces superiores engrosadas, bulbosas, gris-marrón claro con lenticelas, expuestas sobre el sustrato como un tubérculo de ginseng (RHS, NC State). Sobre ese patrón salen uno o pocos tallos cortos, a menudo con la cicatriz del injerto, con corteza lisa gris clara a marrón claro; los tallos jóvenes son color caqui y se vuelven mostaza al cortarlos (NC State). Savia lechosa blanca al cortar. Puede emitir raíces aéreas finas desde las ramas con humedad alta.",
+    "habito": "Árbol perennifolio que en maceta se comporta como arbusto denso, de copa redondeada y extendida, multitronco (NC State, RHS). En la forma 'ginseng' se vende como bonsái de interior en maceta cerámica baja: base gruesa de raíces expuestas y copa pequeña y compacta mantenida por pinzado.",
+    "tamano_adulto_interior": "Como bonsái 'ginseng', habitualmente 15-60 cm de altura, mantenido por poda; la RHS indica que en contenedor puede llegar a 4 m si no se poda.",
+    "confusiones": [
+      {
+        "especie": "Ficus benjamina (ficus llorón)",
+        "rasgo_diferenciador": "Hojas más finas y menos coriáceas, con ápice largo y fino (acuminado) y ramas colgantes; F. microcarpa tiene hojas más gruesas con ápice romo o apenas apuntado y porte erguido, y el 'ginseng' tiene la base de raíces engrosadas."
+      },
+      {
+        "especie": "Ficus retusa L.",
+        "rasgo_diferenciador": "Es una especie distinta aceptada por POWO, rara en cultivo de interior; el nombre 'ficus retusa' del comercio casi siempre se aplica a F. microcarpa. Distinguirlas exige caracteres botánicos de higos y hojas; la app debe tratarlas como F. microcarpa a efectos de cuidado."
+      },
+      {
+        "especie": "Ficus natalensis / Ficus neriifolia y otros ficus de bonsái",
+        "rasgo_diferenciador": "F. natalensis tiene hojas obovadas con ápice redondeado o escotado y F. neriifolia (salicifolia) hojas estrechas y alargadas tipo sauce; ninguno se comercializa con la base bulbosa tipo 'ginseng'."
+      },
+      {
+        "especie": "Portulacaria afra (árbol de la abundancia) y Crassula ovata en formato bonsái",
+        "rasgo_diferenciador": "Son suculentas con hojas carnosas y sin savia lechosa; F. microcarpa tiene hojas planas coriáceas y látex blanco al cortar."
+      },
+      {
+        "especie": "Serissa japonica y Carmona retusa (bonsáis de interior)",
+        "rasgo_diferenciador": "Hojas mucho más pequeñas (menos de 2 cm), Carmona con pelos ásperos y flores blancas; sin base bulbosa ni látex blanco."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex lechoso con enzima proteolítica (ficina) y furocumarinas tipo psoraleno (ficusina), descritos por ASPCA para Ficus benjamina; Pet Poison Helpline atribuye savia irritante a numerosas especies del género Ficus. La RHS clasifica F. microcarpa 'Ginseng' como alérgeno cutáneo.",
+    "sintomas": "Animales: irritación de boca y aparato digestivo (salivación, vómitos, diarrea, falta de apetito) e irritación de la piel si la savia contacta con ella (ASPCA, Pet Poison Helpline). Personas y niños: la savia es alérgeno cutáneo y puede irritar la piel o agravar alergias; usar guantes al podar o manipular (RHS). Toxicidad irritante, no descrita como mortal; ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F2",
+      "F3",
+      "F9",
+      "F11"
+    ],
+    "notas": "Hay dos fuentes prioritarias (RHS para personas, ASPCA para el género en animales), pero ASPCA no tiene una entrada con el nombre Ficus microcarpa; la toxicidad para perros y gatos se aplica por extensión del género (ASPCA, F. benjamina; Pet Poison Helpline, 'Ficus'). Por eso confianza Media; se adopta la clasificación conservadora 'toxica'."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 2150,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este (sol suave de mañana) o sur/oeste a 1-2 m o tras visillo. La MBG indica que la mayoría de bonsáis de interior necesitan una ventana sur o este.",
+      "tolera_sol_directo": "Sí, de forma parcial y aclimatada: sol de mañana o de última hora de la tarde, sobre todo en invierno (RHS). Al aire libre crece a pleno sol o semisombra (NC State, RHS), pero el sol fuerte de verano tras el cristal o un cambio brusco de sombra a sol quema y provoca caída de hojas.",
+      "notas": "Escala del proyecto: brillante indirecta 500-1000 fc (5380-10760 lux). UF/IFAS solo garantiza buen comportamiento en interiores de 100-200 fc (1076-2150 lux) si la planta se aclimató antes en sombra (al menos dos meses con 80 % de sombra); por debajo de 200 fc (2150 lux) pierde hojas, aclara y se alarga. Con poca luz las hojas nuevas salen pequeñas y pálidas (RHS) y la copa se vuelve rala (Laidback Gardener). Los ficus llevan mal los cambios de sitio: elegir una ubicación fija (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato a diario en temporada de crecimiento, con el dedo o un palillo de madera, y sopesar la maceta: regar cuando los 2-3 cm superiores estén secos (en macetas de bonsái muy planas, cuando se note seca la mitad superior del sustrato, según NYBG) y la maceta pese claramente menos. Regar a fondo hasta que el agua salga por los agujeros, esperar un par de minutos y repetir (NYBG); o sumergir la maceta en un barreño con agua hasta que dejen de salir burbujas. Vaciar el plato. Nunca por calendario: el exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "Por el poco volumen de sustrato de la maceta de bonsái, el cepellón se seca muy deprisa: la MBG indica que en primavera, verano y otoño a menudo hace falta regar a diario y, en días de calor, hasta dos veces. Es la condición, no el día: comprobar cada día y regar solo si la capa superior está seca. Si el agua atraviesa la maceta sin empapar (el sustrato se ha encogido y separado del borde), sumergir la maceta para rehidratarlo (MBG). No dejar que el cepellón se seque por completo: provoca caída de hojas (RHS, UF/IFAS).",
+      "otono_invierno": "Reducir el riego cuando el crecimiento se frena (MBG): mantener el sustrato apenas húmedo (RHS), dejando secar más la capa superior antes de regar. Con calefacción el sustrato se seca antes; comprobar igualmente cada 2-3 días. Agua a temperatura ambiente.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid apta (blanda, flúor <0,1 mg/L; la cloramina no se elimina dejándola reposar, pero no daña a estas concentraciones). Usar agua a temperatura ambiente (RHS). Regar con abundancia hasta que drene arrastra las sales de abono, que en sustratos tan pequeños se acumulan rápido y queman puntas y raíces (UF/IFAS recomienda lavar el sustrato si la salinidad es alta).",
+      "notas": "Contradicción menor: UF/IFAS (producción) y NC State piden mantener el sustrato húmedo y la MBG regar a diario en temporada, mientras la RHS pide dejar secar ligeramente la superficie entre riegos y NC State avisa de pudrición de raíces por exceso. Opción conservadora adoptada: regar en cuanto se seque la capa superior, comprobando a diario, nunca con el sustrato aún mojado y nunca dejando secar del todo el cepellón. Es una planta sensible a los dos extremos: el riego insuficiente es tan frecuente como el exceso en formato bonsái. Maceta siempre con agujeros de drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 60,
+      "notas": "NC State: prefiere humedad alta, 70-100 %, que favorece las raíces aéreas (dato de su hábitat y cultivo exterior). UF/IFAS: 60-100 % en producción en umbráculo. RHS: humedad media a alta. Ninguna fuente prioritaria da un mínimo para interior; ideal_pct 60 procede del límite inferior de producción de UF/IFAS. Las hojas secas y arrugadas indican aire seco, sustrato seco o exceso de sol (RHS). La RHS y la NYBG recomiendan pulverizar y bandeja de grava húmeda; según la convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas; la bandeja de grava solo con el agua por debajo de la base de la maceta (RHS). Pulverizar sí sirve para limpiar el polvo de las hojas (NYBG).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "UF/IFAS: interior ideal 65-80 °F (18-27 °C), sin corrientes, y mantener por encima de 60 °F (15,5 °C) en todo momento para evitar daño por frío (manchas necróticas viscosas y caída masiva de hojas). RHS: la mayoría de ficus por encima de 10-13 °C; H1B, mínima de 10-15 °C. NC State: prospera por encima de 20 °C. Se toma 13 °C como mínimo absoluto y se recomienda no bajar de 15 °C de forma continuada. Máximo de 35 °C procedente del rango de producción en umbráculo (95 °F, UF/IFAS) con humedad alta; con aire seco, el calor extremo deshidrata pronto un sustrato de bonsái. Revisión del orquestador: min_c fijado en 15 °C (opción más conservadora frente a UF/IFAS >15,5 °C y RHS 10-13 °C), coherente con el resto de fichas de Ficus.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de bonsái o compost a base de tierra franca sin turba (tipo John Innes nº 3) con corteza fina añadida (RHS); o mezcla de turba o fibra de coco, corteza de pino y perlita o vermiculita con un 10-20 % de arena gruesa (UF/IFAS). La MBG recomienda un sustrato bien drenado mezclado con arena tamizada al trasplantar bonsáis.",
+      "ph": "5,5-7,0 (UF/IFAS); la RHS lo considera tolerante a suelos ácidos, neutros o alcalinos.",
+      "drenaje": "Muy bueno: maceta de bonsái con agujeros de drenaje (normalmente con malla) y sustrato que no se compacte. El encharcamiento provoca pudrición de raíces (NC State). Buena aireación y retención de agua a la vez (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o algo más rico en nitrógeno, con micronutrientes (incluido manganeso); alternativa: abono de liberación lenta aplicado a principios de primavera.",
+      "npk": "Relación 3-1-2 o 3-1-3 (UF/IFAS, producción); la MBG cita un soluble tipo 20-20-20 para bonsáis; la RHS, alto en nitrógeno.",
+      "primavera_verano": "De primavera a finales de verano (RHS), solo con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (convención del proyecto; Laidback Gardener también usa ¼ de dosis). Aunque el bonsái sea pequeño, necesita abono para seguir produciendo hojas y raíces (MBG). No abonar con el sustrato seco: regar antes.",
+      "otono_invierno": "Nada. La MBG indica reducir abono y riego cuando el crecimiento se frena; la RHS limita el abonado a primavera-verano.",
+      "notas": "UF/IFAS: no abonar durante unas 4 semanas tras colocar una planta nueva en interior ni recién trasplantada. La carencia de manganeso causa clorosis internerval en las hojas terminales, especialmente en las formas antes llamadas F. nitida (UF/IFAS). El exceso de abono provoca caída de hojas (RHS) y quema de raíces.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS: cada par de años; Laidback Gardener: 2-3 años). Si no se cambia de maceta, sustituir los 2,5 cm superiores de sustrato por sustrato fresco (RHS).",
+      "epoca": "Primavera, justo antes de que empiece el crecimiento activo (RHS, MBG); en Madrid, marzo-mayo.",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, sustrato que se seca en pocas horas o que el agua atraviesa sin empapar, sustrato compactado, crecimiento parado (RHS: el enanismo puede indicar que necesita trasplante).",
+      "notas": "En bonsái se mantiene la maceta baja: al trasplantar se recortan raíces gruesas viejas y se conservan todas las raíces finas absorbentes posibles (MBG); solo se pasa a una maceta ligeramente mayor si se quiere que crezca (RHS). No enterrar la base engrosada: debe quedar expuesta sobre el sustrato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F7"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. Pinzado y poda regulares para mantener la copa pequeña y densa (MBG); además, eliminar brotes que salgan del patrón por debajo del injerto y ramas secas.",
+      "epoca": "Poda de reducción a finales de invierno o principios de primavera (RHS); pinzado de brotes vigorosos en primavera y periódicamente durante toda la temporada de crecimiento (MBG). Los brotes con agallas de trips se cortan al verlos; el invierno es el mejor momento para eliminarlos (UC IPM).",
+      "como": "Pinzar o cortar los brotes nuevos dejando 1-3 hojas, con corte justo por encima de una hoja (RHS), sin eliminar tanta hoja que la planta pierda vigor (MBG). Retirar los brotes del patrón por debajo del injerto, que tienen hojas y tallos distintos (Laidback Gardener). Cortar y desechar las puntas con hojas plegadas por trips (UC IPM, UF/IFAS). Herramienta limpia y afilada; usar guantes, porque la savia blanca pegajosa irrita la piel y puede agravar alergias (RHS). La RHS lo incluye en el grupo de poda 1.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Ralentización con menos luz y temperatura: en Madrid, aproximadamente de octubre-noviembre a febrero-marzo.",
+      "cambios": "No es un reposo estricto. Reducir el riego y no abonar mientras el crecimiento está frenado (MBG); mantener el sustrato apenas húmedo (RHS), por encima de 15 °C, con la máxima luz posible y lejos de cristales fríos, corrientes y radiadores. El cuidado invernal de un bonsái de interior es el mismo que el de cualquier planta de interior (MBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes semileñosos",
+        "esquejes de yema y hoja",
+        "esquejes en agua",
+        "acodo aéreo",
+        "semilla"
+      ],
+      "epoca": "Primavera y verano (esquejes semileñosos, RHS); acodo aéreo en primavera o finales de verano (RHS).",
+      "pasos": "1) Con guantes, cortar un esqueje semileñoso (tallo de la temporada que empieza a endurecer) de un brote sano y quitar las hojas inferiores. 2) Dejar que deje de gotear el látex. 3) Enraizar en sustrato ligero, arena o en agua (NC State), con humedad alta, por ejemplo en propagador con calor de fondo (RHS). 4) Mantener húmedo, sin encharcar, en un lugar cálido (por encima de 18 °C, rango ideal de UF/IFAS) y con luz indirecta brillante hasta ver brotes nuevos. Acodo aéreo: incisión en la rama, musgo esfagno húmedo envuelto en plástico atado; enraizar puede tardar meses (RHS). Importante: los esquejes no forman la base bulbosa del 'ginseng'; dan una planta con tronco normal (Laidback Gardener). La base engrosada procede de plantas de semilla o esqueje cultivadas en suelo y luego recortadas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas verdes o amarillas tras la compra o un cambio de sitio: la planta producida con mucha luz pierde hojas al pasar a un interior oscuro (UF/IFAS); los ficus llevan mal los traslados (RHS). Darle la ubicación más luminosa posible, no moverla y no abonar en 4 semanas."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída súbita de hojas por exceso de riego, que es la causa más común según la RHS; también por frío, poca luz, exceso de abono o corrientes."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato seco en la maceta de bonsái: en verano puede secarse en un día (MBG); hojas lacias y luego secas. También por raíces podridas por encharcamiento."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas secas y arrugadas por aire seco, sustrato seco o exceso de sol directo (RHS); muy típico junto a radiadores en invierno o en ventanas sur en verano."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o maceta sin drenaje (NC State). La base engrosada se ablanda o arruga."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas nuevas plegadas a lo largo del nervio central formando agallas, con manchas rojizo-púrpuras: trips de las agallas del ficus (Gynaikothrips ficorum, 'Cuban laurel thrips'), plaga específica de F. microcarpa (UC IPM, UF/IFAS). Dentro de la agalla hay adultos negros alargados de 2,6-3,6 mm y larvas blanquecinas o amarillas."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas jóvenes enrolladas, engrosadas y endurecidas que amarillean y caen antes de tiempo, por las agallas de Gynaikothrips (UF/IFAS). Cortar y desechar las puntas afectadas (UC IPM)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaro), favorecida por el aire seco y caliente (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos y nervios (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: brotes largos con hojas pequeñas y pálidas y copa rala (RHS)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Carencia de manganeso: clorosis internerval en las hojas terminales (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío por debajo de unos 15 °C (cristales fríos, transporte en invierno): manchas necróticas viscosas y caída masiva de hojas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris citado por NC State, poco frecuente en interior; favorecido por humedad estancada y poca ventilación."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 %), una maceta de bonsái puede secarse en horas: comprobar el sustrato y el peso cada mañana y, en olas de calor, también por la tarde; regar a fondo o por inmersión cuando la capa superior esté seca, sin dejar agua en el plato. Nunca al sol directo del mediodía o de la tarde tras el cristal de una ventana sur u oeste: retirarla 1-2 m o poner visillo. Evitar el chorro del aire acondicionado. Si se saca a terraza o balcón (le sienta bien), solo a semisombra luminosa y aclimatándola de forma gradual durante 1-2 semanas, y vigilar diariamente el riego. Vigilar araña roja y trips (hojas plegadas con agallas).",
+    "invierno": "Mantener por encima de 15 °C y separada del cristal frío y de corrientes. No colocarla junto a radiadores: con HR interior <30 % las hojas se secan y aparece araña roja; usar humidificador o agrupar plantas. Reducir el riego, pero sin olvidar que la calefacción seca la maceta pequeña: comprobar cada 2-3 días. Sin abono de octubre-noviembre a febrero-marzo. Darle la ventana más luminosa (sur con visillo o este); con poca luz invernal perderá algunas hojas.",
+    "ubicacion_recomendada": "Ventana este o sur con visillo en salón o despacho luminoso, en un sitio fijo, sobre una superficie donde se pueda regar a fondo y escurrir, lejos de radiadores, aire acondicionado y corrientes, y fuera del alcance de perros, gatos y niños pequeños. En verano puede estar en terraza a semisombra."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Ficus microcarpa L.f. (Suppl. Pl., 1782). La pestaña de sinónimos de POWO no se pudo consultar (bloqueo de acceso); NC State cita el sinónimo Urostigma microcarpum. El nombre comercial 'ficus retusa' corresponde casi siempre a F. microcarpa, pero POWO mantiene Ficus retusa L. como especie aceptada distinta. 'Ficus nitida': UF/IFAS lo da como antiguo nombre de F. microcarpa y Laidback Gardener como nombre de F. benjamina; el nombre se ha usado para ambas en el comercio.",
+    "Toxicidad: ASPCA no tiene ficha con el nombre Ficus microcarpa (la ficha 'Fig' es F. benjamina); la toxicidad para perros y gatos se aplica por extensión del género (ASPCA, Pet Poison Helpline). La RHS confirma que es alérgeno cutáneo. No se ha encontrado una fuente prioritaria con casos clínicos documentados específicos de F. microcarpa.",
+    "Humedad relativa: ninguna fuente prioritaria da un mínimo para interior; min_pct queda en null e ideal_pct 60 procede del rango de producción de UF/IFAS (60-100 %).",
+    "Injerto del 'ficus ginseng' (patrón de raíces engrosadas con esquejes injertados de cultivares de hoja pequeña como 'Green Island'): solo documentado en fuente complementaria (Laidback Gardener); ninguna fuente prioritaria describe el proceso de producción.",
+    "Trips Gynaikothrips ficorum: las fuentes prioritarias (UC IPM, UF/IFAS) tratan árboles de exterior y viveros; no documentan su incidencia en ficus de interior en España. La RHS solo cita 'trips' bajo cristal. Tratamiento químico doméstico: no se ha verificado ningún producto concreto de uso no profesional inscrito en el Registro del MAPA para trips en ficus de interior; las fuentes indican que los productos sistémicos (no autorizados para particulares en interior) son los únicos eficaces dentro de las agallas. La app debe recomendar la poda y eliminación de los brotes con agallas.",
+    "Temperatura máxima tolerada en interior: ninguna fuente prioritaria la da para el hogar; 35 °C procede del rango de producción en umbráculo con humedad alta (UF/IFAS EP136).",
+    "Variegación: existen formas variegadas en el comercio, pero ninguna fuente prioritaria consultada las describe."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/304261/ficus-microcarpa-ginseng/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha Ficus microcarpa 'Ginseng'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/ornamental-figs/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo 'How to grow ornamental figs'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://ask.ifas.ufl.edu/publication/EP136",
+      "institucion": "UF/IFAS Extension, EDIS EP136 'Cultural Guidelines for Commercial Production of Interiorscape Ficus'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/cuban-laurel-thrips/",
+      "institucion": "UC ANR, UC Statewide IPM Program, Pest Notes 'Cuban laurel thrips'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ask.ifas.ufl.edu/publication/IN599",
+      "institucion": "UF/IFAS Extension, EDIS IN599 'Leaf-Gall Thrips of Ficus, Gynaikothrips ficorum and G. uzeli'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/950/how-do-i-care-for-a-bonsai-plant",
+      "institucion": "Missouri Botanical Garden, Gardening Help FAQ 'How do I care for a bonsai plant?'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://libanswers.nybg.org/faq/223000",
+      "institucion": "New York Botanical Garden (NYBG), Mertz Library Reference (cuidado y riego de bonsáis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+      "institucion": "ASPCA Animal Poison Control Center (ficha 'Fig', Ficus benjamina, Moraceae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853217-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://laidbackgardener.blog/2021/07/05/ginseng-ficus-the-may-2021-houseplant-of-the-month/",
+      "institucion": "Laidback Gardener (blog de Larry Hodgson, horticultor)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

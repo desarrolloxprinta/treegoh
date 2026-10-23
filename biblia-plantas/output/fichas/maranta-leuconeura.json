@@ -1,0 +1,374 @@
+{
+  "nombre_cientifico": "Maranta leuconeura",
+  "nombres_comunes": [
+    "maranta",
+    "planta de la oración",
+    "maranta de nervios rojos (var. erythroneura)",
+    "maranta huellas de conejo (var. kerchoveana)",
+    "maranta espina de pez"
+  ],
+  "familia": "Marantaceae",
+  "origen": "Brasil: POWO (Kew) la da como nativa de Brasil Nordeste, Sudeste y Centro-Oeste, e introducida en Colombia y el golfo de México (F8). Todas las formas cultivadas proceden de Brasil (UF/IFAS RH-91-22). Nombre aceptado en POWO: Maranta leuconeura É.Morren (1874).",
+  "clima_nativo": "Sotobosque de selva tropical húmeda, cálido y sin heladas (POWO: bioma tropical húmedo; NC State: zonas USDA 11a-11b). RHS: H1A (>15 °C, bajo cristal todo el año) para las var. kerchoveana y erythroneura, H1B (10-15 °C) en la ficha de la especie.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas y apiñadas, oblongo-elípticas a ovales, de margen entero y punta corta, con pecíolo envainador (NC State). En var. kerchoveana miden unos 18 cm de largo con el pecíolo y 7-8 cm de ancho, con el pecíolo de un tercio de la lámina; haz satinado (UF/IFAS RH-91-22). Envés gris verdoso a púrpura o burdeos (NC State, RHS). Rasgo clave para visión: de día las hojas se mantienen horizontales y al anochecer se levantan en vertical, como manos que rezan (nictinastia): una foto nocturna con hojas erguidas es normal, no marchitez (NC State, RHS, Illinois). La hoja nueva sale enrollada en tubo (NC State). Patrones por variedad comercial: var. erythroneura ('maranta roja', 'espina de pez'): nervio central y nervios laterales rojo vivo, zona central plumeada verde amarillenta y fondo exterior verde muy oscuro casi negro (UF/IFAS RH-91-22, RHS); el cultivar 'Lemon Lime' tiene nervios amarillo verdoso en vez de rojos (NC State). Var. kerchoveana ('huellas de conejo'): hoja verde medio o gris verdoso con dos filas de unas 5 manchas a cada lado del nervio central, marrón oscuro en la hoja joven que pasan a verde oscuro al madurar, sin nervios rojos (UF/IFAS RH-91-22, RHS). Var. massangeana / leuconeura ('Silver Band', 'Black Leuconeura'): fondo verde casi negro con una banda central gris azulada o plateada y nervios laterales claros (plateados) radiando hacia el margen (UF/IFAS RH-91-22, NC State, RHS).",
+    "nerviacion": "Pinnada: nervio central marcado y nervios laterales paralelos y arqueados hacia el margen. Según la variedad, los nervios son rojos (var. erythroneura, patrón en espina de pez), plateados o blanquecinos (var. massangeana/leuconeura; 'leuconeura' significa 'de nervios blancos') o no destacan (var. kerchoveana) (UF/IFAS RH-91-22, NC State, RHS).",
+    "variegacion": "Variegación natural, constante en todas las hojas, que define la variedad (ver 'hojas'). Con poca luz o poco abono el color del haz y del envés se apaga (NC State); el sol directo blanquea los colores (NC State). Unas manchas amarillo brillante dentadas que alternan con el color normal indican virus del mosaico del pepino (CMV), no variegación (UF/IFAS RH-91-22).",
+    "tallo": "Rizomas cortos a ras de sustrato de los que salen matas; los tallos son finos, casi como de enredadera, crecen extendidos sobre la superficie o cuelgan por el borde de la maceta, no tienen zarcillos y no trepan (UF/IFAS RH-91-22, NC State). Los nudos no están engrosados y las raíces no son tuberosas, a diferencia de Maranta bicolor y M. arundinacea (UF/IFAS RH-91-22).",
+    "habito": "Herbácea perenne siempreverde, en mata baja que se extiende en horizontal o cae en cascada; muy usada en cestas colgantes y como cubresuelos de interior (NC State, UF/IFAS RH-91-22). Flores pequeñas (<2,5 cm), blancas a púrpura, en tallos finos; raras en interior y sin interés (NC State, RHS).",
+    "tamano_adulto_interior": "15-30 cm de alto y 15-60 cm de ancho (NC State: 6-12 in de alto, 6 in-2 ft de ancho). RHS: 0,1-0,5 m de alto y ancho en 5-10 años; las var. kerchoveana y erythroneura hasta unos 30 cm de alto (RHS).",
+    "confusiones": [
+      {
+        "especie": "Goeppertia spp. (calatheas: G. makoyana, G. insignis/lancifolia, G. majestica, G. zebrina)",
+        "rasgo_diferenciador": "Las calatheas forman matas erguidas con hojas sobre pecíolos largos y rectos que salen del sustrato; Maranta leuconeura es baja y rastrera o colgante, con pecíolos cortos (un tercio de la lámina) y tallos finos que se extienden sobre la maceta (UF/IFAS RH-91-22; NC State las cita como confusiones habituales). Ninguna calathea tiene el dibujo de nervios rojos en espina de pez ni las manchas en 'huellas de conejo'."
+      },
+      {
+        "especie": "Ctenanthe amabilis, C. lubbersiana y C. oppenheimiana",
+        "rasgo_diferenciador": "Las Ctenanthe forman tallos aéreos erguidos y ramificados y hojas lanceoladas u oblongas más largas y estrechas (con bandas plateadas en espiga, o variegación amarilla irregular en C. lubbersiana); M. leuconeura tiene hojas elípticas cortas y anchas y porte rastrero (NC State la cita como confusión)."
+      },
+      {
+        "especie": "Fittonia albivenis (fitonia)",
+        "rasgo_diferenciador": "Fittonia también tiene nervios rojos o blancos muy marcados, pero es una Acanthaceae con hojas opuestas en tallos que enraízan, nervios en red (reticulados) en toda la lámina y sin movimiento nocturno de las hojas; en Maranta los nervios laterales son paralelos (espina de pez) y las hojas son alternas y se levantan de noche."
+      },
+      {
+        "especie": "Maranta bicolor",
+        "rasgo_diferenciador": "Hojas de tamaño y forma parecidos, verde oscuro con manchas verde claro entre el nervio central y el margen y envés púrpura, pero con los nudos del tallo engrosados (UF/IFAS RH-91-22). Rara en el comercio."
+      },
+      {
+        "especie": "Stromanthe sanguinea 'Triostar'",
+        "rasgo_diferenciador": "Misma familia y envés rojo-púrpura, pero hojas lanceoladas largas sobre pecíolos erguidos con variegación crema y rosa irregular, sin nervios rojos ni manchas en filas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No tóxica: la ASPCA clasifica 'Prayer Plant', 'Red Veined Prayer' y 'Maranta' como no tóxicas para perros, gatos y caballos (F9, F10); UF/IFAS Extension incluye Maranta leuconeura (planta de la oración) entre las plantas no tóxicas (F11). En personas, el Centro de Toxicología de The University of Kansas Health System registra Maranta leuconeura como no tóxica, sin registro conocido de toxicidad (F12). No tóxica no significa comestible: comer mucha hoja puede dar una molestia digestiva leve y pasajera (vómito) en perros y gatos, como cualquier materia vegetal (aviso general de la ASPCA). Ante cualquier duda, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+    ],
+    "notas": "Perros y gatos: Alta, pero con matiz: las entradas de la ASPCA 'Prayer Plant', 'Red Veined Prayer' y 'Maranta' llevan como nombre científico Calathea insignis (una calathea), aunque los nombres comunes son los de Maranta leuconeura; es un error de la base de datos de la ASPCA, no hay entrada con el nombre Maranta leuconeura. La familia Marantaceae figura en la ASPCA como no tóxica y UF/IFAS lo afirma para la especie. Niños: solo una fuente complementaria (centro de toxicología hospitalario); la confianza real para personas es Media."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este o norte luminosa, o a 1,5-2 m de una ventana sur u oeste con cortina fina. Las fichas RHS de las variedades citan orientación sur (var. kerchoveana) o este, oeste y sur (var. erythroneura) en clima británico; en Madrid, con más radiación, siempre con cortina o retirada de la ventana sur y oeste.",
+      "tolera_sol_directo": "No. El sol directo blanquea los colores de la hoja (NC State) y la luz excesiva, junto con calor y sales, provoca quemadura de puntas y márgenes (UF/IFAS RH-91-22). Tolera luz difusa o sol muy tamizado (Illinois, UF/IFAS Nassau).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F7",
+        "F5"
+      ],
+      "notas": "Mejor con luz brillante indirecta o difusa (NC State, RHS, Illinois, UF/IFAS Nassau); tolera luz baja a media (NC State) y la RHS la sitúa en semisombra a sombra, pero con poca luz el color se apaga (NC State). lux_min = 100 fc (≈1076 lux, límite inferior de luz media de la escala del proyecto) y lux_max = 1000 fc (≈10 760 lux, límite superior de brillante indirecta). En vivero se cultiva a 1000-2500 fc (UF/IFAS RH-91-22) con humedad y temperatura controladas: no es un valor para casa. No hay medida en lux específica de interior en fuentes prioritarias."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos que recién regada; el resto del cepellón debe seguir algo húmedo. Mantener el sustrato húmedo de forma uniforme pero nunca encharcado (NC State, Illinois, UF/IFAS Nassau). Regar a fondo en la zona de raíces hasta que drene, sin mojar la corona, y vaciar el plato a los 10-15 minutos: el agua estancada sobre la corona pudre los tallos con facilidad (Illinois, UF/IFAS Nassau). Nunca por calendario.",
+      "primavera_verano": "Sustrato uniformemente húmedo durante el crecimiento (NC State, Illinois); riego moderado (RHS). Comprobar dedo y peso a menudo: en Madrid en verano la maceta, que suele ser poco profunda, puede secarse en 2-4 días.",
+      "otono_invierno": "Reducir el riego y dejar que el sustrato se seque algo más entre riegos (NC State, Illinois, RHS), sin dejar que el cepellón se seque del todo. Con calefacción puede secarse rápido: guiarse siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. Las puntas y bordes marrones en esta especie se deben a exceso de sales solubles (abono), luz y temperatura excesivas (UF/IFAS RH-91-22) y al exceso de abono (NC State); lavar el sustrato con un riego abundante cada pocos meses. NC State y UF/IFAS citan la sensibilidad al flúor (en EE. UU. por agua fluorada y abonos con superfosfato), pero el agua del grifo de Madrid (Canal de Isabel II) es blanda y tiene fluoruro <0,1 mg/L: es apta y no es la causa de las puntas marrones. Dejar reposar el agua no elimina la cloramina del Canal, y tampoco hace falta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F7",
+        "F2",
+        "F5"
+      ],
+      "notas": "La pudrición de raíz en sustrato mal drenado es el problema más grave de la especie (NC State) y el exceso de riego es la causa nº 1 de muerte. Sensibilidad a la sequía 'media': las fuentes piden humedad constante pero permiten que se seque algo en invierno; dejar que se seque del todo causa puntas y bordes secos."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Todas las fuentes prioritarias coinciden en que necesita humedad alta y no tolera la humedad baja (NC State, RHS, Illinois, UF/IFAS Nassau), pero ninguna da un porcentaje para esta especie (ver lagunas). Como orientación de la familia, UF/IFAS da 40-60 % para Calathea en interior; no se traslada aquí como dato de Maranta. Pulverizar no sube la humedad de forma útil (convención del proyecto), aunque RHS y UF/IFAS Nassau lo sugieren: usar humidificador o agrupar plantas. La bandeja con grava húmeda (NC State, RHS) aporta poco en una habitación con calefacción. Además, el agua sobre las hojas durante muchas horas favorece la mancha foliar por Helminthosporium (UF/IFAS RH-91-22).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "UF/IFAS Nassau da 60-85 °F (15,5-29 °C) en casa; en vivero el óptimo es 70-80 °F (21-27 °C), crece bien hasta 90 °F (32 °C) y mal por encima (UF/IFAS RH-91-22). Intolerante al frío y a las corrientes frías (NC State). Discrepancia RHS: la ficha de la especie dice H1B (10-15 °C) y las de las var. kerchoveana y erythroneura H1A (>15 °C); se adopta el mínimo conservador de 15 °C. ideal_min 18 °C es un valor conservador intermedio entre 15,5 y 21 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F5",
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior normal y bien drenado (Illinois, UF/IFAS Nassau), sin turba si es posible (RHS), con buena aireación y alta retención de agua (UF/IFAS RH-91-22): por ejemplo, sustrato universal o de fibra de coco con un 20-30 % de perlita. Las raíces son superficiales: mejor maceta ancha y poco profunda (UF/IFAS Nassau).",
+      "ph": "5,5-6,0 (UF/IFAS RH-91-22, producción comercial); con pH >6,0 las hojas jóvenes amarillean por falta de hierro.",
+      "drenaje": "Imprescindible maceta con agujeros de drenaje; el sustrato mal drenado causa pudrición de raíz (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F2",
+        "F5",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior con microelementos; en producción, relación N-P2O5-K2O 3-1-2 o similar con micronutrientes (UF/IFAS RH-91-22).",
+      "npk": "Relación 3-1-2 o similar (UF/IFAS RH-91-22)",
+      "primavera_verano": "Una vez al mes (RHS) en crecimiento activo, a ¼-½ de la dosis de la etiqueta (convención del proyecto).",
+      "otono_invierno": "Nada mientras no haya crecimiento activo (convención del proyecto; RHS reduce cuidados en invierno).",
+      "notas": "El exceso de abono quema las hojas (NC State) y el exceso de sales solubles provoca quemadura de puntas y márgenes con un halo amarillo de transición (UF/IFAS RH-91-22). Con poco abono el color de las hojas se apaga (NC State). Evitar abonos con superfosfato, que aportan flúor (UF/IFAS RH-91-22).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando la planta ha llenado la maceta (UF/IFAS Nassau), en general cada 1-2 años en plantas jóvenes y cada 2-3 en adultas; maceta 1-2 tallas mayor, ancha y poco profunda porque sus raíces son superficiales (UF/IFAS Nassau).",
+      "epoca": "Febrero-marzo, antes del crecimiento de primavera (UF/IFAS Nassau); en Madrid, de finales de febrero a abril.",
+      "senales": "Mata que ocupa toda la superficie, raíces saliendo por el drenaje, sustrato que se seca muy rápido o crecimiento parado en primavera-verano.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS), pero un despunte ligero mantiene la mata compacta (UF/IFAS Nassau).",
+      "epoca": "Hojas secas: todo el año. Despunte de tallos largos: primavera y final de verano (UF/IFAS Nassau recomienda recortar al menos dos veces al año salvo que se quiera colgante).",
+      "como": "Cortar hojas secas o dañadas a ras de su pecíolo con tijeras limpias. Para una mata más densa, cortar los tallos largos justo por encima de un nudo; los trozos con uno o dos nudos sirven de esquejes (UF/IFAS RH-91-22). Si se quiere en cesta colgante, dejar los tallos largos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F7",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno en el hemisferio norte (aprox. octubre a febrero); en Madrid, mientras los días son cortos.",
+      "cambios": "No es un reposo verdadero: no pierde las hojas ni necesita frío. Reducir el riego dejando secar algo más el sustrato (NC State, Illinois, RHS), suspender el abono y mantenerla por encima de 15 °C, sin corrientes frías (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata (rizomas)",
+        "esquejes de tallo de uno o dos nudos",
+        "esquejes basales"
+      ],
+      "epoca": "Primavera y principio de verano, con temperatura de 21-27 °C (UF/IFAS RH-91-22 para el enraizamiento).",
+      "pasos": "División (NC State, RHS, UF/IFAS Nassau): 1) Sacar la planta y retirar el sustrato con cuidado. 2) Separar la mata en trozos, cada uno con rizoma, raíces y varias hojas. 3) Plantar en maceta ancha y poco profunda con sustrato nuevo húmedo. Esquejes (UF/IFAS RH-91-22, RHS): 1) Cortar tallos en trozos de uno o dos nudos con hoja. 2) Clavarlos en sustrato húmedo y aireado (en vivero se ponen 2-3 esquejes por maceta de 9-10 cm). 3) Mantener a 21-27 °C, con luz indirecta, alta humedad (bolsa transparente ventilada) y sustrato húmedo pero no encharcado hasta que enraícen. También por semilla (RHS), poco práctico en casa.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F7",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco (necesita humedad alta y no tolera la baja: NC State, RHS, Illinois), sobre todo con calefacción en invierno y en el verano seco de Madrid. También exceso de sales de abono, luz o calor excesivos (UF/IFAS RH-91-22) y riego irregular. No atribuirlo al cloro ni al flúor del agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Quemadura marginal con una franja amarilla de transición por exceso de sales solubles (abono), luz excesiva o calor (UF/IFAS RH-91-22) o abonado excesivo (NC State); aire seco. Las fuentes de EE. UU. citan el flúor, que no aplica al agua del Canal de Isabel II."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato mal drenado o encharcado (NC State), agua en el plato o riego excesivo en invierno."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de los tallos en la corona cuando el agua se queda sobre ella: regar solo la zona de raíces (Illinois, UF/IFAS Nassau)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sequía del cepellón o raíces podridas por exceso de agua. Si está lacia con el sustrato húmedo, no regar y revisar raíces. Ojo: hojas erguidas por la noche es el movimiento normal, no marchitez (NC State)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Antes de diagnosticar: que las hojas se levanten y se plieguen al anochecer es nictinastia normal (NC State, RHS, Illinois) y la hoja nueva sale enrollada en tubo (NC State). Si las hojas siguen enrolladas de día, sospechar falta de agua o aire seco."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo: blanquea los colores de la hoja (NC State). Frecuente en ventanas sur y oeste de Madrid."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Con poca luz o poco abono, el color del haz y del envés se apaga y el dibujo pierde contraste (NC State); con sol directo los colores se blanquean (NC State)."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Clorosis de las hojas jóvenes por falta de hierro asimilable cuando el pH del sustrato supera 6,0 o el nitrógeno es casi todo nítrico (UF/IFAS RH-91-22)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha foliar por Helminthosporium (Drechslera setariae): puntitos empapados que se vuelven amarillos y luego necróticos, y en casos graves manchas pardas de hasta 1 cm con halo clorótico; aparece cuando las hojas quedan mojadas 6 h o más, por ejemplo al regar por encima o pulverizar por la tarde (UF/IFAS RH-91-22)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Virus del mosaico del pepino (CMV): hojas algo deformadas y más pequeñas con dibujos amarillo brillante dentados (UF/IFAS RH-91-22). El daño es estético; no se cura, retirar la planta afectada y no propagarla."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), plaga ocasional (NC State, RHS, UF/IFAS RH-91-22), muy favorecida por el aire seco de la calefacción y del verano madrileño."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña fina de araña roja en el envés con aire seco (RHS: glasshouse red spider mite)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, RHS); también cochinilla de raíz (UF/IFAS RH-91-22)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo, normalmente llegadas con plantas infestadas (UF/IFAS RH-91-22)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Orugas (UF/IFAS RH-91-22, en vivero); poco frecuente en interior, más probable si la planta ha pasado el verano en terraza."
+    },
+    {
+      "sintoma_id": "S32",
+      "causa_habitual_en_esta_especie": "Nematodo agallador (Meloidogyne javanica): raíces con nudos 'en collar de cuentas', planta enana con hojas pequeñas (UF/IFAS RH-91-22). Raro en sustrato comercial nuevo."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Falta de luz, frío por debajo de 15 °C o, más raro, nematodos en las raíces (UF/IFAS RH-91-22)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en el exterior y aire muy seco (HR ≈38 % en julio), sufre por el aire seco y la luz fuerte. Nada de sol directo: en ventanas sur y oeste retirarla a 1,5-2 m o con cortina fina; ventana este o norte es lo ideal. Mantener la habitación por debajo de unos 30 °C: crece mal por encima de 32 °C (UF/IFAS RH-91-22), y sin chorro directo del aire acondicionado (intolerante a corrientes frías, NC State). Humidificador y agrupar plantas; pulverizar no sirve y, si las hojas quedan mojadas por la tarde, favorece manchas foliares. Comprobar dedo y peso cada 2-3 días: la maceta poco profunda se seca rápido. Revisar el envés por araña roja.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, causa principal de puntas y bordes marrones: humidificador cerca, agrupar plantas y apartarla al menos 1-1,5 m de radiadores. De noche los cristales se enfrían: que las hojas no toquen el vidrio y mantenerla por encima de 15 °C (RHS H1A para las variedades). Reducir el riego dejando secar algo más la superficie y sin abono; con calefacción fuerte puede secarse rápido, así que mirar dedo y peso. Puede acercarse algo más a la ventana por la menor luz invernal, con cortina en ventanas sur.",
+    "ubicacion_recomendada": "Salón, dormitorio o baño luminoso junto a una ventana este o norte, en una estantería o cesta colgante donde los tallos puedan caer, lejos de radiadores, aire acondicionado y puertas con corriente, idealmente agrupada con otras tropicales y con un humidificador cerca. Que las hojas se levanten y cierren al anochecer es normal y no debe confundirse con marchitez."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Maranta leuconeura É.Morren, Ann. Hort. Belge Étrangère 24: 323 (1874), y trata como sinónimos heterotípicos las variedades comerciales var. erythroneura G.S.Bunting, var. kerchoveana É.Morren y var. massangeana É.Morren, además de Maranta kerchoveana, M. massangeana, M. fascinator, M. depressa, Calathea kerchoveana, C. massangeana y C. fascinator; sinónimo homotípico Calathea leuconeura (É.Morren) G.Nicholson. NC State también las da como nombres antiguos. La RHS y el comercio siguen usando los nombres de variedad, que conviene conservar como etiquetas de cultivar para identificación.",
+    "Nombres de variedad inconsistentes: UF/IFAS RH-91-22 indica que 'Kerchoviana' aparecía como 'Massangeana' en publicaciones antiguas; la etiqueta comercial 'massangeana' puede corresponder a plantas distintas.",
+    "Humedad: ninguna fuente prioritaria da un porcentaje de humedad relativa para Maranta leuconeura; solo 'alta'. min_pct e ideal_pct quedan en null.",
+    "Luz: no hay valores en lux o fc para interior en fuentes prioritarias; el rango deriva de la escala del proyecto. El único dato numérico (1000-2500 fc) es de producción en invernadero (UF/IFAS RH-91-22).",
+    "Toxicidad: la ASPCA no tiene entrada con el nombre Maranta leuconeura; sus entradas 'Prayer Plant', 'Red Veined Prayer' y 'Maranta' llevan el nombre científico Calathea insignis. Toxicidad en niños solo con una fuente complementaria (University of Kansas Health System).",
+    "Trasplante: solo una fuente prioritaria (UF/IFAS Extension Nassau, blog de extensión) para frecuencia y época.",
+    "pH del sustrato: solo UF/IFAS RH-91-22 (producción comercial, 5,5-6,0).",
+    "No se encontró ficha de Maranta leuconeura en Missouri Botanical Garden Plant Finder ni en EDIS (UF/IFAS); la nota de investigación UF/IFAS RH-91-22 solo es accesible en copia archivada (la URL original da 404).",
+    "Confusión con Fittonia y Stromanthe descrita por rasgos morfológicos generales, sin fuente prioritaria que la compare directamente."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/119598/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Maranta leuconeura",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/Plants/91332/Maranta-leuconeura-var-kerchoveana/Details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Maranta leuconeura var. kerchoveana",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/Plants/56852/Maranta-leuconeura-var-erythroneura/Details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Maranta leuconeura var. erythroneura",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://web.archive.org/web/20201125105122/https://mrec.ifas.ufl.edu/foliage/folnotes/maranta.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center – Foliage Plant Research Note RH-91-22 'Maranta' (Henley, Chase y Osborne; copia archivada, la URL original da 404)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+      "institucion": "University of Illinois Extension – Houseplants: Prayer Plant",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/06/21/q-prayer-plant",
+      "institucion": "UF/IFAS Extension Nassau County – 'Q: What is a prayer plant?' (2017, act. 2022)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:797361-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants: 'Prayer Plant'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/red-veined-prayer",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants: 'Red Veined Prayer'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://blogs.ifas.ufl.edu/osceolaco/2023/05/23/great-plants-for-the-office/",
+      "institucion": "UF/IFAS Extension Osceola County – 'Great Plants for the Office' (C. Jackson, 2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.kansashealthsystem.com/care/centers/poison-control-center/poisonous-plants/prayer-plant",
+      "institucion": "The University of Kansas Health System – Poison Control Center: Prayer Plant (Maranta leuconeura)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

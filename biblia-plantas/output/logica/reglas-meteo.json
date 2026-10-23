@@ -1,0 +1,1534 @@
+{
+  "version": "1.0.0",
+  "ubicacion_referencia": "Madrid, España (AEMET 3195 Retiro), hemisferio norte",
+  "reglas": [
+    {
+      "id": "M01",
+      "nombre": "Calor exterior fuerte en balcón: más riego",
+      "condicion": {
+        "variable": "temp_exterior",
+        "operador": ">=",
+        "valor": 30,
+        "unidad": "°C",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "multiplicar_frecuencia_riego",
+        "parametro": "frecuencia_riego",
+        "factor_o_valor": 1.3,
+        "explicacion_usuario": "Hoy la máxima prevista supera los 30 °C: las macetas del balcón se secan mucho más deprisa. Comprueba el sustrato cada día (mete el dedo 2-3 cm) y riega por la mañana si está seco; las macetas pequeñas o de barro pueden necesitar agua a diario."
+      },
+      "afecta_a": {
+        "categorias": [
+          "balcon_exterior"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "primavera",
+        "verano",
+        "otono"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Se dispara de forma habitual de mediados de junio a principios de septiembre: la media de las máximas en Retiro es 28,2 °C en junio, 32,1 °C en julio y 31,3 °C en agosto (normales 1981-2010).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F33",
+        "F35",
+        "F32",
+        "F1"
+      ]
+    },
+    {
+      "id": "M02",
+      "nombre": "Calor extremo en balcón: sombrear y proteger raíces",
+      "condicion": {
+        "variable": "temp_exterior",
+        "operador": ">=",
+        "valor": 35,
+        "unidad": "°C",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "sombrear",
+        "parametro": "ubicacion",
+        "factor_o_valor": "sombra en las horas centrales (12-18 h) o malla de sombreo; riego por la mañana temprano y, si hace falta, otra vez al atardecer",
+        "explicacion_usuario": "Máxima prevista de 35 °C o más (en Madrid, a partir de 36 °C AEMET emite aviso amarillo). Con sol directo las macetas oscuras pueden calentar el sustrato 10-15 °C por encima del aire y dañar las raíces. Pon las plantas a la sombra en las horas centrales, agrupa las macetas y riega al amanecer; no uses agua caliente de la manguera."
+      },
+      "afecta_a": {
+        "categorias": [
+          "balcon_exterior"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 1,
+      "ejemplo_madrid": "Julio y agosto, varios días cada año: el umbral de aviso amarillo por temperatura máxima en la zona Metropolitana y Henares es 36 °C (naranja 39 °C, rojo 42 °C).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F33",
+        "F34",
+        "F6",
+        "F35"
+      ]
+    },
+    {
+      "id": "M03",
+      "nombre": "Ola de calor declarada por AEMET",
+      "condicion": {
+        "variable": "ola_calor",
+        "operador": "==",
+        "valor": true,
+        "unidad": "bool",
+        "origen": "api_meteo",
+        "duracion_min_dias": 3
+      },
+      "ajuste": {
+        "accion": "sombrear",
+        "parametro": "ubicacion",
+        "factor_o_valor": "sombra o interior durante todo el episodio; comprobar sustrato mañana y tarde; no abonar; no trasplantar",
+        "explicacion_usuario": "AEMET considera ola de calor un episodio de al menos tres días seguidos con máximas por encima del percentil 95 de julio-agosto en al menos el 10 % de sus estaciones. Mientras dure: plantas de balcón a la sombra o dentro de casa, revisa el sustrato dos veces al día, no abones ni trasplantes y vigila las hojas quemadas."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 1,
+      "ejemplo_madrid": "Entre una y tres olas de calor por verano en la Península; en el verano de 2025 AEMET registró tres (18 jun-4 jul, 15-17 jul y 3-18 ago), 36 días en total.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F50",
+        "F51"
+      ]
+    },
+    {
+      "id": "M04",
+      "nombre": "Estrés por calor: suspender abonado",
+      "condicion": {
+        "variable": "temp_exterior",
+        "operador": ">=",
+        "valor": 32,
+        "unidad": "°C",
+        "origen": "api_meteo",
+        "duracion_min_dias": 2
+      },
+      "ajuste": {
+        "accion": "suspender_abonado",
+        "parametro": "abonado",
+        "factor_o_valor": "suspender hasta que las máximas bajen de 30 °C durante tres días",
+        "explicacion_usuario": "Con dos o más días por encima de 32 °C las plantas están en estrés térmico. El abono es una sal: en sustrato caliente y seco quema las raíces y fuerza brotes que la planta no puede sostener. No abones hasta que refresque."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Prácticamente todo julio y agosto en Madrid (media de máximas 32,1 °C y 31,3 °C) y durante cualquier ola de calor.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F31",
+        "F33",
+        "F35",
+        "F32"
+      ]
+    },
+    {
+      "id": "M05",
+      "nombre": "Noches por debajo de 10 °C: tropicales dentro de casa",
+      "condicion": {
+        "variable": "temp_exterior",
+        "operador": "<",
+        "valor": 10,
+        "unidad": "°C",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "mover",
+        "parametro": "ubicacion",
+        "factor_o_valor": "interior, lejos del cristal frío; revisar plagas antes de entrar",
+        "explicacion_usuario": "La mínima prevista baja de 10 °C. Las plantas de origen tropical (aráceas, calateas, helechos, palmeras, ficus, orquídeas) sufren daño por frío por debajo de unos 10 °C aunque no hiele. Mételas en casa esta noche, revisa hojas y sustrato en busca de plagas y colócalas unos días en un sitio con luz suave."
+      },
+      "afecta_a": {
+        "categorias": [
+          "tropicales_araceas",
+          "calatheas_helechos",
+          "palmeras",
+          "ficus",
+          "orquideas_epifitas",
+          "balcon_exterior"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "otono",
+        "invierno",
+        "primavera"
+      ],
+      "prioridad": 1,
+      "ejemplo_madrid": "Desde mediados-finales de octubre (media de mínimas 10,7 °C en octubre, 6,3 °C en noviembre) hasta principios de mayo (7,7 °C en abril, 11,3 °C en mayo). La ventana segura para sacar tropicales al balcón en Madrid va aproximadamente de mediados de mayo a principios de octubre.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F20",
+        "F21",
+        "F22",
+        "F23",
+        "F1"
+      ]
+    },
+    {
+      "id": "M06",
+      "nombre": "Frío intenso o helada: proteger o entrar todo",
+      "condicion": {
+        "variable": "temp_exterior",
+        "operador": "<=",
+        "valor": 5,
+        "unidad": "°C",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "proteger_frio",
+        "parametro": "ubicacion",
+        "factor_o_valor": "entrar en casa; si no es posible, pegar a la pared, cubrir con manta térmica y mantener el sustrato apenas húmedo",
+        "explicacion_usuario": "Mínima prevista de 5 °C o menos: riesgo de helada en balcones y terrazas. Entra en casa todas las macetas, incluidas suculentas y cactus (sus tejidos llenos de agua se rompen con la helada). Si alguna no cabe, cúbrela y acércala a la pared; no riegues por la tarde."
+      },
+      "afecta_a": {
+        "categorias": [
+          "balcon_exterior",
+          "suculentas_cactus",
+          "plantas_flor"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "otono",
+        "invierno",
+        "primavera"
+      ],
+      "prioridad": 1,
+      "ejemplo_madrid": "De noviembre a marzo. Retiro registra de media 6,2 días de helada en enero, 4,5 en diciembre, 3,0 en febrero, 1,0 en marzo y 0,9 en noviembre; AEMET avisa (amarillo) con mínimas de -4 °C en la zona Metropolitana.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F22",
+        "F21",
+        "F1",
+        "F6"
+      ]
+    },
+    {
+      "id": "M07",
+      "nombre": "Interior demasiado frío para tropicales",
+      "condicion": {
+        "variable": "temp_interior",
+        "operador": "<",
+        "valor": 12,
+        "unidad": "°C",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "mover",
+        "parametro": "ubicacion",
+        "factor_o_valor": "habitación más cálida (ideal 18-24 °C de día, no menos de 15 °C de noche), lejos de cristales y corrientes",
+        "explicacion_usuario": "La habitación está por debajo de 12 °C. Las plantas tropicales sufren daño por frío entre 8 y 12 °C aunque estén dentro de casa (hojas lacias, manchas acuosas, podredumbre). Llévalas a una estancia más templada y aléjalas del cristal de la ventana por la noche."
+      },
+      "afecta_a": {
+        "categorias": [
+          "tropicales_araceas",
+          "calatheas_helechos",
+          "palmeras",
+          "orquideas_epifitas",
+          "ficus"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "otono",
+        "invierno"
+      ],
+      "prioridad": 1,
+      "ejemplo_madrid": "Diciembre-febrero en habitaciones sin calefacción, galerías acristaladas y pisos bajos (media de mínimas exteriores 2,7-3,7 °C).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F22",
+        "F14",
+        "F42",
+        "F17"
+      ]
+    },
+    {
+      "id": "M08",
+      "nombre": "Ola de frío declarada por AEMET",
+      "condicion": {
+        "variable": "ola_frio",
+        "operador": "==",
+        "valor": true,
+        "unidad": "bool",
+        "origen": "api_meteo",
+        "duracion_min_dias": 3
+      },
+      "ajuste": {
+        "accion": "proteger_frio",
+        "parametro": "ubicacion",
+        "factor_o_valor": "todo el balcón dentro de casa; interior: alejar >50 cm de cristales, no regar de noche, reducir riego",
+        "explicacion_usuario": "AEMET define ola de frío como al menos tres días seguidos con mínimas por debajo del percentil 5 de enero-febrero en al menos el 10 % de sus estaciones. Mete en casa todas las plantas del balcón, separa las de interior de las ventanas (el cristal irradia frío por la noche) y riega menos: el sustrato frío y mojado pudre raíces."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "invierno"
+      ],
+      "prioridad": 1,
+      "ejemplo_madrid": "Cero a dos episodios por invierno; en el invierno 2024-2025 hubo una ola de frío del 13 al 15 de enero. En Retiro la mínima absoluta de la serie es -10,1 °C (Filomena, enero 2021).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F52"
+      ]
+    },
+    {
+      "id": "M09",
+      "nombre": "Interior caluroso: más riego",
+      "condicion": {
+        "variable": "temp_interior",
+        "operador": ">=",
+        "valor": 28,
+        "unidad": "°C",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "multiplicar_frecuencia_riego",
+        "parametro": "frecuencia_riego",
+        "factor_o_valor": 1.2,
+        "explicacion_usuario": "Tu casa está a 28 °C o más. La mayoría de las plantas de interior crece bien entre 15 y 30 °C; por encima transpiran más y el sustrato se seca antes. Comprueba la tierra con más frecuencia y riega cuando los 2-3 cm superiores estén secos; aleja las plantas del cristal soleado."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Julio y agosto en viviendas sin aire acondicionado, áticos y habitaciones orientadas al sur u oeste.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F33",
+        "F44",
+        "F42",
+        "F41"
+      ]
+    },
+    {
+      "id": "M10",
+      "nombre": "Interior muy caluroso: no abonar",
+      "condicion": {
+        "variable": "temp_interior",
+        "operador": ">=",
+        "valor": 30,
+        "unidad": "°C",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 2
+      },
+      "ajuste": {
+        "accion": "suspender_abonado",
+        "parametro": "abonado",
+        "factor_o_valor": "suspender mientras la habitación supere 30 °C",
+        "explicacion_usuario": "Más de 30 °C dentro de casa dos días seguidos: la planta está en estrés y no aprovecha el abono; las sales del fertilizante pueden quemar las raíces. Espera a que la temperatura baje para volver a abonar."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Olas de calor de julio-agosto en pisos sin climatizar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F31",
+        "F33",
+        "F44"
+      ]
+    },
+    {
+      "id": "M11",
+      "nombre": "Interior frío: reposo y menos riego",
+      "condicion": {
+        "variable": "temp_interior",
+        "operador": "<",
+        "valor": 15,
+        "unidad": "°C",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 3
+      },
+      "ajuste": {
+        "accion": "multiplicar_frecuencia_riego",
+        "parametro": "frecuencia_riego",
+        "factor_o_valor": 0.7,
+        "explicacion_usuario": "Tu casa lleva varios días por debajo de 15 °C: las plantas entran en reposo y consumen poca agua. Espacia los riegos (en invierno muchas plantas solo necesitan agua cada 2-3 semanas) y riega siempre después de comprobar que el sustrato está seco en profundidad. Cactus y suculentas: casi en seco hasta marzo."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "otono",
+        "invierno"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Noviembre-marzo en habitaciones sin calefacción o con calefacción solo unas horas al día.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F14",
+        "F16",
+        "F42",
+        "F41",
+        "F15"
+      ]
+    },
+    {
+      "id": "M12",
+      "nombre": "Humedad interior baja: aumentar humedad ambiente",
+      "condicion": {
+        "variable": "humedad_relativa_interior",
+        "operador": "<",
+        "valor": 40,
+        "unidad": "%",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 2
+      },
+      "ajuste": {
+        "accion": "aumentar_humedad",
+        "parametro": "humedad_ambiente",
+        "factor_o_valor": "objetivo 40-50 %: humidificador cerca del grupo de plantas o agrupar plantas; bandeja de guijarros con agua solo como apoyo local; pulverizar no sirve",
+        "explicacion_usuario": "La humedad del aire está por debajo del 40 %. Calateas, helechos, aráceas y orquídeas prefieren 40-50 % o más; con aire seco aparecen puntas y bordes marrones. Lo que funciona: un humidificador junto a las plantas y agruparlas. La bandeja con guijarros y agua ayuda poco y solo justo alrededor de la maceta; pulverizar las hojas sube la humedad solo unos minutos."
+      },
+      "afecta_a": {
+        "categorias": [
+          "calatheas_helechos",
+          "tropicales_araceas",
+          "orquideas_epifitas",
+          "palmeras"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Toda la temporada de calefacción (noviembre-marzo/abril), cuando la HR interior cae al 10-30 %, y también julio-agosto con aire acondicionado (HR exterior media 38-41 %).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F16",
+        "F25",
+        "F27",
+        "F24",
+        "F26",
+        "F14",
+        "F28"
+      ]
+    },
+    {
+      "id": "M13",
+      "nombre": "Humedad interior muy baja: aviso de daño y plagas",
+      "condicion": {
+        "variable": "humedad_relativa_interior",
+        "operador": "<",
+        "valor": 30,
+        "unidad": "%",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 3
+      },
+      "ajuste": {
+        "accion": "aviso",
+        "parametro": "humedad_ambiente",
+        "factor_o_valor": "humidificador obligatorio para calateas/helechos; revisar envés de hojas cada semana (araña roja)",
+        "explicacion_usuario": "Humedad por debajo del 30 % durante varios días: nivel de estrés para casi todas las plantas de hoja. Las hojas pierden agua más deprisa de lo que las raíces la reponen (puntas secas aunque el sustrato esté húmedo) y el aire caliente y seco favorece la araña roja. Pon un humidificador y revisa el envés de las hojas."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Diciembre-febrero en pisos con calefacción central encendida muchas horas; medido con higrómetro, 15-25 % es habitual.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F17",
+        "F27",
+        "F24",
+        "F29"
+      ]
+    },
+    {
+      "id": "M14",
+      "nombre": "Humedad interior alta: ventilar y espaciar",
+      "condicion": {
+        "variable": "humedad_relativa_interior",
+        "operador": ">",
+        "valor": 70,
+        "unidad": "%",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 2
+      },
+      "ajuste": {
+        "accion": "aviso",
+        "parametro": "ventilacion",
+        "factor_o_valor": "ventilar a diario, separar las macetas, regar solo por la mañana, retirar flores y hojas muertas",
+        "explicacion_usuario": "La humedad del aire supera el 70 % desde hace dos días. Los hongos como la botritis (moho gris) se disparan con humedad muy alta, aire quieto y hojas mojadas. Ventila cada día, deja espacio entre plantas, riega por la mañana para que las hojas se sequen y quita flores y hojas marchitas, que son su puerta de entrada."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Poco frecuente en viviendas de Madrid; posible en baños, cocinas y pisos sin calefacción en noviembre-enero (HR exterior media 71-74 %).",
+      "confianza": "Media",
+      "fuentes": [
+        "F38",
+        "F39",
+        "F40"
+      ]
+    },
+    {
+      "id": "M15",
+      "nombre": "Humedad interior muy alta: riesgo de hongos, menos riego",
+      "condicion": {
+        "variable": "humedad_relativa_interior",
+        "operador": ">=",
+        "valor": 85,
+        "unidad": "%",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 2
+      },
+      "ajuste": {
+        "accion": "revisar_plagas",
+        "parametro": "hongos",
+        "factor_o_valor": "revisar moho gris, manchas y podredumbre; ventilar; reducir riego (×0,8) hasta que la HR baje de 70 %",
+        "explicacion_usuario": "Humedad del 85 % o más durante dos días: es el rango en el que la botritis y otros hongos infectan (óptimo 90-93 % con hojas mojadas). Revisa tallos y hojas en busca de moho gris o manchas blandas, ventila, aleja las plantas entre sí y riega menos hasta que el ambiente se seque."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Invernaderos de balcón, miniinvernaderos y terrarios cerrados; en el resto de la vivienda es excepcional en Madrid.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F38",
+        "F39",
+        "F40"
+      ]
+    },
+    {
+      "id": "M16",
+      "nombre": "Calefacción encendida: alejar de radiadores",
+      "condicion": {
+        "variable": "calefaccion_activa",
+        "operador": "==",
+        "valor": true,
+        "unidad": "bool",
+        "origen": "usuario",
+        "duracion_min_dias": null
+      },
+      "ajuste": {
+        "accion": "mover",
+        "parametro": "ubicacion",
+        "factor_o_valor": "alejar >1 m de radiadores, rejillas de aire caliente y chimeneas; evitar también corrientes frías de puertas y ventanas",
+        "explicacion_usuario": "Con la calefacción puesta, el aire que sale de radiadores y rejillas seca las hojas y el sustrato en horas. Separa las plantas al menos un metro de cualquier fuente de calor y no las dejes tampoco en la corriente fría de una ventana o puerta que se abre."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "otono",
+        "invierno",
+        "primavera"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Temporada de calefacción en Madrid: habitualmente desde finales de octubre o primera quincena de noviembre hasta marzo-abril, según acuerde cada comunidad de vecinos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F14",
+        "F16",
+        "F15",
+        "F17",
+        "F41",
+        "F42",
+        "F54",
+        "F55"
+      ]
+    },
+    {
+      "id": "M17",
+      "nombre": "Calefacción encendida: riego de invierno con comprobación",
+      "condicion": {
+        "variable": "calefaccion_activa",
+        "operador": "==",
+        "valor": true,
+        "unidad": "bool",
+        "origen": "usuario",
+        "duracion_min_dias": null
+      },
+      "ajuste": {
+        "accion": "multiplicar_frecuencia_riego",
+        "parametro": "frecuencia_riego",
+        "factor_o_valor": 0.85,
+        "explicacion_usuario": "En temporada de calefacción las plantas crecen poco y beben menos, pero el aire seco puede secar el sustrato más rápido de lo que esperas. La app espacia un poco los riegos; antes de cada uno comprueba el sustrato a 2-3 cm (o con un palillo de madera: si sale limpio, toca regar) y vacía el plato a los 15-30 minutos."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "otono",
+        "invierno",
+        "primavera"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Noviembre-marzo/abril.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F14",
+        "F16",
+        "F15",
+        "F41"
+      ]
+    },
+    {
+      "id": "M18",
+      "nombre": "Calefacción encendida: humedad estimada muy baja",
+      "condicion": {
+        "variable": "calefaccion_activa",
+        "operador": "==",
+        "valor": true,
+        "unidad": "bool",
+        "origen": "calculado",
+        "duracion_min_dias": null
+      },
+      "ajuste": {
+        "accion": "aumentar_humedad",
+        "parametro": "humedad_ambiente",
+        "factor_o_valor": "si no hay higrómetro, asumir HR interior 20-30 %: humidificador y agrupar plantas; evitar bandejas que mojen la base de la maceta",
+        "explicacion_usuario": "Cuando la calefacción funciona, la humedad del aire de casa suele caer al 10-30 %, muy lejos del 40-50 % que prefieren calateas, helechos y aráceas. Si no tienes higrómetro, da por hecho que el aire está seco: agrupa las plantas y usa un humidificador cerca de ellas."
+      },
+      "afecta_a": {
+        "categorias": [
+          "calatheas_helechos",
+          "tropicales_araceas",
+          "orquideas_epifitas",
+          "palmeras"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "otono",
+        "invierno",
+        "primavera"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Noviembre-marzo/abril.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F16",
+        "F27",
+        "F17",
+        "F24",
+        "F25"
+      ]
+    },
+    {
+      "id": "M19",
+      "nombre": "Aire acondicionado: fuera de la corriente",
+      "condicion": {
+        "variable": "aire_acondicionado_activo",
+        "operador": "==",
+        "valor": true,
+        "unidad": "bool",
+        "origen": "usuario",
+        "duracion_min_dias": null
+      },
+      "ajuste": {
+        "accion": "mover",
+        "parametro": "ubicacion",
+        "factor_o_valor": "fuera del chorro de aire del split o rejilla; misma habitación es aceptable si no le da directamente",
+        "explicacion_usuario": "El aire acondicionado lanza aire frío y seco: las plantas que lo reciben directamente se deshidratan, amarillean y pierden hojas. Cambia de sitio las que estén en el chorro del aparato; pueden seguir en la misma habitación si el flujo no les da de lleno."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Junio-septiembre.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F17",
+        "F42",
+        "F41",
+        "F16"
+      ]
+    },
+    {
+      "id": "M20",
+      "nombre": "Sol de verano tras cristal orientado al sur",
+      "condicion": {
+        "variable": "horas_sol",
+        "operador": ">=",
+        "valor": 10,
+        "unidad": "h/día",
+        "origen": "calculado",
+        "duracion_min_dias": 7
+      },
+      "ajuste": {
+        "accion": "sombrear",
+        "parametro": "ubicacion",
+        "factor_o_valor": "retirar las plantas de hoja fina a 1-1,5 m del cristal sur/oeste o interponer visillo; cactus y suculentas pueden quedarse",
+        "explicacion_usuario": "En pleno verano la ventana sur recibe más de 10 horas de sol al día y la luz directa a través del cristal quema las hojas finas (manchas blanquecinas o marrones que no se recuperan). Aleja calateas, helechos y aráceas un metro del cristal o pon un visillo; cactus, suculentas y crotos aguantan."
+      },
+      "afecta_a": {
+        "categorias": [
+          "calatheas_helechos",
+          "tropicales_araceas",
+          "orquideas_epifitas"
+        ],
+        "especies": [],
+        "excepciones": [
+          "suculentas_cactus"
+        ]
+      },
+      "estaciones": [
+        "verano"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Junio (10,5 h/día), julio (11,5 h/día) y agosto (10,7 h/día) según las horas de sol normales de Retiro.",
+      "confianza": "Media",
+      "fuentes": [
+        "F18",
+        "F43",
+        "F20",
+        "F33",
+        "F1"
+      ]
+    },
+    {
+      "id": "M21",
+      "nombre": "Días cortos de invierno: suspender abonado",
+      "condicion": {
+        "variable": "horas_sol",
+        "operador": "<",
+        "valor": 5,
+        "unidad": "h/día",
+        "origen": "calculado",
+        "duracion_min_dias": 14
+      },
+      "ajuste": {
+        "accion": "suspender_abonado",
+        "parametro": "abonado",
+        "factor_o_valor": "sin abono hasta que vuelvan a verse brotes nuevos (normalmente marzo)",
+        "explicacion_usuario": "Con menos de 5 horas de sol al día las plantas de interior apenas crecen: están en reposo. Abonar ahora no las ayuda y acumula sales en el sustrato. Retoma el abono a media dosis cuando veas crecimiento nuevo en primavera."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "otono",
+        "invierno"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Noviembre (4,8 h/día), diciembre (4,0 h/día) y enero (4,8 h/día) en Retiro; febrero queda en el límite (5,6 h/día).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F14",
+        "F16",
+        "F17",
+        "F42",
+        "F41",
+        "F15"
+      ]
+    },
+    {
+      "id": "M22",
+      "nombre": "Días cortos de invierno: menos riego",
+      "condicion": {
+        "variable": "horas_sol",
+        "operador": "<",
+        "valor": 5,
+        "unidad": "h/día",
+        "origen": "calculado",
+        "duracion_min_dias": 14
+      },
+      "ajuste": {
+        "accion": "multiplicar_frecuencia_riego",
+        "parametro": "frecuencia_riego",
+        "factor_o_valor": 0.7,
+        "explicacion_usuario": "Menos luz significa menos crecimiento y menos sed. En invierno espacia los riegos y deja secar bien el sustrato entre uno y otro; cactus y suculentas prácticamente en seco hasta marzo. Comprueba siempre la tierra antes de regar: el exceso de agua con poca luz es la principal causa de muerte de plantas en invierno."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "otono",
+        "invierno"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Noviembre-enero; si la planta está bajo luz artificial de cultivo, desactivar esta regla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F16",
+        "F14",
+        "F15",
+        "F41"
+      ]
+    },
+    {
+      "id": "M23",
+      "nombre": "Lluvia en el balcón: saltar riego y vaciar platos",
+      "condicion": {
+        "variable": "lluvia",
+        "operador": ">=",
+        "valor": 5,
+        "unidad": "mm/día",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "aviso",
+        "parametro": "riego",
+        "factor_o_valor": "saltar el riego previsto; vaciar platos y bandejas en cuanto deje de llover; comprobar sustrato antes del siguiente riego",
+        "explicacion_usuario": "Han caído 5 mm o más: las macetas expuestas ya han recibido agua, así que salta el riego de hoy. Lo importante: vacía los platos en cuanto pare, porque una maceta sentada en agua se queda sin aire en las raíces y la podredumbre radicular rara vez se recupera. Si el balcón está bajo voladizo, comprueba que la lluvia haya llegado de verdad al sustrato."
+      },
+      "afecta_a": {
+        "categorias": [
+          "balcon_exterior"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Sobre todo de octubre a mayo: Retiro tiene 59 días al año con lluvia de 1 mm o más, concentrados en abril-mayo (6,7-7,3 días/mes) y octubre-diciembre (6,5-6,9 días/mes); en julio-agosto apenas 1,7 días/mes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F20",
+        "F36",
+        "F19",
+        "F45",
+        "F1"
+      ]
+    },
+    {
+      "id": "M24",
+      "nombre": "Viento fuerte en el balcón: desecación y vuelco",
+      "condicion": {
+        "variable": "viento",
+        "operador": ">=",
+        "valor": 40,
+        "unidad": "km/h",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "mover",
+        "parametro": "ubicacion",
+        "factor_o_valor": "a un rincón resguardado o pegado a la pared; agrupar macetas; comprobar sustrato (el viento seca); evitar macetas altas y ligeras",
+        "explicacion_usuario": "Se prevén rachas de 40 km/h o más. El viento seca el sustrato y las hojas, rompe tallos y vuelca macetas ligeras con plantas grandes. Acerca las macetas a la pared, agrúpalas, baja las que estén en alto y comprueba la tierra esta tarde: puede necesitar agua antes de lo previsto."
+      },
+      "afecta_a": {
+        "categorias": [
+          "balcon_exterior"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Sin normal climatológica de viento en la ficha de Retiro; episodios dispersos sobre todo en primavera y con temporales de otoño-invierno. AEMET avisa (amarillo) con rachas de 70 km/h en la zona Metropolitana.",
+      "confianza": "Media",
+      "fuentes": [
+        "F37",
+        "F21",
+        "F20",
+        "F33",
+        "F6"
+      ]
+    },
+    {
+      "id": "M25",
+      "nombre": "Índice UV muy alto: aclimatar las plantas recién sacadas",
+      "condicion": {
+        "variable": "radiacion_uv",
+        "operador": ">=",
+        "valor": 8,
+        "unidad": "índice UV",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "sombrear",
+        "parametro": "ubicacion",
+        "factor_o_valor": "aclimatación progresiva de 7-14 días: primero sombra total, luego sombra parcial, y solo las especies de sol a pleno sol al final; nunca sol directo de mediodía la primera semana",
+        "explicacion_usuario": "Índice UV de 8 o más (categoría 'muy alto' en la escala de la OMS/AEMET). Una planta que ha pasado el invierno dentro de casa se quema en horas si la pones al sol. Sácala primero a la sombra y ve aumentando la exposición durante una o dos semanas; las de hoja fina se quedan siempre en semisombra."
+      },
+      "afecta_a": {
+        "categorias": [
+          "balcon_exterior",
+          "tropicales_araceas",
+          "calatheas_helechos",
+          "ficus",
+          "palmeras",
+          "suculentas_cactus"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "primavera",
+        "verano"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "De mayo a agosto el índice UV previsto con cielo despejado alcanza con regularidad la categoría 'muy alto' en el centro peninsular; coincide con la época en que se sacan las plantas al balcón (mediados de mayo).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F8",
+        "F9",
+        "F10",
+        "F20",
+        "F21",
+        "F23"
+      ]
+    },
+    {
+      "id": "M26",
+      "nombre": "Temporada de crecimiento: reanudar abonado",
+      "condicion": {
+        "variable": "horas_sol",
+        "operador": ">=",
+        "valor": 7,
+        "unidad": "h/día",
+        "origen": "calculado",
+        "duracion_min_dias": 14
+      },
+      "ajuste": {
+        "accion": "aviso",
+        "parametro": "abonado",
+        "factor_o_valor": "reanudar abono a media dosis cada 4 semanas (líquido) mientras haya crecimiento activo; parar en octubre",
+        "explicacion_usuario": "Ya hay más de 7 horas de sol al día y las plantas vuelven a crecer: es el momento de reanudar el abono, a la mitad de la dosis del envase, más o menos cada mes, y solo con el sustrato húmedo. Mantén el abono de marzo-abril a septiembre y suspéndelo de nuevo cuando acorten los días."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "primavera",
+        "verano"
+      ],
+      "prioridad": 4,
+      "ejemplo_madrid": "Se cumple desde finales de marzo/abril (7,7 h/día en abril) hasta septiembre (8,6 h/día); se corta con M04/M10 en los picos de calor y con M21 a partir de noviembre.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F17",
+        "F14",
+        "F41",
+        "F42",
+        "F1"
+      ]
+    },
+    {
+      "id": "M27",
+      "nombre": "Calor seco: revisar araña roja",
+      "condicion": {
+        "variable": "humedad_relativa_interior",
+        "operador": "<",
+        "valor": 50,
+        "unidad": "%",
+        "origen": "sensor_movil",
+        "duracion_min_dias": 7
+      },
+      "ajuste": {
+        "accion": "revisar_plagas",
+        "parametro": "arana_roja",
+        "factor_o_valor": "revisar envés y telarañas finas cada semana; ducha con agua tibia si aparece; aislar la planta afectada; mantener bien regadas (el estrés hídrico la favorece)",
+        "explicacion_usuario": "Lleva una semana de ambiente cálido y seco: son las condiciones en las que la araña roja se multiplica (una generación en menos de una semana con calor). Mira el envés de las hojas buscando puntitos y telarañas finas; si las ves, ducha la planta con agua tibia, aíslala y repite cada semana. Mantener la humedad alta y las plantas sin estrés de sed frena la plaga."
+      },
+      "afecta_a": {
+        "categorias": [
+          "todas"
+        ],
+        "especies": [],
+        "excepciones": []
+      },
+      "estaciones": [
+        "todas"
+      ],
+      "prioridad": 3,
+      "ejemplo_madrid": "Dos picos: julio-agosto (calor, HR exterior 38-41 %) y la temporada de calefacción (HR interior 10-30 %).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F29",
+        "F30",
+        "F27"
+      ]
+    },
+    {
+      "id": "M28",
+      "nombre": "Noches frescas de 10-13 °C: zona de riesgo para las tropicales más sensibles",
+      "condicion": {
+        "variable": "temp_exterior",
+        "operador": "entre",
+        "valor": [
+          10,
+          13
+        ],
+        "unidad": "°C",
+        "origen": "api_meteo",
+        "duracion_min_dias": 1
+      },
+      "ajuste": {
+        "accion": "aviso",
+        "parametro": "ubicacion",
+        "factor_o_valor": "entrar ya las aráceas sensibles (Aglaonema, Dieffenbachia, Anthurium, Philodendron) y calateas; el resto del balcón puede esperar hasta que la mínima baje de 10 °C",
+        "explicacion_usuario": "Mínimas previstas entre 10 y 13 °C: todavía no hiela, pero varias aráceas de interior (aglaonemas, difenbaquias, anturios, filodendros) y las calateas ya pueden sufrir daño por frío en este rango, sobre todo si dura varias noches. Mételas en casa; las demás pueden aguantar unos días más."
+      },
+      "afecta_a": {
+        "categorias": [
+          "tropicales_araceas",
+          "calatheas_helechos"
+        ],
+        "especies": [
+          "Aglaonema commutatum",
+          "Dieffenbachia seguine",
+          "Anthurium andraeanum",
+          "Philodendron hederaceum"
+        ],
+        "excepciones": [
+          "suculentas_cactus",
+          "ficus",
+          "palmeras"
+        ]
+      },
+      "estaciones": [
+        "otono",
+        "primavera"
+      ],
+      "prioridad": 2,
+      "ejemplo_madrid": "Primera quincena de octubre (media de mínimas 10,7 °C) y segunda quincena de mayo (11,3 °C); el aviso precede en 2-3 semanas al disparo de M05.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F22",
+        "F23",
+        "F1"
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=3195",
+      "institucion": "AEMET - Valores climatológicos normales, Madrid Retiro (3195), 1981-2010",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.aemet.es/documentos/es/conocermas/recursos_en_linea/publicaciones_y_estudios/estudios/Olas_calor/olas_calor_actualizacion_dic24.pdf",
+      "institucion": "AEMET - Olas de calor en España desde 1975 (actualización diciembre 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F3",
+      "url": "https://aemetblog.es/2020/06/25/olas-de-calor-en-espana-desde-1975-2/",
+      "institucion": "AEMET (blog oficial) - Olas de calor en España desde 1975",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F4",
+      "url": "https://aemetblog.es/2026/03/14/olas-de-calor-y-de-frio-registradas-en-el-ano-hidrologico-2024-2025/",
+      "institucion": "AEMET (blog oficial) - Olas de calor y de frío del año hidrológico 2024-2025",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aemet.es/documentos/es/conocermas/recursos_en_linea/publicaciones_y_estudios/estudios/Olas_frio/olas_frio_actualizacion_dic24.pdf",
+      "institucion": "AEMET - Olas de frío en España desde 1975 (actualización diciembre 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aemet.es/documentos/es/eltiempo/prediccion/avisos/plan_meteoalerta/METEOALERTA_ANX1_Umbrales_y_niveles_de_aviso.pdf",
+      "institucion": "AEMET - Plan Meteoalerta, Anexo 1: Umbrales y niveles de aviso",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos/ayuda",
+      "institucion": "AEMET - Ayuda sobre avisos Meteoalerta (niveles amarillo/naranja/rojo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/radiacionuv",
+      "institucion": "AEMET - Predicción de índice de radiación UV (escala bajo/moderado/alto/muy alto/extremo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/temas/productos-quimicos/AEMET%20Proteccion%20radiacionultravioleta_tcm30-183323.pdf",
+      "institucion": "AEMET / MITECO - La radiación solar ultravioleta y el índice UVI (OMM/OMS/PNUMA)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+      "institucion": "OMS - Ultraviolet radiation (fact sheet, índice UV)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F11",
+      "url": "https://opendata.aemet.es/centrodedescargas/inicio",
+      "institucion": "AEMET OpenData - Centro de descargas (API key, acceso general y desarrolladores)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F12",
+      "url": "https://datos.gob.es/es/blog/los-conjuntos-de-datos-meteorologicos-de-alto-valor",
+      "institucion": "datos.gob.es (Gobierno de España) - Conjuntos de datos meteorológicos de alto valor de AEMET",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F13",
+      "url": "https://repositorio.aemet.es/bitstream/20.500.11765/15493/1/ACA_MAD_23.pdf",
+      "institucion": "AEMET - Avance climatológico anual 2023, Comunidad de Madrid (normales 1991-2020 de Retiro)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F14",
+      "url": "https://chippewa.extension.wisc.edu/2025/11/19/winter-care-of-houseplants-2",
+      "institucion": "University of Wisconsin-Madison Extension - Winter Care of Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F15",
+      "url": "https://www.uvm.edu/extension/news/houseplant-care-during-winter-months",
+      "institucion": "University of Vermont Extension - Houseplant care during winter months",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F16",
+      "url": "https://exclusives.mgcafe.uky.edu/2023/hort/keeping-your-houseplants-happy-during-wintertime",
+      "institucion": "University of Kentucky Extension - Keeping your houseplants happy during wintertime",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F17",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "institucion": "University of Illinois Extension - Houseplants: Care",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F18",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "institucion": "University of Illinois Extension - Houseplants: Lighting",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F19",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "institucion": "University of Illinois Extension - Houseplants: Watering",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F20",
+      "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2025-05-30-take-your-houseplants-summer-vacationto-patio",
+      "institucion": "University of Illinois Extension - Take your houseplants on a summer vacation to the patio",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F21",
+      "url": "https://planttalk.colostate.edu/?p=1212",
+      "institucion": "Colorado State University Extension (PlantTalk) - Houseplants outdoors in summer",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F22",
+      "url": "https://ask.ifas.ufl.edu/publication/EP429",
+      "institucion": "UF/IFAS Extension - Cold Protection of Foliage Plants (ENH1168/EP429): chilling injury",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F23",
+      "url": "https://hgic.clemson.edu/prepare-houseplants-to-move-back-inside/",
+      "institucion": "Clemson University HGIC - Prepare houseplants to move back inside",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F24",
+      "url": "https://extension.psu.edu/humidity-and-houseplants",
+      "institucion": "Penn State Extension - Humidity and Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F25",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-raise-relative-humidity-indoors-my-houseplants",
+      "institucion": "Iowa State University Extension - How can I raise the relative humidity indoors for my houseplants?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F26",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/air-our-home-extremely-dry-winter-should-i-mist-houseplants",
+      "institucion": "Iowa State University Extension - Should I mist the houseplants?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F27",
+      "url": "https://www.purdue.edu/hla/sites/yardandgarden/thirst-aid-for-houseplants/",
+      "institucion": "Purdue University Consumer Horticulture - Thirst Aid for Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F28",
+      "url": "https://lancaster.unl.edu/houseplants-humidity",
+      "institucion": "University of Nebraska-Lincoln Extension - Success with Houseplants: Humidity",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F29",
+      "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/spider-mites/",
+      "institucion": "Washington State University Extension (PestSense) - Spider mites on houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F30",
+      "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7405.html",
+      "institucion": "UC IPM (UC ANR) - Pest Notes: Spider Mites (Publication 7405)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F31",
+      "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/common-cultural-fertilizer-burn/",
+      "institucion": "Washington State University Extension (Hortsense) - Fertilizer burn",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F32",
+      "url": "https://kenosha.extension.wisc.edu/2021/07/07/mitigating-drought-stress-on-landscape-and-garden-plants-during-the-current-local-dry-spell/",
+      "institucion": "University of Wisconsin-Madison Extension - Mitigating drought stress on landscape and garden plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F33",
+      "url": "https://extension.oregonstate.edu/es/node/167071/printable/print",
+      "institucion": "Oregon State University Extension - Heat wave in the garden (EM 9556)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F34",
+      "url": "https://swain.ces.ncsu.edu/2025/02/hot-pots-what",
+      "institucion": "NC State Extension - Hot Pots (temperatura del sustrato en macetas al sol)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F35",
+      "url": "https://fieldreport.caes.uga.edu/news/4464/",
+      "institucion": "University of Georgia Extension (CAES) - Hot weather stress",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F36",
+      "url": "https://extension.illinois.edu/container-gardens/container-drainage-options",
+      "institucion": "University of Illinois Extension - Container drainage options",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F37",
+      "url": "https://extension.illinois.edu/container-gardens/containers-0",
+      "institucion": "University of Illinois Extension - Container gardens: containers (calor y viento)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F38",
+      "url": "https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ppfs-gen-19.pdf",
+      "institucion": "University of Kentucky Plant Pathology - Botrytis blight (PPFS-GEN-19)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F39",
+      "url": "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/spes/spes-820/SPES-820.pdf",
+      "institucion": "Virginia Tech Extension - Leaf mold, gray mold and bacterial wilt in greenhouse tomatoes (SPES-820)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F40",
+      "url": "https://ipm.cahnr.uconn.edu/wp-content/uploads/sites/3216/2023/12/2023botrytisblightfactsheetfinal.pdf",
+      "institucion": "University of Connecticut IPM - Botrytis blight fact sheet (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F41",
+      "url": "https://publications.mgcafe.uky.edu/files/ho103.pdf",
+      "institucion": "University of Kentucky / Washington State University Extension - Indoor Plants (HO-103, capítulo 19 del manual Master Gardener)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F42",
+      "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-39-w.html",
+      "institucion": "Purdue Extension - Indoor Plant Care (HO-39-W)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F43",
+      "url": "https://extension.msstate.edu/blogs/extension-for-real-life/tips-for-growing-indoor-plants",
+      "institucion": "Mississippi State University Extension - Tips for growing indoor plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F44",
+      "url": "https://homegarden.cahnr.uconn.edu/tag/heat-stress",
+      "institucion": "University of Connecticut Home & Garden Education Center - Heat stress / temperature and houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F45",
+      "url": "https://chippewa.extension.wisc.edu/2023/11/29/gardening-indoors-with-houseplants/",
+      "institucion": "University of Wisconsin-Madison Extension - Gardening indoors with houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F46",
+      "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=0076",
+      "institucion": "AEMET - Valores climatológicos normales, Barcelona Aeropuerto (0076), 1981-2010",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F47",
+      "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=1082",
+      "institucion": "AEMET - Valores climatológicos normales, Bilbao Aeropuerto (1082), 1981-2010",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F48",
+      "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=5783",
+      "institucion": "AEMET - Valores climatológicos normales, Sevilla Aeropuerto (5783), 1981-2010",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F49",
+      "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=C449C",
+      "institucion": "AEMET - Valores climatológicos normales, Santa Cruz de Tenerife (C449C), 1981-2010",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F50",
+      "url": "https://aemetblog.es/2024/07/24/preguntas-y-respuestas-sobre-las-olas-de-calor/",
+      "institucion": "AEMET (blog oficial) - Preguntas y respuestas sobre las olas de calor",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F51",
+      "url": "https://www.aemet.es/es/conocermas/recursos_en_linea/publicaciones_y_estudios/estudios/detalles/olascalor",
+      "institucion": "AEMET - Ficha del estudio Olas de calor en España desde 1975",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F52",
+      "url": "https://www.aemet.es/es/conocermas/recursos_en_linea/publicaciones_y_estudios/estudios/detalles/olas_frio",
+      "institucion": "AEMET - Ficha del estudio Olas de frío en España desde 1975",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F53",
+      "url": "https://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_what.shtml",
+      "institucion": "NOAA Climate Prediction Center - What is the UV index",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F54",
+      "url": "https://www.alimarket.es/construccion/noticia/339874/2021--ultimo-ano-de-derroche-en-calefaccion-en-las-comunidades-de-vecinos",
+      "institucion": "Alimarket (prensa sectorial) - Encendido de calefacción en comunidades a finales de octubre",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F55",
+      "url": "https://selectra.es/energia/noticias/calefaccion-central-2026-fecha-encendido-junta",
+      "institucion": "Selectra (comparador energético) - Calefacción central: quién decide la fecha de encendido",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F56",
+      "url": "https://cafmadrid.es/wp-content/uploads/2023/09/NdP_Medidas-de-Ahorro-Energetico.pdf",
+      "institucion": "Colegio de Administradores de Fincas de Madrid (CAFMadrid) - Nota de prensa medidas de ahorro energético (temporada de calefacción)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F57",
+      "url": "https://es.wikipedia.org/wiki/Clima_de_Buenos_Aires",
+      "institucion": "Wikipedia - Clima de Buenos Aires (datos SMN, Observatorio Central)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-20"
+    },
+    {
+      "id": "F58",
+      "url": "https://maldita.es/malditaciencia/20240607/aviso-calor-aemet-umbral/",
+      "institucion": "Maldita.es - Cuánto calor tiene que hacer para que AEMET lance un aviso",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-20"
+    }
+  ],
+  "convenio_factor_riego": "Los factores de las reglas con accion multiplicar_frecuencia_riego multiplican la FRECUENCIA de riego, no el intervalo: 1,3 = un 30 % más a menudo (intervalo más corto); 0,7 = un 30 % menos a menudo (intervalo más largo). intervalo_ajustado = intervalo_base / producto_de_factores. Ver meteo.md §2.2 y C30."
+}

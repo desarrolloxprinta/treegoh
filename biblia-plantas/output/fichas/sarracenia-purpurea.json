@@ -1,0 +1,424 @@
+{
+  "nombre_cientifico": "Sarracenia purpurea",
+  "nombres_comunes": [
+    "sarracenia",
+    "planta trompeta",
+    "sarracenia púrpura",
+    "planta jarro púrpura"
+  ],
+  "familia": "Sarraceniaceae",
+  "origen": "Este de Norteamérica: desde Labrador y el sur de Canadá hasta Kentucky y Georgia, y al oeste hasta Iowa y Minnesota (NC State, Missouri Botanical Garden). La subespecie purpurea ocupa el norte (de Minnesota y los Grandes Lagos a Terranova, y al sur hasta los Pine Barrens de Nueva Jersey); la subespecie venosa, la llanura costera del sureste (de Nueva Jersey a Georgia y del Panhandle de Florida a Luisiana). Es la única Sarracenia que llega a climas fríos y la única naturalizada en Europa (centro de Irlanda, según NC State). Protegida en la naturaleza: comprar solo plantas de vivero.",
+  "clima_nativo": "Templado frío a templado (USDA 3-8 según Missouri Botanical Garden; 4a-9b según NC State; RHS la clasifica H6, resistente en todo el Reino Unido y el norte de Europa). Veranos templados a cálidos e inviernos fríos con helada y nieve. Crece en turberas, ciénagas, sabanas húmedas y orillas de pantanos, en turba de esfagno ácida, encharcada y muy pobre en nitrógeno, siempre a pleno sol.",
+  "categoria": "carnivora",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Roseta basal de hojas transformadas en jarras (ascidios) tubulares de 8 a 25 cm (3-10 pulgadas según NC State y Missouri Botanical Garden; RHS: hasta unos 15 cm), rechonchas, curvadas y tumbadas o semierguidas sobre el sustrato, con la boca abierta hacia arriba. Cada jarra tiene un ala ventral (quilla) a lo largo del tubo, un labio ancho y enrollado en la boca y un opérculo (tapa) ERGUIDO, ondulado, con dos lóbulos laterales redondeados, que no cubre la boca: por eso las jarras se llenan de agua de lluvia, en la que se ahogan los insectos. El interior junto a la boca está tapizado de pelos dirigidos hacia abajo. Color verde con nervios y labio púrpura o rojo burdeos, más intenso a pleno sol; en sombra parcial quedan verdes y caídas. Las jarras pueden durar hasta 2 años (ICPS).",
+    "nerviacion": "Muy visible y diagnóstica: red de nervios púrpura o rojizos sobre fondo verde en el tubo y sobre todo en el opérculo. En la subespecie venosa forma un reticulado marcado y la superficie externa es finamente pubescente; en la subespecie purpurea la superficie es lisa (Missouri Botanical Garden).",
+    "variegacion": "No variegada. El color varía de casi todo verde a casi todo púrpura según la luz y la planta. El rojo intenso indica buena luz, no enfermedad.",
+    "tallo": "Sin tallo aéreo: rizoma corto, horizontal, justo bajo la superficie, del que salen raíces fibrosas superficiales y que se ramifica formando colonias (NC State).",
+    "habito": "Herbácea perenne de roseta, baja y abierta, que forma matas. Florece en primavera (mayo-junio en su área): una flor solitaria, colgante, de unos 5 cm, púrpura rojiza (a veces verdosa o amarilla en formas raras), de 5 pétalos que caen pronto, con un gran estilo en forma de paraguas, sobre un escapo sin hojas de 20 a 40 cm que sobresale de las jarras. Fruto en cápsula de 5 lóculos con muchas semillas pequeñas. En invierno las jarras viejas se ennegrecen parcialmente y la planta queda en reposo.",
+    "tamano_adulto_interior": "No es planta de interior permanente. En maceta: 20-45 cm de alto contando la vara floral (NC State: 23-46 cm; RHS: hasta 30 cm) y 30-60 cm de anchura en matas adultas (NC State, Missouri Botanical Garden), aunque una planta de vivero suele medir 10-15 cm de diámetro.",
+    "confusiones": [
+      {
+        "especie": "Sarracenia psittacina (sarracenia papagayo)",
+        "rasgo_diferenciador": "También tiene jarras tumbadas, pero el opérculo se curva sobre la boca formando una cúpula cerrada con una entrada lateral pequeña, como un pico de loro; nunca tiene la boca abierta al cielo ni se llena de agua."
+      },
+      {
+        "especie": "Sarracenia rosea (antes S. purpurea var. burkii) y S. purpurea subsp. venosa",
+        "rasgo_diferenciador": "Son del mismo complejo: S. rosea tiene flores rosas y jarras más anchas; la subsp. venosa tiene jarras más cortas y anchas (longitud menor de 3 veces el diámetro de la boca), pubescentes por fuera y con reticulado venoso marcado; la subsp. purpurea, jarras más estrechas y lisas por fuera (Missouri Botanical Garden). No cambia el cuidado básico, sí la resistencia al frío (venosa: USDA 6-8)."
+      },
+      {
+        "especie": "Sarracenia de jarra alta (S. flava, S. leucophylla, S. rubra e híbridos)",
+        "rasgo_diferenciador": "Jarras largas, estrechas y erguidas de 30 a 100 cm, con el opérculo horizontal sobre la boca que impide que entre la lluvia; S. purpurea tiene jarras rechonchas, tumbadas y abiertas hacia arriba."
+      },
+      {
+        "especie": "Nepenthes spp. (jarros tropicales)",
+        "rasgo_diferenciador": "Las jarras cuelgan de zarcillos al final de hojas planas normales sobre tallos trepadores; en Sarracenia la hoja entera es la jarra y nace directamente del rizoma a ras de suelo."
+      },
+      {
+        "especie": "Darlingtonia californica (planta cobra)",
+        "rasgo_diferenciador": "Jarra tubular retorcida con una cúpula hinchada sobre la boca y un apéndice bífido en forma de lengua de serpiente; S. purpurea tiene opérculo erguido y boca abierta."
+      },
+      {
+        "especie": "Cephalotus follicularis",
+        "rasgo_diferenciador": "Jarras diminutas con tapa articulada y costillas dentadas, junto a hojas planas no carnívoras."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "La ASPCA no tiene ficha de Sarracenia ni la incluye en sus listas de plantas para perros y gatos (comprobado). Solo clasifica como no tóxica para perros, gatos y caballos a Darlingtonia californica, de la misma familia (Sarraceniaceae), lo que sugiere bajo riesgo pero no permite afirmarlo para Sarracenia. No se ha encontrado ninguna fuente prioritaria para niños. Como con cualquier planta, si un niño o una mascota la come: en niños, Servicio de Información Toxicológica (91 562 04 20); en animales, veterinario. El agua de las jarras contiene insectos en descomposición y bacterias: evitar que mascotas o niños la beban.",
+    "confianza": "Baja",
+    "fuentes": [
+      "P15",
+      "P16"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Exterior todo el año: balcón o terraza orientados a sur, sureste o suroeste (RHS: sur u oeste), con al menos 6 h de sol directo en temporada de crecimiento. No se recomienda como planta de interior: la ICPS solo recomienda S. psittacina y S. rosea para cultivo bajo luz artificial todo el año, y Missouri Botanical Garden advierte que como planta de interior 'a menudo no crece bien' por su necesidad de sol y de reposo frío.",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol, 6 h o más de sol directo al día (NC State, Missouri Botanical Garden, RHS, ICPS, US Botanic Garden). En climas muy calurosos y secos la ICPS advierte que las jarras pueden quemarse y recomienda algo de sombra por la tarde. Aclimatar poco a poco una planta que viene de vivero cubierto o de interior.",
+      "notas": "Ninguna fuente prioritaria da lux para Sarracenia; lux_min = 10.760 lux es el umbral de 'directa' (>1.000 fc) de la escala del proyecto, coherente con el 'pleno sol, 6 h o más' de las fuentes. Sin límite superior útil (lux_max null). En sombra parcial el color no se desarrolla y las jarras se caen (Missouri Botanical Garden). Discrepancia: el perfil de la RHS para cultivo bajo cristal dice 'pleno sol con protección del sol fuerte' y su guía de carnívoras advierte que tras un cristal las hojas se queman; por eso la opción adoptada es exterior a pleno sol y, en verano en Madrid, sombra ligera por la tarde.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P8",
+        "P9",
+        "P11",
+        "P12",
+        "P4",
+        "P13"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego por bandeja: maceta de plástico con agujero siempre de pie en un plato o bandeja con agua pura en temporada (EXCEPCIÓN a la regla general de no dejar agua en el plato). El sustrato debe estar siempre mojado; nunca debe secarse (ICPS, Missouri Botanical Garden, NC State). Comprobar a diario que hay agua en el plato y, con el dedo, que la superficie está húmeda; una maceta que pesa poco indica que se ha secado. La corona (base de las jarras) no debe quedar sumergida de forma permanente (Missouri Botanical Garden). Mantener algo de agua dentro de las jarras: a S. purpurea le conviene (ICPS); la lluvia las rellena sola.",
+      "primavera_verano": "Plato con 2,5-5 cm de agua de forma continua (RHS: hasta 2,5 cm; ICPS: 4-6 cm para macetas adultas de 16-20 cm) y rellenar cada mañana; con calor, una Sarracenia adulta puede gastar alrededor de 1 litro de agua al día (ICPS). Si el plato se vacía en un día, usar uno más grande o una bandeja común. Si se acumulan sales, regar de vez en cuando por arriba con agua pura hasta que rebose para lavar el sustrato (ICPS).",
+      "otono_invierno": "En reposo, algo más seco: retirar el agua permanente del plato o dejar solo un fondo, regar por abajo y desechar el exceso (RHS), manteniendo el sustrato húmedo y nunca seco. A la intemperie, la lluvia y la nieve suelen bastar; comprobar el sustrato en rachas secas y con viento, porque la planta en reposo también muere si se seca o se 'liofiliza' con helada y viento (ICPS).",
+      "sensibilidad_exceso": "baja",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua sin minerales: de lluvia, destilada o de ósmosis inversa (nunca agua mineral embotellada; ICPS). Referencia de la ICPS para Sarracenia: agua del grifo válida solo si su total de sólidos disueltos (TDS) es menor de 100 ppm; con más, las hojas muestran quemadura por sales. El grifo de Madrid capital (≈45-55 ppm estimados en la Fase 4) cumpliría ese umbral, pero el sur metropolitano (≈100-125 ppm) no: comprobarlo SIEMPRE con un medidor TDS antes de usarlo. En la bandeja el agua se evapora y las sales se concentran, así que con agua de grifo conviene lavar el sustrato por arriba y vigilar el TDS. Dejar reposar el agua no sirve (Madrid usa cloramina) y filtrar con jarra no quita las sales. Ojo: hervir el agua tampoco quita las sales.",
+      "notas": "Contradicciones: (1) NC State, Missouri Botanical Garden y el US Botanic Garden piden lluvia o destilada y desaconsejan el grifo en general, mientras que la ICPS lo admite si TDS <100 ppm; opción conservadora: lluvia, destilada u ósmosis por defecto y grifo de Madrid capital solo si se comprueba con medidor. (2) La RHS admite 'agua del grifo hervida y enfriada' cambiando el sustrato cada 6 meses; hervir no elimina sales, así que no se adopta. (3) Profundidad del plato: RHS 2,5 cm, ICPS 4-6 cm, Missouri Botanical Garden 'la corona no debe estar en agua'; se adopta 2,5-5 cm sin cubrir nunca la corona. A diferencia de casi todas las plantas, aquí la causa nº 1 de muerte no es el exceso de agua sino la sequía, la sal y el abono.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P4",
+        "P9",
+        "P8",
+        "P11",
+        "P12",
+        "P13",
+        "P3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. El US Botanic Garden dice que casi todas las carnívoras requieren humedad alta, pero S. purpurea se cultiva a la intemperie y la ICPS solo advierte que con calor fuerte y humedad baja las jarras pueden quemarse. El sustrato mojado y la bandeja aportan humedad local; agrupar macetas en una bandeja común ayuda. Pulverizar no sube la humedad de forma útil. No necesita terrario y no se recomienda (sin sol ni reposo frío).",
+      "confianza": "Media",
+      "fuentes": [
+        "P13",
+        "P1",
+        "P9"
+      ]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Es una planta de exterior muy rústica: Missouri Botanical Garden USDA 3-8 (subsp. purpurea 3-7; subsp. venosa 6-8), NC State 4a-9b, RHS H6 (-20 a -15 °C, en suelo en el Reino Unido). min_c = -15 °C es el límite más alto (más conservador) de esas cifras, el de la RHS. En maceta las raíces están más expuestas: la ICPS indica que las plantas en maceta sobreviven unas semanas congeladas del todo si están en reposo completo y no se desecan, y que lo peligroso son las heladas tempranas o tardías con la planta aún activa; con heladas fuertes, juntar las macetas en el suelo, cubrir con manta térmica (tela de cultivo) y proteger del viento. Calor: la ICPS dice que prefiere veranos cálidos o calurosos y que con calor y aire seco las jarras se queman; ninguna fuente prioritaria da máximo ni rango ideal (max_c e ideal en null). Las macetas grandes y de color claro mantienen el sustrato más fresco (ICPS). El reposo invernal necesita frío real: si el invierno es demasiado cálido rebrota antes de tiempo (ICPS). Revisión del orquestador: min_c fijado en -5 °C para planta en maceta [orientativo, sin fuente prioritaria]: los -15 °C de RHS H6 son para cultivo en suelo; en maceta el rizoma se congela antes (mismo criterio que Origanum vulgare y Fatsia japonica). Proteger la maceta (agruparla, envolverla o resguardarla del viento) en olas de frío.",
+      "confianza": "Media",
+      "fuentes": [
+        "P11",
+        "P1",
+        "P9",
+        "P10",
+        "P8",
+        "P4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Turba rubia (de esfagno) SIN abono ni cal, mezclada 1:1 con arena de sílice o cuarzo gruesa y lavada, de grano de 1,5-2 mm (mezcla 'CP mix' de la ICPS). En la UE, la ICPS recomienda turba alemana sin aditivos y evitar marcas de fertilizantes, que pueden añadir abono o cal. Algunos clones de la subsp. purpurea van mejor en esfagno vivo (ICPS). Alternativa sin turba: la RHS obtuvo mejores resultados que con turba con mezclas sin turba basadas en esfagno de cultivo sostenible. NUNCA sustrato universal ni de macetas ni abono (Missouri Botanical Garden: 'pueden matar la planta'), ni tierra de jardín, ni arena de playa, de juegos, de construcción sin lavar ni de filtro de piscina (demasiado fina, compacta).",
+      "ph": "Ácido, <6,0 (NC State); ácido (RHS).",
+      "drenaje": "Maceta de plástico con agujero, ancha y alta (16-20 cm de diámetro para una planta adulta según la ICPS; en terraza, mejor macetas grandes y de color claro). El sustrato debe estar siempre húmedo pero esponjoso: la arena gruesa evita que se compacte y se asfixie.",
+      "notas": "Contradicción sobre la perlita: Missouri Botanical Garden admite 50 % turba y 50 % perlita o vermiculita, y la ICPS usa perlita en plantas de exterior lavadas por la lluvia, pero la propia ICPS advierte que en algunas zonas es difícil encontrar perlita sin sales, que la ha recibido 'mortal' para carnívoras sensibles y que hay que lavarla y usar solo la que flota. Opción conservadora: arena de sílice gruesa lavada; perlita solo lavada y en planta de exterior que recibe lluvia. Proporción: ICPS 1:1 turba:arena; US Botanic Garden 3:1 para carnívoras en general. La ICPS indica que S. purpurea crece mucho mejor en turba que en fibra de coco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P6",
+        "P9",
+        "P8",
+        "P11",
+        "P12",
+        "P13",
+        "P5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Ninguno en el sustrato de plantas adultas. Se alimenta sola de los insectos que caen en las jarras, a la intemperie caza de sobra.",
+      "npk": null,
+      "primavera_verano": "Planta adulta en exterior: no hace falta nada (NC State y Missouri Botanical Garden desaconsejan alimentarla a mano). Si no caza (p. ej. está bajo malla), la ICPS indica que el complejo S. purpurea agradece una papilla muy ligera de larvas de mosquito secas (alimento para peces) rehidratadas, echada dentro de alguna jarra con agua; en exceso quema las jarras. Plántulas y plantas jóvenes: la ICPS sí admite abonar el sustrato (ensayo con 4 bolitas de abono de liberación lenta rico en nitrógeno por maceta pequeña), pero solo para juveniles y con más trasplantes porque favorece musgo y hongos.",
+      "otono_invierno": "Nada durante el reposo.",
+      "notas": "No abonar nunca el sustrato de una planta adulta: el abono en contacto con las bases muertas de las hojas activa Rhizoctonia y Fusarium y provoca podredumbre del rizoma (ICPS); Missouri Botanical Garden: 'el sustrato de macetas y/o el abono pueden matar la planta'; RHS: no necesita abono. No dar carne. Contradicción: NC State y Missouri Botanical Garden dicen no alimentarla a mano, mientras la ICPS dice que le beneficia algo de alimento en las jarras; opción conservadora: no alimentar si está a la intemperie y solo la papilla ligera si no puede cazar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P5",
+        "P3",
+        "P9",
+        "P8",
+        "P12"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 3-4 años aproximadamente, aprovechando para dividir (ICPS: las plantas bien cultivadas necesitan división cada 3 o 4 años; cada 2-3 años en macetas grandes de terraza). Las plantas compradas vienen en sustrato específico y no necesitan trasplante durante al menos un año (RHS).",
+      "epoca": "Al final del reposo, justo antes de que empiece a brotar en primavera (ICPS: 'la mejor y única buena época'); en Madrid, finales de febrero o marzo. Fuera de esa época sobrevive pero tarda mucho más en recuperarse.",
+      "senales": "El rizoma ha llegado al borde de la maceta y empieza a crecer hacia abajo; las jarras del centro de la mata salen débiles porque los rizomas se montan unos sobre otros (las mejores jarras salen en el borde); sustrato compactado, salinizado o cubierto de musgo; costra blanca de sales.",
+      "notas": "Al trasplantar, quitar todas las hojas viejas marrones tirando de ellas (no solo cortarlas) y cortar las partes blandas o marrones del rizoma hasta tejido blanco y firme (ICPS). Usar sustrato nuevo; plantar el rizoma a la misma altura, regar y poner en la bandeja.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P1",
+        "P3",
+        "P12",
+        "P9"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza. En S. purpurea las jarras pueden durar hasta 2 años y solo deben retirarse cuando están marrones (ICPS): las jarras verdes siguen alimentando a la planta y la planta recupera nutrientes de las hojas viejas.",
+      "epoca": "Al empezar el crecimiento en primavera, retirar jarras secas y restos que puedan enganchar las varas florales y las jarras nuevas (ICPS). En invierno, en climas fríos, cortar solo lo muerto (Missouri Botanical Garden).",
+      "como": "Con tijera limpia, cortar solo la parte marrón o seca de cada jarra, sin tocar el tejido verde ni el rizoma (ICPS, Missouri Botanical Garden, RHS). Retirar la capa de hojas muertas de la base porque es un criadero de cochinilla algodonosa (ICPS). La vara floral seca se puede cortar; las flores no se autopolinizan y solo darán semilla si se polinizan a mano.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P2",
+        "P9",
+        "P11",
+        "P12",
+        "P7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: otoño-invierno, aproximadamente de noviembre a febrero-marzo [orientativo, sin fuente prioritaria para los meses]; las jarras mueren en parte al acercarse el invierno y las nuevas salen en primavera tras la flor (Missouri Botanical Garden). Hemisferio sur: aproximadamente de mayo a agosto.",
+      "cambios": "Necesita reposo invernal frío de varios meses (Missouri Botanical Garden: 'necesita frío en invierno para el reposo, por eso a menudo no crece bien como planta de interior'). Dejarla fuera, a la intemperie, con el frío y los días cortos naturales; sustrato algo más seco pero nunca seco (RHS: más seco, fresco y bien ventilado), sin alimentar. No meterla en casa con calefacción: si el lugar de invernada es demasiado cálido rebrota antes de tiempo y luego le cuesta la transición (ICPS). Si hace falta resguardarla, un lugar frío y luminoso sin calefacción (galería o terraza acristalada, garaje con luz) sirve; ahí, recortar algo las hojas viejas para que circule el aire (ICPS). Protegerla del viento helado (Missouri Botanical Garden).",
+      "notas": "Ninguna fuente prioritaria da la temperatura ni la duración del reposo de Sarracenia; para Dionaea (Fase 3), 2-10 °C durante al menos 10 semanas. La ICPS no recomienda S. purpurea para cultivo sin reposo bajo luz artificial (solo S. psittacina y S. rosea); las plántulas sí pueden crecer los 2 primeros años bajo luz sin reposo (ICPS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P9",
+        "P1",
+        "P11",
+        "P12",
+        "P7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división del rizoma",
+        "semilla"
+      ],
+      "epoca": "División: al final del reposo, justo antes de brotar (finales de febrero-marzo en Madrid). Semilla: tras estratificación en frío, en primavera.",
+      "pasos": "División (el método más fácil, Missouri Botanical Garden): sacar la planta, mover con las manos trozos de la mata adelante y atrás para encontrar las zonas débiles del rizoma viejo y separarlos; si no ceden, cortar con tijera de podar o cuchillo. Dejar al menos 3 puntos de crecimiento por división: con un solo punto la planta sufre 1-2 años (ICPS). Quitar las hojas viejas marrones y revisar que no haya zonas blandas ni plagas; plantar a la altura definitiva en mezcla nueva, regar, rellenar y poner en bandeja. Semilla: necesita estratificación en frío (NC State; en la práctica, semilla húmeda en frío durante varias semanas [orientativo, sin fuente prioritaria]); sembrar en superficie sobre turba:arena húmeda con luz. De la flor polinizada a la planta adulta hacen falta al menos 4 años (ICPS; Missouri Botanical Garden: no florece en los primeros 4-5 años). Las flores no se autopolinizan: hay que polinizar a mano con un pincel de cerda natural, mejor entre clones distintos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P7",
+        "P9",
+        "P8",
+        "P11"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal en otoño-invierno: las jarras viejas se ponen marrones desde la punta y mueren al acercarse el invierno; cada jarra vive hasta 2 años. Cortar solo lo marrón. Solo preocupa si mueren en primavera-verano (ver sequía, sales o podredumbre)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Quemadura por sales: bordes y puntas de las jarras marrones por regar con agua mineralizada (TDS >100 ppm), por abonar el sustrato o por sales concentradas en la bandeja. Cambiar a agua de lluvia, destilada u ósmosis y lavar el sustrato por arriba."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sustrato que se ha secado (plato vacío en verano o con viento seco en invierno): jarras arrugadas y acartonadas. Nunca dejar secar."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Jarras quemadas o blanqueadas con calor fuerte y aire seco (ICPS) o al pasar de golpe de vivero cubierto a pleno sol. Sombra ligera por la tarde en julio-agosto y aclimatación gradual."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de sol (interior o semisombra): jarras verdes, sin color púrpura, blandas y caídas (Missouri Botanical Garden). Pasarla a pleno sol exterior."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "En invierno, reposo normal. En temporada: poca luz, falta de reposo frío el invierno anterior (planta mantenida en interior con calefacción), mata que necesita división o sustrato agotado."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre del rizoma (Rhizoctonia, Fusarium) por abonar el sustrato de una planta adulta, por agua salina o por raíces quemadas; también por helada fuera de reposo. Cortar todo el tejido blando o marrón hasta lo blanco y firme y replantar en mezcla nueva; aislar la planta (ICPS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular (NC State, Missouri Botanical Garden), casi siempre ligada a sales, abono o sustrato compactado más que a exceso de agua."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Una jarra que se deshidrata de pronto y la planta entera muerta en 2-3 días: posible Cylindrocladium, hongo que se propaga por el agua y no tiene cura (ICPS). Aislar plantas nuevas 1-2 semanas antes de juntarlas con otras."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las bases de las hojas y en la capa de hojas muertas (ICPS, RHS, Missouri Botanical Garden). Retirar las hojas viejas de la base."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en jarras y rizoma (NC State, RHS, Missouri Botanical Garden). Retirar a mano."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en jarras nuevas y varas florales en primavera (NC State, RHS, Missouri Botanical Garden). Retirar a mano o con chorro de agua pura; no se ha documentado la tolerancia de Sarracenia a los insecticidas autorizados."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Orugas de polillas (tortrícidos según la RHS; 'larvas de polilla' según NC State y Missouri Botanical Garden) que perforan o roen las jarras. Retirar a mano y cortar la jarra dañada."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (NC State, Missouri Botanical Garden) en jarras viejas; retirar las partes afectadas cuando estén marrones y ventilar."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) en turba siempre mojada; sus larvas dañan raíces y hojas en contacto con el sustrato (ICPS)."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales por agua mineralizada o abono, o musgo y cianobacterias en turba sin lavar o abonada. Cambiar agua y sustrato."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Siempre fuera, en balcón o terraza a pleno sol de mañana y mediodía, pero con sombra ligera (o malla de sombreo suave) en las tardes de julio y agosto: con 35-40 °C y aire muy seco (HR ≈38 %) las jarras pueden quemarse (ICPS). Evitar suelos y paredes que acumulan calor y el sol de tarde tras cristal. El plato se vacía muy deprisa (una planta adulta puede gastar ≈1 L/día): revisarlo cada mañana y rellenar con agua de lluvia, destilada u ósmosis, o grifo de Madrid capital solo si un medidor confirma TDS <100 ppm. Maceta grande y de color claro para mantener las raíces frescas. Caza sola: no alimentar ni abonar.",
+    "invierno": "Reposo frío a la intemperie en el balcón o la terraza: el frío de Madrid (heladas nocturnas moderadas [orientativo, sin fuente prioritaria]) es bueno para ella y está muy por encima de su límite (-15 °C, RHS). No meterla en el salón con calefacción: sin frío ni sol se debilita y rebrota antes de tiempo. Retirar el agua permanente del plato o dejar solo un fondo y mantener el sustrato húmedo, sin que se seque con el viento seco de enero; en olas de frío fuerte o viento helado, juntar las macetas contra una pared, en el suelo, y cubrir con manta térmica. La HR interior <30 % y la calefacción no le afectan si está fuera, que es donde debe estar. Al final del invierno (finales de febrero-marzo), limpiar jarras muertas, dividir si toca y volver a llenar el plato.",
+    "ubicacion_recomendada": "Exterior todo el año: balcón o terraza orientados a sur, sureste o suroeste con 6 h o más de sol directo, protegidos del viento fuerte, con sombra ligera por la tarde en pleno verano. No es planta de interior: dentro de casa no recibe sol suficiente ni el reposo frío que necesita."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Sarracenia purpurea L. (Sarraceniaceae); sin cambio de nombre. Subespecies habituales: subsp. purpurea y subsp. venosa (con var. burkii, que muchos autores separan como S. rosea; la ICPS cita además la subsp. montana). No se ha revisado la lista completa de sinónimos e infrataxones en la ficha de taxón de POWO, solo el resultado de búsqueda de su API.",
+    "Toxicidad: la ASPCA no tiene ficha de Sarracenia (solo de Darlingtonia californica, misma familia, no tóxica) y no se ha encontrado ninguna otra fuente prioritaria para perros, gatos ni niños; se deja 'desconocida'. Gardeners' World (no abierto por muro de pago) y viveros afirman que no tiene toxicidad conocida.",
+    "Humedad: ninguna fuente prioritaria da porcentajes; min_pct e ideal_pct en null.",
+    "Temperatura: ninguna fuente prioritaria da máximo ni rango ideal de crecimiento; max_c, ideal_min_c e ideal_max_c en null. Tampoco se ha encontrado la temperatura mínima de supervivencia en maceta (la cifra de -15 °C de la RHS es para cultivo en el suelo en el Reino Unido).",
+    "Reposo: ninguna fuente prioritaria da la temperatura ni la duración mínima del reposo de Sarracenia; los meses de reposo son orientativos.",
+    "Agua: no se ha encontrado ninguna fuente sobre el efecto de la cloramina del grifo de Madrid en Sarracenia; el umbral de 100 ppm de la ICPS se toma de la Fase 4. La comunidad aficionada usa umbrales más estrictos (≈50 ppm) no verificados en fuentes prioritarias.",
+    "Semilla: la duración de la estratificación en frío no se ha verificado en fuentes prioritarias.",
+    "Fitosanitarios: no se ha encontrado ninguna fuente sobre la tolerancia de Sarracenia a los insecticidas de uso doméstico autorizados en el Registro del MAPA; se recomienda retirar las plagas a mano o con agua.",
+    "No se ha localizado ficha de S. purpurea en Penn State, Clemson, Univ. Minnesota, Wisconsin ni NYBG; tampoco en el Real Jardín Botánico de Madrid."
+  ],
+  "fuentes": [
+    {
+      "id": "P1",
+      "url": "https://www.carnivorousplants.org/grow/guides/Sarracenia",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Sarracenia (J. Brittnacher, 2013, act. 2019)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P2",
+      "url": "https://www.carnivorousplants.org/grow/propagation/SarraceniaDivisions",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Dividing Sarracenia Step-by-Step",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P3",
+      "url": "https://www.carnivorousplants.org/grow/pests/SarraceniaRhizomeRot",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Sarracenia Rhizome Rot (M. Wang y J. Brittnacher)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P4",
+      "url": "https://www.carnivorousplants.org/grow/environs/deck",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Display Sarracenia on your deck",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P5",
+      "url": "https://www.carnivorousplants.org/grow/feed/sarraceniasoil",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Sarracenia Soil Fertilization",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P6",
+      "url": "https://www.carnivorousplants.org/grow/SoilsWaterLight/CPmix",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Peat, Sand, Perlite (CP mix)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P7",
+      "url": "https://www.carnivorousplants.org/grow/propagation/SarraceniaSeed",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Sarracenia from Seed",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P8",
+      "url": "https://plants.ces.ncsu.edu/plants/sarracenia-purpurea/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox: Sarracenia purpurea",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P9",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286838",
+      "institucion": "Missouri Botanical Garden — Plant Finder: Sarracenia purpurea",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P10",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=291982",
+      "institucion": "Missouri Botanical Garden — Plant Finder: Sarracenia purpurea subsp. venosa",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P11",
+      "url": "https://www.rhs.org.uk/plants/16472/sarracenia-purpurea/details",
+      "institucion": "Royal Horticultural Society (RHS) — Plant profile: Sarracenia purpurea",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P12",
+      "url": "https://www.rhs.org.uk/plants/types/carnivorous/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — Carnivorous plants: growing guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P13",
+      "url": "https://www.usbg.gov/cultivating-carnivorous-plants",
+      "institucion": "United States Botanic Garden — Cultivating Carnivorous Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P14",
+      "url": "https://powo.science.kew.org/api/2/search?q=Sarracenia%20purpurea",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P15",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/california-pitcher-plant",
+      "institucion": "ASPCA Animal Poison Control — California Pitcher Plant (Darlingtonia californica, Sarraceniaceae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P16",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — listas de plantas para gatos y perros (sin entrada para Sarracenia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P17",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255103",
+      "institucion": "Missouri Botanical Garden — Plant Finder: Sarracenia purpurea subsp. purpurea",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

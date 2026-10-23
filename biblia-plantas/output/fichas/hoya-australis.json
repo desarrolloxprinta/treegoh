@@ -1,0 +1,342 @@
+{
+  "nombre_cientifico": "Hoya australis",
+  "nombres_comunes": [
+    "hoya australis",
+    "flor de cera australiana",
+    "hoya de Australia"
+  ],
+  "familia": "Apocynaceae (subfamilia Asclepiadoideae). POWO, RHS, NC State, PlantNET y ANPSA la sitúan en Apocynaceae; ASPCA aún usa Asclepiadaceae para el género, hoy integrada en Apocynaceae.",
+  "origen": "Nativa, según POWO (Kew), de Borneo, Célebes (Sulawesi), Nueva Guinea, Islas Salomón, Vanuatu, Fiyi, Samoa, Tonga, Wallis y Futuna y del norte y este de Australia (Australia Occidental, Territorio del Norte, Queensland y Nueva Gales del Sur). Introducida en Cuba, Puerto Rico, Islas de Sotavento y Sociedad. ANPSA la sitúa en selvas y bordes de selva desde el noreste de Nueva Gales del Sur hasta el noreste de Queensland y por el Top End hasta el norte de Australia Occidental.",
+  "clima_nativo": "Tropical a subtropical, en selvas, bordes de selva y selva seca de cordilleras subcosteras, a menudo trepando sobre rocas (PlantNET, ANPSA). En origen es una epífita o trepadora vigorosa (NC State). Sus hojas carnosas almacenan agua, con comportamiento de semisuculenta (NC State la etiqueta como suculenta y tolerante a suelos secos). ANPSA indica que en jardín soporta heladas ligeras; eso es cultivo exterior en Australia, no una pauta para interior.",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 2,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Opuestas (por parejas en cada nudo), simples, de margen entero, gruesas, carnosas y coriáceas. Forma ancha: elíptica ancha a ovada o casi circular, con el ápice redondeado y una puntita corta (apiculado). Tamaño en la flora de Nueva Gales del Sur: 3-6 cm de largo y 2-5 cm de ancho, con pecíolo grueso de 10-35 mm (PlantNET); ANPSA da unos 40-50 mm de diámetro. NC State da 3-6 pulgadas de largo, una cifra que no cuadra con las floras; ver lagunas. Haz liso o con pelos escasos y envés a menudo afelpado con pelos extendidos en la subespecie australis (PlantNET); NC State: lisas o afelpadas. Verde oscuro, brillantes según ANPSA, RHS y el Jardín Botánico de Sunshine Coast. Se oscurecen con poca luz y amarillean con exceso de luz (NC State). Al cortarlas sale látex blanco lechoso y pegajoso, abundante (PlantNET, ANPSA, Sunshine Coast).",
+    "nerviacion": "Pinnada, con el nervio central visible y los laterales poco marcados por el grosor de la lámina. Ninguna fuente abierta la describe en detalle.",
+    "variegacion": "La especie es verde. El cultivar 'Lisa' (NC State) tiene los brotes nuevos rosados y las hojas maduras moteadas de verde pálido y crema. NC State indica que algunos cultivares tienen marcas blancas o rojas en las hojas. Es una especie muy variable, con varias subespecies que difieren en hoja y flor (NC State: siete; ANPSA: cuatro o cinco).",
+    "tallo": "Volúble, trepador o rastrero, que se enrosca y se agarra (NC State). En la subespecie australis es pubescente (PlantNET). Sangra látex blanco al cortarlo. Rasgo clave: las flores salen de un pedúnculo o espolón que persiste y vuelve a florecer en temporadas sucesivas (NC State, ANPSA).",
+    "habito": "Trepadora o colgante perennifolia, epífita o trepadora sobre rocas en origen. En interior se cultiva en cesta colgante o guiada en aro, enrejado o tutor (NC State, RHS, Sunshine Coast). Flores en umbelas de 10-20 (Sunshine Coast), 12-30 (PlantNET) o hasta 40 flores (ANPSA). Cada flor mide 15-25 mm, es estrellada, cérea, blanca o blanco rosada con el centro rojo intenso, y es muy perfumada. Cuelga de pedicelos largos, de 15-25 mm (PlantNET, ANPSA, NC State, RHS). Época de floración muy variable según la fuente: finales de primavera a verano (ANPSA), primavera y verano (Sunshine Coast), finales de verano a otoño (RHS), otoño e invierno en la naturaleza de Nueva Gales del Sur (PlantNET). Florece antes que otras hoyas en interior (NC State, Iowa State). Frutos en folículos delgados de 10-15 cm con semillas plumosas (PlantNET, NC State).",
+    "tamano_adulto_interior": "RHS: 1-1,5 m de alto y 1-1,5 m de ancho en cultivo, con 2-5 años hasta la madurez. En la naturaleza, tallos de hasta 6 m (PlantNET). En maceta se mantiene según el soporte y la poda.",
+    "confusiones": [
+      {
+        "especie": "Hoya carnosa (flor de cera)",
+        "rasgo_diferenciador": "NC State la cita como la confusión más habitual. H. carnosa tiene hojas ovadas con la punta aguda, de 7,5-15 cm y lampiñas, a menudo con motas plateadas. H. australis tiene hojas más anchas y redondeadas, casi circulares, con el ápice redondeado y una puntita corta (3-6 cm según PlantNET) y a menudo con el envés afelpado. Flores: H. carnosa, blancas a rosa pálido con corona rojiza; H. australis, blancas con el centro rojo intenso y pedicelos más largos."
+      },
+      {
+        "especie": "Hoya obovata",
+        "rasgo_diferenciador": "También tiene hojas redondas y gruesas (Iowa State), pero más anchas hacia el ápice (obovadas) y a menudo con salpicado plateado o, en cultivares, variegación amarilla. Distinguir solo por la hoja es poco fiable; la flor y la forma de la hoja ayudan (rasgo general, sin fuente prioritaria específica)."
+      },
+      {
+        "especie": "Hoya kerrii (hoya corazón)",
+        "rasgo_diferenciador": "Hojas en forma de corazón, con muesca en el ápice, muy gruesas y espaciadas (Iowa State). H. australis tiene hojas redondeadas sin muesca."
+      },
+      {
+        "especie": "Hoya pubicalyx",
+        "rasgo_diferenciador": "Hojas más largas y lanceoladas, a menudo con motas plateadas, y flores de rosa oscuro a púrpura rojizo (Iowa State). H. australis tiene hojas redondeadas y flores blancas con centro rojo."
+      },
+      {
+        "especie": "Stephanotis floribunda (jazmín de Madagascar)",
+        "rasgo_diferenciador": "También es una Apocynaceae de flores blancas, céreas y perfumadas, pero sus flores son tubulares en trompeta, sin la corona central en estrella, y sus hojas son más finas y no carnosas (rasgo general, sin fuente prioritaria específica)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "toxica",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: NC State etiqueta la especie como no tóxica para perros, gatos y caballos. ASPCA no tiene ficha de H. australis: solo clasifica Hoya carnosa (incluido 'Krinkle Kurl') como no tóxica para perros y gatos. Si un animal come mucha hoja puede tener una molestia digestiva leve. AVISO: en Australia hay casos veterinarios de intoxicación neurológica en terneros que comieron la planta silvestre: descoordinación, temblores, rigidez, convulsiones y nistagmo. La toxina no está identificada y el pronóstico con cuidados es bueno (Flock and Herd, caso de un veterinario de distrito de Nueva Gales del Sur). Son ingestiones grandes en rumiantes, no en mascotas, pero no conviene dejar que perros o gatos la mordisqueen. Personas: el látex lechoso de las hoyas es tóxico y puede irritar la piel (RHS, guía del género): usar guantes al podar o esquejar. Ante ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F2",
+      "F9",
+      "F7",
+      "F10"
+    ],
+    "notas": "Perros y gatos: una sola fuente prioritaria trata la especie (NC State). ASPCA solo lista H. carnosa y no se extiende a H. australis por pertenecer al mismo género, así que la confianza se queda en Media. Hay tensión con los casos de neurotoxicidad en ganado bovino (fuente complementaria): se mantiene 'no_toxica' para perros y gatos porque no hay datos en esas especies, con aviso de no dejar que la mordisqueen. Niños: se elige la opción más conservadora, 'toxica' de bajo riesgo, por el látex irritante (RHS, género) y por la toxina sin identificar que afecta al ganado. Ninguna fuente identifica el principio activo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. Una ventana norte suele dar poca luz para que florezca.",
+      "tolera_sol_directo": "Parcialmente. Es la hoya que más sol aguanta de las comunes: RHS la clasifica como de pleno sol y orientación sur u oeste en cultivo protegido, y el Jardín Botánico de Sunshine Coast dice que florece mejor a pleno sol. Pero en interior RHS pide luz brillante filtrada. NC State indica que con exceso de luz las hojas amarillean, y la guía RHS del género avisa de que el sol fuerte de verano quema. Tolera sol suave de primera hora o de final de la tarde; el sol de mediodía de verano tras un cristal sur u oeste, no.",
+      "notas": "Fuentes: RHS (ficha de la especie: pleno sol en exterior o invernadero; en cultivo interior, luz brillante filtrada), NC State (luz brillante para florecer; con poca luz las hojas se oscurecen y con demasiada amarillean), ANPSA (florece mejor con buena luz, pero crece en sombra bastante densa) e Iowa State (género: la falta de luz es la causa principal de que no florezca). Se adopta lo más conservador para interior: luz brillante indirecta. El rango de lux viene de la escala del proyecto (500-1000 fc); ninguna fuente da cifras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego moderado de semisuculenta. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato. No volver a regar hasta que esté seco al menos el tercio o la mitad superior del sustrato: en macetas pequeñas, comprobar con el dedo a 2-3 cm; en medianas o grandes, a unos 5 cm. Confirmar con el peso: la maceta debe pesar claramente menos que recién regada. Nunca por calendario. Las hojas blandas o arrugadas indican sed (Iowa State); el sustrato húmedo con hojas amarillas indica exceso.",
+      "primavera_verano": "En crecimiento, regar con generosidad cada vez que se seque la parte superior del sustrato (RHS: 'regar libremente en la temporada de crecimiento'). Con calor y mucha luz el sustrato se seca antes y hay que regar más a menudo (Iowa State). Con botones, mantener un riego regular: los cambios bruscos hacen caer los botones (Iowa State, RHS género).",
+      "otono_invierno": "Mantener el sustrato apenas húmedo, sin dejar que se seque del todo durante semanas (RHS). No tolera el sustrato mojado (RHS), y el frío con humedad pudre las raíces (RHS género).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua a temperatura ambiente. El agua del grifo de Madrid es blanda y adecuada. Cada pocos meses, regar con agua sola en abundancia para lavar las sales del abono (RHS, guía del género).",
+      "notas": "RHS (ficha de la especie) pide regar libremente en crecimiento, mientras que NC State ('no regar en exceso'; tolera suelos secos y no los mojados) e Iowa State (género: dejar secar casi del todo entre riegos) piden secar entre riegos. Coinciden en que no tolera el encharcamiento. Se adopta lo más conservador: secado parcial entre riegos. El exceso de riego causa pudrición radicular (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "RHS (ficha de la especie): humedad moderada a alta. NC State la etiqueta como tolerante a la humedad. Iowa State (género): se adapta a la humedad normal de una casa, con un ideal del 40-60 %. Las cifras son del género, no de la especie. Con aire muy seco aumenta la araña roja (Iowa State). Por debajo del 40 %, sobre todo con calefacción, usar humidificador o agrupar plantas; pulverizar no sirve. RHS (guía del género) propone un plato con grava húmeda, con el agua por debajo de la grava.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Mínimo: RHS clasifica la especie como H1B, que en su escala equivale a un mínimo de 10-15 °C (cultivo bajo cristal en invierno, al aire libre solo en verano). Iowa State (género) pide no bajar de 13 °C (55 °F). Se adopta 15 °C, el límite alto de la franja H1B: criterio del proyecto para especies que la RHS clasifica H1B (revisión del orquestador; la ficha original daba 13 °C como Iowa State para el género). Es más alto que los 13 °C de H. carnosa porque RHS la da como más sensible al frío. NC State da las zonas USDA 10a-11b y ANPSA dice que aguanta heladas ligeras, pero eso es cultivo exterior en climas subtropicales y no se usa como mínimo para interior. Ideal: 16-24 °C (RHS, género) y 18-27 °C (Iowa State, género); se adopta la franja común, 18-24 °C, que no es una cifra específica de la especie. Una ligera bajada nocturna favorece la floración (Iowa State). Ninguna fuente da un máximo: se deja en null. Si sale a la terraza en verano, volver a meterla antes de que las noches bajen de 16 °C (RHS, género); NC State: meterla dentro cuando refresque.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F7",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla suelta, aireada y de drenaje rápido. RHS (ficha de la especie): sustrato con base de tierra franca sin turba, arena gruesa, corteza triturada y carbón vegetal. RHS (guía del género): partes iguales de corteza de orquídea, sustrato universal sin turba y perlita o grava gruesa. Iowa State: sustrato con corteza de orquídea y perlita o pómez. NC State pide un suelo rico en materia orgánica y bien drenado.",
+      "ph": "6,0-8,0 (NC State). RHS indica que tolera sustratos ácidos, neutros o alcalinos.",
+      "drenaje": "Imprescindible (ANPSA, Jardín Botánico de Sunshine Coast, NC State). No tolera el sustrato mojado (RHS). Usar maceta con agujeros y no demasiado grande.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F7",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, o de orquídeas (RHS lo prefiere sin urea).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (convención del proyecto, coherente con Iowa State: dosis de ½ o ¼).",
+      "otono_invierno": "Nada en reposo, de octubre a febrero (Iowa State: no abonar en invierno).",
+      "notas": "Ninguna fuente trata el abonado de H. australis en concreto; todo es del género. RHS (guía del género) es más generosa: abono de orquídeas cada dos semanas en primavera y verano, y mensual en otoño e invierno. Se adopta lo más prudente (convención del proyecto e Iowa State). No abonar en las 5-6 semanas tras un trasplante (RHS). Lavar las sales cada pocos meses con riego abundante de agua sola (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: cada varios años, solo cuando las raíces llenen la maceta. Le gusta estar apretada de raíces (NC State) y tolera bien la maceta pequeña (ANPSA). Conviene no molestar sus raíces (Jardín Botánico de Sunshine Coast).",
+      "epoca": "Primavera (RHS, guía del género), nunca con botones o flores.",
+      "senales": "Raíces que salen por los agujeros o rodean el cepellón, sustrato que se seca en muy poco tiempo o que se ha deshecho y no drena. Pasar a una maceta solo unos centímetros mayor (RHS, género; Iowa State: un solo tamaño más), con mezcla aireada y manipulando lo menos posible el cepellón.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5",
+        "F7",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Solo para aclarar tallos amontonados o débiles y contener el tamaño. Las hoyas no responden bien a la poda fuerte (RHS, guía del género).",
+      "epoca": "Final del invierno o principio de la primavera, hacia finales de febrero (RHS, guía del género).",
+      "como": "Cortar justo por encima de una hoja o de un brote lateral, con guantes, porque el látex irrita la piel (RHS, género). REGLA CLAVE: no cortar nunca los pedúnculos o espolones florales viejos ni quitar las flores pasadas. NC State indica que el pedúnculo no debe quitarse porque en él se forman las flores de los años siguientes, y ANPSA que florece en el mismo pedúnculo temporada tras temporada. Dejar que las flores marchitas caigan solas (Iowa State, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F7",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semirreposo invernal, aproximadamente de octubre a febrero en el hemisferio norte (RHS, guía del género). En el hemisferio sur, de abril a agosto.",
+      "cambios": "Más fresca, sin bajar de 15 °C, y más seca: el sustrato apenas húmedo (RHS, ficha de la especie). Sin abono (Iowa State). Mantener la luz brillante. Una ligera bajada nocturna ayuda a florecer después (Iowa State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo semileñoso (en agua, musgo esfagno o sustrato ligero)",
+        "acodo simple",
+        "semilla fresca"
+      ],
+      "epoca": "Primavera o principio del verano. Fuera de esa época el esqueje enraíza más despacio.",
+      "pasos": "Esqueje: 1) Con guantes, cortar un tramo de tallo semileñoso (RHS) con al menos 1-2 nudos y varias hojas (Iowa State). 2) Quitar las hojas del nudo inferior. 3) Enraizar en agua, en musgo esfagno húmedo o en una mezcla ligera para esquejes (Iowa State); en H. australis los esquejes enraízan con facilidad (ANPSA). 4) Con raíces de unos centímetros, plantar en mezcla aireada y regar con moderación. Una hoja sola, sin nudo, no forma planta (Iowa State). Acodo: es otro método válido para la especie (RHS). Semilla: se siembra fresca y sin pretratamiento (ANPSA, NC State), pero en interior rara vez forma fruto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, citada para la especie por RHS y NC State. Se esconde en las axilas, en los espolones florales y en el envés (Iowa State). Revisar a menudo y tratar con un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre tallos, nervios y espolones (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Hay que distinguir dos causas. Si hay insectos, es melaza de cochinilla, escama o pulgón (NC State, Iowa State). Si hay flores abiertas, puede ser néctar de las flores. Si no hay flores, buscar insectos."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en los brotes tiernos y los botones florales (NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire muy seco (NC State, Iowa State): calefacción en invierno y calor seco en verano en Madrid."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja en su fase inicial (Iowa State)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca de invernadero (RHS), sobre todo si pasa el verano en la terraza."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego (NC State), sustrato que no drena o maceta demasiado grande; el frío con humedad en invierno la agrava (RHS). Sacar esquejes sanos en cuanto se detecte."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas amarillas con el sustrato siempre húmedo: exceso de riego o mezcla que no drena (Iowa State). Es normal que alguna hoja vieja amarillee de vez en cuando."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas o blandas con el sustrato seco: falta de agua (Iowa State). Regar a fondo; recuperan la turgencia en pocos días."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de botones y de alguna hoja tras moverla o tras cambiar la luz, el riego o la temperatura (Iowa State, RHS género). No mover ni girar la planta cuando tenga botones."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallos largos y finos, hojas más oscuras (NC State) y floración escasa o nula (Iowa State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz o sol fuerte tras un cristal: las hojas amarillean (NC State) o se queman y enrojecen (Iowa State, RHS género)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla 1-2 m de las ventanas sur y oeste o tamizar la luz con una cortina fina: el sol de mediodía tras el cristal amarillea o quema las hojas, aunque esta hoya aguante más sol que H. carnosa. Una ventana este es ideal. Con el calor y el aire seco (HR exterior ≈38 %) el sustrato se seca antes: comprobar con el dedo y el peso cada pocos días, sin regar por calendario. Vigilar la araña roja. Si sale a la terraza, solo a una sombra luminosa y resguardada, acostumbrándola poco a poco, y meterla antes de que las noches bajen de 16 °C (RHS, género); en Madrid eso suele pasar entre finales de septiembre y principios de octubre. No moverla si tiene botones.",
+    "invierno": "Pasa el semirreposo con el sustrato apenas húmedo y sin abono. Alejarla de los radiadores, de las corrientes frías y del cristal frío por la noche: mínimo 15 °C de noche. Una ligera bajada nocturna favorece la floración siguiente (Iowa State). Con calefacción la humedad interior baja a menudo del 30 %: usar humidificador o agrupar plantas, sobre todo para frenar la araña roja. Pulverizar no sirve. Mantenerla junto a la ventana más luminosa, porque la luz de invierno es débil.",
+    "ubicacion_recomendada": "Cesta colgante, o aro y enrejado, junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. Elegir un sitio luminoso y estable donde no haya que moverla durante la floración, lejos de radiadores y del aire acondicionado, y fuera del alcance de mascotas que mordisqueen plantas."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) acepta Hoya australis R.Br. ex J.Traill (Apocynaceae). Sinónimos citados: Hoya oligotricha y H. oligotricha subsp. oligotricha (PlantNET), Hoya oligotricha subsp. tenuipes, H. rupicola y H. tsiangiana (NC State, 'antes conocida como'); RHS anota 'Hoya darwinii' como nombre mal aplicado. El número de subespecies difiere: siete (NC State) frente a cuatro o cinco (ANPSA). No se ha verificado en POWO la lista de subespecies aceptadas.",
+    "Fuentes de cultivo: solo RHS (ficha de la especie), NC State, ANPSA y el Jardín Botánico de Sunshine Coast tratan la especie en concreto, y las tres últimas con datos cualitativos. Las cifras de temperatura ideal, humedad, abonado y reposo vienen de guías del género (RHS e Iowa State).",
+    "Tamaño de hoja: NC State da 3-6 pulgadas (7,5-15 cm) de largo, mientras que PlantNET da 3-6 cm y ANPSA unos 40-50 mm. Probable confusión de unidades en NC State; se usan las cifras de las floras.",
+    "Época de floración: las fuentes no coinciden (ANPSA: finales de primavera a verano; Sunshine Coast: primavera y verano; RHS: finales de verano a otoño; PlantNET: otoño e invierno en la naturaleza de Nueva Gales del Sur). No hay dato para interior en Madrid.",
+    "Temperatura: RHS H1B equivale a un mínimo de 10-15 °C; se adopta 15 °C (límite alto, criterio del proyecto para H1B). Ninguna fuente da un máximo tolerable; max_c se deja en null.",
+    "Luz en lux o fc: ninguna fuente da cifras; lux_min y lux_max salen de la escala del proyecto para luz brillante indirecta.",
+    "Abono: ninguna fuente da proporción NPK; npk en null.",
+    "Toxicidad: ASPCA no tiene ficha de H. australis (solo de H. carnosa). Pet Poison Helpline no consultada con ficha específica. La neurotoxicidad en ganado bovino se documenta en un caso veterinario (fuente complementaria) con la toxina sin identificar; no se encontró una fuente prioritaria sobre toxicidad en animales de compañía o en personas específica de la especie.",
+    "Missouri Botanical Garden Plant Finder y las guías ANBG Growing Native Plants: no se encontró ficha de H. australis.",
+    "Confusiones con Hoya obovata y Stephanotis floribunda: rasgos generales, sin fuente prioritaria específica."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/8850/hoya-australis/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Hoya australis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-australis/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Hoya~australis",
+      "institucion": "Royal Botanic Garden Sydney – PlantNET, New South Wales Flora Online",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://anpsa.org.au/?p=8581",
+      "institucion": "Australian Native Plants Society (Australia) – ANPSA, perfil de Hoya australis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://botanic-garden.sunshinecoast.qld.gov.au/learn/vines/wax-flower-hoya-australis",
+      "institucion": "Maroochy Bushland Botanic Garden (Sunshine Coast Council, Queensland) – Wax Flower, Hoya australis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-hoyas",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden (guía del género, menciona H. australis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/hoya/how-to-grow",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo del género Hoya",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:98382-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+      "institucion": "ASPCA Animal Poison Control Center – Wax Plant (Hoya carnosa); no lista H. australis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://flockandherd.net.au/archive/transcribed/2000/reader/neurological-case.html",
+      "institucion": "Flock and Herd (NSW, casos veterinarios) – 'An Unusual Neurological Case', P. Kemsley, 2000",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

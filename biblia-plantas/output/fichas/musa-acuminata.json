@@ -1,0 +1,344 @@
+{
+  "nombre_cientifico": "Musa acuminata",
+  "nombres_comunes": [
+    "bananero enano",
+    "platanera de interior",
+    "banano enano",
+    "plátano enano",
+    "bananero 'Dwarf Cavendish'",
+    "dwarf banana / Chinese banana (inglés)"
+  ],
+  "familia": "Musaceae",
+  "origen": "POWO (Kew) la da como nativa de Asia tropical y subtropical: India, Sri Lanka, Bangladés, Myanmar, Tailandia, Laos, Vietnam, sur y sureste de China, Malasia peninsular, Sumatra, Java, Borneo, Célebes, Filipinas e islas menores de la Sonda; introducida en Canarias, España peninsular, Florida, Costa Rica, Ecuador, Turquía y numerosas islas del Pacífico. NC State resume 'Sureste asiático y Australia' en la descripción e 'India, Indonesia y Sureste asiático' en los atributos (pequeña discrepancia; prevalece POWO). Los plátanos de postre del grupo Cavendish ('Dwarf Cavendish', 'Grand Nain', 'Williams'...) son clones triploides AAA derivados de esta especie (UF/IFAS, RHS).",
+  "clima_nativo": "Tropical húmedo (bioma 'wet tropical' según POWO), con calor uniforme todo el año, lluvias abundantes y sin heladas. UF/IFAS: crece mejor con 26-28 °C, su crecimiento se frena por debajo de 16 °C y se detiene a 10 °C; necesita mucha agua (unos 100-150 mm al mes en cultivo al aire libre) y no tolera el encharcamiento. Zonas USDA 10a-11b (NC State).",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas enormes, simples, oblongas, en forma de pala o remo, de hasta 1,2 m de largo en 'Dwarf Cavendish' (RHS; en la especie silvestre y cultivares altos 1,8-3 m, NC State), lisas y sin pelos (NC State), verde medio a verde brillante por el haz y algo más claras o ligeramente glaucas por el envés, con ápice obtuso o truncado y base redondeada. Cada hoja consta de una vaina larga en forma de tubo, un pecíolo robusto acanalado y la lámina (UF/IFAS). Las hojas nuevas salen enrolladas como un cigarro desde el centro del pseudotallo y se despliegan. Rasgo muy característico para la IA: la lámina se rasga con facilidad en tiras transversales que van del nervio central al margen (aspecto 'deshilachado' o en flecos), sobre todo en hojas viejas o expuestas a corrientes; es una adaptación natural y no daña la planta (RHS). Las hojas inferiores envejecen, amarillean y se secan colgando a lo largo del pseudotallo.",
+    "nerviacion": "Penninervia paralela: un nervio central (raquis) muy grueso, prominente por el envés y acanalado por el haz, del que salen muy numerosos nervios secundarios finos, rectos y paralelos entre sí, casi perpendiculares al nervio central y que llegan al margen sin ramificarse visiblemente; los desgarros siguen siempre la dirección de estos nervios. [Descripción morfológica general del género; las fuentes prioritarias consultadas no detallan la nerviación.]",
+    "variegacion": "'Dwarf Cavendish' y los demás Cavendish son verdes; las hojas jóvenes pueden mostrar algunas manchas o salpicaduras pardo-rojizas que se pierden con la edad [orientativo, sin fuente prioritaria]. El cultivar 'Zebrina' (= M. acuminata 'Sumatrana', bananero enano ornamental de 1,5-1,8 m según NC State) tiene manchas granate muy marcadas en el haz y envés rojizo. Existen formas con variegación blanca o crema ('Ae Ae', 'Variegata'), de venta de coleccionista. La base de los pecíolos y del pseudotallo suele tener manchas oscuras pardo-negruzcas.",
+    "tallo": "No tiene tronco leñoso: lo que parece un tallo es un PSEUDOTALLO formado por las vainas de las hojas enrolladas y apretadas unas sobre otras (UF/IFAS, NC State), verde con manchas pardo-negruzcas, carnoso y lleno de agua. El tallo verdadero es un rizoma (cormo) subterráneo del que salen las raíces fibrosas, los pseudotallos y los hijuelos (UF/IFAS). Cada pseudotallo florece y fructifica una sola vez y después muere; la planta continúa a través de los hijuelos que brotan del rizoma (NC State, UF/IFAS). La inflorescencia, si aparece, sale del centro del pseudotallo, cuelga y lleva brácteas moradas con flores amarillentas, seguida de racimos ('manos') de plátanos (RHS, UF/IFAS).",
+    "habito": "Herbácea perenne gigante, acaule, de porte erguido en forma de penacho de hojas en la parte alta del pseudotallo; forma con el tiempo una mata de varios pseudotallos (planta 'macolladora' o con hijuelos, RHS). Crecimiento muy rápido en verano con calor, luz y agua.",
+    "tamano_adulto_interior": "'Dwarf Cavendish': RHS da 2,5-4 m de alto y 1,5-2,5 m de ancho como máximo (planta de unos 3 m con hojas de hasta 1,2 m) en invernadero o exterior; en maceta dentro de casa suele quedar bastante más baja, en torno a 1,5-2,5 m [orientativo, sin fuente prioritaria]. Los cultivares 'Super Dwarf Cavendish' y los vendidos como 'Musa Tropicana' son aún más compactos (aprox. 1-1,5 m) [orientativo, sin fuente prioritaria]. En cultivares altos de la especie, hasta 4-6 m (NC State) — no aptos para interior. Puede reducirse la altura cortando el pseudotallo a no menos de 60 cm de la base (RHS).",
+    "confusiones": [
+      {
+        "especie": "Musa basjoo (bananero japonés, resistente)",
+        "rasgo_diferenciador": "Hojas más estrechas, finas y de verde amarillento claro, pseudotallo verde sin manchas pardas y mucho más alto; aguanta frío y heladas ligeras en exterior (RHS: el bananero más rústico). Musa acuminata Cavendish tiene hojas más anchas, coriáceas, verde más oscuro y pseudotallo corto con manchas oscuras."
+      },
+      {
+        "especie": "Ensete ventricosum (falso plátano), incluido 'Maurelii'",
+        "rasgo_diferenciador": "No echa hijuelos (RHS: Ensete solo se propaga por semilla), pseudotallo muy grueso en la base y, en 'Maurelii', nervio central y pecíolos rojo vino. Musa acuminata echa hijuelos desde la base y tiene el nervio central verde (salvo 'Zebrina')."
+      },
+      {
+        "especie": "Strelitzia nicolai (ave del paraíso gigante) y Ravenala madagascariensis (árbol del viajero)",
+        "rasgo_diferenciador": "Las hojas salen dispuestas en un solo plano formando un abanico, con pecíolos muy largos y rígidos y tallos leñosos (Strelitzia nicolai) o tronco (Ravenala). En Musa las hojas salen en espiral desde el centro del pseudotallo, con pecíolo corto, y el 'tronco' es de vainas blandas."
+      },
+      {
+        "especie": "Strelitzia reginae (ave del paraíso)",
+        "rasgo_diferenciador": "Hojas mucho más pequeñas (lámina de 30-50 cm), gruesas, verde grisáceo, en abanico sobre pecíolos largos que salen del suelo y sin pseudotallo; flor naranja y azul en forma de pico."
+      },
+      {
+        "especie": "Heliconia spp. y Canna indica",
+        "rasgo_diferenciador": "Hojas parecidas pero mucho menores (Canna: 30-60 cm) y tallos verdaderos que terminan en flores vistosas rojas, naranjas o amarillas; no forman pseudotallo grueso de vainas ni racimos de plátanos."
+      },
+      {
+        "especie": "Musa acuminata 'Zebrina' y otros cultivares del mismo género",
+        "rasgo_diferenciador": "Misma especie: 'Zebrina' se distingue por las manchas granate del haz; los Cavendish son verdes. Los cuidados de esta ficha valen para ambos."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "ASPCA (ficha 'Edible Banana', Musa acuminata) y NC State la clasifican como NO tóxica para perros, gatos y caballos; no hay principio tóxico conocido. Como con cualquier hoja grande y fibrosa, la ingestión de cantidades importantes puede causar molestias digestivas leves y pasajeras (vómito, heces blandas) [orientativo, sin fuente prioritaria]. Niños: el fruto maduro de los Cavendish es el plátano comestible común (UF/IFAS lo trata como alimento), pero ninguna fuente prioritaria consultada evalúa la toxicidad para humanos de hojas, pseudotallo o savia, por lo que se deja como 'desconocida'; la savia mancha la ropa de forma persistente [orientativo, sin fuente prioritaria]. Atención: las plantas de vivero pueden llevar abono de liberación lenta o restos de fitosanitarios en el sustrato, que sí pueden ser peligrosos si mascotas o niños los ingieren.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F1"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur u oeste sin obstáculos, o junto a un ventanal/galería muy luminoso; la orientación este solo si da varias horas de sol. Norte: insuficiente. RHS admite exposición sur, este u oeste en lugar resguardado.",
+      "tolera_sol_directo": "Sí, lo necesita: NC State indica pleno sol (6 h o más de sol directo) y tolera semisombra de 2-6 h, sobre todo con sol filtrado en las horas centrales; UF/IFAS: moderadamente tolerante a la sombra (hasta un 50 %), pero la sombra retrasa el crecimiento y las plantas muy sombreadas se quedan raquíticas; RHS: pleno sol o semisombra. Aclimatar de forma gradual (1-2 semanas) si la planta viene de vivero o pasa al exterior, para evitar quemaduras.",
+      "notas": "Escala del proyecto: directa >1000 fc (>10 760 lux) es lo óptimo; 'lux_min' 5380 lux (500 fc, límite inferior de luz brillante indirecta) es el mínimo para mantenerla, con crecimiento lento y hojas más pequeñas; por debajo se etiola. No se fija 'lux_max' porque al aire libre soporta pleno sol tropical; en interior el límite práctico es el calor tras el cristal (UF/IFAS: a partir de 37 °C, quemaduras en la hoja). Un bananero de interior pierde hojas y se debilita con poca luz en invierno; si no hay ventana sur, conviene una lámpara de cultivo. Girar la maceta de vez en cuando para que no se incline.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Planta muy exigente en agua y a la vez muy sensible al encharcamiento (UF/IFAS: 'requieren gran cantidad de agua y son muy sensibles a la sequía', pero 'extremadamente sensibles al encharcamiento, suelos continuamente húmedos o mal drenados'). Comprobar con el dedo los 5 cm superficiales (es maceta grande) y el peso de la maceta: regar a fondo, hasta que salga agua por el drenaje, en cuanto esos 5 cm estén secos y la maceta pese claramente menos; vaciar el plato a los 15-20 min. Nunca regar por calendario. Señales de falta de agua: hojas que se pliegan por el nervio central, color verde pálido o amarillento y muerte prematura de hojas (UF/IFAS).",
+      "primavera_verano": "Riego abundante y frecuente con calor y crecimiento activo (RHS: regar con regularidad en primavera y verano, sobre todo con calor; NC State: no dejar que el sustrato se seque). Con 30-35 °C y sol, una maceta grande puede necesitar riego cada 2-4 días; comprobarlo siempre con el dedo y el peso. Que el cepellón no llegue a secarse del todo.",
+      "otono_invierno": "Reducir mucho: con menos luz y temperaturas de 15-20 °C el consumo cae. RHS (guía) indica dejar secar el compost entre riegos en invierno en interior, y la ficha RHS de 'Dwarf Cavendish' 'mantener apenas húmedo'. Criterio adoptado (conservador): regar cuando estén secos los 5 cm superiores y la maceta pese poco, con menos agua por riego, sin dejar que el cepellón se seque por completo. Por debajo de 15 °C, regar todavía menos.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid apta (blanda, 10-47 mg/L CaCO3; la cloramina no se elimina dejándola reposar, pero no daña a esta especie a dosis de red). Agua a temperatura ambiente, nunca fría. UF/IFAS: el banano no tolera la salinidad (síntomas: amarilleo y muerte de los márgenes de la hoja); en maceta, evitar la acumulación de sales del abono regando a fondo con drenaje libre y lavando el sustrato con abundante agua cada 2-3 meses en verano.",
+      "notas": "Pequeña discrepancia RHS: la guía de cultivo dice 'dejar secar el compost entre riegos' en invierno y la ficha de la planta 'mantener apenas húmedo'; se adopta la opción intermedia y conservadora (secar los 5 cm superiores, no el cepellón entero). La causa nº 1 de muerte en interior es el encharcamiento en invierno (RHS: muerte de la corona por pudrición en condiciones excesivamente húmedas, sobre todo en invierno).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. RHS atribuye los bordes marrones de la hoja a falta de agua o a humedad ambiental baja, y el aire seco favorece la araña roja (RHS la cita como plaga principal bajo cristal). El mínimo del 50 % procede de una fuente complementaria (Plantura); 'ideal_pct' sin dato fiable (null). Para subirla: humidificador o agrupar plantas; pulverizar las hojas no sirve de forma útil.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F7",
+        "F8"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 37,
+      "ideal_min_c": 26,
+      "ideal_max_c": 28,
+      "notas": "UF/IFAS: crecimiento óptimo de brotes a 26-28 °C (29-30 °C para el fruto); se frena por debajo de 16 °C y se detiene a 10 °C; entre 0 y 16 °C hay daños por frío (sobre todo en flor y fruto); a 0 °C o menos, daños irreversibles; por debajo de -2 °C muere la parte aérea (puede rebrotar del rizoma); a 37 °C o más, quemaduras en las hojas y hojas nuevas muy estrechas. RHS: rusticidad H1B (necesita un mínimo de 10-15 °C; solo puede salir al exterior en verano) y, para fructificar, más de 15 °C, idealmente 27 °C. Se adopta min_c = 15 °C (el valor más alto de RHS y prácticamente el umbral de 16 °C de UF/IFAS, que se refiere sobre todo a daño en flor y fruto): como planta de interior, mantenerla por encima de 15 °C; entre 10 y 15 °C sobrevive pero se para. max_c = 37 °C es el umbral de daño de UF/IFAS, no un valor deseable: en verano procurar que no supere 32-35 °C junto al cristal. Evitar corrientes frías y radiadores directos. Revisión del orquestador: min_c fijado en 16 °C, el umbral de daño por frío de UF/IFAS (más alto que RHS H1B).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de base de tierra (franco), fértil y rico en materia orgánica, sin turba si es posible: RHS recomienda compost tipo John Innes nº 3 sin turba con aproximadamente un 30 % de gravilla o arena gruesa para el drenaje. Alternativa práctica en España: 60-70 % de sustrato universal de calidad con compost o humus + 30-40 % de perlita/arlita o grava fina [proporciones de la alternativa: orientativo, sin fuente prioritaria]. Maceta grande y pesada (barro o cerámica) con agujeros de drenaje.",
+      "ph": "5.5-7.0 (UF/IFAS, para suelo); RHS admite ácido, neutro o alcalino.",
+      "drenaje": "Imprescindible. UF/IFAS: 'el factor más importante es el drenaje'; el agua estancada mata la planta rápidamente y el suelo continuamente húmedo provoca enanismo y amarilleo. Sin plato con agua, sin capa de agua estancada en el fondo del macetero.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido completo para plantas verdes con microelementos; en plantas grandes o para estimular floración, uno rico en potasio (RHS, UF/IFAS).",
+      "npk": "Equilibrado (RHS) o rico en potasio con relación aprox. 3-1-6 y 2-3 % de magnesio (UF/IFAS, para cultivo al aire libre).",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta (norma del proyecto), solo con crecimiento activo (aprox. abril-septiembre en Madrid), siempre sobre sustrato húmedo. RHS indica abono líquido equilibrado mensual (a dosis de etiqueta) y/o abono de liberación lenta mezclado en el sustrato al trasplantar. Es una planta muy glotona (UF/IFAS: necesita condiciones fértiles y mucha humedad): si a mitad de verano crece mucho y las hojas viejas palidecen, se puede subir a ½ dosis cada 3 semanas [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Nada. Sin abono desde octubre hasta que reanude el crecimiento en primavera (RHS: abonar solo plantas en crecimiento activo en primavera y verano).",
+      "notas": "Fuentes complementarias recomiendan abonar cada 2-3 semanas; se mantiene la pauta mensual a dosis reducida del proyecto por el riesgo de acumulación de sales (UF/IFAS: el banano no tolera la salinidad; síntoma: márgenes amarillos y secos). Lavar el sustrato con agua abundante cada 2-3 meses en temporada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada primavera o cada dos primaveras (RHS). Plantas jóvenes: subir 5-7,5 cm de diámetro de maceta cada vez; cuando la maceta llegue a 30 cm, subir 10-15 cm cada 2-3 años (RHS). Un ejemplar adulto necesita maceta de al menos 40-50 L [orientativo, sin fuente prioritaria]. Si no se puede trasplantar más, renovar los 5-10 cm superiores de sustrato en primavera.",
+      "epoca": "Primavera (marzo-mayo en Madrid), con temperaturas por encima de 15-18 °C; nunca en invierno.",
+      "senales": "Raíces saliendo por el drenaje o en espiral, sustrato que se seca en 1-2 días en verano, planta que se vuelca por el peso, crecimiento parado en plena temporada, o hijuelos que llenan la maceta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F7"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza. RHS (ficha): no requiere poda bajo cristal; se retiran las hojas muertas o muy rotas. El pseudotallo que ha fructificado muere y debe eliminarse (UF/IFAS, NC State).",
+      "epoca": "Hojas secas: en cualquier momento. Reducir altura o cortar el pseudotallo que fructificó: en temporada de crecimiento (RHS).",
+      "como": "1) Cortar las hojas secas o amarillas con cuchillo o tijera limpios, por la base del pecíolo (RHS). 2) Los desgarros de las hojas son normales y no exigen cortar la hoja mientras esté verde. 3) Si la planta es demasiado alta, se puede serrar el pseudotallo a cualquier altura que deje al menos 60 cm desde la base; brotan hojas nuevas desde el corte (RHS). 4) Tras la fructificación, cortar el pseudotallo agotado a ras de sustrato cuando empiece a decaer, dejando crecer los hijuelos (UF/IFAS: un pseudotallo produce fruto una sola vez). 5) En maceta, dejar como mucho un hijuelo vigoroso además del tallo principal y separar o eliminar el resto (UF/IFAS recomienda en suelo un pseudotallo fructificando, uno a media altura y un hijuelo pequeño por mata).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: aprox. noviembre-marzo (en Madrid, cuando bajan la luz y la temperatura). Hemisferio sur: aprox. mayo-septiembre. No es un reposo propio de la especie (es tropical y crece todo el año con calor), sino una parada forzada por frío y poca luz.",
+      "cambios": "UF/IFAS: el crecimiento se frena por debajo de 16 °C y se detiene a 10 °C. RHS: en invierno, lugar cálido y luminoso, riego escaso (apenas húmedo / dejar secar la superficie entre riegos) y sin abono. Es normal que pierda alguna hoja vieja y que las nuevas salgan más pequeñas. No trasplantar ni abonar. Alternativa RHS para plantas sin espacio: retirar las hojas y guardarla en reposo en un lugar oscuro, fresco y sin heladas con el sustrato casi seco (solo si no hay un sitio luminoso y cálido).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos (división)"
+      ],
+      "epoca": "Primavera (inicio de primavera según RHS), con calor; dividir las matas establecidas aprox. cada 5 años (RHS).",
+      "pasos": "1) Elegir un hijuelo 'de espada' (hojas estrechas, bien unido al rizoma) de al menos 30 cm, mejor con varias raíces propias; los hijuelos 'de agua', de hoja ancha y mal unidos, dan plantas más débiles (UF/IFAS). 2) Sacar la planta o retirar el sustrato de alrededor del hijuelo. 3) Cortar con un cuchillo limpio y afilado (o pala) la unión con el rizoma madre, llevando el máximo de raíces y un trozo de rizoma (RHS). 4) Quitar algunas hojas inferiores o viejas para reducir la transpiración (RHS). 5) Plantar en maceta de 20-25 cm con sustrato drenante, regar y mantener con calor (20-25 °C) y luz brillante sin sol fuerte hasta que arraigue [temperatura y tamaño de maceta: orientativo, sin fuente prioritaria]. Semilla: los Cavendish son triploides y prácticamente no producen semillas viables (UF/IFAS: la mayoría de cultivares dan fruto sin semillas); la siembra (RHS: 21-24 °C, semilla limada y remojada 24 h) solo sirve para formas silvestres fértiles.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "NORMAL en esta especie: las hojas se rasgan en tiras siguiendo los nervios por corrientes de aire, roce o al moverla; es una adaptación natural y no perjudica a la planta (RHS; UF/IFAS considera beneficioso un deshilachado leve). La app no debe presentarlo como enfermedad. Solo es problema si se acompaña de secado o manchas."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros), plaga principal en interior y bajo cristal (RHS, NC State), muy favorecida por el aire seco de la calefacción en invierno y por el calor seco del verano madrileño."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado por picaduras de araña roja, primer signo antes de ver telarañas; revisar el envés con lupa."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Márgenes marrones por falta de agua o humedad ambiental baja (RHS) y por acumulación de sales del abono (UF/IFAS: la salinidad amarillea y seca los márgenes)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas secas por riego irregular, aire muy seco con calefacción o sales acumuladas; no por el flúor o el cloro del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Las hojas inferiores amarillean y se secan de forma natural a medida que salen nuevas (normal si sale una hoja nueva por cada una que se pierde); si es rápido, falta de agua, falta de abono en verano o poca luz."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas plegadas por el nervio central: sequía (UF/IFAS) o exceso de sol y calor tras el cristal; es la defensa de la planta para perder menos agua."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato seco con calor (consume mucha agua) o, si el sustrato está mojado, por raíces podridas o frío."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general y planta raquítica por sustrato continuamente húmedo o mal drenado (UF/IFAS), muy habitual en invierno con riego de verano."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por encharcamiento o plato con agua, sobre todo en invierno con frío (UF/IFAS: el agua estancada mata la planta rápidamente)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Corona o base del pseudotallo blanda y oscura por frío combinado con exceso de agua en invierno (RHS: muerte de la corona por daño de frío o pudrición en condiciones muy húmedas)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en la lámina con 37 °C o más (UF/IFAS) junto a cristales al sol en verano, o por frío/corrientes por debajo de 10 °C."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas muy estrechas con calor extremo (≥37 °C, UF/IFAS) o más pequeñas por poca luz o frío en invierno."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Fotoblanqueo al pasar bruscamente de vivero o interior a sol directo sin aclimatación."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Pecíolos largos, hojas pálidas y planta que se inclina hacia la ventana por falta de luz (UF/IFAS: las plantas muy sombreadas se quedan raquíticas)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento por debajo de 16 °C y total a 10 °C (UF/IFAS), por poca luz o por maceta pequeña."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, citada por RHS y NC State en plantas de interior; se esconde entre las vainas y en la base de las hojas."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en la hoja que se está desplegando y en brotes tiernos (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en nervio central y pecíolos (NC State)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas viejas tras la compra o el traslado por cambio brusco de luz, temperatura y riego."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es la estación en que más crece. Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio) consume mucha agua: comprobar el sustrato a 5 cm y el peso cada 1-2 días y regar a fondo cuando haga falta, sin dejar agua en el plato. Agradece sol directo, pero tras un cristal sur u oeste puede pasar de 37 °C (UF/IFAS: quemaduras y hojas nuevas estrechas): retirarla 50-100 cm del cristal o tamizar con cortina fina en las horas centrales si el cristal quema al tacto. Puede salir a terraza o balcón de mediados de mayo a finales de septiembre, aclimatándola durante 1-2 semanas y en un rincón protegido del viento (el viento rasga las hojas y las deseca, UF/IFAS, RHS). Vigilar araña roja con el calor seco. Abono mensual a dosis reducida.",
+    "invierno": "Meterla antes de que las noches bajen de 12-15 °C (en Madrid, normalmente en octubre). Colocarla en la estancia más luminosa (ventana sur) y cálida, por encima de 15 °C, pero separada 20-30 cm del cristal frío por la noche y lejos de radiadores y corrientes de aire caliente. Con calefacción la HR interior cae a menudo por debajo del 30 %: usar humidificador o agrupar plantas, y revisar el envés cada semana por si aparece araña roja. Riego muy reducido (secar los 5 cm superiores), sin abono ni trasplante. Es normal que pierda alguna hoja vieja y crezca poco; si el piso está fresco (15-18 °C) aún más despacio.",
+    "ubicacion_recomendada": "Junto a ventana o balconera orientada al sur u oeste, o en una galería/terraza acristalada luminosa y templada, con espacio de 1,5-2 m de diámetro para las hojas y sin paso continuo de personas ni corrientes que rasguen las hojas. Fuera de la trayectoria directa del radiador o del aire acondicionado. En verano, terraza resguardada del viento."
+  },
+  "lagunas": [
+    "Nombre: la ficha usa 'Musa acuminata' (lista-maestra.csv). POWO (Kew) lo acepta como Musa acuminata Colla (Mem. Reale Accad. Sci. Torino, 1820); no hay cambio de nombre. Los bananeros enanos de interior son cultivares triploides del grupo Cavendish (AAA Group), p. ej. Musa acuminata 'Dwarf Cavendish' (AAA Group), con premio AGM de la RHS; RHS cita como sinónimos Musa cavendishii, Musa 'Chinese Cavendish' y Musa nana (nombre mal aplicado). No se revisó en POWO la lista completa de sinónimos heterotípicos (una fuente secundaria, BSI, cita Musa simiarum Kurz).",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes; min_pct = 50 % procede de una fuente complementaria (Plantura) e ideal_pct queda en null.",
+    "Toxicidad para niños/humanos de hojas, pseudotallo y savia: sin fuente prioritaria (solo consta que el fruto es comestible); se deja 'desconocida'.",
+    "Altura real de 'Dwarf Cavendish', 'Super Dwarf Cavendish' y 'Musa Tropicana' en maceta de interior: las fuentes prioritarias solo dan tamaños de invernadero/exterior (RHS 2,5-4 m); las cifras de interior son orientativas.",
+    "Volumen de maceta adecuado para un ejemplar adulto en interior: sin cifra en fuentes prioritarias (RHS solo da incrementos de diámetro).",
+    "Nerviación: no descrita en las fuentes prioritarias consultadas; se usa descripción morfológica general del género.",
+    "Lux concretos: las fuentes dan horas de sol (NC State: 6 h o más) y porcentaje de sombra tolerado (UF/IFAS: hasta 50 %), no lux; la traducción a lux usa la escala del proyecto.",
+    "No se encontró ficha específica de bananero como planta de interior en servicios de extensión (Minnesota, Wisconsin, Clemson, Missouri Botanical Garden Plant Finder no localizados); las pautas de interior se derivan de RHS (cultivo bajo cristal y en contenedor) y UF/IFAS (fisiología)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/musa-acuminata/",
+      "institucion": "NC State Extension — North Carolina Extension Gardener Plant Toolbox, Musa acuminata (banana)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ask.ifas.ufl.edu/publication/MG040/pdf",
+      "institucion": "UF/IFAS Extension (EDIS HS10/MG040) — Crane & Balerdi, Banana Growing in the Florida Home Landscape",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/56394/musa-acuminata-(aaa-group)-dwarf-cavendish-(f)/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Musa acuminata 'Dwarf Cavendish' (AAA Group) (F), AGM",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/banana/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow banana plants (Growing Guide)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/node/4859",
+      "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plants: Edible Banana (Musa acuminata)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:797527-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Musa acuminata Colla",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plantura.garden/uk/houseplants/banana-plant/musa-tropicana",
+      "institucion": "Plantura (blog especializado) — Musa Tropicana: indoor dwarf banana plant care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://houseplantcentral.com/musa-dwarf-cavendish/",
+      "institucion": "Houseplant Central (blog especializado) — Musa Dwarf Cavendish indoor care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

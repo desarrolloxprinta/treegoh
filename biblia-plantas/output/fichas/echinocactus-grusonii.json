@@ -1,0 +1,359 @@
+{
+  "nombre_cientifico": "Echinocactus grusonii",
+  "nombres_comunes": [
+    "asiento de suegra",
+    "cactus bola de oro",
+    "cojín de suegra",
+    "bola de oro"
+  ],
+  "familia": "Cactaceae",
+  "origen": "Endémico del centro-este de México. POWO (Kew) da como área nativa 'México (Zacatecas a San Luis Potosí)', región México Noreste; la evaluación de la UICN cita poblaciones en Querétaro y Zacatecas, y Wikipedia (basada en la UICN) añade Hidalgo (zona de la presa de Zimapán y Mesa de León). Nombre aceptado en POWO: Kroenleinia grusonii (Hildm.) Lodé (2014); Echinocactus grusonii Hildm. es su basiónimo y sinónimo. NC State Extension también lo llama ya Kroenleinia grusonii; RHS mantiene Echinocactus grusonii como nombre correcto. Conservación: UICN lo clasifica 'En peligro' (EN, criterio B1ab(v), evaluación publicada en 2013); el Arboreto de la Univ. de Arizona indica que sigue en peligro en la naturaleza por el expolio de ejemplares adultos y aconseja comprar solo a viveros de reproducción legal. Como todas las cactáceas, su comercio internacional está regulado por CITES [orientativo, sin fuente prioritaria consultada].",
+  "clima_nativo": "Desierto y matorral seco (POWO: 'desert or dry shrubland'; UICN: matorral) del altiplano mexicano, en laderas soleadas y bien drenadas, hasta unos 1400 m de altitud (Wikipedia, citando a la UICN); el Arboreto de la Univ. de Arizona lo sitúa en el desierto chihuahuense. Clima semiárido con lluvias de verano e inviernos secos y frescos. En cultivo: RHS lo clasifica H1C (solo al exterior en verano; mínimas de 5-10 °C en Reino Unido) y lo cultiva bajo cristal; la Univ. de Arizona lo da como rústico hasta -6,7 °C (20 °F, USDA 9a-11) plantado en el exterior de Tucson; NC State, USDA 10a-11b; Oklahoma State, USDA 8.",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Sin hojas: la fotosíntesis la hace el tallo. Areolas amarillas y lanosas en la planta joven, que pasan a blanquecinas y luego grisáceas (Wikipedia); en la parte alta (ápice) se forma un fieltro lanoso amarillento. Espinas muy visibles, rígidas, de color amarillo dorado (Univ. Arizona, Oklahoma State), a veces blancas o beige: 8-10 radiales de más de 3 cm y 3-5 centrales de unos 5 cm, rectas o algo curvadas hacia abajo (Wikipedia); Oklahoma State describe 8-10 espinas amarillo dorado agrupadas en cada areola. Las espinas cubren casi toda la superficie y le dan el aspecto de 'bola de oro'.",
+    "nerviacion": "No aplica (cactus sin hojas). En su lugar, costillas longitudinales muy marcadas y rectas: 21-37 en ejemplares maduros (Univ. Arizona), más de 20 (Oklahoma State), 21-35 (Wikipedia). En plantas jóvenes las costillas apenas se ven y la superficie parece formada por tubérculos (Wikipedia).",
+    "variegacion": "La especie no es variegada; tallo verde claro (Univ. Arizona). En el comercio existen formas de espina blanca ('Albispinus'), de espina corta o casi sin espinas ('Brevispinus', 'Inermis'), formas crestadas y selecciones de tallo azulado (Wikipedia, complementaria). Las bolas con espinas de colores fuertes (rojo, azul, rosa) suelen estar teñidas artificialmente [orientativo, sin fuente prioritaria].",
+    "tallo": "Tallo único globoso (esférico), verde claro, que con la edad se alarga algo hacia forma de barril (Univ. Arizona, NC State, Oklahoma State). Habitualmente solitario; los ejemplares adultos pueden echar hijuelos basales y formar grupos (Wikipedia). Con poca luz pierde la forma compacta y se alarga hacia la luz (NYBG). Las quemaduras solares dejan cicatrices amarillo pajizo permanentes en la cara expuesta (Univ. Arizona Extension).",
+    "habito": "Cactus globular, de crecimiento lento: rápido al principio y luego más lento (NYBG); 10-20 años hasta la madurez (RHS). Flores amarillas en corona alrededor del ápice en verano, de 4-6 cm, solo en ejemplares viejos (Wikipedia); en interior florece rara vez salvo que pase los meses cálidos al exterior (NYBG). Frutos pequeños cubiertos de lana blanca (Wikipedia).",
+    "tamano_adulto_interior": "En maceta, unos 28 cm (11 pulgadas) de diámetro tras unos 15 años (NYBG). RHS da 0,1-0,5 m de alto y 0,5-1 m de anchura máxima; Univ. Arizona, hasta 90 cm (3 ft) de alto en el exterior; Oklahoma State, 60 cm de alto por 75 cm de diámetro. En la naturaleza puede superar 1 m de altura tras muchos años (Wikipedia).",
+    "confusiones": [
+      {
+        "especie": "Parodia leninghausii (sin. Notocactus leninghausii), también llamado 'bola de oro'",
+        "rasgo_diferenciador": "Comparte nombre común (Wikipedia), pero sus espinas son finas, flexibles, como pelos dorados, y no pinchan como las de E. grusonii; su tallo se alarga pronto en columna corta y forma grupos, con el ápice inclinado. E. grusonii tiene espinas gruesas, rígidas y punzantes."
+      },
+      {
+        "especie": "Ferocactus spp. (p. ej. Ferocactus glaucescens, F. pilosus, F. emoryi)",
+        "rasgo_diferenciador": "Otros 'cactus barril' (Wikipedia). Suelen tener menos costillas (habitualmente menos de 20) y espinas centrales más gruesas, a veces aplanadas o ganchudas y de color rojizo o amarillo pálido, con piel más glauca (azulada) [orientativo, sin fuente prioritaria]. E. grusonii adulto se reconoce por las más de 20 costillas regulares y el manto uniforme de espinas amarillo dorado."
+      },
+      {
+        "especie": "Echinocactus platyacanthus y E. horizonthalonius",
+        "rasgo_diferenciador": "Del mismo grupo. E. platyacanthus es gris verdoso, con espinas grises o pardas y lana amarilla densa en un ápice ancho; E. horizonthalonius tiene pocas costillas (unas 8) y espinas grises curvadas [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Plántulas de Mammillaria con espinas amarillas",
+        "rasgo_diferenciador": "Las Mammillaria tienen tubérculos dispuestos en espiral y no costillas; en ejemplares muy jóvenes de E. grusonii la superficie también es tuberculada (Wikipedia), por lo que en plantas de menos de 5 cm la identificación por foto es menos fiable; la app debe pedir otra foto cuando crezca o el diámetro."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Sin datos de toxicidad química en fuentes prioritarias. El riesgo verificado es mecánico: espinas rígidas de 3-5 cm (Wikipedia) que se clavan en la piel, la boca o las patas; NC State señala las espinas como único problema del género. Gardeners' World (complementaria) indica que no hay efectos tóxicos registrados, pero no cita evidencia veterinaria.",
+    "confianza": "Baja",
+    "fuentes": [
+      "F11",
+      "F7",
+      "F12",
+      "F13"
+    ],
+    "notas": "ASPCA no tiene ficha de Echinocactus grusonii ni de Kroenleinia grusonii (listas de perros y gatos revisadas el 2026-10-21; solo recoge como no tóxicos otros cactus, como Echinopsis multiplex, Cephalocereus senilis o Mammillaria fragilis). NC State (página del género) y RHS no dan datos de toxicidad. Solo una fuente complementaria la declara sin toxicidad conocida: no se presenta como 'no tóxica'. Recomendación prudente: fuera del alcance de niños pequeños y mascotas por las espinas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana orientada al sur u oeste (RHS: aspecto sur u oeste), la más soleada de la casa. Este solo si recibe varias horas de sol directo. Norte: insuficiente. Girar la maceta cada pocas semanas para que crezca simétrico.",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol (RHS, Univ. Arizona, Oklahoma State); NC State: pleno sol de 6 h o más de sol directo al día, aunque tolera semisombra (2-6 h). NYBG: luz fuerte y directa todo el año o pierde su forma compacta. Riesgo: es muy sensible a la quemadura solar si pasa de golpe de vivero o interior a sol pleno (Univ. Arizona Extension: los cactus barril son muy susceptibles; la epidermis se vuelve amarillo pajizo y queda marcada para siempre). Aclimatar en varias semanas, mantener la misma cara hacia el sol que tenía en el vivero y usar malla de sombreo del 30 % los primeros días (Univ. Arizona Extension).",
+      "notas": "Escala del proyecto: luz directa >1000 fc (>10760 lux); lux_min fijado en el umbral inferior de esa categoría porque todas las fuentes piden pleno sol. Ninguna fuente fija techo (lux_max = null); el límite práctico es la quemadura por cambio brusco de exposición. Con luz insuficiente se alarga y pierde la forma de bola (NYBG; RHS guía: plantas débiles y deformes). Si falta luz natural, tubos fluorescentes o LED a 15-30 cm, 14-16 h al día (Univ. Minnesota), aunque para un cactus de pleno sol es solo un paliativo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté completamente seco (Univ. Minnesota; Univ. Arizona: dejar secar a fondo entre riegos): comprobar con el dedo a 5 cm (convención del proyecto para suculentas y macetas grandes) y por el peso de la maceta, que debe estar ligera. Riego a fondo hasta que salga agua por el drenaje y tirar el sobrante del plato a los pocos minutos (Univ. Minnesota). Mojar el sustrato, no el cuerpo de la planta: el agua sobre el tallo puede dejar quemaduras o cicatrices (Univ. Arizona). Nunca dejarlo encharcado (RHS guía).",
+      "primavera_verano": "Riego moderado durante el crecimiento (RHS ficha); NYBG pide humedad regular en verano. La Univ. de Arizona habla de aproximadamente un riego al mes en exterior, y la guía RHS de cactus, de regar a fondo cuando se seque la superficie: la frecuencia real depende del sol, el calor y el tamaño de la maceta, así que se decide siempre por sustrato seco y peso. En verano al exterior en Madrid puede necesitar riego cada 1-2 semanas [orientativo, sin fuente prioritaria]; revisar a menudo (Univ. Minnesota: al exterior necesitan más agua).",
+      "otono_invierno": "Nada de agua en reposo (RHS ficha: no regar cuando está en reposo en otoño e invierno; NYBG: suspender el riego en invierno). Univ. Minnesota y la guía RHS permiten solo lo justo para que no se arrugue; la Univ. de Arizona, muy poco. Se adopta lo más seco: sin riego con noches de 8-10 °C y, si el tallo se arruga mucho o está en una habitación caldeada, un riego ligero en un día templado.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo de Madrid apta: blanda (10-47 mg/L CaCO3); dejarla reposar no elimina la cloramina, pero no es necesario. Usar agua a temperatura ambiente. En zonas de agua dura, preferir agua de lluvia para evitar acumulación de cal [orientativo, sin fuente prioritaria].",
+      "notas": "El exceso de riego es la causa principal de muerte: favorece la podredumbre interna por Pythium, a la que el asiento de suegra es especialmente propenso (Univ. Arizona Extension), y la pudrición de raíz (NC State; Univ. Minnesota: el agua retenida pudre las raíces en muy poco tiempo). Contradicción menor entre fuentes prioritarias: NYBG pide humedad constante en verano y la Univ. de Arizona un riego al mes; se adopta el criterio común y prudente de dejar secar del todo entre riegos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": 10,
+      "ideal_pct": null,
+      "notas": "Los cactus se adaptan bien a la humedad baja de las viviendas, del 10 al 30 % (Univ. Minnesota), y toleran la calefacción central si no están junto a un radiador (RHS guía). RHS (ficha de la especie) advierte que puede mancharse la superficie si el aire es demasiado húmedo; la guía RHS añade que el exceso de humedad con mucha luz causa sarna corchosa. No pulverizar ni usar humidificador; buena ventilación, sobre todo en verano (RHS guía). Sin valor ideal verificado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": null,
+      "ideal_min_c": 8,
+      "ideal_max_c": null,
+      "notas": "Mínima adoptada 7 °C (convención del proyecto para cactus del desierto: nunca por debajo de 5-7 °C; se toma el extremo prudente). Fuentes: RHS H1C (mínimas de 5-10 °C; solo al exterior en verano, cultivo bajo cristal); NYBG: reposo invernal entre 4 y 10 °C (40-50 °F); guía RHS de cactus: noches de 8-10 °C en reposo. Wikipedia (complementaria) da una mínima media invernal de 12 °C. Contradicción: la Univ. de Arizona lo da como rústico hasta -6,7 °C (20 °F), NC State USDA 10a (≈ -1 °C) y Oklahoma State USDA 8 (≈ -12 °C); son datos de plantas en suelo seco al aire libre en climas desérticos o de rusticidad general, no de maceta con sustrato húmedo, y se descartan por menos conservadores. El frío excesivo causa muerte regresiva y manchas descoloridas (RHS guía); la helada ennegrece los tejidos expuestos y el daño no se recupera (Univ. Arizona Extension). Ideal: reposo invernal fresco con noches de 8-10 °C; en crecimiento, calor de vivienda o terraza. Ninguna fuente prioritaria fija máxima: soporta bien el calor si tiene ventilación y está aclimatado al sol (max_c = null).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato sin turba a base de mantillo franco (tipo John Innes) con grava extra (RHS ficha), o mezcla de 2 partes de John Innes nº 2 sin turba + 1 parte de grava hortícola o arena gruesa, con capa superficial de grava (RHS guía); alternativa: 1 parte de sustrato universal + 1 parte de arena gruesa (Univ. Minnesota); NC State: mezcla para cactus con arena gruesa o perlita. Suelos francos o arenosos muy bien drenados (RHS, Oklahoma State). La grava superficial mantiene seca la base del tallo.",
+      "ph": "Ácido, neutro o alcalino (RHS ficha); sin rango numérico verificado",
+      "drenaje": "Muy rápido e imprescindible (RHS, Oklahoma State: muy bien drenado). Maceta con agujeros de drenaje (Univ. Minnesota) y sin agua en el plato. Al plantar, no enterrar la base del barril: las raíces firmes en el sustrato, pero sin tierra alrededor del cuello, y sin herir la parte carnosa, para evitar la podredumbre por Pythium (Univ. Arizona Extension). Evitar macetas demasiado grandes, que retienen humedad (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (RHS ficha) o abono rico en potasio tipo tomate o específico para cactus (NYBG, RHS guía).",
+      "npk": null,
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de etiqueta, una vez al mes como máximo, solo con crecimiento activo (aprox. abril-septiembre). Las fuentes van de 1-2 veces al año (Univ. Minnesota) y 2-3 veces por temporada (RHS ficha) a mensual (NYBG, RHS guía); para esta especie se recomienda la pauta prudente de 2-3 abonados por temporada a dosis reducida (RHS ficha).",
+      "otono_invierno": "Nada durante el reposo (octubre/noviembre-marzo).",
+      "notas": "Contradicción de frecuencia entre fuentes prioritarias; se adopta la de la ficha RHS de la especie (2-3 veces por temporada), más conservadora que la mensual. No abonar plantas recién trasplantadas o con raíz dañada [orientativo, sin fuente prioritaria]. Ninguna fuente da un NPK concreto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces llenen la maceta (RHS guía); por su crecimiento lento, en la práctica cada 2-4 años en ejemplares jóvenes y menos aún en adultos [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (RHS guía).",
+      "senales": "Raíces saliendo por los agujeros de drenaje, barril que ocupa casi todo el diámetro de la maceta o sustrato degradado que ya no drena. Subir solo un tamaño (RHS guía). Manipular con una tira de papel de periódico doblado o con guantes gruesos (RHS guía), sin herir el tallo, y dejar el cuello a la misma altura, sin enterrarlo (Univ. Arizona Extension). Tras trasplantar, esperar unos días antes de regar para que cicatricen las raíces dañadas [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS ficha).",
+      "epoca": "Solo cirugía sanitaria si aparece podredumbre, en cuanto se detecte.",
+      "como": "Si hay una zona blanda o con podredumbre, el pronóstico es malo: la podredumbre por Pythium es interna y cuando se ve suele ser tarde para tratarla; hay que retirar las plantas afectadas para que no contagien a otras (Univ. Arizona Extension). En una lesión pequeña y superficial se puede cortar con cuchillo limpio hasta tejido sano y firme, dejar secar el corte en lugar seco y luminoso y no regar hasta que cicatrice [orientativo, sin fuente prioritaria]. Al ser un tallo único globoso, no se puede reenraizar la parte alta como en los cactus columnares.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: aproximadamente de noviembre a principios de marzo (RHS guía). Hemisferio sur: de mayo a principios de septiembre (desplazamiento de 6 meses).",
+      "cambios": "Lugar fresco y muy luminoso, con noches de 8-10 °C (RHS guía; NYBG: 4-10 °C) y nunca por debajo de 7 °C (convención del proyecto). Sin riego o casi (RHS ficha: nada de agua en reposo; NYBG: suspender el riego). Sin abono. Lejos de radiadores (RHS guía). Sin este reposo fresco y con luz directa pierde su forma compacta (NYBG); el reposo favorece la floración (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "hijuelos"
+      ],
+      "epoca": "Semilla en primavera (RHS guía); hijuelos, en primavera-verano cuando tengan raíz propia [orientativo, sin fuente prioritaria].",
+      "pasos": "Semilla (método indicado por RHS para la especie): 1) sembrar en primavera en John Innes nº 1 sin turba con grava o arena gruesa añadida (RHS guía); 2) cubrir las semillas grandes con una capa fina de grava; las pequeñas, sin cubrir; 3) mantener a unos 21 °C con luz brillante sin sol directo, bajo vidrio o plástico, ventilando a diario (RHS guía); 4) sustrato húmedo pero no mojado; 5) las plántulas pueden tardar hasta 12 meses en estar listas para repicar (RHS guía), y la planta crece despacio. Hijuelos: solo en ejemplares adultos que los produzcan (Wikipedia); separarlos cuando tengan raíces propias (RHS guía), dejar secar la herida de un día a una semana y plantarlos en 2 partes de John Innes nº 1 + 1 parte de grava, apenas húmedo (RHS guía).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ],
+      "notas": " Revisión del orquestador: confianza bajada de Alta a Media porque las dos fuentes prioritarias citadas son páginas de la misma institución (RHS), no fuentes independientes."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre interna blanda de la base o del cuello por Pythium, hongo del suelo favorecido por la humedad; el asiento de suegra es de los cactus más afectados (Univ. Arizona Extension). Causas: exceso de riego, sustrato que no drena, planta enterrada demasiado o herida al trasplantar y luego regada. Como es interna, cuando se ve suele ser tarde; la prevención es plantar sin enterrar el cuello y regar solo con sustrato seco."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo o pérdida del verde de todo el barril, a menudo con la base blanda: suele ser la fase inicial de podredumbre por exceso de riego (Univ. Arizona Extension; NC State: el exceso de riego causa pudrición de raíz). Revisar raíces y base antes de volver a regar."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Raíces podridas por riegos frecuentes, agua en el plato, maceta demasiado grande o sustrato sin arena ni grava (NC State, Univ. Minnesota, RHS guía), sobre todo en invierno con frío."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura solar: la cara expuesta amarillea y la epidermis se vuelve amarillo pajizo y muere, con cicatriz permanente; muy frecuente en cactus barril recién comprados o sacados de golpe al sol (Univ. Arizona Extension, que lo ilustra con esta especie). Aclimatar en varias semanas y mantener la orientación de origen."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Pierde la forma de bola y se alarga hacia la ventana, con espinas más finas y color pálido, por falta de luz directa o por crecer en invierno en habitación caldeada (NYBG, RHS guía). La deformación no se corrige; solo se evita que siga."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las costillas, en el ápice lanoso y en las raíces (RHS ficha, NC State). Retirar con un pincel o bastoncillo y, si persiste, usar un insecticida listo para usar de uso no profesional inscrito en el Registro del MAPA. Ojo: no confundir con la lana amarilla natural del ápice."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre el tallo (NC State, RHS guía)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire cálido y muy seco (RHS guía la cita entre las plagas de cactus): punteado amarillento-pardo en la epidermis y telilla fina entre las espinas."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas pardas secas o costrosas en la epidermis: sarna corchosa por exceso de humedad o de luz brusca (RHS guía; RHS ficha: puede marcarse si el aire es muy húmedo), gotas de agua sobre el tallo al sol (Univ. Arizona) o daño por frío (RHS guía, Univ. Arizona Extension)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Barril arrugado o con costillas muy hundidas por falta de agua prolongada en época de crecimiento (RHS guía) o, paradójicamente, por raíces podridas que ya no absorben: revisar la base y las raíces antes de regar. Un leve hundimiento en el reposo invernal es normal."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento parado por exceso o falta de riego (RHS guía), poca luz o maceta agotada. Ojo: es una especie de crecimiento lento (NYBG, RHS) y en invierno la parada es normal."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire seco lo lleva bien si está aclimatado: puede pasar de mayo a septiembre en terraza o balcón soleado y resguardado (RHS: H1C, al exterior en verano; NYBG: florece más si pasa los meses cálidos al aire libre). El gran riesgo es la quemadura solar: sacarlo poco a poco a lo largo de 2-3 semanas, primero a semisombra (Univ. Minnesota), mantener la misma cara al sol, y con ventana o terraza sur u oeste dar malla de sombreo del 30 % en las horas centrales los primeros días o en olas de calor (Univ. Arizona Extension). No mojar el tallo al regar a pleno sol (Univ. Arizona). Al exterior se seca antes: comprobar sustrato y peso cada pocos días. Tras una tormenta de verano, vaciar el plato. Vigilar la araña roja.",
+    "invierno": "Necesita reposo fresco, muy luminoso y seco: habitación sin calefacción o galería acristalada con noches de 8-10 °C, junto a la ventana más soleada, y sin riego de noviembre a principios de marzo. Nunca por debajo de 7 °C. Aunque la Univ. de Arizona lo da como rústico hasta -6,7 °C plantado en suelo seco en Tucson, RHS lo clasifica H1C y no hay fuente que respalde dejarlo en una terraza de Madrid en invierno: las heladas y las nieblas con el sustrato húmedo en maceta favorecen la podredumbre; solo podría quedarse fuera en un rincón cubierto de la lluvia, sin riego y si no baja de 7 °C. Si solo puede estar en un salón con calefacción, lejos del radiador (RHS guía), con la máxima luz y sin riego; la humedad interior por debajo del 30 % no le perjudica (Univ. Minnesota). Junto a un cristal muy frío, separarlo unos centímetros del vidrio.",
+    "ubicacion_recomendada": "Interior: la ventana más soleada (sur u oeste), girando la maceta de vez en cuando. De mayo a septiembre-octubre (con noches por encima de 10-12 °C), terraza soleada y resguardada, previa aclimatación al sol. En invierno, dentro, en el lugar más fresco y luminoso de la casa. Fuera del alcance de niños pequeños y mascotas por las espinas."
+  },
+  "lagunas": [
+    "Cambio de nombre: POWO (Kew) acepta Kroenleinia grusonii (Hildm.) Lodé (Int. Cact. Advent. 102: 27, 2014); Echinocactus grusonii Hildm. es sinónimo (basiónimo). Otros sinónimos: Echinocereus grusonii (Hildm.) Von Zeisold, Ferocactus grusonii (Hildm.) Guiggi. GBIF y NC State siguen el cambio; RHS mantiene Echinocactus grusonii. Se conserva el nombre de la lista maestra.",
+    "Distribución nativa con discrepancia: POWO 'Zacatecas a San Luis Potosí'; UICN, Querétaro y Zacatecas; Wikipedia (basada en la UICN), Querétaro e Hidalgo. No se ha podido leer el texto completo de la evaluación de la UICN (solo categoría EN B1ab(v), publicada en 2013, y estados).",
+    "Toxicidad sin fuente prioritaria: ASPCA no tiene ficha; NC State y RHS no dan datos. Solo Gardeners' World (complementaria) indica que no hay efectos tóxicos registrados. Se deja 'desconocida' para perros, gatos y niños.",
+    "Ninguna fuente prioritaria da valores de luz en lux o fc; lux_min se deriva de la escala del proyecto (luz directa) y lux_max queda en null.",
+    "Sin temperatura máxima verificada; max_c e ideal_max_c en null.",
+    "Rusticidad sin consenso: RHS H1C (5-10 °C), NYBG (reposo a 4-10 °C), Univ. Arizona -6,7 °C, NC State USDA 10a, Oklahoma State USDA 8, Wikipedia 12 °C de media invernal. No hay dato verificado de supervivencia invernal al exterior en Madrid en maceta.",
+    "Sin pH numérico ni NPK concreto en fuentes prioritarias.",
+    "Rasgos para separar E. grusonii joven de Ferocactus y de otros Echinocactus por foto no verificados en fuentes prioritarias.",
+    "Estatus CITES (Apéndice II, como todas las Cactaceae) no comprobado en la web de CITES en esta investigación."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/6253/echinocactus-grusonii/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Echinocactus grusonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libguides.nybg.org/c.php?g=655142&p=4597775",
+      "institucion": "New York Botanical Garden (NYBG) – Research Guides, Some Popular Cacti to Grow Indoors",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=833",
+      "institucion": "University of Arizona – Campus Arboretum, ficha Echinocactus grusonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.extension.arizona.edu/sites/default/files/2024-08/az1399.pdf",
+      "institucion": "University of Arizona Cooperative Extension – AZ1399 Problems and Pests of Agave, Aloe, Cactus and Yucca",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/echinocactus/",
+      "institucion": "NC State Extension – Gardener Plant Toolbox, Echinocactus (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://extension.okstate.edu/programs/plant-id/plant-profiles/golden-barrel-cactus",
+      "institucion": "Oklahoma State University Extension – Plant ID, Golden Barrel Cactus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77164085-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Kroenleinia grusonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.iucnredlist.org/species/40962/2947851",
+      "institucion": "UICN – Lista Roja de Especies Amenazadas, Echinocactus grusonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA – Toxic and Non-Toxic Plants (listas de gatos y perros; sin entrada para la especie)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.gardenersworld.com/plants/echinocactus-grusonii",
+      "institucion": "BBC Gardeners' World – ficha Echinocactus grusonii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://en.wikipedia.org/wiki/Kroenleinia_grusonii",
+      "institucion": "Wikipedia (basado en Anderson y Eggli, Das grosse Kakteen-Lexikon, y en la UICN)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://api.gbif.org/v1/species/match?name=Echinocactus%20grusonii&kingdom=Plantae",
+      "institucion": "GBIF – Backbone Taxonomy (consulta de nombre)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

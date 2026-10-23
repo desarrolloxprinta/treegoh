@@ -1,0 +1,336 @@
+{
+  "nombre_cientifico": "Ocimum basilicum",
+  "nombres_comunes": [
+    "albahaca",
+    "albahaca dulce",
+    "albahaca genovesa"
+  ],
+  "familia": "Lamiaceae",
+  "origen": "Regiones tropicales de África y Asia (NC State; Penn State: Asia y África tropicales; Iowa State cita India, Pakistán, Irán y Tailandia). Cultivada desde hace milenios, por lo que el área nativa exacta es discutida (Arizona). No se pudo consultar POWO (Kew) para confirmar la distribución nativa (ver lagunas).",
+  "clima_nativo": "Tropical y subtropical cálido, sin heladas (NC State: zonas USDA 10a-10b). Se cultiva como anual de verano: no soporta el frío ni las heladas (Penn State, Iowa State, RHS).",
+  "categoria": "aromatica",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, opuestas y dispuestas en cruz (cada par a 90° del anterior), casi sentadas. Ovadas a elípticas, de 1,3-7,5 cm de largo (NC State: 1/2-3 pulgadas; Penn State: unos 5 cm; Iowa State: 5-7,5 cm en albahaca dulce), margen entero o casi entero, superficie brillante y lisa, con la lámina ligeramente abombada entre los nervios (NC State). Verde brillante en la mayoría de cultivares; morado oscuro en cultivares como 'Dark Opal', 'Red Rubin' o 'Purple Ruffles' (este último con hoja rizada y fleco). Muy aromáticas al frotarlas (olor dulce, anisado o a clavo por metil chavicol y linalol, según Penn State). Las variedades de hoja de lechuga tienen hojas grandes y abolladas (Arizona).",
+    "nerviacion": "Pinnada, con nervio central y nervios secundarios bien marcados que hunden la lámina, dejando entre ellos zonas ligeramente abombadas (NC State).",
+    "variegacion": "La especie es verde uniforme o morada según cultivar. NC State recoge cultivares con hoja variegada o moteada de morado ('Batik'). La albahaca variegada de borde crema más vendida ('Pesto Perpetuo') no es O. basilicum sino Ocimum × citriodorum (Clemson).",
+    "tallo": "Herbáceo, de sección cuadrada (típico de las Lamiáceas), fino, hueco, liso y muy ramificado; verde o morado (NC State, Penn State). En plantas viejas o que ya han florecido la base se endurece y lignifica algo.",
+    "habito": "Herbácea anual (perenne de vida corta en el trópico), erguida y ascendente, de crecimiento rápido. Flores pequeñas (<2,5 cm, unos 1,3 cm según Penn State), bilabiadas, blancas (rosadas o moradas en cultivares tailandeses o morados), en verticilos sobre espigas o racimos terminales con brácteas en la base; florece a mitad o final del verano. Fruto: 4 nuececillas marrón oscuro (Penn State). Las plántulas tienen dos cotiledones anchos en forma de D (Arizona).",
+    "tamano_adulto_interior": "30-60 cm de alto y de ancho (Penn State), 20-50 cm en la mayoría de cultivares en maceta (RHS). Cultivares enanos como 'Spicy Globe', 'Minette' o 'Greek Dwarf' se quedan en unos 15-25 cm; 'Genovese' en suelo puede superar 90 cm (Clemson). En interior con poca luz se queda más pequeña, ahilada y con menos aroma (Maryland, Iowa State).",
+    "confusiones": [
+      {
+        "especie": "Ocimum tenuiflorum (albahaca sagrada, tulsi)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. Tallos y hojas más pubescentes, hojas más pequeñas y algo dentadas, olor a clavo; O. basilicum tiene tallo liso y hoja sin pelos y de margen entero (NC State). La diferencia de pelosidad y margen en O. tenuiflorum es orientativa (ver lagunas)."
+      },
+      {
+        "especie": "Perilla frutescens (perilla, shiso)",
+        "rasgo_diferenciador": "NC State la cita como confusión. La perilla tiene hojas más grandes, anchas y claramente dentadas, a menudo moradas por el envés; la albahaca tiene margen entero y hoja brillante. Rasgo orientativo, no descrito en las fuentes consultadas."
+      },
+      {
+        "especie": "Ocimum × citriodorum y Ocimum americanum (albahacas de limón)",
+        "rasgo_diferenciador": "Hojas más estrechas y olor a limón (Kentucky); son menos sensibles al mildiu (UConn). 'Pesto Perpetuo' (O. × citriodorum) tiene borde crema y casi no florece (Clemson)."
+      },
+      {
+        "especie": "Mentha spp. (menta, hierbabuena)",
+        "rasgo_diferenciador": "Misma familia, tallo cuadrado y hojas opuestas, pero la menta tiene margen claramente aserrado, olor mentolado y se extiende por estolones; la albahaca tiene margen entero y es anual. Rasgo orientativo, no descrito en las fuentes consultadas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "ASPCA la clasifica como no tóxica para perros y gatos, y NC State la etiqueta como no tóxica para gatos y perros. Es una planta comestible: hojas y flores se usan en cocina (NC State, RHS). Si un animal come mucha cantidad puede tener molestias digestivas leves, como con cualquier materia vegetal; no es intoxicación. En niños el riesgo real es que coman hojas tratadas con un fitosanitario antes de cumplirse el plazo de seguridad.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F4",
+      "F3"
+    ],
+    "notas": "El aceite esencial contiene metil chavicol (estragol) y linalol (Penn State); ninguna de las fuentes consultadas lo presenta como riesgo de toxicidad a dosis culinarias. 'No tóxica' para niños se basa en que es una hierba comestible (NC State, RHS); no se ha encontrado una fuente toxicológica específica para personas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Sur, la mejor dentro de casa (Maryland: ventana sur con 5-6 h de sol). Oeste como segunda opción. En primavera y verano, mejor en balcón o terraza a pleno sol y abrigada del viento (RHS, Iowa State). En ventanas norte o este, o en otoño-invierno, hace falta lámpara de cultivo LED: Penn State indica que puede cultivarse en interior bajo luz artificial.",
+      "tolera_sol_directo": "Sí, lo necesita: al menos 6-8 h de sol directo al día (Arizona; NC State: sol pleno, 6 h o más; Clemson: prefiere sol pleno y crece razonablemente con 6 h). Kentucky: en interior necesita luz muy intensa. Al sacarla al exterior por primera vez, aclimatarla de forma gradual (RHS: endurecer antes de trasplantar fuera).",
+      "notas": "Luz directa según la escala del proyecto: más de 1000 fc, es decir, más de 10 760 lux. Ninguna fuente da un máximo de lux. Con poca luz crece fina y ahilada, con hojas pequeñas y menos aroma (Maryland), y la cultivada en interior tiene menos sabor que la de exterior (Iowa State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F3",
+        "F6",
+        "F10",
+        "F8"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato uniformemente húmedo pero nunca encharcado. Mete el dedo 2-3 cm: riega a fondo cuando los 1-2 cm de arriba empiecen a secarse, sin esperar a que se seque toda la maceta, y comprueba también el peso: una maceta que pesa poco necesita agua. Nunca riegues por calendario. Riega en la base, por la mañana, sin mojar las hojas, y vacía el plato a los 15-20 min (Clemson: no dejarla con agua en el plato; RHS: odia tener las raíces mojadas durante la noche).",
+      "primavera_verano": "Con calor y sol pleno la maceta se seca muy rápido (Arizona: en maceta se seca antes que en el suelo; RHS: en maceta necesita riego regular). En verano puede necesitar agua cada 1-2 días en maceta pequeña, pero decide siempre por el dedo y el peso. La sequía la estresa y adelanta la floración (Penn State, RHS).",
+      "otono_invierno": "Si se mantiene viva en interior, crece despacio por la poca luz: riega solo cuando los primeros 2-3 cm estén secos y deja que el agua escurra del todo. Con frío y sustrato húmedo es muy sensible a podredumbres.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "El agua del grifo de Madrid sirve: es blanda y su cloramina no se elimina dejándola reposar, pero no causa problemas a esta planta. Lo importante es que la maceta drene bien.",
+      "notas": "Penn State la describe como sensible a la sequía y al estrés hídrico; Clemson y RHS piden humedad constante pero sin exceso. Las plántulas son muy propensas al damping-off si se riega de más (RHS). Maryland dice que la albahaca prefiere sustrato húmedo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F10",
+        "F1",
+        "F7",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente da un porcentaje de humedad relativa para el cultivo. Maryland dice que la mayoría de las aromáticas necesitan más humedad en interior; para conseguirla, agrupa macetas o usa humidificador, porque pulverizar las hojas no sirve y en albahaca además favorece enfermedades. Lo más importante es que las hojas no estén mojadas: el mildiu de la albahaca necesita hoja mojada y humedad muy alta por la noche (UConn, Iowa State). Por eso se recomienda buena ventilación, no mojar las hojas y no regar por la noche (UConn, Kentucky, Penn State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Muy sensible al frío. Por debajo de 12 °C ya se dañan las hojas y por debajo de 10 °C el daño es grave o total (Frontiers in Plant Science, 2023). Penn State dice que las hojas se estropean por debajo de 10 °C (50 °F). Clemson y RHS indican que solo se saque fuera cuando las noches superen 10 °C de forma constante, y Penn State pide noches por encima de 15,5 °C y días de 27-32 °C para trasplantarla. Con la primera helada las hojas se ennegrecen (Kentucky). Ideal 18-24 °C de día (Maryland, aromáticas en interior: 65-75 °F) y hasta unos 27 °C en exterior: crece rápido con calor. Germina a unos 20-24 °C (RHS, Iowa State). Ninguna fuente da una máxima: con 35-40 °C sobrevive si tiene agua, pero se seca rápido y florece antes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F11",
+        "F1",
+        "F10",
+        "F9",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de buena calidad, sin turba si es posible (RHS: multiusos sin turba), con algo de compost para que sea fértil (Clemson, Arizona). Maceta con agujero de drenaje (Arizona), de al menos 20 cm de diámetro y 20 cm de profundidad (RHS, Kentucky).",
+      "ph": "6,0-6,5 (Clemson); tolera hasta 7,5 (Arizona).",
+      "drenaje": "Bueno: necesita condiciones bien drenadas (RHS), pero sin que la maceta se seque del todo (Clemson). No usar maceta sin agujero ni dejar agua en el plato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F10",
+        "F7",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (N-P-K parecidos), de base orgánica si es posible (RHS, Arizona). Al ser comestible, usa solo abonos aptos para cultivos de huerta o aromáticas y respeta lo que diga la etiqueta.",
+      "npk": "Equilibrado, por ejemplo tipo 1-1-1 (Arizona: porcentajes de N-P-K más o menos iguales). Evita abonos ricos en potasio tipo 'abono para tomates', que adelantan la floración (RHS), y el exceso de nitrógeno, que reduce el sabor (Iowa State, Clemson).",
+      "primavera_verano": "¼-½ de la dosis de etiqueta, una vez al mes, solo con crecimiento activo (convención del proyecto). Si se trasplantó a sustrato nuevo con compost, no hace falta abonar el primer mes (Arizona). Si las hojas viejas amarillean y la planta pierde vigor, puede faltar nitrógeno (Arizona).",
+      "otono_invierno": "Nada. Con poca luz no crece de forma activa.",
+      "notas": "Maryland recomienda, para aromáticas de interior en general, media dosis cada semana. Esta ficha aplica la convención del proyecto (¼-½ dosis al mes), que es más conservadora. Las fuentes coinciden en que abonar de más resta sabor (Clemson, Iowa State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F7",
+        "F2",
+        "F10"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Al ser anual, normalmente basta un trasplante después de comprarla. Las macetas de supermercado traen muchos tallos apretados que enferman o florecen pronto. Lo ideal es dividir el cepellón en 2-4 grupos y plantarlos en macetas más grandes cuanto antes (RHS). Repite el trasplante si las raíces salen por el agujero de drenaje (Maryland).",
+      "epoca": "En primavera o a principios de verano, nada más comprarla. Fuera solo cuando las noches superen 10 °C (RHS, Clemson).",
+      "senales": "Raíces que salen por el agujero de drenaje (Maryland); la maceta se seca en pocas horas; muchos tallos finos y apretados en una maceta pequeña de supermercado (RHS). El recipiente debe tener al menos 20 cm de ancho y de fondo (RHS, Kentucky).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F6",
+        "F8"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí: el pinzado frecuente es clave. Despuntar los tallos ramifica la planta y alarga la cosecha. Quitar los botones florales en cuanto aparecen retrasa la floración, porque al florecer y formar semilla la planta deja de crecer y las hojas pierden sabor (Penn State, Iowa State, Clemson, Arizona, NC State, RHS).",
+      "epoca": "Durante todo el periodo de crecimiento (primavera-otoño). Empieza a cosechar cuando la planta mida 15-20 cm (Arizona).",
+      "como": "1) Corta con tijera limpia justo por encima de un par de hojas: de las axilas de debajo saldrán dos brotes nuevos en una semana (Arizona, Kentucky). 2) No quites más de un tercio de la planta de una vez y deja que se recupere unas semanas antes de otra cosecha grande (Kentucky). Maryland dice que en las aromáticas anuales se pueden dejar 10-15 cm de tallo. 3) Pinza las espigas florales en cuanto asomen. Si te sobran plantas, puedes dejar florecer una: las flores atraen a las abejas y también son comestibles (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F10",
+        "F7",
+        "F9",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo: es una anual de ciclo cálido (Penn State, Iowa State, NC State). Germina, crece, florece, forma semilla y muere en una sola temporada, y no rebrota tras un periodo de descanso. En otoño, con el frío y la poca luz, decae. RHS indica que normalmente se desecha en otoño. Se puede alargar algunas semanas metiéndola en casa junto a una ventana soleada antes del frío (Kentucky, Clemson), pero la app no debe tratar el invierno como un 'reposo' del que se recuperará. Para seguir cosechando, conviene sembrar de nuevo o enraizar esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F9",
+        "F8"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "esqueje de tallo en agua",
+        "esqueje de tallo en sustrato"
+      ],
+      "epoca": "Semilla: en interior de marzo a julio (RHS), unas 4-6 semanas antes de sacarla fuera (Iowa State, Clemson). En exterior solo con noches por encima de 10 °C (RHS, Iowa State). Esquejes: en verano (RHS).",
+      "pasos": "Semilla: 1) Siembra en sustrato húmedo, muy poco profunda: 3-6 mm (Kentucky, Clemson, Penn State) o en superficie (RHS). 2) Mantén a unos 20-24 °C (RHS, Iowa State), con calor de fondo si hace falta (Penn State). Germina en 5-14 días (Arizona, Clemson, Penn State). 3) Da mucha luz desde que nace para que no se ahile (Iowa State). 4) Riega sin encharcar, porque las plántulas son propensas al damping-off (RHS). 5) Con 2 pares de hojas verdaderas, aclara o repica a macetas individuales (Clemson, Arizona). No uses semilla de plantas con mildiu o fusariosis (UConn, Clemson). Esqueje: 1) Corta un brote sin flores justo por debajo de una hoja. 2) Quita las hojas de abajo y la punta. 3) Ponlo en un vaso de agua: enraíza rápido. 4) A las pocas semanas plántalo en sustrato universal. También enraíza directamente en sustrato (RHS, Penn State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F1",
+        "F2",
+        "F10",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Mildiu de la albahaca (Peronospora belbahrii), la enfermedad más grave de la especie. Empieza con amarilleo en el haz delimitado por los nervios, que puede confundirse con una carencia. En el envés de esas zonas aparece una pelusa gris púrpura o parda de aspecto sucio, que se ve mejor a primera hora de la mañana. Después las hojas se ennegrecen y caen, y la planta puede quedarse sin hojas en pocos días (UConn, Iowa State, Penn State). Se transmite por semilla, plantas infectadas y esporas en el aire, y se ve favorecida por la hoja mojada y la humedad nocturna. No tiene cura: retira y embolsa la planta, no la eches al compost, y tira también el sustrato. 'Genovese' es muy sensible; hay cultivares resistentes con la marca DMR (Iowa State, NC State). Nada de recetas caseras ni aceite de neem. Si se usa un producto, solo los listos para usar inscritos en el Registro del MAPA para uso no profesional que autoricen su uso en aromáticas o albahaca, y respetando el plazo de seguridad de la etiqueta antes de comer las hojas. Las fuentes no coinciden en cuánto sobrevive el patógeno: Penn State y UConn dicen que no pasa el invierno (en clima frío), pero Iowa State dice que forma oosporas que aguantan varios años en restos de planta. Por eso, lo más prudente es desechar planta y sustrato y no reutilizar la maceta sin lavarla."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Falta de nitrógeno en maceta: la planta pierde vigor y amarillean las hojas viejas (Arizona). También pasa con riego excesivo o encharcamiento. Primero revisa el riego y el drenaje; después, abona con un equilibrado a dosis baja."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior: tallos finos y largos, hojas pequeñas y pálidas, menos aroma (Maryland, Iowa State). Necesita 6-8 h de sol directo o una lámpara de cultivo."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío: con menos de 10-12 °C aparecen manchas pardas o negras entre los nervios, las hojas se ponen lacias y se pudren. Pasa en cristales fríos, al sacarla al exterior demasiado pronto, con heladas o al guardar las hojas en la nevera (Frontiers 2023, Penn State, Kentucky). Muévela a un sitio cálido y quita las hojas dañadas."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Lo más habitual en maceta es que le falte agua con el calor (Penn State: sensible a la sequía). Si la planta sigue lacia con el sustrato húmedo, sospecha fusariosis vascular (Fusarium), que se transmite por semilla: tira la planta y el sustrato, y usa cultivares resistentes como 'Nufar' (Penn State, Iowa State, NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Podredumbre de raíz por exceso de riego, plato con agua o maceta sin drenaje (Penn State cita la podredumbre fúngica de raíz; RHS: odia las raíces mojadas de noche)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Damping-off en plántulas y semilleros: los tallitos se estrangulan en la base y la plántula cae. Pasa con riego excesivo y siembra muy densa (RHS)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis cinerea) en ambiente húmedo y poco ventilado, sobre todo en macetas de supermercado con muchos tallos apretados (RHS). Separa las plantas, ventila y quita las partes afectadas."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en brotes tiernos (RHS, NC State). Kentucky recomienda retirarlos con un chorro de agua y lavar las hojas antes de comerlas. Si se trata, solo con productos autorizados para aromáticas y respetando el plazo de seguridad."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips: decoloran las hojas de vez en cuando (Iowa State)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Babosas y caracoles en macetas de exterior, sobre todo con sombra, mucha humedad o plantas apiñadas (Iowa State, RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es su estación. Ponla en terraza o balcón soleado, o detrás de una ventana sur u oeste, con 6-8 h de sol. Con 35-40 °C y aire muy seco, una maceta pequeña puede secarse en un día. Usa una maceta de al menos 20 cm o mayor, comprueba el sustrato a diario por la mañana con el dedo y el peso, y riega en la base sin mojar las hojas. Si la planta sufre por falta de agua, florece antes: pinza las flores sin descanso. En terrazas muy expuestas, un poco de sombra en las horas centrales de julio y agosto evita que la maceta se recaliente (orientativo; las fuentes no dan una temperatura máxima). En la sequedad de Madrid el riesgo de mildiu baja, pero aumenta si se riega por la noche o sobre las hojas.",
+    "invierno": "No tiene reposo: es anual. Con las primeras noches por debajo de 10-12 °C, normalmente a mediados o finales de octubre, métela en casa o despídete de ella. Dentro, aléjala unos 30 cm del cristal frío por la noche, porque el frío de la ventana le causa manchas negras. Ponla en la ventana más soleada, mejor con lámpara de cultivo, ya que la luz invernal de Madrid no basta para que siga produciendo. Con calefacción y humedad por debajo del 30 % se seca antes: vigila el sustrato, pero no la encharques. No pulverices las hojas; si hace falta humedad, agrupa macetas o usa humidificador. Lo realista es que decaiga en invierno: siembra o enraíza esquejes de nuevo en marzo-abril.",
+    "ubicacion_recomendada": "De mayo a octubre, en terraza o balcón soleado orientado al sur, oeste o sureste, protegido del viento. En interior, en la ventana sur más luminosa o bajo una lámpara de cultivo LED. Nunca en un rincón sin sol directo ni pegada a un cristal frío en invierno."
+  },
+  "lagunas": [
+    "No se pudo consultar POWO (Kew): la web devolvió un desafío de Cloudflare. No se ha confirmado el nombre aceptado (se asume Ocimum basilicum L., autor Linneo), los sinónimos ni la distribución nativa exacta.",
+    "Missouri Botanical Garden: solo se vio la ficha resumida en los resultados de búsqueda (anual, 45-60 cm, nativa de África y Asia tropicales); no se pudo abrir la ficha completa y no se cita.",
+    "Ninguna fuente da un porcentaje de humedad relativa óptima ni una temperatura máxima tolerada; min_pct, ideal_pct y max_c quedan en null.",
+    "No se ha comprobado en el Registro de Productos Fitosanitarios del MAPA qué productos listos para usar con uso no profesional autorizan su empleo en albahaca o aromáticas de interior, ni sus plazos de seguridad. UConn cita aceite de neem, cobre y bicarbonato potásico como preventivos de baja eficacia; el neem queda descartado por no estar aprobado en la UE.",
+    "Los rasgos diferenciadores de Ocimum tenuiflorum, Perilla frutescens y Mentha frente a O. basilicum son orientativos: NC State solo cita las dos primeras como confusiones, sin describir los rasgos.",
+    "No se encontraron fuentes prioritarias sobre ácaros (araña roja) o mosca blanca en albahaca de interior, aunque se citan con frecuencia en fuentes divulgativas; no se han incluido.",
+    "Toxicidad para personas: no se encontró una fuente toxicológica específica. 'No tóxica' para niños se basa en que es una hierba comestible.",
+    "Contradicción sobre la supervivencia de Peronospora belbahrii: Penn State y UConn dicen que no pasa el invierno; Iowa State dice que sus oosporas duran años en restos vegetales. Se adopta la opción conservadora: desechar planta y sustrato."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://extension.psu.edu/herb-garden-plants-basil",
+      "institucion": "Penn State Extension (Pennsylvania State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+      "institucion": "Iowa State University Extension and Outreach (Yard and Garden)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/basil-downy-mildew",
+      "institucion": "University of Connecticut, Home & Garden Education Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.umd.edu/sites/extension.umd.edu/files/2021-03/FC-MGPub%20Indoor%20Herb%20Gardening%20Fair%202018.pdf",
+      "institucion": "University of Maryland Extension (Frederick County Master Gardeners)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.extension.arizona.edu/sites/default/files/2024-10/Basil.pdf",
+      "institucion": "University of Arizona Cooperative Extension (Backyard Gardener #245)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/NEP237.pdf",
+      "institucion": "University of Kentucky Cooperative Extension (NEP-237)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://hgic.clemson.edu/factsheet/basil/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC 1327)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1237577/full",
+      "institucion": "Frontiers in Plant Science (2023), revisión revisada por pares sobre poscosecha y sensibilidad al frío de la albahaca dulce (Rutgers University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

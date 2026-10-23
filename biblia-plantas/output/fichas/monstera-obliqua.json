@@ -1,0 +1,300 @@
+{
+  "nombre_cientifico": "Monstera obliqua",
+  "nombres_comunes": [
+    "monstera obliqua",
+    "monstera obliqua 'Peru' (forma comercial)"
+  ],
+  "familia": "Araceae",
+  "origen": "América tropical. Según POWO (Kew), nativa de Costa Rica, Panamá, Colombia, Venezuela, Trinidad y Tobago, Guyana, Surinam, Guayana Francesa, Ecuador, Perú, Bolivia y Brasil (Norte, Nordeste y Centro-Oeste). Croat et al. (2024, Phytotaxa) la sitúan desde Costa Rica (solo vertiente caribe de Limón) por el Pacífico colombiano (Chocó, Valle) hasta Venezuela, las Guayanas y toda la cuenca amazónica. La forma muy perforada que se vende como 'Peru' procede de Sudamérica; 'Peru' es una etiqueta comercial, no un taxón.",
+  "clima_nativo": "Tropical húmedo de selva lluviosa de tierras bajas y premontana, sin heladas ni estación fría: 0-1410 m en bosque húmedo tropical y bosques húmedos montanos bajos (Croat et al. 2024); en Colombia hasta 2220 m (Catálogo de Plantas de Colombia, vía POWO). Trepadora hemiepífita fina que crece sobre arbolillos, arbustos, ramitas e incluso sobre otras aráceas (Madison 1977, vía POWO/CATE Araceae): vive en el aire saturado de humedad del sotobosque.",
+  "categoria": "trepadora",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Lámina membranácea (fina como papel; Madison 1977 en POWO; Croat et al. 2024: membranácea a subcoriácea), de forma muy variable: lanceolada a ovada, a menudo algo falcada (curvada como una hoz), de 8-15 × 4-6 cm en la mayoría de ejemplares y hasta 35 cm de largo (Madison); 12-23 × 3-10 cm en Centroamérica (Croat et al. 2024). La base es oblicua y desigual, con un lado de la hoja aproximadamente el doble de ancho que el otro (de ahí 'obliqua'; Madison). Perforaciones: muy variables. En la naturaleza unas 4 de cada 5 plantas tienen hojas enteras (Madison examinó un ~80 % de pliegos sin agujeros) y en Centroamérica casi no se perforan (Croat et al. 2024). La forma cultivada 'Peru' es la extrema: hojas finísimas, algo translúcidas, en las que los agujeros, grandes e irregulares, ocupan la mayor parte de la superficie y dejan solo tiras estrechas de tejido verde alrededor de los nervios ('más agujero que hoja'; Univ. Missouri Extension; Foliage Factory, complementaria). Según Madison, los agujeros forman una sola serie a cada lado del nervio central. Margen entero, sin hendiduras hasta el borde. Haz verde brillante (RHS).",
+    "nerviacion": "Pinnada con nervio central marcado (acanalado en el haz, convexo en el envés) y solo 4-8 nervios laterales primarios por lado, poco visibles en el haz y marcados en el envés, que salen a 35-50° del nervio central; nervios secundarios inconspicuos (Croat et al. 2024; Madison: nervios laterales primarios poco prominentes). En la forma 'Peru' el tejido queda reducido a franjas alrededor de este armazón de nervios.",
+    "variegacion": "Especie verde uniforme. No se ha localizado en fuentes prioritarias ningún cultivar variegado reconocido; los ejemplares 'obliqua variegada' que circulan en el comercio no están verificados.",
+    "tallo": "Muy fino, liso, verde claro a oscuro, cilíndrico, de solo 2-7 mm de grosor en planta adulta, con entrenudos de 1-6 cm (Madison 1977, vía POWO); Croat et al. (2024) dan entrenudos de 2-10 cm y 2-5 mm de diámetro en juveniles. Raíces de anclaje negras. Pecíolo delgado (menos de 0,5 cm de diámetro), de 5-18 cm, envainado hasta el genículo, con la vaina caediza (Croat et al. 2024; Madison: 5-15 cm). Rasgo clave: la planta adulta produce de vez en cuando estolones colgantes y rastreros, tallos casi sin hojas con entrenudos muy largos, de 10-30 cm, que colonizan nuevos soportes (Madison 1977, vía POWO).",
+    "habito": "Trepadora hemiepífita fina y 'nómada', que trepa pegada al soporte con raíces (Croat et al. 2024) o cuelga (RHS: trepadora y colgante). En cultivo es compacta y de crecimiento lento (RHS; Univ. Missouri Extension: 'crece muy despacio'). Floración: rarísima en maceta (RHS); si florece, la espata es pequeña, verde al desarrollarse y amarilla intensa en la madurez (blanca por dentro), de 4-7 cm, con espádice amarillo de pocos centímetros; las inflorescencias salen en grupos (Madison: de 6 a 8, rasgo único del género; Croat et al. 2024: 1-3 a la vez en Centroamérica) y los frutos maduran a naranja intenso, con bayas globosas y separadas entre sí (Madison).",
+    "tamano_adulto_interior": "RHS: altura máxima 1-1,5 m y anchura 0,5-1 m, alcanzadas en 10-20 años. En maceta suele mantenerse muy por debajo, con hojas de 8-20 cm.",
+    "confusiones": [
+      {
+        "especie": "Monstera adansonii (incluida la subsp. laniata y las formas comerciales 'narrow form' o 'Archipelago'), el fraude más frecuente",
+        "rasgo_diferenciador": "Gran parte de lo que se vende como 'obliqua' es M. adansonii (Home for the Harvest, complementaria; Univ. Missouri Extension señala que M. obliqua es de las especies más raras). Rasgos verificados en las descripciones de Madison (1977, vía POWO): 1) Textura: M. obliqua tiene la lámina membranácea, fina como papel de seda y algo translúcida a contraluz; M. adansonii la tiene subcoriácea (firme, algo cerosa) y brillante. 2) Proporción de huecos: en la forma 'Peru' de M. obliqua los agujeros ocupan la mayor parte de la hoja y dejan solo tiras finas de tejido; en M. adansonii quedan amplias zonas sólidas entre agujeros y estos se disponen en varias series a cada lado del nervio central (Madison), frente a una sola serie en M. obliqua. 3) Estolones: M. obliqua adulta emite estolones colgantes casi sin hojas con entrenudos de 10-30 cm (Madison); Madison no los describe en M. adansonii. 4) Tamaño y grosor: tallo adulto de 2-7 mm y pecíolo de 5-15 cm en M. obliqua frente a 1,5-3 cm y 20-60 cm en M. adansonii adulta; hojas adultas de 8-15 cm (hasta 35) frente a 25-70 cm. Ojo: los esquejes jóvenes de M. adansonii también tienen tallos finos y hojas pequeñas, así que el tamaño solo no basta; la textura de la lámina y la superficie perforada son los rasgos visuales más fiables. 5) Inflorescencia (definitiva, pero casi nunca aparece en interior): M. obliqua, espata de 4-7 cm amarilla intensa, en grupos, frutos naranjas con bayas globosas separadas; M. adansonii, espata crema a amarillo pálido de 12-28 cm y espádice de 8-13 cm, solitarias o pocas (Madison). Croat et al. (2024) advierten que los ejemplares perforados de M. obliqua pueden confundirse con el morfotipo de bosque seco de M. adansonii. 6) Crecimiento: en cultivo M. adansonii crece rápido y M. obliqua muy despacio (RHS, Univ. Missouri Extension). Una 'obliqua' barata, de hojas firmes y con más tejido que agujero es casi seguro M. adansonii."
+      },
+      {
+        "especie": "Monstera 'esqueleto' (nombre comercial)",
+        "rasgo_diferenciador": "También tiene 'más aire que hoja', pero sus hojas son grandes y ovaladas, y la planta es más robusta y relativamente fácil de cultivar (Univ. Missouri Extension). M. obliqua tiene hojas pequeñas (normalmente menos de 20 cm), finísimas y de base oblicua, y es muy delicada."
+      },
+      {
+        "especie": "Monstera gracilis",
+        "rasgo_diferenciador": "Los ejemplares grandes y perforados de M. obliqua se parecen vegetativamente a M. gracilis; se separan por la inflorescencia: M. gracilis tiene la espata y el espádice más claros y bayas prismáticas apretadas, frente a la espata amarilla intensa y las bayas globosas y separadas de M. obliqua (Madison 1977, vía POWO). Sin flor, la distinción no es fiable."
+      },
+      {
+        "especie": "Formas de hoja entera de Monstera obliqua frente a otras Monstera de hoja entera (p. ej., M. pittieri, M. gambensis en Costa Rica)",
+        "rasgo_diferenciador": "La mayoría de M. obliqua silvestres tienen hojas enteras; en Costa Rica se distingue por el pecíolo fino (<0,5 cm) envainado hasta el genículo con vaina caediza, la hoja estrecha y lanceolada y la infrutescencia con capa estilar naranja y pulpa blanca; M. gambensis tiene el pecíolo áspero y la vaina persistente (Croat et al. 2024). Son confusiones de campo, poco relevantes en el comercio."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico, el mismo principio que ASPCA registra para el género (ficha de Monstera deliciosa) y que se cita para M. adansonii. La RHS clasifica M. obliqua como dañina si se ingiere e irritante para piel y ojos, para personas y mascotas, pero no nombra el compuesto; la atribución al oxalato cálcico en esta especie es por género.",
+    "sintomas": "Al morder o ingerir: irritación, dolor e hinchazón de boca, lengua y labios, babeo excesivo, dificultad para tragar y vómitos (ASPCA, para el género). La savia irrita la piel y los ojos: usar guantes al manipularla (RHS). Si hay ingestión, enjuagar la boca y consultar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F6"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "A 1-2 m de una ventana este u oeste, o tras cortina fina en ventana sur; ventana norte solo muy cerca del cristal. RHS admite cualquier orientación con luz filtrada. En la práctica, en Madrid suele cultivarse en vitrina o invernadero de interior con luz LED de cultivo, a distancia suficiente para no calentar las hojas.",
+      "tolera_sol_directo": "No. RHS la clasifica para semisombra con luz brillante indirecta; sus hojas membranáceas se queman con el sol directo (Home for the Harvest, complementaria).",
+      "notas": "Rango en la escala del proyecto: de 100 fc (1076 lux) a 1000 fc (10760 lux). Ninguna fuente prioritaria da lux ni pie-candelas para la especie. Con poca luz se debilita y mustia (Home for the Harvest).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo los 2-3 cm superiores del sustrato y el peso de la maceta: regar cuando esa capa empiece a secarse, sin dejar que se seque el cepellón entero, y regar a fondo hasta que drene; vaciar el plato a los 15-30 minutos. Nunca por calendario. RHS: regar cuando está en crecimiento y mantenerla solo ligeramente húmeda en invierno. Es menos tolerante a la sequía que M. adansonii: sus hojas finas se arrugan y se deshacen enseguida si se seca (Home for the Harvest).",
+      "primavera_verano": "En crecimiento activo, sustrato uniformemente húmedo pero aireado (RHS: regar cuando está en crecimiento). Comprobar cada 2-3 días con el dedo y el peso; en vitrina cerrada el sustrato se seca mucho más despacio, así que hay que regar bastante menos que en una habitación abierta.",
+      "otono_invierno": "Mantener el sustrato solo ligeramente húmedo (RHS). Con menos luz y crecimiento más lento, esperar a que los 2-3 cm superiores estén secos y la maceta pese menos; la calefacción acelera el secado en una habitación abierta, así que la comprobación manda.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo a temperatura ambiente, nunca fría. En Madrid el agua es blanda y con cloramina, que no se elimina dejándola reposar; no es causa de puntas marrones. Las puntas y bordes secos se deben a sales de abono acumuladas, riego irregular o, sobre todo en esta especie, aire seco. Lavar sales con un riego abundante de vez en cuando.",
+      "notas": "La pudrición de raíz por exceso de riego y mal drenaje es el fallo más común según las fuentes complementarias (Home for the Harvest). Foliage Factory (complementaria) propone regar cuando el sustrato está seco al 50-70 %; para una planta de hoja membranácea y sensible a la sequía se adopta el criterio más prudente: no dejar secar más allá de la capa superficial.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 85,
+      "notas": "Es el factor limitante de esta especie. Univ. Missouri Extension indica que necesita humedad alta, de alrededor del 85 %; la RHS, humedad moderada a alta y cultivo 'bajo cristal'. El mínimo del 60 % es [orientativo, sin fuente prioritaria]: lo dan las complementarias (Home for the Harvest: más del 60 % constante como mínimo, o vitrina a ~80 %; Foliage Factory: 60-80 % o más). Además de alta debe ser constante: reacciona mal al aire seco y a los cambios (Foliage Factory). Una habitación con humidificador rara vez sostiene el 80-85 % de forma estable; lo realista es una vitrina, armario de cultivo o terrario grande con ventilación. Pulverizar las hojas no sube la humedad de forma útil. Univ. Missouri Extension afirma que absorbe agua del aire a través de las hojas; no se ha encontrado otra fuente que lo respalde y no se usa como pauta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F8",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 20,
+      "ideal_max_c": 27,
+      "notas": "RHS la clasifica H1B (protección con mínimas de 10-15 °C); se toma el valor más alto, 15 °C, que coincide con Foliage Factory (complementaria: evitar menos de 15 °C). El rango ideal de 20-27 °C es [orientativo, sin fuente prioritaria] (Foliage Factory: 20-27 °C; Home for the Harvest: 24-27 °C). No tolera heladas ni corrientes frías. Ninguna fuente da un máximo tolerado; por encima de ~30 °C con aire seco sus hojas se deshidratan muy deprisa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "RHS: compost sin turba a base de tierra franca. Las complementarias recomiendan una mezcla aireada y de drenaje rápido que retenga algo de humedad: base de sustrato para aráceas con corteza, perlita y fibra de coco (Foliage Factory, Home for the Harvest). Maceta con agujeros de drenaje y, a ser posible, tutor (de musgo o tabla) al que pueda pegarse.",
+      "ph": null,
+      "drenaje": "Imprescindible: sensible a la pudrición de raíz si el sustrato se encharca (Home for the Harvest). Nunca dejar agua en el plato.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS).",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (criterio del proyecto, compatible con la RHS, que indica abono equilibrado mensual en crecimiento). Su crecimiento es lento: no compensar con más abono.",
+      "otono_invierno": "No abonar mientras no haya crecimiento activo.",
+      "notas": "Home for the Harvest (complementaria) propone seguir abonando a media dosis en invierno; se descarta por conservadora y por el riesgo de acumular sales en un sustrato que se seca poco.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: cada pocos años, solo cuando las raíces llenen la maceta, subiendo un solo tamaño (Home for the Harvest; Foliage Factory). Ninguna fuente prioritaria da intervalo.",
+      "epoca": "Primavera o verano, con crecimiento activo (Home for the Harvest).",
+      "senales": "Raíces que salen por los agujeros de drenaje, sustrato que ya no drena bien o planta y tutor inestables (Home for the Harvest; Foliage Factory). Manipular con mucho cuidado: las hojas se rasgan con facilidad.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F7"
+      ]
+    },
+    "poda": {
+      "necesita": "Muy poca. Retirar hojas dañadas o secas; no conviene recortar una planta de crecimiento tan lento salvo para obtener esquejes.",
+      "epoca": "Primavera-verano, con crecimiento activo (RHS sitúa la propagación en verano).",
+      "como": "Con guantes, porque la savia irrita la piel y los ojos (RHS). Tijera limpia, corte justo por encima de un nudo. Atar los tallos al tutor sin apretar. RHS la asigna a su grupo de poda 11.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero, pero en otoño-invierno crece aún más despacio: mantener el sustrato solo ligeramente húmedo (RHS), no abonar y no dejar que baje de 15 °C. La humedad alta debe mantenerse todo el año.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con nudo",
+        "esqueje de punta",
+        "acodo",
+        "semilla",
+        "estolón enraizado"
+      ],
+      "epoca": "Verano (RHS), con calor y humedad altos.",
+      "pasos": "1) Con guantes, cortar un trozo de tallo con al menos un nudo (mejor con raíz aérea) y una hoja, justo por debajo del nudo. 2) Ponerlo sobre musgo esfagno o sustrato aireado húmedo, con el nudo en contacto, dentro de una caja o propagador cerrado con humedad cercana a la saturación y 20-27 °C; con esta especie el enraizado en agua en una habitación seca es arriesgado porque la hoja se deshidrata. 3) Luz brillante indirecta, sin sol. 4) Trasplantar cuando tenga raíces de varios centímetros y aclimatar de forma muy gradual a menos humedad. 5) Acodo: sujetar un tallo o un estolón sobre sustrato húmedo hasta que enraíce y después separarlo. RHS cita semilla, esquejes de punta de raíz o de hoja y acodo en verano; un trozo de hoja sin nudo no forma una planta nueva en aráceas, por eso se indica siempre esqueje con nudo [criterio general del género]. La propagación por estolón se deduce de que la especie produce estolones colgantes y rastreros que colonizan nuevos soportes (Madison 1977, vía POWO).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas, acartonadas o que se deshacen por aire seco o por dejar secar el sustrato: es el problema típico de esta especie de lámina membranácea fuera de una vitrina (Univ. Missouri Extension y RHS sobre la necesidad de humedad alta; Home for the Harvest)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes de las hojas marrones y secos por humedad ambiental baja, corrientes o riego irregular; no por el agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por aire seco (calefacción, verano madrileño) o sales de abono acumuladas."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o mal drenaje, sobre todo en vitrina cerrada donde el sustrato se seca muy despacio (Home for the Harvest)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato seco, falta de luz o pudrición de raíz (Home for the Harvest)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída o deterioro de hojas tras la compra o el envío al pasar de un ambiente de vivero muy húmedo a una casa seca; aclimatar en vitrina o propagador (Foliage Factory: reacciona mal a condiciones inestables)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, citada por la RHS; muy favorecida por aire seco."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino amarillento o plateado por araña roja (RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos y nervios (RHS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa producida por cochinillas (RHS cita cochinillas)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en la lámina por sol directo o por una lámpara de cultivo demasiado cerca (Home for the Harvest)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas blanqueadas por exceso de luz directa (Home for the Harvest)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Desgarros en las hojas por roces y manipulación: el tejido es extremadamente fino y se marca con cualquier golpe o corriente (Foliage Factory). No confundir con las perforaciones naturales."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire exterior muy seco (HR ≈38 % en julio), una habitación abierta de Madrid está muy lejos del 85 % que pide (Univ. Missouri Extension): sin vitrina, terrario o armario de cultivo con humidificador es muy probable que la planta se seque y se pierda. Nunca al sol ni junto a cristales soleados de ventanas sur u oeste, ni en terraza. El aire acondicionado reseca aún más: no ponerla en su corriente. Dentro de la vitrina, vigilar que no pase de ~30 °C (las lámparas y el sol a través del cristal la calientan) y ventilar para evitar hongos. Comprobar el sustrato con el dedo y el peso; no regar por calendario. Revisar el envés por araña roja. Abono a ¼-½ de dosis una vez al mes.",
+    "invierno": "La calefacción baja la humedad interior a menudo por debajo del 30 %: en una habitación abierta la planta no es viable. Mantenerla en vitrina o terrario cerrado, con humedad del 60-85 % y temperatura de 20-27 °C y nunca por debajo de 15 °C (RHS, H1B). Lejos de radiadores, cristales fríos y corrientes de puertas y ventanas; si la vitrina está junto a una ventana, separarla por la noche. Con poca luz invernal, complementar con LED de cultivo. Sustrato solo ligeramente húmedo (RHS) y sin abono.",
+    "ubicacion_recomendada": "Dentro de una vitrina, armario de cultivo o terrario grande y ventilado, con humidificador o bandeja de agua, luz LED de cultivo o luz brillante indirecta de una ventana este, y un tutor al que pegarse. Solo para coleccionistas con experiencia; quien busque una monstera calada fácil para el salón debe elegir Monstera adansonii. Fuera del alcance de perros, gatos y niños, porque es tóxica."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Monstera obliqua Miq. (Linnaea 18: 79, 1844 según Croat et al. 2024). Sinónimos heterotípicos según POWO: Heteropsis obliqua Miq. ex Engl., Monstera expilata Schott (nombre usado antes para las formas perforadas; la RHS mantiene una ficha 'M. obliqua var. expilata'), M. falcifolia Engl., M. falcifolia var. latifolia K.Krause, M. fendleri Engl., M. killipii K.Krause, M. microstachys Schott, M. obliqua var. expilata (Schott) Engl., M. sagotiana Engl., M. snethlagei K.Krause y M. unilatera Rusby. La ficha usa el nombre del encargo sin autor.",
+    "Taxonomía inestable: Croat et al. (2024) señalan que Madison agrupó en exceso esta especie y que, tal como se concibe ahora, M. obliqua es muy variable y quizá incluya varias especies; no evalúan las formas sudamericanas. La forma comercial 'Peru' no tiene estatus taxonómico publicado y podría corresponder a otra especie en el futuro.",
+    "No se ha encontrado ninguna ficha de cultivo de servicio de extensión universitaria dedicada a la especie; los cuidados se apoyan en la RHS (ficha de la especie) y en un párrafo de Univ. Missouri Extension, más fuentes complementarias.",
+    "ASPCA no tiene ficha de Monstera obliqua; la toxicidad se apoya en la RHS (ficha de la especie, sin nombrar el compuesto) y en ASPCA para M. deliciosa (oxalato cálcico, por género). No se ha abierto Pet Poison Helpline.",
+    "Ninguna fuente prioritaria da humedad mínima numérica (el 60 % es de complementarias), temperatura ideal ni máxima (max_c null), pH (ph null), NPK (npk null), valores de luz en lux ni frecuencia de trasplante.",
+    "No se ha podido abrir la comparación de Ohio Tropics (bloqueo 403); no se cita. La afirmación de Univ. Missouri Extension de que absorbe agua por las hojas no está respaldada por otra fuente.",
+    "No se ha localizado la monografía original de Madison (1977, Contrib. Gray Herb. 207) en PDF; su descripción y discusión se han leído en la versión de CATE Araceae publicada en POWO."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/25104/monstera-obliqua/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Monstera obliqua",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ipm.missouri.edu/meg/index.cfm?ID=813",
+      "institucion": "University of Missouri Extension – Missouri Environment & Garden (artículo sobre especies de Monstera)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87525-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Monstera obliqua: distribución, sinónimos y descripción de Madison (1977) vía CATE Araceae",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87464-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – POWO, Monstera adansonii: descripción de Madison (1977) vía CATE Araceae (para la comparación)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.missouribotanicalgarden.org/Portals/0/staff/PDFs/croat/Monstera-Revision.pdf",
+      "institucion": "Croat, T.B., Cedeño-Fonseca, M. & Ortiz, O.O. (2024). Revision of Monstera (Araceae: Monsteroideae) of Central America. Phytotaxa 656(1): 1-197 (revista revisada por pares; PDF en Missouri Botanical Garden)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ceriman",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Ceriman, Monstera deliciosa)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://foliage-factory.com/monstera-obliqua-peru",
+      "institucion": "Foliage Factory (vivero en línea) – Monstera obliqua Peru, ficha de cultivo",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.homefortheharvest.com/?p=34819",
+      "institucion": "Home for the Harvest (blog especializado) – Monstera obliqua",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

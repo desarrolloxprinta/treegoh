@@ -1,0 +1,353 @@
+{
+  "nombre_cientifico": "Opuntia microdasys",
+  "nombres_comunes": [
+    "orejas de conejo",
+    "nopal cegador",
+    "cactus orejas de conejo",
+    "chumbera enana"
+  ],
+  "familia": "Cactaceae",
+  "origen": "México. Kew (WCVP/POWO) acepta Opuntia microdasys (Lehm.) Pfeiff., publicada en Enum. Diagn. Cact.: 154 (1837); basiónimo Cactus microdasys Lehm. Nativa de México Golfo, Noreste, Noroeste y Suroeste; RHS: centro y norte de México; NC State: norte de México y regiones desérticas hasta Arizona (Kew la da en Arizona como introducida). Kew la registra como introducida y naturalizada en España peninsular, Baleares y Canarias, además de Portugal, Francia, Italia, Grecia, norte de África, Sudáfrica, Australia e India. NO figura en el Catálogo Español de Especies Exóticas Invasoras (RD 630/2013, texto consolidado del BOE: solo incluye Opuntia dillenii, O. maxima y O. stricta), pero por estar naturalizada en España no se deben tirar paletas ni restos de poda al campo ni a solares [orientativo, sin fuente prioritaria].",
+  "clima_nativo": "Desierto y matorral seco (Kew: bioma 'desert or dry shrubland') del norte y centro de México: sol intenso, aire seco, lluvias escasas y estacionales, inviernos secos y frescos. En cultivo: RHS la clasifica H2 (tolera temperaturas bajas pero no la helada; mínimas de 1 a 5 °C en Reino Unido) y la cultiva bajo cristal; NC State indica que no tolera la helada y debe entrar en casa en climas fríos.",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Sin hojas visibles en la planta adulta: lo que parecen hojas son tallos aplanados (paletas o cladodios) ovales a redondeados, de hasta unos 15 cm (NC State: 6 pulgadas), carnosos, verde claro a verde medio, con la superficie lisa sin espinas largas. Las paletas están densamente punteadas por areolas regulares (lunares) de las que salen mechones de gloquidios: cerdas diminutas, finísimas y con púas, de color amarillo dorado (forma típica), blanco ('Albata', var. albispina) o pardo rojizo según la forma (NC State, RHS). Las paletas nuevas suelen salir por pares en la punta de la anterior, lo que da el aspecto de 'orejas de conejo' (NC State). Los brotes jóvenes de las Opuntia llevan hojitas cónicas diminutas y caducas [orientativo, sin fuente prioritaria].",
+    "nerviacion": "No aplica: no tiene hojas laminares; las paletas no muestran nervios visibles. El patrón diagnóstico para una IA de visión es la retícula regular de areolas con mechones de gloquidios (puntos amarillos, blancos o pardos) sobre la paleta verde.",
+    "variegacion": "No variegada. Variación de color en los gloquidios según forma o cultivar: amarillo dorado (típica), blanco ('Albata', con gloquidios cortos blancos y flor amarillo pálido; var. albispina, hoy sinónimo), pardo rojizo ('brown-spined' en RHS). Existe la forma crestada f. cristata ('Funny Bunny', paletas retorcidas) y el cultivar 'Caress' (poco punzante) (NC State, RHS, Kew). NC State documenta plantas teñidas artificialmente de colores para la venta: el color no es natural.",
+    "tallo": "Tallo formado por segmentos aplanados (paletas) articulados unos sobre otros, ramificado desde la base; con los años la base puede lignificarse [orientativo, sin fuente prioritaria]. No tiene espinas centrales rígidas, solo gloquidios, que se desprenden al menor roce (NC State). Flor amarilla en forma de cuenco, de 4-5 cm (RHS) o unos 5 cm de largo, amarillo cremoso (NC State), en primavera-verano, rara en interior; fruto rojo a rojo púrpura (NC State).",
+    "habito": "Cactus perenne arbustivo, en matas bajas, de porte rastrero a casi erecto y muy ramificado (NC State, RHS: 'bushy'). Crecimiento lento (NC State); RHS da 10-20 años hasta el tamaño adulto.",
+    "tamano_adulto_interior": "Plantas adultas: 0,5-1 m de altura (RHS) o 60-90 cm de alto por 1,2-1,5 m de diámetro (NC State, cultivo al exterior en clima cálido). En maceta en interior queda bastante más pequeña y su tamaño se controla con el volumen de la maceta (NC State); no hay cifra concreta en fuentes prioritarias para interior. El dato de RHS de envergadura 0-0,1 m parece un error de la base de datos.",
+    "confusiones": [
+      {
+        "especie": "Opuntia rufida (cegador pardo)",
+        "rasgo_diferenciador": "Paletas más gruesas y grisáceas con gloquidios pardo canela; a menudo se vende como Opuntia microdasys 'rufida' o forma de gloquidios pardos [orientativo, sin fuente prioritaria]. O. microdasys tiene paletas verde claro a medio (RHS, NC State)."
+      },
+      {
+        "especie": "Opuntia microdasys 'Albata' / var. albispina",
+        "rasgo_diferenciador": "No es otra especie: misma planta con gloquidios blancos y cortos (NC State; Kew trata var. albispina como sinónimo). Sus cuidados son idénticos."
+      },
+      {
+        "especie": "Chumberas juveniles (Opuntia ficus-indica, O. maxima, O. stricta, O. dillenii)",
+        "rasgo_diferenciador": "Paletas mucho mayores, casi siempre con espinas largas y rígidas además de los gloquidios (existen formas de O. ficus-indica sin espinas) [orientativo, sin fuente prioritaria]. O. microdasys no tiene espinas largas, solo mechones de gloquidios (NC State). Tres de ellas son invasoras catalogadas en España (BOE, RD 630/2013) y no deben cultivarse ni comercializarse."
+      },
+      {
+        "especie": "Schlumbergera spp. (cactus de Navidad)",
+        "rasgo_diferenciador": "Segmentos planos pero finos, con el margen dentado y sin mechones de gloquidios; cuelgan y florecen en invierno [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Plantas de O. microdasys teñidas o con flores de paja pegadas",
+        "rasgo_diferenciador": "Colores imposibles (azul, rosa, naranja) en las paletas o los gloquidios: tinte artificial (NC State documenta plantas teñidas a la venta; Univ. Minnesota advierte de las flores de paja pegadas a cactus pequeños)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Sin toxicidad química documentada para mascotas: ASPCA clasifica el género Opuntia ('Tree Cactus', Opuntia species) como no tóxico para perros, gatos y caballos, y NC State etiqueta la especie como no tóxica para perros y gatos. EL RIESGO REAL ES FÍSICO (mecánico), y es importante: los gloquidios son cerdas diminutas, muy finas y con púas que se desprenden al menor roce (NC State) y se clavan en piel, boca, patas y ojos. RHS la marca como 'potencialmente dañina: irritante de piel y ojos' para personas y para perros. En personas: dermatitis con pápulas que pican por los gloquidios clavados (Whiting y Bristow 1975, casos precisamente con O. microdasys) y queratoconjuntivitis grave si un gloquidio llega al ojo (mismo artículo; serie de 21 pacientes con lesiones oculares por gloquidios de chumbera, con irritación, dolor y erosiones o úlcera de córnea, Odat 2014). Si se arrancan con fuerza pueden romperse y migrar más hondo, con riesgo de inflamación granulomatosa y dermatitis (caso clínico 2019). En perros y gatos: queratoconjuntivitis ulcerativa por gloquidios de Opuntia clavados en conjuntiva o córnea; la extracción quirúrgica fue difícil, quedaron restos en todos los casos y las molestias duraron una mediana de 21 días (10-51), sin pérdida de visión (Dowler 2020, Texas A&M). Qué hacer: 1) No frotar la zona ni el ojo. 2) Piel con pocos gloquidios: pinzas finas. 3) Piel con muchos: quitar primero los grupos con pinzas y después aplicar una capa fina de cola doméstica cubierta con gasa, dejar secar y despegar; fue el método más eficaz en el estudio comparativo; la cinta adhesiva o las mascarillas faciales dejaron más gloquidios e inflamación a los 3 días que no hacer nada (Martinez 1987). La cola tarda unos 35 min en secar (caso clínico 2019). 4) Ojo afectado (persona o animal), gloquidios en boca o lesión extensa: urgencias u oftalmólogo/veterinario; la extracción ocular se hace con pinzas bajo anestesia tópica en lámpara de hendidura (Odat 2014). Prevención: manipular siempre con guantes gruesos y tiras de papel de periódico doblado o un guante de horno como pinza (RHS ficha y guía; NC State: guantes protectores), con gafas protectoras si se trabaja cerca de la cara (Odat 2014 lo recomienda a quien manipula chumberas). Colocar fuera del alcance de niños pequeños, perros y gatos y lejos de pasillos y zonas de paso.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F3",
+      "F1",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+    ],
+    "notas": "Perros y gatos 'no_toxica' en sentido químico con dos fuentes prioritarias (ASPCA a nivel de género; NC State para la especie). Niños: 'desconocida' porque ninguna fuente prioritaria evalúa la toxicidad química en humanos (NC State cita frutos comestibles, pero no es una evaluación toxicológica); el riesgo físico para niños sí está documentado (Martinez 1987 lo estudió por los casos pediátricos). La app no debe presentar la planta como 'segura' para mascotas o niños sin el aviso de los gloquidios. El estudio de Martinez se hizo en animales de experimentación; el tipo exacto de cola no consta en el resumen (no usar cianoacrilato sobre la piel [orientativo, sin fuente prioritaria])."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana orientada al sur u oeste (RHS: aspecto sur u oeste), la más soleada de la casa. Este solo si recibe varias horas de sol directo. Norte: insuficiente. Girar la maceta cada pocas semanas para que crezca equilibrada [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol (RHS: 'full sun' y luz plena en todo momento; guía RHS: alféizar soleado todo el año). NC State acepta de pleno sol a semisombra y, en invierno, sol parcial. Aclimatar si viene de vivero o de interior poco luminoso: al sacarla al exterior en verano, primero semisombra y luego más sol, evitando las horas de sol más intenso (11-15 h) al principio (Univ. Minnesota).",
+      "notas": "Escala del proyecto: luz directa >1000 fc (>10760 lux); lux_min fijado en el umbral inferior de esa categoría porque las fuentes piden pleno sol. Ninguna fuente fija techo (lux_max = null). Con poca luz las paletas nuevas salen finas, alargadas y pálidas (etiolación; guía RHS: plantas débiles y deformes). Discrepancia menor: NC State admite semisombra; se recomienda pleno sol (RHS), más favorable para la forma y la floración. Exceso de luz o insolación brusca puede causar 'costra corchosa' (manchas pardas que se encogen en una costra; guía RHS). Si falta luz natural, tubos fluorescentes o LED a 15-30 cm, 14-16 h al día (Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco por completo: comprobar con el dedo a 5 cm (convención del proyecto para cactus y suculentas) y por el peso de la maceta, que debe estar claramente ligera. Nunca por calendario. Riego a fondo, hasta que salga agua por los agujeros de drenaje, y tirar el sobrante del plato a los pocos minutos (Univ. Minnesota, guía RHS). Evitar riegos superficiales repetidos, que deforman el crecimiento (Univ. Minnesota). Para no tocarla, regar por el borde o por inmersión breve sin mojar las paletas [orientativo, sin fuente prioritaria].",
+      "primavera_verano": "En crecimiento (primavera, verano y principio de otoño): regar cuando el sustrato se haya secado (RHS ficha); Univ. Minnesota y NC State piden que se seque por completo entre riegos. Con calor y mucha luz el sustrato se seca antes: comprobar más a menudo, pero regar solo si está seco. En exterior en verano necesitará más agua que dentro (Univ. Minnesota).",
+      "otono_invierno": "Reposo (de noviembre a principios de marzo, guía RHS): sin riego o casi sin riego (RHS ficha: retirar agua y abono en invierno; NC State: muy poca agua). Solo un riego ligero si las paletas empiezan a arrugarse (guía RHS, Univ. Minnesota). Con frío y sustrato húmedo se pudre.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "RHS recomienda agua de lluvia templada porque los minerales del agua del grifo pueden acumularse en el sustrato. En Madrid el agua del Canal de Isabel II es blanda (10-47 mg/L CaCO3) y válida; lleva cloramina, que no se elimina dejándola reposar, pero no se le atribuyen daños a esta planta. Usar agua a temperatura ambiente y lavar el sustrato con un riego abundante de vez en cuando para arrastrar sales de abono [orientativo, sin fuente prioritaria].",
+      "notas": "El exceso de riego y el mal drenaje son la causa principal de pudrición de raíz y de tallo (NC State, RHS ficha). Discrepancia: la guía RHS de cactus pide no dejar secar en exceso el sustrato en crecimiento, mientras que Univ. Minnesota y NC State piden secado completo; se adopta el secado completo, más prudente frente a la pudrición. La sequía la tolera bien (NC State: tolerante a la sequía y a suelos secos).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere ambiente seco y poca humedad (NC State: tolera humedad baja). Los cactus se adaptan bien a viviendas con humedad relativa del 10-30 % (Univ. Minnesota) y al aire seco de la calefacción (guía RHS). No necesita humidificador ni agrupar plantas; no pulverizar las paletas (además, pulverizar no sube la humedad de forma útil). Lo que sí necesita es buena ventilación, sobre todo en verano (guía RHS). Ninguna fuente fija un porcentaje mínimo o ideal: se dejan en null.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": null,
+      "ideal_min_c": 10,
+      "ideal_max_c": null,
+      "notas": "Mínima adoptada 7 °C: convención del proyecto para cactus (nunca por debajo de 5-7 °C; se toma el extremo prudente). RHS la clasifica H2 (tolera temperaturas bajas pero no sobrevive a la helada; mínimas de 1 a 5 °C), dato de rusticidad bajo cristal en Reino Unido con sustrato seco, menos conservador; se descarta como mínima de interior. NC State: no tolera la helada. Reposo invernal: NC State pide 10-18 °C (50-65 °F) con muy poca agua y sol parcial; la guía RHS, noches de 8-10 °C. Se fija ideal_min_c = 10 °C, el valor común a ambas: noches de unos 10 °C en invierno. En crecimiento, temperatura normal de vivienda o terraza cálida. El frío excesivo causa muerte regresiva y manchas descoloridas en la piel (guía RHS). Ninguna fuente prioritaria fija máxima (max_c = null); en Madrid soporta el calor del verano con ventilación y aclimatación al sol [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus de drenaje rápido (NC State). RHS: compost a base de tierra (tipo John Innes), sin turba, con arena gruesa añadida, o un sustrato comercial para cactus sin turba; la guía RHS propone 2 partes de John Innes n.º 2 por 1 de grava hortícola (o hasta un 30 % de grava en volumen) y una capa de grava por encima. Univ. Minnesota: 1 parte de sustrato universal por 1 de arena gruesa; prueba: al apretarlo húmedo en la mano debe desmoronarse al soltarlo.",
+      "ph": "Indiferente: ácido, neutro o alcalino (RHS).",
+      "drenaje": "Imprescindible. Maceta con agujeros de drenaje; el agua retenida pudre las raíces en muy poco tiempo (Univ. Minnesota). Evitar macetas demasiado grandes, que quedan húmedas demasiado tiempo (guía RHS). Mejor barro cocido que plástico para que seque antes [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (RHS ficha) o abono líquido específico para cactus o rico en potasio (guía RHS); Univ. Minnesota propone para cactus un abono con más fósforo que nitrógeno a mitad de dosis.",
+      "npk": null,
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de etiqueta, como máximo una vez al mes y solo con crecimiento activo (aprox. abril-septiembre). Para esta especie, 3-4 abonados por temporada (RHS ficha) a esa dosis reducida; Univ. Minnesota se queda en 1-2 veces al año en cactus.",
+      "otono_invierno": "Nada durante el reposo (RHS ficha: sin agua ni abono en invierno).",
+      "notas": "Contradicción de frecuencia entre fuentes prioritarias: 1-2 veces al año (Univ. Minnesota), 3-4 veces por temporada (RHS ficha) o mensual (guía RHS). Se adopta la de la ficha RHS de la especie a dosis reducida, más prudente que la mensual. No abonar plantas recién trasplantadas o con raíz dañada [orientativo, sin fuente prioritaria]. Ninguna fuente da un NPK concreto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces llenen la maceta o la planta la desborde (guía RHS); al ser de crecimiento lento (NC State) no lo necesita a menudo. Ninguna fuente prioritaria da una frecuencia en años. Pasar solo a una maceta ligeramente mayor (guía RHS).",
+      "epoca": "Primavera (guía RHS), con el sustrato seco.",
+      "senales": "Raíces saliendo por los agujeros de drenaje, sustrato que se seca en muy poco tiempo, planta desproporcionada o que vuelca la maceta, sustrato compactado o con costra de sales [orientativo, sin fuente prioritaria]. Cómo: guantes gruesos y tiras de papel de periódico doblado (o guante de horno) como pinza para sujetar las paletas sin tocarlas (RHS ficha y guía); trabajar sobre papel o una bandeja para recoger gloquidios sueltos y no hacerlo en corriente de aire [orientativo, sin fuente prioritaria]. Esperar unos días antes de regar para que cicatricen las raíces dañadas [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No (RHS ficha: no requiere poda). Se pueden retirar paletas para limitar el tamaño o darle forma y para propagar (NC State: el tamaño se controla cultivándola en maceta).",
+      "epoca": "Primavera-verano, en crecimiento activo (cuando se toman las paletas para esquejar: NC State primavera, RHS verano).",
+      "como": "Con guantes gruesos y papel de periódico doblado: separar la paleta por la articulación, girándola o con un cuchillo limpio (NC State: romper una paleta). Retirar también paletas podridas o dañadas por el frío cortando hasta tejido sano [orientativo, sin fuente prioritaria]. Recoger los restos con cuidado (siguen soltando gloquidios) y no tirarlos al campo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno: de noviembre a principios de marzo en el hemisferio norte (guía RHS). En el hemisferio sur, de mayo a principios de septiembre [orientativo, sin fuente prioritaria].",
+      "cambios": "Fresco: noches de unos 10 °C (NC State: 10-18 °C; guía RHS: 8-10 °C), nunca por debajo de 7 °C. Seco: sin riego o casi (RHS ficha; NC State: muy poca agua), solo un poco si se arruga. Sin abono (RHS ficha). Toda la luz posible (RHS: luz plena todo el año; NC State admite sol parcial en invierno). Lejos de radiadores (guía RHS). El reposo fresco y seco con mucha luz favorece la floración (guía RHS; Univ. Minnesota), aunque en interior florece poco (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "Esqueje de paleta (cladodio)",
+        "Semilla"
+      ],
+      "epoca": "Paletas: primavera (NC State) o verano (RHS ficha); se adopta primavera-verano, con calor y crecimiento activo. Semilla: primavera (RHS ficha).",
+      "pasos": "Por paleta: 1) Con guantes gruesos y papel de periódico doblado (RHS ficha), separar por la articulación una paleta sana y madura. 2) Dejar secar el corte al aire hasta que forme callo, de un día a una semana (guía RHS; Univ. Minnesota). 3) Colocarla de pie, apenas enterrada por la base, en sustrato de cactus o en 2 partes de John Innes n.º 1 por 1 de grava (guía RHS), o en arena ligeramente húmeda y limpia (Univ. Minnesota). 4) Mantener el sustrato solo ligeramente húmedo hasta que enraíce, para evitar la podredumbre (guía RHS), con luz brillante sin sol abrasador [orientativo, sin fuente prioritaria]. 5) Cuando tenga raíces, trasplantar a sustrato normal de cactus (Univ. Minnesota). Por semilla: remojar antes de sembrar en primavera y mantener a 21 °C para germinar (RHS ficha), en sitio luminoso sin sol directo, cubierto con cristal o plástico ventilado a diario y sustrato húmedo sin encharcar (guía RHS); las plántulas pueden tardar hasta 12 meses en poder repicarse (guía RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo en la base de las paletas por exceso de riego y mal drenaje (NC State), sobre todo con frío en invierno. Suele ser irreversible en la base: salvar paletas sanas como esquejes."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato húmedo o poco drenante (RHS ficha; NC State). Es la causa principal de muerte."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Paletas blandas, translúcidas o amarillentas que se doblan: exceso de agua o pudrición avanzada, o daño por frío o helada [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Paletas arrugadas y deshinchadas por falta de agua prolongada (guía RHS: la falta de riego causa arrugamiento) o, en reposo, por raíces podridas que ya no absorben. Comprobar las raíces antes de regar."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Paletas nuevas finas, alargadas, estrechas y pálidas por falta de luz (guía RHS: la luz insuficiente produce plantas débiles y deformes)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas pardas secas que se encogen en costra (costra corchosa) por exceso de luz o insolación brusca, o manchas descoloridas por frío excesivo (guía RHS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paletas amarillentas o blanqueadas en la cara expuesta al pasar de golpe a pleno sol o al exterior sin aclimatar (Univ. Minnesota recomienda aclimatar)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las areolas, entre los gloquidios y en las articulaciones (RHS ficha; NC State). Difícil de ver entre los gloquidios blancos. Retirar a mano con un bastoncillo con guantes; si persiste, solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (piojo) sobre las paletas (RHS ficha; NC State). Retirar mecánicamente y, si persiste, producto listo para usar de uso no profesional del Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en ambiente cálido y seco (guía RHS la cita entre las plagas de cactus); punteado pálido o pardo en las paletas y telilla fina."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sin paletas nuevas en temporada: falta de luz, raíces dañadas por exceso de riego (guía RHS: el exceso de agua causa crecimiento atrofiado) o maceta agotada. Es de crecimiento lento (NC State): no confundir con su ritmo normal."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Calor seco de 35-40 °C y sol fuerte: le conviene, es una planta de desierto. En ventana sur u oeste puede estar a pleno sol si ya está aclimatada; si viene de vivero o de un sitio poco luminoso, acostumbrarla en 2-3 semanas y evitar al principio el sol de 11 a 15 h (Univ. Minnesota). Puede pasar el verano en terraza o balcón: primero en semisombra protegida y después a pleno sol (Univ. Minnesota), protegida de tormentas que encharquen la maceta [orientativo, sin fuente prioritaria]. Con calor el sustrato se seca antes: comprobar más a menudo con el dedo y el peso, pero regar solo cuando esté seco del todo. Ventilar bien (guía RHS). Detrás de un cristal muy caliente sin ventilación puede quemarse: abrir la ventana o separarla un poco [orientativo, sin fuente prioritaria]. Vigilar la araña roja con el aire seco.",
+    "invierno": "Con calefacción, el aire seco (HR <30 %) no es un problema para este cactus (guía RHS; Univ. Minnesota: 10-30 % de HR). El problema es el calor sin luz: lejos de radiadores (guía RHS), en la habitación más fresca y luminosa de la casa, con noches de unos 10 °C (8-10 °C según la guía RHS) y sin riego. Junto a un cristal frío de ventana sur está bien siempre que la temperatura junto a la planta no baje de 7 °C; en noches de helada, separarla del cristal o no dejarla entre la ventana y la cortina [orientativo, sin fuente prioritaria]. En terraza en Madrid no debe pasar el invierno: hiela, y RHS solo la da como tolerante al frío sin helada (H2). Entrarla cuando las mínimas bajen de unos 10 °C [orientativo, sin fuente prioritaria].",
+    "ubicacion_recomendada": "Ventana sur u oeste con sol directo, en una balda o alféizar alto, fuera del alcance de niños pequeños, perros y gatos y lejos de pasillos, sofás, cortinas y zonas de paso donde se pueda rozar (los gloquidios se sueltan al menor roce: NC State). En verano puede salir a terraza con aclimatación; en invierno, rincón luminoso y fresco sin calefacción directa."
+  },
+  "lagunas": [
+    "Nomenclatura sin cambio: Kew (WCVP/POWO) acepta Opuntia microdasys (Lehm.) Pfeiff. (Enum. Diagn. Cact.: 154, 1837); basiónimo Cactus microdasys Lehm. Sinónimos heterotípicos: Opuntia macrocalyx Griffiths, O. microdasys subvar. albiflora Backeb., var. albispina Fobe, var. laevior Salm-Dyck, var. minor Salm-Dyck, f. minor (Salm-Dyck) Schelle, var. pallida Borg, Opuntia pulvinata DC. GBIF también la da como aceptada. La página de POWO estaba bloqueada (Cloudflare 403); se consultaron los mismos datos de Kew/WCVP a través de ColPlantA (Kew).",
+    "Missouri Botanical Garden: no se encontró ficha accesible de la especie en Plant Finder.",
+    "Toxicidad química en humanos (niños): ninguna fuente prioritaria la evalúa; se deja 'desconocida'. ASPCA evalúa el género Opuntia ('Tree Cactus', Opuntia species), no la especie concreta.",
+    "Evidencia sobre la retirada de gloquidios de la piel: el estudio comparativo (Martinez 1987) se hizo en animales de experimentación y solo se ha podido leer el resumen; el tipo de cola no consta.",
+    "Sin temperatura máxima tolerada en fuentes prioritarias (max_c = null) ni porcentajes de humedad mínima o ideal (null).",
+    "Sin frecuencia de trasplante en años ni NPK concreto en fuentes prioritarias.",
+    "Tamaño en maceta de interior sin cifra en fuentes prioritarias; RHS da una envergadura máxima de 0-0,1 m que parece un error de su base de datos (NC State: 1,2-1,5 m al exterior).",
+    "Estatus en España: Kew la da como introducida en España peninsular, Baleares y Canarias; no está en el Catálogo Español de Especies Exóticas Invasoras (RD 630/2013, texto consolidado consultado), pero no se ha comprobado su estatus en catálogos autonómicos.",
+    "Rasgos diferenciadores frente a Opuntia rufida y Schlumbergera sin fuente prioritaria consultada (marcados como orientativos)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/11881/opuntia-microdasys/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Opuntia microdasys",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/opuntia-microdasys/",
+      "institucion": "NC State Extension – Gardener Plant Toolbox, Opuntia microdasys",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/tree-cactus",
+      "institucion": "ASPCA – Toxic and Non-Toxic Plants, Tree Cactus (Opuntia species)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:136806-1",
+      "institucion": "Royal Botanic Gardens, Kew – World Checklist of Vascular Plants (WCVP, datos de POWO servidos por ColPlantA), Opuntia microdasys (Lehm.) Pfeiff.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-8565",
+      "institucion": "BOE – Real Decreto 630/2013, Catálogo Español de Especies Exóticas Invasoras (texto consolidado)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1166362/",
+      "institucion": "Whiting DA, Bristow JH. Dermatitis and keratoconjunctivitis caused by a prickly pear (Opuntia microdasys). S Afr Med J 1975;49(35):1445-8 (resumen en PubMed)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31544314/",
+      "institucion": "Dowler KK et al. Cactus-induced keratoconjunctivitis in Texas: a case series of three dogs and one cat. Vet Ophthalmol 2020;23(2):374-385 (Texas A&M; resumen en PubMed)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24669148/",
+      "institucion": "Odat TA et al. Prickly pear spine keratoconjunctivitis. Middle East Afr J Ophthalmol 2014;21(1):61-5 (resumen en PubMed)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3687870/",
+      "institucion": "Martinez TT et al. Removal of cactus spines from the skin: a comparative evaluation of several methods. Am J Dis Child 1987;141(12):1291-2 (resumen en PubMed)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6476000/",
+      "institucion": "Novel Method for Removing Embedded Cactus Spines in the Emergency Department. Caso clínico revisado por pares, 2019 (doi 10.1155/2019/6062531; PMC6476000)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://api.gbif.org/v1/species/match?name=Opuntia%20microdasys&kingdom=Plantae",
+      "institucion": "GBIF – Backbone Taxonomy (consulta de nombre)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,356 @@
+{
+  "nombre_cientifico": "Dracaena reflexa",
+  "nombres_comunes": [
+    "drácena reflexa",
+    "canción de la India",
+    "pleomele",
+    "Song of India",
+    "Song of Jamaica"
+  ],
+  "familia": "Asparagaceae",
+  "origen": "Noreste de Mozambique, Madagascar e islas del oeste del océano Índico (Aldabra, archipiélago de Chagos, Comoras, Mauricio, Rodrigues, Reunión y Seychelles), según POWO (Kew). Introducida en Belice, República Centroafricana e islas Salomón.",
+  "clima_nativo": "Tropical sin heladas, costero e insular del océano Índico occidental; arbusto o arbolito perenne de sotobosque y matorral. NC State la sitúa en zonas USDA 11-12 y UF/IFAS en 10B-11 (exterior solo en climas sin frío); en interior conviene no bajar de 16 °C.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Lanceoladas a lineares, cortas (lámina de unos 5-10 cm según UF/IFAS en la especie tipo; algo más largas en los cultivares de maceta), sin pecíolo, que abrazan el tallo; brillantes, coriáceas, de margen entero, sin pelos. Dispuestas en espiral muy densa alrededor de todo el tallo, formando rosetas cortas y apretadas a lo largo de los tallos y no solo en un penacho terminal; las hojas se arquean hacia atrás o hacia abajo (reflexas), de ahí el nombre. La especie tipo tiene un verde muy oscuro, más oscuro que la mayoría de las plantas.",
+    "nerviacion": "Paralela, propia de monocotiledónea: nervios longitudinales finos, sin nervio central prominente ni nervios secundarios ramificados.",
+    "variegacion": "Especie tipo: verde oscuro uniforme. 'Song of India' (la más vendida): bandas marginales anchas de color amarillo crema o amarillo verdoso con una franja central verde. 'Song of Jamaica': verde con finas rayas longitudinales verde lima o verde claro, sin bordes amarillos marcados. La variegación se mantiene mejor con luz brillante; con poca luz las hojas nuevas salen más verdes.",
+    "tallo": "Uno o varios tallos delgados, flexibles y algo sinuosos, que a menudo se inclinan o se tumban con la edad; corteza gris, lisa, que se vuelve más rugosa al madurar, con cicatrices foliares anulares. Joven suele ser de un solo tallo y se ramifica a partir de ~1 m de altura. Si le falta luz, la parte baja de los tallos se queda desnuda.",
+    "habito": "Arbusto erguido y tupido, de forma irregular, que con los años casi se convierte en arbolito multitallo. Crecimiento lento. En interior rara vez florece (espigas de flores pequeñas, blancas y fragantes, y bayas pequeñas).",
+    "tamano_adulto_interior": "1-1,8 m de alto y 0,3-1 m de ancho en maceta doméstica (NC State: 0,9-1,8 m; RHS 'Song of India': 1-1,5 m). En grandes interiores o en exterior tropical puede alcanzar 4,5-6 m.",
+    "confusiones": [
+      {
+        "especie": "Dracaena marginata (POWO la trata como Dracaena reflexa var. angustifolia)",
+        "rasgo_diferenciador": "Hojas mucho más largas y estrechas (hasta ~60 cm de largo y 1-1,5 cm de ancho), con un margen fino rojo o púrpura, agrupadas solo en penachos terminales sobre tallos desnudos y rígidos. D. reflexa tiene hojas cortas y más anchas en espiral densa por todo el tallo, sin borde rojo; sus cultivares tienen bandas amarillas o verde lima."
+      },
+      {
+        "especie": "Dracaena sanderiana (bambú de la suerte, 'Ribbon Plant')",
+        "rasgo_diferenciador": "Tallos verdes tipo caña, con aspecto de bambú, que no se sostienen erguidos más allá de 0,6-0,9 m, y hojas más separadas a lo largo del tallo con margen blanco o amarillo claro. D. reflexa tiene tallos leñosos grisáceos y las hojas apiñadas en rosetas en espiral."
+      },
+      {
+        "especie": "Dracaena fragrans (palo de agua, tronco del Brasil)",
+        "rasgo_diferenciador": "Hojas mucho más largas y anchas (tipo hoja de maíz) en un solo penacho en lo alto de cañas gruesas; 'Massangeana' lleva una franja central amarilla, no bordes amarillos."
+      },
+      {
+        "especie": "Cordyline fruticosa",
+        "rasgo_diferenciador": "Hojas más anchas con pecíolo acanalado diferenciado y nervio central marcado, a menudo rojas o rosadas; D. reflexa no tiene pecíolo y su hoja es corta y lanceolada."
+      },
+      {
+        "especie": "Pandanus veitchii / Pandanus spp.",
+        "rasgo_diferenciador": "Hojas acintadas en espiral con bandas crema parecidas a 'Song of India', pero con el margen dentado y espinoso y raíces aéreas tipo zanco; D. reflexa tiene el margen totalmente liso."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas",
+    "sintomas": "Perros y gatos: vómitos (a veces con sangre), decaimiento, falta de apetito, salivación excesiva, debilidad, irritación de estómago, diarrea e incoordinación; en gatos además pupilas dilatadas. Personas (niños): toxicidad de gravedad baja según NC State; irritación de boca y garganta, náuseas, vómitos y diarrea; algunas especies del género pueden irritar la piel al manipularlas. Partes tóxicas: hojas, frutos y savia. Ante ingestión, llamar al veterinario o, en personas, al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este (sol suave de mañana) o a 1-2 m de una ventana sur u oeste con visillo; en norte solo si es muy luminosa, aceptando crecimiento lento y menos variegación.",
+      "tolera_sol_directo": "Tolera algo de sol directo suave (NC State: semisombra con 2-6 h de sol; UF/IFAS: crece mejor con luz directa en interior; RHS: luz plena pero sombreada del sol fuerte). El sol intenso del mediodía y la tarde tras el cristal causa quemaduras (zonas descoloridas o manchas secas color óxido) y hojas desvaídas.",
+      "notas": "Óptimo: luz brillante indirecta, 500-1000 fc (≈5400-10800 lux), con algo de sol suave. Tolera luz media (100-500 fc, ≈1100-5400 lux), pero entonces crece más despacio, la parte baja de los tallos pierde hojas (Clemson: el follaje se mantiene denso hasta la base solo con luz suficiente) y los cultivares pierden contraste en las hojas nuevas. No es planta de luz baja sostenida (<1100 lux). Los cambios de poca a mucha luz deben ser graduales. Los valores en lux aplican la escala del proyecto a lo que dicen las fuentes; ninguna fuente prioritaria da cifras en lux para interior.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes de más de 25-30 cm) y la maceta pese claramente menos; entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Dejar que la capa superior se seque ligeramente entre riegos, sin llegar a que el cepellón entero se reseque. Nunca regar por calendario.",
+      "primavera_verano": "Con calor y buena luz el sustrato se seca antes: comprobarlo cada 4-7 días con el dedo y el peso de la maceta y regar solo cuando toque. Riego moderado (RHS).",
+      "otono_invierno": "Con menos luz y crecimiento lento, regar con moderación (RHS: poco en invierno): comprobar cada 7-10 días; el sustrato tarda bastante más en secarse. Junto a un radiador puede secarse antes: comprobar, no suponer.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua a temperatura ambiente, nunca fría. El género Dracaena es muy sensible al fluoruro y al boro (puntas y márgenes amarillos o necrosados), y NC State y RHS aconsejan agua filtrada o de lluvia. Pero el agua del grifo de Madrid (Canal de Isabel II) tiene fluoruro <0,1 mg/L y es blanda, así que sirve tal cual; dejarla reposar no elimina la cloramina y no hace falta. En otras ciudades con agua fluorada o muy salina, usar agua de lluvia o con pocas sales.",
+      "notas": "El exceso de riego y el sustrato que no drena son la causa principal de pudrición de raíces (NC State, Clemson). UF/IFAS le da una tolerancia alta a la sequía. Contradicción: NC State y UF/IFAS (ENH892) dicen mantener el sustrato húmedo, mientras que Clemson indica dejarlo secar ligeramente entre riegos y RHS pide riego moderado; se adopta la opción más conservadora para la planta (dejar secar la capa superior), porque el exceso de riego es la causa nº 1 de muerte. Para lavar sales acumuladas, regar con abundante agua dejando que drene bien, de vez en cuando en temporada de crecimiento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "NC State dice que prefiere humedad alta y propone humidificador. Clemson indica que por debajo del 30-40 % de HR (habitual en invierno con calefacción) aparecen puntas y bordes secos. Se toma un 40 % como mínimo conservador; el 50 % ideal es [orientativo, sin fuente prioritaria]. Pulverizar las hojas no sube la humedad de forma útil (aunque Clemson lo sugiera): usar humidificador o agrupar plantas. En producción se cultiva al 60-100 % de HR, valor que no hace falta en casa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "UF/IFAS (género) recomienda 21-27 °C en interior y mantenerla siempre por encima de 15,6 °C (60 °F): por debajo aparece daño por frío (manchas necróticas viscosas y caída masiva de hojas). NC State indica 18-24 °C (65-75 °F) como temperatura preferida y evitar corrientes frías y cambios bruscos. Clemson da 15,5-21 °C de día y unos 5-6 °C menos de noche, y RHS la clasifica como H1B (mínimo 10-15 °C). Se adopta como mínimo absoluto 16 °C (el valor más alto entre los mínimos explícitos, UF/IFAS); los 18 °C de NC State son una preferencia y se usan como ideal mínimo. Por encima de 32 °C (90 °F) UF/IFAS describe clorosis foliar en producción y enrollamiento temporal de hojas por calor y luz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de calidad para plantas de interior que retenga algo de humedad pero airee bien: base de turba o fibra de coco con corteza de pino fina, o compost con base franca (loam) sin turba, como recomienda RHS. NC State aconseja añadir algo de perlita o arena para mejorar el drenaje, pero Clemson advierte de no usar mezclas con un porcentaje muy alto de perlita (puede aportar fluoruro): usar una proporción moderada, no mayoritaria. En macetas grandes, un 10-20 % de arena gruesa da estabilidad. Maceta siempre con agujeros de drenaje.",
+      "ph": "6,0-6,5",
+      "drenaje": "Bueno. Un sustrato que no drena rápido causa pudrición de raíces; nunca dejar la maceta en agua estancada. Con pH por debajo de 6,0 aparecen clorosis y quemaduras de puntas; por encima de 6,5, falta de hierro (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes de interior, con micronutrientes y pobre en boro y flúor. Evitar abonos con superfosfato (suele llevar mucho flúor).",
+      "npk": "Equilibrado; en producción UF/IFAS recomienda proporciones 3:1:2 o 3:1:3",
+      "primavera_verano": "Una vez al mes, de marzo a septiembre en el hemisferio norte, a ¼-½ de la dosis de la etiqueta, siempre sobre sustrato húmedo.",
+      "otono_invierno": "No abonar (octubre-febrero), ni durante las 4 semanas siguientes a llevarla a casa o trasplantarla.",
+      "notas": "NC State, RHS y Clemson coinciden en abonar mensualmente en primavera-verano. El exceso de abono quema puntas y márgenes (Clemson). Si se acumulan sales, lavar el sustrato con abundante agua antes de volver a abonar. La reducción a ¼-½ de la dosis es la convención del proyecto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o antes si las raíces salen por el drenaje; crece despacio. En años sin trasplante, renovar los 2-3 cm superiores de sustrato (cubrir con sustrato nuevo) en primavera, como indica RHS.",
+      "epoca": "Primavera (marzo-mayo en Madrid), al inicio del crecimiento. No trasplantar en las 4 semanas siguientes a llevarla a casa (UF/IFAS).",
+      "senales": "Raíces saliendo por los agujeros de drenaje o dando vueltas en la superficie, el sustrato se seca en muy pocos días, o la planta se desestabiliza por su altura. Pasar a una maceta solo 2-3 cm más ancha, con sustrato nuevo y buen drenaje.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible. Sirve para controlar la altura, quitar tallos débiles o desnudos y hacer que ramifique.",
+      "epoca": "Primavera.",
+      "como": "Cortar con tijera limpia los tallos demasiado largos o desnudos a la altura deseada (RHS: los tallos débiles pueden acortarse hasta ~15 cm); de la zona del corte salen hojas y brotes nuevos. Aprovechar el trozo cortado como esqueje. Quitar las hojas secas o amarillas desde la base.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Noviembre-febrero en el hemisferio norte (mayo-agosto en el sur): no es una dormancia verdadera, sino un parón de crecimiento por menos luz.",
+      "cambios": "Regar poco y solo cuando el sustrato lo pida, no abonar, no trasplantar ni podar fuerte, y mantenerla por encima de 16 °C, lejos de cristales fríos y del chorro de radiadores.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta",
+        "esqueje de tallo (trozos de tallo)",
+        "acodo aéreo",
+        "separación de brotes basales",
+        "semilla (raro en interior)"
+      ],
+      "epoca": "Primavera y principio de verano (RHS: esquejes semileñosos de finales de primavera a principios de verano; Clemson: también a finales de verano).",
+      "pasos": "1) Cortar con tijera limpia un esqueje de punta de 10-20 cm o un trozo de tallo semileñoso (del grosor de un lápiz). 2) Quitar las hojas de la parte inferior. 3) Enraizar en sustrato ligero y húmedo (o en agua) a 18-24 °C; RHS indica que puede necesitar calor de fondo. 4) Mantener en luz brillante sin sol directo y con el sustrato apenas húmedo, cubriendo con una bolsa transparente que se ventila cada pocos días. 5) Con raíces de unos 3 cm (o brotes nuevos), pasar a maceta pequeña. Los ejemplares grandes se propagan mejor por acodo aéreo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco (HR <30-40 %, calefacción), sales de abono acumuladas, riego irregular o agua fría. Es un género sensible al fluoruro y al boro, pero en Madrid no se debe atribuir al agua del grifo (fluoruro <0,1 mg/L)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Exceso de abono o sales acumuladas, pH del sustrato demasiado bajo o aire muy seco."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal si son pocas hojas inferiores: la planta pierde las viejas con la edad. Si amarillean muchas seguidas, sospechar exceso de riego; si además falta luz, la base del tallo se queda desnuda."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Riego inadecuado: tanto el exceso como la falta de agua amarillean las hojas (NC State). Revisar primero raíces y drenaje."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Riegos demasiado frecuentes, sustrato que no drena o plato con agua estancada, sobre todo en invierno o con poca luz."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Exceso de agua prolongado con frío: la base del tallo se ablanda o la corteza se despega con facilidad."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Cambios bruscos de temperatura, corrientes de aire, exceso de agua o mal drenaje tras la compra o un traslado."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío por debajo de 15-16 °C (cristales fríos, transporte en invierno): manchas necróticas viscosas y caída de hojas."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares (hongos o bacterias) cuando las hojas se mojan al regar o hay poca ventilación (NC State)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Sol directo intenso a través del cristal: manchas secas redondeadas o zonas hundidas color óxido cerca de las puntas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paso brusco a sol directo, sobre todo en ventanas sur u oeste en verano: hojas desvaídas o blanqueadas."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Exceso de luz o de temperatura: el enrollamiento es temporal y revierte al bajar la luz o el calor."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: tallos alargados que se inclinan, entrenudos largos y tallos desnudos en la base."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "En 'Song of India' y 'Song of Jamaica', la falta de luz hace que las hojas nuevas salgan más verdes y con menos contraste."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Temperaturas por encima de 32 °C con poco hierro disponible o pH del sustrato por encima de 6,5."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente (verano madrileño, calefacción)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips o araña roja en fase inicial."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa escondida en las axilas de las hojas apiñadas de las rosetas."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, una de las plagas más comunes de las drácenas."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Moho saprófito en la superficie del sustrato por riegos demasiado frecuentes, sobre todo con poca luz."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla 1-2 m de ventanas sur y oeste o poner visillo: el sol del mediodía y la tarde tras el cristal quema y destiñe las hojas, y por encima de 32 °C sufre clorosis y enrollamiento. Comprobar el sustrato cada 4-7 días porque se seca antes, pero regar solo si los 2-3 cm superiores están secos. Con el aire muy seco (HR exterior ≈38 %) revisar cada semana el envés y las axilas de las rosetas por si hay araña roja, trips o cochinilla. No ponerla en el chorro directo del aire acondicionado. Abonar una vez al mes a ¼-½ de la dosis.",
+    "invierno": "Con calefacción la HR interior suele bajar del 30 %: aparecen puntas secas y araña roja. Usar humidificador o agrupar plantas (pulverizar no sirve). Alejarla de radiadores y de los cristales fríos por la noche: no debe bajar de 16 °C; las corrientes frías provocan manchas necróticas y caída de hojas. Regar poco y solo cuando el sustrato esté seco en los primeros 2-3 cm, y no abonar de octubre a febrero. Si se compra en invierno, protegerla del frío en el trayecto. El agua del grifo de Madrid sirve tal cual, a temperatura ambiente.",
+    "ubicacion_recomendada": "Salón o despacho luminoso junto a una ventana este, o a 1-2 m de una ventana sur u oeste con visillo; girar la maceta cada pocas semanas para que crezca recta. Lejos de radiadores, de la salida del aire acondicionado y de puertas a la calle o terrazas en invierno. Fuera del alcance de perros, gatos y niños pequeños. En terraza, solo de junio a septiembre a la sombra luminosa y nunca por debajo de 16 °C."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Dracaena reflexa Lam. con sinónimos homotípicos Pleomele reflexa (Lam.) N.E.Br., Cordyline reflexa (Lam.) Endl., Draco reflexa (Lam.) Kuntze y Lomatophyllum reflexum (Lam.) Bojer. NC State usa 'Dracaena reflexa var. reflexa' y lista como nombres previos Dracaena cernua y Pleomele porteana. No hay cambio de nombre para la especie, pero POWO trata Dracaena marginata Lam. como sinónimo de Dracaena reflexa var. angustifolia Baker (comprobado en la API de POWO): la app debe distinguir ambas plantas por su aspecto aunque taxonómicamente sean la misma especie.",
+    "No se ha encontrado en fuentes prioritarias un rango en lux o pies-candela para interior específico de D. reflexa; los 2500-3250 fc de UF/IFAS son de producción en vivero para las 'otras especies' del género. Los lux de la ficha aplican la escala del proyecto a lo que dicen las fuentes.",
+    "Humedad: ninguna fuente prioritaria da una cifra específica para D. reflexa en interior; el mínimo del 40 % sale de Clemson (género) y el ideal del 50 % es orientativo.",
+    "Varios datos de cultivo (temperatura, pH, abonado NPK, daño por frío, fluoruro) proceden de fuentes prioritarias sobre el género Dracaena en general (UF/IFAS ENH892, Clemson HGIC 1504), no de estudios específicos de D. reflexa.",
+    "Frecuencia de trasplante (cada 2-3 años) y tamaño del esqueje y de las raíces para trasplantarlo solo de fuente complementaria (ukhouseplants).",
+    "Missouri Botanical Garden Plant Finder no se consultó para esta especie (no apareció ficha en la búsqueda).",
+    "No se ha encontrado en fuentes prioritarias una descripción botánica precisa del tamaño de hoja de los cultivares 'Song of India' y 'Song of Jamaica'; el dato de 5-10 cm de UF/IFAS es de la especie tipo."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-reflexa-var-reflexa/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC 1504)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP149",
+      "institucion": "UF/IFAS Extension, EDIS ENH892 'Cultural Guidelines for Commercial Production of Interiorscape Dracaena'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/FP187",
+      "institucion": "UF/IFAS Extension, EDIS FPS187 'Dracaena reflexa: Reflexed Dracaena' (Gilman, Klein y Hansen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/256029/dracaena-reflexa-song-of-india-v/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de Dracaena reflexa 'Song of India'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/65427/dracaena-reflexa/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de Dracaena reflexa",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:534338-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.ukhouseplants.com/plants/song-of-india-dracaena-reflexa",
+      "institucion": "ukhouseplants (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

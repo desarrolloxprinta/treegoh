@@ -1,0 +1,339 @@
+{
+  "nombre_cientifico": "Aloe vera",
+  "nombres_comunes": [
+    "aloe vera",
+    "sábila",
+    "aloe de Barbados"
+  ],
+  "familia": "Asphodelaceae",
+  "origen": "Península arábiga según NC State Extension (POWO, citado en buscador y no abierto, lo sitúa en las montañas Hajar, norte de Omán). Su origen exacto es incierto porque lleva milenios en cultivo (Univ. Arizona). Hoy está naturalizada en muchas regiones cálidas.",
+  "clima_nativo": "Árido y semiárido, cálido y sin heladas, en desierto y matorral seco: lluvias escasas e irregulares, mucho sol y sustratos pedregosos y pobres.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas basales en roseta, gruesas, carnosas y suculentas, con gel translúcido dentro. Son lanceoladas y acaban en punta. Miden de 20 a 45 cm de largo y de 2,5 a 7,5 cm de ancho, y en el margen llevan dientes cortos, blandos y algo espaciados (no espinas duras). El color va de verde grisáceo a verde azulado. Las plantas jóvenes tienen manchas o motas verde claro y grisáceas que suelen desaparecer al madurar. El corte de la hoja deja ver un gel incoloro bajo la piel y, justo debajo de la epidermis, un látex amarillento.",
+    "nerviacion": "Paralela y no visible a simple vista: hoja de monocotiledónea suculenta, sin nervios marcados.",
+    "variegacion": "La especie no es variegada. Las motas claras de los ejemplares jóvenes no son variegación. Existen cultivares o híbridos comerciales con rayas, pero no se han documentado aquí.",
+    "tallo": "Acaule o con tallo muy corto, oculto por la roseta. Echa hijuelos alrededor de la base desde rizomas subterráneos y forma macollas.",
+    "habito": "Roseta erguida o algo abierta que forma grupos de hijuelos. Un ejemplar adulto con suficiente luz puede sacar una vara floral de 60 a 90 cm con flores tubulares amarillas o anaranjadas (según algunas fuentes, rosa coral o rojas). En interior florece poco.",
+    "tamano_adulto_interior": "De 30 a 60 cm de alto y de 30 a 75 cm de ancho, contando la macolla (NC State). Fuera, en clima benigno, alcanza de 0,5 a 1 m (RHS).",
+    "confusiones": [
+      {
+        "especie": "Aloe maculata (= A. saponaria) y otros aloes de jardín",
+        "rasgo_diferenciador": "Hojas más anchas y triangulares, con motas blancas que se mantienen en el adulto y dientes marginales pardos más duros. Aloe vera adulta es verde grisácea casi lisa y tiene dientes blandos."
+      },
+      {
+        "especie": "Aloe arborescens",
+        "rasgo_diferenciador": "Forma tallos ramificados y leñosos con rosetas en las puntas, y sus hojas son más estrechas y curvadas, con dientes marcados. Aloe vera no tiene tallo visible."
+      },
+      {
+        "especie": "Agave spp. (p. ej. Agave americana)",
+        "rasgo_diferenciador": "Hojas rígidas y fibrosas con una espina terminal dura y punzante, sin gel translúcido dentro. La hoja de aloe es blanda y gelatinosa al corte."
+      },
+      {
+        "especie": "Gasteria spp.",
+        "rasgo_diferenciador": "Hojas en forma de lengua, a menudo en dos hileras (dísticas), con verrugas o tubérculos blancos y sin dientes marginales. Las flores, curvadas, recuerdan a un estómago."
+      },
+      {
+        "especie": "Haworthia / Haworthiopsis spp.",
+        "rasgo_diferenciador": "Rosetas mucho más pequeñas (casi siempre de menos de 15 cm), con bandas o tubérculos blancos o con 'ventanas' translúcidas en la punta de la hoja."
+      },
+      {
+        "especie": "Sansevieria (Dracaena trifasciata) joven",
+        "rasgo_diferenciador": "Hojas planas y duras, con bandas transversales y sin dientes en el margen ni gel interior."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Glucósidos antraquinónicos (aloína y otros; purgantes) y saponinas. Se concentran en el látex amarillo que hay bajo la piel de la hoja. Según ASPCA, el gel interior se considera seguro de ingerir.",
+    "sintomas": "En perros y gatos: vómitos, diarrea y letargo (ASPCA, Pet Poison Helpline). En personas que ingieren la hoja: calambres abdominales, diarrea, náuseas, indigestión y orina rojiza. El látex puede irritar la piel. Gravedad baja según NC State. Ante una ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F3",
+      "F2",
+      "F1",
+      "F5",
+      "F8"
+    ],
+    "notas": "Fuentes coincidentes. RHS la clasifica como 'nociva si se ingiere' para personas, perros, gatos y conejos y aconseja usar guantes al manipularla. La gravedad depende de la cantidad ingerida y del tamaño del animal."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur u oeste (NC State, RHS, Univ. Arizona): lo más luminoso de la casa. Con orientación este puede valer si da sol de mañana. En norte la luz se queda corta y la planta se ahíla.",
+      "tolera_sol_directo": "Sí, con aclimatación. Varias horas de sol directo son su óptimo (NC State: al menos 6 h de sol o luz indirecta muy intensa; Univ. Maryland: varias horas de sol directo). El paso brusco de interior a sol pleno, sobre todo al sacarla al exterior, la quema (UF/IFAS, SDSU): hay que acostumbrarla poco a poco a lo largo de 1-2 semanas, empezando por semisombra.",
+      "notas": "Por la escala del proyecto, lo ideal es luz directa (>10760 lux, >1000 fc), y el mínimo útil para mantenerla es luz brillante indirecta alta (≈5380 lux, 500 fc). Por debajo se ahíla y las hojas se abren y caen. Contradicción entre fuentes: SDSU recomienda luz brillante indirecta y avisa de que el sol directo puede quemar, mientras que NC State, RHS, Univ. Maryland y Univ. Arizona recomiendan sol pleno. Para la planta se adopta lo más prudente: máxima luz posible y sol directo solo tras aclimatación gradual, vigilando que las hojas no se vuelvan pardo-rojizas o blanquecinas en verano. Las lámparas de cultivo sirven para complementar la luz (Univ. Maryland). lux_max = null: ninguna fuente fija un techo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco del todo. Se comprueba metiendo el dedo unos 5 cm (más en macetas grandes) y notando que la maceta pesa claramente menos. Entonces se riega a fondo hasta que salga agua por los agujeros de drenaje, y a los 10-15 minutos se vacía el plato. Nunca se riega por calendario.",
+      "primavera_verano": "En crecimiento activo, empapar a fondo y esperar a que el sustrato se seque por completo antes del siguiente riego (Univ. Arizona, NC State, RHS: riego moderado). Como orientación, el ciclo suele ser de 1-3 semanas según la maceta, la luz y el calor, pero lo que manda es la comprobación del sustrato.",
+      "otono_invierno": "Riego escaso (RHS: 'sparingly'; NC State, SDSU: menos frecuente). Con la planta casi parada, el sustrato tarda mucho más en secarse: dejarlo seco del todo y unos días más antes de regar, a veces solo una vez cada 3-6 semanas. Si la habitación está fresca (<15 °C), regar todavía menos.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo (en Madrid, agua blanda del Canal de Isabel II; dejarla reposar no elimina la cloramina, pero tampoco hace falta). Lo que importa es que el agua drene y no se quede en el plato.",
+      "notas": "El exceso de riego, que pudre las raíces, es el problema principal en todas las fuentes. Si le falta agua, las hojas se ven apagadas, finas, arrugadas o acartonadas, y se recuperan al regar (SDSU). Si le sobra, las hojas se ablandan, se vuelven translúcidas y la base se pudre.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No necesita humedad extra: el aire normal de una casa, incluido el seco de invierno con calefacción, le va bien (SDSU). Al contrario, el frío unido a mucha humedad favorece la roya y los hongos (SDSU). No pulverizar las hojas, porque no sirve y el agua en la roseta puede pudrirla. Ninguna fuente da cifras en porcentaje (anotado en lagunas).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 13,
+      "ideal_max_c": 29,
+      "notas": "RHS la clasifica como H1C: mínimo de 5-10 °C, se puede sacar fuera en verano. SDSU da 13-29 °C (55-85 °F) como rango adecuado. Se adopta 10 °C como mínimo prudente (el extremo superior del rango RHS) y se evitan las heladas por completo (Univ. Arizona, SDSU). El frío con sustrato húmedo es la combinación más peligrosa. Ninguna fuente prioritaria fija un máximo: en su hábitat soporta calor fuerte si está aclimatada y no le falta ventilación. Por encima de 30 °C detrás de un cristal con sol directo, vigilar quemaduras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato comercial para cactus y suculentas (NC State, RHS, SDSU, Univ. Arizona). Otra opción es sustrato universal sin turba o con base de tierra, mezclado con perlita, grava fina (grit) o arena gruesa, aproximadamente a partes iguales (RHS, Univ. Arizona).",
+      "ph": "Tolera pH ácido, neutro o alcalino (NC State, RHS). Ninguna fuente da un rango preciso.",
+      "drenaje": "Muy alto y obligatorio. Maceta con uno o varios agujeros de drenaje, mejor de barro, que transpira y se seca antes (NC State, Univ. Arizona). Nunca debe quedarse agua en el plato o en un cubremacetas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de interior o para cactus y suculentas.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta y solo con crecimiento activo (RHS: mensual de mayo a agosto; Univ. Arizona: una aplicación ligera en primavera). Una planta con poca luz no necesita más abono, porque el abono no sustituye a la luz (Univ. Maryland).",
+      "otono_invierno": "Nada.",
+      "notas": "Es una planta de suelos pobres y a menudo no necesita abono (SDSU). Las fuentes no coinciden en el NPK: Univ. Maryland sugiere uno con el primer número alto (nitrógeno) y las demás no dan proporción. Se deja null. Tratar las plagas antes de abonar (Univ. Maryland).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F6",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando los hijuelos llenan la maceta o las raíces salen por los agujeros de drenaje. Ninguna fuente da una frecuencia en años.",
+      "epoca": "Primavera o principios de verano, la misma época que RHS recomienda para separar hijuelos.",
+      "senales": "La maceta está llena de hijuelos o la planta se vuelca por el peso, salen raíces por el drenaje, o el sustrato se ha compactado o tarda mucho en secarse. Cambiar a una maceta solo un poco más grande: una demasiado grande retiene humedad y provoca pudrición de raíces (UF/IFAS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS).",
+      "epoca": "Cualquier época, para retirar hojas secas o dañadas. La vara floral se corta cuando se marchita.",
+      "como": "Cortar la hoja seca, podrida o dañada a ras de la base con un cuchillo limpio y afilado. Para usar el gel, cortar una hoja madura exterior (Univ. Arizona). Con guantes, porque el látex amarillo irrita la piel (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno, con días cortos y temperaturas más frescas (en el hemisferio norte, aproximadamente de noviembre a febrero).",
+      "cambios": "Casi deja de crecer (SDSU: entra en reposo). Regar muy poco (RHS, NC State, SDSU), no abonar (RHS: abono solo de mayo a agosto) y darle la máxima luz posible. Que crezca despacio en invierno es normal (Univ. Maryland).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos (división)",
+        "semilla"
+      ],
+      "epoca": "Primavera o principios de verano (RHS). La semilla se siembra en cuanto madura.",
+      "pasos": "1) Elegir un hijuelo de unos 5 cm o más (Univ. Arizona: cuando mida un par de pulgadas). 2) Separarlo de la madre con la mano o con un cuchillo limpio y afilado, conservando las raíces que tenga. 3) Dejar secar el corte a la sombra alrededor de una semana, hasta que cicatrice, para que no entren patógenos. 4) Plantarlo en sustrato para cactus seco o apenas húmedo. 5) No regar a fondo hasta que eche raíces, lo que tarda alrededor de un mes. La semilla es lenta y funciona mejor en invernadero (Univ. Arizona).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o agua en el plato, que pudre las raíces. Es el problema nº 1 en todas las fuentes, sin tratamiento y mortal si no se detecta pronto (SDSU)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la base de la roseta por sustrato encharcado, sobre todo con frío. También aparece en hijuelos plantados sin dejar secar el corte."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas blandas, hinchadas o translúcidas por exceso de agua, a menudo como primer aviso de la pudrición de raíces."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Falta de agua prolongada: hojas finas, arrugadas, apagadas o acartonadas que se recuperan al regar (SDSU)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general por exceso de riego o raíces podridas, o, menos a menudo, por falta de luz (Univ. Maryland)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Que se sequen o amarilleen unas pocas hojas exteriores viejas es normal. Si son muchas, revisar el riego y las raíces (Univ. Maryland)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: roseta alargada y abierta, hojas finas y pálidas que se doblan (SDSU)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas que se abren y caen por falta de luz (SDSU) o por pudrición de raíces."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paso brusco a sol pleno, al sacarla al exterior o detrás de un cristal en verano. Las hojas se vuelven pardo-rojizas, blanquecinas o con zonas secas (UF/IFAS, SDSU)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, que se concentra en la base de la planta y entre las hojas (SDSU, NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (aloe scale) sobre las hojas (RHS, SDSU, Univ. Maryland)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza segregada por la cochinilla algodonosa o los pulgones (SDSU)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla que crece sobre la melaza de las cochinillas (NC State, SDSU)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones, sobre todo en la vara floral y en ejemplares que pasan el verano fuera (NC State)."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya del aloe: manchas amarillas que pasan a pardas, favorecidas por el frío con mucha humedad. Normalmente no requiere tratamiento (SDSU, NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "En ventanas sur u oeste el sol de julio y agosto, con 35-40 °C fuera y el cristal recalentado, puede quemarla aunque sea suculenta. Si las hojas se ponen pardo-rojizas o blanquecinas, apartarla 0,5-1 m del cristal o tamizar las horas centrales con una cortina fina, y ventilar. Si se saca a terraza o balcón (cosa que le va bien), acostumbrarla poco a poco en 1-2 semanas, empezando por semisombra o sol de mañana, y meterla antes de que las noches bajen de 10 °C (en Madrid, normalmente a finales de octubre o en noviembre). Con el calor y el aire seco (HR ≈38 %) el sustrato se seca antes, así que se riega más a menudo, pero siempre solo cuando esté seco a 5 cm y la maceta pese poco. Fuera, protegerla de las tormentas de verano que la dejen encharcada.",
+    "invierno": "La calefacción y una humedad interior por debajo del 30 % no le hacen daño: tolera bien el aire seco. Ni humidificador ni pulverizaciones. El riesgo está en el frío junto al cristal por la noche y en regar de más con poca luz. Mantenerla por encima de 10 °C, separarla unos centímetros del cristal en noches de helada, no dejarla en terraza en Madrid entre noviembre y marzo (hay heladas) y regar muy poco (a veces cada 3-6 semanas, según el sustrato). No pegarla a un radiador, para que el sustrato no se seque y caliente de forma irregular. Aprovechar la ventana más luminosa, porque en invierno es fácil que le falte luz.",
+    "ubicacion_recomendada": "Junto a una ventana sur u oeste (como segunda opción, este), lo más cerca posible de la luz pero sin tocar el cristal. En pleno verano, si quema, a 0,5-1 m de la ventana sur. De mayo a octubre puede estar en terraza o balcón soleado tras aclimatarla, a resguardo de la lluvia prolongada."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) no se pudo abrir (403, protección Cloudflare). El nombre aceptado Aloe vera (L.) Burm.f., familia Asphodelaceae, se ha confirmado en el backbone de GBIF. Sinónimos según NC State y RHS: Aloe barbadensis Mill., Aloe vulgaris, Aloe perfoliata var. vera. ASPCA aún usa la familia Liliaceae, ya obsoleta. Falta confirmar en POWO el área nativa (Hajar, norte de Omán, que solo aparece en el resumen del buscador).",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales; min_pct e ideal_pct se dejan en null.",
+    "Temperatura máxima: ninguna fuente prioritaria da un máximo absoluto; max_c se deja en null. El ideal máximo de 29 °C solo lo da SDSU.",
+    "Luz: ninguna fuente da lux ni pies-candela. Los valores se derivan de la escala del proyecto a partir de 'sol pleno / luz indirecta muy intensa' (NC State) y lux_max se deja en null.",
+    "Trasplante: ninguna fuente da una frecuencia en años.",
+    "Fertilización: no hay consenso sobre el NPK; npk se deja en null.",
+    "Confusiones: los rasgos diferenciadores con otras especies (Aloe maculata, A. arborescens, Agave, Gasteria, Haworthia, Sansevieria) son morfología general y no se han contrastado con dos fuentes prioritarias para cada par.",
+    "Color de flor: las fuentes difieren (amarillo o naranja según NC State, rosa coral o amarillo según Univ. Arizona, amarillo o rojo según UF/IFAS). La flor típica de la especie es amarilla, pero no se ha verificado con una flora."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/981/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Aloe vera",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/AloeVera.pdf",
+      "institucion": "University of Arizona Cooperative Extension – Backyard Gardener #169",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.sdstate.edu/aloe-vera-houseplant-how",
+      "institucion": "South Dakota State University (SDSU) Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://marylandgrows.umd.edu/tag/aloe/",
+      "institucion": "University of Maryland Extension – Maryland Grows",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://blogs.ifas.ufl.edu/charlotteco/2025/11/25/one-of-the-most-popular-houseplants-aloe-easy-going-growing",
+      "institucion": "UF/IFAS Extension Charlotte County (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.petpoisonhelpline.com/poison/aloe/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://api.gbif.org/v1/species/match?name=Aloe%20vera&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

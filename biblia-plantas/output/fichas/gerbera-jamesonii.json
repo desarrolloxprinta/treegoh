@@ -1,0 +1,338 @@
+{
+  "nombre_cientifico": "Gerbera jamesonii",
+  "nombres_comunes": [
+    "gerbera",
+    "margarita del Transvaal",
+    "margarita de Barberton"
+  ],
+  "familia": "Asteraceae (Compositae)",
+  "origen": "Sudeste de África: nordeste de Sudáfrica (provincias de Mpumalanga, Gauteng y Limpopo) y Esuatini (POWO, SANBI, NC State). La especie se describió a partir de plantas recogidas por Robert Jameson cerca de Barberton en 1884 (SANBI). Las gerberas de maceta de floristería NO son la especie pura: son híbridos de cultivo (a menudo rotulados Gerbera × hybrida o Gerbera jamesonii hort.) procedentes del cruce G. jamesonii × G. viridifolia que hizo Richard Lynch en Cambridge a finales del siglo XIX, del que salen la mayoría de las variedades comerciales actuales (SANBI); NC State también la describe como parental de los híbridos (Gerbera x hybrid).",
+  "clima_nativo": "Herbácea perenne de praderas (grassland) del veld del nordeste de Sudáfrica, en suelos arenosos y bien drenados (SANBI): clima subtropical de altura con verano cálido y lluvioso e invierno seco y fresco. Florece en primavera-principios de verano y otra vez en otoño (SANBI, NC State). No soporta heladas: RHS la clasifica H1C (mínimo 5-10 °C, solo exterior en verano en Reino Unido) y NC State la da como perenne en zonas USDA 8-11.",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Todas basales, en roseta que sale de una corona a ras de suelo, sin tallo aéreo. Lámina oblonga a espatulada (más ancha hacia la punta), de 7,5-15 cm de ancho y hasta 45-50 cm de largo en la especie (NC State, RHS), algo más pequeña en los híbridos de maceta; margen profundamente lobulado o pinnatífido (hendido en lóbulos redondeados). Haz verde medio a oscuro, algo coriáceo; envés más claro y con pelo lanoso o sedoso (RHS: «woolly undersides»; SANBI: «silky hairs»), aunque NC State la describe como no peluda: en los híbridos la pilosidad es variable.",
+    "nerviacion": "Pinnada: nervio central marcado, más claro, del que salen nervios laterales hacia cada lóbulo. Peciolo largo, a menudo lanoso.",
+    "variegacion": "Ninguna. Las hojas son verdes lisas. Un amarilleo entre los nervios de las hojas nuevas no es variegación: suele ser clorosis férrica por sustrato con pH alto (Univ. Minnesota).",
+    "tallo": "Sin tallo aéreo: corona (crown) basal de la que salen hojas y flores, con raíces gruesas y profundas (NC State, RHS). Las flores salen solas, cada una en un escapo (pedúnculo) sin hojas, recto, peludo, que sale del centro de la corona (Univ. Minnesota, NC State).",
+    "habito": "Roseta en mata baja con flores que sobresalen por encima del follaje. Inflorescencia en capítulo de margarita, uno por escapo, de 7-12 cm de diámetro (hasta ≈10 cm en las de maceta): una o varias filas de flores liguladas («pétalos») rojas, naranjas, rosas, amarillas, blancas o crema alrededor de un disco central que puede ser claro, verde o casi negro; las hay sencillas, semidobles y dobles (NC State, RHS, SANBI). Flores muy simétricas, de colores saturados y aspecto casi artificial.",
+    "tamano_adulto_interior": "Híbridos de maceta: 15-30 cm de alto con la flor (los cultivares de maceta se seleccionan de 15-20 cm, Univ. Minnesota) y 20-30 cm de ancho. La especie y los cultivares de flor cortada pueden llegar a 30-45 cm de alto y 30-40 cm de ancho (NC State).",
+    "confusiones": [
+      {
+        "especie": "Osteospermum spp. y Dimorphotheca spp. (margarita africana, dimorfoteca)",
+        "rasgo_diferenciador": "Tienen tallos con hojas a lo largo y varias flores por planta en tallos ramificados; la gerbera solo tiene roseta basal y un capítulo por escapo sin hojas. El disco de Osteospermum suele ser azul o morado oscuro y el envés de los pétalos, de otro color."
+      },
+      {
+        "especie": "Gazania spp. (gazania)",
+        "rasgo_diferenciador": "Hojas estrechas, enteras o poco lobuladas y blanco-plateadas por el envés; pétalos con una mancha oscura en la base que forma un anillo, y flores que se cierran de noche o con el cielo cubierto. La gerbera tiene hojas anchas lobuladas y flores que no se cierran."
+      },
+      {
+        "especie": "Chrysanthemum × morifolium (crisantemo de maceta)",
+        "rasgo_diferenciador": "Tallos leñosos con hojas a lo largo, hojas aromáticas al frotarlas y muchas flores pequeñas por planta. La gerbera tiene pocas flores grandes, cada una en su propio escapo desde la roseta."
+      },
+      {
+        "especie": "Argyranthemum frutescens y Leucanthemum spp. (margaritas)",
+        "rasgo_diferenciador": "Mata ramificada con tallos foliosos y flores blancas o amarillas de disco amarillo; la gerbera no tiene tallos con hojas."
+      },
+      {
+        "especie": "Gerbera de jardín resistentes (series Garvinea, Everlast)",
+        "rasgo_diferenciador": "Son también híbridos de Gerbera, con flor más pequeña y muchas flores a la vez; la RHS indica que algunos de estos tipos pueden quedarse en exterior todo el año en sitios suaves y bien drenados. Por foto no se distinguen con seguridad de una gerbera de maceta: los cuidados de interior de esta ficha valen para ambas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: no tóxica (ASPCA: «Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses», ficha Gerber Daisy, Gerbera jamesonii; NC State: no tóxica para gatos, perros y caballos). Que no sea tóxica no la hace comestible: comer mucha hoja puede dar una molestia digestiva leve y pasajera, como cualquier materia vegetal. Personas y niños: ninguna fuente prioritaria consultada documenta su toxicidad ni su inocuidad. Ante una ingestión con síntomas, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F1"
+    ],
+    "notas": "Confianza Alta solo para perros y gatos (ASPCA y NC State coinciden). Para niños se deja «desconocida»: no se encontró fuente prioritaria (los centros de toxicología consultados hablan de «daisy» en general, que en EE. UU. suele referirse a crisantemos con piretrinas, no a Gerbera). No se ha encontrado ningún principio activo tóxico descrito."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de mañana) o sur/oeste apartada 1 m o tras un visillo en primavera y verano. En invierno, el sitio más luminoso de la casa, junto a una ventana sur, donde el sol de invierno sí le conviene.",
+      "tolera_sol_directo": "Parcialmente. Sol de mañana y sol de invierno, sí; sol fuerte de verano tras un cristal, no: la RHS pide protegerla del sol directo de verano porque la quema, y la Univ. de Minnesota indica que en casa dura más en un sitio luminoso pero sin sol directo. En exterior, NC State, Clemson y UF/IFAS recomiendan pleno sol o sol de mañana con sombra por la tarde en climas calurosos.",
+      "notas": "Necesita mucha luz para florecer: la luz es crítica para formar flores y con poca luz las hojas se alargan, se aclaran, los escapos se estiran y la floración se adelgaza o se para (Univ. Minnesota). En casa, el problema habitual es la falta de luz, no el exceso. La gerbera de maceta se compra en flor y se puede tratar como planta de temporada; si se quiere que vuelva a florecer, la luz es el primer requisito. Los rangos en lux siguen la escala del proyecto (brillante indirecta 500-1000 fc); en invernadero se cultiva con bastante más luz [orientativo, sin fuente prioritaria]."
+      ,
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos; regar a fondo, dejar escurrir y tirar el agua del plato a los 10-15 minutos. Preferible regar por abajo (plato o inmersión 15-20 minutos) o con el pico de la regadera directamente al sustrato, SIN mojar la corona ni las hojas (RHS; Clemson: evitar el riego por encima y dejar que la corona se seque entre riegos). Regar por la mañana para que cualquier salpicadura se seque de día (Clemson). Nunca por calendario.",
+      "primavera_verano": "En flor y con calor es una planta que bebe bastante (la Univ. Minnesota señala que pide riegos frecuentes): sustrato húmedo pero nunca encharcado, dejando secar ligeramente la capa superior entre riegos (RHS). En verano en Madrid puede necesitar comprobación cada 2-4 días según maceta y exposición, siempre confirmando con el dedo y el peso.",
+      "otono_invierno": "Con frío y sin flor, mantener el sustrato tirando a seco (RHS), apenas húmedo (Clemson: «barely moist» en invernada a 7-10 °C), sin dejar que se seque por completo (NC State). Espaciar mucho los riegos: el sustrato frío y mojado es la vía directa a la podredumbre de corona y raíz.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "El agua del grifo de Madrid (blanda, con cloramina) sirve sin tratar; dejarla reposar no elimina la cloramina y no hace falta. Usar agua a temperatura ambiente. En zonas de agua dura conviene vigilar la clorosis, porque el pH alto del sustrato es una de las causas más comunes de problemas nutricionales en gerbera (Univ. Minnesota).",
+      "notas": "El exceso de agua y la corona enterrada o mojada son la principal causa de muerte: provocan podredumbre de corona y raíz (Pythium, Phytophthora, Rhizoctonia) (UF/IFAS, Clemson, RHS, NC State, Univ. Minnesota). No dejar la maceta encharcada en el plato ni en el cubremacetas de papel o plástico con que se venden.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F1",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da un rango de humedad relativa. Lo que sí coinciden en señalar es lo contrario del problema típico de las tropicales: el ambiente húmedo y estancado con mala ventilación favorece el moho gris (Botrytis) y el oídio (RHS), y Clemson pide buena circulación de aire en la invernada. Aire normal de casa con ventilación; no pulverizar las hojas ni las flores (además de no subir la humedad de forma útil, mojar flores y corona favorece la botritis y la podredumbre). Con calefacción muy seca, alejarla del radiador y, si hace falta, agrupar plantas o usar humidificador lejos de la planta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 24,
+      "ideal_min_c": 10,
+      "ideal_max_c": 21,
+      "notas": "Florece entre 10 y 20 °C; por debajo de 10 °C o por encima de 20 °C deja de florecer y vuelve a hacerlo cuando la temperatura regresa al rango (RHS). La Univ. de Minnesota da como mejor ambiente doméstico para que la planta en flor dure 21 °C de día y 17 °C de noche, y advierte que por encima de 24 °C (76 °F) se reducen o se anulan las flores. min_c: la RHS pide mantener los tipos sensibles por encima de 5 °C y Clemson invernarlos a 7-10 °C (45-50 °F); se adopta el más alto, 7 °C, por ser el más conservador. No tolera heladas (RHS H1C; NC State zonas 8-11). max_c = 24 °C es el umbral a partir del cual se pierde la floración (Univ. Minnesota), no una temperatura letal: ninguna fuente prioritaria da el máximo que la mata; con 30-40 °C se espera parada de floración y estrés.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F6",
+        "F5",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal sin turba (o con turba) de buena calidad, rico, mezclado con arena gruesa o grava fina para que sea suelto y drene rápido (RHS: multiusos sin turba o John Innes n.º 2 con grava añadida). Debe ser un medio suelto que no retenga humedad durante mucho tiempo, porque la retención favorece la pudrición radicular (Univ. Minnesota). Maceta con agujeros y algo profunda, porque tiene raíces profundas (RHS, NC State).",
+      "ph": "6,0-6,5 (Univ. Minnesota). Con pH más alto aparece clorosis internerval por falta de hierro (hojas nuevas) o magnesio (hojas viejas).",
+      "drenaje": "Imprescindible y alto: el exceso de humedad causa enfermedades de corona y raíz (UF/IFAS, Clemson). La corona (el punto del que salen las hojas) debe quedar a nivel o ligeramente por encima de la superficie del sustrato, nunca enterrada (RHS, UF/IFAS, Clemson, Univ. Minnesota; SANBI: se pudre si se entierra la corona o el drenaje es malo).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F3",
+        "F2",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de flor, rico en potasio (tipo abono de tomate), que lleve microelementos, sobre todo hierro, manganeso y magnesio.",
+      "npk": "Rico en potasio, con nitrógeno moderado (RHS recomienda abono alto en potasio en verano para estimular la floración). Valores NPK concretos para uso doméstico no indicados por las fuentes.",
+      "primavera_verano": "Mientras crece y florece: ¼-½ de la dosis de la etiqueta una vez al mes (convención del proyecto). Las fuentes de exterior y de producción abonan más a menudo (Clemson: abono líquido cada dos semanas; UF/IFAS: abono completo mensual), pero en maceta de interior se prefiere la pauta prudente para no acumular sales.",
+      "otono_invierno": "Nada mientras esté fresca y sin crecer. Si en interior cálido y muy luminoso sigue sacando hojas y flores, puede seguir la pauta mensual diluida.",
+      "notas": "La gerbera tiene una necesidad alta de hierro y magnesio y suele tener carencias de hierro y manganeso, sobre todo en sustrato de maceta (Clemson, UF/IFAS, Univ. Minnesota). Signo: amarilleo entre los nervios de las hojas nuevas (hierro) o de las viejas (magnesio). Antes de añadir más abono, revisar el pH del sustrato: la causa más común es un pH demasiado alto. La planta de floristería suele venir con abono de liberación lenta: no abonar las primeras 4-6 semanas tras la compra [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo si se conserva más de una temporada: cuando las raíces llenen la maceta, aproximadamente cada 2-3 años, aprovechando para dividir las matas congestionadas (la RHS recomienda dividirlas «cada pocos años»).",
+      "epoca": "Principios de primavera (marzo-abril en Madrid), cuando empieza el nuevo crecimiento (RHS).",
+      "senales": "Raíces saliendo por los agujeros, sustrato que se seca en un día, mata con varias coronas apretadas, o corona que se ha ido hundiendo en el sustrato (UF/IFAS señala que con el tiempo las plantas se asientan y la corona acaba cubierta, y recomienda levantarlas y replantarlas para evitar la podredumbre). Pasar a una maceta solo 2-4 cm más ancha y profunda, con la corona a nivel o algo por encima del sustrato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza: quitar las flores marchitas y las hojas secas o podridas.",
+      "epoca": "Todo el año, en cuanto una flor se marchita.",
+      "como": "Cortar el escapo entero de la flor pasada desde la base, junto a la corona (RHS), sin dejar tocones que se pudran; así la planta dedica la energía a nuevas flores y no a semillas (RHS, NC State, Clemson, SANBI). Retirar también las hojas amarillas o dañadas desde la base y no dejar restos sobre el sustrato, porque son la puerta de entrada de la botritis.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F2",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a febrero, aproximadamente (en el hemisferio sur, de mayo a agosto). Es un reposo relativo inducido por frío y poca luz, no una caída de hojas: es perenne de hoja persistente (RHS).",
+      "cambios": "Sitio fresco (7-15 °C) y muy luminoso, sin heladas (Clemson: 7-10 °C con sol y buena ventilación; NC State: lugar fresco, sin heladas, con luz brillante). Sustrato apenas húmedo, tirando a seco (RHS, Clemson), sin abono. Por debajo de 10 °C deja de florecer (RHS). En primavera, al ver brotes nuevos, volver al riego y abonado normales. Muchas personas la tratan como planta de temporada y la desechan tras la floración, lo cual es una opción aceptable: las fuentes coinciden en que fuera de climas templados se cultiva como anual (Univ. Minnesota, UF/IFAS, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F1",
+        "F6",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata (coronas)",
+        "semilla",
+        "esquejes basales"
+      ],
+      "epoca": "Primavera: división en marzo-abril al aparecer el nuevo crecimiento; siembra en febrero-marzo (RHS).",
+      "pasos": "División (la más fiable en casa): 1) Sacar la planta de la maceta en primavera. 2) Separar con un cuchillo limpio y afilado coronas que tengan cada una su yema de crecimiento y raíces propias (RHS: hasta 4-5 trozos en matas grandes). 3) Quitar raíces muertas, hojas podridas y la mitad de las hojas inferiores maduras (UF/IFAS). 4) Plantar enseguida en sustrato drenante, con la corona a nivel o algo por encima. 5) Mantener el sustrato ligeramente húmedo, sin encharcar, hasta que arraigue. Semilla: usar semilla fresca (pierde la viabilidad rápido: SANBI recomienda sembrarla en 1-2 meses tras recogerla y la Univ. Minnesota guardarla en sobre cerrado, fresco y seco). Sembrar en superficie y NO cubrir, porque la luz favorece la germinación y cubrirla, aunque sea con una capa fina de vermiculita, la reduce (Univ. Minnesota); mantener a 20-24 °C con humedad alta (por ejemplo, con un plástico encima). Germina en 1-3 semanas y florece a los 4-6 meses (RHS) o a las 16 semanas en cultivares de maceta (Univ. Minnesota). Las plántulas se pudren con facilidad: regar con cuidado (RHS). Las semillas de un híbrido de maceta no reproducen fielmente la planta madre [orientativo, sin fuente prioritaria]. Esquejes basales: en primavera, cortar brotes vigorosos por la base y enraizarlos en sustrato arenoso en un propagador (RHS).",
+      "notas": "Contradicción menor: la RHS dice cubrir la semilla «ligeramente» y la Univ. de Minnesota (ensayos de germinación) dice no cubrirla en absoluto. Se adopta la opción de la Univ. Minnesota (sembrar en superficie), que da más germinación.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F6",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de corona: la causa nº 1 de muerte. Corona enterrada (o que se ha hundido con el tiempo), agua sobre la corona, riego excesivo o sustrato que no drena (UF/IFAS, Clemson, RHS, SANBI, Univ. Minnesota). Hongos y oomicetos del suelo (Pythium, Phytophthora, Rhizoctonia). Si la base está blanda y oscura, la planta rara vez se recupera."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato encharcado o maceta en plato con agua, sobre todo con frío en invierno (NC State, RHS, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Si el sustrato está seco: sed, frecuente en verano porque en flor bebe mucho. Si el sustrato está húmedo: podredumbre de corona o raíz; revisar la base antes de regar más."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (Erysiphe/Golovinomyces): polvo blanco en hojas y escapos, muy frecuente en gerbera en ambientes cálidos con poca ventilación (RHS, Clemson, NC State, Univ. Minnesota). Ventilar, retirar hojas afectadas y, si hace falta, sacar la planta al balcón y tratarla allí con un producto listo para usar de uso no profesional registrado contra oídio en ornamentales (bicarbonato potásico o azufre), siguiendo la etiqueta, y volver a entrarla seca: en España no hay fungicida doméstico autorizado para aplicar dentro de casa (arbol.json S33; productos.md §3; decisión de Fase 5)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis) en flores marchitas, hojas viejas y corona, favorecido por humedad, salpicaduras y mala ventilación (RHS, NC State, Univ. Minnesota). Quitar flores pasadas y hojas dañadas enseguida y no mojar flores ni corona."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca: una de las plagas principales de la gerbera (Univ. Minnesota, RHS, Clemson, NC State). Se ve una nube blanca al mover la planta y suele ir con melaza (S25). Revisar el envés al comprar; tratar solo con insecticidas listos para usar de uso no profesional inscritos en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (NC State, Clemson) o araña roja (RHS, NC State, Clemson): punteado plateado o amarillento en hojas y, con trips, pétalos con rayas o manchas descoloridas y flores deformes. La araña roja aumenta con aire seco y calor (calefacción, verano en Madrid)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus) en infestación avanzada, con calor y aire seco (RHS, NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes, botones florales y envés (Univ. Minnesota, RHS, Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Carencia de hierro (hojas nuevas) o de magnesio (hojas viejas), casi siempre porque el pH del sustrato es demasiado alto; la gerbera tiene necesidades altas de ambos (Univ. Minnesota, Clemson, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: hojas largas, estrechas y pálidas y escapos florales largos y caídos; la floración se para (Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte de verano tras el cristal, típico en ventanas sur y oeste de Madrid (RHS: el sol directo de verano la quema)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Renovación normal de hojas viejas (retirarlas desde la base), carencia de magnesio o, si va con base blanda, inicio de podredumbre de corona o raíz."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) por sustrato que se mantiene mojado; señal de riego excesivo en una planta muy sensible a la pudrición [orientativo, sin fuente prioritaria específica de gerbera]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "El calor de Madrid es lo que peor lleva: con más de 20-24 °C deja de florecer (RHS, Univ. Minnesota) y el sol fuerte de verano tras un cristal la quema (RHS). Sacarla de ventanas sur y oeste o ponerla a 1-2 m del cristal o tras un visillo; mejor ventana este. En casas a 28-30 °C no esperar flores nuevas en julio-agosto: es normal, no es un problema de riego ni de abono. Comprobar el sustrato cada 2-4 días porque se seca rápido, pero regar solo si está seco a 2-3 cm, siempre por abajo o al sustrato, sin mojar la corona. Con calor seco aumentan araña roja y trips: revisar el envés cada semana. Si se tiene en terraza en verano, solo sol de mañana y sombra por la tarde (UF/IFAS, Clemson), y protegida de la lluvia intensa sobre la corona.",
+    "invierno": "La mayoría se compran en flor en esta época o en primavera. Para que dure la floración: el sitio más luminoso de la casa (una ventana sur es buena en invierno), en una habitación fresca (idealmente 15-20 °C de día), lejos de radiadores y de corrientes de aire caliente, que acortan la vida de la flor y secan el ambiente (más araña roja). Por la noche, que no toque el cristal frío. Si se quiere conservar para otro año, invernarla en un sitio fresco (7-15 °C) y muy luminoso, sin heladas, con riegos muy espaciados (sustrato tirando a seco) y sin abono (RHS, Clemson). Con poca luz y calefacción alta se etiola y deja de florecer. Con la humedad interior por debajo del 30 % no hace falta pulverizar (no ayuda y mojar flores y corona favorece la botritis); basta con alejarla del radiador.",
+    "ubicacion_recomendada": "Ventana este muy luminosa todo el año; en invierno, también ventana sur. En verano, fuera del sol directo de mediodía y tarde. Habitación fresca y ventilada, sin radiador ni aire acondicionado soplando encima. Puede tratarse como planta de temporada (unos meses de flor) o conservarse varios años si se respeta la corona, el drenaje y la luz."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Gerbera jamesonii Adlam (el autor cambió de «Bolus ex Hook. f.» a Adlam porque R. W. Adlam publicó antes una descripción válida; SANBI usa «Bolus ex Adlam»). Las gerberas de maceta son híbridos G. jamesonii × G. viridifolia (SANBI); POWO no recoge un nombre aceptado para el híbrido (búsqueda «Gerbera hybrida» sin resultados), que en el comercio aparece como Gerbera × hybrida o Gerbera jamesonii hort. Se mantiene el nombre de la lista maestra.",
+    "Humedad relativa: ninguna fuente prioritaria da un rango numérico; min_pct e ideal_pct quedan en null.",
+    "Temperatura máxima letal: no documentada; max_c = 24 °C es el umbral de pérdida de floración (Univ. Minnesota), no de supervivencia.",
+    "Toxicidad para niños y personas: no se encontró fuente prioritaria; se deja «desconocida». ASPCA y NC State solo cubren perros, gatos y caballos.",
+    "NPK concreto para gerbera de maceta en casa: las fuentes solo indican 'alto en potasio' (RHS) y pautas de producción (Univ. Minnesota: 300 ppm N con 20-10-20 y luego nitrato cálcico y potásico), no aplicables directamente a uso doméstico.",
+    "Minadores de hoja (leaf miners) citados por NC State como plaga ocasional: no hay un síntoma específico en la lista (galerías serpenteantes en la hoja), no se asignó id.",
+    "Parada de floración por calor o por frío no tiene id propio en la lista de síntomas; se describe en temperatura y en ajustes_madrid.",
+    "Rangos de luz en lux para uso doméstico: ninguna fuente prioritaria los da para planta de interior; se usan los de la escala del proyecto para brillante indirecta."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/gerbera-jamesonii/common-name/veldt-daisy",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Gerbera jamesonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/gerbera-daisy/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC), Gerbera Daisy",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/gerbera-daisy",
+      "institucion": "UF/IFAS Extension – Gardening Solutions (University of Florida), Gerbera Daisy",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/gerbera/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow gerberas",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/70682/gerbera-jamesonii/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de planta Gerbera jamesonii (descripción, rusticidad H1C)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/p/o/pot_gerb_528273179ba9f.pdf",
+      "institucion": "University of Minnesota y Michigan State University – J. Erwin, R. Heins y W. Carlson, 'Pot Gerbera Production', Minnesota Flower Growers Bulletin 40(5), 1991 (archivo NC State HortScans)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://pza.sanbi.org/gerbera-jamesonii",
+      "institucion": "South African National Biodiversity Institute (SANBI) – PlantZAfrica, KwaZulu-Natal National Botanical Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:208893-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Gerbera jamesonii Adlam",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gerber-daisy",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, Gerber Daisy (Gerbera jamesonii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

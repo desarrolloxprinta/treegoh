@@ -1,0 +1,356 @@
+{
+  "nombre_cientifico": "Begonia elatior",
+  "nombres_comunes": [
+    "begonia elatior",
+    "begonia de flor",
+    "begonia Rieger",
+    "begonia de invierno",
+    "begonia hiemalis"
+  ],
+  "familia": "Begoniaceae",
+  "origen": "Híbrido artificial de cultivo, sin área nativa: Begonia × hiemalis Fotsch (1933) = B. socotrana (isla de Socotra, Yemen) × B. × tuberhybrida (begonias tuberosas, de especies andinas) según POWO. Primeros cruces en Inglaterra (Veitch, década de 1880); el grupo moderno lo desarrolló el obtentor alemán Otto Rieger desde los años 50 (NC State/Clemson, Laidback Gardener). En EE. UU. se llama B. × hiemalis y en Europa B. × elatior (desde 1979, Pertuit/Clemson). RHS lo trata como Begonia (Hiemalis Group).",
+  "clima_nativo": "No tiene clima nativo (híbrido). Hereda de B. socotrana la floración invernal de día corto y de las tuberosas andinas la preferencia por el fresco y la tendencia a entrar en reposo con días cortos. En cultivo prospera con 17-21 °C y luz abundante sin sol fuerte; el calor por encima de 24 °C estira la planta y empeora la flor (NC State, Clemson). RHS: H1B (exterior solo en verano; mínimo 10-15 °C).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, algo carnosas, brillantes, de verde medio a verde oscuro o bronce (RHS, Laidback Gardener), redondeadas a acorazonadas y asimétricas en la base (rasgo de todo el género Begonia), con margen ondulado o finamente dentado. Rasgo clave para visión: mata compacta y densa de hojas brillantes casi tapada por racimos de flores grandes (2,5-7,5 cm) simples, semidobles o dobles parecidas a rosas pequeñas, en rojo, rosa, naranja, amarillo o blanco (RHS, Clemson). Flores masculinas y femeninas separadas en la misma planta; las femeninas llevan detrás un ovario con 3 alas.",
+    "nerviacion": "Palmeada: varios nervios parten del punto de unión del pecíolo y se ramifican; nervios poco marcados en el haz, algo más claros o rojizos en el envés. La asimetría de la lámina desplaza el nervio central.",
+    "variegacion": "Sin variegación: follaje verde liso o bronce/rojizo según el cultivar. Las manchas blancas, plateadas o pardas sobre hoja no son varietales: suelen ser oídio o botritis.",
+    "tallo": "Varios tallos carnosos, suculentos y quebradizos, verdes a rojizos, que salen juntos de la base; raíz fibrosa, no forma tubérculo (Pertuit/Clemson, Laidback Gardener). Con exceso de calor o poca luz los entrenudos se alargan.",
+    "habito": "Herbácea perenne de raíz fibrosa que se vende y se trata a menudo como planta de temporada de usar y tirar. Porte en mata redondeada y erguida; algunos cultivares (tipo 'Aphrodite') son colgantes, para cestas (Pertuit/Clemson).",
+    "tamano_adulto_interior": "0,1-0,5 m de alto y de ancho, habitualmente hasta unos 30 cm (RHS); 25-45 cm de alto y ancho según Laidback Gardener. En maceta de venta de 12-15 cm suele medir 20-35 cm.",
+    "confusiones": [
+      {
+        "especie": "Begonia × cheimantha (begonia Lorraine o de Navidad)",
+        "rasgo_diferenciador": "Muy parecida y también de floración invernal de día corto, pero con flores mucho más pequeñas y numerosas, casi siempre rosas o blancas, y hojas redondeadas verde claro; tallos más débiles que a menudo necesitan tutor (Clemson). La Elatior tiene flores mayores y una gama de colores que incluye amarillo y naranja."
+      },
+      {
+        "especie": "Begonia × tuberhybrida (begonia tuberosa)",
+        "rasgo_diferenciador": "Crece desde un tubérculo, flores masculinas dobles muy grandes (tipo camelia) en verano y otoño, y en otoño se seca la parte aérea y queda el tubérculo (Clemson, Pertuit). La Elatior tiene raíz fibrosa, flores menores y no deja tubérculo."
+      },
+      {
+        "especie": "Begonia semperflorens / Begonia Cultorum Group (begonia de flor, begonia de hoja cerosa)",
+        "rasgo_diferenciador": "Hojas pequeñas (3-6 cm), redondeadas, cerosas, verdes o bronce con borde rojo; flores pequeñas (1-2 cm), simples, en blanco, rosa o rojo, nunca amarillo ni naranja. Es de día neutro y se usa sobre todo como planta de temporada en exterior (Pertuit)."
+      },
+      {
+        "especie": "Rosa miniatura de maceta (Rosa spp.)",
+        "rasgo_diferenciador": "La flor doble se parece, pero la rosa tiene hojas compuestas de 3-7 folíolos dentados, estípulas y tallos leñosos con aguijones. La begonia tiene hoja simple asimétrica y tallo carnoso sin espinas."
+      },
+      {
+        "especie": "Kalanchoe blossfeldiana",
+        "rasgo_diferenciador": "Hojas opuestas, gruesas, suculentas y simétricas, con borde festoneado; flores pequeñas (1 cm) de 4 pétalos en ramilletes densos. La begonia tiene hojas alternas asimétricas y flores mucho mayores."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Oxalatos de calcio solubles (ASPCA y NC State, dato para el género Begonia spp.). La parte más tóxica es la subterránea (raíces).",
+    "sintomas": "Perros y gatos: vómitos y salivación (ASPCA). En animales de pasto se ha descrito fallo renal. NC State clasifica la gravedad para personas como baja; la savia puede causar irritación de piel (dermatitis de contacto). En niños: irritación de boca y molestias digestivas si la mastican. RHS la marca como potencialmente dañina, no comestible, y recomienda guantes al manipularla.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F5",
+      "F1"
+    ],
+    "notas": "ASPCA y NC State tratan el género Begonia spp., no este grupo en concreto; RHS sí da el aviso de 'potentially harmful' en la ficha del Hiemalis Group 'Elatior'. Las tres fuentes prioritarias coinciden: tóxica de gravedad baja. Mantener fuera del alcance de mascotas y niños; si hay ingestión con síntomas, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 16140,
+      "orientacion_hn": "Ventana este con sol suave de primera hora (Clemson). En otoño-invierno, ventana sur u oeste también vale, porque unas horas de sol de invierno le benefician (Clemson). En primavera-verano, ventana norte luminosa o este, o a 1-2 m de una ventana sur u oeste detrás de una cortina fina.",
+      "tolera_sol_directo": "Solo sol suave: primera hora de la mañana y sol de invierno. No tolera sol directo fuerte de mediodía o tarde, ni en verano (RHS: sin sol directo). Cuanto más calor hace, menos luz soporta (Pertuit/Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "notas": "Contradicción: Clemson pide para las begonias de flor un sitio luminoso con algo de sol directo (sol de mañana en ventana este), mientras RHS indica para el Hiemalis Group 'Elatior' semisombra o sombra luminosa, sin sol directo. Se adopta la opción conservadora: luz brillante indirecta, con sol directo solo suave (mañana o invierno). Lux: Pertuit (Clemson) da para producción en invernadero un máximo de 3000 fc a 18 °C, 2000 fc a 23 °C y 1500 fc a 27 °C (más calor = menos luz). El rango adoptado va de 500 fc ≈ 5380 lux (inicio de luz brillante indirecta en la escala del proyecto) a 1500 fc ≈ 16 140 lux (máximo de invernadero con calor, conservador para un piso cálido). FOTOPERIODO: es una planta de día corto facultativa (NC State Flower Growers Bulletin, Gislerød y Jørgensen 1986): con días de más de 12,5 h y más de 21 °C se queda en hoja y no florece; con días cortos (unas 10 h durante 2-3 semanas) induce flor y florece unas 8 semanas después. Por debajo de unos 15-16 °C florece casi con cualquier duración del día. Pertuit (Clemson) da una noche crítica de unas 11,5 h a 24 °C. Una luz artificial débil (100 lux) por la noche basta en producción para mantenerla en hoja: en casa, una lámpara encendida junto a la planta en las tardes-noches de otoño puede retrasar o impedir la floración. Más de 3 semanas seguidas de día corto hacen plantas pequeñas y la empujan al reposo. Según Laidback Gardener (complementaria), muchos cultivares modernos (series 'Solenia', 'Valentino', 'Dragone' y otras) son casi de día neutro y florecen todo el año; RHS y Clemson también dicen que se vende en flor todo el año. Las plantas compradas ya en flor no necesitan ningún tratamiento de luz."
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo a 2-3 cm y el peso de la maceta. Regar cuando la capa superior (2-3 cm) esté seca al tacto y la maceta pese claramente menos que recién regada; mantener el sustrato húmedo de forma uniforme, dejándolo secar solo un poco entre riegos (Clemson). Regar en la base, sin mojar hojas ni flores (NC State), hasta que drene; vaciar el plato a los 10-15 minutos: nunca dejarla en agua (Clemson). Regar por la mañana para que nada quede mojado de noche (Cornell). Nunca por calendario. La humedad irregular (empapar y dejar secar del todo) favorece el oídio (Pertuit/Clemson).",
+      "primavera_verano": "En flor y con crecimiento activo, sustrato ligeramente húmedo, nunca empapado: regar cada vez que se cumpla el criterio. Con calor se seca antes, así que comprobar más a menudo, pero sin regar por si acaso.",
+      "otono_invierno": "Planta comprada en flor en otoño-invierno: mismo criterio que en crecimiento mientras florezca, porque es su temporada de flor. Fuera de floración o tras la poda de rejuvenecimiento: reducir el riego y dejar secar un poco más (Clemson, Cornell). Si las noches bajan de 13 °C, mantenerla más bien seca (Cornell).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. El agua del grifo de Madrid (Canal de Isabel II, blanda, 10-47 mg/L CaCO3) es adecuada; dejarla reposar no elimina la cloramina, pero no hace falta. Regar de vez en cuando a fondo para arrastrar sales de abono, porque las raíces se queman con facilidad con soluciones de abono fuertes (NC State Flower Growers Bulletin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F6",
+        "F3",
+        "F4"
+      ],
+      "notas": "NC State: las begonias son muy propensas a la pudrición de raíz; evitar el exceso de riego. Gislerød y Jørgensen (NC State Flower Growers Bulletin): es más fácil 'matar las raíces' de la Elatior con riego excesivo y abono fuerte que en otros cultivos de maceta. El exceso de riego produce pudrición de raíz (Pythium) y de base del tallo (Rhizoctonia), y el agua sobre la planta favorece la botritis y la mancha bacteriana (Pertuit/Clemson). La sequía puntual produce hojas y flores lacias y caída de botones, pero se recupera mejor que el exceso: ante la duda, quedarse corto."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F4"
+      ],
+      "notas": "NC State: la mayoría de begonias prefieren ambiente húmedo; Clemson pide ambiente húmedo pero no recomienda pulverizar. Ninguna fuente prioritaria da un porcentaje para este grupo (laguna). Equilibrio delicado en esta planta: según Pertuit (Clemson), el oídio se ve favorecido por la humedad alta y el riego irregular, y la botritis por el fresco con humedad alta. Por eso: humedad ambiental moderada con humidificador o agrupando plantas si el aire está muy seco, pero hojas y flores siempre secas y buena ventilación (Cornell sugiere un ventilador pequeño en invierno). No pulverizar: no sube la humedad de forma útil y el agua sobre hojas y flores favorece el oídio y la botritis."
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 24,
+      "ideal_min_c": 17,
+      "ideal_max_c": 21,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3",
+        "F4"
+      ],
+      "notas": "Mínimos: RHS (Hiemalis Group 'Elatior') indica cultivarla con un mínimo de 10 °C (H1B, 10-15 °C); NC State dice que las begonias no toleran menos de 55 °F (≈ 13 °C). Se adopta el más alto y conservador, 13 °C. Cornell: si las noches bajan de 13 °C, mantenerlas más bien secas. Ideal: Gislerød y Jørgensen (NC State) dan 62-70 °F (17-21 °C) para el crecimiento y 63-68 °F (17-20 °C) para el acabado en flor; Pertuit (Clemson) acaba las plantas a 18 °C para flores más grandes y de mejor color. Máximo: no hay un límite de supervivencia publicado (laguna); se toma 24 °C porque, según Pertuit, a esa temperatura los entrenudos y las inflorescencias se alargan y la flor sale más pequeña y pálida, y con días largos y calor no florece (Gislerød). Por encima de unos 27 °C la planta sufre [orientativo, sin fuente prioritaria]. Evitar corrientes frías y fuentes de calor directo."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de interior ligero, rico en turba o fibra de coco, aireado: sustrato universal de calidad con un tercio a la mitad de perlita (Cornell recomienda para begonias sustrato de interior estándar o mitad turba y mitad perlita). En producción se usa turba de esfagno con un 15 % de arcilla y arena, más ligera que la de otras plantas de maceta (NC State Flower Growers Bulletin), o mitad turba (Pertuit/Clemson). Maceta con agujeros de drenaje.",
+      "ph": "5,5-6,5 (ligeramente ácido). NC State: 5,5-6,5 para begonias; producción de Elatior: turba encalada a pH 5,5-5,7 (Gislerød y Jørgensen; Pertuit). RHS: ácido o neutro.",
+      "drenaje": "Muy bueno: húmedo pero bien drenado (RHS). Nunca maceta sin agujeros ni plato con agua; el encharcamiento pudre raíces y cuello.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior o de flor, muy diluido. Es una planta poco exigente en abono ('not heavy feeders', Pertuit/Clemson) y sus raíces se queman con soluciones fuertes (NC State Flower Growers Bulletin).",
+      "npk": "Equilibrado, del tipo 1-1-1 (p. ej. 20-20-20). En producción se usa N-P-K ≈ 150-30-150 ppm (Gislerød) o 200-190-200 ppm (Pertuit), no aplicable en casa.",
+      "primavera_verano": "Solo con crecimiento activo o floración: ¼-½ de la dosis de la etiqueta, una vez al mes.",
+      "otono_invierno": "Si está en flor (su temporada habitual en otoño-invierno), seguir con ¼-½ de dosis una vez al mes mientras florezca y crezca. Si está en reposo tras la poda, nada de abono hasta que salgan brotes nuevos (Cornell: muy poco abono en invierno hasta que empiece el crecimiento).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F3",
+        "F6"
+      ],
+      "notas": "Clemson recomienda media dosis en riegos alternos con crecimiento pleno y Cornell una dosis débil en cada riego; se aplica la convención del proyecto (¼-½ de dosis una vez al mes), más prudente y coherente con el aviso de que el abono fuerte mata raíces. Una planta comprada en flor viene abonada del vivero: no hace falta abonarla las primeras 4-6 semanas [orientativo, sin fuente prioritaria]."
+    },
+    "trasplante": {
+      "frecuencia": "Normalmente no hace falta: se compra en flor y suele vivir una temporada. Si se conserva tras la poda de rejuvenecimiento, cambiar a sustrato fresco una vez al año o cada dos años (Cornell, para begonias en general), a una maceta solo 2-3 cm mayor de diámetro [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (Clemson), cuando los brotes nuevos tras el reposo ya crecen. Nunca en plena floración.",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, sustrato que se seca en muy poco tiempo o que queda compacto y apelmazado tras una temporada.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Mínima en flor: RHS indica que no necesita poda. Sí conviene retirar flores marchitas y hojas dañadas (Cornell, para evitar podredumbres) y, si se quiere conservar la planta, una poda fuerte de rejuvenecimiento al acabar la floración (Clemson). Despuntar las plantas jóvenes las ramifica (Clemson).",
+      "epoca": "Limpieza de flores y hojas: siempre que aparezcan. Poda de rejuvenecimiento: al terminar la floración (en plantas compradas en otoño-invierno, a final de invierno o en primavera); Laidback Gardener la hace en otoño al entrar las plantas de exterior.",
+      "como": "Con tijera limpia y desinfectada con alcohol. 1) Quitar flores pasadas, pétalos caídos sobre las hojas y hojas amarillas o con moho, sin dejarlos sobre el sustrato (Cornell: son la puerta de la botritis y otras podredumbres). 2) Para rejuvenecer, cortar todos los tallos a unos 7,5 cm de la corona (Clemson; Laidback Gardener a 3-5 cm), reducir el riego y mantenerla en un sitio fresco y luminoso; aumentar el riego en primavera cuando broten. 3) Los brotes nuevos sirven como esquejes. 4) Despuntar las puntas de los tallos en plantas jóvenes hasta lograr la forma deseada y luego dejarla florecer (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F10"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Tras la floración. En plantas compradas en flor en otoño-invierno, suele llegar a final de invierno o primavera, cuando se agota la flor. En el hemisferio sur, desplazar seis meses.",
+      "cambios": "La planta tiende a parar y a decaer al terminar la floración: lo hereda de su progenitor tuberoso, pero no forma tubérculo, así que si se deja secar del todo muere (NC State Flower Growers Bulletin; Pertuit/Clemson; Laidback Gardener). Para pasar el reposo: poda fuerte a unos 7,5 cm de la corona, menos riego, sin abono y sitio fresco y luminoso (Clemson); Laidback Gardener (complementaria) indica 7-13 °C en esta fase, pero sin fuente prioritaria que lo confirme no bajar de 13 °C. Cuando broten, en primavera, volver al riego normal y al abono diluido. Muchos aficionados y viveros la tratan como planta de temporada y la desechan tras la flor (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F10"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo (punta o brote basal)",
+        "esqueje de hoja con pecíolo",
+        "semilla (rara en casa)"
+      ],
+      "epoca": "Primavera y comienzo de verano, con días largos. Los esquejes necesitan días largos para seguir en hoja: con noches largas tienden a hacer botón floral en vez de brotes (NC State Flower Growers Bulletin; Pertuit/Clemson).",
+      "pasos": "1) Elegir un brote sano sin flor, de 5-8 cm, con 2-3 nudos (Cornell; Laidback Gardener: tallos de 8 cm enraízan bien). Cortar bajo un nudo con cuchilla limpia y quitar las hojas inferiores. 2) Enraizar en perlita, musgo esfagno o sustrato ligero de turba con perlita, húmedo pero no mojado (Cornell). 3) Mantener la humedad alta con una bolsa o tapa transparente ventilada a diario, a 20-21 °C (temperatura de propagación de Gislerød: 68-70 °F) y con luz brillante indirecta. 4) Cuando enraícen (suelen tardar unas semanas), plantar 3-4 esquejes por maceta de 15-20 cm para una mata llena (Laidback Gardener). 5) Hoja: también se reproduce por hoja con un trozo de pecíolo (≤2 cm) clavada en sustrato poroso (Gislerød; Pertuit), aunque tarda 9-12 semanas en dar brotes. Semilla: RHS la cita (siembra a 21 °C a principio de primavera), pero Laidback Gardener indica que la mayoría de cultivares son casi estériles; en casa, usar esqueje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F4",
+        "F1",
+        "F10"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (Erysiphe begoniicola, antes Microsphaera begoniae; también Oidium): es el problema principal de esta begonia y es más grave en las Rieger/Elatior que en la begonia de flor común (PNW Handbook; Cornell; Gislerød). Lo favorecen la humedad alta, el riego irregular, el aire quieto y unos 21 °C; el calor por encima de 29 °C lo frena. Prevención: ventilación, riego regular por la base y por la mañana, sin mojar hojas. Retirar las hojas afectadas. Si persiste: sacar la planta al balcón y tratarla allí con un producto listo para usar de uso no profesional registrado contra oídio en ornamentales (bicarbonato potásico o azufre), siguiendo la etiqueta, y volver a entrarla seca: en España no hay fungicida doméstico autorizado para aplicar dentro de casa (arbol.json S33; productos.md §3; decisión de Fase 5)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis o moho gris (Botrytis cinerea): ataca flores (se pardean y mueren), hojas (pueden ennegrecer enteras) y tallos (puede anillarlos). Lo favorecen el fresco con humedad alta, el agua sobre la planta y los pétalos caídos sobre las hojas (Pertuit/Clemson; RHS; NC State). Retirar enseguida flores marchitas y partes afectadas, ventilar y no mojar la planta."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre del tallo a ras de sustrato (Rhizoctonia, Pythium o botritis) por exceso de riego, sustrato encharcado o plantar demasiado hondo (Pertuit/Clemson; NC State; RHS: stem rot). Base del tallo blanda y oscura y la planta se desploma; suele ser irrecuperable: salvar esquejes sanos."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular (Pythium) por riego excesivo, plato con agua o abono demasiado concentrado que daña las raíces (NC State; Gislerød). Es la causa más frecuente de muerte."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Con sustrato mojado: raíces o cuello podridos (exceso de riego). Con sustrato seco y maceta ligera: falta de agua puntual, o calor y sol fuerte en verano; esta begonia se recupera bien si se riega a tiempo."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana (Xanthomonas): manchas pequeñas y redondas que parecen gotas de aceite y luego crecen y se empapan; en casos graves toda la planta se marchita. La favorecen el agua sobre las hojas, el calor y la humedad alta (Pertuit/Clemson). Retirar y destruir lo afectado (a menudo toda la planta) y no mojar el follaje."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego con raíces dañadas, o envejecimiento natural de la planta al acabar la floración, cuando tiende a entrar en reposo."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Tras la floración, la planta para y tiende al reposo (herencia de su progenitor tuberoso, sin tubérculo); también con más de 3 semanas seguidas de días cortos, que la empujan al reposo (NC State Flower Growers Bulletin; Pertuit/Clemson). Ver el bloque reposo: poda fuerte y menos riego."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Calor por encima de 24 °C, que alarga entrenudos e inflorescencias y empeora la flor (Pertuit/Clemson), o falta de luz. Pasarla a un sitio más fresco y luminoso; despuntar."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte de mediodía o tarde, sobre todo en verano y tras el cristal de ventanas sur u oeste (RHS: sin sol directo)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaro del ciclamen (Phytonemus pallidus): acorta los entrenudos, deja hojas nuevas pequeñas, deformadas y abarquilladas y seca hojas y flores (Pertuit/Clemson). También los pulgones arrugan las hojas jóvenes. Aislar la planta; en infestaciones fuertes suele ser mejor desecharla."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros tetraníquidos), favorecida por el aire seco y cálido: calefacción en invierno y verano de Madrid (NC State; Clemson; RHS: mites)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Picaduras de araña roja (punteado amarillento) o rayado plateado por trips (Pertuit/Clemson: los trips rayan las hojas; RHS: trips de invernadero)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones florales; arruga las hojas jóvenes y les quita color (RHS; Pertuit/Clemson)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, plaga habitual de las begonias de interior (Clemson; NC State; Pertuit)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y bajo las hojas (Clemson; RHS; NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos), cuyas larvas viven en el sustrato húmedo rico en turba y dificultan el enraizamiento de los esquejes (Pertuit/Clemson). Indican exceso de riego: dejar secar más la capa superior."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es la estación más difícil para esta begonia: con días largos (más de 12,5 h) y calor por encima de 21-24 °C las plantas de día corto no florecen y se estiran (NC State), y a partir de unos 24 °C la flor sale más pequeña y pálida. Con 35-40 °C fuera, buscar la habitación más fresca y luminosa de la casa, lejos de ventanas sur y oeste o detrás de cortina fina, sin sol directo. Si hay aire acondicionado, que no le dé el chorro. El aire seco (HR exterior ≈38 %) favorece la araña roja: revisar el envés cada semana. Regar con el criterio de dedo y peso; con el calor se seca antes, pero no regar por calendario ni dejar agua en el plato. No pulverizar. Para el verano lo normal es que la planta esté en reposo, después de la poda, o en hoja.",
+    "invierno": "Es su temporada natural de flor: los días de Madrid duran menos de 12,5 h aproximadamente de mediados de septiembre a finales de marzo [orientativo, cálculo astronómico para 40,4° N, sin fuente prioritaria]. Si no florece en otoño, comprobar que no tenga luz de lámpara por la noche y que esté fresca. La calefacción reseca el aire (HR interior a menudo por debajo del 30 %) y sube la temperatura: alejarla de radiadores y salidas de aire caliente, y mantenerla mejor a 16-20 °C que a 23-24 °C. Para la humedad, humidificador o agrupar plantas, nunca pulverizar: el agua sobre hojas y flores trae oídio y botritis. Ventilar la habitación a diario sin que le den corrientes frías. Junto a cristales fríos, no dejar que las hojas toquen el vidrio y retirarla de noche si la zona baja de 13 °C. Unas horas de sol de invierno en ventana sur u oeste le benefician (Clemson). Retirar a diario flores marchitas y pétalos caídos.",
+    "ubicacion_recomendada": "Interior luminoso y fresco, sin sol fuerte: junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina (en invierno puede acercarse al cristal sin tocarlo). Habitación a 16-21 °C, ventilada, lejos de radiadores, estufas, aire acondicionado y corrientes. En otoño, evitar lámparas que la iluminen por la noche si se quiere que florezca. Fuera de casa, solo en verano a la sombra luminosa y protegida (RHS H1B), aunque el calor de Madrid la perjudica."
+  },
+  "lagunas": [
+    "'Begonia elatior' no es un nombre botánico de especie: es el nombre comercial europeo (B. × elatior desde 1979) del grupo de híbridos Begonia × hiemalis Fotsch (Begonien 130, 1933), híbrido artificial B. socotrana × B. × tuberhybrida (POWO). RHS lo trata como Begonia (Hiemalis Group) y como cultivar 'Elatior'. La ficha cubre el grupo Elatior/Hiemalis/Rieger; se mantiene 'Begonia elatior' como nombre_cientifico por la lista maestra.",
+    "Las fichas de cultivo publicadas por universidades sobre este grupo son sobre todo de producción en invernadero (NC State Flower Growers Bulletin, Pertuit/Clemson); para el cuidado en casa se combinan con fichas del género Begonia (Clemson, NC State, Cornell). Ningún servicio de extensión revisado tiene una ficha doméstica específica de B. × hiemalis (Missouri Botanical Garden y NC State Plant Toolbox no tienen entrada propia).",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes mínimo o ideal para este grupo.",
+    "Temperatura máxima de supervivencia: sin dato publicado; el máximo de 24 °C es de calidad de flor y crecimiento (Pertuit/Clemson), no de supervivencia.",
+    "Fotoperiodo de los cultivares modernos: las fuentes prioritarias (NC State, Clemson) describen el grupo como de día corto facultativo; que muchas series modernas sean de día neutro solo lo afirma una fuente complementaria (Laidback Gardener). No se puede saber por la foto si un cultivar concreto necesita días cortos.",
+    "Temperatura del reposo tras la floración: Laidback Gardener (complementaria) indica 7-13 °C; sin confirmación en fuentes prioritarias, que dan 13 °C (55 °F) como mínimo para begonias.",
+    "Toxicidad: ASPCA y NC State dan el dato para el género Begonia spp.; no hay ficha toxicológica específica de B. × hiemalis.",
+    "Duración del día en Madrid por debajo de 12,5 h (mediados de septiembre a finales de marzo): cálculo astronómico propio, sin fuente prioritaria citada; confirmar con datos del Observatorio Astronómico Nacional o AEMET."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/257075/begonia-hiemalis-group-elatior/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Begonia (Hiemalis Group) 'Elatior'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/growing-begonias-indoors/",
+      "institucion": "Clemson Cooperative Extension HGIC 1552 — Growing Begonias Indoors (incluye Elatior begonias, Begonia × hiemalis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/t/h/the_cult_53e1081acf2f9.pdf",
+      "institucion": "NC State Extension (HortScans) — N.C. Flower Growers Bulletin 30(6), 1986: Gislerød y Jørgensen, 'The Culture of Elatior-Begonia' (Agricultural University of Norway)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/b/e/begonias_51e5603586225.pdf",
+      "institucion": "Clemson University, Department of Horticulture — A.J. Pertuit Jr., 'Begonias' (Georgia Floriculture; archivo NC State HortScans)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia/",
+      "institucion": "NC State Extension — Gardener Plant Toolbox, género Begonia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ccenassau.org/resources/begonias",
+      "institucion": "Cornell Cooperative Extension Nassau County — Home Grounds Fact Sheet A-1-29 Begonias",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/begonia",
+      "institucion": "ASPCA Animal Poison Control Center — Begonia (Begonia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/104845-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Begonia × hiemalis Fotsch",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://pnwhandbooks.org/plantdisease/host-disease/begonia-powdery-mildew",
+      "institucion": "Pacific Northwest Plant Disease Management Handbook (Oregon State Univ., Washington State Univ., Univ. of Idaho) — Begonia: Powdery Mildew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://laidbackgardener.blog/2019/09/25/overwintering-rieger-begonias/",
+      "institucion": "Laidback Gardener (Larry Hodgson) — Overwintering Rieger Begonias (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,359 @@
+{
+  "nombre_cientifico": "Begonia maculata",
+  "nombres_comunes": [
+    "begonia maculata",
+    "begonia de lunares",
+    "begonia ala de ángel de lunares",
+    "begonia caña",
+    "begonia trucha"
+  ],
+  "familia": "Begoniaceae",
+  "origen": "Sudeste de Brasil (POWO); introducida en Cuba, República Dominicana, México y noreste de Argentina. Se vende sobre todo la forma o cultivar 'Wightii', de envés carmesí y lunares plateados densos.",
+  "clima_nativo": "Sotobosque de bosque tropical y subtropical húmedo (Mata Atlántica brasileña): sombra o media sombra, calor sin heladas y humedad ambiental alta. En exterior solo en zonas USDA 10a-11b (UF/IFAS); RHS la clasifica H1B (necesita mínimo 10-15 °C).",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, alargadas y asimétricas en forma de 'ala de ángel' (oblongo-lanceoladas, base acorazonada desigual y punta aguda), de 10-25 cm, con margen ondulado. Rasgo clave para visión: haz verde oliva a verde oscuro cubierto de lunares redondos plateados o blancos, regulares y bien definidos, y envés rojo intenso o granate (RHS, UF/IFAS, UVM). Inflorescencias colgantes de flores blancas o rosa pálido en verano.",
+    "nerviacion": "Nerviación poco marcada en el haz; varios nervios parten de la base de la lámina junto al pecíolo y el nervio principal queda desplazado por la asimetría de la hoja. En el envés rojo los nervios se ven algo más claros.",
+    "variegacion": "No es variegación clorofílica sino un moteado: lunares plateados sobre fondo verde (de ahí 'maculata', moteada). Los lunares no se pierden con poca luz como una variegación, pero sí se apagan los colores; el envés rojo es constante en 'Wightii'.",
+    "tallo": "Tallos erguidos, carnosos, poco ramificados, con nudos engrosados que recuerdan a una caña de bambú; verdes a rojizos. Con la edad pierde hojas en la parte baja y queda la caña desnuda (NC State, UF/IFAS).",
+    "habito": "Herbácea perenne de raíz fibrosa, del grupo informal de begonias de caña (cane-like). Porte erguido, columnar; los tallos altos pueden necesitar tutor.",
+    "tamano_adulto_interior": "0,5-1 m de alto y 0,1-0,5 m de ancho (RHS); mantenida con poda, 30-60 cm (UF/IFAS). Sin podar puede superar 1,2 m (UVM) e incluso más en invernadero.",
+    "confusiones": [
+      {
+        "especie": "Begonia × argenteoguttata y otros híbridos de begonia caña con lunares (p. ej. B. 'Lucerna', B. × corallina)",
+        "rasgo_diferenciador": "Lunares más pequeños, irregulares o difusos y envés verde, rosado o rojo apagado; hojas a menudo más grandes y menos alargadas. B. maculata 'Wightii' tiene lunares plateados grandes, redondos y muy regulares, y envés rojo intenso."
+      },
+      {
+        "especie": "Begonia rex (begonia rex) y otras begonias rizomatosas",
+        "rasgo_diferenciador": "Sin tallos en caña: las hojas salen de un rizoma rastrero a ras de sustrato, son anchas y redondeadas, con dibujos metálicos en bandas o zonas, no en lunares, y a menudo con pelos."
+      },
+      {
+        "especie": "Hypoestes phyllostachya (planta de lunares, polka dot plant)",
+        "rasgo_diferenciador": "Planta pequeña y ramificada de hojas opuestas, ovaladas y pequeñas (3-5 cm) con salpicaduras rosas, rojas o blancas; no tiene envés rojo ni tallos en caña."
+      },
+      {
+        "especie": "Bertolonia maculata y otras Melastomataceae de hoja moteada",
+        "rasgo_diferenciador": "Porte en roseta baja y hojas simétricas con 3-5 nervios longitudinales paralelos muy marcados; la begonia tiene hoja asimétrica sin nervios paralelos."
+      },
+      {
+        "especie": "Dieffenbachia spp. de hoja moteada",
+        "rasgo_diferenciador": "Hojas mucho mayores, simétricas, con manchas irregulares crema o blancas y envés verde; aroide de tallo grueso sin nudos abultados tipo caña."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Oxalatos de calcio solubles (dato para el género Begonia spp.; ASPCA, NC State). La parte más tóxica es la subterránea (raíces).",
+    "sintomas": "Perros y gatos: vómitos y salivación (ASPCA). En animales de pasto se ha descrito fallo renal. Gravedad baja según NC State; la savia puede causar dermatitis de contacto. En niños: irritación de boca y molestias digestivas si la mastican; RHS indica que no debe comerse y recomienda guantes al manipularla.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F8",
+      "F4"
+    ],
+    "notas": "ASPCA y NC State dan la toxicidad para el género Begonia spp., no para B. maculata en concreto; RHS sí clasifica la especie como 'potentially harmful'. Por eso se baja a Media aunque las tres fuentes coinciden en que es tóxica. Mantener fuera del alcance de mascotas y niños."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 2690,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este con sol suave de primera hora (Clemson, Cornell). Ventana norte muy luminosa también sirve, con crecimiento más lento. En ventana sur u oeste, a 1-2 m del cristal o detrás de cortina fina.",
+      "tolera_sol_directo": "Solo sol suave de primera hora de la mañana y algo de sol de invierno (Clemson). No tolera sol directo continuo ni sol fuerte de mediodía o tarde (RHS, UVM): quema y decolora las hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "notas": "Fuentes de la especie: RHS 'filtered light, shade from hot sun', UF/IFAS 'part shade, indirect sun 2-6 hours', UVM 'bright light to part shade, but no direct sun'. Ninguna da lux: el rango es una equivalencia con la escala del proyecto (de 250 fc ≈ 2690 lux, parte alta de luz media, a 1000 fc ≈ 10 760 lux, techo de luz brillante indirecta). Con poca luz se estira (tallos largos y débiles) y apaga los colores."
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo a 2-3 cm y el peso de la maceta: regar cuando los 2-3 cm superiores estén secos y la maceta pese claramente menos que recién regada (UVM: regar cuando la superficie empieza a secarse; RHS: riego moderado). Regar a fondo en la base, sin mojar las hojas (NC State), hasta que drene, y vaciar el plato a los 10-15 minutos: nunca dejarla en un plato con agua (Clemson). Regar por la mañana para que nada quede húmedo de noche (Cornell, Iowa State). Nunca por calendario.",
+      "primavera_verano": "Mantener el sustrato ligeramente húmedo, no empapado (UF/IFAS, Clemson): regar cada vez que se cumpla el criterio. Con calor y crecimiento activo se seca antes, así que comprobar más a menudo.",
+      "otono_invierno": "Dejar secar un poco más entre riegos (Cornell): esperar a que estén secos los 2-3 cm superiores y la maceta ligera. Si la temperatura nocturna baja de 13 °C, mantenerla más bien seca, sin llegar a secarse del todo (Cornell).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. El agua del grifo de Madrid (Canal de Isabel II, blanda, 10-47 mg/L CaCO3) es adecuada; dejarla reposar no elimina la cloramina, pero no hace falta. Regar de vez en cuando a fondo para lavar sales de abono acumuladas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "NC State: 'avoid overwatering because begonias are highly susceptible to root rot'. RHS: no tolera el encharcamiento. Exceso de riego = pudrición de raíz y de base del tallo (tallo blando y oscuro sobre el sustrato), amarilleo y caída de hojas. La sequía prolongada produce hojas lacias y caída de hojas, pero se recupera mejor que del exceso: ante la duda, quedarse corto. UVM relaciona además el exceso de riego con más plagas."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F10",
+        "F11"
+      ],
+      "notas": "NC State: la mayoría de begonias prefieren ambiente húmedo; Clemson: necesitan ambiente húmedo, pero no recomienda pulverizar las hojas. Ninguna fuente prioritaria da un porcentaje para B. maculata (laguna). Usar humidificador o agrupar plantas; no pulverizar: no sube la humedad de forma útil y el agua sobre la hoja favorece el oídio y la botritis. Equilibrio delicado: humedad ambiental alta pero hojas secas y aire en movimiento (Cornell recomienda un ventilador pequeño en invierno)."
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 19,
+      "ideal_max_c": 24,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "RHS (especie): óptimo 19 °C, H1B (mínimo 10-15 °C). NC State (género): no tolera menos de 13 °C (55 °F). Clemson: 19-23 °C de día, nunca menos de 13 °C de noche; Cornell: 21-24 °C de día y unos 18 °C de noche. Se adopta 13 °C como mínimo conservador. Ninguna fuente prioritaria da máximo (laguna); fuentes complementarias citan hasta unos 27 °C. Con más calor, sombra, ventilación y vigilar el riego (Cornell: más sombra en verano). Evitar corrientes frías y cristales fríos."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato ligero, aireado y con buen drenaje, rico en materia orgánica (RHS: compost de maceta ligero, bien drenado y sin turba; NC State: alto en materia orgánica). Opción práctica: sustrato universal para plantas de interior aligerado con 25-30 % de perlita (Cornell propone mezcla de turba y perlita a partes iguales). Maceta con agujeros de drenaje, no sobredimensionada.",
+      "ph": "5,5-6,5 (ligeramente ácido)",
+      "drenaje": "Imprescindible: no tolera el encharcamiento (RHS). Sin plato con agua acumulada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6",
+        "F2"
+      ],
+      "notas": "pH: NC State da 5,5-6,5 para el género y RHS 'ácido a neutro' para la especie; UF/IFAS Santa Rosa indica 'neutro (6,0-8,0)'. Se adopta el rango conservador 5,5-6,5, compatible con RHS y con la parte baja de UF/IFAS."
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior.",
+      "npk": null,
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo.",
+      "otono_invierno": "Nada mientras no crezca; reanudar cuando aparezcan brotes nuevos en primavera (Cornell: muy poco abono en invierno).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3"
+      ],
+      "notas": "Las fuentes son más generosas que la convención del proyecto: RHS abona en riegos alternos, Clemson a media dosis cada dos riegos, Cornell a dosis débil en cada riego y UVM una vez al mes. Se aplica la convención del proyecto (¼-½ de dosis mensual), más conservadora. No se encontró NPK específico en fuentes prioritarias."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años (Cornell), al subir un tamaño de maceta (2-3 cm más de diámetro).",
+      "epoca": "Primavera, al empezar el crecimiento (Clemson).",
+      "senales": "Raíces rodeando el cepellón o saliendo por los agujeros de drenaje, sustrato que se seca muy rápido o planta que vuelca por peso (Clemson: cuando está 'pot-bound').",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F10"
+      ],
+      "notas": "Fuentes del género o de begonias de interior en general, no de la especie. Las macetas demasiado grandes retienen agua y favorecen la pudrición; una maceta pesada (barro, cerámica) ayuda a que no vuelque un ejemplar alto."
+    },
+    "poda": {
+      "necesita": "Sí. Sin poda se alarga, pierde las hojas bajas y queda desgarbada.",
+      "epoca": "Final de primavera o inicio de verano (RHS, Clemson).",
+      "como": "Cortar las cañas demasiado largas dejando 2-3 yemas (RHS), con tijera limpia, justo por encima de un nudo; la planta rebrota desde abajo y se hace más densa (Clemson). Pinzar puntas para ramificar. Si un ejemplar viejo está muy desnudo, se puede rebajar entero a 5-10 cm y dejar que rebrote (Cornell). Retirar hojas muertas o con oídio y flores pasadas (Cornell). Aprovechar los recortes como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semirreposo en los meses de días cortos y menos luz (en Madrid, aproximadamente de noviembre a febrero; en el hemisferio sur, de mayo a agosto).",
+      "cambios": "No es un reposo verdadero sino una ralentización: regar menos dejando secar algo más el sustrato, suspender el abono hasta los brotes nuevos, mantener por encima de 13 °C y con buena luz. Si se rebaja la planta, mantenerla casi seca (no del todo) hasta la primavera (Cornell).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5"
+      ],
+      "notas": "Fuentes de begonias de caña o del género en interior, no específicas de B. maculata."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "división"
+      ],
+      "epoca": "Primavera y verano (aprovechar los recortes de poda).",
+      "pasos": "1) Cortar un trozo de caña sana con 2-3 nudos (Cornell) justo por debajo de un nudo. 2) Quitar las hojas inferiores y dejar 1-2 hojas arriba. 3) Enraizar en perlita, musgo sphagnum o sustrato ligero húmedo (Cornell), o en agua cambiándola a menudo. 4) Mantener en calor (20-24 °C), luz indirecta y ambiente húmedo, sin encharcar, hasta que enraíce (varias semanas). 5) Trasplantar a maceta pequeña con sustrato drenante. No se propaga por esqueje de hoja: las begonias de caña no lo admiten (Cornell).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F6"
+      ],
+      "notas": "RHS y UVM confirman esqueje de tallo para la especie; UVM menciona también división."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, 'probablemente la peor plaga de las begonias' (Cornell); RHS lo cita para la especie. Favorecido por ambiente fresco y húmedo, hojas mojadas y aire estancado (Iowa State). Ojo: los lunares plateados naturales son lisos y regulares; el oídio es un polvo blanco que se borra al frotar y se extiende. Prevenir con aire en movimiento, regar por la mañana sin mojar hojas, y retirar las hojas afectadas. Pocos fungicidas están autorizados en interior (Iowa State): en España solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato sin drenaje: muy susceptible (NC State, Iowa State, RHS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de tallo y base de la caña (RHS, NC State, UF/IFAS) por sustrato encharcado o agua acumulada en el plato; la caña se ablanda y oscurece sobre el sustrato."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego, o caída natural de hojas bajas de las cañas viejas (NC State); si es masivo y con sustrato húmedo, sospechar pudrición radicular."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato demasiado seco o, al contrario, raíces podridas por exceso de agua: comprobar humedad del sustrato antes de regar."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis (moho gris) en flores pasadas y hojas con ambiente húmedo y poca ventilación (RHS, NC State, UF/IFAS); retirar flores marchitas y hojas dañadas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz: cañas largas, entrenudos largos y colores apagados."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo tras cristal en ventana sur u oeste (RHS: no tolera sol directo continuo)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire muy seco (calefacción o verano madrileño), riego irregular o sales de abono acumuladas."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Cambio brusco de luz, temperatura o humedad tras la compra o un traslado; también corrientes frías."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (RHS, NC State, UF/IFAS, UVM)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State, UF/IFAS, UVM)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y calor (NC State, UF/IFAS, Clemson; RHS cita ácaros)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Picaduras de trips o ácaros (RHS, UF/IFAS, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos e inflorescencias (RHS, UVM)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y nervios (NC State, UVM)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, nunca en ventana sur u oeste sin protección: retirarla 1-2 m del cristal o tamizar con cortina; ideal ventana este. Sin máximo fijado por fuentes prioritarias, con más de 30 °C en la habitación aumentar sombra y ventilación. El sustrato se seca antes: comprobar con el dedo y el peso cada 2-3 días, pero sin dejarla encharcada. El aire muy seco (HR ≈38 % exterior) favorece la araña roja y las puntas secas: humidificador o agrupar plantas, sin pulverizar. No ponerla bajo el chorro del aire acondicionado.",
+    "invierno": "Lejos de radiadores y de las salidas de calefacción (HR interior <30 %): humidificador o agrupar plantas. No pegarla al cristal frío: mantener por encima de 13 °C también de noche. Regar menos y por la mañana, sin mojar las hojas; si la habitación es fresca (<16 °C) y húmeda, el riesgo de oídio y botritis sube: asegurar aire en movimiento (ventilador suave o ventilar a diario sin corrientes frías) y retirar hojas con polvo blanco. Sin abono hasta que brote en primavera; aprovechar la luz de ventana este o sur tamizada.",
+    "ubicacion_recomendada": "Junto a una ventana este (sol suave de mañana) o a 1-2 m de una ventana sur u oeste con cortina, en una estancia cálida (19-24 °C), sin radiador cerca ni corrientes frías, con algo de circulación de aire. Fuera del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Begonia maculata Raddi (urn:lsid:ipni.org:names:105130-1), nativa del sudeste de Brasil; sinónimos Gaerdtia maculata (Raddi) Klotzsch y Begonia argyrostigma gigantea Van Houtte (RHS cita B. argyrostigma como sinónimo). Sin cambio de nombre. La planta comercial suele ser 'Wightii' (B. maculata var. wightii Fotsch en IPNI).",
+    "Poca información específica de la especie en fuentes prioritarias: humedad, temperatura mínima, trasplante, reposo y toxicidad se apoyan en fuentes del género Begonia o del grupo de begonias de caña (NC State, Clemson, Cornell, ASPCA).",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimo o ideal para B. maculata (min_pct e ideal_pct en null). Fuentes complementarias hablan de humedad 'moderada a alta' y de hasta 75 % en origen.",
+    "Temperatura máxima: ninguna fuente prioritaria la da (max_c en null); complementarias citan hasta unos 27 °C.",
+    "Luz: ninguna fuente da lux o pies-candela; lux_min/lux_max son una equivalencia con la escala del proyecto.",
+    "Fertilización: no hay NPK específico en fuentes prioritarias.",
+    "Missouri Botanical Garden Plant Finder no tiene ficha de B. maculata; POWO no ofrece datos de cultivo.",
+    "UVM Extension (F3) recomienda aceite de neem o aceite hortícola contra plagas; no se recoge porque el neem no es sustancia aprobada en la UE. En España solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/112222/begonia-maculata-c/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Begonia maculata (C)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://sfyl.ifas.ufl.edu/media/sfylifasufledu/santa-rosa/docs/pdfs/demo-garden-5/Polka-Dot-Begonia-final.pdf",
+      "institucion": "UF/IFAS Extension (University of Florida), Santa Rosa County — ficha Polka Dot Begonia-Cane Types, Begonia maculata (ago. 2025)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://streaming.uvm.edu/wowza/users/g/a/gardener/files/attachments/UFqbcweOtE9n1tGpt7c9.srt",
+      "institucion": "University of Vermont (UVM) Extension Master Gardener — vídeo 'Houseplant hero: Begonia maculata' (transcripción)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, género Begonia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/growing-begonias-indoors/",
+      "institucion": "Clemson Cooperative Extension HGIC 1552 — Growing Begonias Indoors",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ccenassau.org/resources/begonias",
+      "institucion": "Cornell Cooperative Extension Nassau County — Home Grounds Fact Sheet A-1-29 Begonias",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2005/2-11-2005/houseplantdis.html",
+      "institucion": "Iowa State University Extension — Two Common Houseplant Diseases (oídio y pudrición de raíz)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/begonia",
+      "institucion": "ASPCA Animal Poison Control Center — Begonia (Begonia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105130-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Begonia maculata Raddi",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.gardeners.com/how-to/begonia-maculata-care/9722.html",
+      "institucion": "Gardener's Supply Company — How to care for a Begonia maculata (tienda)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.epicgardening.com/begonia-maculata/",
+      "institucion": "Epic Gardening — Begonia maculata (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

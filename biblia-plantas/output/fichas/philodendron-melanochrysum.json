@@ -1,0 +1,330 @@
+{
+  "nombre_cientifico": "Philodendron melanochrysum",
+  "nombres_comunes": [
+    "filodendro melanochrysum",
+    "filodendro negro y oro (traducción de 'black-gold philodendron', RHS)",
+    "filodendro aterciopelado ('velour philodendron', Clemson)"
+  ],
+  "familia": "Araceae",
+  "origen": "Endémica de Colombia según el catálogo de Kew basado en WCVP (ColPlantA: área nativa Colombia; departamento de Antioquia, Andes, 800 m según el Catálogo de Plantas y Líquenes de Colombia de la Universidad Nacional). RHS da como área nativa Colombia y Panamá. Wikipedia (complementaria) la sitúa en las estribaciones andinas húmedas del Chocó y Antioquia, a unos 500 m. Se cultiva en Europa al menos desde 1886 (Veitch, bajo el nombre P. andreanum; Wikipedia).",
+  "clima_nativo": "Tropical húmedo sin heladas: trepadora del bioma tropical húmedo, en bosque de estribación andina a baja-media altitud (ColPlantA: 'climber', 'wet tropical biome', hábitat de bosque). No se han encontrado en fuentes prioritarias datos de lluvia ni temperaturas del hábitat. RHS la califica H1A: en el Reino Unido solo se cultiva bajo cristal todo el año, con mínima superior a 15 °C.",
+  "categoria": "trepadora",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Simples, acorazonadas (cordadas) y alargadas, con la punta larga y acuminada, ligeramente oblicua, y lóbulos basales cortos y redondeados separados por un seno estrecho (descripción del tipo en CATE Araceae, recogida por ColPlantA/Kew). Textura aterciopelada, verde muy oscuro casi negro con brillo cobrizo o dorado (RHS: 'velvety, deep green with a coppery sheen'; Clemson: 'velvety, blackish green'); el nombre 'negro y oro' alude a los destellos dorados de la lámina al sol (Wikipedia). Hojas nuevas cobrizas, rojizas o color salmón que oscurecen en semanas (CATE: hojas jóvenes rojo salmón; Garden Betty, complementaria). Tamaño muy variable según el soporte: la descripción del tipo da 15-18 x 10-12 cm (planta joven); RHS 25-75 cm de largo; Clemson, hasta unos 90 cm (3 ft), pero solo tras varios años guiada en vertical. Colgando o sin tutor las hojas se quedan pequeñas y acorazonadas; trepando por un tutor húmedo se alargan mucho y se estrechan (Clemson; Garden Betty y Folia Collective, complementarias). Pecíolo bastante robusto, ligeramente acanalado por arriba, de 9-12 cm en el tipo (CATE).",
+    "nerviacion": "Pinnada: nervio central y 5-7 nervios laterales a cada lado que salen en ángulo obtuso y se arquean hacia el margen, más 2-3 nervios basales en los lóbulos (CATE). Los nervios destacan en verde pálido, plateado o casi blanco sobre la lámina oscura (RHS: 'pale green veins'; Clemson: 'pale green veins'; CATE: 'glossy silver'), lo que da un dibujo de líneas claras muy visible para una IA de visión.",
+    "variegacion": "No variegada. El contraste visual lo dan los nervios claros, el terciopelo oscuro con reflejos dorados y las hojas nuevas cobrizas o rosadas; no hay cultivares variegados estables descritos en fuentes prioritarias. Clemson indica que sus híbridos con otras especies tienen dibujos foliares decorativos (p. ej. P. 'Splendid', cruce con P. verrucosum según Garden Betty, complementaria).",
+    "tallo": "Trepador, cilíndrico (terete), relativamente delgado pero firme, con entrenudos de 6-10 cm en el tipo (CATE) y raíces aéreas en los nudos con las que se agarra al soporte. Más grueso y rígido que el de P. hederaceum 'Micans' (Garden Betty, complementaria).",
+    "habito": "Trepadora perennifolia de crecimiento bastante lento (RHS: 'fairly slow-growing evergreen climber'; 5-10 años hasta el tamaño adulto). Necesita un tutor vertical, idealmente de musgo húmedo, para desarrollar las hojas grandes adultas (Clemson; Wikipedia y Folia Collective, complementarias). Sin soporte cuelga o se arrastra y conserva hojas juveniles pequeñas.",
+    "tamano_adulto_interior": "RHS: 2,5-4 m de altura (3 m o más) y 0,5-1 m de anchura, en 5-10 años. En vivienda la altura la limita el tutor; con tutor de 1,2-1,8 m y años de cultivo puede alcanzar hojas de 40-60 cm [orientativo, sin fuente prioritaria]; RHS da hojas de 25-75 cm y Clemson hasta 90 cm en condiciones óptimas.",
+    "confusiones": [
+      {
+        "especie": "Philodendron gloriosum",
+        "rasgo_diferenciador": "Ambas tienen hojas acorazonadas aterciopeladas con nervios claros. P. gloriosum es rastrera: el tallo crece horizontal sobre el suelo o el borde de la maceta, no trepa, y sus hojas son más anchas, casi tan anchas como largas, verde medio, a menudo con un fino margen rosado (Wikipedia, complementaria). P. melanochrysum es trepadora, con hojas más estrechas y alargadas, mucho más oscuras (negro-verdosas) y con brillo dorado-cobrizo (RHS, Clemson) [rasgo de gloriosum orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Philodendron hederaceum 'Micans' (P. micans, P. scandens f. micans)",
+        "rasgo_diferenciador": "La planta joven de melanochrysum se parece por el terciopelo y el color cobrizo (Folia Collective, complementaria). 'Micans' tiene hojas pequeñas (unos 5-10 cm, Clemson para filodendros de hoja de corazón), verde bronce con envés pardo rojizo (Clemson; UF/IFAS ENH893), tallos muy finos y colgantes y nervios del mismo tono que la lámina, sin dibujo plateado; melanochrysum tiene nervios claros muy marcados, tallo más grueso y hojas que se alargan mucho al trepar (Garden Betty, complementaria)."
+      },
+      {
+        "especie": "Philodendron gigas",
+        "rasgo_diferenciador": "Aspecto muy parecido, terciopelo oscuro y nervios claros, pero hojas algo más anchas o de proporción distinta según Garden Betty (complementaria) [orientativo, sin fuente prioritaria]; la identificación segura entre ambas por foto es difícil y la app debe indicar la duda."
+      },
+      {
+        "especie": "Philodendron 'Splendid' (híbrido P. melanochrysum x P. verrucosum)",
+        "rasgo_diferenciador": "Hojas más anchas y acorazonadas que melanochrysum, con nervios claros también marcados (Garden Betty, complementaria); Clemson confirma que existen híbridos de melanochrysum con dibujos foliares decorativos [orientativo, sin fuente prioritaria para el rasgo]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico en todas las partes de la planta (Clemson, para los filodendros de su ficha, que incluye P. melanochrysum; ASPCA para el género en P. hederaceum). RHS, en la ficha de la especie, la clasifica como nociva si se ingiere, también para mascotas, e irritante o alergénica para piel y ojos.",
+    "sintomas": "Perros y gatos (ASPCA, género): irritación oral, dolor e hinchazón de boca, lengua y labios, babeo abundante, vómitos y dificultad para tragar. Personas (Clemson): irritación de boca, labios y lengua, babeo, vómitos y dificultad para tragar; la savia irrita piel y ojos (RHS). Usar guantes al podar o sacar esquejes (RHS) y mantenerla fuera del alcance de mascotas y niños pequeños (Clemson).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F6",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1614,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste, o a 1,5-2 m de una ventana sur con cortina o estor (RHS: orientación sur, este u oeste, luz brillante pero filtrada, semisombra). En ventana norte solo si es muy luminosa; con poca luz las hojas no maduran.",
+      "tolera_sol_directo": "No. RHS pide luz filtrada y semisombra; el sol directo de mediodía o tarde tras el cristal quema la lámina aterciopelada (Garden Betty y vendedores, complementarias). Como mucho sol suave de primera hora.",
+      "notas": "Datos de especie solo de RHS ('bright but filtered light', 'partial shade'). UF/IFAS ENH893 (género): con 150 fc (≈1600 lux) o más los filodendros mantienen color y tamaño de hoja; se toma como mínimo útil. El máximo es el techo de la luz brillante indirecta del proyecto (1000 fc ≈ 10760 lux). Folia Collective (complementaria): con luz media puede tardar mucho o no llegar a sacar hojas adultas. Confianza Media: una sola prioritaria trata la especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F2",
+        "F8",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. RHS: riego moderado, menos con temperaturas bajas. Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo y calor el sustrato aireado se seca antes: comprobar dedo y peso cada 2-4 días. Mantenerlo ligeramente húmedo en profundidad, nunca encharcado (Clemson, género). Si está en tutor de musgo, mantener también el musgo húmedo para que las raíces aéreas se agarren [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Regar menos (RHS: menos con temperaturas bajas), dejando secar algo más de la capa superior; Garden Betty (complementaria) deja secar hasta la mitad en invierno. Con calefacción fuerte puede secarse antes: guiarse siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo; en Madrid (Canal de Isabel II) es blanda y la cloramina no es causa de puntas marrones. El riesgo real es la acumulación de sales de abono: UF/IFAS ENH893 (género) indica no abonar con conductividad del sustrato ≥2,0 dS/m y lavar el sustrato con agua abundante si supera 3,0 dS/m.",
+      "notas": "Clemson (género): sustrato que drena despacio y riego frecuente causan pudrición radicular; nunca dejarla en agua. Clemson y UF/IFAS ENH893 hablan de mantener el sustrato húmedo; se adopta la opción más segura frente a la pudrición en una planta de crecimiento lento: dejar secar los 2-3 cm superiores. Confianza Media: solo RHS trata el riego de la especie, y de forma cualitativa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes para la especie en interior. Clemson (género): la humedad alta da el mejor crecimiento, aunque los filodendros toleran la de una vivienda. UF/IFAS ENH893 da 60-100 % solo para producción en vivero (género). RHS la recomienda bajo cristal todo el año (H1A). Complementarias: Wikipedia indica que conviene humedad alta; Garden Betty recomienda humidificador si la humedad baja con frecuencia del 50 %. Es de las especies que más sufren el aire seco: hojas nuevas que se atascan o salen deformes y bordes secos [orientativo, sin fuente prioritaria]. Usar humidificador o agrupar plantas, o vitrina/armario de cultivo; pulverizar no sube la humedad de forma útil y el agua retenida en el terciopelo no la beneficia. El aire seco favorece la araña roja (RHS, Wikipedia).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1",
+        "F7",
+        "F9"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "RHS (especie): mínimo invernal de 15 °C, calificación H1A (bajo cristal todo el año, mínima superior a 15 °C). Clemson (género): 24-29 °C de día y 18-21 °C de noche. UF/IFAS ENH893 (género): 21-27 °C en interior; en vivero el crecimiento y la calidad caen cuando el día supera con frecuencia 35 °C o la noche baja de 18 °C; varias horas a 0,5-4,5 °C amarillean las hojas inferiores. Garden Betty (complementaria): deja de crecer por debajo de unos 16 °C (60 °F). Se adopta como mínima 15 °C (RHS, coherente con la ficha de P. hederaceum); ninguna prioritaria da un mínimo más alto para la especie. Máxima de 32 °C [orientativo, sin fuente prioritaria para la especie]: se fija por debajo del umbral de 35 °C de UF/IFAS (género) por tratarse de una especie de estribación andina sensible al calor seco. Sin heladas; lejos de radiadores, chorros de aire acondicionado y cristales fríos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F9"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato rico en humus, aireado y con buen drenaje que retenga algo de humedad (RHS: 'humus-rich, well-drained compost'). Mezcla gruesa tipo aroide, por ejemplo 1 parte de sustrato universal, 1 de perlita, 1 de corteza fina de pino y 1 de musgo esfagno (Garden Betty, complementaria; Folia Collective recomienda también mezcla gruesa) [proporciones orientativas, sin fuente prioritaria]. UF/IFAS ENH893 (género) usa turba de esfagno, corteza de pino, vermiculita o perlita. Maceta siempre con agujeros.",
+      "ph": "6,0-6,5 (UF/IFAS ENH893, género, sustrato de producción). RHS: ácido, neutro o alcalino.",
+      "drenaje": "Imprescindible. Un sustrato que drena despacio, con riegos frecuentes, pudre las raíces (Clemson, género). RHS: húmedo pero bien drenado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F2",
+        "F9",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido o soluble para plantas de interior, diluido, o de liberación lenta a dosis baja (Clemson, género).",
+      "npk": "3-1-2 o 3-1-3 (UF/IFAS ENH893, género, producción comercial).",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (convención del proyecto). Regar antes si el sustrato está seco. Garden Betty (complementaria) abona 1-2 veces al mes de primavera a otoño; se adopta la pauta más conservadora por su crecimiento lento.",
+      "otono_invierno": "Nada: suspender el abono hasta la primavera (Garden Betty; convención del proyecto). Tampoco abonar plantas enfermas o recién trasplantadas.",
+      "notas": "RHS no da pauta de abonado para la especie. El exceso de abono enrolla y pardea las puntas (Clemson, género). No abonar ni trasplantar durante unas 4 semanas tras llevarla a casa (UF/IFAS ENH893, género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F9"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años o cuando las raíces llenen la maceta [orientativo, sin fuente prioritaria para la especie]; crece despacio (RHS) y no necesita trasplantes frecuentes. Subir solo 2-5 cm de diámetro [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera o inicio del verano, con crecimiento activo; nunca en las primeras 4 semanas tras comprarla (UF/IFAS ENH893, género). Aprovechar para poner o alargar el tutor de musgo sin dañar las raíces aéreas ya agarradas.",
+      "senales": "Sustrato que se seca muy rápido tras regar y raíces saliendo por los agujeros de drenaje (Garden Betty, complementaria); planta apiñada (Clemson, género); sustrato viejo compactado que ya no drena.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F9",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Se poda solo para retirar hojas viejas secas o dañadas y para controlar la altura cuando sobrepasa el tutor; RHS la asigna a su grupo de poda 11 sin más detalle en la ficha. Los filodendros trepadores se controlan con la altura del soporte, el guiado y la poda (Clemson, género).",
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "Con tijeras limpias y guantes (savia irritante, RHS), cortar justo por encima de un nudo; la punta cortada sirve como esqueje. Quitar la hoja inferior seca es normal: pierde alguna hoja vieja a medida que crece (Garden Betty, complementaria). Evitar cortes innecesarios: crece despacio y cada hoja adulta tarda en formarse.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F9"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de octubre a marzo en el hemisferio norte; de abril a septiembre en el hemisferio sur).",
+      "cambios": "No es un reposo estricto: no pierde las hojas, solo crece más despacio con menos luz y temperatura. Regar menos (RHS: menos con temperaturas bajas), no abonar y mantenerla por encima de 15 °C (RHS), lejos de cristales fríos y radiadores, con humedad ambiental alta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta de tallo (semileñoso o tierno)",
+        "esqueje de yema y hoja (un nudo con su hoja)",
+        "acodo aéreo"
+      ],
+      "epoca": "Primavera y verano, con calor y crecimiento activo [orientativo]; Clemson (género) indica que los esquejes y el acodo aéreo pueden hacerse en cualquier estación.",
+      "pasos": "1) Elegir un trozo de tallo con al menos un nudo con raíz aérea y una hoja (RHS: esqueje de punta o de yema y hoja). Garden Betty (complementaria) recomienda esquejes de al menos 10 cm con varios nudos. 2) Cortar con tijera limpia y guantes. 3) Enraizar en musgo esfagno húmedo con perlita, en sustrato ligero o en agua (Garden Betty), a 21-27 °C, con luz brillante indirecta y humedad alta (cubierta o propagador) [condiciones orientativas, género UF/IFAS ENH893]. 4) Las raíces y brotes de filodendro aparecen en unas 3-6 semanas (UF/IFAS ENH893, género). 5) Acodo aéreo: envolver un nudo con esfagno húmedo y plástico sin cortar el tallo hasta que enraíce (Clemson, género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato que no drena o riego demasiado frecuente (Clemson, género; Garden Betty, complementaria). Es especialmente grave en esta especie por su crecimiento lento: tarda mucho en reponer raíces."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Tallo blando o podrido en la base por exceso de agua o sustrato encharcado (Garden Betty, complementaria: tallos podridos como señal de alarma)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores por poca luz o exceso de riego (Clemson, género) o tras horas a menos de 5 °C junto a un cristal frío (UF/IFAS ENH893, género). La pérdida ocasional de la hoja más vieja es normal (Garden Betty)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas pequeñas o que no maduran por falta de tutor vertical: solo alcanzan el tamaño adulto tras varios años guiada en vertical (Clemson); también por luz insuficiente (Folia Collective; UF/IFAS ENH893). Hojas nuevas que se atascan al abrirse o salen deformes por aire seco [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones y enrolladas por exceso de abono (Clemson, género) o aire muy seco. En Madrid no atribuirlo al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes secos y pardos por humedad ambiental baja (calefacción, verano madrileño) o sequía del sustrato [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Manchas decoloradas o quemadas por sol directo tras el cristal; RHS pide luz filtrada y semisombra."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Entrenudos y pecíolos largos y planta abierta por luz insuficiente (UF/IFAS ENH893, género)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja de invernadero (RHS; Wikipedia la señala como plaga principal), favorecida por el aire seco."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado en la lámina por araña roja (RHS) antes de ver la telaraña; difícil de ver en el terciopelo oscuro: revisar el envés."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo en tallos y nervios (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (Clemson, género)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas y brotes nuevos (Clemson, género)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída o deterioro de hojas al pasar de un invernadero o vivero muy húmedo a la vivienda seca [orientativo, sin fuente prioritaria]; no abonar ni trasplantar en las primeras 4 semanas (UF/IFAS ENH893, género)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle, aire muy seco (≈38 % HR exterior en julio) y sol fuerte en ventanas sur y oeste, es una de las plantas que peor lo pasan: apartarla 1,5-2 m de esas ventanas o protegerla con cortina o estor (RHS pide luz filtrada). Llevarla a la habitación más fresca, idealmente por debajo de 30 °C, sin chorro directo del aire acondicionado, que además reseca el aire. Mantener humidificador o agrupar plantas, o cultivarla en vitrina o armario de cultivo con ventilación. El sustrato y el tutor de musgo se secan mucho antes: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. No sacarla a la terraza: el aire seco y el calor de Madrid le dañan las hojas [orientativo, sin fuente prioritaria].",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %: insuficiente para esta especie; usar humidificador cerca o vitrina, no pulverizar, y revisar el envés por si hay araña roja (RHS). Nunca sobre o junto a radiadores. Mantenerla por encima de 15 °C (RHS) y lejos de cristales fríos y corrientes: varias horas por debajo de 5 °C amarillean las hojas inferiores (UF/IFAS ENH893, género). Con menos luz, acercarla a la ventana más luminosa con cortina fina (el sol bajo de invierno en ventana sur, filtrado, se tolera), regar menos y no abonar.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana este u oeste, o a 1,5-2 m de una sur con cortina, guiada en un tutor de musgo húmedo o tabla de corteza alto, con humidificador cerca o dentro de una vitrina de cultivo. Lejos de radiadores, aire acondicionado y puertas con corriente. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado Philodendron melanochrysum Linden & André, publicado en Ill. Hort. 20: 198 (1873), según ColPlantA (Kew, datos WCVP). La ficha del taxón en POWO bloquea el acceso automatizado (desafío Cloudflare) y no se han podido verificar en POWO los sinónimos; Wikipedia cita P. andreanum (nombre con el que Veitch la introdujo en 1886) y P. grandidens, sin confirmar en fuente prioritaria.",
+    "Distribución: ColPlantA (Kew) y el Catálogo de Plantas y Líquenes de Colombia la dan como endémica de Colombia (Antioquia, 800 m); RHS da Colombia y Panamá; Wikipedia, Chocó y Antioquia a unos 500 m. Sin fuente prioritaria sobre el clima detallado del hábitat.",
+    "Especie de coleccionista: solo RHS (ficha de especie) y Clemson (identificación y necesidad de guiado vertical) tratan la especie; luz, riego, humedad, temperatura, sustrato, abonado, trasplante, poda, reposo y propagación se apoyan en RHS y en fuentes del género (Clemson, UF/IFAS ENH893), por lo que ningún bloque de cuidados sube a Alta.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa para la especie; min_pct e ideal_pct quedan en null.",
+    "La temperatura máxima de 32 °C, la frecuencia de trasplante, las proporciones del sustrato casero y los síntomas por aire seco (S06, S12, parte de S18) no tienen fuente prioritaria y se marcan como orientativos.",
+    "RHS asigna el grupo de poda 11 sin detallar la técnica en la ficha; no se ha abierto la guía de grupos de poda de RHS.",
+    "Confusiones con P. gloriosum, P. gigas y P. 'Splendid' solo respaldadas por fuentes complementarias (Wikipedia, Garden Betty). No se encontró ficha prioritaria de P. gloriosum (la URL probable de NC State da 404) y el presupuesto de búsquedas web de la sesión se agotó antes de buscar más.",
+    "Toxicidad: ASPCA no tiene ficha de P. melanochrysum; se usa la de P. hederaceum (género) junto a RHS (especie) y Clemson (ficha de filodendros que incluye la especie). No se ha consultado Pet Poison Helpline ni el Real Jardín Botánico."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/47836/philodendron-melanochrysum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Philodendron melanochrysum (black-gold philodendron)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center, HGIC 1509 Philodendron (incluye P. melanochrysum, 'velour philodendron')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:87882-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – ColPlantA (Colombian Plants made accessible; datos WCVP, CATE Araceae y Catálogo de Plantas y Líquenes de Colombia, Univ. Nacional de Colombia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/EP150",
+      "institucion": "UF/IFAS Extension – EDIS ENH893: Cultural Guidelines for Commercial Production of Interiorscape Philodendron (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – Heartleaf Philodendron (P. hederaceum, referencia de género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://en.wikipedia.org/wiki/Philodendron_melanochrysum",
+      "institucion": "Wikipedia – Philodendron melanochrysum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://foliacollective.com/blogs/plant-care/plant-know-how-philodendron-melanochrysum/",
+      "institucion": "Folia Collective (vivero especializado) – Plant Know-How: Philodendron melanochrysum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://gardenbetty.com/philodendron-melanochrysum-black-gold/",
+      "institucion": "Garden Betty (blog especializado) – P. melanochrysum care guide",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://en.wikipedia.org/wiki/Philodendron_gloriosum",
+      "institucion": "Wikipedia – Philodendron gloriosum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

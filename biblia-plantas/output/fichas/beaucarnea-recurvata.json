@@ -1,0 +1,343 @@
+{
+  "nombre_cientifico": "Beaucarnea recurvata",
+  "nombres_comunes": [
+    "pata de elefante",
+    "nolina",
+    "palmera cola de caballo",
+    "pie de elefante"
+  ],
+  "familia": "Asparagaceae (subfamilia Nolinoideae). ASPCA aún usa la clasificación antigua (Agavaceae). Algunas fuentes la han incluido también en Nolinaceae o Ruscaceae (Univ. Wisconsin).",
+  "origen": "México. POWO (Kew) limita su área nativa a México Golfo, México Nordeste y México Suroeste. NC State concreta los estados: Oaxaca, Puebla, San Luis Potosí, Tamaulipas y Veracruz. Missouri Botanical Garden, UF/IFAS y Univ. Wisconsin añaden Belice y Guatemala, que POWO no incluye (véase lagunas). No es una palmera verdadera (no pertenece a Arecaceae).",
+  "clima_nativo": "Semiárido subtropical sin heladas, en zonas semidesérticas y bosque bajo caducifolio sobre suelos rocosos y pobres (NC State, Missouri Botanical Garden, Univ. Wisconsin). Llueve en verano y hay una estación seca larga en invierno (Univ. Wisconsin).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas lineares, en forma de cinta o de hierba: largas, estrechas, planas y de color verde oscuro. Son coriáceas y algo duras. Salen en roseta densa (penacho) de la punta del tallo o de cada rama y caen arqueadas como una fuente o una cola de caballo. A menudo se retuercen o rizan hacia la punta. En adultos miden hasta 1-1,8 m de largo y solo 1,5-2,5 cm de ancho, pero en ejemplares de maceta son mucho más cortas. El margen está finamente aserrado, con dientes diminutos que solo se ven con lupa y que pueden cortar la piel (Univ. Wisconsin, UF/IFAS). Las hojas viejas de la base del penacho amarillean y se secan de forma natural.",
+    "nerviacion": "Paralela, propia de monocotiledónea (UF/IFAS). Sin nervio central marcado.",
+    "variegacion": "La especie es de hoja verde lisa. Univ. Wisconsin cita formas variegadas ocasionales, pero no se han documentado aquí.",
+    "tallo": "Es el rasgo diagnóstico: base enormemente hinchada (cáudice) en forma de botella, bulbo o pata de elefante, que almacena agua. Encima se alza un tronco que se estrecha. La corteza es gris o parda, lisa en ejemplares jóvenes, con cicatrices de hojas antiguas, y se agrieta o cuartea con la edad como la piel de un paquidermo (UF/IFAS, Univ. Wisconsin). De joven tiene un solo tronco. Con los años o tras florecer puede ramificarse, y en vivero se descabezan ejemplares pequeños para obtener plantas de 2-3 cabezas. Pueden salir pequeños brotes laterales en el cáudice.",
+    "habito": "Arbolito o arbusto caudiciforme de crecimiento muy lento, con uno o varios penachos de hojas colgantes en lo alto del tronco. En interior casi nunca florece. Los ejemplares viejos dan panículas erguidas de flores diminutas de color blanco cremoso, verdoso o rosado. Es dioica.",
+    "tamano_adulto_interior": "En maceta suele alcanzar de 1,8 a 2,4 m de alto y de 0,9 a 1,5 m de ancho, tras muchos años (NC State, Missouri Botanical Garden). RHS da de 1,5 a 2,5 m de alto y tarda de 20 a 50 años en madurar. En maceta pequeña se mantiene mucho menor (Univ. Wisconsin). En su hábitat llega a unos 9 m.",
+    "confusiones": [
+      {
+        "especie": "Dracaena marginata (drácena de borde rojo)",
+        "rasgo_diferenciador": "Tiene tallos delgados y leñosos sin base hinchada, y sus hojas son más cortas (30-60 cm), rígidas, rectas o poco arqueadas, a menudo con el borde rojo o púrpura. Beaucarnea tiene cáudice en botella y hojas muy largas y colgantes."
+      },
+      {
+        "especie": "Yucca elephantipes (= Y. gigantea, yuca de interior)",
+        "rasgo_diferenciador": "Sus hojas son más anchas (5-8 cm), rígidas, rectas y acaban en punta dura. El tronco es cilíndrico, a veces algo ensanchado en la base, pero nunca forma una botella globosa. Beaucarnea tiene hojas en cinta de unos 2 cm que cuelgan."
+      },
+      {
+        "especie": "Otras Beaucarnea (B. stricta, B. guatemalensis)",
+        "rasgo_diferenciador": "Se venden menos. B. stricta tiene hojas rígidas, erguidas, glaucas y con margen amarillento. B. guatemalensis tiene hojas más anchas y, a menudo, rojizas en la base. Según Univ. Wisconsin, en otras especies el borde corta más. B. recurvata se reconoce por sus hojas verdes, finas y muy colgantes. Distinguirlas con certeza requiere ver flores y frutos."
+      },
+      {
+        "especie": "Cycas revoluta (cica, «palma de sagú»)",
+        "rasgo_diferenciador": "Tiene frondas pinnadas (hoja dividida en muchos folíolos duros y punzantes) y un tronco grueso cubierto de bases de hojas, no un cáudice liso en botella. Además es muy tóxica, a diferencia de Beaucarnea: no confundirlas en la app."
+      },
+      {
+        "especie": "Dasylirion spp. (sotol)",
+        "rasgo_diferenciador": "Forma una roseta densa de hojas estrechas y rígidas con dientes ganchudos visibles a simple vista, y no tiene cáudice en botella."
+      },
+      {
+        "especie": "Chlorophytum comosum (cinta) o gramíneas ornamentales",
+        "rasgo_diferenciador": "Su mata de hojas en cinta sale directamente del sustrato, sin tronco ni base hinchada."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se han descrito síntomas tóxicos en perros ni en gatos (ASPCA, NC State). Como con cualquier planta no tóxica, comer mucha puede causar una irritación digestiva leve (UT Extension). El riesgo físico real es el borde finamente aserrado de las hojas, que puede cortar la piel (Univ. Wisconsin): conviene usar guantes al manipularla y avisar a los niños. Ante una ingestión importante, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1",
+      "F9",
+      "F3"
+    ],
+    "notas": "Perros y gatos: confianza Alta. ASPCA la clasifica como no tóxica para perros, gatos y caballos, y NC State coincide en sus etiquetas. UT Extension la incluye en su lista de plantas de interior de bajo riesgo para mascotas. Niños: no se ha encontrado ninguna ficha de un centro de toxicología ni de una fuente prioritaria sobre ingestión humana. Solo hay comercios que la declaran no tóxica, y no son válidos. Por prudencia se marca 'desconocida' (véase lagunas)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Lo más luminoso de la casa: junto a una ventana sur u oeste, o este con sol de mañana (RHS acepta las orientaciones sur, oeste y este; Iowa State sugiere este u oeste). En ventana norte o al fondo de la habitación la luz es insuficiente.",
+      "tolera_sol_directo": "Sí, es planta de sol pleno: NC State pide 6 h o más de sol directo, y Missouri Botanical Garden, RHS y Univ. Wisconsin recomiendan una ventana soleada con la mayor luz posible. Tras el cristal tolera bien el sol directo si ya está acostumbrada. Al sacarla al exterior en verano, o al pasarla de un sitio en sombra a pleno sol, hay que aclimatarla poco a poco durante 1-2 semanas para evitar quemaduras (Univ. Wisconsin, Missouri Botanical Garden, UF/IFAS).",
+      "notas": "Por la escala del proyecto, su óptimo es luz directa (>10760 lux, >1000 fc). El mínimo para mantenerla con aspecto aceptable se fija en luz brillante indirecta alta (≈5380 lux, 500 fc). Con menos luz crece aún más despacio, las hojas nuevas salen más débiles y el sustrato tarda mucho en secarse, lo que sube el riesgo de pudrición. UF/IFAS admite semisombra en exterior (Florida) y Iowa State habla de 'lugar muy luminoso' sin exigir sol. No hay contradicción de fondo: tolera menos sol que el óptimo, pero no luz baja. No hay valores en lux en las fuentes; la conversión es del proyecto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F3",
+        "F6",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego profundo pero espaciado. Regar a fondo hasta que salga agua por el drenaje y no volver a regar hasta que el sustrato esté seco en todo el cepellón (NC State, Univ. Wisconsin, Iowa State, Missouri Botanical Garden). Para comprobarlo, meter el dedo o un palillo de madera 5 cm (más en macetas grandes): debe salir seco. La maceta debe pesar claramente menos que recién regada. El cáudice almacena agua, así que ante la duda, no regar. Nunca regar por calendario. Vaciar el plato a los 15-30 minutos.",
+      "primavera_verano": "Riegos profundos cuando el sustrato esté seco del todo. En maceta mediana y con sol, en pleno verano eso suele llevar de 1 a 3 semanas, pero manda la comprobación del sustrato y del peso, no la fecha. Fuera, en verano, puede recibir riego regular siempre que se seque entre riegos (Missouri Botanical Garden).",
+      "otono_invierno": "Reducir mucho el riego (NC State, Univ. Wisconsin, Missouri Botanical Garden). RHS: mantenerla apenas húmeda en invierno. En la práctica, un riego ligero cuando el sustrato lleve semanas seco del todo, solo lo justo para que las hojas no se arruguen. Imita la estación seca de su hábitat.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo de Madrid, que es blanda. Dejarla reposar no elimina la cloramina, pero no hace falta. Las puntas marrones se deben a sales de abono acumuladas o a riego irregular (Univ. Wisconsin), no al cloro ni al flúor del agua de Madrid. Para lavar sales, regar a fondo dejando que drene bien.",
+      "notas": "El exceso de riego es la causa más frecuente de fracaso con esta planta (Univ. Wisconsin), y en suelos mal drenados se pudren las raíces (UF/IFAS). Señal de exceso: cáudice o base del tallo blandos (Epic Gardening, complementaria). Señal de sed prolongada: cáudice algo arrugado o con menos volumen y hojas que se secan desde la punta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F6",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 40,
+      "notas": "Tolera muy bien el aire seco: NC State dice que lleva bien el aire de la calefacción, que daña a muchas plantas de interior, y Missouri Botanical Garden que pasa bien el invierno con calefacción. No necesita humidificador. Pulverizar no sirve y además mantiene mojadas las axilas de las hojas. Las fuentes prioritarias no dan cifras. El 40 % es orientativo y procede solo de una fuente complementaria (Epic Gardening: 40-50 %, y advierte que la humedad alta favorece enfermedades). No hay mínimo verificado (véase lagunas). Con el aire muy seco puede aparecer araña roja: revisar el envés.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F10"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 27,
+      "notas": "Mínimo: NC State la da por resistente hasta 50 °F (10 °C). RHS la clasifica H1C, planta para invernadero caldeado o interior, que en la escala de la RHS equivale a 5-10 °C de mínima. Se adopta 10 °C como mínimo seguro, en especial con el sustrato húmedo. Según Epic Gardening (complementaria), por debajo de 10 °C deja de crecer, aguanta frío breve con el sustrato seco y se muere con heladas (0 °C). Los valores ideales de 16-27 °C proceden solo de esa fuente complementaria. No hay máximo verificado: es planta de clima cálido y soporta bien el calor si tiene luz y ventilación (véase lagunas).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F10"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para cactus y suculentas (NC State, Univ. Wisconsin), o sustrato universal o de base franca (RHS: compost de base franca sin turba) aligerado con arena gruesa de río, grava fina, pómice o perlita: alrededor de 1 parte de sustrato por 1 de material mineral. Maceta con agujero de drenaje, mejor de barro, que es más pesada y transpira, y relativamente pequeña para el tamaño de la planta (Missouri Botanical Garden). El cáudice debe quedar por encima del nivel del sustrato, sin enterrarlo.",
+      "ph": "No es exigente: RHS acepta pH ácido, neutro o alcalino, y UF/IFAS suelos ácidos y alcalinos. Orientativo: 6,5-7,5 (Epic Gardening, complementaria).",
+      "drenaje": "Imprescindible un drenaje muy rápido ('sharply drained': RHS, Missouri Botanical Garden). En sustratos mal drenados desarrolla pudrición de raíz (UF/IFAS). Nunca dejar agua en el plato ni usar macetas sin agujero.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F4",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para cactus y suculentas o abono equilibrado para plantas verdes, muy diluido.",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo, de primavera a finales de verano. Entre 1 o 2 aplicaciones por temporada (Univ. Wisconsin) y como máximo una al mes, a ¼-½ de la dosis de la etiqueta (convención del proyecto). Iowa State admite 1-2 al mes de una solución diluida, pero se adopta la pauta más prudente.",
+      "otono_invierno": "Nada de abono en otoño e invierno (reposo).",
+      "notas": "Contradicción: Iowa State recomienda abonar 1-2 veces al mes en primavera y verano con solución diluida, y Univ. Wisconsin solo 1-2 veces en toda la temporada. Para la planta se adopta lo más conservador: pocas aplicaciones y muy diluidas. Crece despacio y vive en suelos pobres, y el exceso de abono acumula sales que causan puntas marrones (Univ. Wisconsin). Ninguna fuente prioritaria da NPK. Epic Gardening (complementaria) sugiere abono bajo en nitrógeno.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Muy poco frecuente. Puede pasar muchos años en la misma maceta (Univ. Wisconsin) y prefiere macetas relativamente pequeñas (Missouri Botanical Garden). En ejemplares jóvenes, cada 2-4 años. En ejemplares grandes basta con renovar los 3-5 cm superiores del sustrato (RHS: 'top dress or pot on').",
+      "epoca": "Primavera, al inicio del crecimiento (RHS). En Madrid, de marzo a mayo.",
+      "senales": "Raíces que salen por el drenaje o empujan la planta hacia arriba, cáudice que ocupa casi todo el diámetro de la maceta o la deforma, agua que no penetra o sustrato degradado y compacto. Subir solo 2-5 cm de diámetro: una maceta grande con mucho sustrato húmedo favorece la pudrición. Hay que manejar las hojas con guantes porque el borde corta, y un ejemplar grande puede pesar mucho. Tras el trasplante, esperar 5-7 días antes de regar si se han dañado raíces.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS). Solo limpieza estética.",
+      "epoca": "En cualquier momento para limpiar hojas secas. Los descabezados para ramificar, en reposo (Univ. Wisconsin) o a principios de primavera.",
+      "como": "Retirar las hojas viejas amarillas o secas de la base del penacho tirando suavemente o cortando (Missouri Botanical Garden, Univ. Wisconsin). Las puntas marrones pueden recortarse con tijera limpia siguiendo la forma de la hoja, sin llegar al tejido verde. Los brotes que salen en el cáudice pueden cortarse a ras si se quiere un solo tronco o dejarse para que formen ramas (Univ. Wisconsin). Si se corta la cabeza de una planta joven de menos de unos 15 cm de diámetro de tronco, rebrota con varias cabezas (Univ. Wisconsin). Es una técnica de vivero y no se recomienda en ejemplares adultos. Usar guantes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno. En el hemisferio norte, aproximadamente de octubre a marzo; en el hemisferio sur, de abril a septiembre. Coincide con la menor luz y temperatura.",
+      "cambios": "Reducir mucho el riego (NC State, Univ. Wisconsin, Missouri Botanical Garden; RHS: 'apenas húmeda'), sin abono y con la máxima luz posible. Imita el invierno seco de su hábitat. Si la planta pasó el verano fuera, meterla antes de que la noche baje de 10 °C y reducir el riego (Missouri Botanical Garden).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "hijuelos o brotes del cáudice (éxito dudoso)"
+      ],
+      "epoca": "Primavera.",
+      "pasos": "Semilla, el método fiable (UF/IFAS, Univ. Wisconsin, RHS). 1) Usar semilla fresca: es dioica, solo las plantas femeninas la producen y en interior casi nunca florece, así que hay que comprarla. 2) Sembrar en primavera en una mezcla arenosa bien drenada, cubriendo la semilla apenas. 3) Mantener a 18-21 °C (RHS) o a 20 °C como mínimo (Univ. Wisconsin), con humedad ligera constante y mucha luz. Germina con facilidad, sin tratamiento previo (Univ. Wisconsin), en unas 2 semanas (Epic Gardening). 4) Repicar a macetas individuales cuando las plántulas midan unos 5 cm. Hijuelos: RHS indica enraizar brotes laterales en primavera, mientras que Univ. Wisconsin afirma que los brotes del cáudice no enraízan. Si se intenta, cortar un brote de al menos 10 cm, dejar cicatrizar el corte unos días, plantarlo en mezcla mineral y regar con mucha moderación. No asegurar éxito al usuario.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F2"
+      ],
+      "notas": "Contradicción entre fuentes prioritarias: RHS dice que los brotes laterales se pueden enraizar ('root offsets in spring') y Univ. Wisconsin que no enraízan. La confianza Alta se refiere solo a la propagación por semilla. Para los hijuelos es Baja y la app debe presentarlos como intento de resultado incierto."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato mal drenado. Es la causa más frecuente de pérdida de esta planta (Univ. Wisconsin, UF/IFAS). Suele ocurrir en invierno, cuando se riega como en verano, o en macetas grandes sin agujero."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre del tallo o del cáudice (NC State y Missouri Botanical Garden citan 'stem rots'): base blanda y oscura por riego excesivo, agua acumulada en el plato o cáudice enterrado en el sustrato."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Muy común en interior. Univ. Wisconsin lo atribuye a riego irregular (por exceso o por defecto), exceso de abono o sales acumuladas. Las puntas secas se pueden recortar (Missouri Botanical Garden). No achacarlo al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal en pocas cantidades: las hojas más viejas de la base del penacho amarillean y se secan con el tiempo (Univ. Wisconsin) y pueden retirarse. Si afecta a muchas hojas a la vez y la base está blanda, sospechar exceso de riego."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), favorecida por el aire seco y caliente de interior (Missouri Botanical Garden, NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado de la hoja causado por la alimentación de la araña roja. Revisar el envés y la base de las hojas con lupa."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Missouri Botanical Garden, NC State, Univ. Wisconsin), escondida en la base de las hojas, dentro del penacho."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (Missouri Botanical Garden, NC State, RHS, Univ. Wisconsin) sobre las hojas y el tronco."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza segregada por cochinillas algodonosas o de escudo."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares y estrías bacterianas citadas por NC State y Missouri Botanical Garden, normalmente asociadas a hojas mojadas y poca ventilación. También pueden ser quemaduras por cambio brusco a sol directo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paso brusco de interior a sol pleno exterior, sin aclimatación (Univ. Wisconsin, Missouri Botanical Garden, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "En exterior, insectos masticadores pueden desfigurar las hojas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Según una fuente complementaria (Epic Gardening), el exceso de abono hace que las hojas se curven en ángulos anómalos. No hay que confundirlo con el rizado natural de la punta de las hojas largas, que es normal (Univ. Wisconsin)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, la planta está a gusto si tiene mucha luz. Tras el cristal de una ventana sur u oeste aguanta el sol si ya está acostumbrada. Hay que separarla 30-50 cm del cristal en las horas centrales de julio y agosto si el cristal se calienta mucho, y no moverla de golpe de un rincón en sombra a pleno sol. Si sale a terraza o balcón, aclimatarla 1-2 semanas empezando por semisombra (riesgo de quemadura). Regar a fondo cuando el sustrato esté seco del todo y la maceta pese poco. Con calor y sol se secará más rápido, pero no hay que regar por calendario. Vaciar el plato. Revisar el envés por si aparece araña roja, que prolifera con el calor seco.",
+    "invierno": "La calefacción y una humedad interior por debajo del 30 % no le afectan; está entre las plantas que mejor toleran el aire seco (NC State, Missouri Botanical Garden). No pulverizar. El riesgo real en invierno es regar de más: espaciar mucho los riegos, nada de abono y máxima luz (ventana sur). Evitar el contacto con cristales fríos y las corrientes de aire frío por la noche si la temperatura junto a la ventana baja de 10 °C, sobre todo con el sustrato húmedo. Tampoco ponerla pegada a un radiador. Si pasó el verano en terraza, meterla en octubre, antes de que las noches bajen de 10 °C.",
+    "ubicacion_recomendada": "Junto a la ventana más soleada de la casa (sur u oeste; este como alternativa), en salón o estancia luminosa y ventilada. En verano puede salir a una terraza resguardada tras una aclimatación progresiva. De mayo a septiembre aguanta el exterior en Madrid; hay que meterla antes del frío nocturno porque no tolera heladas."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Beaucarnea recurvata (K.Koch & Fintelm.) Lem. Nolina recurvata, Dasylirion recurvatum y Pincenectia recurvata son sinónimos homotípicos. No hay cambio de nombre pendiente, pero el comercio sigue usando 'Nolina recurvata'.",
+    "Área nativa: POWO limita la distribución a México (Golfo, Nordeste y Suroeste). Missouri Botanical Garden, UF/IFAS y Univ. Wisconsin incluyen Belice y Guatemala, posiblemente por confusión con B. guatemalensis. Se sigue a POWO.",
+    "Toxicidad para niños y personas: no se ha encontrado ninguna ficha de un centro de toxicología ni de una fuente prioritaria. Solo hay comercios que la declaran no tóxica, y no son válidos. Se marca 'desconocida'. El riesgo documentado es el corte con el borde aserrado de la hoja.",
+    "Humedad: ninguna fuente prioritaria da un mínimo ni un ideal en porcentaje. Solo consta que tolera bien el aire seco de la calefacción. El 40 % ideal procede de una fuente complementaria.",
+    "Temperatura: no se ha encontrado un máximo tolerable verificado. El rango ideal de 16-27 °C procede solo de una fuente complementaria (Epic Gardening).",
+    "Luz: ninguna fuente da valores en lux o pies-candela. El mínimo de 5380 lux es la conversión del proyecto para luz brillante indirecta alta.",
+    "Fertilización: ninguna fuente prioritaria indica una fórmula NPK.",
+    "Propagación por hijuelos: las fuentes prioritarias se contradicen (RHS dice que enraízan; Univ. Wisconsin, que no). No se ha encontrado un estudio que lo aclare.",
+    "Estado de conservación: un resultado de búsqueda no verificado menciona que la UICN la cataloga como amenazada en la naturaleza. No se ha abierto la ficha de la UICN, así que no se afirma."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/beaucarnea-recurvata/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/ST093/pdf",
+      "institucion": "UF/IFAS Extension (EDIS ENH252, Beaucarnea recurvata: Ponytail Palm)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hort.extension.wisc.edu/articles/ponytail-palm-beaucarnea-recurvata/",
+      "institucion": "University of Wisconsin-Madison, Division of Extension, Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282253",
+      "institucion": "Missouri Botanical Garden, Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/1993/beaucarnea-recurvata/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-care-ponytail-palm",
+      "institucion": "Iowa State University Extension and Outreach, Yard and Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:531735-1",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2025/10/W1128C.pdf",
+      "institucion": "University of Tennessee Extension (W1128-C, Growing Indoor Plants with Pets)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.epicgardening.com/ponytail-palm-beaucarnea-recurvata/",
+      "institucion": "Epic Gardening (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

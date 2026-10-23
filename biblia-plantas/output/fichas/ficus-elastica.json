@@ -1,0 +1,321 @@
+{
+  "nombre_cientifico": "Ficus elastica",
+  "nombres_comunes": [
+    "ficus robusta",
+    "árbol del caucho",
+    "gomero",
+    "ficus elástica",
+    "higuera del caucho"
+  ],
+  "familia": "Moraceae",
+  "origen": "Nativa de Nepal y el Himalaya oriental hasta el centro-sur de China (oeste de Yunnan) y Malesia occidental: Assam, Bangladesh, Myanmar, Laos, Tailandia, Vietnam, Malasia peninsular, Sumatra y Java (POWO). En India peninsular, Sri Lanka, Florida, Cuba, España (naturalizada o cultivada) y otras zonas figura como introducida.",
+  "clima_nativo": "Tropical monzónico húmedo, sin heladas, de selva de pie de monte y tierras bajas. En hábitat es un árbol de hasta 30 m con raíces aéreas que a menudo empieza como epífito (hemiepífito). NC State lo sitúa en zonas USDA 9a-12b; la RHS lo califica H1B (necesita protección, mínima 10-15 °C).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Grandes, alternas, elípticas a oblongo-ovaladas, de 20-30 cm de largo (Clemson) y hasta unos 43 cm por 15 cm (NC State); en 'Robusta' hasta unos 45 cm. Gruesas, rígidas, coriáceas y muy brillantes (aspecto encerado), margen entero, ápice corto y punzante, pecíolo robusto. Cada hoja nueva sale enrollada dentro de una vaina (estípula) rosada, roja o púrpura muy visible en la punta del tallo, que se cae al abrirse la hoja dejando una cicatriz anular en el tallo. Al cortar o romper hoja o tallo sale látex blanco lechoso y pegajoso.",
+    "nerviacion": "Pinnada: nervio central grueso, claro (blanquecino) o rojizo y en relieve por el envés (NC State); nervios secundarios finos, numerosos y poco marcados, casi paralelos entre sí. En 'Decora' el nervio central es blanco crema por el haz (Clemson).",
+    "variegacion": "La especie es verde oscuro uniforme. Cultivares: 'Robusta' (verde oscuro, hoja muy grande), 'Decora' (verde oscuro con nervio central crema), 'Burgundy'/'Abidjan'/'Black Prince' (verde muy oscuro a granate casi negro), 'Rubra' (rojiza de joven, luego verde con borde rojo), 'Tineke' (verde con manchas y margen crema), 'Tricolor' y 'Belize' (verde, crema y rosa), 'Doescheri' (gris y crema con nervios rosados), 'Variegata' (margen blanco o amarillo), 'Melany' (compacto, hoja pequeña verde-bronce), 'Yellow Gem' (verde dorado). Los colores rojos y la variegación se mantienen mejor con luz abundante.",
+    "tallo": "Leñoso, erguido, grueso, liso, verde a gris, poco ramificado en ejemplares jóvenes, rígido y robusto (NC State), con cicatrices anulares de las estípulas en cada nudo. Puede emitir raíces aéreas pardas en ambientes húmedos.",
+    "habito": "Arbóreo, erecto, normalmente de un solo tronco en interior salvo que se despunte; crecimiento rápido (NC State). En interior casi nunca florece; los 'higos' (siconos) son pequeños, de menos de 2,5 cm, verde-amarillentos.",
+    "tamano_adulto_interior": "0,6-3 m de altura en interior según poda y maceta (NC State: 2-10 pies con entutorado; Clemson: 1,8-3 m o más), 1-1,5 m de anchura (RHS: altura máxima 2,5-4 m, anchura 1-1,5 m, tarda 10-20 años). En hábitat hasta 30 m.",
+    "confusiones": [
+      {
+        "especie": "Ficus lyrata (ficus lira, higuera hoja de violín)",
+        "rasgo_diferenciador": "Hoja en forma de violín, más ancha en la punta, de borde ondulado y con nervios muy marcados en relieve en retícula; F. elastica tiene hoja elíptica lisa, plana, muy brillante, con nervios secundarios finos apenas visibles y vaina rosada-roja en el brote."
+      },
+      {
+        "especie": "Ficus benghalensis 'Audrey' (ficus de Bengala)",
+        "rasgo_diferenciador": "Hoja mate, algo aterciopelada, verde más claro con nervios blanquecinos muy visibles y tallos claros pubescentes; F. elastica tiene hoja glabra, brillante y encerada y la estípula del brote es roja o rosada."
+      },
+      {
+        "especie": "Ficus benjamina (ficus benjamina, ficus llorón)",
+        "rasgo_diferenciador": "Hojas pequeñas (5-10 cm), finas, con punta alargada, y ramas colgantes muy ramificadas; F. elastica tiene hojas de 20-40 cm, gruesas y rígidas en un tallo erecto poco ramificado."
+      },
+      {
+        "especie": "Peperomia obtusifolia ('baby rubber plant', peperomia)",
+        "rasgo_diferenciador": "Planta herbácea baja (hasta ~30 cm) de hojas pequeñas carnosas y suculentas, sin látex y sin vaina estipular; F. elastica es leñosa, alcanza metros y sangra látex blanco al cortarla."
+      },
+      {
+        "especie": "Clusia rosea (clusia, copey)",
+        "rasgo_diferenciador": "Clusia tiene hojas opuestas, obovadas y sin látex blanco; F. elastica tiene hojas alternas, estípula envolvente roja en el ápice y látex lechoso."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex lechoso con enzima proteolítica (ficina) y furocumarinas tipo psoraleno (ficusina), descritos por ASPCA para el género Ficus (ficha 'Fig / Indian Rubber Plant', bajo Ficus benjamina y Ficus sp.).",
+    "sintomas": "Animales: irritación gastrointestinal (salivación, vómitos, posible diarrea) e irritación cutánea por contacto con el látex (ASPCA). Personas y niños: la savia blanca y pegajosa puede irritar la piel o el estómago si se ingiere (Clemson). Toxicidad de tipo irritante, no se describe como mortal; ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F6"
+    ],
+    "notas": "ASPCA no tiene una entrada con el nombre Ficus elastica: aplica el nombre común 'Indian Rubber Plant' a Ficus benjamina y Ficus sp. NC State marca F. elastica como problema para gatos, perros y caballos, y Clemson describe la irritación por la savia y recomienda alejarla de mascotas y niños pequeños. Usar guantes al podar."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (la mejor según Clemson) o a 1-2 m de una ventana sur u oeste con cortina o visillo; norte solo si está muy despejada y la planta acepta crecer poco.",
+      "tolera_sol_directo": "Parcialmente: tolera sol directo suave de primera hora de la mañana o de invierno (2-6 h de sol parcial según NC State); hay que protegerla del sol de tarde (NC State) y del sol de mediodía de verano tras cristal sur u oeste, que puede secar y quemar las hojas.",
+      "notas": "UF/IFAS considera F. elastica apta para interiores con 100-200 fc (≈1.100-2.150 lux) solo si se cultivó o aclimató en sombra; por debajo de ~100 fc sobrevive pero crece poco y deja caer hojas. Los cambios bruscos de luz (vivero muy luminoso → salón oscuro) provocan caída de hojas verdes. 'Robusta' es de las más tolerantes a poca luz (Clemson); los cultivares variegados y oscuros necesitan el extremo alto del rango. La RHS admite sol pleno o semisombra, pero lo hace pensando en el clima británico; se adopta la opción conservadora (luz brillante filtrada).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar a fondo hasta que salga agua por los agujeros de drenaje cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes de más de 30 cm) y la maceta pese claramente menos. Vaciar el plato a los 15-30 minutos. Nunca por calendario: el exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "Riego abundante cuando se seca la capa superior; con calor y luz suele ser cada 7-10 días, pero lo que manda es el dedo y el peso. Que no llegue a secarse por completo el cepellón: la sequía fuerte también provoca caída de hojas amarillas.",
+      "otono_invierno": "Reducir de forma notable (NC State: el riego se reduce sustancialmente de otoño a finales de invierno; RHS: regar con moderación en invierno). Dejar secar más profundamente (mitad superior de la maceta) antes de volver a regar; con calefacción el sustrato se seca antes, comprobar igualmente.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid apta (blanda, poco flúor; la cloramina no se elimina dejándola reposar, pero a estas concentraciones no daña a la planta). Usar agua a temperatura ambiente; el agua fría en invierno estresa las raíces. Lavar el sustrato con abundante agua 2-3 veces al año para arrastrar sales de abono acumuladas, que causan quemaduras de puntas y caída de hojas viejas (UF/IFAS).",
+      "notas": "UF/IFAS (producción comercial) pide mantener el sustrato húmedo, mientras Clemson y la RHS indican dejarlo secar ligeramente entre riegos; para el hogar se adopta la opción conservadora (secado ligero de la capa superior), porque el encharcamiento produce pudrición de raíces y amarilleo (Clemson). Maceta siempre con agujeros de drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da un porcentaje para interior. Clemson: prefiere ambiente húmedo pero tolera el aire seco de las casas; NC State: humedad relativa media; UF/IFAS solo da 60-100 % para producción en umbráculo y relaciona las hojas secas y arrugadas con baja humedad o exceso de sol. Es una de las tropicales más tolerantes al aire seco. Pulverizar no sube la humedad de forma útil; si la HR baja de forma sostenida (calefacción), usar humidificador o agrupar plantas y alejarla de radiadores. Limpiar el polvo de las hojas con un paño húmedo (NC State, Clemson).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Ideal según Clemson: 16-18 °C de noche y 24-27 °C de día; UF/IFAS da 18-27 °C para interior. Mínimo: Clemson y NC State dicen no bajar de 13 °C (55 °F); la RHS da un mínimo de 10-15 °C; UF/IFAS exige mantener los Ficus por encima de 15,5 °C (60 °F) siempre, porque por debajo aparecen daños por frío (manchas necróticas viscosas y caída masiva de hojas). Se adopta 15 °C como mínimo conservador. El máximo de 35 °C es el límite de producción en umbráculo con humedad alta (UF/IFAS); en casa, por encima de unos 30 °C con aire seco conviene ventilar y aumentar algo el riego. Evitar corrientes frías, cambios bruscos y aire caliente directo de radiadores o estufas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal para plantas de interior de buena calidad, o mezcla con base de tierra/turba (NC State: sustrato con base de tierra), aligerado con un 20-30 % de perlita o corteza de pino fina para que drene. UF/IFAS usa turba, corteza de pino, vermiculita y perlita, y añade un 10-20 % de arena gruesa para dar peso y evitar que la planta, pesada en altura, vuelque.",
+      "ph": "5,5-7,0 (UF/IFAS); la RHS y NC State la consideran tolerante a sustratos ácidos, neutros o alcalinos.",
+      "drenaje": "Bueno, imprescindible: maceta con agujeros y sin agua estancada en el plato (Clemson, RHS: húmedo pero bien drenado). El sustrato que retiene demasiada agua causa pudrición de raíces (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas verdes de interior, con microelementos, rico en nitrógeno (RHS: abono alto en nitrógeno).",
+      "npk": "Proporción aproximada 3-1-2 o 3-1-3 (UF/IFAS, producción).",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo mientras saque hojas nuevas (aprox. marzo-septiembre en Madrid). En poca luz, abonar menos (Clemson).",
+      "otono_invierno": "Nada.",
+      "notas": "Clemson indica cada dos semanas en primavera y verano y la RHS mensualmente; se adopta la pauta conservadora del proyecto (mensual y diluida), porque las sales acumuladas causan quemadura de puntas y caída de hojas viejas (UF/IFAS). No abonar una planta recién comprada o trasplantada en las primeras 4 semanas (UF/IFAS). Márgenes amarillentos o necróticos en hojas viejas pueden indicar falta de potasio o de abono en general (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS), con aporte de sustrato nuevo en superficie los años intermedios. En ejemplares grandes que no se quieren hacer crecer más, basta renovar los 3-5 cm superiores de sustrato.",
+      "epoca": "Finales de invierno o principio de primavera (Clemson), en Madrid aprox. de mediados de febrero a abril.",
+      "senales": "Raíces que salen por los agujeros de drenaje o dan vueltas al cepellón, agua que atraviesa la maceta sin empapar, sustrato que se seca en muy pocos días o planta que vuelca por peso. Subir solo 2-5 cm de diámetro: una maceta demasiado grande retiene agua y favorece la pudrición.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Opcional. Sin podar crece en forma de árbol alto y estrecho de un solo tallo; despuntar o recortar las ramas principales la hace más ramificada y compacta (NC State). Útil para rejuvenecer ejemplares altos y desgarbados (Clemson).",
+      "epoca": "Primavera (Clemson), al inicio del crecimiento activo.",
+      "como": "Con tijera o cuchilla limpia y desinfectada, cortar justo por encima de un nudo (cicatriz de hoja). Saldrá látex blanco: usar guantes, proteger el suelo y secar la herida con papel; el sangrado cesa solo. Suelen brotar 1-3 yemas bajo el corte. Las puntas cortadas sirven como esquejes. Eliminar ramas secas o dañadas en cualquier época. La caída de algunas hojas inferiores con la edad es normal (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño a finales de invierno (NC State); en Madrid, aprox. de octubre-noviembre a febrero-marzo, por menos luz y temperatura.",
+      "cambios": "No es un reposo estricto, sino una ralentización. Reducir mucho el riego, no abonar, mantenerla por encima de 15 °C, lejos de cristales fríos, corrientes y del chorro de los radiadores, y darle la máxima luz disponible.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "acodo aéreo",
+        "esqueje de punta o de tallo (semileñoso)",
+        "esqueje de yema con hoja",
+        "semilla (rara; no se usa en casa)"
+      ],
+      "epoca": "Primavera o finales de verano (RHS); en Madrid, abril-junio o finales de agosto-septiembre, con más de 20 °C.",
+      "pasos": "Acodo aéreo (Iowa State, el método más seguro en ejemplares altos): 1) elegir un punto del tallo a 30-45 cm del ápice y quitar las hojas de esa zona; 2) hacer dos cortes en anillo alrededor del tallo separados unos 2,5 cm, unirlos con un corte longitudinal y retirar la corteza; 3) raspar el cámbium blando y, opcionalmente, aplicar hormona de enraizamiento; 4) envolver con uno o dos puñados de musgo esfagno húmedo y cubrir con plástico transparente atado arriba y abajo; 5) cuando se vean abundantes raíces en el musgo (varias semanas), cortar bajo la atadura inferior y plantar en sustrato drenante. Esqueje (Clemson, RHS): cortar una punta de 15-25 cm con 2-3 hojas, dejar que deje de sangrar látex, quitar las hojas inferiores (y recortar a la mitad las muy grandes), plantar en sustrato ligero húmedo o en agua, con calor (21-25 °C) y luz indirecta; enraíza en 4-8 semanas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy típico de Ficus: caída de hojas verdes tras compra, traslado o cambio de sitio por bajada brusca de luz, frío o corrientes (UF/IFAS, NC State, Clemson). No cambiarla de sitio, no podar, trasplantar ni abonar durante 4 semanas tras colocarla (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de alguna hoja inferior: normal con la edad (NC State, UF/IFAS). Si son muchas a la vez, revisar exceso de sales (crecimiento parado y raíces secas) o falta de luz."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Sustrato que permanece demasiado húmedo o mal drenado (Clemson); también estrés hídrico por ciclos de sequía fuerte (UF/IFAS: caída de hojas amarillas por estrés de humedad)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por riego demasiado frecuente o sustrato que no drena (Clemson); suele ir acompañada de caída de hojas y amarilleo."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío: por debajo de ~15 °C (cristal frío en invierno, transporte, ventana abierta) aparecen manchas necróticas viscosas y caída masiva de hojas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas secas y arrugadas por humedad muy baja o exceso de sol (UF/IFAS), habitual junto a radiadores o en ventana sur en verano."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura por sol directo intenso de mediodía o tarde tras el cristal, o al sacarla al exterior sin aclimatar."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Acumulación de sales de abono o de sodio en el sustrato (UF/IFAS); en Madrid no atribuirlo al flúor ni al cloro del agua. Lavar el sustrato y reducir abono."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Márgenes amarillentos o necróticos en hojas viejas por falta de abono o de potasio (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: tallos largos con entrenudos largos, hojas más pequeñas y pérdida de hojas inferiores; ejemplares 'desgarbados' (Clemson). Acercar a la luz gradualmente y podar en primavera."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y vainas de las hojas: la plaga más citada en esta especie (NC State, Clemson, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos y a lo largo del nervio central (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza segregada por cochinillas (algodonosa o de escudo); revisar envés y tallos."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina que crece sobre la melaza de las cochinillas; se limpia con paño húmedo tras eliminar la plaga."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por aire seco y calor (calefacción en invierno, verano madrileño) (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja o por trips (NC State cita trips de invernadero y trips del laurel cubano; RHS cita trips)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, el sustrato se seca mucho antes: comprobar con el dedo y el peso cada 3-4 días y regar a fondo cuando estén secos los 2-3 cm superiores, sin dejar agua en el plato. Apartarla 1-2 m de ventanas sur y oeste o filtrar con visillo: el sol de tarde tras el cristal quema y seca las hojas. Evitar el chorro directo del aire acondicionado. Vigilar araña roja y trips en el envés. Si se saca a terraza, solo en semisombra luminosa y aclimatándola 1-2 semanas; nunca a pleno sol de golpe. Limpiar el polvo de las hojas para que capten luz.",
+    "invierno": "Mantener por encima de 15 °C y separada del cristal frío (las hojas que tocan el vidrio pueden sufrir daño por frío) y de corrientes de puertas o ventanas que se abren. No colocarla encima ni al lado de radiadores: el aire caliente y seco (HR <30 %) seca hojas y favorece araña roja; usar humidificador o agrupar plantas si la HR se mantiene muy baja. Regar mucho menos, dejando secar más profundamente, con agua a temperatura ambiente; sin abono de octubre-noviembre a febrero-marzo. Darle la ventana más luminosa disponible (sur con visillo es buena en invierno).",
+    "ubicacion_recomendada": "Salón o despacho luminoso, junto a una ventana este o a 1-2 m de una ventana sur u oeste con visillo, en un sitio fijo donde no haya que moverla (le sientan mal los cambios de sitio), lejos de radiadores, aire acondicionado y corrientes, y fuera del alcance de gatos, perros y niños pequeños."
+  },
+  "lagunas": [
+    "Humedad relativa: ninguna fuente prioritaria consultada da porcentajes mínimos o ideales para interior; min_pct e ideal_pct quedan en null (Clemson: tolera el aire seco; NC State: humedad media).",
+    "Toxicidad: ASPCA no tiene ficha específica con el nombre Ficus elastica; el nombre común 'Indian Rubber Plant' lo asigna a Ficus benjamina y Ficus sp. Se aplica a F. elastica junto con NC State (problema para gatos, perros y caballos) y Clemson (savia irritante). No se ha encontrado una fuente prioritaria con casos clínicos documentados específicos de F. elastica.",
+    "Temperatura máxima tolerada en interior: ninguna fuente prioritaria la da para el hogar; 35 °C procede del rango de producción en umbráculo con humedad alta (UF/IFAS EP136).",
+    "Missouri Botanical Garden Plant Finder no se consultó (no localizada la ficha de la especie; certificado del sitio).",
+    "Nombre: POWO acepta Ficus elastica Roxb. ex Hornem.; sin cambio de nombre. Las antiguas variedades (var. decora, var. rubra, var. variegata, etc.) son sinónimos y en cultivo se tratan como cultivares."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (Rubber Plant)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/95720/ficus-elastica/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://ask.ifas.ufl.edu/publication/EP136",
+      "institucion": "UF/IFAS Extension, EDIS ENH879/EP136 'Cultural Guidelines for Commercial Production of Interiorscape Ficus'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-propagate-rubber-tree",
+      "institucion": "Iowa State University Extension and Outreach, Yard and Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+      "institucion": "ASPCA Animal Poison Control Center (ficha 'Fig' / 'Indian Rubber Plant', Ficus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60458499-2",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,345 @@
+{
+  "nombre_cientifico": "Schefflera arboricola",
+  "nombres_comunes": [
+    "schefflera",
+    "árbol paraguas enano",
+    "cheflera",
+    "chefflera enana",
+    "árbol pulpo"
+  ],
+  "familia": "Araliaceae",
+  "origen": "Nativa de Taiwán y de la isla de Hainan (China) (Missouri Botanical Garden, NC State). Naturalizada o cultivada en Florida, Hawái, Bermudas, Jamaica y archipiélago Nansei (NC State). POWO (Kew) la trata hoy como Heptapleurum arboricola Hayata; Schefflera arboricola (Hayata) Merr. es sinónimo.",
+  "clima_nativo": "Subtropical-tropical húmedo, sin heladas. En hábitat es un arbusto o arbolito de 3-7,5 m (MBG y NC State: 10-25 ft) que a veces crece como epífita sobre otros árboles (MBG). Rusticidad USDA 10-12 (MBG) o 9b-12b (NC State); RHS la califica H1C (solo puede salir al exterior en verano; mínimas de referencia 5-10 °C en Reino Unido).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Compuestas palmeadas, alternas, perennes: 7-9 folíolos (MBG, NC State, RHS; Clemson cita 7-11) dispuestos en círculo en el extremo de un pecíolo largo (hasta unos 15 cm, MBG), como las varillas de un paraguas. Folíolos obovados, oblongos o elípticos, de punta roma, margen entero, sin pelos, cada uno con su propio peciolulo corto (NC State: 'stalked'); verde brillante, lustrosos y coriáceos, más gruesos que los de S. actinophylla (Clemson, RHS). Tamaño del folíolo: 5-11 cm (NC State: 2-4,5 in; Clemson: hasta 4 in; MBG: hasta 4-6 in). Las plantas jóvenes tienen hojas más pequeñas y con menos folíolos (Clemson).",
+    "nerviacion": "Cada folíolo tiene un nervio central marcado y nervios secundarios pinnados finos, poco visibles en el haz brillante; todos los peciolulos parten de un mismo punto del pecíolo (inserción palmeada) [orientativo, sin fuente prioritaria para el detalle de la nerviación secundaria].",
+    "variegacion": "La especie es verde uniforme. Hay muchos cultivares variegados muy frecuentes en tienda: 'Gold Capella' (verde con amarillo-dorado), 'Trinette' (verde y crema), 'Variegata' (verde medio con crema-amarillo), 'Dazzle' (algunas hojas casi blanco crema), 'Green Gold' (salpicada de oro); y formas compactas verdes como 'Compacta', 'Dwarf' o 'Pittman's Pride' (NC State, Clemson, UF/IFAS). Los variegados necesitan más luz para mantener el dibujo [orientativo, sin fuente prioritaria].",
+    "tallo": "Tallos erguidos, verdes de jóvenes (NC State) y que se lignifican con la edad; en tienda es habitual ver varios tallos por maceta, ejemplares guiados como arbolito o bonsái (Clemson: los ejemplares viejos se pueden formar como pequeño árbol; NC State la muestra como bonsái). Puede emitir raíces aéreas en los tallos [orientativo, sin fuente prioritaria].",
+    "habito": "Arbusto perenne erguido y tupido (RHS: porte arbustivo), de ramificación moderada; las hojas se agrupan en rosetas en los extremos de los tallos. En interior casi nunca florece (MBG, NC State); en exterior tropical da panículas compuestas de flores diminutas rojas en verano y drupas redondas de unos 6 mm, naranjas que pasan a negras (MBG, NC State).",
+    "tamano_adulto_interior": "En maceta 0,9-1,8 m de alto (MBG: 3-6 ft; NC State: 4-6 ft de alto y ancho); la RHS indica 0,5-1 m de alto y 0,1-0,5 m de ancho en 2-5 años como planta de interior. Se mantiene más baja con poda (Clemson).",
+    "confusiones": [
+      {
+        "especie": "Schefflera actinophylla (sin. Brassaia actinophylla, Heptapleurum actinophyllum; cheflera o árbol paraguas grande)",
+        "rasgo_diferenciador": "Folíolos mucho más grandes (hasta unos 30 cm, Clemson: 12 in), más numerosos en ejemplares adultos (hasta 12 o más), más finos y a menudo colgantes; la planta es mayor (2,4-3 m en interior, Clemson). S. arboricola tiene folíolos cortos de 5-11 cm, gruesos y rígidos (Clemson). Los cuidados son parecidos, pero la ficha y la toxicidad de ASPCA están descritas para 'Schefflera' en general."
+      },
+      {
+        "especie": "Pachira aquatica / Pachira glabra (pachira, árbol del dinero)",
+        "rasgo_diferenciador": "También tiene hojas palmeadas, pero con 5-9 folíolos lanceolados, finos y casi sin peciolulo, y tronco con base engrosada y a menudo trenzado; S. arboricola tiene folíolos obovados de punta roma con peciolulo visible y tallos sin base abultada ni trenzado."
+      },
+      {
+        "especie": "Fatsia japonica (aralia japonesa)",
+        "rasgo_diferenciador": "Misma familia (Araliaceae), pero su hoja es simple y lobulada (palmatilobada, 7-9 lóbulos unidos en la base), no compuesta: los 'dedos' no están separados en folíolos con peciolulo propio [orientativo, sin fuente prioritaria consultada para Fatsia]."
+      },
+      {
+        "especie": "Plerandra elegantissima (antes Dizygotheca elegantissima / Schefflera elegantissima; falsa aralia)",
+        "rasgo_diferenciador": "Hojas palmeadas con 7-11 folíolos muy estrechos, lineales y con el margen dentado-ondulado, de color verde muy oscuro a cobrizo; los de S. arboricola son anchos, obovados y de margen entero [orientativo, sin fuente prioritaria consultada para Plerandra]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales de oxalato cálcico (ASPCA, ficha 'Schefflera'; NC State). La ficha de ASPCA 'Umbrella Tree' (Brassaia actinophylla) cita además terpenoides, saponinas y oxalatos insolubles.",
+    "sintomas": "Al masticar las hojas: irritación intensa y ardor en boca, labios y lengua, babeo excesivo, vómitos y dificultad para tragar (ASPCA, NC State). ASPCA señala que, en la práctica, lo más habitual son vómitos y diarrea leves. NC State la clasifica como de baja severidad para personas, con partes tóxicas en hojas y savia, y advierte que la savia puede irritar la piel sensible (dermatitis de contacto): usar guantes al podar. Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F6",
+      "F1"
+    ],
+    "notas": "La ficha de ASPCA es de género ('Schefflera', con nombres comunes umbrella tree, octopus tree) y no nombra S. arboricola; NC State sí la da para esta especie (problema para perros y gatos; 'All parts of this plant are seriously toxic to dogs and cats' en la descripción, aunque la severidad en su ficha es 'Low'). Se marca tóxica para perros, gatos y niños, con severidad leve-moderada."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, sur u oeste con la luz filtrada por un visillo, recibiendo 3-4 horas diarias de sol tamizado (MBG, NC State). La RHS indica luz brillante indirecta y orientación este, sur u oeste. Ventana norte solo si está muy despejada.",
+      "tolera_sol_directo": "No en interior: la luz directa intensa quema las hojas (NC State; MBG: evitar el sol directo). En exterior tolera algo de sol, pero agradece protección en las horas centrales (MBG).",
+      "notas": "Escala del proyecto: media a brillante indirecta, 100-1000 fc (≈1.076-10.760 lux), ideal en la mitad alta. Clemson admite luz media a brillante. Con poca luz las hojas amarillean y los tallos se ahílan y debilitan (Clemson). En producción se cultiva con 5.000-7.000 fc o incluso a pleno sol (UF/IFAS), pero esas plantas no están aclimatadas al interior: tras la compra, no pasarla de golpe de vivero a una esquina oscura ni a sol directo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato con el dedo a 2-3 cm (5 cm en macetas grandes) y el peso de la maceta: regar solo cuando esa capa esté seca y la maceta pese claramente menos. Regar a fondo hasta que salga agua por el drenaje y dejar que el sustrato casi se seque antes del siguiente riego profundo (MBG, NC State). Nunca dejar agua en el plato (Clemson): vaciarlo a los 15 minutos. Nunca regar por calendario.",
+      "primavera_verano": "Riego regular pero moderado durante el crecimiento (MBG; RHS: moderado). Con calor y mucha luz el sustrato se seca antes: comprobarlo con más frecuencia, sin aumentar la cantidad por norma.",
+      "otono_invierno": "Reducir el riego de otoño a finales de invierno (MBG; RHS: escaso en invierno). Dejar que se seque más profundamente el sustrato antes de volver a regar, sobre todo si la habitación está por debajo de 18 °C.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid válida tal cual (blanda; reposar el agua no elimina la cloramina, y no hace falta). Lo que daña son las sales acumuladas: UF/IFAS describe bordes pardos en las hojas nuevas y muerte parcial de raíces por exceso de sales solubles (abono en exceso); lavar el sustrato pasando abundante agua por la maceta varias veces al año. UF/IFAS recomienda agua de riego con menos de 1.000 ppm de sales solubles.",
+      "notas": "Tanto el exceso como la falta de agua provocan caída de hojas (MBG, NC State, Clemson). La pudrición de raíz suele deberse a un sustrato que drena mal o a riegos demasiado frecuentes (Clemson); con poco oxígeno en raíces la planta se ve lacia aunque el sustrato esté mojado (UF/IFAS). Clemson pide dejar secar solo 1,3 cm (½ in) superficiales; se aplica el criterio del proyecto (2-3 cm), coherente con MBG ('casi seco'). NC State la etiqueta como tolerante a la sequía en exterior, por eso la sensibilidad a la sequía se pone media y no alta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes para interior. NC State: le gusta la humedad alta; MBG: se cultiva bien en zonas cálidas y humidificadas, y vigilar la araña roja con aire interior seco; Clemson: la humedad baja es causa de caída de hojas; UF/IFAS (producción): creció más y con mejor color al 85 % que al 60 % de HR. Pulverizar las hojas no sube la humedad de forma útil (MBG lo sugiere, pero el proyecto lo descarta): usar humidificador o agrupar plantas; un plato con grava y agua por debajo de la base de la maceta (NC State, MBG) solo ayuda de forma muy local. Limpiar las hojas con una esponja húmeda (MBG) quita polvo y ayuda a detectar ácaros.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Clemson: día 18-24 °C (65-75 °F) y noche por encima de 15,5 °C (60 °F); daños por frío por debajo de 10 °C (50 °F), con zonas muertas en las hojas que aparecen varios días después. MBG: en interior no bajar de 15,5 °C (60 °F) en invierno; NC State: puede salir al exterior en sitio resguardado cuando no baje de 15,5 °C. La RHS (H1C) admite mínimas de 5-10 °C y UF/IFAS indica que en producción tolera 1,7-40,5 °C (35-105 °F) sin daños, con mejor crecimiento entre 18 y 32 °C (65-90 °F). Se adopta la opción más conservadora: mínima 15 °C, máxima 32 °C (límite alto del rango de mejor crecimiento de UF/IFAS; por encima, con aire seco, aumentan la deshidratación y la araña roja). UF/IFAS: con el sustrato por debajo de 15,5 °C la planta amarillea entera ('amarilleo por frío'), y recupera el verde unas 2 semanas después de que el sustrato supere 18 °C. Alejarla de radiadores, salidas de calefacción y aire acondicionado y de ventanas abiertas: las corrientes frías o calientes la dañan (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F7",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal para plantas de interior (RHS, Clemson), de base turba o fibra de coco, rico en materia orgánica y con buen drenaje (MBG, NC State). Para mejorar la aireación, añadir un 20-30 % de perlita o corteza fina [orientativo, sin fuente prioritaria]; UF/IFAS pide al menos un 10 % de poros grandes (no capilares) llenos de aire.",
+      "ph": "Ácido a neutro (NC State: <6,0 a 6,0-8,0; la RHS admite ácido, neutro o alcalino). Orientativo 5,5-6,5 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: maceta con agujeros y sin agua retenida en el plato o cubremacetas (Clemson). La falta de aireación en el sustrato causa pérdida de raíces y pudriciones (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS) o abono de liberación lenta repartido uniformemente por la superficie (Clemson, UF/IFAS), con microelementos.",
+      "npk": "Proporción aproximada 3-1-2 (UF/IFAS, producción).",
+      "primavera_verano": "Con crecimiento activo (aprox. marzo-septiembre en Madrid): ¼-½ de la dosis de la etiqueta, una vez al mes, sobre sustrato húmedo.",
+      "otono_invierno": "Nada.",
+      "notas": "La RHS recomienda abono equilibrado mensual en crecimiento; Clemson, abonar regularmente según etiqueta y menos a las plantas con poca luz. Se aplica la pauta prudente del proyecto (¼-½ dosis, mensual). Señales (UF/IFAS): planta alta, delgada y verde clara indica falta de abono; hojas verde oscuro, blandas y caídas, exceso. El abono de liberación lenta mal repartido o en exceso quema raíces y pone pardos los bordes de las hojas nuevas (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando la maceta se quede pequeña (Clemson: trasplantar las plantas apretadas), normalmente cada 2-3 años en ejemplares jóvenes [orientativo, sin fuente prioritaria]; a una maceta solo 2-5 cm más ancha.",
+      "epoca": "Clemson admite cualquier estación; preferible a final de invierno o primavera, al empezar el crecimiento, y nunca con la planta estresada o tirando hojas [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces saliendo por los agujeros de drenaje o dando vueltas al cepellón, agua que atraviesa la maceta sin empapar, sustrato que se seca en muy pocos días, planta desproporcionada que vuelca.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Opcional: para controlar el tamaño y hacerla más tupida (MBG, Clemson). La RHS la incluye en el grupo de poda 1 (poda mínima). Quitar las hojas amarillas en cuanto aparezcan (MBG).",
+      "epoca": "Primavera o inicio del verano, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "Cortar con tijera limpia justo por encima de una hoja (Clemson); de ese nudo salen uno o varios brotes nuevos. Usar guantes: la savia puede irritar la piel sensible (NC State). Los esquejes de la poda sirven para multiplicarla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo (no dormancia verdadera) de octubre a febrero en el hemisferio norte, por menos luz y temperaturas más bajas.",
+      "cambios": "Reducir el riego de otoño a final de invierno (MBG) y regar escasamente en invierno (RHS); no abonar; mantenerla por encima de 15 °C y lejos de radiadores y cristales fríos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso de tallo",
+        "acodo aéreo",
+        "semilla"
+      ],
+      "epoca": "Primavera y verano, con temperaturas de 21-27 °C [orientativo, sin fuente prioritaria].",
+      "pasos": "Esqueje (UF/IFAS, RHS, Clemson): 1) tomar un trozo de tallo cortando unos 2,5 cm por debajo de una hoja, de la zona situada bajo las dos hojas superiores completamente desarrolladas (UF/IFAS); 2) quitar las hojas inferiores y dejar 1-2 hojas; 3) enterrar en sustrato ligero húmedo (turba o coco con perlita) o en agua; 4) mantener con luz brillante indirecta, calor y humedad ambiental alta (cubrir con bolsa ventilada) hasta que enraíce, en unas 4-8 semanas [orientativo, sin fuente prioritaria para el plazo]. Acodo aéreo (RHS, Clemson): hacer una pequeña herida en el tallo, envolver con musgo esfagno húmedo y plástico, y cortar y plantar cuando se vean raíces. Semilla (RHS, Clemson, UF/IFAS): sembrar fresca; UF/IFAS obtuvo un 93 % de germinación con semilla recién sembrada frente a 35-75 % tras 3 semanas almacenada. En casa no suele producir semillas porque casi nunca florece.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), la plaga más importante de la especie en interior con aire seco y calefacción (NC State, MBG, RHS, UF/IFAS). Telaraña fina en el envés, axilas y puntas, que se confunde con polvo."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Picaduras de araña roja: punteado amarillento que acaba amarilleando la hoja y provocando su caída (UF/IFAS). Revisar el envés con lupa; también puede deberse a trips (MBG)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas por cambios: traslado de vivero a casa con menos luz, corrientes frías o calientes, enfriamiento, humedad baja o cambios bruscos de riego (Clemson, MBG, NC State). Dejarla en un sitio fijo y luminoso, sin abonar ni trasplantar hasta que se estabilice."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y también en raíces; produce melaza y fumagina y frena la planta (UF/IFAS, NC State, RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (blandas y acorazadas) en tallos, pecíolos y nervios; debilitan y pueden matar la planta si no se tratan (UF/IFAS, NC State, RHS, Clemson). Muy frecuentes con calefacción."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas (algodonosa o de escudo) o pulgones (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina que crece sobre la melaza de cochinillas o pulgones (UF/IFAS); se elimina tratando la plaga y limpiando las hojas."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en brotes tiernos; deforman el crecimiento nuevo (MBG, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaro blanco (broad mite, Polyphagotarsonemus latus): hojas nuevas acopadas hacia abajo, arrugadas, enanas y con el margen aserrado, y necrosis del ápice (UF/IFAS). También pulgones o trips en brotes."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato que drena mal o riegos demasiado frecuentes (Clemson), con hongos como Pythium o Phytophthora que entran por raíces dañadas por falta de oxígeno (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Si el sustrato está mojado: falta de oxígeno en raíces y pérdida de raíces por exceso de riego (UF/IFAS). Si está seco: sed; regar a fondo."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas negras empapadas, sobre todo en los márgenes, que crecen rápido y causan caída de hojas: bacteriosis por Pseudomonas cichorii o mancha por Alternaria panax, favorecidas por hojas mojadas (UF/IFAS). Mantener el follaje seco y retirar las hojas afectadas."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general por frío: sustrato por debajo de 15,5 °C en invierno (UF/IFAS, junto a cristales fríos o en suelo frío); o falta de abono si además la planta está alta, delgada y verde clara (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: hojas amarillentas y tallos largos, débiles y ahilados (Clemson)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Exceso de sales solubles por abono: bordes pardos en las hojas nuevas y muerte parcial de raíces (UF/IFAS). No atribuirlo al agua de Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Zonas muertas pardas que aparecen varios días después de un golpe de frío por debajo de 10 °C (Clemson), o quemadura por sol directo intenso (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo intenso a través del cristal en interior (NC State, MBG), sobre todo en ventanas sur y oeste en verano."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana por Xanthomonas campestris pv. hederae: puntos amarillos a ocres de ~1 mm, a veces angulares entre nervios, con el envés de aspecto corchoso; las hojas bajas amarillean y caen (UF/IFAS). Rara en casa si las hojas no se mojan."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) por sustrato húmedo de forma continua; las larvas comen raíces (UF/IFAS). Reducir el riego."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "En cultivares variegados ('Gold Capella', 'Trinette'), luz insuficiente [orientativo, sin fuente prioritaria]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), la araña roja se dispara: revisar el envés cada semana con lupa y lavar las hojas con agua templada. Sacarla del sol directo de ventanas sur y oeste (visillo o 1-2 m de distancia): el sol directo en interior la quema (NC State). Por encima de unos 32 °C (UF/IFAS) sufre: ventilar en las horas frescas y no dejarla pegada al cristal. Comprobar el sustrato con el dedo y el peso de la maceta más a menudo, sin regar por costumbre ni dejar agua en el plato. Puede pasar el verano en una terraza resguardada a la sombra o luz tamizada (MBG, NC State), aclimatándola poco a poco y sin bajar de 15 °C de noche; devolverla al interior antes de que las noches bajen de esa cifra (en Madrid, normalmente a finales de septiembre) [orientativo, sin fuente prioritaria para la fecha].",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %: es la época de araña roja y cochinillas (MBG: araña roja con aire seco). Usar humidificador o agrupar plantas; no sirve pulverizar. Alejarla de radiadores y salidas de aire caliente, y también de cristales fríos y puertas o ventanas que se abren: no debe bajar de 15 °C ni recibir corrientes (Clemson, MBG); por debajo de 10 °C aparecen daños por frío (Clemson). No dejar la maceta sobre suelo frío de terraza o cerca de un ventanal: con el sustrato frío amarillea (UF/IFAS). Regar menos, dejando que se seque más el sustrato, y no abonar.",
+    "ubicacion_recomendada": "Salón o habitación luminosa, a 1-2 m de una ventana este, sur u oeste con visillo (3-4 horas de sol filtrado al día), lejos de radiadores, aire acondicionado y corrientes. Una ventana este es la más cómoda en Madrid todo el año."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) trata Schefflera arboricola (Hayata) Merr. (Lingnan Sci. J. 5: 139, 1929) como sinónimo del nombre aceptado Heptapleurum arboricola Hayata, siguiendo Flora of North America (2024) y Flora of India (2025); otras autoridades (Flora of China 2007, World Checklist of Araliaceae 2003) mantienen Schefflera arboricola. RHS y NC State usan ya Heptapleurum arboricola. La ficha conserva el nombre de la lista maestra.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes mínimos o ideales para interior; min_pct e ideal_pct quedan en null (solo datos de producción de UF/IFAS: mejor al 85 % que al 60 %).",
+    "Toxicidad: ASPCA no tiene ficha propia de S. arboricola; su ficha 'Schefflera' es de género y su ficha 'Umbrella Tree' corresponde a Brassaia actinophylla, con principios activos distintos. La especie concreta solo está respaldada por NC State.",
+    "Frecuencia y época de trasplante, época de poda, plazo de enraizamiento de esquejes y temperatura de propagación: sin fuente prioritaria (marcados como orientativos).",
+    "Luz mínima en interior: no se pudo abrir el informe de aclimatación de UF/IFAS (calidad mantenida a 75-150 fc, según el resumen del buscador) ni el estudio de Kubatsch et al. (2007); lux_min se fija en 100 fc por la escala del proyecto.",
+    "UF/IFAS ST-586 (ficha de Schefflera arboricola como arbusto de exterior) no estuvo accesible; la guía de producción de UF/IFAS (RH-91-31) se consultó en la copia de web.archive.org porque la URL original da 404.",
+    "Identificación de confusiones con Fatsia japonica y Plerandra elegantissima: sin fuente prioritaria consultada para esas especies."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/schefflera-arboricola/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University), ficha Heptapleurum arboricola",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276622",
+      "institucion": "Missouri Botanical Garden, Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/187874/heptapleurum-arboricola/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha Heptapleurum arboricola",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hgic.clemson.edu/factsheet/schefflera/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC 1511, Schefflera)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/schefflera",
+      "institucion": "ASPCA Animal Poison Control Center (ficha Schefflera)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/umbrella-tree",
+      "institucion": "ASPCA Animal Poison Control Center (ficha Umbrella Tree, Brassaia actinophylla)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://web.archive.org/web/20230104143457/https://mrec.ifas.ufl.edu/foliage/folnotes/scheffle.htm",
+      "institucion": "University of Florida IFAS, Mid-Florida Research and Education Center: Schefflera Production Guide (Foliage Plant Research Note RH-91-31, Poole, Chase y Osborne)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:91930-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

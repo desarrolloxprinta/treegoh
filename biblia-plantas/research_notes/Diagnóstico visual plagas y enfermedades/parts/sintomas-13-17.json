@@ -1,0 +1,539 @@
+[
+  {
+    "id": "S13",
+    "nombre": "Manchas negras blandas o empapadas de agua en hojas",
+    "como_se_ve": "Zonas de la lámina de aspecto translúcido, aceitoso o mojado (empapadas de agua), de color verde oscuro al principio que viran a marrón oscuro o negro (G01, G10); el aspecto empapado se aprecia mejor por el envés y a contraluz (G10). Las manchas suelen ser de tamaño bastante uniforme y, con humedad, se agrandan y confluyen formando áreas irregulares (G01); puede haber exudado pegajoso (G01); borde amarillo frecuente (G01, G10); en ambiente seco se secan y viran a marrón rojizo con aspecto moteado (G01). Patrón alternativo no infeccioso: ennegrecimiento generalizado, blando y caído de hojas enteras tras exposición a frío (G12), o manchas blandas en hojas inferiores sobre sustrato encharcado (G10). Sin anillos concéntricos ni puntos negros fructíferos (eso es fúngico, ver S14).",
+    "donde_mirar": "Haz y, sobre todo, envés de la hoja (transparencia a contraluz) (G10); peciolos y tallos adyacentes: si la lesión avanza al tallo es bacteriano sistémico (G10); superficie del sustrato (encharcado) y base del tallo (G10); posición de la planta respecto a una ventana fría o corriente en invierno (G12, G30).",
+    "urgencia": "alta",
+    "causas": [
+      {
+        "causa": "Mancha bacteriana de la hoja (Pseudomonas spp., Xanthomonas spp.)",
+        "tipo": "enfermedad",
+        "probabilidad": "alta",
+        "como_diferenciar": "Manchas aceitosas o empapadas visibles por el envés, de verde oscuro a tostado, marrón o negro con borde amarillo; pueden extenderse a peciolos y tallos (G10). Tamaño uniforme, confluyen con humedad, exudado pegajoso; en seco viran a marrón rojizo moteado (G01). Sin anillos concéntricos ni puntos negros fructíferos, que son signos fúngicos (G01). Historia: hojas mojadas por nebulización o riego por encima, ventilación pobre, hacinamiento (G09, G10). En plantas de interior establecidas las infecciones son raras salvo que la planta venga hace poco de exterior o de invernadero (G10).",
+        "preguntas_confirmacion": [
+          "¿Mojas las hojas al regar o las nebulizas?",
+          "¿Has mirado el envés: la mancha parece aceitosa o translúcida a contraluz?",
+          "¿Las manchas crecen y se juntan en pocos días?",
+          "¿Avanzan al peciolo o al tallo?",
+          "¿Hay otras plantas pegadas a esta?",
+          "¿La has cambiado de sitio o comprado hace poco?"
+        ],
+        "tratamiento": [
+          "1. Dejar de mojar el follaje y de nebulizar; regar solo el sustrato (G01, G10).",
+          "2. Separar la planta de las demás, bajar la humedad ambiental y mejorar la ventilación (G06, G10).",
+          "3. Cortar y desechar todas las hojas con manchas; lavarse las manos y desinfectar las tijeras con alcohol al 70 % entre cortes (G10).",
+          "4. No usar fungicidas: no actúan sobre bacterias (G09).",
+          "5. Si la lesión avanza al tallo o la planta se marchita o colapsa (infección sistémica), desechar la planta y esterilizar maceta y sustrato antes de reutilizarlos (G10, G32).",
+          "6. Último recurso [inferencia; no descrito en las fuentes]: tomar un esqueje de un ápice completamente sano y sin manchas y enraizarlo aparte."
+        ],
+        "tiempo_recuperacion": "Las hojas manchadas no se recuperan; la planta puede estabilizarse en pocas semanas si deja de aparecer tejido nuevo manchado [estimación; sin fuente].",
+        "cuando_descartar": "Lesiones en peciolos y tallos, marchitez o colapso con tallos blandos y olor fétido (podredumbre blanda bacteriana) (G10, G32); UC IPM: para enfermedades bacterianas sistémicas, desechar la planta suele ser la mejor opción y los pulverizados no sirven (G10).",
+        "plaga_o_enfermedad_ref": "mancha bacteriana de la hoja (Pseudomonas / Xanthomonas)"
+      },
+      {
+        "causa": "Daño por frío (hojas ennegrecidas blandas)",
+        "tipo": "temperatura",
+        "probabilidad": "media",
+        "como_diferenciar": "Ennegrecimiento de hojas enteras o de grandes zonas, caída y colapso general, no manchas discretas con halo (G12); UC IPM: manchas o ampollas por daño de enfriamiento por debajo de 10 °C (G10); aparece de golpe tras una noche fría, una ventana abierta o una hoja en contacto con el cristal frío (G30). Probabilidad alta en invierno en galerías, terrazas acristaladas o plantas pegadas al cristal.",
+        "preguntas_confirmacion": [
+          "¿La planta está pegada a un cristal o en una habitación sin calefacción?",
+          "¿Ha habido una noche fría o has ventilado con ella al lado?",
+          "¿Afecta a hojas enteras más que a puntos?",
+          "¿Ocurrió de golpe, en 24–48 h?"
+        ],
+        "tratamiento": [
+          "1. Retirar la planta del cristal o la corriente y mantenerla por encima de 15 °C estables (G12, G30).",
+          "2. No regar en exceso mientras se recupera [inferencia].",
+          "3. Esperar a ver qué tejido se mantiene firme; cortar lo ennegrecido y blando cuando esté claramente muerto [inferencia a partir de G12].",
+          "4. Si el tallo principal también está blando y negro hasta la base, tratar como S15."
+        ],
+        "tiempo_recuperacion": "Semanas; brotación nueva en primavera [estimación].",
+        "cuando_descartar": "Colapso de toda la planta con tallos blandos (G12).",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Exceso de riego con podredumbre radicular incipiente (manchas blandas en hojas bajas)",
+        "tipo": "riego",
+        "probabilidad": "media",
+        "como_diferenciar": "Sustrato empapado, bases de tallo blandas, hojas viejas y nuevas que amarillean a la vez, manchas en hojas (G10, G12); raíces marrón oscuro o negras al desenterrar (G17).",
+        "preguntas_confirmacion": [
+          "¿Cuándo regaste y cuánto?",
+          "¿El sustrato sigue húmedo a 3–4 cm después de varios días?",
+          "¿La maceta tiene drenaje y vacías el plato?",
+          "¿Hay mosquitos pequeños sobre el sustrato?"
+        ],
+        "tratamiento": [
+          "1. Dejar de regar, vaciar el plato y trasladar a un sitio cálido y ventilado (G10, G12).",
+          "2. Sacar la planta e inspeccionar las raíces; cortar las podridas y trasplantar a sustrato estéril si solo son unas pocas (G01, G10, G17); ver S15 para el procedimiento completo."
+        ],
+        "tiempo_recuperacion": "Ver S15: semanas a 2–3 meses hasta ver raíces y brotes nuevos [estimación].",
+        "cuando_descartar": "Ver S15: mayoría de raíces oscuras, blandas y muertas (G01).",
+        "plaga_o_enfermedad_ref": "podredumbre radicular (Pythium / Phytophthora)"
+      },
+      {
+        "causa": "Podredumbre blanda bacteriana de tejidos carnosos (Pectobacterium / Dickeya, antes Erwinia)",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "Descomposición blanda y pastosa de partes carnosas, olor fétido, colapso húmedo de hojas o de toda la planta con calor y humedad (G32). Más probable en plantas carnosas: suculentas, aroides, calas, ciclamen, Dracaena.",
+        "preguntas_confirmacion": [
+          "¿Huele mal?",
+          "¿El tejido se deshace al tocarlo?",
+          "¿Es una planta de hojas gruesas o tallo carnoso?"
+        ],
+        "tratamiento": [
+          "1. Desechar la planta, separar y espaciar las restantes, mantener hojas y tallos secos, esterilizar maceta y sustrato (G32)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Siempre que afecte al tallo o a la corona (G32).",
+        "plaga_o_enfermedad_ref": "podredumbre blanda bacteriana (Pectobacterium carotovorum)"
+      },
+      {
+        "causa": "Mancha fúngica en fase húmeda (p. ej. Botrytis / moho gris en hojas viejas y flores)",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "Parches tostados papiráceos cubiertos de masas grises algodonosas o polvorientas (G09, G10); asociado a hacinamiento, poca luz, mala ventilación y humedad alta (G09).",
+        "preguntas_confirmacion": [
+          "¿Hay pelusa gris sobre la mancha?",
+          "¿Hay flores marchitas pegadas a las hojas?",
+          "¿La planta está en un rincón sin ventilación?"
+        ],
+        "tratamiento": [
+          "1. Retirar el tejido afectado, mejorar la circulación de aire, reducir la humedad y no mojar el follaje (G10); ver S35."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "Raramente necesario salvo invasión del tallo [inferencia].",
+        "plaga_o_enfermedad_ref": "moho gris (Botrytis cinerea)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G01", "G06", "G09", "G10", "G12", "G17", "G30", "G32"]
+  },
+  {
+    "id": "S14",
+    "nombre": "Manchas foliares con halo amarillo",
+    "como_se_ve": "Lesión necrótica discreta (marrón, marrón rojizo, tostada o negra) rodeada de un anillo amarillo clorótico (G01, G10, G11). Subtipos: (a) fúngica: mancha seca, redondeada a oval o irregular, no limitada por los nervios, a menudo con halo amarillo o banda púrpura (G11); centro con anillos concéntricos tipo diana y puntos negros diminutos (cuerpos fructíferos) en el tejido muerto (G01, G09); (b) bacteriana: centro inicialmente empapado o aceitoso que vira a marrón o negro con borde amarillo, tamaño uniforme, confluye con humedad (G01, G10); (c) no infecciosa: puntos blancos o color paja, no amarillos, por agua fría o aerosoles (G01, G15); parches blanqueados por sol (G04, ver S22); amarilleo general de hojas viejas por nitrógeno o hierro sin halo (G01). El halo amarillo por sí solo no discrimina entre hongo y bacteria.",
+    "donde_mirar": "Hojas afectadas a contraluz (halo y textura), envés (aspecto aceitoso), centro de la lesión con lupa o zoom (anillos, puntos negros), distribución (hojas bajas salpicadas por el riego frente a hojas expuestas al sol), presencia de agua estancada o nebulización.",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Mancha foliar fúngica (Alternaria, Cercospora, Colletotrichum -antracnosis-, Phyllosticta, etc.)",
+        "tipo": "enfermedad",
+        "probabilidad": "alta",
+        "como_diferenciar": "Lesión seca, bordes definidos, anillos concéntricos, puntos negros en el centro (G01, G09); necesita horas de hoja mojada para infectar y se dispersa por salpicadura (G10); antracnosis: puntas de hoja amarillas que pasan a tostadas y marrón oscuro (G01). Manchas que se fusionan en lesiones irregulares grandes hasta matar la hoja (G10).",
+        "preguntas_confirmacion": [
+          "¿Mojas las hojas al regar o nebulizas?",
+          "¿Ves anillos concéntricos o puntitos negros dentro de la mancha?",
+          "¿La mancha está seca y como papel al tacto?",
+          "¿Hay varias plantas juntas sin ventilación?",
+          "¿Desde cuándo?"
+        ],
+        "tratamiento": [
+          "1. No mojar el follaje; regar por la mañana para que seque rápido (G10).",
+          "2. Separar las plantas y ventilar (G06, G09).",
+          "3. Retirar las hojas manchadas en cuanto aparezcan y desecharlas sin compostar (G01, G10).",
+          "4. Desinfectar las tijeras con alcohol al 70 % (G10).",
+          "5. Fungicida registrado solo en plantas de valor y con etiqueta que incluya la planta y la enfermedad (G09); Clemson: para el aficionado estos productos probablemente cuestan más que una planta nueva (G01). En España, en interior solo productos listos para usar autorizados para uso no profesional, aplicados con la planta en el balcón y a la sombra; ver S34 para las materias activas (R01).",
+          "6. Si la mayor parte del follaje está afectado y aparece en hojas nuevas, descartar."
+        ],
+        "tiempo_recuperacion": "Las manchas no desaparecen; se considera controlado cuando las hojas nuevas salen limpias (semanas a meses) [estimación].",
+        "cuando_descartar": "Defoliación masiva o lesiones en el tallo [inferencia].",
+        "plaga_o_enfermedad_ref": "mancha foliar fúngica (Alternaria / Cercospora / antracnosis Colletotrichum)"
+      },
+      {
+        "causa": "Mancha bacteriana (Pseudomonas, Xanthomonas)",
+        "tipo": "enfermedad",
+        "probabilidad": "media",
+        "como_diferenciar": "Ver S13: centro empapado o aceitoso visible por el envés, confluencia, exudado, avance a peciolos (G01, G10).",
+        "preguntas_confirmacion": [
+          "¿La mancha parece aceitosa o translúcida a contraluz, sobre todo por el envés?",
+          "¿Las manchas se juntan y avanzan al peciolo?"
+        ],
+        "tratamiento": [
+          "1. Ver S13: no mojar el follaje, aislar, retirar hojas manchadas con tijeras desinfectadas, no usar fungicidas, desechar si avanza al tallo (G09, G10)."
+        ],
+        "tiempo_recuperacion": "Ver S13 [estimación].",
+        "cuando_descartar": "Ver S13: lesiones en tallos, marchitez o colapso (G10).",
+        "plaga_o_enfermedad_ref": "mancha bacteriana de la hoja (Pseudomonas / Xanthomonas)"
+      },
+      {
+        "causa": "Quemadura solar localizada (parche blanqueado que pasa a marrón con borde amarillo)",
+        "tipo": "luz",
+        "probabilidad": "media",
+        "como_diferenciar": "Parches grandes, pálidos o blanqueados que luego se vuelven marrones y quebradizos, solo en las hojas más expuestas al sol, no en las sombreadas (G04); UC IPM: manchas, parches o puntas chamuscadas por exceso de luz, sobre todo tras un cambio de sitio reciente (G10); UMD lista la quemadura entre las causas de manchas foliares (G06). Probabilidad alta en verano en ventana sur u oeste de Madrid o tras cambio de sitio.",
+        "preguntas_confirmacion": [
+          "¿Ha cambiado de sitio recientemente o la has sacado a la terraza?",
+          "¿Le da el sol directo a través del cristal (sur u oeste) a mediodía o por la tarde?",
+          "¿Las manchas están solo en la cara o las hojas orientadas a la ventana?",
+          "¿Estaba el sustrato seco cuando apareció?"
+        ],
+        "tratamiento": [
+          "1. Ver S22: retirar del sol directo o filtrar con visillo, regar correctamente, aclimatar gradualmente (G04, G12, G15)."
+        ],
+        "tiempo_recuperacion": "Ver S22: las zonas quemadas son permanentes; hojas nuevas sanas en semanas-meses [estimación].",
+        "cuando_descartar": "Ver S22: raramente.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Puntos blancos o color paja por agua fría o aerosoles (confusión frecuente)",
+        "tipo": "agua",
+        "probabilidad": "baja",
+        "como_diferenciar": "Manchas blancas o color paja, a veces en anillos, sin necrosis marrón ni halo amarillo real; típico en plantas de hoja vellosa como la violeta africana (G01, G06, G15).",
+        "preguntas_confirmacion": [
+          "¿Riegas con agua fría directa del grifo?",
+          "¿Salpicas las hojas?",
+          "¿Usas abrillantador o insecticida en aerosol cerca?"
+        ],
+        "tratamiento": [
+          "1. Regar con agua a temperatura ambiente, no mojar las hojas, no usar aerosoles (G15)."
+        ],
+        "tiempo_recuperacion": "Las marcas son permanentes pero inocuas [inferencia a partir de G15].",
+        "cuando_descartar": "Nunca por esta causa.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Virus (anillos, mosaicos, moteados)",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "Rotura de color, patrones de mosaico o moteado, manchas anulares (G09); dibujos anulares amarillos sin centro necrótico definido.",
+        "preguntas_confirmacion": [
+          "¿Los dibujos son anillos o mosaicos amarillos más que manchas marrones?",
+          "¿Las hojas nuevas salen deformadas?"
+        ],
+        "tratamiento": [
+          "1. No hay cura; desechar la planta para no contagiar (G06, G09)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Al confirmar el patrón vírico (G06, G09).",
+        "plaga_o_enfermedad_ref": "virosis (mosaico / ringspot)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G01", "G04", "G06", "G09", "G10", "G11", "G15", "R01"]
+  },
+  {
+    "id": "S15",
+    "nombre": "Podredumbre de cuello o corona: base del tallo blanda, oscura o anillada",
+    "como_se_ve": "A nivel del sustrato, el tallo presenta un anillo o zona de tejido marrón o negro, blando, a veces hundido o con aspecto húmedo (G01, G10); los tallos pueden quedar anillados a nivel del suelo por un anillo de tejido marrón o negro (G01); bases de tallo blandas con sustrato empapado (G10); la parte aérea se marchita aunque el sustrato esté húmedo y las hojas siguen marchitas tras regar (G01, G36); hojas viejas y nuevas amarillean a la vez y caen (G12); raíces marrón oscuro a negras, blandas, que se rompen o se deshacen al tirar (G09, G10, G17). Variantes de textura: podredumbre húmeda negra que sube desde las raíces (Pythium) (G13); podredumbre de la base del tallo que anilla el sistema vascular (Phytophthora) (G13); chancro más seco, marrón-tostado a nivel del sustrato (Rhizoctonia) (G13, G32); lesión negra polvorienta por esporas (Thielaviopsis) (G13); decoloración interna del tallo y chancros en la base (Fusarium) (G32); blanda, viscosa y fétida (bacteriana) (G32). También colapso del tallo a nivel del sustrato por costra de sales (G33).",
+    "donde_mirar": "Cuello de la planta justo en la línea del sustrato (apartar el sustrato); cara interna del tallo al cortar (vascular marrón = Fusarium / Phytophthora); raíces tras desenterrar (color y firmeza: sanas blancas y firmes; marrón oscuro a negras y blandas = podridas; naranja-óxido a marrón claro = falta de riego, G17); superficie del sustrato (encharcado, costra salina, moho); plato con agua; orificios de drenaje; tamaño de la maceta respecto a la planta.",
+    "urgencia": "alta",
+    "causas": [
+      {
+        "causa": "Podredumbre radicular y de cuello por oomicetos (Pythium spp., Phytophthora spp.) favorecida por riego excesivo o mal drenaje",
+        "tipo": "riego",
+        "probabilidad": "alta",
+        "como_diferenciar": "Sustrato que no se seca, maceta sin drenaje o con plato lleno, maceta demasiado grande (G10, G11, G35); raíces negras húmedas que se desintegran, podredumbre que sube a la base del tallo (G13); sustrato frío y húmedo (invierno) lo favorece (G13, G36); RHS: riego excesivo da hojas viejas y nuevas amarillas a la vez, podredumbre de tallo y raíces blandas (G12). Oregon State: el exceso de riego mata más plantas que la falta (G30). Los hongos entran por las raicillas y pueden extenderse a la mayor parte del sistema radicular en pocos días (G36).",
+        "preguntas_confirmacion": [
+          "¿Cuándo regaste por última vez y con qué frecuencia?",
+          "¿La maceta tiene agujeros y vacías el plato?",
+          "¿Cuánto hace del último trasplante y pusiste una maceta mucho mayor?",
+          "¿La habitación es fría en invierno?",
+          "¿Has desenterrado la planta: las raíces son blancas y firmes o marrones y blandas?",
+          "¿Sigue marchita después de regar?"
+        ],
+        "tratamiento": [
+          "1. Dejar de regar, vaciar el plato y trasladar a un sitio cálido y ventilado (G10, G12).",
+          "2. Sacar la planta de la maceta e inspeccionar: raíces sanas = blancas y firmes; podridas = marrón oscuro o negras, blandas, se deshacen (G10, G17).",
+          "3. Si solo unas pocas raíces están afectadas: cortarlas con tijera desinfectada (alcohol 70 %) hasta tejido sano y trasplantar a sustrato nuevo estéril, en maceta limpia con drenaje y del mismo tamaño o menor (G01, G35, G36).",
+          "4. Cortar la parte del cuello blanda hasta tejido firme si la planta lo permite (plantas con roseta o suculentas) [inferencia a partir de G01].",
+          "5. Regar poco tras el trasplante y no abonar hasta ver brote nuevo; el exceso de agua tras el trasplante añade estrés (G31).",
+          "6. Fungicidas: solo preventivos, no curan el tejido podrido y probablemente cuestan más que una planta nueva (G01, G09); no se recomiendan en el árbol doméstico.",
+          "7. Último recurso cuando raíces y cuello están perdidos pero el ápice sigue firme [inferencia; procedimiento no descrito en las fuentes prioritarias consultadas]: cortar un esqueje por encima de la zona podrida, dejar secar el corte (suculentas, aroides) y enraizar en sustrato nuevo o agua."
+        ],
+        "tiempo_recuperacion": "Semanas a 2–3 meses hasta ver raíces y brotes nuevos [estimación]; NC State: el hongo puede extenderse a la mayor parte del sistema radicular en pocos días, por lo que la ventana de rescate es corta (G36).",
+        "cuando_descartar": "La mayoría de raíces oscuras, blandas y muertas (G01); tallo completamente anillado por tejido negro a nivel del suelo (G01, G13); colapso de la planta; Iowa State: las plantas rara vez se recuperan y es mejor eliminarla para no contagiar a las vecinas (G09); Penn State: desechar las plantas gravemente afectadas (G11).",
+        "plaga_o_enfermedad_ref": "podredumbre radicular y de cuello (Pythium / Phytophthora)"
+      },
+      {
+        "causa": "Podredumbre blanda bacteriana (Pectobacterium carotovorum, Dickeya spp.)",
+        "tipo": "enfermedad",
+        "probabilidad": "media",
+        "como_diferenciar": "Podredumbre blanda, pastosa y fétida de rizomas o bases de tallo; descomposición blanda de partes carnosas; colapso húmedo con calor y humedad (G32); olor claramente fétido. Sobre todo en plantas carnosas: Zantedeschia, Cyclamen, suculentas, aroides, Dracaena.",
+        "preguntas_confirmacion": [
+          "¿Huele mal?",
+          "¿El tejido se deshace en papilla viscosa?",
+          "¿Es planta de tallo o bulbo carnoso?",
+          "¿Hace calor y humedad?"
+        ],
+        "tratamiento": [
+          "1. Desechar la planta y el sustrato; separar y espaciar el resto; mantener follaje y tallos secos; esterilizar la maceta (G32).",
+          "2. Único rescate posible [inferencia]: esqueje de tejido claramente sano y seco."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Siempre que el cuello esté afectado (G32).",
+        "plaga_o_enfermedad_ref": "podredumbre blanda bacteriana (Pectobacterium carotovorum)"
+      },
+      {
+        "causa": "Chancro de cuello por Rhizoctonia solani",
+        "tipo": "enfermedad",
+        "probabilidad": "media",
+        "como_diferenciar": "Podredumbre más seca, tejido marrón o tostado, chancro a nivel del sustrato (G13); decoloración marrón del tallo, a veces con esclerocios marrones o negros sobre el tejido muerto (G32); favorecida por humedad intermedia y temperaturas cálidas, no por encharcamiento (G13).",
+        "preguntas_confirmacion": [
+          "¿La zona oscura está seca y hundida más que blanda y húmeda?",
+          "¿Hace calor?",
+          "¿Hay bolitas marrones o negras diminutas sobre la lesión?"
+        ],
+        "tratamiento": [
+          "1. Igual que la causa 1: inspección, corte de lo afectado, trasplante a sustrato estéril y saneamiento de herramientas; la higiene es eficaz contra todos los hongos de podredumbre (G13)."
+        ],
+        "tiempo_recuperacion": "Semanas a meses [estimación].",
+        "cuando_descartar": "Tallo anillado (G01).",
+        "plaga_o_enfermedad_ref": "podredumbre de cuello (Rhizoctonia solani)"
+      },
+      {
+        "causa": "Marchitez o podredumbre basal por Fusarium spp.",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "Decoloración interna (vascular) del tallo y chancros en la base, colapso parcial o total; raíces y base del tallo podridas y decoloradas (G32). Probabilidad baja-media; en fuentes prioritarias solo descrito en clavel y begonia (G32).",
+        "preguntas_confirmacion": [
+          "¿Al cortar el tallo se ven anillos o vetas marrones por dentro?",
+          "¿Se marchita un lado de la planta primero?"
+        ],
+        "tratamiento": [
+          "1. No hay cura en casa; desechar y esterilizar [inferencia a partir de G09 y G32].",
+          "2. Esqueje solo de tejido sin decoloración interna [inferencia]."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Al ver el tejido vascular marrón [inferencia].",
+        "plaga_o_enfermedad_ref": "marchitez / podredumbre basal (Fusarium spp.)"
+      },
+      {
+        "causa": "Colapso del tallo en la línea del sustrato por sales (sobreabonado, riego por inmersión)",
+        "tipo": "nutricion",
+        "probabilidad": "baja",
+        "como_diferenciar": "Costra blanca en superficie y borde de maceta, puntas y márgenes marrones, raíces con puntas muertas (G07, G33); las sales pueden causar colapso del tallo en la línea del suelo, sobre todo si se riega por abajo (G33). Sin olor ni tejido viscoso.",
+        "preguntas_confirmacion": [
+          "¿Cuándo abonaste por última vez y con qué dosis?",
+          "¿Riegas por inmersión?",
+          "¿Hay costra blanca en el sustrato o la maceta?"
+        ],
+        "tratamiento": [
+          "1. Lixiviar con al menos 3 volúmenes de agua de la maceta dejando drenar por completo (G07).",
+          "2. Sustituir el sustrato en macetas pequeñas (G33).",
+          "3. Suspender el abono (G33)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "Si el tallo ya está anillado y la parte aérea colapsa [inferencia].",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Daño por frío (tallos ennegrecidos, colapso)",
+        "tipo": "temperatura",
+        "probabilidad": "baja",
+        "como_diferenciar": "Hojas ennegrecidas, caídas y colapso de toda la planta tras frío (G12); afecta a hojas y tallos de golpe, no un anillo progresivo en la base. Probabilidad media en invierno en galerías, plantas pegadas al cristal o tras ventilar.",
+        "preguntas_confirmacion": [
+          "¿Ha habido frío (menos de 10 °C) en la habitación?",
+          "¿Está contra el cristal?"
+        ],
+        "tratamiento": [
+          "1. Ver S13 causa 2: retirar del cristal o la corriente, mantener por encima de 15 °C, cortar lo muerto cuando esté claro (G12, G30)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "Colapso total (G12).",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G01", "G07", "G09", "G10", "G11", "G12", "G13", "G17", "G30", "G31", "G32", "G33", "G35", "G36"]
+  },
+  {
+    "id": "S16",
+    "nombre": "Etiolación: tallos largos y débiles, entrenudos largos, hojas pálidas",
+    "como_se_ve": "Tallos y peciolos anormalmente largos y finos (G10, G34), entrenudos largos (gran distancia entre hojas) (G36), hojas nuevas pálidas (verde claro a amarillento) y pequeñas (G10, G34, G36), toda la planta inclinada hacia la ventana (G17, G31, G34), hojas viejas que amarillean y caen (G10, G34, G36), ausencia de flores (G12, G36); en variegadas, hojas nuevas más verdes (ver S19). Patrón alternativo: crecimiento larguirucho y rápido pero abundante, con follaje no pálido y costra blanca en el sustrato = exceso de abono (G06, G08).",
+    "donde_mirar": "Distancia entre nudos en el crecimiento reciente frente al antiguo; grosor del tallo nuevo frente al viejo; dirección de la inclinación; tamaño y color de las últimas hojas; distancia de la planta a la ventana y orientación; superficie del sustrato (costra salina).",
+    "urgencia": "baja",
+    "causas": [
+      {
+        "causa": "Luz insuficiente (intensidad o duración)",
+        "tipo": "luz",
+        "probabilidad": "alta",
+        "como_diferenciar": "Crecimiento ahilado (tallos y peciolos largos), débil, hojas verde claro a amarillas, amarilleo y caída (G10); color pálido y entrenudos largos (G36); hojas pequeñas y tallos largos y finos que buscan la luz (G34); crecimiento débil y espigado, hojas pálidas y floración pobre (G12); plantas que se estiran hacia la luz (G17). Situación: a más de 2,5 m de una ventana, rincón, habitación al norte (G36); los interiores típicos están por debajo de 100 ft-c (unos 1.000 lux) (G02); una ventana norte puede no alcanzar 400 ft-c (G20). Escalas orientativas: baja <100 ft-c, media 100–500, alta 500–1.000, sol directo >1.000 ft-c (G02, G20, G21, G36).",
+        "preguntas_confirmacion": [
+          "¿A qué distancia está de la ventana y hacia dónde mira la ventana (norte, sur, este, oeste)?",
+          "¿Hay cortinas, visillos o edificios enfrente?",
+          "¿Ha cambiado de sitio?",
+          "¿Ha empezado en otoño o invierno?",
+          "¿La planta se inclina hacia la ventana?",
+          "¿Es una especie de luz media o alta (suculenta, Monstera, Ficus)?",
+          "¿Cuándo abonaste por última vez?"
+        ],
+        "tratamiento": [
+          "1. Acercar la planta a una ventana más luminosa: plantas de luz alta a menos de 1,2 m de ventanas grandes sur, este u oeste; de luz media a 1,2–2,4 m de ventanas sur u oeste; de luz baja en ventana norte o más lejos (G02, G36); en invierno, acercar a ventanas sur u oeste (G12, G34); hacerlo gradualmente para evitar quemaduras (G02, G04).",
+          "2. Rotar la maceta semanalmente para evitar el crecimiento unilateral (G17, G31, G34).",
+          "3. Añadir luz artificial (LED hortícola) si no hay ventana adecuada (G06, G34).",
+          "4. Reducir o suspender el abono en invierno: el abono no sustituye a la luz (G06, G28).",
+          "5. Una vez corregida la luz, en primavera podar los tallos ahilados por encima de un nudo para forzar brotes compactos [inferencia; la fuente que lo indicaba no pudo abrirse].",
+          "6. Último recurso [inferencia]: esquejes del ápice sano y descarte del tallo estirado."
+        ],
+        "tiempo_recuperacion": "El tallo ya estirado no se compacta; el crecimiento nuevo compacto aparece en semanas-meses según especie y estación [estimación].",
+        "cuando_descartar": "No procede por esta causa salvo planta totalmente caída y sin reserva [inferencia].",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Exceso de abono o sales (crecimiento larguirucho y rápido)",
+        "tipo": "nutricion",
+        "probabilidad": "media",
+        "como_diferenciar": "UMD: crecimiento espigado por poca luz o por exceso de abono (sales solubles altas) (G06); Iowa State: el sobreabonado da crecimiento abundante pero larguirucho, espigado y rápido, con costra salina en sustrato, plato o maceta (G08); UNH: las sobreabonadas crecen demasiado deprisa para su maceta (G29); a diferencia de la falta de luz, aquí el follaje no es pálido y hay costra blanca y puntas marrones (G33).",
+        "preguntas_confirmacion": [
+          "¿Cuándo abonaste por última vez y cada cuánto?",
+          "¿Abonas en invierno?",
+          "¿Hay costra blanca en el sustrato o la maceta?",
+          "¿Tiene puntas marrones?"
+        ],
+        "tratamiento": [
+          "1. Suspender el abono y lixiviar con 3 volúmenes de agua (G06, G07).",
+          "2. No abonar en el reposo invernal (G02, G28); dosis de mantenimiento solo en primavera-verano (G28, G29)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Temperatura alta nocturna o calefacción cercana (estirón con poca luz invernal)",
+        "tipo": "temperatura",
+        "probabilidad": "baja",
+        "como_diferenciar": "Planta junto a un radiador o salida de calefacción en invierno, con hojas quemadas o crispadas además de estiradas (G12, G30).",
+        "preguntas_confirmacion": [
+          "¿Hay un radiador o salida de aire caliente a menos de 1 m?"
+        ],
+        "tratamiento": [
+          "1. Alejar de las fuentes de calor (G12, G30)."
+        ],
+        "tiempo_recuperacion": "No cuantificado [estimación: semanas].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G02", "G04", "G06", "G07", "G08", "G10", "G12", "G17", "G20", "G21", "G28", "G29", "G30", "G31", "G33", "G34", "G36"]
+  },
+  {
+    "id": "S17",
+    "nombre": "Parada de crecimiento o enanismo (sin hojas nuevas en temporada de crecimiento)",
+    "como_se_ve": "Ausencia de brotes u hojas nuevas durante primavera-verano (en otoño-invierno es normal: el crecimiento disminuye o se detiene en invierno, G36); la planta mantiene un aspecto estable pero no aumenta; puede acompañarse de hojas pálidas y pequeñas (luz o abono) (G36), raíces que salen por los agujeros o por la superficie y sustrato que se seca muy rápido (cepellón saturado) (G22, G23, G35), amarilleo de hojas viejas (nitrógeno) (G01, G10), o marchitez persistente tras regar (raíces podridas) (G36).",
+    "donde_mirar": "Fecha y estación (la app debe preguntar); base de la maceta (raíces por los orificios) y superficie del sustrato (raíces, costra salina); cepellón al desenterrar (raíces circulares, sin sustrato visible en el tercio inferior) (G22); color de las hojas nuevas frente a las viejas; envés (plagas chupadoras) (G10); situación respecto a la ventana.",
+    "urgencia": "baja",
+    "causas": [
+      {
+        "causa": "Reposo estacional (días cortos, menos luz, frío)",
+        "tipo": "fisiologico",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta de octubre a febrero y baja de abril a septiembre. NC State: el fotoperiodo puede desencadenar latencia y el crecimiento disminuye o se detiene en invierno (G36); UNH: en invierno la mayoría de plantas de interior pasan por un periodo de reposo (G29); Iowa State: en invierno la mayoría no crece (G28); Oregon State: no necesitan abono de noviembre a marzo (G30); Penn State: crecimiento otoño-invierno menos vigoroso por el ángulo bajo del sol (G14); RHS: el crecimiento se ralentiza en invierno, lo que facilita el exceso de riego (G12). La planta conserva hojas firmes y verdes y no hay raíces podridas [inferencia].",
+        "preguntas_confirmacion": [
+          "¿En qué mes estamos?",
+          "¿Desde cuándo no saca hojas?",
+          "¿Las hojas que tiene están firmes y de buen color?",
+          "¿Hay calefacción cerca (aire seco)?"
+        ],
+        "tratamiento": [
+          "1. No abonar en el reposo invernal (G02, G28, G29, G30).",
+          "2. Reducir el riego: la planta necesita más agua en crecimiento activo que en los periodos lentos como el invierno (G35).",
+          "3. Acercar a la luz en invierno (G12, G34).",
+          "4. No trasplantar plantas latentes [citado en búsqueda de Clemson, página no abierta; no verificado].",
+          "5. Esperar a que alargue el día y reanudar el abono en primavera cuando se vea crecimiento (G28, G29)."
+        ],
+        "tiempo_recuperacion": "Reanuda al alargar los días (marzo-abril) [inferencia a partir de G29 y G30].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Cepellón saturado (planta enraizada en exceso)",
+        "tipo": "sustrato",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si lleva más de 1–2 años sin trasplantar. Penn State: raíces por los agujeros de drenaje, sustrato que se seca muy rápido incluso con temperaturas frescas, follaje y tallos que han dejado de crecer; al sacar la planta las raíces circulan alrededor del cepellón o no se ve sustrato en el tercio inferior (G22); Illinois: hojas nuevas más pequeñas de lo normal, la planta se marchita entre riegos normales, raíces en superficie y por los agujeros, masa de sustrato llena de raíces (G23); Wisconsin: raíces en superficie o agujeros y sustrato que se seca más rápido de lo habitual (G35); UMD: síntomas de sequía, muerte de puntas o necrosis marginal, agua que atraviesa la maceta sin empapar el centro (G24); NC State: las plantas que no crecen en su periodo activo pueden haberse quedado sin maceta (G36); Illinois: a veces una planta necesita abono cuando se queda sin espacio radicular (G17).",
+        "preguntas_confirmacion": [
+          "¿Cuánto hace del último trasplante?",
+          "¿Salen raíces por los agujeros o por la superficie?",
+          "¿El sustrato se seca en 1–2 días?",
+          "¿Se marchita entre riegos aunque riegues normal?",
+          "¿Las hojas nuevas son más pequeñas que las antiguas?"
+        ],
+        "tratamiento": [
+          "1. Confirmar sacando la planta y mirando el cepellón (G22).",
+          "2. Trasplantar en primavera o inicio de verano, cuando crece activamente (G22, G23).",
+          "3. Maceta solo un tamaño mayor (2,5–5 cm más de diámetro) con drenaje (G22, G35); una maceta demasiado grande retiene agua y favorece la podredumbre radicular (G35).",
+          "4. Desenredar o cortar las raíces que circulan (G22, G23, G24).",
+          "5. Misma profundidad de plantación, con sustrato nuevo para interior, no tierra de jardín (G22, G23).",
+          "6. Regar tras trasplantar y esperar unas semanas antes de abonar (G23).",
+          "7. No trasplantar plantas enfermas, latentes o en flor [citado en búsqueda de Clemson, página no abierta; no verificado]."
+        ],
+        "tiempo_recuperacion": "Brotes nuevos en semanas tras el trasplante en temporada [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Luz insuficiente",
+        "tipo": "luz",
+        "probabilidad": "alta",
+        "como_diferenciar": "NC State: plantas enanas y crecimiento nuevo pálido y espigado por luz insuficiente (G36); Wisconsin: demasiada poca luz causa hojas y flores apagadas y crecimiento detenido (G35); Clemson: la falta de luz suficiente produce un crecimiento pobre (G02); UC IPM: hojas verde claro a amarillas y crecimiento débil (G10); Penn State: una sansevieria con más luz crecería mucho más alta (G14).",
+        "preguntas_confirmacion": [
+          "¿A qué distancia está de la ventana y con qué orientación?",
+          "¿Ha empezado en otoño o invierno?",
+          "¿La planta se inclina hacia la ventana y las hojas nuevas son pálidas?"
+        ],
+        "tratamiento": [
+          "1. Ver S16: acercar a una ventana más luminosa de forma gradual, rotar, luz artificial si no hay ventana adecuada (G02, G06, G34, G36). El abono, el agua o el trasplante no sustituyen a la luz [citado en búsqueda de Missouri Extension, página no abierta; no verificado]."
+        ],
+        "tiempo_recuperacion": "Ver S16: crecimiento nuevo en semanas-meses [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Deficiencia nutricional (sustrato agotado)",
+        "tipo": "nutricion",
+        "probabilidad": "media",
+        "como_diferenciar": "NC State: plantas enanas y crecimiento pálido y espigado también por abono insuficiente (G36); UNH: si las plantas parecen enanas o las hojas muestran tintes amarillos o púrpura, necesitan abono (G29); Clemson: amarilleo, pardeamiento y muerte de hojas inferiores por falta de nitrógeno o hierro (G01); UC IPM: hojas viejas verde-amarillas por falta de nitrógeno, hojas nuevas verde-amarillas por pH o micronutrientes (G10); RHS: crecimiento apagado y floración pobre, trasplantar (G12); RHS: falta de color en puntas con mal crecimiento = nitrógeno; comprobar también si está enraizada en exceso (G15).",
+        "preguntas_confirmacion": [
+          "¿Cuándo abonaste por última vez?",
+          "¿Cuánto hace del último trasplante?",
+          "¿Las hojas viejas amarillean de forma uniforme?",
+          "¿Es primavera o verano?"
+        ],
+        "tratamiento": [
+          "1. Descartar antes la luz y el estado de las raíces (G15, G36).",
+          "2. En temporada de crecimiento, abonar con fertilizante equilibrado a dosis reducida; UNH: una vez cada 1–3 meses según producto (G29). La recomendación de usar la mitad o un cuarto de la dosis de etiqueta apareció en un resultado de búsqueda de UMD, pero la página abierta no la contiene [no verificado].",
+          "3. Si el sustrato es viejo y compacto, trasplantar a sustrato fresco (G01, G12).",
+          "4. Nunca abonar en invierno ni una planta estresada (G28, G29)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Daño radicular por podredumbre o sales (pérdida parcial de raíces)",
+        "tipo": "riego",
+        "probabilidad": "media",
+        "como_diferenciar": "UC IPM: la pérdida parcial de raíces produce crecimiento pobre, amarilleo y enanismo (G10); sales: crecimiento reducido, puntas marrones, caída de hojas inferiores y marchitez (G02); UMD: crecimiento reducido, amarilleo y enanismo por sales (G33); marchitez que persiste tras regar = raíces podridas (G36).",
+        "preguntas_confirmacion": [
+          "¿Sigue marchita después de regar?",
+          "¿Hay costra blanca?",
+          "¿Las raíces están oscuras?"
+        ],
+        "tratamiento": [
+          "1. Ver S15 (inspección de raíces, corte y trasplante) si hay raíces negras, y S20 (lixiviar con 3 volúmenes de agua) si hay costra de sales (G07, G10, G36)."
+        ],
+        "tiempo_recuperacion": "Ver S15 y S20 [estimación].",
+        "cuando_descartar": "Ver S15: mayoría de raíces muertas (G01).",
+        "plaga_o_enfermedad_ref": "podredumbre radicular (Pythium / Phytophthora) si hay raíces negras; ninguna si son sales"
+      },
+      {
+        "causa": "Plagas chupadoras (cochinilla, pulgón, araña roja, trips)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "UMD: el crecimiento pobre puede deberse a condiciones, insectos y enfermedades (G06); UC IPM: hojas viejas amarillas también por chupadores; hojas moteadas o bronceadas con telarañas = araña roja; pegajosidad, fumagina y bultos = cochinilla o pulgón (G10).",
+        "preguntas_confirmacion": [
+          "¿Has mirado el envés y las axilas?",
+          "¿Hay pegajosidad, telarañas finas o bultos blancos algodonosos?"
+        ],
+        "tratamiento": [
+          "1. Según la plaga identificada: ver S23–S30."
+        ],
+        "tiempo_recuperacion": "Según la plaga (S23–S30).",
+        "cuando_descartar": "Según la plaga (S23–S30).",
+        "plaga_o_enfermedad_ref": "según la plaga identificada (araña roja, cochinilla algodonosa, cochinilla de escudo, pulgón, trips)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G01", "G02", "G06", "G07", "G10", "G12", "G14", "G15", "G17", "G22", "G23", "G24", "G28", "G29", "G30", "G33", "G34", "G35", "G36"]
+  }
+]

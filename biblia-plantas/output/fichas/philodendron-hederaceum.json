@@ -1,0 +1,290 @@
+{
+  "nombre_cientifico": "Philodendron hederaceum",
+  "nombres_comunes": [
+    "filodendro de hoja de corazón",
+    "filodendro trepador",
+    "filodendro hiedra",
+    "filodendro micans (forma de hoja aterciopelada)",
+    "filodendro 'Brasil' (cultivar variegado)"
+  ],
+  "familia": "Araceae",
+  "origen": "Desde México hasta la América tropical (NC State, RHS, POWO). NC State la da como nativa de Belice, Bolivia, Brasil, Colombia, Costa Rica, Cuba, República Dominicana, Ecuador, El Salvador, Guatemala, Honduras, Jamaica, México, Nicaragua, Panamá, Perú, Puerto Rico y Venezuela, e introducida en Bangladés, Seychelles y Estados Unidos. RHS la describe como trepadora que crece sobre los troncos de los árboles en los bosques de Centroamérica y el Caribe.",
+  "clima_nativo": "Tropical cálido y húmedo, sin heladas: trepadora epífita o hemiepífita de bosque tropical que sube por los troncos de los árboles agarrándose con raíces aéreas, con luz tamizada por el dosel (RHS, NC State). En exterior solo sobrevive en zonas USDA 10B-11 (UF/IFAS) u 11a-12b (NC State), es decir, sin heladas. Al trepar, las hojas aumentan mucho de tamaño y llegan a 30 cm o más (UF/IFAS FPS472, RHS).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, acorazonadas (cordadas) con base en corazón, punta acuminada y alargada, y margen entero (NC State, UF/IFAS FPS472). En la forma juvenil de interior miden 7,5-15 cm de largo y 2,5-7,5 cm de ancho (NC State: 3-6 x 1-3 in; Clemson: 5-10 cm). Lámina fina, verde brillante en el haz y verde o rojo-púrpura en el envés (NC State); las hojas nuevas salen bronceadas y enseguida se vuelven verdes (NC State, Clemson). Al trepar por un soporte húmedo, las hojas crecen hasta 30 cm o más (UF/IFAS FPS472, RHS). Pecíolo delgado, más corto que la lámina, redondo y SIN surco (NC State, Clemson). Cada hoja nueva sale envuelta en un catáfilo (vaina o 'estípula' grande, libre y lanceolada) que la protege; luego se seca, se vuelve marrón papiráceo y cae de forma desordenada, por lo que en los nudos viejos quedan restos secos (NC State, Clemson). La forma 'micans' tiene la hoja aterciopelada, verde bronce o cobriza en el haz y cobre oscuro o pardo rojizo en el envés (Clemson, UF/IFAS ENH893).",
+    "nerviacion": "Pinnada (UF/IFAS FPS472): nervio central marcado y nervios laterales finos que se arquean hacia el margen y la punta. En 'Brasil' el nervio central y su entorno tienen una banda amarilla o verde lima (NC State).",
+    "variegacion": "La forma típica ('Cordatum', var. oxycardium) es verde liso, sin variegación (UF/IFAS ENH893, Clemson). Cultivares (NC State, Clemson): 'Brasil', banda central amarilla o verde claro con bordes verde oscuro y variegación inestable; 'Cream Splash', centro verde claro y crema; 'Gabby', hojas verde claro y crema que pueden volverse enteramente crema; 'Lemon Lime' y 'Aureum', amarillo intenso a verde lima uniforme; 'Rio', centro plateado y crema con bordes verde oscuro; 'Silver Stripe', crema y verde claro con borde verde oscuro y una franja plateada; 'Variegatum', vetas grises, verdes y crema. Forma 'micans' y cultivares de hoja aterciopelada ('Miduhoi', 'Silver Sheen' de hoja verde plateada) (Clemson).",
+    "tallo": "Delgado, liso, redondo, verde, no aromático (NC State), con nudos marcados de los que salen raíces aéreas adventicias con las que se agarra (NC State). Entrenudos de longitud variable: muy largos con poca luz (UF/IFAS ENH893). En los nudos quedan restos marrones secos de los catáfilos.",
+    "habito": "Trepadora o colgante perennifolia de crecimiento rápido (NC State). En interior se cultiva colgando de cestas y estanterías o guiada en tutor de musgo o corteza, donde hace hojas mayores (Clemson, UF/IFAS). También sirve de cubresuelos en jardineras grandes (Clemson). Rara vez florece en interior: espata verde pálida o púrpura de unos 5 cm con espádice blanco, solo en plantas maduras (RHS).",
+    "tamano_adulto_interior": "Tallos de 1,2-2 m o más (NC State: 4 ft o más; RHS: 1,5-2,5 m de altura y 0,5-1 m de anchura en la ficha de la especie). La altura depende del soporte y se limita guiando y podando (Clemson, UF/IFAS FPS472). En hábitat o invernadero llega a 3-6 m (RHS var. hederaceum) y NC State da hasta 4 m (13 ft).",
+    "confusiones": [
+      {
+        "especie": "Epipremnum aureum (poto, potus)",
+        "rasgo_diferenciador": "Es la confusión más frecuente (NC State, Clemson). 1) Hoja nueva: en el filodendro cada hoja nueva sale envuelta en una vaina (catáfilo) que luego se seca y cae, dejando restos marrones en los nudos; en el poto la hoja nueva no tiene vaina (Clemson, NC State). 2) Pecíolo: liso y redondo en el filodendro; acanalado (con surco) en el poto (NC State, Clemson). 3) Lámina: la del filodendro es más fina, con la punta más larga y estrecha, y las hojas nuevas salen bronceadas; la del poto es más gruesa, muy brillante, plegada a lo largo del nervio central y casi siempre con puntos o vetas amarillas o blancas (Clemson)."
+      },
+      {
+        "especie": "Scindapsus treubii",
+        "rasgo_diferenciador": "NC State la incluye entre las especies con las que se confunde. Hojas más gruesas, algo suculentas, más alargadas y asimétricas, a menudo de verde oscuro o plateado, y sin catáfilos en la hoja nueva [orientativo, sin fuente prioritaria que describa el rasgo]."
+      },
+      {
+        "especie": "Syngonium podophyllum (singonio) en fase juvenil",
+        "rasgo_diferenciador": "NC State lo incluye entre las especies con las que se confunde. La hoja juvenil del singonio es sagitada (en punta de flecha, con dos aurículas basales en ángulo) y con el tiempo se divide en 3-5 segmentos, y su tallo suelta látex lechoso; la del filodendro es acorazonada, con lóbulos basales redondeados, y entera [orientativo, sin fuente prioritaria que describa el rasgo]."
+      },
+      {
+        "especie": "Hedera helix (hiedra común)",
+        "rasgo_diferenciador": "Comparte el nombre común 'hiedra' y el porte colgante, pero la hiedra tiene hojas palmeadas con 3-5 lóbulos, de textura coriácea y nervios claros, tallos leñosos y raíces adherentes cortas; no tiene catáfilos [orientativo, sin fuente prioritaria que la cite como confusión]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (ASPCA, NC State, Clemson), presentes en todas las partes de la planta: hojas, tallos, raíces, savia, flores y frutos (NC State, Clemson).",
+    "sintomas": "Perros y gatos (ASPCA): irritación oral, dolor e hinchazón de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. UF/IFAS añade espuma en la boca e hinchazón de las vías respiratorias altas. Personas (NC State, Clemson): ardor e irritación de boca, labios y lengua, babeo, vómitos y dificultad para tragar; la savia produce dermatitis de contacto con picor (NC State, UF/IFAS). NC State la clasifica como de gravedad baja; RHS: nociva si se ingiere e irritante para piel y ojos, recomienda guantes al manipularla. Mantener fuera del alcance de mascotas y niños pequeños (Clemson, UF/IFAS) y usar guantes para podar o sacar esquejes.",
+    "confianza": "Alta",
+    "fuentes": ["F8", "F9", "F1", "F2", "F5", "F6"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 807,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana norte, este u oeste, o a 1,5-2 m de una ventana sur con cortina (Clemson: crece bien con luz artificial o junto a ventana norte, este u oeste; RHS: orientación norte, este u oeste). Aguanta rincones con poca luz mejor que casi cualquier otra planta de interior, pero allí crece despacio y con hojas pequeñas.",
+      "tolera_sol_directo": "No. El sol directo decolora el follaje (UF/IFAS FPS472) y quema las hojas (UF/IFAS Gardening Solutions): parches quemados en el centro y la punta de la hoja (UF/IFAS ENH893). Como mucho, un rato de sol suave de primera hora de la mañana.",
+      "notas": "UF/IFAS (ENH893): la mayoría de los filodendros toleran tan solo 75 fc (≈807 lux), pero con 150 fc o más (≈1600 lux) mantienen el color y el tamaño de hoja. NC State: prefiere luz media y tolera la baja. Clemson: luz indirecta o filtrada por cortina; tolera luz muy baja. UF/IFAS Gardening Solutions: lo mejor es luz brillante indirecta. RHS: luz brillante pero difusa. Discrepancia menor entre luz media (NC State) y brillante indirecta (UF/IFAS, RHS): se clasifica como 'media' por su gran tolerancia, con el óptimo entre 1600 y 10760 lux (150-1000 fc, techo de la luz brillante indirecta en la escala del proyecto). Los cultivares variegados o dorados ('Brasil', 'Lemon Lime') necesitan la parte alta del rango para conservar el color [orientativo, sin fuente prioritaria]; Clemson indica que 'Variegatum' muestra más variegación en sitio fresco y sombreado.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F1", "F2", "F5", "F4", "F6"]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (UF/IFAS Gardening Solutions: la primera pulgada; RHS: la superficie justo seca) y la maceta pese claramente menos que recién regada; 5 cm en macetas grandes. Entonces regar a fondo hasta que salga agua por los agujeros de drenaje (RHS) y vaciar el plato a los 15-30 minutos: nunca debe quedar en agua (Clemson, RHS). No regar por calendario.",
+      "primavera_verano": "Con crecimiento activo el sustrato se seca antes: comprobar dedo y peso cada pocos días. Mantener el sustrato ligeramente húmedo, nunca encharcado (NC State, Clemson).",
+      "otono_invierno": "Crece mucho más despacio: regar con menos frecuencia (NC State, RHS), dejando secar algo más de la capa superior antes de volver a regar. Con calefacción fuerte puede secarse antes de lo previsto: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo. En Madrid (Canal de Isabel II) el agua es blanda y la cloramina no se elimina dejándola reposar, pero no es la causa de las puntas marrones. El riesgo real es la acumulación de sales de abono: UF/IFAS indica que tolera mal la salinidad del suelo (FPS472), que no se abone si la conductividad del sustrato es ≥2,0 dS/m y que se lave el sustrato con abundante agua si supera 3,0 dS/m (ENH893). En la práctica, cada 2-3 meses regar con 2-3 veces el volumen de la maceta para arrastrar sales [orientativo, sin fuente prioritaria].",
+      "notas": "El exceso de riego y el sustrato que no drena son la causa de la pudrición radicular (Clemson, NC State, RHS). UF/IFAS (FPS472) le da tolerancia moderada a la sequía: aguanta algún olvido, pero la sequía combinada con mucha luz necrosa los márgenes (UF/IFAS ENH893). Matiz entre fuentes: Clemson y NC State hablan de mantener el sustrato 'uniformemente húmedo' o 'ligeramente húmedo'; UF/IFAS Gardening Solutions y RHS, de dejar secar la superficie. Se adopta la opción más segura frente a la pudrición: dejar secar los 2-3 cm superiores.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F5", "F6", "F3", "F4"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes para interior. Cualitativamente coinciden: prefiere humedad alta o media pero tolera la humedad habitual de una vivienda y el aire seco (Clemson, NC State, UF/IFAS Gardening Solutions). UF/IFAS (ENH893) da 60-100 % solo para producción en vivero. Para subirla, usar humidificador o agrupar plantas; NC State dice que agradece la pulverización, pero según el criterio del proyecto pulverizar las hojas no sube la humedad de forma útil y no se recomienda. El aire muy seco favorece la araña roja (RHS la cita como plaga).",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F1", "F5", "F3"]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "Clemson: 21-29 °C de día y 18-24 °C de noche para el filodendro de hoja de corazón (en el texto general del género, 18-21 °C de noche y 24-29 °C de día). UF/IFAS (ENH893): en interior se recomiendan 21-27 °C; en producción la calidad y el crecimiento caen cuando el día supera con frecuencia 35 °C o la noche baja de 18 °C; varias horas a 0,5-4,5 °C (33-40 °F) amarillean las hojas inferiores. UF/IFAS Gardening Solutions: por debajo de 10 °C hace demasiado frío. RHS: mantener un mínimo invernal de 15 °C (calificación H1A en la ficha de la especie, H1B en la de var. hederaceum). Se adopta el mínimo más alto y conservador, 15 °C (RHS); el umbral de 18 °C de UF/IFAS se refiere a la velocidad de crecimiento en vivero, no a la supervivencia. Sin heladas en ningún caso. Apartar de radiadores, chorros de aire acondicionado y cristales fríos.",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F5", "F6", "F7"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato ligero, aireado y con buen drenaje que retenga algo de humedad (UF/IFAS Gardening Solutions, RHS). RHS propone una mezcla abierta y ácida sin turba con piedra volcánica o pumita, corteza fina de abeto, mantillo de hojas o musgo esfagno troceado; UF/IFAS (ENH893) usa turba de esfagno, corteza de pino, vermiculita o perlita. En casa, por ejemplo, sustrato universal para plantas de interior con un 20-30 % de perlita o corteza fina [orientativo, sin fuente prioritaria para la proporción]. Maceta siempre con agujeros de drenaje.",
+      "ph": "6,0-6,5 (UF/IFAS ENH893, sustrato de producción). RHS: ácido o neutro en la ficha de la especie; ácido, neutro o alcalino en la de var. hederaceum. UF/IFAS (FPS472) le da tolerancia a suelos de ligeramente alcalinos a ácidos.",
+      "drenaje": "Imprescindible: el sustrato que no drena rápido, junto con el riego excesivo, causa la pudrición radicular (Clemson). Nada de macetas sin agujero ni plato con agua.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F6", "F5", "F2"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido o soluble para plantas de interior, diluido, o abono de liberación lenta a dosis baja (Clemson, RHS).",
+      "npk": "Proporción 3-1-2 o 3-1-3 (UF/IFAS ENH893, producción comercial).",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (RHS: mensual de abril a septiembre). Regar antes si el sustrato está seco.",
+      "otono_invierno": "Nada: suspender el abono hasta la primavera (RHS).",
+      "notas": "Discrepancia de frecuencia: RHS indica abonar cada mes de abril a septiembre, Clemson 'regularmente' con abono diluido y UF/IFAS Gardening Solutions cada 3-4 meses. La dosis rebajada mensual del proyecto reconcilia ambas posturas y es la opción conservadora frente a la acumulación de sales. El exceso de abono causa puntas marrones y enrolladas (Clemson, UF/IFAS Gardening Solutions). No abonar ni trasplantar durante unas 4 semanas tras llevarla a casa (UF/IFAS ENH893). Hojas viejas con clorosis en V desde el pecíolo hacia el margen y nervio central verde indican falta de magnesio; clorosis general con hojas pequeñas, falta de nitrógeno (UF/IFAS ENH893).",
+      "confianza": "Alta",
+      "fuentes": ["F6", "F2", "F5", "F3"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS), o cuando la planta esté apiñada (Clemson). Pasar a una maceta solo 2-5 cm más ancha [orientativo, sin fuente prioritaria].",
+      "epoca": "Mejor en primavera o inicio del verano, con crecimiento activo. Clemson indica que puede trasplantarse en cualquier estación si está apiñada; nunca en las primeras 4 semanas tras comprarla (UF/IFAS ENH893).",
+      "senales": "Planta apiñada (Clemson), raíces saliendo por los agujeros de drenaje o formando un ovillo, y sustrato que se seca en muy pocos días tras regar.",
+      "confianza": "Media",
+      "fuentes": ["F6", "F2", "F3"]
+    },
+    "poda": {
+      "necesita": "No es obligatoria (RHS: no requiere poda), pero conviene para controlar la longitud y mantener el porte denso: los tipos trepadores se limitan guiándolos y podándolos (Clemson).",
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria]; RHS recomienda sacar esquejes en verano, así que los cortes de poda pueden aprovecharse como esquejes.",
+      "como": "Con tijeras limpias y guantes (savia irritante, RHS), cortar los tallos largos o pelados justo por encima de un nudo para que broten ramas laterales. Quitar hojas amarillas o secas y los restos de catáfilos secos si se desea. Los trozos cortados sirven como esquejes [orientativo, sin fuente prioritaria para el detalle del corte].",
+      "confianza": "Media",
+      "fuentes": ["F6", "F2"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de octubre a marzo en el hemisferio norte; RHS limita el abono de abril a septiembre). En el hemisferio sur, los meses equivalentes (abril a septiembre).",
+      "cambios": "No es un reposo estricto: no pierde las hojas, solo crece mucho más despacio (RHS). Regar con menos frecuencia (NC State, RHS), suspender el abono hasta la primavera (RHS) y mantenerla por encima de 15 °C, lejos de cristales fríos y radiadores.",
+      "confianza": "Alta",
+      "fuentes": ["F6", "F1", "F7"]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo o de punta",
+        "esqueje de yema y hoja (un nudo con su hoja)",
+        "acodo",
+        "acodo aéreo"
+      ],
+      "epoca": "Primavera y verano: RHS indica esquejes en verano y acodo o acodo aéreo en primavera. Clemson dice que se puede en cualquier estación; con calor y crecimiento activo enraíza antes.",
+      "pasos": "1) Cortar un trozo de tallo con al menos un nudo y su hoja: UF/IFAS usa trozos de 2,5-4 cm con un nudo y una hoja. 2) Quitar la hoja que quedaría enterrada. 3) Plantarlo en sustrato limpio y ligero, ligeramente húmedo (UF/IFAS Gardening Solutions), con luz indirecta y 21-27 °C. También enraíza en agua [orientativo, sin fuente prioritaria]. 4) Las yemas brotan en 3-5 semanas y las raíces aparecen en 4-6 semanas (UF/IFAS ENH893). 5) Para hojas grandes se usan esquejes de punta de plantas guiadas en tutor (UF/IFAS ENH893). Acodo: fijar un nudo sobre sustrato sin cortar el tallo hasta que enraíce (RHS, Clemson).",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F6", "F2", "F1", "F5"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato que no drena o riego demasiado frecuente (Clemson, NC State); RHS advierte que dejarla en agua pudre las raíces."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores por poca luz o exceso de riego (Clemson); también tras varias horas a 0,5-4,5 °C (UF/IFAS ENH893), p. ej. junto a un cristal frío. Si el amarilleo es en V desde el pecíolo hacia el margen con el nervio central verde, falta de magnesio (UF/IFAS ENH893)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general por exceso de agua o falta de luz (UF/IFAS Gardening Solutions); con hojas pequeñas, falta de nitrógeno (UF/IFAS ENH893)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones y enrolladas por exceso de abono (Clemson, UF/IFAS Gardening Solutions); quemadura en la punta de las hojas viejas por exceso de sodio (UF/IFAS ENH893). En Madrid no atribuirlo al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Márgenes necrosados a trozos por sequía combinada con mucha luz; márgenes de hojas viejas pardos que avanzan hacia el nervio por falta de potasio; bordes bronceados por exceso de luz o calor (UF/IFAS ENH893)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Parches quemados en el centro y la punta de la hoja y follaje decolorado por sol directo (UF/IFAS ENH893, FPS472 y Gardening Solutions)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Pecíolos y entrenudos excesivamente largos y planta abierta por luz insuficiente (UF/IFAS ENH893); muerte de las puntas de crecimiento por poca luz o exceso de riego (Clemson)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas pequeñas por luz por debajo de 150 fc (≈1600 lux) o falta de nitrógeno; hojas nuevas purpúreas, retorcidas o rasgadas por toxicidad de manganeso (UF/IFAS ENH893)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "En 'Brasil' la variegación es inestable y puede revertir a verde (NC State); la pérdida de color se agrava con poca luz o abonado escaso (UF/IFAS ENH893: color desvaído por luz excesiva o abono insuficiente)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato completamente seco (se recupera al regar) o, si el sustrato está húmedo, por raíces podridas (ver S36). Clemson cita el exceso o la falta de agua como el problema principal."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, Clemson, RHS, UF/IFAS Gardening Solutions)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo en tallos y nervios (NC State, Clemson, RHS, UF/IFAS FPS472)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de la calefacción o del verano (NC State, Clemson, RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, Clemson, UF/IFAS Gardening Solutions)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado o amarillento por trips de invernadero (NC State cita el trips bandeado de invernadero) o por araña roja."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle, aire muy seco (≈38 % HR exterior en julio) y sol fuerte en ventanas sur y oeste, apartarla al menos 1,5-2 m de esas ventanas o protegerla con cortina o estor: el sol tras el cristal quema y decolora las hojas (UF/IFAS). Por encima de 35 °C el crecimiento y la calidad caen (UF/IFAS ENH893): llevarla a la habitación más fresca, sin ponerla en el chorro del aire acondicionado. El sustrato se seca mucho antes: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. La sequía con mucha luz necrosa los márgenes (UF/IFAS). Si se saca a una terraza, solo a sombra total y metiéndola antes de que las noches bajen de 15 °C (normalmente a finales de septiembre o en octubre).",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %: la tolera (NC State, Clemson), pero favorece la araña roja; usar humidificador o agrupar plantas (pulverizar no sirve) y revisar el envés. No ponerla sobre ni junto a radiadores. Mantenerla por encima de 15 °C (RHS) y lejos de cristales fríos y corrientes: varias horas por debajo de 5 °C amarillean las hojas inferiores (UF/IFAS ENH893). Con menos luz, acercarla a la ventana más luminosa (el sol bajo de invierno en ventana sur, a 1 m, se tolera), regar con menos frecuencia y no abonar.",
+    "ubicacion_recomendada": "Estantería, repisa o cesta colgante junto a una ventana norte, este u oeste, o a 1,5-2 m de una ventana sur con cortina (Clemson, RHS). Es de las plantas que mejor aguantan pasillos y despachos con luz artificial (Clemson), aunque allí crece despacio y con hojas pequeñas; los cultivares dorados o variegados necesitan los puntos más luminosos. Fuera del alcance de perros, gatos y niños pequeños, con los tallos colgantes lejos de donde puedan mordisquearlos."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado en POWO Philodendron hederaceum (Jacq.) Schott. POWO reconoce var. hederaceum (con P. scandens K.Koch & Sello como sinónimo), var. oxycardium (Schott) Croat (con P. oxycardium Schott como sinónimo) y var. kirkbridei Croat. RHS da como sinónimos P. scandens, P. micans y P. scandens subsp. scandens f. micans. Las fuentes de extensión usan nombres antiguos: UF/IFAS FPS472 'P. scandens', UF/IFAS ENH893 'P. scandens oxycardium' y 'P. scandens micans' (forma juvenil, según ENH893), Clemson 'P. scandens f. oxycardium' y 'f. micans', UF/IFAS Gardening Solutions 'P. hederaceum var. oxycardium'. ASPCA tiene dos fichas: 'Heartleaf Philodendron' (P. hederaceum) y 'Cordatum' (P. oxycardium). La ficha del taxón en POWO bloquea el acceso automatizado; los nombres se han verificado en la página de resultados de búsqueda de POWO.",
+    "No se ha encontrado en fuentes prioritarias el clima detallado del hábitat nativo (lluvia, temperaturas, altitud); el campo se limita a lo que dicen RHS, NC State y UF/IFAS.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa para interior (solo 60-100 % para producción en vivero, UF/IFAS ENH893); min_pct e ideal_pct quedan en null.",
+    "Sin fuente prioritaria para la proporción de perlita o corteza en el sustrato casero, el aumento de tamaño de maceta en el trasplante, el detalle de la técnica de poda ni el enraizamiento en agua; se marcan como orientativos.",
+    "NC State y UF/IFAS citan manchas foliares ('leaf spots') sin precisar el patógeno ni el aspecto; no se han asignado a S13 ni a S14.",
+    "Las confusiones con Scindapsus treubii y Syngonium podophyllum las cita NC State, pero sin el rasgo diferenciador; el rasgo se describe por morfología y se marca como orientativo. La confusión con Hedera helix no la recoge ninguna fuente prioritaria.",
+    "NC State incluye también Monstera epipremnoides y Philodendron bipinnatifidum entre las especies con las que se confunde; no se incluyen porque su morfología (hojas grandes perforadas o pinnatífidas) no se parece a la de la forma juvenil de interior.",
+    "No se ha consultado Pet Poison Helpline ni el Real Jardín Botánico; la toxicidad queda respaldada por ASPCA (dos fichas), NC State, Clemson, RHS y UF/IFAS."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center, HGIC 1509 Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP150",
+      "institucion": "UF/IFAS Extension – EDIS ENH893: Cultural Guidelines for Commercial Production of Interiorscape Philodendron (McConnell, Chen, Henny y Everitt; revisado 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/FP472",
+      "institucion": "UF/IFAS Extension – EDIS FPS472: Philodendron scandens, Heart Leaf Philodendron (Gilman, Klein y Hansen; revisado 2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/heartleaf-philodendron/",
+      "institucion": "UF/IFAS Gardening Solutions – Heartleaf Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/514461/philodendron-hederaceum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Philodendron hederaceum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/254662/philodendron-hederaceum-var-hederaceum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Philodendron hederaceum var. hederaceum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants: Heartleaf Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cordatum",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants: Cordatum (Philodendron oxycardium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/results?q=Philodendron%20hederaceum",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), resultados de búsqueda de P. hederaceum, P. scandens y P. oxycardium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

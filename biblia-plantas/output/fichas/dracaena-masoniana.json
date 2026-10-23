@@ -1,0 +1,161 @@
+{
+  "nombre_cientifico": "Dracaena masoniana",
+  "nombres_comunes": ["sansevieria masoniana", "aleta de ballena", "aleta de tiburón", "sansevieria 'Mason's Congo'"],
+  "familia": "Asparagaceae",
+  "origen": "República Democrática del Congo (África central tropical), según POWO (Kew), NC State y RHS. Nombre aceptado: Dracaena masoniana (Chahin.) Byng & Christenh. (Global Fl. 4: 66, 2018); basiónimo y sinónimo homotípico: Sansevieria masoniana Chahin. En cultivo se conoció antes como Sansevieria 'Mason Congo'; el epíteto honra a Maurice Mason, cultivador británico de suculentas (NC State).",
+  "clima_nativo": "Tropical estacionalmente seco (POWO); geófito rizomatoso de suelos secos y pedregosos (Gardens by the Bay). Adaptado a sequías prolongadas y a sustratos que drenan muy rápido.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hoja muy ancha en forma de pala o de aleta de ballena: semisuculenta, gruesa, rígida y cerosa, de hasta 90-120 cm de largo y 20-25 cm de ancho en adulto (NC State). Verde oscuro con moteado o bandas transversales difusas de verde claro (NC State, Gardens by the Bay); RHS la describe como verde azulada con un borde rojizo fino. Por debajo del sustrato, la base de la hoja tiene una vaina con bandas púrpuras (NC State). En comercio se vende a menudo con una sola hoja grande por maceta (Wikipedia, complementaria); cada roseta suele tener muy pocas hojas, anchas y abiertas.",
+    "nerviacion": "Paralelinervia de monocotiledónea, no visible en relieve; la superficie es lisa y cerosa. Lo característico es el dibujo de manchas o escamas verde claro sobre fondo verde oscuro, no la nerviación.",
+    "variegacion": "La forma típica no es variegada (moteado verde claro sobre verde oscuro). Existen formas variegadas con franjas longitudinales crema o amarillas ('Variegata'), raras y caras, solo en viveros especializados (Gardens by the Bay). 'Victoria' es un cultivar de mayor tamaño (RHS). Las formas variegadas no se mantienen por esqueje de hoja: revierten a verde (RHS, regla general de Sansevieria).",
+    "tallo": "Sin tallo aéreo: crece desde un rizoma subterráneo grueso que emite nuevas rosetas (hijuelos) lentamente (NC State: perenne herbácea rizomatosa; RHS: se extiende por rizomas).",
+    "habito": "Erecto, en roseta de pocas hojas muy anchas; crecimiento lento. Flores raras en interior: racimos de flores tubulares blanco-verdosas, fragantes, que salen del centro de la roseta en verano (NC State, RHS).",
+    "tamano_adulto_interior": "NC State: 90-150 cm de alto y 30-60 cm de ancho. En maceta de interior, normalmente menos por su crecimiento lento; una planta comercial típica tiene 1-3 hojas de 30-60 cm [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {"especie": "Dracaena trifasciata (Sansevieria trifasciata, lengua de suegra)", "rasgo_diferenciador": "Hojas en espada, estrechas (5-7 cm) y numerosas por roseta, con bandas en zigzag; D. masoniana tiene pocas hojas muy anchas (20-25 cm) en forma de pala, con moteado difuso."},
+      {"especie": "Dracaena trifasciata 'Moonshine'", "rasgo_diferenciador": "Hojas anchas pero de color gris plateado casi uniforme y más numerosas y estrechas; masoniana es verde oscuro moteado de verde claro y con hojas más anchas y gruesas."},
+      {"especie": "Dracaena angolensis (Sansevieria cylindrica)", "rasgo_diferenciador": "Hojas cilíndricas de sección redonda en abanico; masoniana tiene hojas planas y anchísimas."},
+      {"especie": "Aspidistra elatior", "rasgo_diferenciador": "Hojas finas, flexibles, no suculentas y con peciolo largo y nervios marcados; masoniana tiene hojas gruesas, rígidas, cerosas y sin peciolo."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas (NC State; ASPCA para la especie afín Sansevieria trifasciata).",
+    "sintomas": "Gravedad baja (NC State). Toda la planta es tóxica (hojas, raíces, savia, flores y frutos). Perros: vómitos, decaimiento, salivación, diarrea y, raramente, convulsiones; gatos: vómitos, dificultad respiratoria, tos o desorientación (NC State). ASPCA, para Sansevieria trifasciata: náuseas, vómitos y diarrea. Personas: náuseas, vómitos y diarrea si se ingiere; la savia puede irritar la piel (NC State, RHS): usar guantes al cortar o dividir.",
+    "confianza": "Media",
+    "fuentes": ["F1", "F5", "F2"],
+    "notas": "Solo NC State trata la especie concreta; ASPCA no tiene ficha de D. masoniana (se usa la de S. trifasciata, especie afín) y RHS habla de Sansevieria en general. Por eso se baja a Media aunque las tres coinciden."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste, o a 1-2 m de una ventana sur con visillo en verano; en invierno puede acercarse a la ventana sur. En ventana norte sobrevive pero apenas crece.",
+      "tolera_sol_directo": "Parcialmente: NC State indica sombra parcial (2-6 h de sol directo) y avisa de que el sol directo puede quemar las hojas; RHS (Sansevieria en general) aconseja evitar el sol del mediodía en verano. Solo sol suave de mañana o de última hora, con aclimatación progresiva.",
+      "notas": "NC State (especie): prefiere luz brillante indirecta y tolera poca luz. RHS (guía general de Sansevieria, no de esta especie): sitio luminoso y ligeramente sombreado; tolera menos luz, pero en sombra las hojas crecen más largas y en sol más compactas. lux_min = 100 fc (inicio de luz media de la escala del proyecto) y lux_max = 1000 fc (fin de brillante indirecta); ninguna fuente da cifras: son traducción de categorías cualitativas. Girar la maceta un cuarto de vuelta en cada riego (RHS). Confianza Media porque solo una fuente prioritaria trata la especie.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2"]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté completamente seco: comprobar con el dedo a 5 cm (más abajo en macetas grandes) y por el peso de la maceta, que debe notarse claramente ligera. Regar a fondo por arriba, sin mojar el centro de la roseta ni la base de la hoja, y vaciar el plato a los 15-20 minutos. Nunca regar por calendario. Ante la duda, no regar.",
+      "primavera_verano": "Con crecimiento activo, dejar secar del todo entre riegos (NC State, RHS). Como orientación, cada 2-4 semanas según luz y calor [orientativo, sin fuente prioritaria], confirmando siempre con dedo y peso.",
+      "otono_invierno": "Muy poco riego (RHS: necesita muy poca agua en invierno salvo en un sitio especialmente cálido). Orientativamente una vez al mes o menos [orientativo, sin fuente prioritaria], solo con el sustrato totalmente seco. Frío + sustrato húmedo = pudrición.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Ninguna fuente pide agua especial. En Madrid (Canal de Isabel II) el agua es blanda, con cloramina y flúor <0,1 mg/L: puede usarse directamente del grifo a temperatura ambiente; dejarla reposar no elimina la cloramina y no hace falta.",
+      "notas": "Especie muy sensible al exceso de riego: NC State atribuye la pudrición de raíz y la mancha negra al riego excesivo, y RHS señala el exceso de riego y el sustrato encharcado como el problema principal de las sansevierias. Con pocas hojas y un rizoma pequeño, la planta consume poca agua y el sustrato tarda en secar: es más fácil pasarse que con D. trifasciata. Confianza Media: NC State es la única fuente prioritaria específica; RHS es general del género.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Contradicción entre fuentes prioritarias: NC State (especie) indica humedad de al menos 50 %; RHS (Sansevieria en general) dice que prefieren humedad baja, que no se pulvericen y que se eviten los baños con vapor. Se adopta la opción más conservadora para esta especie tan propensa a pudrirse: no exigir humedad alta, no pulverizar (no sube la humedad de forma útil y el agua en la roseta favorece pudriciones), buena ventilación sin corrientes frías. El hábitat natural es estacionalmente seco y pedregoso (POWO, Gardens by the Bay). Tolera el aire seco de una casa con calefacción; si se quiere subir algo la humedad, agrupar plantas, nunca pulverizar. min_pct e ideal_pct quedan en null por la contradicción.",
+      "confianza": "Baja",
+      "fuentes": ["F1", "F2", "F4"]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "NC State (especie): prospera entre 65 y 85 °F (18-29 °C) y debe evitarse por debajo de 55 °F (≈13 °C) y las corrientes frías; zonas USDA 9a-11b. RHS (Sansevieria en general): ideal 15-24 °C, lejos de corrientes frías y radiadores. Se adopta min_c = 13 °C (el mínimo más alto citado) y como ideal el tramo común a ambas fuentes, 18-24 °C. No hay máximo verificado (max_c = null); aguanta bien el calor de interior si no recibe sol directo fuerte. Nunca heladas.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2"]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy drenante: NC State propone perlita, arena gruesa y materia orgánica; RHS (género) sustrato de cactus sin turba, o 2 partes de sustrato a base de tierra/franco sin turba por 1 de grava hortícola o gravilla fina. Maceta con agujeros, solo un poco mayor que el cepellón (una maceta grande retiene demasiada agua) y pesada (barro), porque la hoja ancha hace volcar la planta.",
+      "ph": "Ácido a neutro (NC State: por debajo de 6,0 hasta 8,0).",
+      "drenaje": "Muy rápido; imprescindible. Sin platos con agua ni macetas sin agujeros.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior o para cactus y suculentas (RHS, género).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes de abril a septiembre (hemisferio norte), a ¼-½ de la dosis de etiqueta y solo si está creciendo.",
+      "otono_invierno": "No abonar.",
+      "notas": "La pauta mensual de abril a septiembre procede de la guía general de RHS para Sansevieria; NC State no da pauta de abonado para la especie. Crecimiento lento: necesita poco abono y el exceso acumula sales.",
+      "confianza": "Media",
+      "fuentes": ["F2"]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces llenan la maceta o salen por los agujeros (NC State; RHS: cuando raíces y hojas llenan el contenedor o lo deforman). Por su crecimiento lento, orientativamente cada 2-4 años [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte).",
+      "senales": "Raíces saliendo por los agujeros de drenaje, maceta deformada o rota, hijuelos ocupando toda la superficie o planta que vuelca. Pasar solo a una maceta un poco mayor.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2"]
+    },
+    "poda": {
+      "necesita": "No necesita poda. Solo retirar hojas dañadas o podridas y la vara floral seca.",
+      "epoca": "En cualquier momento para hojas dañadas; la vara floral, al terminar la floración.",
+      "como": "Cortar la hoja dañada desde la base con un cuchillo limpio y afilado, con guantes (la savia irrita la piel). No recortar la punta ni el borde de una hoja sana: no se regenera y, con tan pocas hojas, cada una cuenta. Si la hoja se inclina o se ablanda en la base, revisar el rizoma por pudrición antes de cortar.",
+      "confianza": "Baja",
+      "fuentes": ["F2"],
+      "notas": "Ninguna fuente prioritaria trata la poda de esta especie; se aplica la regla general del género y el aviso de RHS sobre la savia."
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. octubre-febrero en el hemisferio norte).",
+      "cambios": "El crecimiento casi se detiene: riego mínimo, solo con el sustrato totalmente seco; sin abono; sin trasplantes. RHS: muy poca agua en invierno salvo en un sitio muy cálido; abonado solo de abril a septiembre.",
+      "confianza": "Media",
+      "fuentes": ["F2"],
+      "notas": "Datos de la guía general de RHS para Sansevieria; NC State no describe reposo para la especie."
+    },
+    "propagacion": {
+      "metodos": ["división de mata o separación de hijuelos con rizoma", "esqueje de hoja (secciones de hoja)"],
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte), con temperatura cálida.",
+      "pasos": "División (recomendada): sacar la planta, separar hijuelos o rosetas con raíces y trozo de rizoma propios con un cuchillo limpio, dejar secar el corte unas horas y plantar en sustrato de cactus; regar poco hasta que arraigue y entutorar si se inclina (RHS). Esqueje de hoja: cortar una hoja madura en secciones de unos 5 cm marcando cuál es el extremo inferior, dejarlas secar 1-2 días e insertar la mitad inferior (con la orientación original) en sustrato de esquejes sin turba apenas húmedo, con calor de fondo de unos 18 °C o dentro de una bolsa transparente (RHS). Es lento, y en esta especie cortar una hoja supone sacrificar gran parte de la planta; las formas variegadas revierten a verde por esqueje de hoja. Gardens by the Bay cita también enraizar el esqueje cicatrizado en agua o grava húmeda (1-2 semanas para ver raíces).",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F6"],
+      "notas": "NC State confirma los dos métodos para la especie; los pasos detallados son de la guía general de RHS para Sansevieria."
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o sustrato encharcado (NC State, RHS), sobre todo en invierno con frío. Es la causa principal de muerte en esta especie."},
+    {"sintoma_id": "S15", "causa_habitual_en_esta_especie": "Base de la hoja y rizoma blandos y oscuros por pudrición tras riego excesivo, agua en la roseta o en el plato, o frío con sustrato húmedo."},
+    {"sintoma_id": "S10", "causa_habitual_en_esta_especie": "Hoja blanda, que se dobla o se pliega desde la base, como consecuencia de pudrición de raíz o rizoma por exceso de riego; revisar raíces."},
+    {"sintoma_id": "S13", "causa_habitual_en_esta_especie": "Manchas negras ('black spot', NC State) asociadas al exceso de riego; NC State no detalla el agente."},
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Quemadura por sol directo (NC State), sobre todo tras cristal en ventanas sur u oeste en verano o al sacarla sin aclimatar."},
+    {"sintoma_id": "S16", "causa_habitual_en_esta_especie": "Con poca luz las hojas nuevas salen más largas, finas y débiles (RHS, género); acercarla a la luz."},
+    {"sintoma_id": "S08", "causa_habitual_en_esta_especie": "Hojas que se caen o colapsan por larvas de otiorrinco comiendo raíces (RHS, género) o por pudrición de la base."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Araña roja (NC State), sobre todo con calor y aire seco (RHS)."},
+    {"sintoma_id": "S29", "causa_habitual_en_esta_especie": "Cochinilla algodonosa de cola larga escondida en la base de las hojas (NC State, RHS)."},
+    {"sintoma_id": "S30", "causa_habitual_en_esta_especie": "Cochinilla con escudo (fern scale) adherida a las hojas (NC State)."},
+    {"sintoma_id": "S23", "causa_habitual_en_esta_especie": "Punteado plateado por trips (banded greenhouse thrips, NC State) o araña roja."},
+    {"sintoma_id": "S27", "causa_habitual_en_esta_especie": "Pulgón (NC State), poco frecuente; sobre todo en brotes o varas florales tiernas."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Aguanta el calor de 35-40 °C en interior, pero el sol del mediodía y de la tarde tras ventanas sur u oeste quema las hojas (NC State): alejarla 1-2 m del cristal o usar visillo. El sustrato seca antes: comprobar con dedo a 5 cm y peso y regar a fondo solo cuando esté seco; no regar en exceso aunque haga calor. Vigilar araña roja y trips con aire muy seco. Si sale a terraza, solo con sombra luminosa, aclimatación progresiva y maceta que no se encharque con tormentas.",
+    "invierno": "Mantenerla por encima de 13 °C: no dejarla de noche pegada al cristal frío ni en corrientes de puertas. Riego mínimo (solo con el sustrato totalmente seco) y sin abono: frío + humedad la pudre. La humedad interior <30 % por la calefacción no le perjudica: no pulverizar ni poner humidificador por ella. No pegarla al radiador. Darle el sitio más luminoso de la casa; en invierno una ventana sur es adecuada.",
+    "ubicacion_recomendada": "Salón o despacho junto a una ventana este u oeste, o a 1-2 m de una ventana sur con visillo en verano; lejos de radiadores y corrientes frías, en maceta pesada y estable con drenaje, y fuera del alcance de perros, gatos y niños (tóxica)."
+  },
+  "lagunas": [
+    "Cambio de nombre: el nombre aceptado en POWO (Kew) es Dracaena masoniana (Chahin.) Byng & Christenh. (2018); Sansevieria masoniana Chahin. es sinónimo homotípico (basiónimo). RHS sigue usando Sansevieria masoniana y el comercio también.",
+    "Solo hay una fuente prioritaria específica de la especie con datos de cultivo (NC State). La ficha de especie de RHS solo da origen, hábito y descripción del género; la guía de cultivo de RHS es general de Sansevieria. Por eso casi todos los bloques quedan en confianza Media.",
+    "Toxicidad: ASPCA no tiene ficha de D. masoniana; se usa la de Sansevieria trifasciata (especie afín). La fuente específica es NC State.",
+    "Humedad: contradicción NC State (≥50 %) frente a RHS (prefiere humedad baja, género); min_pct e ideal_pct en null.",
+    "Temperatura: sin máximo verificado (max_c = null).",
+    "Luz: ninguna fuente da cifras en fc o lux; lux_min/lux_max son traducción de categorías cualitativas.",
+    "Fertilización, reposo y pasos de propagación: solo datos de la guía general de RHS para Sansevieria; sin NPK específico.",
+    "Número típico de hojas por roseta y tamaño en maceta de interior: sin fuente prioritaria.",
+    "No se encontró ficha de Missouri Botanical Garden, UF/IFAS ni Clemson para esta especie; World of Succulents y Ohio Tropics no se pudieron abrir (403) y no se usan. La página de Gardens by the Bay tiene la tabla de cuidados copiada de Monstera adansonii, por lo que solo se usa su texto descriptivo."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/dracaena-masoniana/", "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://www.rhs.org.uk/plants/sansevieria/how-to-grow-sansevieria", "institucion": "Royal Horticultural Society (RHS) – guía general de cultivo de Sansevieria (menciona S. masoniana)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://www.rhs.org.uk/plants/269752/sansevieria-masoniana/details", "institucion": "Royal Horticultural Society (RHS) – ficha de Sansevieria masoniana", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://powo.science.kew.org/api/2/taxon/urn:lsid:ipni.org:names:77183391-1?fields=distribution", "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue", "institucion": "ASPCA Animal Poison Control Center (ficha de Sansevieria trifasciata, especie afín)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://www.gardensbythebay.com.sg/en/learn-with-us/explore-resources/articles/whalefin-dracaena.html", "institucion": "Gardens by the Bay (Singapur) – artículo divulgativo", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://en.wikipedia.org/wiki/Dracaena_masoniana", "institucion": "Wikipedia", "tipo": "complementaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

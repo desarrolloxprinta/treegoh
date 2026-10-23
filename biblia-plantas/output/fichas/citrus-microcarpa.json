@@ -1,0 +1,356 @@
+{
+  "nombre_cientifico": "Citrus microcarpa",
+  "nombres_comunes": [
+    "calamondín",
+    "naranjo enano calamondín",
+    "naranjo calamondín",
+    "calamansi"
+  ],
+  "familia": "Rutaceae",
+  "origen": "Cultígeno de origen híbrido, sin área nativa silvestre clara. POWO (Kew) acepta el nombre Citrus × microcarpa Bunge (1833) y lo considera un híbrido artificial de fórmula C. japonica × C. reticulata (kumquat × mandarino). NC State lo da como originario de Asia, probablemente un cruce de mandarino y kumquat, y RHS sitúa su área de cultivo en Filipinas, donde se cultiva a gran escala (calamansi). Desde 1960 Florida envía miles de ejemplares en maceta como planta de interior (Purdue/Morton).",
+  "clima_nativo": "Subtropical y tropical sin heladas fuertes. NC State lo sitúa en las zonas USDA 8b-11b, aunque reconoce que las fuentes no coinciden (9b-11 o 10-11). Morton (Purdue) indica que resiste el frío más o menos como el satsuma. RHS lo clasifica como H3 al aire libre (aguanta entre -5 y 1 °C en zonas costeras suaves), pero en su guía de cítricos pide al menos 13 °C para invernarlo en maceta. En climas con heladas se cultiva en maceta y pasa el invierno a cubierto.",
+  "categoria": "aromatica",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, perennes, coriáceas, lisas y muy brillantes, de color verde intenso por el haz. Elípticas a anchamente ovadas, de 4-7,5 cm de largo (Morton/Purdue; NC State da 5-10 cm), más pequeñas que las del limonero o el naranjo. Pecíolo corto con alas estrechas (Morton, NC State). Huelen a cítrico al estrujarlas.",
+    "nerviacion": "Pinnada, con nervio central marcado y nervios secundarios finos, poco visibles; sin relieve llamativo en el haz.",
+    "variegacion": "La especie es verde uniforme. En vivero se vende también una forma variegada, con hojas de borde crema y frutos rayados de verde y amarillo [sin fuente prioritaria consultada].",
+    "tallo": "Leñoso. Ramillas verdes de jóvenes que pasan a gris pardo; corteza gris parda, finamente agrietada y algo corchosa en ramas viejas (NC State). Espinas escasas, pequeñas o casi ausentes (Morton: 'ligeramente espinoso'; NC State: 'casi sin espinas'). Ramifica densamente desde cerca de la base, con porte erguido y estrecho.",
+    "habito": "Arbusto o arbolito perenne de copa densa y erguida. Flores blancas de 5 pétalos, de unos 2,5 cm, muy perfumadas, solas o en grupos de 2-3 en las puntas o las axilas; florece en primavera y repite varias veces en verano (NC State: 4-5 floraciones por temporada). Fruto redondo o algo achatado, de 2,5-4,5 cm, verde que madura a naranja o naranja rojizo, con piel fina, aromática y fácil de pelar, y pulpa muy ácida con 0-5 semillas pequeñas. El fruto tarda hasta un año en madurar, así que flores, frutos verdes y maduros conviven en la planta (NC State, Morton).",
+    "tamano_adulto_interior": "En maceta, por lo general de 0,6 a 1,5 m [orientativo, sin fuente prioritaria]. Morton (Purdue) indica que en maceta grande crece unos 30 cm al año, da fruta en abundancia a los 2 años y que los esquejes alcanzan 45-60 cm en unos 10 meses. Al aire libre en clima cálido llega a 2,5-4 m (RHS) o más (NC State: 3-6 m).",
+    "confusiones": [
+      {
+        "especie": "Kumquat (Citrus japonica, antes Fortunella)",
+        "rasgo_diferenciador": "Es uno de sus padres y se le parece mucho. El fruto del kumquat es oval u oblongo, se come entero con piel y es pequeño (del tamaño de una aceituna grande); el del calamondín es redondo o achatado, con pulpa muy ácida y piel fina que se pela. Sin fruto, el kumquat tiene hojas algo más estrechas y planta sin espinas (Maryland); la distinción por hoja sola no es fiable."
+      },
+      {
+        "especie": "Mandarino (Citrus reticulata) y naranjo (Citrus × sinensis) enanos",
+        "rasgo_diferenciador": "Fruto mucho mayor (más de 5 cm) y hojas más grandes. El calamondín carga muchos frutos pequeños (2,5-4,5 cm) a la vez, de color naranja intenso, y florece varias veces al año."
+      },
+      {
+        "especie": "Limonero enano (Citrus limon, Citrus × meyeri)",
+        "rasgo_diferenciador": "Fruto amarillo, oval y con pezón; hojas más grandes (7,5-15 cm) y flores moradas por fuera. El calamondín tiene hojas menores, flores blancas y fruto redondo naranja. Los cuidados son casi iguales, salvo que el calamondín necesita un invierno más templado (≥13 °C según RHS, frente a 5 °C en limonero)."
+      },
+      {
+        "especie": "Lima kaffir (Citrus hystrix)",
+        "rasgo_diferenciador": "Hoja con un pecíolo tan ancho como la lámina, que la hace parecer doble ('hoja en ocho'), y fruto verde y muy rugoso. En el calamondín el ala del pecíolo es estrecha."
+      },
+      {
+        "especie": "Naranjo jazmín (Murraya paniculata)",
+        "rasgo_diferenciador": "Rutácea de interior con flores blancas perfumadas, pero con hojas compuestas (varios folíolos por hoja) y frutos pequeños rojos y ovoides. El calamondín tiene hojas simples."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Aceites esenciales y psoralenos (furanocumarinas fotosensibilizantes), según ASPCA, presentes en la planta y en la piel del fruto.",
+    "sintomas": "Perros y gatos (ASPCA, ficha 'Calamondin Orange', Citrus mitis): vómitos, diarrea, decaimiento y posible fotosensibilidad (dermatitis). También es tóxico para caballos. La pulpa del fruto es comestible para las personas. Personas (RHS): el fruto puede irritar la piel con el sol (fitofotodermatitis) o causar reacciones alérgicas; conviene usar guantes al manipularlo. En niños el riesgo real es leve: molestias digestivas si comen hojas o cáscara en cantidad.",
+    "confianza": "Media",
+    "fuentes": [
+      "F9",
+      "F3"
+    ],
+    "notas": "Para mascotas solo hay una fuente prioritaria (ASPCA), que usa el sinónimo Citrus mitis (en POWO, Citrus × mitis Blanco es sinónimo heterotípico de Citrus × microcarpa). NC State no da información de toxicidad. 'Tóxica' para niños en sentido leve: el fruto se come; la app debe hablar de irritación leve, no de intoxicación grave. Mismo criterio que la ficha de Citrus limon."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Sur, la mejor en invierno dentro de casa (Maryland, Clemson). En verano, al aire libre a pleno sol, una vez aclimatado. Si no hay ventana sur, una oeste o este muy luminosa con lámpara de cultivo LED de apoyo (Maryland).",
+      "tolera_sol_directo": "Sí: lo necesita para florecer y dar fruto. Mínimo 6 h de sol directo (NC State, Maryland), mejor 8-12 h (Maryland; Clemson: al menos 8 h). Al sacarlo al exterior, aclimatarlo durante 2 semanas, primero en semisombra y luego con más sol (Maryland). Si pasa de golpe del interior al sol pleno se quema. RHS, para el Reino Unido, aconseja luz plena con sombra del sol más fuerte bajo cristal.",
+      "notas": "Planta de luz directa: según la escala del proyecto, más de 1000 fc (más de 10 760 lux). Ninguna fuente da lux máximos. Contradicción menor: la ficha de planta de RHS indica 'semisombra, orientación este u oeste' para exterior, mientras que NC State, Maryland y Clemson piden pleno sol. Se adopta pleno sol con sombra ligera en las horas centrales del verano de Madrid, que es la opción que cubre ambas: la planta recibe la luz que necesita para fructificar sin quemarse. Con poca luz invernal no florece, no cuaja frutos y suelta hojas (Maryland).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo a 5 cm (Maryland indica unos 5 cm; Clemson, 5-7,5 cm) y por el peso de la maceta: regar cuando esté seco a esa profundidad y la maceta pese claramente menos. Regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 min; nunca dejarlo encharcado. El cepellón no debe secarse del todo ni quedarse empapado mucho tiempo (Clemson). Nunca regar por calendario.",
+      "primavera_verano": "Al aire libre, con calor y sol, la maceta puede pedir agua casi a diario (Maryland, Clemson). Se comprueba a diario (RHS) y siempre antes de regar. Mantener el sustrato apenas húmedo de forma regular (RHS); Clemson (HGIC 2221) aconseja dejarlo secar ligeramente entre riegos.",
+      "otono_invierno": "Dentro de casa consume mucho menos: dejar secar la superficie y comprobar 1-2 veces por semana (Maryland). Regar a fondo solo cuando esté seco a 5 cm, mejor con agua templada. Mejor quedarse corto: el exceso de riego en invierno es uno de los problemas más comunes (RHS). No dejar agua en el plato.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "El agua de grifo de Madrid (blanda, 10-47 mg/L de CaCO3) va bien y no tiene la cal que bloquea el hierro. La cloramina no se elimina dejando reposar el agua, y no hace falta hacerlo. RHS y Clemson recomiendan agua de lluvia porque su pH es más bajo que el de muchas aguas municipales, lo que importa más en zonas de agua dura. Hacer un riego abundante de vez en cuando para lavar las sales del abono.",
+      "notas": "Maryland: si caen hojas, sospechar exceso de riego; si caen flores, sustrato demasiado seco. RHS: hojas que amarillean o caen pueden indicar exceso de riego. Un sustrato siempre mojado atrae a la mosca del mantillo (Maryland) y favorece la pudrición de raíz por Phytophthora o Pythium (Clemson) y la clorosis férrica (UF/IFAS). Morton (Purdue) lo describe como moderadamente tolerante a la sequía en suelo, con raíz pivotante profunda; en maceta esa ventaja desaparece.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F4",
+        "F8",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": 30,
+      "ideal_pct": 50,
+      "notas": "NC State pide humedad alta para florecer y fructificar bien. Clemson da un rango de 30-60 % y Maryland pide un 50 %, con humidificador en invierno porque el aire seco de la calefacción le sienta mal. RHS: el aire seco y las corrientes provocan caída de hojas y falta de flor y fruto. Lo que funciona: humidificador cerca de la planta, agrupar plantas y, como ayuda menor, plato con grava y agua por debajo de la base de la maceta (RHS, Clemson). RHS sugiere también pulverizar a diario en primavera y verano, pero el proyecto no lo recomienda porque no sube la humedad de forma útil.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F4",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 13,
+      "ideal_max_c": 29,
+      "notas": "Mínima de invierno en maceta: 13 °C (RHS, guía de cítricos: 'el calamondín necesita al menos 13 °C', más que el limonero, 5 °C, o el kumquat, 7 °C). Es el valor más alto y conservador de las fuentes y se adopta como min_c. Morton (Purdue) indica que las plantas en maceta aguantan 2 semanas a oscuras a 12 °C sin perder hojas ni frutos, lo que encaja. La ficha de planta de RHS (H3, -5 a 1 °C) y NC State (zona 8b) se refieren a árboles adultos en el suelo al aire libre, un contexto distinto que no vale para una maceta, cuyas raíces se enfrían mucho antes. Clemson indica que la mayoría de cítricos aguantan hasta unos 10 °C y Maryland que por debajo de 0 °C hay daños. Ideal: día a 18-24 °C y noche a 13-18 °C (Maryland); en invierno a cubierto, 13-18 °C con mucha luz (Clemson). Óptimo para fructificar: 18-29 °C (Clemson). El frío, las corrientes y los cambios bruscos provocan caída de hojas, flores y frutos (RHS, Maryland). Lejos de radiadores. Ninguna fuente prioritaria da una máxima tolerada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F6",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato específico para cítricos sin turba, o mezcla de tierra tipo John Innes nº 2-3 con un 20 % de arena gruesa o grava fina (RHS, guía y ficha de planta). Maryland admite sustrato universal, de cactus o de cítricos siempre que drene bien. NC State pide un suelo fértil, rico en materia orgánica y bien drenado. No usar tierra de jardín. Maceta ligera de plástico con agujeros de drenaje (Clemson, Maryland).",
+      "ph": "5,5-6,5 (Clemson). RHS lo da de ácido a neutro y NC State de ácido a neutro (hasta 8). Un sustrato alcalino favorece la clorosis férrica (UF/IFAS).",
+      "drenaje": "Imprescindible. Agujeros de drenaje y nada de agua estancada en el plato (Clemson, Maryland, RHS). El mal drenaje causa pudrición de raíz (Clemson) y clorosis férrica (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F6",
+        "F5",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono específico para cítricos, rico en nitrógeno y con microelementos (sobre todo hierro, mejor quelatado). Puede ser líquido o de liberación lenta.",
+      "npk": "Proporción N-P-K 2-1-1 o 3-1-1 (Maryland), p. ej. 12-6-6 o 12-4-6 de liberación lenta (Clemson).",
+      "primavera_verano": "Con crecimiento activo (aprox. marzo-septiembre en Madrid): abono líquido a ¼-½ de la dosis de la etiqueta, una vez al mes, según la regla general del proyecto. Maryland pide abonar al menos tres veces en la temporada (primavera, principio y final de verano) y Clemson 2-3 aplicaciones de liberación lenta. Dejar de abonar a principios de otoño para que la planta endurezca los brotes (Maryland).",
+      "otono_invierno": "Nada en reposo (Maryland: no hace falta abonar en invierno). RHS propone abonar todo el año (abono de invierno entre noviembre y mediados de marzo); se adopta la opción conservadora de no abonar mientras la planta no crezca.",
+      "notas": "Si las hojas nuevas salen amarillas con los nervios verdes (clorosis férrica), aportar hierro quelatado al sustrato siguiendo la etiqueta para plantas en maceta. UF/IFAS indica que el quelato Fe-EDDHA funciona en el rango de pH más amplio (4-9), que la aplicación al suelo es la vía fiable y que la foliar no se recomienda. Maryland añade la opción de un acidificante con azufre. Antes de abonar más, descartar exceso de riego, sustrato frío y encharcado o mal drenaje, que también provocan clorosis férrica (UF/IFAS). Las hojas ya amarillas pueden no recuperarse; lo que importa es que los brotes nuevos salgan verdes. Contradicción: RHS recomienda abonar todo el año y Maryland no abonar en invierno; manda la regla del proyecto de no abonar en reposo. Al ser un frutal de fruto comestible, usar abonos aptos para frutales o cítricos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F4",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 3 años (Maryland) a 3-5 años (Clemson), cuando las raíces salen por los agujeros de drenaje (RHS). Una planta recién comprada puede seguir en su maceta varios años (RHS).",
+      "epoca": "Primavera (RHS), al reanudarse el crecimiento y antes de sacarlo al exterior.",
+      "senales": "Raíces saliendo por los agujeros, sustrato que se seca enseguida, planta apelmazada en la maceta con menos vigor. Subir solo un poco de tamaño (unos 5 cm más de diámetro, según Clemson) y no pasarse de maceta (RHS). Mover el cepellón alterando las raíces lo menos posible (RHS). Si se quiere mantener la maceta manejable, Maryland propone podar raíces recortando 2,5-5 cm del exterior del cepellón y cambiar el sustrato. Entre trasplantes, sustituir la capa superior de sustrato (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca: es compacto y de crecimiento lento en maceta. Solo para dar forma y tamaño, aclarar el interior y quitar ramas muertas o que se cruzan (RHS, Maryland). Si está injertado, quitar siempre los chupones que salen por debajo del injerto (Maryland); los ejemplares de vivero suelen proceder de esqueje y no tener injerto (Morton).",
+      "epoca": "En invierno o a principios de primavera, antes de la brotación (RHS ficha de planta: grupo de poda 1, poda de contención bajo cristal en invierno o principio de primavera; RHS guía: febrero; Maryland: desde que se entra en otoño hasta que brota en primavera). En verano, solo despuntar los brotes muy vigorosos para mantenerlos dentro de la copa (RHS). Las ramas rotas o muertas se quitan en cualquier momento.",
+      "como": "Con tijera limpia y afilada. Quitar ramas cruzadas, rotas, que crecen rectas hacia arriba o que tapan el centro. Los tallos largos y desgarbados pueden recortarse hasta en dos tercios (RHS). No podar en exceso: florece en las puntas de los brotes laterales nuevos (RHS). Poda fuerte de una sola rama al año y solo en plantas sanas (RHS). Despuntar el eje central fomenta ramas laterales (Maryland). Si carga demasiados frutos, RHS aconseja aclarar los frutos jóvenes en cítricos (no más de unos 20 en un árbol de 1 m); en calamondín, de fruto pequeño, basta con quitar los que estén apiñados [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "De mediados de otoño a finales de invierno (aprox. noviembre-febrero en el hemisferio norte), con la planta a cubierto.",
+      "cambios": "Fresco pero no frío (13-18 °C, nunca por debajo de 13 °C) y con la máxima luz posible (RHS, Clemson). Riego reducido (más seco que en verano), sin abono y lejos de radiadores. Humidificador si hay calefacción (Maryland). Flores aparecidas dentro de casa: aunque es autofértil (Morton), conviene polinizarlas a mano con un pincel seco para que cuajen (Maryland). Es perenne y debe conservar las hojas: es un semirreposo por frío y poca luz, no una dormancia verdadera (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F5",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso",
+        "esqueje bajo nebulización (viveros)",
+        "injerto (viveros)",
+        "semilla (no recomendada)"
+      ],
+      "epoca": "Esquejes semileñosos en verano (RHS), cuando el brote del año ha endurecido en la base.",
+      "pasos": "Es el método recomendado (NC State) y el que usan los viveros de Florida para la planta en maceta: esquejes enraizados bajo nebulización constante; incluso los esquejes de hoja enraízan con facilidad y pueden dar fruto mientras enraízan (Morton/Purdue). En casa: 1) cortar un brote del año de 10-15 cm, firme en la base [orientativo, sin fuente prioritaria]; 2) quitar las hojas inferiores, flores y frutos; 3) plantarlo en un sustrato ligero y drenante, con calor suave y luz brillante sin sol directo; 4) mantener humedad ambiental alta (bolsa o propagador) y el sustrato húmedo sin encharcar hasta que enraíce. Por semilla (a 16 °C en primavera, RHS) no sale igual que la madre según RHS, aunque Morton indica que sus semillas son poliembriónicas (3-5 embriones); en todo caso tarda más en fructificar y no merece la pena (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy típico al entrarlo en casa en otoño o sacarlo en primavera: el cambio de luz, humedad y temperatura hace que suelte hojas (Maryland). También lo provocan las corrientes frías, los cambios bruscos de temperatura, el aire seco de la calefacción y el riego excesivo o escaso (RHS). En calamondín pesa más el frío: por debajo de 13 °C es fácil que se deshoje. Hacer la transición poco a poco y no moverlo más de lo necesario."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis férrica: hojas jóvenes amarillas con los nervios verdes (Maryland, UF/IFAS). Se debe a un sustrato alcalino, al exceso de riego, a un sustrato frío y encharcado o a mal drenaje. En Madrid el agua de grifo es blanda y casi nunca es la causa. Corregir el riego y el drenaje y aportar hierro quelatado (Fe-EDDHA) al sustrato."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Falta de hierro en los brotes nuevos (el hierro no se mueve dentro de la planta). Ver S04. En casos graves, las hojas nuevas salen pequeñas, finas y casi blancas y caen pronto (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Falta de nitrógeno en una planta muy exigente en abono que además carga muchos frutos (las hojas viejas amarillean y caen), o exceso de riego (RHS). Revisar primero el riego y luego el abonado en temporada de crecimiento."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo (blandas y acorazadas) y acanaladas en nervios del envés y ramas (RHS, NC State, Clemson, Maryland). Las jóvenes son casi transparentes y cuestan de ver junto al nervio (Maryland). Revisar el envés a menudo y actuar con poblaciones pequeñas; las infestaciones fuertes necesitan varios tratamientos."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Planococcus citri y afines) en axilas, horquillas de brotes y brotes tiernos. Clemson la señala, junto con la araña roja, como la plaga más problemática de los cítricos de maceta que pasan el invierno dentro. Difícil de erradicar (Maryland)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae) y ácaro rojo de los cítricos (Panonychus citri): punteado amarillento o plateado en la hoja (NC State, RHS, Clemson). Prolifera dentro de casa en invierno con aire seco y en verano con calor seco, sobre todo junto a paredes o suelos que se recalientan (Clemson)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña de araña roja (T. urticae) en puntas de brotes y envés en infestaciones fuertes (Clemson, Maryland). El ácaro rojo de los cítricos apenas teje (Clemson)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas, pulgón o mosca blanca. Suele venir con hormigas, que protegen a la plaga (Maryland)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla (fumagina) que crece sobre la melaza de cochinillas, pulgón o mosca blanca y le quita luz a la hoja (Clemson, NC State). Se controla eliminando el insecto que la produce."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón agrupado en brotes nuevos y capullos florales, sobre todo en primavera (NC State, RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas nuevas acopadas o retorcidas por el pulgón. Si en las hojas nuevas hay galerías serpenteantes plateadas, es minador de los cítricos (NC State, Clemson): los árboles adultos lo toleran y conviene dejar las hojas dañadas en la planta (Clemson)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca en el envés; las hojas amarillean y producen melaza (Maryland, Clemson)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por Phytophthora o Pythium en sustratos mal drenados o encharcados, sobre todo en invierno dentro de casa (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura al sacarlo de golpe al sol tras el invierno dentro. Aclimatar 2 semanas en semisombra (Maryland)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosca del mantillo (sciáridos) cuando la superficie del sustrato está siempre húmeda (Maryland)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Falta de luz en invierno dentro de casa, sustrato frío y encharcado, o falta de abono en temporada de crecimiento. Si florece pero no cuaja frutos: poca luz o flores sin polinizar dentro de casa (Maryland). La caída de frutos jóvenes es en parte normal (Maryland: hasta un 75 % en cítricos de maceta), pero se dispara con cambios bruscos de temperatura o sustrato seco."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Lo mejor es tenerlo al aire libre en terraza o balcón soleado, una vez aclimatado (2 semanas de semisombra a más sol). Con 35-40 °C y aire muy seco (HR ≈38 % en julio) la maceta se seca muy rápido: comprobar a diario a 5 cm y por peso, y regar a fondo a primera hora o al atardecer. Proteger la maceta del recalentamiento: maceta clara o doble maceta, que no le dé el sol directo a la maceta y no colocarla sobre baldosa o junto a una pared muy caliente (Clemson: eso dispara la araña roja). En terrazas sur u oeste muy expuestas, una malla de sombreo ligera en las horas centrales evita quemaduras de hojas y frutos (encaja con RHS, que pide sombra del sol más fuerte). Revisar el envés cada semana. El jabón potásico listo para usar (en España no se ha verificado ningún aceite de parafina con uso ornamental no profesional: productos.md §3) solo se aplica entre unos 7 y 29 °C, al final del día, sin sol directo y nunca con la planta en flor (Clemson). Con estas máximas, en pleno verano casi nunca se dan esas condiciones.",
+    "invierno": "Entrarlo en casa antes de que las mínimas nocturnas bajen de 13 °C: es más friolero que el limonero (que se entra cuando las noches se acercan a 10 °C) y RHS pide al menos 13 °C para invernarlo. En Madrid eso suele ser hacia finales de septiembre o primeros de octubre [orientativo, sin fuente prioritaria]; confirmar con la previsión de AEMET. Antes de entrarlo, lavar las hojas y revisar el envés para no meter cochinillas ni araña roja (Maryland). Dentro: junto a la ventana más luminosa (sur), en una habitación a 13-18 °C, lejos de radiadores. Con calefacción la HR baja del 30 %: humidificador cerca. No dejar las hojas tocando el cristal frío ni expuestas a corrientes al ventilar, porque el frío y los cambios bruscos lo deshojan. Una galería sin calefacción solo vale si no baja de 13 °C. Regar poco, sin abono. Sacarlo de nuevo en primavera cuando las noches se mantengan por encima de unos 10-13 °C (en Madrid, normalmente a partir de mediados de mayo), con aclimatación gradual.",
+    "ubicacion_recomendada": "De primavera a otoño, terraza o balcón a pleno sol (sur, sureste u oeste), resguardado del viento y con algo de sombra en las horas centrales de julio y agosto. En invierno, dentro, junto a ventana sur, en una habitación luminosa que se mantenga entre 13 y 18 °C. Si la luz no llega a 6 h de sol directo, lámpara de cultivo LED. Tratamientos fitosanitarios: en España, en plantas de casa un particular solo puede usar productos listos para usar con uso no profesional inscritos en el Registro del MAPA para ese uso. Al ser un frutal de fruto comestible, el producto debe estar autorizado en cítricos o frutales y hay que respetar el plazo de seguridad de la etiqueta antes de comer los frutos. No aplicar jabones ni aceites con la planta en flor (Clemson)."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Citrus × microcarpa Bunge (1833) como híbrido artificial C. japonica × C. reticulata, siguiendo a Flora of North America (2024) y Mabberley (2022); Govaerts (1999) lo citaba solo como fórmula híbrida C. japonica × C. reticulata. Sinónimos en POWO: × Citrofortunella microcarpa (Bunge) Wijnands, × Citrofortunella mitis (Blanco) J.W.Ingram & H.E.Moore, Citrus × mitis Blanco y dos formas de Hayata. La ficha mantiene 'Citrus microcarpa' por la lista maestra. ASPCA usa Citrus mitis y Morton (Purdue) × Citrofortunella mitis. Morton cita también C. madurensis como nombre aplicado por error.",
+    "Para la toxicidad en mascotas solo se encontró una fuente prioritaria (ASPCA). NC State no da información de toxicidad y no se encontró ficha de Pet Poison Helpline ni de otra universidad para el calamondín.",
+    "Ninguna fuente prioritaria da intensidad de luz en lux o fc; lux_min (10 760) sale de la escala del proyecto para luz directa y lux_max queda en null.",
+    "Ninguna fuente prioritaria da una temperatura máxima tolerada (max_c = null). El ideal superior de 29 °C es el óptimo de fructificación de Clemson para cítricos en general, no un límite de daño.",
+    "Las fuentes de cuidado en maceta (Maryland, Clemson, RHS guía) tratan los cítricos en general; las específicas del calamondín (NC State, RHS ficha, Morton/Purdue) no dan pautas de riego, abono o trasplante propias. Se asume que el calamondín sigue las pautas generales, salvo la temperatura mínima (13 °C, RHS).",
+    "Las fechas de entrada y salida para Madrid (mediados-finales de octubre y mediados de mayo) son orientativas, deducidas de los umbrales de 10-13 °C. No se han contrastado con series de AEMET.",
+    "No se ha encontrado en fuentes prioritarias el protocolo detallado para enraizar esquejes semileñosos en casa (longitud, hormona, temperatura). La longitud de 10-15 cm es orientativa.",
+    "La forma variegada que se vende en vivero no se ha verificado en una fuente prioritaria.",
+    "No se pudieron abrir la ficha de POWO por WebFetch (403; sí con proxy r.jina.ai), el artículo del blog UF/IFAS Gulf County sobre el calamondín (404) ni el artículo de PBS Wisconsin con la educadora de la Univ. de Wisconsin (403)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/citrus-x-microcarpa/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University), Citrus x microcarpa",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hort.purdue.edu/newcrop/morton/calamondin.html",
+      "institucion": "Purdue University, Center for New Crops & Plant Products: Morton, J. (1987) Fruits of Warm Climates, 'Calamondin'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/320548/citrus-x-microcarpa-(f)/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de planta Citrus × microcarpa (F)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/fruit/citrus/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS), guía 'How to grow citrus'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.umd.edu/resource/growing-dwarf-citrus",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center, 'Growing dwarf citrus' (C. K. Carignan)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/container-citrus-production/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center, HGIC 1363 'Container Citrus Production'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://hgic.clemson.edu/factsheet/citrus-insects-related-pests/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center, HGIC 2221 'Citrus Insects & Related Pests'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ask.ifas.ufl.edu/publication/SS423",
+      "institucion": "UF/IFAS Extension, EDIS SS423 'Micronutrient Deficiencies in Citrus: Iron, Zinc, and Manganese' (Zekri y Obreza)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calamondin-orange",
+      "institucion": "ASPCA Animal Poison Control Center, Toxic and Non-Toxic Plants: Calamondin Orange",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/927792-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew: Citrus × microcarpa Bunge",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

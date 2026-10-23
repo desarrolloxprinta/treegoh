@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "elementor-mcp"
+  ],
+  "enableAllProjectMcpServers": true
+}

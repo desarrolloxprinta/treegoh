@@ -1,0 +1,369 @@
+{
+  "nombre_cientifico": "Plectranthus scutellarioides",
+  "nombres_comunes": [
+    "cóleo",
+    "coleus",
+    "coleo",
+    "ortiga pintada"
+  ],
+  "familia": "Lamiaceae",
+  "origen": "Nativa del sureste de Asia tropical y subtropical hasta el norte de Australia y Melanesia: sur de China, Taiwán, Nansei-shoto, Myanmar, Tailandia, Laos, Camboya, Vietnam, Malaca, Sumatra, Java, Borneo, Célebes, Molucas, islas menores de la Sonda, Filipinas, Nueva Guinea, archipiélago Bismarck, islas Salomón, Vanuatu, Queensland, Territorio del Norte y Australia Occidental (POWO). Introducida en numerosas zonas tropicales de América, África y el Pacífico. El cóleo de jardinería es un complejo de cultivares de origen híbrido (antes Coleus blumei / Coleus × hybridus).",
+  "clima_nativo": "Tropical y subtropical húmedo, cálido todo el año y sin heladas. Rústica solo en zonas USDA 10a-11b (NC State); en el resto se cultiva como anual tierna que muere con la primera helada (Clemson, UF/IFAS). RHS la califica H1c: necesita protección por debajo de 5-10 °C.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Opuestas, simples, ovadas a oblongas, de 7,5-15 cm de largo y 2,5-7,5 cm de ancho según NC State (UF/IFAS da hasta 10-20 cm), con margen festoneado-crenado, dentado o profundamente inciso y a veces lobulado u ondulado (NC State, UF/IFAS). Textura blanda, algo carnosa; NC State las describe glabras, aunque muchos cultivares muestran pelillos finos. Huelen ligeramente al frotarlas, como otras labiadas.",
+    "nerviacion": "Pinnada, con nervios secundarios arqueados ('bowed', UF/IFAS) marcados en el haz; en muchos cultivares los nervios destacan en otro color (verde lima, rosa o rojo) sobre la lámina.",
+    "variegacion": "Es la característica principal: combinaciones de verde, verde lima, amarillo, crema, blanco, rosa, rojo, cobre, naranja, granate, burdeos y púrpura casi negro, en bordes, centros, nervios, manchas o salpicaduras (NC State, UF/IFAS, Univ. Minnesota). La intensidad del color depende de la luz: con poca luz los tonos se apagan y la planta se alarga; con sol fuerte los cultivares de sombra se blanquean o decoloran (Clemson, UF/IFAS).",
+    "tallo": "Cuadrangular (de sección cuadrada, rasgo de las labiadas), semicarnoso, verde claro o teñido del color de la hoja; se lignifica en la base con la edad (NC State, Univ. Minnesota, UF/IFAS).",
+    "habito": "Herbácea o subarbustiva perenne de vida corta, erguida y en mata redondeada; existen cultivares rastreros para cestas colgantes (Clemson). Florece en espigas terminales finas (racimos) de flores pequeñas bilabiadas azul-violeta a blanco-azuladas, de poco valor ornamental; al dejarla granar la planta decae (NC State, Clemson, UF/IFAS).",
+    "tamano_adulto_interior": "15 cm a 90 cm de alto y ancho según cultivar (NC State, Univ. Minnesota, UF/IFAS 30-90 cm); los rastreros pueden extenderse más de 90 cm (Clemson). En maceta de interior suele mantenerse en 30-60 cm con pinzado.",
+    "confusiones": [
+      {
+        "especie": "Plectranthus amboinicus (sin. Coleus amboinicus; orégano cubano, borraja india)",
+        "rasgo_diferenciador": "Hojas gruesas, suculentas, muy aterciopeladas, verdes o verde y crema, con fuerte olor a orégano; el cóleo ornamental tiene hojas finas, de colores intensos (rojo, púrpura, lima) y olor débil."
+      },
+      {
+        "especie": "Hypoestes phyllostachya (planta de la sangre, polka dot)",
+        "rasgo_diferenciador": "Hojas pequeñas (hasta 5 cm), de margen entero, verdes con punteado rosa, rojo o blanco; tallo redondo. El cóleo tiene hojas mayores con margen dentado o festoneado y tallo cuadrangular."
+      },
+      {
+        "especie": "Iresine herbstii (iresine)",
+        "rasgo_diferenciador": "Hojas redondeadas con el ápice escotado (en forma de corazón invertido) y margen entero, con nervios rosados muy marcados; tallo no cuadrangular. El cóleo tiene margen dentado y ápice agudo."
+      },
+      {
+        "especie": "Codiaeum variegatum (crotón)",
+        "rasgo_diferenciador": "Arbusto leñoso de hojas alternas, coriáceas y brillantes, de margen entero o lobulado, que suelta savia lechosa; el cóleo es herbáceo, de hojas opuestas, blandas, dentadas y tallo cuadrangular."
+      },
+      {
+        "especie": "Perilla frutescens var. crispa (perilla, shiso púrpura)",
+        "rasgo_diferenciador": "Labiada parecida de hoja púrpura dentada, pero de color uniforme (verde o púrpura, sin dibujos multicolores) y fuerte aroma; anual que espiga y muere en otoño."
+      },
+      {
+        "especie": "Solenostemon / Coleus 'trailing' y Plectranthus spp. de hoja verde (P. verticillatus, planta del dinero sueca)",
+        "rasgo_diferenciador": "Plectranthus verticillatus tiene hojas redondeadas, gruesas, brillantes y verdes con margen festoneado y porte colgante; carece de la coloración vistosa del cóleo."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Diterpenos (coleonol, coleon O) en las hojas según NC State; Knight (Colorado State University) cita el aceite volátil coleon O, de propiedades alergénicas. La ficha 'Coleus' de la ASPCA atribuye la toxicidad a aceites esenciales, pero corresponde a Coleus amboinicus, no a esta especie.",
+    "sintomas": "Toxicidad baja. Personas: irritación cutánea leve y pasajera; el contacto repetido puede causar dermatitis alérgica con sarpullido rojo (NC State, UF/IFAS); la ingestión no tiene síntomas descritos en fuentes prioritarias. Perros y gatos: Knight (Colorado State University) indica que el centro toxicológico animal de la ASPCA (NAPCC) incluye el cóleo como planta potencialmente tóxica y que cabría esperar vómitos, diarrea, decaimiento y anorexia, en casos graves con vómitos o diarrea con sangre, aunque añade que no se conocen casos de intoxicación animal descritos. Son los mismos signos que la ASPCA da para Coleus amboinicus. Por prudencia: mantener fuera del alcance de perros, gatos y niños, usar guantes si se manipula a menudo y consultar al veterinario o al Servicio de Información Toxicológica si hay ingestión.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F11",
+      "F10"
+    ],
+    "notas": "La ASPCA no tiene ficha propia de Plectranthus/Coleus scutellarioides: su ficha 'Coleus' es de Coleus amboinicus (escrita 'Coleus ampoinicus'), especie del mismo género, que declara tóxica para perros, gatos y caballos. La toxicidad para mascotas se apoya en Knight (Colorado State University), que trata el género Solenostemon, y se marca 'toxica' como opción conservadora; el riesgo real descrito es bajo. Niños: NC State y UF/IFAS la clasifican como de toxicidad baja (dermatitis de contacto)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "En interior, junto a una ventana este o sur con cortina fina, o a 1 m de una ventana oeste; en invierno, la ventana más luminosa de la casa, admitiendo sol directo.",
+      "tolera_sol_directo": "Parcialmente. En interior NYBG pide luz brillante en todo momento, incluidas varias horas de sol directo; en exterior la mayoría de cultivares rinde mejor en semisombra y los de sombra se blanquean, se decoloran o se marchitan a pleno sol, mientras que los cultivares 'sun' (p. ej. series indicadas como sun-tolerant) aguantan sol pleno (Clemson, UF/IFAS, NC State, Univ. Minnesota). Con sombra intensa se alarga y pierde color (NC State, UF/IFAS).",
+      "notas": "El color depende de la luz: poca luz = tallos largos, hojas pálidas y colores apagados; exceso de sol en cultivares de sombra = blanqueo. Las fuentes de exterior (sombra parcial) y la de interior (NYBG, sol directo) no se contradicen realmente: el sol a través del cristal en interior es menos intenso que a pleno sol exterior. Opción conservadora: luz brillante indirecta todo el año con sol suave de mañana o de invierno; sin sol fuerte de mediodía o tarde en cultivares de sombra. Rango en lux según la escala del proyecto (500-1000 fc); NYBG sugiere que tolera más con sol suave.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato ligeramente húmedo, nunca encharcado: regar a fondo cuando los 2-3 cm superiores estén secos al tacto y la maceta pese poco (Clemson: regar cuando la primera pulgada, unos 2,5 cm, esté seca; Univ. Minnesota: 2,5-5 cm en suelo). Si el cepellón se seca del todo las hojas se desploman y acaban cayendo (NYBG). Vaciar el plato a los 15-20 minutos. Nunca regar por calendario.",
+      "primavera_verano": "Consumo alto: en maceta pequeña, al sol o con calor puede necesitar riego cada 1-3 días (Univ. Minnesota indica riego diario para macetas en exterior); comprobar siempre antes el dedo y el peso. Las macetas se secan antes que el suelo de jardín (Clemson, Univ. Minnesota).",
+      "otono_invierno": "Con menos luz y crecimiento lento, regar con moderación y solo cuando los 2-3 cm superiores estén secos; los esquejes de invierno se riegan cuando se seca el primer centímetro (NYBG). Evitar el frío y el agua fría en la raíz.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid sin tratamiento (blanda, cloramina que no se elimina dejándola reposar, flúor <0,1 mg/L); no causa daños. Usar agua a temperatura ambiente. Lavar el sustrato con abundante agua cada pocos meses para evitar la acumulación de sales de abono (tolerancia a la sal baja o nula según UF/IFAS).",
+      "notas": "El exceso de agua y el mal drenaje provocan enanismo, bordes de hoja quemados y podredumbres de tallo y raíz (Clemson). Regar el sustrato, no las hojas: la hoja mojada favorece hongos como el mildiu (Clemson). Planta que se marchita al secarse y se recupera al regar; no confundir con el marchitamiento por pudrición de raíz (sustrato húmedo y planta lacia).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No hay cifras de humedad en fuentes prioritarias. NYBG recomienda aumentar la humedad por encima de 18 °C (bandeja con grava) y advierte que el aire caliente y seco favorece la araña roja; NC State señala ácaros, pulgón y mosca blanca sobre todo en plantas de interior. Según las convenciones del proyecto, pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas. Tolera humedades domésticas normales si el riego es correcto.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Mínimo: NYBG indica que por debajo de 13 °C (55 °F) las hojas pueden marchitarse y caer; RHS la califica H1c (protección por debajo de 5-10 °C), pero esa escala se refiere a supervivencia en invernadero/exterior, no a una planta de interior en buen estado. Se adopta 13 °C, la cifra más alta. Muere con la primera helada (Clemson, UF/IFAS) y es de las primeras plantas en sufrir las noches frías (Univ. Minnesota). Ideal: Univ. Minnesota cultiva las plántulas a 18-21 °C (65-70 °F) y la germinación óptima es 20-25 °C (RHS) o 21-24 °C (UF/IFAS, Clemson, Univ. Minnesota); el límite ideal superior de 24 °C es [orientativo, sin fuente prioritaria]. Máximo: no hay cifra en fuentes prioritarias; los cultivares 'sun' toleran el calor en exterior (Clemson), pero con calor y aire seco aumenta el consumo de agua y la araña roja.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F4",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad para maceta, rico en materia orgánica, suelto y con buen drenaje (NC State, Univ. Minnesota). RHS recomienda en cultivo protegido un sustrato de maceta sin turba, a base de tierra franca (loam). Maceta siempre con agujeros de drenaje (Univ. Minnesota). Puede añadirse un 20-30 % de perlita para aligerar [orientativo, sin fuente prioritaria].",
+      "ph": "6,0-7,0 (Univ. Minnesota); UF/IFAS: de ligeramente ácido a ligeramente alcalino.",
+      "drenaje": "Imprescindible: el mal drenaje provoca enanismo, bordes quemados y podredumbre de raíz y tallo (Clemson). En maceta, mezcla muy drenante (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F2",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble equilibrado (N-P-K en proporciones iguales) o con algo más de nitrógeno, para favorecer hoja y no flor (Univ. Minnesota, RHS). Evitar fórmulas de floración ricas en fósforo: alargan la planta y estimulan la floración (Clemson).",
+      "npk": "Equilibrado (p. ej. 10-10-10 o 20-20-20; Univ. Minnesota) o rico en nitrógeno como 24-8-16 o 17-4-17 (Clemson).",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de etiqueta, con el sustrato húmedo (convención del proyecto; Univ. Minnesota abona mensualmente; RHS en invernadero abona cada 2 semanas con alto nitrógeno y Clemson de junio a agosto). Se adopta la pauta más prudente.",
+      "otono_invierno": "Nada mientras el crecimiento esté parado por poca luz o frío. Si en invierno sigue creciendo activamente junto a una ventana muy luminosa, como mucho ¼ de dosis cada 6-8 semanas [orientativo, sin fuente prioritaria].",
+      "notas": "Exceso de abono = sales acumuladas, puntas y bordes quemados y crecimiento blando y alargado. Lavar el sustrato periódicamente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada año en primavera en plantas que se conservan (RHS). Muchas veces resulta más práctico renovar la planta con esquejes que mantener un ejemplar viejo (NYBG: las plantas jóvenes recién enraizadas pasan mejor el invierno que las viejas).",
+      "epoca": "Primavera (marzo-mayo en Madrid), al reanudarse el crecimiento.",
+      "senales": "Raíces saliendo por los agujeros de drenaje, sustrato que se seca en un día, planta que se marchita a diario pese al riego, crecimiento detenido. Pasar a una maceta 2-5 cm mayor de diámetro [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, pinzado frecuente: despuntar los tallos para que ramifique y quede compacta, y eliminar las espigas florales en cuanto aparezcan para alargar la vida y la calidad de la hoja; si se deja granar, la planta decae (NC State, Clemson, Univ. Minnesota, RHS, UF/IFAS).",
+      "epoca": "Todo el periodo de crecimiento; sobre todo de primavera a otoño, cuando aparecen las espigas florales (finales de verano, Clemson).",
+      "como": "Con los dedos o tijera limpia, cortar justo por encima de un nudo (par de hojas). Univ. Minnesota: cuando la planta mida unos 15 cm, quitar los 5 cm superiores por encima de un nudo. Repetir en cada tallo que se alargue. Cortar las espigas florales en su base. Las plantas viejas y desgarbadas pueden recortarse más fuerte por encima de nudos con hojas, o sustituirse por esquejes de esas mismas puntas. Usar guantes si hay piel sensible (dermatitis, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene un reposo verdadero: es perenne en climas cálidos (NC State) y en interior sigue creciendo si tiene luz y calor. En invierno, por la falta de luz, crece más lento: reducir riego (solo cuando se sequen los 2-3 cm superiores), suprimir o casi suprimir el abono y darle la máxima luz. Si se cultiva en exterior, se trata como anual: antes de las primeras noches frías (por debajo de 13 °C) se meten plantas o esquejes en casa (NYBG, Clemson).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de punta en agua",
+        "esquejes de punta en sustrato",
+        "semilla (solo cultivares de semilla)"
+      ],
+      "epoca": "Los esquejes enraízan en cualquier época (Clemson); lo ideal es primavera-verano, y a principios de otoño para conservar en interior los cultivares de exterior (NYBG).",
+      "pasos": "1) Cortar puntas de 5-15 cm (NYBG 5-7,5 cm; Univ. Minnesota 10-15 cm) por debajo de un nudo. 2) Quitar las hojas de la mitad inferior y las flores. 3) Poner en agua cubriendo los nudos sin hojas, o clavar en sustrato limpio y húmedo con al menos un nudo enterrado. 4) Mantener en sitio cálido y luminoso, sin sol fuerte. 5) Enraízan en unas 2-3 semanas (NC State, Univ. Minnesota; NYBG unas 2 semanas). 6) Pasar a maceta con sustrato cuando las raíces midan 2-3 cm. Semilla: sembrar en superficie sin cubrir (necesita luz) a 21-24 °C; germina en 10-20 días (UF/IFAS, Clemson, Univ. Minnesota). Los cultivares vegetativos son estériles y solo se multiplican por esqueje; no propagar cultivares protegidos por patente (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Falta de agua (las hojas se desploman en cuanto se seca el cepellón; se recupera al regar), sol fuerte en cultivares de sombra (UF/IFAS, Clemson, NYBG) o frío por debajo de 13 °C (NYBG). Si el sustrato está húmedo y la planta sigue lacia, sospechar pudrición de raíz o de tallo."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente o sombra intensa (NC State, UF/IFAS); también abonos ricos en fósforo y falta de pinzado (Clemson)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Colores apagados o verdosos por falta de luz; el color del cóleo depende de la luz recibida."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte en cultivares de sombra: hojas blanqueadas o decoloradas (Clemson, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego, sustrato que no drena o plato encharcado (Clemson: podredumbre de raíz)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de tallo por sustrato demasiado húmedo y hojas mojadas (Clemson)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Exceso de agua o mal drenaje (Clemson); también sales de abono acumuladas o sequías repetidas."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Encharcamiento y mal drenaje (enanismo, Clemson); planta que se deja florecer y granar, que decae (Clemson); frío."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, plaga frecuente del cóleo, sobre todo en interior y en invernadero (NC State, Clemson, RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire caliente y seco, especialmente en interior con calefacción o en verano (NC State, NYBG, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja en ambiente seco (NC State, NYBG)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y tallos (Clemson, RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de mosca blanca, pulgón o cochinillas."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de algunas hojas al pasar del exterior al interior o tras la compra, por cambio de luz y temperatura; también por frío por debajo de 13 °C (NYBG)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco el cóleo consume mucha agua y se marchita en horas: comprobar el sustrato a diario (dedo y peso) y regar a fondo cuando se sequen los 2-3 cm superiores, mejor a primera hora; usar macetas no demasiado pequeñas. Apartar de ventanas sur y oeste sin protección: los cultivares de sombra se queman y blanquean; si se usa una de esas ventanas, poner cortina o separarla 1-2 m. Vigilar la araña roja (envés con punteado y telilla) y la mosca blanca. En balcón o terraza, semisombra o sombra luminosa; solo los cultivares 'sun' aguantan sol pleno de tarde, y aun así con riego muy frecuente. Seguir pinzando y quitando espigas florales.",
+    "invierno": "Darle la ventana más luminosa (sur o este) con sol directo de invierno, pero sin tocar el cristal frío: mantener por encima de 13 °C también de noche. Lejos de radiadores y salidas de aire caliente: con HR interior por debajo del 30 % aparecen araña roja y bordes secos; usar humidificador o agrupar plantas (no pulverizar). Regar menos, solo cuando se seque la capa superior, y no abonar si no crece. Si se cultivó en exterior, meterla en casa o tomar esquejes antes de que las noches bajen de 13 °C (en Madrid suele ser hacia finales de septiembre o principios de octubre [orientativo, sin fuente prioritaria]). Es normal cierto alargamiento por falta de luz: en primavera se despunta y se renueva con esquejes.",
+    "ubicacion_recomendada": "Junto a una ventana este (sol suave de mañana) o a 1-1,5 m de una ventana sur u oeste con cortina en verano; en invierno, pegada a la ventana más luminosa sin contacto con el cristal. Lejos de radiadores, aire acondicionado y corrientes frías. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Coleus scutellarioides (L.) Benth. (1830); Plectranthus scutellarioides (L.) R.Br. (1810) y Solenostemon scutellarioides (L.) Codd (1975) son sinónimos homotípicos, igual que Ocimum scutellarioides L. (basiónimo); Coleus blumei Benth. es sinónimo heterotípico. POWO sigue a Paton et al. (2019, PhytoKeys 129); Flora Malesiana (2019) y Flora Mesoamericana mantienen Plectranthus scutellarioides. El nombre de la ficha se mantiene según lista-maestra.csv.",
+    "Toxicidad: la ASPCA no tiene ficha de esta especie; su ficha 'Coleus' corresponde a Coleus amboinicus. La toxicidad para perros y gatos se apoya en Knight (Colorado State University), que trata el género Solenostemon e indica que no hay casos de intoxicación animal descritos. Falta una ficha específica de Pet Poison Helpline o de un centro toxicológico. Ingestión en niños: sin datos en fuentes prioritarias (solo dermatitis de contacto).",
+    "Humedad: no hay cifras de humedad relativa mínima ni ideal en fuentes prioritarias.",
+    "Temperatura máxima: no hay cifra en fuentes prioritarias; el límite ideal superior (24 °C) es orientativo.",
+    "Intensidad de luz en interior: ninguna fuente prioritaria da lux o pies-candela; el rango se ha derivado de la escala del proyecto.",
+    "El mildiu (Peronospora sp.), citado por Clemson como enfermedad frecuente del cóleo junto con podredumbres de tallo y raíz, no tiene un id de síntoma específico en la lista; no se ha incluido en problemas_frecuentes.",
+    "Frecuencia de trasplante: solo una fuente prioritaria (RHS: anual en primavera).",
+    "Fuente Knight (Guide to Poisonous House and Garden Plants, alojada en IVIS) reclasificada como complementaria por el orquestador: manual veterinario fuera de la lista de prioritarias de CLAUDE.md (mismo criterio que la ficha de Crassula ovata)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/coleus-scutellarioides/",
+      "institucion": "NC State University Extension – Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/FP136",
+      "institucion": "UF/IFAS Extension – EDIS FPS136 'Coleus scutellarioides: Coleus' (rev. 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/coleus/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umn.edu/flowers/coleus",
+      "institucion": "University of Minnesota Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://libanswers.nybg.org/faq/223430",
+      "institucion": "New York Botanical Garden (NYBG) – Plant Information Service",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/507119/coleus-scutellarioides-crimson-ruffles-v/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de Coleus scutellarioides 'Crimson Ruffles'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/507362/coleus-scutellarioides-rosie/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de Coleus scutellarioides 'Rosie'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:446165-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (Coleus scutellarioides)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:454698-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (Plectranthus scutellarioides, sinónimo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/coleus",
+      "institucion": "ASPCA Animal Poison Control Center – ficha 'Coleus' (corresponde a Coleus amboinicus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.ivis.org/library/guide-to-poisonous-house-and-garden-plants/solenostemon-species-coleus",
+      "institucion": "Colorado State University, Dept. of Clinical Sciences (A. Knight) – Guide to Poisonous House and Garden Plants, vía IVIS",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.rhs.org.uk/education-learning/children-young-people/family-activities/grow-it/coleus",
+      "institucion": "Royal Horticultural Society (RHS) – Grow it: coleus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

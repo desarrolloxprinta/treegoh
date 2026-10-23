@@ -1,0 +1,384 @@
+{
+  "nombre_cientifico": "Begonia rex",
+  "nombres_comunes": [
+    "begonia rex",
+    "begonia de hoja",
+    "begonia real",
+    "begonia de hoja pintada"
+  ],
+  "familia": "Begoniaceae",
+  "origen": "La especie silvestre Begonia rex Putz. es nativa del Himalaya oriental: Assam (noreste de la India), Bután y norte de Myanmar (NC State; RHS); MOBOT amplía el área a valles boscosos y rocosos del noreste de la India, sur de China y Vietnam. Se introdujo en cultivo hacia 1850-1858 desde Assam. Importante: las plantas que se venden como 'begonia rex' son casi siempre híbridos del grupo Rex-cultorum (Begonia Rex Cultorum Group, a veces escrito B. × rex-cultorum), que tienen B. rex entre sus progenitores pero no son la especie pura (MOBOT, UF/IFAS).",
+  "clima_nativo": "Sotobosque de bosque tropical y subtropical de montaña del Himalaya oriental: sombra o media sombra, suelo húmedo y rico en materia orgánica, humedad ambiental alta y temperaturas templado-cálidas sin heladas. Perenne en exterior solo en zonas USDA 10-12 (NC State 10a-12b, MOBOT 10-11); RHS la clasifica H1B (mínimo 10-15 °C).",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, grandes, asimétricas (base oblicua), ovado-acorazonadas, de unos 8-15 cm en los híbridos de interior y hasta 30 × 20 cm (NC State, MOBOT, UF/IFAS), con margen dentado y ciliado y pelos dispersos. Rasgo clave para visión: colorido metálico o iridiscente en bandas o zonas (plata, verde, burdeos, rosa, púrpura, lavanda, gris), con frecuencia centro y borde de distinto color; en la especie silvestre, centro y margen verde oscuro con una banda plateada entre ambos (MOBOT, RHS). Envés normalmente rojizo. Textura a menudo rugosa o abullonada. Algunos cultivares tienen la hoja en espiral (p. ej. 'Escargot').",
+    "nerviacion": "Palmeada: varios nervios principales gruesos y prominentes parten del punto de unión del pecíolo y se abren en abanico (UF/IFAS, NC State); a menudo marcados con otro color o hundidos en el haz y muy salientes y rojizos en el envés.",
+    "variegacion": "Coloración por pigmentos y por la estructura de la superficie (brillo metálico), no por zonas sin clorofila. Con poca luz los colores se apagan; en hojas nuevas pueden ser más intensos. Muy variable entre cultivares: no sirve como único rasgo de especie.",
+    "tallo": "Rizoma grueso, carnoso, a veces nudoso o serpenteante, que crece a ras de sustrato o justo debajo y puede asomar por el borde de la maceta (Clemson, Cornell); de él salen pecíolos carnosos, rojizos y a menudo peludos. Algunos cultivares 'erguidos' forman un tallo corto. Flores pequeñas rosas o blanco-rosadas en panículas sobre varas de hasta 30 cm, poco vistosas.",
+    "habito": "Herbácea perenne rizomatosa, de porte compacto, denso y redondeado, con las hojas formando una mata baja (NC State, UF/IFAS). Siempreverde salvo cuando entra en reposo invernal, en que puede perder parte de las hojas (MOBOT).",
+    "tamano_adulto_interior": "20-45 cm de alto y de ancho (RHS: 0,1-0,5 m, hasta 30 cm; NC State y MOBOT: 30-45 cm; UF/IFAS: 30-60 cm). Tarda 2-5 años en alcanzar su tamaño (RHS).",
+    "confusiones": [
+      {
+        "especie": "Begonia masoniana (begonia cruz de hierro) y otras begonias rizomatosas no Rex (p. ej. B. bowerae, B. 'Erythrophylla')",
+        "rasgo_diferenciador": "B. masoniana tiene hoja verde amarilla muy rugosa con una cruz central marrón-negra muy definida y sin brillo metálico; B. bowerae tiene hojas pequeñas verdes con manchas oscuras en el margen; 'Erythrophylla' hojas redondas lisas y brillantes casi peltadas. Las Rex tienen bandas plateadas o metálicas y gran variedad de colores."
+      },
+      {
+        "especie": "Begonia maculata y otras begonias de caña",
+        "rasgo_diferenciador": "Tallos erguidos en caña con nudos marcados y hojas en 'ala de ángel' alargadas con lunares; la begonia rex no tiene cañas: las hojas salen de un rizoma rastrero."
+      },
+      {
+        "especie": "Heuchera spp. (heuchera, coral de campana) de hoja plateada o púrpura",
+        "rasgo_diferenciador": "Hoja redondeada y lobulada, casi simétrica, más pequeña, con pecíolo fino; planta de exterior y rústica. La begonia rex tiene hoja muy asimétrica, oblicua en la base, pecíolo carnoso y peludo y rizoma visible."
+      },
+      {
+        "especie": "Caladium bicolor (caladio)",
+        "rasgo_diferenciador": "Aroide de tubérculo con hojas en punta de flecha muy finas, casi translúcidas, simétricas y peltadas o sagitadas, sobre pecíolos largos y lisos; la begonia rex tiene hoja gruesa, asimétrica, peluda y dentada."
+      },
+      {
+        "especie": "Pilea cadierei (planta de aluminio)",
+        "rasgo_diferenciador": "Tallos ramificados con hojas opuestas, elípticas, simétricas, con 3 nervios longitudinales y manchas plateadas abullonadas entre ellos; sin rizoma ni hoja asimétrica."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Oxalatos de calcio solubles (ASPCA para Begonia spp.; NC State y UF/IFAS específicamente para las begonias Rex). La parte más tóxica es la subterránea (rizoma y raíces).",
+    "sintomas": "Perros y gatos: vómitos y salivación (ASPCA, NC State); fallo renal descrito en animales de pasto. Gravedad baja según NC State; la savia puede causar irritación cutánea y dermatitis de contacto. Niños: irritación de boca y molestias digestivas si la mastican; RHS la clasifica como 'potentially harmful', indica que no debe comerse y recomienda guantes al manipularla.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F4",
+      "F5",
+      "F1"
+    ],
+    "notas": "Cuatro fuentes prioritarias coinciden; NC State y UF/IFAS tratan expresamente el grupo Rex. Mantener fuera del alcance de mascotas y niños, con especial cuidado al dividir el rizoma o trasplantar."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de primera hora) o ventana norte muy luminosa; en ventana sur u oeste, a 1-2 m del cristal o tras cortina fina. Girar la maceta un cuarto de vuelta cada semana si la luz entra por un solo lado (MOBOT).",
+      "tolera_sol_directo": "No. Solo sol suave de mañana en primavera o sol filtrado (MOBOT); el sol directo fuerte quema las hojas (UF/IFAS, Clemson, RHS: sombrear en verano).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F2",
+        "F4"
+      ],
+      "notas": "MOBOT: 'plenty of light without putting the plants in direct, hot sun'; Clemson: lugar luminoso sin sol directo; RHS: luz brillante filtrada; NC State: luz brillante indirecta. UF/IFAS da 1500-2200 fc como intensidad ideal (≈16 000-23 700 lux) y unas 14 h de fotoperiodo para mantener el crecimiento, pero es un dato de producción profesional; en la escala del proyecto eso es luz directa, y las demás fuentes lo desaconsejan en interior. Se adopta el rango conservador de luz brillante indirecta (500-1000 fc = 5380-10 760 lux). Con poca luz se estira y apaga colores; en invierno, una lámpara de cultivo LED ayuda a prolongar el día (UF/IFAS)."
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo a 2-3 cm y el peso de la maceta: regar cuando la superficie esté casi seca y los 2-3 cm superiores secos (MOBOT: dejar que la superficie quede casi seca, comprobar con el dedo; UF/IFAS: dejar secar el tercio superior). Regar a fondo por la base, sin mojar hojas ni la corona del rizoma (RHS), hasta que drene, y vaciar el plato a los 10-15 minutos. Regar por la mañana para que nada quede húmedo de noche (Cornell). Nunca por calendario.",
+      "primavera_verano": "Sustrato uniformemente húmedo pero nunca encharcado, dejándolo secar ligeramente entre riegos (Clemson; RHS: riego abundante en verano con buen drenaje). Con calor se seca antes: comprobar más a menudo.",
+      "otono_invierno": "Reducir el riego y dejar secar la superficie antes de volver a regar (RHS, Clemson). Si entra en reposo y pierde hojas, regar solo lo justo para que el rizoma no se deshidrate hasta que brote en primavera (MOBOT). Con noches por debajo de 13 °C, mantenerla más bien seca (Cornell).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. Las begonias rex toleran mal las sales y el agua dura (UF/IFAS); el agua del grifo de Madrid (Canal de Isabel II, blanda, 10-47 mg/L CaCO3) es adecuada. Dejar reposar el agua no elimina la cloramina, pero no hace falta. Lavar de vez en cuando el sustrato con un riego abundante para arrastrar sales de abono.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F2",
+        "F7",
+        "F4",
+        "F8"
+      ],
+      "notas": "UF/IFAS: 'overwatering will easily cause root rot'; NC State: evitar el exceso de riego. RHS: la mayoría de las bajas son por exceso de riego o por ambiente demasiado seco. El rizoma almacena agua, así que tolera algo mejor un riego espaciado que las begonias de caña (Cornell). Ante la duda, esperar."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": null,
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F4",
+        "F6",
+        "F2"
+      ],
+      "notas": "MOBOT: más del 50 % (algunos cultivares quieren más); UF/IFAS: 50 % o más, con humedad baja se secan y tuestan los bordes. Ninguna fuente prioritaria da un valor ideal concreto (ideal_pct en null). Clemson y NC State: ambiente húmedo pero sin pulverizar las hojas. Usar humidificador o agrupar plantas; no pulverizar: no sube la humedad de forma útil y el agua sobre la hoja favorece el oídio, la botritis y la mancha bacteriana. UF/IFAS y NC State citan la bandeja de guijarros con agua (sin que la maceta toque el agua) como ayuda; es menos eficaz que un humidificador. Equilibrio: aire húmedo, hojas secas y aire en movimiento (RHS: el exceso de humedad estancada también pudre hojas)."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 27,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F3",
+        "F6",
+        "F7"
+      ],
+      "notas": "Mínimos de las fuentes: RHS (página de begonias de interior) 13 °C para B. rex; Clemson y Cornell 13 °C nocturnos; RHS ficha de especie H1B (10-15 °C); UF/IFAS rango de cultivo 15,6-26,7 °C (60-80 °F), aunque algunas series aguantan 10 °C. Se adopta 15 °C, la cota alta de H1B y prácticamente el 60 °F de UF/IFAS; el 15,6 °C de UF/IFAS es su rango de cultivo óptimo, y MOBOT confirma que con algo menos sobrevive pero crece despacio. Máximo: 27 °C (80 °F, UF/IFAS; algunas series hasta 32 °C). Ideal: MOBOT unos 21 °C de día y 16 °C de noche; Clemson 19-23 °C; UF/IFAS 22-27 °C de día y 16-18 °C de noche: prefiere temperaturas relativamente frescas. RHS: los bordes marrones pueden deberse a temperatura demasiado baja o demasiado alta. Evitar cristales fríos y corrientes."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato poroso, ligero y aireado, rico en materia orgánica (MOBOT, NC State); raíces muy finas que necesitan aire (UF/IFAS). Opción práctica: sustrato para plantas de interior aligerado con un 30-50 % de perlita (Cornell: mitad turba y mitad perlita; RHS prefiere sustratos sin turba, p. ej. fibra de coco). Maceta ancha y poco profunda, con agujeros de drenaje, porque el rizoma crece en superficie (MOBOT, Cornell).",
+      "ph": "5,7-6,4 (ligeramente ácido; NC State indica <6,0)",
+      "drenaje": "Imprescindible. Nada de plato con agua acumulada ni maceta sobredimensionada (UF/IFAS, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F3",
+        "F7"
+      ],
+      "notas": "pH: UF/IFAS 5,7-6,4 para el grupo Rex; NC State <6,0; RHS (ficha de especie) ácido, neutro o alcalino. Se adopta 5,7-6,4, compatible con todas; si se puede elegir, la parte baja (5,7-6,0)."
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o algo rico en nitrógeno para plantas de hoja (RHS: alto en nitrógeno; UF/IFAS: el nitrógeno es el nutriente clave para el follaje).",
+      "npk": "Equilibrado, p. ej. 15-15-15 o 7-9-5 (UF/IFAS); MOBOT cita 23-19-14.",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (aprox. marzo/abril a septiembre en Madrid).",
+      "otono_invierno": "Nada mientras no crezca o esté en reposo; reanudar con los brotes nuevos de primavera (MOBOT: reducir en otoño y suspender en invierno).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F2",
+        "F6"
+      ],
+      "notas": "Las fuentes son más generosas que la convención del proyecto: MOBOT a ¼ de dosis cada dos semanas, Clemson a media dosis en riegos alternos, UF/IFAS mensual a 100-150 ppm de N, RHS según etiqueta de mayo a septiembre. Se aplica la convención del proyecto (¼-½ de dosis mensual), más prudente porque la begonia rex tolera mal las sales (UF/IFAS)."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años con sustrato nuevo (Cornell), subiendo solo un tamaño de maceta o pasando a una más ancha, no más honda.",
+      "epoca": "Primavera, al empezar el crecimiento (Clemson).",
+      "senales": "Raíces rodeando el cepellón ('pot-bound', Clemson), rizoma que desborda la maceta, sustrato apelmazado o que se seca muy rápido.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F3"
+      ],
+      "notas": "Aprovechar el trasplante para dividir el rizoma si la mata está muy apretada (Clemson). Dejar el rizoma a ras de sustrato, sin enterrarlo, para evitar la pudrición del rizoma (RHS la cita entre sus enfermedades). Usar guantes: la savia irrita."
+    },
+    "poda": {
+      "necesita": "Generalmente no (RHS: no requiere poda; MOBOT: la mayoría no la necesitan). Solo limpieza de hojas.",
+      "epoca": "Limpieza todo el año; recorte del rizoma en primavera o verano.",
+      "como": "Retirar enseguida hojas muertas, amarillas o con oídio y los restos sobre el sustrato (MOBOT, UF/IFAS, Cornell), con tijera limpia y cortando el pecíolo cerca del rizoma. Si el rizoma se ha alargado y tiene tramos desnudos, o en cultivares erguidos, cortar el rizoma: brota de nuevo y puede ramificar; el trozo cortado se puede enraizar (MOBOT). Pinzar puntas pronto favorece la ramificación (MOBOT).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno, con días cortos (en Madrid, aproximadamente de noviembre a febrero; en el hemisferio sur, de mayo a agosto). No todas las plantas lo hacen: con buena luz o lámpara de cultivo pueden seguir creciendo.",
+      "cambios": "Muchos cultivares dejan de crecer y pueden perder parte o todas las hojas (MOBOT, UF/IFAS). Regar solo lo justo hasta que salgan hojas nuevas en primavera, sin abono, mantener por encima de 15 °C y con la máxima luz indirecta. No confundir esta caída de hojas con pudrición: comprobar que el rizoma sigue firme.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F2"
+      ],
+      "notas": "RHS (begonias de interior) indica reducir el riego en invierno dejando secar la superficie. UF/IFAS asocia el reposo a la falta de horas de luz (necesita unas 14 h para mantener el crecimiento)."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de hoja con cortes en los nervios",
+        "esqueje de hoja en cuñas",
+        "esqueje de hoja con pecíolo",
+        "división del rizoma",
+        "esqueje de rizoma",
+        "semilla"
+      ],
+      "epoca": "Mayo-junio para esquejes de hoja (RHS); división en primavera (RHS) o verano (UF/IFAS).",
+      "pasos": "Esqueje de hoja con cortes en los nervios (RHS): 1) Elegir una hoja sana recién madurada. 2) Quitar el pecíolo. 3) Con una cuchilla limpia, cortar los nervios principales por el envés cada 2,5 cm. 4) Colocar la hoja con el haz hacia arriba sobre una bandeja de sustrato de esquejes arenoso, sin turba y húmedo, y sujetarla con horquillas o piedrecitas para que los cortes toquen el sustrato. 5) Regar y mantener en propagador (o bajo bolsa transparente) a 18-24 °C, con humedad alta y buena luz sin sol directo; ventilar si se condensa mucho. 6) Cuando las plantitas que nacen en los cortes tengan 2-3 hojas, pasarlas a macetas de 7 cm. Alternativa (Cornell): cortar la hoja en cuñas con un nervio principal cada una e insertarlas por la punta estrecha en mezcla de turba y perlita bajo bolsa; puede tardar 3 meses o más. UF/IFAS: la begonia rex regenera a partir de casi cualquier trozo de hoja, así que el tipo de corte no es crítico. División (RHS): en primavera, separar trozos de rizoma con uno o más puntos de crecimiento cada uno.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F7",
+        "F5",
+        "F1",
+        "F3",
+        "F11"
+      ],
+      "notas": "Métodos confirmados por RHS (semilla, esqueje de hoja y trozos de rizoma), NC State (división, esqueje de hoja y de tallo), Cornell y MOBOT. La semilla es diminuta y lenta (Cornell) y los híbridos no salen fieles: no recomendable para aficionados. Las variantes con pecíolo y cuñas aparecen detalladas también en Longfield Gardens (complementaria)."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio: principal enemigo de la begonia rex (UF/IFAS, MOBOT, NC State, RHS; Cornell: 'probablemente la peor plaga de las begonias'). Favorecido por hojas mojadas, aire estancado y ambiente fresco y húmedo. Prevenir con aire en movimiento, riego por la mañana sin mojar hojas y retirando hojas afectadas o muertas. Ojo: el brillo plateado natural de la hoja es liso y regular; el oídio es un polvo blanco que se borra al frotar y se extiende. Pocos fungicidas están autorizados para interior (Iowa State): en España solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis (moho gris) en hojas viejas, dañadas o en contacto con el sustrato húmedo (UF/IFAS, MOBOT, NC State, RHS). Retirar restos y mejorar ventilación."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato pesado: muy frecuente (UF/IFAS, NC State, Iowa State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del rizoma y del tallo (RHS) por enterrar el rizoma, sustrato encharcado o agua en la corona; la base se ablanda y oscurece."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas podridas o blandas por exceso de humedad estancada, exceso de riego o poca luz (RHS)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones y crujientes por humedad ambiental baja (UF/IFAS, RHS) o temperatura demasiado baja o alta (RHS): muy típico con calefacción o en verano madrileño."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana de la begonia (Xanthomonas): lesiones amarillas primero en el envés que se vuelven marrones y circulares, con amarilleo hacia los márgenes (UF/IFAS, NC State). Favorecida por mojar las hojas; retirar hojas afectadas y no pulverizar."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Poca luz o riego incorrecto, por exceso o por defecto (RHS); en otoño-invierno también puede ser el inicio del reposo con caída de hojas viejas (MOBOT)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Reposo invernal por días cortos (MOBOT, UF/IFAS) o temperaturas bajas (por debajo de unos 15 °C crece muy despacio). Si el rizoma está firme, es normal."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato demasiado seco o, al contrario, raíces podridas por exceso de agua: comprobar el sustrato antes de regar."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo excesivo, sobre todo tras cristal en ventana sur u oeste (UF/IFAS: el follaje se quema)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz: pecíolos largos, hojas más pequeñas y colores apagados."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las uniones hoja-tallo y tallo-rizoma (UF/IFAS, MOBOT, NC State, RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y calor (RHS, Clemson)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y varas florales (RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (RHS) que dejan punteado plateado o pardo en las hojas."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaros tarsonémidos (RHS los cita en la especie): hojas nuevas pequeñas, deformadas, endurecidas o enrolladas."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Orugas y adultos de otiorrinco (Otiorhynchus sulcatus), que muerden muescas en el borde de las hojas; sus larvas comen raíces y rizoma (RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte, nunca en ventana sur u oeste sin protección: ventana este o a 1-2 m del cristal con cortina. Por encima de unos 27 °C en la habitación sufre: buscar la estancia más fresca, sombra y ventilación sin corrientes directas, y no ponerla bajo el chorro del aire acondicionado. El sustrato se seca antes: comprobar dedo y peso cada 2-3 días, sin encharcar. El aire muy seco (HR exterior ≈38 %) tuesta los bordes y favorece la araña roja: humidificador o agrupar plantas, sin pulverizar las hojas.",
+    "invierno": "Lejos de radiadores y salidas de calefacción (HR interior a menudo <30 %, muy por debajo del 50 % que necesita): humidificador imprescindible o agrupar plantas. Mantener por encima de 15 °C también de noche y separada del cristal frío. Regar menos, por la mañana y sin mojar hojas; si la habitación es fresca y el aire está estancado, sube el riesgo de oídio y botritis: ventilar a diario sin corrientes frías o usar un ventilador suave (Cornell). Si entra en reposo y pierde hojas, regar muy poco hasta la primavera. Sin abono. Aprovechar la luz de ventana este o sur tamizada, o añadir lámpara de cultivo LED para alargar el día.",
+    "ubicacion_recomendada": "Junto a una ventana este o a 1-2 m de una ventana sur u oeste con cortina, en una estancia cálida pero no calurosa (18-24 °C), sin radiador cerca ni corrientes frías, con humedad ≥50 % (humidificador) y algo de circulación de aire. Cocinas y baños luminosos pueden ir bien por la humedad (NC State). Fuera del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Nomenclatura: IPNI/POWO (Kew) recoge Begonia rex Putz. (IPNI 105573-1, publicado en J. Gén. Hort. 2: 141, 1857-1858), con el nombre aceptado en POWO y sin cambio de nombre conocido; sinónimo homotípico Platycentrum rex (Putz.) Seem. No se pudo abrir la página de POWO (bloqueo anti-bots); el estado se comprobó en la API de IPNI ('inPowo': true). RHS lo da como nombre correcto.",
+    "Las plantas comerciales son casi siempre híbridos del grupo Rex-cultorum (Begonia Rex Cultorum Group), no la especie pura; los datos de cultivo de las fuentes se refieren a ese grupo. Las necesidades varían entre cultivares (MOBOT: algunos piden más humedad que otros).",
+    "Humedad: ninguna fuente prioritaria da un valor ideal (ideal_pct en null); solo un mínimo de >50 %.",
+    "Luz: UF/IFAS da 1500-2200 fc (contexto de producción); el resto de fuentes no da cifras. lux_min/lux_max son la equivalencia con la escala del proyecto para luz brillante indirecta.",
+    "Rusticidad: UF/IFAS indica zonas USDA 7-12, frente a 10-12 de NC State y MOBOT; se ignora el dato de UF/IFAS por no ser coherente con su propio rango de temperatura (mínimo 10-15,6 °C).",
+    "La técnica concreta de cortes en los nervios solo aparece detallada en RHS; no se encontró publicación de extensión universitaria que la describa paso a paso (la guía de propagación vegetativa de UF/IFAS EP621 no estaba accesible).",
+    "UF/IFAS (F5) recomienda un fungicida sistémico y alcohol de farmacia con bastoncillo contra cochinilla; no se recogen como tratamiento: en España solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/101666/begonia-rex/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Begonia rex (R), king begonia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/begonias",
+      "institucion": "Royal Horticultural Society (RHS) — Begonias: houseplants (begonias rizomatosas y Rex)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=242218",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Begonia rex-cultorum (rex begonia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-rex-types/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Begonia Rex Types",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://journals.flvc.org/edis/article/download/131685/136498/241327",
+      "institucion": "UF/IFAS Extension (University of Florida) — ENH1368 A Beginner's Guide to Begonias: Begonia rex-cultorum (EDIS, dic. 2022, doi 10.32473/edis-EP632-2022)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/growing-begonias-indoors/",
+      "institucion": "Clemson Cooperative Extension HGIC 1552 — Growing Begonias Indoors",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://ccenassau.org/resources/begonias",
+      "institucion": "Cornell Cooperative Extension Nassau County — Home Grounds Fact Sheet A-1-29 Begonias",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2005/2-11-2005/houseplantdis.html",
+      "institucion": "Iowa State University Extension — Two Common Houseplant Diseases (oídio y pudrición de raíz)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/begonia",
+      "institucion": "ASPCA Animal Poison Control Center — Begonia (Begonia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.ipni.org/api/1/search?q=Begonia%20rex",
+      "institucion": "Royal Botanic Gardens, Kew / IPNI — International Plant Names Index, Begonia rex Putz. (IPNI 105573-1, enlazado a POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.longfield-gardens.com/blogs/begonia-care/how-to-propagate-rex-begonia-for-more-plants",
+      "institucion": "Longfield Gardens — How to propagate rex begonia (vivero, blog)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

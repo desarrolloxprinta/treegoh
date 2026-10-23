@@ -1,0 +1,299 @@
+{
+  "nombre_cientifico": "Curio rowleyanus",
+  "nombres_comunes": [
+    "rosario",
+    "collar de perlas",
+    "senecio rowleyanus",
+    "planta rosario"
+  ],
+  "familia": "Asteraceae (compuestas). POWO, NC State, Wisconsin y RHS coinciden.",
+  "origen": "Sudáfrica: provincias del Cabo (POWO: 'Cape Provinces'); Wisconsin precisa zonas secas del Cabo Oriental. En su hábitat repta por el suelo, enraíza donde los tallos tocan tierra y forma alfombras densas, a menudo bajo arbustos o entre rocas que la protegen del sol intenso (NC State, Wisconsin).",
+  "clima_nativo": "Subtropical seco, sin heladas (POWO: bioma subtropical; NC State y Wisconsin: zonas áridas de Sudáfrica). Suculenta de hojas esféricas que almacenan agua; su forma redonda reduce la pérdida por evaporación y una 'ventana epidérmica' translúcida deja entrar luz al interior de la hoja (NC State, Wisconsin). No tolera heladas: USDA 9b-12b (NC State); RHS H2 (soporta frío ligero pero no congelación, 1-5 °C, referido a cultivo en Reino Unido).",
+  "categoria": "suculenta",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas alternas, carnosas, casi perfectamente esféricas, del tamaño de un guisante pequeño (hasta 0,6-0,8 cm de diámetro; NC State: 1/4-1/3 de pulgada), verde medio a brillante, con una pequeña punta aguda en el extremo y una franja longitudinal fina más oscura y translúcida en un lado (ventana epidérmica) (NC State, Wisconsin, RHS). Rasgo clave para visión: 'cuentas' redondas separadas a lo largo de un hilo fino. Planta sana: perlas tersas y brillantes; con sed se arrugan o se ven algo deshinchadas (Wisconsin).",
+    "nerviacion": "No visible: hoja globosa sin lámina plana. Solo se aprecia la línea oscura translúcida lateral (ventana epidérmica), que no es un nervio (NC State, Wisconsin).",
+    "variegacion": "La especie tipo es verde uniforme. Existe el cultivar variegado C. rowleyanus 'Variegatus' (RHS: 'string of wasabi peas'; NC State: 'Variegata'), con perlas verdes y crema o blanco cremoso, y a veces tonos rosados. Wisconsin advierte que parte de lo que se vende como forma variegada podría ser en realidad Curio herreianus. Las formas variegadas se queman más con el sol (RHS).",
+    "tallo": "Tallos muy finos, filiformes, verdes a algo parduscos, colgantes o rastreros, de hasta 90 cm o más (RHS, Wisconsin), que enraízan en los nudos al tocar el sustrato. Raíces superficiales y débiles (Wisconsin). Flores en verano (raras en interior): capítulos blancos de unos 1,3 cm, como pinceles, con estambres rojos y anteras amarillas, sobre pedúnculos de unos 4 cm, con aroma a canela; después vilanos blancos algodonosos (NC State, Wisconsin, RHS).",
+    "habito": "Colgante o rastrero; se cultiva en cesta colgante, estante alto o plato llano, donde forma una alfombra (RHS, Wisconsin). Altura propia mínima (RHS: hasta 10 cm); el volumen lo dan los tallos que cuelgan.",
+    "tamano_adulto_interior": "Mata de 5-10 cm de alto (RHS) con tallos colgantes de 30-90 cm, a veces más (NC State: 30-90 cm de largo; RHS: 90 cm o más). Tiende a decaer tras varios años: se renueva por esquejes (NC State).",
+    "confusiones": [
+      {
+        "especie": "Curio herreianus (collar de sandías)",
+        "rasgo_diferenciador": "Hojas ovoides o algo alargadas, acabadas en punta, con varias rayas longitudinales oscuras translúcidas como una sandía; en C. rowleyanus son esferas con una sola franja lateral (RHS, Wisconsin)."
+      },
+      {
+        "especie": "Curio radicans (collar de plátanos)",
+        "rasgo_diferenciador": "Hojas alargadas y curvadas en forma de plátano, no esféricas (RHS, Wisconsin)."
+      },
+      {
+        "especie": "Curio citriformis (collar de lágrimas)",
+        "rasgo_diferenciador": "Hojas ovoides puntiagudas, como gotas o limones, y tallos cortos (hasta unos 10 cm) (RHS)."
+      },
+      {
+        "especie": "Curio peregrinus (collar de delfines)",
+        "rasgo_diferenciador": "Hojas curvadas con prolongaciones laterales que recuerdan a un delfín saltando (RHS)."
+      },
+      {
+        "especie": "Ceropegia woodii (collar de corazones)",
+        "rasgo_diferenciador": "Hojas planas acorazonadas, opuestas, jaspeadas de plata, y tubérculos en los nudos; no tiene hojas esféricas (RHS)."
+      },
+      {
+        "especie": "Peperomia prostrata (collar de tortugas)",
+        "rasgo_diferenciador": "Hojas pequeñas, planas y redondas con dibujo reticulado como el caparazón de una tortuga (RHS)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Alcaloides pirrolizidínicos según NC State; ninguna otra fuente prioritaria consultada concreta el principio activo.",
+    "sintomas": "Ingestión: molestias digestivas, sobre todo vómitos, además de diarrea y letargo (ASPCA, NC State, Wisconsin). La savia irrita la piel y puede provocar dermatitis o sarpullido; RHS habla de irritación cutánea grave. Severidad baja según NC State. Manipular y podar con guantes (RHS, NC State). Colgarla fuera del alcance de niños y mascotas (ASPCA, RHS).",
+    "confianza": "Alta",
+    "fuentes": [
+      "f4",
+      "f1",
+      "f3",
+      "f2"
+    ],
+    "notas": "La ASPCA la nombra como tóxica en su artículo sobre suculentas (vómitos y letargo); no se encontró su ficha individual en la base de datos de plantas de la ASPCA (las listas se cargan por JavaScript). NC State la etiqueta como problema para perros, gatos, caballos y niños."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS). Sur no es ideal en verano por el sol del mediodía (RHS); si se usa, a 1-2 m del cristal o tras visillo [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "Parcialmente: tolera algo de sol directo suave (mañana o última hora de la tarde), pero el sol fuerte del mediodía en verano quema las perlas; las formas variegadas son más sensibles (RHS, NC State). Si sale al exterior en verano, aclimatar poco a poco para evitar quemaduras (Wisconsin).",
+      "notas": "Necesita mucha luz: con luz insuficiente se vuelve débil y desgarbada, con entrenudos largos y perlas pequeñas (RHS); NC State dice que no tolera la luz inadecuada. Lux según la escala del proyecto (brillante indirecta 500-1000 fc).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f1",
+        "f3",
+        "f2",
+        "f6"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 5 cm superiores del sustrato estén secos al tacto y la maceta pese claramente poco; señal propia de la especie: las perlas empiezan a verse ligeramente menos tersas o algo arrugadas (Wisconsin). Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato: la maceta nunca debe quedar en agua (RHS). No mojar las perlas al regar (RHS). Nunca por calendario.",
+      "primavera_verano": "Riego ligero y moderado durante el crecimiento (abril-septiembre en RHS), dejando secar el sustrato entre riegos (RHS, Wisconsin); en verano necesita más agua que en invierno (Wisconsin). No dejarla seca del todo durante largos periodos (NC State).",
+      "otono_invierno": "Muy escaso: solo lo justo para que las perlas no se arruguen (RHS); Wisconsin indica dejar secar del todo en el reposo invernal fresco.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Tolera el agua del grifo; RHS prefiere lluvia o filtrada. El agua de Madrid (Canal de Isabel II) es blanda y válida; reposarla no elimina la cloramina, pero no hace falta.",
+      "notas": "Contradicción entre fuentes prioritarias: Wisconsin y RHS piden dejar secar el sustrato (Wisconsin: 'completamente') entre riegos; NC State dice no dejar nunca que se seque del todo. Elección conservadora: dejar secar la parte superior y casi todo el cepellón (maceta ligera), y regar antes de que las perlas se arruguen claramente; no mantenerla seca semanas. La pudrición por exceso de riego es la causa más frecuente de muerte (Wisconsin, NC State, RHS). Usar maceta poco profunda y de barro, que seca antes (Wisconsin, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f3",
+        "f1"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No necesita humedad alta. RHS: le disgusta la humedad; no pulverizarla ni agruparla apretada con otras plantas; le gusta la ventilación, sin corrientes frías. NC State la etiqueta como tolerante a la humedad. Ninguna fuente da porcentajes. La humedad interior baja de Madrid (<30 % en invierno) no es un problema para esta especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "f3",
+        "f1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 13,
+      "ideal_max_c": 25,
+      "notas": "RHS: temperatura ambiente de 10-25 °C, lejos de corrientes frías y de radiadores. NC State: 21-27 °C en verano y 10-15,5 °C en invierno. Wisconsin: reposo invernal fresco a 13-15,5 °C. min_c = 10 °C, el mínimo que dan RHS y NC State para interior. El 13 °C de Wisconsin es la temperatura recomendada de reposo, no un mínimo de supervivencia: se usa como ideal_min_c. La clasificación RHS H2 (1-5 °C) se refiere a tolerancia en exterior en Reino Unido y no se usa como mínimo de interior. ideal_max_c: 25 °C (RHS, lo más conservador frente a los 27 °C de NC State). Ninguna fuente prioritaria da un máximo absoluto. No tolera heladas (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f3",
+        "f1",
+        "f2",
+        "f6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas muy drenante (NC State, Wisconsin, RHS), o mezcla propia: 2 partes de sustrato con tierra (sin turba) por 1 de grava hortícola (RHS); o sustrato universal con arena gruesa, perlita, pumita o gravilla, hasta 1:1 (Wisconsin, NC State).",
+      "ph": "Ácido a neutro: NC State lo admite por debajo de 6,0 y entre 6,0 y 8,0. Amplio margen; lo importante es el drenaje.",
+      "drenaje": "Imprescindible: maceta con agujeros, mejor de barro, poco profunda (raíces escasas y superficiales) y solo algo mayor que la anterior para que el sustrato no se quede húmedo (Wisconsin, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f3",
+        "f1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado de uso general (RHS) o abonado ligero en primavera (Wisconsin). No es una planta exigente (RHS).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes como máximo, de abril a septiembre, a ¼-½ de la dosis de etiqueta (RHS indica mitad de dosis, una vez al mes o menos; convenio del proyecto).",
+      "otono_invierno": "Nada: está en reposo.",
+      "notas": "Ninguna fuente prioritaria da una proporción NPK concreta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f3",
+        "f2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años (Wisconsin); una planta recién comprada suele aguantar al menos un año en su maceta (RHS).",
+      "epoca": "Primavera, al empezar el crecimiento (Wisconsin lo sitúa en primavera junto al abonado).",
+      "senales": "Maceta llena de tallos y raíces, o sustrato muy oscuro y empapado que no se seca: en este caso trasplantar enseguida (RHS). Usar una maceta solo algo mayor; el exceso de sustrato se queda húmedo y pudre las raíces (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f3"
+      ]
+    },
+    "poda": {
+      "necesita": "Opcional, para controlar la longitud o retirar tallos pelados.",
+      "epoca": "Durante el crecimiento, de primavera a verano [orientativo, sin fuente prioritaria].",
+      "como": "Recortar con tijeras los tallos demasiado largos, que rebrotan pronto (RHS); usar guantes por la savia irritante (RHS, NC State). Los recortes sirven como esquejes. Como la planta decae con los años, conviene renovarla por esquejes en lugar de intentar recuperar la planta vieja (NC State). Para rellenar una maceta clara, acodar tallos largos sobre el sustrato (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f3",
+        "f1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (en el hemisferio norte, aproximadamente octubre-marzo, fuera de la temporada de crecimiento que RHS sitúa en abril-septiembre).",
+      "cambios": "Lugar fresco a 10-15,5 °C (NC State, Wisconsin), riego mínimo, solo para que las perlas no se arruguen (RHS), y nada de abono. Wisconsin señala que un invierno fresco y seco puede favorecer la floración en verano.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f1",
+        "f3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "acodo",
+        "semilla (poco habitual)"
+      ],
+      "epoca": "Durante el crecimiento activo, de primavera a verano [orientativo, sin fuente prioritaria].",
+      "pasos": "1) Cortar un trozo sano de tallo de 8-12 cm (Wisconsin: 7,5-10 cm; NC State: 7,5-12,5 cm; RHS: 10 cm). 2) Quitar 3-4 perlas de la base (Wisconsin). 3) Apoyar o enterrar ligeramente los nudos inferiores en sustrato para esquejes húmedo y drenante, con grava añadida (RHS, Wisconsin, NC State). 4) Mantener el sustrato apenas húmedo, sin encharcar, hasta que enraíce: los nudos echan raíces enseguida y en torno a un mes ya están enraizados (Wisconsin, RHS). Acodo: sujetar un tallo sobre el sustrato de una maceta con una grapa de alambre y separarlo cuando haya enraizado (RHS). Las perlas sueltas pueden enraizar, pero de forma lenta y poco fiable (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f3",
+        "f1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato que no drena: es la causa de muerte más común (Wisconsin, NC State). Sus raíces son escasas y superficiales, y se pudren pronto en macetas grandes o profundas."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de los tallos en la base o la corona por exceso de riego, sobre todo en invierno (RHS). Rescatar sacando esquejes de las puntas sanas."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Perlas blandas, aplastadas o translúcidas que se desprenden: suelen ir con la pudrición por exceso de agua. Ninguna fuente prioritaria describe la translucidez de forma explícita (ver lagunas)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Perlas arrugadas o deshinchadas: suele ser sed (Wisconsin: regar cuando empiezan a arrugarse). Si el sustrato está húmedo, sospechar raíces podridas: RHS atribuye también el arrugamiento al exceso de riego."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Tallos y perlas lacios por falta o por exceso de agua (NC State). Comprobar humedad y peso de la maceta antes de regar."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallos débiles y desgarbados, perlas pequeñas y muy separadas (RHS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo el del mediodía en verano o un cambio brusco al exterior; las formas variegadas son más sensibles (RHS, NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las perlas y en los tallos (Wisconsin, RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en las puntas tiernas (Wisconsin, RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (NC State), señal de sustrato húmedo demasiado tiempo."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Perlas amarillentas o grisáceas: NC State lo atribuye a insectos. Revisar si hay cochinilla o pulgón y el estado de las raíces."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte, apartarla de ventanas sur y oeste sin protección a mediodía (RHS: el sol del mediodía en verano quema las perlas), o ponerla tras visillo o a 1-2 m del cristal; mejor ventana este. Si el interior pasa de unos 25-27 °C, el máximo ideal de las fuentes, la planta frena; ventilar sin dejarla en corriente. El sustrato se seca antes: comprobar cada pocos días con el dedo (5 cm) y el peso, y regar a fondo cuando esté seco, sin dejar agua en el plato. No pulverizar (RHS lo desaconseja). Si sale a una terraza, aclimatarla poco a poco a la sombra luminosa y protegerla de las tormentas (Wisconsin).",
+    "invierno": "El reposo fresco le conviene: una habitación luminosa a 10-15 °C es ideal. Lejos de radiadores (RHS) y sin tocar el cristal frío por la noche: por debajo de 10 °C sufre y no tolera heladas. La calefacción y la humedad por debajo del 30 % no le afectan (es suculenta y le disgusta la humedad), pero con calefacción el sustrato puede secarse algo antes: regar solo si las perlas empiezan a arrugarse y la maceta pesa poco. Acercarla a la ventana más luminosa por la menor luz invernal.",
+    "ubicacion_recomendada": "Cesta colgante o estante alto junto a una ventana este u oeste (oeste con visillo en verano), con mucha luz y fuera del alcance de niños, perros y gatos. Maceta de barro poco profunda con drenaje."
+  },
+  "lagunas": [
+    "Nomenclatura: el nombre aceptado en POWO es Curio rowleyanus (H.Jacobsen) P.V.Heath (Calyx 6: 55, 1999). El basiónimo Senecio rowleyanus H.Jacobsen (1968) sigue muy usado en el comercio; otros sinónimos (NC State): Kleinia rowleyana, Curio rowleyanus f. marmoratus. POWO indica 3 sinónimos sin mostrarlos en la versión consultada.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales (min_pct e ideal_pct en null).",
+    "Temperatura máxima absoluta: ninguna fuente prioritaria la da (max_c en null). No hay datos sobre su respuesta a interiores de más de 30 °C en el verano de Madrid.",
+    "NPK: ninguna fuente prioritaria da una proporción concreta.",
+    "Perlas translúcidas o blandas como signo de exceso de riego (S10): señal muy difundida en fuentes complementarias, pero las prioritarias solo hablan de pudrición de tallos y raíces y de perlas arrugadas por exceso de riego.",
+    "Época de poda y de propagación: las fuentes prioritarias no la concretan; se indica la temporada de crecimiento como orientación.",
+    "Toxicidad: no se encontró la ficha individual de la especie en la base de datos de plantas de la ASPCA; se usa el artículo de la ASPCA sobre suculentas. El principio activo (alcaloides pirrolizidínicos) solo lo da NC State."
+  ],
+  "fuentes": [
+    {
+      "id": "f1",
+      "url": "https://plants.ces.ncsu.edu/plants/curio-rowleyanus/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f2",
+      "url": "https://hort.extension.wisc.edu/articles/string-of-pearls-senecio-rowleyanus/",
+      "institucion": "University of Wisconsin–Madison Division of Extension (Wisconsin Horticulture)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f3",
+      "url": "https://www.rhs.org.uk/plants/string-of-beads/how-to-grow-string-of-beads",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f4",
+      "url": "https://www.aspca.org/news/are-succulents-safe-have-around-pets",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1011412-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f6",
+      "url": "https://www.rhs.org.uk/plants/17238/senecio-rowleyanus/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de planta",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

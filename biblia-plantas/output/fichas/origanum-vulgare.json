@@ -1,0 +1,363 @@
+{
+  "nombre_cientifico": "Origanum vulgare",
+  "nombres_comunes": [
+    "orégano",
+    "orégano común",
+    "mejorana silvestre"
+  ],
+  "familia": "Lamiaceae",
+  "origen": "Europa, Macaronesia y norte de África hasta China (NC State: 'Europe, Macaronesia to China'; RHS: Europa y norte de África). Planta autóctona de la flora europea, también de la península ibérica; crece silvestre en las montañas de Grecia (Penn State). Naturalizada en Norteamérica (NC State).",
+  "clima_nativo": "Templado y mediterráneo de montaña: laderas soleadas, suelos pobres, secos y bien drenados, a menudo calizos (RHS: suelo bien drenado, preferiblemente alcalino; Delaware: prospera en condiciones duras). Perenne de base leñosa que pierde la parte aérea en invierno (NC State y RHS: follaje caducifolio). Muy rústica en suelo: zonas USDA 4a-8b (NC State), 5-8 (Penn State), RHS H6 (-20 a -15 °C).",
+  "categoria": "aromatica",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, opuestas, ovadas o redondeadas, pequeñas: hasta unos 3-4 cm (RHS: unos 3 cm; NC State: hasta 1,5 pulgadas), verde oscuro, con punteado glandular (puntitos translúcidos al trasluz), margen entero o apenas dentado y peciolo corto. Muy aromáticas al frotarlas, olor picante parecido al tomillo (NC State, RHS, Maryland). Hay cultivares de hoja dorada ('Aureum') y variegada ('Country Cream') (NC State, RHS).",
+    "nerviacion": "Pinnada, poco marcada; los nervios no forman el relieve 'abollonado' de la menta. [orientativo, sin fuente prioritaria]",
+    "variegacion": "La especie tipo es verde. Existen cultivares dorados ('Aureum', AGM de la RHS) y variegados en crema ('Country Cream') (RHS, NC State); los dorados agradecen algo de sombra en las horas de más calor para no quemarse (NC State, UF/IFAS). Un 'Aureum' que se pone verde con poca luz no es una enfermedad.",
+    "tallo": "De sección cuadrada, ramificado, erguido o algo tendido, peloso y a menudo purpúreo (Penn State); la base se lignifica con los años (RHS: subarbusto de base leñosa). Brota de un rizoma o cepa rastrera (Penn State).",
+    "habito": "Mata perenne densa de base leñosa, con tallos erguidos que en verano y principios de otoño terminan en inflorescencias ramificadas, laxas, tipo corimbo o panícula, de flores tubulares bilabiadas de unos 4 mm, rosadas, malvas o blancas, con brácteas teñidas de púrpura (RHS, NC State). Se extiende despacio formando una mata (NC State).",
+    "tamano_adulto_interior": "En maceta, 30-60 cm de alto y de ancho según la variedad (RHS). En suelo puede llegar a 0,5-1 m (RHS ficha) o hasta 90 cm de alto (NC State); Penn State da 30-60 cm de alto y 25-50 cm de ancho.",
+    "confusiones": [
+      {
+        "especie": "Origanum majorana (mejorana)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual y RHS advierte de que los nombres orégano y mejorana se intercambian. El orégano es de textura más basta y sabor más fuerte, con olor más parecido al tomillo (Maryland, Penn State); la mejorana es más fina y de aroma más dulce. Ojo: en inglés O. vulgare se llama también 'wild marjoram'."
+      },
+      {
+        "especie": "Origanum onites (mejorana de maceta, 'pot marjoram')",
+        "rasgo_diferenciador": "RHS la agrupa con las mejoranas; se vende a veces como orégano. Distinguir por la etiqueta del vivero: la separación por foto entre especies de Origanum es poco fiable. [orientativo, sin fuente prioritaria para rasgos morfológicos]"
+      },
+      {
+        "especie": "Lippia graveolens (orégano mexicano)",
+        "rasgo_diferenciador": "Es de otro género y familia (Verbenaceae); arbusto de sabor distinto (UF/IFAS lo separa del orégano europeo). Hojas más alargadas y rugosas sobre tallos leñosos. [rasgo morfológico orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Mentha spp. (menta, hierbabuena)",
+        "rasgo_diferenciador": "Misma familia y tallo cuadrado, pero la menta tiene hojas lanceoladas con margen claramente aserrado y nervios hundidos, olor mentolado, y se extiende muy deprisa por rizomas; el orégano tiene hojas ovadas pequeñas de margen entero o casi, con punteado glandular, y olor picante (NC State)."
+      },
+      {
+        "especie": "Thymus vulgaris (tomillo)",
+        "rasgo_diferenciador": "Olor parecido, pero el tomillo es un subarbusto leñoso con hojas diminutas (menos de 1 cm), estrechas y de margen enrollado; el orégano tiene hojas ovadas mucho más grandes (hasta 3-4 cm) sobre tallos herbáceos. [orientativo, sin fuente prioritaria para el tamaño de hoja del tomillo]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "no_toxica",
+    "principio_activo": "Irritantes gastrointestinales (ASPCA). El aceite esencial es rico en carvacrol y timol (Penn State).",
+    "sintomas": "Perros y gatos (ASPCA): vómitos y diarrea leves. Personas: es una hierba culinaria de uso común (NC State, Penn State, RHS); las hojas y las flores se comen. El riesgo real en niños no es la planta, sino el aceite esencial concentrado o las hojas recién tratadas con un fitosanitario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F11",
+      "F1",
+      "F7"
+    ],
+    "notas": "La toxicidad en perros y gatos sale solo de ASPCA (ficha a nombre de Origanum vulgare hirtum, orégano griego, que es una subespecie de O. vulgare). No se ha encontrado una segunda fuente prioritaria veterinaria (la ficha de Pet Poison Helpline no existe). Es 'tóxica' en sentido leve: la app debe hablar de molestias digestivas si el animal come mucha cantidad, no de intoxicación grave. 'No tóxica' para niños se basa en que es un alimento (NC State, Penn State); ninguna fuente toxicológica humana específica consultada."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Exterior a pleno sol: terraza o balcón orientado a sur u oeste, con 6 h o más de sol directo (NC State, RHS). En interior, solo como solución de invierno: alféizar de ventana sur con al menos 5 h de sol (Oklahoma State) o lámpara de cultivo. Ventana norte o interior de la habitación: insuficiente.",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol es lo ideal (NC State, RHS, Penn State, Delaware); tolera semisombra de 2-6 h de sol (NC State, RHS ficha). Excepción: los cultivares dorados o variegados ('Aureum', 'Country Cream') pueden quemarse y agradecen sombra en las horas de más calor (NC State, UF/IFAS).",
+      "notas": "Planta de luz directa: según la escala del proyecto, más de 1000 fc (más de 10 760 lux). Ninguna fuente da lux máximos. Con poca luz se ahíla y pierde aroma. Es una planta de exterior; dentro de casa vive peor y conviene sacarla en primavera.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F7",
+        "F8",
+        "F10",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato se haya secado: comprobar con el dedo a 2-3 cm y el peso de la maceta; si los 2-3 cm de arriba están secos y la maceta pesa poco, regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. Penn State: tolera la sequía; esperar a que el suelo se seque entre riegos. Nunca por calendario. El exceso de riego es lo que la mata.",
+      "primavera_verano": "En maceta necesita riego en épocas secas, porque el sustrato se seca rápido con calor, sol y aire seco (RHS, Penn State). En terraza en Madrid en julio-agosto puede pedir riego cada 2-4 días en maceta pequeña; comprobar a diario en olas de calor, pero no regar si el sustrato aún está húmedo a 2-3 cm.",
+      "otono_invierno": "Muy poco: en reposo, regar solo cuando el sustrato esté seco y apenas para que el cepellón no se seque del todo. Lo más importante es protegerla del encharcamiento invernal, que pudre las raíces (RHS): sacar el plato, llevar la maceta a un sitio resguardado de la lluvia (junto a una pared o bajo un alero). En interior, regar solo cuando el sustrato esté seco (Maryland).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "El agua del grifo de Madrid (blanda, con cloramina) es adecuada; no hace falta dejarla reposar ni filtrarla.",
+      "notas": "Tolera el calor y la sequía (NC State, Penn State, RHS). En suelos húmedos y mal drenados aparece pudrición de raíz (NC State, Penn State, RHS). El suelo frío y encharcado en invierno mata a las aromáticas mediterráneas (Maryland).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F7",
+        "F5",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Planta mediterránea que tolera bien el aire seco en exterior (NC State: tolera calor y sequía). En interior con calefacción, Oklahoma State indica que las hierbas sufren con el aire seco y Maryland que no les gustan las condiciones calientes y secas de las casas en invierno; según la convención del proyecto, si hace falta, humidificador o agrupar plantas (pulverizar no sirve). Lo que nunca necesita es humedad en el sustrato ni hojas mojadas: favorece hongos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F10",
+        "F6",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": 15.5,
+      "ideal_max_c": 21,
+      "notas": "Mínima: RHS la califica H6 (-20 a -15 °C, en suelo y en Reino Unido); NC State da zonas USDA 4a-8b y Penn State 5-8 (mínimas mucho más bajas). Se toma el dato más conservador, -15 °C, que se refiere a planta en suelo y bien drenada. En maceta las raíces están más expuestas al frío; ninguna fuente da el mínimo en maceta: en Madrid aguanta las heladas habituales en terraza, pero en olas de frío fuerte conviene arrimar la maceta a la pared. El frío con sustrato encharcado es más peligroso que el frío seco (RHS, Maryland). La parte aérea puede secarse en invierno y rebrotar en primavera. Ideal 15,5-21 °C (60-70 °F) es el de Oklahoma State para hierbas en interior (dato general de hierbas). Ninguna fuente da una máxima: tolera el calor (NC State). Revisión del orquestador: min_c fijado en -5 °C para planta en maceta [orientativo, sin fuente prioritaria]: los -15/-20 °C de RHS H6 y las zonas USDA se refieren a planta en suelo, y en maceta el cepellón se congela antes (mismo criterio que la ficha de Fatsia japonica). En suelo aguanta mucho más.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F7",
+        "F2",
+        "F10"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal sin turba con hasta un 25 % en volumen de grava o arena gruesa de horticultura para mejorar el drenaje (RHS). Le van los suelos pobres, ligeros y de fertilidad media (Delaware, Maryland, NC State: incluso francoarenosos). No añadir compost en exceso. Maceta con agujeros, de al menos 15 cm de ancho y de fondo para una planta joven (RHS); mejor barro que plástico en Madrid para que transpire [orientativo, sin fuente prioritaria].",
+      "ph": "Neutro a ligeramente alcalino, en torno a 6,8 (Penn State); RHS prefiere suelo alcalino aunque tolera ácido y neutro; NC State acepta de ácido a alcalino.",
+      "drenaje": "Muy bueno, imprescindible. Nada de agua en el plato. En suelos pesados o húmedos las raíces se pudren (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F7",
+        "F8",
+        "F1",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Muy poco abono: crece bien en suelo pobre y en tierra no necesita abonado (RHS). En maceta, abono equilibrado de uso general (RHS, Penn State). El exceso de abono da hojas más grandes y blandas, con menos aroma [orientativo, sin fuente prioritaria específica para orégano].",
+      "npk": "Equilibrado (Penn State, RHS 'general purpose'); ninguna fuente da cifras.",
+      "primavera_verano": "En maceta con más de un año en el mismo sustrato: una sola aplicación de abono granulado de uso general a finales de primavera o principios de verano (RHS), o una vez al año (Penn State). Si se usa abono líquido, ¼-½ de la dosis de etiqueta y como mucho una vez al mes en crecimiento activo (abril-junio en Madrid); en pleno verano con calor extremo, no abonar.",
+      "otono_invierno": "Nada. Si sigue verde en interior junto a una ventana, solo abono líquido muy diluido y de forma excepcional (Oklahoma State).",
+      "notas": "Plantas recién trasplantadas a sustrato nuevo no necesitan abono el primer año (RHS: solo se abona en maceta a partir del segundo año).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F7",
+        "F10"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años dividir la mata para que recupere vigor y sabor (UF/IFAS). Cuando la planta se vuelve muy leñosa y pierde vigor, a los 3-4 años, conviene renovarla con esquejes o una planta nueva (Maryland, Penn State: cada cuatro años).",
+      "epoca": "Primavera (Penn State; RHS: plantar a finales de primavera) o, para dividir, justo después de la floración, a finales de verano o principios de otoño (RHS). En Madrid: marzo-abril o finales de septiembre-octubre; nunca en pleno verano.",
+      "senales": "Raíces que salen por los agujeros, centro de la mata leñoso y sin brotes, la maceta se seca en pocas horas y la planta crece poco en primavera (UF/IFAS, Maryland).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F9",
+        "F4",
+        "F7",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. La recolección es la poda: cortar a menudo mantiene la mata compacta y con brotes nuevos (RHS, NC State). Cortar las flores estimula el follaje (Maryland).",
+      "epoca": "A finales de invierno o inicio de primavera, quitar los tallos viejos, secos y floridos del año anterior y la madera leñosa ahilada (RHS ficha, Penn State). A finales de primavera, recorte para compactar (RHS). Recolección de finales de primavera a otoño, con el mejor sabor justo antes de la floración (NC State, RHS, UF/IFAS). Cortar los tallos florales cuando pasen las flores (RHS).",
+      "como": "Con tijera limpia, cortar los brotes por encima de un par de hojas. Despuntar cuando los brotes tengan unos 15 cm para que ramifique (Penn State). En verano, antes de la floración completa, se puede cosechar hasta ¾ del crecimiento del año de una vez (Penn State); en interior en invierno, no más de un tercio de la planta (Oklahoma State). No cortar la madera vieja sin hojas por debajo de los brotes. [orientativo, sin fuente prioritaria para esta última precaución]",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F7",
+        "F4",
+        "F10"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aproximadamente de noviembre a febrero en Madrid; en el hemisferio sur, de mayo a agosto). Lo marcan el frío y los días cortos.",
+      "cambios": "Es caducifolia (NC State, RHS): parte de los tallos se secan y se reduce a una mata baja. Regar muy poco, no abonar y protegerla de la lluvia y el encharcamiento (RHS). Cortar los tallos viejos al final del invierno. Si se mete en casa en otoño con calor y luz suficientes puede seguir dando hojas (RHS). Que pierda hojas en invierno al aire libre es normal.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo semileñoso/blando",
+        "division",
+        "acodo",
+        "semilla"
+      ],
+      "epoca": "Esquejes: de finales de primavera a verano, de brotes nuevos (Penn State, RHS). División: primavera o a finales de verano-principios de otoño tras la floración (RHS). Acodo: primavera u otoño (RHS). Semilla: primavera, en interior (RHS, Penn State).",
+      "pasos": "1) Esqueje: elegir una planta de buen sabor (probar las hojas); cortar puntas nuevas de 7,5-12,5 cm, con las hojas ya firmes, con un corte en bisel; quitar las hojas de abajo y plantar en sustrato arenoso; trasplantar cuando haya enraizado bien (Penn State). 2) División: sacar la mata, partirla en trozos con raíces y brotes, tirar el centro leñoso y plantar cada trozo (RHS, UF/IFAS). 3) Acodo: sujetar un tallo bajo contra el sustrato hasta que enraíce; a menudo ocurre solo: buscar tallos ya enraizados en el borde de la mata y ponerlos en maceta (RHS). 4) Semilla: sembrar en superficie, sin cubrir, sobre sustrato sin turba húmedo, a unos 20 °C, en propagador o con bolsa de plástico; germina en 1-3 semanas; no encharcar (podredumbre de plántulas) y repicar a macetas de 7,5 cm (RHS). La semilla no siempre da plantas con buen sabor; los métodos vegetativos dan plantas iguales a la madre (UF/IFAS, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F2",
+        "F9",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato húmedo, mal drenado o encharcado, sobre todo en invierno (NC State, Penn State, RHS, Maryland). Es el problema más grave del orégano en maceta. Qué hacer: dejar secar, vaciar el plato, trasplantar a sustrato con grava y maceta con agujeros; si la mata está muy dañada, rehacerla con esquejes de tallos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores e interiores por exceso de agua o mal drenaje (Maryland, síntoma principal del exceso de humedad en hierbas). Al final del otoño, que se sequen tallos y hojas viejas es el inicio normal del reposo."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Si el sustrato está húmedo: exceso de riego o pudrición de raíz o cuello (Maryland: el exceso de agua da los mismos síntomas que la sequía). Si está seco del todo en pleno verano de Madrid: falta de agua en maceta pequeña; regar a fondo. Comprobar siempre el sustrato antes de regar."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de cuello por exceso de riego o agua estancada alrededor de la base (Maryland). Retirar la planta si el cuello está blando; esquejar los tallos sanos."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya de la menta (Puccinia menthae), que afecta también a la mejorana y al orégano (RHS, Penn State, Delaware): manchas pulverulentas naranjas, amarillas y negras en las hojas y brotes deformados, de primavera a otoño. Retirar y tirar a la basura (no al compost) los tallos afectados, regar al pie y no mojar las hojas. RHS: no hay fungicidas contra la roya autorizados en hierbas culinarias. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State, Delaware, Penn State) o trips (Delaware, Penn State): punteado amarillento o plateado en el haz, más frecuente con calor y aire seco (verano en terraza en Madrid, interior con calefacción). También las chicharritas de la salvia dan un moteado pálido grueso en primavera-verano (RHS). Cortar los tallos afectados (es también recolección), ducha de agua en el envés. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en infestación avanzada: telillas finas en puntas y axilas (NC State y Delaware la citan como plaga del orégano). Corte fuerte de los tallos afectados; el orégano rebrota bien. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en brotes tiernos y plántulas (NC State, Delaware, Penn State). Retirar con un chorro de agua o cortando las puntas afectadas. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, sobre todo en plantas jóvenes (Penn State); las adultas suelen repelerla con su aroma. Revisar el envés y retirar hojas muy afectadas. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "En terraza: orugas de la polilla de la menta (RHS) y gusanos grises que cortan tallos jóvenes (Penn State). Retirar a mano. Las minadoras (NC State, Penn State) hacen galerías claras dentro de la hoja: quitar las hojas minadas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de sol, típica en interior o en terraza a norte: tallos largos y débiles, hojas pequeñas y pálidas y poco aroma. Llevar a pleno sol (6 h o más) o, en interior, a ventana sur o bajo lámpara de cultivo, y recolectar a menudo para que ramifique (Oklahoma State, NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura de hojas en cultivares dorados o variegados ('Aureum') a pleno sol en verano (UF/IFAS, NC State). Darles sombra en las horas centrales. La especie verde tolera el sol fuerte."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Tolera el calor de 35-40 °C y el aire seco (NC State), pero en maceta pequeña a sur u oeste el sustrato se seca muy rápido (RHS): usar maceta de al menos 15-20 cm, mejor de barro, y comprobar el sustrato cada día en olas de calor, regando solo cuando esté seco a 2-3 cm. No hace falta sombra para la especie verde; los cultivares dorados sí la agradecen en las horas centrales (NC State, UF/IFAS). Es la época de la araña roja y los trips: revisar las hojas. Cosechar antes de la floración (junio-julio) y cortar las flores pasadas. No abonar con calor extremo.",
+    "invierno": "Es mejor dejarla fuera, en terraza o balcón: aguanta las heladas habituales de Madrid (RHS H6, hasta -15 °C en suelo), pero la mata el encharcamiento con frío (RHS, Maryland). Ponerla junto a una pared o bajo un alero, sin plato, y regar casi nada. En olas de frío fuerte, arrimar la maceta a la pared. Si se mete dentro para seguir cosechando, ponerla en la ventana más soleada y fresca de la casa, lejos de radiadores (Maryland: las casas con calefacción son demasiado calientes y secas para las aromáticas); con humedad por debajo del 30 % sufre de araña roja; regar solo con el sustrato seco y que las hojas no toquen un cristal frío (Oklahoma State).",
+    "ubicacion_recomendada": "Terraza o balcón a pleno sol (sur u oeste), con 6 h o más de sol directo, en maceta con agujeros y sustrato con grava. En interior solo de forma temporal, en alféizar de ventana sur o con lámpara de cultivo."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Origanum vulgare L.; la ficha de taxón de POWO devolvió 403 y solo se pudo leer la página de resultados de búsqueda (especie aceptada y subespecies, p. ej. subsp. gracile). No se han revisado los sinónimos ni la lista de subespecies (subsp. vulgare, subsp. hirtum = orégano griego, subsp. virens, etc.); no hay cambio de nombre.",
+    "Missouri Botanical Garden Plant Finder no se pudo consultar para esta especie (el enlace probado correspondía a otra planta). Wisconsin, Clemson, Univ. Minnesota e Iowa State: sin ficha de orégano localizable (404).",
+    "Toxicidad en perros y gatos: solo una fuente prioritaria (ASPCA, ficha de Origanum vulgare hirtum); no hay ficha de orégano en Pet Poison Helpline ni se encontró fuente universitaria veterinaria. No hay fuente toxicológica humana específica: 'no tóxica' para niños se basa en su uso como alimento.",
+    "Ninguna fuente prioritaria da la intensidad de luz en lux o fc; lux_min (10 760) sale de la escala del proyecto para luz directa y lux_max queda en null.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa (min_pct e ideal_pct en null).",
+    "No hay temperatura mínima específica en maceta ni temperatura máxima. min_c (-15 °C) es el límite superior de la categoría RHS H6 para planta en suelo. El ideal de 15,5-21 °C es el de Oklahoma State para hierbas en interior en general.",
+    "La autoctonía en España se deduce del área de distribución de NC State ('Europe, Macaronesia to China') y RHS (Europa, norte de África); no se pudo leer el mapa de distribución de POWO ni consultar Flora iberica (Real Jardín Botánico).",
+    "No se ha comprobado en el Registro del MAPA qué productos de uso no profesional están autorizados en plantas aromáticas contra roya, pulgón, araña roja o trips; RHS indica que en Reino Unido no hay fungicidas autorizados contra la roya en hierbas culinarias.",
+    "Los rasgos morfológicos para separar el orégano de la mejorana, Origanum onites, Lippia graveolens y el tomillo no se han verificado en fuentes prioritarias más allá de lo citado; la frase de la RHS sobre el riego en maceta ('never let the compost get …') llegó cortada y no se ha usado."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/origanum-vulgare/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox, 'Origanum vulgare'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/herbs/oregano/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS), 'How to grow oregano' (2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/11923/origanum-vulgare/details",
+      "institucion": "Royal Horticultural Society (RHS), Plant Profile 'Origanum vulgare'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umd.edu/resource/oregano",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center, 'Oregano'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.umd.edu/resource/herb-problems",
+      "institucion": "University of Maryland Extension, 'Herb problems'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.umd.edu/resource/care-herbs",
+      "institucion": "University of Maryland Extension, 'Care of herbs'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.psu.edu/herb-garden-plants-oregano",
+      "institucion": "Penn State Extension, 'Herb Garden Plants: Oregano' (act. abril 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.udel.edu/content/dam/udelImages/canr/pdfs/extension/factsheets/Oregano.pdf",
+      "institucion": "University of Delaware Cooperative Extension, ficha 'Oregano' (Master Gardeners, oct. 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/05/28/fact-sheet-european-oregano/",
+      "institucion": "UF/IFAS Extension Nassau County, 'Fact sheet: European Oregano' (2017)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://extension.okstate.edu/announcements/grow-gardening-columns/november-19-2023",
+      "institucion": "Oklahoma State University Extension, 'Herbs are easy to grow indoors in the winter' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/oregano",
+      "institucion": "ASPCA Animal Poison Control Center, 'Oregano' (Origanum vulgare hirtum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.rhs.org.uk/disease/mint-rust",
+      "institucion": "Royal Horticultural Society (RHS), 'Mint rust'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://powo.science.kew.org/results?q=Origanum%20vulgare",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO), búsqueda 'Origanum vulgare' (Origanum vulgare L., especie aceptada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,311 @@
+{
+  "nombre_cientifico": "Anthurium clarinervium",
+  "nombres_comunes": [
+    "anturio clarinervium",
+    "anturio de hoja aterciopelada",
+    "anturio de nervios claros"
+  ],
+  "familia": "Araceae",
+  "origen": "Endémica del sureste de México (Chiapas): según CATE Araceae/POWO solo se conoce de afloramientos calizos entre el río Grijalva y el río de la Venta, al norte de Ocozocoautla de Espinosa. CATE cita también la provincia de Colón (Panamá), pero POWO solo la da como nativa de México Sureste.",
+  "clima_nativo": "Bosque tropical sobre karst calizo a unos 760-1160 m de altitud (Wikipedia, sin fuente prioritaria). Crece sobre todo en el suelo con las raíces hundidas entre las rocas y, con menos frecuencia, como litófita en la capa fina de suelo que cubre la roca (CATE Araceae/POWO). Siempre cálido, sin heladas; RHS la clasifica H1A (por encima de 15 °C todo el año).",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Hojas ovadas y acorazonadas, con la base muy lobulada y el ápice acuminado, de 11-25,5 cm de largo y 6,5-17 cm de ancho, más anchas hacia la mitad. Los lóbulos basales a veces se solapan sobre el seno. Lámina bastante coriácea y gruesa (tacto de cartón). Haz mate y aterciopelado, verde muy oscuro; envés más pálido y mate. Las hojas se mantienen erguidas o abiertas sobre pecíolos cortos (7-16 cm), cilíndricos, verdes o rojo-violáceos con motas verdes, con un engrosamiento (genículo) de 1-1,5 cm bajo la lámina (CATE Araceae/POWO). Inflorescencia poco vistosa: espata estrecha, lanceolada, de papel, verde pálido con tintes violetas (3,7-6,5 cm), y espádice verde violáceo de 4,7-7,5 cm, sobre un pedúnculo más largo que las hojas. Bayas de color naranja vivo.",
+    "nerviacion": "Rasgo clave para visión: todos los nervios (nervio central, 3-5 nervios laterales primarios por lado, nervios interprimarios y 4-5 pares de nervios basales) quedan contorneados por una franja blanca o blanco verdosa muy contrastada sobre el verde oscuro aterciopelado, lo que da un dibujo reticulado tipo 'esqueleto'. Los nervios basales se curvan hacia el ápice y hacia el margen y se unen en un nervio colector que nace del primer nervio basal (CATE Araceae/POWO).",
+    "variegacion": "Sin variegación: el dibujo blanco es nerviación contorneada, no variegación. Con poca luz el contraste de los nervios pierde intensidad (Wikipedia).",
+    "tallo": "Tallo corto, de 1-2 cm de diámetro, con cicatrices foliares de 1,7 cm y catafilos de 3-4 cm, rojo-violáceos con motas verdes, que se secan pardos y quedan persistentes y deshilachados alrededor del tallo (CATE Araceae/POWO). Raíces gruesas.",
+    "habito": "Herbácea perenne siempreverde, compacta y en roseta, de crecimiento lento (RHS: 2-5 años hasta la madurez). En hábitat, terrestre entre rocas o litófita; RHS la describe como epífita.",
+    "tamano_adulto_interior": "Unos 25-30 cm de alto, con altura y anchura máximas de 0,1-0,5 m (RHS). Ejemplares viejos pueden llegar a 0,7 m de alto y 0,4 m de ancho [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {
+        "especie": "Anthurium crystallinum (anturio cristal)",
+        "rasgo_diferenciador": "Hojas mayores (hasta 45 cm de largo según RHS) y más alargadas, de elípticas anchas a ovadas, finas y no acartonadas; A. clarinervium tiene hojas más pequeñas (11-25,5 cm), casi tan anchas como largas, en forma de corazón, gruesas y coriáceas, con los lóbulos basales a menudo solapados y nervios blancos más gruesos y contrastados en toda la red de nervios. A. crystallinum es de Panamá y Colombia; A. clarinervium, de Chiapas (México). Ojo: en el comercio circulan híbridos entre ambas con rasgos intermedios."
+      },
+      {
+        "especie": "Anthurium andraeanum y otros anturios de flor",
+        "rasgo_diferenciador": "Hojas lisas, brillantes y verdes, sin nervios blancos, y espata grande, plana, cerosa y de color (roja, rosa, blanca); A. clarinervium tiene hojas aterciopeladas mates con nervios blancos y una espata pequeña, estrecha y verdosa."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico, presentes en todas las partes de la planta (dato de género: NC State para Anthurium spp. y ASPCA para Anthurium scherzeranum). La RHS indica para esta especie que es nociva si se ingiere e irrita piel y ojos.",
+    "sintomas": "Al morder o masticar: dolor e irritación inmediata en boca, labios y lengua, inflamación, babeo abundante, dificultad para tragar, pérdida de apetito y vómitos. La savia irrita piel y ojos (enrojecimiento, escozor, dermatitis de contacto). Gravedad baja según NC State para el género. Usar guantes al manipularla y colocarla fuera del alcance de niños y mascotas; si hay ingestión con síntomas, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F4",
+      "F6"
+    ],
+    "notas": "Solo la RHS (F1) trata la especie, y sin detallar principio activo ni mascotas (remite a la guía de la HTA). NC State (F3) y ASPCA (F4) son datos de género (Anthurium spp. y A. scherzeranum). Coherente con la ficha de Anthurium andraeanum del proyecto. Se deja en Media por la regla del proyecto: no subir a Alta con fuentes de género."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS para la especie), o ventana sur tamizada con cortina fina o estor. En Madrid, en ventana sur u oeste, a 1-2 m del cristal o detrás de cortina de mayo a septiembre.",
+      "tolera_sol_directo": "No. El sol directo de verano quema las hojas (RHS, NC State para el género); como mucho, sol suave de primera hora de la mañana o sol de invierno.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F6"
+      ],
+      "notas": "La RHS da para la especie 'semisombra' en la ficha y 'luz brillante indirecta' en interior. Ninguna fuente prioritaria da lux para la especie. lux_max (1000 fc) es el techo de la luz brillante indirecta de la escala del proyecto; lux_min (100 fc) sale del dato de UF/IFAS para el género: varios cultivares de anturio de flor se mantuvieron en interior más de año y medio con 100 fc. Para un buen dibujo de nervios conviene el tramo alto (500-1000 fc ≈ 5400-10 760 lux) [orientativo, sin fuente prioritaria]: con poca luz los nervios pierden contraste (Wikipedia) y los tallos se alargan (UK Houseplants)."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (la RHS, para el género, indica comprobar a unos 5 cm y regar cuando la mezcla esté casi seca) y la maceta pese claramente menos que recién regada. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos. Nunca regar por calendario ni dejar la maceta encharcada.",
+      "primavera_verano": "Riego abundante cada vez que se cumpla el criterio (RHS: 'water freely' en temporada de crecimiento). Con calor el sustrato aireado se seca rápido: comprobar dedo y peso cada 2-3 días en Madrid en verano. Que se seque la capa superior, no el cepellón entero.",
+      "otono_invierno": "Riego escaso (RHS para la especie: 'water sparingly in winter'): esperar a que el sustrato esté casi seco y la maceta ligera. Con calefacción fuerte puede secarse antes; guiarse por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente, nunca fría. La RHS desaconseja el agua dura y alcalina para los anturios; el agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve. Dejar reposar el agua no elimina la cloramina, y no hace falta. Lavar el sustrato con riego abundante cada pocos meses para arrastrar sales de abono (UF/IFAS, género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F3",
+        "F6"
+      ],
+      "notas": "Solo la RHS (F1) da datos de riego para la especie. La pudrición de raíces por exceso de riego la citan la RHS para la especie y NC State y la RHS para el género. Como en hábitat crece con las raíces entre rocas calizas, con drenaje inmediato, tolera peor el sustrato mojado que el seco."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 70,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F8"
+      ],
+      "notas": "La RHS (especie) pide subir la humedad y NC State (género) habla de 'condiciones muy húmedas', con puntas marrones si la humedad es baja; ninguna da cifras. Las cifras salen de fuentes complementarias: Wikipedia da ≥50 %, ideal 75-85 % [orientativo, sin fuente prioritaria]. Se adopta mínimo 50 % e ideal 70 % [orientativo, sin fuente prioritaria], como en A. andraeanum. Según la convención del proyecto, pulverizar no sube la humedad de forma útil: usar humidificador, agrupar plantas o bandeja con grava húmeda sin que la maceta toque el agua (la RHS recomienda la bandeja)."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F6",
+        "F9"
+      ],
+      "notas": "Mínimos distintos: la RHS para la especie la clasifica H1A (por encima de 15 °C todo el año) y pide mantenerla por encima de 18 °C en invierno; UF/IFAS (género, producción) sitúa el daño por debajo de 13 °C (55 °F); UK Houseplants da 15 °C como mínimo absoluto. Se adopta 15 °C como mínimo de daño (el más alto de los umbrales de daño, coherente con la ficha de A. andraeanum) y 18 °C como mínimo recomendado en invierno (ideal_min_c). Máximo: RHS 18-30 °C para el género; NC State 18-29 °C (65-85 °F). Ideal 18-27 °C (Wikipedia da 21-27 °C). Sin corrientes frías ni fuentes de calor cercanas."
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada y de drenaje rápido. RHS para la especie: 2 partes de sustrato ácido (para acidófilas) sin turba, 1 parte de grava hortícola y 1 parte de corteza de orquídea; para el género, la RHS cambia la grava por perlita y UF/IFAS usa turba, perlita y corteza a partes iguales. También puede cultivarse como epífita (RHS). Maceta con agujeros, ajustada al cepellón, solo un tamaño mayor que la anterior.",
+      "ph": "Ácido a neutro según RHS para la especie; 6,0-6,5 para el género según UF/IFAS.",
+      "drenaje": "Excelente. En hábitat crece con las raíces hundidas entre rocas calizas o en capas finas de suelo sobre roca (CATE Araceae/POWO). Un sustrato compacto, arcilloso o una maceta grande retienen agua y pudren las raíces.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble equilibrado o abono para orquídeas, diluido.",
+      "npk": "20-20-20 (equilibrado) a 50 ppm de N en interior según UF/IFAS para el género.",
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras haya crecimiento activo (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada si no crece. En interior cálido y luminoso con hojas nuevas, como mucho una dosis mínima mensual.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5"
+      ],
+      "notas": "Contradicción de frecuencia: la RHS (especie) recomienda abono de orquídeas cada dos semanas de primavera a otoño; UF/IFAS (género) una vez al mes con 20-20-20 a 50 ppm de N en interior. Se adopta la opción más conservadora, que coincide con la convención del proyecto. El exceso de abono acumula sales y quema puntas y bordes (UF/IFAS)."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando esté apretada de raíces; puede pasar 1-2 años en la maceta de compra (RHS, género).",
+      "epoca": "Primavera.",
+      "senales": "Raíces que salen por el drenaje o por encima del sustrato, cepellón lleno de raíces, agua que atraviesa la maceta sin empapar, sustrato degradado y compacto o costra de sales.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F8"
+      ],
+      "notas": "La RHS no da datos de trasplante en la ficha de la especie; se usan los del género. UK Houseplants (complementaria) indica cada dos años en primavera, al tamaño siguiente."
+    },
+    "poda": {
+      "necesita": "No necesita poda de formación.",
+      "epoca": "Todo el año, cuando haya hojas secas o inflorescencias pasadas.",
+      "como": "Cortar por la base las hojas muertas y los tallos florales marchitos con tijera limpia (RHS). Usar guantes: la savia irrita piel y ojos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "Sin reposo verdadero: es siempreverde y florece a lo largo del año (RHS). En invierno, con menos luz, crece más despacio: riego escaso, sin abono si no crece y por encima de 18 °C (nunca por debajo de 15 °C).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division de mata",
+        "hijuelos",
+        "esquejes de tallo o de rizoma",
+        "semilla"
+      ],
+      "epoca": "Primavera o verano (RHS).",
+      "pasos": "División o hijuelos (el método más fácil): sacar la planta de la maceta y separar con las manos secciones o hijuelos basales que tengan sus propias raíces; plantarlos por separado en la mezcla aireada. Esqueje de tallo o rizoma: plantar el trozo en sustrato ácido y mantenerlo en un propagador cerrado y calefactado a unos 21 °C hasta que salgan raíces y brotes (RHS, género). Semilla: posible a partir de las bayas naranjas maduras; procedimiento no verificado en fuente prioritaria. Usar guantes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F8"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o sustrato compacto (la RHS lo cita para la especie). Es el problema más grave."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Colapso de la base del tallo asociado a pudrición por exceso de agua (UK Houseplants, complementaria)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, plaga citada por la RHS para la especie."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo, citada por la RHS para la especie."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente (NC State para el género)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja o trips (NC State los cita para el género)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por aire seco, sobre todo con calefacción (RHS, género), o por sales de abono acumuladas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por humedad ambiental baja (NC State, género) o por exceso de abono (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas y pardas por sol directo de verano (RHS, NC State para el género)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos alargados y nervios con menos contraste por poca luz (UK Houseplants, Wikipedia; complementarias)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Estrés tras el trasplante o el traslado (UK Houseplants, complementaria)."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Moho en la superficie del sustrato por exceso de riego con poca luz (UK Houseplants, complementaria)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis entre nervios en hojas viejas por carencia de magnesio (UF/IFAS para el género). Ojo: no confundir con el dibujo blanco natural de los nervios."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato aireado se seca deprisa: comprobar dedo y peso cada 2-3 días y regar a fondo cuando estén secos los 2-3 cm superiores, sin dejar agua en el plato. Apartarla del sol directo de ventanas sur y oeste (1-2 m del cristal o detrás de cortina fina): el sol de tarde quema la lámina aterciopelada. Si dentro se superan los 30 °C, llevarla a la habitación más fresca y luminosa sin sol directo, lejos del chorro del aire acondicionado. Subir la humedad con humidificador o agrupando plantas (objetivo ≥50 %, ideal 60-80 %) y vigilar araña roja y trips en el envés.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, muy por debajo del mínimo del 50 %: humidificador o agrupar plantas, y lejos de radiadores y salidas de aire caliente (bordes y puntas marrones). Mantenerla por encima de 18 °C y nunca por debajo de 15 °C; apartarla de cristales fríos y corrientes por la noche (las hojas no deben tocar el cristal). Riego escaso, con agua a temperatura ambiente y siempre comprobando sustrato y peso. Sin abono si no crece. El sol suave de invierno en una ventana sur u oeste le viene bien.",
+    "ubicacion_recomendada": "Interior todo el año, junto a una ventana este u oeste o a 1-2 m de una ventana sur con cortina fina en verano; baño o cocina luminosos, o vitrina o invernadero de interior si la humedad de casa es muy baja. Fuera del alcance de niños y mascotas. No sacarla al exterior en Madrid."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Anthurium clarinervium Matuda (urn:lsid:ipni.org:names:15185-2), nativa de México Sureste; no da sinónimos en la ficha consultada. CATE Araceae cita además la provincia de Colón (Panamá), dato que POWO no recoge como distribución nativa.",
+    "Pocas fuentes prioritarias tratan el cultivo de la especie: solo la ficha de la RHS. Luz, riego, humedad, sustrato, abonado, trasplante y propagación se completan con fuentes de género (NC State Anthurium spp., RHS How to grow anthuriums, UF/IFAS EP159, centrada en A. andraeanum e híbridos), por eso todos los bloques quedan en confianza Media.",
+    "Ninguna fuente prioritaria da cifras de humedad relativa ni lux para la especie; los valores numéricos de humedad son orientativos (Wikipedia, complementaria) y los lux salen de la escala del proyecto y de datos de género (UF/IFAS).",
+    "Toxicidad: ASPCA no tiene ficha de A. clarinervium; se usa la de 'Flamingo Flower' (Anthurium scherzeranum) y la de NC State para el género. La RHS la da como nociva para la especie sin detallar mascotas.",
+    "Sin fuente prioritaria sobre el ecosistema: POWO/CATE describe un hábitat sobre afloramientos calizos, mientras fuentes divulgativas hablan de bosque nuboso húmedo; altitud (760-1160 m) sin confirmar en fuente prioritaria. No se pudo abrir la página de la International Aroid Society (certificado no válido), que trataría las diferencias con A. crystallinum (color de nervios, tamaño) y la producción de semilla sin polinización.",
+    "Confusiones no verificadas en fuente prioritaria: otros anturios de hoja aterciopelada (A. forgetii, A. magnificum, A. regale) y los híbridos comerciales A. clarinervium × A. crystallinum; falta una fuente para describir sus rasgos diferenciadores.",
+    "Propagación por semilla: no hay procedimiento verificado en fuente prioritaria."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/84264/anthurium-clarinervium/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Anthurium clarinervium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:15185-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), descripción de CATE Araceae (Haigh et al., 2011; basada en Croat 1983, Annals of the Missouri Botanical Garden)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-spp/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Anthurium spp.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "institucion": "ASPCA Animal Poison Control Center — Flamingo Flower (Anthurium scherzeranum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://ask.ifas.ufl.edu/publication/EP159",
+      "institucion": "UF/IFAS Extension (University of Florida) — EP159 Cultural Guidelines for Commercial Production of Interiorscape Anthurium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow anthuriums",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/25099/anthurium-crystallinum/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Anthurium crystallinum (para confusiones)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://en.wikipedia.org/wiki/Anthurium_clarinervium",
+      "institucion": "Wikipedia — Anthurium clarinervium",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.ukhouseplants.com/plants/anthurium-clarinervium",
+      "institucion": "UK Houseplants — Anthurium clarinervium",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

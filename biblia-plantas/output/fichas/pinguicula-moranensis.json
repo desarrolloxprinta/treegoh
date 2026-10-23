@@ -1,0 +1,380 @@
+{
+  "nombre_cientifico": "Pinguicula moranensis",
+  "nombres_comunes": [
+    "pinguicula",
+    "grasilla",
+    "grasilla mexicana"
+  ],
+  "familia": "Lentibulariaceae",
+  "origen": "México (RHS da como área 'Mexico'); según Wikipedia (complementaria, que cita a Zamudio 2001) también El Salvador, Guatemala y Honduras. Es la especie más común y extendida de la sección Orcheosanthus, de la que es la especie tipo (Fleischmann 2021), y una de las grasillas más cultivadas.",
+  "clima_nativo": "Montaña tropical con estación seca marcada: muchas grasillas mexicanas viven en bosques de niebla estacionales, sobre roquedos calizos y troncos, con frecuencia en paredes orientadas al norte con poco o ningún sol directo (ICPS). En verano lluvioso forma hojas carnívoras; con la estación seca (de octubre a mayo, según Wikipedia) pasa a una roseta invernal suculenta no carnívora. Templado-cálido, sin calor extremo ni encharcamiento permanente: no es planta de turbera.",
+  "categoria": "carnivora",
+  "dificultad": "facil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Planta heterófila (dos tipos de hoja según la estación). Hojas de verano: roseta plana pegada al sustrato de 6-8 hojas obovadas a casi redondas, de 5,5-13 cm de largo con un pecíolo corto de 1-3,5 cm, carnosas y rígidas, de verde amarillento a granate (más rojizas con mucha luz), con el haz brillante y grasiento cubierto de glándulas pegajosas (aspecto 'mojado') donde quedan pegados mosquitos; márgenes ligeramente enrollados hacia arriba a lo largo de los lados (Fleischmann 2021; C1). Hojas de invierno: roseta pequeña y compacta de 2-3 cm (máx. 5 cm) formada por 60-100 o más hojitas carnosas de 1-3 cm, espatuladas, sin glándulas pegajosas y finamente pelosas, a veces con aspecto de bulbito (C1; ICPS).",
+    "nerviacion": "No visible: lámina lisa y carnosa sin nervios marcados en el haz.",
+    "variegacion": "No variegada. El color de la hoja varía mucho incluso dentro de una población (verde amarillento a granate); el rojo intenso indica mucha luz, no variegación.",
+    "tallo": "Sin tallo aparente (roseta acaule). Flores solitarias sobre pedúnculos erectos de 10-25 cm, verdes o pardo-verdosos y cubiertos de pelos glandulares que también atrapan insectos (C1).",
+    "habito": "Roseta herbácea perenne, plana y pegada al sustrato, de crecimiento lento. Flores de color rosa, púrpura o violeta (algunas formas blancas o con algo de amarillo en el tubo), con espolón largo, de 1 a 7 por floración; puede florecer dos veces al año, desde la roseta de verano y desde la de invierno (C1; Fleischmann 2021; RHS).",
+    "tamano_adulto_interior": "Roseta de verano de unos 10-20 cm de diámetro [orientativo, deducido de la longitud de hoja de 5,5-13 cm, C1]; roseta de invierno de 2-5 cm. Varas florales de 10-25 cm.",
+    "confusiones": [
+      {
+        "especie": "Pinguicula gigantea",
+        "rasgo_diferenciador": "Homófila: no forma roseta invernal suculenta, solo se hace algo más pequeña en invierno, y florece a principios de invierno (ICPS). Hojas mucho más grandes y pegajosas por las dos caras (C2)."
+      },
+      {
+        "especie": "Pinguicula esseriana",
+        "rasgo_diferenciador": "Planta pequeña con hojas carnívoras muy suculentas y gruesas, con el margen enrollado solo cerca del ápice o nada (sección Agnata), frente a las hojas grandes, finas y con los márgenes laterales enrollados de P. moranensis (Fleischmann 2021)."
+      },
+      {
+        "especie": "Pinguicula 'Tina' (P. agnata × P. zecheri)",
+        "rasgo_diferenciador": "Híbrido de cultivo con flores grandes lila claro con estrías púrpura en la garganta (C3, vivero); sus progenitores pertenecen a otras secciones. Sin fuente prioritaria para su morfología: la identificación por foto debe tratarla con cautela."
+      },
+      {
+        "especie": "Pinguicula 'Weser' y otros híbridos de P. moranensis",
+        "rasgo_diferenciador": "'Weser' (P. moranensis × P. ehlersiae) es más pequeña (hasta 10 cm, roseta de 0-10 cm de anchura) con hojas verde pálido que se tiñen de rosa con mucha luz (RHS). Muchos híbridos mexicanos se venden como 'moranensis': la foto no permite distinguir con seguridad especie e híbrido."
+      },
+      {
+        "especie": "Grasillas templadas (Pinguicula vulgaris, P. grandiflora) y droseras",
+        "rasgo_diferenciador": "Las templadas forman en invierno una yema de reposo (hibernáculo) sin hojas y necesitan frío; las droseras tienen tentáculos rojos con gotas visibles en el borde de la hoja, no una lámina lisa grasienta."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "confianza": "Media",
+    "fuentes": [
+      "P11"
+    ],
+    "notas": "La ASPCA no tiene ficha de ningún Pinguicula (sí de Dionaea muscipula, de otra familia); no se ha encontrado ninguna otra fuente prioritaria (NC State, RHS, UC ANR, Clemson) que clasifique su toxicidad. No se extrapola desde otras carnívoras. Por prudencia, fuera del alcance de gatos, perros y niños; si un niño la come, llamar al Servicio de Información Toxicológica (91 562 04 20); si es un animal, al veterinario."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 8000,
+      "lux_max": 15000,
+      "orientacion_hn": "Ventana luminosa con sol suave: este (sol de mañana) o sur con cortina fina; oeste solo con sol filtrado en verano. La RHS (híbrido 'Weser') indica orientación sur u oeste, pleno sol o semisombra y luz brillante filtrada; la ICPS la considera ideal para una ventana soleada o bajo LED.",
+      "tolera_sol_directo": "Sí, el sol suave de mañana o filtrado. Con LED, la ICPS clasifica las grasillas mexicanas en 'luz moderada' y advierte que la luz intensa (15.000-25.000 lux) 'puede ser demasiada'. Aclimatar poco a poco si pasa de sombra a sol: el sol fuerte y repentino tras el cristal la quema.",
+      "notas": "La ICPS da 8.000-15.000 lux de LED blanco ('luz moderada') para Pinguicula mexicanas; 8.000 lux ≈ 740 fc (brillante indirecta en la escala del proyecto) y 15.000 lux ≈ 1.390 fc (directa suave). Muy importante: necesita cambios graduales de la duración del día para pasar de la roseta invernal a la carnívora y para florecer; con un temporizador fijo todo el año se queda 'atascada' en la fase no carnívora (ICPS). Por eso lo mejor es luz natural de ventana; si se usa LED, con temporizador que imite el amanecer y el atardecer según la fecha. Con mucha luz las hojas enrojecen; con poca, se alargan y quedan verde pálido.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P3",
+        "P1",
+        "P7"
+      ]
+    },
+    "riego": {
+      "criterio": "Por la humedad del sustrato y el peso de la maceta: con mezcla ligera, levantar la maceta indica lo mojada que está (ICPS). Comprobar con el dedo a 2-3 cm. En verano (hojas pegajosas) mantener el sustrato húmedo; en invierno (roseta suculenta) regar mucho menos y dejar que casi se seque. Regar por abajo (plato) y no mojar la roseta. No es una planta de turbera: no la trates como Dionaea o Sarracenia.",
+      "primavera_verano": "Con hojas carnívoras: maceta en un plato con hasta 2 cm de agua (ICPS; la RHS habla de 'un plato poco profundo de agua de lluvia'); no pasa nada si el plato se queda seco unos días. Rellenar cuando la maceta pese poco o el sustrato a 2-3 cm empiece a secarse. Con calor fuerte y aire seco puede hacer falta cada 2-4 días [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Con la roseta suculenta: plato vacío. Regar por abajo, dejar que absorba y tirar el agua sobrante (RHS); entre riegos dejar el plato seco alrededor de una semana o hasta que la maceta pese poco (ICPS). Opción conservadora adoptada: regar poco, pero no dejar que el sustrato quede completamente seco durante semanas (RHS: 'regar con moderación, pero sin dejar que se seque').",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Por defecto agua sin minerales: de lluvia, destilada o de ósmosis inversa (RHS, US Botanic Garden). La ICPS admite el agua del grifo para carnívoras si su total de sólidos disueltos (TDS) es menor de 90 ppm; filtrar con jarras NO quita las sales. El agua del Canal de Isabel II es blanda (dureza 10-47 mg/L CaCO3, conductividad 76-155 µS/cm, pH 7,2-8,9, fluoruro <0,10 mg/L, informe 2025): en Madrid capital (≈45-55 ppm de TDS estimados en la Fase 4 del proyecto) cumple el umbral con margen escaso; en el sur metropolitano (≈100-125 ppm) no. Usar grifo solo tras medirlo con un medidor TDS. Nunca agua mineral embotellada ni de descalcificador. Dejar reposar el agua no sirve (Madrid usa cloramina). La RHS sugiere agua del grifo hervida y enfriada, pero hervir no quita las sales: no se adopta.",
+      "notas": "Diferencia de matiz en invierno: la ICPS deja secar la bandeja una semana entre riegos y la RHS pide no dejar que se seque; se adopta regar poco y sin encharcar, sin sequía prolongada. En invierno el exceso de agua con frío pudre la roseta. Si se forma una costra blanca de sales en la superficie, el agua es demasiado mineralizada: trasplantar (ICPS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P7",
+        "P8",
+        "P9",
+        "P5",
+        "P12"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "En fase carnívora (verano) le gusta un ambiente cálido y húmedo; en fase suculenta (invierno), más fresco y seco; la ICPS dice que esas condiciones son las típicas de una casa y que por eso es buena planta de interior. No hacen falta terrarios. Ninguna fuente prioritaria da porcentajes. Pulverizar no sube la humedad de forma útil y además moja la roseta; si el aire es muy seco en verano, agrupar plantas o usar humidificador.",
+      "confianza": "Media",
+      "fuentes": [
+        "P1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "La única cifra de una fuente prioritaria es la de la RHS para el híbrido 'Weser' (P. moranensis × P. ehlersiae): mantener por encima de 5 °C en el reposo invernal (clasificación H1C, 5-10 °C). La ICPS solo dice 'cálido en verano y más fresco en invierno', como en una casa normal, y da 15-25 °C para germinar semillas. No hay máximo verificado; se recomienda evitar golpes de calor junto al cristal en verano.",
+      "confianza": "Media",
+      "fuentes": [
+        "P7",
+        "P1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla mineral y aireada, NO de turbera. Para casa, la ICPS propone 1 parte de turba, 1 de arena gruesa (mejor caliza o dolomítica; si es de sílice, lavada) y 1 de perlita (o pumita), con cal dolomítica (≈1 cucharada sopera por taza de mezcla) para contrarrestar la acidez de la turba. En ambientes muy húmedos se usan mezclas minerales puras. Evitar vermiculita (se degrada) y cortezas de orquídea con abono. Cubrir la superficie con 5 mm (5-10 mm) de arena de sílice gruesa contra los mosquitos del sustrato (ICPS). Maceta de plástico de unos 9 cm de alto con agujero.",
+      "ph": "Neutro a ligeramente alcalino (la ICPS dice que la mayoría de grasillas mexicanas prefieren sustrato alcalino; la RHS, para el híbrido 'Weser', indica neutro o ácido). Opción adoptada: neutro a ligeramente alcalino, nunca turba pura ácida.",
+      "drenaje": "Bueno. El sustrato debe retener algo de humedad en verano (la ICPS recomienda en casa una mezcla algo más pesada que en invernadero), pero nunca quedar encharcado en invierno.",
+      "confianza": "Media",
+      "fuentes": [
+        "P1",
+        "P4",
+        "P7"
+      ],
+      "notas": "Contradicción de pH: ICPS (grasillas mexicanas) prefiere alcalino; RHS ('Weser') neutro o ácido. La ficha de la RHS es de un híbrido; se da prioridad a la ICPS, específica del grupo. El NC State (género, especies templadas de turbera) recomienda sustrato ácido y siempre húmedo: no aplica a las grasillas mexicanas."
+    },
+    "fertilizacion": {
+      "tipo": "Ninguno en el sustrato. Se alimenta de los insectos que caza sola en las hojas pegajosas: en casa, sobre todo mosquitos del sustrato (la ICPS muestra P. gigantea y un híbrido 'merendando mosquitos del sustrato'). No dar carne.",
+      "npk": null,
+      "primavera_verano": "Si no caza nada, se pueden poner una o dos larvas de mosquito secas para peces ('gusanos de sangre'), sin aditivos y rehidratadas, sobre una hoja pegajosa cada 2-4 semanas [orientativo, sin fuente prioritaria para la frecuencia]. La planta sobrevive sin alimentación extra.",
+      "otono_invierno": "Nada: las hojas de invierno no son carnívoras y no digieren.",
+      "notas": "Contradicción: la RHS dice que la mayoría de carnívoras 'no necesitan abono'; el US Botanic Garden admite abono orgánico a ¼ de dosis con crecimiento activo si no hay insectos; la ICPS afirma que las Pinguicula agradecen una fertilización ligera del sustrato, pero avisa de que es muy fácil quemarlas si hay abono en el agua de la bandeja. Opción conservadora adoptada (coherente con las demás carnívoras del proyecto): la app no recomienda abonar. No dar carne ni restos de comida: las carnívoras no digieren proteínas complejas (US Botanic Garden) y se pudre en la hoja.",
+      "confianza": "Media",
+      "fuentes": [
+        "P8",
+        "P9",
+        "P1",
+        "P14"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 3-5 años aproximadamente: la ICPS trasplanta unos cada 5 años, cuando el colchón de hojas viejas impide que las raíces nuevas lleguen al sustrato, o antes si se forma costra de sales en la superficie. La RHS indica que las carnívoras de vivero no necesitan trasplante en un año o más.",
+      "epoca": "En invierno, durante la fase de roseta suculenta, o al final del invierno justo antes de que salgan las hojas carnívoras (ICPS: es la mejor época para trasplantar y propagar).",
+      "senales": "Costra blanca de sales en la superficie, sustrato compactado o descompuesto, roseta elevada sobre un colchón de hojas secas viejas, planta que no crece en verano.",
+      "confianza": "Media",
+      "fuentes": [
+        "P1",
+        "P2",
+        "P8"
+      ],
+      "notas": " Confianza bajada a Media en la revisión del orquestador: solo la ICPS (una institución) trata las Pinguicula mexicanas; la guía general de carnívoras de la RHS no basta como segunda fuente independiente para Alta."
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS).",
+      "epoca": "Cuando aparezcan hojas secas o varas florales marchitas; sobre todo al cambiar de roseta en otoño y primavera.",
+      "como": "Retirar con pinzas las hojas viejas completamente secas o negras y las varas florales secas, sin tirar de las hojas sanas (la planta tiene pocas raíces y se puede desmontar). No usar fungicidas ni canela: la ICPS advierte que cualquier fungicida, incluso en el suelo, es mortal para Pinguicula.",
+      "confianza": "Media",
+      "fuentes": [
+        "P7",
+        "P1",
+        "P13"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno en el hemisferio norte (en cultivo, aproximadamente de noviembre a marzo; hojas carnívoras de mediados de primavera a otoño, según la ICPS). En el hemisferio sur, desplazado seis meses.",
+      "cambios": "Forma la roseta invernal suculenta y no carnívora: no es una enfermedad. Más fresco (por encima de 5 °C, RHS) y más seco: plato vacío, riegos espaciados por abajo. Sin alimentar. Mantener buena luz natural: el cambio gradual de la duración del día es lo que la hace volver a la fase carnívora en primavera (ICPS). Es la mejor época para trasplantar y sacar hojas para propagar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P2",
+        "P7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hojas arrancadas (esquejes de hoja)",
+        "semilla",
+        "división de hijuelos"
+      ],
+      "epoca": "Hojas: en invierno o, mejor, en primavera justo antes o al empezar a salir las primeras hojas carnívoras (finales de marzo-principios de abril en el hemisferio norte) (ICPS). Hijuelos: final del invierno (RHS). Semilla: en cuanto madure.",
+      "pasos": "Hojas (ICPS): 1) En reposo, sacar la planta entera y despegar las hojas externas con su base; se puede quitar hasta la mitad sin dañarla. 2) Colocarlas tumbadas sobre una mezcla húmeda de 1 parte de vermiculita y 2 de perlita, o sobre su sustrato habitual, en un recipiente transparente con tapa (o en una bolsa con cierre si las hojas son grandes, entreabierta si están mojadas). 3) Sin enterrar y sin encharcar: si una hoja se pudre, ventilar más; si se arruga, añadir un poco de agua. 4) Cuando salgan las plantitas, pasarlas al sustrato y aumentar la humedad del sustrato. Semilla: sembrar en superficie sin cubrir sobre mezcla fina húmeda, en bolsa si el ambiente es seco, a 15-25 °C (ICPS; la RHS da 13-18 °C sobre esfagno); germina en 4-8 semanas. Las flores de las grasillas mexicanas no se autopolinizan: hay que polinizar a mano con un palillo (ICPS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P1",
+        "P7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (sciáridos): la planta atrapa los adultos, pero sus larvas comen las hojas que tocan el sustrato y dañan plantas pequeñas y esquejes (ICPS). Prevención: capa de 5-10 mm de arena de sílice gruesa en la superficie y no mantener el sustrato encharcado. La ICPS menciona productos con Bacillus thuringiensis israelensis, pero en España no tienen uso no profesional autorizado en interior: no recomendarlos."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Mordeduras o agujeros en hojas pegadas al sustrato: larvas de mosquito del sustrato (ICPS) o, en exterior, babosas y caracoles (RHS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de la roseta por riego abundante o plato con agua en la fase de roseta invernal suculenta, sobre todo con frío. Secar, retirar las hojas podridas y salvar hojas sanas como esquejes. Nunca aplicar fungicidas (mortales para Pinguicula según la ICPS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Raíces podridas por sustrato de turba pura ácida y siempre encharcado (tratada como planta de turbera) o por agua estancada en invierno."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Se queda en la roseta suculenta y no saca hojas carnívoras en primavera: falta de cambios graduales en la duración del día (LED con horario fijo todo el año o rincón oscuro) (ICPS). En invierno la parada de crecimiento es normal."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz: hojas largas, finas y verde pálido, roseta abierta y poco pegajosa. Acercarla a una ventana este o sur con cortina."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paso brusco a sol directo fuerte, sobre todo sol de tarde tras el cristal en ventanas sur u oeste en verano: manchas blanquecinas o pardas. Aclimatar poco a poco."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal: al pasar de roseta de verano a roseta de invierno (otoño) y viceversa (primavera), las hojas viejas exteriores amarillean y se secan. Retirarlas cuando estén secas."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas por sequía prolongada en verano (plato vacío muchos días con calor) o por demasiado tiempo sin agua en invierno."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales en la superficie por agua mineralizada o abono en el agua (ICPS): trasplantar y usar agua de lluvia, destilada o de ósmosis (o grifo con TDS <90 ppm)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la base de la roseta (la RHS la cita en carnívoras). Retirar a mano; la ICPS avisa de que algunos insecticidas dañan o matan Pinguicula: no se ha documentado qué productos domésticos autorizados tolera."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en las varas florales y brotes (la RHS lo cita en carnívoras). Retirar a mano; usar insecticidas con mucha cautela (ICPS)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis) sobre hojas muertas o restos de presas con poca ventilación (la RHS lo cita en carnívoras de interior). Retirar restos y ventilar; sin fungicidas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Ventana este o sur con cortina fina; evitar el sol de tarde directo tras el cristal en ventanas sur y oeste con 35-40 °C, que quema y recalienta la maceta. Con hojas carnívoras, plato con hasta 2 cm de agua (de lluvia, destilada, de ósmosis, o grifo de Madrid capital comprobado con medidor TDS <90 ppm) y revisar a menudo: con aire muy seco (HR ≈38 %) el plato se vacía antes. Agrupar con otras plantas si las hojas pierden brillo. Puede salir al balcón a semisombra luminosa, protegida de babosas.",
+    "invierno": "Roseta suculenta: lugar luminoso y fresco, idealmente 10-15 °C [orientativo, sin fuente prioritaria] y siempre por encima de 5 °C (RHS); por ejemplo, una habitación poco calefactada junto a la ventana, sin tocar el cristal frío por la noche. La calefacción y la humedad interior por debajo del 30 % no le afectan en esta fase, que es seca por naturaleza; lo peligroso es el exceso de riego con frío. Plato vacío y riegos espaciados por abajo. Mantener la luz natural (sin LED con horario fijo) para que en marzo-abril vuelva a la fase carnívora.",
+    "ubicacion_recomendada": "Alféizar interior de una ventana este, o sur con cortina, con luz natural todo el año. Encaja bien cerca de otras macetas de interior, donde atrapa los mosquitos del sustrato."
+  },
+  "lagunas": [
+    "Nombre: no se pudo abrir POWO (Kew), bloqueado por Cloudflare; no se ha verificado en POWO el nombre aceptado ni los sinónimos. La RHS marca el nombre como 'Unresolved'. Según Wikipedia (complementaria, que cita a Zamudio 2001), el nombre aceptado es Pinguicula moranensis Kunth, con las variedades var. moranensis y var. neovolcanica, y sinónimos como P. caudata Schltdl., P. bakeriana Sander, P. flos-mulionis E.Morren y P. rosei W.Watson; Fleischmann (2021) la da como especie tipo de la sección Orcheosanthus.",
+    "Toxicidad: ASPCA no tiene ficha de Pinguicula y no se ha encontrado ninguna otra fuente prioritaria que la clasifique; perros, gatos y niños se dejan en 'desconocida'.",
+    "Ninguna fuente prioritaria da una ficha de cultivo completa de la especie: la ficha de la RHS de P. moranensis solo tiene la descripción del género y el área; los datos de cultivo de la RHS proceden del híbrido 'Weser' (P. moranensis × P. ehlersiae). La guía de la ICPS es de las grasillas mexicanas en general.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimo ni ideal; min_pct e ideal_pct en null.",
+    "Temperatura: no hay máximo ni rango ideal verificados; el mínimo de 5 °C es de la RHS para el híbrido 'Weser'.",
+    "Alimentación: sin frecuencia de alimentación manual en fuentes prioritarias; la de 2-4 semanas es orientativa.",
+    "Agua: no hay fuente sobre el efecto de la cloramina del grifo de Madrid en Pinguicula; el umbral de 90 ppm de TDS es de la ICPS para carnívoras en general. La ICPS no se pronuncia sobre la calidad del agua en su guía de grasillas mexicanas.",
+    "Fitosanitarios: la ICPS advierte que ciertos plaguicidas dañan o matan Pinguicula y que los fungicidas son mortales, pero no se ha encontrado qué productos de uso no profesional del Registro del MAPA tolera. Se recomienda solo retirar las plagas a mano y prevenir.",
+    "P. 'Tina': su parentesco y su aspecto solo se han encontrado en un vivero (complementaria).",
+    "Tamaño adulto de la roseta en interior: sin cifra directa en fuente prioritaria; se estima por la longitud de hoja."
+  ],
+  "fuentes": [
+    {
+      "id": "P1",
+      "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Mexican Pinguicula (J. Brittnacher, act. 2022)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P2",
+      "url": "https://www.carnivorousplants.org/grow/propagation/MexicanPinguicula",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Mexican Pinguicula Leaf Pullings",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P3",
+      "url": "https://www.carnivorousplants.org/grow/SoilsWaterLight/LEDplantlighting",
+      "institucion": "International Carnivorous Plant Society (ICPS) — LED Plant Lighting",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P4",
+      "url": "https://www.carnivorousplants.org/grow/pests/FungusGnatLarvae",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Fungus Gnat Larvae",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P5",
+      "url": "https://www.carnivorousplants.org/grow/guides/Dionaea",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Dionaea muscipula (umbral de TDS del agua del grifo para carnívoras)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P6",
+      "url": "https://www.rhs.org.uk/plants/13042/philodendron/details",
+      "institucion": "Royal Horticultural Society (RHS) — Pinguicula moranensis, Mexican long-spurred butterwort (ficha de especie; la URL contiene 'philodendron' por error de la RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P7",
+      "url": "https://www.rhs.org.uk/plants/79550/pinguicula-weser/details",
+      "institucion": "Royal Horticultural Society (RHS) — Pinguicula 'Weser' (híbrido P. moranensis × P. ehlersiae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P8",
+      "url": "https://www.rhs.org.uk/plants/types/carnivorous/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow carnivorous plants (guía de cultivo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P9",
+      "url": "https://www.usbg.gov/cultivating-carnivorous-plants",
+      "institucion": "United States Botanic Garden — Cultivating Carnivorous Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P10",
+      "url": "https://cpn.carnivorousplants.org/articles/CPNv50n4p174_188.pdf",
+      "institucion": "Fleischmann A. (2021) On the infrageneric classification of Pinguicula. Carnivorous Plant Newsletter 50(4):174-188 (revista de la ICPS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P11",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plant List (sin entrada para Pinguicula)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P12",
+      "url": "http://www.canaldeisabelsegunda.es/documents/d/site/caracteristicas-medias-agua-consumo",
+      "institucion": "Canal de Isabel II — Características medias del agua de consumo en el sistema de distribución, año 2025 (15/01/2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P13",
+      "url": "https://plants.ces.ncsu.edu/plants/pinguicula/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Pinguicula (género; centrado en especies templadas del sureste de EE. UU.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P14",
+      "url": "https://www.carnivorousplants.org/grow/feed",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Feeding Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "C1",
+      "url": "https://en.wikipedia.org/wiki/Pinguicula_moranensis",
+      "institucion": "Wikipedia — Pinguicula moranensis (cita a Zamudio 2001 y otros)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "C2",
+      "url": "https://en.wikipedia.org/wiki/Pinguicula_gigantea",
+      "institucion": "Wikipedia — Pinguicula gigantea",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "C3",
+      "url": "https://curiousplant.com/?p=26535",
+      "institucion": "Curious Plant (vivero) — Pinguicula 'Tina' (P. agnata × P. zecheri)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

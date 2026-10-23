@@ -1,0 +1,286 @@
+{
+  "nombre_cientifico": "Dracaena angolensis",
+  "nombres_comunes": [
+    "sansevieria cylindrica",
+    "lengua de suegra cilíndrica",
+    "sansevieria cilíndrica",
+    "lanza africana"
+  ],
+  "familia": "Asparagaceae",
+  "origen": "Sur del África tropical: Angola (NParks) y, según la base de POWO recogida en búsqueda, también Zambia y Zimbabue; NC State indica solo 'África' y Oklahoma State 'África tropical'. Nombre aceptado: Dracaena angolensis (Welw. ex Carrière) Byng & Christenh.; sinónimo muy usado en comercio y bibliografía: Sansevieria cylindrica Bojer ex Hook.",
+  "clima_nativo": "Tropical estacionalmente seco; geófito rizomatoso suculento de suelos arenosos o pedregosos con buen drenaje, adaptado a sequías de semanas, calor y suelos pobres.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas cilíndricas o subcilíndricas (sección redonda, no planas), rígidas, carnosas y erectas, de unos 2-3 cm de diámetro y 0,6-1,5 m de largo en adulto (NC State da hasta ~2 m en cultivo exterior), que terminan en una punta dura y afilada. Normalmente 3-4 hojas por roseta. Superficie algo rugosa, con estrías o surcos longitudinales finos.",
+    "nerviacion": "Paralelinervia de monocotiledónea, no visible en relieve. Lo característico son las estrías longitudinales finas a lo largo de todo el cilindro y las bandas o anillos transversales de verde más oscuro, poco definidos.",
+    "variegacion": "Verde grisáceo con bandas transversales difusas de verde oscuro (aspecto de anillos concéntricos alrededor del cilindro). No hay cultivares variegados habituales en el comercio. Cultivar frecuente: 'Boncel' (hojas más cortas y gruesas dispuestas en abanico); 'Inti' es una forma enana compacta.",
+    "tallo": "Sin tallo aéreo: crece desde un rizoma grueso subterráneo que emite nuevas rosetas (hijuelos) alrededor de la planta.",
+    "habito": "Erecto, en macolla; las hojas de cada roseta se disponen alternas en un mismo plano, formando un abanico característico. Crecimiento lento. En comercio se vende a menudo con las hojas trenzadas o con las puntas cortadas o tapadas; las hojas trenzadas no siguen creciendo trenzadas. Flores raras en interior: racimo erecto de flores tubulares blancas teñidas de rosa, fragantes, de unos 2,5 cm, con estambres largos; baya roja pequeña.",
+    "tamano_adulto_interior": "Habitualmente 0,5-1,2 m de alto y 10-50 cm de ancho en maceta (RHS: altura máxima 1-1,5 m, anchura 0,1-0,5 m, 5-10 años hasta alcanzarla); 'Boncel' se queda en unos 30-60 cm.",
+    "confusiones": [
+      {
+        "especie": "Dracaena trifasciata (Sansevieria trifasciata, lengua de suegra común)",
+        "rasgo_diferenciador": "Hojas planas en forma de espada, con bandas en zigzag; D. angolensis tiene hojas de sección redonda, estriadas y en abanico."
+      },
+      {
+        "especie": "Dracaena angolensis 'Boncel' (cultivar de la misma especie)",
+        "rasgo_diferenciador": "No es otra especie: hojas más cortas y gruesas, abiertas en abanico más marcado; mismos cuidados."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas.",
+    "sintomas": "Toxicidad de gravedad baja. Ingestión en perros y gatos: vómitos, malestar gástrico, dolor abdominal, salivación excesiva, debilidad, decaimiento y pupilas dilatadas (NC State); náuseas, vómitos y diarrea (ASPCA, para la especie afín Sansevieria trifasciata). En personas no debe ingerirse ('nociva si se ingiere', RHS) y la savia puede irritar la piel: usar guantes al cortar o dividir. Riesgo físico añadido: las puntas de las hojas son duras y punzantes (NParks), peligrosas para ojos de niños y mascotas.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F6",
+      "F4"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste, o a 1 m de una ventana sur con visillo en verano; en invierno puede ir pegada a una ventana sur. En ventana norte sobrevive pero apenas crece.",
+      "tolera_sol_directo": "Sí, más que la lengua de suegra común: 2-6 horas de sol directo si está aclimatada (NC State), e incluso pleno sol en exterior protegido (RHS, NParks). Tras cristal, evitar el sol fuerte del mediodía en verano sin aclimatación progresiva, porque quema las hojas.",
+      "notas": "Las fuentes de la especie coinciden en luz brillante y sol parcial: NC State (ventana muy luminosa; sol parcial 2-6 h; en exterior solo sol de mañana para evitar quemaduras), RHS (bajo cristal luz brillante filtrada, sin el sol fuerte de verano; en exterior pleno sol), NParks (pleno sol o semisombra) y Oklahoma State (sol parcial). lux_min = 100 fc (inicio de luz media en la escala del proyecto): la guía general de RHS para Sansevieria dice que tolera luz más baja, pero eso no está confirmado para esta especie y con poca luz se alarga y se inclina; lux_max = 1000 fc (límite de brillante indirecta); por encima, sol directo con aclimatación. Ninguna fuente da cifras en lux: son traducción a la escala del proyecto. Girar la maceta para que crezca recta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté completamente seco: comprobar con el dedo a unos 5 cm (más en macetas grandes) y por el peso de la maceta, que debe notarse claramente ligera. Regar a fondo hasta que drene, vaciar el plato a los 15-20 minutos y no dejar agua en la base de las hojas. Nunca regar por calendario.",
+      "primavera_verano": "Con crecimiento activo, dejar secar del todo entre riegos; como orientación, cada 2-3 semanas (NC State: ~2 semanas; NParks: ~3 semanas), confirmando siempre con dedo y peso.",
+      "otono_invierno": "Muy poco riego: como orientación, una vez al mes o menos en interior fresco (NC State), y solo con el sustrato totalmente seco. Proteger del exceso de humedad invernal (RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Tolera agua del grifo; incluso tolera suelos salinos (NParks). En Madrid (Canal de Isabel II) el agua es blanda, con cloramina y flúor <0,1 mg/L: puede usarse directamente; dejarla reposar no elimina la cloramina y no es necesario. Usar agua a temperatura ambiente.",
+      "notas": "Aguanta semanas de sequía, pero el exceso de riego suele matarla (NParks): es la causa nº 1 de muerte, por pudrición de raíz y de base. Ante la duda, no regar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State la clasifica como tolerante a la humedad (alta) y a la sequía; la guía general de RHS para Sansevieria indica que prefiere humedad baja. No necesita humidificador y soporta el aire seco de una casa con calefacción. No pulverizar (no sirve y el agua en la base de las hojas favorece pudriciones). Ninguna fuente da porcentajes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 15,
+      "ideal_max_c": 24,
+      "notas": "RHS clasifica la especie como H1B (mínimo 10-15 °C; puede salir al exterior en verano) y NC State aconseja meterla dentro cuando baja de 55 °F (≈13 °C). Se adopta 13 °C como mínimo conservador; nunca heladas. El rango ideal de 15-24 °C procede de la guía general de RHS para Sansevieria, no de una ficha de esta especie. NC State la considera tolerante al calor; no hay máximo numérico verificado. Frío + sustrato húmedo pudre la base. Evitar corrientes frías y radiadores.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas (sin turba), o 2 partes de sustrato a base de tierra/franco por 1 parte de grava fina o arena gruesa. Maceta con agujeros de drenaje, preferiblemente de barro y pesada, porque la planta es alta y vuelca con facilidad.",
+      "ph": "Neutro a alcalino (RHS); NParks indica que tolera también suelos ácidos. Ninguna fuente da cifras.",
+      "drenaje": "Muy rápido; imprescindible. Suelos arenosos o pedregosos (RHS, NC State, NParks: franco-arenoso). Nada de platos con agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior o para cactus y suculentas.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes de abril a septiembre (hemisferio norte), a ¼-½ de la dosis de etiqueta y solo si está creciendo.",
+      "otono_invierno": "No abonar.",
+      "notas": "La pauta mensual de abril a septiembre procede de la guía general de RHS para Sansevieria, no de una ficha de esta especie. NParks indica que tolera suelos pobres e infértiles: es poco exigente y el exceso de abono acumula sales.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces llenan la maceta (RHS: trasplantar solo si está apretada de raíces); en esta especie de crecimiento lento, orientativamente cada 2-4 años.",
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte).",
+      "senales": "Rizomas y hijuelos que ocupan toda la superficie, maceta deformada o rota, raíces saliendo por los agujeros, planta que vuelca o sustrato que se seca en muy pocos días.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS). Solo retirar hojas dañadas, podridas o dobladas y la vara floral seca.",
+      "epoca": "En cualquier momento para hojas dañadas; la vara floral, al terminar la floración.",
+      "como": "Cortar la hoja dañada desde la base con un cuchillo limpio y afilado. Una hoja cortada por la mitad no vuelve a crecer en longitud. Usar guantes: la savia irrita la piel. Si las hojas se inclinan por falta de luz, mejorar la luz; si se inclina toda la planta, revisar la base por pudrición.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. octubre-febrero en el hemisferio norte; en Madrid, con días cortos y frescos).",
+      "cambios": "El crecimiento casi se detiene: riego mínimo (orientativamente mensual o menos, con el sustrato totalmente seco), sin abono y sin trasplantes. Proteger del exceso de humedad invernal.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata o hijuelos con rizoma",
+        "esqueje de hoja (secciones de hoja)"
+      ],
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte), con temperatura cálida.",
+      "pasos": "División (la más rápida): sacar la planta, separar hijuelos o rosetas con raíces y rizoma propios con un cuchillo limpio, dejar secar el corte unas horas y plantar cada parte en sustrato de cactus; regar poco hasta que arraigue. Esqueje de hoja: cortar una hoja madura en secciones de unos 5-10 cm marcando cuál es el extremo inferior, dejarlas 1-2 días en sitio seco para que cicatricen y enterrar 2-3 cm del extremo inferior (con la orientación original) en sustrato de esquejes o mezcla de sustrato y grava apenas húmedo, en lugar cálido con luz media. Enraíza en semanas y con el tiempo forma plantas nuevas en la base del esqueje (NC State); es lento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o sustrato que no drena, sobre todo en invierno con frío. Es la causa principal de muerte."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base de las hojas y rizoma blandos y oscuros por podredumbre blanda bacteriana (Oklahoma State) o fúngica favorecida por riego excesivo, agua estancada en el plato o frío."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas blandas y reblandecidas como consecuencia de pudrición de raíces o base por exceso de riego; revisar raíces."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Lesiones blandas y empapadas en hojas por podredumbre blanda bacteriana, a menudo a partir de heridas o de agua retenida."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (Oklahoma State cita 'leaf spot') o cicatrices secas por golpes y quemaduras de sol."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas que se abren, se inclinan o caen por luz insuficiente o, si se inclina toda la planta, por pudrición de la base o larvas de otiorrinco comiendo raíces (RHS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Hojas largas, finas y débiles por falta de luz; en sol la planta queda más compacta."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura por sol fuerte de verano, sobre todo al pasarla sin aclimatar de interior a ventana sur/oeste o a terraza."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa de cola larga escondida en la base de las hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo (fern scale) adherida a las hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado por trips (banded greenhouse thrips, NC State) o por araña roja."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con ambiente caluroso y seco (descrita por RHS para Sansevieria en general)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco aguanta bien el calor y la sequedad, pero el sol del mediodía y de la tarde tras ventanas sur u oeste puede quemar las hojas si no está aclimatada: retirarla 1 m del cristal o usar visillo. Puede salir a terraza de mayo a septiembre (RHS H1B), aclimatándola de forma progresiva, con sol de mañana al principio, en maceta que no se encharque con tormentas. El sustrato seca antes: comprobar con dedo y peso y regar a fondo solo cuando esté seco. Vigilar araña roja y trips con calor seco.",
+    "invierno": "Meterla dentro antes de que las noches bajen de 13 °C (en Madrid, normalmente a mediados de octubre). Riego mínimo (orientativamente mensual o menos, siempre con el sustrato totalmente seco) y sin abono. La humedad interior <30 % por la calefacción no le afecta: no pulverizar ni poner humidificador por ella. No pegarla al radiador ni dejarla de noche junto al cristal frío. Darle el sitio más luminoso de la casa; una ventana sur sin visillo es adecuada en invierno.",
+    "ubicacion_recomendada": "Salón o despacho junto a una ventana este u oeste, o a 1 m de una ventana sur; lejos de radiadores y corrientes frías, en maceta pesada y estable, fuera del alcance de perros, gatos y niños (tóxica y con puntas punzantes) y lejos de zonas de paso donde alguien pueda golpearse con las puntas."
+  },
+  "lagunas": [
+    "Cambio de nombre: el nombre aceptado es Dracaena angolensis (Welw. ex Carrière) Byng & Christenh. (2018); Sansevieria cylindrica Bojer ex Hook. es sinónimo (confirmado en NParks y en NC State, que usa el nombre nuevo). RHS, Oklahoma State y casi todo el comercio siguen usando Sansevieria cylindrica.",
+    "POWO (Kew) no se pudo abrir (bloqueo Cloudflare 403, también con proxy); el área nativa ampliada (Zambia, Zimbabue) procede solo del resumen del buscador y no se cita como fuente.",
+    "Toxicidad: ASPCA solo tiene ficha de Sansevieria trifasciata (Dracaena trifasciata), no de D. angolensis; se usa como apoyo por la especie afín. Las fuentes específicas de la especie son NC State y RHS.",
+    "Humedad: ninguna fuente da porcentajes mínimo o ideal; min_pct e ideal_pct quedan en null.",
+    "Temperatura: no hay máximo verificado (max_c = null); el rango ideal 15-24 °C procede de la guía general de RHS para Sansevieria, no de una ficha de esta especie.",
+    "Fertilización, ajustes de humedad y araña roja: solo hay datos de la guía general de RHS para Sansevieria; sin NPK específico.",
+    "Luz: ninguna fuente da cifras en fc o lux; lux_min/lux_max son traducción de categorías cualitativas a la escala del proyecto.",
+    "pH: ninguna fuente da cifras; RHS indica neutro a alcalino y NParks que tolera también suelos ácidos.",
+    "No se encontró ficha de Missouri Botanical Garden ni de UF/IFAS para esta especie; la ficha de World of Succulents no se pudo abrir (403) y no se usa."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-angolensis/",
+      "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/16411/sansevieria-cylindrica/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de Sansevieria cylindrica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/sansevieria/how-to-grow-sansevieria",
+      "institucion": "Royal Horticultural Society (RHS) – guía general de cultivo de Sansevieria",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2419",
+      "institucion": "National Parks Board de Singapur (NParks, Flora & Fauna Web)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.okstate.edu/programs/plant-id/plant-profiles/cylindric-snake-plant",
+      "institucion": "Oklahoma State University Extension – Plant ID",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "institucion": "ASPCA Animal Poison Control Center (ficha de Sansevieria trifasciata, especie afín)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

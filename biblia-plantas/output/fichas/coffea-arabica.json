@@ -1,0 +1,368 @@
+{
+  "nombre_cientifico": "Coffea arabica",
+  "nombres_comunes": [
+    "cafeto",
+    "planta del café",
+    "café arábica"
+  ],
+  "familia": "Rubiaceae",
+  "origen": "Nativa de Etiopía, Kenia y Sudán-Sudán del Sur, según POWO (Kew), que acepta el nombre Coffea arabica L. sin cambio de nombre. MBG y NC State señalan Etiopía como origen principal y aclaran que el epíteto 'arabica' induce a error: la especie no es nativa de la península arábiga, aunque se cultiva allí desde hace más de 1000 años. Hoy está introducida en todo el trópico (Centroamérica, norte de Sudamérica, Hawái, Sudeste Asiático) y en Canarias.",
+  "clima_nativo": "Tropical de montaña: bosque de sotobosque fresco y húmedo, sin heladas. UC ANR da un óptimo de 15-24 °C y altitudes de 550-1100 m (1800-3600 pies) para el arábica, con estaciones lluviosa y seca bien marcadas. Resistente solo en zonas USDA 10a-12b (NC State; MBG 10-11). RHS la clasifica H1A: todo el año bajo cristal con mínimas por encima de 15 °C. En España se cultiva como planta de interior.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Simples, opuestas, en pares (RHS), perennes. Elípticas a ovadas, con ápice acuminado. Haz verde oscuro, muy brillante, liso y sin pelos; el envés es más claro y mate. El margen es entero pero claramente ondulado: la lámina se ve 'arrugada' u ondeada entre los nervios (NC State, MBG, UF/IFAS). Tamaño: UF/IFAS da 10-20 cm de largo; NC State da 2,5-7,5 cm (ver contradicción en notas). En plantas de interior jóvenes, lo típico es 8-15 cm [orientativo, sin fuente prioritaria]. Los brotes nuevos pueden salir bronceados en algunos cultivares (UC ANR: Typica) o verde lima (Catuai).",
+    "nerviacion": "Pinnada, con nervio central y nervios secundarios bien marcados (NC State y MBG: 'prominent veins'), algo hundidos en el haz. La lámina se abomba entre los nervios, lo que da el aspecto ondulado típico.",
+    "variegacion": "La especie es verde uniforme. Los cultivares de vivero más comunes ('Nana', Catuai, Caturra) tampoco son variegados. Existe la var. xanthocarpa (RHS), de fruto amarillo, con hoja normal.",
+    "tallo": "Leñoso, erguido, a menudo con varios tallos. Las ramas laterales salen en pares opuestos, casi horizontales, y forman pisos. La corteza de tallos jóvenes es verde a parda clara; en ramas viejas y en el tronco es gris oscura y fisurada (NC State, MBG). Los tallos no son aromáticos.",
+    "habito": "Arbusto o arbolito perenne, erguido y de copa en pisos. Las flores salen a partir de los 3-4 años (MBG, RHS, UF/IFAS): pequeñas (<2,5 cm), blancas, en estrella de 5 pétalos, con un fuerte aroma a jazmín, en grupos de 2-9 en las axilas de las hojas. Cada flor dura unos 2 días (UC ANR). Fruto: baya ('cereza') ovalada de menos de 1,3 cm, verde, que pasa a amarillo, rojo claro y por fin rojo intenso en 9-11 meses (UC ANR), con 2 semillas (los granos de café). Es autofértil (UC ANR), así que una sola planta puede dar fruto en interior.",
+    "tamano_adulto_interior": "En maceta, 1,2-1,8 m (NC State y MBG: 4-6 pies). En su hábitat llega a 3-4,5 m (MBG: 10-15 pies) y hasta 8 m (RHS).",
+    "confusiones": [
+      {
+        "especie": "Gardenia jasminoides (gardenia), también de la familia Rubiaceae",
+        "rasgo_diferenciador": "Las dos tienen hoja opuesta, brillante y verde oscura, y flor blanca perfumada. La gardenia tiene hojas más pequeñas y planas, sin el ondulado marcado del cafeto. Su flor es grande (5-8 cm), doble o semidoble y solitaria, mientras que la del cafeto es una estrellita pequeña en grupos axilares [orientativo, sin fuente prioritaria]. La confusión importa poco para los cuidados: ambas son acidófilas y piden humedad."
+      },
+      {
+        "especie": "Coffea canephora (café robusta) y otras Coffea",
+        "rasgo_diferenciador": "Robusta tiene hojas más grandes, más anchas y más acanaladas, y es menos frecuente como planta de interior en España [orientativo, sin fuente prioritaria]. Separarlas con seguridad por foto es difícil. Los cuidados son casi iguales."
+      },
+      {
+        "especie": "Polyscias guilfoylei ('coffee tree', 'wild coffee', aralia de hoja de geranio)",
+        "rasgo_diferenciador": "Solo comparten el nombre común inglés, que causa confusión en bases de datos de toxicidad: la ficha 'Coffee Tree' de ASPCA es de esta especie, no del cafeto. Polyscias tiene hojas compuestas, pinnadas y a menudo con borde blanco, nada que ver con la hoja simple, opuesta y ondulada de Coffea arabica."
+      },
+      {
+        "especie": "Ficus elastica joven, Schefflera u otras plantas de hoja verde brillante",
+        "rasgo_diferenciador": "El cafeto se reconoce por la suma de tres rasgos: hojas opuestas en pares, margen claramente ondulado y ramas laterales horizontales en pisos. El ficus tiene hoja alterna, gruesa y plana, con látex blanco al cortar; la schefflera tiene hoja compuesta palmeada."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cafeína (metilxantina). Está en las hojas, sobre todo en las jóvenes y los brotes: 1,8-3,2 mg/g en hoja fresca (Tritsch et al. 2022). También está en las semillas o granos, verdes o tostados. La hoja contiene además ácidos clorogénicos, trigonelina, mangiferina y EGCG (5,5-16,4 mg/g en hoja fresca).",
+    "sintomas": "Perros y gatos (ASPCA, sobre café y cafeína): vómitos, diarrea, jadeo, sed y micción excesivas, hiperactividad, arritmias, temblores, convulsiones y, en casos graves, la muerte. El riesgo crece con la cantidad de cafeína ingerida. Pet Poison Helpline: perros y gatos son más sensibles a la cafeína que las personas; incluye granos y café molido sin usar entre las fuentes de intoxicación. Cómo se reparte el riesgo en la planta: la hoja tiene bastante menos cafeína por gramo que el grano. Para una mascota pequeña, el peligro grave viene de comer granos (verdes, tostados o molidos) o mucha hoja; mordisquear alguna hoja suele causar, como mucho, molestias digestivas [orientativo, sin fuente prioritaria]. Niños: Tritsch et al. 2022 concluyen que el té de hoja de café no supone riesgo para el consumidor adulto más allá del riesgo propio de la cafeína; para un niño que muerda hojas el riesgo es leve, como el de cualquier producto con cafeína: nerviosismo, molestias digestivas, taquicardia si la cantidad es grande. Ante una ingestión importante, llamar al Servicio de Información Toxicológica o al veterinario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F7",
+      "F9",
+      "F10",
+      "F8"
+    ],
+    "notas": "ASPCA no tiene ficha de Coffea arabica: su ficha 'Coffee Tree' (F8) es de Polyscias guilfoylei. Que la planta sea tóxica se deduce de dos fuentes prioritarias: la hoja contiene cafeína (F9, revista revisada por pares) y ASPCA califica el café y la cafeína como tóxicos para mascotas (F7). Ninguna fuente prioritaria evalúa directamente la planta, por eso la confianza es Media. Las fuentes complementarias se contradicen: plnts.com dice que son tóxicas todas las partes salvo el fruto y la semilla, y no es coherente, porque el grano es la parte con más cafeína. healthyhouseplants.com dice que es tóxica para gatos, perros y niños si se ingiere en cantidad. No se ha encontrado una fuente prioritaria sobre la cafeína del fruto inmaduro (pulpa y semilla verde) ni una dosis tóxica concreta por especie animal."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de mañana), o junto a una ventana sur u oeste con la luz filtrada por una cortina fina o a 1-2 m del cristal. RHS recomienda orientación este u oeste, protegida. Una ventana norte solo vale si está muy despejada; si no, la planta se ahila.",
+      "tolera_sol_directo": "Solo el sol suave de primera hora de la mañana o del final de la tarde. El sol directo fuerte del mediodía o de la tarde, sobre todo detrás de un cristal en verano, quema la hoja: aparecen manchas marrones secas y zonas blanqueadas. En su hábitat crece en sotobosque: NC State y UF/IFAS dan sombra parcial o luz moteada (2-6 h de sol directo al aire libre), RHS da sombra parcial y UC ANR recomienda, en interior, estar cerca de una ventana pero sin sol directo.",
+      "notas": "Contradicción: MBG dice que en interior le gustan las 'ventanas soleadas y luminosas', pero RHS, UC ANR, NC State y UF/IFAS piden sombra parcial o nada de sol directo. Se adopta la opción más conservadora: luz brillante indirecta con sol suave solo por la mañana. Rango en lux según la escala del proyecto para luz brillante indirecta (500-1000 fc ≈ 5380-10760 lux). Ninguna fuente prioritaria da cifras en lux para el cafeto [orientativo, sin fuente prioritaria]. Con poca luz se ahila (entrenudos largos, pocas hojas) y no florece.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo de forma regular, pero nunca encharcado (NC State, MBG, UC ANR, UF/IFAS). Antes de regar, meter el dedo a 2-3 cm (5 cm en macetas grandes): regar cuando esa capa empiece a estar seca al tacto y la maceta pese claramente menos que recién regada. No esperar a que se seque toda la maceta. Regar despacio hasta que salga agua por el agujero de drenaje y vaciar el plato a los 10-15 minutos. Nunca regar por calendario.",
+      "primavera_verano": "Riego generoso con crecimiento activo (RHS: 'water freely'). Comprobar la maceta cada 2-4 días. En pleno verano de Madrid, con calor y aire seco, la capa superior se seca deprisa: revisar con más frecuencia, pero seguir comprobando con el dedo y el peso. UC ANR: sus raíces son fibrosas y poco profundas, así que mejor riegos más frecuentes y menos abundantes que riegos muy espaciados.",
+      "otono_invierno": "Riego moderado (RHS). Reducirlo cuando baja la luz y la temperatura (UC ANR: al mínimo en invierno, y volver al riego normal en primavera para inducir la floración). Dejar secar algo más la capa superior (unos 3-5 cm) [orientativo, sin fuente prioritaria], pero no dejar que la maceta se seque del todo. Con calefacción, el sustrato puede secarse más rápido de lo esperado: comprobar con el dedo.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid a temperatura ambiente (no fría). Es blanda (10-47 mg/L CaCO3), lo que le viene bien a esta acidófila. No hace falta dejarla reposar: la cloramina no se va así, y a la planta no le afecta. UF/IFAS califica su tolerancia a la sal de escasa ('poor'): para evitar que se acumulen sales de abono, regar de vez en cuando con abundancia hasta que drene bien. En zonas de agua dura o alcalina, conviene usar agua de lluvia o filtrada.",
+      "notas": "UC ANR: es 'muy sensible' tanto al exceso como a la falta de agua. Con falta de agua se marchita; con exceso salen manchas negras en las hojas. UF/IFAS: el exceso de riego causa pudrición de raíz. UF/IFAS califica su tolerancia a la sequía de 'moderada' para plantas en suelo, pero en maceta y con aire seco se adopta 'alta' sensibilidad, la opción más conservadora.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "notas": "Todas las fuentes prioritarias piden humedad alta: NC State ('high humidity'), RHS ('moderate to high humidity'), UC ANR ('like high humidity'). Ninguna da cifras. Las cifras son de fuentes complementarias, que coinciden en un 50-70 % de humedad relativa [orientativo, sin fuente prioritaria]. Con aire seco (por debajo del 40 %, algo habitual en Madrid con calefacción o en verano) aparecen puntas y bordes marrones y hojas acartonadas, y aumenta la araña roja. Para subir la humedad: humidificador en la habitación (lo más eficaz) o agrupar plantas. Pulverizar las hojas no sube la humedad de forma útil.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F11",
+        "F12"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 29,
+      "ideal_min_c": 16,
+      "ideal_max_c": 24,
+      "notas": "MBG y NC State dan 21-27 °C de día y 15,5-18 °C de noche, y avisan de que puede perder hojas por debajo de 13 °C. RHS (H1A) pide mínimas por encima de 15 °C y protección contra corrientes. UC ANR da un óptimo de 15-24 °C y dice que el calor extremo y el viento fuerte la dañan o la matan. Se toma como mínima 15 °C (la de RHS), la más conservadora. Ninguna fuente prioritaria da una máxima: los 29 °C salen de una fuente complementaria (estrés por encima de 29 °C) [orientativo, sin fuente prioritaria]. Evitar corrientes frías (puertas y ventanas en invierno), el contacto con el cristal frío y el chorro directo de radiadores o del aire acondicionado. Un frío repentino o una corriente fría provoca caída de hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F5",
+        "F11"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato ligero, ácido y rico en materia orgánica, con buen drenaje. UC ANR recomienda sustrato para azaleas o acidófilas, mejorado con materia orgánica y perlita para darle drenaje y aire. RHS recomienda un sustrato con base de tierra (loam), sin turba y con materia orgánica añadida. Orientación práctica: 2 partes de sustrato para acidófilas, 1 de perlita y 1 de fibra de coco o corteza fina compostada [orientativo, sin fuente prioritaria]. Maceta siempre con agujero de drenaje.",
+      "ph": "Ácido a ligeramente ácido: aprox. 5,5-6,5. UC ANR: ligeramente ácido. NC State y RHS: ácido a neutro. Las cifras son orientativas: 6,0-6,5 según fuente complementaria [orientativo, sin fuente prioritaria]. Evitar sustratos calizos o alcalinos.",
+      "drenaje": "Bueno, imprescindible (todas las fuentes). El encharcamiento pudre las raíces (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F1",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes o para acidófilas, con micronutrientes. Disolverlo en el agua de riego, siempre con el sustrato ya húmedo.",
+      "npk": "Equilibrado (N, P y K en proporciones similares), según RHS ('balanced liquid feed'). No hay una fórmula concreta en las fuentes prioritarias.",
+      "primavera_verano": "Con crecimiento activo (aprox. de marzo a septiembre en Madrid): ¼-½ de la dosis de la etiqueta, una vez al mes (convención del proyecto).",
+      "otono_invierno": "Nada. Sin crecimiento activo no se abona.",
+      "notas": "RHS recomienda abono líquido equilibrado cada dos semanas en la temporada de crecimiento, y UC ANR aportes pequeños y frecuentes. El proyecto adopta la pauta más conservadora (¼-½ dosis mensual), porque su tolerancia a las sales es escasa (UF/IFAS) y el exceso de abono quema puntas y bordes. UF/IFAS avisa de que es propensa a deficiencias minerales: si las hojas nuevas amarillean con los nervios verdes, revisar el pH del sustrato antes de abonar más.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F2",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS), o antes si las raíces llenan la maceta. UC ANR recomienda pasarla poco a poco a macetas más grandes: cuanto mayor la maceta, más grande y frondosa la planta. Subir solo 2-5 cm de diámetro cada vez [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (RHS), al empezar el crecimiento. En Madrid, aprox. de marzo a mayo.",
+      "senales": "Raíces saliendo por los agujeros de drenaje o enrolladas en el fondo, agua que atraviesa la maceta sin empapar el cepellón, la maceta se seca en muy pocos días, crecimiento parado en primavera o costra blanca de sales en la superficie.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible, pero viene bien para controlar la altura en interior. UF/IFAS: la poda regular la mantiene atractiva y del tamaño deseado, y se puede mantener baja como planta de interior. RHS: en interior o invernadero puede necesitar poda de contención. En plantación se mantiene a unos 1,8 m (MBG).",
+      "epoca": "A finales de invierno o principios de primavera, antes de que arranque el crecimiento [orientativo, sin fuente prioritaria].",
+      "como": "Con tijera limpia y desinfectada, cortar justo por encima de un par de hojas o de un nudo. Despuntar el tallo principal para frenar la altura y que la planta se ramifique, y acortar las ramas laterales demasiado largas. Quitar hojas secas o dañadas en cualquier momento. No quitar más del 25-30 % de la planta de una vez [orientativo, sin fuente prioritaria]. La planta florece en las axilas de las ramas laterales: si las podas mucho, florece menos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. de noviembre a febrero en Madrid y el hemisferio norte). Es un semirreposo: la planta sigue verde y no se le caen las hojas.",
+      "cambios": "Reducir el riego a moderado (RHS), sin dejar que el sustrato se seque del todo. UC ANR: reducirlo al mínimo en invierno y volver al riego normal en primavera, lo que ayuda a inducir la floración. No abonar. Mantener la planta a 15-18 °C, lejos de corrientes, radiadores y cristales fríos. Darle la máxima luz indirecta posible.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla fresca",
+        "esqueje de tallo"
+      ],
+      "epoca": "Primavera o principios de verano, con 22-25 °C [orientativo, sin fuente prioritaria].",
+      "pasos": "Por semilla (RHS, NC State, UF/IFAS, UC ANR): 1) Usar semillas de fruto maduro (rojo) recién cosechado, quitándoles la pulpa. Los granos tostados del comercio no germinan, y las semillas viejas pierden viabilidad pronto. 2) Sembrar a 1 cm de profundidad en sustrato de semillero húmedo y bien drenado. 3) Mantenerlo templado, húmedo y con luz indirecta. La germinación es irregular y lenta (RHS): puede tardar 1-3 meses [orientativo, sin fuente prioritaria]. 4) Trasplantar a maceta individual cuando tenga 2-3 pares de hojas. Por esqueje (fuentes complementarias): 1) Cortar en primavera un trozo de tallo vertical sano de 10-15 cm con al menos 2 pares de hojas. 2) Quitar las hojas de abajo y, si se quiere, mojar la base en hormona de enraizamiento. 3) Clavarlo en sustrato ligero y húmedo. 4) Cubrirlo con una bolsa transparente para mantener la humedad, con luz indirecta. 5) Enraíza en unas 6-8 semanas [orientativo, sin fuente prioritaria]. Los esquejes de ramas laterales horizontales tienden a crecer de lado [orientativo, sin fuente prioritaria].",
+      "notas": "RHS considera Coffea arabica un hospedante de alto riesgo de Xylella fastidiosa, una plaga regulada en la UE. Comprar plantas solo en viveros autorizados, con pasaporte fitosanitario, y no traer plantas ni esquejes de viaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4",
+        "F5",
+        "F11",
+        "F12"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Muy frecuente en interior. Causas: aire seco (por debajo del 40-50 % de humedad), sales de abono acumuladas por su escasa tolerancia a la sal, y riego irregular con ciclos de sequía. No atribuirlo al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por aire seco con calefacción o en verano, exceso de abono o exceso de luz directa. A menudo aparece junto con las puntas marrones."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones secas en la parte de la hoja expuesta a la ventana: quemadura por sol directo fuerte, sobre todo detrás de un cristal orientado al sur o al oeste en verano."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas descoloridas o blanqueadas tras ponerla al sol directo de golpe, o al sacarla al exterior sin aclimatarla. Es una planta de sotobosque."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pierde hojas tras el traslado o la compra, con corrientes frías o con temperaturas por debajo de 13 °C (MBG). Puede pasar tras el viaje a casa en invierno o al ponerla junto a una ventana o puerta que se abre."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Se marchita enseguida si le falta agua (UC ANR: 'te avisa cuando necesita agua'). Si el sustrato está húmedo y aun así se marchita, sospechar pudrición de raíz por exceso de riego."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "UC ANR: las manchas negras en las hojas indican exceso de riego. Revisar el drenaje y dejar secar la capa superior antes de volver a regar."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato encharcado (UF/IFAS). Hay más riesgo en invierno, con poca luz y temperaturas bajas."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Deficiencias minerales (UF/IFAS), por ejemplo de hierro o magnesio, más probables si el sustrato no es ácido o está agotado. Al ser acidófila, revisar primero el pH del sustrato y luego el abonado."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas acartonadas y quebradizas por aire muy seco (calefacción, verano de Madrid) o por ciclos de sequía en la maceta."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento en el haz por araña roja (ácaros; RHS: araña roja de invernadero, MBG/NC State: 'mites'). Prolifera con aire seco y caliente. Es el primer síntoma, antes de que se vea la telaraña."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña fina en el envés y en los brotes: infestación avanzada de araña roja. Aislar la planta, subir la humedad ambiental y ducharla. Si persiste, usar solo acaricidas listos para usar, de uso no profesional, inscritos en el Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (MBG, NC State y UF/IFAS: 'scale'): escudos pardos pegados a tallos y nervios del envés. Retirar a mano con un bastoncillo. Si hace falta, usar solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (MBG y NC State: 'mealybug') en las axilas de las hojas y en los nudos, donde se agrupan las flores."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa en las hojas por la cochinilla (de escudo o algodonosa). Si aparece, buscar la cochinilla en el envés y en los tallos."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla (fumagina) que crece sobre la melaza de la cochinilla. Hay que tratar la cochinilla; la capa negra se limpia con un paño húmedo."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "La planta se ahila (entrenudos largos, pocas hojas, sin flor) por falta de luz, en rincones alejados de la ventana o en ventanas norte poco luminosas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera, aire muy seco (humedad exterior ≈38 % en julio) y sol fuerte en ventanas sur y oeste: alejar la planta 1-2 m del cristal o filtrar la luz con una cortina fina, y no dejarla nunca al sol directo de mediodía o de la tarde. Por encima de unos 29 °C se estresa [orientativo, sin fuente prioritaria]: mantenerla en la habitación más fresca, sin el chorro directo del aire acondicionado. Comprobar el sustrato cada 2-3 días con el dedo y el peso, porque se seca deprisa. Usar humidificador o agrupar plantas, y vigilar el envés por si aparece araña roja, que se dispara con calor seco. Si se saca a una terraza, que sea a la sombra luminosa, protegida del viento, y aclimatándola poco a poco.",
+    "invierno": "Con calefacción, la humedad interior baja a menudo del 30 %, y es la causa principal de puntas y bordes marrones y de araña roja. Poner un humidificador cerca, con el objetivo de al menos 50 %, o agrupar plantas, y alejarla de los radiadores. Mantenerla por encima de 15 °C. No dejar que las hojas toquen el cristal frío, y alejarla de las ventanas por la noche si el cristal es sencillo. Evitar corrientes frías al ventilar: se le caen las hojas por debajo de 13 °C. Reducir el riego sin dejar secar la maceta del todo, y no abonar. Con calefacción, la maceta puede secarse más rápido de lo que se espera en invierno: comprobar siempre con el dedo.",
+    "ubicacion_recomendada": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. Lejos de radiadores, salidas de aire acondicionado y puertas o ventanas que se abran a menudo en invierno. Cocinas o salones luminosos con humidificador funcionan bien. Fuera del alcance de perros y gatos que muerdan plantas, y guardar también fuera de su alcance los granos de café (verdes, tostados o molidos)."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Coffea arabica L.; no hay cambio de nombre. Los sinónimos son solo variedades y formas infraespecíficas (p. ej. var. bourbon, var. typica, var. maragogype).",
+    "Toxicidad: ASPCA no tiene ficha de Coffea arabica; su ficha 'Coffee Tree' es Polyscias guilfoylei. No hay fuente prioritaria que evalúe directamente la toxicidad de la planta para perros y gatos, ni dosis tóxicas de hoja o fruto por especie animal. La calificación 'tóxica' se deduce del contenido de cafeína de la hoja (Tritsch et al. 2022) y de la toxicidad de la cafeína según ASPCA.",
+    "Toxicidad: no se ha encontrado una fuente prioritaria sobre el contenido de cafeína del fruto inmaduro (pulpa y semilla verde) ni sobre si es seguro comer la pulpa del fruto maduro en casa.",
+    "Humedad: ninguna fuente prioritaria da cifras de humedad relativa (solo dicen 'alta'). El 50-70 % sale de fuentes complementarias.",
+    "Temperatura máxima: ninguna fuente prioritaria da una máxima numérica para interior. UC ANR solo dice que el calor extremo la daña. Los 29 °C son de una fuente complementaria.",
+    "pH del sustrato: las fuentes prioritarias solo lo describen ('ligeramente ácido', 'ácido a neutro'); no hay cifras de pH en fuentes prioritarias.",
+    "Propagación por esqueje y época y técnica de poda: solo hay fuentes complementarias.",
+    "Luz: no hay cifras en lux o pie-candela para el cafeto en fuentes prioritarias. El rango se deduce de la escala del proyecto.",
+    "Tamaño de hoja: UF/IFAS da 10-20 cm y NC State 2,5-7,5 cm. No se ha podido resolver con una tercera fuente prioritaria."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/coffea-arabica/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b632",
+      "institucion": "Missouri Botanical Garden – Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/Plants/4159/wd/Details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de planta Coffea arabica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://ask.ifas.ufl.edu/publication/FP135",
+      "institucion": "UF/IFAS Extension (University of Florida), EDIS FP135 'Coffea arabica: Coffee'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2020-07/329593.pdf",
+      "institucion": "University of California Cooperative Extension (UC ANR), San Diego County – 'Coffee (Coffea arabica): A New Plant/Crop for Southern California'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:747038-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets",
+      "institucion": "ASPCA Animal Poison Control Center – People Foods to Avoid Feeding Your Pets (Chocolate, Coffee and Caffeine)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/coffee-tree",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants: 'Coffee Tree' (Polyscias guilfoylei, no Coffea)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8834188",
+      "institucion": "Foods (revista revisada por pares): Tritsch et al. 2022, 'Risk Assessment of Caffeine and Epigallocatechin Gallate in Coffee Leaf Tea', doi:10.3390/foods11030263",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.petpoisonhelpline.com/poison/caffeine/",
+      "institucion": "Pet Poison Helpline – Caffeine",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://healthyhouseplants.com/?p=15820",
+      "institucion": "Healthy Houseplants (web divulgativa) – Coffee Plant",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://plnts.com/care/houseplants-family/coffea",
+      "institucion": "PLNTS.com (vivero online) – Coffea care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

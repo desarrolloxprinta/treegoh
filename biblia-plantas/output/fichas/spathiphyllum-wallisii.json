@@ -1,0 +1,332 @@
+{
+  "nombre_cientifico": "Spathiphyllum wallisii",
+  "nombres_comunes": [
+    "espatifilo",
+    "lirio de la paz",
+    "cuna de Moisés",
+    "espatifilo de Wallis"
+  ],
+  "familia": "Araceae",
+  "origen": "Colombia y Venezuela (POWO; NC State). Naturalizada en Cuba, República Dominicana, Puerto Rico, Honduras, suroeste de México, Antillas venezolanas, Bangladés, Comoras e Islas Cook (POWO). Gran parte de los espatifilos vendidos en maceta son cultivares e híbridos del género (p. ej. 'Mauna Loa', 'Sensation', 'Domino'), multiplicados sobre todo por cultivo in vitro (UF/IFAS).",
+  "clima_nativo": "Sotobosque de selva tropical húmeda (UF/IFAS), con sombra, calor constante y sin heladas; zonas USDA 11-12 según NC State y 10b-12 según UF/IFAS.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, en roseta basal, erguidas, lanceoladas a elíptico-oblongas con punta acuminada, verde oscuro, brillantes y algo rugosas (NC State, RHS). Lámina de 10-60 cm según cultivar (NC State da 4-25 in para el género); pecíolo envainante no más largo que la lámina. Rasgo clave para visión: inflorescencia con espata blanca ovada en forma de vela o capucha, de hasta 15 cm en S. wallisii (RHS), que se alza sobre el follaje en un pedúnculo largo y abraza parcialmente un espádice cilíndrico crema o blanco-verdoso; la espata se vuelve verde pálido unos 10 días después de abrir y sigue en la planta más de un mes (NC State).",
+    "nerviacion": "Pinnada: nervio central muy marcado y numerosos nervios laterales paralelos, hundidos en el haz, que dan a la lámina un aspecto acanalado o rugoso (NC State).",
+    "variegacion": "La especie y la mayoría de cultivares son verdes. Hay cultivares variegados con rayas o vetas crema, verde pálido o blancas irregulares ('Domino', 'Gemini', 'Variegata') (NC State, Clemson).",
+    "tallo": "Sin tallo aéreo visible: las hojas salen de un rizoma o cormo corto bajo el sustrato, formando matas que se dividen con facilidad (NC State, RHS, Univ. Hawaii).",
+    "habito": "Herbácea perenne siempreverde, en mata o macolla, de porte erguido y crecimiento moderado; no trepa ni cuelga.",
+    "tamano_adulto_interior": "S. wallisii en sentido estricto es pequeño: unos 30 cm de alto (NC State; Clemson da 30-38 cm para 'Wallisii'; RHS 0,1-0,5 m de alto y ancho). Los híbridos comerciales van de 30 cm (enanos como 'Little Angel') a 0,6-1,2 m (la mayoría) y hasta 1,8 m ('Sensation') (Clemson, NC State).",
+    "confusiones": [
+      {
+        "especie": "Anthurium andraeanum (anturio)",
+        "rasgo_diferenciador": "Espata plana, cerosa y muy brillante en forma de corazón, a menudo roja o rosa, con el espádice recto saliendo de su base; hojas acorazonadas. El espatifilo tiene espata blanca mate en forma de vela que abraza el espádice y hojas lanceoladas."
+      },
+      {
+        "especie": "Aglaonema spp. (aglaonema)",
+        "rasgo_diferenciador": "Tiene tallo corto visible con entrenudos, hojas casi siempre con manchas plateadas, rosas o crema y una espata pequeña verdosa poco vistosa escondida entre las hojas; el espatifilo no muestra tallo y su espata blanca destaca por encima del follaje."
+      },
+      {
+        "especie": "Zantedeschia aethiopica (cala)",
+        "rasgo_diferenciador": "Espata enrollada en trompeta que envuelve por completo el espádice amarillo, y hojas sagitadas (con base en flecha) mates; el espatifilo tiene espata abierta, ovada, y hojas lanceoladas brillantes."
+      },
+      {
+        "especie": "Dieffenbachia spp. (difenbaquia)",
+        "rasgo_diferenciador": "Tallo grueso tipo caña bien visible y hojas grandes normalmente variegadas en crema o blanco; el espatifilo carece de tallo aéreo."
+      },
+      {
+        "especie": "Aspidistra elatior (aspidistra)",
+        "rasgo_diferenciador": "Hojas más coriáceas y mates que salen de rizoma, sin espata blanca; sus flores son pequeñas, moradas y a ras de sustrato."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (ASPCA, NC State, Clemson).",
+    "sintomas": "Al morder o masticar: dolor y quemazón intensos en boca, labios, lengua y garganta, babeo excesivo, vómitos y dificultad para tragar (ASPCA, NC State). La RHS la clasifica como nociva si se ingiere e irritante para piel y ojos: usar guantes al dividirla o podarla. NC State da gravedad media, con hojas tóxicas sobre todo si se ingieren en cantidad. Colocarla fuera del alcance de niños y mascotas; ante ingestión con síntomas, enjuagar la boca y llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "notas": "La ASPCA registra la ficha a nivel de género (Spathiphyllum, incluido 'Mauna Loa'), con la misma conclusión para perros y gatos. Su toxicidad es la irritación local por oxalato cálcico propia de las aráceas; no se ha verificado en fuentes prioritarias que comparta los efectos de los lirios verdaderos (Lilium) en gatos, y la app no debe afirmarlo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este o norte luminosa; a 1-2 m de una ventana sur u oeste o detrás de una cortina fina. Lejos de salidas de calefacción o aire acondicionado y de corrientes (Clemson).",
+      "tolera_sol_directo": "No. El sol directo quema las hojas (Clemson, UF/IFAS EP477), dora las puntas (NC State) y el exceso de luz las decolora a un verde pálido que se confunde con carencia de nutrientes (UF/IFAS EP161). Como mucho, sol muy suave de primera hora de la mañana.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "Tolera poca luz (Clemson; NC State la sitúa en semisombra a sombra intensa), pero en sombra profunda florece poco (RHS) y la falta de luz es, con la juventud de la planta (menos de un año), la causa principal de que no florezca (Clemson). UF/IFAS EP477 y Clemson recomiendan luz brillante indirecta. Se adopta luz media (100-500 fc) como rango de mantenimiento, ampliable hasta el techo de la luz brillante indirecta (1000 fc ≈ 10760 lux) para que florezca; lux_min corresponde al límite inferior de luz media (100 fc). Discrepancia menor: NC State admite sombra intensa, UF/IFAS y Clemson piden luz brillante indirecta; se elige el término medio sin sol directo."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos que recién regada: debe secarse ligeramente entre riegos, sin llegar a secarse del todo el cepellón (Clemson, NC State). Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos; nunca dejarla en agua estancada (UF/IFAS EP477, Clemson). Nunca por calendario. El riego por abajo (inmersión breve de la maceta) funciona bien (NC State).",
+      "primavera_verano": "Sustrato húmedo pero no empapado; por encima de unos 27 °C mantenerlo húmedo de forma constante (UF/IFAS EP161) y comprobar dedo y peso con más frecuencia (en Madrid en verano puede ser cada 2-4 días).",
+      "otono_invierno": "Reducir el riego, sobre todo con frío: el sustrato saturado con temperaturas bajas pudre raíces (UF/IFAS EP161). Esperar a que los 2-3 cm superiores estén secos y la maceta ligera; con calefacción fuerte puede secarse rápido, así que guiarse por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente (Clemson). Es sensible a las sales (UF/IFAS EP477: no tolera la sal): lavar el sustrato con un riego abundante cada pocos meses o entre abonados para arrastrar sales de abono (NC State). El agua del grifo de Madrid (Canal de Isabel II) es blanda y apta; las puntas marrones no se deben a su cloro o flúor sino a sales de abono, riego irregular o aire seco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "notas": "La falta de agua es el problema más común: la planta se desploma ('crashing', marchitez brusca) y suele recuperarse en pocas horas tras un riego a fondo (UF/IFAS EP161), pero los desplomes repetidos dejan puntas y bordes marrones. Por eso se marca sensibilidad a la sequía alta pese a recuperarse. El encharcamiento causa marchitez, necrosis de márgenes y raíces escasas con puntas negras (UF/IFAS EP161) y es la vía de entrada de las pudriciones de raíz y tallo, el problema sanitario más frecuente (Clemson). Ojo: una planta lacia con el sustrato húmedo no necesita agua; puede tener la raíz podrida."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. RHS pide mantener humedad alta durante el crecimiento; NC State atribuye a la humedad baja las puntas marrones. Para subirla, usar humidificador o agrupar plantas (pulverizar, aunque lo cite la RHS, no la sube de forma útil según las convenciones del proyecto).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 20,
+      "ideal_max_c": 29,
+      "notas": "Ideal de día 20-29 °C (68-85 °F) con un descenso nocturno de no más de 3-6 °C (NC State, Clemson, UF/IFAS EP161). Clemson pide evitar menos de 15,5 °C (60 °F) por daño de frío; UF/IFAS EP161 cita daños por enfriamiento desde 7 °C en algunos cultivares y retraso del crecimiento tras cinco días a 11 °C; NC State indica que entre 4 y 15 °C el crecimiento se frena mucho y por debajo de 4 °C se dañan hojas, tallos y raíces. Se adopta como mínimo el valor más conservador (15 °C). Máximo: UF/IFAS recomienda bajar a 32 °C (90 °F) o menos si hay estrés por calor. Los daños por frío empiezan por las puntas, en hojas maduras, como zonas negras, enanismo y muerte de raíces (UF/IFAS EP161). No resiste heladas (UF/IFAS EP477, RHS H1B).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior rico en materia orgánica, a base de turba o de fibra de coco y corteza de pino, que retenga agua y nutrientes pero drene bien (UF/IFAS EP477 y EP161, NC State). Referencia profesional: 50-60 % de turba con corteza de pino, vermiculita o coco (UF/IFAS EP161). RHS recomienda sustrato sin turba. Maceta con agujeros de drenaje.",
+      "ph": "Ácido, por debajo de 6,0 (NC State).",
+      "drenaje": "Bueno: el sustrato debe retener humedad sin encharcarse; un medio saturado o poco aireado provoca necrosis de márgenes y raíces negras (UF/IFAS EP161).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS; Clemson cita un 20-20-20).",
+      "npk": "Equilibrado, p. ej. 20-20-20 (Clemson, UF/IFAS EP161).",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta una vez al mes, solo con crecimiento activo (convención del proyecto; coincide con RHS, mensual, UF/IFAS EP161, ¼ de la dosis comercial al mes, y NC State, ¼ de la dosis). Clemson es aún más prudente: cada 6-8 semanas a ¼ de dosis.",
+      "otono_invierno": "Nada si no crece (frío, poca luz). Con calefacción y luz buena puede seguir creciendo despacio: como mucho ¼ de dosis cada 6-8 semanas.",
+      "notas": "Es poco exigente y sensible a las sales: el exceso de abono quema puntas y raíces (NC State, Clemson, UF/IFAS EP161). Lavar el sustrato entre abonados. Si aparece clorosis entre nervios en hojas viejas, puede ser carencia de magnesio (Clemson, UF/IFAS EP161).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta (RHS), normalmente cada 1-2 años en ejemplares jóvenes. Le gusta estar algo apretada en la maceta (NC State, Clemson).",
+      "epoca": "Preferentemente al final del invierno o en primavera (NC State: febrero-marzo); puede hacerse en cualquier época, pero se recupera antes en temporada de crecimiento (Clemson).",
+      "senales": "Raíces que salen por los agujeros de drenaje o que dan vueltas en la superficie del sustrato (Clemson), sustrato que se seca en muy poco tiempo y desplomes frecuentes. Usar una maceta solo 2,5-5 cm (1-2 in) más ancha: una mucho mayor queda húmeda demasiado tiempo y pudre raíces (Clemson). Aflojar las raíces con cuidado antes de plantar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS).",
+      "epoca": "Cualquier época, cuando aparezcan hojas secas o dañadas.",
+      "como": "Cortar desde la base con tijera limpia las hojas amarillas o secas. Limpiar el polvo de las hojas con un paño húmedo con regularidad, que además elimina plagas del envés (NC State, Clemson). Usar guantes por la savia irritante (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero. En invierno el crecimiento se frena si baja la temperatura (por debajo de unos 10-15 °C según NC State y UF/IFAS): reducir riego y no abonar mientras no haya hojas nuevas. La floración natural se induce con días cortos y temperaturas más bajas; muchos cultivares florecen sobre todo de enero a agosto (UF/IFAS EP161).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata"
+      ],
+      "epoca": "Invierno o justo después de la floración (RHS); en casa es más cómodo aprovechar el trasplante de final de invierno o primavera.",
+      "pasos": "1) Regar el día anterior. 2) Con guantes, sacar la planta de la maceta y retirar parte del sustrato. 3) Separar con las manos o con un cuchillo limpio grupos de varias hojas (coronas) que tengan su propio paquete de raíces sanas. 4) Retirar raíces negras o blandas. 5) Plantar cada división en una maceta ajustada a su cepellón, con sustrato nuevo y bien drenado, a la misma profundidad. 6) Regar a fondo, escurrir y mantener en luz media sin sol directo y sustrato ligeramente húmedo hasta que emita hojas nuevas. La propagación comercial se hace por cultivo in vitro y algunas variedades por semilla; no son métodos domésticos (UF/IFAS EP161).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego, plato con agua o maceta demasiado grande (Clemson, UF/IFAS EP161). Un hongo específico, Cylindrocladium spathiphylli (Calonectria spathiphylli), causa lesiones negras alargadas de 5-15 mm en raíces y puede destruir el sistema radicular en semanas con calor y humedad (Univ. Hawaii)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Desplome por falta de agua: es la causa más común y se recupera en horas tras regar a fondo (UF/IFAS EP161, Clemson). Si el sustrato está húmedo, sospechar pudrición de raíces (UF/IFAS EP161, Univ. Hawaii). Un ligero decaimiento al final del día con luz intensa y más de 27-29 °C puede ser normal (UF/IFAS EP161)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Exceso de abono y sales acumuladas, desplomes repetidos por sequía, humedad ambiental baja o sol directo (NC State, Clemson, UF/IFAS EP161). En Madrid no atribuirlo al cloro o al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Sustrato encharcado (necrosis de márgenes, UF/IFAS EP161), exceso de abono o secado excesivo (Clemson), y exceso de luz o calor (bordes quemados, UF/IFAS EP161)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Sustrato que se seca demasiado (Clemson) o raíces dañadas por podredumbre: Cylindrocladium produce amarilleo prematuro de hojas viejas, hojas verde apagado y poco vigor (Univ. Hawaii)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Carencia de magnesio: hoja amarilla con nervios verdes (Clemson); UF/IFAS EP161 indica también clorosis por carencias de hierro o manganeso con sustrato frío."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz: hojas decoloradas, pálidas o enrolladas que se confunden con carencia de nutrientes (UF/IFAS EP161)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras por sol directo o por calor de ventana (Clemson, UF/IFAS EP477)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío: zonas negras en la hoja que empiezan por la punta, sobre todo en hojas maduras, con temperaturas por debajo de 7-15 °C o junto a cristales fríos (UF/IFAS EP161, NC State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de base y cormo por Cylindrocladium spathiphylli: lesiones negras alargadas en la base de los pecíolos y el tallo; la parte aérea sale del tiesto casi sin raíces (Univ. Hawaii). Clemson señala las enfermedades de raíz y tallo por exceso de riego como el problema más común."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Frío (UF/IFAS EP161, NC State), carencia de magnesio (Clemson) o raíces enfermas (Univ. Hawaii)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga de interior más común en esta planta (NC State, UF/IFAS EP477, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo (UF/IFAS EP477, Clemson)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por aire seco y calor (Clemson; UF/IFAS EP477 cita ácaros)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) cuando el sustrato orgánico se mantiene demasiado húmedo (Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato se seca muy deprisa y la planta se desploma: comprobar dedo (2-3 cm) y peso cada 2-3 días y regar a fondo cuando toque, vaciando el plato. Sacarla de cualquier rayo de sol directo de ventanas sur y oeste (quema y decolora en pocas horas); dejarla a 1-2 m del cristal o tras cortina fina. Si dentro de casa se superan los 30-32 °C, llevarla a la habitación más fresca con luz indirecta, sin ponerla bajo el chorro del aire acondicionado. Subir la humedad con humidificador o agrupando plantas; vigilar araña roja. Abonar como máximo una vez al mes a ¼-½ de dosis y lavar el sustrato de sales.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, lo que favorece puntas marrones y araña roja: humidificador o agrupar plantas, y alejarla de radiadores y salidas de aire caliente (Clemson). Mantenerla siempre por encima de 15 °C y lejos de cristales fríos y corrientes nocturnas: el frío ennegrece las puntas de las hojas maduras. Regar menos, solo cuando estén secos los 2-3 cm superiores y la maceta pese poco, con agua a temperatura ambiente. Sin abono si no crece. Es buena época para acercarla a una ventana más luminosa (incluso sur con cortina) porque el sol de invierno es suave, lo que ayuda a la floración de final de invierno y primavera.",
+    "ubicacion_recomendada": "Interior todo el año, en una habitación luminosa sin sol directo: junto a ventana este o norte, o a 1-2 m de ventana sur u oeste con cortina en verano. Lejos de radiadores, aire acondicionado y corrientes. Fuera del alcance de niños y mascotas. No sacarla al exterior en Madrid salvo en verano a la sombra total y con noches por encima de 15 °C."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Spathiphyllum wallisii Regel (Gartenflora 26: 323, 1877; urn:lsid:ipni.org:names:89011-1), nativa de Colombia y Venezuela. La página de POWO solo se pudo leer parcialmente (bloqueo anti-bot; se obtuvo la distribución pero no la lista de sinónimos).",
+    "Muchas plantas vendidas como 'Spathiphyllum wallisii' o 'espatifilo' son en realidad cultivares híbridos del género (p. ej. 'Mauna Loa', 'Sensation', 'Domino'; S. wallisii aparece como parental en patentes como 'Bond B', PP10146). Sus tamaños (30 cm-1,8 m) y su tolerancia al frío varían por cultivar (UF/IFAS EP161); la app no debería asumir que una planta comercial es la especie pura.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos o ideales para interior; solo valores cualitativos (RHS: alta; NC State: la humedad baja causa puntas marrones).",
+    "Ninguna fuente prioritaria consultada da un rango de luz en lux o fc para interior; lux_min/lux_max se derivan de la escala del proyecto (UF/IFAS EP161 solo da 1500-2500 fc para producción en vivero).",
+    "Manchas foliares con halo amarillo (S14) por Cylindrocladium aparecen citadas en informes de investigación de UF/IFAS que no se han abierto; no se asigna ese síntoma hasta verificarlo.",
+    "La cifra de pH 1,0-2,0 que aparece en la versión web de UF/IFAS EP161 es una errata evidente; se usa el pH ácido <6,0 de NC State."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Spathiphyllum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ask.ifas.ufl.edu/publication/EP477",
+      "institucion": "UF/IFAS Extension (University of Florida) — ENH1216/EP477 Florida Foliage House Plant Care: Spathiphyllum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://ask.ifas.ufl.edu/publication/EP161",
+      "institucion": "UF/IFAS Extension (University of Florida) — ENH958/EP161 Cultural Guidelines for Commercial Production of Interiorscape Spathiphyllum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/17623/spathiphyllum-wallisii/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Spathiphyllum wallisii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC) — Peace Lily",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peace-lily",
+      "institucion": "ASPCA Animal Poison Control Center — Peace Lily",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:89011-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Spathiphyllum wallisii Regel",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/24bd9197-3274-4395-b681-c3980b811f0d/content",
+      "institucion": "University of Hawaii at Manoa, CTAHR — J. Y. Uchida, Cylindrocladium rot of Spathiphyllum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://patents.google.com/patent/USPP10146",
+      "institucion": "Patente vegetal de EE. UU. PP10146 (Spathiphyllum 'Bond B'), vía Google Patents",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

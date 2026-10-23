@@ -1,0 +1,350 @@
+{
+  "nombre_cientifico": "Peperomia prostrata",
+  "nombres_comunes": [
+    "collar de tortugas",
+    "peperomia prostrata",
+    "string of turtles (nombre comercial en inglés)",
+    "trailing peperomia (nombre usado por ASPCA)"
+  ],
+  "familia": "Piperaceae",
+  "origen": "Ecuador (POWO; NC State: zonas tropicales húmedas de Ecuador).",
+  "clima_nativo": "Tropical húmedo de selva, sin heladas; planta de sotobosque, a menudo epífita como muchas peperomias (Clemson, para el género). NC State: al aire libre solo en zonas USDA 10a-12b.",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas diminutas, redondas, gruesas y suculentas, de menos de 2,5 cm (NC State) y normalmente hasta 1,5 cm de diámetro (RHS), alternas, de margen entero y sin pelos (NC State). Haz verde oscuro a casi púrpura (Univ. Missouri) con un dibujo reticulado más claro (verde claro, plateado o blanquecino) a lo largo de los nervios que recuerda al caparazón de una tortuga (NC State, RHS, Clemson, Univ. Missouri). Las hojas jóvenes son más multicolores; las maduras suelen ser verde oscuro y verde claro (NC State).",
+    "nerviacion": "Nervios marcados por bandas más claras que forman una red o mosaico sobre fondo oscuro, el rasgo diagnóstico de la especie ('caparazón de tortuga'; RHS: marcas más claras a lo largo de los nervios; Univ. Missouri: red de nervios blancos).",
+    "variegacion": "El dibujo reticulado claro es propio de la especie, no una variegación de cultivar. NC State cita los cultivares 'Pepperspot' (hojas verde oscuro con envés rojo y tallos rojizo-pardos) y 'Silver Stripe' (verde oscuro con rayas plateadas). Con poca luz el color y el dibujo se apagan (NC State).",
+    "tallo": "Tallos muy finos, delicados, colgantes, rojos a burdeos (NC State, RHS), que pueden alcanzar unos 30 cm (NC State). Inflorescencias en espigas erectas, finas, en forma de cola, pardas a cobrizas, de 2,5-7,5 cm (NC State; RHS: espigas pardas de primavera a verano); en interior rara vez florece (NC State).",
+    "habito": "Perenne herbácea perennifolia, rastrera y colgante, de crecimiento lento (NC State, RHS). Se extiende sin ser invasora (NC State, Univ. Missouri). Para cestas colgantes, macetas pequeñas y terrarios (NC State, RHS).",
+    "tamano_adulto_interior": "Tallos colgantes de hasta unos 30 cm; NC State da 23-30 cm de alto (largo de la cascada) y 7,5-10 cm de ancho de mata; RHS, 0,1-0,5 m de alto y de ancho, con madurez en 2-5 años.",
+    "confusiones": [
+      {
+        "especie": "Peperomia rotundifolia (botones rastreros, 'creeping buttons', 'jade necklace')",
+        "rasgo_diferenciador": "Clemson: P. rotundifolia es parecida, pero sus hojas son más grandes, menos jaspeadas y van más juntas sobre el tallo; puede ser verde liso o variegada. NC State: hojas verde brillante con nervios verde claro (sin el mosaico oscuro tipo caparazón) y tallos parduscos con pelos finos; P. prostrata tiene tallos rojos a burdeos y el dibujo reticulado claro sobre fondo verde oscuro o purpúreo. Nota: NC State da a P. rotundifolia hojas de 1,3 cm o menos, así que el tamaño solo no basta: mirar el dibujo y el color del tallo."
+      },
+      {
+        "especie": "Peperomia 'Hope'",
+        "rasgo_diferenciador": "NC State la cita como cultivar de P. rotundifolia: baja, colgante, de hojas redondas en miniatura y crecimiento lento. Se distingue de P. prostrata por las hojas verde uniforme, más carnosas y sin el dibujo reticulado de caparazón [orientativo, sin fuente prioritaria]. Su origen (en el comercio se presenta a menudo como híbrido) no se pudo verificar en fuente prioritaria."
+      },
+      {
+        "especie": "Ceropegia woodii (corazones enredados, Apocynaceae)",
+        "rasgo_diferenciador": "También es colgante de tallos finos con hojas pequeñas jaspeadas de plata, pero sus hojas son acorazonadas, opuestas (en pares) y el tallo forma tubérculos; P. prostrata tiene hojas redondas, alternas y espigas florales en cola [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas de intoxicación. ASPCA tiene ficha propia a nivel de especie: 'Trailing Peperomia', escrita 'Peperomia prostata' (errata de 'prostrata'), familia Piperaceae, no tóxica para perros ni gatos; ASPCA no usa el nombre 'String of Turtles'. NC State etiqueta P. prostrata como no tóxica para perros y gatos. Para personas solo hay dato a nivel de género: la lista del Minnesota Poison Control System incluye 'Peperomia' entre las plantas no tóxicas. Que no sea tóxica no significa que sea comestible: si un animal o un niño come mucha hoja puede tener una molestia digestiva leve o atragantarse. Ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F10"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA a nivel de especie, con errata en el nombre, y NC State a nivel de especie coinciden). Niños: una sola fuente oficial y a nivel de género (Minnesota), así que para personas la confianza real es Media; no se extiende a Alta por el género. Ninguna fuente identifica principio tóxico. Algunas webs divulgativas afirman que contiene oxalato cálcico o saponinas; no se ha encontrado respaldo en ninguna fuente prioritaria y no se adopta."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste tras una cortina fina (Clemson, para el género: luz indirecta de ventana este o sur; tolera algo de luz baja cerca de una ventana norte grande). En invierno, acercarla a la luz (RHS: pasar a plena luz en invierno).",
+      "tolera_sol_directo": "Solo sol suave y tamizado. NC State admite sol tamizado o semisombra (2-6 h de sol directo) y RHS 'sol pleno o semisombra' en su clima británico, pero Clemson advierte que el sol directo quema las hojas de las peperomias y Univ. Missouri que no deben estar a pleno sol. Opción conservadora: sin sol directo de mediodía ni de tarde en verano; sol de primera hora o de invierno, aceptable.",
+      "notas": "Óptimo: luz brillante indirecta (NC State, RHS). Tolera luz baja, pero el color y el dibujo de las hojas pierden viveza (NC State) y los tallos se alargan [orientativo, sin fuente prioritaria]. lux_min = inicio de la luz media de la escala del proyecto (100 fc = 1076 lux), como mínimo tolerable; lux_max = techo de la brillante indirecta (1000 fc = 10760 lux). Contradicción menor: NC State y RHS admiten algo de sol directo, Clemson y Univ. Missouri lo desaconsejan para el género; se adopta la opción más conservadora.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo la capa superior y levantar la maceta: regar cuando los 2 cm superiores estén secos y la maceta pese claramente menos, sin esperar a que se seque del todo; regar a fondo hasta que salga agua por el drenaje y vaciar el plato (Clemson). En macetas pequeñas (6-10 cm) o colgantes el sustrato se seca en pocos días: comprobar más a menudo, no regar más cantidad. Señal de sed: hojas que pierden turgencia, se arrugan o se desinflan (Garden Betty, complementaria). Señal de exceso: hojas amarillas desde la base de los tallos y tallos blandos (Univ. Missouri, para el género; Garden Betty). Nunca por calendario.",
+      "primavera_verano": "Riego moderado (RHS): manteniendo el sustrato ligeramente húmedo de forma uniforme, nunca encharcado (NC State y Univ. Missouri: prefiere el sustrato uniformemente húmedo, pero sufre con el exceso de riego). En una maceta de 8-10 cm a 22-25 °C con buena luz suele tocar cada 4-7 días [orientativo, sin fuente prioritaria]; en olas de calor de Madrid, comprobar cada 2-3 días.",
+      "otono_invierno": "Riego escaso (RHS): dejar secar algo más la capa superior antes de regar, pero sin que las hojas se arruguen. Con calefacción y poca luz suele ser cada 10-20 días [orientativo, sin fuente prioritaria]. En cuartos frescos (<16 °C) regar todavía menos: con frío y sustrato mojado se pudren primero los tallos finos y las raíces.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "RHS recomienda agua blanda y templada. En Madrid el agua del grifo es blanda (10-47 mg/L CaCO3) y con fluoruro <0,1 mg/L: sirve tal cual, a temperatura ambiente; dejarla reposar no elimina la cloramina, pero no hace falta. Las raíces de las peperomias son muy finas y se dañan con el exceso de sales del abono (UF/IFAS CFREC): regar a fondo de vez en cuando para lavar sales.",
+      "notas": "Contradicción entre prioritarias: NC State y Univ. Missouri dicen que prefiere el sustrato uniformemente húmedo, mientras Clemson (para el género) pide dejar secar entre riegos y subraya que P. prostrata es sensible al exceso de riego. Se adopta un término medio conservador: secado solo de la capa superior (2 cm), nunca la maceta entera seca ni el sustrato mojado de forma continua. Es una planta de hoja pequeña y tallos finos: tiene poca reserva de agua y se deshidrata antes que otras peperomias en maceta pequeña, pero sus tallos se pudren rápido si el sustrato no airea. El exceso de riego es la causa principal de muerte: pudrición de raíz (NC State, Clemson) y de tallos (UF/IFAS CFREC, para el género: Pythium y Phytophthora). Regar en el sustrato, no sobre la mata de tallos: mantener las hojas secas (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F3",
+        "F2",
+        "F9",
+        "F11"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 55,
+      "notas": "NC State indica humedad media a alta y recomienda humidificador o bandeja de guijarros; NC State (género) dice que las peperomias se adaptan a la humedad doméstica normal y que el humidificador ayuda en casas muy secas. Garden Betty (complementaria) pide al menos un 40 %. Ninguna fuente prioritaria da porcentajes: min_pct 40 e ideal_pct 55 son orientativos [orientativo, sin fuente prioritaria]; son más altos que en P. caperata y P. obtusifolia porque NC State pide humedad media-alta para esta especie. No pulverizar: según el proyecto no sube la humedad de forma útil y mojar las hojas favorece manchas foliares (Clemson). Usar humidificador en invierno (Clemson) o agrupar plantas; en terrario abierto vive bien (NC State, RHS: apta para terrarios).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F3",
+        "F11"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 20,
+      "ideal_max_c": 24,
+      "notas": "NC State: preferida 68-75 °F (20-24 °C), evitar corrientes frías. RHS la clasifica H1B: mínimo 10-15 °C, en el Reino Unido solo puede salir al exterior en verano. Univ. Missouri (para el género): mantener por encima de 10 °C (50 °F). Clemson (género): sacarla al exterior solo con noches constantes por encima de 16 °C (60 °F), dato de traslado al exterior. Se adopta 15 °C como mínimo seguro (extremo alto de la banda RHS), coherente con las fichas de P. caperata y P. obtusifolia del proyecto. Ninguna fuente prioritaria da máximo: max_c null. No tolera heladas (NC State: zonas USDA 10a-12b).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior (RHS) o para cactus (Clemson, género), aligerado con perlita y/o corteza de orquídea fina (Univ. Missouri, género), por ejemplo 70 % sustrato universal, 15 % perlita y 15 % corteza fina (Garden Betty, complementaria). NC State: suelo franco o arenoso con buen drenaje. Mejor maceta de barro que de plástico porque deja escapar el agua por las paredes (Univ. Missouri). Maceta pequeña y poco profunda, siempre con agujero de drenaje: el sustrato sobrante alrededor de una raíz pequeña tarda en secarse y pudre los tallos [orientativo, sin fuente prioritaria].",
+      "ph": "Ácido a neutro, de menos de 6,0 a 8,0 (NC State); RHS indica que tolera suelo ácido, neutro o alcalino.",
+      "drenaje": "Muy alto. Húmedo pero bien drenado (RHS); el exceso de riego causa pudrición de raíz (NC State); las raíces de las peperomias necesitan aireación y no toleran el encharcamiento (UF/IFAS CFREC). Nada de plato con agua ni cubremacetas sin drenar (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F9",
+        "F11"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS) a baja concentración (Clemson, género).",
+      "npk": "Equilibrado (RHS: 'balanced liquid fertiliser'); sin proporción concreta en fuentes para uso doméstico.",
+      "primavera_verano": "¼-½ de la dosis de etiqueta una vez al mes, solo con crecimiento activo (RHS: mensual de primavera a verano; Clemson: solo en primavera y verano y a baja concentración).",
+      "otono_invierno": "Nada (Clemson: abonar solo en primavera y verano).",
+      "notas": "Planta pequeña y de crecimiento lento (NC State): necesita poco abono. Las raíces de las peperomias son muy finas y el exceso de sales las mata antes de que se vean síntomas en las hojas; la planta parece sedienta y pierde hojas de las viejas a las jóvenes (UF/IFAS CFREC). No abonar una planta recién trasplantada, seca o con pudrición.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F9",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: vive mejor algo apretada en la maceta (NC State) y las peperomias crecen lento y rara vez necesitan trasplante (NC State, género); puede seguir varios años en la misma maceta (Clemson). Trasplantar cada 2-3 años [orientativo, sin fuente prioritaria] a una maceta solo un poco mayor (Clemson), unos 2 cm más de diámetro [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera, al empezar el crecimiento [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces saliendo por el drenaje, sustrato que se seca en un día o que se ha compactado y no drena, o costra de sales. Si hay tallos negros y blandos en la base o raíces oscuras, sacarla, cortar lo podrido y replantar los esquejes sanos en sustrato y maceta nuevos (UF/IFAS CFREC: usar sustrato y macetas libres de patógenos).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F3",
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "No requiere poda (RHS). Opcional para darle forma: quitar hojas viejas y despuntar tallos para que ramifique (Clemson, género).",
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "Con tijera limpia, cortar el tallo justo por encima de un nudo (Clemson, género); los trozos cortados sirven como esquejes. Retirar las espigas florales si se quiere que dedique energía a las hojas (Clemson, género). Quitar tallos pelados o blandos desde la base.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno en el hemisferio norte (de octubre a febrero en Madrid), por menos luz y temperatura. No es una latencia verdadera, sino una ralentización del crecimiento.",
+      "cambios": "Riego escaso (RHS), sin abono (Clemson), toda la luz posible (RHS: pasar a plena luz en invierno) y temperatura por encima de 15 °C, lejos de cristales fríos y de la salida directa de la calefacción.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "esqueje de hoja",
+        "esqueje en agua",
+        "semilla"
+      ],
+      "epoca": "Esquejes en primavera-verano (RHS: esquejes de tallo en verano). Semilla a 19-24 °C en cuanto madura (RHS), poco práctico en casa.",
+      "pasos": "Esqueje de tallo (RHS, Clemson): 1) cortar un trozo de tallo sano de unos 5 cm con varias hojas (Garden Betty; Clemson da 7,5-12,5 cm para el género, demasiado para esta especie de tallos cortos), justo por debajo de un nudo; 2) quitar las hojas del tercio inferior; 3) opcionalmente mojar la base en hormona de enraizamiento; 4) apoyar o enterrar los nudos en sustrato ligero y húmedo, o meterlos en un vaso de agua (Clemson, Garden Betty); 5) cubrir con plástico transparente o cúpula y poner en luz brillante sin sol directo (Clemson), a 20-24 °C [orientativo, sin fuente prioritaria]; 6) en agua, plantar cuando las raíces midan 2,5-5 cm (Garden Betty). Esqueje de hoja (NC State, Clemson): hoja con su pecíolo insertada en sustrato de enraizamiento; la planta nueva sale en la base del pecíolo. Plantar varios esquejes por maceta para que quede tupida (UF/IFAS CFREC, género).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F9",
+        "F11"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o mal drenaje (NC State; Clemson: la enfermedad más común de las peperomias y P. prostrata es sensible al exceso de riego). En el género, Pythium y Phytophthora (UF/IFAS CFREC)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de los tallos finos en la base, a ras de sustrato: tallos negros, blandos o translúcidos que se cortan y dejan caer la cascada. En el género, Pythium y Phytophthora causan pudrición de raíz y tallo (UF/IFAS CFREC), favorecida por el sustrato frío y mojado. Rescatar enseguida las puntas sanas como esquejes."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego: hojas amarillas, empezando por la base de los tallos (Univ. Missouri, género; Garden Betty). También carencia de nitrógeno o potasio en las hojas inferiores (UF/IFAS CFREC), mucho menos frecuente en casa. Comprobar primero el sustrato."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas por exceso de riego (Clemson, género) o por exceso de sales del abono, de las hojas viejas a las jóvenes (UF/IFAS CFREC). Sus hojas pequeñas se desprenden con facilidad al manipular o trasladar la maceta [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Falta de riego: hojas arrugadas o desinfladas (Garden Betty, complementaria), frecuente en macetas pequeñas o colgantes en verano o junto a la calefacción. Si el sustrato está seco y la maceta pesa poco, regar a fondo; si el sustrato está húmedo, sospechar pudrición de raíz (las raíces muertas tampoco absorben)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Pérdida del dibujo de caparazón y del color por poca luz (NC State: tolera luz baja pero el color de las hojas es menos vivo). Acercarla a una ventana luminosa sin sol fuerte."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos, desnudos y con hojas muy separadas por falta de luz [orientativo, sin fuente prioritaria]; NC State y RHS piden luz brillante indirecta."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura por sol directo fuerte (Clemson, género: el sol directo quema las hojas), típica en ventanas sur u oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, plaga citada para esta especie (NC State) y la más frecuente del género (Clemson). Se esconde entre los tallos enredados y en las axilas de las hojas."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State, Clemson), favorecida por el aire seco de la calefacción y del verano madrileño."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosca del sustrato (Clemson, género), señal de sustrato demasiado húmedo de forma continuada."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State, Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste, retirarla del cristal o poner cortina fina: el sol directo de tarde quema las hojas (Clemson). En maceta pequeña o colgada cerca del techo, donde el aire es más caliente, el sustrato se seca en 2-3 días: comprobar con el dedo y el peso cada 2-3 días y regar cuando se sequen los 2 cm superiores, sin dejarla secar del todo ni dejar agua en el plato. El aire muy seco (HR exterior ≈38 % en julio) favorece la araña roja: revisar entre los tallos. No ponerla en la corriente del aire acondicionado. Si se saca a terraza, solo a sombra completa y con noches constantes por encima de 16 °C (Clemson).",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %, por debajo de lo que pide (NC State: humedad media-alta): usar humidificador (Clemson) o agruparla con otras plantas; no pulverizar las hojas. Darle toda la luz posible (RHS), cerca de una ventana luminosa pero sin tocar el cristal, que de noche baja de 15 °C; nunca encima del radiador, que la deshidrata en días. Regar poco (RHS) y sin abono (Clemson): con frío y poca luz el sustrato tarda en secarse y los tallos finos se pudren en la base.",
+    "ubicacion_recomendada": "Colgada o en estantería alta junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina; también en terrario abierto (NC State, RHS). En invierno, acercarla a la ventana más luminosa, lejos de radiadores y del cristal frío."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Peperomia prostrata B.S.Williams ex Mast. & T.Moore (urn:lsid:ipni.org:names:679508-1; IPNI la registra como 'Hort.Williams' en Gardeners' Chronicle), nativa de Ecuador, siguiendo a Mathieu y Callejas Posada (2006, Candollea 61: 331-363). POWO señala una taxonomía alternativa: los catálogos de Perú (Brako y Zarucchi, 1993) y de Ecuador (Jørgensen y León-Yánez, 1999) la trataban como Peperomia rotundifolia. Algunas webs afirman que la planta comercial es P. rotundifolia var. pilosior; GBIF trata ese nombre como sinónimo de P. rotundifolia, no de P. prostrata. No se pudo abrir la lista de sinónimos de POWO (bloqueo del sitio). Sin cambio de nombre respecto a la lista maestra.",
+    "Riego: las fuentes prioritarias se contradicen (NC State y Univ. Missouri: sustrato uniformemente húmedo; Clemson, para el género: dejar secar entre riegos). Las frecuencias orientativas por estación no tienen fuente prioritaria.",
+    "Humedad: ninguna fuente prioritaria da porcentajes; min_pct 40 e ideal_pct 55 son orientativos.",
+    "Temperatura: ninguna fuente prioritaria da máximo tolerable (max_c null).",
+    "Toxicidad en personas: solo hay dato a nivel de género (Minnesota Poison Control System). ASPCA lista la especie con errata ('Peperomia prostata', 'Trailing Peperomia') y no usa el nombre 'String of Turtles'.",
+    "Peperomia 'Hope': NC State la cita como cultivar de P. rotundifolia, pero no describe rasgos para separarla de P. prostrata; su posible origen híbrido no se pudo verificar en fuente prioritaria.",
+    "Muchas pautas (sustrato, abonado, plagas, enfermedades, poda) proceden de fuentes del género Peperomia (Clemson, UF/IFAS CFREC, Univ. Missouri, NC State género), no de estudios de la especie."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-prostrata/",
+      "institucion": "NC State Extension (North Carolina State University) — Extension Gardener Plant Toolbox, Peperomia prostrata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/12515/peperomia-prostrata/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Peperomia prostrata hort. (string of turtles)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+      "institucion": "Clemson Cooperative Extension — Home & Garden Information Center, 'Peperomia Indoor Plant Care and Growing Guide' (G. E. Long, 2026), con apartado String of Turtles Peperomia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://ipm.missouri.edu/MEG/2022/2/peperomia-DT",
+      "institucion": "University of Missouri Extension — Missouri Environment & Garden, 'Peperomia: The Plant, not the Pizza' (D. Trinklein, 15-02-2022), con apartado String of Turtles",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:679508-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Peperomia prostrata B.S.Williams ex Mast. & T.Moore",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/trailing-peperomia",
+      "institucion": "ASPCA Animal Poison Control Center — Trailing Peperomia ('Peperomia prostata'), no tóxica para perros y gatos (node 5459)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-rotundifolia/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Peperomia rotundifolia (incluye el cultivar 'Hope')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Peperomia (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://web.archive.org/web/20210205104912/https://mrec.ifas.ufl.edu/Foliage/folnotes/pep.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center (Apopka) — Foliage Plant Research Note RH-91-25 'Peperomia' (Henley, Osborne y Chase); copia en Internet Archive",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://goodhuecountymn.gov/files/health_human_services/social_services/guidance_poisonous_plants_in_family_child_care_57277.pdf",
+      "institucion": "Minnesota Department of Human Services (2016) — Guidance: Poisonous Plants in Family Child Care, con la lista del Minnesota Poison Control System",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://gardenbetty.com/peperomia-prostrata-string-of-turtles/",
+      "institucion": "Garden Betty (blog especializado) — 'String of Turtles Plant Care (Peperomia prostrata)'",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://api.gbif.org/v1/species/match?name=Peperomia%20rotundifolia%20var.%20pilosior&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy — estado de Peperomia rotundifolia var. pilosior (sinónimo de P. rotundifolia) y de P. prostrata (aceptada)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

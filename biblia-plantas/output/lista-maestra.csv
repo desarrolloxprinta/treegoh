@@ -1,0 +1,174 @@
+orden,nombre_cientifico,nombres_comunes,familia,categoria,prioridad,rareza,archivo_ficha
+1,Aloe vera,aloe vera;sábila,Asphodelaceae,suculenta,5,comun,aloe-vera.json
+2,Anthurium andraeanum,anturio;flor de flamenco,Araceae,flor,5,comun,anthurium-andraeanum.json
+3,Chlorophytum comosum,cinta;malamadre;lazo de amor,Asparagaceae,tropical,5,comun,chlorophytum-comosum.json
+4,Dracaena marginata,drácena marginata;drácena de hoja fina,Asparagaceae,tropical,5,comun,dracaena-marginata.json
+5,Dracaena trifasciata,sansevieria;lengua de suegra;espada de San Jorge,Asparagaceae,suculenta,5,comun,dracaena-trifasciata.json
+6,Dypsis lutescens,areca;palmera areca;palmera amarilla,Arecaceae,palmera,5,comun,dypsis-lutescens.json
+7,Epipremnum aureum,poto;potus;pothos,Araceae,trepadora,5,comun,epipremnum-aureum.json
+8,Ficus elastica,ficus robusta;árbol del caucho;gomero,Moraceae,tropical,5,comun,ficus-elastica.json
+9,Ficus lyrata,ficus lira;higuera de hoja de violín,Moraceae,tropical,5,comun,ficus-lyrata.json
+10,Howea forsteriana,kentia;palmera del paraíso,Arecaceae,palmera,5,comun,howea-forsteriana.json
+11,Kalanchoe blossfeldiana,kalanchoe;calanchoe,Crassulaceae,suculenta,5,comun,kalanchoe-blossfeldiana.json
+12,Monstera deliciosa,costilla de Adán;cerimán;monstera,Araceae,tropical,5,comun,monstera-deliciosa.json
+13,Phalaenopsis hybrida,orquídea mariposa;orquídea alevilla;phalaenopsis,Orchidaceae,orquidea,5,comun,phalaenopsis-hybrida.json
+14,Spathiphyllum wallisii,espatifilo;lirio de la paz;cuna de Moisés,Araceae,tropical,5,comun,spathiphyllum-wallisii.json
+15,Zamioculcas zamiifolia,zamioculca;planta ZZ,Araceae,tropical,5,comun,zamioculcas-zamiifolia.json
+16,Aglaonema commutatum,aglaonema;siempreverde chino,Araceae,tropical,4,comun,aglaonema-commutatum.json
+17,Alocasia amazonica,alocasia amazónica;oreja de elefante;alocasia Polly,Araceae,tropical,4,comun,alocasia-amazonica.json
+18,Beaucarnea recurvata,pata de elefante;nolina,Asparagaceae,suculenta,4,comun,beaucarnea-recurvata.json
+19,Begonia maculata,begonia maculata;begonia de lunares,Begoniaceae,tropical,4,comun,begonia-maculata.json
+20,Chamaedorea elegans,camadorea;palmera de salón;palmito de salón,Arecaceae,palmera,4,comun,chamaedorea-elegans.json
+21,Citrus limon,limonero enano;limonero de maceta,Rutaceae,aromatica,4,comun,citrus-limon.json
+22,Codiaeum variegatum,crotón,Euphorbiaceae,tropical,4,comun,codiaeum-variegatum.json
+23,Crassula ovata,árbol de jade;planta de jade,Crassulaceae,suculenta,4,comun,crassula-ovata.json
+24,Cycas revoluta,cica;palma de sagú;falsa palmera,Cycadaceae,otra,4,comun,cycas-revoluta.json
+25,Cyclamen persicum,ciclamen;violeta de Persia,Primulaceae,flor,4,comun,cyclamen-persicum.json
+26,Dieffenbachia seguine,difenbaquia;galatea,Araceae,tropical,4,comun,dieffenbachia-seguine.json
+27,Dracaena angolensis,sansevieria cylindrica;lengua de suegra cilíndrica,Asparagaceae,suculenta,4,comun,dracaena-angolensis.json
+28,Dracaena fragrans,drácena fragans;tronco de Brasil;palo de agua,Asparagaceae,tropical,4,comun,dracaena-fragrans.json
+29,Dracaena sanderiana,bambú de la suerte;lucky bamboo,Asparagaceae,tropical,4,comun,dracaena-sanderiana.json
+30,Echeveria elegans,echeveria;rosa de alabastro,Crassulaceae,suculenta,4,comun,echeveria-elegans.json
+31,Euphorbia pulcherrima,poinsettia;flor de Pascua,Euphorbiaceae,flor,4,comun,euphorbia-pulcherrima.json
+32,Ficus benjamina,ficus benjamina;árbol benjamín,Moraceae,tropical,4,comun,ficus-benjamina.json
+33,Ficus microcarpa,ficus ginseng;ficus retusa;laurel de Indias,Moraceae,bonsai,4,comun,ficus-microcarpa.json
+34,Fittonia albivenis,fitonia;planta mosaico,Acanthaceae,tropical,4,comun,fittonia-albivenis.json
+35,Goeppertia makoyana,calathea makoyana;planta pavo real,Marantaceae,tropical,4,comun,goeppertia-makoyana.json
+36,Goeppertia orbifolia,calathea orbifolia,Marantaceae,tropical,4,comun,goeppertia-orbifolia.json
+37,Guzmania lingulata,guzmania;bromelia guzmania,Bromeliaceae,flor,4,comun,guzmania-lingulata.json
+38,Hedera helix,hiedra;hiedra común,Araliaceae,trepadora,4,comun,hedera-helix.json
+39,Hippeastrum hybridum,amarilis;hippeastrum,Amaryllidaceae,flor,4,comun,hippeastrum-hybridum.json
+40,Hoya carnosa,hoya;flor de cera;flor de porcelana,Apocynaceae,trepadora,4,comun,hoya-carnosa.json
+41,Maranta leuconeura,maranta;planta de la oración,Marantaceae,tropical,4,comun,maranta-leuconeura.json
+42,Mentha spicata,menta;hierbabuena,Lamiaceae,aromatica,4,comun,mentha-spicata.json
+43,Monstera adansonii,monstera adansonii;monstera agujereada,Araceae,trepadora,4,comun,monstera-adansonii.json
+44,Nephrolepis exaltata,helecho de Boston;helecho espada,Nephrolepidaceae,helecho,4,comun,nephrolepis-exaltata.json
+45,Ocimum basilicum,albahaca,Lamiaceae,aromatica,4,comun,ocimum-basilicum.json
+46,Pachira aquatica,pachira;árbol del dinero;castaño de Guayana,Malvaceae,tropical,4,comun,pachira-aquatica.json
+47,Peperomia obtusifolia,peperomia;planta de caucho enana,Piperaceae,tropical,4,comun,peperomia-obtusifolia.json
+48,Petroselinum crispum,perejil,Apiaceae,aromatica,4,comun,petroselinum-crispum.json
+49,Philodendron erubescens,filodendro Birkin;filodendro Pink Princess;filodendro rojo,Araceae,trepadora,4,comun,philodendron-erubescens.json
+50,Philodendron hederaceum,filodendro de hoja de corazón;filodendro trepador,Araceae,trepadora,4,comun,philodendron-hederaceum.json
+51,Pilea peperomioides,pilea;planta china del dinero,Urticaceae,tropical,4,comun,pilea-peperomioides.json
+52,Rhododendron simsii,azalea de interior,Ericaceae,flor,4,comun,rhododendron-simsii.json
+53,Schefflera arboricola,schefflera;árbol paraguas enano;cheflera,Araliaceae,tropical,4,comun,schefflera-arboricola.json
+54,Scindapsus pictus,poto satinado;escindapso plateado,Araceae,trepadora,4,comun,scindapsus-pictus.json
+55,Strelitzia nicolai,ave del paraíso blanca;estrelitzia gigante,Strelitziaceae,tropical,4,comun,strelitzia-nicolai.json
+56,Strelitzia reginae,ave del paraíso;estrelitzia,Strelitziaceae,flor,4,comun,strelitzia-reginae.json
+57,Streptocarpus ionanthus,violeta africana;saintpaulia,Gesneriaceae,flor,4,comun,streptocarpus-ionanthus.json
+58,Tradescantia zebrina,tradescantia;amor de hombre;judío errante,Commelinaceae,trepadora,4,comun,tradescantia-zebrina.json
+59,Yucca gigantea,yuca de interior;yuca pie de elefante,Asparagaceae,tropical,4,comun,yucca-gigantea.json
+60,Adiantum raddianum,culantrillo;helecho culantrillo,Pteridaceae,helecho,3,comun,adiantum-raddianum.json
+61,Aechmea fasciata,aechmea;bromelia aechmea;piña de salón,Bromeliaceae,flor,3,comun,aechmea-fasciata.json
+62,Aeonium arboreum,eonio;rosa negra,Crassulaceae,suculenta,3,comun,aeonium-arboreum.json
+63,Aeschynanthus radicans,planta del pintalabios;esquinanto,Gesneriaceae,trepadora,3,comun,aeschynanthus-radicans.json
+64,Allium schoenoprasum,cebollino,Amaryllidaceae,aromatica,3,comun,allium-schoenoprasum.json
+65,Alocasia macrorrhizos,alocasia gigante;oreja de elefante gigante,Araceae,tropical,3,media,alocasia-macrorrhizos.json
+66,Alocasia zebrina,alocasia zebrina,Araceae,tropical,3,media,alocasia-zebrina.json
+67,Araucaria heterophylla,araucaria;pino de Norfolk,Araucariaceae,otra,3,comun,araucaria-heterophylla.json
+68,Asparagus setaceus,esparraguera;esparraguera plumosa,Asparagaceae,helecho,3,comun,asparagus-setaceus.json
+69,Aspidistra elatior,aspidistra;hojas de salón;pilistra,Asparagaceae,tropical,3,comun,aspidistra-elatior.json
+70,Asplenium nidus,helecho nido de ave,Aspleniaceae,helecho,3,comun,asplenium-nidus.json
+71,Begonia elatior,begonia elatior;begonia de flor,Begoniaceae,flor,3,comun,begonia-elatior.json
+72,Begonia rex,begonia rex;begonia de hoja,Begoniaceae,tropical,3,comun,begonia-rex.json
+73,Capsicum annuum,guindilla ornamental;pimiento ornamental,Solanaceae,aromatica,3,comun,capsicum-annuum.json
+74,Carmona microphylla,carmona;té de Fukien;bonsái carmona,Boraginaceae,bonsai,3,comun,carmona-microphylla.json
+75,Cattleya hybrida,cattleya,Orchidaceae,orquidea,3,media,cattleya-hybrida.json
+76,Cereus repandus,cereus;cactus columnar peruano,Cactaceae,cactus,3,comun,cereus-repandus.json
+77,Ceropegia woodii,collar de corazones;rosario de corazones,Apocynaceae,trepadora,3,comun,ceropegia-woodii.json
+78,Chamaedorea seifrizii,palmera bambú;camadorea bambú,Arecaceae,palmera,3,comun,chamaedorea-seifrizii.json
+79,Cissus rhombifolia,cisus;parra de interior,Vitaceae,trepadora,3,comun,cissus-rhombifolia.json
+80,Citrus microcarpa,calamondín;naranjo enano calamondín,Rutaceae,aromatica,3,comun,citrus-microcarpa.json
+81,Clivia miniata,clivia,Amaryllidaceae,flor,3,comun,clivia-miniata.json
+82,Coffea arabica,cafeto;planta del café,Rubiaceae,tropical,3,media,coffea-arabica.json
+83,Cordyline fruticosa,cordiline;drácena roja;planta ti,Asparagaceae,tropical,3,comun,cordyline-fruticosa.json
+84,Coriandrum sativum,cilantro,Apiaceae,aromatica,3,comun,coriandrum-sativum.json
+85,Ctenanthe burle-marxii,ctenanthe;planta espina de pescado,Marantaceae,tropical,3,media,ctenanthe-burle-marxii.json
+86,Curio rowleyanus,rosario;collar de perlas;senecio rowleyanus,Asteraceae,suculenta,3,comun,curio-rowleyanus.json
+87,Cymbidium hybridum,cymbidium;orquídea barco,Orchidaceae,orquidea,3,comun,cymbidium-hybridum.json
+88,Davallia fejeensis,helecho pata de conejo,Davalliaceae,helecho,3,media,davallia-fejeensis.json
+89,Dendrobium nobile,dendrobium,Orchidaceae,orquidea,3,comun,dendrobium-nobile.json
+90,Dionaea muscipula,venus atrapamoscas;dionea,Droseraceae,carnivora,3,comun,dionaea-muscipula.json
+91,Dracaena masoniana,sansevieria masoniana;aleta de ballena,Asparagaceae,suculenta,3,media,dracaena-masoniana.json
+92,Dracaena reflexa,drácena reflexa;canción de la India,Asparagaceae,tropical,3,comun,dracaena-reflexa.json
+93,Drosera capensis,drosera;rocío de sol,Droseraceae,carnivora,3,media,drosera-capensis.json
+94,Echinocactus grusonii,asiento de suegra;cactus bola de oro,Cactaceae,cactus,3,comun,echinocactus-grusonii.json
+95,Epipremnum pinnatum,poto pinnatum;Cebu Blue,Araceae,trepadora,3,media,epipremnum-pinnatum.json
+96,Euphorbia milii,corona de Cristo;espina de Cristo,Euphorbiaceae,suculenta,3,comun,euphorbia-milii.json
+97,Euphorbia trigona,euforbia candelabro;cactus catedral,Euphorbiaceae,suculenta,3,comun,euphorbia-trigona.json
+98,Fatsia japonica,aralia japonesa;fatsia,Araliaceae,tropical,3,comun,fatsia-japonica.json
+99,Ficus benghalensis,ficus Audrey;baniano,Moraceae,tropical,3,media,ficus-benghalensis.json
+100,Ficus pumila,ficus trepador;ficus repens,Moraceae,trepadora,3,comun,ficus-pumila.json
+101,Gardenia jasminoides,gardenia,Rubiaceae,flor,3,comun,gardenia-jasminoides.json
+102,Gerbera jamesonii,gerbera,Asteraceae,flor,3,comun,gerbera-jamesonii.json
+103,Goeppertia lancifolia,calathea lancifolia;planta serpiente de cascabel,Marantaceae,tropical,3,comun,goeppertia-lancifolia.json
+104,Goeppertia roseopicta,calathea roseopicta;calathea medallón,Marantaceae,tropical,3,comun,goeppertia-roseopicta.json
+105,Goeppertia zebrina,calathea zebrina;planta cebra,Marantaceae,tropical,3,comun,goeppertia-zebrina.json
+106,Gymnocalycium mihanovichii,cactus injertado;gimnocalicio;cactus luna,Cactaceae,cactus,3,comun,gymnocalycium-mihanovichii.json
+107,Haworthiopsis attenuata,haworthia;planta cebra suculenta,Asphodelaceae,suculenta,3,comun,haworthiopsis-attenuata.json
+108,Hibiscus rosa-sinensis,hibisco;rosa de China,Malvaceae,flor,3,comun,hibiscus-rosa-sinensis.json
+109,Hypoestes phyllostachya,hipoestes;planta de lunares,Acanthaceae,tropical,3,comun,hypoestes-phyllostachya.json
+110,Jasminum polyanthum,jazmín de interior;jazmín chino,Oleaceae,trepadora,3,comun,jasminum-polyanthum.json
+111,Kalanchoe tomentosa,oreja de gato;planta panda,Crassulaceae,suculenta,3,comun,kalanchoe-tomentosa.json
+112,Mammillaria elongata,mamilaria;cactus dedos de dama,Cactaceae,cactus,3,comun,mammillaria-elongata.json
+113,Musa acuminata,bananero enano;platanera de interior,Musaceae,tropical,3,media,musa-acuminata.json
+114,Nepenthes alata,nepentes;planta jarra,Nepenthaceae,carnivora,3,media,nepenthes-alata.json
+115,Oncidium hybridum,oncidium;dama danzante,Orchidaceae,orquidea,3,media,oncidium-hybridum.json
+116,Opuntia microdasys,orejas de conejo;nopal cegador,Cactaceae,cactus,3,comun,opuntia-microdasys.json
+117,Origanum vulgare,orégano,Lamiaceae,aromatica,3,comun,origanum-vulgare.json
+118,Oxalis triangularis,oxalis morado;trébol morado,Oxalidaceae,otra,3,comun,oxalis-triangularis.json
+119,Paphiopedilum hybridum,zapatito de Venus;paphiopedilum,Orchidaceae,orquidea,3,media,paphiopedilum-hybridum.json
+120,Peperomia caperata,peperomia caperata;peperomia rizada,Piperaceae,tropical,3,comun,peperomia-caperata.json
+121,Phlebodium aureum,helecho azul;polipodio azul,Polypodiaceae,helecho,3,media,phlebodium-aureum.json
+122,Phoenix roebelenii,palmera pigmea;datilera enana,Arecaceae,palmera,3,comun,phoenix-roebelenii.json
+123,Pilea cadierei,pilea de aluminio,Urticaceae,tropical,3,comun,pilea-cadierei.json
+124,Platycerium bifurcatum,cuerno de alce;helecho cuerno de ciervo,Polypodiaceae,helecho,3,media,platycerium-bifurcatum.json
+125,Plectranthus scutellarioides,cóleo;coleus,Lamiaceae,tropical,3,comun,plectranthus-scutellarioides.json
+126,Polyscias fruticosa,aralia polyscias;polyscias,Araliaceae,bonsai,3,media,polyscias-fruticosa.json
+127,Portulacaria afra,arbusto elefante;jade enano;portulacaria,Didiereaceae,bonsai,3,comun,portulacaria-afra.json
+128,Pteris cretica,helecho pteris;helecho cinta,Pteridaceae,helecho,3,media,pteris-cretica.json
+129,Radermachera sinica,radermachera;árbol serpiente;fresno de China,Bignoniaceae,tropical,3,comun,radermachera-sinica.json
+130,Rhaphidophora tetrasperma,mini monstera;rhaphidophora,Araceae,trepadora,3,media,rhaphidophora-tetrasperma.json
+131,Rhapis excelsa,palmera rapis;palmera de dama;palmera china,Arecaceae,palmera,3,media,rhapis-excelsa.json
+132,Rhipsalis baccifera,cactus muérdago;ripsalis,Cactaceae,cactus,3,media,rhipsalis-baccifera.json
+133,Salvia rosmarinus,romero,Lamiaceae,aromatica,3,comun,salvia-rosmarinus.json
+134,Sarracenia purpurea,sarracenia;planta trompeta,Sarraceniaceae,carnivora,3,media,sarracenia-purpurea.json
+135,Schlumbergera truncata,cactus de Navidad;santa Teresita,Cactaceae,cactus,3,comun,schlumbergera-truncata.json
+136,Sedum morganianum,cola de burro;sedum burrito,Crassulaceae,suculenta,3,comun,sedum-morganianum.json
+137,Serissa foetida,serissa;árbol de las mil estrellas,Rubiaceae,bonsai,3,media,serissa-foetida.json
+138,Soleirolia soleirolii,lágrimas de ángel;soleirolia,Urticaceae,tropical,3,comun,soleirolia-soleirolii.json
+139,Stephanotis floribunda,estefanotis;jazmín de Madagascar,Apocynaceae,trepadora,3,media,stephanotis-floribunda.json
+140,Stromanthe thalia,stromanthe triostar;estromante,Marantaceae,tropical,3,media,stromanthe-thalia.json
+141,Syngonium podophyllum,singonio;punta de flecha,Araceae,trepadora,3,comun,syngonium-podophyllum.json
+142,Thaumatophyllum bipinnatifidum,filodendro selloum;filodendro bipinnatifidum,Araceae,tropical,3,comun,thaumatophyllum-bipinnatifidum.json
+143,Thymus vulgaris,tomillo,Lamiaceae,aromatica,3,comun,thymus-vulgaris.json
+144,Tillandsia ionantha,clavel del aire;planta de aire;tillandsia,Bromeliaceae,otra,3,comun,tillandsia-ionantha.json
+145,Tradescantia spathacea,barquito;tradescantia moisés en la cuna,Commelinaceae,tropical,3,comun,tradescantia-spathacea.json
+146,Ulmus parvifolia,olmo chino;bonsái olmo,Ulmaceae,bonsai,3,comun,ulmus-parvifolia.json
+147,Vanda hybrida,vanda,Orchidaceae,orquidea,3,media,vanda-hybrida.json
+148,Vriesea splendens,vriesea;espada flamígera,Bromeliaceae,flor,3,comun,vriesea-splendens.json
+149,Zantedeschia aethiopica,cala;lirio de agua;alcatraz,Araceae,flor,3,comun,zantedeschia-aethiopica.json
+150,Adenium obesum,rosa del desierto,Apocynaceae,suculenta,2,media,adenium-obesum.json
+151,Alocasia baginda,alocasia Dragon Scale;alocasia Silver Dragon,Araceae,tropical,2,coleccionista,alocasia-baginda.json
+152,Alocasia cuprea,alocasia cuprea;alocasia cobre,Araceae,tropical,2,coleccionista,alocasia-cuprea.json
+153,Alocasia micholitziana,alocasia Frydek;alocasia terciopelo verde,Araceae,tropical,2,coleccionista,alocasia-micholitziana.json
+154,Alocasia reginula,alocasia Black Velvet,Araceae,tropical,2,coleccionista,alocasia-reginula.json
+155,Amydrium medium,amydrium;monstera plateada,Araceae,trepadora,2,coleccionista,amydrium-medium.json
+156,Anthurium clarinervium,anturio clarinervium,Araceae,tropical,2,coleccionista,anthurium-clarinervium.json
+157,Anthurium crystallinum,anturio crystallinum,Araceae,tropical,2,coleccionista,anthurium-crystallinum.json
+158,Anthurium veitchii,anturio rey;anturio veitchii,Araceae,tropical,2,coleccionista,anthurium-veitchii.json
+159,Astrophytum asterias,astrophytum;cactus estrella,Cactaceae,cactus,2,coleccionista,astrophytum-asterias.json
+160,Goeppertia warszewiczii,calathea warscewiczii;calathea jungle velvet,Marantaceae,tropical,2,coleccionista,goeppertia-warszewiczii.json
+161,Hoya australis,hoya australis,Apocynaceae,trepadora,2,media,hoya-australis.json
+162,Hoya kerrii,hoya corazón;hoya kerrii,Apocynaceae,trepadora,2,media,hoya-kerrii.json
+163,Hoya linearis,hoya linearis,Apocynaceae,trepadora,2,coleccionista,hoya-linearis.json
+164,Hoya pubicalyx,hoya pubicalyx,Apocynaceae,trepadora,2,media,hoya-pubicalyx.json
+165,Lithops lesliei,piedras vivas;lithops,Aizoaceae,suculenta,2,coleccionista,lithops-lesliei.json
+166,Monstera dubia,monstera dubia,Araceae,trepadora,2,coleccionista,monstera-dubia.json
+167,Monstera obliqua,monstera obliqua,Araceae,trepadora,2,coleccionista,monstera-obliqua.json
+168,Peperomia prostrata,collar de tortugas;peperomia prostrata,Piperaceae,trepadora,2,media,peperomia-prostrata.json
+169,Philodendron gloriosum,filodendro gloriosum,Araceae,tropical,2,coleccionista,philodendron-gloriosum.json
+170,Philodendron melanochrysum,filodendro melanochrysum,Araceae,trepadora,2,coleccionista,philodendron-melanochrysum.json
+171,Philodendron verrucosum,filodendro verrucosum,Araceae,trepadora,2,coleccionista,philodendron-verrucosum.json
+172,Pinguicula moranensis,pinguicula;grasilla,Lentibulariaceae,carnivora,2,coleccionista,pinguicula-moranensis.json
+173,Scindapsus treubii,scindapsus Moonlight;scindapsus treubii,Araceae,trepadora,2,coleccionista,scindapsus-treubii.json

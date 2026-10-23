@@ -1,0 +1,348 @@
+{
+  "nombre_cientifico": "Monstera dubia",
+  "nombres_comunes": [
+    "monstera dubia",
+    "planta teja (traducción de 'shingle plant', nombre comercial en inglés)"
+  ],
+  "familia": "Araceae",
+  "origen": "Según POWO (Kew), nativa de México (golfo y sureste: Veracruz, Chiapas), Belice, Guatemala, Honduras, Nicaragua, Costa Rica, Panamá, Colombia, Venezuela, Guayana Francesa, Trinidad y Tobago, Ecuador, Perú, Bolivia y Norte de Brasil. En Colombia vive de 0 a 1600 m de altitud (Catálogo de Plantas y Líquenes de Colombia, recogido en POWO). Especie común en la naturaleza pero poco recolectada porque florece fuera del alcance, en lo alto de los árboles (CATE Araceae en POWO).",
+  "clima_nativo": "Tropical húmedo de selva lluviosa de tierras bajas, sin heladas (POWO: bioma tropical húmedo). Hemiepífita trepadora: germina en el suelo, avanza como un tallo rastrero fino y sube por los troncos de árboles grandes, donde puede alcanzar 25 m (CATE Araceae en POWO).",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "En interior casi siempre se ve en fase juvenil ('shingle plant', planta teja): hojas pequeñas acorazonadas (cordadas), con el seno basal de 5-10 mm y el ápice mucronado (con una puntita), a menudo jaspeadas con motas plateadas (CATE Araceae en POWO). Se pegan a plano contra el soporte y se solapan unas con otras como tejas de un tejado, sin agujeros (Wikipedia, Foliage Factory, Soltech). El aspecto típico es verde oscuro con zonas o paneles verde plata claro (Foliage Factory). Tamaño de la hoja juvenil: unos pocos centímetros [orientativo, sin fuente prioritaria]. La hoja adulta es muy distinta: oblongo-ovada, falcada (curvada como una hoz) y oblicua, coriácea, verde oscura mate por el haz y más pálida por el envés, de 20-100 cm de largo y 13-50 cm de ancho; las primeras hojas adultas son enteras y las posteriores pinnatífidas, con 1-3 filas de perforaciones elípticas de 2-8 cm por lado (CATE Araceae en POWO). En interior la forma adulta casi nunca se alcanza.",
+    "nerviacion": "Pinnada. En la hoja adulta, 9-18 nervios laterales primarios de color crema y prominentes por el envés, hundidos (en surco) por el haz; nervios secundarios reticulados (CATE Araceae en POWO). En la hoja juvenil el plateado se reparte en motas o paneles sobre la lámina; la nerviación central suele verse más oscura [orientativo, sin fuente prioritaria].",
+    "variegacion": "La fase juvenil tiene de forma natural motas o paneles plateados (CATE Araceae en POWO); no es una variegación de cultivar, sino un rasgo de la especie. El plateado desaparece al pasar a la forma adulta, que es verde oscura uniforme (Foliage Factory, Soltech). El sol directo fuerte puede blanquear el plateado (Soltech). No se conocen cultivares variegados en fuentes consultadas.",
+    "tallo": "En fase juvenil, tallo fino, verde, pegado al soporte por raíces aéreas cortas que salen de los nudos (Foliage Factory, Soltech). La plántula es un tallo rastrero similar a un estolón, de 1-2 mm de grosor y hasta 2 m de largo (CATE Araceae en POWO). El tallo adulto es elíptico en sección, áspero, verrugoso o tuberculado, verde oscuro a pardo, con entrenudos de 3-10 cm y 1-2 cm de grosor; el pecíolo adulto es verrugoso en la base, de 20-55 cm, liso de color (sin motas blancas) (CATE Araceae en POWO).",
+    "habito": "Trepadora hemiepífita con heteroblastia muy marcada (cambio de forma de la hoja con la edad y el tamaño de la planta). Secuencia descrita por CATE Araceae (Madison 1977) en POWO: plántula rastrera tipo estolón → juvenil 'shingle' con hojas pequeñas cordadas pegadas al tronco → primeras hojas adultas enteras → hojas pinnatífidas → hojas pinnatífidas y perforadas, colgantes, de hasta 1 m. Cuánto avanza en esa secuencia depende del soporte: sobre un árbol grande completa la serie; con un soporte insuficiente puede florecer ya con hojas adultas enteras (POWO/CATE). Wikipedia lo describe como dimorfismo foliar. En interior necesita una superficie plana (tabla, plancha de corcho o corteza) para crecer pegada; sin ella no desarrolla el porte típico (Soltech, Foliage Factory). Las hojas solo cambian a la forma adulta si sube alto con buena luz y humedad (Soltech, Foliage Factory). En el género, NC State documenta lo mismo en M. siltepecana: colgante conserva las hojas juveniles plateadas y entutorada produce hojas mayores, verdes y perforadas.",
+    "tamano_adulto_interior": "En interior se mantiene en fase juvenil sobre una tabla de 0,5-1,5 m [orientativo, sin fuente prioritaria]; para seguir creciendo se añade una segunda tabla sobre la primera (Soltech). Soltech indica que las hojas maduras pueden llegar a unos 60 cm (2 ft) si alcanza la fase adulta, algo excepcional en casa. En la naturaleza trepa hasta 25 m (CATE Araceae en POWO).",
+    "confusiones": [
+      {
+        "especie": "Scindapsus pictus (potos satinado) juvenil",
+        "rasgo_diferenciador": "S. pictus tiene hojas juveniles ovadas, de 7-10 cm, de base acorazonada y margen entero, textura satinada y manchas gris plata irregulares por el haz, con el envés pálido y sin manchas; suele cultivarse colgante o en tutor (NC State). M. dubia juvenil tiene hojas cordadas con ápice mucronado y motas plateadas (POWO/CATE) y, sobre todo, crece pegada a plano contra el soporte con las hojas solapadas como tejas, algo que S. pictus no suele hacer en cultivo [orientativo, sin fuente prioritaria que compare ambas]."
+      },
+      {
+        "especie": "Monstera siltepecana juvenil",
+        "rasgo_diferenciador": "Las hojas juveniles de M. siltepecana son lanceoladas, más gruesas en la base y puntiagudas, verde plateado con los nervios verde oscuro, y no se aplanan contra el soporte (NC State). M. dubia juvenil tiene hojas cordadas (acorazonadas, con seno basal de 5-10 mm) que se pegan a plano y se solapan (POWO/CATE, Wikipedia)."
+      },
+      {
+        "especie": "Rhaphidophora hayi (shingle plant de Nueva Guinea)",
+        "rasgo_diferenciador": "[orientativo, sin fuente fiable abierta] También crece en fase 'shingling' pegada a una tabla, pero sus hojas juveniles suelen ser verdes, sin el jaspeado plateado característico de M. dubia. No se ha encontrado fuente prioritaria que lo confirme (ver lagunas)."
+      },
+      {
+        "especie": "Marcgravia spp. juvenil (familia Marcgraviaceae)",
+        "rasgo_diferenciador": "[orientativo] El material juvenil de M. dubia se describió primero dentro del género Marcgravia (dicotiledónea), de ahí el epíteto 'dubia' (dudosa) (Wikipedia, Foliage Factory). Las Marcgravia también forman juveniles pegados al tronco; como dicotiledóneas, sus hojas tienen nerviación reticulada desde la base y no tienen la vaina en el pecíolo propia de las aráceas. No se ha abierto fuente prioritaria que compare ambas."
+      },
+      {
+        "especie": "Monstera punctulata (forma adulta)",
+        "rasgo_diferenciador": "Según CATE Araceae (en POWO), es la única especie con la que se puede confundir la forma adulta: M. punctulata tiene el pecíolo densamente punteado de blanco y la lámina verde brillante y blanda, mientras M. dubia tiene el pecíolo verde liso y la lámina verde oscura mate y coriácea. En flor, M. punctulata tiene espatas blancas grandes; M. dubia, espata obovada rosa-salmón por fuera y blanca por dentro."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios), principio común del género Monstera (ASPCA para M. deliciosa; Penn State para el género; NC State para M. siltepecana y M. adansonii). No hay ficha de ASPCA ni de otra fuente prioritaria para M. dubia en concreto; dos fuentes complementarias específicas (Foliage Factory, Soltech) la dan como tóxica por oxalato cálcico.",
+    "sintomas": "Gravedad baja (NC State, para el género). Animales (ASPCA, para M. deliciosa): irritación oral, dolor e inflamación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Personas: irritación de boca y lengua, náuseas, vómitos y diarrea (NC State, M. siltepecana). La savia puede causar dermatitis de contacto e irritación de ojos: usar guantes al podar o manipular (Penn State, RHS para M. adansonii). Si hay ingestión, enjuagar la boca y consultar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Media",
+    "fuentes": [
+      "F7",
+      "F3",
+      "F4",
+      "F5",
+      "F8",
+      "F9",
+      "F10"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste detrás de una cortina fina (Soltech: ventana este o unos pasos atrás de una sur).",
+      "tolera_sol_directo": "No. El sol fuerte de tarde blanquea el plateado y quema las hojas finas (Soltech). En el género, el sol directo quema las hojas (NC State, M. siltepecana; Penn State).",
+      "notas": "Rango de la escala del proyecto para luz brillante indirecta (500-1000 fc = 5380-10760 lux). Foliage Factory (complementaria) indica 10000-20000 lux; se mantiene el techo de la escala del proyecto por prudencia frente a quemaduras. Con poca luz crece despacio, se alarga y no madura (Soltech); Penn State lo confirma para el género (plantas larguiruchas). Ninguna fuente prioritaria trata la especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F10",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Nunca por calendario. Penn State (género): dejar secar los 2,5-5 cm superiores entre riegos. Soltech: cuando los 2,5-5 cm superiores estén secos. Foliage Factory: cuando el sustrato esté seco en un 50-70 %, sin dejar que las raíces se sequen del todo. Humedecer también la tabla o el tutor de musgo cuando se riegue, porque las raíces aéreas toman humedad de él (Soltech).",
+      "primavera_verano": "Con crecimiento activo y calor el sustrato se seca antes: comprobar con el dedo y el peso cada 2-3 días y regar a fondo cuando toque. No dejar que el cepellón se seque por completo (Foliage Factory). Mantener algo húmeda la superficie de la tabla.",
+      "otono_invierno": "Crece más despacio: esperar a que estén secos los 2-3 cm superiores y comprobar el peso antes de cada riego. La calefacción puede secar el sustrato antes de lo esperado, así que manda la comprobación, no los días.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid el agua es blanda y lleva cloramina, que no se va dejándola reposar; no es la causa de bordes o puntas marrones (en esta especie, normalmente aire seco, riego irregular o sales de abono). Regar a fondo de vez en cuando para lavar sales.",
+      "notas": "El sustrato encharcado provoca pudrición de raíz y amarilleo y caída de hojas inferiores (Soltech); Penn State lo señala para el género. Ninguna fuente prioritaria trata la especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F10",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "notas": "Penn State (género) recomienda más del 50 %; NC State da 40-60 % para M. siltepecana. Fuentes específicas complementarias: Foliage Factory 50-60 %, Soltech 60-80 % y alta humedad para que madure; el aire seco produce bordes marrones y crujientes y raíces aéreas débiles que no se agarran (Soltech). Se adopta 50 % como mínimo (cifra más exigente de las prioritarias) y 60 % como ideal. Para conseguirlo: humidificador, agrupar plantas o vitrina/invernadero de interior (Soltech); pulverizar las hojas no sube la humedad de forma útil.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F9",
+        "F10"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15.6,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 29,
+      "notas": "Ninguna fuente prioritaria da temperaturas para M. dubia. Se aplica la cifra más conservadora del género entre prioritarias: NC State para M. siltepecana, 60-95 °F (15,6-35 °C), alejada de corrientes frías; con el mismo criterio Penn State da 60-85 °F (16-29 °C) para el género. El mínimo de 10 °C que dan NC State y RHS (H1B, 10-15 °C) para M. adansonii es menos exigente y no se adopta. Complementarias específicas: Soltech, 65-85 °F (18-29 °C) y crecimiento parado por debajo de 60 °F (15,6 °C), muy sensible a heladas; Foliage Factory, ideal 18-27 °C y evitar temperaturas prolongadas por debajo de 12 °C. Ideal adoptado: 16-29 °C (Penn State). Sin máxima tolerada en fuentes para la especie; NC State admite hasta 35 °C para M. siltepecana, pero con aire seco el calor la deshidrata. Evitar corrientes de puertas, ventanas y aire acondicionado (Soltech).",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F10",
+        "F9"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para aráceas suelta y aireada: por ejemplo, 1 parte de sustrato universal sin turba, 1 de corteza de pino o de orquídea, 1 de perlita y un puñado de carbón vegetal (Soltech); Foliage Factory pide una mezcla de base de corteza, de textura media-gruesa, con algo de retención de humedad. Penn State, para el género, indica mezcla sin suelo rica en materia orgánica, aligerada con corteza, perlita o carbón. Clavar la tabla plana (cedro, corcho o corteza) en la maceta desde el principio (Soltech).",
+      "ph": "6,0-7,0 (Penn State da 6,0-8,0 para el género; se adopta la mitad inferior por coherencia con las fichas de Monstera del proyecto)",
+      "drenaje": "Imprescindible: maceta con agujeros y sustrato que drene deprisa; el sustrato denso asfixia las raíces (Soltech) y el encharcamiento pudre la raíz (Penn State, género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F10",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (Penn State, género; Soltech; Foliage Factory: abono completo a concentración moderada).",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (criterio del proyecto).",
+      "otono_invierno": "No abonar mientras no haya crecimiento activo (Soltech: parar en invierno; Foliage Factory: reducir cuando se frena el crecimiento).",
+      "notas": "Contradicción: Penn State (género) aconseja cada dos semanas en temporada y mensual en invierno; Soltech, media dosis cada 2-3 semanas en primavera-verano. Se adopta la opción más conservadora del proyecto.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F10",
+        "F9"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años o cuando las raíces rodeen el cepellón (Soltech), subiendo un solo tamaño de maceta. Ninguna fuente prioritaria da un intervalo para la especie.",
+      "epoca": "Primavera, al inicio del crecimiento activo [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces que salen por el drenaje o rodean el cepellón, sustrato que se seca muy rápido, crecimiento parado en temporada. Trasplantar con la tabla incluida y sin despegar los tallos: las raíces aéreas agarradas a la tabla se rompen si se arrancan [orientativo, sin fuente prioritaria].",
+      "confianza": "Baja",
+      "fuentes": [
+        "F10"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Retirar hojas dañadas o amarillas cerca de la base (Soltech).",
+      "epoca": "Primavera y verano, con crecimiento activo; las puntas sirven de esqueje.",
+      "como": "Con guantes, porque la savia irrita piel y ojos (Penn State para el género; RHS para M. adansonii). Tijera desinfectada (Soltech). Guiar el tallo sobre la tabla y dejar libre la punta para que trepe (Foliage Factory). Cuando la planta llegue arriba, añadir otra tabla encima en vez de podar (Soltech). Limpiar las hojas con un paño húmedo una vez al mes (Soltech).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F8",
+        "F10",
+        "F9"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "Sin reposo verdadero en interior, pero en otoño-invierno, con menos luz y temperatura, crece mucho más despacio (Soltech lo llama reposo invernal): regar menos guiándose por el dedo y el peso, no abonar y mantenerla por encima de 15,6 °C y lejos de corrientes frías.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F10",
+        "F9"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con nudo y raíz aérea (en musgo esfagno o perlita húmedos)"
+      ],
+      "epoca": "Primavera-verano, con calor [orientativo, sin fuente prioritaria para la época].",
+      "pasos": "1) Con guantes, cortar un tramo de tallo entre dos hojas solapadas que incluya al menos un nudo con raíces aéreas sanas (Soltech, Foliage Factory). 2) Ponerlo sobre musgo esfagno o perlita húmedos dentro de una caja o bolsa de propagación cerrada, con humedad alta y calor (Soltech). 3) Mantener luz brillante indirecta y temperatura por encima de 18 °C [orientativo, sin fuente prioritaria]. 4) Cuando tenga raíces y una hoja nueva, pasarlo a maceta con mezcla para aráceas y apoyarlo de inmediato contra una tabla plana para que vuelva a pegarse.",
+      "confianza": "Media",
+      "fuentes": [
+        "F10",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato denso o encharcado (Soltech; Penn State para el género)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de hojas inferiores por exceso de riego y sustrato empapado (Soltech)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones y crujientes por aire seco (Soltech); muy probable con calefacción o en el verano madrileño."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por humedad baja (NC State para M. siltepecana; Soltech) o sales de abono acumuladas; no por el agua de Madrid."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallo alargado, entrenudos largos y hojas que no maduran por falta de luz (Soltech; Penn State para el género). Con poca luz o poca humedad las hojas pueden despegarse de la tabla [orientativo]."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "El sol fuerte de tarde blanquea el plateado de las hojas juveniles (Soltech)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en hojas finas por sol directo (Soltech; NC State para M. siltepecana)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento parado por debajo de unos 15,6 °C (Soltech) o con humedad baja."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Cicatrices plateadas con puntitos negros por trips (Foliage Factory; Penn State cita trips en el género). Ojo: no confundir con el plateado natural de la hoja juvenil, que es liso y sin puntos negros."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo, bultos fijos en tallo y hojas (Foliage Factory; Penn State para el género). Revisar las zonas tapadas entre hoja y tabla."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en zonas resguardadas, a menudo bajo las hojas pegadas a la tabla (Foliage Factory; Penn State para el género)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa por cochinillas (Foliage Factory)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco (Penn State para el género)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato con sustrato y tabla siempre mojados (Penn State para el género)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste, alejarla del cristal o ponerla tras cortina fina: el sol blanquea el plateado y quema las hojas. El aire exterior muy seco (HR ≈38 % en julio) está muy por debajo del 50-60 % que necesita: humidificador, agrupar plantas o vitrina de interior; pulverizar no sirve. El sustrato aireado y la tabla se secan muy deprisa en olas de calor: comprobar a diario con el dedo a 2-3 cm y el peso, y humedecer la tabla al regar. Evitar el chorro directo del aire acondicionado. Revisar el envés y las zonas tapadas por araña roja, trips y cochinillas. No sacarla a terraza: el aire seco y el sol la dañan. Abono a ¼-½ de dosis, una vez al mes.",
+    "invierno": "La calefacción baja la humedad interior a menudo por debajo del 30 %: es el mayor riesgo para esta especie (bordes marrones, raíces aéreas que no se agarran, hojas que se despegan de la tabla, araña roja). Humidificador cerca o vitrina, lejos de radiadores y salidas de aire. Mantenerla por encima de 15,6 °C: separarla de cristales fríos por la noche y de puertas y ventanas que se abren. Puede recibir el sol suave de invierno en ventana este o sur. Regar menos, siempre comprobando dedo y peso. No abonar.",
+    "ubicacion_recomendada": "Estancia cálida y luminosa, junto a ventana este o a 1-2 m de una sur u oeste con cortina fina, con humidificador o en vitrina/invernadero de interior. Siempre con una tabla plana de cedro, corcho o corteza clavada en la maceta para que crezca pegada. Lejos de radiadores, aire acondicionado y corrientes. Fuera del alcance de perros, gatos y niños pequeños, porque es tóxica."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Monstera dubia (Kunth) Engl. & K.Krause, basada en Marcgravia dubia Kunth. No se ha podido abrir la lista de sinónimos de POWO; la tienda Secret Garden (no abierta) cita como sinónimos Monstera acreana y Monstera irritans: sin verificar. La ficha usa el nombre del encargo sin autor.",
+    "No se ha encontrado ninguna fuente prioritaria (extensión universitaria, RHS, Missouri Botanical Garden, UF/IFAS) con ficha de cultivo de M. dubia: NC State no tiene página para la especie (404). Todos los cuidados se apoyan en fuentes prioritarias del género (Penn State; NC State para M. siltepecana y M. adansonii; RHS para M. adansonii) y en dos fuentes complementarias específicas (Foliage Factory, Soltech). Por eso ningún bloque llega a confianza Alta.",
+    "ASPCA no tiene ficha de Monstera dubia; la toxicidad se apoya en ASPCA para M. deliciosa, Penn State para el género y NC State para M. siltepecana y M. adansonii. No se ha abierto Pet Poison Helpline.",
+    "Heteroblastia: la secuencia plántula-juvenil-adulta está documentada en la descripción de CATE Araceae (Madison 1977) en POWO. No se ha podido abrir un artículo revisado por pares sobre la heteroblastia en Monstera (p. ej., Ray 1990, 'Metamorphosis in the Araceae', American Journal of Botany) porque se agotó el presupuesto de búsquedas web de la sesión.",
+    "Temperatura: sin datos de fuentes prioritarias para la especie; min_c = 15,6 °C (60 °F) es la cifra más conservadora del género entre prioritarias (NC State, M. siltepecana). Sin máxima tolerada para la especie (max_c null).",
+    "Luz: no hay valores en lux de fuentes prioritarias; lux_min y lux_max salen de la escala del proyecto. Foliage Factory (complementaria) da 10000-20000 lux.",
+    "Tamaño de la hoja juvenil y altura habitual en interior: sin cifra en fuentes prioritarias (marcado como orientativo).",
+    "Confusiones: no hay fuente fiable abierta para Rhaphidophora hayi ni para la comparación con Marcgravia juvenil; ambas marcadas como orientativas. La comparación con Scindapsus pictus usa la descripción de NC State para S. pictus y de POWO para M. dubia, sin fuente que compare ambas.",
+    "Sin NPK (npk null), sin época de trasplante ni de propagación en fuentes prioritarias. Trasplante con confianza Baja (solo Soltech)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:163921-2",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Monstera dubia: taxonomía y distribución",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:163921-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – POWO, información general de Monstera dubia (descripción de CATE Araceae basada en Madison 1977; Catálogo de Plantas y Líquenes de Colombia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://extension.psu.edu/monstera-as-a-houseplant",
+      "institucion": "Penn State Extension – Monstera as a Houseplant (Penn State University; trata el género, no M. dubia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-siltepecana/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Monstera siltepecana)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-adansonii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Monstera adansonii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/scindapsus-pictus/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Scindapsus pictus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ceriman",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Ceriman, Monstera deliciosa)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.rhs.org.uk/plants/11191/i-monstera-adansonii-i/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Monstera adansonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://foliage-factory.com/monstera-dubia",
+      "institucion": "Foliage Factory (vivero/tienda especializada) – Monstera dubia, Information and Care Guide",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://soltech.com/products/monstera-dubia-care",
+      "institucion": "Soltech (fabricante de iluminación, guía de cultivo) – Monstera Dubia Care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://en.wikipedia.org/wiki/Monstera_dubia",
+      "institucion": "Wikipedia – Monstera dubia",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.aroid.org/monstera/monstera-dubia-kunth-engl-k-krause",
+      "institucion": "International Aroid Society – ficha Monstera dubia (Kunth) Engl. & K.Krause",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

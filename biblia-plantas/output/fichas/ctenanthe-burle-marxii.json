@@ -1,0 +1,342 @@
+{
+  "nombre_cientifico": "Ctenanthe burle-marxii",
+  "nombres_comunes": [
+    "ctenanthe",
+    "planta espina de pescado",
+    "ctenante"
+  ],
+  "familia": "Marantaceae",
+  "origen": "Brasil (RHS: área de distribución 'Brazil'). Especie descrita por Helen Kennedy en 1982 (Canad. J. Bot. 60: 2367, según IPNI). La distribución natural exacta dentro de Brasil no se ha podido verificar en POWO (acceso bloqueado).",
+  "clima_nativo": "Tropical húmedo de Brasil. Las fuentes del género (NC State) sitúan a Ctenanthe en el sotobosque de bosques tropicales de Brasil, con sombra, calor constante y humedad alta; no hay descripción del hábitat específico de C. burle-marxii en fuentes prioritarias abiertas.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas oblongas a ovadas, verde pálido (verde grisáceo), con bandas verde oscuro a lo largo de los nervios laterales que forman un dibujo en 'espina de pescado'; envés púrpura (RHS). El registro de herbario de Missouri Botanical Garden/INBio describe hoja brillante verde oliva oscuro con dibujo verde negruzco sobre los nervios principales, envés rojo-púrpura apagado y pulvínulo granate (forma oscura cultivada). Longitud de hoja típica no documentada en fuentes prioritarias. Las hojas se pliegan hacia arriba al anochecer y se abren por la mañana (nictinastia, rasgo de la familia: NC State).",
+    "nerviacion": "Nervio central marcado y nervios laterales paralelos, oblicuos, muy juntos; las bandas oscuras siguen los nervios laterales alternando con zonas claras, dando el patrón de espina de pescado (RHS). Pulvínulo (engrosamiento en la unión del pecíolo con la lámina) visible, a veces granate (MBG/INBio).",
+    "variegacion": "No es variegación cromática (blanco o crema) sino un dibujo fijo de bandas verde oscuro sobre fondo verde pálido. La var. obscura (p. ej. 'Purple Tiger', listado por la RHS) tiene un tono más oscuro. El cultivar 'Amagris' figura en el catálogo de la RHS; sus rasgos no se han verificado en fuente prioritaria.",
+    "tallo": "Tallos verdes teñidos de púrpura, finamente pubescentes (RHS); planta ramificada y algo extendida (MBG/INBio: 'branched sprawling herb'). Rizomatosa como el resto del género (NC State).",
+    "habito": "Perenne herbácea siempreverde, arbustiva y compacta, que forma mata por brotes desde la base (RHS). Inflorescencias pequeñas de flores blancas al final de tallos largos, intermitentes a lo largo del año; rara vez se ven en interior.",
+    "tamano_adulto_interior": "Hasta unos 60 cm de alto (RHS: altura máxima 0,5-1 m; anchura 0,1-0,5 m; 5-10 años hasta la madurez). En maceta de interior suele quedarse en 30-45 cm [orientativo, sin fuente prioritaria; Desert-Tropicals indica 40 cm].",
+    "confusiones": [
+      {
+        "especie": "Maranta leuconeura (maranta, planta de la oración)",
+        "rasgo_diferenciador": "Maranta tiene hojas elípticas más redondeadas, de hábito rastrero o colgante, con manchas oscuras entre los nervios laterales (var. kerchoveana) o nervios ROJOS en espina de pescado (var. erythroneura). C. burle-marxii no tiene nervios rojos: el dibujo es de bandas verde oscuro sobre verde pálido, el porte es erguido y compacto y el envés es púrpura."
+      },
+      {
+        "especie": "Goeppertia spp. (antes Calathea), p. ej. Goeppertia makoyana o Goeppertia burle-marxii",
+        "rasgo_diferenciador": "Las Goeppertia forman una roseta basal: cada hoja sale directamente del suelo sobre un pecíolo largo, sin tallos aéreos ramificados. C. burle-marxii ramifica y saca hojas a lo largo de tallos aéreos cortos. G. makoyana tiene hojas más finas y anchas con dibujo de 'pluma de pavo real' en óvalos; G. burle-marxii ('Ice Blue') comparte epíteto pero es una planta mucho mayor de hoja verde lisa sin espina de pescado: no confundir por el nombre."
+      },
+      {
+        "especie": "Stromanthe thalia (Stromanthe sanguinea, p. ej. 'Triostar')",
+        "rasgo_diferenciador": "Stromanthe tiene hojas lanceoladas largas y estrechas, con variegación crema, blanca o rosada irregular y envés y pecíolos rojo-magenta intenso. C. burle-marxii tiene hojas más cortas y anchas, sin variegación crema ni rosa, con el patrón regular de espina de pescado."
+      },
+      {
+        "especie": "Ctenanthe oppenheimiana y Ctenanthe lubbersiana",
+        "rasgo_diferenciador": "C. oppenheimiana ('Tricolor') tiene hojas lanceoladas largas con bandas plateadas o crema y envés rojo-burdeos, y puede superar 1 m; C. lubbersiana tiene marmoleado amarillo o crema difuso y envés verde (NC State). C. burle-marxii es más baja y tiene hoja más corta con bandas verde oscuro."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Sin dato verificado. La ASPCA no tiene entrada para Ctenanthe ni para C. burle-marxii (comprobado en sus listas de perros y gatos), Pet Poison Helpline no tiene ficha y no se ha encontrado otra fuente prioritaria. Fuentes complementarias (tiendas) la dan como no tóxica, y la ASPCA clasifica como no tóxicas otras marantáceas (Calathea, 'Prayer Plant'), pero eso es un dato de familia, no de la especie. Como con cualquier planta, comer hojas puede dar vómito o molestia digestiva leve (aviso general de la ASPCA). Ante una ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F9",
+      "F10",
+      "F11"
+    ],
+    "notas": "Según el encargo: sin fuente prioritaria de la especie o del género, se deja 'desconocida'. La app no debe presentarla como 'segura para mascotas'; como mucho puede decir que la familia Marantaceae figura como no tóxica en la ASPCA y que esta especie concreta no está evaluada."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1614,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste con cortina fina, o a 1,5-2 m de una ventana sur. La RHS cita orientación este u oeste y semisombra en clima británico; en Madrid, con más radiación, siempre tamizada.",
+      "tolera_sol_directo": "No. El sol directo provoca quemadura de la hoja (NC State, género) y la RHS la sitúa en semisombra con luz brillante indirecta. Como mucho, un rato de sol muy suave de primera hora tras una cortina.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "notas": "Solo la RHS es específica de la especie (luz brillante indirecta, semisombra, orientación este u oeste); NC State y UF/IFAS son del género (C. lubbersiana, C. oppenheimiana, C. 'Loursii'), por eso Media. lux_min = 150 fc (≈1614 lux): en el ensayo UF/IFAS RH-95-6 con Ctenanthe 'Loursii' solo las plantas a 150 fc seguían muy atractivas tras 120 días en interior; a 50 fc se deterioraban y aumentaban las manchas necróticas; 150 fc es además el mínimo recomendado para calatheas y stromanthes. lux_max = 1000 fc (≈10 760 lux, límite superior de brillante indirecta de la escala del proyecto). Con poca luz el dibujo se apaga y crece lenta [orientativo, sin fuente prioritaria]."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (NC State, género: 'cuando la pulgada superior esté seca') y la maceta pese claramente menos que recién regada; el resto del cepellón debe seguir algo húmedo. Mantener el sustrato húmedo pero bien drenado, nunca encharcado (RHS: 'moist but well-drained'). Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos. Nunca por calendario.",
+      "primavera_verano": "Riego generoso (RHS: 'water freely') siempre con el criterio de dedo y peso. En Madrid en verano una maceta pequeña puede secarse en 2-4 días [orientativo, sin fuente prioritaria]: comprobar a menudo.",
+      "otono_invierno": "Seguir manteniendo el sustrato algo húmedo (RHS: 'water to keep compost moist in winter'), dejando secar un poco más la capa superior. Con calefacción el sustrato se seca rápido; con frío y poca luz, despacio: decidir siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente. NC State (género) atribuye puntas y hojas quemadas a las sales del agua de grifo y recomienda agua destilada o filtrada; pero el agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y con fluoruro <0,1 mg/L, así que es apta y NO es la causa de las puntas marrones. Las puntas marrones en esta planta en Madrid se deben a aire seco, riego irregular y sales de abono acumuladas (UF/IFAS observó quemadura de puntas en Ctenanthe con abono amoniacal y más necrosis al subir la dosis de abono). Lavar el sustrato con un riego abundante cada pocos meses. Dejar reposar el agua no elimina la cloramina del Canal, y tampoco hace falta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "notas": "Hojas enrolladas a lo largo del nervio central y bordes marrones indican falta de agua (NC State: 'brown leaf margins and curled leaves may indicate underwatering'; 'leaf curl or wilt can occur if the plant has been inadequately watered'). El enrollado también aparece con aire muy seco. Amarilleo de hojas indica exceso de riego (NC State, C. oppenheimiana). Sensibilidad a la sequía 'alta' porque las dos fuentes piden sustrato húmedo de forma constante y el enrollado aparece pronto; sensibilidad al exceso 'alta' por la pudrición de raíz en sustrato encharcado, causa nº 1 de muerte. Datos de riego en parte del género, por eso Media."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "La RHS pide 'humedad alta' para la especie y NC State pide humedad media a alta para el género, señala que puede hacer falta un humidificador y que no tolera el aire seco constante. Las cifras 50 % mínima y 60 % ideal son [orientativo, sin fuente prioritaria]. La RHS sugiere una bandeja con grava húmeda; su efecto sobre la humedad ambiente es pequeño. Pulverizar las hojas no sube la humedad de forma útil: usar humidificador o agrupar plantas. Con HR por debajo del 30-40 % las hojas se enrollan y las puntas se secan."
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 29,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F12"
+      ],
+      "notas": "min_c = 16 °C: NC State indica que el género no tolera temperaturas por debajo de 60 °F (15,6 °C) y pide 60-85 °F (15,6-29,4 °C) para C. lubbersiana; es el mínimo más alto de las fuentes y el más conservador. La RHS da a la especie rusticidad H1B (puede estar fuera en verano en Reino Unido, mínimos 10-15 °C) y pide temperatura constante y sin corrientes. Desert-Tropicals (complementaria) da 8 °C como mínimo absoluto en exterior: no se adopta. max_c = 29 °C (85 °F, NC State). ideal 18-27 °C [orientativo, sin fuente prioritaria; Bloomscape da 65-85 °F]. Evitar corrientes frías y cambios bruscos (NC State, RHS)."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato con buena materia orgánica que retenga humedad y drene bien. RHS: compost de base de tierra (loam) sin turba tipo John Innes nº 2. NC State (género): humus o sustrato universal para plantas de interior con corteza de orquídea y perlita. Una mezcla práctica: 2 partes de sustrato universal de calidad + 1 de perlita + 1 de corteza fina [orientativo, sin fuente prioritaria]. Maceta siempre con agujero de drenaje.",
+      "ph": "Ácido a neutro (NC State, género: ácido <6,0 a neutro 6,0-8,0; RHS: indiferente: ácido, neutro o alcalino). Rango práctico 5,5-7,0 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Bueno: húmedo pero bien drenado (RHS, NC State). Nunca dejar la maceta en un plato con agua.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de interior (RHS), preferentemente con nitrógeno nítrico y poco amoniacal: UF/IFAS observó más quemadura de puntas en Ctenanthe con abonos amoniacales, como en otras marantáceas.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta (RHS: mensual de primavera a verano; NC State: mitad de dosis una vez al mes con crecimiento activo), solo si la planta saca hojas.",
+      "otono_invierno": "Nada. Sin crecimiento activo no se abona.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "notas": "UF/IFAS RH-95-6 (Ctenanthe 'Loursii', género): cuanto más abono en producción, más deprisa se deterioraba la planta en interior y más manchas necróticas aparecían. NC State (C. oppenheimiana) desaconseja abonar justo después de trasplantar. No hay NPK específico en fuentes prioritarias."
+    },
+    "trasplante": {
+      "frecuencia": "Cada año (RHS) o cuando las raíces llenen la maceta; en la práctica, cada 1-2 años en ejemplares adultos [orientativo, sin fuente prioritaria]. Subir solo 2-3 cm de diámetro.",
+      "epoca": "Final de primavera o principio de verano (RHS; NC State para C. oppenheimiana: primavera o principio de verano). En Madrid, de abril a junio.",
+      "senales": "Raíces saliendo por el drenaje o en espiral, el agua atraviesa la maceta sin empapar, la mata ocupa todo el borde y se seca en muy pocos días.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No requiere poda (RHS, NC State). Solo limpieza.",
+      "epoca": "Cuando haga falta, todo el año.",
+      "como": "Cortar en la base del pecíolo las hojas secas o muy dañadas con tijera limpia y afilada. Si solo una parte de la hoja está seca, se puede recortar siguiendo la forma de la hoja sin llegar al tejido verde [orientativo, sin fuente prioritaria]. Limpiar el polvo con un paño húmedo; sin abrillantadores.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (en Madrid, de noviembre a febrero aprox.; en hemisferio sur, de mayo a agosto). No es un reposo estricto: es una ralentización del crecimiento por menos luz y temperatura.",
+      "cambios": "Suspender el abono (RHS: abonado solo de primavera a verano), espaciar algo los riegos sin dejar secar el cepellón (RHS: mantener el sustrato húmedo en invierno), mantener temperatura constante por encima de 16 °C y alejar de radiadores y cristales fríos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata",
+        "semilla (rara en interior)",
+        "esqueje de tallo (citado para el género)"
+      ],
+      "epoca": "Primavera (RHS), coincidiendo con el trasplante.",
+      "pasos": "1) Regar el día antes. 2) Sacar la planta de la maceta y retirar el sustrato sobrante. 3) Separar con la mano o un cuchillo limpio porciones con al menos 2-3 brotes y raíces propias [orientativo, sin fuente prioritaria]. 4) Plantar cada porción a la misma profundidad en maceta pequeña con sustrato húmedo y drenante. 5) Mantener en luz indirecta, 20-24 °C y humedad alta (agrupar o humidificador) hasta que salgan hojas nuevas [orientativo, sin fuente prioritaria]. 6) No abonar durante el primer mes. El esqueje de tallo con nudo se cita para C. oppenheimiana (NC State), no está verificado para esta especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas a lo largo del nervio: falta de agua (sustrato seco) o aire muy seco, sobre todo con calefacción en invierno o calor seco en verano. Es la señal más frecuente en esta especie (NC State, género). No confundir con el plegado nocturno normal (nictinastia): si las hojas se abren por la mañana, no es un problema."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por aire seco (HR <40 %), riego irregular o sales de abono acumuladas (UF/IFAS: abono amoniacal y dosis altas). En Madrid no se debe al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por falta de riego (NC State) y aire seco; también por exceso de abono."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato seco (NC State: 'wilt' por riego insuficiente) o, si el sustrato está mojado, por raíces podridas."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas viejas por exceso de riego (NC State, C. oppenheimiana) o envejecimiento normal de alguna hoja basal."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato encharcado, plato con agua o riego por calendario en invierno."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura o decoloración por sol directo (NC State: el sol intenso quema la hoja), típica en ventanas sur u oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas necróticas secas en la lámina: en Ctenanthe aumentan con poca luz interior (<150 fc) y con mucho abono (UF/IFAS RH-95-6); también quemadura solar."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente de la calefacción o del verano madrileño (NC State cita ácaros en el género)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado plateado o amarillento por araña roja o por trips (NC State cita trips en C. oppenheimiana)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de hojas y vainas (NC State, género)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y hojas jóvenes (NC State, C. lubbersiana)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis) con humedad alta, poca ventilación y hojas mojadas (NC State, C. oppenheimiana y C. amabilis)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Hojas que se secan o caen tras la compra o un cambio de sitio: la planta llega de vivero con humedad alta y sufre el aire seco de un piso. Mantener luz indirecta, humedad y riego constantes y no abonar en semanas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y HR exterior ≈38 % en julio, el principal riesgo es la deshidratación: hojas enrolladas y puntas secas. Retirarla de ventanas sur y oeste o protegerla con cortina (el sol directo quema la hoja). Mantenerla por debajo de 29 °C y lejos del chorro del aire acondicionado. Comprobar el sustrato con el dedo y el peso cada 1-2 días: puede pedir agua cada 2-4 días. Subir la humedad con humidificador o agrupando plantas (pulverizar no sirve). No sacarla al balcón: el aire exterior es demasiado seco y el sol demasiado fuerte.",
+    "invierno": "La calefacción baja la HR interior a menudo por debajo del 30 %: es cuando más se enrollan las hojas y se secan las puntas. Usar humidificador (objetivo ≥50 %), alejarla al menos 1,5 m de radiadores y de cristales fríos (no tolera menos de 16 °C ni corrientes frías). Sin abono. Riego solo cuando los 2-3 cm superiores estén secos y la maceta pese poco, sin dejar secar el cepellón; con calefacción fuerte puede seguir necesitando riego semanal o más, con suelo frío mucho menos: siempre dedo y peso.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso, junto a una ventana este u oeste con cortina, o a 1,5-2 m de una ventana sur; también un baño luminoso con ventana. Lejos de radiadores, aire acondicionado, puertas a la calle y cristales fríos. Agrupada con otras plantas o cerca de un humidificador."
+  },
+  "lagunas": [
+    "Nombre: IPNI (Kew) registra Ctenanthe burle-marxii H.Kenn., Canad. J. Bot. 60: 2367 (1982), y la var. obscura H.Kenn.; Catalogue of Life la da como aceptada. No se pudo abrir POWO (bloqueo 403) para confirmar el estado aceptado ni la distribución nativa exacta en Brasil.",
+    "La RHS lista 'Calathea stromata' como sinónimo de Ctenanthe burle-marxii; no verificado en POWO ni en IPNI. Pendiente de comprobar.",
+    "Toxicidad: sin entrada en ASPCA ni en Pet Poison Helpline para Ctenanthe; ninguna fuente prioritaria evalúa la especie ni el género. Se deja 'desconocida'.",
+    "La mayoría de los datos de cultivo cuantitativos (temperatura mínima, luz mínima en lux, abonado, plagas) proceden de fuentes del género (NC State: C. lubbersiana, C. oppenheimiana, C. amabilis; UF/IFAS: C. 'Loursii'), no de C. burle-marxii; por eso los bloques llevan confianza Media.",
+    "No hay cifras de humedad relativa (%) en fuentes prioritarias para la especie ni para el género; 50/60 % son orientativos.",
+    "Tamaño de la hoja y rasgos del cultivar 'Amagris' no documentados en fuentes prioritarias abiertas.",
+    "Esqueje de tallo citado para C. oppenheimiana; no verificado para C. burle-marxii (la RHS solo cita semilla y división)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/5026/ctenanthe-burle-marxii/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Ctenanthe burle-marxii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/ctenanthe-lubbersiana/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Ctenanthe lubbersiana (fuente del género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/ctenanthe-oppenheimiana/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Ctenanthe oppenheimiana (fuente del género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/ctenanthe-amabilis/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Ctenanthe amabilis (fuente del género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://web.archive.org/web/2020/https://mrec.ifas.ufl.edu/foliage/resrpts/rh_95_6.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center – Research Report RH-95-6, C.A. Conover: 'Effects of Production Light Intensity, Fertilizer Treatment and Interior Light Intensity on Ctenanthe 'Loursii'' (copia archivada; la URL original da 404)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.ipni.org/api/1/search?q=Ctenanthe%20burle-marxii",
+      "institucion": "International Plant Names Index (IPNI) – Royal Botanic Gardens, Kew / Harvard / ANBG: Ctenanthe burle-marxii H.Kenn.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Ctenanthe%20burle-marxii",
+      "institucion": "Catalogue of Life (ChecklistBank) – estado del nombre",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.mobot.org/manual.plantas/047251/S047578.html",
+      "institucion": "Missouri Botanical Garden / INBio – Manual de Plantas de Costa Rica: registro de herbario de Ctenanthe burle-marxii (H. Kennedy 4592, cultivada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, lista para gatos (sin entrada para Ctenanthe)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, lista para perros (sin entrada para Ctenanthe)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://new.bloomscape.com/plant-care-guide/ctenanthe",
+      "institucion": "Bloomscape (vivero en línea) – guía de cuidado de Ctenanthe y Fishbone Prayer Plant",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://desert-tropicals.com/Plants/Marantaceae/Ctenanthe_burle-marxii.html",
+      "institucion": "Desert-Tropicals (web divulgativa) – ficha Ctenanthe burle-marxii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

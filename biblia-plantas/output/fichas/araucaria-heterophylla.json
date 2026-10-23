@@ -1,0 +1,158 @@
+{
+  "nombre_cientifico": "Araucaria heterophylla",
+  "nombres_comunes": ["araucaria", "pino de Norfolk", "pino de la isla Norfolk", "araucaria excelsa", "pino de interior"],
+  "familia": "Araucariaceae. Es una conífera (gimnosperma), pero no es un pino verdadero: no pertenece a Pinaceae (NC State, Colorado State).",
+  "origen": "Endémica de la isla Norfolk, en el Pacífico, al este de Sídney (Australia) (NC State, UF/IFAS ST083). Introducida como árbol de paisaje en Florida y la costa del sur de California (NC State). Antes se conocía como Araucaria excelsa (NC State).",
+  "clima_nativo": "Subtropical oceánico de isla, con influencia marina. Es árbol costero: tolera moderadamente la sal (UF/IFAS ST083, UF/IFAS Gardening Solutions). No soporta heladas: no aguanta temperaturas por debajo de 35 °F (≈1,7 °C) al aire libre (UF/IFAS Gardening Solutions). RHS la clasifica como H2: aguanta frío pero no heladas, mínimo 1-5 °C.",
+  "categoria": "otra",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas aciculares (en forma de aguja o lezna), de color verde oscuro a verde brillante, de unos 1,3 cm de largo. Son blandas al tacto pero con la punta aguda. Se disponen en espiral y se solapan sobre las ramillas en un dibujo de espiga (NC State, UF/IFAS ST083). En plantas jóvenes, que son las que se venden en maceta, las hojas son agujas finas de menos de 5 cm que recuerdan a las de un abeto o una pícea. En árboles adultos se vuelven pequeñas, como escamas, apretadas y algo retorcidas. Los dos tipos de hoja pueden coexistir en el mismo árbol (UF/IFAS ST083); de ahí el nombre 'heterophylla', 'hojas distintas'.",
+    "nerviacion": "No aplica: son hojas aciculares sin nervadura visible a simple vista. Es un rasgo general de las coníferas y no está descrito como tal en las fichas consultadas.",
+    "variegacion": "La especie es de color verde uniforme. Las fuentes consultadas no documentan formas variegadas. Las agujas amarillas, pardas o blanquecinas indican un problema (poca luz, aire seco, riego irregular o plagas) y no son variegación. Ojo: en tiendas se venden a veces con purpurina o pintura navideña, que no es un rasgo de la planta.",
+    "tallo": "Un solo tronco recto y vertical (NC State). La corteza es gris-parda y lisa en ejemplares jóvenes, y se vuelve más oscura y rugosa, con pequeñas placas escamosas, con la edad (UF/IFAS ST083; NC State: rugosa y pardo oscura). Las ramas salen del tronco en verticilos (pisos), normalmente de cinco ramas por piso (NC State), y se extienden casi en horizontal.",
+    "habito": "Árbol de porte piramidal y simétrico, con pisos de ramas horizontales separados por tramos de tronco desnudo, como un árbol de Navidad de pisos muy regulares (NC State, UF/IFAS ST083). Crece solo por la yema terminal de la guía (punta del tronco): si se pierde esa yema, la planta deja de crecer hacia arriba (NYBG). En tienda es frecuente ver varias plántulas juntas en la misma maceta.",
+    "tamano_adulto_interior": "En su hábitat llega a 60 m (Colorado State); en paisaje subtropical, 18-30 m (NC State, UF/IFAS ST083). En interior suele quedarse por debajo de 1,8 m (Colorado State, Chicago Botanic Garden), aunque puede llegar a unos 2,7 m (NC State). Tras unos diez años en maceta puede alcanzar 1,5-2,4 m (UF/IFAS Gardening Solutions). En interior crece unos 15 cm al año (NYBG).",
+    "confusiones": [
+      {"especie": "Picea spp. y Abies spp. (píceas y abetos vendidos como árbol de Navidad)", "rasgo_diferenciador": "Las agujas jóvenes de la araucaria recuerdan a las de pícea o abeto (UF/IFAS ST083). Pero la araucaria tiene pisos de ramas horizontales muy espaciados y regulares, normalmente de cinco ramas por piso (NC State), y agujas blandas que se solapan en espiga. Las píceas y los abetos tienen ramas más densas, sin tramos de tronco desnudo tan marcados. Además, no aguantan el interior caldeado."},
+      {"especie": "Araucaria columnaris (araucaria de Cook)", "rasgo_diferenciador": "Es muy parecida y se vende a veces con el mismo nombre. Suele tener un porte más estrecho y columnar y un tronco que tiende a inclinarse. Este rasgo no se ha verificado en las fuentes prioritarias consultadas (véase lagunas); la identificación segura de plántulas jóvenes por foto entre ambas especies no es fiable."},
+      {"especie": "Araucaria araucana (pehuén, araucaria de Chile)", "rasgo_diferenciador": "Tiene hojas anchas, triangulares, rígidas y muy punzantes, no agujas blandas. Es una especie de exterior. Este rasgo no se ha verificado en las fuentes consultadas para esta ficha."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "ASPCA la lista como no tóxica para perros, gatos y caballos, y NC State la etiqueta igual. Matiz: una nota de UC ANR (Master Gardeners de Fresno, 2020) recoge que los veterinarios informan de una posible toxicidad de las araucarias de Norfolk, de mecanismo desconocido. Según esa nota, comer agujas puede causar síntomas digestivos y letargo, y el material fibroso puede irritar el estómago y el intestino (vómitos o diarrea). Conviene evitar que mascotas y niños mordisqueen la planta. No se ha encontrado fuente prioritaria sobre la toxicidad en personas.",
+    "confianza": "Alta",
+    "fuentes": ["F7", "F2", "F11"],
+    "notas": "Alta para perros y gatos (ASPCA + NC State). Para niños no hay fuente: se deja 'desconocida'. NC State indica que las semillas de los árboles adultos son comestibles (tipo piñón), pero eso no informa sobre agujas ni ramas, y las plantas de interior no producen conos."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este; o a 1-2 m de una ventana sur o en una sala sur luminosa; u oeste protegida del sol de última hora de la tarde (NYBG, Iowa State). Necesita al menos dos horas al día de luz brillante indirecta (Colorado State). Gira la maceta un cuarto de vuelta cada semana para que crezca recta y no se incline hacia la ventana (Iowa State, Colorado State, UF/IFAS Gardening Solutions, NYBG).",
+      "tolera_sol_directo": "Tolera algo de sol suave de mañana. Evita el sol fuerte de mediodía tras el cristal: el sol duro del mediodía figura entre las causas de agujas pardas (NYBG). Chicago Botanic Garden pide mucha luz pero sin sol directo en invierno. Al aire libre en clima subtropical crece a pleno sol (UF/IFAS ST083, NC State), pero eso no se traslada al interior tras un cristal.",
+      "notas": "Rango en lux tomado de la escala del proyecto para luz brillante indirecta (500-1000 fc); ninguna fuente prioritaria da cifras de lux o fc para esta especie [orientativo, sin fuente prioritaria]. Con poca luz alarga los pisos, crece torcida o ladeada (NYBG) y pierde agujas y ramas bajas (Iowa State, NYBG). NC State indica que aguanta luz muy baja 2-3 años, pero después pierde hojas y ramas inferiores, y las ramas perdidas no rebrotan (NYBG).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F8", "F2", "F5"]
+    },
+    "riego": {
+      "criterio": "Comprueba el sustrato con el dedo a 2-3 cm (5 cm en macetas grandes) y el peso de la maceta. Riega a fondo cuando la superficie del sustrato esté seca al tacto (Iowa State), cuando los primeros 2,5 cm estén secos (Colorado State) o cuando se note ligeramente seca (NYBG). Deja escurrir y vacía el plato a los 15 minutos; nunca dejes la maceta encharcada (Iowa State, NYBG, Colorado State). No riegues por calendario.",
+      "primavera_verano": "Riego regular para mantener una humedad constante pero sin encharcar (NC State, Colorado State). Riega cada vez que se seque la capa superior. Con calor y calefacción o aire acondicionado se seca antes: comprueba más a menudo, no riegues más por norma.",
+      "otono_invierno": "Riega menos a medida que baja la temperatura (Colorado State, NC State). NYBG pide mantener el sustrato apenas húmedo y no dejar que se seque del todo; Chicago Botanic Garden permite que se seque ligeramente entre riegos. Opción conservadora: deja secar los 2-3 cm superiores y riega con moderación, sin dejar que el cepellón se seque por completo.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente, templada (NYBG). En Madrid, el agua del grifo (Canal de Isabel II) es blanda y apta. Dejarla reposar no elimina la cloramina, pero no hace falta hacerlo. Las puntas pardas no se deben al flúor ni al cloro del grifo de Madrid, sino a riego irregular, aire seco o sales de abono acumuladas.",
+      "notas": "No soporta el encharcamiento: UF/IFAS indica que vive muchos años en interior siempre que no se riegue en exceso, y UF/IFAS Gardening Solutions advierte de que no le gusta estar demasiado húmeda. Pero tampoco la sequía prolongada: el sustrato demasiado seco provoca puntas pardas y pérdida de ramas bajas (Iowa State, NYBG). El exceso de riego es la causa nº 1 de muerte de las plantas de interior.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F8", "F4", "F5", "F2"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "Pide humedad relativa en torno al 50 % (Colorado State) o por encima del 50 % (NYBG). El aire seco provoca puntas pardas y caída de ramas bajas (Iowa State, Colorado State, NYBG). Usa un humidificador o agrupa plantas; un higrómetro ayuda a vigilarla (NYBG). Varias fuentes (NYBG, NC State, Chicago Botanic Garden) recomiendan pulverizar las agujas. El proyecto no lo recomienda, porque no sube la humedad de forma útil: se sustituye por humidificador o agrupación. La bandeja con guijarros y agua que citan Iowa State, Colorado State y UF tiene un efecto limitado. No hay una humedad mínima de supervivencia verificada (véase lagunas).",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F8", "F1"]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 13,
+      "ideal_max_c": 21,
+      "notas": "Prefiere un ambiente fresco. Iowa State da 13-21 °C (55-70 °F); NC State, una habitación fresca y luminosa a 13-18 °C (55-65 °F). Colorado State: 16-22 °C de día y algo más fresco de noche. NYBG: 16-21 °C de día y 10-18 °C de noche; en invierno, 13-16 °C para que repose, y desaconseja las casas cálidas a largo plazo. Chicago Botanic Garden: 10-16 °C en invierno. min_c = 10 °C es el mínimo nocturno o invernal que dan las fuentes de interior (NYBG, Chicago). El mínimo de supervivencia de RHS (H2, 1-5 °C) y UF/IFAS (no por debajo de 1,7 °C) corresponde a invernadero o exterior y no se usa aquí. Ninguna fuente da una temperatura máxima: max_c se deja en null (véase lagunas). Mantenla lejos de radiadores, salidas de calefacción o aire acondicionado y puertas exteriores, porque las corrientes de aire tuestan las agujas (Colorado State, NYBG).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F8", "F10", "F6", "F5"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de maceta con base de tierra, ligeramente ácido, aligerado con turba (o fibra de coco como alternativa sin turba) y arena gruesa o perlita para que drene rápido (NYBG). RHS recomienda compost con base de tierra franca, sin turba, y grava añadida. NC State: mezcla fértil, porosa y ligeramente ácida.",
+      "ph": "Ligeramente ácido (NYBG, NC State). Las fuentes no dan una cifra concreta de pH.",
+      "drenaje": "Imprescindible: maceta con agujero de drenaje (NYBG) y sustrato poroso. Es tolerante con el tipo de suelo siempre que drene bien (UF/IFAS ST083, NC State).",
+      "confianza": "Alta",
+      "fuentes": ["F8", "F6", "F2", "F4"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, equilibrado (RHS) y diluido (Iowa State, NC State, NYBG).",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo (de marzo a septiembre en Madrid, según Colorado State y NYBG): ¼-½ de la dosis de la etiqueta, una vez al mes, siguiendo la convención del proyecto. Las fuentes dan frecuencias de cada 1-4 semanas (NC State: semanal o quincenal; RHS: quincenal; Iowa State: cada 2-4 semanas; Chicago Botanic Garden: mensual). Se adopta la opción conservadora, porque NYBG advierte de que el exceso de abono debilita la estructura de la planta.",
+      "otono_invierno": "Nada. Suspende el abonado en reposo (RHS, Colorado State, NYBG).",
+      "notas": "No hay una NPK concreta verificada para la especie; RHS solo dice 'equilibrado'.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F6", "F3", "F8", "F2", "F10"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (NYBG), o solo cuando las raíces llenen la maceta, porque crece despacio (Colorado State). Pasa a una maceta solo un poco mayor.",
+      "epoca": "Primavera (NYBG), dentro del periodo de crecimiento activo de marzo a septiembre (Colorado State). Nunca en invierno.",
+      "senales": "Raíces asomando en la superficie del sustrato o por los agujeros de drenaje (NYBG); cepellón que se seca muy deprisa. Las raíces son delicadas: manipúlalas con cuidado y no las desenredes ni las podes (NYBG). Si hay varias plántulas en la maceta, separarlas también obliga a manejar raíces delicadas: hazlo solo en primavera.",
+      "confianza": "Alta",
+      "fuentes": ["F8", "F3"]
+    },
+    "poda": {
+      "necesita": "No. Requiere poca o ninguna poda, y cortar puede estropear su forma de manera permanente (RHS, grupo de poda 1). Nunca cortes la guía (la punta del tronco): la planta deja de crecer desde ese punto y no rebrota una guía simétrica (NYBG). Podar para controlar la altura no es buena solución en interior (NYBG). Las ramas bajas que se secan no vuelven a brotar (NYBG).",
+      "epoca": "Solo para retirar material muerto, en cualquier momento. Si hay que cortar algo verde, mejor en primavera, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "1. Retira solo las ramas bajas totalmente secas, cortándolas a ras del tronco con tijera limpia. 2. No despuntes las ramas laterales para darle forma: pierde la punta fina de las ramas y el resultado suele decepcionar (NYBG). 3. Si aparecen dos guías o troncos, deja solo la más fuerte (UF/IFAS ST083). 4. Si ha perdido muchas ramas bajas, no se puede recuperar; mejora la luz, la humedad y el riego para frenar más pérdidas.",
+      "confianza": "Alta",
+      "fuentes": ["F6", "F9", "F8", "F4"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. octubre-febrero en el hemisferio norte). En Madrid coincide con la temporada de calefacción.",
+      "cambios": "Fresco y muy luminoso: 13-16 °C (NYBG) o 10-16 °C (Chicago Botanic Garden). Menos riego, pero sin dejar que el cepellón se seque del todo (NYBG, Colorado State). Sin abono (RHS, Colorado State). Es cuando más le afecta la poca luz y el aire seco de la calefacción (NYBG).",
+      "confianza": "Alta",
+      "fuentes": ["F8", "F10", "F3", "F6"]
+    },
+    "propagacion": {
+      "metodos": ["semilla", "esqueje de punta vertical (guía)", "separación de plántulas basales"],
+      "epoca": "Semilla: en cuanto madura (RHS). Esqueje de punta vertical: pleno verano (RHS). Separación de plántulas: primavera (NYBG).",
+      "pasos": "Semilla (UF/IFAS ST083, NC State, RHS): es difícil e irregular en casa. Necesita semilla fresca y bien conservada, y da mejor resultado en invernadero (NYBG). Las plantas de interior no producen conos. Esqueje (UF/IFAS ST083, RHS, NYBG): solo el esqueje de la punta vertical del tronco da un árbol erguido y simétrico, y la planta madre deja de crecer hacia arriba. Los esquejes de ramas laterales horizontales enraízan pero nunca forman un árbol recto. RHS los enraíza en cajonera fría en verano. Separación (NYBG): en primavera, separa las plántulas jóvenes que crecen juntas en la base, ponlas cada una en una maceta de unos 13 cm y riégalas con agua templada.",
+      "confianza": "Alta",
+      "fuentes": ["F4", "F6", "F8", "F2"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S02", "causa_habitual_en_esta_especie": "Agujas y ramas bajas que amarillean, se secan y caen. Es normal que las agujas viejas de las ramas inferiores se vayan secando poco a poco (NYBG). Si la pérdida es rápida o afecta a pisos enteros, la causa suele ser poca luz, aire seco o sustrato demasiado seco (Iowa State, NYBG, NC State). Las ramas perdidas no rebrotan."},
+    {"sintoma_id": "S05", "causa_habitual_en_esta_especie": "Puntas de ramas y agujas pardas por humedad ambiental baja, riego irregular (por exceso o por defecto) o corrientes de calefacción, aire acondicionado o puertas exteriores (Iowa State, Colorado State, NYBG). En Madrid no se debe al cloro ni al flúor del agua del grifo."},
+    {"sintoma_id": "S16", "causa_habitual_en_esta_especie": "Crecimiento alargado, pisos muy separados y planta torcida o ladeada por luz insuficiente, sobre todo en invierno (NYBG), o por no girar la maceta (Iowa State, Colorado State)."},
+    {"sintoma_id": "S17", "causa_habitual_en_esta_especie": "Deja de crecer hacia arriba si la yema terminal de la guía está dañada o se ha cortado (NYBG). No tiene arreglo, porque la guía no se regenera de forma simétrica."},
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Agujas pardas o descoloridas por el sol fuerte de mediodía tras el cristal (NYBG), típico de ventanas sur y oeste en verano."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Araña roja, sobre todo con calor y aire seco: telaraña fina sobre zonas pardas (NYBG). Mejora la humedad y la regularidad del riego, y usa solo productos listos para usar con uso no profesional inscritos en el Registro del MAPA."},
+    {"sintoma_id": "S30", "causa_habitual_en_esta_especie": "Cochinilla con escudo, la plaga principal de la especie (UF/IFAS ST083, NC State)."},
+    {"sintoma_id": "S26", "causa_habitual_en_esta_especie": "Fumagina (negrilla) sobre la melaza que segrega la cochinilla (UF/IFAS ST083, NC State)."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Exceso de riego o maceta encharcada en el plato. No tolera estar demasiado húmeda (UF/IFAS Gardening Solutions, UF/IFAS ST083). La pudrición radicular como diagnóstico concreto no aparece descrita en las fuentes de la especie: es el mecanismo general del exceso de riego."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte en ventanas sur y oeste: aléjala 1-2 m del cristal o pon un visillo, porque el sol de mediodía o tarde tras el cristal tuesta las agujas (NYBG). No la pongas delante del aire acondicionado ni junto a una puerta al exterior (Colorado State, NYBG). El aire es muy seco (HR exterior ≈38 % en julio): humidificador o agrupar plantas, no pulverizar. Comprueba el sustrato más a menudo, porque se seca antes, pero sigue regando solo cuando los 2-3 cm superiores estén secos y vacía el plato. Puede salir a una terraza resguardada y en sombra luminosa en verano (RHS), pero no al sol directo del mediodía madrileño. Ninguna fuente da un máximo de temperatura: por encima de unos 27-30 °C, prioriza la sombra luminosa y la humedad [orientativo, sin fuente prioritaria].",
+    "invierno": "Es la estación crítica. Prefiere una habitación fresca y muy luminosa, a 10-16 °C (NYBG, Chicago Botanic Garden): un dormitorio o pasillo luminoso poco caldeado, o una galería interior sin heladas. Evita el salón con calefacción alta. Lejos de radiadores y salidas de aire caliente (NYBG, Colorado State). Con calefacción la HR interior suele bajar del 30 %, muy lejos del 50 % que pide (Colorado State, NYBG): usa humidificador. Junto a una ventana fría, que las ramas no toquen el cristal, y no la dejes por debajo de 10 °C. Riega menos y sin abono. Como hay poca luz, colócala lo más cerca posible de una ventana luminosa sin sol fuerte, y gírala cada semana.",
+    "ubicacion_recomendada": "Junto a una ventana este, o a 1-2 m de una ventana sur con visillo, en una habitación fresca y poco caldeada. Lejos de radiadores, splits de aire acondicionado y puertas exteriores. Gira la maceta un cuarto de vuelta cada semana."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) bloqueó el acceso (403/Cloudflare) y no se pudo verificar el nombre aceptado ni el autor; se cita habitualmente como Araucaria heterophylla (Salisb.) Franco, sin verificar. NC State confirma el sinónimo Araucaria excelsa. Se mantiene el nombre de lista-maestra.csv.",
+    "Luz: ninguna fuente prioritaria da cifras en lux o pies-candela para la especie; lux_min/lux_max se toman de la escala del proyecto (luz brillante indirecta 500-1000 fc).",
+    "Temperatura máxima tolerada en interior: ninguna fuente la da (max_c = null). NYBG solo desaconseja las casas cálidas.",
+    "Humedad mínima de supervivencia: no verificada (min_pct = null); solo hay un ideal de ≈50 % o más.",
+    "pH: las fuentes dicen 'ligeramente ácido' sin cifra.",
+    "NPK concreta: no verificada (RHS: 'equilibrado').",
+    "Toxicidad para niños y personas: sin fuente prioritaria (ninos = 'desconocida'). UC ANR recoge informes veterinarios de posible toxicidad leve, de mecanismo desconocido, pese a que ASPCA la lista como no tóxica.",
+    "Confusión con Araucaria columnaris: el rasgo diferenciador (porte columnar, tronco inclinado) no se ha verificado en fuentes prioritarias; tampoco la descripción de A. araucana.",
+    "No se pudieron abrir las fichas de UConn Home & Garden Education Center (servidor caído) ni de Missouri Botanical Garden Plant Finder (sin respuesta)."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://yardandgarden.extension.iastate.edu/faq/how-do-i-care-norfolk-island-pine", "institucion": "Iowa State University Extension and Outreach", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://plants.ces.ncsu.edu/plants/araucaria-heterophylla/common-name/norfolk-pine/", "institucion": "NC State Extension – Gardener Plant Toolbox", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://planttalk.colostate.edu/topics/houseplants/1321-norfolk-island-pine", "institucion": "Colorado State University Extension – PlantTalk Colorado", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://ask.ifas.ufl.edu/publication/ST083", "institucion": "UF/IFAS EDIS – Araucaria heterophylla (ST083 / ENH242)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/trees/norfolk-island-pine/", "institucion": "UF/IFAS Gardening Solutions", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://www.rhs.org.uk/plants/1461/araucaria-heterophylla/details", "institucion": "Royal Horticultural Society (RHS)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/norfolk-island-pine", "institucion": "ASPCA Animal Poison Control", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://libguides.nybg.org/Norfolkislandpine", "institucion": "New York Botanical Garden (NYBG) – Plant Information Service, guía de cuidado", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://libanswers.nybg.org/faq/223005", "institucion": "New York Botanical Garden (NYBG) – Plant Information Service, FAQ sobre poda", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F10", "url": "https://www.chicagobotanic.org/plant-information/norfolk-island-pine-care", "institucion": "Chicago Botanic Garden", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F11", "url": "https://ucanr.edu/sites/mgfresno/files/344050.pdf", "institucion": "UC ANR – UC Master Gardeners of Fresno County (Helpline Hot Topic, nov. 2020)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

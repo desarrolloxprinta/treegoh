@@ -1,0 +1,305 @@
+{
+  "nombre_cientifico": "Zantedeschia aethiopica",
+  "nombres_comunes": [
+    "cala",
+    "lirio de agua",
+    "alcatraz",
+    "cala blanca",
+    "aro de Etiopía"
+  ],
+  "familia": "Araceae (familia de los aros, la misma que el espatifilo y la monstera)",
+  "origen": "Sur de África. POWO la da como nativa de las provincias del Cabo, Esuatini, Estado Libre, KwaZulu-Natal, Lesoto y provincias del norte de Sudáfrica, e introducida en muchas regiones de clima suave, entre ellas España, Portugal, Canarias, Azores, Madeira, Italia, Gran Bretaña, California, Australia y Nueva Zelanda (POWO). Forma grandes colonias en zonas pantanosas desde la costa hasta 2250 m de altitud (SANBI); en su hábitat crece en orillas de arroyos, charcas y marismas (NC State).",
+  "clima_nativo": "Templado-subtropical sudafricano con estación seca marcada: en el Cabo Occidental (lluvias de invierno) entra en reposo en verano, y en las zonas de lluvias de verano reposa en invierno; se mantiene perennifolia si el suelo encharcado no se seca en todo el año (SANBI). Soporta desde aire salino costero hasta heladas en praderas de montaña (SANBI). Rusticidad RHS H4 (-10 a -5 °C, plantada en suelo) y zona USDA 8, sobreviviendo en zona 7 protegida (RHS, NC State).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas grandes, simples, carnosas, verde oscuro brillante, en forma de flecha (sagitadas) o de corazón (cordadas), con el margen ondulado y sin pelos; lámina de hasta 40 cm de largo y 8-15 cm de ancho, sobre pecíolos largos, gruesos y erguidos cuyas bases envainadoras se solapan (RHS, NC State). Salen directamente del rizoma, formando una mata.",
+    "nerviacion": "Nervio central marcado y nervios laterales finos, paralelos entre sí y curvados hacia el margen, típicos de arácea [orientativo, sin fuente prioritaria].",
+    "variegacion": "La especie tiene hoja verde uniforme. Hay cultivares con hojas moteadas de blanco ('Giant Spotted Beauty', 'Royal Valentine', NC State) y una forma de hojas manchadas de blanco citada por SANBI. 'Green Goddess' tiene la espata blanca con verde (NC State, SANBI). Las manchas blancas en la hoja son mucho más frecuentes en las calas de colores (híbridos de Z. elliottiana y Z. rehmannii, RHS).",
+    "tallo": "Sin tallo aéreo: las hojas y los escapos florales salen directamente de un rizoma grueso y carnoso, enterrado (NC State, RHS). Escapo floral sin hojas, largo y robusto, de hasta 90 cm (RHS).",
+    "habito": "Herbácea perenne rizomatosa, en mata, semiperennifolia o caducifolia según el agua y el frío (NC State, RHS). Inflorescencia: una espata blanca en forma de embudo, que acaba en punta, de hasta 25 cm, envolviendo un espádice amarillo de unos 9 cm, ligeramente perfumada (RHS, NC State). Florece de finales de primavera a verano en el hemisferio norte (RHS; NC State: junio-julio). Tras la floración la espata se vuelve verde y cubre bayas que maduran amarillo-anaranjadas, de unos 10 mm (SANBI, NC State).",
+    "tamano_adulto_interior": "60-100 cm de alto (NC State: 60 cm-1 m; RHS: 0,5-1 m) y 30-60 cm de ancho en maceta; en suelo las matas llegan a 90 cm de ancho (RHS). En sombra se alarga (SANBI). Es la cala de mayor tamaño: 45-60 cm frente a 30-45 cm de las calas de colores (Univ. Georgia).",
+    "confusiones": [
+      {
+        "especie": "Calas de colores de floristería: Zantedeschia elliottiana, Zantedeschia rehmannii y sus híbridos (híbridos Elliottiana y Rehmannii)",
+        "rasgo_diferenciador": "Espatas amarillas, naranjas, rosas, rojas o púrpuras; plantas más compactas (30-75 cm) con hojas más estrechas y a menudo moteadas de blanco. Son 'calas de estación cálida': no toleran menos de 5 °C, necesitan menos agua y mejor drenaje y un reposo invernal en seco (RHS, Univ. Georgia). Darles el riego abundante de Z. aethiopica pudre el rizoma: la app debe distinguirlas antes de dar consejos de riego."
+      },
+      {
+        "especie": "Spathiphyllum (espatifilo)",
+        "rasgo_diferenciador": "Hojas lanceoladas o elípticas, no en flecha, y espata blanca plana o en capucha, abierta y pequeña, junto a un espádice que no queda envuelto; la cala tiene la espata enrollada en embudo y hojas sagitadas de margen ondulado (NC State la cita como confusión habitual)."
+      },
+      {
+        "especie": "Arum italicum (aro, yaro)",
+        "rasgo_diferenciador": "Hojas en flecha con nervios marcados en blanco o crema y espata verdosa-blanca en capucha; después deja una espiga de bayas rojas. Es planta silvestre en España y se confunde a menudo (NC State)."
+      },
+      {
+        "especie": "Zantedeschia pentlandii",
+        "rasgo_diferenciador": "Espata amarilla dorada y hojas más estrechas; es una de las especies de las calas de colores (NC State)."
+      },
+      {
+        "especie": "Hosta",
+        "rasgo_diferenciador": "Sin espata ni espádice: flores acampanadas en racimo; hojas ovales o acorazonadas con nervios paralelos muy marcados, sin forma de flecha (NC State)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (ASPCA, NC State) presentes en flores, hojas, raíces, savia y tallos (NC State); SANBI describe los cristales microscópicos y afilados que hinchan la garganta si se ingiere cruda.",
+    "sintomas": "Perros y gatos: irritación oral, quemazón intensa en boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA). En personas (gravedad media según NC State): dolor e hinchazón de boca, lengua y labios, babeo, dolor de estómago, vómitos, diarrea y dificultad para tragar; la savia causa dermatitis de contacto (NC State) e irrita piel y ojos: usar guantes al dividir o cortar (RHS). Ante una ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "P4",
+      "P1",
+      "P2",
+      "P5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Exterior (terraza, balcón, jardín) a pleno sol o semisombra; florece mejor a pleno sol (RHS). En climas calurosos, semisombra para evitar que se quemen hojas y flores, aunque florezca algo menos (NC State). RHS indica exposición sur u oeste en clima británico; en Madrid, sol de mañana y sombra en las horas centrales del verano. En interior solo junto a la ventana más luminosa, y florece poco.",
+      "tolera_sol_directo": "Sí en primavera y otoño. En verano caluroso, sol directo de mediodía y tarde quema hojas y espatas: se recomienda un 30 % de sombra en tiempo cálido (Univ. Georgia) o semisombra (NC State).",
+      "notas": "En producción rinde mejor con luz alta, >2500 fc ≈ 27 000 lux (Univ. Georgia); según la escala del proyecto es luz 'directa' (>1000 fc). No hay fuente prioritaria para un máximo en lux: lux_max se deja en null. En sombra profunda crece como planta de hoja pero apenas florece (SANBI).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P3",
+        "P1",
+        "P7",
+        "P5"
+      ]
+    },
+    "riego": {
+      "criterio": "EXCEPCIÓN a la regla general de dejar secar: en crecimiento el sustrato debe estar siempre húmedo, sin llegar a secarse nunca (RHS, Univ. Georgia). Compruebe con el dedo a 2-3 cm (5 cm en maceta grande) y por el peso de la maceta: riegue en cuanto la superficie empiece a perder humedad, sin esperar a que la maceta pese poco. La planta no debe llegar a marchitarse (Univ. Georgia). En reposo se invierte el criterio: riego mínimo.",
+      "primavera_verano": "Crecimiento y floración (en Madrid, aprox. de febrero-marzo a junio, y de nuevo en otoño): riego abundante y regular para mantener el sustrato uniformemente húmedo; en maceta se seca rápido y puede necesitar riego cada 1-3 días con calor [orientativo, sin fuente prioritaria]. Puede cultivarse como planta palustre en cesta acuática con hasta 30 cm de agua encima (RHS; NC State: hasta 30 cm). Si en pleno verano madrileño amarillea y entra en reposo estival, reduzca el riego a lo justo para que el rizoma no se deshidrate del todo.",
+      "otono_invierno": "Si se mantiene verde en otoño, siga regando con el sustrato húmedo. En invierno, y siempre que la planta esté en reposo (hojas secas o detenida por el frío), riegue solo de forma escasa: el exceso de agua en reposo pudre el rizoma (RHS).",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo de Madrid sin tratamiento: es blanda y no tiene flúor relevante; reposarla no elimina la cloramina, y no hace falta. Agua de lluvia también es válida.",
+      "notas": "Matiz entre fuentes: RHS y NC State la tratan como planta de suelo encharcado o palustre, mientras Univ. Georgia (cultivo en maceta para flor) pide sustrato bien drenado y avisa de que el exceso de agua aumenta podredumbres de raíz y bacterianas blandas. Opción conservadora en maceta: sustrato siempre húmedo pero con agujero de drenaje; no dejar agua en el plato salvo que se cultive deliberadamente como palustre en cesta acuática y con la planta en pleno crecimiento. Las calas de colores (Z. elliottiana, Z. rehmannii) NO siguen esta regla: necesitan menos agua (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P3",
+        "P2",
+        "P1",
+        "P7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No se ha encontrado una cifra de humedad ambiental en fuentes prioritarias. Es planta de exterior y de suelo húmedo; sus hojas expulsan el agua sobrante por gutación (SANBI), por lo que la humedad que necesita le llega sobre todo por la raíz. Para el aire seco de Madrid basta con mantener el sustrato húmedo y protegerla del viento caliente; pulverizar no sirve.",
+      "confianza": "Baja",
+      "fuentes": [
+        "P5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 0,
+      "max_c": 27,
+      "ideal_min_c": 13,
+      "ideal_max_c": 21,
+      "notas": "Mínimo: RHS la clasifica H4 (soporta -10 a -5 °C plantada en suelo) y NC State zona 8; se toma el extremo más conservador, -5 °C, y SOLO para plantas establecidas en suelo con el rizoma acolchado. En maceta las raíces están más expuestas: RHS pide resguardarla y envolver la maceta con varias capas de velo; en maceta trate 0 °C en el sustrato como límite práctico [orientativo, sin fuente prioritaria]. La helada ennegrece las hojas, que se cortan (RHS). Ideal en crecimiento: noches de 13 °C y días de 18-21 °C (Univ. Georgia, 55 °F/65-70 °F). Máximo: Univ. Georgia mantiene el cultivo en maceta entre 10 y 27 °C (50-80 °F) y avisa de que le cuesta sobrevivir en zonas de veranos muy calurosos; el estrés por calor y por falta de agua la hace entrar en reposo. El mínimo de 10 °C de Univ. Georgia es de producción comercial en invernadero, no de supervivencia, y por eso no se usa como min_c. Revisión del orquestador: min_c fijado en 0 °C para planta en maceta [orientativo, sin fuente prioritaria], coherente con la propuesta de la propia ficha de no dejar helar el sustrato; los -10/-5 °C de RHS H4 se refieren a rizomas en suelo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P3",
+        "P1",
+        "P7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "En maceta: sustrato con tierra (tipo John Innes nº 2, a base de franco) sin turba, fértil y rico en materia orgánica (RHS; NC State: mantillo, estiércol bien descompuesto y humus). Para cultivo palustre: compost acuático o tierra franca pesada en cesta acuática cubierta con grava (RHS).",
+      "ph": "6,0-6,5 (Univ. Georgia); RHS y NC State la dan como tolerante a suelos ácidos, neutros y alcalinos",
+      "drenaje": "Retentivo de humedad pero con agujero de drenaje en maceta; las fuentes de jardín la aceptan en suelo mal drenado o encharcado (RHS, NC State) y la de cultivo en maceta pide medio bien drenado para evitar pudriciones (Univ. Georgia).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P3",
+        "P1",
+        "P7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado; durante la floración puede alternarse con uno rico en potasio (RHS, aplicado a las calas en general).",
+      "npk": "Equilibrado (p. ej., 14-14-14 de liberación lenta a dosis baja según Univ. Georgia); evitar exceso de nitrógeno, que da hojas en vez de flores (Univ. Georgia)",
+      "primavera_verano": "Solo con crecimiento activo: ¼-½ de la dosis de etiqueta, una vez al mes. En sustrato fértil y rico en materia orgánica apenas necesita abono (RHS: las calas blancas rinden bien sin abono en suelo fértil).",
+      "otono_invierno": "Nada en reposo. Si sigue verde y creciendo en otoño, la misma pauta que en primavera.",
+      "notas": "RHS propone abono líquido equilibrado cada 15 días durante la floración en suelos pobres; se aplica la convención más prudente del proyecto (¼-½ dosis mensual) porque la cala no es exigente (Univ. Georgia) y el exceso de sales y nitrógeno resta floración.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P3",
+        "P7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años o cuando la mata llene la maceta; los rizomas pueden dejarse 2-3 años en el mismo sitio si hay espacio (Univ. Georgia).",
+      "epoca": "A principios de primavera, antes de que arranque el crecimiento (RHS, NC State), o a finales de verano-principios de otoño, tras la floración y con el follaje ya seco (NC State, Univ. Georgia).",
+      "senales": "Mata muy densa que florece menos por exceso de rizomas (RHS), raíces saliendo por el drenaje o sustrato que se seca enseguida.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P3",
+        "P1",
+        "P7"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda ni guiado (RHS).",
+      "epoca": "Durante la floración y tras heladas.",
+      "como": "Quitar las flores marchitas tirando del escapo entero desde la base, lo que alarga la floración (RHS). Cortar las hojas ennegrecidas por la helada o las secas al entrar en reposo (RHS). Usar guantes: la savia irrita la piel (RHS, NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "P3",
+        "P2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Variable según el clima: en clima con verano seco (Cabo Occidental, mediterráneo) reposa en verano; con frío invernal reposa en invierno; si el suelo se mantiene húmedo todo el año puede seguir verde (SANBI, NC State). En Reino Unido se seca en otoño y rebrota en primavera (RHS). En Madrid: reposo invernal por frío en exterior y, si se deja secar o se expone a mucho calor, también reposo estival.",
+      "cambios": "Al amarillear y secarse las hojas, reducir el riego al mínimo (solo para que el rizoma no se deshidrate) y suspender el abono; el exceso de agua en reposo pudre el rizoma (RHS). Retirar las hojas secas. Reanudar el riego abundante cuando aparezcan brotes nuevos. Que amarillee en pleno verano o invierno es normal y no una enfermedad si el rizoma sigue firme.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P5",
+        "P1",
+        "P3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata",
+        "troceado del rizoma",
+        "semilla"
+      ],
+      "epoca": "División: a principios de primavera o a finales de verano-principios de otoño, tras la floración (NC State, RHS). Semilla: siembra en primavera (RHS, SANBI).",
+      "pasos": "División: 1) sacar la mata entera; 2) partirla con una pala o cuchillo limpio dejando yemas ('ojos') en cada trozo (NC State); 3) dejar secar y cicatrizar los cortes 1-2 días (NC State); 4) replantar a unos 5 cm de profundidad (SANBI) o al mismo nivel que estaba, y regar con moderación hasta que broten. Rizoma: en primavera, cortar los rizomas grandes en trozos con una yema visible cada uno, plantarlos en maceta y regar poco hasta que broten; puede tardar un año en florecer (RHS). Semilla: sacar la semilla de las bayas maduras y blandas, quitar la pulpa, sembrar una por maceta de 7,5 cm a 21 °C; florece a los 2-3 años (RHS, SANBI). Los cultivares no salen fieles por semilla (Univ. Georgia).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P3",
+        "P5",
+        "P7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición del rizoma y raíces por Pythium o por la bacteria de la podredumbre blanda (Erwinia, hoy Pectobacterium), favorecida por regar en reposo, sustrato sin drenaje o heridas al dividir (Univ. Georgia, RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre blanda bacteriana en la base de pecíolos y escapos: tejido blando, oscuro y maloliente; los productos químicos son poco eficaces y lo decisivo es el material sano, el drenaje y la ventilación (Univ. Georgia)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Lesiones empapadas de la podredumbre blanda bacteriana en las hojas (Univ. Georgia); también mancha negra por Alternaria (Univ. Georgia)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Entrada natural en reposo por frío, calor o sequía (NC State, SANBI): si el rizoma está firme no es enfermedad. Si el rizoma está blando, ver S36."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Falta de agua: es muy sensible a la sequía y no debe llegar a marchitarse (Univ. Georgia); en terraza en verano, la maceta se seca en horas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura por sol de verano en hojas y espatas en climas calurosos (NC State; Univ. Georgia cita el 'sunburn' como trastorno fisiológico)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (incluido el trips de bandas de invernadero), la plaga principal de la cala; se esconde dentro de la espata (Univ. Georgia, NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y flores (RHS, Univ. Georgia)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en interior o con calor seco (RHS, Univ. Georgia)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca cuando se cultiva en interior o en invernadero (RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C, aire muy seco y sol fuerte, la cala sufre: póngala en semisombra (sol de mañana, sombra desde mediodía), lejos de suelos y paredes que irradien calor, y mantenga el sustrato siempre húmedo, revisándolo a diario (en maceta pequeña, incluso mañana y tarde). Una maceta grande o de doble pared, o el cultivo como palustre en una fuente o estanque, ayuda a mantener la humedad. Si aun así amarillea y se seca a partir de julio, es reposo estival: reduzca el riego al mínimo hasta que rebrote con el fresco de septiembre-octubre. En interior, nunca tras una ventana sur u oeste sin protección.",
+    "invierno": "En terraza o jardín madrileño, las heladas ennegrecen las hojas y la planta entra en reposo invernal: corte las hojas dañadas, riegue muy poco, acolche el rizoma y, en maceta, arrímela a una pared resguardada y envuelva la maceta con velo térmico; en olas de frío fuertes (por debajo de -5 °C) métala en un lugar fresco y sin helada. Si se pasa al interior, que sea una estancia fresca y luminosa, no junto a un radiador: la calefacción y la humedad por debajo del 30 % la debilitan, y con calor y poca luz se alarga y no florece.",
+    "ubicacion_recomendada": "Exterior: terraza, balcón o jardín orientado a este, o a sur y oeste con sombra en las horas centrales del verano; borde de estanque o zona húmeda del jardín. En interior solo de forma temporal (con flor), junto a la ventana más luminosa y fresca. No está en el Catálogo Español de Especies Exóticas Invasoras (RD 630/2013, texto consolidado revisado el 21-10-2026), pero está naturalizada en España (POWO): no tirar rizomas ni restos a cauces o zonas húmedas."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Zantedeschia aethiopica (L.) Spreng.; sinónimos homotípicos Calla aethiopica L., Richardia aethiopica (L.) Spreng., Colocasia aethiopica (L.) Link, Arodes aethiopicum (L.) Kuntze, Otosma aethiopica (L.) Raf. y Richardia africana Kunth (nom. illeg.); heterotípicos Calla ambigua Salisb., Calla aethiopica var. nana Hovey y Pseudohomalomena pastoensis A.D.Hawkes. Sin cambio de nombre.",
+    "Humedad ambiental: no hay cifras de humedad relativa mínima o ideal en fuentes prioritarias (min_pct e ideal_pct en null).",
+    "Luz: no hay un máximo de luz en lux en fuentes prioritarias (lux_max en null).",
+    "Temperatura mínima en maceta: las fuentes dan la rusticidad (H4, zona 8) para plantas en suelo; no hay cifra prioritaria para el rizoma en maceta (se propone 0 °C en el sustrato como orientativo).",
+    "Frecuencia de riego en días con el calor de Madrid: no hay fuente prioritaria (1-3 días marcado como orientativo).",
+    "Invasora: no figura en el Catálogo Español de Especies Exóticas Invasoras (RD 630/2013, BOE, texto consolidado del 19-10-2026), aunque POWO la da como introducida en España, Portugal, Canarias, Azores y Madeira, y NC State la considera maleza en algunos hábitats. No se ha consultado si alguna comunidad autónoma la incluye en catálogos regionales.",
+    "Nerviación: la descripción de los nervios no está respaldada por una fuente prioritaria."
+  ],
+  "fuentes": [
+    {
+      "id": "P1",
+      "url": "https://plants.ces.ncsu.edu/plants/zantedeschia-aethiopica/common-name/calla-lily/",
+      "institucion": "North Carolina State University Extension – NC Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P2",
+      "url": "https://www.rhs.org.uk/plants/19190/zantedeschia-aethiopica/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de la especie",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P3",
+      "url": "https://www.rhs.org.uk/plants/zantedeschia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow zantedeschia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P4",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calla-lily",
+      "institucion": "ASPCA Animal Poison Control Center – Calla Lily",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P5",
+      "url": "https://pza.sanbi.org/zantedeschia-aethiopica",
+      "institucion": "South African National Biodiversity Institute (SANBI) – PlantZAfrica, Witwatersrand National Botanical Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:89403-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P7",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/c/a/calla_li_51e589243d595.pdf",
+      "institucion": "University of Georgia (J. Garner), 'Calla lilies for cut flowers and pots', Southeastern Floriculture (archivo NC State Extension)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P8",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-8565",
+      "institucion": "BOE – Real Decreto 630/2013, Catálogo Español de Especies Exóticas Invasoras (texto consolidado)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

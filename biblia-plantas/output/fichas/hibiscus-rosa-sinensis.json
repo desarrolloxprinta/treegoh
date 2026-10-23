@@ -1,0 +1,361 @@
+{
+  "nombre_cientifico": "Hibiscus rosa-sinensis",
+  "nombres_comunes": [
+    "hibisco",
+    "rosa de China",
+    "hibisco chino",
+    "pacífico"
+  ],
+  "familia": "Malvaceae",
+  "origen": "Origen exacto desconocido: probablemente Asia tropical / China (MBG, NC State); MBG indica que no se conocen poblaciones silvestres actuales. POWO acepta el nombre como Hibiscus × rosa-sinensis L. (notación de híbrido) y solo lo recoge como introducido/cultivado en todo el trópico. Los cultivares modernos ('hibisco tropical' de vivero) proceden de cruces con varias especies (MBG).",
+  "clima_nativo": "Tropical y subtropical sin heladas, cálido y húmedo (zonas USDA 9-11 según NC State; 10-11 para invernar fuera según MBG). RHS: H1B, puede estar fuera en verano pero necesita protección en invierno (mínimo 10-15 °C) y veranos largos y calurosos para florecer bien.",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, ovadas a elípticas o anchamente lanceoladas, de 7-15 cm, verde oscuro muy brillante en el haz y algo más pálidas en el envés, lampiñas, con margen dentado (serrado) sobre todo en la mitad superior (NC State, MBG, RHS). Rasgo clave para visión: flor grande (10-20 cm; NC State 3-6 in, MBG hasta 4-8 in) en forma de embudo, de 5 pétalos (o doble), en rojo, rosa, naranja, amarillo, blanco o bicolor, con una columna estaminal larga y vistosa que sobresale del centro, rematada por 5 estigmas aterciopelados; cada flor dura un solo día y se cierra y cae (UMN, MBG). Debajo del cáliz hay un epicáliz de lacinias estrechas (NC State).",
+    "nerviacion": "Palmatinervia en la base (3-5 nervios principales que parten del pecíolo, NC State), con nervadura secundaria pinnada visible; nervios algo más claros que la lámina.",
+    "variegacion": "Normalmente sin variegación (verde liso). Existen cultivares de hoja variegada blanca/rosada/crema (p. ej. tipo 'Snow Queen' o 'Cooperi') [orientativo, sin fuente prioritaria]. Un punteado amarillo o plateado fino no es variegación: suele ser araña roja.",
+    "tallo": "Arbusto leñoso de tallos erectos, ramificados, de corteza gris-parda lisa; brotes tiernos verdes. Pecíolo de 1,5-5 cm.",
+    "habito": "Arbusto perennifolio leñoso, erguido (NC State). En maceta se mantiene compacto con poda; en clima tropical llega a 3-4 m.",
+    "tamano_adulto_interior": "En maceta e interior 0,6-1,5 m de alto (RHS: máx. 1-1,5 m de alto y 0,5-1 m de ancho); MBG indica que las plantas en contenedor que se invernan dentro se recortan a 1,5-1,8 m. Al aire libre en el trópico 1,2-3 m (NC State).",
+    "confusiones": [
+      {
+        "especie": "Hibiscus syriacus (rosa de Siria, altea)",
+        "rasgo_diferenciador": "Caducifolio y rústico a heladas (planta de jardín en Madrid); hojas más pequeñas, mates, a menudo trilobuladas, y flores menores (5-10 cm) en malva, lila, blanco o rosa, nunca naranja o amarillo. H. rosa-sinensis es perennifolio, de hoja brillante no lobulada y flor mayor."
+      },
+      {
+        "especie": "Hibiscus moscheutos / híbridos rústicos de pantano (Muenchhusia, hibisco gigante)",
+        "rasgo_diferenciador": "Herbáceo que se seca en invierno y rebrota de la cepa; hojas mates, más grandes y algo pubescentes, flores enormes (hasta 25 cm) blancas, rosas o rojas. H. rosa-sinensis es leñoso y perennifolio."
+      },
+      {
+        "especie": "Hibiscus schizopetalus (hibisco de pétalos flecos)",
+        "rasgo_diferenciador": "Flores colgantes con pétalos profundamente laciniados y recurvados hacia atrás y columna estaminal muy larga; el H. rosa-sinensis típico tiene pétalos enteros y flor más abierta y erguida."
+      },
+      {
+        "especie": "Malvaviscus arboreus (malvavisco, hibisco dormido)",
+        "rasgo_diferenciador": "Flores rojas colgantes que nunca se abren del todo (pétalos enrollados en tubo, solo asoma la columna estaminal); hojas más mates y pubescentes."
+      },
+      {
+        "especie": "Abutilon spp. (farolillo, arce de flor)",
+        "rasgo_diferenciador": "Hojas generalmente palmeadas en forma de hoja de arce y flores colgantes acampanadas, más pequeñas (3-6 cm), sin columna estaminal larga."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "confianza": "Baja",
+    "fuentes": [
+      "F8",
+      "F3"
+    ],
+    "notas": "ASPCA no tiene ficha de Hibiscus rosa-sinensis: sus fichas 'Hibiscus', 'Rose of China' y 'Rose of Sharon' corresponden todas a Hibiscus syriacus (otra especie, que ASPCA da como no tóxica para perros, gatos y caballos). Ojo: ASPCA usa el nombre común 'Rose of China' para H. syriacus, lo que puede confundir. NC State Plant Toolbox no incluye apartado de toxicidad para H. rosa-sinensis y clasifica sus flores como comestibles, pero eso no cubre hojas ni tallos. Sin fuente prioritaria a nivel de especie, se deja 'desconocida'. Indicio (no verificable aquí): fuentes complementarias lo consideran de bajo riesgo con posible malestar digestivo leve en perros y gatos si lo mastican. La app no debe afirmar que es segura ni tóxica; ante ingestión con síntomas, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur u oeste con al menos 4-5 horas de sol directo (UMN). Ventana este como alternativa con menos floración. Nunca en norte para floración.",
+      "tolera_sol_directo": "Sí, y lo necesita para florecer: 'cuanta más luz, mejor florece' (UMN); a pleno sol a media sombra (NC State, MBG, RHS). Al sacarla al exterior en primavera hay que aclimatarla en 1-2 semanas (porche → sombra filtrada → sol) para evitar quemaduras y caída de botones (UMN, Chicago Botanic Garden). Con calor extremo agradece sombra en las horas centrales de la tarde (Costa Farms, complementaria).",
+      "notas": "Escala del proyecto: directa >1000 fc (>10 760 lux). Con luz brillante indirecta (5 380-10 760 lux) sobrevive pero florece poco o nada [orientativo, sin fuente prioritaria]. Discrepancia: MBG dice que como planta de interior basta 'luz brillante pero no pleno sol' y RHS 'luz brillante filtrada' en interior, mientras UMN pide 4-5 h de sol directo para florecer. Se adopta: sol directo de ventana (filtrado solo en las horas más duras del verano de Madrid tras cristal sur/oeste), porque la falta de luz es causa reconocida de caída de botones (MBG) y no floración (UMN). En invierno, la ubicación más luminosa de la casa (UMD) y, si hace falta, luz artificial de apoyo (UMD).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F10"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato ligeramente húmedo pero nunca encharcado (UMN, Chicago BG). Regar cuando los 2-3 cm superiores estén secos al tacto (Costa Farms indica ~2,5 cm) y la maceta pese claramente menos; no dejar nunca que se seque hasta mustiarse (UMN), porque la sequía es la causa más habitual de caída de botones (MBG, Costa Farms). Regar por arriba hasta que salga agua por los agujeros de drenaje (lava sales, UMN) y vaciar el plato: nunca dejarla con agua en el plato (Chicago BG). Nunca por calendario.",
+      "primavera_verano": "Riego frecuente y constante: en pleno crecimiento y floración el sustrato se seca rápido; en maceta pequeña al sol en Madrid puede necesitar agua a diario o cada 2 días, en maceta grande menos (Costa Farms: de una vez por semana a una vez al día según tamaño y clima). Comprobar cada día en olas de calor. Evitar alternar seco-empapado: provoca caída de botones (Costa Farms).",
+      "otono_invierno": "Reducir: dejar secar un poco más entre riegos (UMN, MBG, UMD), sin llegar a secar del todo el cepellón. Tras entrar en casa en otoño, durante la aclimatación (cae hoja y se para), regar menos hasta que salgan brotes nuevos (UMD). Si se inverna en reposo con poca luz, riegos muy escasos solo para mantener vivas las raíces y sin sustrato mojado (UMD).",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "El agua del grifo de Madrid (blanda, con cloramina) es adecuada; reposarla no elimina la cloramina, pero no es necesario. Lo que daña es la acumulación de sales de abono: regar a fondo hasta que drene (UMN).",
+      "notas": "UMN advierte que el exceso de riego amarillea hojas, sobre todo en variedades antiguas; el encharcamiento en invierno con poca luz es el principal riesgo de pudrición de raíz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F9",
+        "F10"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes prioritarias no dan cifras: MBG dice que aprecia humedad alta; RHS pide en interior humedad moderada y buena ventilación; UMN avisa de que no soporta cambios bruscos de temperatura ni de humedad (lejos de radiadores y corrientes). MBG recomienda pulverizar y bandeja de guijarros; según la convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas. El aire seco favorece la araña roja.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal diurno 18-24 °C (UMN: 65-75 °F, necesario para formar botones). Mínimos dados por las fuentes: UMN 13 °C diurnos (55 °F); RHS H1B 10-15 °C; MBG recomienda invernar a unos 15,5 °C (60 °F). Se adopta min_c 15 por ser el más conservador. Daño por frío por debajo de 10 °C y muerte o daño grave cerca de 1-2 °C (Costa Farms, complementaria). No tolera heladas (NC State, UMN). Calor: con 35 °C o más sostenidos algunas variedades, sobre todo antiguas, pierden botones (Costa Farms; otra página de Costa Farms habla de ~37,5 °C); max_c 35 [orientativo, sin fuente prioritaria]. Evitar corrientes frías, radiadores y cambios bruscos: provocan caída de botones (UMN, MBG). Fuera, entrarla antes de que las noches bajen a 10-13 °C (UMD: 'mid-to-low 50s °F') y siempre antes de la primera helada (UMN, Chicago BG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F3",
+        "F9",
+        "F10"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Rico y con buen drenaje (UMN, MBG, NC State: rico en materia orgánica). Mezcla UMN: 2 partes de sustrato universal para maceta + 2 partes de turba (o fibra de coco) + 1 parte de perlita o vermiculita. Maceta siempre con agujeros de drenaje (UMN).",
+      "ph": "Ácido a neutro (RHS); orientativamente 6,0-7,0 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Bueno; nunca agua estancada en el plato (UMN, Chicago BG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado soluble para plantas de maceta (UMN: tipo 20-20-20 o 10-10-10). Es planta muy exigente en nutrientes (UMN).",
+      "npk": "Equilibrado (20-20-20 o 10-10-10 según UMN).",
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de etiqueta una vez al mes mientras crece y florece activamente (UMN para interior: media dosis aproximadamente cada mes en primavera y verano). Empezar en primavera cuando aparezcan brotes nuevos (UMD: abril).",
+      "otono_invierno": "Nada en invierno ni durante la aclimatación tras entrar en casa (UMD, MBG reduce); reanudar con los primeros brotes de finales de invierno o primavera.",
+      "notas": "Discrepancia: UMN admite media dosis cada 2-3 semanas cuando está fuera en verano y Chicago Botanic Garden abono equilibrado cada dos semanas desde finales de invierno; se adopta la pauta más conservadora del proyecto (½ dosis mensual) para no acumular sales. Las plantas de vivero suelen traer abono de liberación lenta para un par de meses (Costa Farms): no añadir abono líquido al comprarla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F2",
+        "F10"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta, a menudo cada 1-2 años en ejemplares jóvenes [orientativo, sin fuente prioritaria]; subir solo 2-5 cm de diámetro.",
+      "epoca": "Primavera (Chicago BG: en primavera, sobre todo si sigue en el sustrato original del vivero).",
+      "senales": "Raíces saliendo por los agujeros, el sustrato se seca en pocas horas, crecimiento frenado y caída de botones por maceta demasiado apretada (Costa Farms).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. Florece en madera nueva (NC State), así que la poda anual mantiene la planta compacta y con más flor. Admite poda fuerte (UMN).",
+      "epoca": "Finales de invierno o principio de primavera (en Madrid, febrero-marzo con la planta aún dentro) (UMN, MBG, NC State, Chicago BG). En otoño, antes de entrarla, solo una poda para reducir tamaño si no cabe (UMD).",
+      "como": "Cortar aproximadamente a la mitad de su altura (NC State) o acortar los tallos a la mitad y eliminar 1/3 de la madera vieja (MBG), siempre por encima de una yema u hoja. Recortar los tallos largos y desgarbados (UMN, Chicago BG). Pinzar puntas de brotes para ramificar (UMN, Costa Farms). Se cortan botones con la poda, así que tardará más en florecer (UMN). Herramienta limpia y afilada.",
+      "notas": "RHS la clasifica en el grupo de poda 9 (poca o ninguna poda regular), referido a arbusto en jardín o invernadero; las fuentes de cultivo en maceta (UMN, MBG, NC State) recomiendan poda anual. Se sigue lo de maceta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F6",
+        "F5",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de octubre-noviembre a febrero (desde que entra en casa hasta que brota a finales de invierno). En el hemisferio sur, desplazar 6 meses.",
+      "cambios": "Semirreposo forzado por menos luz y temperatura: menos riego, sin abono, la luz más intensa posible y temperatura ≥15 °C (MBG, UMD, UMN). Es normal que tire bastantes hojas al entrar (Chicago BG, UMD). Alternativa (UMD): invernarla en reposo casi sin luz en un lugar fresco sin heladas, perdiendo todas las hojas, con riegos mínimos, y en abril pasarla a luz, regar más y abonar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F6",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo semileñoso",
+        "semilla"
+      ],
+      "epoca": "Esquejes de primavera a verano (RHS: semileñosos en verano); semilla en primavera a 13-18 °C (RHS).",
+      "pasos": "1) Cortar esquejes de 7-12 cm (3-5 in) de los brotes más vigorosos (UMN). 2) Quitar las hojas inferiores y las flores o botones. 3) Mojar la base en hormona de enraizamiento y sacudir el exceso (UMN). 4) Clavar en maceta pequeña con mezcla ligera (p. ej. turba/fibra de coco y perlita). 5) Mantener ligeramente húmedo, en lugar luminoso sin sol directo y cálido (UMN). 6) En 3-5 semanas enraíza y se puede trasplantar (UMN). 7) Pinzar 2-3 cm de la punta sobre un nudo para ramificar (UMN). La semilla no reproduce fielmente los cultivares híbridos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy sensible a los cambios: al comprarla, moverla de sitio o entrarla en casa en otoño tira hojas y, sobre todo, botones florales (NC State, MBG, UMN, Chicago BG, UMD). Es normal tras entrarla; rebrota. Prevenir con transiciones graduales."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato seco: se mustia rápido en maceta al sol, y tras mustiarse suele tirar botones (Costa Farms, UMN). Regar a fondo; si el sustrato está mojado y aun así se mustia, sospechar pudrición de raíz."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de algunas hojas viejas por cambios bruscos de humedad del sustrato, temperatura o corrientes; algo de amarilleo es normal en primavera y otoño en las transiciones (UMN). También falta de abono en crecimiento (UMN)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Exceso de riego o encharcamiento, sobre todo en invierno con poca luz y frío (UMN); también frío por debajo de 10-13 °C."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Encharcamiento continuado, plato con agua o maceta sin drenaje, especialmente en el semirreposo invernal."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior (sobre todo en invierno): tallos largos y sin flor (UMN, MBG). Mover a ventana sur/oeste y podar a finales de invierno."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parón normal durante la aclimatación tras entrar en casa (UMD) y en invierno; si ocurre en primavera-verano, revisar luz, temperatura (necesita 18-24 °C de día para formar botones, UMN) y abono."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sacarla de golpe al sol pleno de terraza en primavera sin aclimatar (UMN recomienda pasar por sombra filtrada antes), o sol de tarde tras cristal en ola de calor."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (UMN, UMD), muy frecuente en interior con calefacción y en verano seco de Madrid."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con infestación avanzada (UMD menciona telaraña como señal)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones (UMN, RHS, UMD); deforma brotes y puede provocar caída de botones (Costa Farms)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, muy común en hibiscos, sobre todo al entrarlos en casa (Chicago BG, RHS, UMD). Revisar el envés antes de entrarla."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (RHS, UMD)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y nervios: la plaga principal según NC State; también UMD y RHS."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de pulgón, mosca blanca o cochinillas (UMD)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla (fumagina) que crece sobre la melaza de pulgón, mosca blanca o cochinilla; tratar la plaga y limpiar las hojas."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (RHS), favorecido por poca ventilación y cambios de humedad."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Puede (y conviene) pasar el verano en terraza o balcón: sacarla cuando las noches superen de forma estable unos 15 °C (en Madrid, normalmente desde mediados-finales de mayo; UMD: fuera desde mediados de mayo), aclimatándola 1-2 semanas de sombra a sol (UMN). Sol de mañana pleno; con máximas de 35-40 °C dar sombra en las horas centrales de la tarde y evitar que la maceta se recaliente sobre suelo de baldosa o junto a pared al oeste (pérdida de botones con ≥35 °C, Costa Farms). Con HR exterior ≈38 % y calor, la maceta puede secarse en un día: comprobar sustrato y peso a diario y regar a fondo; la sequía es la primera causa de caída de botones. Vigilar araña roja y pulgón en verano seco. Dentro de casa en verano: ventana sur u oeste, pero si el cristal quema las hojas en las tardes de julio, apartarla 1 m o filtrar con visillo.",
+    "invierno": "Debe entrar antes del frío: en Madrid, a finales de septiembre o primeros de octubre, cuando las mínimas empiecen a bajar de 12-15 °C (UMD: antes de que las noches bajen a 10-13 °C) y siempre antes de cualquier helada. Antes de entrarla, revisar envés, axilas y tallos (mosca blanca, araña roja, cochinillas) y podar solo si no cabe (UMD, Chicago BG). Dentro, la ventana más luminosa (sur o suroeste), a 15-24 °C, lejos de radiadores y corrientes de la puerta (UMN) y sin tocar el cristal frío por la noche. Con calefacción la HR interior baja de 30 %: humidificador o agrupar plantas (no pulverizar), porque el aire seco dispara la araña roja. Esperar caída de hojas al entrar; regar menos y no abonar hasta los brotes de febrero-marzo, cuando toca la poda fuerte.",
+    "ubicacion_recomendada": "Interior (octubre-mayo): junto a ventana sur u oeste con 4-5 h de sol directo, sin corrientes ni radiador cerca. Exterior (finales de mayo-finales de septiembre): terraza o balcón soleado y resguardado del viento (RHS: lugar abrigado, orientación sur u oeste), con sombra ligera en las tardes de calor extremo."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta el nombre como Hibiscus × rosa-sinensis L. (notación de híbrido nototaxon); RHS también usa Hibiscus × rosa-sinensis. Se mantiene 'Hibiscus rosa-sinensis' (sin autor) por la lista maestra. Muchos 'hibiscos tropicales' de vivero son híbridos complejos con otras especies (MBG).",
+    "Toxicidad: ASPCA no tiene ficha de H. rosa-sinensis (sus fichas 'Hibiscus'/'Rose of China'/'Rose of Sharon' son de H. syriacus, no tóxico) y no se encontró otra fuente prioritaria a nivel de especie (NC State solo indica flores comestibles; RHS no da aviso). Se deja 'desconocida' para perros, gatos y niños. Las páginas de IVIS (guía veterinaria) y Smithsonian Gardens no se pudieron abrir (bloqueo/403) y no se citan.",
+    "Humedad: ninguna fuente prioritaria da porcentajes (MBG 'alta', RHS 'moderada'); min_pct e ideal_pct en null.",
+    "Temperatura máxima: solo fuente complementaria (Costa Farms: pérdida de botones con ≥35 °C en algunas variedades, ~37,5 °C sostenidos en otra página); max_c 35 orientativo.",
+    "Frecuencia de trasplante y pH numérico sin cifra de fuente prioritaria (RHS solo dice ácido a neutro).",
+    "La lista de síntomas no tiene un id específico para 'caída de botones florales', el problema más típico de esta especie; se ha asociado a S12 y S08 en el texto. Se recomienda crear un síntoma 'caída de botones/flores antes de abrir'.",
+    "UF/IFAS (fact sheet HIBROSA y EDIS) no se pudo abrir (devuelve HTML o 410 Gone); no se cita."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://extension.umn.edu/house-plants/hibiscus",
+      "institucion": "University of Minnesota Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b557",
+      "institucion": "Missouri Botanical Garden (Plant Finder)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/hibiscus-rosa-sinensis/",
+      "institucion": "NC State Extension (Extension Gardener Plant Toolbox)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/8738/hibiscus-rosa-sinensis/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.umd.edu/resource/overwintering-tropical-plants",
+      "institucion": "University of Maryland Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.chicagobotanic.org/plantinfo/overwintering_tropical_hibiscus",
+      "institucion": "Chicago Botanic Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:560756-1",
+      "institucion": "Royal Botanic Gardens, Kew (Plants of the World Online)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hibiscus",
+      "institucion": "ASPCA Animal Poison Control (ficha de Hibiscus syriacus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://help.costafarms.com/en/knowledge/why-are-hibiscus-buds-falling-off",
+      "institucion": "Costa Farms (vivero)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.costafarms.com/blog/tips-for-growing-tropical-hibiscus",
+      "institucion": "Costa Farms (vivero)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

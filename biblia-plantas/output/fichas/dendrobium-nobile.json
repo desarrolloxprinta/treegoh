@@ -1,0 +1,339 @@
+{
+  "nombre_cientifico": "Dendrobium nobile",
+  "nombres_comunes": [
+    "dendrobium",
+    "dendrobium noble",
+    "dendrobium nobile"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "Nativa de Asia: Assam, Bangladesh, centro-sur y sureste de China, Himalaya oriental, Hainan, India, Laos, Myanmar, Nepal, Tailandia, Tíbet y Vietnam; introducida en Hawái (POWO, Kew). HortScience (2008) resume su área como del Himalaya al sureste asiático y buena parte del sur de China. Nombre aceptado en POWO: Dendrobium nobile Lindl. (publicado en 1830). Es la especie progenitora de los híbridos 'tipo nobile' que dominan la venta; la mayoría de las plantas de tienda son híbridos (p. ej. series Yamamoto) con el mismo cultivo (AOS, HortScience).",
+  "clima_nativo": "Monzónico subtropical de montaña: verano cálido y lluvioso, e invierno fresco, luminoso y seco. Datos orientativos de una estación de su área (Chiang Mai, Tailandia, calculados a 1070 m; fuente complementaria Baker): verano 26-28 °C de día y 19-20 °C de noche, humedad 80-83 %; invierno 25-28 °C de día y 9-10 °C de noche durante unos 3 meses, con lluvia casi nula (8 mm en enero) y humedad en torno al 60 %. Las plantas necesitan temperaturas moderadamente bajas para inducir la floración, lo que en su hábitat ocurre en otoño (HortScience 2008).",
+  "categoria": "orquidea",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas ovaladas de 5-8 cm de largo (RHS), dispuestas a lo largo de la caña, no solo en su extremo. Coriáceas, verdes. Son caducas o semicaducas: caen en otoño-invierno con el frío y la sequía, y es normal (NYBG, AOS). Rasgo clave para visión: flores de hasta 5 cm, fragantes, normalmente rosadas o lila con la punta de los tépalos más intensa y un labelo con una gran mancha granate o púrpura oscura en la garganta (RHS: 'rose-pink flowers ... with a maroon lip'); salen en grupos de 1 a 5 desde los nudos laterales a lo largo de cañas, a menudo ya sin hojas, de mediados del invierno a principios de la primavera (AOS). Los híbridos tipo nobile tienen flores blancas, amarillas, lila y sus combinaciones (AOS newsletter). Var. virginale tiene flores blancas (Kew).",
+    "nerviacion": "Paralela, de monocotiledónea, poco marcada en la hoja coriácea.",
+    "variegacion": "Hojas sin variegación. El color está en la flor (rosa-lila con labelo granate en la especie; blanco, amarillo y lila en híbridos).",
+    "tallo": "Cañas (pseudobulbos en forma de caña) erguidas, finas y segmentadas en nudos, que almacenan agua; es un dendrobium de 'caña blanda' (soft-cane) y caducifolio (NC State). Las cañas viejas sin hojas siguen floreciendo y son las que producen keikis (hijuelos con raíces aéreas) en los nudos (AOS, NMSU). Cañas arrugadas = falta de agua; base de la caña oscura y blanda = pudrición.",
+    "habito": "Epífita simpodial: forma matas de cañas que salen de un rizoma corto con raíces finas y aéreas (NC State, AOS newsletter). Crecimiento en verano y reposo marcado en invierno.",
+    "tamano_adulto_interior": "Habitualmente hasta 30 cm de alto en cultivo (RHS), con un máximo de unos 50 × 50 cm; tarda 2-5 años en alcanzar tamaño adulto (RHS). Los híbridos comerciales suelen medir 30-60 cm [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {
+        "especie": "Dendrobium tipo phalaenopsis o 'Den-Phal' (Dendrobium bigibbum y sus híbridos, sección Phalaenanthe)",
+        "rasgo_diferenciador": "Las flores salen en una vara larga y arqueada desde el extremo superior de la caña, no en grupos pegados a los nudos laterales; la planta es perenne (no pierde las hojas) y crece cálida todo el año con mínimas de 15-16 °C (AOS: 60 °F). Su cultivo es opuesto en invierno: NO se le da un reposo frío y seco largo; con frío y sequía se defolia (AOS). Si la app confunde ambos grupos, recomendará un reposo frío que daña a los Den-Phal o un invierno cálido que impide florecer a D. nobile."
+      },
+      {
+        "especie": "Dendrobium anosmum y otros Dendrobium caducifolios de la misma sección (D. parishii, D. loddigesii, D. primulinum)",
+        "rasgo_diferenciador": "Cañas colgantes o muy arqueadas (D. nobile es erguida) y flores de otra forma y color; su reposo invernal es algo más templado (noches de 13 °C, AOS grupo 2)."
+      },
+      {
+        "especie": "Phalaenopsis (orquídea mariposa)",
+        "rasgo_diferenciador": "Phalaenopsis no tiene cañas ni pseudobulbos: es una roseta de 2-6 hojas anchas y carnosas en la base, con vara floral lateral; D. nobile tiene cañas erguidas segmentadas con hojas a lo largo."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": "No hay ficha toxicológica para animales de compañía. La planta contiene dendrobina, un alcaloide sesquiterpénico que es el marcador de calidad de D. nobile como droga medicinal en China (la Farmacopea china exige ≥0,4 % en la planta medicinal) y forma el 92,6 % de su extracto alcaloideo (Frontiers in Pharmacology 2021). No hay datos de toxicidad por ingestión ocasional de la planta en perros, gatos o niños en fuentes prioritarias.",
+    "sintomas": null,
+    "notas": "ASPCA no tiene ficha de Dendrobium nobile (comprobado en su lista de plantas para gatos: solo figura Dendrobium gracilicaule, como no tóxica). La app no debe extrapolar esa ficha a D. nobile ni afirmar que es 'segura para mascotas'. Por precaución, mantenerla fuera del alcance de animales y niños que muerdan plantas, y consultar al veterinario o al Servicio de Información Toxicológica si hay ingestión.",
+    "confianza": "Baja",
+    "fuentes": [
+      "F9",
+      "F10"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 21500,
+      "lux_max": 53800,
+      "orientacion_hn": "Sur con visillo fino que filtre el sol (NYBG), o este u oeste con muchas horas de luz (NYBG, NC State recomienda oeste o sur). La luz debe seguir siendo alta también durante el reposo invernal (NYBG, AOS).",
+      "tolera_sol_directo": "Sol suave de mañana o tarde y sol de invierno, sí; sol directo de mediodía en verano tras un cristal, no: necesita sombreado parcial de primavera a otoño (RHS: semisombra en verano; Baker). Aclimatar poco a poco al aumentar la luz.",
+      "notas": "NC State da 2000-5000 fc (≈21 500-53 800 lux) en semisombra para el género Dendrobium; Baker (complementaria) da 3500-4500 fc para la especie. Es más luz que Phalaenopsis: en la escala del proyecto equivale a luz directa filtrada (>1000 fc). Sin luz suficiente no florece (NC State). Hojas verde claro, ligeramente amarillentas, indican luz correcta según cultivadores (Baker, complementaria); hojas verde oscuro y cañas largas y blandas, poca luz. RHS clasifica el emplazamiento como semisombra en verano y 'bien iluminado' de otoño a primavera: se adopta la opción conservadora de filtrar el sol fuerte de verano.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F4",
+        "F11"
+      ]
+    },
+    "riego": {
+      "criterio": "Por estado del sustrato y peso de la maceta, nunca por calendario. En crecimiento: regar a fondo cuando la corteza esté casi seca a 2-3 cm y la maceta pese claramente menos (AOS newsletter: 'cuando esté casi seca'); dejar secar parcialmente, nunca del todo mientras crece (NC State). En reposo: casi seco; solo un riego ligero si las cañas empiezan a arrugarse mucho (AOS newsletter, NYBG). Vaciar siempre el plato. El exceso de riego en reposo y la falta de agua en crecimiento pueden ser mortales (NC State).",
+      "primavera_verano": "Desde que aparecen raíces en los brotes nuevos hasta que la caña nueva forma su hoja terminal (normalmente a finales de verano u otoño), riego abundante: regar a fondo y dejar escurrir cada vez que el sustrato esté casi seco (AOS, RHS: 'water freely'). En pleno calor puede ser cada pocos días, según el secado real del sustrato.",
+      "otono_invierno": "En otoño, cuando las cañas nuevas han madurado, reducir el riego de forma progresiva (NYBG, Baker). Desde mediados de noviembre (hemisferio norte), poco o ningún riego durante 2-3 meses, solo lo justo para que las cañas no se arruguen en exceso (NYBG; AOS: 'little or no water'). No volver a regar con generosidad hasta que los botones florales estén bien formados en los nudos de la caña (NYBG); si se riega antes, los nudos tienden a dar keikis en vez de flores.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid apta (blanda, 10-47 mg/L CaCO3); la cloramina no se elimina dejando reposar el agua, pero no hace falta. Las puntas marrones se deben a sales de abono acumuladas o riego irregular, no al cloro ni al flúor: lavar el sustrato con abundante agua sin abono una vez al mes en crecimiento. Las fuentes consultadas no exigen agua de lluvia u ósmosis para esta especie.",
+      "notas": "Cañas arrugadas en reposo son tolerables si son leves; arrugas fuertes con raíces sanas = regar un poco; arrugas con raíces marrones y blandas = pudrición, no falta de agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 60,
+      "notas": "NC State: humedad alta, ≈60 % o más, con buena ventilación (dato del género). Baker (complementaria): cerca del 80 % en verano y del 60 % en invierno. Durante el reposo NYBG recomienda mantener la humedad baja, en coherencia con el invierno seco de su hábitat. RHS aconseja pulverizar dos veces al día en verano, pero pulverizar no sube la humedad ambiental de forma útil (convención del proyecto): usar humidificador o agrupar plantas en crecimiento. Siempre con aire en movimiento para evitar hongos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F11"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 25,
+      "notas": "Crecimiento (finales de primavera a verano): 18-25 °C de día y más de 10 °C de noche (RHS). Reposo invernal OBLIGATORIO para florecer: noches frescas de 10-13 °C y días por debajo de 21 °C (NYBG: noches ≈13 °C y días <21 °C; AOS: noches de 4-10 °C para el grupo de D. nobile; AOS newsletter: dejar de abonar cuando las noches bajan de 10-13 °C en otoño). La investigación (HortScience 2008, Texas A&M) muestra que la floración la induce el frío: D. nobile florece con 13-16 °C y permanece vegetativa a 18 °C (Rotor, citado en el artículo); en un híbrido tipo nobile, 3 semanas a 13 °C saturaron la necesidad de frío, y 10-15 °C dieron más flores que 18-21 °C; sin frío las plantas no florecieron y dieron brotes aéreos (keikis). Duración práctica en casa: unas 6-10 semanas de noches frescas entre noviembre y enero, junto con el riego mínimo de 2-3 meses (NYBG); el mínimo experimental (3 semanas a 13 °C) se obtuvo en cámara controlada y no debe tomarse como objetivo doméstico. Cuando los botones estén formados se puede subir la temperatura y volver a regar (NYBG, HortScience: el calor acelera la apertura). min_c = 10 °C es la opción conservadora: es la mínima nocturna de RHS (calificación H1C: mínimas de 5-10 °C) frente a los 4,4 °C (40 °F) que tolera según AOS; Baker (complementaria) cita tolerancia breve a heladas ligeras en planta seca, que la app no debe recomendar. Máxima: ninguna fuente prioritaria da un tope; en su hábitat los extremos llegan a 38 °C (Baker, complementaria) → laguna. Ideal 18-25 °C se refiere al periodo de crecimiento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F1",
+        "F2",
+        "F6",
+        "F11"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para orquídeas epífitas a base de corteza de pino o abeto (NC State, RHS, NMSU), nunca tierra universal ni turba sola (NMSU). Maceta pequeña para el tamaño de la planta: sus raíces son finas y escasas (NC State, AOS newsletter); la maceta de barro mejora la aireación y evita que la planta, alta, vuelque (NC State); se puede lastrar con piedras lisas en el fondo (AOS newsletter). También puede montarse en corcho si la humedad es alta y se riega a diario en verano (Baker, complementaria), poco práctico en Madrid.",
+      "ph": "Ácido a neutro (RHS)",
+      "drenaje": "Muy rápido; mezcla que no retenga demasiada agua y que seque bien entre riegos para evitar la pudrición radicular (NMSU, AOS newsletter).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F8",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido específico para orquídeas, diluido.",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo: desde que aparecen raíces en los brotes nuevos hasta que la caña nueva forma su hoja terminal (AOS). Pauta del proyecto: ¼-½ de la dosis de etiqueta una vez al mes, regando antes con agua sola. Las fuentes de cultivo abonan con más frecuencia (RHS: cada tercer riego; NC State: semanal a la dilución de la etiqueta; AOS: abonado abundante en crecimiento), siempre diluido.",
+      "otono_invierno": "Nada. Dejar de abonar en otoño cuando las noches bajan de 10-13 °C (AOS newsletter) y durante todo el reposo (NYBG, AOS). Reanudar solo cuando los botones florales estén bien formados (NYBG) o cuando arranque el crecimiento nuevo en primavera.",
+      "notas": "Seguir abonando o regando en otoño-invierno favorece crecimiento vegetativo y keikis en lugar de flores; la causa principal documentada de keikis en vez de flores es un invierno no lo bastante fresco (NYBG, HortScience). Baker (complementaria) cita una pauta de 10-30-20 en primavera y 0-44-0 a finales de verano para minimizar keikis; no verificada en fuente prioritaria, por eso npk = null.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F11"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando la corteza se descomponga (AOS newsletter para Dendrobium de caña; Baker, complementaria). Usar la maceta más pequeña que admita las raíces más unos 2 años de crecimiento (NC State; Baker).",
+      "epoca": "Cuando empiezan a salir raíces de los brotes nuevos, en primavera, o poco después de la floración (Baker, complementaria); nunca en pleno reposo invernal.",
+      "senales": "Corteza descompuesta, compacta o con olor a podrido; brotes nuevos que se salen del borde de la maceta; planta que vuelca por el peso de las cañas; raíces que mueren en el sustrato viejo.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F11"
+      ]
+    },
+    "poda": {
+      "necesita": "No requiere poda (RHS). No cortar las cañas viejas sin hojas: siguen floreciendo en sus nudos durante varios años y almacenan agua y reservas (AOS: las flores salen de los nudos de cañas sin hojas).",
+      "epoca": "Tras la floración, para retirar flores secas; las cañas solo se retiran cuando están completamente secas, amarillas y huecas.",
+      "como": "Retirar las flores marchitas con tijera desinfectada (RHS: cortar lo florecido según necesidad). Quitar solo cañas totalmente secas cortando en su base. Retirar las hojas que caen en otoño: es normal y no indica enfermedad (NYBG, AOS newsletter).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de octubre-noviembre (cuando las cañas del año han formado su hoja terminal y las noches bajan de 10-13 °C) hasta que se ven los botones florales en los nudos, normalmente a finales de invierno (enero-febrero). En el hemisferio sur, desplazar 6 meses (abril-mayo a julio-agosto).",
+      "cambios": "Reposo fresco, luminoso y seco, imprescindible para florecer (AOS, AOS newsletter, NYBG): 1) luz alta, sin sombrear; 2) noches de 10-13 °C y días por debajo de 21 °C durante varias semanas (NYBG; HortScience 2008 muestra que a 18 °C constantes la planta sigue vegetativa); 3) riego mínimo durante 2-3 meses desde mediados de noviembre, solo para evitar que las cañas se arruguen mucho (NYBG); 4) nada de abono (AOS, NYBG); 5) humedad ambiental baja (NYBG); 6) las hojas pueden caer: es normal (NYBG). Cuando los botones están bien formados, subir algo la temperatura y reanudar el riego gradualmente (NYBG). Si la planta da keikis en lugar de flores, el invierno no fue lo bastante fresco o se regó o abonó demasiado pronto (NYBG, HortScience).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F6",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata",
+        "keikis (hijuelos de las cañas)",
+        "esquejes de caña [complementaria]"
+      ],
+      "epoca": "Primavera, al iniciarse el crecimiento nuevo o tras la floración.",
+      "pasos": "División (RHS: cuando la planta desborda la maceta): sacar la planta, retirar la corteza vieja y cortar el rizoma con herramienta desinfectada en grupos de al menos 3-4 cañas [orientativo, sin fuente prioritaria]; plantar cada grupo en maceta pequeña con corteza. Keikis (NMSU): separarlos cuando sus raíces empiezan a crecer, antes de que sean largas y se rompan al trasplantar; plantarlos con sus raíces en corteza fina para plántulas, en sitio húmedo y luminoso, dejando secar bien entre riegos. Esquejes de caña (Baker, complementaria): trozos de caña vieja de 20-25 cm tumbados sobre esfagno húmedo pueden dar keikis que se plantan cuando enraízan.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F8",
+        "F11"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de hojas en otoño-invierno: normal en esta orquídea caducifolia durante el reposo (NYBG, AOS newsletter); no regar ni abonar más por ello. Si ocurre en verano con sustrato encharcado, sospechar pudrición radicular."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Cañas y hojas arrugadas: deshidratación por falta de riego en crecimiento o reposo demasiado seco; o raíces podridas que no absorben agua (comprobar las raíces antes de regar)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Riego abundante durante el reposo invernal o corteza vieja descompuesta: el exceso de agua en reposo puede ser mortal (NC State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base de las cañas blanda y oscura por agua retenida en sustrato compacto o maceta demasiado grande."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en nudos, axilas y bajo las vainas de las cañas: su plaga más citada (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y caliente (RHS la cita como plaga), muy probable en Madrid en verano y con calefacción."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado del haz por araña roja (RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones florales (RHS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de mediodía en verano tras el cristal o paso brusco de sombra a sol: hojas blanqueadas o con quemaduras."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en hojas por sol fuerte de ventana sur u oeste en verano sin visillo."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por sales de abono acumuladas o riego irregular en crecimiento, y por aire muy seco; no por el agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Cañas largas, finas y blandas y ausencia de flores por falta de luz: esta especie necesita mucha más luz que Phalaenopsis (NC State)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Falta de crecimiento nuevo en primavera-verano por falta de luz o de abono en crecimiento. No confundir con el reposo invernal, que es normal y necesario."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, retirar de la ventana sur u oeste a mediodía o poner visillo; no pegarla al cristal. RHS indica que puede pasar el verano en el exterior (calificación H1C): en Madrid, solo en semisombra luminosa (balcón o terraza a este o bajo árbol) a partir de que las mínimas superen los 10 °C, protegida del sol de mediodía y de la tarde, aclimatándola poco a poco. Con HR exterior en torno al 38 % y sustrato de corteza, el sustrato seca muy rápido: comprobar a diario con el dedo y el peso de la maceta y regar a fondo cuando esté casi seco. Aumentar humedad con humidificador o agrupando plantas (pulverizar no sirve) y vigilar la araña roja.",
+    "invierno": "El punto crítico en Madrid: una casa con calefacción a 20-22 °C día y noche impide la floración (a 18 °C constantes la planta sigue vegetativa y tiende a dar keikis; HortScience 2008, NYBG). Opciones: dejarla fuera en otoño en un sitio resguardado hasta que las mínimas bajen a unos 10 °C [orientativo, sin fuente prioritaria: en Madrid suele ocurrir entre finales de octubre y noviembre], y luego pasarla a una habitación sin calefacción, galería, terraza acristalada o junto a una ventana luminosa que se mantenga por la noche entre 10 y 13 °C, sin bajar de 10 °C, y por debajo de 21 °C de día. Alejada de radiadores y de corrientes calientes. Riego mínimo de 2-3 meses y nada de abono. La humedad interior por debajo del 30 % no es un problema durante el reposo (NYBG pide humedad baja), pero si las cañas se arrugan mucho, dar un riego ligero por la mañana. Si las hojas tocan un cristal helado, separarla unos centímetros.",
+    "ubicacion_recomendada": "Ventana sur con visillo, o este/oeste muy luminosa, en una estancia que en invierno pueda quedarse fresca por la noche (10-13 °C): dormitorio sin calefacción, galería o terraza acristalada. Evitar salones con calefacción en invierno y cristales sin filtrar al sol de verano."
+  },
+  "lagunas": [
+    "Nombre aceptado en POWO (Kew): Dendrobium nobile Lindl., 1830. No se pudo abrir la lista de sinónimos de POWO (bloqueo de Cloudflare a la API); se usó la página de taxonomía vía proxy, que confirma el nombre como aceptado.",
+    "Toxicidad para perros, gatos y niños: ASPCA no tiene ficha de D. nobile (solo de D. gracilicaule, no tóxica). No se encontró ninguna otra fuente prioritaria con datos de toxicidad para mascotas o niños; la planta contiene el alcaloide dendrobina (Frontiers in Pharmacology 2021) pero sin datos de riesgo por ingestión ocasional. Se deja 'desconocida'.",
+    "Temperatura máxima tolerada: ninguna fuente prioritaria da un tope; solo Baker (complementaria) cita extremos de 38 °C en el hábitat.",
+    "Humedad mínima tolerada (min_pct): no hay cifra en fuente prioritaria; NC State solo da el ideal del género (≥60 %).",
+    "Luz en lux: la cifra prioritaria (2000-5000 fc) es de NC State para el género Dendrobium, no específica de D. nobile; Baker (complementaria) da 3500-4500 fc para la especie.",
+    "Duración óptima del frío en casa: el dato de 3 semanas a 13 °C procede de un híbrido tipo nobile (Dendrobium Sea Mary 'Snow King') en cámara controlada (HortScience 2008); no hay ensayo equivalente con la especie pura en condiciones domésticas.",
+    "La ficha de cultivo de la AOS se consultó en copias alojadas por terceros (cdn.shopify.com y la St. Augustine Orchid Society), porque las páginas de aos.org daban 404; el texto lleva la autoría de la American Orchid Society.",
+    "No se pudo verificar en fuente prioritaria que el riego o el abonado durante el reposo, por sí solos, provoquen keikis; las fuentes prioritarias atribuyen los keikis a un frío invernal insuficiente (NYBG, HortScience).",
+    "Plagas como cochinilla de escudo y enfermedades fúngicas o bacterianas concretas de D. nobile: RHS la da como 'generalmente libre de enfermedades' y NC State dice que tiene pocas; no se documentan enfermedades específicas."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://cdn.shopify.com/s/files/1/0265/7609/files/Dendrobe.pdf",
+      "institucion": "American Orchid Society (AOS), ficha de cultivo 'Dendrobium' (copia del PDF oficial alojada por un vivero)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://staugorchidsociety.org/PDF/AOS-BNL21.pdf",
+      "institucion": "American Orchid Society, AOS Beginners Newsletter (Greg Allikas, julio 2011), copia de la St. Augustine Orchid Society",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://libanswers.nybg.org/faq/381641",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/5542/wd/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://plants.ces.ncsu.edu/plants/dendrobium/common-name/orchid",
+      "institucion": "NC State Extension, Gardener Plant Toolbox (género Dendrobium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://journals.ashs.org/view/journals/hortsci/43/6/article-p1765.xml",
+      "institucion": "HortScience 43(6):1765 (2008), American Society for Horticultural Science; 'Effects of Cooling Temperature and Duration on Flowering of the Nobile Dendrobium Orchid', Texas A&M University",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:628105-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://swyg.nmsu.edu/1996/111196.html",
+      "institucion": "New Mexico State University Extension, Southwest Yard & Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center (lista de plantas; sin ficha de D. nobile)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096351",
+      "institucion": "Frontiers in Pharmacology 12:605994 (2021), 'Identification, Biological Activities and Biosynthetic Pathway of Dendrobium Alkaloids'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://orchidculture.com/COD/FREE/Den_Art.html",
+      "institucion": "Charles y Margaret Baker, Orchid Species Culture (ficha de cultivo de Dendrobium nobile)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

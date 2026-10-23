@@ -1,0 +1,364 @@
+{
+  "nombre_cientifico": "Aeonium arboreum",
+  "nombres_comunes": [
+    "eonio",
+    "rosa negra",
+    "aeonio arbóreo",
+    "bejeque arbóreo"
+  ],
+  "familia": "Crassulaceae",
+  "origen": "Islas Canarias: RHS da como área natural Gran Canaria (F1); Botanic Gardens of South Australia y UW Botanic Gardens, Islas Canarias (F10, F9). Nombre aceptado en GBIF: Aeonium arboreum (L.) Webb & Berthel. (sinónimo heterotípico: Aeonium korneliuslemsii J.H.Liu). Naturalizada en la costa de California (UC ANR Sonoma, F5). 'Zwartkop' ('rosa negra') es un cultivar de hojas casi negras que RHS registra como Aeonium 'Zwartkop' (F11).",
+  "clima_nativo": "Macaronésico subtropical suave y seco, sin heladas, con lluvias en la estación fresca y verano seco. El género vive en climas suaves y secos y es rústico en zonas USDA 9-11 (NC State, F4). Es una 'cultivadora de invierno': crece en otoño y primavera, frena en invierno y entra en reposo en verano, de mayo a agosto (UC ANR Orange County, F6; UC ANR Solano, F8).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas carnosas, cerosas y brillantes, en forma de espátula o cuchara, con margen entero y una punta corta y aguda. Se agrupan en rosetas planas al final de cada rama (NC State F4; RHS F1; UC ANR Sonoma F5). La especie tiene las hojas verde manzana brillante, a veces con tonos cobrizos (RHS F2, NC State F4). En reposo de verano las rosetas se cierran en una 'bola' o copa y pierden hojas viejas: es normal, no un síntoma (UC ANR Solano F8).",
+    "nerviacion": "No visible: hoja suculenta gruesa sin nervios marcados.",
+    "variegacion": "La especie es verde. Cultivares: 'Atropurpureum', púrpura con el centro verde lima y borde rojo (RHS F2); 'Zwartkop' ('rosa negra'), hojas burdeos oscuro casi negras con el centro algo verde, que se oscurecen más al sol pleno (RHS F2, NC State F4); 'Variegatum', verde y crema, con las puntas rosadas al sol (RHS F2). Con poca luz los cultivares oscuros se vuelven verdosos (UC ANR Sonoma F5: color más intenso a pleno sol).",
+    "tallo": "Tallos erguidos, gruesos, semileñosos y poco ramificados, desnudos por debajo, con las cicatrices de las hojas caídas y una roseta en la punta de cada rama (RHS F1; UC ANR Sonoma F5; NC State F4). Pueden curvarse con el peso.",
+    "habito": "Subarbusto suculento, perenne, con forma de arbolito poco ramificado (RHS F1). Las rosetas son monocárpicas: la que florece da un racimo cónico grande de flores estrelladas amarillas (finales de invierno-primavera) y después muere esa rama. Las ramas que no florecen siguen vivas (UC ANR Sonoma F5; NC State F4; UC ANR Marin F7).",
+    "tamano_adulto_interior": "En maceta, unos 45-60 cm de alto ('Atropurpureum' en contenedor, UW Botanic Gardens F9). En el exterior, hasta 1-1,5 m de alto y de ancho (RHS F1, F2) y 90 cm de alto por 0,9-1,5 m de ancho en California, más pequeña en maceta (UC ANR Sonoma F5).",
+    "confusiones": [
+      {
+        "especie": "Aeonium canariense",
+        "rasgo_diferenciador": "Tallo muy corto o casi nulo y rosetas más grandes, con las hojas cubiertas de pelillos cortos y suaves (tacto aterciopelado) (UC ANR Sonoma F5; NC State F4). A. arboreum tiene tallos largos y hojas lisas y brillantes."
+      },
+      {
+        "especie": "Aeonium haworthii",
+        "rasgo_diferenciador": "Mata más baja (hasta 60 cm) de rosetas pequeñas, verde gris o verde azulado con el borde rojizo (NC State F4). A. arboreum tiene rosetas mayores, verde brillante, sobre pocos tallos altos."
+      },
+      {
+        "especie": "Aeonium 'Cyclops' y otros híbridos oscuros",
+        "rasgo_diferenciador": "Híbrido de A. arboreum, igual de alto y ramificado pero con rosetas mayores, rojo bronce, con un centro verde que parece un 'ojo' (UC ANR Sonoma F5). Se cuida igual."
+      },
+      {
+        "especie": "Echeveria (p. ej. Echeveria elegans) y Sempervivum",
+        "rasgo_diferenciador": "Forman rosetas a ras del sustrato, sin tallo alto y leñoso. A. arboreum lleva cada roseta en la punta de un tallo erguido (NC State F4)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se ha encontrado ninguna fuente prioritaria. ASPCA no tiene ficha del género Aeonium en sus listas de perros y gatos (F12), y Pet Poison Helpline no da resultados (F13). Una fuente complementaria (Debra Lee Baldwin, F14) incluye Aeonium entre las suculentas no tóxicas para mascotas, pero no se ha podido comprobar en una fuente prioritaria. Por prudencia: evitar que niños y animales la mastiquen. Ante una ingestión o síntomas, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F12",
+      "F13",
+      "F14"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Sur u oeste (RHS F1, F11), o la ventana más luminosa de la casa (RHS F3). En verano, mejor sol de mañana y sombra por la tarde (UC ANR Marin F7; UC ANR Orange County F6). Norte: luz insuficiente.",
+      "tolera_sol_directo": "Sí, con aclimatación. RHS indica sol pleno (F1); NC State, sol pleno o sombra parcial (F4). Hay que pasarla al sol exterior poco a poco para que no se queme (UC ANR Marin F7; NC State F4). El exceso de sol quema la hoja (NC State F4), y con calor de verano conviene sombra filtrada (UC ANR Orange County F6).",
+      "notas": "Por la escala del proyecto, lo ideal es luz directa (>10.760 lux, >1000 fc) y el mínimo útil, luz brillante indirecta alta (≈5.380 lux, 500 fc). Con poca luz los tallos se alargan y se doblan, las hojas palidecen y apuntan hacia abajo (etiolación, UC ANR Solano F8), y 'Zwartkop' pierde el color negro (UC ANR Sonoma F5). En el reposo invernal en interior, toda la luz posible (UW Botanic Gardens F9). lux_max = null: ninguna fuente fija un techo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F7",
+        "F6",
+        "F8",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a unos 5 cm de profundidad (comprobar con el dedo) y la maceta pese poco. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato. Nunca por calendario: el exceso de riego pudre las raíces (NC State F4) y es la causa nº 1 de muerte. Guiarse también por la planta: roseta abierta y creciendo = puede beber; roseta cerrada y quieta = está en reposo y hay que regar muy poco.",
+      "primavera_verano": "Primavera (marzo-mayo, crecimiento): riego moderado, dejando secar el sustrato entre riegos (RHS F1; UC ANR Marin F7). Verano (reposo, aprox. de mayo-junio a agosto-septiembre): las rosetas se cierran y la planta casi no gasta agua. RHS no riega las plantas en reposo para evitar la podredumbre (F1, F2); UC ANR Orange County dice que un poco de agua ayuda a que no se arrugue demasiado (F6). Se adopta lo prudente: solo un riego pequeño, con el sustrato totalmente seco, cuando las hojas se vean muy arrugadas, en las horas frescas.",
+      "otono_invierno": "Otoño (septiembre-noviembre) es su gran época de crecimiento: al reabrirse las rosetas, volver al riego moderado, cada vez que el sustrato se seque (RHS F2 regaba con frecuencia en el crecimiento de otoño, en macetas de barro). Invierno: crece más despacio (UC ANR Orange County F6). En una habitación fresca (8-12 °C), regar poco, lo justo para que no se arrugue (NC State F4; RHS F3). Con calefacción el sustrato se seca antes: comprobar sustrato y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "No necesita agua especial. El agua del grifo de Madrid (blanda, con cloramina y flúor <0,1 mg/L) sirve tal cual; dejarla reposar no quita la cloramina, pero no hace falta. RHS prefiere agua de lluvia templada porque las sales del agua dura se acumulan (F3), algo poco relevante con el agua blanda de Madrid. Regar al sustrato, sin encharcar el centro de la roseta.",
+      "notas": "Contradicción en el verano: RHS (F1, F2) no riega en reposo, mientras que UC ANR Orange County (F6) dice dar algo de agua en verano. Se adopta lo más conservador: casi nada de agua en reposo, solo un poco si la roseta se arruga mucho. Es planta de 'crecimiento en invierno' (UC ANR Orange County F6, Solano F8): no regarla como una suculenta de verano.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente da porcentajes para la especie. Las suculentas toleran bien el aire seco de las casas con calefacción (RHS F3), y conviene una humedad baja en el reposo para evitar hongos (UC ANR Orange County F6). No necesita humidificador. No pulverizar: no sube la humedad de forma útil y el agua en la roseta favorece la podredumbre.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": null,
+      "ideal_min_c": 10,
+      "ideal_max_c": 27,
+      "notas": "Mínima: RHS la califica H1C (mínimas de 5 a 10 °C; puede estar fuera en verano y debe pasar el invierno resguardada) (F1, F11). En su ensayo, RHS mantuvo casi todos los Aeonium en invierno a 6 °C estables, y los más sensibles a 10 °C (F2). NC State: meterla en casa antes de que las noches bajen de 4,4 °C (40 °F) (F4). Contradicción: Botanic Gardens of South Australia dice que tolera heladas moderadas (F10). Se adopta lo prudente: nunca por debajo de 5 °C ni con heladas; en invierno lo ideal es 8-10 °C de noche (RHS F3). Ideal: 16-27 °C (60-80 °F) en crecimiento según UC ANR Orange County (F6), dato general de suculentas, y 10 °C como mínimo de confort. No hay máxima verificada: con calor fuerte entra en reposo (UC ANR Orange County F6) y el sol la puede quemar (NC State F4).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6",
+        "F10",
+        "F11"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas (NC State F4; UC ANR Marin F7), o sustrato con base de tierra franca (tipo John Innes) sin turba, con grava o arena gruesa añadida (RHS F1): por volumen, hasta un 30 % de grava, o 2 partes de sustrato por 1 de grava (RHS F3). Otra opción: sustrato universal con perlita, vermiculita o grava (UC ANR Marin F7). Acabado con una capa de grava fina (RHS F3).",
+      "ph": "Ácido a neutro (<6,0 a 8,0) según NC State (F4); RHS lo da como indiferente (ácido, neutro o alcalino) (F1).",
+      "drenaje": "Imprescindible: sustrato muy drenante y maceta con agujero (RHS F1, F3; UC ANR Marin F7). La maceta de barro ayuda a que se seque antes (RHS F2 usó barro). No usar una maceta demasiado grande: el sustrato sobrante se queda húmedo y pudre la planta (RHS F3). Con ejemplares altos, una maceta pesada evita que vuelquen.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (RHS F1), o abono líquido para cactus (RHS F3).",
+      "npk": null,
+      "primavera_verano": "Primavera (crecimiento): ¼-½ de la dosis de la etiqueta, como mucho una vez al mes. Verano: nada, está en reposo (UC ANR Orange County F6).",
+      "otono_invierno": "Otoño (crecimiento): ¼-½ de la dosis, como mucho una vez al mes (RHS F2 abonaba cada 6 semanas en el crecimiento de otoño). Invierno: nada si está fresca y casi parada; si crece en una habitación templada y luminosa, como mucho un abonado suave al final del invierno [orientativo, sin fuente prioritaria].",
+      "notas": "RHS recomienda solo 2 o 3 abonados por temporada de crecimiento (F1, F11). Se adopta lo prudente: dosis reducida y pocas veces. Nunca abonar en reposo (UC ANR Orange County F6). El abono no corrige los tallos estirados: eso es falta de luz (UC ANR Solano F8).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F6",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces llenan la maceta o la planta se ha quedado grande; con suculentas suele ser al cabo de varios años (RHS F3). Cada 2-3 años [orientativo, sin fuente prioritaria].",
+      "epoca": "RHS lo recomienda en primavera para las suculentas (F3). En Aeonium también vale el inicio del otoño, al empezar a crecer de nuevo [orientativo, sin fuente prioritaria]. Nunca en pleno reposo de verano.",
+      "senales": "Raíces que salen por el drenaje o llenan el cepellón, planta pesada que vuelca o sustrato muy degradado. Pasar a una maceta solo un poco mayor (RHS F3). Tras el trasplante, esperar unos días antes de regar.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda regular (RHS F1, F11). Solo para rejuvenecer plantas estiradas y para quitar ramas que han florecido.",
+      "epoca": "Al inicio del periodo de crecimiento: otoño o final del invierno-primavera. No en pleno reposo de verano.",
+      "como": "Plantas con tallos largos y desnudos: cortar las rosetas con un trozo de tallo, dejarlas secar hasta que cicatrice la base y replantarlas (UC ANR Sonoma F5; UC ANR Solano F8). La rama que ha florecido muere (la roseta es monocárpica): cortarla hasta el tejido sano cuando se seque (UC ANR Sonoma F5; NC State F4). Usar herramienta limpia y afilada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F8",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Verano. En el hemisferio norte, aprox. de mayo a agosto, y hasta septiembre-octubre según el clima (UC ANR Orange County F6). En el hemisferio sur, aprox. de noviembre a febrero. En invierno además frena el crecimiento (F6).",
+      "cambios": "Las rosetas se cierran y encogen, caen hojas viejas y la planta deja de crecer: es normal, no un síntoma (UC ANR Solano F8). Regar muy poco o nada (RHS F1, F2) y no abonar (UC ANR Orange County F6). Protegerla del sol más fuerte de la tarde. Al refrescar en otoño, las rosetas se reabren: volver al riego moderado. Algunos ejemplares pueden reposar en otra época; manda lo que haga la planta, no la fecha [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F8",
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de roseta (descabezado)",
+        "semillas"
+      ],
+      "epoca": "Durante el crecimiento: otoño o primavera (UC ANR Orange County F6, suculentas en general). Las semillas, en primavera (RHS F1). Evitar el reposo de verano.",
+      "pasos": "Esqueje: 1) cortar una roseta con unos 15 cm de tallo (UC ANR Marin F7); 2) dejarla secar un par de días a la sombra hasta que la herida cicatrice (F7); 3) clavar el tallo unos 5 cm en sustrato para cactus o universal con perlita (F7); 4) mantener a unos 18 °C con el sustrato apenas húmedo hasta que enraíce (RHS F1); 5) luz brillante sin sol fuerte hasta que crezca. Semilla: sembrar en primavera a 19-24 °C (RHS F1).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de la base del tallo por exceso de riego, sobre todo regando en el reposo de verano o en invierno con frío (RHS F2; NC State F4)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por riego excesivo, sustrato poco drenante o maceta demasiado grande (NC State F4; RHS F3)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior: tallos largos y torcidos, rosetas abiertas y pálidas. Se corrige con más luz y descabezando la roseta (UC ANR Solano F8)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol fuerte sin aclimatar, al sacarla a la terraza o tras un cristal sur u oeste en verano (NC State F4; UC ANR Marin F7)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "En verano es normal que las rosetas se cierren y se arruguen un poco (reposo, UC ANR Solano F8). Solo es un problema si se arrugan mucho en otoño-primavera con el sustrato seco: falta de riego."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento en verano por el reposo: normal (UC ANR Orange County F6). Si no crece en otoño-primavera, revisar luz y raíces."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Las hojas viejas de fuera de la roseta amarillean y se secan, sobre todo al entrar en reposo: es normal si el centro está firme (RHS F2 lo observa en 'Variegatum'). Si el tallo se ablanda, sospechar pudrición."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las hojas de la roseta y en el tallo (RHS F1; NC State F4)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y en los tallos florales (RHS F1, F2; NC State F4)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y calor (NC State F4)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y hojas (NC State F4)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, A. arboreum entra en reposo: las rosetas se cierran, se encogen y pierden hojas viejas. Es normal, no regarla más por eso (UC ANR Solano F8). Regar muy poco: solo un riego pequeño con el sustrato totalmente seco si las hojas se arrugan mucho, a primera hora (RHS F1; UC ANR Orange County F6). Detrás de una ventana sur u oeste, el cristal concentra calor y quema la hoja (NC State F4): poner una cortina fina o apartarla del cristal en las horas centrales. En terraza, sitio con sol de mañana y sombra por la tarde (UC ANR Marin F7) y aclimatarla poco a poco. No abonar. El aire seco no le afecta: no pulverizar.",
+    "invierno": "Es su época de crecimiento junto con otoño y primavera, pero no tolera heladas: RHS la califica H1C (F1) y NC State aconseja meterla antes de que las noches bajen de 4,4 °C (F4). En Madrid hay noches de helada en invierno, así que hay que meterla en casa cuando las mínimas previstas bajen de 5 °C (normalmente desde noviembre). El mejor sitio es una habitación luminosa y fresca (8-12 °C de noche, RHS F3), junto a la ventana más soleada, sin que las hojas toquen el cristal frío y lejos de radiadores. La calefacción y una humedad interior inferior al 30 % no le hacen daño (RHS F3). Con calefacción el sustrato se seca antes: regar cuando esté seco, sin encharcar.",
+    "ubicacion_recomendada": "Terraza o balcón soleado de marzo a mayo y de septiembre a noviembre, con sombra por la tarde en pleno verano y a resguardo de la lluvia persistente. Dentro de casa en invierno, junto a una ventana sur, oeste o este muy luminosa. Si vive siempre dentro, pegada a la ventana más soleada: lejos de la luz se estira y 'Zwartkop' pierde el color negro."
+  },
+  "lagunas": [
+    "POWO (Kew) no se pudo consultar (bloqueo Cloudflare). Nombre comprobado en GBIF: Aeonium arboreum (L.) Webb & Berthel., aceptado; sinónimo heterotípico Aeonium korneliuslemsii J.H.Liu. No hay cambio de nombre.",
+    "Toxicidad: ni ASPCA ni Pet Poison Helpline tienen ficha de Aeonium; ninguna fuente prioritaria indica toxicidad o no toxicidad para perros, gatos o niños. Solo una fuente complementaria dice que no es tóxica. Se deja 'desconocida'.",
+    "Rusticidad sin consenso: RHS H1C (mínimas de 5-10 °C) y NC State (meterla por debajo de 4,4 °C) frente a Botanic Gardens of South Australia ('tolera heladas moderadas'). Falta una cifra verificada de temperatura mínima para una terraza de Madrid.",
+    "No hay temperatura máxima verificada para la especie (max_c en null). El rango ideal de 16-27 °C es un dato general de suculentas (UC ANR Orange County).",
+    "Ninguna fuente prioritaria da valores en lux o fc para la especie; lux_min se deriva de la escala del proyecto.",
+    "No hay humedad ideal ni intervalo de trasplante verificados para la especie.",
+    "Las fechas del reposo de verano son generales para las suculentas que crecen en invierno (UC ANR); no hay datos concretos para Madrid ni para el cultivo en interior.",
+    "Situación taxonómica de 'Zwartkop': RHS lo registra como Aeonium 'Zwartkop', sin asignarlo a una especie; NC State, UC ANR Solano y la mayor parte del comercio lo tratan como cultivar de A. arboreum."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/498/aeonium-arboreum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Aeonium arboreum (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/trials-awards/plant-trial-results/aeonium",
+      "institucion": "Royal Horticultural Society (RHS) – Aeonium trial 2022-2024, resultados y cultivo",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow houseplant cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/aeonium/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, Aeonium (género, incluye A. arboreum y 'Zwartkop')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://ucanr.edu/site/mg-sonoma/succulents",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR) – UC Master Gardeners of Sonoma County, Succulents (Aeonium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ucanr.edu/site/uc-master-gardeners-orange-county/succulents-orange-county",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR) – UC Master Gardeners of Orange County, Succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://ucanr.edu/site/uc-marin-master-gardeners/article/aeonium",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR) – UC Marin Master Gardeners, Aeonium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ucanr.edu/sites/default/files/2019-10/Seeds_for_Thought82090.pdf",
+      "institucion": "University of California Cooperative Extension – Solano County Master Gardeners, Seeds for Thought (otoño 2019): Why Aeoniums plump up in the winter",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://botanicgardens.uw.edu/?p=7475",
+      "institucion": "University of Washington Botanic Gardens – Plant Profile: Aeonium arboreum var. atropurpureum (agosto 2014)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://plantselector.botanicgardens.sa.gov.au/Plants/Details/814",
+      "institucion": "Botanic Gardens and State Herbarium of South Australia – Plant Selector, Aeonium arboreum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.rhs.org.uk/plants/26342/i-aeonium-i-zwartkop/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Aeonium 'Zwartkop' (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (listas de perros y gatos; sin ficha de Aeonium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://www.petpoisonhelpline.com/?s=aeonium",
+      "institucion": "Pet Poison Helpline – búsqueda 'aeonium' (sin resultados)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://debraleebaldwin.com/succulent-plants/succulents-toxic-to-pets/",
+      "institucion": "Debra Lee Baldwin (divulgadora especializada en suculentas) – Succulents toxic to pets",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://api.gbif.org/v1/species/match?name=Aeonium%20arboreum",
+      "institucion": "GBIF Backbone Taxonomy (estado del nombre y sinónimos)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

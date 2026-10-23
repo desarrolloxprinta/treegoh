@@ -1,0 +1,327 @@
+{
+  "nombre_cientifico": "Amydrium medium",
+  "nombres_comunes": [
+    "amydrium",
+    "monstera plateada",
+    "amydrium 'Silver'",
+    "sakat gajah"
+  ],
+  "familia": "Araceae",
+  "origen": "Sur de Indochina a Malesia. POWO (Kew) la da como nativa de Borneo, Camboya, Java, Península Malaya, Molucas, Myanmar, Filipinas, Sumatra y Tailandia, e introducida en Taiwán; NParks la cita también en Singapur (en peligro a escala local). Nombre aceptado: Amydrium medium (Zoll. & Moritzi) Nicolson; descrita originalmente como Scindapsus medius Zoll. & Moritzi (1854).",
+  "clima_nativo": "Tropical húmedo, sin heladas. Liana hemiepífita de bosque perennifolio húmedo a muy húmedo, primario o alterado, de baja a media altitud, sobre sustratos variados (CATE Araceae vía POWO). Trepa por troncos y rocas sujetándose con raíces adhesivas (Flora of China, para el género).",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Muy dimórficas entre fase juvenil y adulta, y en la misma planta pueden coexistir ambos tipos (NParks). Juveniles: ovadas, de lámina entera o recortada, a menudo con perforaciones (NParks); pequeñas, oblongas y sin lóbulos en planta joven de vivero (Folia Collective). Adultas: verde a verde oscuro, profundamente pinnatífidas, con perforaciones redondas u ovaladas junto al nervio central (NParks, CATE Araceae). Para el género, la lámina puede ser ovado-cordada, pandurado-trilobulada o pinnatisecta, con o sin perforaciones cerca del nervio medio, y el pecíolo es largo, geniculado en el ápice, con pulvínulo marcado y vaina que no llega a la mitad del pecíolo (POWO/CATE, Flora of China). En el cultivar 'Silver' (el que se vende como 'monstera plateada'), la hoja nueva sale verde muy pálido, casi neón, y madura a gris plateado azulado (Folia Collective); con poca luz se ve más verde (Foliage Factory). Las hojas divididas y perforadas solo aparecen cuando la planta trepa por un tutor y recibe luz brillante (Folia Collective, Foliage Factory).",
+    "nerviacion": "Nervios laterales primarios pinnados que desembocan en un nervio marginal, con la venación fina completamente reticulada (en red). Esta reticulación, muy visible en la hoja adulta, es diagnóstica: CATE Araceae la señala como rasgo poco común entre los géneros de Monsteroideae (POWO, género y especie).",
+    "variegacion": "La especie silvestre es verde a verde oscuro, y las hojas juveniles pueden ser verde grisáceo (NParks). En cultivo se venden formas seleccionadas: 'Silver' (gris plateado azulado), 'Spiderman' (dibujo en red) y formas variegadas como 'Albo Variegata' (citadas en fuentes comerciales, sin fuente prioritaria). La coloración plateada no es variegación: es un tono uniforme de la lámina.",
+    "tallo": "Delgado y trepador, con raíces adhesivas en los nudos (NParks, Flora of China). En el género es frecuente que emita tallos largos tipo látigo (flagelos) con hojas reducidas a catáfilos (POWO/CATE). Sin látex (Flora of China). En interior sin tutor forma tallos largos y desnudos (Sprout Home).",
+    "habito": "Liana hemiepífita perennifolia que trepa por troncos (CATE, NParks). En maceta necesita tutor de musgo o tabla para madurar; sin soporte cuelga o se extiende con hojas juveniles pequeñas (Folia Collective, Foliage Factory). Inflorescencia (rara en interior): espádice erecto de 3-6 × 1,5 cm con espata blanca de unos 5 cm que se abre hacia atrás y cae pronto; frutos maduros que parecen bayas blancas de ápice abombado (NParks, CATE).",
+    "tamano_adulto_interior": "Unos 2 m de alto con tutor y 0,5 m de ancho (Foliage Factory, complementaria). En la naturaleza es una liana que trepa por los troncos; no se ha encontrado en fuentes prioritarias una medida en cultivo.",
+    "confusiones": [
+      {
+        "especie": "Rhaphidophora tetrasperma y Rhaphidophora korthalsii",
+        "rasgo_diferenciador": "Las juveniles de A. medium pueden confundirse con estas dos especies, sobre todo donde conviven. Ambas Rhaphidophora tienen una fase juvenil 'shingling' (hojas aplastadas contra el soporte y solapadas como tejas), mientras que A. medium tiene las hojas juveniles separadas del soporte (CATE Araceae vía POWO). En adulta, R. tetrasperma tiene hojas partidas en segmentos estrechos con hendiduras hasta el margen, mientras A. medium tiene perforaciones junto al nervio central y venación fina en red."
+      },
+      {
+        "especie": "Monstera adansonii y otras Monstera",
+        "rasgo_diferenciador": "Se confunden por las hojas perforadas y por el nombre comercial 'monstera plateada' (Folia Collective); A. medium no es una Monstera. En A. medium las perforaciones se concentran junto al nervio central de una hoja adulta pinnatífida y la venación fina es completamente reticulada, un rasgo poco frecuente en las monsteroideas (CATE Araceae). En 'Silver' el tono gris plateado azulado también la separa de las Monstera verdes."
+      },
+      {
+        "especie": "Epipremnum pinnatum (fase adulta)",
+        "rasgo_diferenciador": "Las dos tienen hojas adultas pinnatífidas con perforaciones cerca del nervio medio. Amydrium se distingue por la venación fina completamente reticulada (CATE Araceae: rasgo diagnóstico del género frente a otras monsteroideas) y por el ovario con 2 óvulos y los frutos como bayas blancas, que solo se ven si florece (Flora of China). Sin flor, la red de venas finas visible al trasluz es el rasgo práctico."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": "No verificado para la especie ni para el género. Probablemente cristales insolubles de oxalato cálcico (rafidios), como en otras aráceas, pero sin confirmar: una revisión revisada por pares confirma rafidios en la familia Araceae en hoja, tallo, raíz y órganos reproductores (Lawrie et al. 2023, AoB Plants; fuente prioritaria a nivel de familia, sin datos de Amydrium ni de toxicidad). La Botanical Dermatology Database (complementaria) advierte que 'muchas, pero no todas' las especies de la familia los contienen, así que no se puede asumir para Amydrium. Tres viveros (complementarias) la dan como tóxica para mascotas, y uno atribuye la toxicidad al oxalato cálcico, sin citar fuente.",
+    "sintomas": "Sin datos verificados para la especie. Por precaución, tratarla como posiblemente tóxica, igual que las aráceas con oxalato cálcico insoluble. En esas plantas, al morder la planta aparecen dolor e irritación inmediatos de boca y garganta, babeo, arcadas y vómitos; la inflamación de garganta con dificultad respiratoria es rara (Pet Poison Helpline, IVIS-Beasley para la familia; complementarias). Mantener fuera del alcance de perros, gatos y niños, usar guantes al podar y, si hay ingestión, enjuagar la boca y consultar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Baja",
+    "fuentes": [
+      "F5",
+      "F12",
+      "F10",
+      "F11",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "A 1-2 m de una ventana este u oeste, o detrás de una cortina fina en una ventana sur. Una ventana norte solo sirve pegada al cristal y la planta crecerá más despacio, con hojas más pequeñas.",
+      "tolera_sol_directo": "No. Solo sol suave de primera hora de la mañana o de invierno. El sol fuerte deforma y quema las hojas (Sprout Home) y deja zonas pardas apergaminadas en el lado de la ventana (Foliage Factory).",
+      "notas": "Rango en la escala del proyecto: desde 100 fc (1076 lux; luz media, la tolera pero crece despacio, echa hojas más pequeñas y pierde hojas, según Folia Collective) hasta 1000 fc (10760 lux; luz brillante indirecta, óptima según Folia Collective y Sprout Home). Foliage Factory propone 10.000-20.000 lux, cifra de vivero sin fuente prioritaria; se adopta el tope más conservador de la escala del proyecto para evitar quemaduras. NParks (exterior en Singapur) la da para semisombra a sombra total, coherente con evitar el sol directo. Con luz brillante y tutor desarrolla las hojas adultas perforadas y el tono plateado de 'Silver' se ve mejor. Sin fuente prioritaria de cultivo: confianza Media por varias fuentes complementarias coherentes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F8",
+        "F9",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando estén secos al tacto los 2-3 cm superiores del sustrato (5 cm en macetas grandes) y la maceta pese claramente menos que recién regada. Entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. Nunca por calendario. Las fuentes de vivero coinciden en dejar secar parcialmente el sustrato: el tercio superior (Folia Collective), de un cuarto a la mitad superior (Sprout Home) o un 25-40 % del volumen (Foliage Factory), pero sin dejar que se seque del todo, porque raíces y hojas pueden no recuperarse (Folia Collective).",
+      "primavera_verano": "Con crecimiento activo y calor el sustrato se seca deprisa: comprobar con el dedo y el peso cada pocos días. Señal de sed: hojas ligeramente lacias (Folia Collective).",
+      "otono_invierno": "Con menos luz el sustrato tarda más en secarse: espaciar los riegos y comprobar siempre el dedo y el peso antes de regar. La calefacción puede acelerar el secado, así que la comprobación manda sobre la costumbre.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid el agua es blanda y lleva cloramina, que no se elimina dejándola reposar; no es causa de puntas marrones. Las puntas marrones se deben a sales de abono acumuladas, riego irregular o aire seco. Regar a fondo de vez en cuando hasta que drene bien para lavar sales.",
+      "notas": "Según Sprout Home, las hojas amarillas o secas y quebradizas indican falta de agua, y las hojas o brotes nuevos que se ennegrecen indican exceso. Foliage Factory señala la pudrición de raíz (amarilleo con raíces blandas y oscuras). Sensibilidad 'alta' al exceso por ser una arácea hemiepífita de raíces aireadas y por la recomendación unánime de sustrato muy drenante; sin fuente prioritaria.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F8",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 60,
+      "notas": "Contradicción entre fuentes complementarias: Sprout Home dice que basta la humedad normal de una casa aunque agradece algo más, y Foliage Factory pide un 60-80 % o más, con algo de ventilación. Su hábitat es bosque perennifolio húmedo a muy húmedo (CATE Araceae vía POWO). Se adopta la opción conservadora: ideal en torno al 60 % (límite inferior de Foliage Factory) [orientativo, sin fuente prioritaria]; no hay mínimo verificado. Para subir la humedad usar humidificador o agrupar plantas; pulverizar las hojas no sube la humedad de forma útil, aunque NParks y algún vivero lo mencionen.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F9",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 26,
+      "notas": "Mínimos distintos según la fuente: Sprout Home da un rango de 55-80 °F (13-27 °C) y advierte que con frío deja de crecer y las hojas se ennegrecen; Foliage Factory recomienda no bajar de 15 °C, con ideal de 18-26 °C. Se adopta el mínimo más alto (15 °C). Ninguna fuente da un máximo tolerado (max_c null). Es una especie de bosque tropical de baja a media altitud (CATE Araceae vía POWO) y no tolera heladas. Sin fuente prioritaria de cultivo.",
+      "confianza": "Media",
+      "fuentes": [
+        "F8",
+        "F9",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla gruesa, aireada y de drenaje rápido para aráceas que retenga algo de humedad (Folia Collective, Foliage Factory). Por ejemplo, partes iguales de sustrato universal sin turba, corteza de pino y perlita [orientativo, sin fuente prioritaria]. NParks, en exterior, indica suelo franco fértil, húmedo y bien drenado. Maceta con agujeros y tutor de musgo o tabla firme, sujetando el tallo al soporte hasta que las raíces se agarren (Foliage Factory).",
+      "ph": null,
+      "drenaje": "Imprescindible. El encharcamiento provoca pudrición de raíz (Foliage Factory) y ennegrecimiento de hojas (Sprout Home). Nunca dejar agua estancada en el plato.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F9",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior.",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (criterio del proyecto, coherente con el abonado ligero solo en crecimiento activo que indica Foliage Factory).",
+      "otono_invierno": "No abonar mientras no haya crecimiento activo.",
+      "notas": "Solo hay una fuente complementaria. Se aplica el criterio general conservador del proyecto.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F9"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta o el tutor necesite una base más firme (Foliage Factory), subiendo un solo tamaño cada vez. No hay intervalo en años verificado.",
+      "epoca": "Primavera, al inicio del crecimiento activo (regla general; sin fuente específica).",
+      "senales": "Raíces que salen por los agujeros o rodean el cepellón, sustrato que se seca muy deprisa, maceta que vuelca por el peso del tutor. Si al trasplantar hay raíces blandas y oscuras, cortarlas y usar sustrato nuevo y aireado (Foliage Factory).",
+      "confianza": "Baja",
+      "fuentes": [
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Recortar los tallos largos para que la planta quede más tupida; un tutor evita los tallos largos y sin hojas (Sprout Home).",
+      "epoca": "Primavera y verano, con crecimiento activo; las puntas cortadas sirven como esquejes.",
+      "como": "Con guantes, por precaución, porque no se conoce su toxicidad. Cortar con tijera limpia justo por encima de un nudo. Guiar y atar los tallos al tutor manteniendo el tallo en contacto con él (Foliage Factory). Retirar hojas dañadas.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F9"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero; es una trepadora de bosque tropical perennifolio (POWO). En otoño-invierno, con menos luz, crece más despacio: espaciar riegos según el dedo y el peso, no abonar y mantenerla por encima de 15 °C. Con frío deja de crecer (Sprout Home).",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con al menos un nudo",
+        "semilla"
+      ],
+      "epoca": "Primavera-verano, con calor (regla general; sin época dada por las fuentes).",
+      "pasos": "1) Con guantes, cortar un trozo de tallo con al menos un nudo y, mejor, una raíz aérea y una hoja. 2) Enraizarlo en una mezcla suelta y cálida (Foliage Factory), con el nudo enterrado y el sustrato húmedo sin encharcar. 3) Mantener luz brillante indirecta, más de 18 °C y humedad ambiental alta. 4) Cuando haya raíces y brote nuevo, pasarlo a maceta con tutor. NParks cita esqueje de tallo y semilla como métodos. La semilla es rara en cultivo y la planta comercial procede sobre todo de cultivo in vitro (fuentes comerciales).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato poco aireado: amarilleo con raíces blandas y oscuras (Foliage Factory)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Hojas o brotes nuevos que se ennegrecen por exceso de riego o por frío (Sprout Home)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Según Sprout Home, el amarilleo indica que se ha quedado demasiado seca; si las raíces están blandas y oscuras, la causa es pudrición por exceso de agua (Foliage Factory). Comprobar sustrato y raíces antes de regar."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas secas, quebradizas o pardas por dejar secar el sustrato del todo (Sprout Home, Folia Collective)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas algo lacias cuando le falta agua (Folia Collective); si el sustrato está húmedo, sospechar pudrición de raíz."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Zonas pardas y apergaminadas en el lado de la ventana por sol directo (Foliage Factory, Sprout Home)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos y desnudos sin tutor o con poca luz (Sprout Home, Folia Collective)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas más pequeñas y menos divididas cuando el tallo se suelta del tutor, falta luz o las raíces están mal (Foliage Factory); con luz media también pierde hojas (Folia Collective)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento con frío por debajo de su rango (Sprout Home) o con luz media (Folia Collective)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino o amarilleo por insectos chupadores; revisar envés y nudos (Foliage Factory, NParks: insectos chupadores)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Hojas pegajosas por insectos chupadores (Foliage Factory)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Agujeros, mordeduras o bordes rasgados por insectos masticadores (NParks, Foliage Factory). No confundir con las perforaciones naturales de la hoja adulta, que son regulares y están junto al nervio central."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste, apartarla del sol directo: detrás de una cortina fina o a 1-2 m del cristal, porque se quema con facilidad. Junto a un cristal soleado se supera de largo el ideal de 18-26 °C. El aire muy seco (HR exterior ≈38 % en julio) queda muy por debajo del 60 % orientativo que prefiere: humidificador o agrupar plantas, no pulverizar. El sustrato se seca deprisa: comprobar con el dedo a 2-3 cm y el peso cada 1-2 días en olas de calor, sin regar por calendario y sin dejar que se seque del todo. Revisar el envés por insectos chupadores. Abono a ¼-½ de dosis, una vez al mes. No sacarla a la terraza: necesita al menos 15 °C y sombra luminosa, y el aire exterior es demasiado seco.",
+    "invierno": "La calefacción baja la humedad interior a menudo por debajo del 30 %: riesgo de hojas secas y quebradizas y de plagas. Humidificador cerca, o agrupar plantas, lejos de radiadores y salidas de aire caliente. Su mínimo conservador es 15 °C: separarla de cristales fríos por la noche y de corrientes de puertas y ventanas, porque con frío deja de crecer y las hojas se ennegrecen. Puede recibir el sol suave de invierno en una ventana este o sur. Regar menos, siempre según el dedo y el peso, y no abonar.",
+    "ubicacion_recomendada": "Estancia cálida y luminosa, a 1-2 m de una ventana este u oeste o tras cortina fina en una ventana sur, con tutor de musgo o tabla para que trepe y desarrolle hojas adultas. Lejos de radiadores, aire acondicionado directo y corrientes. Por precaución, fuera del alcance de perros, gatos y niños pequeños hasta que se verifique su toxicidad. Un baño luminoso o un rincón con humidificador le van bien."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Amydrium medium (Zoll. & Moritzi) Nicolson. Sinónimos homotípicos: Scindapsus medius Zoll. & Moritzi (basiónimo, 1854), Anadendrum medium (Zoll. & Moritzi) Schott, Epipremnum medium (Zoll. & Moritzi) Engl. y Epipremnopsis media (Zoll. & Moritzi) Engl. Sinónimos heterotípicos: Epipremnopsis huegelii (Schott) Engl., Epipremnopsis subcordata M.Hotta, Epipremnum truncatum Engl. & K.Krause, Rhaphidophora huegelii Schott, Rhaphidophora korthalsiana Engl. y Scindapsus huegelii (Schott) Ender. No hay cambio de nombre respecto al de la lista maestra.",
+    "No existe ficha de cultivo de la especie en ninguna fuente prioritaria consultada: no aparece en RHS, Missouri Botanical Garden Plant Finder, NC State Plant Toolbox, UF/IFAS ni Clemson. Los cuidados se apoyan en viveros especializados (Folia Collective, Sprout Home, Foliage Factory) y en NParks Flora & Fauna Web, tratada como complementaria por coherencia con el resto de fichas, aunque es un organismo oficial de Singapur. Por eso ningún bloque llega a confianza Alta.",
+    "Toxicidad: ASPCA no tiene ficha de Amydrium y no se ha encontrado ninguna fuente prioritaria sobre la toxicidad de la especie o del género. Se deja 'desconocida'. Hay rafidios de oxalato cálcico confirmados en la familia Araceae (Lawrie et al. 2023, revisada por pares), pero según BoDD 'muchas, pero no todas' las especies los tienen, y Flora of China/CATE no los mencionan para el género (solo tricoesclereidas escasas y ausencia de látex). Tres viveros afirman que es tóxica para mascotas sin citar fuente. No se ha podido abrir la revisión de Keating (2004, Ann. Missouri Bot. Gard. 91: 495-504) sobre rafidios en Araceae, que podría resolverlo.",
+    "No se ha podido abrir la ficha de la especie en CATE Araceae (cate-araceae.myspecies.info: 403/404) ni el artículo de Nguyen Van Dzu & Boyce (1999, Kew Bull. 54: 379-393) sobre el género, ni las floras de Tailandia (Boyce et al. 2012) o de la Península Malaya (Mansor et al. 2012). Faltan medidas verificadas de hoja y pecíolo para la especie; la búsqueda devolvió cifras (pecíolo 15-35 cm, lámina 12-45 × 9-25 cm) que no se han podido atribuir con seguridad a A. medium y no se incluyen.",
+    "Ninguna fuente da humedad mínima (min_pct null), temperatura máxima tolerada (max_c null), pH del sustrato (ph null), NPK (npk null) ni intervalo de trasplante en años.",
+    "Humedad: contradicción entre fuentes complementarias (humedad doméstica normal suficiente según Sprout Home; 60-80 % según Foliage Factory). Se toma un 60 % orientativo.",
+    "Cultivares 'Silver', 'Spiderman', 'Albo Variegata', 'Galaxy' y 'Mint': solo constan en fuentes comerciales y en Wikipedia; no hay registro de cultivares verificado. Tampoco se sabe si 'Silver' es una forma silvestre seleccionada o un cultivar de laboratorio.",
+    "No hay fuentes sobre plagas concretas (araña roja, cochinilla, trips) ni enfermedades de esta especie; NParks y Foliage Factory solo hablan de insectos chupadores y masticadores en general."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84475-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Amydrium medium: nombre aceptado, distribución y sinónimos",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84475-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – POWO, información general de Amydrium medium (texto de CATE Araceae, Haigh et al. 2011: hábitat y diagnóstico)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:2687-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – POWO, descripción del género Amydrium (CATE Araceae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=101508",
+      "institucion": "Flora of China (Missouri Botanical Garden y Harvard University Herbaria) – género Amydrium (Li H. & Boyce P.C.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10406436/",
+      "institucion": "AoB Plants (revista revisada por pares): Lawrie et al. 2023, Systematic review on raphide morphotype calcium oxalate crystals in angiosperms",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/5/4/5463",
+      "institucion": "National Parks Board de Singapur (NParks) – Flora & Fauna Web, Amydrium medium (actualizado 20-08-2021)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://foliacollective.com/blogs/plant-care/plant-know-how-amydrium-medium-silver",
+      "institucion": "Folia Collective (vivero especializado en aráceas) – Plant Know-How: Amydrium medium 'Silver' (D. Horst, 2023)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://sprouthome.com/pages/amydrium-care-sheet",
+      "institucion": "Sprout Home (vivero, Chicago) – Amydrium Care Sheet",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://foliage-factory.com/amydrium-medium-blue",
+      "institucion": "Foliage Factory (vivero especializado) – Amydrium medium 'Silver' info and care guide",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.petpoisonhelpline.com/?p=1090",
+      "institucion": "Pet Poison Helpline – Oxalates (Insoluble)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.ivis.org/library/veterinary-toxicology/plants-of-araceae-family-plants-containing-oxalate-crystals-and",
+      "institucion": "IVIS – Beasley V., Veterinary Toxicology: Plants of the Araceae family (1999)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.botanical-dermatology-database.info/BotDermFolder/ARACEAE.html",
+      "institucion": "Botanical Dermatology Database (BoDD) – Araceae",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

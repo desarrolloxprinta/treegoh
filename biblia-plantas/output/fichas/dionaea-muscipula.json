@@ -1,0 +1,350 @@
+{
+  "nombre_cientifico": "Dionaea muscipula",
+  "nombres_comunes": [
+    "venus atrapamoscas",
+    "dionea",
+    "atrapamoscas"
+  ],
+  "familia": "Droseraceae",
+  "origen": "Endémica de la llanura costera del sureste de Carolina del Norte y de una pequeña zona del noreste de Carolina del Sur (EE. UU.); las poblaciones silvestres están a unos 110 km (70 millas) de Wilmington como máximo. Especie amenazada en la naturaleza (incluida en el Apéndice II de CITES; el US Fish & Wildlife Service evalúa su protección). Las plantas a la venta proceden de vivero y cultivo in vitro; recolectarla en la naturaleza es delito en Carolina del Norte.",
+  "clima_nativo": "Templado cálido húmedo de llanura costera (zonas USDA 7-10 de rusticidad): veranos cálidos y húmedos e inviernos suaves pero reales, con heladas y lluvia helada. Crece en sabanas abiertas de pino de hoja larga (Pinus palustris) sobre suelos arenosos, ácidos, encharcados y muy pobres en nutrientes, dependientes de incendios periódicos que eliminan la competencia. Reposo invernal de 3 a 5 meses (de noviembre a principios de primavera).",
+  "categoria": "carnivora",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Roseta basal baja de hasta unas 8 hojas de 5 a 13 cm. Cada hoja tiene un pecíolo verde y aplanado y termina en una trampa formada por dos lóbulos articulados por una bisagra central, con el borde guarnecido de cerdas rígidas ('dientes' o pestañas) que se entrecruzan al cerrarse. En la cara interna de cada lóbulo hay pelos sensitivos finos (seis en total por trampa según NC State); al tocar dos de ellos la trampa se cierra de golpe. El interior de la trampa es rojo intenso o verde según la luz recibida (más rojo con más sol) y según el cultivar. En primavera y otoño las hojas son cortas y pegadas al suelo; en verano salen más largas y erguidas, con pecíolos más largos.",
+    "nerviacion": "Poco visible: la lámina del pecíolo y los lóbulos de la trampa muestran una venación fina, no marcada. Lo diagnóstico no son los nervios sino la trampa bilobulada con cerdas marginales.",
+    "variegacion": "No variegada. El color varía de verde amarillento a rojo burdeos según la luz y el cultivar ('Red Dragon' y otros se vuelven totalmente rojos a pleno sol; 'King Henry' tiene trampas verde amarillento con interior rojo anaranjado). El rojo no es enfermedad.",
+    "tallo": "Sin tallo aéreo: rizoma corto, blanco y engrosado, parecido a un bulbo, formado por las bases blancas de las hojas, enterrado justo bajo la superficie. La parte vieja del rizoma se pudre a medida que crece por la otra punta. Raíces escasas, negras y finas.",
+    "habito": "Herbácea perenne de roseta, muy baja, que forma matas al dividirse el rizoma. Las hojas viven unos meses y se ennegrecen y mueren de forma natural, sustituidas por nuevas. En primavera saca una vara floral sin hojas de 10 a 30 cm con un ramillete de flores blancas de unos 2 cm, de 5 pétalos; fruto en cápsula con semillas negras.",
+    "tamano_adulto_interior": "De 15 a 30 cm de alto contando la vara floral (las rosetas suelen quedar por debajo de 10 cm) y de 15 a 20 cm de diámetro (NC State).",
+    "confusiones": [
+      {
+        "especie": "Aldrovanda vesiculosa (planta rueda de agua)",
+        "rasgo_diferenciador": "Acuática flotante y sin raíces, con trampas diminutas (pocos milímetros) dispuestas en verticilos a lo largo de un tallo sumergido. Dionaea es terrestre, de roseta y con trampas de 1-3 cm."
+      },
+      {
+        "especie": "Drosera spp. (rocíos del sol, p. ej. Drosera capensis)",
+        "rasgo_diferenciador": "Hojas cubiertas de tentáculos con gotitas brillantes de mucílago pegajoso que se curvan despacio; no tienen trampa de dos lóbulos que se cierra de golpe."
+      },
+      {
+        "especie": "Pinguicula spp. (grasillas)",
+        "rasgo_diferenciador": "Roseta plana de hojas enteras, carnosas y lisas, pegajosas al tacto, sin pecíolo alado ni lóbulos con cerdas."
+      },
+      {
+        "especie": "Plántulas o rizomas de Sarracenia spp.",
+        "rasgo_diferenciador": "Las hojas son tubos o jarras huecas con opérculo; nunca una trampa bilobulada con bisagra."
+      },
+      {
+        "especie": "Planta de Dionaea en reposo invernal",
+        "rasgo_diferenciador": "No es otra especie, pero una IA puede tomarla por planta muerta: de noviembre a febrero muestra hojas ennegrecidas y unas pocas trampas pequeñas, cortas y pegadas al sustrato, con el rizoma blanco y firme."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": "Contiene plumbagina, una naftoquinona (medida en revista revisada por pares: unos 3.450 µg/g de peso fresco en extractos de la planta). La ASPCA la clasifica como no tóxica para perros, gatos y caballos; no hay datos sobre la relevancia de la plumbagina por ingestión en animales ni en personas.",
+    "sintomas": "Según personal del centro antitóxicos de la ASPCA citado por el FAQ de Barry Rice (fuente complementaria), los animales que la ingirieron no mostraron síntomas o, como mucho, molestias gastrointestinales leves. En niños no se ha encontrado ninguna fuente prioritaria; como con cualquier planta, si un niño la come, contactar con el Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "P7",
+      "P9",
+      "C1"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 15000,
+      "lux_max": null,
+      "orientacion_hn": "Lo más luminoso de la casa: ventana sur sin obstáculos (al menos 6 h de sol directo), o mejor en balcón o terraza a pleno sol de primavera a otoño. Una ventana normal se queda corta; en interior suele necesitar luz LED de cultivo. En climas cálidos y secos, sol directo de mañana y algo de sombra por la tarde.",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol (6 h o más de sol directo al día). En climas calurosos y secos la ICPS recomienda sol de mañana y semisombra por la tarde, o malla de sombreo ligera del 10-20 %. Al pasar una planta de vivero o de interior al sol, aclimatarla de forma gradual: es normal que algunas trampas se quemen y mueran en los primeros días.",
+      "notas": "La ICPS da 15.000-25.000 lux de LED blanco durante unas 14 h al día para cultivarla en interior todo el año (unos 25 W reales por cada 25 cm de diámetro de superficie de cultivo). 15.000 lux equivalen a unos 1.400 fc, en la franja 'directa' (>1.000 fc) de la escala del proyecto. No hay límite superior útil: tolera el pleno sol exterior; lux_max se deja en null por eso. Sin luz suficiente se debilita deprisa: pecíolos largos y blandos, trampas pequeñas y verdes. El color rojo intenso indica buena luz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P3",
+        "P5",
+        "C2"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego por bandeja (por abajo): la maceta, de plástico y con agujero, siempre en un plato con agua pura. El sustrato debe estar siempre húmedo al tacto, nunca seco ni un momento, pero sin encharcar la corona: el nivel de agua del plato debe quedar al menos 5 cm por debajo de la superficie del sustrato (por eso las macetas altas, de 10 cm o más, son mejores). Comprobar a diario el plato y, con el dedo, que la superficie está húmeda; una maceta que pesa poco indica que se ha secado. Rellenar el plato antes de que se vacíe.",
+      "primavera_verano": "Mantener 1,5-2,5 cm de agua en el plato de forma continua y rellenar en cuanto baje; con calor fuerte puede vaciarse en un día. No dejar que el sustrato se seque nunca, sobre todo en verano.",
+      "otono_invierno": "Durante el reposo frío reducir el agua: sustrato apenas húmedo, sin plato lleno de forma permanente, pero nunca seco (secarse estando en reposo, sobre todo con frío y viento, es el mayor peligro). Si se cultiva sin reposo bajo LED, seguir como en verano.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua sin minerales: destilada, de ósmosis inversa o de lluvia limpia. Según la ICPS sirve el agua del grifo si su total de sólidos disueltos (TDS) es menor de 90 ppm; filtrar (jarras) NO quita las sales. Según la Fase 4 del proyecto, el grifo de Madrid capital (≈45-55 ppm estimados) cumple ese umbral con margen escaso, mientras que el sur metropolitano (≈100-125 ppm) no; solo usar grifo si se mide con un medidor TDS. Nunca agua mineral embotellada ni agua dura. Dejar reposar el agua no sirve (Madrid usa cloramina).",
+      "notas": "Contradicción: NC State, NYBG y el US Botanic Garden desaconsejan el agua del grifo en general (NC State dice que el agua tratada o dura puede matarla), mientras que la ICPS la admite si TDS <90 ppm. Opción conservadora: agua destilada, de ósmosis o de lluvia como recomendación por defecto; el grifo de Madrid capital solo como alternativa comprobada con medidor. A diferencia de casi todas las plantas de interior, aquí el riesgo es más la sequía que el exceso, siempre que la corona quede a más de 5 cm del agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P5",
+        "P3",
+        "P6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State y el US Botanic Garden indican humedad alta, pero la ICPS y el NYBG señalan que no necesita terrario: el sustrato mojado y la bandeja crean humedad local suficiente y a menudo no hace falta nada más. Ninguna fuente prioritaria da un porcentaje. Si el aire seco vacía el plato muy deprisa, agrupar plantas o usar un terrario o mini-invernadero con ventilación regulable (cerrado del todo se recalienta en verano). Pulverizar no sube la humedad de forma útil.",
+      "confianza": "Media",
+      "fuentes": [
+        "P1",
+        "P5",
+        "P3",
+        "P6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 2,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Crecimiento: 18-24 °C en casa (NYBG, 65-75 °F); en exterior tolera 20-90 °F (≈ -7 a 32 °C) y picos breves de hasta unos 40 °C [orientativo, sin fuente prioritaria; California Carnivores]. Reposo: 2-10 °C (Extensión de NC State, condado de New Hanover, 35-50 °F) o 7-10 °C (NYBG, 45-50 °F) durante al menos 10 semanas. min_c = 2 °C: es el límite inferior del rango de reposo de la Extensión de NC State (New Hanover); el 7 °C del NYBG es una temperatura objetivo de reposo, no un mínimo de supervivencia. La ICPS dice que una planta en reposo completo sobrevive congelada una semana si no se seca, y NC State aconseja proteger por debajo de unos -7 °C (20 °F), pero ambos casos hablan de plantas en suelo de turbera exterior; en maceta las raíces están más expuestas, así que se adopta 2 °C como mínimo conservador. Evitar estufas, salidas de aire acondicionado, puertas y ventanas con corriente.",
+      "confianza": "Media",
+      "fuentes": [
+        "P4",
+        "P5",
+        "P1",
+        "C2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Turba rubia (turba de esfagno) sin abono ni cal, mezclada al 50 % con arena de sílice o cuarzo gruesa y lavada (mezcla 1:1, la 'CP mix' de la ICPS). Alternativas válidas: esfagno de fibra larga puro (vivo o seco) o turba rubia pura, solo en macetas altas. Opcional: 1-2 cm de arena de sílice pura en la superficie, de modo que solo las raíces y la base del rizoma queden en la turba, para reducir la pudrición de las hojas viejas y los mosquitos del sustrato. NUNCA sustrato universal ni de macetas (lleva cal y abono), ni tierra de jardín, ni arena de construcción o de juegos, ni arenas calizas.",
+      "ph": "Ácido, <6,0 (NC State).",
+      "drenaje": "Maceta de plástico con agujero, alta (10 cm o más) para que la corona quede a más de 5 cm del nivel del agua del plato. Cuanto más baja la maceta, más arenosa debe ser la mezcla; evitar esfagno o turba puros en macetas bajas.",
+      "notas": "Contradicción sobre la perlita: la ICPS pide evitar la perlita, la piedra pómez y otros componentes 'potencialmente salados' (en la guía de esquejes de hoja dice que la perlita es 'arriesgada' porque puede tener sales), mientras que NC State admite vermiculita gruesa o arena afilada y otras guías de afición usan perlita. Opción conservadora: arena de sílice gruesa lavada y no perlita. Proporciones: ICPS y NYBG dan 1:1 turba:arena para Dionaea; el US Botanic Garden da 3:1 para carnívoras en general.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P2",
+        "P5",
+        "P3",
+        "P6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Ninguno en el sustrato. Se 'alimenta' por las trampas: insectos vivos (moscas, arañas, grillos pequeños, larvas de tenebrio) o larvas de mosquito ('gusanos de sangre') secas para peces, rehidratadas con unas gotas de agua y escurridas, sin aditivos.",
+      "npk": null,
+      "primavera_verano": "Alimentar 1 o 2 trampas cada 1-2 semanas (NYBG) si la planta no caza sola; en exterior caza lo suficiente por sí misma. Presa o bolita de alimento de 1/3 del tamaño de la trampa como máximo. Con alimento muerto, masajear la trampa con suavidad tras el cierre para que la selle y empiece a digerir (simula una presa viva). La planta puede pasar mucho tiempo sin comer, pero crece más despacio y, según la ICPS, acaba debilitándose.",
+      "otono_invierno": "Nada durante el reposo. Si se cultiva sin reposo bajo LED intenso, seguir alimentando con regularidad.",
+      "notas": "No abonar nunca el sustrato: la ICPS lo dice tajantemente ('no abones tus plantas salvo que no te importe matarlas'), y NYBG y NC State coinciden. No darle carne (hamburguesa, jamón, etc.): el US Botanic Garden y el NYBG lo prohíben porque no la digiere y la trampa se pudre. Tampoco presas demasiado grandes, ni orugas (pueden escapar comiendo la trampa), ni hormigas de casa (pueden llevar insecticidas). No cerrar las trampas tocándolas por diversión: cada cierre cuesta energía y la fotosíntesis de la trampa baja mientras está cerrada (NC State, citando a Pavlovič et al., 2010); cada trampa solo se cierra y reabre unas pocas veces antes de morir. Hay cultivadores que abonan por vía foliar, pero la ICPS lo considera arriesgado y no se recomienda.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P5",
+        "P3",
+        "P6",
+        "P4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años (ICPS: cada año aproximadamente en plantas bien alimentadas; NYBG: como máximo cada 2 años para renovar el sustrato). No trasplantar una planta recién comprada: puede seguir 2 años en su maceta original (NYBG).",
+      "epoca": "Primavera, al final del reposo (febrero-marzo en el hemisferio norte; en Madrid, a finales de febrero o en marzo).",
+      "senales": "La roseta ha llegado al borde de la maceta y choca con la pared; las trampas de las hojas nuevas no llegan a formarse (sustrato agotado o salinizado); costra de sales o musgo en la superficie; han pasado 2 años.",
+      "notas": "Sacar la planta, quitar la parte vieja y podrida del rizoma, separar las divisiones y plantar con el rizoma justo bajo la superficie, algo descentrado para que crezca hacia el centro (la planta avanza hacia su punto de crecimiento). Mojar y poner en la bandeja con agua inmediatamente. Reutilizar la maceta de plástico si está en buen estado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P2",
+        "P5"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza: retirar hojas y trampas ennegrecidas. Las hojas viven unos meses y su muerte es normal, no un problema.",
+      "epoca": "Todo el año, cuando las hojas estén completamente negras; al final del reposo, retirar las hojas muertas del invierno.",
+      "como": "Cortar con tijera fina las hojas cuando estén del todo negras, sin dañar el rizoma ni las hojas verdes. Vara floral: el NYBG aconseja cortarla cerca de la base en cuanto asome (más de 2-3 cm) porque florecer gasta mucha energía y reduce la producción de hojas; es opcional si se quiere semilla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P5",
+        "P2",
+        "P1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a febrero o principios de marzo (en la naturaleza dura de 3 a 5 meses; mínimo 10 semanas). Hemisferio sur: de mayo a agosto aproximadamente. Lo desencadenan sobre todo los días cortos y, en segundo lugar, el frío.",
+      "cambios": "Con luz natural (ventana, balcón o terraza), el reposo invernal frío es necesario: dejar que la luz disminuya de forma natural, bajar la temperatura a 2-10 °C, dejar de alimentar y mantener el sustrato apenas húmedo, sin que se seque. La planta pierde muchas hojas y queda con trampas pequeñas y bajas: es normal, no está muerta. Lugar ideal: balcón o terraza a la intemperie protegidos del viento y de heladas fuertes, o una habitación sin calefacción junto a una ventana luminosa. No meterla en la nevera como planta en maceta (la ICPS lo considera inútil) ni alternar entre fuera y dentro bajo luces, porque la desincroniza. A finales de febrero o en marzo, devolverla poco a poco a sol pleno, agua en bandeja y alimentación.",
+      "notas": "Contradicción: la ICPS y el NYBG afirman que en interior NO necesita reposo si se cultiva todo el año bajo LED intenso (15.000-25.000 lux, unas 14 h al día) y se alimenta con regularidad; California Carnivores (complementaria) dice que saltarse el reposo más de uno o dos años acaba debilitándola, y NC State concluye que para la mayoría de aficionados, sin ese nivel de luz, es más fácil y mejor para la planta dejar que haga el reposo. Opción conservadora adoptada: reposo frío de 3-4 meses obligatorio para cualquier planta con luz natural; prescindir de él solo bajo LED intenso y constante durante todo el año. Rango de reposo: 2-10 °C según NC State (35-50 °F) y 7-10 °C según el NYBG (45-50 °F).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P4",
+        "P1",
+        "P5",
+        "C2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división del rizoma",
+        "esqueje de hoja (hoja arrancada con su base)",
+        "semilla"
+      ],
+      "epoca": "División y esquejes de hoja al trasplantar, en primavera al final del reposo. Semilla en primavera-verano, a 20-25 °C.",
+      "pasos": "División: al trasplantar, separar los rizomas laterales que tengan punto de crecimiento y raíces y plantarlos como una planta adulta. Esqueje de hoja: tirar de las hojas externas hacia fuera y hacia abajo para que salgan enteras con su base blanca (las que se rompen sin base no sirven); cortar trampas y partes negras; enterrar la base justo en la mezcla turba:arena y cubrir con arena; mantener húmedo (en bolsa de plástico o terrario si asoma parte verde). En unos 5 meses aparecen plantitas que se separan y se plantan. Semilla: sembrar en superficie sobre la mezcla, sin cubrir o con 1-3 mm de arena de cuarzo lavada, con el sustrato saturado de agua pura, en bolsa cerrada bajo luz a 20-25 °C. Muy lenta: de 2 a 5 años hasta planta adulta, según se alimente. Comercialmente se propaga in vitro.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal: las hojas viejas y exteriores amarillean, se ennegrecen y mueren tras unos meses o después de varias digestiones, y salen hojas nuevas desde el centro. Solo es un problema si mueren más hojas de las que salen fuera de otoño o invierno."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Trampa que se pone negra y blanda tras alimentarla: presa demasiado grande (más de 1/3 de la trampa), carne u otro alimento que no digiere, que se pudre por bacterias. Muere solo esa trampa; retirarla cuando esté negra."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz (la causa más frecuente de declive en interior): pecíolos largos, blandos y caídos, trampas pequeñas, verdes y sin rojo. Pasarla a pleno sol o poner LED. Ojo: en verano las hojas largas y erguidas son normales con buena luz."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "En otoño e invierno es el reposo natural (no tratar). En primavera y verano: poca luz, falta de alimento o sustrato agotado o salinizado."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Las hojas nuevas no forman trampa o las trampas salen diminutas: sustrato salinizado (agua del grifo con muchas sales, abono) o planta que ha llenado la maceta. Trasplantar a mezcla nueva y regar con agua pura."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sustrato que se ha secado, aunque sea poco tiempo (plato vacío, sobre todo con calor o calefacción), o aire muy seco con calor."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Corona y raíces demasiado cerca del agua (maceta baja, plato demasiado lleno, menos de 5 cm entre el agua y la superficie), sustrato demasiado fino o compactado, o calor en reposo con el sustrato encharcado."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del rizoma y de la base de las hojas: sustrato encharcado alrededor de la corona o falta de capa de arena en superficie. La parte vieja del rizoma se pudre de forma natural mientras el punto de crecimiento siga blanco y firme."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales por regar con agua mineralizada o por abonar el sustrato; musgo y algas favorecidos por el abono. Cambiar el sustrato y usar agua pura."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemaduras de algunas trampas al pasar de golpe de interior o vivero a pleno sol, o con sol de tarde en climas calurosos y secos. Aclimatar poco a poco y dar sombra ligera por la tarde en verano."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas nuevas y en la vara floral (NC State lo cita). Retirar a mano o con agua pura; no se ha documentado la tolerancia de Dionaea a los insecticidas."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State la cita), favorecida por calor y aire seco en interior."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato en turba muy mojada; la capa de arena de sílice en superficie los reduce (NYBG)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis) sobre hojas muertas en reposo con poca ventilación [orientativo, sin fuente prioritaria]: retirar las hojas negras y ventilar."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "En balcón o terraza a pleno sol de mañana, pero con semisombra por la tarde o malla de sombreo ligera (10-30 %) en julio y agosto: Madrid es un clima caluroso y seco (35-40 °C, humedad exterior ≈38 %), justo el caso en que la ICPS recomienda sol de mañana y sombra parcial. Evitar el sol de tarde tras un cristal orientado al sur o al oeste, que recalienta la planta, y los suelos o paredes que acumulan calor. El plato se puede vaciar en un día: revisarlo cada día y rellenar con agua destilada, de ósmosis o de lluvia (o grifo de Madrid capital comprobado con medidor TDS <90 ppm). Una maceta grande y alta o de color claro protege las raíces del calor. En exterior caza sola y no hace falta alimentarla.",
+    "invierno": "Reposo frío: sacarla al balcón o terraza (lo ideal: pasa frío real con luz natural) o dejarla en una habitación sin calefacción junto a una ventana luminosa, entre 2 y 10 °C, de noviembre a finales de febrero o marzo. No dejarla en el salón con calefacción a 20-22 °C con poca luz: sin reposo y sin LED intenso se debilita. En noches de helada fuerte, protegerla con un plástico o tejido de invernadero o meterla un rato bajo techo, y no dejar que el sustrato se seque (el viento seco de enero combinado con helada la deseca). Sustrato apenas húmedo, sin alimentar. La humedad interior <30 % no afecta a una planta en reposo con el sustrato húmedo. Alternativa sin reposo: LED de cultivo de 15.000-25.000 lux unas 14 h al día, todo el año, sin cambiarla de sitio.",
+    "ubicacion_recomendada": "Exterior: balcón o terraza orientados a sur o este, con sol directo al menos 6 h, protegidos del viento y con sombra parcial en las tardes de verano. En interior, solo bajo luz LED de cultivo; una ventana interior se queda corta salvo la sur sin obstáculos, y aun así necesita reposo frío en invierno."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Dionaea muscipula J.Ellis (Droseraceae); no se detectan cambios de nombre. No se han revisado los sinónimos en la ficha de taxón completa de POWO, solo el resultado de búsqueda de su API.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimo ni ideal; min_pct e ideal_pct se dejan en null.",
+    "Temperatura máxima: el máximo de 32 °C y los picos de 40 °C proceden solo de California Carnivores (vivero, complementaria).",
+    "Toxicidad en niños: no se ha encontrado ninguna fuente prioritaria; se deja 'desconocida'. La presencia de plumbagina está documentada (IJMS 2021), pero no su relevancia toxicológica por ingestión.",
+    "Agua: no se ha encontrado ninguna fuente sobre el efecto de la cloramina del grifo de Madrid en Dionaea; la afición usa umbrales más estrictos (≈50 ppm) que no se han verificado en fuentes prioritarias.",
+    "Fitosanitarios: no se ha encontrado ninguna fuente sobre la tolerancia de Dionaea al jabón potásico ni a otros insecticidas autorizados en el Registro del MAPA; se recomienda solo retirar las plagas a mano o con agua.",
+    "Moho gris (S34) en reposo: sin fuente prioritaria específica para Dionaea.",
+    "US Fish & Wildlife Service: no se ha consultado directamente (su evaluación para la Ley de Especies Amenazadas se cita a través del NYBG). No se ha podido abrir la lista de comprobación de la ICPS (DionaeaChecklist) porque se agotó el tiempo de espera; RHS no tiene página localizada para la especie."
+  ],
+  "fuentes": [
+    {
+      "id": "P1",
+      "url": "https://www.carnivorousplants.org/grow/guides/Dionaea",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Dionaea muscipula (J. Brittnacher, act. 2019)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P2",
+      "url": "https://www.carnivorousplants.org/grow/propagation/DionaeaLeafPullings",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Dionaea Leaf Pullings Step-by-Step",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P3",
+      "url": "https://plants.ces.ncsu.edu/plants/dionaea-muscipula/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P4",
+      "url": "https://newhanover.ces.ncsu.edu/news/venus-flytrap-dormancy",
+      "institucion": "N.C. Cooperative Extension, New Hanover County Center — Venus Flytrap Dormancy (2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P5",
+      "url": "https://libguides.nybg.org/c.php?g=654975&p=4597429",
+      "institucion": "New York Botanical Garden (NYBG) — Carnivorous Plant Care: Venus Flytrap Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P6",
+      "url": "https://www.usbg.gov/cultivating-carnivorous-plants",
+      "institucion": "United States Botanic Garden — Cultivating Carnivorous Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/venus-fly-trap",
+      "institucion": "ASPCA Animal Poison Control — Venus Fly Trap",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P8",
+      "url": "https://powo.science.kew.org/api/2/search?q=Dionaea%20muscipula",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8124972/table/ijms-22-04849-t002",
+      "institucion": "International Journal of Molecular Sciences 22:4849 (2021), revista revisada por pares — contenido de plumbagina en Dionaea muscipula",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "C1",
+      "url": "https://www.sarracenia.com/faq/faq2740.html",
+      "institucion": "The Carnivorous Plant FAQ (Barry Rice), ¿Son peligrosas para las mascotas?",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "C2",
+      "url": "https://www.californiacarnivores.com/blogs/growing-tips/76001413-venus-flytrap-dionaea-muscipula-growing-tips",
+      "institucion": "California Carnivores (vivero especializado) — Venus Flytrap Growing Tips",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

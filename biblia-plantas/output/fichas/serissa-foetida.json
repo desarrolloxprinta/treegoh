@@ -1,0 +1,386 @@
+{
+  "nombre_cientifico": "Serissa foetida",
+  "nombres_comunes": [
+    "serissa",
+    "serisa",
+    "árbol de las mil estrellas",
+    "rosa de nieve (snow rose)",
+    "serissa japonesa (Japanese serissa)"
+  ],
+  "familia": "Rubiaceae (familia del café)",
+  "origen": "Nativa del centro-sur y sureste de China y de Taiwán (POWO; EPPO; Flora of China: Anhui, Fujian, Guangdong, Guangxi, Jiangsu, Jiangxi, Sichuan, Taiwán, Yunnan, Zhejiang). Introducida en Japón (incluidas las Ryukyu), Corea, India, Assam, Sri Lanka, Indochina, Malasia, Java y Madagascar (POWO). NParks y otras fuentes citan India, China y Japón como área nativa; POWO trata India y Japón como áreas de introducción.",
+  "clima_nativo": "Subtropical monzónico: orillas de arroyos y bosques de hoja ancha en colinas, a 100-1600 m de altitud (Flora of China; NParks: bosque monzónico, montaña y riberas). Arbusto pequeño de 60-90 cm, perennifolio o semicaducifolio con frío o sequía (Flora of China; NParks; NC State). En jardín resiste zonas USDA 7a-11b pero pierde la hoja por debajo de unos 4 °C (NC State); en interior se cultiva como bonsái tropical o subtropical (Missouri Botanical Garden).",
+  "categoria": "bonsai",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Muy pequeñas: 0,6-2,2 × 0,3-0,6 cm (Flora of China; NParks), ovadas a oblanceoladas, elípticas o lanceoladas, de ápice agudo a obtuso. RASGO CLAVE: OPUESTAS (a veces parecen verticiladas por los brotes cortos; NParks), casi sésiles o con pecíolo de hasta 2 mm, margen ENTERO (sin dientes), coriáceas, verde oscuro y a menudo brillantes en el haz (Flora of China; NC State). Entre los pares de hojas hay estípulas diminutas (0,5-2 mm) terminadas en cerdas, típicas de las rubiáceas (Flora of China). Al estrujarlas o cortarlas desprenden un olor desagradable (UNF Botanical Garden), de donde viene 'foetida'.",
+    "nerviacion": "Pinnada, poco visible: nervio central y solo 2-4 pares de nervios secundarios (Flora of China).",
+    "variegacion": "La forma silvestre es verde. Son muy frecuentes en el comercio las formas variegadas con margen amarillo o blanco crema (NC State describe hojas de margen amarillo; UNF: 'a veces variegadas'; POWO recoge Serissa foetida marginata), y formas de flor doble ('Flore Pleno', RHS) o rosada ('Pink Mystic', RHS). Las variegadas necesitan aún más luz y crecen más despacio.",
+    "tallo": "Leñoso, muy ramificado, con ramitas finas algo aplanadas y finamente pelosas (Flora of China; NParks). Tallos jóvenes verdes y finos como alambre; tronco y ramas viejas con corteza áspera gris clara (NC State; NParks). Brota con facilidad de madera vieja y nueva (NParks) y echa chupones desde la base (bonsai4me). La madera y sobre todo las raíces cortadas huelen mal (Bonsai Empire; bonsai4me; Mistral Bonsai).",
+    "habito": "Arbusto enano denso y redondeado (NC State). En interior casi siempre como bonsái en maceta baja. Florece casi todo el periodo de crecimiento (Flora of China: abril-octubre): flores blancas o rosadas, de unos 8-10 mm, en embudo con 4-6 lóbulos estrellados y capullo rosado, solitarias o en grupos en las axilas y extremos de las ramas (NC State; NParks); de ahí 'árbol de las mil estrellas'. Fruto: drupa diminuta de 2-3 mm (Flora of China), rara en interior.",
+    "tamano_adulto_interior": "Como bonsái, habitualmente 10-40 cm, mantenido por poda [orientativo, sin fuente prioritaria]; en la naturaleza 60-90 cm (Flora of China), hasta 0,5-1 m (NParks) y en jardín 0,6-1,2 m de alto por 0,9-1,5 m de ancho (NC State).",
+    "confusiones": [
+      {
+        "especie": "Carmona microphylla (carmona, té de Fukien)",
+        "rasgo_diferenciador": "Hojas ALTERNAS o en fascículos, con dientes gruesos hacia el ápice y diminutos puntos blancos ásperos en el haz; frutos rojos frecuentes. La serissa tiene hojas OPUESTAS, enteras, lisas y sin punteado, y sus cortes huelen mal."
+      },
+      {
+        "especie": "Buxus spp. (boj, p. ej. Buxus harlandii o B. sempervirens en bonsái)",
+        "rasgo_diferenciador": "También de hojas opuestas y enteras, pero algo mayores (1-3 cm), a menudo con el ápice escotado, tallos jóvenes cuadrangulares, flores verdosas inconspicuas y sin estípulas; no huele mal al cortarlo. La serissa da flores blancas estrelladas visibles casi todo el año."
+      },
+      {
+        "especie": "Sageretia theezans (sageretia)",
+        "rasgo_diferenciador": "Hojas opuestas o casi opuestas pero con margen finamente aserrado y nervios más marcados; corteza que se desprende en placas dejando manchas claras. La serissa tiene margen entero y corteza gris áspera."
+      },
+      {
+        "especie": "Ulmus parvifolia (olmo chino)",
+        "rasgo_diferenciador": "Hojas ALTERNAS, de base asimétrica, margen aserrado regular y nervios secundarios paralelos bien marcados; no da flores blancas visibles."
+      },
+      {
+        "especie": "Cuphea hyssopifolia (cufea, falso brezo)",
+        "rasgo_diferenciador": "Hojas opuestas, estrechas y lineares, pero flores tubulares lila, rosa o blancas de 6 pétalos separados y tallos poco leñosos; no huele al cortarla."
+      },
+      {
+        "especie": "Serissa serissoides (tratada por algunas floras como especie aparte)",
+        "rasgo_diferenciador": "POWO la incluye como sinónimo de Serissa japonica; Flora of China reidentifica como S. japonica lo que Flora of Taiwan llamaba S. serissoides. Para la app se trata como la misma planta y los mismos cuidados."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "notas": "ASPCA no incluye Serissa, Serissa japonica, Serissa foetida, 'snow rose' ni 'tree of a thousand stars' en sus listas de plantas tóxicas ni no tóxicas para gatos y perros (comprobado en ambas listas el 2026-10-21). NC State Extension Plant Toolbox no aporta datos de toxicidad para la especie. No se ha encontrado ninguna fuente prioritaria con datos. Que no aparezca en ASPCA NO significa que sea segura: la app no debe presentarla como 'no tóxica'. Ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (915 620 420).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F10",
+      "F11",
+      "F3"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a la ventana más luminosa, a menos de 1 m del cristal: este (sol de mañana) como primera opción, o sur con el sol de mediodía tamizado por una cortina fina en verano (Missouri Botanical Garden: los bonsáis de interior necesitan casi siempre ventana sur o este; NC State: mejor sol de mañana y protección del sol de tarde). Oeste solo con cortina en verano.",
+      "tolera_sol_directo": "Sí, parcialmente: NC State la clasifica en semisombra con 2-6 horas de sol directo al día, mejor de mañana, protegida del sol de tarde; NParks y UNF la dan como de pleno sol a semisombra en exterior. En interior acepta sol directo de mañana y sol de invierno; evitar el sol de tarde de verano tras el cristal en ventanas sur y oeste.",
+      "notas": "Es un bonsái de interior muy exigente en luz (RHS: los bonsáis de interior necesitan mucha luz). Rango en lux [orientativo, sin fuente prioritaria]: mitad alta o techo de la luz brillante indirecta de la escala del proyecto (500-1000 fc), más algunas horas de sol suave. Cuanto más cálido esté el sitio, más luz necesita (Bonsai Empire); en invierno, o lejos de la ventana, una lámpara de cultivo ayuda (Bonsai Empire). RASGO CRÍTICO: tira las hojas ante cualquier cambio brusco de luz o de sitio (Bonsai Empire; bonsai4me; NC State: prefiere condiciones estables): elegir un sitio definitivo y no moverla ni girarla sin necesidad. Tras un traslado suele amarillear y perder hojas y rebrotar a los pocos días o semanas si las condiciones son buenas (bonsai4me). La falta de luz da brotes largos, pocas flores y caída de hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F9",
+        "F13",
+        "F14"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar CADA DÍA el sustrato con el dedo o un palillo de madera y sopesar la maceta, sin calendario (NYBG: revisar a diario y regar solo cuando lo necesite). Necesita humedad constante en el sustrato (NC State: 'consistent moisture') pero se pudre si se encharca (NParks: propensa a podredumbre en suelo encharcado). En maceta de bonsái poco profunda, regar cuando los 1-2 cm superiores estén secos al tacto y la maceta pese claramente menos; NO esperar a que se seque del todo: un cepellón seco del todo la mata, igual que las raíces siempre empapadas (bonsai4me; Bonsai Empire: 'nunca debe secarse por completo'). Regar despacio con regadera de alcachofa fina hasta que salga agua por los agujeros, esperar un par de minutos y repetir (NYBG; RHS; Missouri Botanical Garden), o sumergir la maceta hasta que dejen de salir burbujas y sacarla a escurrir (NYBG). Vaciar el plato: nunca debe quedar en agua. El exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "Las macetas de bonsái se secan muy deprisa: en primavera y verano puede hacer falta regar a diario y, en días de calor, dos veces (Missouri Botanical Garden; RHS: 'una o dos veces al día en verano'). Aun así manda la comprobación: regar solo si la capa superior está seca. Si el agua resbala sin empapar porque el sustrato se ha encogido y separado del borde, sumergir la maceta para rehidratarlo (Missouri Botanical Garden).",
+      "otono_invierno": "Reducir el riego cuando el crecimiento se frena (Missouri Botanical Garden), dejando secar algo más la capa superior pero sin que el cepellón llegue a secarse. Con calefacción el sustrato se sigue secando rápido: comprobar cada día o cada dos días (RHS: 'una semana seca en invierno puede pillarte'). Si ha tirado hojas por un cambio de condiciones, seguir regando pero algo menos, porque sin hojas consume menos agua (Bonsai Empire). Agua a temperatura ambiente.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "El agua del grifo de Madrid es blanda (10-47 mg/L de CaCO3) y adecuada; la serissa prefiere pH neutro y no tolera bien el agua muy caliza (Bonsai Empire), problema que no se da con el agua de Madrid. La RHS recomienda agua de lluvia si se dispone de ella para reducir la acumulación de sales. El agua de Madrid se desinfecta con cloramina: dejarla reposar no la elimina, pero en estas dosis no es causa de daños; las puntas marrones se deben a sales de abono acumuladas, riego irregular o aire seco, no al flúor ni al cloro.",
+      "notas": "Ser regular es más importante que la cantidad: los altibajos de riego (encharcar y luego dejar secar) son una de las causas principales de amarilleo y caída de hojas (NParks; bonsai4me: hojas amarillas suelen indicar exceso de riego; hojas marrones y crujientes, falta de agua o de humedad ambiental).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F8",
+        "F13",
+        "F14"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Necesita humedad ambiental alta y estable: la RHS indica que los bonsáis de interior requieren mucha luz, temperatura constante y humedad; NParks señala que la falta de humedad causa amarilleo y caída de hojas; bonsai4me considera que mantener la humedad en interior con calefacción es el problema central del cultivo de esta especie. Ninguna fuente prioritaria da cifras. Pulverizar las hojas no sube la humedad de forma útil (convención del proyecto; algunas fuentes de bonsái lo recomiendan y no se adopta): usar un humidificador en la habitación o agrupar plantas; una bandeja con grava y agua bajo la maceta, sin que la maceta toque el agua, puede ayudar de forma local (NYBG; bonsai4me). Nunca encima de un radiador.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F8",
+        "F14"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 15,
+      "ideal_max_c": 24,
+      "notas": "Mínimo adoptado 10 °C, el más conservador de las fuentes: Bonsai Empire pide mantenerla en invierno entre 10 y 20 °C y fuera solo con noches por encima de 10 °C; bonsai4me fija el límite en 7 °C. NC State (prioritaria) indica que en jardín resiste zonas USDA 7-11 pero pierde la hoja por debajo de unos 4 °C (40 °F); ese dato se refiere a planta en suelo en exterior y no se aplica a un bonsái en maceta. NC State subraya que prefiere temperaturas estables, con poca variación, y Bonsai Empire que no tolera bajadas bruscas. Sin heladas en ningún caso. Rango ideal de crecimiento 15-24 °C [orientativo, sin fuente prioritaria]; en invierno es buena una habitación luminosa y fresca de 10-20 °C (Bonsai Empire), mejor que un salón muy caldeado y seco. Máxima: ninguna fuente da cifra; con calor (más de 30 °C) aumentar la vigilancia del riego y protegerla del sol de tarde.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F13",
+        "F14"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de bonsái muy drenante pero que retenga algo de humedad: por ejemplo akadama sola o con un 20 % de grava volcánica (Mistral Bonsai), o la mezcla de la RHS para bonsái: 2 partes de sustrato universal sin turba, 2 partes de arena gruesa lavada o grava sin cal y 1 parte de John Innes nº 3 sin turba. NC State la sitúa en suelos ricos en materia orgánica, húmedos y con buen drenaje.",
+      "ph": "6,0-8,0 (NC State, 'neutro'); Bonsai Empire indica preferencia por pH neutro (7).",
+      "drenaje": "Imprescindible: maceta con agujeros grandes y malla, sin capa de agua en el plato. NParks: propensa a la podredumbre de raíces en suelos encharcados. Con mal drenaje o sustrato apelmazado aparece la pudrición radicular (Bonsai Empire).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F13",
+        "F15"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para bonsái o plantas verdes, o abono de liberación lenta añadido en el trasplante (RHS; Missouri Botanical Garden).",
+      "npk": "Equilibrado, tipo 20-20-20 (Missouri Botanical Garden) o equivalente; Bonsai Empire también recomienda N-P-K equilibrado.",
+      "primavera_verano": "Con crecimiento activo (aprox. marzo-septiembre en Madrid): ¼-½ de la dosis de etiqueta una vez al mes (convención del proyecto; la RHS recomienda dosis baja de abono líquido equilibrado y advierte que el exceso da crecimiento débil más expuesto a plagas). Abonar solo con el sustrato ya húmedo para no quemar las raíces (bonsai4me).",
+      "otono_invierno": "Nada mientras el crecimiento esté parado (convención del proyecto: nada en reposo). Algunas fuentes de bonsái (Bonsai Empire; bonsai4me) abonan una vez al mes en invierno a dosis baja si la planta está en sitio cálido y luminoso y sigue sacando brotes; solo en ese caso, y con ¼ de dosis.",
+      "notas": "No abonar una planta que acaba de tirar hojas, que está enferma o que no muestra brotes nuevos (Bonsai Empire; bonsai4me), ni el primer mes tras un trasplante. Revisión del orquestador: confianza bajada a Media porque las fuentes prioritarias citadas (guía de bonsái de RHS y FAQ de bonsái de MOBOT) son guías generales que no tratan la especie; los datos propios de Serissa vienen de fuentes complementarias.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F13",
+        "F14"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años en ejemplares jóvenes y cada 2-3 años en los formados (Bonsai Empire; Mistral Bonsai; bonsai4me). Missouri Botanical Garden indica cada 2-3 años para la mayoría de bonsáis de hoja no perenne.",
+      "epoca": "Principios de primavera, justo antes de que arranque el crecimiento (Missouri Botanical Garden; bonsai4me; Mistral Bonsai): en Madrid, marzo-abril.",
+      "senales": "Raíces que asoman por los agujeros o forman una maraña en el borde, agua que tarda en empaparse o resbala, sustrato descompuesto y apelmazado. Poda de raíces solo moderada: la serissa la tolera mal (Bonsai Empire; bonsai4me). Conservar todas las raíces finas que se pueda (Missouri Botanical Garden). Las raíces huelen mal al cortarlas, es normal y no indica pudrición si están firmes y claras (Bonsai Empire; Mistral Bonsai). Tras el trasplante, regar bien y dejarla en sitio luminoso sin sol directo y sin corrientes hasta que se asiente (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "notas": " Revisión del orquestador: confianza bajada a Media porque las fuentes prioritarias citadas (guía de bonsái de RHS y FAQ de bonsái de MOBOT) son guías generales que no tratan la especie; los datos propios de Serissa vienen de fuentes complementarias."
+    },
+    "poda": {
+      "necesita": "Sí, de forma regular para mantener la forma de bonsái (Missouri Botanical Garden; RHS). Responde muy bien: al podar rebrota con muchas ramas desde madera nueva y vieja (NParks; Mistral Bonsai).",
+      "epoca": "Poda fuerte a principios de primavera; pinzado de brotes durante todo el periodo de crecimiento (Bonsai Empire; Mistral Bonsai). En ejemplares en flor, la poda importante después de la floración (Bonsai Empire).",
+      "como": "Cuando un brote tenga 4-5 pares de hojas, recortarlo a 1-2 pares (Bonsai Empire; Mistral Bonsai; bonsai4me), dejando siempre suficiente follaje para mantener el vigor (Missouri Botanical Garden). Cada 2-3 años cortar ramas hasta madera vieja para compactar la copa (Bonsai Empire). Eliminar los chupones que salen de la base del tronco salvo que se quiera un estilo de varios troncos (bonsai4me; Mistral Bonsai). Las ramas son delicadas: alambrar con mucho cuidado y retirar el alambre antes de que marque la corteza, a los 6 meses aproximadamente (Bonsai Empire). Herramientas limpias y afiladas. El olor desagradable al cortar es normal (UNF Botanical Garden).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F7",
+        "F9",
+        "F13",
+        "F14",
+        "F15"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semi-reposo de otoño a finales de invierno (aprox. noviembre-febrero en Madrid), por menos luz y menos horas de día.",
+      "cambios": "Crecimiento más lento: reducir el riego y suspender el abonado cuando el crecimiento se frena (Missouri Botanical Garden). Mantener en interior entre 10 y 20 °C, con la máxima luz posible (Bonsai Empire). No es un reposo estricto: si está cálida y bien iluminada puede seguir brotando y algunas fuentes de bonsái siguen abonando con dosis baja (Bonsai Empire; bonsai4me). Al salir del invierno es normal que pierda algunas hojas viejas para sacar nuevas (RHS, bonsái de interior).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F13"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo semileñosos",
+        "esquejes de madera blanda",
+        "esquejes de raíz"
+      ],
+      "epoca": "Esquejes de madera blanda en primavera o principios de verano; semileñosos a finales de verano (bonsai4me). En Madrid, mayo-septiembre.",
+      "pasos": "1) Cortar puntas de 5-8 cm con varios pares de hojas [orientativo, sin fuente prioritaria]. 2) Quitar las hojas del tercio inferior. 3) Plantar en un sustrato ligero y drenante (por ejemplo turba o fibra de coco con arena o perlita a partes iguales) siempre húmedo, sin encharcar. 4) Mantener con luz brillante sin sol directo y humedad alta, por ejemplo bajo una bolsa transparente ventilada a diario. 5) El calor de fondo ayuda al enraizamiento (bonsai4me). NParks indica el esqueje de tallo como método de propagación y Bonsai Empire señala que enraíza con facilidad; NC State cita como estrategia recomendada el esqueje de raíz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F13",
+        "F14"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "El problema más típico de la serissa: tira hojas (a menudo tras amarillear) al cambiarla de sitio, al traerla de la tienda, al cambiar la luz, la temperatura o el riego (Bonsai Empire; bonsai4me; NParks). Elegir un sitio definitivo, no moverla, mantener riego regular; suele rebrotar en días o semanas si las condiciones son buenas."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general con caída de hojas por riego incorrecto (exceso o altibajos), ubicación inadecuada o humedad ambiental baja (NParks; bonsai4me). Revisar primero el riego y el drenaje."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas que amarillean y caen por exceso de riego o sustrato encharcado (bonsai4me; Mistral Bonsai). Si es solo alguna hoja vieja en primavera, puede ser renovación normal (RHS)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas marrones, secas y crujientes por falta de agua (cepellón seco del todo) o aire muy seco por calefacción o calor de verano (bonsai4me)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego, plato con agua o sustrato apelmazado (NParks; Bonsai Empire). Ojo: las raíces sanas también huelen mal al cortarlas; lo que indica pudrición es que estén marrones o negras, blandas y se deshagan. Trasplantar, retirar raíces dañadas y usar sustrato nuevo drenante (Bonsai Empire)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Brotes largos con hojas separadas y pálidas y sin flor por falta de luz, sobre todo en invierno o lejos de la ventana (RHS; Bonsai Empire)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco de la calefacción y del verano en interior (NC State; Bonsai Empire)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino amarillento en las hojas, primer signo de araña roja (NC State; Bonsai Empire)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos en primavera (Bonsai Empire). Bonsai Empire cita también pulgón de raíz."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Pulgón lanígero ('woolly aphis', NC State) o cochinilla algodonosa en axilas y ramas."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en ramas y nervios (NC State; NParks; bonsai4me)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (NC State), sobre todo con mala ventilación."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C, aire muy seco (HR exterior ≈38 % en julio) y sol fuerte: en interior, ventana este o sur con cortina fina; nunca sol de tarde tras el cristal en ventanas sur y oeste. Comprobar el sustrato cada mañana y, en olas de calor, también por la tarde: una maceta de bonsái puede secarse del todo en un día (Missouri Botanical Garden; RHS). Usar humidificador o agrupar plantas y alejarla del chorro del aire acondicionado. Opción de exterior: varias fuentes recomiendan pasar el periodo cálido fuera (Bonsai Empire; bonsai4me; Mistral Bonsai, vivero mediterráneo), lo que en Madrid es posible de mayo a principios de octubre con noches por encima de 10 °C, en terraza o balcón con sol de mañana y sombra a mediodía y tarde, protegida del viento. Como la serissa tira hojas al cambiar de sitio, hacer solo dos traslados al año (primavera y otoño), de forma gradual a lo largo de 1-2 semanas, y no volver a moverla durante el verano.",
+    "invierno": "Dentro de casa cuando las noches bajen de 10 °C (en Madrid, de mediados de octubre a abril). Lugar luminoso y fresco, idealmente 10-20 °C (Bonsai Empire): ventana sur o este a menos de 1 m del cristal, sin tocarlo. Con calefacción la humedad interior baja a menudo del 30 %: humidificador en la habitación, nunca sobre un radiador ni frente a salidas de aire caliente (bonsai4me). Cristales fríos: de noche no dejarla entre la cortina y el cristal ni pegada a él, porque allí la temperatura cae mucho (bonsai4me); evitar corrientes de puertas y ventanas al ventilar. Seguir comprobando el riego a diario o cada dos días: la calefacción seca la maceta. Si falta luz (días cortos, piso interior), lámpara de cultivo LED.",
+    "ubicacion_recomendada": "Sitio fijo junto a una ventana este o sur (sur con cortina en verano), a menos de 1 m del cristal, lejos de radiadores, aire acondicionado y corrientes; con humidificador en invierno. Opcionalmente, en exterior en semisombra de mayo a principios de octubre, con transiciones graduales. No moverla una vez que se ha adaptado."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Serissa japonica (Thunb.) Thunb. (Nov. Gen. Pl. 9: 132, 1798) y trata Serissa foetida (L.f.) Willd. [también citada como (L.f.) Lam.], Lycium foetidum L.f., Lycium japonicum Thunb., Serissa crassiramea, Serissa serissoides y Buchozia japonica como sinónimos. Flora of China, NC State, NParks, EPPO y RHS también usan Serissa japonica. Se conserva Serissa foetida como nombre de la ficha por la lista maestra; la app debe reconocer ambos nombres. Una propuesta de 2021 (Candollea 76) la traslada a Buchozia japonica.",
+    "Toxicidad: ASPCA no tiene ficha de la especie ni de sus sinónimos o nombres comunes, y no se ha encontrado otra fuente prioritaria (NC State sin datos); queda como desconocida para perros, gatos y niños.",
+    "No existe ficha de cultivo en interior de un servicio de extensión agraria para esta especie: NC State, NParks y UNF tratan su cultivo en exterior; los datos de riego, abono, trasplante y poda en interior proceden de guías generales de bonsái de jardines botánicos (RHS, Missouri Botanical Garden, NYBG) y de fuentes complementarias de bonsái (Bonsai Empire, bonsai4me, Mistral Bonsai). La guía de la Universidad de Michigan sobre bonsái de interior no se pudo abrir (bloqueo 403) y no se cita.",
+    "Humedad relativa: ninguna fuente prioritaria da cifras; min_pct e ideal_pct quedan en null.",
+    "Temperatura máxima: ninguna fuente da cifra; max_c en null. Rango ideal 15-24 °C orientativo.",
+    "Luz en lux: ninguna fuente da cifras; el rango es orientativo según la escala del proyecto.",
+    "Varias fuentes de bonsái (Bonsai Empire, NYBG, RHS) recomiendan pulverizar el follaje; no se adopta porque contradice la convención del proyecto (pulverizar no sube la humedad de forma útil).",
+    "Temperatura mínima: las fuentes complementarias dan 7 °C (bonsai4me) y 10 °C (Bonsai Empire); NC State, para planta en jardín, indica caída de hoja por debajo de 4 °C. Se adopta 10 °C, la más conservadora."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:766327-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew: Serissa japonica (Thunb.) Thunb.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242425541",
+      "institucion": "Flora of China vol. 19: 324 (2011), eFloras (Missouri Botanical Garden / Harvard University Herbaria): Serissa japonica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/serissa-japonica/",
+      "institucion": "North Carolina State University Extension, NC Extension Gardener Plant Toolbox: Serissa japonica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2453",
+      "institucion": "National Parks Board de Singapur (NParks, gestor del Singapore Botanic Gardens), Flora & Fauna Web: Serissa japonica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/76503/serissa-japonica/details",
+      "institucion": "Royal Horticultural Society (RHS), perfil de Serissa japonica (sinónimo Serissa foetida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/types/trees/bonsai",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo 'Bonsai' (incluye bonsái de interior)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/950/how-do-i-care-for-a-bonsai-plant",
+      "institucion": "Missouri Botanical Garden, Gardening Help FAQ 'How do I care for a bonsai plant?' (cita Serissa como bonsái tropical de interior)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://libanswers.nybg.org/faq/223000",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service (riego de bonsáis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://unf.edu/botanical-garden/plants/serissa-foetida.html",
+      "institucion": "University of North Florida Botanical Garden: Serissa foetida",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center, lista de plantas tóxicas y no tóxicas para gatos",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center, lista de plantas tóxicas y no tóxicas para perros",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://gd.eppo.int/taxon/SSIFO",
+      "institucion": "EPPO Global Database: Serissa japonica (SSIFO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://www.bonsaiempire.com/tree-species/serissa",
+      "institucion": "Bonsai Empire (portal especializado en bonsái): guía de Serissa",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://bonsai4me.com/?p=1667",
+      "institucion": "Bonsai4me (Harry Harrington, guía especializada de bonsái): Serissa foetida",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://mistralbonsai.com/en/all-about-bonsai/bonsai-datasheets/indoor-bonsai/serissa-phoetida",
+      "institucion": "Mistral Bonsai (vivero especializado de Tarragona, España): ficha Serissa phoetida",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,344 @@
+{
+  "nombre_cientifico": "Phoenix roebelenii",
+  "nombres_comunes": [
+    "palmera pigmea",
+    "datilera enana",
+    "palmera datilera enana",
+    "fénix enana",
+    "palmera de Roebelen"
+  ],
+  "familia": "Arecaceae",
+  "origen": "Sudeste asiático. POWO (Kew): nativa del centro-sur de China (Yunnan), Laos, Myanmar, Tailandia y Vietnam; introducida en Assam y Trinidad y Tobago. NC State: crece a orillas de ríos de corriente rápida del sur de China, Laos, Myanmar, Tailandia y Vietnam. RHS: de China a Indochina.",
+  "clima_nativo": "Tropical y subtropical monzónico de riberas fluviales (NC State: orillas de ríos de corriente rápida). No soporta heladas fuertes: zonas USDA 10a-11b (NC State); UF/IFAS la da resistente hasta la zona 10A (-1 °C, 30 °F) y la ve cultivada en la 9B (-4 °C, 25 °F), siempre plantada en el suelo al aire libre en Florida. En el Reino Unido la RHS la clasifica como H1B: puede salir al exterior en verano, con mínimas de 10-15 °C.",
+  "categoria": "palmera",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas pinnadas (en forma de pluma), arqueadas, de 60-115 cm de largo (NC State: 24-45 pulgadas; Clemson: hasta 90 cm en interior), con unos 100 folíolos lineares-lanceolados de 15-25 cm de largo y alrededor de 1,3 cm de ancho, verde grisáceo, finos, blandos y colgantes en la punta (NC State). Rasgo de identificación clave: los folíolos están doblados a lo largo en forma de V hacia arriba (NC State), y los folíolos inferiores de cada hoja se transforman en espinas rígidas y muy afiladas de 5-7,5 cm (UF/IFAS: 2-3 pulgadas) en la base del peciolo. El envés lleva escamas (NC State). Las hojas jóvenes salen cubiertas de un material blanquecino natural que cae solo con la edad; UF/IFAS advierte de que se confunde a menudo con mosca blanca, cochinilla algodonosa o cochinilla de escudo. Las hojas forman una corona densa.",
+    "nerviacion": "Paralela, típica de monocotiledónea: cada folíolo tiene un nervio central marcado (en el pliegue de la V) y nervios longitudinales paralelos.",
+    "variegacion": "Sin variegación: follaje verde grisáceo uniforme. Un tono amarillo-anaranjado en las hojas viejas o una banda amarilla en el borde de la hoja indica carencia de potasio o de magnesio (UF/IFAS), no un rasgo varietal.",
+    "tallo": "Tronco único, delgado y a menudo torcido, de 7,5-15 cm de diámetro, cubierto de restos de bases foliares en forma de clavija o tacón que le dan un aspecto rugoso y gris oscuro (UF/IFAS, NC State). Se ensancha hacia la corona (NC State). Los ejemplares viejos tienen en la base del tronco una masa de raíces aéreas incipientes (UF/IFAS). Tarda muchos años en formar tronco visible (Clemson). Clave: es de tronco único, pero en vivero se plantan 2-5 ejemplares juntos en la misma maceta (UF/IFAS: 2-4; NC State: 3 o 5), que con el tiempo se arquean separándose y parecen una palmera de varios troncos. En la naturaleza forma hijuelos, pero la mayoría de los ejemplares cultivados no los forma (NC State).",
+    "habito": "Palmera pequeña, de crecimiento lento y porte erguido a extendido, con una corona redondeada de hojas finas y arqueadas (NC State, Clemson). Es dioica: las flores, color crema, salen en primavera en panículas de unos 30 cm entre las hojas, con flores masculinas y femeninas en plantas distintas (NC State, UF/IFAS). Las hembras dan drupas elipsoidales de unos 1,3 cm, pardo-rojizas que pasan a púrpura oscuro o negro al madurar, parecidas a un dátil de piel fina, y comestibles (NC State, UF/IFAS). En interior florece y fructifica pocas veces [orientativo, sin fuente prioritaria].",
+    "tamano_adulto_interior": "En interior suele quedarse en 1,5-1,8 m de alto (NC State: 5-6 pies). RHS: 1,5-2,5 m de alto y de ancho, alcanzados en 20-50 años. Al aire libre en clima tropical llega a unos 2 m de alto por 1,5 m de ancho (NC State) y hasta unos 3,6 m con los años (UF/IFAS: unos 12 pies; Clemson: puede llegar a 12 pies con el tiempo).",
+    "confusiones": [
+      {
+        "especie": "Chamaedorea elegans (camadorea, palmera de salón)",
+        "rasgo_diferenciador": "No tiene espinas en ninguna parte, sus folíolos son planos y de verde medio a claro (no doblados en V ni verde grisáceo) y sus tallos son lisos y verdes, como cañas, sin restos de bases foliares. Florece a menudo en interior con panículas amarillas. NC State la cita como confusión frecuente."
+      },
+      {
+        "especie": "Chamaedorea seifrizii (palmera bambú)",
+        "rasgo_diferenciador": "Forma una mata de muchos tallos finos, verdes y lisos tipo caña, con folíolos más cortos y separados y sin espinas. P. roebelenii tiene un tronco rugoso por las bases foliares, una corona densa de unos 100 folíolos por hoja y espinas en la base del peciolo. NC State la cita como confusión frecuente."
+      },
+      {
+        "especie": "Cycas revoluta (cica, palma de sagú)",
+        "rasgo_diferenciador": "No es una palmera: es una cícada con hojas muy rígidas, coriáceas, de verde oscuro brillante y con folíolos de borde enrollado y punta pinchuda. Sus hojas nuevas salen todas a la vez en una corona de golpe, desde un tronco grueso. Es MUY TÓXICA para mascotas y personas, al contrario que P. roebelenii. Distinguirlas es crítico. NC State la cita como confusión frecuente."
+      },
+      {
+        "especie": "Butia odorata (palmera de la jalea)",
+        "rasgo_diferenciador": "Hojas mucho más rígidas, arqueadas hacia el suelo y de color verde azulado o glauco, con peciolos con dientes a lo largo (no espinas que sean folíolos modificados) y tronco grueso. Es una palmera de exterior grande que rara vez se tiene en interior. NC State la cita como confusión frecuente."
+      },
+      {
+        "especie": "Phoenix canariensis (palmera canaria), ejemplares jóvenes",
+        "rasgo_diferenciador": "Del mismo género y también con folíolos basales convertidos en espinas, pero con hojas mucho más largas y rígidas, folíolos verde intenso más duros y un tronco que engorda muchísimo; no es una planta de interior duradera. P. roebelenii es enana, de folíolos finos, blandos, colgantes y verde grisáceo."
+      },
+      {
+        "especie": "Dypsis lutescens (areca)",
+        "rasgo_diferenciador": "Forma matas de muchos tallos lisos con anillos y peciolos amarillo-dorados, sin espinas. P. roebelenii tiene peciolos verdes con espinas afiladas en la base y tronco cubierto de bases foliares."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: ASPCA la incluye como no tóxica para perros, gatos y caballos, sin principios tóxicos (ficha 'Miniature Date Palm', con el nombre mal escrito 'Phoenix robellinii'). NC State la etiqueta como no tóxica para gatos, perros y caballos. ASPCA recuerda que comer cualquier material vegetal puede causar vómitos o molestias digestivas leves. Personas: NC State indica que las drupas son comestibles y no señala toxicidad. RIESGO FÍSICO IMPORTANTE: los folíolos inferiores de cada hoja son espinas muy afiladas de 5-7,5 cm (UF/IFAS, NC State). NC State pide precaución al manipular las hojas. Pueden pinchar ojos, manos y hocicos. Coloca la planta lejos de pasillos y de la altura de la cara de niños pequeños y mascotas, y usa guantes y gafas al podar o trasplantar.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F1"
+    ],
+    "notas": "Mascotas: Alta (ASPCA y NC State coinciden). Niños: no se ha encontrado una ficha de un centro de toxicología humana. 'no_toxica' se basa en NC State (fruto comestible, sin toxicidad señalada), por lo que para niños la confianza real es Media. El riesgo principal para niños y mascotas es mecánico (espinas), no químico. Comprueba que la planta es de verdad P. roebelenii y no Cycas revoluta, que es muy tóxica y se le parece a primera vista."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 2152,
+      "lux_max": 10760,
+      "orientacion_hn": "En interior, lo ideal es una ventana este con sol de mañana (Clemson). Sirve también una ventana sur u oeste con visillo en verano o a 1-2 m del cristal [orientativo, sin fuente prioritaria]. En invierno, acércala a la ventana sur u oeste más luminosa (RHS guía de palmeras de interior). Evita el centro de habitaciones oscuras o las ventanas norte sin otra luz: necesita más luz que la camadorea o la kentia.",
+      "tolera_sol_directo": "Parcialmente. Al aire libre tolera pleno sol o semisombra (NC State) y en Florida se cultiva en jardín a pleno sol (UF/IFAS). En interior, el sol fuerte a través del cristal quema las hojas de la mayoría de las palmeras (RHS guía), y NC State y la RHS piden protegerla del sol fuerte de la tarde. Acepta bien el sol directo de primera hora de la mañana o de invierno. Si sale a la terraza, acostúmbrala poco a poco a más luz durante 1-2 semanas (Clemson). Una planta de interior sacada de golpe al sol se quema (RHS guía, Clemson).",
+      "notas": "NC State: prefiere luz media a alta. RHS ficha: luz brillante indirecta con sombra del sol fuerte. Clemson: crece mejor con luz brillante indirecta. Univ. Kentucky: necesita al menos 200-500 fc (unos 2.150-5.400 lux) para verse bien. El límite inferior, 2.152 lux (200 fc), es el mínimo de Kentucky. El superior, 10.760 lux (1.000 fc), es el techo de la escala 'brillante indirecta' del proyecto: por encima, solo con aclimatación y sin sol de tarde tras cristal. Con poca luz se debilita y se vuelve más vulnerable a ácaros y cochinillas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F6",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprueba el sustrato con el dedo a 2-3 cm (5 cm en macetas grandes) y levanta la maceta para notar su peso. En primavera-verano, riega cuando los 2-3 cm superiores empiecen a secarse, sin dejar que el cepellón se seque del todo (Clemson: regar a fondo cuando la superficie se seca; NC State: mantener ligeramente húmedo). En invierno, deja que la superficie se seque algo más antes de regar (RHS guía). Riega a fondo hasta que el agua salga por los agujeros y vacía el plato a los 10-15 minutos: nunca debe quedar en agua estancada (Clemson, RHS guía). Nunca riegues por calendario.",
+      "primavera_verano": "Riego moderado y regular (RHS ficha: regar moderadamente en crecimiento). El sustrato no debe secarse del todo nunca (RHS guía, Clemson). Como orientación, en interior a 20-27 °C eso suele suponer regar cada 5-10 días; en una terraza en verano, más a menudo. Confirma siempre con el dedo y el peso de la maceta [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Riego escaso (RHS ficha: regar con moderación en invierno). Deja que la superficie se seque algo antes de volver a regar (RHS guía). Con calefacción el sustrato se seca antes que en una casa fresca: guíate por el dedo y el peso, no por la fecha.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Le sirve el agua del grifo. El agua de Madrid (Canal de Isabel II) es blanda (10-47 mg/L de CaCO3) y no le supone ningún problema; dejarla reposar no elimina la cloramina, pero tampoco hace falta. La RHS advierte de que regar a menudo con agua muy dura puede causar manchas marrones en palmeras, algo que no ocurre con el agua de Madrid. Lo que sí causa puntas marrones son las sales de abono acumuladas (Clemson): para evitarlo, riega a fondo de vez en cuando hasta que el agua salga abundante por abajo.",
+      "notas": "NC State: el exceso de riego provoca pudrición de raíces. Univ. Kentucky: ninguna de las palmeras de interior habituales tolera el exceso de riego. Clemson: el sustrato encharcado pudre las raíces y no debe secarse del todo. Al aire libre en el suelo resiste la sequía (NC State), pero en maceta sufre si el cepellón se seca del todo: aparecen puntas marrones (RHS guía). Las macetas demasiado grandes se quedan húmedas demasiado tiempo (UF/IFAS EP262).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "NC State: prefiere humedad media a alta. Clemson (palmeras de interior en general): si la humedad baja del 50 %, conviene subirla, por ejemplo con un humidificador. RHS guía: con calefacción central o mucho calor en verano hay que mantener la humedad; el aire seco causa puntas marrones y hojas sin brillo. Siguiendo la convención del proyecto, usa un humidificador o agrupa plantas: pulverizar las hojas no sube la humedad de forma útil (la RHS y Clemson proponen pulverizar, pero el proyecto lo descarta como medida eficaz). Una bandeja con grava y agua, sin que la maceta toque el agua, es un complemento menor. El aire seco favorece la araña roja, su plaga más señalada en interior (Univ. Kentucky). Ninguna fuente prioritaria da un mínimo tolerable en cifras (laguna): el 50 % es el umbral orientativo de Clemson para palmeras de interior.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 27,
+      "notas": "RHS guía de palmeras de interior: mínima nocturna invernal de 10-13 °C para palmeras como Phoenix (16 °C solo para Chamaedorea, Howea y Cocos), con días de verano 3-8 °C más cálidos si hay ventilación. RHS ficha: H1B, es decir, puede salir al exterior en verano, con mínimas de 10-15 °C. Clemson (palmeras de interior en general): ideal 16 °C de noche y 21-27 °C de día; en reposo invernal muchas agradecen 13-16 °C. UF/IFAS: resistente hasta -1 °C (zona 10A) y cultivada hasta -4 °C (zona 9B). Pero ese dato es para palmeras plantadas en el suelo y aclimatadas en el exterior de Florida, no para una maceta: no se usa para fijar el mínimo. Se adopta como mínimo seguro 13 °C, el valor más alto del intervalo que la RHS exige para Phoenix en interior, coherente con la banda H1B. Ninguna fuente da una temperatura máxima tolerable (laguna). NC State la describe como resistente al calor, y 27 °C es solo el techo del rango ideal de Clemson. Evita las corrientes frías de invierno (NC State) y los radiadores (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F5",
+        "F1",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior o para palmeras, bien aireado y con materia orgánica, que retenga algo de humedad pero drene bien (NC State: mezcla húmeda y bien drenada; Clemson: porosa y con abundante materia orgánica). La RHS recomienda un sustrato con base de tierra franca y sin turba (tipo John Innes nº 2) o uno universal, y añadir arena gruesa al trasplantar para mejorar el drenaje. UF/IFAS (EP262): usa un sustrato duradero y bien aireado que no se degrade rápido, porque la corteza y la turba descompuestas se apelmazan, ahogan las raíces y provocan carencia de hierro.",
+      "ph": "Ácido a neutro: NC State admite suelos ácidos (<6,0) y neutros (6,0-8,0); la RHS admite ácido, neutro o alcalino. En suelo alcalino aparece con frecuencia carencia de manganeso (UF/IFAS), por lo que conviene un sustrato ligeramente ácido a neutro, de pH 6-7 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: maceta con agujeros, sin plato encharcado. No uses una maceta mucho mayor que el cepellón, porque se mantiene húmeda demasiado tiempo (UF/IFAS EP262). UF/IFAS ST441: la carencia de hierro aparece en suelos mal drenados o al plantar demasiado hondo; deja el cuello a la misma altura que tenía.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F7",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono para palmeras con magnesio y micronutrientes (hierro, manganeso, zinc, boro, cobre), de liberación lenta o líquido. Para palmeras, UF/IFAS y Clemson recomiendan proporciones tipo 8-2-12 (o 12-4-12), con potasio alto y magnesio. En maceta, UF/IFAS (EP262) indica que el nitrógeno es el nutriente que más se agota y que el magnesio del sustrato se acaba en unos 6 meses. Por eso conviene que el abono lleve magnesio.",
+      "npk": "8-2-12 o similar, con magnesio (UF/IFAS, Clemson)",
+      "primavera_verano": "Siguiendo la convención del proyecto: abono líquido a ¼-½ de la dosis de la etiqueta, una vez al mes, de abril a mediados de septiembre y solo con crecimiento activo. Otra opción es un abono de liberación lenta para palmeras 2-3 veces por temporada, a la dosis mínima (Clemson). No abones hasta 6-8 semanas después de trasplantar (RHS guía).",
+      "otono_invierno": "Nada: sin abono en otoño ni invierno, cuando no está creciendo (RHS guía: solo de abril a mediados de septiembre; Clemson: solo en primavera-verano con crecimiento activo).",
+      "notas": "Carencias típicas según UF/IFAS (ST441), muy relevantes para el diagnóstico. 1) Potasio: en Florida casi todos los ejemplares plantados en jardín la tienen. Se ve en las hojas más viejas: decoloración amarillo-anaranjada que empeora hacia la punta de la hoja y puntas de folíolos secas, y las hojas mueren antes de tiempo. En maceta es poco frecuente (UF/IFAS EP262). 2) Magnesio: en las hojas viejas, una banda amarilla ancha en el borde de la hoja con el centro verde intenso y sin puntas secas. Aparece si la planta lleva mucho tiempo en la misma maceta o con abonos sin magnesio (EP262, ST441). 3) Hierro: hojas nuevas amarillas por igual. Se debe a un sustrato encharcado o degradado o a la pudrición de raíces, y se corrige mejorando el drenaje o renovando el sustrato, no con más hierro (EP262). 4) Manganeso: en las hojas nuevas, rayas necróticas y folíolos rizados o 'chamuscados' en la base de la hoja. Aparece en sustratos alcalinos (ST441). 5) Boro: hojas lanza que no se abren o salen arrugadas (ST441). Clemson: el exceso de abono daña las palmeras y quema las puntas de las hojas inferiores. RHS guía: abonar cada quince días de abril a mediados de septiembre; RHS ficha: una vez al mes; Clemson: solo 2-3 veces al año. Se adopta la opción más prudente: dosis reducida una vez al mes (convención del proyecto).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F7",
+        "F5",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, y solo si las raíces llenan la maceta (Clemson; RHS guía: cada dos años si está apretada, hasta llegar a macetas de 20-30 cm). Prefiere estar algo justa de maceta y no necesita trasplantes frecuentes (NC State). En macetas grandes, en los años sin trasplante, cambia los 5 cm superiores de sustrato por sustrato nuevo (RHS guía).",
+      "epoca": "Principios de primavera (RHS guía) o, si hace falta, hasta principios de verano (Clemson).",
+      "senales": "Raíces que salen por los agujeros de drenaje o asoman en la superficie. Agua que se escurre sin empapar el cepellón. Sustrato apelmazado o degradado que se encharca, a veces con hojas nuevas amarillas por carencia de hierro (UF/IFAS EP262).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "notas": "Clemson: muchas palmeras tienen las raíces frágiles; manipula el cepellón con cuidado y sin romperlo. Pasa a una maceta solo 2-5 cm mayor [orientativo, sin fuente prioritaria] y no la entierres más hondo de lo que estaba (UF/IFAS ST441). Usa guantes gruesos, manga larga y gafas por las espinas de la base de las hojas (NC State, UF/IFAS)."
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS ficha). Solo hay que retirar las hojas completamente secas.",
+      "epoca": "En cualquier momento, cuando una hoja esté totalmente seca y marrón.",
+      "como": "Corta la hoja seca con tijera limpia y afilada cerca del tronco, sin arrancarla tirando (RHS guía). No quites hojas que aún tengan partes verdes o amarillo-anaranjadas: UF/IFAS (ST441, EP443) explica que las hojas con carencia de potasio sirven de reserva de potasio para la planta, y un estudio en esta misma especie (Broschat 1994, HortScience) demostró que retirarlas acelera su declive. Si las puntas están secas, puedes recortar solo la parte marrón, dejando un borde fino marrón sin cortar el tejido verde (RHS guía). Usa siempre guantes gruesos y gafas: los folíolos de la base del peciolo son espinas muy afiladas (NC State, UF/IFAS). UF/IFAS (EP443) recomienda desinfectar las herramientas entre palmeras, porque algunas enfermedades del género Phoenix se transmiten al podar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2",
+        "F8",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno en el hemisferio norte (en Madrid, de mediados de octubre a marzo), cuando baja la luz. En el hemisferio sur, de abril a septiembre.",
+      "cambios": "Riega menos, dejando que la superficie se seque algo entre riegos (RHS ficha y guía). No abones (RHS guía: abonar solo de abril a mediados de septiembre). Acércala a la ventana más luminosa (RHS guía). Mantén mínimas de al menos 13 °C, lejos de radiadores, corrientes frías y cristales fríos (RHS guía, NC State). Clemson indica que muchas palmeras agradecen un invierno algo más fresco, de 13-16 °C, cuando no crecen.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "separación de los ejemplares de una maceta con varias plantas (con riesgo)"
+      ],
+      "epoca": "Primavera (RHS ficha), con calor.",
+      "pasos": "Por semilla (el método habitual en palmeras, según Clemson y la RHS): 1) Usa semilla fresca y siémbrala cuanto antes: en las palmeras pierde viabilidad a las 8-16 semanas de la cosecha (RHS guía). Solo se forma en plantas hembra si hay un macho cerca, porque la especie es dioica (NC State). 2) Cubre la semilla con una capa de sustrato de semillero de su mismo grosor (RHS guía). 3) Mantenla a 19-24 °C (RHS ficha) o con calor de fondo de 25-30 °C en un propagador (RHS guía), con el sustrato siempre húmedo. 4) La germinación de las palmeras suele tardar de 2 a 8 meses (RHS guía); ten paciencia. 5) Cuando la plántula tenga su primera hoja, pásala a una maceta de 9 cm (RHS guía). Separar plantas: como en vivero se plantan 2-5 ejemplares de tronco único en la misma maceta (UF/IFAS, NC State), se pueden separar al trasplantar en primavera. Clemson indica que algunas palmeras admiten división, pero tienen raíces frágiles: separar raíces muy entrelazadas puede matar alguno de los ejemplares. Hazlo solo si las raíces se separan con facilidad. La mayoría de los ejemplares cultivados no forma hijuelos (NC State), así que en la práctica no se puede multiplicar por hijuelos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F1"
+      ],
+      "notas": "Siembra: Alta (RHS ficha y guía). Separación de ejemplares: Media, porque ninguna fuente prioritaria describe el procedimiento para esta especie; solo hay indicaciones generales para palmeras (Clemson)."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas amarillo-anaranjadas, sobre todo hacia la punta de la hoja, con puntas de folíolos secas: carencia de potasio (UF/IFAS ST441; en maceta es menos común, según EP262). Si el borde de la hoja tiene una banda amarilla ancha, el centro sigue verde intenso y no hay puntas secas, es carencia de magnesio, típica de plantas que llevan mucho tiempo en la misma maceta o abonadas sin magnesio (UF/IFAS EP262, ST441). Algo de amarilleo esporádico en las hojas más bajas es envejecimiento normal (RHS guía). No cortes estas hojas hasta que estén secas del todo; corrige con abono para palmeras con potasio y magnesio."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones: aire seco con calefacción, sustrato que se secó del todo o corrientes (RHS guía), sales de abono acumuladas (Clemson) o carencia de potasio en las hojas viejas (UF/IFAS). No se debe al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Hojas nuevas amarillas por igual: carencia de hierro por un sustrato encharcado, degradado y mal aireado, por plantar demasiado hondo o por pudrición de raíces (UF/IFAS ST441, EP262). Se arregla mejorando el drenaje o renovando el sustrato, no añadiendo hierro."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas con rayas necróticas y folíolos rizados y 'chamuscados' hacia la base de la hoja: carencia de manganeso, frecuente en sustratos alcalinos. Varias hojas lanza que no se abren o salen arrugadas: carencia de boro (UF/IFAS ST441)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros): la RHS la cita como plaga habitual bajo cristal y la Univ. de Kentucky pide vigilar especialmente los ácaros en esta especie. La favorecen el aire seco de la calefacción y del verano de Madrid."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado en los folíolos: ácaros (Univ. Kentucky, RHS) o trips de banda de invernadero (NC State los cita entre sus insectos habituales)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en folíolos y peciolos (RHS ficha; NC State cita la cochinilla del helecho y la sensibilidad a cochinillas). A menudo con melaza pegajosa."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (UF/IFAS, RHS guía). OJO: las hojas jóvenes de esta especie salen cubiertas de un material blanquecino natural que cae solo con la edad. UF/IFAS advierte de que se confunde a menudo con cochinilla algodonosa, mosca blanca o cochinilla de escudo. Si no se mueve, no deja melaza y está repartido por igual en la hoja nueva, es normal."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (NC State) y lesiones necróticas en folíolos, raquis y peciolos por Pestalotiopsis, más frecuentes en los meses frescos (UF/IFAS ST441). Las manchas marrones también pueden deberse a exceso de riego o a un enfriamiento brusco (RHS guía)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego, maceta sobredimensionada o plato con agua estancada (NC State, Clemson, UF/IFAS EP262). Primero se ven hojas que amarillean, pardean y se marchitan con el sustrato húmedo (RHS guía)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemaduras al sacarla de golpe al sol de una terraza o al ponerla tras un cristal soleado de sur u oeste en verano, sin aclimatarla (RHS guía, Clemson)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias o marchitas: sustrato demasiado seco o encharcado (RHS guía). Comprueba la humedad del sustrato antes de regar."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio): en interior, junto a una ventana este; en ventana sur u oeste, con visillo o separada del cristal, porque el sol tras cristal quema (RHS guía). Comprueba el sustrato más a menudo: con calor y aire seco el cepellón se seca antes, y no debe secarse del todo (RHS guía, Clemson). Vacía siempre el plato. Usa humidificador o agrupa plantas si hay aire acondicionado o mucho calor seco, y revisa el envés cada 1-2 semanas por si hay araña roja. TERRAZA: puede pasar el verano fuera (RHS: H1B; NC State: en patio sombreado; Clemson: las palmeras agradecen el verano fuera), en semisombra o con sol solo de mañana, protegida del sol de tarde y del viento, y acostumbrándola a la luz poco a poco durante 1-2 semanas. Sácala cuando las mínimas nocturnas superen de forma estable los 13 °C (en Madrid, normalmente desde mediados de mayo [orientativo, sin fuente prioritaria]) y no la dejes sobre un suelo que arda al sol.",
+    "invierno": "Debe pasar el invierno dentro de casa: en Madrid no conviene dejarla en la terraza. Su resistencia de -1 a -4 °C (UF/IFAS) es para palmeras plantadas en el suelo y aclimatadas en Florida. En maceta las raíces se enfrían más, y la RHS la clasifica como H1B (solo exterior en verano). Métela antes de que las mínimas bajen de 13 °C, normalmente a principios o mediados de octubre en Madrid [orientativo, sin fuente prioritaria]. Dentro: lejos de radiadores y corrientes (RHS guía, NC State), sin hojas tocando cristales fríos y junto a la ventana más luminosa, sur u oeste (RHS guía). Con calefacción la humedad baja a menudo del 30 %: usa humidificador o agrupa plantas para bajar el riesgo de puntas marrones y araña roja. Riega menos y deja secar algo la superficie, pero vigila: la calefacción seca la maceta más deprisa. No abones de octubre a marzo.",
+    "ubicacion_recomendada": "Salón o estancia muy luminosa, junto a una ventana este o a 1-2 m de una ventana sur u oeste con visillo, fuera de las zonas de paso y lejos de la altura de la cara de niños pequeños y mascotas, por sus espinas. De mediados de mayo a principios de octubre puede vivir en una terraza resguardada en semisombra; el resto del año, dentro."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Phoenix roebelenii O'Brien (autor: O'Brien). La página de POWO consultada no mostraba sinónimos; no se han comprobado sinónimos heterotípicos. ASPCA la registra con el nombre mal escrito 'Phoenix robellinii' (ficha 'Miniature Date Palm').",
+    "Temperatura máxima tolerable: ninguna fuente prioritaria da una cifra (NC State solo dice que resiste el calor). max_c queda en null.",
+    "Humedad mínima tolerable: ninguna fuente prioritaria da una cifra específica para la especie. El 50 % de Clemson es un umbral general para palmeras de interior.",
+    "Toxicidad para personas: no hay ficha de un centro de toxicología humana. 'no_toxica' para niños se basa en NC State (fruto comestible, sin toxicidad señalada). El riesgo documentado es mecánico (espinas).",
+    "Separación de ejemplares de una maceta con varias plantas: ninguna fuente prioritaria describe el procedimiento ni su tasa de éxito en esta especie.",
+    "Fechas de entrada y salida de la terraza en Madrid: se calculan con el umbral de 13 °C de la RHS. Las fechas concretas son orientativas y deben ajustarse con datos de AEMET de cada ubicación.",
+    "Frecuencia de floración y fructificación en interior: no documentada por fuentes prioritarias."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/phoenix-roebelenii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/ST441",
+      "institucion": "UF/IFAS Extension – EDIS ENH-600/ST441 'Phoenix roebelenii: Pygmy Date Palm' (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/12771/phoenix-roebelenii/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Phoenix roebelenii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/advice/profile?pid=757",
+      "institucion": "Royal Horticultural Society (RHS) – guía 'Palms: indoors'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center, Indoor Palms",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://horticulture.ca.uky.edu/sites/horticulture.ca.uky.edu/files/palms.pdf",
+      "institucion": "University of Kentucky Cooperative Extension – HortFacts 71-04 'Plants for Your Home and Office: Palms' (R. G. Anderson)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://edis.ifas.ufl.edu/publication/EP262/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH1010 'Nutrition and Fertilization of Palms in Containers' (T. K. Broschat)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://edis.ifas.ufl.edu/publication/EP443/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH1182 'Pruning Palms' (T. K. Broschat)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/node/5139",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Miniature Date Palm)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:668945-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

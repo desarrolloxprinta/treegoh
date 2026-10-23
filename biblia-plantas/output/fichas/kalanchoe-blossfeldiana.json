@@ -1,0 +1,293 @@
+{
+  "nombre_cientifico": "Kalanchoe blossfeldiana",
+  "nombres_comunes": [
+    "kalanchoe",
+    "calanchoe",
+    "kalanchoe de floristería"
+  ],
+  "familia": "Crassulaceae",
+  "origen": "Madagascar (noreste de la isla). Introducida en Europa por el viverista alemán Robert Blossfeld en los años treinta; hoy se cultivan casi siempre híbridos y cultivares de floristería.",
+  "clima_nativo": "Tropical de Madagascar, en ambientes rocosos bien drenados. Es suculenta, no soporta heladas y en exterior solo prospera en zonas USDA 10-12.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples y opuestas, carnosas, gruesas, lisas, brillantes y coriáceas, de color verde oscuro. Forma ovada a oblonga, de unos 5-10 cm de largo y 3-4 cm de ancho. Margen crenado (festoneado, con dientes redondeados). Sin pelos.",
+    "nerviacion": "Poco visible por el grosor carnoso de la hoja: solo se aprecia, a veces, el nervio central hundido. No tiene nervios marcados en relieve.",
+    "variegacion": "La forma típica es verde uniforme. Existe Kalanchoe blossfeldiana f. variegata, con márgenes de color crema y rosa.",
+    "tallo": "Tallo grueso, carnoso y verde, ramificado desde la base. En plantas viejas o con poca luz se alarga y deja entrenudos largos.",
+    "habito": "Mata compacta, erguida y muy ramificada. En floración da ramilletes densos (umbelas o cimas) de flores diminutas por encima del follaje, de 4 pétalos en las sencillas y hasta 26 en las dobles, de color rojo, magenta, rosa, naranja, amarillo o blanco.",
+    "tamano_adulto_interior": "15-45 cm de alto y 15-30 cm de ancho (NC State). Crecimiento lento.",
+    "confusiones": [
+      {
+        "especie": "Kalanchoe daigremontiana (aranto, madre de miles)",
+        "rasgo_diferenciador": "Sus hojas son largas, triangulares o lanceoladas, y tienen hileras de plantitas (propágulos) en el margen. K. blossfeldiana no forma plantitas en las hojas, y sus hojas son ovadas y festoneadas."
+      },
+      {
+        "especie": "Kalanchoe pinnata (hoja del aire)",
+        "rasgo_diferenciador": "Echa plantitas en las muescas del margen cuando la hoja se separa de la planta, y las hojas pueden ser compuestas. K. blossfeldiana tiene hojas siempre simples y no forma plantitas."
+      },
+      {
+        "especie": "Kalanchoe tomentosa (orejas de gato)",
+        "rasgo_diferenciador": "Sus hojas están cubiertas de pelo blanco afieltrado con puntas pardas. Las de K. blossfeldiana son lisas, brillantes y sin pelos."
+      },
+      {
+        "especie": "Crassula ovata (árbol de jade)",
+        "rasgo_diferenciador": "Sus hojas tienen el margen entero (sin festón), a menudo con borde rojizo, y el tallo se vuelve leñoso, como un tronquito. K. blossfeldiana tiene el margen crenado y tallos herbáceos y carnosos."
+      },
+      {
+        "especie": "Kalanchoe 'Calandiva' y otros cultivares de flor doble",
+        "rasgo_diferenciador": "No es otra especie: son cultivares de K. blossfeldiana con flores dobles, que parecen pequeñas rosas. La ficha se aplica igual."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Bufadienólidos (glucósidos cardiotónicos). Están en flores, hojas y tallos.",
+    "sintomas": "En perros y gatos lo habitual es una irritación digestiva, con vómitos y diarrea. Con poca frecuencia, o si comen mucha cantidad, aparecen alteraciones del ritmo cardiaco, debilidad y colapso (ASPCA, Pet Poison Helpline). En personas, si se ingiere puede causar náuseas, vómitos, diarrea, letargo y arritmias (NC State). No causa dermatitis de contacto. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "notas": "La ASPCA la clasifica a nivel de género (Kalanchoe spp.), no de especie. La toxicidad en personas y niños solo la respalda una fuente prioritaria (NC State). La dosis tóxica en animales pequeños no está establecida.",
+    "fuentes": [
+      "F5",
+      "F3",
+      "F6"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Ventana este, o sur y oeste tras un visillo. Agradece 2-6 horas de sol directo suave al día (mejor el de la mañana), pero hay que protegerla del sol de la tarde en verano.",
+      "tolera_sol_directo": "Parcialmente. Tolera e incluso agradece el sol directo de la mañana y el de invierno. El sol fuerte y prolongado de la tarde le quema las hojas (NC State). Si sale al exterior en verano, hay que acostumbrarla poco a poco y ponerla en sombra ligera (Clemson, Univ. Missouri).",
+      "notas": "Con poca luz se ahila (etiolación): tallos largos y débiles (Clemson, Univ. Missouri). Necesita 6-8 horas de luz intensa al día para florecer bien (NC State). FOTOPERIODO DE REFLORACIÓN: es una planta de día corto. Para formar flores necesita noches largas de oscuridad TOTAL. Los cultivares requieren como mínimo unas 13 horas de oscuridad al día (Univ. California) y florecen más con 14 horas (Univ. Missouri, NC State; Clemson da 14-16 h), durante al menos 6 semanas seguidas (Clemson, NC State; Univ. California: 42 días, y la floración sigue aumentando hasta las 8 semanas). Durante esas noches no puede recibir NINGUNA luz: una lámpara de salón, una farola o una pantalla bastan para impedir la floración, y la luz nocturna es la causa habitual de que no reflorezca. En el hemisferio norte, para que florezca en Navidad hay que empezar a mediados de septiembre (Univ. Missouri). Método casero: cada tarde, hacia las 17-18 h, meterla en un armario o taparla con una caja opaca, y sacarla por la mañana a su sitio luminoso, de modo que tenga unas 14 h de oscuridad y unas 10 h de luz (Clemson, Univ. Missouri). Si durante esas noches hace más de 24-27 °C, la floración se retrasa (Univ. Missouri, Clemson). Cuando los botones florales ya se ven por encima del follaje, la duración del día deja de importar (Clemson). Con días naturales (en el hemisferio norte, de octubre a marzo) la planta también induce flores por sí sola si está en una habitación sin luz artificial por la noche. El tiempo hasta la floración varía según la fuente: unas 6 semanas desde el inicio del tratamiento (Univ. Missouri) o unas 12 semanas desde las noches largas de principios de octubre (Clemson). Hay que contar con 6-12 semanas. Luz y lux: ninguna fuente da cifras; lux_min se deriva de la escala del proyecto (luz brillante, ≥500 fc).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato se haya secado. Se comprueba metiendo el dedo unos 5 cm (es suculenta) y notando que la maceta pesa claramente menos. Entonces se riega a fondo hasta que salga agua por el drenaje, y a los 10-15 minutos se vacía el plato. Nunca se riega por calendario ni se deja la maceta encharcada.",
+      "primavera_verano": "En crecimiento activo, regar a fondo cada vez que el sustrato esté seco en los primeros centímetros (Clemson y Univ. Missouri: dejar que se seque ligeramente; NC State: dejar que se seque entre riegos y luego regar a fondo). Con calor y sol, el ciclo se acorta, pero manda la comprobación del sustrato y del peso.",
+      "otono_invierno": "Regar menos: durante la inducción floral de día corto, regar y abonar con moderación (Univ. Missouri). En floración no hay que dejar que la planta llegue a arrugarse, pero tampoco regar con el sustrato húmedo. Si la habitación está fresca, el sustrato tarda más en secarse y los riegos se espacian.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo (en Madrid, agua blanda del Canal de Isabel II; dejarla reposar no elimina la cloramina, pero tampoco hace falta). Lo importante es que el agua drene y no quede agua en el plato ni en el cubremacetas.",
+      "notas": "Todas las fuentes coinciden: el exceso de riego es el problema principal. Provoca podredumbre de raíz y de cuello, que acaba en un colapso repentino de la planta (Univ. Missouri, Clemson, NC State). Como suculenta, soporta mucho mejor la sequía que el encharcamiento. Las plantas de floristería suelen venir en cubremacetas o con funda de papel, y hay que quitarlos o vaciarlos después de cada riego.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente da porcentajes. La humedad baja de una casa no le perjudica y, de hecho, reduce el riesgo de oídio, que es sobre todo un problema de invernadero (Univ. Missouri). No hace falta humidificar ni pulverizar (pulverizar no sube la humedad de forma útil y moja las hojas carnosas). Necesita buena ventilación.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 21,
+      "notas": "Ideal: unos 16 °C por la noche y unos 21 °C de día (NC State, Univ. Missouri). Clemson da 7-18 °C de noche y 10-21 °C de día, y señala que las noches frescas alargan la duración de las flores. No tolera heladas. Fuera de casa hay que meterla antes de que las noches bajen de 7 °C (45 °F) (NC State). Por encima de 24 °C (Univ. Missouri) o de 27 °C durante las noches largas (Clemson), la floración se retrasa o se reduce. Ninguna fuente da un máximo absoluto de supervivencia, así que max_c queda en null.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato bien drenado para cactus y suculentas (NC State), o una mezcla aireada de turba y perlita, unos 60 % de turba y 40 % de perlita (Clemson).",
+      "ph": null,
+      "drenaje": "Imprescindible: maceta con agujeros y sustrato que no se apelmace. No dejar agua en el plato ni en el cubremacetas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior (equilibrado).",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo, ¼-½ de la dosis de la etiqueta una vez al mes (convención del proyecto; Clemson recomienda abonar una vez al mes las plantas en crecimiento).",
+      "otono_invierno": "Durante la inducción floral (desde mediados de septiembre) y la floración, abonar muy poco o nada (Univ. Missouri: 'abonar y regar con moderación durante la inducción').",
+      "notas": "La Univ. de Missouri propone abonar en verano cada 2-3 semanas a la dosis de la etiqueta. Se adopta la pauta más conservadora del proyecto (dosis reducida, una vez al mes) para no acumular sales en el sustrato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenan la maceta. Ninguna fuente da una frecuencia en años. Las plantas que se quieren conservar se trasplantan después de la floración a una maceta solo un poco mayor (Clemson).",
+      "epoca": "Al terminar la floración (final del invierno o primavera en el hemisferio norte).",
+      "senales": "Raíces que salen por los agujeros de drenaje, sustrato que se seca enseguida, o planta descompensada respecto a la maceta. Conviene también si viene en el sustrato de vivero muy apelmazado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, ligera. Sirve para mantenerla compacta y prepararla para la refloración.",
+      "epoca": "Después de la floración y en primavera. Retirar las flores marchitas mientras florece.",
+      "como": "Cortar los tallos florales viejos y despuntar el crecimiento alto (Clemson). Si la planta está ahilada, rebajarla a la mitad de su altura (Univ. Missouri). Quitar las flores secas alarga la floración (NC State). Las puntas cortadas sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (hemisferio norte): fase de inducción floral por día corto, desde mediados de septiembre, seguida de la floración. No es un reposo vegetativo estricto.",
+      "cambios": "Dar noches de 14 h de oscuridad total durante al menos 6 semanas, regar y abonar con moderación, mantenerla fresca (16-21 °C, nunca por encima de 24 °C) y con luz intensa durante el día. Después de florecer, en primavera, poda, trasplante y reanudación del riego y el abonado normales.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo apical",
+        "esqueje de hoja"
+      ],
+      "epoca": "Primavera o principio del verano.",
+      "pasos": "1) Elegir brotes vegetativos sin flor. 2) Cortar esquejes apicales de 5-7,5 cm con dos pares de hojas y quitar las hojas inferiores. 3) Dejar que el corte cicatrice unos días al aire. No hace falta hormona de enraizamiento. 4) Clavarlos en una mezcla limpia de 50 % de turba y 50 % de perlita. 5) Poner la maceta con luz brillante indirecta dentro de una bolsa de plástico transparente para mantener la humedad. 6) A los 14-21 días suelen estar listos para trasplantar (Clemson; Univ. Missouri: esquejes de 5-7,5 cm). NC State indica que también enraíza de esqueje de hoja.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o por un sustrato que no drena; es el problema más frecuente (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de cuello por exceso de riego. Provoca un colapso repentino de la planta (Univ. Missouri)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Colapso súbito de la planta, que se pone lacia, por pudrición de cuello o de raíz tras regar en exceso (Univ. Missouri)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: la planta se ahila y se vuelve débil (Clemson, Univ. Missouri). Se corrige con más luz y una poda a media altura."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, sobre todo con mala ventilación o en ambientes húmedos (Clemson, NC State). Es raro con la humedad baja de una casa (Univ. Missouri)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte y prolongado (sol de tarde, o paso brusco al exterior sin aclimatarla) (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, una de las plagas principales (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla parda o de escudo (Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones florales (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, más probable con aire seco y calor (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla del sol directo de la tarde en ventanas sur y oeste (visillo o un metro hacia dentro). Así se evitan quemaduras en las hojas carnosas. El sol de la mañana le viene bien. Si sale a la terraza tras la floración, ponerla en sombra ligera o semisombra, acostumbrándola poco a poco, y nunca a pleno sol de mediodía. Con el calor, el sustrato se seca antes: comprobar dedo y peso con más frecuencia, pero sin encharcar. El aire seco no le afecta, aunque sí favorece la araña roja, así que conviene revisar el envés. Si estaba fuera, volver a meterla en casa a principios de septiembre.",
+    "invierno": "La calefacción y la humedad interior por debajo del 30 % no son un problema de humedad para esta suculenta. El calor sí lo es: por encima de 24 °C la floración se retrasa y las flores duran menos, así que conviene una habitación fresca (16-21 °C), lejos de radiadores. Junto a un cristal frío, evitar que la planta baje de unos 7 °C o toque el vidrio. Regar poco, porque el sustrato tarda en secarse. REFLORACIÓN EN MADRID: aunque desde finales de septiembre el día natural dura menos de 12 h (en torno a 11 h a mediados de octubre y unas 9 h 20 min en el solsticio de invierno), en un piso con lámparas encendidas por la noche la planta no llega a las 14 h de oscuridad total. Por eso, desde mediados de septiembre y durante al menos 6 semanas, hay que meterla cada tarde, hacia las 17-18 h, en un armario o taparla con una caja opaca, y sacarla por la mañana junto a la ventana más luminosa. Otra opción es tenerla en una habitación que no se use de noche y que no reciba luz de farolas.",
+    "ubicacion_recomendada": "Alféizar de una ventana este, o sur con visillo, con varias horas de sol suave de mañana. En otoño, en una habitación fresca sin luz artificial por la noche (o con la rutina del armario). Lejos de radiadores y de corrientes frías. Fuera del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) no se ha consultado. El nombre aceptado Kalanchoe blossfeldiana Poelln., familia Crassulaceae, se ha confirmado en el backbone de GBIF. En las fuentes consultadas no aparecen sinónimos ni cambios de nombre. Los 'Calandiva' son cultivares de esta especie.",
+    "Luz: ninguna fuente da lux ni pies-candela. lux_min se deriva de la escala del proyecto (luz brillante, ≥500 fc ≈ 5380 lux) y lux_max se deja en null.",
+    "Humedad: ninguna fuente prioritaria da porcentajes; min_pct e ideal_pct quedan en null.",
+    "Temperatura: no hay un máximo absoluto de supervivencia en las fuentes; max_c queda en null.",
+    "Sustrato: ninguna fuente da un pH útil (NC State marca ácido, neutro y alcalino a la vez); ph queda en null.",
+    "Fertilización: no hay NPK recomendado; npk queda en null.",
+    "Trasplante: ninguna fuente da una frecuencia en años; solo 'después de la floración, a una maceta algo mayor' (Clemson, una sola fuente prioritaria).",
+    "Reposo: solo la Univ. de Missouri describe la reducción de riego y abono durante la inducción floral; no hay segunda fuente prioritaria.",
+    "Toxicidad en niños y personas: solo la respalda NC State. La ASPCA solo trata perros y gatos y clasifica a nivel de género (Kalanchoe spp.).",
+    "Duración de las noches de la refloración en Madrid: las horas de luz del día en Madrid (unas 11 h a mediados de octubre y unas 9 h 20 min en diciembre) son valores astronómicos aproximados, no contrastados con AEMET ni con el Observatorio Astronómico Nacional en esta ficha.",
+    "'No florece' no tiene id en la lista de síntomas. La causa habitual es no recibir 14 h de oscuridad total (luz nocturna artificial) o el calor durante la inducción (Clemson, NC State, Univ. Missouri). Debería añadirse como síntoma al árbol de diagnóstico.",
+    "Confusiones: los rasgos que la distinguen de Crassula ovata, Kalanchoe tomentosa y K. daigremontiana son morfología general. Solo la formación de plantitas en las hojas de K. daigremontiana y K. pinnata está respaldada por una fuente prioritaria (Univ. Missouri)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hgic.clemson.edu/factsheet/kalanchoe/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1563)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ipm.missouri.edu/meg/2017/1/kalanchoe",
+      "institucion": "University of Missouri – Integrated Pest Management, Missouri Environment and Garden (D. Trinklein, 2017)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/k/a/kalancho_5592ebc278c07.pdf",
+      "institucion": "University of California (Dept. of Environmental Horticulture, Davis; Floriculture Research Facility, San José) – Doss, Byrne y Kretchun, 'Kalanchoe blossfeldiana Tetra Vulcan: suggestions for growing as a pot plant' (alojado en NC State HortScans)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.petpoisonhelpline.com/poison/kalanchoe/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://api.gbif.org/v1/species/match?name=Kalanchoe%20blossfeldiana&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

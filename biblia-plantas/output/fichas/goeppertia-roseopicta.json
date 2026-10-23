@@ -1,0 +1,355 @@
+{
+  "nombre_cientifico": "Goeppertia roseopicta",
+  "nombres_comunes": [
+    "calathea roseopicta",
+    "calathea medallón",
+    "calathea pintada de rosa",
+    "calathea 'Medallion'",
+    "calathea 'Dottie'",
+    "calathea 'Rosy'",
+    "jungle rose (inglés)",
+    "rose-painted calathea (inglés)"
+  ],
+  "familia": "Marantaceae",
+  "origen": "Oeste de Sudamérica hasta el oeste de Brasil: Brasil Norte, Brasil Centro-Oeste, Colombia, Ecuador y Perú (POWO, NC State); zona tropical del alto Amazonas (Missouri BG).",
+  "clima_nativo": "Planta de sotobosque de selva tropical húmeda: cálido, sombreado y húmedo todo el año, sin heladas (NC State; POWO: bioma tropical húmedo). Zonas USDA 11-12 (NC State, Missouri BG). RHS H1A: en Reino Unido solo bajo cristal todo el año (>15 °C), y pide una temperatura constante de al menos 16 °C (RHS).",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, elípticas, oblongas o casi redondas (las de 'Medallion' y otros cultivares son anchas y redondeadas; UF/IFAS EP285), brillantes, de 15-25 cm de largo (6-10 in; NC State, Missouri BG), con pecíolo corto (RHS) y margen ligeramente ondulado (NC State). Haz verde oscuro con dibujo crema, rosa o plateado; envés rojo púrpura o magenta (NC State, Missouri BG, UF/IFAS EP285). Por la tarde-noche las hojas se elevan y se pliegan hacia arriba, y por la mañana se vuelven a abrir (NC State, Missouri BG): movimiento nictinástico normal de la familia.",
+    "nerviacion": "Pinnada: nervio central marcado del que salen nervios laterales finos, casi paralelos, que se curvan hacia el margen (rasgo general de las Goeppertia). En la forma típica el nervio central va cubierto por una banda rosa o crema, como pintada a pincel (NC State, RHS, Missouri BG).",
+    "variegacion": "Patrón diagnóstico en la forma típica: banda rosa o crema a lo largo del nervio central y un anillo plumoso rosa o crema entre el nervio central y el margen, siguiendo el contorno de la hoja, con el borde verde oscuro (NC State, Missouri BG, RHS: 'pink midrib and stripes parallel to the margins'). Muy variable según el cultivar: 'Medallion', haz plateado con dibujo verde oscuro y envés púrpura (NC State; UF/IFAS EP285: nervio central muy plateado); 'Dottie', hoja verde muy oscura, casi negra, con nervio central y plumeado rosa intenso (NC State); 'Rosy', centro rosa vivo con bordes verdes (NC State); 'Cynthia', centro verde oscuro con margen plateado ancho (NC State, UF/IFAS EP285); 'Surprise Star', verde oscuro a granate con nervio y bordes rosas (NC State). Es un dibujo genético, no una variegación inestable.",
+    "tallo": "Sin tallo aéreo visible: herbácea perenne rizomatosa; las hojas salen de la base sobre pecíolos cortos (RHS, Missouri BG). Flores pequeñas blancas o violáceas, poco vistosas, rara vez en interior (NC State, Missouri BG, RHS).",
+    "habito": "En mata compacta, densa y tupida (NC State: 'clumping, dense'; RHS: 'clump-forming'), perennifolia.",
+    "tamano_adulto_interior": "Pequeño a mediano: 25-45 cm de alto en maceta (RHS: hasta 25 cm, 0,1-0,5 m; Missouri BG: 30-40 cm en maceta, 30-45 cm de alto y 23-30 cm de ancho), hasta 30-60 cm de alto y ancho en las formas más grandes (NC State). Planta de mesa o estantería (NC State). Tarda 5-10 años en alcanzar su tamaño final (RHS).",
+    "confusiones": [
+      {
+        "especie": "Goeppertia orbifolia",
+        "rasgo_diferenciador": "Hojas mucho más grandes (20-30 cm o más), redondas, verde claro con bandas plateadas paralelas que siguen cada nervio lateral, sin anillo plumoso entre nervio central y margen y con envés verde pálido, no púrpura."
+      },
+      {
+        "especie": "Goeppertia ornata",
+        "rasgo_diferenciador": "Hojas más alargadas y lanceoladas sobre pecíolos más largos, con pares de rayas rosas o blancas finas y rectas que van del nervio central hacia el margen (UF/IFAS EP285), en lugar de un anillo plumoso que sigue el contorno."
+      },
+      {
+        "especie": "Goeppertia makoyana",
+        "rasgo_diferenciador": "Hoja fina, casi translúcida, de fondo crema o verde pálido con manchas verde oscuro oblongas a lo largo de los nervios laterales (UF/IFAS EP285), como plumas de pavo real; sin banda rosa en el nervio central."
+      },
+      {
+        "especie": "Goeppertia picturata y cultivares plateados de otras Goeppertia (p. ej. 'Silhouette', 'Corona')",
+        "rasgo_diferenciador": "Las formas con centro plateado y margen verde oscuro se parecen a roseopicta 'Medallion' y 'Cynthia'; UF/IFAS EP285 trata 'Corona', 'Eclipse', 'Maria' y 'Silhouette' como cultivares o mutaciones de C. roseopicta. La identificación por foto entre cultivares plateados es poco fiable: basta con asignarla al grupo roseopicta."
+      },
+      {
+        "especie": "Maranta leuconeura",
+        "rasgo_diferenciador": "Planta más pequeña y de porte rastrero o colgante, con hojas ovales menores (hasta 12-15 cm), nervios rojos o claros en espina de pez y manchas oscuras a ambos lados del nervio central; sin anillo plumoso rosa."
+      },
+      {
+        "especie": "Stromanthe sanguinea 'Triostar' y Ctenanthe",
+        "rasgo_diferenciador": "Hojas lanceoladas y estrechas sobre tallos ramificados (Ctenanthe; RHS) o con variegación irregular blanca-rosa en manchas (Stromanthe 'Triostar'), no con un dibujo simétrico pintado alrededor del nervio central."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos (ASPCA: Calathea spp., 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'; NC State etiqueta G. roseopicta como no tóxica para perros y gatos). No se describe ningún principio tóxico. Que no sea tóxica no significa que sea comestible: si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En niños no hay fuente fiable específica de esta especie; ante una ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1"
+    ],
+    "notas": "Perros y gatos: confianza Alta (ASPCA a nivel de género Calathea spp.; NC State a nivel de especie). La ASPCA no tiene entrada con el nombre Calathea roseopicta ni 'rose-painted calathea'. Niños: no se encontró fuente prioritaria ni de centro toxicológico para esta especie; se marca 'desconocida' en lugar de suponer la no toxicidad del género (mismo criterio que G. orbifolia)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este o norte luminosa, o a 1,5-2 m de una ventana sur u oeste con cortina fina (RHS: orientación este, norte u oeste, en semisombra y luz filtrada; Missouri BG: sombra luminosa). La guía RHS de calatheas propone ventana norte o este en verano y acercarla a una ventana sur en invierno; en Madrid mantener cortina fina en ventanas sur incluso en invierno.",
+      "tolera_sol_directo": "No. El sol directo quema las hojas (NC State, Missouri BG); sobre todo evitar el sol de la tarde. Missouri BG admite algo de sol suave a primera hora de la mañana o sol muy tamizado. La etiqueta de NC State 'Partial Shade (2-6 h de sol directo)' es una categoría de exterior y contradice su propio texto; se adopta la opción conservadora: sin sol directo, como mucho sol de primera hora tras un visillo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "NC State pide luz brillante indirecta; Missouri BG, sombra luminosa sin sol directo; la RHS, luz brillante indirecta o filtrada en semisombra. UF/IFAS EP285 (género Calathea, que incluye C. roseopicta y sus cultivares) da para interior una tolerancia mínima de 75 fc (≈800 lux) y un óptimo de 150-200 fc (≈1600-2150 lux). lux_min = 100 fc (1076 lux): por debajo el color se apaga (NC State) y el crecimiento es débil, sobre todo en Goeppertia (RHS guía). lux_max = 1000 fc (10 760 lux), límite superior de la luz brillante indirecta de la escala del proyecto, sin sol directo. Puede crecer con luz artificial (RHS guía)."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese menos que recién regada; el resto del cepellón debe seguir algo húmedo. Debe estar uniformemente húmedo pero nunca mojado ni encharcado (NC State, Missouri BG). Regar a fondo hasta que drene y vaciar el plato o cubremacetas a los 10-15 minutos: si las raíces quedan en agua se pudren (RHS guía). Regar al sustrato, sin mojar las hojas, porque mojar el follaje favorece manchas foliares (NC State). Nunca por calendario.",
+      "primavera_verano": "Riego regular para mantener el sustrato húmedo pero no mojado (Missouri BG; RHS: riego moderado, uniformemente húmedo). Comprobar dedo y peso con frecuencia: en Madrid en verano puede necesitar agua cada 2-4 días según maceta y exposición [orientativo, sin fuente prioritaria]. Dejar que el cepellón se seque del todo enrolla las hojas (NC State).",
+      "otono_invierno": "Reducir el riego porque el crecimiento se frena (Missouri BG); mantener solo ligeramente húmedo (RHS ficha: 'keep just moist in winter'); dejar que la superficie se seque antes de volver a regar, sin que el cepellón llegue a secarse del todo (RHS guía). Con calefacción el sustrato puede secarse rápido: guiarse por dedo y peso. El exceso de agua en invierno favorece el edema (RHS guía).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente. El género es sensible a las sales: en interior la conductividad del sustrato debería estar en 1,0-1,5 dS/m y el exceso de abono (sobre todo manganeso) causa necrosis de puntas y márgenes (UF/IFAS EP285); lavar el sustrato con un riego abundante cada pocos meses. NC State recomienda agua destilada o de lluvia por el flúor del agua del grifo, pero el agua de Madrid (Canal de Isabel II) es blanda y tiene fluoruro <0,1 mg/L: es apta y no es la causa de las puntas marrones. Dejar reposar el agua no elimina la cloramina del Canal y tampoco hace falta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "El exceso de riego causa pudrición de raíz (NC State) y es la causa nº 1 de muerte. Una planta mustia puede serlo por sequía o por raíces enfermas (UF/IFAS EP285): si está lacia con el sustrato húmedo, no regar y revisar raíces. Contradicción con las convenciones del proyecto: NC State aconseja agua destilada o de lluvia por el flúor y la guía RHS dice que dejar reposar el agua 24 h elimina el cloro; en Madrid no aplica ninguna de las dos (fluoruro <0,1 mg/L, cloramina)."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "notas": "Muy exigente en humedad: NC State pide más del 60 % y Missouri BG y la RHS (ficha y guía) piden humedad alta, difícil de conseguir en invierno (Missouri BG). UF/IFAS EP285 (género) indica que en interior las calatheas conservan su aspecto con 40-60 %; para esta especie se toma 50 % como mínimo práctico, más conservador que el del género, e ideal 60 % o más. Con humedad baja las hojas se enrollan y se ponen marrones, sobre todo puntas y bordes (NC State, Missouri BG, RHS guía). Pulverizar no sube la humedad de forma útil (convención del proyecto, aunque Missouri BG y la guía RHS lo mencionen): usar humidificador (NC State, Missouri BG: habitación humidificada) o agrupar plantas; la bandeja de grava húmeda (NC State, Missouri BG, RHS) aporta poco con calefacción. Un baño luminoso es buena ubicación (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 18-24 °C (NC State y Missouri BG: 65-75 °F); la guía RHS da 16-21 °C y UF/IFAS EP285 18-27 °C en interior para el género. Mínimo: la ficha RHS de la especie exige una temperatura constante de al menos 16 °C, más exigente que los 13 °C de daño por frío que UF/IFAS da para el género y que la clase RHS H1A (>15 °C); se adopta 16 °C (opción conservadora), igual que G. orbifolia y 1 °C por encima de G. makoyana (15 °C). Máximo: no hay dato de especie; UF/IFAS produce el género a 21-32 °C pero con 50-100 % de humedad, imposible en casa; se fija 30 °C como límite práctico con aire seco [orientativo, sin fuente prioritaria]. Evitar corrientes y cambios bruscos de temperatura (RHS ficha: 'draught-free'), radiadores y fuentes de calor directo (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior rico en materia orgánica, tipo turba o fibra de coco, que retenga humedad pero drene bien (NC State, Missouri BG: mezclas turbosas uniformemente húmedas y bien drenadas), aligerado con perlita o vermiculita (NC State): por ejemplo, sustrato universal o de fibra de coco con un 20-30 % de perlita [proporción orientativa, sin fuente prioritaria]. La RHS recomienda compost sin turba que drene y retenga humedad. En producción se usa turba, corteza de pino, vermiculita y/o perlita (UF/IFAS EP285).",
+      "ph": "Ligeramente ácido, en torno a 6,0 (NC State: ligeramente ácido; RHS: indiferente, ácido a alcalino; UF/IFAS EP285: pH ~6,0 en producción del género)",
+      "drenaje": "Imprescindible maceta con agujeros de drenaje: húmedo pero no encharcado (NC State: 'moist but not soggy or wet'; RHS: 'moist but well-drained'). Un sustrato siempre mojado provoca pudrición de raíz (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS ficha y guía) o de relación N-P2O5-K2O 3-1-2 (UF/IFAS EP285, género).",
+      "npk": "Equilibrado o relación 3-1-2 (UF/IFAS EP285)",
+      "primavera_verano": "Una vez al mes en temporada de crecimiento, de primavera a verano (NC State; RHS: mensual, de abril a septiembre), a ¼-½ de la dosis de la etiqueta (convención del proyecto). Si al trasplantar se mezcló abono de liberación lenta, no hace falta abono líquido el primer año (RHS guía).",
+      "otono_invierno": "Nada de octubre a marzo (RHS guía).",
+      "notas": "Sensible al exceso de sales: el abono excesivo, sobre todo con manganeso alto, y un pH bajo causan necrosis de puntas y márgenes; el exceso de potasio da manchas y colores apagados (UF/IFAS EP285, a nivel de género). Mejor quedarse corto que pasarse.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, cuando la mata llena la maceta (RHS guía: 'every few years once the clump has filled the pot'). Es una planta compacta y de crecimiento lento (RHS: 5-10 años hasta su tamaño final): no hace falta trasplantar cada año.",
+      "epoca": "Primavera o verano (RHS guía); en Madrid, mejor en primavera (abril-junio) que en pleno julio-agosto.",
+      "senales": "Raíces saliendo por los agujeros de drenaje, mata que ocupa toda la maceta, sustrato que se seca muy rápido tras regar. Subir solo un tamaño de maceta (2-4 cm más de diámetro) con sustrato fresco, sin enterrar más la base [orientativo, sin fuente prioritaria]; aprovechar para dividir si se quiere (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS ficha y guía).",
+      "epoca": "Cuando aparezca una hoja seca o dañada, en cualquier época.",
+      "como": "Cortar las hojas marrones o secas y los tallos muertos a ras del sustrato con tijera limpia (RHS guía). Limpiar el polvo de las hojas con un paño suave y húmedo, porque el polvo reduce la fotosíntesis (NC State). No usar abrillantadores de hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño a finales de invierno en el hemisferio norte (octubre a marzo); en Madrid, mientras los días son cortos.",
+      "cambios": "No es un reposo verdadero: no pierde hojas ni necesita frío; el crecimiento se frena (Missouri BG). Reducir el riego y mantener el sustrato solo ligeramente húmedo (Missouri BG, RHS), suspender el abono (RHS guía) y mantener la temperatura por encima de 16 °C (RHS) y la humedad lo más alta posible.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata y rizoma"
+      ],
+      "epoca": "Finales de primavera (RHS ficha), aprovechando el trasplante.",
+      "pasos": "1) Regar el día antes. 2) Sacar la planta y separar la mata con las manos o un cuchillo limpio, de modo que cada trozo tenga rizoma con raíces y varias hojas (RHS guía; UF/IFAS EP285: al menos una hoja). 3) Plantar cada división en una maceta proporcionada, con sustrato húmedo y bien drenado. 4) Mantener las divisiones cálidas (más de 18 °C), con humedad alta y el sustrato húmedo hasta que salgan hojas nuevas (RHS guía), por ejemplo cubiertas con una bolsa transparente ventilada y con luz indirecta. La división es el mejor método (NC State); casi toda la producción comercial viene de cultivo in vitro (UF/IFAS EP285). Los cultivares de color pueden variar si proceden de mutaciones.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco: es la causa principal de puntas marrones en esta especie, muy exigente en humedad (NC State, Missouri BG, RHS guía), sobre todo con calefacción en invierno y con el calor seco del verano en Madrid. También sales de abono acumuladas o abono excesivo (UF/IFAS EP285) y riego irregular. No atribuirlo al cloro ni al flúor del agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por humedad baja (NC State, Missouri BG), radiadores o aire acondicionado cercanos, y exceso de abono o pH bajo (UF/IFAS EP285). NC State cita el flúor del agua del grifo, que no aplica al agua del Canal de Isabel II (fluoruro <0,1 mg/L)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas por humedad baja o riego insuficiente (NC State, Missouri BG). Que las hojas se eleven y plieguen al anochecer y se abran por la mañana es la nictinastia normal de la familia (NC State, Missouri BG), no un síntoma."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sequía del cepellón o raíces enfermas por exceso de riego (UF/IFAS EP285, NC State). Si está lacia con el sustrato húmedo, sospechar pudrición radicular."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o agua en el plato (NC State, RHS guía)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares favorecidas por mojar el follaje al regar o por mala ventilación (NC State; Missouri BG: 'leaf spots may appear'). Regar al sustrato."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo: quema las hojas (NC State, Missouri BG), sobre todo el de la tarde. Frecuente en ventanas sur y oeste de Madrid sin cortina."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "El color rosa o plateado se apaga por falta de luz (NC State); un exceso de potasio también apaga el color en el género (UF/IFAS EP285)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Crecimiento débil y pobre con poca luz, especialmente en Goeppertia (RHS guía)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Clorosis por falta de abono (sobre todo nitrógeno y hierro), exceso de riego o luz demasiado alta (UF/IFAS EP285, género)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy sensible al frío y a los cambios bruscos: necesita al menos 16 °C constantes y sin corrientes (RHS ficha), y un transporte frío tras la compra en otoño-invierno daña las hojas (RHS guía; UF/IFAS EP285: daño por frío bajo 13 °C)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Zonas empapadas de agua en la lámina por edema, sobre todo en invierno con el sustrato demasiado húmedo (RHS guía)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), citada para la especie (RHS ficha, NC State, Missouri BG), muy favorecida por el aire seco."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña fina de araña roja en el envés (RHS guía y ficha), frecuente con calefacción y en el verano madrileño."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca de invernadero (Trialeurodes vaporariorum), citada para la especie (RHS ficha)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, Missouri BG)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en pecíolos y nervios (NC State, Missouri BG)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en hojas jóvenes (NC State, Missouri BG)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) cuando el sustrato está siempre empapado (RHS guía): reducir el riego y dejar secar la capa superior."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla sobre la melaza de pulgones, cochinillas o mosca blanca [relación general, sin cita específica de la especie]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en el exterior y aire muy seco (HR ≈38 % en julio), es de las plantas de interior que peor lo llevan. Nada de sol directo, sobre todo de tarde (Missouri BG): en ventanas sur y oeste, retirarla a 1,5-2 m o poner cortina fina; una ventana este o norte es lo ideal (RHS). Mantener la habitación por debajo de unos 28-30 °C si es posible, sin chorro directo del aire acondicionado (RHS: sin corrientes). Humidificador hacia el 60 % (NC State: más del 60 %) y agrupar plantas; pulverizar no sirve. Comprobar dedo y peso cada 2-3 días: se seca rápido y dejar secar el cepellón enrolla las hojas. Vigilar araña roja y mosca blanca en el envés (RHS).",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, muy lejos del 60 % que pide (NC State): es la causa principal de bordes y puntas marrones en esta especie, no el agua del grifo. Humidificador cerca de la planta (objetivo 50-60 %), agrupar plantas y apartarla al menos 1-1,5 m de radiadores y salidas de aire caliente. Mantenerla siempre por encima de 16 °C (RHS) y con temperatura estable: de noche los cristales se enfrían, así que no dejar que las hojas toquen el vidrio ni ponerla en el alféizar. Al comprarla en invierno, transportarla bien envuelta (RHS guía). Reducir el riego y no abonar de octubre a marzo, pero con calefacción fuerte el sustrato puede secarse rápido: mirar dedo y peso. Puede acercarse algo a la ventana por la menor luz (RHS guía), con cortina fina en ventanas sur.",
+    "ubicacion_recomendada": "Mesa o estantería de un salón o dormitorio luminoso junto a una ventana este o norte, o un baño con ventana y buena luz (RHS guía: baños y cocinas son las estancias más húmedas), lejos de radiadores, aire acondicionado y puertas con corriente. Idealmente agrupada con otras plantas tropicales y con un humidificador cerca. Por su tamaño compacto (25-45 cm) es fácil meterla en un terrario grande o vitrina si la casa es muy seca."
+  },
+  "lagunas": [
+    "Cambio de nombre: POWO (Kew) acepta Goeppertia roseopicta (Linden ex Lem.) Borchs. & S.Suárez (Syst. Bot. 37: 634, 2012). Sinónimos homotípicos: Calathea roseopicta (Linden ex Lem.) Regel (1870), Maranta roseopicta Linden ex Lem. (1866) y Phyllodes roseopicta (Linden ex Lem.) Kuntze; heterotípicos: Calathea illustris (Linden) N.E.Br., Calathea roseopicta var. illustris (Linden) Regel, Maranta illustris Linden y Maranta wagneri Veitch ex Regel. El comercio sigue usando Calathea roseopicta (Missouri BG la cita como 'Calathea rosea-picta'; RHS añade el sinónimo comercial Calathea 'Roseo Picta').",
+    "Ninguna fuente prioritaria tiene datos de cultivo separados por cultivar ('Medallion', 'Dottie', 'Rosy'): se aplican los de la especie. UF/IFAS EP285 (tabla de 2005) es una guía de producción del género Calathea; sus datos de lux, conductividad, pH, fórmula de abono, daño por frío y problemas fisiológicos son de género, no de especie.",
+    "La guía RHS 'How to grow calatheas' es de grupo (Goeppertia, Ctenanthe, Stromanthe); se usa para riego, abonado, trasplante y problemas, no como dato de especie.",
+    "Toxicidad en niños/personas: no se encontró fuente prioritaria ni de centro toxicológico para G. roseopicta; se marca 'desconocida'. La ASPCA solo tiene entrada de género (Calathea spp.).",
+    "Temperatura máxima tolerada en casa: sin dato específico de especie; el límite de 30 °C es una estimación conservadora a partir de los datos de producción del género (UF/IFAS EP285).",
+    "Humedad mínima: NC State da 'más del 60 %' para la especie y UF/IFAS 40-60 % para el género; el mínimo de 50 % es un compromiso conservador, sin fuente que lo fije exactamente.",
+    "Valores en lux derivados de la escala del proyecto y de UF/IFAS EP285 (género); no hay medida específica para G. roseopicta.",
+    "Tamaño adulto: las fuentes no coinciden (RHS: hasta 25 cm, 0,1-0,5 m; Missouri BG: 30-45 cm; NC State: 30-60 cm); se da el rango conjunto.",
+    "Frecuencia de trasplante y proporción de perlita en el sustrato: sin dato de especie; se usan la guía de grupo RHS y valores orientativos.",
+    "No se verificaron en fuentes prioritarias enfermedades fúngicas o bacterianas concretas (p. ej., Fusarium, Pseudomonas) en G. roseopicta; NC State y Missouri BG citan manchas foliares y la RHS la considera en general libre de enfermedades.",
+    "Las confusiones con otras Goeppertia, Maranta, Ctenanthe y Stromanthe se describen por rasgos morfológicos generales, no detallados por las fuentes para esta especie (salvo los patrones de UF/IFAS EP285).",
+    "NC State y Missouri BG traducen el epíteto 'roseopicta' como 'con rayas de cebra'; el latín significa 'pintada de rosa' (roseus + pictus). Error menor de las fuentes, sin efecto en el cuidado."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Goeppertia roseopicta",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=364366&isprofile=0",
+      "institucion": "Missouri Botanical Garden – Plant Finder (Goeppertia roseopicta)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/357231/goeppertia-roseopicta/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Goeppertia roseopicta",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/calathea/how-to-grow-calatheas",
+      "institucion": "Royal Horticultural Society (RHS) – guía 'How to grow calatheas' (nivel de grupo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/EP285",
+      "institucion": "UF/IFAS Extension – EDIS ENH1030/EP285 'Cultural Guidelines for Commercial Production of Interiorscape Calathea' (University of Florida; nivel de género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60461319-2",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Calathea spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

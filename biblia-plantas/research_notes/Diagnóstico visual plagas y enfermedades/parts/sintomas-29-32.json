@@ -1,0 +1,378 @@
+[
+  {
+    "id": "S29",
+    "nombre": "Masas algodonosas blancas en axilas, envés o tallos",
+    "como_se_ve": "Acúmulos blancos de aspecto de algodón o de polvo céreo, de 2–5 mm, sueltos o en colonias, a veces con puntos o sacos ovalados dentro (ovisacos); con lupa o modo macro se ve bajo la cera un cuerpo ovalado, segmentado, blanquecino o rosado, de hasta 3–4 mm, con filamentos cerosos en el margen (C01, C05, C20). Hojas cercanas pegajosas (melaza) o con manchas negras (negrilla). La cera algodonosa blanca suele ser el primer signo (C17). Diferenciar de hilos finos entrelazados sobre el sustrato (micelio saprófito), de gránulos blancos duros y sueltos (perlita) y de costras cristalinas en el borde de la maceta (sales), que no tienen cuerpos segmentados ni melaza.",
+    "donde_mirar": "Axilas de hojas, envés a lo largo de nervios, vainas foliares, entre tallos trepadores, corona de la planta, tallo junto al sustrato, bajo el borde y en el exterior de la maceta, tutores; en cactus y suculentas entre costillas y en la base; raíces y cepellón si la planta decae sin causa aérea visible (C01, C05, C17).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Cochinilla algodonosa (Planococcus citri, Pseudococcus longispinus)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Bajo la cera hay un insecto ovalado, segmentado, de hasta 3–4 mm, con filamentos marginales: dos filamentos caudales más largos que el cuerpo en P. longispinus; filamentos cortos y una franja dorsal gris tenue en P. citri (C01, C20). Se mueve muy despacio; las ninfas recién nacidas son amarillas a anaranjadas o rosadas (C01). Hojas pegajosas por melaza y negrilla sobre ella (C01, C20). Al tocarla con alcohol se vuelve marrón claro; parasitada se ve más oscura con orificio de salida (C17). Vive en colonias en lugares protegidos (C01). En interior cría todo el año (C01, C05). Especies de interior más citadas: Aglaonema, cactus y suculentas, Dracaena, helechos, Ficus, Hoya, Crassula, orquídeas (sobre todo Phalaenopsis), palmeras, Philodendron, Schefflera, cítricos, violeta africana (C01, C05).",
+        "preguntas_confirmacion": [
+          "¿Las masas están sobre la planta (axilas, envés, tallos) y no solo sobre el sustrato?",
+          "¿Al mirar de cerca ves cuerpos ovalados con filamentos de cera, o solo hilos?",
+          "¿Hay superficies pegajosas o manchas negras cerca?",
+          "¿Has introducido una planta nueva en el último mes?",
+          "¿Es Hoya, cactus o suculenta, orquídea, Ficus, Schefflera o cítrico?"
+        ],
+        "tratamiento": [
+          "1. Aislar la planta de las demás para que la infestación no se extienda (C17); retirar hojas muertas y restos de poda alrededor, que pueden albergar cochinillas o huevos (C05).",
+          "2. Retirar cada cochinilla con bastoncillo de algodón empapado en alcohol isopropílico al 70 % o menos, tras probar 1–2 días antes en una zona pequeña por fitotoxicidad; para infestaciones extensas, pulverizar una solución al 10–25 % de alcohol isopropílico y repetir cada semana hasta eliminar la infestación (C01, C10, C13, C17). Evitar mojar en exceso las hojas, que pueden dañarse (C17).",
+          "3. Podar las partes muy infestadas y, en plantas robustas, lavar con chorro de agua a presión repetido cada varios días según necesidad (C01, C20).",
+          "4. Jabón potásico (sales potásicas de ácidos grasos), aceite hortícola (parafina) o aceite de neem con cobertura total, especialmente sobre ninfas jóvenes con menos cera; ninguno controla a todos los individuos, así que hacen falta tratamientos repetidos, reaplicados con frecuencia porque las ninfas eclosionan cada pocas semanas (C01, C13, C17). Probar antes en una parte pequeña: hiedra, culantrillo, Dieffenbachia, Schefflera, corona de espinas y begonia son sensibles al jabón; el daño puede tardar 48 h en verse (C10). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados para diluir de jardinería exterior doméstica se aplican con la planta en el balcón (R01).",
+          "5. Revisar en cada riego, incluidos maceta, tutores y materiales, donde quedan ovisacos (C01, C17).",
+          "6. Biológico, solo en invernadero o colecciones grandes con muchos ovisacos: Cryptolaemus montrouzieri, 2–10 individuos/m² por suelta en focos, mínimo 16 °C, óptimo 25–28 °C, aplicar al final de la tarde (C01, C05, C22); el parasitoide Leptomastix dactylopii solo mata a P. citri (C01, C20). Las sueltas no tienen sentido con poblaciones bajas (C01).",
+          "7. No hay escalón químico de aficionado útil: los piretroides a menudo no son más eficaces que jabones y aceites (C01); los neonicotinoides sistémicos que citan las fuentes estadounidenses (imidacloprid) no están aprobados en la UE y UC IPM los considera poco fiables contra cochinilla algodonosa (C01). Para infestaciones graves, considerar desechar la planta en lugar de tratarla repetidamente (C01)."
+        ],
+        "tiempo_recuperacion": "Las fuentes hablan de repetir semanalmente hasta eliminar (C01) y de ninfas que eclosionan cada pocas semanas (C13); las ninfas de P. citri tardan 6–10 semanas en madurar (C20): prever 4–8 semanas de tratamiento y vigilancia [estimación derivada de C01, C13, C20]. Las hojas distorsionadas o amarillas no se recuperan.",
+        "cuando_descartar": "Desechar la planta si la infestación es masiva: las plantas muy afectadas puede ser más fácil desecharlas que tratarlas (C05); con infestación fuerte puede ser necesario desechar (C10); las muy infestadas es mejor desecharlas (C17); para infestaciones graves en plantas de interior, desechar en lugar de tratar repetidamente (C01). Descartar esta causa si no hay insectos segmentados bajo la cera, las masas están solo sobre el sustrato en forma de hilos (micelio) o son gránulos duros no adheridos (perlita) y no hay melaza.",
+        "plaga_o_enfermedad_ref": "cochinilla algodonosa (Planococcus citri / Pseudococcus longispinus)"
+      },
+      {
+        "causa": "Cochinilla de raíz (Rhizoecus spp.)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Cuerpos pálidos, ovalados, con antenas diminutas y sin filamentos evidentes, sobre las raíces y en el cepellón; polvo céreo blanco en raíces y pared interior de la maceta; la planta decae sin plaga aérea visible y generalmente no se detecta hasta que se desentierra (C01, C05). Probabilidad baja-media; sube en cactus, suculentas, violeta africana, gardenia y cinta (Chlorophytum) (C01, C05).",
+        "preguntas_confirmacion": [
+          "¿La planta pierde vigor sin causa aparente en hojas ni tallos?",
+          "¿Al desmoldar ves polvo o motas blancas adheridas a las raíces, no sueltas como la perlita?",
+          "¿Es violeta africana, cactus, suculenta, gardenia o cinta?"
+        ],
+        "tratamiento": [
+          "1. Desechar la planta y el sustrato: UC IPM recomienda prevenir la introducción y desechar rápidamente las plantas infestadas (C01).",
+          "2. Alternativa no documentada en fuente prioritaria [inferencia, confianza Baja]: lavar las raíces, trasplantar a sustrato nuevo y maceta limpia, y vigilar.",
+          "3. No reutilizar el sustrato ni la maceta sin limpiarla (C01)."
+        ],
+        "tiempo_recuperacion": "No documentado por las fuentes.",
+        "cuando_descartar": "Descartar esta causa si los gránulos blancos se sueltan al tocar y son angulosos o porosos (perlita) y no hay insectos ovalados ni cera adherida a las raíces.",
+        "plaga_o_enfermedad_ref": "cochinilla algodonosa (sección cochinilla de raíz, Rhizoecus spp.)"
+      },
+      {
+        "causa": "Masas de huevos de cochinilla de escudo (p. ej. Pulvinaria) o cochinilla acanalada",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Algunas especies de escudo ponen huevos bajo fibras cerosas blancas que pueden confundirse con cochinilla algodonosa o pulgón lanígero (C06); junto a la masa algodonosa hay un escudo marrón u ocre fijo, inmóvil (C06). Probabilidad baja en interior.",
+        "preguntas_confirmacion": [
+          "¿Junto al algodón hay un bulto marrón u ocre fijo que no se mueve?"
+        ],
+        "tratamiento": [
+          "1. Tratar como cochinilla de escudo (ver S30): retirada manual con uña, palillo o bastoncillo, y aceite hortícola o jabón potásico con repeticiones (C02, C06, C18)."
+        ],
+        "tiempo_recuperacion": "Ver S30: 4–6 semanas de tratamientos semanales (C13) y vigilancia de 2–3 meses.",
+        "cuando_descartar": "Descartar esta causa si no hay escudo asociado a la masa algodonosa.",
+        "plaga_o_enfermedad_ref": "cochinilla de escudo (Coccus hesperidum / Saissetia coffeae / Diaspididae)"
+      },
+      {
+        "causa": "Pulgón lanígero",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Los pulgones lanígeros también producen cera y melaza (C01); bajo la cera hay pulgones con patas largas y sifones, que se mueven más que una cochinilla (C01). Típico de frutales de exterior; probabilidad baja en interior. (Que al aplastarlo manche de rojizo en algunas especies no procede de una fuente abierta: confianza Baja.)",
+        "preguntas_confirmacion": [
+          "¿La planta ha estado en exterior o es un frutal o bonsái de manzano?",
+          "¿Bajo la cera ves insectos con patas largas que se mueven?"
+        ],
+        "tratamiento": [
+          "1. Igual que cochinilla algodonosa: lavado con chorro de agua, alcohol puntual con bastoncillo, jabón potásico o aceite hortícola con repeticiones (C01); en interior solo productos listos para usar de uso no profesional (R01)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación; sin cifra en las fuentes].",
+        "cuando_descartar": "Descartar esta causa si la planta ha estado siempre en interior y los cuerpos bajo la cera no tienen patas visibles.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Micelio de hongo saprófito en el sustrato (depósito inofensivo)",
+        "tipo": "sustrato",
+        "probabilidad": "media",
+        "como_diferenciar": "Hilos finos entrelazados (algodón tejido), sin cuerpos ovalados ni melaza, sobre la superficie del sustrato o sobre restos orgánicos, no en axilas ni envés; asociado a sustrato permanentemente húmedo [inferencia: ninguna fuente prioritaria abierta describe el moho saprófito del sustrato; ver S20]. Probabilidad media si la masa está solo sobre el sustrato.",
+        "preguntas_confirmacion": [
+          "¿Está solo en el sustrato y no en la planta?",
+          "¿Riegas con mucha frecuencia o el sustrato nunca se seca?",
+          "¿Son hilos entrelazados o cuerpos sueltos?"
+        ],
+        "tratamiento": [
+          "1. Retirar la capa superficial afectada, dejar secar la superficie entre riegos, mejorar ventilación y drenaje [inferencia coherente con C03 y C07 para sustratos encharcados]."
+        ],
+        "tiempo_recuperacion": "Días [estimación].",
+        "cuando_descartar": "Descartar esta causa si hay cuerpos segmentados bajo la cera o melaza.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Perlita, vermiculita o sales de riego en el sustrato o borde de la maceta",
+        "tipo": "sustrato",
+        "probabilidad": "media",
+        "como_diferenciar": "Gránulos blancos duros, angulosos o laminares, sueltos, sin cera ni movimiento; costras blancas cristalinas en el borde de la maceta (sales) que se disuelven en agua [inferencia; sin fuente prioritaria abierta que compare perlita y cochinilla de raíz].",
+        "preguntas_confirmacion": [
+          "¿Se desprenden solos y son duros al tacto?",
+          "¿Están solo en el sustrato o en el borde de la maceta?"
+        ],
+        "tratamiento": [
+          "1. Ninguno; si es costra de sales, ver S18 (lixiviar)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Descartar esta causa si hay cuerpos céreos adheridos a la planta.",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["C01", "C02", "C03", "C05", "C06", "C07", "C10", "C13", "C17", "C18", "C20", "C22", "R01"]
+  },
+  {
+    "id": "S30",
+    "nombre": "Escudos o bultos marrones u ocres adheridos a tallos y nervios",
+    "como_se_ve": "Bultos ovalados o redondeados de 1–6 mm, planos (acorazadas) o convexos y hemisféricos (blandas), de color ocre, tostado, marrón o marrón oscuro, lisos o con cresta, inmóviles, a menudo alineados a lo largo de nervios y tallos o agrupados de forma irregular (C02, C06, C13, C18). Hojas o superficies cercanas pegajosas (melaza) y con negrilla si son cochinillas blandas; sin melaza si son acorazadas (C02). En Pinnaspis aspidistrae, cubiertas de macho blancas y alargadas que dan aspecto nevado a la superficie (C18). Diferenciar de lenticelas, yemas y cicatrices foliares, que siguen un patrón regular y simétrico, tienen el mismo color y textura que la corteza y no se desprenden con la uña.",
+    "donde_mirar": "A lo largo de los nervios, en el envés, en peciolos o tallos jóvenes, bajo vainas foliares (orquídeas, palmeras), entre hojas emergentes y en la corona (C18); tallos y envés, a veces el haz (C10); frondes de helechos, cícadas y esparraguera (C09). Prueba de la uña: el bulto se desprende (las acorazadas dejan el cuerpo debajo; las blandas se levantan enteras) y, si está vivo, exuda líquido al aplastarlo (C02).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Cochinilla blanda (Coccus hesperidum, Saissetia coffeae)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Más redondeada y convexa (jorobada) que la acorazada; la cubierta es la propia pared corporal, por lo que al levantarla con la uña se retira cuerpo y cubierta juntos; excreta melaza pegajosa sobre la que crece negrilla (C02). Viva exuda líquido al aplastarla; muerta o parasitada no, y la parasitada se ve negra o hinchada con orificio de emergencia (C02, C18). S. coffeae: marrón oscura, redonda, convexa, de hasta 4 mm (C09). C. hesperidum: oval, plana, tostado claro a marrón, hasta 4,75 mm, crawlers amarillos; la melaza es el signo principal y atrae hormigas (C18). Cría todo el año en interior con 3–7 generaciones solapadas (C18). Hospedantes de interior: orquídeas, bromelias, Hoya, Clivia, helechos, palmeras, Dieffenbachia, potos, espatifilo, Ficus, Peperomia, begonia, Schefflera, hiedra, crotón, Aloe, Dracaena, cítricos, romero, olivo, laurel (C18); helechos, cícadas, esparraguera, Stephanotis (C09).",
+        "preguntas_confirmacion": [
+          "¿Se desprende con la uña como una pieza entera?",
+          "¿Hay superficies pegajosas debajo o manchas negras?",
+          "¿Están agrupados de forma irregular en nervios y tallos, no en un patrón regular de la corteza?",
+          "¿Al aplastar uno sale líquido?",
+          "¿Es helecho, Ficus, Schefflera, Hoya, orquídea, cítrico o palmera?"
+        ],
+        "tratamiento": [
+          "1. Aislar la planta; las plantas sanas suelen tolerar poblaciones ligeras (C06, C09, C18).",
+          "2. Retirar las cochinillas con la uña, un palillo, un bastoncillo con alcohol o un cepillo de dientes de cerdas blandas; podar las ramitas muy infestadas y retirar a mano adultos y masas de huevos (C02, C06, C10, C13, C18).",
+          "3. Aceite hortícola (parafina) pulverizado a fondo con mojado completo, que asfixia a adultos y crawlers; no aplicar con niebla, por debajo de 0 °C, por encima de 32 °C ni con humedad superior al 90 %; no mezclar con azufre; los helechos lo toleran si se mantienen a la sombra mientras seca (C02, C18). Jabón potásico (sales potásicas de ácidos grasos) o aceite de neem, sobre todo contra crawlers, con mojado completo y repeticiones (C02, C10); Iowa State: aplicar semanalmente durante al menos 4–6 semanas (C13). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados de jardinería exterior doméstica se aplican con la planta en el balcón (R01).",
+          "4. Vigilar la planta tras cada tratamiento; suelen ser necesarios múltiples tratamientos (C18). Para detectar crawlers: cinta adhesiva transparente de doble cara alrededor de ramitas, cambiada semanalmente; aparecen como motas amarillas o naranjas (C02).",
+          "5. Biológico: el nematodo Steinernema feltiae está disponible en proveedores de control biológico contra escudo blando y hemisférico, sin dosis en las fuentes; usar con cuidado porque puede infectar animales no objetivo (C06, C09). En plantas que veranean fuera, los parasitoides pueden suprimir a C. hesperidum; no tratar las cochinillas parasitadas (negras, con orificio) (C18).",
+          "6. Químico: no hay sistémico de aficionado disponible en España; el imidacloprid que citan las fuentes estadounidenses (C02, C18) no está aprobado en la UE. Evitar carbaril, malatión, bifentrina y permetrina (C02).",
+          "7. Desechar la planta si está muy infestada (C18); considerar sustituir las plantas gravemente afectadas (C06, C09)."
+        ],
+        "tiempo_recuperacion": "4–6 semanas de tratamientos semanales (C13); con una generación de unos 60 días en C. hesperidum (C18), mantener vigilancia 2–3 meses [estimación derivada de C13 y C18]. Las hojas amarillas o deformadas no se recuperan.",
+        "cuando_descartar": "Desechar si está muy infestada (C18). Descartar esta causa si el bulto no se desprende y no deja marca, no hay melaza, el patrón es regular y simétrico a lo largo de todo el tallo o el bulto tiene el mismo color y textura que la corteza.",
+        "plaga_o_enfermedad_ref": "cochinilla de escudo (Coccus hesperidum / Saissetia coffeae)"
+      },
+      {
+        "causa": "Cochinilla acorazada (Diaspididae, p. ej. Pinnaspis aspidistrae, Diaspis en cactus)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Cubierta aplanada, en forma de placa, de menos de 3 mm; al retirar la cubierta el cuerpo del insecto permanece en la planta; no producen melaza (C02). En P. aspidistrae las cubiertas de hembra son en forma de pera u ostra, marrón claro a oscuro, hasta 4,75 mm, y las de macho alargadas, blancas y con crestas, que dan aspecto nevado; crawlers amarillos con ojos rojos; unos 95 días por generación, reproducción todo el año (C18). Hospedantes: orquídeas, violeta africana, helechos, palmeras, aráceas, Aspidistra, esparraguera, Ficus, Fittonia, Sansevieria, Dracaena, cítricos, olivo (C18).",
+        "preguntas_confirmacion": [
+          "¿Es plana y pequeña, de menos de 3 mm?",
+          "¿No hay nada pegajoso ni negrilla?",
+          "¿Ves también motas blancas alargadas junto a los escudos marrones?"
+        ],
+        "tratamiento": [
+          "1. Igual que la cochinilla blanda (aislar, retirada manual, poda de partes muy infestadas) (C02, C10, C18).",
+          "2. Aceite hortícola (parafina) con mojado completo es la opción documentada; las acorazadas son generalmente menos susceptibles, por lo que la cobertura es especialmente importante (C02, C18); crawlers susceptibles a jabón potásico, neem y aceites (C10). Repetir semanalmente 4–6 semanas (C13). En interior, solo productos listos para usar de uso no profesional (R01).",
+          "3. Los sistémicos de imidacloprid no controlan la mayoría de acorazadas (C02, C18) y, además, no están aprobados en la UE: no hay escalón químico de aficionado.",
+          "4. Desechar si está muy infestada (C18)."
+        ],
+        "tiempo_recuperacion": "Unos 95 días por generación en P. aspidistrae (C18); varias semanas de tratamientos semanales (C13) [estimación].",
+        "cuando_descartar": "Como en la cochinilla blanda: descartar esta causa si el bulto no se desprende, no deja cuerpo debajo y sigue un patrón regular propio de la corteza.",
+        "plaga_o_enfermedad_ref": "cochinilla de escudo (Diaspididae, Pinnaspis aspidistrae)"
+      },
+      {
+        "causa": "Lenticelas, yemas, aguijones, cicatrices foliares o bultos naturales de corteza",
+        "tipo": "fisiologico",
+        "probabilidad": "media",
+        "como_diferenciar": "No se desprenden con la uña ni dejan cuerpo ni hueco; distribución regular y simétrica; mismo color y textura que la corteza; sin melaza ni negrilla; no exudan líquido al presionar [inferencia a partir de C02, C10, C13, C18].",
+        "preguntas_confirmacion": [
+          "¿Siguen un patrón regular en toda la rama?",
+          "¿Has intentado rasparlo con la uña y no sale nada?"
+        ],
+        "tratamiento": [
+          "1. Ninguno."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Descartar esta causa si el bulto se desprende y deja mancha o cuerpo.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Cochinillas muertas o parasitadas de una infestación antigua",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Secas, no exudan líquido al aplastarlas, con orificios de emergencia del parasitoide, a menudo negras (C02, C18). Probabilidad baja-media.",
+        "preguntas_confirmacion": [
+          "¿Trataste la planta antes?",
+          "¿Al aplastar uno está seco por dentro?"
+        ],
+        "tratamiento": [
+          "1. Retirar mecánicamente con la uña o un cepillo blando (C18).",
+          "2. Vigilar la aparición de crawlers con cinta adhesiva de doble cara cambiada semanalmente (C02)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Descartar esta causa si aparecen nuevos escudos o melaza fresca.",
+        "plaga_o_enfermedad_ref": "cochinilla de escudo (Coccus hesperidum / Saissetia coffeae / Diaspididae)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["C02", "C06", "C09", "C10", "C13", "C18", "R01"]
+  },
+  {
+    "id": "S31",
+    "nombre": "Mosquitos pequeños negros sobre el sustrato o volando al regar",
+    "como_se_ve": "Moscas delicadas, grises a negras, de 1,5–4 mm, con patas largas y finas, alas ahumadas y antenas más largas que la cabeza, que corren sobre el sustrato, salen volando torpemente al regar o se acumulan en ventanas y lámparas; con lupa, vena alar en forma de Y cerca de la punta (C03, C07, C11, C19). En el sustrato, larvas blanquecinas semitransparentes con cabeza negra brillante, de hasta 6 mm, a veces con rastros de baba parecidos a los de caracoles (C03, C07). Diferenciar de la mosca de la fruta (más rechoncha y clara, junto a fruta madura) y de la mosca de la orilla (antenas cortas en forma de cerda, asociada a algas).",
+    "donde_mirar": "Superficie del sustrato de macetas muy regadas y ricas en materia orgánica; platillos y cubremacetas con agua; ventanas y paredes; semilleros y esquejes; también desagües y bandejas de condensación como focos alternativos (C03, C13, C19). Prueba: trozo de patata cruda con el corte hacia abajo sobre el sustrato y comprobar larvas a los 3–4 días; trampa amarilla pegajosa montada en un palillo (C03, C11).",
+    "urgencia": "baja",
+    "causas": [
+      {
+        "causa": "Sciáridos / mosca del sustrato (Bradysia spp.)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Antenas largas, vena alar en Y, vuelo lento y débil, atraídas por la luz, asociadas a sustrato húmedo y rico en materia orgánica (C03, C10, C11, C19); larvas con cabeza negra en la patata o en el sustrato (C03, C11). Los adultos no dañan las plantas ni pican (C03); las larvas comen hongos y materia en descomposición y solo dañan raicillas de plántulas, esquejes y plantas jóvenes, salvo poblaciones muy altas en sustrato encharcado (C03, C07, C10, C11, C19). Los adultos indican riego excesivo (C12, C13). Ciclo de unos 17 días a 24 °C, todo el año en interior (C03); 3–4 semanas en condiciones óptimas (C11).",
+        "preguntas_confirmacion": [
+          "¿Salen volando del sustrato al regar?",
+          "¿El sustrato está casi siempre húmedo o hay agua en el platillo?",
+          "¿Has trasplantado hace poco con sustrato con compost o la planta ha pasado el verano fuera?",
+          "¿Hay plántulas o esquejes marchitos?",
+          "¿Ves gusanitos con cabeza negra en una rodaja de patata a los 3–4 días?"
+        ],
+        "tratamiento": [
+          "1. Dejar secar la superficie o los 2–3 cm superiores del sustrato entre riegos; regar por abajo; vaciar platillos y cubremacetas; las larvas mueren cuando el sustrato se seca (C03, C07, C10, C11, C13, C19). Mantener el riego modificado al menos 3–4 semanas (C11).",
+          "2. Trampas amarillas pegajosas para capturar adultos y seguir la población; ayudan pero no bastan por sí solas y capturan también invertebrados no objetivo (C03, C07, C11, C12).",
+          "3. Trasplantar a sustrato nuevo desechando el viejo, lo que elimina huevos y larvas (C07); como versión parcial, sustituir la capa superior del sustrato [inferencia a partir de C07]. Usar sustrato pasteurizado y guardarlo cerrado; no mover plantas infestadas a zonas nuevas (C03).",
+          "4. Opcional: capa de 1–2,5 cm de arena gruesa o gravilla fina sobre el sustrato (C11); Iowa State lo considera innecesario (C13) y UC IPM solo menciona perlita o arena como enmienda de drenaje (C03): contradicción entre fuentes.",
+          "5. Biológico: Bacillus thuringiensis israelensis (BTi) en riego, con aplicaciones repetidas cada unos 5 días (C03) o cada 5–7 días (C11) hasta controlar; no se reproduce ni persiste en interior (C03) y no afecta a huevos, pupas ni adultos (C11); descenso de población en 4–5 semanas, reaplicar cuando aparezcan adultos (C12). La sustancia activa está aprobada en la UE (C26); verificar que el producto concreto esté registrado en España para este uso.",
+          "6. Biológico: nematodo Steinernema feltiae en riego, más eficaz que otros nematodos comerciales contra sciáridos, entre 16 y 32 °C con sustrato húmedo; puede dar control prolongado tras varias aplicaciones; producto vivo y perecedero (C03, C07); ficha comercial: 250 000–500 000 nematodos/m², óptimo 14–26 °C, mantener el sustrato húmedo varios días (C21). Los ácaros Hypoaspis/Stratiolaelaps probablemente no funcionan en macetas individuales (C03).",
+          "7. Peróxido de hidrógeno al 3 % diluido 1 parte en 4 de agua, vertido sobre el sustrato, dejando secar después (C12, C23): solo lo recomiendan una página de extensión de condado y una respuesta sin firma; ausente en todas las fuentes prioritarias nacionales. Confianza Baja; opción de bajo riesgo, no de eficacia probada.",
+          "8. Químico, rara vez justificado en viviendas: piretrinas pulverizadas sobre la superficie del sustrato y las partes donde se posan los adultos, nunca al aire ni sobre adultos en vuelo, sacando la planta al exterior para tratar y esperando un día antes de volver a meterla (C03, C11). En España, solo un producto listo para usar autorizado para uso no profesional (R01)."
+        ],
+        "tiempo_recuperacion": "3–4 semanas de riego modificado (C11); descenso con BTi en 4–5 semanas (C12); con un ciclo de unos 17 días a 24 °C (C03), cualquier medida debe mantenerse al menos dos generaciones.",
+        "cuando_descartar": "Desechar las plantas muy infestadas (C03). Descartar esta causa si los insectos son leonados con ojos rojos y están junto a fruta madura (mosca de la fruta; las trampas de vinagre no sirven para sciáridos, C11), si tienen antenas cortas en forma de cerda (mosca de la orilla, C03), o si no hay larvas en la patata y el sustrato está seco.",
+        "plaga_o_enfermedad_ref": "mosca del sustrato (Bradysia spp.)"
+      },
+      {
+        "causa": "Mosca de la fruta (Drosophila spp.)",
+        "tipo": "ambiental",
+        "probabilidad": "media",
+        "como_diferenciar": "Son dos insectos distintos (C11); vuelan alrededor de fruta madura, basura o bebidas más que del sustrato; cuerpo más rechoncho y claro [la morfología no está detallada en fuente abierta: confianza Media]. Las trampas de vinagre atraen a la mosca de la fruta, no a los sciáridos (C11).",
+        "preguntas_confirmacion": [
+          "¿Hay fruta madura, vino o basura orgánica cerca?",
+          "¿Responden a una trampa de vinagre?"
+        ],
+        "tratamiento": [
+          "1. Eliminar la fuente (fruta, restos) y poner una trampa de vinagre (C11)."
+        ],
+        "tiempo_recuperacion": "Días [estimación].",
+        "cuando_descartar": "Descartar esta causa si salen del sustrato y hay larvas en la patata.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Mosca de la orilla (Scatella spp., Ephydridae)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Antenas cortas, en forma de cerda, frente a las largas del sciárido (C03); más robusta; asociada a algas verdes sobre sustrato muy húmedo [inferencia]. Plaga menor de invernadero; probabilidad baja en vivienda.",
+        "preguntas_confirmacion": [
+          "¿Hay algas verdes en el sustrato o en las bandejas?",
+          "¿Las antenas son casi invisibles?"
+        ],
+        "tratamiento": [
+          "1. Secar el sustrato y eliminar las algas; mismas medidas culturales que para sciáridos [inferencia a partir de C03]."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "Descartar esta causa si las antenas son largas.",
+        "plaga_o_enfermedad_ref": "mosca del sustrato (diferencial)"
+      },
+      {
+        "causa": "Mosquitos de desagüe u otros dípteros domésticos",
+        "tipo": "ambiental",
+        "probabilidad": "baja",
+        "como_diferenciar": "Crían en desagües con restos húmedos y en bandejas de condensación (C13, C19). Para localizar el foco, cubrir la maceta o el desagüe sospechoso con malla o gasa y comprobar durante varios días de dónde emergen (C19). Probabilidad baja-media.",
+        "preguntas_confirmacion": [
+          "¿Siguen apareciendo con las macetas secas o retiradas de la habitación?"
+        ],
+        "tratamiento": [
+          "1. Limpiar el sifón o desagüe (C19)."
+        ],
+        "tiempo_recuperacion": "Días [estimación].",
+        "cuando_descartar": "Descartar esta causa si emergen de las macetas cubiertas con gasa.",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["C03", "C07", "C10", "C11", "C12", "C13", "C19", "C21", "C23", "C26", "R01"]
+  },
+  {
+    "id": "S32",
+    "nombre": "Agallas en raíces o lesiones angulares marrones entre nervios",
+    "como_se_ve": "(a) Raíces con hinchazones nudosas, a veces en rosario, que no se desprenden al frotar, en una planta atrofiada, poco lozana, que se marchita a mediodía o en días cálidos aunque el sustrato esté húmedo, con amarilleo y crecimiento lento (C04, C16). (b) Hojas con áreas angulares amarillas que pasan a marrón, morado o negro, de aspecto húmedo, delimitadas netamente por los nervios (en V o angulares en crisantemo empezando por hojas inferiores; en franjas entre nervios en helechos; menos definidas y en cualquier hoja en Peperomia, gloxinia, violeta africana y begonia Elatior), que empiezan amarillentas en el envés y en hojas bajas y se vuelven casi negras; pequeñas áreas hundidas en el envés; hojas ahuecadas y distorsionadas en violeta africana (C08, C15, C16).",
+    "donde_mirar": "Cepellón completo tras desmoldar y lavar o sacudir la tierra de las raíces (C04, C16); envés de las hojas inferiores y limbo entre nervios principales (C15, C16); plantas que se mojan por encima o se pulverizan (C08, C15). Prueba casera: trozos de hoja sintomática en una gota de agua limpia unos minutos y mirar a 10 aumentos o más sobre fondo oscuro buscando gusanos con movimientos rápidos serpenteantes (C15).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Nematodos agalladores (Meloidogyne spp.)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Agallas = hinchazones verdaderas que no pueden desprenderse frotando, a diferencia de los nódulos de leguminosas (C04); generalmente conspicuas y fáciles de reconocer al examinar las raíces (C16). En maceta son bastante raros, excepto cuando se usa tierra como componente del sustrato (C16): la probabilidad sube si el sustrato lleva tierra de jardín o la planta viene de exterior. Descartar que sean raíces engrosadas normales de almacenamiento de la especie [inferencia]. Desarrollo de unos 17 días a 29 °C y 57 días a 16 °C (C16); 21–28 días de huevo a adulto en tiempo cálido (C04).",
+        "preguntas_confirmacion": [
+          "¿El sustrato contiene tierra de huerto o jardín o compost casero?",
+          "¿La planta estuvo en el exterior o viene de un vivero de campo?",
+          "¿Se marchita a mediodía aunque el sustrato esté húmedo?",
+          "¿Al lavar las raíces ves nudos que no se quitan frotando?"
+        ],
+        "tratamiento": [
+          "1. No hay nematicidas químicos ni fumigantes disponibles para jardineros domésticos (C04); sin cura conocida (C16).",
+          "2. Desechar con cuidado las plantas en maceta infectadas y su sustrato, sin compostarlo, para evitar la dispersión (C16); UC IPM recomienda sustituir las plantas gravemente infestadas (C04).",
+          "3. Limpiar macetas y herramientas; no reutilizar el sustrato; evitar que el agua de escorrentía pase a otras macetas (C04).",
+          "4. En adelante, usar sustrato comercial sin tierra de jardín [inferencia a partir de C16]."
+        ],
+        "tiempo_recuperacion": "Sin cura conocida (C16); no se recupera.",
+        "cuando_descartar": "La planta afectada se desecha (C04, C16). Descartar esta causa si las hinchazones se desprenden al frotar (nódulos), si son raíces tuberosas normales de la especie, o si el sustrato es comercial sin tierra y la planta ha estado siempre en interior.",
+        "plaga_o_enfermedad_ref": "nematodos (Meloidogyne spp.)"
+      },
+      {
+        "causa": "Nematodos foliares (Aphelenchoides fragariae, A. ritzemabosi, A. besseyi)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Lesiones angulares delimitadas por los nervios (C15), intervenales amarillas, marrones y negras, en franjas en helechos (C08); avanzan de hojas bajas a altas; en Peperomia, gloxinia, violeta africana y begonia Elatior están menos definidas (C16); las begonias Elatior pueden tener grandes poblaciones sin síntomas (C15). Prueba del agua a 10 aumentos (C15); la RHS indica que confirmar suele requerir laboratorio (C08). Se dispersan con el agua que salpica al regar o pulverizar y necesitan una película de agua para moverse (C08, C15); ciclo de 11–14 días a 13–23 °C (C08). Hongos y bacterias dan manchas con halo o no limitadas tan netamente por nervios [inferencia]. Probabilidad media en begonia, helechos (Nephrolepis, Asplenium), violeta africana, Peperomia, gloxinia y crisantemo con riego por encima (C08, C15, C16).",
+        "preguntas_confirmacion": [
+          "¿Las manchas tienen bordes rectos que coinciden con los nervios?",
+          "¿Pulverizas o mojas las hojas al regar?",
+          "¿Es begonia, helecho, violeta africana, Peperomia, gloxinia o crisantemo?",
+          "¿Empezó en las hojas inferiores y sube?",
+          "¿Es una planta nueva de vivero?"
+        ],
+        "tratamiento": [
+          "1. Aislar y dejar de mojar el follaje; evitar el riego por aspersión y espaciar las plantas para que el follaje seque rápido (C08, C15).",
+          "2. Desechar las plantas infestadas rápidamente (C16); retirar y eliminar todo el material vegetal infectado y limpiar equipo y calzado (C08).",
+          "3. Revisar las begonias asintomáticas cercanas (C15).",
+          "4. Ningún producto elimina los nematodos; los insecticidas solo suprimen poblaciones y algunas dosis supresoras son fitotóxicas (C15). No hay opción biológica ni química doméstica en ninguna fuente abierta."
+        ],
+        "tiempo_recuperacion": "El tejido no se recupera; con un ciclo de 11–14 días (C08) la planta empeora en semanas.",
+        "cuando_descartar": "La planta infestada se desecha (C08, C15, C16). Descartar esta causa si hay manchas redondas con halo, pústulas o micelio (hongo o bacteria), la especie no es hospedante o nunca se moja el follaje.",
+        "plaga_o_enfermedad_ref": "nematodos (Aphelenchoides spp.)"
+      },
+      {
+        "causa": "Manchas foliares fúngicas o bacterianas",
+        "tipo": "enfermedad",
+        "probabilidad": "media",
+        "como_diferenciar": "Más frecuentes que los nematodos; no limitadas tan netamente por nervios, con halo amarillo, anillos concéntricos, puntos negros (picnidios) o exudado (ver S34); las bacterianas pueden ser angulares también, por lo que la prueba del agua (C15) o el laboratorio (C08) es lo que separa.",
+        "preguntas_confirmacion": [
+          "¿Hay halo amarillo difuso, anillos concéntricos o puntos negros en la mancha?"
+        ],
+        "tratamiento": [
+          "1. Seguir S34 (manchas foliares): retirar hojas afectadas, no mojar el follaje, aislar."
+        ],
+        "tiempo_recuperacion": "Ver S34.",
+        "cuando_descartar": "Descartar esta causa si se ven gusanos en la prueba del agua.",
+        "plaga_o_enfermedad_ref": "manchas foliares fúngicas y bacterianas"
+      },
+      {
+        "causa": "Daño por frío, quemadura o carencia nutricional que imita lesiones angulares",
+        "tipo": "fisiologico",
+        "probabilidad": "media",
+        "como_diferenciar": "Los síntomas de nematodos foliares pueden parecer carencias nutricionales y enfermedades (C08); las fisiopatías son simétricas, aparecen en hojas expuestas o viejas por igual y no progresan de hoja en hoja [inferencia].",
+        "preguntas_confirmacion": [
+          "¿Coincide con un traslado, una corriente de aire frío o un cambio de abono?"
+        ],
+        "tratamiento": [
+          "1. Corregir la condición (ver S04 para clorosis internerval, S05–S06 para necrosis de puntas y bordes, S12 para frío)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación]; el tejido dañado no se recupera.",
+        "cuando_descartar": "Descartar esta causa si hay progresión de hoja en hoja y bordes netos por los nervios.",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["C04", "C08", "C15", "C16"]
+  }
+]

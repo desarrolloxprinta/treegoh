@@ -1,0 +1,342 @@
+{
+  "nombre_cientifico": "Chamaedorea seifrizii",
+  "nombres_comunes": [
+    "palmera bambú",
+    "camadorea bambú",
+    "palmera de caña"
+  ],
+  "familia": "Arecaceae",
+  "origen": "Sureste de México, Belice, Guatemala y Honduras (POWO; NC State; RHS: del sureste de México a Honduras). Introducida en Florida (POWO).",
+  "clima_nativo": "Tropical. Las fuentes no describen el hábitat igual: NC State habla de bosques estacionalmente secos y MBG de sotobosque de selva. Es más tolerante a la sequía que otras Chamaedorea (UF/IFAS: tolerancia moderada a la sequía; MBG: tolera suelos más secos y más sombra). No soporta heladas: zonas USDA 10-11 (MBG; UF/IFAS: 10A-11B; NC State: 10a-12b). MBG indica que la raíz aguanta en zona 9, pero las hojas se dañan con helada. RHS: H1C, es decir, planta de invernadero o de interior en el Reino Unido que solo puede salir fuera en verano.",
+  "categoria": "palmera",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas pinnadas (en pluma), arqueadas, de 45-60 cm de largo (MBG: 1,5-2 pies; RHS: hasta 60 cm), con 5-15 folíolos por lado (NC State; RHS: hasta 28 en total). Folíolos lanceolados o lineares, de margen entero, más anchos en el centro, de unos 20 cm de largo y 2,5 cm de ancho (MBG), verde oscuro, finos y casi papiráceos (UF/IFAS). Rasgo clave: el último par de folíolos de la punta está soldado en la base y es claramente más ancho que los demás (NC State, UF/IFAS). La base del peciolo es fina y membranosa (NC State).",
+    "nerviacion": "Paralela, típica de monocotiledónea (UF/IFAS): cada folíolo tiene un nervio central marcado y nervios longitudinales paralelos.",
+    "variegacion": "Sin variegación: hojas verdes uniformes (UF/IFAS: verde; NC State: verde, a veces con reflejo gris plateado). Las manchas amarillas o marrones indican un problema, no un rasgo varietal.",
+    "tallo": "Muchos tallos por mata, delgados (≈1,3 cm de diámetro; UF/IFAS: hasta media pulgada; NC State: menos de una pulgada), verdes, lisos, erectos y con nudos (anillos) marcados que recuerdan a una caña de bambú (NC State, UF/IFAS, MBG). De la base salen tallos nuevos sin parar (UF/IFAS), pero la mata se ensancha despacio (NC State). Los tallos exteriores se inclinan hacia fuera, y la planta toma forma de cono invertido (NC State).",
+    "habito": "Palmera cespitosa (forma mata), erguida y de textura fina (NC State, UF/IFAS). Las hojas viejas mueren y quedan colgando del tallo (UF/IFAS). Es dioica: las flores, pequeñas y amarillas, salen en panículas ramificadas entre las hojas o bajo ellas, y los ejes se vuelven naranja brillante al madurar (MBG, UF/IFAS, NC State). Los frutos son drupas redondas negro-azuladas de menos de 1,3 cm, y solo se forman si hay planta macho y hembra (UF/IFAS, MBG).",
+    "tamano_adulto_interior": "En interior, normalmente 1,2-2 m (Penn State: hasta 2,1 m; RHS: 1,5-2,5 m de alto y 1-1,5 m de ancho; NC State: 0,9-2,3 m de alto y 0,9-1,8 m de ancho). En exterior tropical llega a 3-3,7 m (MBG: hasta 10 pies; UF/IFAS: 1,2-3,7 m). RHS: tarda 10-20 años en alcanzar su tamaño adulto. UF/IFAS: crecimiento moderado.",
+    "confusiones": [
+      {
+        "especie": "Chamaedorea elegans (palmera de salón)",
+        "rasgo_diferenciador": "Tiene un solo tallo por planta y no forma mata. En vivero se plantan varias plántulas juntas (Clemson), así que parece una mata, pero cada tallo sale de su propia raíz. Es más baja (0,6-1,2 m), con más folíolos (11-40) más juntos, y la punta de la hoja no tiene el par terminal ancho y soldado. C. seifrizii forma una mata real que rebrota desde la base, con tallos-caña más altos y nudos marcados (NC State la cita como confusión frecuente). Ojo: ASPCA aplica el nombre común 'bamboo palm' a C. elegans."
+      },
+      {
+        "especie": "Dypsis lutescens (areca, palmera bambú dorada)",
+        "rasgo_diferenciador": "Peciolos y tallos amarillo-anaranjados o dorados, tallos más gruesos y hojas mucho más largas con muchos folíolos estrechos y juntos (Clemson). C. seifrizii tiene tallos verdes finos, hojas más cortas (hasta 60 cm), menos folíolos (5-15 por lado) y el par terminal de folíolos más ancho (NC State la cita como confusión frecuente, con el nombre Chrysalidocarpus lutescens)."
+      },
+      {
+        "especie": "Phoenix roebelenii (palmera datilera enana)",
+        "rasgo_diferenciador": "Tiene un solo tronco que se engruesa con restos de bases de hoja y espinas afiladas en la base del peciolo. C. seifrizii no tiene espinas y forma mata de cañas verdes lisas (NC State la cita como confusión frecuente)."
+      },
+      {
+        "especie": "Forma comercial 'erumpens' de Chamaedorea seifrizii (antes Chamaedorea erumpens)",
+        "rasgo_diferenciador": "POWO la incluye ahora en C. seifrizii. En el comercio se vende como una forma con folíolos cortos, anchos y curvados (Clemson), frente a la forma típica de folíolos largos y estrechos, que Clemson llama 'grass-leafed parlor palm'. Se cuida igual."
+      },
+      {
+        "especie": "Rhapis excelsa (palmera dama)",
+        "rasgo_diferenciador": "También forma mata de cañas, pero las hojas son en abanico (palmeadas), gruesas y brillantes, y los tallos están cubiertos de fibra marrón entretejida (Clemson). C. seifrizii tiene hojas pinnadas y tallos verdes lisos."
+      },
+      {
+        "especie": "Bambú verdadero (Poaceae, Bambusoideae)",
+        "rasgo_diferenciador": "Es una gramínea, no una palmera: las hojas son simples y alternas a lo largo de ramillas laterales, y el tallo es hueco y lignificado. C. seifrizii solo tiene hojas pinnadas en la punta de cada caña, y no está emparentada con el bambú (MBG)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "toxica",
+    "principio_activo": "Para personas: ácido oxálico en la pulpa del fruto, de toxicidad baja (NC State, UF/IFAS). Para mascotas, ninguna fuente prioritaria evalúa la especie.",
+    "sintomas": "Personas: gravedad baja. La pulpa del fruto irrita la piel de las personas sensibles al manipularla (dermatitis de contacto) (NC State, UF/IFAS). Los frutos rara vez se forman en interior, porque la especie es dioica. Por prudencia, evita que los niños manipulen o muerdan los frutos. Perros y gatos: no hay datos verificados para esta especie. La ficha 'Bamboo Palm' de ASPCA, como la de Chamaedorea, corresponde a Chamaedorea elegans, que es no tóxica para perros, gatos y caballos. Esa ficha no puede aplicarse a C. seifrizii sin verificación.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F9"
+    ],
+    "notas": "Niños: dato con dos fuentes prioritarias coincidentes (NC State, UF/IFAS), de riesgo bajo (irritación cutánea). Se marca 'toxica' por prudencia. Mascotas: se deja 'desconocida' según la regla del proyecto. ASPCA no tiene ficha de C. seifrizii: su nombre común 'bamboo palm' remite a C. elegans. NC State y RHS no dan dato para mascotas. Es probable que la especie sea poco problemática, como su congénere, pero no está verificado. La app no debe afirmar que es segura para mascotas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 1076,
+      "lux_max": 10764,
+      "orientacion_hn": "A 1-2 m de una ventana norte o este. Junto a una ventana sur u oeste, a 2-3 m del cristal o tras un visillo (RHS ficha: orientación norte, oeste o este, en semisombra). En invierno puede acercarse más a la ventana.",
+      "tolera_sol_directo": "No. Tolera el sol suave de primera hora o de invierno, pero no el sol de tarde (MBG: evitar el sol directo de tarde; RHS: luz plena pero protegida del sol fuerte; UF/IFAS: planta de sombra).",
+      "notas": "Prefiere luz media, de 100-500 fc según la escala del proyecto (NC State, Penn State). Sobrevive con poca luz y se usa mucho en zonas interiores poco iluminadas (NC State, Penn State), aunque allí crece despacio. Con luz brillante indirecta, hasta 1000 fc, crece mejor siempre que no le dé sol directo fuerte (RHS: luz plena protegida del sol fuerte; MBG y RHS: semisombra). Ninguna fuente da lux para la especie: el rango 1076-10764 lux (100-1000 fc) traduce las descripciones cualitativas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F5",
+        "F3",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Riega cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas de más de 25 cm) y la maceta pese claramente menos que recién regada. Penn State: regar cuando la superficie esté seca, sin dejar que se seque del todo ni encharcarla; RHS guía: no regar si el compost aún está húmedo. Riega a fondo hasta que salga agua por el drenaje y vacía el plato a los 15-20 minutos (Penn State, Clemson). Nunca riegues por calendario.",
+      "primavera_verano": "Riego generoso cuando se seque la capa superior (RHS ficha: regar con generosidad en temporada de crecimiento), manteniendo el sustrato ligeramente húmedo, nunca empapado (NC State, MBG). Como orientación, en un piso a 22-27 °C suele ser cada 5-10 días [orientativo, sin fuente prioritaria], pero manda siempre la comprobación con el dedo y el peso de la maceta.",
+      "otono_invierno": "Riego escaso (RHS ficha: regar con moderación en invierno). Con el crecimiento más lento el sustrato tarda más en secarse: comprueba con el dedo por debajo de la superficie antes de regar (RHS guía). Con calefacción puede secarse más rápido de lo esperado: comprueba, no supongas.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. La RHS (guía del género) desaconseja el uso habitual de agua dura alcalina, que puede dorar las hojas, y recomienda agua de lluvia. UF/IFAS: tolera poco las sales. En Madrid el agua del grifo (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y casi sin fluoruro (<0,1 mg/L), así que sirve directamente. Dejarla reposar no elimina la cloramina, pero no hace falta. Si aparecen puntas marrones, revisa primero las sales de abono acumuladas, el riego irregular y el aire seco, no el agua del grifo.",
+      "notas": "Las fuentes difieren en el matiz. MBG pide sustrato uniformemente húmedo, y NC State y Penn State ligeramente húmedo o húmedo sin encharcar. La RHS (guía) y Penn State piden regar cuando se seque la superficie. Se adopta la opción más conservadora (dejar secar los 2-3 cm superiores), porque el exceso de riego causa pudrición de raíz y de tallo (NC State, MBG, UF/IFAS, Penn State). La especie tolera periodos secos cortos (UF/IFAS: tolerancia moderada a la sequía; MBG: tolera suelos más secos).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3",
+        "F4",
+        "F2",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "NC State y Penn State indican humedad relativa media para la especie. Penn State añade que las palmeras de interior agradecen humedad alta y que el aire seco del invierno dora las puntas. Ideal ≈50 %, según la pauta de Clemson para palmeras de interior: por debajo del 50 %, añadir humedad. Ninguna fuente da un mínimo para la especie (min_pct null). Usa un humidificador (Penn State, Clemson) o agrupa plantas. Pulverizar no sube la humedad de forma útil, aunque Clemson lo cite. El aire seco favorece la araña roja (Clemson).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15.5,
+      "max_c": 27,
+      "ideal_min_c": 20,
+      "ideal_max_c": 27,
+      "notas": "Se adopta min_c 15,5 °C, el mínimo más alto de las fuentes: Clemson pide un mínimo invernal de 60 °F (15,5 °C) para las Chamaedorea de salón. RHS guía (género): mantener a 10-27 °C, con lo ideal en 20-27 °C de marzo a octubre. La RHS clasifica la especie como H1C (mínimo de 5-10 °C), pero esa escala se refiere al cultivo en el Reino Unido, con salida al exterior en verano. Penn State: de día 21-27 °C (70-80 °F) y de noche unos 15,5 °C (60 °F). Penn State y Clemson: por debajo de unos 7 °C (45 °F) hay daño por frío, con zonas muertas pardo-rojizas en las hojas. Ninguna fuente da una máxima absoluta: max_c 27 °C es el techo del rango recomendado (RHS, Penn State), no un límite letal. Evita las corrientes de puertas, ventanas y aire acondicionado (Penn State, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F4",
+        "F6",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de interior rico en materia orgánica, poroso y que drene bien (MBG: suelo rico, húmedo y bien drenado; NC State: buen drenaje imprescindible; Clemson: mezcla porosa con mucha materia orgánica). La RHS pide un compost sin turba y sin tierra (loam-free) para cultivo en maceta. Una mezcla útil: sustrato universal de calidad con un 20-30 % de perlita o corteza fina [orientativo, sin fuente prioritaria].",
+      "ph": "Ácido a neutro (RHS ficha). UF/IFAS indica que en exterior tolera suelos ácidos a ligeramente alcalinos. Ninguna fuente da un rango numérico.",
+      "drenaje": "Imprescindible (NC State, Penn State). Usa una maceta con agujeros de drenaje, no dejes el plato encharcado y evita macetas demasiado grandes. Penn State: un buen drenaje es la clave para evitar la pudrición de raíz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F1",
+        "F7",
+        "F3",
+        "F6",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (RHS ficha; Penn State) o abono de liberación lenta para palmeras con micronutrientes (hierro, manganeso, zinc, boro, cobre) (Clemson).",
+      "npk": "Equilibrado (RHS, Penn State). Para palmeras en general, Clemson cita 12-4-12 u 8-2-12 de liberación lenta.",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (de marzo-abril a septiembre en el hemisferio norte). RHS ficha: abono líquido equilibrado una vez al mes en temporada de crecimiento. Penn State y Clemson son más prudentes: solo 2-3 aplicaciones al año en primavera y verano.",
+      "otono_invierno": "Nada (RHS: el abonado se limita a la temporada de crecimiento; Penn State y Clemson: solo en primavera y verano).",
+      "notas": "El exceso de abono daña a las palmeras (Clemson, Penn State) y quema las puntas de las hojas inferiores (Clemson). UF/IFAS indica poca tolerancia a las sales. Si notas costra blanca en el sustrato o puntas marrones, riega a fondo para lavar las sales y espacia el abonado. Ante la diferencia entre fuentes (mensual frente a 2-3 veces al año), en interior con poca luz conviene quedarse cerca de 2-3 veces al año.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F7",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o solo cuando las raíces llenen la maceta (Penn State, Clemson). Le gusta tener las raíces algo apretadas. Penn State recomienda no cambiar de maceta si no es necesario, salvo para renovar el sustrato.",
+      "epoca": "Primavera o principios de verano (Clemson). En Madrid, de abril a junio, antes del calor fuerte.",
+      "senales": "Raíces que llenan la maceta o salen por el drenaje, agua que atraviesa el cepellón sin empaparlo, o crecimiento pobre con buenas condiciones. Pasa a una maceta solo un poco mayor y manipula las raíces con cuidado: las palmeras toleran mal el trasplante y tienen raíces frágiles (Penn State, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F7"
+      ],
+      "notas": "Las dos fuentes hablan de palmeras de interior en general. No hay pautas de trasplante específicas de C. seifrizii."
+    },
+    "poda": {
+      "necesita": "No (RHS ficha: no necesita poda). No se puede rebajar la altura cortando las cañas, porque cada tallo crece desde un punto central en la punta (Clemson).",
+      "epoca": "Cuando haga falta, en cualquier época, para retirar hojas viejas secas.",
+      "como": "Las hojas viejas mueren y quedan colgando del tallo, así que hay que quitarlas a mano para que la planta se vea limpia (UF/IFAS). Córtalas enteras, a ras del tallo, con tijera limpia. Si una caña entera se ha secado, puedes cortarla a ras de sustrato: la mata seguirá echando tallos nuevos desde la base (UF/IFAS). No cortes hojas verdes sanas ni recortes las puntas de todas las hojas. Si quieres, recorta solo la parte marrón dejando un fino borde seco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo (no es una latencia verdadera) en otoño-invierno: de octubre-noviembre a febrero-marzo en el hemisferio norte; en el hemisferio sur, de abril-mayo a agosto-septiembre. En Madrid coincide con los días cortos y la calefacción.",
+      "cambios": "Riego escaso (RHS ficha) y sin abono (RHS, Penn State). Con menos luz, el crecimiento se frena (RHS guía). Clemson indica que muchas palmeras agradecen 13-15,5 °C en invierno. Para esta especie se mantiene un mínimo de 15,5 °C, el más conservador (Clemson para Chamaedorea), lejos de radiadores, cristales fríos y corrientes. Puede acercarse a una ventana más luminosa.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division de la mata",
+        "semilla"
+      ],
+      "epoca": "Primavera.",
+      "pasos": "División (NC State y UF/IFAS la recomiendan junto con la semilla; es lo más práctico en casa): 1) En primavera, saca la mata de la maceta. 2) Separa el cepellón con las manos o con un cuchillo limpio, procurando que cada parte tenga varias cañas y bastantes raíces. Hazlo con cuidado, porque las raíces de palmera son frágiles (Clemson). 3) Planta cada parte en una maceta ajustada con sustrato que drene bien. 4) Riega y mantenla con luz indirecta, a 20-25 °C, sin abonar durante 4-6 semanas [orientativo, sin fuente prioritaria]. Semilla: siembra a no menos de 25 °C (RHS), con semillas frescas de frutos negros maduros. Necesitas planta macho y hembra para que haya fruto (UF/IFAS). Germina despacio. No se multiplica por esquejes: una caña cortada no enraíza.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, la plaga principal en interior (NC State, MBG, UF/IFAS, RHS, Penn State). Prolifera con aire seco y calor: calefacción en invierno y verano seco de Madrid. UF/IFAS advierte que en interior puede volverse grave."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Picaduras de araña roja o de trips (NC State y RHS citan trips de invernadero y trips bandeados). Mira el envés con lupa."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en peciolos, cañas y nervios (NC State: cochinilla de los helechos; MBG, UF/IFAS, RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (MBG, NC State, Penn State). NC State también cita la cochinilla de raíz, que se ve al sacar el cepellón."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas algodonosas o de escudo."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato que drena mal (NC State, MBG, UF/IFAS, Penn State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo y tizón del tallo por Gliocladium (MBG; NC State: pudrición de tallo por exceso de riego): base de las cañas blanda u oscura. Se asocia a sustrato siempre húmedo."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco, sobre todo con calefacción, o falta de agua (Penn State, Clemson). También exceso de abono, que quema las puntas de las hojas inferiores (Clemson). En Madrid no se debe al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal si son solo las hojas más bajas y viejas: es envejecimiento (Penn State), y en esta especie las hojas muertas quedan colgando (UF/IFAS). Si el dorado afecta a toda la planta, la causa es falta de humedad o de agua (Penn State)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Daño por frío: zonas muertas pardo-rojizas en las hojas a 7 °C o menos (Penn State, Clemson), junto a un cristal frío o una ventana abierta en invierno. También quemadura solar."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de tarde a través del cristal (MBG: evitar el sol directo de tarde), sobre todo en ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz o de tallo por exceso de riego (sustrato húmedo) o, al revés, cepellón seco durante mucho tiempo (maceta muy ligera)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Poca luz o raíces dañadas por exceso de riego. En invierno es normal que no crezca."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra de sales por abonar en exceso (UF/IFAS: tolera poco las sales), o moho saprófito por sustrato siempre húmedo."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle y aire muy seco, aléjala de ventanas sur y oeste (o pon un visillo), porque el sol de tarde a través del cristal quema las hojas. Si la casa pasa de 27 °C, revisa el sustrato con más frecuencia: se seca antes, pero no la encharques. Mantenla lejos de la salida del aire acondicionado. El aire seco dispara la araña roja: revisa el envés y las axilas cada semana. Si la sacas al balcón, solo a la sombra total y aclimatándola poco a poco (Penn State, Clemson); vuelve a meterla antes de que las noches bajen de 15 °C.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %: usa un humidificador o agrupa plantas (pulverizar no sirve). Es la época de más riesgo de araña roja. Apártala de radiadores y de cristales fríos: por debajo de unos 7 °C sufre daño por frío, y lo ideal es no bajar de 15,5 °C. Riega poco, comprobando el sustrato, y no abones de octubre a febrero. Si ves puntas secas, la causa probable es el aire seco o el riego irregular, no el agua del grifo de Madrid, que es blanda.",
+    "ubicacion_recomendada": "Salón, despacho o recibidor amplio, a 1-2 m de una ventana norte o este, o a 2-3 m de una sur u oeste con visillo. Tolera rincones con poca luz, aunque allí crece despacio. Necesita espacio a lo alto (1,5-2 m) y algo a lo ancho, porque las cañas exteriores se abren. Nunca junto a un radiador, la salida del aire acondicionado o una puerta con corriente."
+  },
+  "lagunas": [
+    "Taxonomía (POWO, consultado el 21-10-2026): el nombre aceptado es Chamaedorea seifrizii Burret. Chamaedorea erumpens H.E.Moore (1951) es un sinónimo heterotípico, igual que Chamaedorea donnell-smithii Dammer (nom. rej.) y Meiota campechana O.F.Cook. NC State, UF/IFAS y RHS también tratan C. erumpens como sinónimo o nombre anterior. Clemson aún las presenta como dos especies: la 'bamboo palm' (erumpens), de folíolos cortos y anchos, y la 'grass-leafed parlor palm' (seifrizii), de folíolos largos y estrechos. En el comercio pueden aparecer las dos etiquetas para formas de la misma especie.",
+    "Toxicidad para perros y gatos: ASPCA no tiene ficha de C. seifrizii (su entrada 'Bamboo Palm' y la del género Chamaedorea corresponden a C. elegans). NC State, UF/IFAS y RHS no dan dato para mascotas. Se deja 'desconocida'.",
+    "Toxicidad en niños: no hay ficha de un centro de toxicología humana. Solo NC State y UF/IFAS indican toxicidad baja: dermatitis por el ácido oxálico del fruto.",
+    "Hábitat nativo: NC State habla de bosques estacionalmente secos y MBG de sotobosque de selva. No afecta a los cuidados en interior.",
+    "Luz: ninguna fuente prioritaria da lux o pie-candela para la especie. El rango sale de traducir las descripciones cualitativas a la escala del proyecto.",
+    "Humedad: ninguna fuente da un mínimo para la especie (min_pct null). El ideal del 50 % viene de la pauta general de Clemson para palmeras de interior.",
+    "Temperatura máxima: ninguna fuente da un límite superior absoluto. Se usa 27 °C, el techo del rango recomendado por la RHS (guía del género) y Penn State.",
+    "Trasplante y parte del abonado: solo hay pautas de palmeras de interior en general (Penn State, Clemson) y de la guía RHS del género, centrada en C. elegans. No hay pautas específicas de la especie.",
+    "Frecuencias de riego en días, mezcla de sustrato concreta y cuidados posteriores a la división: no aparecen en las fuentes prioritarias. Se dan como orientación, marcadas en el texto."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ask.ifas.ufl.edu/publication/FP120",
+      "institucion": "University of Florida IFAS Extension – EDIS FPS120, Chamaedorea seifrizii: Bamboo Palm (revisión de 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/46437/chamaedorea-seifrizii/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de planta",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo del género Chamaedorea (centrada en C. elegans; la ficha de C. seifrizii remite a ella)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276717",
+      "institucion": "Missouri Botanical Garden – Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.psu.edu/palms-as-houseplants",
+      "institucion": "Penn State Extension – Palms as Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center, Indoor Palms",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:54954-2",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bamboo-palm",
+      "institucion": "ASPCA Animal Poison Control Center (la entrada 'Bamboo Palm' corresponde a Chamaedorea elegans)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

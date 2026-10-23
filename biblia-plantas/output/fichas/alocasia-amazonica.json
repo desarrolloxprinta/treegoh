@@ -1,0 +1,338 @@
+{
+  "nombre_cientifico": "Alocasia amazonica",
+  "nombres_comunes": [
+    "alocasia amazónica",
+    "alocasia Polly",
+    "oreja de elefante",
+    "máscara africana",
+    "Alocasia × amazonica (nombre comercial)",
+    "Alocasia amazonica (nombre comercial)"
+  ],
+  "familia": "Araceae",
+  "origen": "Híbrido artificial obtenido en cultivo, no existe en la naturaleza. POWO (Kew) lo acepta como Alocasia × mortfontanensis André (Rev. Hort. 1891), con fórmula A. longiloba × A. sanderi (= A. sanderiana); NC State lo atribuye al horticultor francés M. M. Chantrier, de Mortefontaine (Francia). El nombre comercial 'Alocasia × amazonica' (Reark, 1953) no fue publicado válidamente y POWO lo trata como sinónimo. Los parentales proceden de Asia tropical (el género Alocasia es nativo del sur de Asia tropical, Indonesia, Malasia, Nueva Guinea, parte de Australia y Pacífico). 'Polly' es un cultivar compacto de este híbrido; 'Bambino' es otro aún más enano.",
+  "clima_nativo": "Sin hábitat natural propio (híbrido de cultivo). Los parentales viven en sotobosque de selva tropical húmeda de Asia, con calor constante, humedad ambiental alta, luz filtrada por el dosel y sin heladas (zonas USDA 10a-12b según NC State).",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas grandes, gruesas, lisas y brillantes, en forma de punta de flecha (sagitadas, estrechas), de hasta 60 cm de largo en ejemplares grandes (RHS) y bastante menores en 'Polly'. Haz verde muy oscuro, casi negruzco; envés morado o púrpura (NC State, RHS). Margen ondulado y festoneado con pequeños lóbulos a la altura de cada nervio lateral, a menudo con un ribete claro fino. Las hojas salen erguidas sobre pecíolos largos y carnosos que parten de un rizoma corto. Rasgo clave para visión: contraste muy fuerte entre lámina casi negra y nervios gruesos blanco-plateados o verde lima.",
+    "nerviacion": "Pinnada, de tipo broquidódromo (UF/IFAS para el género): nervio central y nervios laterales gruesos, muy marcados, de color blanco plateado a verde lima, que llegan hasta el margen y suelen continuarse en un ribete claro a lo largo del borde.",
+    "variegacion": "No es una variegación genética en manchas: el dibujo es fijo y consiste en los nervios y el borde blanco-plateados sobre fondo verde oscuro. En poca luz el contraste disminuye. Existen formas variegadas comerciales (manchas crema o rosadas) que son selecciones aparte.",
+    "tallo": "Rizoma o tallo subterráneo corto y carnoso del que salen directamente los pecíolos; con los años puede asomar un tallo corto. Produce hijuelos (offsets) y pequeños bulbillos o cormelos alrededor de la base. Pecíolos verdes o rosados ('Ivory Coast' los tiene rosados al madurar).",
+    "habito": "Herbácea perenne, rizomatosa, en mata erguida (clumping), de hoja persistente en buenas condiciones pero que en invierno puede perder parte o todo el follaje al entrar en reposo y rebrotar en primavera desde el rizoma.",
+    "tamano_adulto_interior": "30-120 cm de alto y 30-60 cm de ancho según NC State; 'Polly' hasta 60 cm (NC State; UF/IFAS 30-60 cm). RHS indica un máximo de 1-1,5 m para el híbrido en invernadero o galería.",
+    "confusiones": [
+      {
+        "especie": "Alocasia sanderiana (planta kris, uno de los parentales)",
+        "rasgo_diferenciador": "Hoja con el margen profundamente lobulado o recortado (pinnatífido) y brillo metálico; en A. × mortfontanensis el margen solo es ondulado-festoneado con lóbulos poco profundos."
+      },
+      {
+        "especie": "Alocasia longiloba (otro parental) y otras Alocasia de nervio blanco",
+        "rasgo_diferenciador": "Margen liso o apenas ondulado y nervios claros más finos; el híbrido amazonica tiene la lámina más oscura y el borde claramente festoneado con ribete claro."
+      },
+      {
+        "especie": "Alocasia micholitziana 'Frydek'",
+        "rasgo_diferenciador": "Hoja aterciopelada y mate, verde intenso, con nervios verde claro o amarillentos (UF/IFAS); 'Amazonica'/'Polly' tiene la hoja lisa, brillante y casi negra con nervios blanco-plateados."
+      },
+      {
+        "especie": "Alocasia baginda 'Silver Dragon' / 'Dragon Scale'",
+        "rasgo_diferenciador": "Hoja en escudo, ancha y acorazonada, con textura rugosa en relieve y fondo plateado (UF/IFAS); no tiene forma de flecha estrecha ni margen festoneado."
+      },
+      {
+        "especie": "Colocasia esculenta (taro, oreja de elefante)",
+        "rasgo_diferenciador": "Hoja peltada (el pecíolo se inserta cerca del centro del envés), mate y orientada hacia fuera o hacia abajo (Wisconsin); la alocasia amazonica tiene la hoja brillante, erguida y en punta de flecha."
+      },
+      {
+        "especie": "Alocasia 'Bambino'",
+        "rasgo_diferenciador": "Mismo grupo híbrido pero enana, con hojas más pequeñas y estrechas (NC State); se distingue por tamaño, no por el dibujo."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios, en forma de aguja) presentes en todas las partes de la planta; la savia es irritante para piel y ojos.",
+    "sintomas": "En perros y gatos: irritación oral, dolor e hinchazón de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA, LSU). En niños: ardor y dolor en boca y garganta, hinchazón, molestias digestivas; dermatitis de contacto e irritación ocular por la savia (UF/IFAS, RHS, NC State). Ante ingestión, contactar con veterinario o con el Servicio de Información Toxicológica (91 562 04 20). Manipular con guantes.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F8",
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS indica orientación este u oeste y exposición resguardada). En ventana sur, a 1-2 m del cristal o tras cortina fina. En ventana norte sobrevive pero crece muy despacio y pierde contraste.",
+      "tolera_sol_directo": "No. El sol directo quema las hojas (RHS, NC State). Como mucho, sol suave de primera hora de la mañana.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Las fuentes describen la luz solo de forma cualitativa (luz brillante pero indirecta). Los lux corresponden a la franja 'brillante indirecta' de la escala del proyecto (500-1000 fc). RHS indica que con menos luz sobrevive pero crece mucho más despacio: por debajo de ~100 fc (≈1076 lux) no se espera crecimiento útil. Girar la maceta un poco en cada riego para que no se incline hacia la luz (RHS)."
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 5 cm superiores del sustrato estén secos al tacto (RHS) y la maceta pese claramente menos; regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Es más estricto que el criterio general del proyecto (2-3 cm) porque la especie es muy propensa a pudrir raíces y rizoma.",
+      "primavera_verano": "Con crecimiento activo (aprox. abril-octubre), mantener el sustrato ligeramente húmedo pero nunca encharcado; regar cuando se sequen los 5 cm superiores. Si el sustrato se seca muy rápido tras regar, la planta probablemente necesita una maceta mayor (RHS).",
+      "otono_invierno": "Si entra en reposo (deja de sacar hojas o pierde follaje), reducir el riego al mínimo: dejar secar casi todo el cepellón y dar solo pequeñas cantidades para que el rizoma no se deshidrate del todo. Si está en un interior cálido (>18 °C) y sigue sacando hojas, regar algo menos que en verano siguiendo el mismo criterio de sustrato y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda; la cloramina no se elimina dejándola reposar y no es la causa de puntas marrones). Usar agua a temperatura ambiente. Lavar el sustrato con abundante agua cada pocos meses si se abona, para evitar acumulación de sales (tolerancia a sales baja según UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "NC State y UF/IFAS señalan el exceso de riego como causa de pudrición radicular y de pudrición bacteriana del tallo; RHS insiste en que el exceso de riego en invierno, durante el reposo, es la causa principal de pudrición. Aunque en jardín algunas Alocasia toleran suelos encharcados (UF/IFAS, Wisconsin), en maceta e interior no debe dejarse con el plato lleno."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5"
+      ],
+      "notas": "Las tres fuentes coinciden cualitativamente en que necesita humedad media a alta (RHS) o alta (NC State, Wisconsin), pero ninguna fuente prioritaria da un porcentaje: se deja en null y se anota en lagunas. El aire seco favorece la araña roja, plaga a la que esta alocasia es especialmente sensible. Según la convención del proyecto, pulverizar no sube la humedad de forma útil (aunque RHS y Fine Gardening lo sugieren): usar humidificador, agrupar plantas o bandeja con grava húmeda sin que la maceta toque el agua. Un baño luminoso es buena ubicación (RHS). Mantener lejos de radiadores y salidas de aire acondicionado."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": null,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5"
+      ],
+      "notas": "RHS: por encima de 16 °C en la temporada de crecimiento y nunca por debajo de 10 °C; en invierno acepta 10-16 °C para que entre en reposo. NC State: el aire no debe bajar de 60 °F (≈15,5 °C). Wisconsin: se resiente con temperaturas prolongadas por debajo de 50 °F (10 °C). Se adopta 15 °C como mínimo recomendado (opción conservadora de NC State) y 10 °C como límite absoluto de supervivencia en reposo. El frío y las corrientes, sobre todo en invierno, dañan la planta (RHS); también el transporte en frío tras la compra. Ninguna fuente prioritaria da una temperatura máxima: se deja en null (ver lagunas); NC State la cataloga como resistente al calor en exterior siempre que haya humedad."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato fértil, aireado y con buen drenaje: 3 partes de sustrato universal o para plantas de interior sin turba + 1 parte de grava hortícola o árido grueso (RHS). Equivalente válido: sustrato de interior con un 25-30 % de perlita o corteza fina. Plantar con la parte superior del rizoma/cepellón justo bajo la superficie, sin enterrar el cuello. Maceta con agujeros de drenaje; en ejemplares grandes, terracota pesada para dar estabilidad (RHS).",
+      "ph": "Ácido a neutro (aprox. 5,5-7,0): NC State indica ácido (<6,0) a neutro (6,0-8,0) y RHS ácido o neutro.",
+      "drenaje": "Imprescindible: suelo húmedo pero bien drenado (NC State, RHS). Sin capa de grava en el fondo ni cubremacetas que retenga agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de follaje, diluido en el agua de riego.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras saque hojas nuevas (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada durante el reposo ni cuando no crece. Reanudar cuando aparezca la primera hoja nueva en primavera.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6"
+      ],
+      "notas": "Contradicción de frecuencia: Illinois Extension la califica de muy exigente ('heavy feeder') y recomienda abonar cada dos semanas; Wisconsin pide 'abundante agua y abono'; RHS remite a la dosis y frecuencia de la etiqueta de abril a octubre. Se adopta la opción más conservadora, la convención del proyecto (mensual, ¼-½ de dosis), porque UF/IFAS indica tolerancia a sales baja y en interior el exceso de abono acumula sales que queman puntas y bordes. Ninguna fuente prioritaria da una fórmula NPK concreta."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años aproximadamente; puede quedarse en su maceta original el primer año (RHS). Prefiere maceta algo justa: subir solo 2-4 cm de diámetro.",
+      "epoca": "Primavera, al reanudar el crecimiento (marzo-mayo en Madrid). Nunca en pleno reposo invernal.",
+      "senales": "Raíces que salen por los agujeros o rodean el cepellón, sustrato que se seca muy rápido tras regar (RHS), hijuelos que llenan la maceta, planta inestable. Aprovechar para revisar raíces y rizoma y retirar partes blandas o negras.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS), solo limpieza de hojas viejas, amarillas o secas.",
+      "epoca": "En cualquier momento, cuando una hoja amarillea por completo o se seca.",
+      "como": "Cortar el pecíolo de la hoja marchita en su base con tijera limpia (RHS, Wisconsin). Usar guantes: la savia irrita la piel y los ojos. Es normal que al salir una hoja nueva se pierda una vieja, sobre todo en plantas pequeñas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aprox. noviembre-marzo; en Madrid, en cuanto bajan la luz y la temperatura interior). En hemisferio sur, mayo-septiembre.",
+      "cambios": "Con menos luz y temperaturas más bajas suele frenar o detener el crecimiento y puede perder parte o todas las hojas: no es necesariamente muerte, el rizoma rebrota en primavera (RHS). Durante el reposo: mantener entre 10 y 16 °C como máximo frescor tolerable (mejor ≥15 °C), con buena luz, regar al mínimo, no abonar y no trasplantar. Antes de tirar una planta sin hojas, comprobar que el rizoma esté firme (si está duro, está vivo; si está blando y huele mal, está podrido). Reanudar riego normal y abono al aparecer la primera hoja nueva. Si el interior está cálido y luminoso, puede seguir creciendo despacio sin perder hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos (offsets)",
+        "división del rizoma",
+        "cormelos o bulbillos de la base"
+      ],
+      "epoca": "Primavera para los hijuelos; finales de primavera-principios de verano para la división del rizoma (RHS).",
+      "pasos": "1) Con guantes, sacar la planta de la maceta y localizar los hijuelos que brotan alrededor de la base. 2) Separar cada hijuelo cortando con un cuchillo limpio, llevándose el máximo de raíz posible (RHS). 3) Plantarlo en una maceta pequeña con sustrato aireado (3 partes de sustrato sin turba + 1 de grava). 4) Mantenerlo en calor (>18 °C), buena luz indirecta y sustrato apenas húmedo hasta que saque hoja nueva. 5) Para dividir el rizoma: cortarlo en trozos con al menos una yema, dejar secar el corte unas horas y plantarlo en las mismas condiciones; brotará en unas semanas. Los cormelos pueden semienterrarse en sustrato húmedo con calor. No se propaga por esqueje de hoja.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros tetraníquidos): la plaga más típica de esta alocasia en interior, favorecida por aire seco y calor (calefacción en invierno, verano seco de Madrid). NC State y UF/IFAS la citan como plaga a vigilar. Revisar el envés cada 1-2 semanas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado del haz por la alimentación de la araña roja; suele preceder a la telaraña visible. Las hojas afectadas se apagan y acaban secándose."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las axilas de los pecíolos y en el envés (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas que se están abriendo (NC State)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato compacto, sobre todo en invierno durante el reposo (RHS, NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición bacteriana del tallo/rizoma por exceso de riego y frío (NC State): base de los pecíolos blanda, oscura y maloliente. Suele ser difícil de salvar; aislar y recuperar hijuelos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Renovación normal (cada hoja nueva puede sustituir a una vieja) o entrada en reposo invernal con menos luz y frío (RHS). Si es masivo en temporada de crecimiento, revisar riego y raíces."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Pecíolos caídos por exceso de riego con raíces dañadas, por sequía puntual con sustrato muy seco, por frío o corrientes, o por falta de luz (pecíolos largos y blandos)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras por sol directo a través del cristal (RHS, NC State), habituales en ventanas sur u oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire muy seco por calefacción o aire acondicionado, riego irregular o sales de abono acumuladas (tolerancia a sales baja según UF/IFAS). No atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras la compra o el transporte en frío y tras cambios bruscos de ubicación; RHS advierte que el frío en el transporte puede dañarla o matarla."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sin hojas nuevas en primavera-verano por luz insuficiente, temperatura <16 °C o raíces dañadas. En invierno la parada es normal (reposo) y no es un problema."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el riesgo principal es la araña roja: revisar el envés cada semana y subir la humedad con humidificador o agrupando plantas. Retirar de ventanas sur y oeste sin protección (el sol directo quema la hoja); poner a 1-2 m del cristal o tras cortina fina. El sustrato se seca rápido: comprobar con el dedo (5 cm) y el peso cada 2-4 días, sin regar por calendario. No colocar frente a la salida del aire acondicionado. Si se saca a terraza, solo en sombra luminosa, protegida del viento (rompe las hojas, UF/IFAS) y cuando las noches superen los 15 °C.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: es la época de más riesgo de araña roja y puntas secas; usar humidificador y mantener lejos de radiadores. Separar de los cristales fríos (por la noche pueden bajar de 10-15 °C junto a la ventana) y de corrientes de puertas y ventanas. Es normal que entre en reposo y pierda algunas hojas: reducir mucho el riego, no abonar ni trasplantar. Si el piso está cálido (20-22 °C) y luminoso puede seguir creciendo: regar solo con sustrato seco a 5 cm. Nunca exponer a menos de 10 °C.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana este u oeste (con cortina en verano en la oeste), o a 1-2 m de una ventana sur con cortina fina; un baño luminoso con ventana es buena opción por la humedad. Lejos de radiadores, aire acondicionado y corrientes, y fuera del alcance de perros, gatos y niños por su toxicidad."
+  },
+  "lagunas": [
+    "Taxonomía: el nombre comercial 'Alocasia amazonica' / 'Alocasia × amazonica' (Reark, 1953) no fue publicado válidamente; POWO (Kew) lo trata como sinónimo de Alocasia × mortfontanensis André (1891), híbrido artificial A. longiloba × A. sanderi (= A. sanderiana). NC State usa también A. × mortfontanensis ('previously known as A. × amazonica'); RHS mantiene 'Alocasia × amazonica' como nombre correcto. Se adopta el nombre aceptado por POWO y se conserva el archivo alocasia-amazonica.json. 'Polly' es un cultivar compacto de este híbrido. El origen del nombre 'Amazonica' en un vivero de Miami ('Amazon Nursery') solo aparece en foros: no verificado.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes (solo 'media-alta' o 'alta'); min_pct e ideal_pct en null. Las cifras de blogs (50-80 %) no están verificadas.",
+    "Temperatura máxima e ideal máxima: ninguna fuente prioritaria las da; max_c e ideal_max_c en null.",
+    "Luz: ninguna fuente prioritaria da cifras en fc o lux para esta alocasia; los lux se han tomado de la franja 'brillante indirecta' de la escala del proyecto.",
+    "Fertilización: sin fórmula NPK específica en fuentes prioritarias; frecuencia contradictoria entre fuentes (cada dos semanas en Illinois, según etiqueta en RHS).",
+    "Trasplante: solo RHS da frecuencia (cada dos años); confianza Media.",
+    "Dormancia: RHS y Wisconsin describen el reposo invernal, pero no hay umbral de temperatura verificado en fuentes prioritarias (foros citan <13 °C y blogs <15 °C).",
+    "Nombre: la ficha usa \"Alocasia amazonica\", el nombre de lista-maestra.csv y del comercio (RHS: Alocasia × amazonica). POWO acepta Alocasia × mortfontanensis André (1891), híbrido A. longiloba × A. sanderiana; decisión de renombrado pendiente para Fase 5."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/alocasia-x-amazonica/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Alocasia x mortfontanensis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/96161/alocasia-amazonica/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia × amazonica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow alocasias (Growing Guide)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/FP033",
+      "institucion": "UF/IFAS Extension (University of Florida) — FPS33 Alocasia spp.: Elephant's Ear, Alocasia, Taro (rev. 2025)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/elephant-ears-colocasia-alocasia-and-xanthosoma/",
+      "institucion": "University of Wisconsin–Madison Extension — Elephant Ears (Colocasia, Alocasia and Xanthosoma)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.illinois.edu/plants/alocasia",
+      "institucion": "University of Illinois Extension — Alocasia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "institucion": "ASPCA Animal Poison Control Center — Elephant's Ear (Alocasia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://artsci.lsu.edu/vetmed/toxic_plants/alocasia.php",
+      "institucion": "Louisiana State University School of Veterinary Medicine — Toxic plants: Alocasia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84211-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia × mortfontanensis André",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/77235945-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia × amazonica Reark (sinónimo, no válidamente publicado)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.finegardening.com/article/growing-alocasia-indoors",
+      "institucion": "Fine Gardening (Taunton Press) — Growing Alocasia Indoors, R. Bullene (Greenery NYC)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

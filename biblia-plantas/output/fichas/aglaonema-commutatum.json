@@ -1,0 +1,319 @@
+{
+  "nombre_cientifico": "Aglaonema commutatum",
+  "nombres_comunes": [
+    "aglaonema",
+    "siempreverde chino",
+    "aglaonema de cinta",
+    "planta dardo venenoso"
+  ],
+  "familia": "Araceae",
+  "origen": "Filipinas y Célebes (Sulawesi), según POWO y RHS (la RHS precisa noreste de Célebes). Introducida en Bangladés, archipiélago de Chagos, Comoras, Islas Cook, Cuba, India, Puerto Rico, Trinidad y Tobago y Antillas venezolanas (POWO). El género (21-26 especies según la fuente) vive en el sotobosque húmedo y muy sombreado de las selvas del sureste asiático (UF/IFAS EP160, NC State). IMPORTANTE: la mayoría de aglaonemas vendidas en maceta son cultivares de A. commutatum ('Maria' = 'Emerald Beauty', 'Silver Bay', 'Pseudobracteatum', 'Treubii', 'White Rajah'...) o híbridos interespecíficos en los que A. commutatum es uno de los parentales junto a A. crispum, A. modestum y A. nitidum ('Silver Queen', 'Red Gold', 'Siam Aurora'...); en los años 90 se patentaron 29 híbridos solo en EE. UU. (UF/IFAS EP160, Clemson). Las fuentes no se ponen de acuerdo en la asignación de algunos cultivares ('Silver Bay' figura como A. commutatum en NC State y como híbrido en Clemson), por lo que la app debe tratar las aglaonemas comerciales como 'A. commutatum y afines' salvo etiqueta clara.",
+  "clima_nativo": "Tropical húmedo de selva, a la sombra densa del sotobosque, cálido todo el año y sin heladas (UF/IFAS EP160, NC State). Fuera solo en zonas USDA 10b-11b (NC State).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, en roseta apretada sobre un tallo corto, con pecíolo largo y envainante (RHS). Lámina elíptica a lanceolada, de 10-30 cm de largo y 5-10 cm de ancho en la especie (NC State), punta aguda, superficie lisa y algo brillante. Color base verde oscuro con manchas o bandas gris plateado siguiendo los nervios laterales (Clemson: 'dark green leaves with gray markings along the veins'). Rasgo clave para visión: patrón de 'plumas' o franjas plateadas que salen del nervio central hacia el margen sin llegar a él, sobre hoja lanceolada coriácea con pocos nervios laterales.",
+    "nerviacion": "Pinnada, con nervio central marcado y solo 5-8 nervios laterales principales, arqueados hacia la punta: es el rasgo que la separa de Dieffenbachia, que tiene muchos más (NC State). En varios cultivares los nervios quedan resaltados en blanco o plata ('Pseudobracteatum') (NC State, Clemson).",
+    "variegacion": "Casi siempre variegada: gris plata en bandas a lo largo de los nervios en la especie; en cultivares e híbridos, desde casi toda plateada ('Silver Bay', 'Silver King') hasta crema, amarillo, rosa o rojo ('White Rajah', 'Crete', 'Red Gold', 'Siam Aurora'), a menudo con pecíolos y tallos blancos, rosas o crema (NC State, Clemson, UF/IFAS EP160). Clemson indica que los tipos muy variegados necesitan algo más de luz que los verdes.",
+    "tallo": "Tallo verde, erecto y carnoso, con cicatrices anulares de hojas caídas; corto en plantas jóvenes y alargado tipo 'caña de azúcar' con la edad, quedando desnudo por abajo (NC State, Clemson). Planta rizomatosa que emite hijuelos basales (RHS, UF/IFAS EP160). Inflorescencia poco vistosa entre las hojas: espata verdosa a blanco-verdosa que envuelve un espádice blanco o crema, seguida de racimos de bayas rojas (NC State, RHS).",
+    "habito": "Herbácea perenne siempreverde, erguida y en mata densa; con los años tiende a espigarse y perder hojas basales (NC State). No trepa ni cuelga.",
+    "tamano_adulto_interior": "30-50 cm de alto y 30-45 cm de ancho en la especie (NC State; Missouri Botanical Garden da 30-45 cm). Clemson da 60-90 cm de alto y 45-60 cm de ancho para A. commutatum, y los cultivares grandes ('Emerald Star', 'Jewel of India', 'Abidjan') llegan a unos 90-100 cm (UF/IFAS EP160). Crecimiento lento.",
+    "confusiones": [
+      {
+        "especie": "Dieffenbachia seguine (difenbaquia)",
+        "rasgo_diferenciador": "Hojas más grandes y anchas con muchos nervios laterales (Aglaonema solo tiene 5-8 principales) y tallo grueso tipo caña bien visible ya en plantas jóvenes (NC State)."
+      },
+      {
+        "especie": "Spathiphyllum spp. (espatifilo)",
+        "rasgo_diferenciador": "Sin tallo aéreo, hojas verdes lisas sin manchas plateadas con nervios hundidos muy numerosos, y espata blanca grande que se alza por encima del follaje; la espata de Aglaonema es verdosa y queda escondida entre las hojas."
+      },
+      {
+        "especie": "Anthurium spp. (anturio)",
+        "rasgo_diferenciador": "Hojas acorazonadas o sagitadas, sin bandas plateadas, y espata plana y cerosa, muy vistosa, a menudo roja o rosa (NC State lo cita como confusión habitual)."
+      },
+      {
+        "especie": "Otras aglaonemas (A. modestum, A. nitidum, A. pictum, A. crispum e híbridos)",
+        "rasgo_diferenciador": "Distinción difícil por foto. A. modestum es verde liso, brillante y con margen ondulado; A. pictum 'Tricolor' tiene manchas de camuflaje en tres tonos; A. nitidum, hojas oblongas coriáceas con pecíolos acanalados; A. crispum, más robusta con mucho plateado (Clemson, NC State). Ante duda, identificar como 'Aglaonema sp. (cultivar/híbrido)', con los mismos cuidados."
+      },
+      {
+        "especie": "Calathea / Goeppertia spp. (calatea)",
+        "rasgo_diferenciador": "Hojas finas que se pliegan de noche, con envés a menudo púrpura y pulvínulo engrosado en la unión pecíolo-lámina; Aglaonema tiene hojas gruesas, coriáceas, que no se mueven, y envés verde pálido."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico en todas las partes de la planta: hojas, tallos, raíces, flores, frutos y semillas (ASPCA, NC State).",
+    "sintomas": "Si se muerde o ingiere: irritación, dolor y hinchazón de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar (ASPCA, NC State). La savia causa dermatitis de contacto (sarpullido y dolor) e irrita las mucosas en personas (NC State): usar guantes al dividir o cortar esquejes. NC State la clasifica de gravedad baja. Ante ingestión con síntomas: enjuagar la boca y llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F4",
+      "F3"
+    ],
+    "notas": "La ficha de la ASPCA es a nivel de 'Chinese evergreen' con nombre Aglaonema modestum; NC State y Clemson dan la toxicidad para todo el género, incluida A. commutatum, por lo que se aplica a la especie y a sus híbridos. Las bayas rojas son atractivas para niños: retirarlas (también lo recomiendan UF/IFAS y NC State por salud de la planta)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 269,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana norte o este, o a 1,5-3 m de una ventana sur u oeste, siempre sin sol directo sobre las hojas (Clemson, UF/IFAS EP160). Las variedades más claras (plata, crema, rosa, rojo) en la parte más luminosa de ese rango; las verdes oscuras toleran rincones con poca luz (Clemson).",
+      "tolera_sol_directo": "No. A pleno sol las hojas se queman (UF/IFAS EP160) y Clemson indica que no le gusta el sol directo en el follaje. El exceso de luz (o de calor) también hace que las hojas se pongan casi verticales y se decoloren hasta un aspecto lavado o blanquecino que puede no recuperarse (UF/IFAS EP160).",
+      "notas": "UF/IFAS EP160: en interior tolera hasta 25 fc (≈269 lux), que se toma como lux_min; en invernadero se cultiva con 1250-3000 fc de luz difusa, pero en el extremo alto pierde color. Se adopta como rango de interior luz media (100-500 fc) a brillante indirecta (hasta 1000 fc ≈ 10760 lux). Con poca luz casi no florece (NC State) y crece muy despacio, pero se mantiene. Girar la maceta cada 1-2 semanas para que no se ladee (UF/IFAS EP160).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (Clemson: 1-2 in, comprobar metiendo dos dedos) y la maceta pese claramente menos que recién regada. Si el sustrato está frío y húmedo, NO regar (Clemson). Regar a fondo hasta que drene, vaciar el plato a los 10-15 minutos y no dejarla nunca encharcada: el sustrato debe estar húmedo pero no saturado (UF/IFAS EP160). Nunca por calendario.",
+      "primavera_verano": "De primavera a otoño, mantener el sustrato ligeramente húmedo de forma regular (NC State, Clemson), dejando que la capa superior se seque entre riegos (NC State). Comprobar dedo y peso con más frecuencia con calor; en Madrid en verano puede tocar cada 4-7 días según maceta y luz.",
+      "otono_invierno": "Reducir el riego en invierno (NC State): esperar a que se seque la capa superior y la maceta pese poco. Con frío, el sustrato húmedo pudre raíces; con calefacción fuerte se seca antes, así que guiarse por dedo y peso, no por fecha.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente, ni fría ni caliente: NC State y Clemson piden evitar el agua fría. El agua del grifo de Madrid (Canal de Isabel II, blanda, con cloramina y fluoruro <0,1 mg/L) es apta; las puntas marrones se deben a sales de abono acumuladas, riego irregular o aire seco, no al cloro o flúor del grifo. Lavar el sustrato con un riego abundante si hay costra de sales (UF/IFAS EP160).",
+      "notas": "El encharcamiento y un sustrato que drena mal provocan pudrición de raíz, el principal problema sanitario en casa (Clemson, NC State). Clemson la considera tolerante a la sequía puntual, pero 'demasiada o muy poca agua dañan las raíces'; por eso se marca sensibilidad a la sequía media. Las fluctuaciones fuertes de riego favorecen la 'punta en anzuelo' de la hoja nueva (UF/IFAS EP160).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Clemson: tolera aire seco y crece bien con humedad doméstica baja a moderada. NC State: prefiere humedad alta pero tolera aire más seco; con aire muy seco o corrientes las hojas se ponen marrones. Si la humedad interior baja mucho (calefacción en Madrid, <30 %), usar humidificador o agrupar plantas; pulverizar no sube la humedad de forma útil. Clemson menciona oídio con humedad muy alta: no conviene un ambiente saturado y sin ventilación.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 20,
+      "ideal_max_c": 27,
+      "notas": "UMBRAL DE DAÑO POR FRÍO (lo más importante de esta planta): el género es extremadamente sensible al frío; los daños por enfriamiento aparecen entre 0 y 15 °C (32-59 °F) (UF/IFAS EP103). UF/IFAS EP160 y EP103 sitúan el riesgo por debajo de 13 °C (55 °F), con daño 3-7 días después de exposiciones por debajo de 10-13 °C (50-55 °F). Clemson: tolera hasta 13 °C y es sensible a menos de 10 °C. El umbral depende del cultivar: en ensayo de 24 h, 'Silver Queen' y 'Royal Queen' sufrieron daño ya a 13 °C (55 °F), con umbral crítico por encima de 13 °C; 'Silver Frost', 'Maria' y 'Green Lady', hacia 7 °C (45 °F); 'Emerald Star', 'Stars' y 'Jewel of India' aguantaron 2 °C (35 °F) sin daño (UF/IFAS EP103). Para cultivares sensibles UF/IFAS recomienda mantener más de 15,5 °C (60 °F). Como la app no suele saber el cultivar, se adopta min_c = 15 °C (el valor más conservador). Síntomas: manchas oscuras de aspecto grasiento o empapado entre nervio central y margen, sobre todo en hojas maduras y viejas (las jóvenes resisten más), que aparecen ~2 días después del frío y siguen apareciendo hasta 10 días; el daño es permanente; si afecta a más del 50 % de la lámina, la hoja amarillea y cae (UF/IFAS EP103, EP160). Las raíces absorben mal el cobre con el sustrato frío; mantenerlo por encima de 18 °C (65 °F) (UF/IFAS EP160). Ideal de día 20-27 °C (Clemson 68-80 °F; NC State 70-80 °F). Máximo: ninguna fuente prioritaria da cifra; UF/IFAS EP160 solo indica que el exceso de calor y/o luz verticaliza y decolora las hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato comercial para plantas de interior sin tierra, con materia orgánica extra (Clemson); referencia profesional: turba (o fibra de coco) con corteza de pino, vermiculita o perlita, con un 10-20 % de poros de aire (UF/IFAS EP160). Maceta siempre con agujeros de drenaje (Clemson).",
+      "ph": "Ligeramente ácido: 6,0-6,5 según UF/IFAS EP160 (5,5-6,5 para enraizar esquejes); NC State lo da como ácido (<6,0). Se adopta 5,5-6,5.",
+      "drenaje": "Bueno y rápido: la pudrición de raíz suele venir de un sustrato que no drena rápido o del exceso de riego (Clemson, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior con microelementos (UF/IFAS EP160).",
+      "npk": "Equilibrado, p. ej. 20-20-20, muy diluido (UF/IFAS EP160 para interior: solución a 50 ppm de N una vez al mes). En producción se usa relación 3-1-2.",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta una vez al mes, solo con crecimiento activo (convención del proyecto; coincide con la pauta de UF/IFAS EP160 de una solución muy diluida al mes en interior).",
+      "otono_invierno": "Nada si no crece (frío, poca luz). Con calefacción y buena luz puede seguir creciendo despacio: como mucho ¼ de dosis cada 6-8 semanas.",
+      "notas": "El exceso de abono acumula sales y quema puntas y márgenes de las hojas (UF/IFAS EP160, Clemson). Las aglaonemas son propensas a carencias de cobre y otros microelementos: hojas viejas que pierden color y hojas nuevas cloróticas, enanas y deformes con bordes aserrados; por eso conviene un abono con microelementos y no enfriar el sustrato (UF/IFAS EP160).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Ninguna fuente prioritaria consultada da frecuencia. Orientación prudente: solo cuando las raíces llenen la maceta (en ejemplares jóvenes suele ser cada 2-3 años, crece despacio), a una maceta 2-5 cm más ancha, nunca mucho mayor, para no dejar sustrato húmedo sin raíces.",
+      "epoca": "Primavera o comienzo del verano, con temperaturas por encima de 20 °C; nunca con frío, por su sensibilidad al enfriamiento (UF/IFAS EP103) y porque el sustrato frío y húmedo pudre raíces.",
+      "senales": "Raíces saliendo por los agujeros de drenaje o dando vueltas, sustrato que se seca en muy poco tiempo, planta que se vuelca o mata tan densa de hijuelos que conviene dividirla. Usar sustrato aireado y maceta con drenaje (UF/IFAS EP160, Clemson).",
+      "confianza": "Baja",
+      "fuentes": [
+        "F1",
+        "F3"
+      ],
+      "notas": "Solo la parte de sustrato y drenaje procede de fuentes prioritarias (F1, F3); frecuencia y época son prácticas generales para aráceas de interior no verificadas en dos fuentes para esta especie. Anotado en lagunas."
+    },
+    "poda": {
+      "necesita": "No necesita poda (UF/IFAS EP160). Solo limpieza: retirar hojas secas o amarillas y cortar las inflorescencias y frutos en cuanto aparezcan, para que la planta dedique energía a las hojas y se mantenga compacta (UF/IFAS EP160, NC State).",
+      "epoca": "Limpieza en cualquier momento; los cortes de rejuvenecimiento, en primavera-verano con calor.",
+      "como": "Con tijera limpia y guantes (savia irritante). Cortar hojas dañadas por la base del pecíolo. Si la planta se ha espigado y ha perdido las hojas de abajo, cortar la parte superior y enraizarla como esqueje (Clemson); el tocón suele rebrotar hijuelos (UF/IFAS EP160 cita cultivares que brotan al recortarlos). Limpiar el polvo de las hojas con un paño húmedo (UF/IFAS EP160).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No necesita reposo invernal, pero agradece menos riego en invierno (NC State). Con frío y poca luz casi no crece: no abonar y regar solo cuando la capa superior esté seca y la maceta ligera (Clemson: si el sustrato está frío y húmedo, no regar).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de hijuelos basales",
+        "esqueje de tallo",
+        "esqueje apical",
+        "acodo aéreo",
+        "semilla"
+      ],
+      "epoca": "Primavera y verano, con temperatura de al menos 20 °C (por su sensibilidad al frío, UF/IFAS EP103; época no especificada por las fuentes).",
+      "pasos": "Métodos principales: esquejes y división de hijuelos basales; el cultivo in vitro no ha funcionado bien en este género (UF/IFAS EP160). 1) Con guantes, cortar un esqueje con 4-5 hojas (UF/IFAS EP160) o separar un hijuelo con raíces propias al trasplantar. 2) Plantarlo en un sustrato muy aireado (10-20 % de aire, pH 5,5-6,5) (UF/IFAS EP160), p. ej. turba o coco con perlita. 3) Mantener húmedo pero no encharcado, con calor (20-27 °C) y luz indirecta. 4) Abonar solo cuando empiece a sacar hojas nuevas. Clemson añade esqueje apical, acodo aéreo y semilla; el tallo desnudo de plantas viejas puede cortarse y enraizar su parte superior (Clemson). Los cultivares difieren mucho en número de hijuelos: algunos dan más de cuatro y otros ninguno (UF/IFAS EP160).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Daño por frío: manchas grises que se vuelven oscuras y grasientas entre nervio central y margen, sobre todo en hojas maduras y viejas, 2-7 días después de estar por debajo de 10-15 °C (transporte, ventana fría, corriente, coche en invierno). Es permanente; retirar hojas muy dañadas y llevarla a un sitio cálido (UF/IFAS EP103, EP160)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas que amarillean y caen tras un daño por frío que afectó a más del 50 % de la lámina (UF/IFAS EP103), o carencia de cobre/microelementos (UF/IFAS EP160). También pérdida natural de hojas basales al envejecer y espigarse (NC State)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones y quebradizas por sales de abono acumuladas (UF/IFAS EP160); también aire muy seco o corrientes (NC State)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes quemados por exceso de abono (Clemson, UF/IFAS EP160). Lavar el sustrato y reducir la dosis."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato que drena mal, peor con frío (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Carencia de cobre: hojas nuevas cloróticas, enanas y deformes con bordes aserrados; favorecida por sustrato frío (<18 °C). Abono con microelementos (UF/IFAS EP160). La 'punta en anzuelo' de la hoja nueva que queda atrapada se debe a fluctuaciones de luz, riego, abono o temperatura (UF/IFAS EP160)."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Clorosis de hojas terminales por carencia de cobre u otros microelementos (UF/IFAS EP160)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz o calor: hojas que se ponen casi verticales y se decoloran hasta un aspecto lavado o blanquecino; con sol directo, quemaduras (UF/IFAS EP160)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sequía prolongada o, con el sustrato húmedo, por pudrición de raíz (Clemson: 'demasiada o muy poca agua dañan las raíces'). Comprobar el sustrato antes de regar."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de las hojas y bases de pecíolos (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos y nervios (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros), favorecida por aire seco y calor, típica en Madrid con calefacción o en verano (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y hojas jóvenes (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, poco frecuente, con humedad muy alta y poca ventilación (Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte en ventanas sur y oeste, alejarla al menos 1,5-3 m de esas ventanas o tamizar con cortina: el sol directo la quema y el exceso de luz y calor decolora las hojas y las pone verticales (UF/IFAS EP160). No sacarla a balcón o terraza al sol. El aire muy seco (HR exterior ≈38 % en julio) favorece puntas marrones y araña roja: agrupar plantas o usar humidificador, y revisar el envés. Comprobar el sustrato con el dedo y el peso con más frecuencia (puede necesitar riego cada 4-7 días), sin encharcar. Evitar el chorro directo del aire acondicionado: las corrientes frías dañan las hojas.",
+    "invierno": "Es lo crítico en Madrid: no dejarla pegada a cristales fríos ni en habitaciones sin calefacción, y no tenerla por debajo de 15 °C (algunos cultivares como 'Silver Queen' se dañan ya a 13 °C; UF/IFAS EP103). Ojo al comprarla en invierno: el trayecto en coche frío o la exposición en un vivero o mercadillo al aire libre puede bastar para que aparezcan manchas oscuras grasientas a los 2-10 días. Por la noche, separarla de la ventana o correr la cortina entre planta y cristal. La calefacción baja la humedad por debajo del 30 %: humidificador o agrupar plantas, y lejos de radiadores. Reducir el riego y no abonar si no crece; el sustrato frío y húmedo pudre raíces.",
+    "ubicacion_recomendada": "Interior todo el año, en salón o despacho con calefacción y temperatura estable de 20-27 °C, junto a una ventana norte o este, o en el interior de una habitación orientada al sur u oeste a 1,5-3 m del cristal, sin sol directo, sin corrientes ni salidas de aire de radiadores o aire acondicionado. Fuera del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Aglaonema commutatum Schott sin cambio de nombre (comprobado también en GBIF y RHS: 'Name Status Correct'). No se pudo abrir el listado de sinónimos de POWO (bloqueo Cloudflare); no se comprueban aquí sinónimos ni variedades infraespecíficas.",
+    "Cultivares e híbridos: muchas aglaonemas comerciales son híbridos con A. commutatum como parental o cultivares de asignación discutida ('Silver Bay', 'Silver Queen'); la ficha se aplica a A. commutatum y afines, y el umbral de frío varía por cultivar (ver temperatura).",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales (min_pct e ideal_pct = null).",
+    "Temperatura máxima: ninguna fuente prioritaria da cifra (max_c = null); solo que el exceso de calor y luz decolora y verticaliza las hojas.",
+    "Trasplante: frecuencia y época no documentadas en fuentes prioritarias para esta especie; confianza Baja.",
+    "Propagación: la época concreta no la especifica ninguna fuente; se deduce de su sensibilidad al frío.",
+    "Toxicidad: la ficha de ASPCA está bajo Aglaonema modestum (nombre común Chinese evergreen); para A. commutatum se apoya en NC State y Clemson, que la aplican a todo el género.",
+    "Las pautas de UF/IFAS EP160 y EP103 son de producción comercial e interiorismo en Florida; las de abonado en interior (50 ppm N mensual) se adaptan a la convención del proyecto."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://edis.ifas.ufl.edu/publication/EP160",
+      "institucion": "University of Florida, IFAS Extension (EDIS ENH957/EP160: Cultural Guidelines for Commercial Production of Interiorscape Aglaonema)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/EP103",
+      "institucion": "University of Florida, IFAS Extension (EDIS ENH843/EP103: Chilling Injury in Tropical Foliage Plants: II. Aglaonema)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/chinese-evergreen/",
+      "institucion": "Clemson University Cooperative Extension, Home & Garden Information Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/aglaonema/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84050-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/703/aglaonema-commutatum/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/top-10-houseplants",
+      "institucion": "Missouri Botanical Garden (guía visual Top 10 Houseplants)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

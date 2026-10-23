@@ -1,0 +1,222 @@
+{
+  "nombre_cientifico": "Rhododendron simsii",
+  "nombres_comunes": [
+    "azalea de interior",
+    "azalea de floristería",
+    "azalea belga",
+    "azalea de la India"
+  ],
+  "familia": "Ericaceae",
+  "origen": "Asia oriental y sudoriental: China centro-meridional y sudoriental, Tíbet, Taiwán, islas Nansei (Ryukyu), Myanmar, Laos, Tailandia y Vietnam; introducida en Corea (POWO). La azalea de interior que se vende en floristería son híbridos y cultivares seleccionados en Europa (sobre todo en Bélgica) a partir de esta especie, a menudo agrupados como híbridos Indica o «azaleas belgas»; no son resistentes al frío intenso (Missouri Extension).",
+  "clima_nativo": "Subtropical a templado-cálido monzónico de montaña baja: arbusto de matorrales, laderas y bordes de bosque en suelos ácidos, con veranos cálidos y lluviosos e inviernos frescos. Necesita frescor invernal para inducir la floración. Datos de hábitat derivados de la distribución de POWO; el detalle ecológico no se ha verificado con una segunda fuente prioritaria.",
+  "categoria": "flor",
+  "dificultad": "dificil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Perennes, coriáceas, planas, elípticas a algo oblanceoladas, de 2,6-6,5 × 0,7-2,1 cm, ápice agudo con un pequeño mucrón y base en cuña; margen con pestañas de pelos largos y ambas caras con pelos aplicados (aplastados), pardo-grisáceos, más densos en el envés y sobre los nervios; haz algo rugoso (NYBG). Peciolo corto, de 3-10 mm, muy peludo. Hojas verde oscuro, mates o poco brillantes, agrupadas al final de las ramillas.",
+    "nerviacion": "Pinnada: nervio central marcado y nervios secundarios poco visibles; los pelos aplicados siguen los nervios en el envés.",
+    "variegacion": "La especie y los cultivares de floristería tienen hoja verde uniforme. Las flores sí pueden ser bicolores, con borde blanco, jaspeadas o con manchas oscuras en el pétalo superior. Hojas amarillas con nervios verdes no son variegación sino clorosis férrica.",
+    "tallo": "Leñoso, muy ramificado y ramillas finas cubiertas de pelos aplicados grisáceos o pardos; tallos viejos redondos, con corteza agrietada (NYBG). En maceta suele formar un arbusto compacto o un pequeño árbol en copa (topiario) injertado.",
+    "habito": "Arbusto perennifolio denso, en cúpula. Flores en ramilletes terminales de 1-4, en forma de embudo o de embudo-campana, de unos 5 cm de diámetro, de 5 lóbulos (sencillas) o dobles y semidobles en los cultivares; 8-10 estambres largos que asoman (NYBG). Colores en floristería: rojo, rosa, salmón, blanco, magenta o bicolores. Se vende en flor de otoño a primavera (forzada) y la floración natural es primaveral (RHS).",
+    "tamano_adulto_interior": "En maceta de floristería, 20-50 cm de alto y de ancho [orientativo, sin fuente prioritaria]. En el suelo, en su hábitat o en climas suaves, alcanza 1,5-2,5 m (RHS) o hasta 3 m (NYBG).",
+    "confusiones": [
+      {
+        "especie": "Azaleas japonesas de jardín (híbridos Kurume, Rhododendron obtusum y afines)",
+        "rasgo_diferenciador": "Hojas y flores más pequeñas (flores de 2-3 cm), porte más ramoso y apretado y mayor resistencia al frío; se venden para exterior. La azalea de floristería tiene flores más grandes (≈5 cm), a menudo dobles, y se vende como planta de interior en flor."
+      },
+      {
+        "especie": "Rododendros de hoja grande (híbridos de Rhododendron catawbiense, Rhododendron ponticum)",
+        "rasgo_diferenciador": "Hojas lisas, sin pelos, mucho mayores (8-15 cm) y brillantes, y flores en ramilletes grandes y redondos de muchas flores. La azalea de interior tiene hojas pequeñas (≤6,5 cm) y peludas y ramilletes de 1-4 flores."
+      },
+      {
+        "especie": "Azaleas caducifolias (Rhododendron luteum, híbridos Mollis y Knap Hill)",
+        "rasgo_diferenciador": "Pierden toda la hoja en invierno y florecen antes de echar la hoja nueva, a menudo en amarillo o naranja y perfumadas; son de exterior."
+      },
+      {
+        "especie": "Camellia japonica (camelia)",
+        "rasgo_diferenciador": "Hojas mayores, gruesas, lisas, muy brillantes y con el margen dentado, sin pelos; flores con pétalos libres y abiertas en plato con un ramillete central de estambres, no en embudo."
+      },
+      {
+        "especie": "Kalanchoe blossfeldiana y otras plantas de flor de floristería",
+        "rasgo_diferenciador": "El kalanchoe tiene hojas carnosas lisas y flores pequeñas de 4 pétalos en ramilletes; la azalea tiene hojas finas, coriáceas y peludas en un arbusto leñoso."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Grayanotoxinas (diterpenos que mantienen abiertos los canales de sodio de las membranas de nervio, músculo y corazón), presentes en todas las partes de la planta: hojas, flores, néctar y miel elaborada con su néctar (ASPCA, Pet Poison Helpline, National Capital Poison Center). Se han detectado grayanotoxinas en la propia Rhododendron simsii y en la orina de un lactante intoxicado (Poon et al., Hong Kong Med J 2008).",
+    "sintomas": "Perros y gatos: vómitos, salivación excesiva, diarrea, debilidad, alteraciones del ritmo cardiaco, tensión baja, depresión del sistema nervioso, temblores, convulsiones, coma y fallo cardiaco (ASPCA, Pet Poison Helpline). Unas pocas hojas o flores pueden bastar para dar signos graves en un perro o un gato (Pet Poison Helpline). Personas: quemazón, hormigueo y entumecimiento de boca, náuseas y vómitos; en ingestas mayores, sudoración, confusión, bradicardia, hipotensión y arritmias. En niños que se llevan a la boca una flor o unas hojas suelen esperarse síntomas leves (National Capital Poison Center), pero se ha documentado una intoxicación grave por R. simsii en un lactante de 57 días (vómitos, convulsiones, bradicardia y shock; necesitó ventilación mecánica 2 días y se recuperó) tras tomar leche preparada con una decocción de la planta (Poon et al. 2008). RHS la clasifica como dañina si se ingiere para personas, perros y gatos. Actuación: ante cualquier ingestión, retirar restos de la boca y contactar de inmediato con el veterinario o, en personas, con el Servicio de Información Toxicológica (91 562 04 20); no provocar el vómito sin indicación profesional. Colocar la maceta fuera del alcance de niños y mascotas y no usarla nunca en remedios caseros.",
+    "confianza": "Alta",
+    "fuentes": ["F11", "F3", "F12", "F13", "F14"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana norte muy luminosa o este con sol de primera hora (Colorado State); en invierno, tras la floración, sirve una ventana soleada (RHS, Missouri). Con la planta en flor, evitar el sol directo del mediodía y la tarde en ventanas sur y oeste. En el hemisferio sur, la ventana equivalente a la norte del hemisferio norte es la sur.",
+      "tolera_sol_directo": "Parcialmente. Durante la floración, no: el sol directo destiñe las flores y acorta su duración (Missouri Extension). Fuera de la floración y en invierno agradece sol directo suave (RHS: una ventana soleada es ideal en invierno; Missouri: tras florecer, pasarla a una ventana soleada). En verano, a la sombra o semisombra (RHS, Missouri).",
+      "notas": "Rango de luz brillante indirecta de la escala del proyecto (500-1000 fc ≈ 5380-10760 lux). Las fuentes describen luz «brillante» sin dar cifras: los lux son una traducción a la escala del proyecto. En exterior, RHS indica semisombra.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F4", "F6", "F7", "F3"]
+    },
+    "riego": {
+      "criterio": "El sustrato debe estar siempre húmedo, nunca seco del todo y nunca encharcado (Missouri, RHS, Colorado State). Comprobar a diario con el dedo a 2-3 cm y por el peso de la maceta (Iowa State recomienda comprobar el sustrato a diario): en cuanto la superficie empieza a secarse o la maceta pesa poco, regar a fondo. Un sustrato de turba que se ha secado repele el agua; por eso lo mejor es sumergir la maceta en un cubo o barreño de agua hasta que dejen de salir burbujas y luego dejar escurrir (Missouri, RHS). Vaciar el plato a los 15 minutos (Colorado State). Si viene en un cubremacetas, sacarla para regar y no dejar agua acumulada dentro (Iowa State).",
+      "primavera_verano": "Floración, brotación y verano: consumo alto. Comprobar a diario; con calor puede necesitar riego cada 1-2 días [orientativo, sin fuente prioritaria]. Si pasa el verano fuera, a la sombra, el sustrato debe mantenerse constantemente húmedo (RHS) y no hay que descuidarla (Missouri). Nunca dejar que se marchite (Missouri).",
+      "otono_invierno": "En flor y en interior, mantener húmeda con el mismo criterio de dedo y peso. Durante el periodo frío de inducción de yemas (4-10 °C, noviembre-diciembre), regar solo lo justo para que no se marchite (Missouri), comprobando el peso de la maceta.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Acidófila: prefiere agua blanda o de lluvia (RHS recomienda agua de lluvia si es posible). El agua dura y calcárea sube el pH del sustrato y provoca clorosis férrica (Missouri: un pH demasiado alto limita la absorción de hierro). Agua de Madrid (Canal de Isabel II): blanda (10-47 mg/L CaCO3), adecuada para esta planta y en general mejor que el agua de la mayor parte de España. La cloramina no se elimina dejando reposar el agua; a estas concentraciones no se ha documentado daño en azaleas. En zonas de agua dura, usar agua de lluvia o de ósmosis. Agua templada, no fría.",
+      "notas": "La sequía es la causa más típica de muerte rápida en azalea de floristería: hojas y flores se arrugan y caen y la planta no se recupera. El exceso de riego (plato con agua permanente) favorece la podredumbre radicular por Phytophthora (RHS). Las plantas suelen venderse en turba muy compacta y con poco cepellón, que se seca rápido [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F4", "F6", "F7", "F2"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS recomienda mantener la humedad ambiental alrededor de la planta (propone una bandeja de guijarros) y las fuentes complementarias hablan de humedad «bastante buena». Ninguna fuente prioritaria da porcentajes. Convención del proyecto: pulverizar no sube la humedad de forma útil; usar humidificador o agrupar plantas. Valor orientativo: mantener por encima del 40-50 % [orientativo, sin fuente prioritaria]. Con agalla de la azalea (Exobasidium) presente, RHS aconseja evitar un ambiente muy húmedo en interior.",
+      "confianza": "Media",
+      "fuentes": ["F4", "F5"]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": 21,
+      "ideal_min_c": 10,
+      "ideal_max_c": 18,
+      "notas": "Planta de ambiente fresco: es lo que más alarga la flor. RHS: 10-15 °C en un lugar luminoso y fresco; Missouri: 15,5-18 °C (60-65 °F) en la habitación más fresca de la casa; Colorado State: por encima de 15,5 °C (60 °F) de forma prolongada se acorta su vida; Iowa State: 15,5-18 °C. Missouri indica que tolera la temperatura normal de una vivienda, pero dura mucho menos; por eso max_c = 21 °C como límite de interior orientativo para floración. Mínimo: Missouri recomienda 4-10 °C (40-50 °F) de noviembre a enero para inducir las yemas, y protegerla de las primeras heladas suaves y meterla en casa antes de las heladas fuertes; RHS: entrarla antes de la primera helada de otoño. Se adopta min_c = 5 °C como el mínimo más conservador entre las fuentes. Contradicción: la ficha RHS de la especie silvestre le asigna rusticidad H4 (-10 a -5 °C), pero el mismo perfil indica cultivarla en exterior solo en zonas sin heladas, y Missouri afirma que ninguno de los híbridos Indica o belgas es resistente; la cifra H4 se refiere a la especie en jardín británico y no se aplica a la azalea de floristería. Evitar corrientes de aire, cambios bruscos y la proximidad de radiadores (RHS).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F4", "F6", "F7", "F3"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para acidófilas (ericáceas), rico en materia orgánica y que retenga humedad sin encharcarse. RHS: compost ericáceo sin turba. Missouri: 3 partes de turba ácida por 1 de tierra, o turba sola con fertilización y riego cuidadosos. Alternativa sin turba: sustrato comercial para acidófilas a base de fibra de coco y corteza de pino compostada [orientativo, sin fuente prioritaria]. Nunca sustrato universal calizo ni tierra de jardín de Madrid, que suele ser básica.",
+      "ph": "5,0-5,5 (ácido). Por debajo de 4,5 es demasiado ácido (Missouri, guía de cultivo en suelo). RHS: ácido.",
+      "drenaje": "Bueno: maceta con agujeros, sin agua estancada en el plato ni en el cubremacetas. Raíces finas y superficiales, sensibles a la asfixia y a Phytophthora.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas acidófilas, completo y soluble, con microelementos (sobre todo hierro en forma quelatada). Para corregir la clorosis férrica: quelato de hierro o sulfato de hierro (Missouri).",
+      "npk": null,
+      "primavera_verano": "Solo si se va a conservar la planta tras la floración y con crecimiento activo (de final de floración a final de verano). Convención del proyecto: ¼-½ de la dosis de etiqueta, una vez al mes. Si aparece clorosis (hoja amarilla con nervios verdes), aplicar quelato de hierro según etiqueta y revisar pH del sustrato, calidad del agua y estado de las raíces (Missouri).",
+      "otono_invierno": "Nada durante el periodo frío de inducción de yemas (noviembre-diciembre en el hemisferio norte; mayo-junio en el sur) (Missouri). No abonar en plena floración.",
+      "notas": "Discrepancia con la convención del proyecto: Missouri aconseja un abono completo soluble cada dos semanas si se conserva la planta, y RHS un abono líquido rico en potasio cada semana en temporada de crecimiento. Se aplica la convención (más conservadora, menos riesgo de acumulación de sales en una planta de raíces finas). Missouri también propone mezclas caseras de sulfato de hierro y sulfato amónico; no se recogen como recomendación general para particulares. Ninguna fuente prioritaria fija una relación NPK concreta.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F4", "F2"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada pocos años, cuando la planta esté apretada en la maceta (Missouri). Una planta recién comprada rara vez necesita trasplante inmediato (Missouri); no trasplantar en plena floración.",
+      "epoca": "Tras la floración, en primavera: RHS indica mediados de abril (hemisferio norte; equivalente a mediados de octubre en el hemisferio sur).",
+      "senales": "Raíces que rodean el cepellón o salen por los agujeros, sustrato que se seca en pocas horas tras regar a fondo, crecimiento débil pese al buen cuidado.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F4"]
+    },
+    "poda": {
+      "necesita": "Poca. Quitar flores marchitas y hojas inferiores amarillas de forma continua para evitar enfermedades y mohos y mantener buen aspecto (Missouri, Colorado State, RHS). Despuntar los brotes tras la floración para que ramifique y quede compacta (Missouri).",
+      "epoca": "Flores marchitas: durante toda la floración. Despunte de brotes: tras florecer y antes del 1 de julio en el hemisferio norte (Missouri), porque las yemas florales del año siguiente se forman en verano; en el hemisferio sur, antes de comienzos de enero.",
+      "como": "Retirar cada flor seca con los dedos o tijera limpia sin dañar las yemas de debajo. Despuntar con tijera desinfectada las puntas de los brotes de crecimiento rápido. No podar a partir de pleno verano: se eliminarían los botones de la floración siguiente.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F6", "F3"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: periodo frío de noviembre a enero (Missouri: del 1 de noviembre al 1 de enero). Hemisferio sur: mayo a julio. En Madrid, noviembre-diciembre.",
+      "cambios": "Para que vuelva a florecer necesita frío: habitación luminosa y fresca a 4-10 °C, sin abono y regando solo lo justo para que no se marchite. Las yemas se hinchan y en enero se pasa a una ventana soleada con unos 15 °C de noche; florece en pocas semanas. Con temperaturas altas en esa fase las yemas se desarrollan mal y brota hoja en lugar de flor (Missouri). Iowa State advierte que lograr la refloración en casa es complicado y poco práctico para muchos hogares.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F7"]
+    },
+    "propagacion": {
+      "metodos": ["esqueje semileñoso", "injerto (uso profesional)"],
+      "epoca": "Esquejes semileñosos a finales de verano; injerto en invierno (RHS).",
+      "pasos": "1) A finales de verano, cortar puntas de brotes del año ya algo endurecidos, de 5-8 cm [orientativo, sin fuente prioritaria]. 2) Quitar las hojas inferiores y las yemas florales. 3) Clavar en una mezcla ácida húmeda (turba o fibra de coco con perlita). 4) Mantener con humedad alta bajo cubierta transparente, con luz indirecta y unos 20 °C [orientativo, sin fuente prioritaria]. 5) Trasplantar a sustrato para acidófilas cuando haya raíces. El injerto lo hacen los viveros para formar arbolitos.",
+      "confianza": "Media",
+      "fuentes": ["F3"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato seco. Es la causa nº 1 de muerte de la azalea de floristería: no tolera que se seque (Missouri, RHS). Sumergir la maceta hasta que dejen de salir burbujas. Si la marchitez aparece con el sustrato encharcado, sospechar podredumbre de raíz."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Deshidratación tras uno o varios secados del cepellón de turba, o aire muy seco con calefacción; las flores se arrugan y caen antes de tiempo. Corregir riego y alejar de radiadores."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis férrica: hojas amarillas entre los nervios, que siguen verdes. Por pH del sustrato demasiado alto (agua dura, sustrato no ácido), pérdida de raíces por exceso o falta de agua, o falta real de hierro. Corregir con quelato de hierro y sustrato y agua adecuados (Missouri). Con agua de Madrid es menos frecuente que con agua dura."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Podredumbre radicular por Phytophthora (RHS) por encharcamiento: agua en el plato o en el cubremacetas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Chinche de encaje de la azalea (Stephanitis) o ácaros: punteado pálido en el haz, hojas grisáceas o bronceadas y caída prematura; en el envés, excrementos negros brillantes (chinche) (Clemson HGIC). Más probable si la planta pasa el verano fuera."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja y ácaros de la azalea con aire seco y calor: hojas verde apagado a gris-bronce y telaraña fina con poblaciones altas (Clemson HGIC)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca del rododendro y la azalea (RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos tras la floración (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla de la corteza de la azalea: ovisacos blancos algodonosos o cerosos en ramillas y horquillas de las ramas (Clemson HGIC)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Agalla de la azalea (Exobasidium japonicum): hojas o flores transformadas en agallas carnosas de tamaño guisante a ciruela pequeña, verde pálido y luego blancas y harinosas. Frecuente en azaleas de floristería en interior. Retirar las agallas antes de que blanqueen, evitar ambiente muy húmedo; no hay fungicidas autorizados para aficionados (RHS)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (RHS lo cita entre las enfermedades del rododendro)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho sobre flores marchitas y follaje denso húmedo (Colorado State); se previene retirando flores secas. Identificación del hongo (Botrytis) no confirmada con fuente prioritaria específica de la especie."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "El calor de 35-40 °C y el aire muy seco de julio-agosto son el mayor riesgo para mantenerla de un año a otro. Opción preferente: sacarla en mayo, tras las heladas, a un balcón o terraza orientados al norte o al este, a la sombra o semisombra y protegida del viento (Missouri, RHS), nunca al sol de mediodía o de tarde de las fachadas sur y oeste. Si no hay un sitio así, dejarla dentro en la habitación más fresca con luz brillante y sin sol directo. Comprobar el sustrato y el peso a diario, a veces dos veces al día en olas de calor; no dejar nunca que se seque. Vigilar araña roja y chinche de encaje, que proliferan con calor seco. Despuntar antes de julio y no podar después.",
+    "invierno": "La calefacción (20-23 °C) acorta mucho la floración: colocarla en la habitación más fresca y luminosa de la casa, idealmente a 10-15 °C (dormitorio sin calefacción, galería o terraza acristalada luminosa), lejos de radiadores y corrientes. Con humedad interior por debajo del 30 % usar humidificador o agrupar plantas; pulverizar no sirve. Junto al cristal frío no pasa nada mientras la temperatura se mantenga por encima de 5 °C; en noches de helada, separarla del cristal. Para que reflorezca, de noviembre a final de diciembre necesita 4-10 °C con luz: una terraza acristalada sin calefacción en Madrid suele dar esas temperaturas. Las heladas exteriores de Madrid (-2 a -5 °C) la dañan: no dejarla fuera en invierno.",
+    "ubicacion_recomendada": "En flor: junto a una ventana norte o este muy luminosa, en la estancia más fresca de la vivienda, sin sol directo sobre las flores y lejos de radiadores. Tras la floración: ventana soleada en invierno-primavera; en verano, exterior a la sombra orientado al norte o al este, o el rincón más fresco y luminoso de la casa."
+  },
+  "lagunas": [
+    "Taxonomía: POWO acepta Rhododendron simsii Planch. (1854), familia Ericaceae. Sinónimos: Azalea indica var. simsii (Planch.) Rehder, Azalea simsii (Planch.) H.F.Copel., Rhododendron indicum var. simsii (Planch.) Maxim., Rhododendron vittatum (Fortune) Planch. y otros heterotípicos. RHS lo cita como sinónimo de Azalea indica Sims. Sin cambio de nombre. Las azaleas de floristería son híbridos (grupo Indica o «belgas»), no siempre la especie pura; el cuidado es el mismo según Missouri.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales; min_pct e ideal_pct en null.",
+    "Temperatura máxima tolerable: no hay cifra prioritaria; max_c = 21 °C se apoya en la temperatura ambiente normal que según Missouri tolera, y no es un umbral de daño.",
+    "NPK: ninguna fuente prioritaria fija una relación concreta (RHS: rico en potasio; Missouri: completo soluble).",
+    "Abonado: Missouri (cada 2 semanas) y RHS (semanal) aconsejan más frecuencia que la convención del proyecto (¼-½ de dosis al mes); se ha aplicado la convención.",
+    "Rusticidad: RHS da H4 (-10 a -5 °C) para la especie, pero Missouri y el propio perfil RHS indican que no tolera heladas en exterior; no se ha usado H4 para la azalea de interior.",
+    "Propagación: una sola fuente prioritaria (RHS); longitud del esqueje y temperatura de enraizamiento orientativas.",
+    "Tamaño en maceta de floristería: sin fuente prioritaria con cifras.",
+    "Moho gris (Botrytis) en flores: no confirmado con fuente prioritaria específica de la especie.",
+    "Fitosanitarios: no se ha consultado el Registro del MAPA para productos de uso no profesional contra chinche de encaje, ácaros o mosca blanca en azalea; RHS indica que no hay fungicidas para aficionados contra la agalla de la azalea (contexto británico)."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://extension.missouri.edu/publications/g6511", "institucion": "University of Missouri Extension – G6511 Care of Flowering Potted Plants (sección Azalea)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://mospace.umsystem.edu/server/api/core/bitstreams/1dd2610f-7cc4-41dc-a83f-81b74db87c6f/content", "institucion": "University of Missouri Extension – G6825 Growing Azaleas and Rhododendrons (pH del suelo, clorosis férrica)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://www.rhs.org.uk/plants/15682/rhododendron-simsii/details", "institucion": "Royal Horticultural Society (RHS) – Plant profile Rhododendron simsii (EA)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://www.rhs.org.uk/advice/profile?pid=582", "institucion": "Royal Horticultural Society (RHS) – Christmas-flowering houseplants (azaleas)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://www.rhs.org.uk/disease/azalea-gall", "institucion": "Royal Horticultural Society (RHS) – Azalea gall", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://planttalk.colostate.edu/topics/houseplants/1334-azalea-cineraria-primrose-ranunculus/", "institucion": "Colorado State University Extension – PlantTalk Colorado 1334 (Azalea, Cineraria, Primrose, Ranunculus)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-received-flowering-azalea-gift-how-do-i-care-it", "institucion": "Iowa State University Extension and Outreach – Yard and Garden FAQ (flowering azalea gift)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://hgic.clemson.edu/factsheet/azalea-rhododendron-insect-pests", "institucion": "Clemson Cooperative Extension – Home & Garden Information Center HGIC 2051 Azalea & Rhododendron Insect Pests", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://powo.science.kew.org/taxon/333359-1", "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Rhododendron simsii Planch.", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F10", "url": "https://www.nybg.org/bsci/res/lut2/rhododendron_simsii.html", "institucion": "New York Botanical Garden (NYBG) – Neotropical Blueberries: Rhododendron simsii (descripción morfológica)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F11", "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/azalea", "institucion": "ASPCA Animal Poison Control Center – Azalea (Rhododendron spp.)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F12", "url": "https://www.hkmj.org/system/files/hkm0810p405.pdf", "institucion": "Hong Kong Medical Journal (revista revisada por pares): Poon WT et al. 2008, Grayanotoxin poisoning from Rhododendron simsii in an infant, 14(5):405-407", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F13", "url": "https://www.petpoisonhelpline.com/poison/rhododendrons", "institucion": "Pet Poison Helpline – Rhododendrons/Azaleas", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F14", "url": "https://www.poison.org/articles/azaleas-and-rhododendrons", "institucion": "National Capital Poison Center (Poison Control, EE. UU.) – Azaleas and Rhododendrons", "tipo": "complementaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

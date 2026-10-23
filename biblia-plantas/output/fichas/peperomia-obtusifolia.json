@@ -1,0 +1,382 @@
+{
+  "nombre_cientifico": "Peperomia obtusifolia",
+  "nombres_comunes": [
+    "peperomia",
+    "planta de caucho enana",
+    "peperomia de hoja roma",
+    "peperomia de hoja oval"
+  ],
+  "familia": "Piperaceae (familia de la pimienta negra, Piper nigrum)",
+  "origen": "Florida, México, Centroamérica, Caribe y norte de Sudamérica. POWO la da como nativa desde Florida hasta la América tropical (Bahamas, Antillas, México, Centroamérica, Colombia, Venezuela, Guayanas, Ecuador, Perú, Bolivia y Brasil). UF/IFAS la cita como nativa de Florida; MBG indica de México al norte de Sudamérica y Antillas.",
+  "clima_nativo": "Tropical y subtropical sin heladas, en el sotobosque de bosques húmedos (Clemson: las peperomias viven en el sotobosque y muchas son epífitas). Zonas USDA 10-11/12 (UF/IFAS, MBG, NC State). Hierba perenne de hojas gruesas, casi suculentas, que almacenan agua (NC State: hojas casi tan gruesas como las de una suculenta).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Alternas, simples, de margen entero y sin pelos. Obovadas a elípticas o casi redondas, con el ápice romo o algo escotado (de ahí 'obtusifolia', hoja roma) y la base en cuña. Gruesas, carnosas, coriáceas, céreas y muy brillantes, a menudo algo cóncavas (acopadas). De 5-15 cm de largo (NC State: 2-6 in; UF/IFAS: 2-4 in; MBG: hasta 6 in). Verde oscuro brillante en la forma tipo; a veces con el borde rojizo (NC State). Pecíolo corto (<2,5 cm), algo alado, a menudo rosado o rojo (NC State). Inserción de la hoja casi peltada (NC State).",
+    "nerviacion": "Pinnada, con el nervio central hundido en el haz y nervios laterales arqueados ('bowed', UF/IFAS) poco marcados, casi ocultos por el grosor de la lámina (NC State).",
+    "variegacion": "La especie tipo es verde oscuro uniforme. Cultivares variegados frecuentes: 'Variegata' (borde ancho blanco crema y centro verde y verde grisáceo; NC State, UF/IFAS, UF/IFAS CFREC), 'Marble' (sectores irregulares verde oscuro, blanco crema y verde grisáceo; CFREC), 'Alba' (brotes jóvenes casi blancos o crema con tallos rojos, que verdean al madurar; NC State, UF/IFAS), 'Gold Tip' (jaspeado dorado en la punta; NC State), 'Albomarginata' (verde grisáceo con borde plateado; UF/IFAS), 'Minima' (enana, hojas de 2,5-5 cm; UF/IFAS, CFREC), 'Obtipan Green' (compacta y verde esmeralda; NC State).",
+    "tallo": "Gruesos, carnosos y quebradizos, lisos, ramificados, verdes con tintes rosados o rojizos (NC State, UF/IFAS: tallo del año rojizo y muy grueso). Primero erguidos y después tienden a tumbarse con la edad (UF/IFAS CFREC: 'upright sprawling'). Sin látex.",
+    "habito": "Hierba perenne perennifolia, erguida y tupida de joven, que se abre y se extiende o cae por el borde de la maceta con los años (UF/IFAS, CFREC). Inflorescencia muy característica: espiga erguida, fina, verdosa o blanco crema, de 9-13 cm, con flores diminutas sin pétalos ('cola de ratón'; NC State, MBG, Clemson). Floración irregular, sobre todo a finales de verano (RHS).",
+    "tamano_adulto_interior": "En maceta, normalmente 15-30 cm de alto y 15-60 cm de ancho (MBG: 15-30 cm; UF/IFAS: 15-30 cm de alto y 30-60 cm de ancho; NC State: hasta 60 cm; RHS: 0,1-0,5 m de alto y de ancho, en 5-10 años). 'Minima' es la mitad de grande.",
+    "confusiones": [
+      {
+        "especie": "Ficus elastica (ficus de hoja grande, gomero)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual por el nombre común 'baby rubber plant'. F. elastica es un árbol de hojas mucho mayores (20-30 cm), con punta aguda, una vaina roja que envuelve el brote nuevo y látex blanco al cortar. P. obtusifolia es una hierba baja de hojas de 5-15 cm, ápice romo y sin látex."
+      },
+      {
+        "especie": "Peperomia clusiifolia (peperomia de borde rojo, jelly)",
+        "rasgo_diferenciador": "Porte y forma de hoja casi iguales, pero es algo mayor y de hojas más alargadas, con un margen rojo oscuro bien definido (UF/IFAS CFREC). El cultivar 'Ginny' es tricolor con borde rosa (Clemson). En P. obtusifolia el ápice es más redondeado y, si hay borde rojizo, es tenue."
+      },
+      {
+        "especie": "Peperomia magnoliifolia",
+        "rasgo_diferenciador": "Con frecuencia se vende con el nombre de P. obtusifolia. Hojas más alargadas y elípticas, de ápice más agudo y tallos más largos y rastreros. Distinguirlas solo por foto es poco fiable [orientativo, sin fuente prioritaria abierta]."
+      },
+      {
+        "especie": "Peperomia argyreia (sandía) y Peperomia caperata (peperomia rugosa)",
+        "rasgo_diferenciador": "NC State las cita como confusiones. Ambas forman rosetas casi sin tallo con pecíolos largos y rojos. P. argyreia tiene hojas peltadas con bandas plateadas tipo sandía; P. caperata, hojas acorazonadas muy arrugadas. P. obtusifolia tiene tallo visible y pecíolo corto, y hojas lisas."
+      },
+      {
+        "especie": "Peperomia polybotrya (gota de lluvia) y Pilea peperomioides",
+        "rasgo_diferenciador": "P. polybotrya tiene hojas en forma de gota con punta aguda (Clemson). Pilea peperomioides (Urticaceae) tiene hojas finas y redondas, peltadas, con pecíolos largos y finos que salen de un tallo central. P. obtusifolia tiene hojas obovadas, gruesas y de pecíolo corto."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas de intoxicación. ASPCA clasifica Peperomia obtusifolia ('Baby Rubber Plant', 'Blunt Leaf Peperomia', 'American Rubber Plant', 'Pepper Face') como no tóxica para perros y gatos; NC State la etiqueta como no tóxica para perros, gatos y caballos. En personas, la lista del Minnesota Poison Control System incluye 'Peperomia' entre las plantas no tóxicas. Que no sea tóxica no significa que sea comestible: si un animal o un niño come mucha hoja puede tener una molestia digestiva leve y pasajera. Ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F8",
+      "F1",
+      "F12",
+      "F6"
+    ],
+    "notas": "Perros y gatos: Alta (dos fichas ASPCA a nivel de especie y NC State coinciden; Clemson indica que la mayoría de peperomias son seguras para mascotas). Niños: una sola fuente oficial a nivel de género (lista del Minnesota Poison Control System recogida por el Departamento de Servicios Humanos de Minnesota), así que para personas la confianza real es Media. Ninguna fuente identifica principio tóxico."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina (Clemson: luz indirecta de ventana este o sur; MBG: evitar el sol directo de la tarde). Tolera una ventana norte grande (Clemson).",
+      "tolera_sol_directo": "No. El sol fuerte o directo quema las hojas (NC State, Clemson); MBG pide evitar el sol directo de la tarde. Como mucho, sol suave de primera hora de la mañana [orientativo, sin fuente prioritaria].",
+      "notas": "Óptimo: luz brillante indirecta (NC State, MBG, Clemson). Tolera luz baja durante varios meses sin estrés, sobre todo las formas verdes (NC State; UF/IFAS CFREC: tolerancia a niveles de luz relativamente bajos; UF/IFAS EDIS: crece a la sombra). Por eso lux_min corresponde al inicio de la luz media de la escala del proyecto (100 fc = 1076 lux) y lux_max al techo de la brillante indirecta (1000 fc = 10760 lux). Las formas variegadas necesitan el extremo alto del rango para mantener el color. En vivero se cultiva a 1500-3500 fc a mediodía bajo invernadero (UF/IFAS CFREC), cifra de producción que no se traslada a casa. RHS indica semisombra.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F5",
+        "F4",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego moderado de semisuculenta, siempre mejor por defecto que por exceso (UF/IFAS: 'err on the dry side'). Regar a fondo hasta que salga agua por el drenaje, esperar a que escurra y vaciar el plato (Clemson). No volver a regar hasta que los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes); MBG: dejar que el sustrato casi se seque en superficie; Clemson: dejar secar entre riegos. Confirmar con el peso: la maceta debe pesar claramente menos que recién regada. Nunca por calendario. NC State: no tolera el sustrato encharcado, pero tampoco el muy seco durante mucho tiempo.",
+      "primavera_verano": "Con crecimiento activo, regar de forma moderada pero constante en cuanto se seque la capa superior (MBG). En maceta pequeña con calor y mucha luz el sustrato se seca antes: comprobar cada pocos días con el dedo y el peso. Evitar los extremos: RHS aconseja no dejar que el sustrato se seque del todo ni se encharque para prevenir el edema.",
+      "otono_invierno": "Reducir el riego de otoño a finales de invierno (MBG). Dejar secar más capa de sustrato entre riegos, sin llegar a que las hojas se arruguen. El frío o el tiempo nublado con sustrato húmedo favorecen el edema (CAES) y la pudrición de raíz y tallo (UF/IFAS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid el agua es blanda (10-47 mg/L CaCO3) y con fluoruro <0,1 mg/L: sirve tal cual; dejarla reposar no elimina la cloramina, pero no hace falta. Sus raíces son muy finas y se dañan con el exceso de sales (UF/IFAS CFREC: tolerancia a la salinidad baja, UF/IFAS EDIS: 'poor'): regar a fondo para lavar sales y no pasarse con el abono.",
+      "notas": "Todas las fuentes coinciden en que el exceso de riego es su principal problema: amarillea las hojas y causa pudrición de raíz (NC State), hace caer las hojas (Clemson) y la pudrición radicular es su enfermedad más común (Clemson); las raíces son muy sensibles al encharcamiento por falta de oxígeno (UF/IFAS CFREC). UF/IFAS EDIS le da tolerancia moderada a la sequía y NC State dice que no tolera el sustrato muy seco: por eso la sensibilidad a la sequía se marca 'media' y no 'baja'.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F6",
+        "F1",
+        "F5",
+        "F10",
+        "F11"
+      ]
+    },
+    "humedad": {
+      "min_pct": 30,
+      "ideal_pct": 50,
+      "notas": "Contradicción entre fuentes prioritarias: NC State dice que prefiere humedad relativa media a baja, mientras que MBG indica que le gusta la humedad alta en verano y UF/IFAS EDIS que la prefiere alta (en cultivo exterior en Florida). Se adopta la opción más conservadora para la planta: humedad doméstica normal, sin bajar del 30 %, con ideal en torno al 50 % [orientativo, sin fuente prioritaria; ninguna fuente da porcentajes]. Clemson aconseja humidificador en invierno. Pulverizar las hojas no sube la humedad de forma útil y deja agua en las hojas, lo que favorece manchas foliares (Clemson): usar humidificador o agrupar plantas. Al ser semisuculenta, aguanta mejor el aire seco que las calatheas o los helechos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "RHS la clasifica H1B: mínimo 10-15 °C, solo bajo cristal en invierno en el Reino Unido. Clemson: puede sacarse al exterior en verano solo cuando las noches superan de forma constante los 16 °C (60 °F), contexto de traslado al exterior y no un mínimo de interior. Se adopta 15 °C como mínimo seguro, el extremo alto de la banda RHS (opción conservadora). Fuentes complementarias dan 13 °C (55 °F) como límite por debajo del cual sufre. Ideal de crecimiento 18-24 °C [orientativo, sin fuente prioritaria; la patente del cultivar 'Obtipan' registra 18-25 °C de día y 15-18 °C de noche]. Ninguna fuente prioritaria da máximo: max_c null. No tolera corrientes de aire fuertes (NC State) ni heladas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior muy bien drenado o sustrato para cactus (Clemson). Opción práctica: 2 partes de sustrato universal de turba o fibra de coco y 1 parte de perlita o corteza fina, para airear (UF/IFAS CFREC: mezclas de turba con partículas gruesas como perlita o corteza; MBG: sustrato a base de turba). Maceta con agujeros de drenaje.",
+      "ph": "6,0-8,0 según NC State (dato de suelo de jardín); no hay pH específico para maceta en las fuentes prioritarias. Un sustrato de turba corregido (pH 5,5-6,5) es lo habitual en vivero [orientativo, sin fuente prioritaria].",
+      "drenaje": "Excelente. Sus raíces son muy sensibles al encharcamiento y a la falta de oxígeno (UF/IFAS CFREC); necesita condiciones bien drenadas para evitar pudrición de tallo y raíz (UF/IFAS EDIS). No usar platos con agua ni cubremacetas sin drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F4",
+        "F2",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas verdes de interior, diluido. Alternativa: abono granulado de liberación lenta una vez al año (Clemson).",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo (Clemson). Abono líquido a ¼-½ de la dosis de la etiqueta, una vez al mes. Clemson recomienda baja concentración y uso ocasional.",
+      "otono_invierno": "Nada de abono (Clemson: abonar solo en primavera y verano; MBG: reducir riego de otoño a invierno, reposo relativo).",
+      "notas": "Es muy sensible a las sales solubles: las raíces mueren antes de que se vean síntomas en las hojas y la planta parece sedienta y pierde hojas de las viejas a las jóvenes (UF/IFAS CFREC). Si hay costra blanca en el sustrato o puntas secas, regar abundantemente para lavar sales. Las carencias de nitrógeno y potasio dan amarilleo de hojas inferiores (UF/IFAS CFREC). La proporción 3-1-2 que cita CFREC es para producción en vivero, no para casa; no hay NPK doméstico en las fuentes (npk null).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: no necesita trasplante anual y puede seguir varios años en la misma maceta (Clemson). Normalmente cada 2-3 años [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera, con el inicio del crecimiento [orientativo, sin fuente prioritaria]. Excepción: si el sustrato está empapado o hay edema, trasplantar a sustrato nuevo y suelto en cualquier época (RHS, página de oedema).",
+      "senales": "Raíces que salen por el agujero de drenaje, sustrato que se seca en muy poco tiempo, planta que vuelca o sustrato apelmazado o con costra de sales. Pasar solo a una maceta algo mayor (Clemson): una maceta demasiado grande retiene agua y pudre las raíces.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F11"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. RHS: no necesita poda. Recortar para mantener la forma o hacerla más tupida (MBG, Clemson).",
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "Retirar hojas viejas o dañadas cuando haga falta (Clemson). Para que ramifique, cortar el tallo justo por encima de un nudo (Clemson). Los tallos largos y caídos se pueden despuntar y usar como esquejes. Las espigas florales se pueden cortar para que la planta dedique energía a las hojas (Clemson). Usar tijeras limpias y desinfectadas entre plantas (UF/IFAS CFREC, para no transmitir el virus de la mancha anular). No arrancar las hojas con edema (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F2",
+        "F3",
+        "F5",
+        "F11"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno en el hemisferio norte (en Madrid, aproximadamente de octubre a febrero). En el hemisferio sur, de abril a agosto.",
+      "cambios": "Reposo relativo, sin pérdida de hojas: crecimiento lento por menos luz y temperatura. Reducir el riego de otoño a finales de invierno (MBG) y suspender el abono (Clemson). Mantener por encima de 15 °C y lejos de cristales fríos y corrientes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo (terminal)",
+        "esqueje de hoja con pecíolo",
+        "esqueje de nudo con una hoja",
+        "esqueje en agua",
+        "división de mata",
+        "semilla (raro en casa)"
+      ],
+      "epoca": "Primavera y verano, con calor y buena luz: el enraizamiento es mucho más rápido cuando temperatura y luz no son limitantes (UF/IFAS CFREC). MBG recomienda la primavera para los esquejes de peperomia.",
+      "pasos": "Esqueje de tallo (método preferente, el único fiable en cultivares variegados): 1) cortar un trozo de tallo terminal de 8-13 cm justo por debajo de un nudo (Clemson); 2) quitar las hojas del tercio inferior; 3) dejar secar el corte unas horas [orientativo, sin fuente prioritaria]; 4) opcionalmente mojar la base en hormona de enraizamiento (Clemson) y clavarlo en sustrato muy drenante y apenas húmedo; 5) cubrir con plástico transparente y poner con luz indirecta, sin sol directo (Clemson); 6) enraíza en unas 3-5 semanas (UF/IFAS CFREC). Esqueje de hoja: 1) cortar una hoja con al menos 2,5 cm de pecíolo; 2) clavar el pecíolo en el medio de enraizamiento; 3) las plantas nuevas salen en la base del pecíolo y se separan y trasplantan cuando tienen unas hojas (Clemson). En agua: esqueje de 10-15 cm, cortar bajo un nudo, quitar hojas inferiores, poner con luz brillante indirecta y pasar a tierra cuando tenga raíces y hojas nuevas (Clemson; P. obtusifolia es de las que mejor enraízan en agua). Precaución: en los cultivares variegados hacen falta esquejes de tallo con una o más yemas (UF/IFAS CFREC); los esquejes de hoja pueden dar plantas que no conservan la variegación. Mantener el sustrato solo ligeramente húmedo: los esquejes se pudren con facilidad (Sclerotium, Pythium; UF/IFAS CFREC).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego: es la causa más frecuente y amarillea las hojas (NC State). También carencia de nitrógeno o potasio, que amarillea las hojas inferiores (UF/IFAS CFREC). Comprobar primero el sustrato: si está húmedo, es riego."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Exceso de riego (Clemson: si se riega en exceso, tira las hojas) o exceso de sales del abono, con caída de las hojas viejas a las jóvenes (UF/IFAS CFREC). También frío o corrientes tras el traslado."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Paradójicamente, casi siempre por exceso de agua: el sustrato encharcado deja las raíces sin oxígeno y la planta crece lenta y se ve marchita (UF/IFAS CFREC). Solo si el sustrato está seco y la maceta pesa poco es falta de riego."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas y tallos blandos por pudrición de raíz y tallo tras riego excesivo (Clemson, UF/IFAS). Revisar raíces y la base del tallo."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo por Pythium o Phytophthora (lesión negra y blanda a ras de sustrato que sube a las hojas) o por Sclerotium rolfsii (zona marrón blanda con micelio blanco y esclerocios del tamaño de un grano de mostaza). Muy grave en P. obtusifolia (UF/IFAS CFREC). Rescatar esquejes de tallo sanos."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego, la enfermedad más común de las peperomias (Clemson); raíces negras y blandas cuya corteza se desprende (UF/IFAS CFREC)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Dos causas que se confunden: 1) edema, ampollas empapadas de agua en el envés que se vuelven costras corchosas color óxido, por exceso de agua con tiempo frío y nublado (CAES Connecticut; RHS cita las peperomias entre las plantas más afectadas); no arrancar las hojas, regar menos y mejorar el drenaje (RHS). 2) Mancha foliar por Rhizoctonia (manchas marrón oscuro a negras, blandas, con anillos) o Cercospora (zonas elevadas pardas o negras en el envés, parecidas al edema); P. obtusifolia es especialmente sensible a Cercospora (UF/IFAS CFREC). Evitar mojar las hojas (Clemson)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo o demasiado fuerte, que quema las hojas (NC State, Clemson). Típico en ventanas sur y oeste en verano."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras por sol directo (NC State, Clemson) o manchas secas de Phyllosticta (más propias de P. argyreia; UF/IFAS CFREC)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaros tarsonémidos (ácaro ancho, ácaro del ciclamen): hojas nuevas acopadas hacia abajo, arrugadas, pequeñas, retorcidas y quebradizas; en 'Variegata' casi totalmente amarillas (UF/IFAS CFREC). También el virus de la mancha anular, con anillos, deformación y enanismo (UF/IFAS CFREC): sin cura, desechar la planta."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State, MBG, Clemson). UF/IFAS EDIS cita los ácaros como su principal plaga. Favorecida por el aire seco con calefacción o en verano en Madrid."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés, y cochinilla de raíz (NC State, MBG, Clemson, UF/IFAS CFREC)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State, MBG, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en hojas, pecíolos y tallos (Clemson, UF/IFAS CFREC)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosca del sustrato (esciáridos), favorecida por el sustrato siempre húmedo; las larvas dañan raíces y tallos bajos (Clemson, UF/IFAS CFREC). Regar menos (UF/IFAS CFREC)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "En 'Alba' es normal que las hojas verdeen al madurar (NC State). En otros cultivares variegados, poca luz o plantas obtenidas de esqueje de hoja [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz durante mucho tiempo: aunque tolera luz baja varios meses (NC State), acaba alargando los tallos y tumbándose [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra de sales del abono: muy dañina porque sus raíces finas mueren con la salinidad (UF/IFAS CFREC). Lavar el sustrato con riego abundante y reducir el abono."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, alejarla de ventanas sur y oeste o ponerla tras cortina a 1,5-2 m: el sol directo quema las hojas (NC State, Clemson). El aire seco (HR exterior ≈38 % en julio) no le afecta mucho por ser semisuculenta, pero favorece la araña roja: revisar el envés cada semana. El sustrato se seca más rápido con el calor: comprobar con el dedo y el peso cada 2-4 días, pero no regar por precaución; sigue siendo mucho más peligroso el exceso. Evitar la corriente directa del aire acondicionado (NC State: no tolera corrientes fuertes). Puede salir a un balcón en sombra profunda solo si las noches superan los 16 °C (Clemson), protegida del sol y de la lluvia continuada.",
+    "invierno": "Es la época de mayor riesgo de pudrición y edema: con días cortos, nublados y frescos el sustrato tarda mucho en secarse (CAES). Regar bastante menos (MBG) y solo cuando los 2-3 cm superiores estén secos; nada de abono. Mantenerla por encima de 15 °C (RHS H1B) y separada 30-50 cm de cristales fríos por la noche. Alejarla de radiadores: la calefacción baja la humedad por debajo del 30 % y seca el sustrato de forma irregular. Clemson recomienda humidificador en invierno; no pulverizar las hojas.",
+    "ubicacion_recomendada": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina; también cerca de una ventana norte grande (Clemson). Buena planta de mesa o escritorio (NC State). En una zona sin corrientes, lejos de radiadores y del aire acondicionado, en maceta con drenaje y sin plato con agua."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Peperomia obtusifolia (L.) A.Dietr. (urn:lsid:ipni.org:names:679269-1). Sinónimos homotípicos: Piper obtusifolium L. (basiónimo, 1753), Rhynchophorum obtusifolium (L.) Small y P. obtusifolia var. genuina Dahlst. (no publicado válidamente). No se pudo comprobar la lista de sinónimos heterotípicos. Sin cambio de nombre respecto a la lista maestra.",
+    "Confusión frecuente en el comercio con Peperomia magnoliifolia (citada en fuentes divulgativas). No se encontró una fuente prioritaria con los caracteres que las separan.",
+    "Humedad: ninguna fuente prioritaria da porcentajes; min_pct 30 e ideal_pct 50 son orientativos. Además, NC State (humedad media-baja) y MBG/UF/IFAS (humedad alta) se contradicen.",
+    "Temperatura: solo una fuente prioritaria da un mínimo (RHS H1B, 10-15 °C); el ideal 18-24 °C no tiene fuente prioritaria y no hay máximo tolerable en ninguna fuente (max_c null).",
+    "Fertilización: sin NPK recomendado para cultivo doméstico (npk null); la proporción 3-1-2 de UF/IFAS CFREC es de producción en vivero.",
+    "pH del sustrato en maceta: solo hay el rango de suelo de NC State (6,0-8,0).",
+    "Pérdida de variegación en esquejes de hoja de cultivares variegados: UF/IFAS CFREC exige esquejes de tallo con yemas para variegados, pero ninguna fuente prioritaria describe la reversión de forma explícita.",
+    "El edema (ampollas corchosas en el envés) no tiene id propio en la lista de síntomas; se ha asignado a S13 (manchas empapadas de agua), que corresponde a su fase inicial.",
+    "Toxicidad en niños: solo una fuente oficial a nivel de género (lista del Minnesota Poison Control System); confianza real Media.",
+    "La ficha UF/IFAS CFREC (RH-91-25) se consultó en copia de Internet Archive porque la URL original da 404."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+      "institucion": "NC State Extension (North Carolina State University) — Extension Gardener Plant Toolbox, Peperomia obtusifolia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285088",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Peperomia obtusifolia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/106212/peperomia-obtusifolia/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Peperomia obtusifolia (baby rubber plant)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/FP466",
+      "institucion": "UF/IFAS Extension (University of Florida) — EDIS FPS466 'Peperomia obtusifolia, Peperomia, Baby Rubber Plant' (Gilman, Klein y Hansen, rev. 2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://web.archive.org/web/20210205104912/https://mrec.ifas.ufl.edu/Foliage/folnotes/pep.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center (Apopka) — Foliage Plant Research Note RH-91-25 'Peperomia' (Henley, Osborne y Chase); copia en Internet Archive",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+      "institucion": "Clemson Cooperative Extension — Home & Garden Information Center, HGIC 1567 'Peperomia Indoor Plant Care and Growing Guide' (2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/node/4602",
+      "institucion": "ASPCA Animal Poison Control Center — Baby Rubber Plant (Peperomia obtusifolia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/node/4654",
+      "institucion": "ASPCA Animal Poison Control Center — Blunt Leaf Peperomia (Peperomia obtusifolia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:679269-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Peperomia obtusifolia (L.) A.Dietr.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://portal.ct.gov/caes/plant-pest-handbook/pphp/peperomia-peperomia",
+      "institucion": "Connecticut Agricultural Experiment Station (CAES) — Plant Pest Handbook, Peperomia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.rhs.org.uk/problems/oedema",
+      "institucion": "Royal Horticultural Society (RHS) — Oedema",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://goodhuecountymn.gov/files/health_human_services/social_services/guidance_poisonous_plants_in_family_child_care_57277.pdf",
+      "institucion": "Minnesota Department of Human Services (2016) — Guidance: Poisonous Plants in Family Child Care, con la lista del Minnesota Poison Control System",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

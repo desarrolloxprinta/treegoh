@@ -1,0 +1,355 @@
+{
+  "nombre_cientifico": "Gardenia jasminoides",
+  "nombres_comunes": [
+    "gardenia",
+    "jazmín del Cabo"
+  ],
+  "familia": "Rubiaceae (familia del café)",
+  "origen": "Asia oriental: Himalaya oriental, centro y sur de China, Hainan, Taiwán, Indochina (Camboya, Laos, Tailandia, Vietnam) y sur de Japón (POWO). Crece de forma natural en las orillas de arroyos del sur de China y Japón (NC State). Nombre aceptado en POWO: Gardenia jasminoides J.Ellis (1761); sinónimos (POWO): Gardenia augusta Merr. y Gardenia florida L., ambos ilegítimos; NC State cita además Gardenia grandiflora.",
+  "clima_nativo": "Subtropical húmedo (POWO: bioma subtropical): veranos cálidos y lluviosos, inviernos suaves; en ambientes de ribera con humedad alta y suelo ácido y fresco. En exterior soporta zonas USDA 7b-11 según cultivar (NC State), pero como planta de interior se trata como no rústica.",
+  "categoria": "flor",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, opuestas o en verticilos de tres en las puntas de las ramas, de 5-10 cm de largo (hasta 15 cm) y 2,5-7 cm de ancho, lanceoladas a ovadas, de margen entero y sin pelos. Haz verde oscuro intenso muy brillante, coriáceo y algo rugoso (abollado entre nervios); envés más claro y mate (NC State). Las hojas amarillas con nervios verdes son muy frecuentes en cultivo (clorosis férrica), no un rasgo de la especie.",
+    "nerviacion": "Pinnada, con nervios secundarios muy marcados y hundidos en el haz (dan aspecto acolchado), en relieve en el envés (NC State).",
+    "variegacion": "La especie es verde uniforme. Existe el cultivar 'Variegata', con hojas variegadas de crema y flores dobles (Clemson). Amarilleo entre nervios no es variegación sino clorosis.",
+    "tallo": "Leñoso, ramificado desde la base, corteza gris parda lisa sin interés ornamental. Los botones florales terminales tienen los pétalos enrollados en espiral, como un molinillo, muy característicos (NC State).",
+    "habito": "Arbusto perennifolio denso, redondeado y de varios tallos (NC State). Flores terminales solitarias, de 5-8 cm (hasta 10-12 cm en 'Mystery'), cerosas, blanco crema que amarillean al envejecer, sencillas o dobles (lo más habitual en planta de floristería), con perfume intenso. Floración principal de primavera a verano. Fruto ocasional: baya anaranjada, ovoide y acostillada, coronada por los lóbulos del cáliz persistentes (NC State, Clemson).",
+    "tamano_adulto_interior": "Unos 45 cm de alto en maceta de interior, algo más en galería acristalada (RHS). En exterior en clima suave alcanza 1,2-2,4 m de alto y ancho (NC State); hay cultivares enanos ('Radicans', 15-45 cm).",
+    "confusiones": [
+      {
+        "especie": "Kalmia latifolia",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. Kalmia tiene hojas alternas (no opuestas ni en verticilo) y flores en ramillete, en forma de copa poligonal, rosas o blancas y sin el perfume de la gardenia."
+      },
+      {
+        "especie": "Camellia japonica / Camellia sasanqua",
+        "rasgo_diferenciador": "Hojas alternas y con el margen finamente dentado; las de gardenia son opuestas o verticiladas y de margen entero, con nervios hundidos. La flor de camelia no huele (o apenas) y tiene numerosos estambres amarillos visibles en las formas sencillas."
+      },
+      {
+        "especie": "Coffea arabica (cafeto)",
+        "rasgo_diferenciador": "Misma familia y hojas opuestas brillantes, pero con el margen ondulado y nervios menos hundidos; las flores son pequeñas (1-2 cm), estrelladas y agrupadas en las axilas de las hojas, y los frutos rojos. La gardenia tiene flores grandes y solitarias en la punta de las ramas."
+      },
+      {
+        "especie": "Jasminum spp. (jazmines)",
+        "rasgo_diferenciador": "La mayoría tienen hojas compuestas (varios folíolos) y hábito trepador o colgante, con flores pequeñas tubulares en ramillete. La gardenia tiene hojas simples coriáceas y porte de arbusto."
+      },
+      {
+        "especie": "Gardenia jasminoides 'Radicans'",
+        "rasgo_diferenciador": "Es la misma especie (cultivar enano rastrero): hojas más pequeñas y estrechas, porte de 15-45 cm que se extiende a lo ancho y flores dobles de unos 2,5 cm (NC State, Clemson). Los cuidados son los mismos, pero es menos resistente al frío."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Genipósido y gardenósido (glucósidos iridoides) (ASPCA, NC State).",
+    "sintomas": "Perros y gatos (también caballos): vómitos y/o diarrea leves y urticaria (ASPCA, NC State). Personas: NC State la clasifica como venenosa de gravedad baja, con los mismos síntomas leves; no se describen cuadros graves. Ante una ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "notas": "La toxicidad para perros y gatos la confirman dos fuentes prioritarias (ASPCA y NC State). Para niños solo NC State aporta dato (gravedad baja); se marca como tóxica por prudencia. NC State indica también que las flores son comestibles y que no causa dermatitis de contacto: la app no debe usar eso para restar importancia a la ingestión por mascotas.",
+    "fuentes": [
+      "F1",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este muy luminosa y sin obstáculos, o a 1,2-1,5 m de una ventana sur con visillo (NYBG); la RHS considera ideal una ventana oeste en verano siempre que no reciba sol fuerte y caluroso. En invierno, acercarla a la ventana sur para captar el máximo de luz (RHS, NYBG, Chicago Botanic Garden).",
+      "tolera_sol_directo": "Parcialmente. Tolera y agradece sol suave (mañana o sol de invierno) (NYBG, Chicago Botanic Garden), pero el sol fuerte de mediodía y tarde le quema las hojas o la marchita (RHS, NYBG). Sin luz suficiente no florece (NYBG).",
+      "notas": "Necesita el extremo alto de la luz brillante indirecta (NYBG): 500-1000 fc según la escala del proyecto. Girar la maceta un cuarto de vuelta en cada riego para que la luz llegue a todas las hojas (NYBG). La luz escasa junto con frío causa brotes amarillentos y crecimiento lento (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo de forma uniforme, nunca encharcado ni seco del todo (RHS, Chicago Botanic Garden). Comprobar con el dedo a 2-3 cm y por el peso de la maceta: regar cuando el primer centímetro y medio se note seco al tacto (NYBG) y no regar si a 2-3 cm sigue húmedo (Cornell Extension Nassau mide a 5 cm). Regar a fondo, por la mañana, y vaciar el plato a los 15 minutos (NYBG). No mojar flores ni botones.",
+      "primavera_verano": "Riego regular para mantener el cepellón siempre algo húmedo; en pleno crecimiento y con calor el sustrato se seca rápido y hay que comprobarlo con más frecuencia (en verano en Madrid, a menudo cada 2-3 días [orientativo, sin fuente prioritaria]). La irregularidad (secas seguidas de encharcamiento) provoca caída de botones (RHS, CAES).",
+      "otono_invierno": "Reducir el riego porque crece más despacio: dejar secar los 2-3 cm superiores antes de volver a regar (NYBG), pero sin dejar que el cepellón se seque por completo (RHS). En interior con poca luz consume menos agua (NYBG).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Acidófila: el agua dura (caliza) sube el pH del sustrato y bloquea el hierro (RHS, NYBG). En zonas de agua dura usar agua de lluvia o destilada/osmotizada. El agua del grifo de Madrid es blanda (10-47 mg/L CaCO3) y en principio apta; dejar que alcance la temperatura ambiente antes de regar (RHS). Dejar reposar el agua no elimina la cloramina del Canal, pero eso no es motivo de problemas en esta especie.",
+      "notas": "Exceso de agua: raíces dañadas y hojas amarillas (RHS, Nassau). Falta de agua: puntas y bordes marrones (RHS). Ambas causan caída de botones (Clemson, RHS, CAES).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F4",
+        "F7",
+        "F8",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "notas": "La NYBG indica que sufre por debajo del 60 % y recomienda vigilarla con higrómetro; la RHS y CAES piden humedad alta y constante. El mínimo de 50 % es [orientativo, sin fuente prioritaria]: por debajo de ese valor el riesgo de caída de botones y puntas marrones es alto. Subirla con humidificador o agrupando plantas; la bandeja de grava húmeda ayuda poco. No pulverizar: no sube la humedad de forma útil y, según NYBG y Chicago Botanic Garden, mojar hojas y botones favorece hongos y manchas en las flores (la RHS sí recomienda pulverizar; se descarta, ver lagunas).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 15,
+      "ideal_max_c": 24,
+      "notas": "Día 21-24 °C y noche 15-18 °C (RHS); en invierno prefiere 16 °C y tolera 10-15 °C (RHS). Si está fuera en verano, entrarla antes de que las noches bajen de 10 °C, también los cultivares 'resistentes' (RHS). Para formar botones necesita noches frescas y estables: 15,5-17 °C (60-63 °F, NYBG), 16-18 °C (60-65 °F, Chicago Botanic Garden; 62-65 °F, Cornell Nassau), con el día unos 5-6 °C más cálido; noches por encima de 18 °C impiden la floración o hacen caer los botones (RHS, Nassau). Clemson cita noches de 10-13 °C (50-55 °F) para la inducción floral en jardín; se adopta el rango de interior de NYBG/RHS (ver contradicciones). Evitar cambios bruscos, corrientes y salidas de calefacción o aire acondicionado (NYBG, RHS). No hay fuente prioritaria con un máximo tolerable; el calor y el aire seco provocan caída de hojas y botones (NYBG, CAES).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F4",
+        "F8",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato ácido para plantas acidófilas (ericáceas), ligero, rico en materia orgánica y que drene bien (RHS, CAES, NC State). Cornell Nassau propone 50 % tierra esterilizada y 50 % turba; la RHS pide sustrato ácido sin turba (por ejemplo, a base de corteza compostada de pino y fibra de coco).",
+      "ph": "5,0-6,0 (Cornell Nassau; NYBG da 4,5-6,0; NC State y Clemson, ácido <6,0)",
+      "drenaje": "Imprescindible: maceta con agujeros y sin agua en el plato. El suelo mal drenado favorece la pudrición de raíces (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F8",
+        "F2",
+        "F3",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas acidófilas con hierro y microelementos (NYBG, Chicago Botanic Garden). Para corregir la clorosis férrica, quelato de hierro (hierro secuestrado) aplicado al sustrato; reaplicar si se riega con agua dura (RHS, CAES, Clemson).",
+      "npk": "Equilibrado con más nitrógeno, proporción aproximada 2-1-1 (Clemson, para exterior).",
+      "primavera_verano": "De marzo a septiembre, ¼-½ de la dosis de etiqueta una vez al mes (criterio del proyecto). NYBG aconseja media dosis cada 2-4 semanas y Chicago Botanic Garden una vez al mes; se adopta la pauta más prudente.",
+      "otono_invierno": "No abonar (Cornell Nassau; Clemson y NC State desaconsejan abonar en otoño porque provoca brotes tiernos).",
+      "notas": "La RHS recomienda abono rico en nitrógeno cada semana en primavera-verano y abonado equilibrado cada 5-6 semanas en invierno; se descarta por ser más agresivo que el resto de fuentes y que la norma del proyecto (ver contradicciones). El sulfato de hierro no corrige bien la clorosis en gardenia; el quelato sí (CAES).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F8",
+        "F3",
+        "F6",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-3 años: la RHS y NYBG lo aconsejan cada primavera mientras crece; Chicago Botanic Garden, cada 2-3 años. Subir solo un tamaño de maceta (RHS, NYBG).",
+      "epoca": "Primavera, antes o al inicio del crecimiento. No trasplantar una planta recién comprada en flor: el estrés hace caer flores y botones (NYBG).",
+      "senales": "Raíces que salen por los agujeros de drenaje (Cornell Nassau) o que llenan la maceta (NYBG). Si no se puede trasplantar, renovar los 5 cm superiores de sustrato con sustrato ácido (RHS). Le molesta que se manipulen las raíces (NC State, Clemson): no deshacer el cepellón.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F4",
+        "F8",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Ligera, para mantenerla compacta y ramificada. Quitar las flores marchitas para estimular nuevas (RHS, NC State, NYBG).",
+      "epoca": "Justo al terminar la floración (NYBG, Clemson) o a finales de invierno (febrero-marzo, RHS); florece en los brotes nuevos (NC State). No podar en otoño, cuando la planta está formando botones.",
+      "como": "Cortar justo por encima de una yema que mire hacia fuera (NYBG). En plantas adultas, eliminar parte de la madera vieja para que rebrote denso (NYBG, Cornell Nassau). Una planta muy larguirucha admite una poda más fuerte seguida de abonado (Nassau). Usar tijeras limpias.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F2",
+        "F3",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: noviembre-febrero (crecimiento lento por días cortos y menos luz). Hemisferio sur: mayo-agosto.",
+      "cambios": "No es un reposo completo: sigue con hojas y puede formar botones. Reducir el riego sin dejar secar el cepellón, sin abono, con la máxima luz posible (ventana sur) y unos 16 °C (10-15 °C tolerados) (RHS, NYBG, Nassau).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F8"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de madera blanda",
+        "esqueje semileñoso (con talón)",
+        "acodo",
+        "semilla",
+        "injerto"
+      ],
+      "epoca": "Esqueje de madera blanda a finales de invierno o principio de primavera; semileñoso en verano (RHS). Cornell Nassau señala que las fuentes no coinciden y que en general va de primavera a otoño.",
+      "pasos": "1) Cortar esquejes terminales con hojas de 10-15 cm (Nassau), de la parte alta de la planta y sin pulverizarlos (Nassau, para evitar el chancro). 2) Quitar las hojas de la mitad inferior. 3) Mojar la base en hormona de enraizamiento (Nassau). 4) Plantar en mezcla estéril de mitad arena y mitad turba (Nassau). 5) Mantener con humedad alta bajo plástico o cristal (Nassau), con calor y luz indirecta. 6) Cuando enraícen, pasar a macetas individuales con sustrato ácido sin turba (RHS). La RHS aconseja hacer esquejes cada año porque la planta florece menos con los años.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F8",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis férrica, el problema más común e importante de la gardenia (CAES): hojas amarillas con nervios verdes por falta de hierro disponible, normalmente porque el pH del sustrato ha subido (agua dura, sustrato no ácido, abono inadecuado). Corregir con quelato de hierro y sustrato ácido (RHS, CAES, NYBG). En Madrid, con agua blanda, comprobar antes el riego y el sustrato."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Amarilleo de brotes nuevos: falta de hierro (Clemson, RHS) o, si los brotes salen amarillentos y crecen poco, falta de luz y temperaturas bajas (RHS, Nassau)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Exceso de riego que daña las raíces (RHS, Nassau); revisar drenaje y sustrato antes de abonar."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal si se trata de pocas hojas viejas e interiores: la planta las renueva (NYBG). Si son muchas, revisar riego y temperatura."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de botones (y a veces de hojas) tras un cambio de sitio, la compra, la entrada en casa tras el verano o un trasplante con la planta en flor; también por noches calurosas, aire seco o riego irregular (NYBG, RHS, CAES, Clemson). Mantener temperatura y riego constantes y no moverla con botones."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Humedad ambiental baja (NYBG) o falta de agua (RHS). En Madrid, típico con calefacción. No atribuirlo al cloro o al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Marchitez con el sustrato húmedo: pierde agua por las hojas más rápido de lo que absorbe (calor, sol fuerte, aire seco): llevarla a un sitio más sombreado y fresco (RHS). Con el sustrato encharcado, sospechar pudrición de raíces."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol fuerte de mediodía o tarde, sobre todo en verano detrás de un cristal (RHS, NYBG)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, la plaga más común de la gardenia (Clemson, NC State), sobre todo en plantas estresadas. Vive en el envés."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza que excretan la mosca blanca, los pulgones y las cochinillas (Clemson)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla que crece sobre la melaza de la mosca blanca (Clemson)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga más frecuente de la gardenia en interior según Cornell Nassau; aparece en las axilas de las hojas (Nassau, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, como la cochinilla blanda Coccus hesperidum (CAES, Nassau, RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en el envés y los brotes tiernos (Clemson, RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja: hojas moteadas de amarillo, favorecida por el aire seco (NYBG, RHS, Nassau)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña de la araña roja con infestación fuerte; puede causar caída de hojas (NYBG)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por hongos en sustratos mal drenados o encharcados (Clemson)."
+    },
+    {
+      "sintoma_id": "S32",
+      "causa_habitual_en_esta_especie": "Nematodos que forman engrosamientos y nudos en las raíces, con amarilleo y enanismo posteriores (Nassau, Clemson). No tiene tratamiento doméstico: desechar la planta y el sustrato (Nassau)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), retirarla de las ventanas sur y oeste sin protección o poner visillo, porque el sol de tarde quema las hojas. En casa, mantenerla lejos del chorro del aire acondicionado y subir la humedad con humidificador. Puede pasar el verano en terraza o balcón a semisombra, con sol de mañana y sombra de tarde, al resguardo del viento (RHS, Chicago Botanic Garden, Nassau), aclimatándola poco a poco; en las olas de calor las noches por encima de 18-20 °C hacen que no florezca o tire los botones, así que se espera menos flor en julio-agosto. Comprobar el sustrato cada 1-2 días porque se seca muy rápido; regar a primera hora. Entrarla a casa antes de que las noches bajen de 10 °C (en Madrid, normalmente entre finales de octubre y principios de noviembre) y contar con que puede perder algunos botones al cambiarla de sitio (NYBG).",
+    "invierno": "Ventana sur luminosa (RHS), pero sin tocar el cristal frío y lejos de radiadores y salidas de calefacción: el calor seco y los cambios de temperatura hacen caer los botones. Con la calefacción, la humedad interior suele bajar del 30 %, muy lejos del 60 % que pide (NYBG): usar humidificador o agrupar plantas; pulverizar no sirve. Lo ideal son unos 16 °C de noche (RHS), algo difícil en pisos con calefacción central; una habitación fresca y luminosa es mejor que el salón. Regar menos sin dejar secar el cepellón y no abonar. El agua blanda del Canal de Isabel II le conviene más que el agua dura de otras regiones, pero si aparece clorosis, revisar riego, drenaje y pH del sustrato y aplicar quelato de hierro.",
+    "ubicacion_recomendada": "Ventana este muy luminosa o a 1-1,5 m de una ventana sur con visillo, en una habitación fresca (15-18 °C de noche), sin corrientes ni calefacción cerca y con humidificador en invierno. De mayo-junio a octubre, mejor en terraza o balcón con sol de mañana y sombra de tarde."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Gardenia jasminoides J.Ellis (1761); sinónimos Gardenia augusta Merr. (nom. illeg.), Gardenia florida L. (nom. illeg.) y, según NC State, Gardenia grandiflora. No hay cambio de nombre.",
+    "Ninguna fuente prioritaria da una temperatura máxima tolerable: max_c queda en null.",
+    "Humedad mínima: solo NYBG da cifra (lucha por debajo del 60 %); el mínimo de 50 % es orientativo.",
+    "La RHS recomienda pulverizar las hojas para subir la humedad y para recuperar plantas marchitas; contradice la norma del proyecto y a NYBG y Chicago Botanic Garden (riesgo de hongos y manchas en flores). Se descarta.",
+    "La RHS recomienda abono nitrogenado semanal en primavera-verano y abonado cada 5-6 semanas en invierno; el resto de fuentes y la norma del proyecto lo limitan (mensual, nada en invierno).",
+    "Toxicidad en personas: solo NC State (gravedad baja). Falta una segunda fuente prioritaria para niños.",
+    "Productos fitosanitarios: las fuentes citan productos de EE. UU. (piretroides, acefato, imidacloprid) y Nassau menciona el neem, que no está autorizado en la UE. En España solo deben recomendarse productos listos para usar de uso no profesional inscritos en el Registro del MAPA para plantas de interior; no se ha verificado qué productos concretos están autorizados en gardenia."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia",
+      "institucion": "ASPCA Animal Poison Control",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/gardenia-jasminoides/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/gardenia/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.chicagobotanic.org/plantinfo/faq/gardenia_care",
+      "institucion": "Chicago Botanic Garden, Plant Information Service",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://libguides.nybg.org/Gardenia",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/popular/gardenia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://portal.ct.gov/caes/plant-pest-handbook/pphg/gardenia-gardenia",
+      "institucion": "Connecticut Agricultural Experiment Station (CAES), Plant Pest Handbook",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ccenassau.org/resources/-gardenia",
+      "institucion": "Cornell Cooperative Extension Nassau County (Home Grounds Fact Sheet)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:751073-1",
+      "institucion": "Royal Botanic Gardens, Kew. Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

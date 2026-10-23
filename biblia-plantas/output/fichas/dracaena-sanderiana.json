@@ -1,0 +1,323 @@
+{
+  "nombre_cientifico": "Dracaena sanderiana",
+  "nombres_comunes": [
+    "bambú de la suerte",
+    "lucky bamboo",
+    "bambú chino",
+    "cinta (ribbon plant)"
+  ],
+  "familia": "Asparagaceae (subfamilia Nolinoideae; antes Dracaenaceae/Agavaceae)",
+  "origen": "África tropical centro-occidental hasta el noreste de Angola: Camerún, República Centroafricana, Congo, R. D. del Congo, Gabón y Angola (POWO). No es asiático ni es un bambú, aunque se asocia a la cultura china.",
+  "clima_nativo": "Tropical húmedo de sotobosque de selva ecuatorial africana: calor constante, alta humedad ambiental y luz filtrada bajo el dosel; sin heladas (zonas USDA 10-12).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas acintadas, lanceoladas, de más de 15 cm de largo y 2,5-7,5 cm de ancho, verde brillante a verde grisáceo, algo coriáceas, de punta aguda, a veces ligeramente retorcidas; dispuestas de forma espaciada y alterna a lo largo del tallo, abrazándolo con una vaina en la base. En los ejemplares comerciales se eliminan las hojas inferiores y solo queda un penacho de hojas en el ápice o en los brotes laterales.",
+    "nerviacion": "Paralelinervia (monocotiledónea): nervios finos paralelos a lo largo de la hoja, sin nervio central marcado ni nervios secundarios ramificados.",
+    "variegacion": "La forma típica es verde liso. Cultivares frecuentes: 'White Stripe' (verde oscuro con margen blanco crema) y 'Silver Ribbon' (bandas longitudinales verde claro/plateado, hojas algo retorcidas); también 'Gold'/'Celebration' con bandas amarillas.",
+    "tallo": "Tallo ('caña') erecto, cilíndrico, carnoso-leñoso, verde (no hueco ni lignificado como un bambú verdadero), de 1-2,5 cm de grosor, con anillos o cicatrices nodales donde estuvieron las hojas, lo que le da aspecto de bambú. Se vende a menudo cortado en secciones de alturas escalonadas, en espiral o rizo (curvado por luz dirigida en vivero), trenzado o en 'torres'. Los cortes superiores suelen ir sellados con cera roja o verde.",
+    "habito": "Arbusto perenne erecto, de crecimiento lento; en cultivo, cañas sueltas sin ramificar de las que salen 1-3 brotes laterales con hojas cerca del ápice. Se cultiva tanto enraizado en agua con piedras o canicas como en maceta con sustrato. Rara vez florece en interior (flores blancas pequeñas en racimos).",
+    "tamano_adulto_interior": "Habitualmente 0,2-1 m según las cañas compradas; las cañas cortadas no crecen en altura, solo los brotes laterales, que pueden alargarse 30-60 cm. En sustrato y con años puede rondar 1-1,5 m (dato orientativo, sin fuente prioritaria).",
+    "confusiones": [
+      {
+        "especie": "Bambúes verdaderos (Poaceae: Phyllostachys, Bambusa, Pleioblastus)",
+        "rasgo_diferenciador": "Los bambúes tienen cañas huecas, duras y lignificadas con nudos marcados, y hojas cortas con pecíolo corto, nervio central y nervios teselados; D. sanderiana tiene tallo macizo y carnoso y hojas acintadas abrazadoras sin pecíolo."
+      },
+      {
+        "especie": "Dracaena fragrans (tronco del Brasil, palo de agua)",
+        "rasgo_diferenciador": "D. fragrans tiene tronco grueso, pardo-grisáceo y leñoso, y hojas mucho más largas y anchas (hasta 60-90 cm × 5-10 cm) en roseta arqueada; D. sanderiana tiene cañas finas verdes y hojas más cortas y espaciadas."
+      },
+      {
+        "especie": "Dracaena reflexa / Dracaena marginata",
+        "rasgo_diferenciador": "D. reflexa forma rosetas densas de hojas cortas en espiral en tallos flexibles; D. marginata tiene hojas muy estrechas (<1,5 cm) con margen rojo-púrpura en penachos sobre tallos grises; D. sanderiana tiene cañas verdes lisas con anillos y hojas más anchas y espaciadas."
+      },
+      {
+        "especie": "Dracaena deremensis (D. fragrans grupo Deremensis, 'Warneckii', 'Janet Craig')",
+        "rasgo_diferenciador": "Hojas más largas, anchas y densas desde la base, tallo grueso; no se vende en agua ni en cañas esculpidas."
+      },
+      {
+        "especie": "Cordyline fruticosa",
+        "rasgo_diferenciador": "Hojas con pecíolo claro y nervio central marcado, a menudo rojizas o rosadas; raíces y rizomas blancos engrosados. D. sanderiana no tiene pecíolo y sus raíces son anaranjadas-rojizas finas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas",
+    "sintomas": "Perros y gatos: vómitos (a veces con sangre), decaimiento, falta de apetito y salivación excesiva; en gatos además pupilas dilatadas. Gravedad baja según NC State. Personas (niños): gravedad baja; no debe ingerirse y la savia puede irritar la piel. Todas las partes (hojas, tallos, raíces, savia, flores y frutos) se consideran tóxicas. Ojo: el agua del jarrón puede atraer a gatos y perros a beber; mantenerlo fuera de su alcance. Ante ingestión, llamar al veterinario o, en personas, al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F4",
+      "F1",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Habitación luminosa con ventana este o norte (Clemson), o a 1,5-2 m de una ventana sur u oeste con visillo; nunca pegado al cristal de una ventana soleada (NYBG recomienda ~1,5-1,8 m en ventana sur).",
+      "tolera_sol_directo": "No. El sol directo daña las hojas, que se vuelven marrones o amarillentas (quemadura). Como mucho tolera algo de sol suave de primera hora filtrado.",
+      "notas": "Óptimo: luz brillante indirecta, 500-1000 fc (≈5400-10800 lux). Tolera luz media (100-500 fc, ≈1100-5400 lux) con crecimiento lento; con poca luz el crecimiento y el color empeoran (brotes alargados y pálidos). No es planta de luz baja sostenida (<1100 lux) aunque se venda como tal. En los ejemplares en espiral, girar el recipiente con frecuencia: los brotes se curvan hacia la luz y deforman el diseño. La luz directa sobre un jarrón transparente favorece además las algas en el agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "EN SUSTRATO: regar cuando los 2-3 cm superiores estén secos al tacto y la maceta pese claramente menos; regar a fondo hasta que drene y no dejar agua en el plato (Clemson). No regar por calendario. NC State indica mantener el sustrato 'húmedo'; se adopta el criterio más conservador de Clemson (secado de la capa superior), porque el exceso de riego amarillea hojas y pudre tallos. EN AGUA (cultivo hidropónico con piedras o canicas): mantener sumergidas las raíces más unos 2,5 cm de tallo, no más; reponer agua durante la semana para que el nivel sea constante y cambiar el agua por completo cada semana, lavando el recipiente y las piedras al hacerlo.",
+      "primavera_verano": "En sustrato: comprobar cada 4-7 días con el dedo y el peso; con calor se seca antes. En agua: con calor la evaporación es rápida; revisar el nivel cada 2-3 días y rellenar; cambio completo semanal (con 35-40 °C en Madrid, no espaciarlo).",
+      "otono_invierno": "En sustrato: crecimiento lento, comprobar cada 7-10 días y regar solo cuando la capa superior esté seca; cerca de radiador puede secarse antes. En agua: mantener el nivel (raíces + ~2,5 cm de tallo) y el cambio completo cada 1-2 semanas como máximo; usar agua a temperatura ambiente, nunca fría.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Las fuentes recomiendan agua sin cloro, de lluvia o destilada porque la especie es sensible a sales, cloro y flúor. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y casi sin fluoruro (<0,1 mg/L), así que es apta; desinfecta con cloramina, que NO se elimina dejando el agua en reposo (el consejo de 'dejarla reposar 1-2 días' no sirve para cloramina ni flúor). Si se observa daño en cultivo en agua y se quiere ir sobre seguro, usar agua de lluvia limpia o agua embotellada de mineralización débil. En ciudades con agua fluorada o muy dura/salina, usar agua de lluvia o destilada. Nunca usar agua descalcificada (sodio).",
+      "notas": "Contradicción en la frecuencia de cambio de agua: Clemson y NC State dicen semanal; NYBG y MSU Extension dicen cada 1-2 semanas. Se adopta la más conservadora: cambio completo semanal (NC State lo justifica también para evitar mosquitos que crían en agua estancada). Más agua de la necesaria (tallo muy sumergido) favorece pudrición y amarilleo del tallo. Recipientes opacos o poco expuestos a la luz reducen las algas; si aparecen, lavar recipiente y piedras. Si un tallo de un grupo amarillea, retirarlo y cambiar el agua para que no contamine a los demás (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "La humedad baja provoca puntas de hoja marrones (NC State). La guía del género de Clemson indica que por debajo del 30-40 % (habitual en invierno con calefacción) la planta se resiente; en producción se cultiva con 60-100 % (UF/IFAS). Pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas. Los porcentajes son del género, no específicos de la especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 18,
+      "max_c": 32,
+      "ideal_min_c": 21,
+      "ideal_max_c": 27,
+      "notas": "Clemson indica meterla en casa antes de que las noches bajen de 18 °C (65 °F); se toma como mínimo seguro. Para el género, UF/IFAS da 21-27 °C (70-80 °F) como óptimo en interior y advierte de daños (clorosis) por encima de 32 °C (90 °F) en algunas dracenas; Clemson (género) da 16-21 °C de día y unos 5 °C menos de noche como temperatura doméstica aceptable. Evitar corrientes de aire frío y el contacto con cristales fríos. Sin heladas: es planta de zonas USDA 10-12. El agua del jarrón no debe estar fría ni calentarse al sol.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F6",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior o tropicales, bien drenado (Clemson); por ejemplo, base de turba o fibra de coco con algo de perlita o corteza fina. Los tallos altos pueden necesitar tutor hasta que las raíces los anclen. En cultivo en agua: piedras, grava o canicas limpias solo como soporte, sin tierra.",
+      "ph": "6,0-6,5 (dato del género Dracaena; NC State indica que tolera suelos ácidos, neutros y alcalinos)",
+      "drenaje": "Imprescindible: maceta con agujero de drenaje y plato vacío tras regar. Evitar sustratos con mucha perlita en zonas de agua fluorada (el género es sensible al flúor).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F6",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, muy diluido; mejor con bajo contenido en boro y flúor y sin superfosfato.",
+      "npk": "3-1-2 o 3-1-3 (recomendación de UF/IFAS para el género)",
+      "primavera_verano": "EN AGUA: abono líquido a ¼ de la dosis de etiqueta como mucho una vez al mes (NYBG, MSU), o cada dos meses (Clemson); se adopta lo más conservador: ¼ de dosis cada 1-2 meses, añadido al agua recién cambiada. EN SUSTRATO: ¼-½ de la dosis de etiqueta una vez al mes con crecimiento activo.",
+      "otono_invierno": "No abonar con crecimiento parado (otoño-invierno con poca luz).",
+      "notas": "El exceso de abono quema la planta y la amarillea de abajo arriba (NYBG): si amarillea, cambiar el agua y dejar de abonar. En agua, el abono favorece las algas: no superar la dosis. No abonar una planta recién comprada o trasplantada durante unas 4 semanas (UF/IFAS, género).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen el recipiente o la maceta (orientativo, cada 2-3 años en sustrato); en agua, pasar a un recipiente mayor cuando las raíces ocupen todo el fondo.",
+      "epoca": "Primavera o inicio del verano, con crecimiento activo.",
+      "senales": "Raíces saliendo por el drenaje o enroscadas en el fondo, agua que se agota muy deprisa, planta que vuelca. Paso de agua a sustrato: es posible (MSU indica que en sustrato requiere menos mantenimiento), pero las raíces formadas en agua se adaptan mal; mejor enraizar un esqueje directamente en sustrato de drenaje rápido.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Ligera. Retirar hojas amarillas o secas y los tallos amarillos enteros; los brotes laterales demasiado largos pueden recortarse para mantener la forma.",
+      "epoca": "Cualquier momento para hojas o tallos dañados; recortes de brotes en primavera-verano.",
+      "como": "Con tijera limpia y afilada. Cortar los brotes laterales a 2-5 cm de su base en la caña (vuelven a brotar del nudo) y usar el trozo cortado como esqueje. No cortar la caña principal de los arreglos (pierde la forma y la parte cortada no crece en altura). Si un tallo amarillea por la base o está blando, retirarlo entero; si solo amarillea la parte de arriba y la base está verde y firme, cortar por encima de la zona sana. Las hojas inferiores que amarillean por envejecimiento se quitan sin problema (NYBG).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F9"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": null,
+      "notas": "No tiene reposo verdadero, pero en otoño-invierno el crecimiento se ralentiza: reducir riego en sustrato y suspender el abono.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de brote lateral en agua",
+        "esqueje de punta (con al menos un nudo) en agua o sustrato",
+        "trozo de caña con nudos"
+      ],
+      "epoca": "Primavera o final del verano (NYBG).",
+      "pasos": "1) Cortar un brote nuevo de la caña principal (Clemson) o los 10 cm superiores de un tallo sano con al menos un nudo (NYBG). 2) Quitar las hojas inferiores y dejar solo unas pocas arriba. 3) Poner la base en agua limpia (ver calidad del agua), con el nudo inferior sumergido. 4) Luz brillante indirecta y cambio de agua semanal. 5) Las raíces suelen salir en 2-3 semanas (Clemson). 6) Dejar en agua con piedras o, si se quiere en sustrato, plantarlo cuando las raíces midan 3-5 cm.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo de tallo y hojas: exceso de riego en sustrato o tallo demasiado sumergido, agua estancada sin cambiar, exceso de abono, o planta agotada por el estrés del cultivo comercial en agua (hojas quitadas, tallos curvados). Si un tallo amarillea desde la base, suele estar pudriéndose: retirarlo para que no contamine a los demás y cambiar el agua."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Envejecimiento natural de hojas inferiores; exceso de abono (amarilleo de abajo arriba) o sequía prolongada en sustrato."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco (humedad baja, calefacción) y sales de abono acumuladas en el agua o el sustrato. En otras ciudades, también agua fluorada; no se atribuye al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Sol directo a través del cristal: hojas que se vuelven marrones o amarillentas con zonas secas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de sol directo, sobre todo en ventanas sur y oeste en verano: hojas descoloridas o blanqueadas."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del tallo por exceso de agua: base de la caña blanda, oscura o con mal olor. Retirar el tallo afectado."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Raíces podridas por exceso de riego en sustrato, por agua sin cambiar o por un recipiente sucio en cultivo en agua. Las raíces sanas son anaranjadas o rojizas y firmes; las podridas, marrones-negras, blandas y con mal olor."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz: brotes alargados, débiles y pálidos que se curvan hacia la ventana."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros), favorecida por el aire seco de la calefacción o del verano."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Ácaros (incluidos falsos ácaros) y trips (Hercinothrips femoralis, trips bandeado de invernadero) que causan punteado amarillento o plateado."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (incluida la cochinilla de cola larga), en las axilas de las hojas y la base de los brotes."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (por ejemplo, cochinilla de los helechos) en tallos y hojas."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (ocasional)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, el agua del jarrón se evapora y se calienta deprisa: revisar el nivel cada 2-3 días, cambio completo semanal sin excepción, y nunca en la ventana. Alejarlo al menos 1,5-2 m de ventanas sur y oeste o protegerlo con visillo; el sol directo quema las hojas y calienta el agua (lo que favorece algas y pudrición). Evitar el chorro directo del aire acondicionado. En sustrato, comprobar con el dedo y el peso cada 4-5 días. No sacarlo a la terraza a pleno sol; si se saca, solo a sombra luminosa y con noches por encima de 18 °C.",
+    "invierno": "Calefacción con humedad interior por debajo del 30 %: favorece puntas marrones y araña roja; usar humidificador o agrupar plantas (pulverizar no sirve). Alejarlo de radiadores y de cristales fríos o corrientes de puertas y ventanas; mantenerlo por encima de 18 °C. Usar agua a temperatura ambiente para los cambios (no recién salida del grifo frío). Sin abono. El agua del grifo de Madrid es apta, pero dejarla reposar no elimina la cloramina; si hay problemas en cultivo en agua, usar agua embotellada de mineralización débil o de lluvia.",
+    "ubicacion_recomendada": "Estancia luminosa: junto a una ventana este o norte luminosa, o a 1,5-2 m de una ventana sur u oeste con visillo; recipiente fuera del alcance de perros, gatos y niños (tóxica y el agua es atractiva para beber). Escritorios u oficinas solo si tienen buena luz natural."
+  },
+  "lagunas": [
+    "Nombre aceptado: POWO (Kew) acepta Dracaena sanderiana Mast. (consultado 2026-10-21), con área nativa en Angola, Camerún, R. Centroafricana, Congo, R. D. del Congo y Gabón. Govaerts (2000, World Checklist) la trató antes como Dracaena braunii, y NC State aún cita como nombres previos Dracaena braunii, Pleomele braunii y Pleomele sanderiana. Muchas plantas que se venden como 'Dracaena braunii' son D. sanderiana. La app debe aceptar ambos nombres y no debe confundirla con D. braunii Engl. en sentido estricto.",
+    "Sin fuente prioritaria con temperatura mínima absoluta específica de la especie: se usa el umbral de 18 °C de Clemson (meterla en casa) y los rangos del género de UF/IFAS y Clemson.",
+    "Humedad mínima e ideal en % sin dato específico de especie: se usan valores del género (Clemson 30-40 % como umbral bajo; UF/IFAS 60-100 % en producción).",
+    "Rango en lux o pies-candela de la especie no publicado por fuentes prioritarias: se aplica la escala del proyecto a 'bright, indirect light' (NC State, Clemson).",
+    "Frecuencia de trasplante y paso de cultivo en agua a sustrato: solo de fuente complementaria (MSU Ask Extension) e indicaciones generales; sin fuente prioritaria específica.",
+    "Poda de brotes laterales y corte de tallos amarillos por encima de la zona sana: práctica habitual de viveros; NYBG solo describe retirar los tallos amarillos y cortar la parte superior verde para propagar. Confianza baja-media.",
+    "No hay fuente prioritaria que fije la concentración de cloramina tolerada en cultivo en agua; la recomendación de agua de lluvia, destilada o sin cloro de las fuentes es genérica. El consejo de dejar reposar el agua (blog de UF/IFAS Nassau) no elimina cloramina ni flúor: va a mitos.",
+    "Tamaño adulto en sustrato (1-1,5 m) sin fuente prioritaria; NC State no da altura.",
+    "Clemson cita aceite de neem contra plagas: no se recoge porque no es sustancia aprobada en la UE. Para plagas, solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA, o retirada manual y lavado de hojas."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://libanswers.nybg.org/faq/223052",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service, LuEsther T. Mertz Library",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ribbon-plant",
+      "institucion": "ASPCA Animal Poison Control Center (ficha 'Ribbon Plant', Dracaena spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60471006-2",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://edis.ifas.ufl.edu/publication/EP149",
+      "institucion": "UF/IFAS Extension, EDIS 'Cultural Guidelines for Commercial Production of Interiorscape Dracaena' (nivel de género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "institucion": "Clemson Cooperative Extension, HGIC 1504 'Dracaena' (nivel de género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ask.extension.org/kb/faq.php?id=390446",
+      "institucion": "Ask Extension, respuesta de Michigan State University Extension (Master Gardener voluntario, Oakland County)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/06/19/q-leaves-lucky-bamboo-turning-yellow-wrong",
+      "institucion": "UF/IFAS Extension Nassau County, blog divulgativo (Q&A)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

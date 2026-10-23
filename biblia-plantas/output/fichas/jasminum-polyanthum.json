@@ -1,0 +1,355 @@
+{
+  "nombre_cientifico": "Jasminum polyanthum",
+  "nombres_comunes": [
+    "jazmín de interior",
+    "jazmín chino",
+    "jazmín de flor rosa",
+    "jazmín polianto"
+  ],
+  "familia": "Oleaceae",
+  "origen": "POWO (Kew) acepta Jasminum polyanthum Franch. con área nativa en China centro-meridional y Myanmar; EPPO indica Indochina (Myanmar) y China. RHS: suroeste de China; Oregon State: oeste de China. POWO la registra como introducida en Canarias, Gran Bretaña, Nepal y Nueva Zelanda. Oregon State advierte de que puede volverse invasora en zonas tropicales y que se ha naturalizado en Australia y Nueva Zelanda, extendiéndose sobre todo por acodo natural de tallos y brotes de raíz.",
+  "clima_nativo": "Subtropical de montaña del sur de China, con otoños e inviernos frescos. RHS la clasifica como H2 (tolera temperaturas bajas pero no sobrevive a la congelación; mínimas de 1 a 5 °C). Oregon State y Chicago Botanic Garden la dan como rústica en zonas USDA 8-10 (exterior); el Chicago Botanic Garden indica que necesita otoño fresco (4-10 °C) para formar botones.",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Opuestas, compuestas imparipinnadas, con 5-7 folíolos lanceolados y puntiagudos (Oregon State, Chicago Botanic Garden; RHS: hasta 7 folíolos); el folíolo terminal es el más largo (Oregon State). Haz verde oscuro y envés más pálido (Oregon State, Chicago Botanic Garden). Perennifolia (RHS); el Chicago Botanic Garden la describe como semicaducifolia a perennifolia en exterior. Flores (rasgo clave en la época de venta, finales de invierno): botones largos, puntiagudos y rosados que se abren en flores estrelladas blancas de tubo largo, de unos 2 cm, rosadas por fuera, muy fragantes, en racimos densos tipo panícula de hasta 10 cm (RHS, Oregon State). Fruto: baya negra globosa, rara vez producida (Oregon State).",
+    "nerviacion": "Pinnada dentro de cada folíolo, con nervio central visible [orientativo, sin fuente prioritaria: las fichas consultadas no describen la nerviación]. Lo diagnóstico es la hoja compuesta pinnada opuesta, no la nerviación.",
+    "variegacion": "No variegada en la especie tipo: verde oscuro uniforme. La RHS recoge una selección de hoja rojo oscuro ('dark red-leaved') sin ficha consultada; existen cultivares de hoja dorada en el comercio no verificados en fuentes prioritarias.",
+    "tallo": "Tallos finos y volubles: trepa enroscándose (RHS: 'twining climber'; Oregon State: ramas delgadas). No tiene zarcillos, ventosas ni raíces aéreas, ni látex lechoso (a diferencia de Trachelospermum). En contacto con el suelo los tallos enraízan en los nudos (Oregon State).",
+    "habito": "Trepadora voluble perennifolia muy vigorosa y de crecimiento rápido (RHS, Oregon State). Se vende en maceta enrollada en un aro o arco de alambre. Necesita tutor o enrejado.",
+    "tamano_adulto_interior": "En exterior 4-8 m de alto y 1,5-2,5 m de ancho (RHS; Oregon State: hasta 6 m; Chicago Botanic Garden: hasta unos 2,7 m con soporte). En maceta, el género suele quedarse en 1,2-1,5 m y se controla con poda (NC State, nivel de género).",
+    "confusiones": [
+      {
+        "especie": "Trachelospermum jasminoides (falso jazmín, jazmín estrellado)",
+        "rasgo_diferenciador": "Hojas SIMPLES, opuestas, elípticas, coriáceas y brillantes (no compuestas de 5-7 folíolos); tallos con látex lechoso al romperse; flores blanco cremoso con 5 lóbulos retorcidos como una hélice, en primavera-verano, sin botón rosado (NC State). NC State la etiqueta como venenosa, así que la distinción importa para mascotas y niños."
+      },
+      {
+        "especie": "Jasminum officinale (jazmín común, jazmín de los poetas)",
+        "rasgo_diferenciador": "Caducifolio o semiperennifolio y florece en VERANO (NC State), no a finales de invierno; flores blancas sin el botón rosado intenso de J. polyanthum [orientativo, sin fuente prioritaria sobre el color del botón]. Mucho más rústico en exterior. Ambos tienen hojas opuestas pinnadas, así que fuera de floración la distinción es difícil."
+      },
+      {
+        "especie": "Jasminum nudiflorum (jazmín de invierno, jazmín amarillo)",
+        "rasgo_diferenciador": "Flores AMARILLAS sin perfume sobre tallos sin hojas en invierno; hojas trifolioladas con folíolos de 1-2,5 cm; tallos verdes de sección cuadrangular y porte arqueado, no voluble (NC State). Ojo: Oregon State también llama 'winter jasmine' a J. polyanthum."
+      },
+      {
+        "especie": "Jasminum sambac (jazmín árabe)",
+        "rasgo_diferenciador": "Hojas simples, no pinnadas [orientativo, sin fuente prioritaria abierta para este rasgo]; el Chicago Botanic Garden la incluye entre los jazmines de temperatura cálida, con flores blancas a menudo semidobles o dobles y sin necesidad de otoño fresco."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "ASPCA clasifica las especies de Jasminum como no tóxicas para perros, gatos y caballos. Como con cualquier planta, comer mucha puede causar molestias digestivas leves e inespecíficas. Para niños no se ha encontrado fuente prioritaria. No confundir con Trachelospermum jasminoides (falso jazmín), que NC State etiqueta como venenoso, ni con Gelsemium sempervirens ('jazmín de Carolina').",
+    "confianza": "Media",
+    "fuentes": [
+      "F12",
+      "F7"
+    ],
+    "notas": "Una sola fuente prioritaria (ASPCA), y a nivel de género (Jasminum spp.), no de especie. Pet Poison Helpline no tiene ficha (404). Para niños, 'desconocida' por falta de fuente prioritaria. F7 se cita solo para el aviso sobre el falso jazmín."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "En interior, junto a una ventana este u oeste (NYBG) o sur con algo de protección en verano. Necesita varias horas de sol directo: el Chicago Botanic Garden pide al menos 4 h de sol directo al día para los jazmines de interior.",
+      "tolera_sol_directo": "Sí. RHS: pleno sol o semisombra, orientación sur u oeste, en lugar resguardado; bajo cristal, luz brillante filtrada. Chicago Botanic Garden: pasar el verano en el exterior a pleno sol tras aclimatarla poco a poco. En verano en Madrid, evitar el sol de tarde tras un cristal de ventana sur u oeste [orientativo, sin fuente prioritaria].",
+      "notas": "Contradicción: el vivero White Flower Farm (complementaria) dice que en interior prefiere luz brillante indirecta sin sol directo, y que el verano en exterior lo pasa a la sombra. Se da prioridad a RHS, Chicago Botanic Garden, NYBG y NC State (sol o mucha luz). Con poca luz no florece bien y se espiga. lux_min = 1000 fc según la escala del proyecto; no hay máximo con fuente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F6",
+        "F14"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato con el dedo a 2-3 cm y el peso de la maceta. En crecimiento (primavera-verano), regar a fondo en cuanto los 2-3 cm superiores empiecen a secarse, sin dejar que el cepellón se seque del todo: NYBG pide mantenerlo húmedo porque el jazmín se marchita con facilidad. Nunca dejar agua en el plato. No regar por calendario.",
+      "primavera_verano": "Sustrato húmedo de forma constante pero no encharcado (NYBG; UW Miller Library: cepellón húmedo en verano). En el calor de Madrid, en exterior o junto a una ventana soleada, puede hacer falta comprobarlo a diario.",
+      "otono_invierno": "Durante el periodo fresco de otoño-invierno, regar solo cuando el sustrato se haya secado (Chicago Botanic Garden) y reducir el riego al ralentizarse el crecimiento (NYBG). En flor, en interior caldeado, el cepellón se seca más rápido: comprobar con más frecuencia y no dejar que la planta llegue a marchitarse.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda, con cloramina; dejarla reposar no la elimina, pero no hace falta). No hay fuente sobre sensibilidad especial a cal, cloro o flúor. Si salen puntas marrones, buscar la causa en sales de abono acumuladas, riego irregular o aire seco.",
+      "notas": "White Flower Farm (complementaria) advierte de que si se seca hasta marchitarse 'no se recupera' sin hojas marrones. NC State incluye la pudrición de raíz entre los problemas del género: el encharcamiento sigue siendo peligroso.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F13",
+        "F14",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NYBG y la UW Miller Library (que cita libros de divulgación) dicen que le gusta la humedad ambiental, pero ninguna fuente da porcentajes. Según el proyecto, pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas. Con la calefacción de Madrid (HR <30 %), el aire seco y caliente favorece la araña roja y la pérdida de flor [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F13"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": null,
+      "ideal_min_c": 4,
+      "ideal_max_c": 21,
+      "notas": "min_c 5 °C = extremo superior del rango H2 de la RHS (1-5 °C; tolera el frío pero no la helada), el valor más conservador. El Chicago Botanic Garden dice que tolera 4-10 °C (40-50 °F) desde septiembre hasta formar los botones, y lo trata como condición de cultivo, no como límite. Oregon State y Chicago Botanic Garden la dan como rústica en zona USDA 8 (unos -12 °C) en jardín plantada en suelo; esa cifra NO vale para maceta, y se aplica el criterio conservador de la RHS. Periodo fresco para la floración: noches de 4-10 °C de septiembre a la formación de botones (Chicago Botanic Garden). White Flower Farm (complementaria) baja las noches a unos 6 °C (42 °F) de mediados de septiembre a mediados de octubre, sin bajar de 4 °C, y luego sube poco a poco hasta 18 °C (65 °F). ideal_max_c 21 °C: NYBG recomienda días frescos, por debajo de 21 °C (70 °F), para los jazmines de interior en general, no específicamente para esta especie. Chicago Botanic Garden: los jazmines necesitan unos 8 °C (15 °F) de diferencia entre día y noche. No hay máximo absoluto con fuente; White Flower Farm dice que no le gusta el calor fuerte.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F5",
+        "F4",
+        "F14"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato fértil y bien drenado. RHS: compost a base de tierra franca (loam) y sin turba. NYBG: 1 parte de sustrato para plantas de interior, 1 de turba y 1 de arena gruesa o perlita (en España, sustituir la turba por fibra de coco o compost sin turba, como recomienda la RHS). Maceta con agujeros de drenaje.",
+      "ph": "Indiferente: ácido, neutro o alcalino (RHS; tolera suelos calizos).",
+      "drenaje": "Bueno, imprescindible (RHS: 'well-drained'; Oregon State: prefiere suelo bien drenado, aunque se adapta a suelos pobres).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble para plantas de flor o de interior. El Chicago Botanic Garden recomienda uno rico en fósforo para favorecer la floración.",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo (primavera-verano), a ¼-½ de la dosis de etiqueta, una vez al mes (norma del proyecto). NYBG abona mensualmente en temporada; Chicago Botanic Garden, cada 2 semanas. Se adopta la pauta más prudente.",
+      "otono_invierno": "Nada durante el periodo fresco de otoño-invierno ni en floración.",
+      "notas": "White Flower Farm (complementaria) abona de abril a finales de octubre a media dosis. Para no estimular brotes tiernos en lugar de botones, se recomienda dejar de abonar al empezar el periodo fresco (septiembre en Madrid) [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta, en general cada 1-2 años de joven [orientativo, sin fuente prioritaria]. Cuando la planta ya esté en una maceta de 20-25 cm (8-10 pulgadas), basta con renovar cada año la capa superior de sustrato (NYBG).",
+      "epoca": "Después de la floración. NYBG la trasplanta en verano; Chicago Botanic Garden trasplanta los jazmines en primavera. Se recomienda de finales de primavera a principios de verano, nunca durante el periodo fresco ni con botones.",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón; el agua atraviesa la maceta sin empapar; la planta se seca muy deprisa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. Trepadora muy vigorosa que hay que contener (RHS, NYBG, UW Miller Library).",
+      "epoca": "Justo después de la floración, a finales de invierno o en primavera. Las flores salen sobre madera vieja (NC State, nivel de género). White Flower Farm (complementaria) dice que hay que dejar de podar antes del 1 de agosto para no perder la floración siguiente.",
+      "como": "Aclarar los tallos amontonados tras la floración y, bajo cristal, hacer podas de contención (RHS). Recortar los tallos largos que sobran y enrollar de nuevo en el aro o el enrejado los que se quedan. Evitar podas fuertes a partir de mediados de verano, porque eliminan los brotes que van a florecer.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F4",
+        "F14"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño a finales de invierno (en el hemisferio norte, de septiembre a la floración, enero-marzo).",
+      "cambios": "Periodo fresco obligatorio para florecer: noches de 4-10 °C desde septiembre hasta que se forman los botones (Chicago Botanic Garden). Menos riego (regar cuando el sustrato se haya secado, Chicago Botanic Garden; NYBG: reducir en invierno) y sin abono. Debe tener mucha luz. Al asomar los botones se puede pasar a un lugar algo más templado, pero fresco, para que florezca. Las flores duran más con frío: White Flower Farm (complementaria) recomienda 4-10 °C y la UW Miller Library 8-10 °C en invierno. Calor seco de calefacción o radiadores cerca: más pulgón (UW Miller Library) y flor más corta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F13",
+        "F14"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes semileñosos",
+        "esquejes apicales o con talón",
+        "acodo",
+        "separación de brotes de raíz"
+      ],
+      "epoca": "Esquejes semileñosos en verano (RHS) o de mediados de verano a otoño (NYBG); acodo en otoño (RHS).",
+      "pasos": "1) Cortar esquejes apicales justo bajo un nudo, o esquejes con talón (brote lateral con un trocito del tallo principal) (NYBG). 2) Quitar las hojas de la parte inferior. 3) Plantar en una mezcla ligera previamente humedecida y mantenerlos con humedad ambiental alta, por ejemplo bajo una cubierta transparente ventilada (NYBG). 4) Trasplantar cuando hayan enraizado y cuidarlos como una planta adulta (NYBG). Acodo: enterrar un tramo de tallo sin separarlo de la madre hasta que enraíce en el nudo y luego cortarlo (RHS; Oregon State describe que enraíza de forma natural en los nudos). El Chicago Botanic Garden también cita semilla y brotes de raíz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones: lo citan RHS (bajo cristal) y NC State. Según la UW Miller Library aparece sobre todo si pasa el invierno demasiado caliente."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y nervios, sobre todo en interior o bajo cristal (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés, bajo cristal o en interior (RHS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de pulgón y cochinillas (RHS cita las tres plagas)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en interior, más probable cuando la planta pasa el invierno dentro (NC State, nivel de género); el aire seco de la calefacción de Madrid la favorece."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado fino por la alimentación de la araña roja (NC State cita araña roja en el género)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por encharcamiento o maceta sin drenaje (NC State, nivel de género), sobre todo durante el periodo fresco con riego excesivo."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Marchitez por sequía del cepellón: se marchita con facilidad (NYBG). Si llega a marchitarse del todo, se recupera mal (White Flower Farm, complementaria)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas secas y acartonadas que quedan tras dejar que la planta se marchite por falta de agua (White Flower Farm, complementaria)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares: NC State cita 'leaf spot' en el género sin detallar el agente; asignación orientativa."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos y débiles, y sin flor, por falta de luz en interior. La especie pide sol o luz muy brillante (Chicago Botanic Garden, NYBG)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 %), lo mejor es una terraza o balcón con sol de mañana y algo de sombra en las horas centrales y de tarde, o una ventana este. El Chicago Botanic Garden recomienda pasar el verano fuera, al sol, tras aclimatarla poco a poco; White Flower Farm (complementaria) dice que no le gusta el calor fuerte. Evitar el sol de tarde tras el cristal de una ventana sur u oeste [orientativo, sin fuente prioritaria]. Comprobar el sustrato a diario en olas de calor: se marchita con facilidad y luego se recupera mal. Abonar una vez al mes a ¼-½ dosis hasta agosto. No podar a partir de finales de julio.",
+    "invierno": "Clave para que vuelva a florecer: dejarla fuera (terraza o balcón resguardado) o en una habitación sin calefacción y muy luminosa durante el otoño, con noches de 4-10 °C desde septiembre hasta que formen los botones (Chicago Botanic Garden). Meterla en casa, o a una galería o terraza cerrada fresca, cuando la previsión dé mínimas por debajo de 5 °C (RHS H2: no soporta helarse), sin esperar a la primera helada. Dentro de casa, la habitación más fresca y luminosa, lejos de radiadores y del aire caliente (White Flower Farm, complementaria). Con calefacción, la HR baja del 30 %: humidificador o agrupar plantas (no pulverizar). Calor y aire seco favorecen pulgón (UW Miller Library) y araña roja, y acortan la floración. Junto al cristal frío no hay riesgo mientras las hojas no lo toquen y la temperatura no baje de 5 °C. Riego reducido: regar cuando el sustrato esté seco a 2-3 cm, sin dejar que se marchite.",
+    "ubicacion_recomendada": "De primavera a otoño, en terraza o balcón resguardado del viento, con sol de mañana o sol filtrado (en Madrid puede pasar fuera aproximadamente de abril a noviembre, según las mínimas [orientativo, sin fuente prioritaria]). En invierno, galería o habitación fresca (unos 5-15 °C) y luminosa, o una ventana este u oeste en la habitación menos caldeada de la casa. Siempre con tutor, aro o enrejado. En Madrid no es fiable dejarla todo el año en exterior en maceta: las mínimas invernales bajan de 0 °C y la RHS la da como no rústica (H2)."
+  },
+  "lagunas": [
+    "Nombre aceptado en POWO: Jasminum polyanthum Franch. Sinónimos heterotípicos: Jasminum blinii H.Lév., Jasminum delafieldii H.Lév. y Jasminum excellens King & Prain. No hay cambio de nombre.",
+    "Toxicidad en niños: sin fuente prioritaria (ASPCA solo cubre animales, y a nivel de género Jasminum spp.). Pet Poison Helpline no tiene ficha de jasmine (404) y no se encontró la especie en las listas de plantas seguras o venenosas de UC ANR consultadas.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales.",
+    "Temperatura máxima tolerada: sin cifra en fuentes prioritarias; la NYBG da días por debajo de 21 °C para los jazmines de interior en general.",
+    "Duración exacta del periodo fresco necesario para formar botones: el Chicago Botanic Garden dice 'desde septiembre hasta que forme los botones', sin número de semanas. El papel del fotoperiodo no está demostrado (White Flower Farm lo sugiere sin pruebas).",
+    "Caída de botones en interior con calefacción: muy citada en la divulgación, pero no se encontró en fuentes prioritarias ninguna explicación cuantificada de su causa (calor, aire seco, sequía o cambio brusco). White Flower Farm solo atribuye la caída de botones a la exposición al frío durante el transporte.",
+    "NC State no tiene ficha de especie (404 en /plants/jasminum-polyanthum/); se usa su ficha de género Jasminum. La ficha de especie del Chicago Botanic Garden es una copia archivada anterior a febrero de 2022.",
+    "Missouri Botanical Garden no tiene ficha localizable de esta especie en Plant Finder.",
+    "Posible carácter invasor en España: POWO la da como introducida en Canarias. No se ha comprobado su inclusión en el Catálogo Español de Especies Exóticas Invasoras (RD 630/2013).",
+    "Agente concreto de la 'mancha foliar' citada por NC State: no identificado; la asignación a S14 es orientativa.",
+    "No se pudo extraer el texto de la ficha de Logee's (vivero); no se cita."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/9457/jasminum-polyanthum/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant profile Jasminum polyanthum (many-flowered jasmine)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.chicagobotanic.org/plant-information/plant-finder/jasminum-polyanthum-pink-jasmine",
+      "institucion": "Chicago Botanic Garden – Plant Finder: Jasminum polyanthum, pink jasmine (copia archivada anterior a 2022)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.chicagobotanic.org/plantinfo/jasmine",
+      "institucion": "Chicago Botanic Garden – Plant info: Jasmine (cultivo de jazmines de interior; apartado J. polyanthum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libanswers.nybg.org/faq/223270",
+      "institucion": "New York Botanical Garden (NYBG), LuEsther T. Mertz Library – How can I care for my jasmine houseplant?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://landscapeplants.oregonstate.edu/node/513",
+      "institucion": "Oregon State University – Landscape Plants: Jasminum polyanthum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/jasminum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Jasminum (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/trachelospermum-jasminoides/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Trachelospermum jasminoides",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/jasminum-officinale/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Jasminum officinale",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://plants.ces.ncsu.edu/plants/jasminum-nudiflorum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Jasminum nudiflorum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:609699-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO): Jasminum polyanthum Franch.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://gd.eppo.int/taxon/IASPO",
+      "institucion": "EPPO Global Database – Jasminum polyanthum (IASPO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/jasmine",
+      "institucion": "ASPCA Animal Poison Control – Toxic and Non-Toxic Plants: Jasmine (Jasminum species)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://depts.washington.edu/hortlib/pal/indoor-jasmine-plant-care/",
+      "institucion": "University of Washington, Elisabeth C. Miller Library – Plant Answer Line: indoor jasmine plant care (cita libros de divulgación)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://www.whiteflowerfarm.com/blogs/blog/jasmine-polyanthemum-a-wintertime-treasure",
+      "institucion": "White Flower Farm (vivero) – Jasmine polyanthum: A Wintertime Treasure",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

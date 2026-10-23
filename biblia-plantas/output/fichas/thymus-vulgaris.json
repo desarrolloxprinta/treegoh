@@ -1,0 +1,351 @@
+{
+  "nombre_cientifico": "Thymus vulgaris",
+  "nombres_comunes": [
+    "tomillo",
+    "tomillo común",
+    "tomillo de jardín"
+  ],
+  "familia": "Lamiaceae",
+  "origen": "Mediterráneo occidental. POWO (Kew) lo da como nativo de España, Baleares, Francia e Italia, siguiendo Flora iberica (Real Jardín Botánico, CSIC); NC State: suroeste de Europa y sureste de Italia; Penn State: sur de Europa y norte de África. Es autóctono en España. Introducido en Canarias, Argelia, Gran Bretaña, Alemania, Nueva Zelanda y otros (POWO).",
+  "clima_nativo": "Mediterráneo: laderas soleadas con suelos secos, arenosos o pedregosos, pobres y muy drenados, de neutros a alcalinos (NC State, RHS). Mata leñosa perennifolia que tolera la sequía y la helada (NC State). Zonas USDA 5a-9b (NC State), 5-9 (Penn State); RHS H5 (-15 a -10 °C, en suelo).",
+  "categoria": "aromatica",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Muy pequeñas: lineales a ovadas de 6-13 mm (1/4-1/2 pulgada, NC State y Penn State), opuestas y dispuestas en ángulo recto unas respecto a otras, con el margen entero y enrollado hacia abajo (revoluto), finamente pelosas, de color verde grisáceo oscuro a plateado (NC State, RHS). Muy aromáticas al frotarlas. Perennes: la planta conserva hojas todo el año (RHS).",
+    "nerviacion": "Apenas visible a simple vista por el tamaño de la hoja y el margen enrollado; solo el nervio central se marca en el envés. [orientativo, sin fuente prioritaria]",
+    "variegacion": "La especie tipo es verde grisácea. Existen cultivares de hoja variegada o dorada en el comercio; no se han verificado en fuentes prioritarias para T. vulgaris. [orientativo, sin fuente prioritaria]",
+    "tallo": "Tallos finos, rígidos y leñosos en la base ('wiry', Maryland), de sección cuadrada y pelosos (NC State, Penn State); los brotes jóvenes son verdes y aromáticos y forman matas densas (NC State).",
+    "habito": "Mata o subarbusto enano, compacto, erguido o abierto en forma de cojín (NC State, RHS: 'bushy, dwarf, evergreen shrub'). Flores diminutas (4-5 mm, bilabiadas) en espigas terminales de verticilos, blancas, rosas o lila, de mayo a julio (NC State, Penn State, RHS). Fruto: cuatro nuececillas pardas.",
+    "tamano_adulto_interior": "En maceta y exterior: unos 15-30 cm de alto y 15-40 cm de ancho (NC State; RHS: hasta 30 x 40 cm; Maryland: 15-25 cm de alto). Con los años se vuelve leñoso y conviene renovarlo (Maryland, Penn State, RHS).",
+    "confusiones": [
+      {
+        "especie": "Tomillos rastreros (Thymus serpyllum, Thymus praecox)",
+        "rasgo_diferenciador": "Forman alfombras planas pegadas al suelo que enraízan al tocarlo; T. vulgaris es una mata erguida y leñosa (RHS distingue tomillos arbustivos de rastreros)."
+      },
+      {
+        "especie": "Thymus × citriodorus (tomillo limonero)",
+        "rasgo_diferenciador": "Olor claramente a limón y hojas algo más anchas y planas, a menudo variegadas. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Thymus zygis (tomillo salsero, autóctono de la península)",
+        "rasgo_diferenciador": "Hojas lineales muy estrechas con pelos largos (cilios) en la base y espigas más laxas e interrumpidas; la separación fiable requiere lupa o clave botánica (Flora iberica). [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Thymus mastichina (mejorana silvestre, tomillo blanco)",
+        "rasgo_diferenciador": "Inflorescencias globosas con brácteas y cálices muy lanosos, blanquecinas, y olor alcanforado o a eucalipto. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Salvia rosmarinus (romero)",
+        "rasgo_diferenciador": "Hojas lineales mucho más largas (2-4 cm), coriáceas, verde oscuro por el haz y blanquecinas por el envés, y planta mucho más grande. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Origanum vulgare (orégano)",
+        "rasgo_diferenciador": "Hojas ovadas más grandes (hasta 3-4 cm), planas y blandas, en tallos no leñosos que se secan en invierno; flores en corimbos ramificados. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Satureja montana (ajedrea)",
+        "rasgo_diferenciador": "Hojas lineales más largas (1-3 cm), brillantes, puntiagudas y planas, sin margen enrollado. [orientativo, sin fuente prioritaria]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "ASPCA: no tóxica para perros, gatos y caballos; sin signos clínicos descritos. NC State la clasifica igualmente como no tóxica para gatos, perros y caballos y la describe como comestible. En personas es una hierba culinaria (hojas y flores comestibles: RHS, NC State, Maryland). Comer mucha cantidad puede causar molestias digestivas leves en animales, como cualquier planta. [orientativo, sin fuente prioritaria] El riesgo real no es la planta, sino el aceite esencial concentrado (Maryland: el aceite de tomillo se usa en medicamentos) y las hojas recién tratadas con un fitosanitario antes de cumplir el plazo de seguridad.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F10",
+      "F1",
+      "F2",
+      "F5"
+    ],
+    "notas": "Dos fuentes prioritarias coinciden (ASPCA y NC State) para perros y gatos. 'No tóxica' para niños se basa en su uso alimentario (NC State, RHS, Maryland); no se ha consultado una fuente toxicológica humana específica."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Exterior a pleno sol: terraza o balcón a sur, oeste o este (RHS: orientación sur, oeste o este), con 6 h o más de sol directo al día (NC State, Maryland). En interior solo como solución temporal: alféizar de ventana sur con al menos 5 h de sol (Oklahoma State) o lámpara de cultivo. Ventana norte o interior de la habitación: insuficiente.",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol (NC State, RHS, UF/IFAS, Maryland). Penn State admite semisombra, pero con menos sol se ahíla y pierde aroma.",
+      "notas": "Según la escala del proyecto, luz directa es más de 1000 fc (más de 10 760 lux); ninguna fuente da lux. Contradicción menor: Penn State dice 'full sun to partial shade' frente a 'full sun' de NC State, RHS y UF/IFAS; se adopta la opción más conservadora para la planta: pleno sol.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F7",
+        "F8",
+        "F9",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco: comprobar con el dedo a 2-3 cm y por el peso de la maceta. Si los 2-3 cm de arriba están secos y la maceta pesa poco, regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. Nunca por calendario. Una vez establecido es tolerante a la sequía y rara vez necesita riego en suelo (RHS, NC State, Penn State); en maceta sí necesita riego con tiempo caluroso y seco (RHS). El exceso de riego es lo que lo mata: las raíces se pudren en condiciones húmedas, sobre todo en invierno (RHS).",
+      "primavera_verano": "Plantas recién plantadas: mantener el sustrato ligeramente húmedo hasta que arraiguen (Penn State, RHS). Plantas establecidas en maceta: regar cuando el sustrato esté seco a 2-3 cm; en julio-agosto en terraza a sur u oeste en Madrid, una maceta pequeña puede secarse en 2-4 días [orientativo, sin fuente prioritaria]: comprobarla a diario en olas de calor, pero no regar si aún está húmeda.",
+      "otono_invierno": "Muy poco. Regar solo con el sustrato seco y lo justo para que el cepellón no se seque del todo (Maryland: regar solo cuando la mezcla esté seca). Lo esencial es evitar el encharcamiento con frío: sin plato, maceta resguardada de la lluvia junto a una pared o bajo un alero (RHS). El suelo frío y empapado mata al tomillo en invierno (Maryland).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "El agua del grifo de Madrid (blanda, con cloramina) es adecuada; no hace falta dejarla reposar ni filtrarla. Las fuentes no exigen ninguna calidad especial de agua.",
+      "notas": "NC State lo etiqueta como intolerante a suelos húmedos y tolerante a la sequía. Maryland: el exceso de agua daña las raíces finas y da los mismos síntomas que la sequía (marchitez, amarilleo de hojas inferiores).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Planta mediterránea que tolera bien el aire seco en exterior (NC State: tolerante a la sequía). En interior con calefacción las aromáticas sufren con el aire caliente y seco (Maryland, Oklahoma State); si hace falta, humidificador o agrupar plantas (convención del proyecto: pulverizar no sirve). Lo que nunca necesita es humedad en el sustrato ni follaje mojado: la RHS recomienda una capa de grava alrededor para mantener el follaje fuera del suelo húmedo.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F8",
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": 15.5,
+      "ideal_max_c": 21,
+      "notas": "Mínima: RHS lo califica H5 (-15 a -10 °C, resistente en casi todo el Reino Unido incluso en inviernos severos, en suelo); NC State da zonas USDA 5a-9b y Penn State 5-9, con mínimas mucho más bajas. La cifra prioritaria más conservadora es -10 °C, y se refiere a planta en suelo y bien drenada. En maceta el cepellón se congela antes: min_c fijado en -5 °C [orientativo, sin fuente prioritaria], el mismo criterio de las fichas de orégano y romero del proyecto. El frío con sustrato encharcado es mucho más peligroso que el frío seco (Maryland, RHS). Ideal 15,5-21 °C (60-70 °F): es el de Oklahoma State para hierbas en interior en general (cita el tomillo entre ellas). Ninguna fuente da una temperatura máxima; es planta de clima mediterráneo que tolera el calor del verano a pleno sol (NC State: pleno sol, suelos secos). Maryland: si se inverna dentro, dejarlo fuera hasta que las noches bajen de unos 5-6 °C (low forties °F) y guardarlo en un sitio fresco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4",
+        "F8",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato a base de tierra (no solo turba), sin turba, con hasta un 25 % en volumen de grava de horticultura para drenar (RHS). Le van los suelos ligeros, secos, arenosos o pedregosos y pobres (NC State, Maryland, Penn State). No hace falta suelo fértil: el exceso de fertilidad da follaje con menos aroma y favorece las pudriciones (Maryland). Maceta con abundantes agujeros, de al menos 15 cm de ancho y 10 cm de fondo por planta (RHS); en Madrid, mejor barro que plástico para que el sustrato se seque antes [orientativo, sin fuente prioritaria].",
+      "ph": "Neutro a alcalino (RHS; NC State: neutro 6,0-8,0 o alcalino >8,0). Penn State indica pH 6,3. Se recomienda 6,5-8 [orientativo, sin fuente prioritaria]; el agua y los sustratos calizos de la zona no son un problema.",
+      "drenaje": "Muy bueno, imprescindible (NC State: requiere buen drenaje; Maryland: el drenaje es el factor más importante en las aromáticas). Nada de agua en el plato. En suelo pesado o que se mantiene húmedo, cultivarlo en maceta o bancal elevado (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Casi nada. Las plantas establecidas no necesitan abono (Penn State); el abono en exceso reduce el contenido de aceite esencial y favorece pudriciones de raíz y tallo (Maryland). Si se abona en maceta, abono equilibrado de uso general [orientativo, sin fuente prioritaria].",
+      "npk": null,
+      "primavera_verano": "En maceta con más de un año en el mismo sustrato, como mucho abono líquido equilibrado a ¼-½ de la dosis de etiqueta, una vez al mes y solo en crecimiento activo (abril-junio en Madrid), según la convención del proyecto. En pleno verano con calor extremo, no abonar.",
+      "otono_invierno": "Nada. Si se tiene en interior junto a una ventana y sigue creciendo, solo abono líquido muy diluido y de forma excepcional (Oklahoma State).",
+      "notas": "La RHS no da pautas de abonado para el tomillo. Ninguna fuente da cifras NPK.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F7",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta, en general cada 2-3 años [orientativo, sin fuente prioritaria]. Las matas viejas y leñosas suelen renovarse cada pocos años con esquejes o acodos en lugar de trasplantarlas (Maryland, Penn State, RHS).",
+      "epoca": "Principios de primavera (NC State: trasplantar o dividir mejor a principios de primavera); RHS: plantar de mediados de primavera a principios de verano. En Madrid, marzo-mayo.",
+      "senales": "Raíces saliendo por los agujeros, sustrato que se seca en pocas horas tras el riego, o sustrato degradado que ya no drena. Plantar a la misma profundidad que tenía (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, recortes ligeros para mantenerlo compacto y frenar la madera leñosa (RHS, NC State, Penn State). La cosecha regular también lo mantiene compacto (RHS).",
+      "epoca": "Recorte ligero de mediados a finales de primavera y/o justo después de la floración (RHS; en Madrid, abril-mayo y finales de junio-julio). NC State: a principios de primavera y en verano. No podar fuerte en otoño ni en invierno [orientativo, sin fuente prioritaria].",
+      "como": "Cortar solo la parte verde y blanda, por encima de donde haya hojas: no cortar en la madera vieja sin hojas, porque puede no rebrotar (RHS). NC State: al cosechar, cortar los 12-15 cm superiores dejando los tallos leñosos, y dejar siempre unos 12 cm de planta. No quitar más de un tercio de la planta a la vez (Oklahoma State). Si una mata se queda desgarbada y leñosa tras varios años, es mejor sustituirla por esquejes o acodos que intentar una poda drástica (RHS); si se intenta, en mediados-finales de primavera.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aproximadamente de noviembre a febrero en Madrid; hemisferio sur: de mayo a agosto). Es una parada por frío y días cortos, sin pérdida de hojas.",
+      "cambios": "Perennifolio (RHS, NC State): conserva las hojas y se puede seguir cosechando poco a poco todo el año (RHS), pero apenas crece. Regar muy poco, no abonar y protegerlo de la lluvia y del encharcamiento (RHS, Maryland).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo",
+        "acodo",
+        "división",
+        "semilla"
+      ],
+      "epoca": "Esquejes de madera blanda en primavera o principios de verano y semileñosos en verano; acodo en primavera u otoño; división en primavera (u otoño, RHS); semilla en primavera en interior (RHS, Penn State, NC State).",
+      "pasos": "Esquejes (método preferido): 1) en primavera, cortar puntas de brotes nuevos no leñosos de unos 8-10 cm (Penn State: 4 pulgadas; Maryland: 3-4 pulgadas); 2) quitar las hojas de la mitad inferior; 3) opcionalmente, hormona de enraizamiento; 4) clavar en arena o en mezcla de turba y perlita húmeda (Penn State, Maryland); 5) mantener húmedo sin encharcar y con luz sin sol fuerte; 6) cuando salgan hojas nuevas ya ha enraizado (Maryland). Acodo: sujetar un tallo bajo contra el sustrato hasta que enraíce y luego separarlo y plantarlo; a menudo ocurre solo (RHS). División: separar trozos de una mata establecida con raicillas (Penn State). Semilla: sembrar en superficie sin cubrir, a 15-20 °C; germina en unas dos semanas, pero de forma irregular, y tarda alrededor de un año en dar cosecha; no reproduce fielmente los cultivares (RHS, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F1",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato húmedo, mal drenado o encharcado, sobre todo en invierno (RHS, Penn State, Maryland). Es la causa principal de muerte del tomillo en maceta. Qué hacer: dejar secar, vaciar el plato, trasplantar a sustrato con grava y maceta con agujeros; si la mata está muy dañada, rehacerla con esquejes de tallos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores e interiores por exceso de agua o mal drenaje: es el síntoma principal del exceso de humedad en las aromáticas (Maryland). Comprobar el sustrato antes de volver a regar."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Si el sustrato está húmedo: exceso de riego o pudrición de raíz o cuello (Maryland: el exceso de agua da los mismos síntomas que la sequía). Con calor fuerte y muerte de ramas, posible marchitez por Sclerotium rolfsii (Maryland la muestra en tomillo; solo activa con calor). Si el sustrato está seco del todo en pleno verano en Madrid: falta de agua en maceta pequeña; regar a fondo."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre del cuello por exceso de riego o agua estancada en la base (Maryland), o por Sclerotium rolfsii con calor (Maryland). En plántulas de semilla, 'damping off' por exceso de riego (RHS). Retirar la planta si el cuello está blando y esquejar los tallos sanos; no reutilizar el sustrato."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Penn State, Maryland): punteado amarillento o blanquecino en las hojas, que acaban rojizas o pálidas; más frecuente con calor y aire seco (verano en terraza en Madrid, interior con calefacción). También las chicharritas de la salvia y la chicharrita ligur dan un moteado pálido, normalmente sin daño grave (RHS). Cortar los tallos más afectados y revisar las hojas con lupa."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Infestación avanzada de araña roja (Penn State la cita como plaga del tomillo): seda fina en las puntas de los brotes. [orientativo, sin fuente prioritaria] Al ser comestible, solo un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente en plantas aromáticas, respetando el plazo de seguridad de la etiqueta antes de cosechar; si la etiqueta no menciona aromáticas, no se usa."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Escarabajo del romero (Chrysolina americana): escarabajo metálico de 6-7 mm con rayas moradas y verdes, y larvas grisáceas; comen hojas y flores de romero, lavanda, salvia y tomillo de finales de verano a primavera, normalmente sin dañar la planta (RHS). Retirarlos a mano sacudiendo las ramas sobre un papel. Babosas y caracoles pueden comer los brotes jóvenes (RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos, sobre todo en plantas invernadas en interior (Maryland recomienda revisar la araña roja y el pulgón en las aromáticas invernadas dentro). Cortar los brotes afectados; cualquier fitosanitario debe cumplir el registro del MAPA para aromáticas y su plazo de seguridad."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de sol: en interior o en orientación norte se ahíla y pierde aroma; necesita 6 h o más de sol directo (NC State, Maryland). También se vuelve desgarbado si no se recorta (NC State, Oklahoma State). Moverlo al sitio más soleado y recortar ligeramente las puntas verdes."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es una planta autóctona de clima mediterráneo y soporta el sol y el calor de 35-40 °C a pleno sol (NC State: pleno sol, suelos secos, tolerante a la sequía). El problema en Madrid no es el calor sino la maceta pequeña a sur u oeste, que se seca muy rápido (RHS: regar las macetas con tiempo caluroso y seco): usar maceta de al menos 15 cm, mejor de barro, comprobar el sustrato cada día en olas de calor y regar solo cuando esté seco a 2-3 cm. No hace falta sombra. Es la época de la araña roja: revisar las hojas. Recorte ligero justo después de la floración (finales de junio-julio) sin entrar en la madera vieja (RHS). No abonar con calor extremo. Si se trata con cualquier producto, respetar el plazo de seguridad antes de cosechar.",
+    "invierno": "Mejor dejarlo fuera todo el año en terraza o balcón: aguanta las heladas habituales de Madrid (RHS H5, -15 a -10 °C en suelo; en maceta, referencia orientativa -5 °C), pero lo mata el encharcamiento con frío (Maryland, RHS). Ponerlo junto a una pared o bajo un alero, sin plato, con una capa de grava en la superficie, y regar casi nada. En olas de frío fuerte, arrimar la maceta a la pared o protegerla. Si se mete dentro, en la ventana más soleada y fresca de la casa, lejos de radiadores (Maryland: las casas con calefacción son demasiado calientes y secas para las aromáticas); con humedad interior por debajo del 30 % sufre de araña roja; regar solo con el sustrato seco y que las hojas no toquen un cristal frío (Oklahoma State).",
+    "ubicacion_recomendada": "Terraza o balcón a pleno sol (sur, oeste o este), con 6 h o más de sol directo, todo el año, en maceta de barro con agujeros y sustrato con grava. En interior solo de forma temporal, en alféizar de ventana sur o bajo lámpara de cultivo."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Thymus vulgaris L. (Lamiaceae), siguiendo Flora iberica 12 (Real Jardín Botánico, CSIC); nativo de España, Baleares, Francia e Italia. No se ha podido revisar la lista de sinónimos ni las subespecies en POWO (la página se leyó a través de un proxy y no mostró la pestaña de sinónimos). No hay cambio de nombre.",
+    "Missouri Botanical Garden Plant Finder y Wisconsin Horticulture: no se localizó ficha de Thymus vulgaris (el enlace probado de MBG correspondía a otra planta; Wisconsin devolvió 404).",
+    "Ninguna fuente prioritaria da la intensidad de luz en lux o fc; lux_min (10 760) sale de la escala del proyecto para luz directa y lux_max queda en null.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa (min_pct e ideal_pct en null).",
+    "No hay temperatura mínima específica en maceta ni temperatura máxima en las fuentes. min_c (-5 °C) es orientativo por criterio del proyecto (orégano, romero); -10 °C es el límite superior de RHS H5 para planta en suelo. El ideal de 15,5-21 °C es el de Oklahoma State para hierbas en interior en general.",
+    "Frecuencia de trasplante y cifras NPK: sin fuente prioritaria.",
+    "Los rasgos para separar T. vulgaris de T. zygis, T. mastichina, T. × citriodorus, romero, orégano y ajedrea no se han verificado en fuentes prioritarias (marcados como orientativos); no se consultó Flora iberica directamente.",
+    "No se ha comprobado en el Registro del MAPA qué productos de uso no profesional están autorizados en plantas aromáticas contra araña roja o pulgón.",
+    "Toxicidad humana: no se ha consultado una fuente toxicológica específica; 'no tóxica' para niños se basa en su uso como alimento. No se ha verificado en fuente prioritaria la toxicidad del aceite esencial de tomillo para mascotas."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/thymus-vulgaris/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox, 'Thymus vulgaris'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/herbs/thyme/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS), 'How to grow thyme'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/18213/wd/details",
+      "institucion": "Royal Horticultural Society (RHS), Plant Profile 'Thymus vulgaris' (H5)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.psu.edu/herb-garden-plants-thyme",
+      "institucion": "Penn State Extension, 'Herb Garden Plants: Thyme'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.umd.edu/resource/thyme",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center, 'Thyme' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.umd.edu/resource/herb-problems",
+      "institucion": "University of Maryland Extension, 'Herb problems' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.umd.edu/resource/care-herbs",
+      "institucion": "University of Maryland Extension, 'Care of herbs and starting herbs from seed' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://extension.okstate.edu/announcements/grow-gardening-columns/november-19-2023",
+      "institucion": "Oklahoma State University Extension, 'Herbs are easy to grow indoors in the winter' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/herbs/thyme/",
+      "institucion": "UF/IFAS Gardening Solutions, 'Thyme'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/thyme",
+      "institucion": "ASPCA Animal Poison Control Center, 'Thyme' (Thymus vulgaris)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:461765-1",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO), 'Thymus vulgaris L.' (aceptado; sigue Flora iberica 12, Real Jardín Botánico CSIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.rhs.org.uk/biodiversity/rosemary-beetle",
+      "institucion": "Royal Horticultural Society (RHS), 'Rosemary beetle'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

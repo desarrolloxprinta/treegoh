@@ -1,0 +1,329 @@
+{
+  "nombre_cientifico": "Stromanthe thalia",
+  "nombres_comunes": [
+    "stromanthe triostar",
+    "estromante",
+    "stromanthe tricolor",
+    "calathea triostar (nombre comercial incorrecto)"
+  ],
+  "familia": "Marantaceae",
+  "origen": "Brasil: regiones Nordeste, Sureste y Sur, en la selva atlántica (NC State). La RHS la da como originaria de Brasil.",
+  "clima_nativo": "Tropical y subtropical húmedo de sotobosque: sombra o luz filtrada bajo el dosel, calor sin heladas, humedad ambiental alta y suelo con materia orgánica siempre húmedo (NC State: 'rainforests of Brazil'; rusticidad USDA 10a-12b).",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas lanceoladas a elíptico-oblongas, alargadas y puntiagudas, brillantes, de 15-30 cm de largo (hasta 50 cm y 15 cm de ancho en ejemplares grandes; NC State; RHS: hasta 45 cm), de borde entero, sobre pecíolos largos. Haz verde oliva oscuro y envés burdeos o rojo vino (forma típica). En 'Triostar' el haz es verde oliva con manchas y franjas irregulares blancas, crema y rosadas, y el envés es rosa a burdeos, también con variegación rosa (NC State). Por la noche las hojas se levantan y se pliegan hacia arriba ('manos que rezan') y por la mañana bajan: es un movimiento nictinástico normal de la familia, no un síntoma (NC State, RHS).",
+    "nerviacion": "Nervio central marcado y nervios laterales finos, paralelos y oblicuos, típicos de marantácea. Pulvínulo (engrosamiento articulado) en la unión del pecíolo con la lámina, que es el que mueve la hoja día y noche. La variegación de 'Triostar' sigue a menudo la dirección de los nervios laterales en franjas.",
+    "variegacion": "En la especie tipo no hay variegación (verde oliva / burdeos). Los cultivares de interior la tienen: 'Triostar' (también vendido como 'Tristar' o 'Tricolor'): crema, blanco y rosa sobre verde oliva, envés rosa-magenta; 'Magic Star': blanco crema sobre verde con envés granate (NC State). La proporción de color varía entre hojas y es inestable: con poca luz las hojas nuevas salen más verdes y la variegación se reduce; con luz demasiado intensa o sol directo las zonas blancas y rosas, sin clorofila, se queman o blanquean primero [orientativo, sin fuente prioritaria para la pérdida por poca luz; la quemadura por sol la citan NC State y UF/IFAS].",
+    "tallo": "Sin tronco: rizomatosa, con tallos aéreos erguidos que ramifican y forman mata (NC State: 'rhizomatous, erect, clumping, branching'). Pecíolos largos, rojizos o rosados en 'Triostar'.",
+    "habito": "Perenne herbácea siempreverde, erguida y en mata densa (RHS: 'upright', 'bushy'). Inflorescencias en panícula de flores blancas diminutas con sépalos rojo-anaranjados y brácteas rojas, en invierno-primavera; rara vez florece en interior (NC State, RHS).",
+    "tamano_adulto_interior": "En maceta de interior suele quedarse en 60-90 cm de alto (NC State: 2-3 pies como planta de interior; UF/IFAS: 2-3 pies de alto y 1-2 de ancho). La RHS da para 'Triostar' 0,5-1 m de alto y de ancho en 2-5 años; la especie tipo puede llegar a 1-1,5 m (RHS) y 1,5 m al aire libre en clima tropical (NC State).",
+    "confusiones": [
+      {
+        "especie": "Ctenanthe oppenheimiana 'Tricolor' (ctenante tricolor)",
+        "rasgo_diferenciador": "Es la confusión más frecuente (NC State la cita como 'commonly confused with'). Ctenanthe oppenheimiana tiene hojas más estrechas y rígidas con bandas plateadas o crema dispuestas en espiga a lo largo de los nervios (dibujo regular en 'espina de pescado') y envés burdeos; en 'Triostar' la variegación es irregular, en manchas y franjas crema y rosa sin patrón repetido, y la hoja es más ancha y brillante. La floración (brácteas rojas en Stromanthe) los separa con seguridad, pero rara vez se ve en interior."
+      },
+      {
+        "especie": "Ctenanthe burle-marxii (planta espina de pescado)",
+        "rasgo_diferenciador": "Hojas mucho más cortas y anchas, verde grisáceo con bandas verde oscuro en espina de pescado, sin crema ni rosa; planta más baja (hasta unos 60 cm)."
+      },
+      {
+        "especie": "Goeppertia roseopicta, G. makoyana y otras 'Calathea'",
+        "rasgo_diferenciador": "Las Goeppertia forman roseta basal sin tallos aéreos ramificados y su dibujo es simétrico (plumas, óvalos o bandas plateadas o rosas regulares a ambos lados del nervio). 'Triostar' saca hojas sobre tallos aéreos que ramifican y su variegación es asimétrica e irregular. 'Calathea Triostar' es un nombre comercial erróneo (RHS lo registra como sinónimo comercial)."
+      },
+      {
+        "especie": "Maranta leuconeura (maranta, planta de la oración)",
+        "rasgo_diferenciador": "Maranta es de porte rastrero o colgante, hojas elípticas cortas (hasta unos 12 cm) con manchas oscuras entre nervios o nervios rojos; no tiene variegación crema-rosa ni el porte erguido y alto de Stromanthe."
+      },
+      {
+        "especie": "Cordyline fruticosa (cordiline) de hoja rosa",
+        "rasgo_diferenciador": "La cordiline forma un tallo leñoso con penacho de hojas en el extremo y hojas coriáceas sin pulvínulo ni movimiento nocturno; Stromanthe no tiene tronco, las hojas salen de tallos herbáceos desde el suelo y se pliegan de noche."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se conoce ningún principio tóxico. NC State Extension etiqueta la especie como 'pet friendly' (apta con mascotas). La ASPCA no tiene entrada para Stromanthe (comprobado en sus listas de perros y gatos), aunque clasifica como no tóxicas para perros y gatos a parientes de la misma familia (Calathea, Maranta, 'prayer plant'). Que no sea tóxica no significa que sea comestible: comer mucha hoja puede dar vómito o molestia digestiva leve y pasajera, como con cualquier materia vegetal. En niños no hay fuente fiable específica; ante una ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F3",
+      "F8",
+      "F9"
+    ],
+    "notas": "Perros y gatos: Media, porque solo hay una fuente prioritaria a nivel de especie (etiqueta 'pet friendly' de NC State) y el dato de familia de la ASPCA. Niños: ninguna fuente prioritaria ni de centro toxicológico evalúa la especie, se deja 'desconocida'. La app puede decir 'considerada no tóxica para perros y gatos', no 'segura para niños'."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1614,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este (sol suave de primera hora tras cortina) o norte muy luminosa; a 1,5-2 m de una ventana sur u oeste, o con cortina fina. La RHS indica orientación norte o este y luz brillante filtrada; en Madrid, con más radiación que en Reino Unido, la luz debe ser siempre tamizada.",
+      "tolera_sol_directo": "No. El sol directo quema la hoja: aparecen manchas marrones secas y las zonas crema y rosa se blanquean primero (NC State: 'direct sun can scorch the leaves'; UF/IFAS: demasiado sol quema las hojas y deja manchas marrones). Como mucho, sol muy suave de primera hora tras una cortina.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "RHS (especie y 'Triostar'): semisombra, luz brillante filtrada. NC State: sombra moteada o semisombra; su categoría 'partial shade (2-6 h de sol directo)' es una clase estándar de jardín al aire libre en EE. UU., y el mismo texto advierte que el sol directo quema: en interior se interpreta como luz brillante indirecta. UF/IFAS: sitio sombreado, el exceso de sol quema. lux_min = 150 fc (≈1614 lux): UF/IFAS RH-95-6 indica que 150 fc es el nivel mínimo recomendado en interiores para marantáceas como calatheas y stromanthes. lux_max = 1000 fc (≈10 760 lux), límite superior de brillante indirecta en la escala del proyecto [orientativo, sin fuente prioritaria]. Con poca luz la variegación crema-rosa se reduce en las hojas nuevas y la planta crece lenta y espigada [orientativo, sin fuente prioritaria]. Al ser variegada necesita más luz que una marantácea verde, pero nunca sol directo."
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo pero no encharcado (RHS y NC State: 'moist but well-drained'; NC State: no tolera el sustrato seco). Regar cuando los 2-3 cm superiores estén secos al tacto y la maceta pese claramente menos que recién regada, sin dejar que se seque el resto del cepellón. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos. Nunca por calendario.",
+      "primavera_verano": "Riego generoso con crecimiento activo (RHS: 'water freely when in growth'), siempre con el criterio de dedo y peso. En Madrid en verano una maceta mediana puede secarse en 2-4 días [orientativo, sin fuente prioritaria]: comprobar a menudo.",
+      "otono_invierno": "Riego moderado (RHS: 'water moderately in winter'): dejar secar un poco más la capa superior, pero sin dejar secar el cepellón. Con calefacción el sustrato se seca rápido; con frío y poca luz, despacio: decidir siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente, nunca fría. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y con fluoruro <0,1 mg/L: es apta y NO es la causa de las puntas marrones. Dejar reposar el agua no elimina la cloramina y tampoco hace falta. Las puntas marrones en esta planta se deben sobre todo al aire seco, al riego irregular (cepellón que se seca del todo) y a sales de abono acumuladas: lavar el sustrato con un riego abundante cada 2-3 meses [orientativo, sin fuente prioritaria]. Las guías de tiendas que piden agua destilada o de lluvia hablan de aguas duras, no del agua de Madrid.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Contradicción: UF/IFAS Gardening Solutions dice 'deja secar el sustrato entre riegos', mientras RHS y NC State piden sustrato húmedo de forma constante y NC State la califica de 'drought intolerant'. Se adopta la opción más conservadora para la planta: secar solo los 2-3 cm superiores, no todo el cepellón; la pudrición de raíz y tallo por exceso de riego (NC State) se evita con buen drenaje y vaciando el plato, no dejando secar del todo. Sensibilidad a la sequía 'alta' (NC State: no tolera el sustrato seco); sensibilidad al exceso 'alta' (NC State: pudrición de raíz y tallo por exceso de riego). Hojas enrolladas de día y lacias = falta de agua o aire seco; hojas amarillas con sustrato mojado = exceso."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Las cuatro fuentes prioritarias coinciden en que necesita humedad alta (RHS: 'maintain high humidity'; NC State: 'thrives in high humidity', recomienda humidificador; UF/IFAS: 'high humidity it craves'). Es de las marantáceas más exigentes en humedad. Las cifras 50 % mínimo y 60 % ideal son [orientativo, sin fuente prioritaria]. UF/IFAS sugiere pulverizar, pero según el criterio del proyecto pulverizar las hojas no sube la humedad de forma útil: usar humidificador, agrupar plantas o un baño luminoso. La bandeja con grava húmeda (NC State) tiene un efecto pequeño. Con HR por debajo del 40 % aparecen puntas y bordes secos y las hojas se enrollan de día."
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 29,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Ninguna fuente prioritaria da una cifra de temperatura para interior. RHS: rusticidad H1B (mínimo 10-15 °C, solo puede estar fuera en verano en Reino Unido). NC State: 'prefiere temperaturas cálidas', USDA 10a-12b (sin heladas). UF/IFAS: anual en el norte de Florida. Se toma min_c = 16 °C, el valor más alto y conservador: el límite superior del rango H1B de la RHS (15 °C) redondeado al alza con el umbral de 60 °F (15,6 °C) que dan guías complementarias de cultivo, y coherente con el resto de marantáceas del proyecto (Goeppertia orbifolia/roseopicta/zebrina/lancifolia y Ctenanthe 16 °C) [orientativo, sin fuente prioritaria para la cifra exacta]. max_c 29 °C e ideal 18-27 °C [orientativo, sin fuente prioritaria; guías de cultivo dan 65-80 °F, 18-27 °C]. Evitar corrientes frías, cristales fríos y cambios bruscos; por encima de 29 °C con aire seco se queman puntas y bordes."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato rico en materia orgánica que retenga humedad y drene bien (NC State). RHS: compost de cultivo sin turba de base franca (loam). Mezcla práctica: 2 partes de sustrato universal de calidad + 1 de perlita + 1 de corteza fina [orientativo, sin fuente prioritaria]. Maceta siempre con agujero de drenaje.",
+      "ph": "Ácido a neutro (RHS: 'acid, neutral'); NC State da neutro 6,0-8,0. Se adopta el solapamiento: 6,0-7,0.",
+      "drenaje": "Bueno: húmedo pero bien drenado (RHS, NC State). Nunca dejar la maceta en un plato con agua: el encharcamiento pudre raíz y tallo (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, bajo en nitrógeno (RHS: 'low nitrogen liquid fertiliser'), para no apagar la variegación y no acumular sales.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (si saca hojas nuevas). La RHS indica cada 2-3 semanas en invernadero; se adopta el criterio más prudente del proyecto (dosis reducida, mensual) porque el exceso de sales quema las puntas en marantáceas.",
+      "otono_invierno": "Nada. Sin crecimiento activo no se abona.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ],
+      "notas": "Solo la RHS (dos fichas: especie y 'Triostar') da pauta de abonado, por eso Media. No hay NPK concreto en fuentes prioritarias. UF/IFAS RH-95-6 (Ctenanthe, pariente cercano) observó más manchas necróticas en interior cuanto más abono se daba en producción. No abonar en el mes siguiente a un trasplante ni con raíces dañadas [orientativo, sin fuente prioritaria]."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años, o cuando las raíces llenen la maceta [orientativo, sin fuente prioritaria]. Subir solo 2-4 cm de diámetro: una maceta demasiado grande retiene agua y favorece la pudrición.",
+      "epoca": "Primavera, coincidiendo con la división (RHS y NC State sitúan la división en primavera, antes de que empiece el crecimiento). En Madrid, de marzo a mayo; en hemisferio sur, de septiembre a noviembre.",
+      "senales": "Raíces saliendo por el drenaje o en espiral, rizomas apretados contra el borde, el agua atraviesa la maceta sin empapar, la planta se seca en muy pocos días o deja de sacar hojas en temporada.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No requiere poda (RHS: 'no pruning required'). Solo limpieza.",
+      "epoca": "Cuando haga falta, todo el año.",
+      "como": "Cortar en la base del pecíolo las hojas secas, quemadas o muy dañadas con tijera limpia y afilada. Las hojas que vuelven totalmente verdes no se revierten, pero no hace falta cortarlas. Limpiar el polvo con un paño húmedo, sin abrillantadores [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (en Madrid, de noviembre a febrero aprox.; en hemisferio sur, de mayo a agosto). No es un reposo estricto, sino una ralentización por menos luz y temperatura.",
+      "cambios": "Riego moderado en invierno (RHS), sin dejar secar el cepellón; suspender el abono; mantener por encima de 16 °C, lejos de radiadores y cristales fríos, y mantener la humedad alta, que es cuando más baja en casa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata (rizomas)",
+        "semilla (solo especie tipo; los cultivares variegados no se reproducen fieles)"
+      ],
+      "epoca": "Primavera, antes de que empiece el crecimiento nuevo (NC State, RHS). La RHS añade como alternativa dividir tras la floración para dañar menos las raíces.",
+      "pasos": "1) Regar el día antes. 2) Sacar la planta de la maceta y retirar el sustrato sobrante. 3) Separar con la mano o con un cuchillo limpio porciones con al menos 2-3 tallos y raíces y rizoma propios [orientativo, sin fuente prioritaria]. 4) Plantar cada porción a la misma profundidad en maceta pequeña con sustrato húmedo y drenante. 5) Mantener con luz indirecta, 20-24 °C y humedad alta (agrupar con otras plantas o humidificador) hasta que salgan hojas nuevas [orientativo, sin fuente prioritaria]. 6) No abonar durante el primer mes. 'Triostar' es un cultivar con obtención vegetal protegida (PBR, según la RHS): su propagación para venta está restringida; la división para uso propio no.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones: el problema más típico. Causa: aire seco (HR <40 %, calefacción en invierno o verano madrileño), cepellón que se seca del todo entre riegos o sales de abono acumuladas. En Madrid no se debe al cloro, la cloramina ni el flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones y secos por aire seco y riego irregular; también por exceso de abono o por calor junto a radiadores."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas a lo largo del nervio durante el día: falta de agua o aire muy seco. No confundir con el plegado nocturno normal (nictinastia): si las hojas se levantan y pliegan al anochecer y se abren por la mañana, no es un problema."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura o blanqueo por sol directo (NC State, UF/IFAS): las zonas crema y rosa, sin clorofila, se quedan marrones o transparentes primero. Típico en ventanas sur u oeste de Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones secas en la lámina por sol directo (UF/IFAS: 'unsightly brown splotches'), sobre todo en las zonas variegadas; en marantáceas también por poca luz interior (<150 fc) y mucho abono (UF/IFAS RH-95-6)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Pérdida de variegación crema y rosa (hojas nuevas casi verdes) por luz insuficiente o exceso de nitrógeno; la RHS recomienda abono bajo en nitrógeno."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, la plaga principal de la especie (RHS: 'glasshouse red spider mite'; NC State: spider mites), favorecida por el aire seco y caliente."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado fino amarillento o plateado en el haz por araña roja (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de hojas y vainas de los pecíolos (NC State: mealybugs)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y hojas jóvenes (NC State: aphids)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego, maceta sin drenaje o plato con agua (NC State: 'root and stem rot can occur from overwatering')."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de la base de los tallos por exceso de riego (NC State: 'stem rot'), sobre todo en invierno con frío y sustrato encharcado."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por sustrato seco (no tolera la sequía, NC State) o, si el sustrato está mojado, por raíces podridas."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores por exceso de riego o por frío; también envejecimiento normal de alguna hoja basal."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Hojas que se secan o caen tras la compra o un cambio de sitio: llega de vivero con humedad muy alta y sufre el aire seco del piso. Mantener luz indirecta, humedad y riego constantes y no abonar durante semanas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y HR exterior ≈38 % en julio, el riesgo es doble: deshidratación (puntas secas, hojas enrolladas de día) y quemadura de las zonas crema-rosa. Retirarla de ventanas sur y oeste o protegerla con cortina; mantenerla por debajo de 29 °C y lejos del chorro del aire acondicionado. Comprobar el sustrato con el dedo y el peso cada 1-2 días: puede pedir agua cada 2-4 días. Subir la humedad con humidificador o agrupando plantas (pulverizar no sirve). No sacarla al balcón ni a la terraza: el aire exterior es demasiado seco y el sol demasiado fuerte. Vigilar la araña roja en el envés.",
+    "invierno": "La calefacción baja la HR interior a menudo por debajo del 30 %: es la época de más puntas marrones y araña roja. Humidificador con objetivo ≥50 %, y alejarla al menos 1,5 m de radiadores y de cristales fríos (no tolera menos de 16 °C ni corrientes frías). Con menos luz, acercarla a la ventana más luminosa sin sol directo para no perder variegación. Sin abono. Riego moderado: solo cuando los 2-3 cm superiores estén secos y la maceta pese poco, sin dejar secar el cepellón; con calefacción fuerte puede seguir necesitando riego semanal, con habitación fresca mucho menos: siempre dedo y peso.",
+    "ubicacion_recomendada": "Salón, dormitorio o baño luminoso, junto a una ventana este u orientada al norte muy clara, o a 1,5-2 m de una ventana sur u oeste con cortina. Lejos de radiadores, aire acondicionado, puertas a la calle y cristales fríos. Agrupada con otras plantas o cerca de un humidificador."
+  },
+  "lagunas": [
+    "Nombre: IPNI registra Stromanthe thalia (Vell.) J.M.A.Braga, Eugeniana (1995), basiónimo Heliconia thalia Vell.; Catalogue of Life la da como aceptada y Stromanthe sanguinea (Reider) Sond. como sinónimo. NC State cita también S. spectabilis como sinónimo. La RHS sigue usando S. sanguinea. No se pudo abrir POWO (bloqueo de Cloudflare) para confirmar el estado aceptado.",
+    "Temperatura: ninguna fuente prioritaria da una cifra para interior (solo rusticidad RHS H1B, 10-15 °C, y USDA 10a-12b). min_c 16 °C, max_c 29 °C e ideal 18-27 °C son orientativos y alineados con las demás marantáceas del proyecto.",
+    "Humedad: las fuentes prioritarias dicen 'alta' sin cifra; 50/60 % son orientativos.",
+    "Toxicidad: sin entrada en ASPCA para Stromanthe; solo la etiqueta 'pet friendly' de NC State a nivel de especie. Niños: sin fuente prioritaria, 'desconocida'.",
+    "Pérdida de variegación por poca luz y relación entre intensidad de luz y color rosa: no documentadas en fuentes prioritarias abiertas.",
+    "Abonado: sin NPK concreto en fuentes prioritarias; solo la RHS indica abono bajo en nitrógeno.",
+    "Lux concretos: solo el mínimo de 150 fc para stromanthes (UF/IFAS RH-95-6); el máximo procede de la escala del proyecto."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/Plants/17841/wd/Details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Stromanthe sanguinea (bloody stromanthe)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/132895/stromanthe-sanguinea-triostar-v/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Stromanthe sanguinea 'Triostar' PBR (v)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/stromanthe-thalia/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox: Stromanthe thalia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/triostar-stromanthe/",
+      "institucion": "UF/IFAS Extension – Gardening Solutions: Triostar Stromanthe",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://web.archive.org/web/2020/https://mrec.ifas.ufl.edu/foliage/resrpts/rh_95_6.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center – Research Report RH-95-6 (C.A. Conover), Ctenanthe 'Loursii': nivel mínimo de 150 fc para calatheas y stromanthes en interior (copia archivada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.ipni.org/api/1/search?q=Stromanthe%20thalia",
+      "institucion": "International Plant Names Index (IPNI) – Royal Botanic Gardens, Kew / Harvard / ANBG: Stromanthe thalia (Vell.) J.M.A.Braga",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://api.checklistbank.org/dataset/3LR/nameusage/search?q=Stromanthe%20sanguinea",
+      "institucion": "Catalogue of Life (ChecklistBank) – S. sanguinea como sinónimo de S. thalia",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, lista para gatos (sin entrada para Stromanthe; Calathea, Maranta y prayer plant como no tóxicas)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants, lista para perros (sin entrada para Stromanthe)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

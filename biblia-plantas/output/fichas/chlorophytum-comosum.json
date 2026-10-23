@@ -1,0 +1,338 @@
+{
+  "nombre_cientifico": "Chlorophytum comosum",
+  "nombres_comunes": [
+    "cinta",
+    "malamadre",
+    "lazo de amor",
+    "planta araña"
+  ],
+  "familia": "Asparagaceae",
+  "origen": "África tropical y meridional. POWO (Kew) la da como nativa de África occidental (Sierra Leona, Liberia, Costa de Marfil, Nigeria, Camerún), África oriental (Etiopía, Sudán, Kenia, Uganda, Tanzania) y África austral (Zambia, Zimbabue, Malaui, Mozambique, Esuatini y Sudáfrica: Provincias del Cabo, KwaZulu-Natal, Provincias del Norte). Naturalizada en Canarias, Madeira, Túnez, Alemania y otras zonas.",
+  "clima_nativo": "Sotobosque de valles fluviales boscosos, matorrales, taludes y acantilados, desde el nivel del mar hasta más de 1000 m (SANBI). En Sudáfrica: lluvia anual de 500-2000 mm, concentrada en primavera-verano; inviernos de templados a frescos con heladas, si las hay, débiles. Suelos de origen diverso, normalmente algo ácidos. Las raíces carnosas le permiten aguantar la sequía invernal.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas lineares a linear-lanceoladas, sésiles, en roseta basal densa, con aspecto de hierba ancha. Miden unos 30-45 cm de largo (NC State: hasta 12-18 in; SANBI: unos 300 mm) y hasta 2 cm de ancho. No son planas: llevan un surco o canal marcado a lo largo del nervio central (NC State, Univ. Wisconsin, SANBI). Lisas, sin pelos, de margen entero, envainadoras en la base y con la punta blanda. Se arquean y cuelgan.",
+    "nerviacion": "Paralela, típica de monocotiledónea: 12-15 nervios longitudinales y un nervio central prominente hundido en un surco (NC State, SANBI).",
+    "variegacion": "Puede ser verde entera (menos frecuente en cultivo, según UF/IFAS) o con bandas longitudinales blancas, crema o amarillas. Cultivares habituales (NC State, Univ. Wisconsin, Clemson, SANBI): 'Vittatum', el más común, con una banda central ancha blanco-crema; 'Variegatum', con márgenes blancos o crema y centro verde; 'Milky Way', con centro ancho blanco y bordes verdes; 'Picturatum' y 'Mandaianum', con banda central amarilla; 'Bonnie', con hojas rizadas y retorcidas; 'Hawaiian', cuya variegación de las hojas nuevas se pierde con la edad; 'White Stripe', con una línea blanca estrecha en el nervio central que también se pierde al envejecer la hoja.",
+    "tallo": "Sin tallo visible: las hojas salen de un tallo muy corto y comprimido sobre un rizoma, a menudo cubierto de bases de hojas viejas (NC State, SANBI). Bajo el sustrato hay raíces gruesas, carnosas y fusiformes, de hasta 1 cm de diámetro, que almacenan agua (SANBI, Univ. Wisconsin). El rasgo más característico son los estolones: tallos florales largos (hasta 60 cm o más), finos y arqueados, verdes, o crema-amarillentos en 'White Stripe'. Llevan flores pequeñas blancas en estrella de 6 tépalos y, después, plantitas (hijuelos) con hojas en los extremos y en los nudos.",
+    "habito": "Herbácea perenne, perennifolia, que forma macolla en roseta. Crecimiento rápido, porte arqueado y colgante; muy usada en cestas colgantes, donde los estolones con hijuelos cuelgan por fuera de la maceta (Clemson, Univ. Wisconsin, NC State).",
+    "tamano_adulto_interior": "30-45 cm de alto y 30-75 cm de ancho (NC State: 30-45 cm × 30-60 cm; Univ. Wisconsin: 30-38 cm de alto; Clemson: 60-75 cm de ancho). En cesta colgante, los estolones con hijuelos pueden colgar 60-90 cm (Clemson).",
+    "confusiones": [
+      {
+        "especie": "Chlorophytum laxum (incl. formas comercializadas como C. bichetii)",
+        "rasgo_diferenciador": "NC State la cita como confusión frecuente. Es más pequeña, de hojas más estrechas y cortas. El rasgo práctico para la IA es la ausencia de estolones largos y colgantes cargados de hijuelos, que sí presenta C. comosum. Confirmar la ausencia de estolones con más de una foto."
+      },
+      {
+        "especie": "Liriope muscari (liriope)",
+        "rasgo_diferenciador": "NC State la cita como confusión frecuente. Planta de exterior, de hojas más duras y oscuras, sin surco central marcado ni bandas blancas centrales típicas. Echa espigas florales erguidas de flores violetas o lilas, no estolones arqueados con plantitas."
+      },
+      {
+        "especie": "Ophiopogon spp. (p. ej. Ophiopogon intermedius)",
+        "rasgo_diferenciador": "NC State la cita como confusión frecuente. Hojas más estrechas y rígidas, como de césped, con flores en racimos cortos junto al follaje. Nunca forma estolones con hijuelos aéreos."
+      },
+      {
+        "especie": "Dracaena (Sansevieria) y otras plantas de hoja acintada con banda blanca",
+        "rasgo_diferenciador": "C. comosum se distingue por la combinación de hoja blanda, arqueada, sin tallo leñoso y con canal central, más estolones con plantitas. Si hay estolones con hijuelos, la identificación es casi segura (SANBI: rasgo diagnóstico de la especie)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos (ASPCA: 'Non-Toxic to Dogs, Non-Toxic to Cats'; NC State: no tóxica para perros, gatos y caballos). En personas, el Centro de Toxicología de The University of Kansas Health System la clasifica como no tóxica, sin registro conocido de toxicidad. Que no sea tóxica no significa que sea comestible: si un animal o un niño come mucha hoja, puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. Ante cualquier duda, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F11",
+      "F12"
+    ],
+    "notas": "Perros y gatos: confianza Alta (ASPCA y NC State coinciden). Niños: solo hay fuentes complementarias (un centro de toxicología hospitalario y una nota de prensa de la Univ. de Wisconsin-Madison que cita a su servicio de extensión). Coinciden, pero para personas la confianza es Media. No se encontró principio activo tóxico en ninguna fuente."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10764,
+      "orientacion_hn": "Junto a una ventana este o norte luminosa. En ventana sur u oeste, a 1-2 m del cristal o tras un visillo, para que no le dé el sol directo del mediodía ni el de la tarde.",
+      "tolera_sol_directo": "Solo sol suave, de primera hora de la mañana o de invierno. Clemson admite algo de sol directo, pero avisa de que el sol del mediodía quema las hojas. NC State la describe como intolerante al sol directo, y Univ. Wisconsin advierte de quemaduras a pleno sol en exterior.",
+      "notas": "Escala del proyecto: 100-1000 fc (≈1076-10764 lux), de luz media a brillante indirecta. Univ. Wisconsin: luz media a brillante todo el año. Clemson: luz brillante indirecta. UF/IFAS: luz indirecta de brillante a moderada. NC State: prefiere luz media y tolera sombra profunda, pero con poca luz crece menos y la variegación se apaga (Oklahoma State cita la poca luz entre las causas de puntas marrones). Discrepancia menor sobre el sol directo: Clemson tolera algo, NC State nada. Se adopta lo más prudente, sin sol directo salvo el suave de la mañana. Hijuelos: los estolones se forman con días cortos y noches largas sin interrupción (menos de 12 h de luz al día durante al menos 3 semanas; NC State, Univ. Wisconsin). Si se quieren hijuelos, no dejarla en un salón con luz artificial encendida hasta tarde en otoño.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F1",
+        "F10"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos. UF/IFAS indica dejar secar brevemente los 2,5 cm superiores; Univ. Wisconsin y Clemson, dejar que se seque ligeramente entre riegos. Regar a fondo hasta que salga agua por los agujeros de drenaje y tirar el agua sobrante del plato a los 15-30 minutos. No regar por calendario. Comprobar el sustrato a menudo; Clemson aconseja mirarlo a diario en temporada de crecimiento, sin que eso signifique regar a diario.",
+      "primavera_verano": "Con crecimiento activo y calor, el sustrato se seca antes. Comprobarlo cada 2-4 días y regar a fondo en cuanto los 2-3 cm superiores estén secos. Le gusta un sustrato húmedo pero no encharcado (NC State).",
+      "otono_invierno": "Reducir el riego (NC State). Dejar secar algo más, 3-5 cm o un tercio de la maceta, antes de volver a regar, sobre todo si la habitación está a menos de 18 °C. Con calefacción fuerte el sustrato se seca más deprisa: comprobar con el dedo y el peso, no por costumbre.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Sirve el agua del grifo de Madrid. Varias fuentes estadounidenses atribuyen las puntas marrones al flúor o al cloro del agua (UF/IFAS, Univ. Wisconsin, NC State, Oklahoma State), pero el agua de Madrid (Canal de Isabel II) tiene menos de 0,1 mg/L de fluoruro y está desinfectada con cloramina, que no se va dejándola reposar. Por eso no tiene sentido dejarla 24 h al aire, como recomienda SDSU. En Madrid, las puntas marrones se deben sobre todo a sales de abono acumuladas, riego irregular y aire seco. Para evitarlo: cada 2-3 meses en primavera-verano, regar con abundante agua para lavar el sustrato, dejando que escurra bien, y no abonar en exceso. Si se quiere, el agua de lluvia o destilada también vale.",
+      "notas": "Las raíces carnosas y tuberosas almacenan agua y le permiten aguantar riegos irregulares (Univ. Wisconsin, SANBI), así que una sequía ocasional se tolera mejor que el encharcamiento. El exceso de riego o un sustrato que drena mal provocan podredumbre de raíz (Univ. Wisconsin, Clemson, SDSU). La pauta de SDSU de 'una vez por semana' no se adopta, porque es un riego por calendario.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F1",
+        "F7",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes solo dicen 'humedad media' o 'normal' (NC State, Univ. Wisconsin, SDSU) sin dar porcentajes. La humedad baja es una de las causas citadas de puntas marrones (Univ. Wisconsin, Clemson, SDSU). Para subirla, usar humidificador o agrupar plantas. Pulverizar las hojas no sirve. NC State propone también una bandeja con guijarros y agua; si se usa, la base de la maceta no debe quedar en contacto con el agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 27,
+      "ideal_min_c": 13,
+      "ideal_max_c": 24,
+      "notas": "Clemson y SDSU: 18-24 °C de día y 10-13 °C de noche. UF/IFAS: por debajo de 13 °C hace demasiado frío y por encima de 27 °C, demasiado calor. RHS: idealmente por encima de 10 °C; rusticidad H2, es decir, aguanta algo de frío sin helarse (1-5 °C), pero no la helada. NC State: mantenerla por encima de 7 °C. Discrepancia en el mínimo (NC State 7 °C, RHS y Clemson 10 °C, UF/IFAS 13 °C): se adopta 10 °C como mínimo seguro, con 13 °C como límite inferior del rango ideal. Por encima de 27 °C sobrevive, pero sufre; Madrid supera esa cifra en verano, ver ajustes_madrid. En invierno, separarla un poco de ventanas y corrientes frías (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F1",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad para plantas de interior, con buen drenaje (Clemson, Univ. Wisconsin, SDSU). Opcional: añadir un 20-30 % de perlita para airear y drenar mejor. Maceta siempre con agujeros de drenaje.",
+      "ph": "6,0-8,0 (de neutro a ligeramente ácido o alcalino; NC State). RHS la da como tolerante a pH ácido, neutro y alcalino.",
+      "drenaje": "Bueno. Un sustrato que drena mal, junto con el exceso de riego, es la causa de la podredumbre de raíz (Clemson, Univ. Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1",
+        "F5",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble para plantas de hoja verde, o abono de liberación lenta para interior (Clemson).",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes. Univ. Wisconsin considera suficiente abonar cada 3-4 meses, o algo más a menudo a media dosis. Pasarse de abono hace que forme menos hijuelos (Univ. Wisconsin, NC State) y quema las puntas (Univ. Wisconsin, Clemson, Oklahoma State).",
+      "otono_invierno": "No abonar.",
+      "notas": "Tras un trasplante, esperar 4-6 meses antes de volver a abonar (Clemson, SDSU). Si las puntas se ponen marrones, revisar primero el exceso de abono y lavar el sustrato con agua abundante.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F7",
+        "F1",
+        "F10"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Ejemplares jóvenes, una vez al año; adultos, cada 2 años (UF/IFAS). RHS recomienda trasplantar y dividir cada 2-3 años, o sustituirla por un hijuelo. Crece rápido y llena la maceta de raíces enseguida (Univ. Wisconsin). Forma más hijuelos si está algo apretada en su maceta (Univ. Wisconsin, SDSU), pero hay que trasplantarla antes de que las raíces la deformen o la rajen (Clemson, SDSU).",
+      "epoca": "Cualquier época del año (Clemson). Si se puede elegir, al inicio de la primavera, cuando empieza el crecimiento activo.",
+      "senales": "Raíces gruesas y blancas que asoman por los agujeros de drenaje o sobre el sustrato; maceta deformada o agrietada por las raíces tuberosas; el agua de riego sale enseguida sin empapar el sustrato; la planta se seca en muy pocos días.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F3",
+        "F2",
+        "F7"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Solo limpieza.",
+      "epoca": "Cuando haga falta; los estolones, después de la floración.",
+      "como": "Cortar los tallos florales (estolones) cuando acaben de florecer si no se quieren hijuelos (RHS). Retirar desde la base las hojas secas o amarillas. Las puntas marrones se pueden recortar con tijera limpia siguiendo la forma de la hoja, por estética, dejando un hilo de tejido seco para no herir el tejido sano. Recortarlas no corrige la causa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene un reposo verdadero; es perennifolia y puede florecer en cualquier época en interior (Univ. Wisconsin, NC State). En otoño-invierno, con menos luz y temperatura, el crecimiento se frena: reducir el riego (NC State) y no abonar. Los días cortos de otoño estimulan la formación de estolones e hijuelos (Clemson, NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos (plantitas de los estolones)",
+        "división de mata",
+        "semilla"
+      ],
+      "epoca": "Cualquier época del año (Clemson). Lo más rápido es con crecimiento activo, en primavera-verano. Los hijuelos abundan sobre todo en otoño, con días cortos (Clemson).",
+      "pasos": "Hijuelo sin cortar (el método más seguro, según Univ. Wisconsin): 1) apoyar el hijuelo, todavía unido a la madre, sobre una maceta pequeña con sustrato húmedo; 2) sujetarlo con un clip abierto o un alambre para que toque el sustrato; 3) mantener el sustrato ligeramente húmedo; 4) cuando haya enraizado, en unas semanas, cortar el estolón que lo une a la madre. Hijuelo suelto: separar uno que ya tenga raíces y plantarlo directamente en sustrato húmedo (Clemson, SDSU), o dejarlo un par de semanas en agua hasta que eche más raíz y luego pasarlo a sustrato (SDSU). División: al trasplantar, separar la mata en trozos que tengan hojas y raíces tuberosas, y plantarlos por separado. Semilla: posible, pero las plántulas no conservan necesariamente la variegación de la madre (Univ. Wisconsin). SANBI indica germinación en unas 3 semanas en primavera-verano, en sustrato arenoso algo ácido y húmedo, a la sombra.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F7",
+        "F5",
+        "F9",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Es el problema más típico de esta especie. Causas: sales de abono acumuladas o exceso de abono, sustrato que se seca demasiado o riego irregular, y aire seco (Univ. Wisconsin, Clemson, SDSU, Oklahoma State). Las fuentes estadounidenses citan además el flúor y el cloro del agua; en Madrid no aplica (fluoruro <0,1 mg/L). Revisar el abonado, lavar el sustrato y regularizar el riego."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato que drena mal (Univ. Wisconsin, Clemson, SDSU). Las raíces tuberosas almacenan agua, así que es más frecuente regar de más que de menos."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo: es la plaga más citada en esta especie (Univ. Wisconsin, Clemson, SDSU, RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Univ. Wisconsin, SDSU). Revisar la base de las hojas, en el centro de la roseta."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Clemson, Oklahoma State). Más frecuente con aire seco y calor, en verano o con calefacción."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón (Clemson), sobre todo en estolones tiernos y flores."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de mediodía o de tarde (Clemson), o paso brusco a pleno sol en exterior (Univ. Wisconsin). Típico en ventanas sur y oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "En 'Hawaiian' y 'White Stripe' la variegación se pierde con la edad de la hoja, y es normal (NC State, Univ. Wisconsin). Las plantas nacidas de semilla pueden salir sin variegación (Univ. Wisconsin). Si toda la planta se vuelve verde, puede faltarle luz."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C, la casa supera a menudo los 27 °C, el límite que UF/IFAS da como demasiado calor. Apartarla de ventanas sur y oeste, o protegerla con visillo, para que no le dé el sol de mediodía ni el de tarde, que quema las hojas (Clemson). El sustrato se seca mucho más rápido: comprobarlo con el dedo y el peso cada 2-3 días y regar a fondo al secarse los 2-3 cm superiores, sin dejar agua en el plato. Con aire exterior muy seco (≈38 % de HR en julio) y aire acondicionado, aumenta el riesgo de puntas marrones y de araña roja: agrupar plantas o usar humidificador y revisar el envés de las hojas. Si se saca a terraza o balcón, ponerla a la sombra, nunca a pleno sol.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %, lo que da puntas marrones. Mantenerla lejos de radiadores y salidas de aire caliente, y usar humidificador o agrupar plantas (pulverizar no sirve). Separarla un poco de cristales fríos y corrientes junto a la ventana (Clemson) y no dejarla nunca por debajo de 10 °C (RHS); no pasarla al exterior en invierno, porque las heladas de Madrid la matan (RHS H2). Reducir el riego y no abonar. Los días cortos de otoño-invierno favorecen los estolones con hijuelos si por la noche no tiene luz artificial.",
+    "ubicacion_recomendada": "En cesta colgante o en estante alto junto a una ventana este o norte luminosa, o a 1-2 m de una ventana sur u oeste con visillo. Lejos de radiadores y del chorro del aire acondicionado. Es apta para casas con perros, gatos y niños (no tóxica)."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) confirma Chlorophytum comosum (Thunb.) Jacques como nombre aceptado, de la familia Asparagaceae, con el basiónimo Anthericum comosum Thunb. No hay cambio de nombre. RHS cita además el sinónimo Chlorophytum sternbergianum. Oklahoma State y ASPCA aún usan la familia Liliaceae, ya obsoleta.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales ('humedad media'); min_pct e ideal_pct se dejan en null.",
+    "Abono: ninguna fuente prioritaria abierta da una proporción NPK para el cultivo doméstico; npk se deja en null. La guía de producción de UF/IFAS (CFREC-Apopka, ratio 3-1-2) solo apareció en un resumen del buscador y su URL devuelve 404, así que no se cita.",
+    "Luz en lux o fc: ninguna fuente da cifras para esta especie. lux_min y lux_max se toman de la escala del proyecto (luz media a brillante indirecta, 100-1000 fc), aplicando las categorías cualitativas de las fuentes.",
+    "Toxicidad en personas: no se pudo abrir ninguna fuente prioritaria. La hoja de Univ. Nebraska-Lincoln (031 ToxicityHouseplants) devuelve 404 o bloqueo. Se apoya en dos fuentes complementarias coherentes (centro de toxicología de The University of Kansas Health System y nota de prensa de UW-Madison).",
+    "Missouri Botanical Garden Plant Finder: bloqueó el acceso (error 500/WAF) y no se encontró la ficha de la especie; no se cita.",
+    "Poda: solo RHS habla de cortar los estolones tras la floración; el recorte estético de puntas secas no lo respalda ninguna fuente prioritaria."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+      "institucion": "University of Wisconsin-Madison Division of Extension – Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/spider-plant/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/spider-plant/",
+      "institucion": "UF/IFAS Extension – Gardening Solutions (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/3761/spider-plant/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Chlorophytum comosum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.sdstate.edu/spider-plants-houseplant-how",
+      "institucion": "South Dakota State University (SDSU) Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:532810-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://pza.sanbi.org/node/9915",
+      "institucion": "South African National Biodiversity Institute (SANBI) – PlantZAfrica, Kirstenbosch National Botanical Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://extension.okstate.edu/programs/plant-id/plant-profiles/spider-plant",
+      "institucion": "Oklahoma State University Extension – Plant ID",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.kansashealthsystem.com/care/centers/poison-control-center/poisonous-plants/spider-plant",
+      "institucion": "The University of Kansas Health System – Poison Control Center",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://clipsheet.strategiccommunication.wisc.edu/?p=220901",
+      "institucion": "University of Wisconsin-Madison Strategic Communication – Clipsheet (nota de prensa)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,329 @@
+{
+  "nombre_cientifico": "Adenium obesum",
+  "nombres_comunes": [
+    "rosa del desierto",
+    "adenio",
+    "adenium"
+  ],
+  "familia": "Apocynaceae (familia de la adelfa). Comparte con la adelfa (Nerium oleander) la savia con glucósidos cardiotónicos (Univ. Arizona).",
+  "origen": "Regiones áridas de África y de la península arábiga (NC State, Oregon State). UF/IFAS lo sitúa en el África subsahariana. Univ. Arizona precisa que A. obesum tiene un área natural amplia por África central y que las adenias en conjunto se reparten por las zonas áridas de África y el sur de Arabia. La distribución nativa detallada de POWO no se pudo abrir (véase lagunas).",
+  "clima_nativo": "Tropical seco o semiárido, cálido, con una estación seca larga en la que la planta entra en reposo y pierde las hojas (Univ. Arizona, Oregon State). Tolera muy poco el frío y nada las heladas (Univ. Arizona, UF/IFAS).",
+  "categoria": "suculenta",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas simples, enteras (sin dientes), de oblanceoladas a espatuladas u obovadas: más anchas hacia la punta y estrechadas en un pecíolo corto. Miden unos 5-15 cm de largo (Oregon State; NC State da 5-10 cm en el texto y 7,5-15 cm en la ficha técnica) y 2,5-7,5 cm de ancho (NC State). Son coriáceas y algo carnosas, verde oscuro y brillantes por el haz (UF/IFAS), aunque pueden ser verde grisáceas (NC State), sin pelos. Se agrupan en espiral apretada en la punta de las ramas, con el resto de la rama desnudo (Oregon State, NC State). Univ. Arizona aclara que las hojas no son suculentas. Caen en otoño-invierno cuando la planta entra en reposo, lo cual es normal (UF/IFAS, Univ. Arizona).",
+    "nerviacion": "Pinnada, con nervio central visible y nervios secundarios poco marcados. Univ. Arizona señala que algunas adenias tienen nervios blancos muy marcados, casi como una variegación.",
+    "variegacion": "La especie tiene hoja verde lisa. En el comercio hay cultivares e híbridos con hojas variegadas o con nervios blancos marcados. Univ. Arizona advierte que algunas plantas cultivadas llevan virus que causan un moteado de color en la hoja y manchas irregulares de color en la flor, a veces con deformación. Ese moteado no es una variegación y la planta afectada debe destruirse.",
+    "tallo": "Es el rasgo clave: tiene la base hinchada y carnosa (cáudice) en forma de botella o bulbo. A veces queda en parte enterrada y a menudo incluye raíces superiores engrosadas que el cultivador deja al aire. Encima salen ramas gruesas, carnosas y retorcidas, con la corteza lisa de color gris claro o verde grisáceo, que se vuelve más rugosa con la edad (NC State, Oregon State). No tiene espinas ni aguijones (Univ. Arizona). Al cortarla sale un látex o savia tóxica. Muchas plantas comerciales van injertadas, y la unión del injerto se ve como un engrosamiento o un cambio de corteza en el tallo (Univ. Arizona). Según Univ. Arizona, A. obesum forma el cáudice de manera irregular y tiene ramas débiles que se tumban.",
+    "habito": "Arbusto o arbolito suculento y caudiciforme, erguido, irregular y con varios tallos (NC State). Su porte recuerda al de un bonsái. Es caducifolio en la estación fría o seca (RHS, Oregon State). Da flores vistosas en embudo o trompeta, de 5-7,5 cm de diámetro, con 5 pétalos. Son rojas, rosas o blancas, a menudo con la garganta más clara, blanca o amarilla, y hay cultivares de flor doble o triple (UF/IFAS, NC State). Le siguen frutos en pareja, alargados como cuernos (folículos de hasta unos 10 cm), que sueltan semillas con penachos de pelo en ambos extremos (Oregon State, Univ. Arizona).",
+    "tamano_adulto_interior": "RHS da una altura y una anchura máximas de 1-1,5 m, que alcanza en 2-5 años. Oregon State da unos 1,5 m en cultivo y NC State, 0,9-2,7 m de alto por 0,9-1,5 m de ancho. En maceta se vende sobre todo en tamaños de 20-25 cm de diámetro (UF/IFAS) y se puede mantener pequeña con la poda y con macetas justas (Univ. Arizona).",
+    "confusiones": [
+      {
+        "especie": "Pachypodium lamerei y otros Pachypodium (palmera de Madagascar)",
+        "rasgo_diferenciador": "También es una apocinácea caudiciforme, pero su tronco está cubierto de espinas en grupos de tres y las hojas, largas y estrechas, salen solo en la corona. Adenium no tiene ninguna espina (Univ. Arizona)."
+      },
+      {
+        "especie": "Plumeria spp. (frangipani)",
+        "rasgo_diferenciador": "Tiene ramas carnosas parecidas, pero sin cáudice hinchado en la base, y hojas mucho mayores (20-40 cm) con nervios laterales paralelos muy marcados. Sus flores, muy perfumadas, tienen los pétalos superpuestos en hélice. Las de Adenium tienen forma de trompeta con el tubo más largo."
+      },
+      {
+        "especie": "Nerium oleander (adelfa)",
+        "rasgo_diferenciador": "Es de la misma familia y tiene una toxicidad parecida, pero es un arbusto sin cáudice, con tallos delgados y hojas lineares-lanceoladas en verticilos de tres a lo largo de toda la rama."
+      },
+      {
+        "especie": "Otras Adenium (A. arabicum, A. swazicum) e híbridos",
+        "rasgo_diferenciador": "A. arabicum y A. swazicum tienen hojas verde grisáceas de tacto aterciopelado (UF/IFAS). A. arabicum forma un cáudice masivo con flores poco vistosas, y A. swazicum es más pequeña y tiene ramas más débiles (Univ. Arizona, UF/IFAS). La mayoría de las plantas de tienda son A. obesum o híbridos con ella, y una planta sin etiqueta a menudo no se puede asignar con certeza a una especie (Univ. Arizona)."
+      },
+      {
+        "especie": "Beaucarnea recurvata (pata de elefante)",
+        "rasgo_diferenciador": "También tiene la base en botella, pero sus hojas son en cinta, muy largas, estrechas y colgantes, con nerviación paralela, y no da flores vistosas ni látex."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Glucósidos cardiotónicos (cardíacos), presentes en la savia o látex (ASPCA, NC State).",
+    "sintomas": "Todas las partes son tóxicas si se ingieren: corteza, flores, frutos, hojas, raíces, savia, semillas y tallos (NC State, Oregon State, Queensland Poisons Information Centre). En perros y gatos causa vómitos, diarrea, pérdida de apetito, decaimiento y alteraciones del ritmo cardiaco, y en casos graves la muerte (ASPCA, NC State). En personas puede causar ritmo cardiaco lento, tensión baja, letargo, mareo y malestar de estómago (Queensland Poisons Information Centre). Por contacto, la savia produce dermatitis y hay que evitar que llegue a los ojos (NC State, Univ. Arizona). RHS recomienda manipularla con guantes. En una poda o un trasplante, lavar enseguida cualquier resto de savia de la piel. Ante una ingestión, llamar de inmediato al veterinario o, si es una persona, al Servicio de Información Toxicológica (91 562 04 20) o al 112.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1",
+      "F2",
+      "F8",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA + NC State + RHS). Niños: Alta (Queensland Poisons Information Centre + NC State + Oregon State + RHS). Contradicción en la gravedad: NC State le da gravedad 'baja' y Univ. Arizona dice que su sabor es tan amargo que pocos animales o personas comen lo bastante para intoxicarse gravemente, y que no se conocen muertes humanas (comunicación personal citada). En cambio, ASPCA y NC State incluyen la muerte entre los posibles efectos. Por prudencia la app la presenta como TÓXICA y pide actuar de inmediato ante cualquier ingestión. Hay que mantenerla fuera del alcance de niños y mascotas, y vigilar sobre todo a roedores y conejos domésticos, porque Univ. Arizona cita roedores que roen adenias en cultivo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Pleno sol: como mínimo 6 horas de sol directo al día en la época de crecimiento (NC State; UF/IFAS lo exige para mantener la floración en verano). En interior, una ventana orientada al sur o al oeste, lo más luminosa de la casa (RHS cita orientaciones sur y oeste). Con orientación este o norte la luz no basta y la planta no florece (UF/IFAS: con poca luz no florece). Univ. Arizona señala que en interior rara vez recibe la luz intensa que necesita para crecer activamente, y que lo mejor es tenerla fuera en la época cálida.",
+      "tolera_sol_directo": "Sí, y lo necesita. Univ. Arizona dice que aguanta muchísimo sol y que en lo más caluroso del verano agradece un poco de sombra ligera. Hay que acostumbrarla poco a poco: si se pasa de un lugar sombrío o del interior a pleno sol sin transición, se quema (Univ. Arizona). Durante el reposo invernal puede estar en un sitio menos luminoso (Univ. Arizona).",
+      "notas": "Contradicción: RHS la clasifica en 'semisombra' y, bajo cristal, pide 'plena luz con sombra frente al sol más fuerte'. NC State y UF/IFAS piden pleno sol, de 6 o más horas. La recomendación de RHS se refiere al cultivo en invernadero británico, donde el cristal recalienta. Se adopta pleno sol con aclimatación gradual y sombra ligera en las horas centrales de los días más extremos, como admite Univ. Arizona. Así se conjuga la necesidad de luz con la protección contra quemaduras. La cifra de lux_min corresponde a 'luz directa' (>1000 fc) en la escala del proyecto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F6",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a unos 5 cm de profundidad (dedo o palillo) y la maceta pese claramente menos. Entonces, regar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato: nunca debe quedar agua retenida (Univ. Arizona, UF/IFAS: no encharcar). NC State pide dejar secar entre riegos. El exceso de riego es la causa principal de muerte: Oregon State advierte que se pudre con mucha facilidad. Un cáudice firme indica que la planta está bien hidratada. Si el cáudice o los tallos se ablandan y arrugan con el sustrato seco, la planta tiene sed. Si se ablandan con el sustrato húmedo, hay podredumbre.",
+      "primavera_verano": "En crecimiento activo, aproximadamente de mayo a septiembre-octubre con calor, necesita riegos abundantes y frecuentes, siempre en un sustrato que drene rápido (Univ. Arizona). Como referencia en climas desérticos muy calurosos, Univ. Arizona cita de 3 a 4 riegos por semana en macetas de menos de 25 cm y 2 por semana en macetas mayores. Son cifras para pleno sol exterior en Arizona: en interior o con menos calor se riega bastante menos y siempre se comprueba el sustrato antes. En primavera hay que 'despertarla' poco a poco. No se riega hasta que las noches superen de forma estable los 10 °C y empiecen a salir hojas nuevas. Después se riega con moderación en los días cálidos y se evita regar en las rachas frescas (Univ. Arizona).",
+      "otono_invierno": "Se reduce el riego cuando las noches bajan de unos 10-13 °C. En reposo, mientras está sin hojas, se mantiene seca o casi seca, unos 3-4 meses sin regar (UF/IFAS; Univ. Arizona: sin agua aunque florezca), sobre todo si está fresca o con poca luz. Solo en plantas jóvenes o en ejemplares en un sitio cálido y soleado se puede humedecer ligeramente los 2-5 cm superiores del sustrato si el cáudice se arruga mucho (Univ. Arizona). Regar en reposo o demasiado pronto en primavera provoca pudrición de raíz y cáudice (Univ. Arizona).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Sirve el agua del grifo de Madrid, que es blanda (10-47 mg/L de CaCO3). La cloramina no se elimina dejándola reposar, pero no se ha descrito como problema para esta especie. UF/IFAS le atribuye cierta tolerancia a la sal. Las sales del abono se acumulan, así que conviene regar a fondo hasta que drene para lavarlas.",
+      "notas": "En esta especie el reposo seco es especialmente crítico: regar en invierno con frío es la causa principal de muerte (Univ. Arizona). No regar nunca por calendario.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Por su origen en climas tropicales secos con estación seca (Oregon State) y por crecer al aire libre en verano en el desierto de Arizona (Univ. Arizona), no necesita humedad ambiental alta. El aire seco de la calefacción de Madrid (<30 %) no es, por sí mismo, un problema documentado. Lo que sí favorece el aire seco y cálido es la araña roja: hay que revisar el envés (Univ. Arizona y UF/IFAS citan ácaros). Pulverizar no sirve y mojar el cáudice en invierno favorece la pudrición. La excepción son los esquejes con hojas, que Univ. Arizona recomienda enraizar en un ambiente húmedo y muy cálido, por ejemplo en una urna de propagación.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F5",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 24,
+      "ideal_max_c": 35,
+      "notas": "Le gusta el calor: UF/IFAS da como preferencia 24-35 °C (75-95 °F), y Univ. Arizona dice que prospera con calor, aunque puede frenar en los días más tórridos. No hay un máximo documentado. Mínimos según las fuentes: RHS la clasifica H1A ('bajo cristal todo el año, por encima de 15 °C'). Univ. Arizona dice que A. obesum es especialmente sensible al frío y puede sufrir daños por debajo de 10 °C. NC State pide meterla en casa cuando las noches bajan a 13 °C (55 °F), y Oregon State da un mínimo de unos 10 °C en interior. UF/IFAS indica que aguanta frío de 2-13 °C con amarilleo y caída de hojas, y que muere por debajo de 0 °C. Se adopta como min_c el valor más alto y conservador, 15 °C (RHS). En la práctica, con la planta en reposo y totalmente seca, Univ. Arizona y Oregon State aceptan 10-15 °C. Nunca debe bajar de 10 °C, y menos aún con el sustrato húmedo: el frío con la tierra mojada provoca pudrición (Univ. Arizona). Las heladas matan primero las puntas de los tallos y luego la planta entera (Univ. Arizona). Primavera: solo se saca fuera cuando las noches se mantienen por encima de unos 15,5 °C (60 °F), que es cuando empieza a crecer (Univ. Arizona). Para el crecimiento activo necesita más de 27 °C (80 °F) y sol intenso, algo que rara vez se da en interior (Univ. Arizona).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy drenante y mayoritariamente mineral. Univ. Arizona recomienda pumita (piedra pómez) gruesa como base, con fibra o chips de coco gruesos, arena gruesa, grava y perlita, y advierte que el sustrato para cactus de bolsa suele ser demasiado orgánico para usarlo solo: la planta crece bien en él un par de años, pero sufre cuando la materia orgánica se descompone. NC State pide sustrato para cactus y suculentas, arenoso o con grava, y RHS, sustrato con base de tierra franca sin turba y arena gruesa. Orientación práctica: un 60-70 % de mineral (pumita, grava fina o arena gruesa lavada y perlita) y un 30-40 % de sustrato para cactus o fibra de coco gruesa [orientativo, sin fuente prioritaria]. Al comprarla, conviene cambiarle el sustrato de vivero por otro de características conocidas (Univ. Arizona). No enterrar el cáudice más que antes: se puede elevar poco a poco en cada trasplante para dejar más cáudice al aire, lo que también ayuda a protegerlo de la pudrición (Univ. Arizona).",
+      "ph": "Neutro, 6,0-7,5 aprox. (NC State, ficha del género: neutro 6,0-8,0). RHS indica neutro o alcalino. La ficha de especie de NC State indica ácido o neutro. Valor común de las tres: neutro.",
+      "drenaje": "Imprescindible. La maceta debe tener varios agujeros de drenaje y no debe quedar sobre un plato con agua. Conviene elevarla sobre unas patas para dejar una cámara de aire debajo (Univ. Arizona, NC State). La terracota es ideal porque sus paredes porosas ayudan a secar el sustrato (Univ. Arizona). Evitar las macetas demasiado grandes, porque el exceso de sustrato retiene humedad, y las que se estrechan en la boca, porque luego no se puede sacar la planta (Univ. Arizona).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "notas": "Contradicción: UF/IFAS recomienda en interior un sustrato 'rico, orgánico, a base de turba o corteza', mientras Univ. Arizona, NC State y RHS piden una mezcla drenante, arenosa o mineral. Se adopta la opción más conservadora contra la pudrición, la mezcla mineral. Las cifras de proporción son orientativas."
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido rico en potasio, bajo en nitrógeno y con fósforo moderado (Univ. Arizona), por ejemplo uno para cactus o para floración.",
+      "npk": "Bajo N, P moderado, K alto (Univ. Arizona). No se da una fórmula concreta.",
+      "primavera_verano": "Solo durante el crecimiento activo, con hojas y calor: ¼-½ de la dosis de la etiqueta una vez al mes (convención del proyecto). Univ. Arizona usa esa misma concentración (¼-½) y admite aplicarla con más frecuencia para forzar el crecimiento, o con menos para mantener la planta pequeña. NC State aconseja abonar en primavera para estimular la floración.",
+      "otono_invierno": "Nada. Se deja de abonar cuando las noches bajan de unos 10 °C y no se retoma hasta que vuelva a crecer en primavera (Univ. Arizona, UF/IFAS).",
+      "notas": "Contradicción de frecuencia: UF/IFAS indica una dosis baja de abono líquido cada semana en verano, y Univ. Arizona, con cada riego para el máximo efecto. Se adopta la pauta del proyecto (¼-½ de dosis, mensual), más prudente en interior, donde la planta crece menos y las sales se acumulan.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Más a menudo que otras suculentas, porque crece relativamente rápido (Univ. Arizona): cada 1-2 años en plantas jóvenes y cada 2-3 años en ejemplares grandes [orientativo, sin fuente prioritaria]. Pasarla a una maceta solo un poco mayor que la anterior (Univ. Arizona). Tolera estar con las raíces apretadas, y mantenerla así es una buena forma de controlar su tamaño (Univ. Arizona).",
+      "epoca": "Al comienzo de la temporada cálida de crecimiento: cuanto antes, mejor, en Madrid hacia mayo-junio [orientativo, sin fuente prioritaria]. Nunca en otoño ni en invierno (Univ. Arizona). Si las raíces no se han dañado, se puede regar justo después de trasplantar (Univ. Arizona). Si se han roto o cortado raíces, esperar unos días antes de regar [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces que salen por los agujeros, cáudice o raíces que deforman o agrietan la maceta (Univ. Arizona), sustrato degradado y compacto que tarda en secar, o una planta recién comprada en sustrato de vivero desconocido (Univ. Arizona). En cada trasplante, revisar las raíces por si hay cochinilla de raíz, que se ve como depósitos blancos cenicientos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible (RHS: no requiere poda), pero es útil para controlar el tamaño y corregir las ramas débiles y caídas típicas de A. obesum (Univ. Arizona).",
+      "epoca": "En primavera, al inicio del crecimiento (Univ. Arizona). Evitar la poda tardía, a finales de verano u otoño, porque da ramas cortas que al año siguiente crecen débiles (Univ. Arizona).",
+      "como": "Con guantes, porque la savia es tóxica e irritante, y con herramientas limpias y desinfectadas entre plantas para no transmitir virus (Univ. Arizona). Admite podas fuertes para reducir tamaño o dar forma (Univ. Arizona). En plantas injertadas, no cortar nunca por debajo del injerto (Univ. Arizona). Los trozos podados se pueden enraizar como esquejes. Limpiar la savia de la piel y de las herramientas tras la poda.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F4"
+      ],
+      "notas": "No hay contradicción de fondo: RHS dice que no necesita poda, y Univ. Arizona, que se puede podar si se quiere controlar la forma o el tamaño."
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno, cuando bajan las temperaturas y los días se acortan: en el hemisferio norte, aproximadamente de octubre-noviembre a abril-mayo. En climas desérticos cálidos, la época de crecimiento va de abril a octubre (Univ. Arizona).",
+      "cambios": "Pierde todas o casi todas las hojas, lo que forma parte de su ciclo natural y no es una enfermedad (UF/IFAS). Algunas plantas conservan las hojas (Univ. Arizona). Durante el reposo: riego suspendido unos 3-4 meses, o mínimo en plantas jóvenes o en un sitio cálido si el cáudice se arruga mucho. Sin abono. Temperatura de 15 °C o más, aceptándose 10-15 °C solo con el sustrato seco. Puede estar en un sitio con menos luz (UF/IFAS, Univ. Arizona). Si florece en invierno, no significa que necesite agua (Univ. Arizona). Para salir del reposo, esperar a que las noches superen de forma estable los 10 °C y a que asomen hojas nuevas, y volver a regar poco a poco (Univ. Arizona).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "esqueje de tallo",
+        "acodo aéreo",
+        "injerto"
+      ],
+      "epoca": "Al comienzo de la época de crecimiento, con calor: primavera y principio de verano (Univ. Arizona). RHS indica esquejes en verano con calor de fondo y semilla sembrada en cuanto madura, a 21 °C.",
+      "pasos": "Semilla (no reproduce el cultivar, porque las plántulas no salen iguales a los padres): sembrar semilla fresca en sustrato drenante y húmedo, a unos 21 °C (RHS) o con calor, en plena temporada de crecimiento (Univ. Arizona). Germina en pocos días. Mantener las plántulas húmedas pero no encharcadas las primeras semanas, regarlas y abonarlas para que crezcan, y darles su primer invierno con luz, calor y poca agua (Univ. Arizona). Es la forma de obtener cáudices grandes. Esqueje (es la única forma de reproducir fielmente el cultivar, junto con el acodo y el injerto): (1) Cortar con guantes un brote joven con hojas o una rama más vieja. (2) En esquejes tiernos con hojas, según Univ. Arizona, NO dejar secar ni cicatrizar el corte como en otras suculentas: mojar la base en hormona de enraizamiento y clavarla enseguida en un sustrato muy drenante. (3) Mantener húmedo, muy cálido y con luz moderada, por ejemplo en una urna de propagación. Los esquejes de rama madura sin hojas necesitan menos humedad. El cáudice tarda varios años en formarse (Univ. Arizona). Acodo aéreo: hacer una muesca en la rama, aplicar hormona, envolver con esfagno o coco húmedo y film transparente, y cubrir con papel de aluminio. Cuando se vean raíces, cortar bajo ellas y tratarlo como un esqueje enraizado (Univ. Arizona). Injerto: la púa del cultivar deseado se injerta sobre un patrón con buenas raíces o buen cáudice. Es la forma habitual de multiplicar los cultivares más apreciados (NC State, Univ. Arizona).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F4",
+        "F1",
+        "F2"
+      ],
+      "notas": "Fuentes complementarias y foros recomiendan dejar secar el corte 2-7 días antes de plantar. Univ. Arizona lo desaconseja en esquejes tiernos con hojas, aunque esos esquejes necesitan un sustrato muy drenante. Se sigue a Univ. Arizona, la fuente prioritaria."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por regar durante el reposo, por regar demasiado pronto en primavera o por un sustrato frío y mojado. Es la causa nº 1 de muerte (Univ. Arizona, Oregon State, NC State). Cortar el tejido podrido en cuanto se detecte y mantener seco el que queda. Si queda bastante tejido sano, la planta puede recuperarse aunque pierda buena parte de las raíces y del cáudice (Univ. Arizona)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del cáudice o de la base del tallo, que se vuelve blanda, oscura y hundida, por frío con el sustrato húmedo, por enterrar el cáudice o por plantas dañadas por el frío (Univ. Arizona). Se aplica el mismo tratamiento que a la pudrición de raíz: cortar hasta el tejido sano, dejar secar y no regar."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "En otoño: amarilleo y caída de todas las hojas por la entrada natural en reposo, o por frío entre 2 y 13 °C (UF/IFAS). Si coincide con días más cortos y fríos y el cáudice está firme, es normal: reducir o cortar el riego. Si ocurre en pleno verano con el sustrato húmedo, sospechar pudrición de raíces (S36)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de las hojas inferiores al principio del otoño o tras un periodo de noches frescas (UF/IFAS). Es la antesala del reposo. También puede deberse al exceso de riego."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemaduras en hojas y tallos al sacarla de golpe del interior o de la sombra a pleno sol, por ejemplo al llevarla a la terraza en primavera (Univ. Arizona). Hay que aclimatarla durante 1-2 semanas, primero con sol de mañana [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Ramas largas, finas y caídas, con pocas hojas y sin flores, por falta de sol: UF/IFAS indica que con poca luz no florece, y Univ. Arizona que crece y florece mal si está demasiado sombreada. Es típico si pasa todo el año en el interior."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "No crece en primavera-verano porque está todo el año en el interior, donde no recibe ni más de 27 °C ni sol intenso, que necesita para crecer activamente (Univ. Arizona). Sacarla al exterior en la época cálida. También ocurre si se la 'despierta' con riego antes de que las noches superen los 10 °C."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en tallos y hojas, la plaga más citada en interior (UF/IFAS, NC State). También hay cochinilla de raíz, que se ve como depósitos blancos cenicientos en las raíces, el sustrato y el interior de la maceta (Univ. Arizona, NC State). Para la de raíz: sacar la planta, retirar todo el sustrato, limpiar las raíces, desechar el sustrato viejo y lavar la maceta (Univ. Arizona). En España, para la parte aérea, solo se pueden usar insecticidas listos para usar de uso no profesional registrados en el MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones florales, sobre todo cuando la planta está en el exterior (UF/IFAS, NC State, RHS, Univ. Arizona). Univ. Arizona indica que en el exterior se puede eliminar con un chorro de agua."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros) con calor y aire seco, en terraza en verano o en interior con calefacción mientras conserva hojas (UF/IFAS, Univ. Arizona). Univ. Arizona señala que estas plagas no prosperan en plantas que pierden las hojas en invierno."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos y ramas (NC State)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas acartonadas y cáudice o tallos arrugados con el sustrato seco: falta de agua en plena temporada de crecimiento, con calor, en una maceta pequeña de terracota. Antes de regar, comprobar que el sustrato está seco en profundidad y que el cáudice no está blando (si está blando, es pudrición)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es una de las pocas plantas de interior que disfruta del verano madrileño: le gustan el calor (UF/IFAS da 24-35 °C como preferencia) y el sol fuerte. Lo mejor es tenerla en terraza o balcón a pleno sol desde finales de mayo o junio, cuando las noches superen de forma estable unos 15 °C, hasta principios de otoño (Univ. Arizona: sacarla cuando las noches superen los 15,5 °C). En Madrid, ese umbral suele alcanzarse hacia finales de mayo o junio [orientativo, sin fuente prioritaria]. Hay que aclimatarla 1-2 semanas para que no se queme (Univ. Arizona). Con 38-40 °C puede frenar el crecimiento, y agradece una sombra ligera en las horas centrales de las olas de calor (Univ. Arizona). Las macetas oscuras o de plástico al sol del suelo de la terraza se recalientan, así que conviene ponerlas sobre patas, lo que además mejora el drenaje. En plena temporada, con calor seco, puede necesitar riego cada pocos días: comprobar siempre el sustrato a 5 cm y el peso de la maceta. Vigilar la araña roja, favorecida por el aire muy seco. Si se queda en el interior, ponerla en la ventana sur u oeste más soleada, sin que roce el cristal en las horas de más calor.",
+    "invierno": "Hay que meterla en casa pronto en otoño, antes de que las mínimas nocturnas bajen de 15 °C (mínimo adoptado en esta ficha según RHS H1A; NC State pide entrarla a más tardar cuando las noches bajan a 13 °C, y Univ. Arizona advierte de daños por debajo de 10 °C). En Madrid, las mínimas nocturnas bajan de 15 °C hacia mediados o finales de septiembre [orientativo, sin fuente prioritaria; consultar la previsión de mínimas de AEMET]: no esperar a noviembre. Al entrar, cortar o reducir mucho el riego y no abonar. En reposo, con la planta sin hojas, mantenerla casi seca durante 3-4 meses. Lugar: junto a la ventana más luminosa, pero sin tocar el cristal frío de noche (en una ventana de una sola hoja el aire junto al vidrio puede bajar de 10 °C) y lejos del chorro directo de un radiador, que deshidrata el cáudice. La temperatura ideal es de 15 °C o más. Una habitación fresca de 10-15 °C solo es aceptable con el sustrato totalmente seco. El aire seco de la calefacción (<30 %) no es un problema documentado para ella. Lo peligroso es combinar frío y riego. No dejarla nunca en terraza o balcón durante el invierno madrileño, con heladas frecuentes en el exterior.",
+    "ubicacion_recomendada": "De finales de mayo a finales de septiembre o principios de octubre: terraza, balcón o alféizar exterior a pleno sol, orientado al sur o al oeste, tras una aclimatación gradual. Resto del año: en el interior, junto a la ventana sur u oeste más luminosa, a 15 °C o más (nunca por debajo de 10 °C), en reposo seco. Siempre fuera del alcance de niños, perros, gatos y roedores domésticos, por su savia tóxica."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) solo se pudo consultar en su página de resultados (vía proxy). Esa página confirma como nombre aceptado Adenium obesum (Forssk.) Roem. & Schult. La ficha del taxón dio error 403 (protección Cloudflare), así que no se han podido verificar en POWO la distribución nativa ni los sinónimos. RHS cita como sinónimos A. arabicum, A. coetaneum y A. honghel, pero A. arabicum se trata a menudo como especie distinta (UF/IFAS, Univ. Arizona). Univ. Arizona señala que la delimitación del género está en debate: Eggli (2002) trata Adenium como una sola especie variable, A. obesum, con seis subespecies interfértiles, y el nombre A. obesum podría cambiar en el futuro. No hay un cambio de nombre vigente confirmado.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales; min_pct e ideal_pct se dejan en null.",
+    "Temperatura máxima: ninguna fuente da un máximo dañino; max_c se deja en null. UF/IFAS solo da 35 °C como límite superior del rango preferido, y Univ. Arizona dice que puede frenar en el calor más extremo.",
+    "Fechas de Madrid (noches por encima de 15 °C en primavera y por debajo de 13 °C en otoño): son estimaciones orientativas sin fuente AEMET consultada para esta ficha.",
+    "Missouri Botanical Garden, Univ. Wisconsin (artículo de Mahr, 2013; URL 404) y la ficha completa de la Desert Botanical Garden no se pudieron abrir.",
+    "Gravedad real de la intoxicación en personas y mascotas: las fuentes discrepan (NC State: gravedad baja; Univ. Arizona: no se conocen muertes humanas; ASPCA: posible muerte en animales). No se ha encontrado una casuística clínica revisada por pares.",
+    "Frecuencia de trasplante y proporciones del sustrato: no hay cifras en fuentes prioritarias; las indicadas están marcadas como orientativas.",
+    "Enfermedades foliares: NC State menciona manchas foliares fúngicas ocasionales y el hongo Athelia rolfsii (podredumbre blanca o 'southern blight'), sin más detalle. RHS la considera en general libre de enfermedades. No se ha asignado ningún síntoma foliar fúngico concreto."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/adenium-obesum",
+      "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox (ficha Adenium obesum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/adenium/",
+      "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox (ficha del género Adenium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://ask.ifas.ufl.edu/publication/EP474",
+      "institucion": "UF/IFAS Extension – EDIS ENH1213/EP474, Florida Foliage House Plant Care: Adenium obesum (Henny y Chen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/Plants/426/Adenium-obesum/Details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Adenium obesum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://landscapeplants.oregonstate.edu/plants/adenium-obesum",
+      "institucion": "Oregon State University – Landscape Plants (Department of Horticulture)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.arizona.edu/sites/default/files/2024-08/az1953-2021.pdf",
+      "institucion": "University of Arizona Cooperative Extension – az1953, Growing Adeniums in Southern Arizona (Chamberland, 2021; revisión por pares)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/desert-rose",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants: Desert Rose",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.poisonsinfo.health.qld.gov.au/plants-and-mushrooms/desert-rose-adenium-obesum",
+      "institucion": "Queensland Health – Queensland Poisons Information Centre (Australia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/results?q=Adenium%20obesum",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew – resultados de búsqueda (nombre aceptado)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

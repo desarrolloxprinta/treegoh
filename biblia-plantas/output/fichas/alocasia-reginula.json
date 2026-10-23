@@ -1,0 +1,288 @@
+{
+  "nombre_cientifico": "Alocasia reginula",
+  "nombres_comunes": [
+    "alocasia Black Velvet",
+    "alocasia terciopelo negro",
+    "Alocasia 'Black Velvet' (nombre comercial; es la propia especie, no un híbrido)"
+  ],
+  "familia": "Araceae",
+  "origen": "Borneo (POWO, Kew). Se describió en 1998 a partir de plantas cultivadas en Florida de origen desconocido; el material comercial procedía, según su introductor, del Lyon Arboretum (Hawái) y antes de un coleccionista japonés en Borneo (Hay 1998). Recolecciones posteriores la sitúan como endémica de Sabah (Malasia), conocida solo de la Reserva de Vida Silvestre de Tabin, cerca de Lahad Datu, a unos 90 m de altitud (tratamiento recogido en Plazi; Wikipedia). Las plantas del comercio europeo proceden de micropropagación (cultivo in vitro), técnica con la que se multiplica desde los años noventa (Hay 1998). Conviene comprar solo plantas de vivero.",
+  "clima_nativo": "Tropical húmedo de tierras bajas del este de Sabah (POWO la sitúa en el bioma tropical húmedo), sin heladas y con calor todo el año. Crece en paredes o cantiles de roca caliza (karst) muy sombreados (Plazi), descritos como secos y en sombra profunda (Wikipedia). Es decir: planta de sombra luminosa, sin sol directo, con las raíces en grietas de roca muy aireadas que no se encharcan. Esto explica su sensibilidad al sustrato denso y al exceso de agua en maceta.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Planta pequeña con pocas hojas a la vez. Lámina elíptica a ovada, de unos 15 cm de largo y 8-11 cm de ancho, gruesa y coriácea, con punta aguda a obtusa acabada en una pequeña punta (mucrón) de ~1 cm (Hay 1998). El haz es verde muy oscuro y mate, casi negro, con aspecto aterciopelado (Hay 1998: 'very dark matt green'; RHS: 'verde muy oscuro a negro'); el envés es más pálido y teñido de púrpura (Hay 1998) o rojizo (Wikipedia). La hoja es casi completamente peltada: el pecíolo se inserta en el envés, cerca de la base, y solo queda una escotadura basal poco profunda entre las puntas de los lóbulos posteriores soldados (Hay 1998). Rasgos clave para visión: hoja pequeña, negra mate (no brillante), gruesa, con 2-3 pares de nervios blanquecinos y casi sin escotadura basal.",
+    "nerviacion": "Pinnada: 2-3 nervios laterales primarios a cada lado del nervio central, que salen a unos 90° (los de la base) a 45° (los del ápice); nervios primarios blanquecinos y algo hundidos en el haz; nervios secundarios también algo hundidos y blanquecinos, que forman nervios colectores solo cerca del margen (Hay 1998). RHS describe el conjunto como 'nervadura plateada'. El contraste nervios blanco-plateados sobre lámina casi negra mate es el rasgo más visible.",
+    "variegacion": "No variegada. El dibujo es solo el de los nervios blanquecinos o plateados sobre la lámina negro-verdosa (Hay 1998; RHS). El envés púrpura o rojizo puede verse en fotos tomadas desde abajo.",
+    "tallo": "Tallo corto y carnoso (rizoma o cormo) a ras de sustrato, del que salen pocas hojas juntas; pecíolos de unos 18 cm, envainadores en su tercio inferior (Hay 1998). Wikipedia la describe como arácea con cormo. Inflorescencias por pares, pequeñas y poco vistosas, con espata blanca de ~5 cm moteada de púrpura en la base (Hay 1998).",
+    "habito": "Herbácea perenne, de mata pequeña y compacta, de hoja persistente en buenas condiciones (RHS: perenne rizomatosa de hoja perenne), aunque como el resto del género puede frenar el crecimiento y perder hojas en invierno (RHS, guía del género).",
+    "tamano_adulto_interior": "Pequeña: unos 25 cm de alto (Hay 1998); RHS da 0,1-0,5 m de alto y de ancho, alcanzados en 2-5 años; Logee's (vivero) indica 30-45 cm en maceta. Crece despacio y rara vez pasa de 30-40 cm en interior.",
+    "confusiones": [
+      {
+        "especie": "Alocasia melo",
+        "rasgo_diferenciador": "Especie hermana de Sabah, también pequeña y de hoja peltada y gruesa, pero con la lámina rugosa y abollada (con relieve en panal), verde azulada y sin nervios blancos; A. reginula tiene la lámina lisa, no rugosa, negro-verdosa mate, con nervios blanquecinos hundidos (Hay 1998, diagnosis de la especie)."
+      },
+      {
+        "especie": "Alocasia × amazonica / A. × mortfontanensis ('Polly')",
+        "rasgo_diferenciador": "Hoja en punta de flecha (sagitada), larga, brillante y de margen festoneado, con lóbulos basales bien separados; A. reginula tiene hoja ovada casi peltada, mate y de margen entero (Hay 1998; UF/IFAS y RHS para el género)."
+      },
+      {
+        "especie": "Alocasia cuprea y Alocasia baginda ('Dragon Scale')",
+        "rasgo_diferenciador": "Otras 'alocasias joya' de Borneo de hoja peltada y gruesa, pero con brillo metálico cobrizo (A. cuprea) o lámina verde plateada con relieve de escamas (A. baginda); A. reginula es negro-verdosa mate con nervios blancos finos [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Alocasia 'Maharani' y otros híbridos comerciales de hoja oscura",
+        "rasgo_diferenciador": "Híbridos de coleccionista con hoja gruesa, gris plateada o grisácea y textura rugosa; A. reginula es más negra, mate y lisa. La app debe pedir confirmación cuando la foto no permita ver la textura de la lámina [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Alocasia zebrina y Alocasia macrorrhizos",
+        "rasgo_diferenciador": "Mucho mayores (0,5-1 m o más, RHS), de hoja verde brillante en punta de flecha o en escudo, no peltada; A. zebrina además con pecíolos rayados. A. reginula no pasa de unos 25-40 cm y tiene hoja casi negra."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (ASPCA y LSU para el género Alocasia; UF/IFAS: todas las partes de la planta). RHS, en la ficha de 'Black Velvet', la marca como tóxica si se ingiere, irritante para piel y ojos y tóxica para mascotas.",
+    "sintomas": "En perros y gatos: irritación oral, dolor e hinchazón de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA, LSU). En personas, sobre todo niños: dolor y ardor de boca y garganta si se mastica, y dermatitis o irritación ocular por la savia (UF/IFAS, RHS). Usar guantes al manipularla (RHS). Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": ["F1", "F5", "F6", "F3"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 2150,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS, ficha de la especie: orientación este u oeste, posición resguardada). En ventana sur, a 1,5-2 m del cristal o tras cortina fina. En ventana norte luminosa puede mantenerse, pero crece muy despacio.",
+      "tolera_sol_directo": "No. RHS la clasifica como planta de semisombra y el sol fuerte quema las hojas del género (RHS, guía del género). En su hábitat crece en cantiles muy sombreados (Plazi). Como mucho, sol muy suave de primera hora.",
+      "notas": "Ficha de especie (RHS 'Black Velvet'): posición en semisombra y, en cultivo, 'luz brillante e indirecta'. La guía del género (RHS) y UF/IFAS piden luz brillante indirecta; con poca luz el crecimiento se frena mucho. Como su hábitat es sombra densa, se amplía el límite inferior hacia la franja alta de luz 'media' de la escala del proyecto: 2150-10760 lux (200-1000 fc) [orientativo, sin fuente prioritaria]; ninguna fuente da cifras en lux. Confianza Media: solo una fuente prioritaria (RHS) trata la especie; el resto es del género.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F3", "F9"]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco al tacto a 2-3 cm en macetas pequeñas (hasta ~12 cm, lo habitual en esta especie) o a 5 cm en macetas mayores (RHS, guía del género: 5 cm), y la maceta pese claramente menos que recién regada. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo (aprox. abril-octubre en Madrid) RHS (ficha de la especie) pide 'regar con generosidad' y Logee's (vivero) 'sustrato uniformemente húmedo pero no encharcado'. Mantener el sustrato apenas húmedo, regando cada vez que se seque la capa superior indicada. Si el sustrato tarda más de 7-10 días en secarse, la mezcla es demasiado densa o la maceta demasiado grande [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Reducir el riego al mínimo en invierno (RHS, ficha de la especie): dejar secar casi todo el cepellón entre riegos y dar poca agua. Si entra en reposo y pierde hojas, regar muy poco, solo para que el cormo no se deshidrate. En un piso cálido (>18 °C) con buena luz puede seguir creciendo: mismo criterio de dedo y peso; el sustrato tardará más en secarse.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda; la cloramina no se elimina dejándola reposar y no causa puntas marrones). Usar agua a temperatura ambiente. Lavar el sustrato con abundante agua cada pocos meses si se abona, porque el género tolera mal las sales (UF/IFAS).",
+      "notas": "Contradicción de matiz: RHS (ficha de la especie) dice 'regar con generosidad' en crecimiento, mientras que la guía del género (RHS) y Wikipedia insisten en que el exceso de agua y el sustrato denso pudren raíces y cormo. Se adopta la opción conservadora para la planta: riego a fondo pero solo con la capa superior seca y con sustrato muy drenante. Muchas plantas se venden en sustrato demasiado denso y conviene trasplantarlas a una mezcla más porosa (Wikipedia). Solo RHS trata la especie como fuente prioritaria; el criterio de profundidad procede del género: confianza Media.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F3", "F10", "F11"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS (ficha de la especie) recomienda subir la humedad con una bandeja de grava o guijarros húmedos bajo la maceta; la guía del género (RHS) pide humedad media a alta y Wisconsin (género) humedad alta. Ninguna fuente prioritaria da porcentajes: se dejan en null. El aire seco causa bordes marrones y favorece la araña roja (RHS, guía del género). Según la convención del proyecto, pulverizar no sube la humedad de forma útil (aunque RHS lo mencione): usar humidificador, agrupar plantas o la bandeja de grava sin que la maceta toque el agua. Por su tamaño pequeño se adapta bien a un terrario abierto o vitrina ventilada [orientativo, sin fuente prioritaria]; en vitrina cerrada sin ventilación aumenta el riesgo de pudrición.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F4"]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": null,
+      "notas": "RHS (ficha de la especie): rusticidad H1A, cultivo bajo cristal todo el año por encima de 15 °C, también en invierno. RHS (guía del género): por encima de 16 °C en temporada de crecimiento y nunca por debajo de 10 °C. Logee's (vivero) da una mínima interior de 60 °F (≈15,6 °C), equivalente en la práctica a los 15 °C de RHS. Se adopta 15 °C como mínimo absoluto (valor de especie, coherente con las demás Alocasia del proyecto) y 16 °C como mínimo ideal. Evitar corrientes frías y transporte en frío (RHS, género). Ninguna fuente prioritaria da máximos: max_c e ideal_max_c en null. Confianza Media: una sola fuente prioritaria de especie.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F4", "F11"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior sin turba con grava hortícola (RHS, ficha de la especie), aprox. 3 partes de sustrato + 1 de grava (RHS, guía del género). Por su hábitat en roca caliza y su tendencia a pudrir el cormo, conviene una mezcla aún más aireada: sustrato de interior con un 30-50 % de perlita, pómez o corteza fina de orquídea (Wikipedia enumera perlita, pómez, corteza, fibra o chips de coco, musgo esfagno y arcilla expandida) [orientativo, sin fuente prioritaria en el porcentaje]. Maceta pequeña con agujeros de drenaje; plantar con el cormo a ras de la superficie, sin enterrar la base de los pecíolos (RHS, género).",
+      "ph": "Ácido a neutro (RHS, ficha de la especie). Aproximadamente 5,5-7,0 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: 'húmedo pero bien drenado' (RHS, ficha de la especie); drenaje muy rápido o el cormo se pudrirá (Wikipedia). Sin agua en el plato ni cubremacetas que retenga agua.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F10"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de follaje, diluido en el agua de riego.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras saque hojas nuevas (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada durante el reposo ni mientras no crezca. Reanudar al aparecer la primera hoja nueva en primavera.",
+      "notas": "Contradicción de frecuencia: RHS (ficha de la especie) recomienda abono líquido general cada 2-3 semanas de primavera a otoño; RHS (guía del género) remite a la dosis y frecuencia de la etiqueta de abril a octubre. Se adopta la opción más conservadora, la convención del proyecto (mensual, ¼-½ de dosis), porque el género tolera mal las sales (UF/IFAS) y esta especie es pequeña, de crecimiento lento y en maceta pequeña acumula sales con rapidez. Ninguna fuente prioritaria da fórmula NPK.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F3"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años aproximadamente; puede pasar el primer año en su maceta original (RHS, guía del género). Excepción: si llega en sustrato denso y muy húmedo, trasplantar antes a una mezcla drenante (Wikipedia). Subir como mucho unos 5 cm de diámetro cada vez (RHS, género); en esta especie pequeña, mejor 2-3 cm, porque una maceta grande retiene demasiada agua [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera, al reanudar el crecimiento (marzo-mayo en Madrid). Nunca en pleno reposo invernal.",
+      "senales": "Raíces que salen por el drenaje o rodean el cepellón, sustrato que se seca muy rápido tras regar (RHS, género), sustrato compactado o que tarda muchos días en secarse, hijuelos o cormelos que llenan la maceta. Aprovechar para revisar el cormo y retirar partes blandas, negras o malolientes.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F10"]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS, ficha de la especie); solo retirar hojas viejas, amarillas o secas.",
+      "epoca": "En cualquier momento, cuando una hoja amarillea por completo o se seca.",
+      "como": "Cortar el pecíolo de la hoja marchita en su base con tijera limpia y desinfectada (Wisconsin, género: retirar las hojas viejas que mueren). Usar guantes: la savia irrita piel y ojos (RHS). Como tiene pocas hojas, no retirar hojas que aún estén verdes en parte.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F4"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aprox. noviembre-marzo; en Madrid, cuando bajan la luz y la temperatura interior). En hemisferio sur, aprox. mayo-septiembre.",
+      "cambios": "Con menos luz y temperatura frena o detiene el crecimiento y puede perder alguna hoja o casi todas: es normal en el género y la planta rebrota en primavera (RHS, guía del género). Durante el reposo: riego al mínimo y por encima de 15 °C (RHS, ficha de la especie), sin abono ni trasplante; mantener más seca y reanudar riego y abono al ver crecimiento nuevo (Wisconsin, género). Antes de tirar una planta sin hojas, comprobar el cormo: firme = vivo; blando y maloliente = podrido. En un piso cálido y luminoso puede seguir creciendo despacio.",
+      "notas": "La ficha de la especie (RHS) solo indica reducir el riego al mínimo y mantener por encima de 15 °C en invierno; la pérdida de hojas en reposo procede de la guía del género: confianza Media.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F4"]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata o del rizoma",
+        "separación de hijuelos",
+        "cormelos de la base",
+        "semilla (rara en interior)",
+        "micropropagación (solo en laboratorio, origen de las plantas comerciales)"
+      ],
+      "epoca": "Primavera o verano (RHS, ficha de la especie: división en primavera o verano); hijuelos en primavera y división del rizoma a finales de primavera-principios de verano (RHS, guía del género).",
+      "pasos": "1) Con guantes, sacar la planta de la maceta y localizar hijuelos o cormelos en la base. 2) Separar cada hijuelo con un cuchillo limpio, llevándose el máximo de raíz posible (RHS, género). 3) Plantarlo en una maceta pequeña (6-8 cm) con sustrato sin turba y grava o perlita. 4) Mantener en calor, luz brillante indirecta y sustrato apenas húmedo hasta que saque hoja nueva; con el rizoma dividido, cada trozo debe llevar al menos una yema y se mantiene caliente y luminoso hasta que brote (RHS, género). 5) Los cormelos se semientierran en sustrato o musgo esfagno húmedo, no mojado, con calor (>20 °C [orientativo, sin fuente prioritaria]); pueden tardar semanas o meses en brotar (Wisconsin describe los cormelos laterales en el género). 6) La semilla, si se forma, se siembra fresca a 23 °C (RHS, ficha de la especie). RHS menciona también esquejes de tallo en primavera, pero la especie no se propaga por esqueje de hoja ni de pecíolo. La multiplicación comercial se hace por micropropagación (Hay 1998).",
+      "confianza": "Media",
+      "fuentes": ["F1", "F2", "F4", "F8"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja de invernadero (Tetranychus urticae): RHS la cita expresamente como plaga de 'Black Velvet' y el aire seco la favorece (RHS, guía del género). Es la plaga más frecuente en pisos con calefacción y en el verano seco de Madrid. Revisar el envés cada 1-2 semanas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado del haz por la alimentación de la araña roja; en la hoja casi negra se ve como un moteado grisáceo que apaga el aspecto aterciopelado."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la base de los pecíolos, las axilas y el envés (RHS, ficha de la especie)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o sustrato denso, sobre todo en invierno y en plantas recién compradas en sustrato muy compacto (RHS, guía del género; Wikipedia). Es la causa principal de muerte en esta especie."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Cormo o base de los pecíolos blanda, oscura y maloliente por riego excesivo con frío o maceta demasiado grande; aislar, retirar la parte podrida y recuperar cormelos o hijuelos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Renovación normal (la hoja más vieja amarillea cuando sale una nueva) o entrada en reposo invernal. Como la planta tiene pocas hojas, perder más de una a la vez en primavera-verano indica revisar riego y raíces."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas que se doblan o caen por raíces dañadas por exceso de riego, por sequía puntual del cepellón, o por frío y corrientes (RHS, guía del género)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por humedad ambiental baja (RHS, guía del género), riego irregular o sales de abono acumuladas. No atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura o decoloración por sol directo a través del cristal: especie de semisombra (RHS) que en su hábitat vive en sombra densa; frecuente en ventanas sur u oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras la compra, el transporte en frío (RHS, género) o un cambio brusco de luz y humedad, frecuente en plantas que salen de invernadero o de cultivo in vitro."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sin hojas nuevas en primavera-verano por luz insuficiente, temperatura por debajo de 16 °C o raíces dañadas. Ojo: es una especie de crecimiento lento por naturaleza y en invierno la parada es normal (reposo)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el riesgo principal es la araña roja: revisar el envés cada semana y subir la humedad con humidificador o agrupando plantas. Alejar de ventanas sur y oeste sin protección: es planta de semisombra y la hoja negra se calienta y se quema; a 1,5-2 m del cristal o tras cortina fina. En maceta pequeña el sustrato se seca deprisa: comprobar con el dedo (2-3 cm) y el peso cada 2-3 días, sin regar por calendario ni dejar agua en el plato. No ponerla frente al aire acondicionado. No sacarla a la terraza: es pequeña, delicada y sensible al viento y al sol.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: máximo riesgo de araña roja y bordes secos; usar humidificador y alejar de radiadores. Separar de los cristales fríos (de noche pueden bajar de 15 °C junto a la ventana) y de corrientes. Mantener siempre por encima de 15 °C. Si entra en reposo y pierde hojas: riego al mínimo, sin abono ni trasplante, y no tirarla si el cormo está firme. Si el piso está a 20-22 °C y bien iluminado puede seguir creciendo despacio: regar solo con el sustrato seco a 2-3 cm y la maceta ligera.",
+    "ubicacion_recomendada": "Junto a una ventana este u oeste (con cortina en verano en la oeste) o a 1,5-2 m de una ventana sur con cortina fina, en una estantería o mesa resguardada; un baño luminoso o una vitrina ventilada sirven por la humedad. Lejos de radiadores, aire acondicionado y corrientes, y fuera del alcance de perros, gatos y niños por su toxicidad."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Alocasia reginula A.Hay, publicada en Gard. Bull. Singapore 50: 258 (1998); no se han encontrado sinónimos ni cambio de nombre. 'Black Velvet' es un nombre comercial registrado en EE. UU. aplicado a la especie, no a un híbrido (Hay 1998). RHS la cataloga como Alocasia 'Black Velvet'.",
+    "Distribución: Hay (1998) y POWO solo indican '¿Borneo?'; la endemicidad en la Reserva de Tabin (Sabah) y el hábitat en cantiles kársticos sombreados proceden del tratamiento recogido en Plazi (lista de aráceas de Sabah, según los resultados de búsqueda, Wong y Joling 2021; no se pudo verificar la revista) y de Wikipedia. El dato de 'cantiles secos' solo aparece en Wikipedia.",
+    "Cuidados específicos de la especie: solo la ficha de RHS ('Black Velvet') como fuente prioritaria; NC State (404), Missouri Botanical Garden, UF/IFAS, Clemson y Wisconsin no tienen ficha de la especie. Riego, humedad, temperatura ideal, trasplante, reposo y propagación se completan con fuentes del género (RHS guía, UF/IFAS, Wisconsin), indicado en cada bloque; por eso ningún bloque llega a confianza Alta.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes; min_pct e ideal_pct en null.",
+    "Temperatura máxima e ideal máxima: ninguna fuente prioritaria las da; max_c e ideal_max_c en null.",
+    "Luz: sin cifras en fc o lux en fuentes prioritarias; rango tomado de la escala del proyecto, ampliado hacia la franja alta de luz media por su hábitat sombreado.",
+    "Fertilización: sin fórmula NPK en fuentes prioritarias; frecuencia contradictoria (RHS especie cada 2-3 semanas frente a la convención del proyecto, mensual a ¼-½ dosis).",
+    "Toxicidad: ASPCA, LSU y UF/IFAS tratan Alocasia spp. a nivel de género; RHS confirma la toxicidad para 'Black Velvet'. Sin datos experimentales de la especie.",
+    "Plagas y enfermedades: RHS cita araña roja y cochinilla algodonosa y la considera 'generalmente libre de enfermedades'; no hay fuentes prioritarias sobre enfermedades fúngicas o bacterianas específicas.",
+    "Rasgos de identificación de los híbridos comerciales parecidos ('Maharani', 'Regal Shields') y de A. cuprea y A. baginda: sin fuente prioritaria consultada; marcados como orientativos.",
+    "Umbral de temperatura o luz que desencadena el reposo en esta especie: no verificado."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/136801/alocasia-black-velvet/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia 'Black Velvet' (= A. reginula)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow alocasias (Growing Guide, género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://ask.ifas.ufl.edu/publication/FP033",
+      "institucion": "UF/IFAS Extension (University of Florida) — FPS33 Alocasia spp.: Elephant's Ear, Alocasia, Taro (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/elephant-ears-colocasia-alocasia-and-xanthosoma/",
+      "institucion": "University of Wisconsin–Madison Extension — Elephant Ears (Colocasia, Alocasia and Xanthosoma) (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "institucion": "ASPCA Animal Poison Control Center — Elephant's Ear (Alocasia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://artsci.lsu.edu/vetmed/toxic_plants/alocasia.php",
+      "institucion": "Louisiana State University School of Veterinary Medicine — Toxic plants: Alocasia spp.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1006568-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia reginula A.Hay",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.nparks.gov.sg/-/media/sbg/gardens-bulletin/4-4-50-2-07-y1998-v50p2-gbs-pg-221.pdf",
+      "institucion": "Hay, A. (1998). The genus Alocasia (Araceae-Colocasieae) in West Malesia and Sulawesi. Gardens' Bulletin Singapore 50(2): 221-334 (descripción original de A. reginula, pp. 258-260; revista revisada por pares, National Parks Board de Singapur)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://tb.plazi.org/GgServer/html/03954319FFEB4E217130FA0086BFC97A",
+      "institucion": "Plazi TreatmentBank — tratamiento de Alocasia reginula (material de Tabin, Sabah; distribución y ecología). Publicación de origen no verificada",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://en.wikipedia.org/wiki/Alocasia_reginula",
+      "institucion": "Wikipedia — Alocasia reginula",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.logees.com/alocasia-black-velvet-alocasia-reginula.html",
+      "institucion": "Logee's Plants for Home & Garden (vivero, EE. UU.) — Alocasia 'Black Velvet'",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

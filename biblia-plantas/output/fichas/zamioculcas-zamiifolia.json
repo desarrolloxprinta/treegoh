@@ -1,0 +1,333 @@
+{
+  "nombre_cientifico": "Zamioculcas zamiifolia",
+  "nombres_comunes": [
+    "zamioculca",
+    "zamioculcas",
+    "planta ZZ",
+    "palmera de Zanzíbar"
+  ],
+  "familia": "Araceae",
+  "origen": "África oriental y suroriental: Kenia, Tanzania, Malaui, Mozambique, Zimbabue y KwaZulu-Natal (Sudáfrica) (POWO). Nombre aceptado; sinónimos: Caladium zamiifolium G.Lodd. (basiónimo), Zamioculcas loddigesii Schott (nom. illeg.) y Zamioculcas lanceolata Peter. Es la única especie del género.",
+  "clima_nativo": "Tropical estacionalmente seco: praderas secas y bosques abiertos de sabana con lluvias intensas alternadas con sequías largas. Geófito con rizomas tuberosos que almacenan agua y nutrientes en suelos pobres.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas compuestas pinnadas, erguidas, de 40-100 cm (hasta unos 120 cm en ejemplares grandes), que nacen directamente del rizoma. Cada hoja lleva unos 6-8 pares de foliolos alternos, elípticos u ovados, enteros, sin pelos, gruesos, coriáceos, carnosos y muy brillantes, como si estuvieran pulidos; de 2,5 a 15 cm de largo según el tamaño de la planta. Aspecto global de cícada o palmera pequeña.",
+    "nerviacion": "Pinnada en cada foliolo: nervio central marcado y nervios secundarios finos poco visibles bajo la cutícula cerosa y brillante. El raquis (prolongación del peciolo) es redondo y carnoso.",
+    "variegacion": "Forma tipo: verde oscuro uniforme y brillante. Cultivares frecuentes: 'Raven' (brotes verde lima que maduran a casi negro o morado oscuro), 'Chameleon' (brotes amarillo dorado que pasan a verde oscuro), variegada (manchas o sectores crema o blancos), 'Zenzi' (enana y compacta, 25-30 cm, foliolos más pequeños y apretados) y 'Lucky' (foliolos más anchos de punta redondeada).",
+    "tallo": "Sin tallo aéreo: lo que parecen tallos son los peciolos, gruesos, carnosos, de sección redonda, muy anchos e hinchados en la base y estrechándose hacia arriba. Es NORMAL que los peciolos tengan motas o rayas oscuras (no es enfermedad). Bajo el sustrato hay rizomas tuberosos gruesos, como patatas, que almacenan agua.",
+    "habito": "Erecto y algo arqueado, en mata que se ensancha por los rizomas. Crecimiento muy lento y a estirones (varias hojas a la vez y luego meses sin brotar). Las hojas nuevas salen del sustrato envueltas y enrolladas. Florece rara vez en interior: espata verde pálida que envuelve un espádice crema, a ras de suelo entre las bases de los peciolos.",
+    "tamano_adulto_interior": "Habitualmente 40-80 cm de alto y 50-100 cm de ancho; con años puede alcanzar 90-120 cm de alto. 'Zenzi' se queda en 25-30 cm.",
+    "confusiones": [
+      {
+        "especie": "Zamia furfuracea (zamia, 'cardboard palm')",
+        "rasgo_diferenciador": "Es una cícada con tronco o cáudice leñoso a ras de suelo; sus foliolos son rígidos, mates o algo ásperos y con pelusa parda (furfurácea) en brotes y envés, con margen a menudo dentado. Zamioculcas no tiene tronco: peciolos carnosos que salen del sustrato y foliolos lisos, enteros y muy brillantes."
+      },
+      {
+        "especie": "Zamia integrifolia (coontie)",
+        "rasgo_diferenciador": "Cícada de foliolos estrechos, lineales, numerosos y de color verde mate, con tronco subterráneo leñoso y conos en lugar de espata; Zamioculcas tiene pocos foliolos anchos, elípticos y brillantes."
+      },
+      {
+        "especie": "Cycas revoluta (cica)",
+        "rasgo_diferenciador": "Tronco leñoso visible, hojas en roseta apical con decenas de foliolos estrechos como agujas, rígidos y con punta pinchosa; nada que ver con los foliolos carnosos y redondeados de la zamioculca."
+      },
+      {
+        "especie": "Zamioculcas zamiifolia 'Zenzi' o 'Raven' (cultivares de la misma especie)",
+        "rasgo_diferenciador": "No son otra especie: 'Zenzi' es enana y compacta; 'Raven' tiene hojas adultas casi negras. Los cuidados son los mismos."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales de oxalato cálcico (NC State Extension); todas las partes se consideran tóxicas si se ingieren (UF/IFAS).",
+    "sintomas": "Gravedad media según NC State Extension. Ingestión: irritación y ardor de boca y garganta, babeo, vómitos y diarrea, sobre todo si se mastican hojas en cantidad. La savia irrita la piel y los ojos (RHS): usar guantes al dividir, cortar o manipular hojas rotas y lavarse las manos después. Mantener fuera del alcance de niños, perros y gatos; si hay ingestión y síntomas, consultar al veterinario o a un servicio de información toxicológica.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "F6"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 270,
+      "lux_max": 10760,
+      "orientacion_hn": "Ideal: luz brillante indirecta a 1-2 m de una ventana este u oeste, o junto a una ventana norte; en ventanas sur u oeste, apartada 2-3 m o tras un visillo. Tolera rincones con poca luz (a partir de unos 25 fc ≈ 270 lux sigue produciendo hojas, según UF/IFAS), pero allí crece aún más despacio y se estira.",
+      "tolera_sol_directo": "No el sol fuerte de mediodía o de tarde, que quema los foliolos (Iowa State, Clemson: 'en cualquier sitio menos a pleno sol'). Tolera sol suave de primera hora de la mañana (Missouri Botanical Garden).",
+      "notas": "Escala del proyecto: baja 25-100 fc (270-1076 lux), media 100-500 fc, brillante indirecta 500-1000 fc (5380-10760 lux). Es una de las plantas más tolerantes a poca luz, por delante de sansevieria y aspidistra según UF/IFAS. Más luz indirecta = crecimiento más rápido y compacto; con muy poca luz los peciolos se alargan, se inclinan y la planta casi no brota.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F6",
+        "F7",
+        "F8",
+        "F5"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar SOLO cuando el sustrato esté seco por completo: comprobar con el dedo a 5 cm de profundidad (o más en macetas grandes) y por el peso de la maceta, que debe estar claramente ligera. Entonces regar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato o cubremacetas a los 10-15 minutos. Nunca por calendario. Si hay duda, esperar: los rizomas almacenan agua y aguanta sin riego 3-4 meses (UF/IFAS); el encharcamiento la mata.",
+      "primavera_verano": "Con crecimiento activo y calor, el sustrato suele tardar en secarse entre 1 y 3 semanas según luz, temperatura y tamaño de maceta (las fuentes dan de 'cada 7-14 días' a 'dos veces al mes'). Esto es solo orientativo: manda la comprobación de sustrato seco y maceta ligera.",
+      "otono_invierno": "Con menos luz y frío el consumo cae mucho: lo habitual es regar una vez al mes o menos, y solo si el sustrato está seco del todo (NC State, Illinois). Con temperaturas por debajo de 15 °C, mantenerla casi seca.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Tolerancia baja a sales (UF/IFAS): evitar agua salina o alcalina y el exceso de abono. El agua del grifo de Madrid es blanda (10-47 mg/L CaCO3) y sirve sin tratamiento; dejarla reposar no elimina la cloramina, pero tampoco hace falta. Si aparece costra blanca de sales, lavar el sustrato con un riego abundante que drene bien.",
+      "notas": "El exceso de riego es la causa nº 1 de muerte de la zamioculca: provoca pudrición de rizomas y raíces (UF/IFAS, Clemson, Iowa State). Ante sequía extrema la planta se defiende soltando foliolos y la parte alta del raquis y conserva la base hinchada del peciolo hasta el siguiente riego (UF/IFAS): no es motivo para regar más a menudo, sino para regar a fondo una vez. Contradicción menor: unas fuentes dan 'cada 7-14 días' (Iowa State) o 'cada semana o dos' (UF Gardening Solutions) y otras 'una o dos veces al mes' (Clemson, NC State); se adopta la opción más conservadora (esperar a sustrato totalmente seco).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F6",
+        "F7",
+        "F8",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Adaptada a ambientes secos: se desarrolla bien con la humedad normal de una vivienda y tolera humedad variable (Clemson, Illinois). No necesita humidificador ni agrupar plantas; pulverizar las hojas no sirve y deja marcas en los foliolos brillantes. Las fuentes no dan un mínimo numérico para interior (en producción comercial se cultiva con 50-95 % de HR, UF/IFAS, pero no es un requisito doméstico).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F8",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 32,
+      "notas": "Rango preferido 18-32 °C (65-90 °F, UF/IFAS). Por debajo de 10 °C se para el crecimiento y puede haber daños y decoloración (UF/IFAS); no tolera heladas. Clemson recomienda mantenerla por encima de 15,5 °C (60 °F) y Missouri Botanical Garden y NC State piden meterla en casa cuando baja de 15,5 °C; la RHS la clasifica H1B (mínimo 10-15 °C). Se adopta 15 °C como mínimo seguro (opción conservadora). Ninguna fuente fija un máximo dañino; 32 °C es el tope del rango preferido.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F4",
+        "F3",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla gruesa y muy drenante. Opción doméstica (Clemson): 50 % sustrato universal de turba o fibra de coco, 25 % perlita y 25 % arena gruesa. Alternativas profesionales (UF/IFAS): 60 % turba + 20 % perlita + 20 % vermiculita, o 55 % turba + 25 % corteza de pino + 20 % perlita. Puede cultivarse en una mezcla tipo cactus/suculentas (Illinois).",
+      "ph": "6,0-7,0 (UF/IFAS, producción comercial)",
+      "drenaje": "Imprescindible: maceta con agujeros, nada de agua estancada en el plato o cubremacetas, y nunca sustrato compacto, que con humedad prolongada causa pudrición de raíces (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F1",
+        "F2",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, con microelementos, muy diluido.",
+      "npk": null,
+      "primavera_verano": "Muy poco: de abril a septiembre, como máximo una vez al mes a ¼-½ de la dosis de etiqueta y solo si la planta está brotando; en la mayoría de casas basta con 2-3 aplicaciones en toda la temporada. Abonar siempre sobre sustrato ya húmedo.",
+      "otono_invierno": "Nada.",
+      "notas": "Planta de crecimiento muy lento y tolerancia baja a sales: el exceso de abono es más peligroso que la falta. Contradicción entre fuentes: UF/IFAS, NC State y Clemson indican abonar solo 1-2 veces al año o en la temporada, mientras que Illinois e Iowa State hablan de 1-2 veces al mes con abono diluido. Se adopta la opción conservadora dentro de la convención del proyecto (máximo mensual a ¼-½ dosis, idealmente 2-3 veces por temporada). En producción no se abona si la conductividad del sustrato es ≥2,0 dS/m (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F6",
+        "F7",
+        "F8",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: solo cuando los rizomas llenan la maceta, la deforman o la agrietan, o asoman por arriba (en la práctica cada varios años por su crecimiento lento). Subir solo un tamaño de maceta: una maceta demasiado grande retiene agua y favorece la pudrición.",
+      "epoca": "Primavera o inicio del verano, con crecimiento activo.",
+      "senales": "Maceta de plástico abombada o rota, rizomas visibles en superficie, raíces por los agujeros, sustrato que se seca en muy pocos días o que ya no drena. Aprovechar para revisar rizomas: deben estar firmes; retirar con herramienta limpia las partes blandas, oscuras o malolientes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F8",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda.",
+      "epoca": "En cualquier momento, cuando haya hojas o flores pasadas.",
+      "como": "Cortar las hojas (peciolos) amarillas, secas o dañadas y las inflorescencias marchitas a ras de sustrato, con tijera limpia y guantes por la savia irritante. No cortar hojas sanas: la planta crece muy despacio y tarda meses en reponerlas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. octubre-marzo en el hemisferio norte; en Madrid, noviembre-febrero de forma más marcada).",
+      "cambios": "No es un reposo estricto sino una parada de crecimiento por menos luz y temperatura: reducir el riego a una vez al mes o menos (solo con sustrato totalmente seco), suspender el abono y no trasplantar ni dividir.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F8"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de rizomas",
+        "esqueje de foliolo",
+        "esqueje de hoja entera o de peciolo con foliolos"
+      ],
+      "epoca": "Primavera-verano, con temperaturas de 24-29 °C, que es cuando enraízan mejor.",
+      "pasos": "División (más rápida): 1) sacar la planta de la maceta y aflojar el sustrato; 2) separar a mano o con herramienta limpia secciones de rizoma con al menos una hoja y raíces suficientes; 3) plantar en sustrato drenante, regar ligeramente y poner en luz brillante indirecta. Esqueje de foliolo (lento): 1) cortar foliolos sanos con su base, o una hoja entera por la base del peciolo; 2) dejar secar el corte unos días para que cicatrice; 3) clavar 1-1,5 cm en sustrato limpio y apenas húmedo (o poner en agua poco profunda); 4) mantener a unos 24-29 °C con luz brillante indirecta y humedad ambiental alta; 5) primero se forma un pequeño rizoma y raíces, y la primera hoja puede tardar varios meses. Un trozo de peciolo sin foliolos no enraíza.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F8",
+        "F5",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces y rizomas por exceso de riego, agua estancada en el plato o sustrato compacto que se mantiene húmedo mucho tiempo. Es la causa nº 1 de muerte en esta especie (UF/IFAS, Clemson, Iowa State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base de los peciolos blanda, oscura y hundida a ras de sustrato: pudrición del rizoma por riego excesivo, sobre todo en invierno con frío."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo de varios foliolos y peciolos a la vez: casi siempre exceso de riego (raíces dañadas); comprobar rizomas antes de volver a regar."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de alguna hoja vieja aislada: renovación normal. Caída de foliolos con el resto de la planta firme y sustrato seco desde hace mucho: defensa ante sequía prolongada (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Peciolos que se inclinan o caen: luz insuficiente (tallos largos y débiles) o rizoma podrido si además están blandos en la base."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Peciolos largos, finos y arqueados hacia la ventana en rincones muy oscuros; tolera poca luz pero allí se estira."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Normal hasta cierto punto: crece muy despacio y a estirones. Parada prolongada en primavera-verano: poca luz, frío o maceta con rizomas dañados."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Foliolos amarillentos, blanquecinos o quemados por sol directo de mediodía o tarde, sobre todo tras cristal en ventanas sur u oeste."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Ojo: las motas o rayas oscuras SECAS en los peciolos son normales de la especie (Clemson). Solo preocupa si las manchas son blandas y empapadas, señal de pudrición por exceso de agua."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en peciolos y nervios; es la plaga a vigilar según NC State, aunque en general la especie tiene pocas plagas."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de foliolos y bases de peciolos (plaga ocasional de interior, Illinois)."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales por exceso de abono (tolera poco las sales) o moho saprófito en sustrato que no llega a secarse."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte, apartarla 2-3 m de ventanas sur y oeste o poner visillo: el sol a través del cristal quema los foliolos. El calor seco no le molesta (no necesita humedad extra), pero el sustrato se seca antes: seguir comprobando sustrato seco a 5 cm y maceta ligera, no regar más por calendario. Evitar dejarla en balcón o terraza a pleno sol; si se saca fuera, solo a sombra luminosa.",
+    "invierno": "La calefacción y la humedad interior por debajo del 30 % no le afectan: no pulverizar ni poner humidificador por ella. Lo peligroso es el frío y el agua: alejarla de cristales fríos y de corrientes en ventanas (mantener por encima de 15 °C) y no ponerla pegada a radiadores. Regar muy poco (una vez al mes o menos, solo con sustrato totalmente seco) y no abonar. En ventana norte, acercarla a la luz en invierno para que no se estire.",
+    "ubicacion_recomendada": "Salón o despacho con luz indirecta, a 1-2 m de ventana este u oeste, junto a ventana norte o a 2-3 m de una sur. Sirve también para rincones con poca luz y pasillos luminosos, asumiendo que allí apenas crecerá. Fuera del alcance de niños, perros y gatos."
+  },
+  "lagunas": [
+    "ASPCA no tiene ficha de Zamioculcas zamiifolia en su base de plantas tóxicas y no tóxicas (la URL /toxic-and-non-toxic-plants/zz-plant devuelve página vacía); la toxicidad se apoya en NC State Extension, RHS, Iowa State, UF/IFAS y Clemson. No se encontró ficha propia en Pet Poison Helpline.",
+    "Humedad: ninguna fuente prioritaria da un mínimo o un ideal numérico de humedad relativa para interior; min_pct e ideal_pct quedan a null.",
+    "Temperatura máxima dañina: ninguna fuente fija un límite superior; max_c queda a null (32 °C es el tope del rango preferido de UF/IFAS).",
+    "NPK concreto para uso doméstico: no especificado (UF/IFAS da 18-2,6-10 solo para producción comercial con abono de liberación lenta).",
+    "Frecuencia de trasplante en años: ninguna fuente prioritaria da un intervalo; solo se indica trasplantar por señales.",
+    "Tamaño de los foliolos: Missouri Botanical Garden indica hasta 15 cm y NC State unos 2,5-5 cm (unos 25 foliolos); depende del tamaño de la planta y se da el rango completo.",
+    "Taxonomía: nombre aceptado sin cambios en POWO; sinónimos Caladium zamiifolium G.Lodd., Zamioculcas loddigesii Schott y Z. lanceolata Peter.",
+    "Nombre con autor o aceptado según las fuentes: Zamioculcas zamiifolia (G.Lodd.) Engl.."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://edis.ifas.ufl.edu/publication/EP480",
+      "institucion": "UF/IFAS Extension (University of Florida) – ENH1219 Florida Foliage House Plant Care: ZZ Plant (Henny y Chen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/EP252",
+      "institucion": "UF/IFAS Extension (University of Florida) – Cultural Guidelines for Commercial Production of Interiorscape ZZ (Chen y Henny)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d179",
+      "institucion": "Missouri Botanical Garden – Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/Plants/19185/Zamioculcas-zamiifolia/Details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/zz-plant/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+      "institucion": "Iowa State University Extension – Yard and Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+      "institucion": "University of Illinois Extension – Good Growing",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/zz-plant/",
+      "institucion": "UF/IFAS Gardening Solutions (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:89402-1",
+      "institucion": "Plants of the World Online (Royal Botanic Gardens, Kew)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

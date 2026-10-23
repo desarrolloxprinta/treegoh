@@ -1,0 +1,306 @@
+{
+  "nombre_cientifico": "Lithops lesliei",
+  "nombres_comunes": [
+    "piedras vivas",
+    "lithops",
+    "piedra viva de Leslie"
+  ],
+  "familia": "Aizoaceae",
+  "origen": "Sudáfrica (RHS: 'S Africa'; NC State para el género: Botsuana, provincias del Cabo, Estado Libre, Namibia y provincias del norte). POWO, según el resultado de búsqueda (la página no se pudo abrir, bloqueo 403), da como área nativa del SE de Botsuana al Estado Libre. Wikipedia: zonas de lluvias de verano de Sudáfrica, en zonas rocosas de pastizal y sabana, a menudo a la sombra de otras plantas; especie amenazada por recolección para uso medicinal y pérdida de hábitat. Nombre aceptado: Lithops lesliei (N.E.Br.) N.E.Br. (GBIF; RHS: nombre 'Correct'). Basiónimo y sinónimos: Mesembryanthemum lesliei N.E.Br., Mesembryanthemum ferrugineum Schwantes, Lithops orpenii L.Bolus, Lithops venteri Nel (GBIF).",
+  "clima_nativo": "Semiárido con lluvias concentradas en verano (Wikipedia) en el interior de Sudáfrica. Para el género, Wisconsin y NC State indican lluvias anuales generalmente inferiores a 500 mm (20 pulgadas), sobre todo en primavera y otoño, sobre gravas de cuarzo, arenas y rocas descompuestas, con sol intenso y largas sequías. Rusticidad: RHS H2 (tolera frío ligero, mínimas de 1 a 5 °C, no sobrevive a la congelación); NC State, zonas USDA 10a-11b para el género.",
+  "categoria": "suculenta",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Cada cuerpo es un único par de hojas muy carnosas, soldadas en forma de cono invertido, con una fisura en la parte superior que separa las dos hojas (Wisconsin, NC State). La cara superior es plana o algo convexa y tiene 'ventanas' translúcidas por donde entra la luz al interior de la hoja (Wisconsin, NC State). En L. lesliei las hojas son de color marrón pálido con los extremos moteados de verde oliva oscuro (RHS); según Llifle (complementaria), la coloración va de marrón amarillento y marrón óxido a verde rojizo o rojo oscuro, con un dibujo de canales o ventanas verdosas y 'islas' irregulares de color óxido, y una fisura poco profunda (≈2 mm). Cada año se forma un par nuevo dentro del viejo, que se arruga y queda como una vaina seca y papirácea a los lados (Wisconsin); el par nuevo sale con la fisura girada unos 90° respecto a la anterior (Wisconsin). Una planta sana solo tiene un par de hojas por cuerpo a la vez (NC State).",
+    "nerviacion": "No visible: hojas suculentas sin nervios apreciables. Lo característico es el dibujo de ventanas translúcidas y manchas de la cara superior.",
+    "variegacion": "La especie no es variegada. Existen formas y variedades de color distinto: 'Albinica' (cuerpos verde amarillento claro y flores blancas) y albiflora (flores blancas), y variedades como var. rubrobrunnea, var. venteri, var. hornii o var. minor (RHS, GBIF; descripción de color de 'Albinica' solo en fuente complementaria). Un cuerpo que se vuelve verde, alargado y pálido no es una variedad: es falta de luz (Wisconsin).",
+    "tallo": "Sin tallo: la raíz pivotante se une directamente a la base de las hojas (Wisconsin, NC State). Raíces extensas para el tamaño de la planta (Wisconsin).",
+    "habito": "Planta enana, a ras de suelo, solitaria o formando pequeñas matas de varias cabezas (RHS: forma mata; Llifle: de 1 a 10 cuerpos, normalmente 2-5). Flor solitaria tipo margarita, de color amarillo (rara vez blanca), de unos 3 cm, que sale de la fisura y se abre en las horas soleadas (RHS, Wisconsin, Llifle). Floración: finales de verano y otoño según RHS; otoño y principio de invierno para el género según Wisconsin y NC State. En Madrid suele florecer entre septiembre y noviembre [orientativo, sin fuente prioritaria]. Florece a partir de los 3-4 años desde semilla (Wisconsin). Vive hasta 40-50 años (Wisconsin, NC State).",
+    "tamano_adulto_interior": "Cada cuerpo mide unos 2-3 cm de diámetro y sobresale 1-2,5 cm del sustrato (Wisconsin y NC State para el género: 1,3-2,5 cm de alto y 2,5-7,5 cm de ancho; Llifle para la especie: cuerpos de menos de 2 cm de ancho, lo que es poco habitual en cultivo [orientativo]). La mata alcanza hasta 10 cm de alto y 10 cm de ancho (RHS) en 5-10 años (RHS). Crecimiento muy lento (NC State).",
+    "confusiones": [
+      {
+        "especie": "Lithops aucampiae",
+        "rasgo_diferenciador": "Cuerpos más grandes y de cara superior marrón rojiza con ventanas oscuras más amplias; también de flor amarilla. Rasgo no verificado en fuente prioritaria: la separación segura entre especies de Lithops se basa en el dibujo de la cara superior y suele requerir etiqueta del vivero. L. lesliei: marrón pálido con extremos moteados de verde oliva (RHS)."
+      },
+      {
+        "especie": "Lithops karasmontana, Lithops optica y otras Lithops de flor blanca",
+        "rasgo_diferenciador": "Flor blanca (L. lesliei la tiene amarilla, salvo las formas 'Albinica' y albiflora) y cara superior de tonos grisáceos o rosados con dibujo distinto. Wisconsin indica que todas las especies se parecen mucho y se distinguen sobre todo por forma, dibujo, color y textura del cuerpo."
+      },
+      {
+        "especie": "Conophytum spp.",
+        "rasgo_diferenciador": "Cuerpos casi siempre más pequeños y redondeados, a menudo con una fisura diminuta o en forma de corazón, y muchas cabezas apiñadas; la cara superior no suele tener ventanas grandes con islas como Lithops [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Pleiospilos nelii (piedra partida)",
+        "rasgo_diferenciador": "Mucho más grande (hasta 8-10 cm por cuerpo), de hojas gruesas casi hemisféricas, gris verdosas con puntos oscuros, y fisura profunda que separa del todo las hojas [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Piedras y guijarros de adorno",
+        "rasgo_diferenciador": "Muy frecuente en fotos: Lithops imita piedras (Wisconsin). Una piedra no tiene fisura central ni ventanas translúcidas, y no cede ligeramente al tacto."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas de intoxicación. ASPCA clasifica 'Living Stones' (ficha bajo Lithops naureeniae, no L. lesliei) como no tóxica para perros, gatos y caballos; NC State etiqueta el género Lithops como no tóxico para perros, gatos y caballos, y Wisconsin indica que Lithops no es tóxica para personas ni mascotas. Los datos son de género, no específicos de L. lesliei. Comer cualquier planta puede causar un malestar digestivo leve y pasajero (vómito) en mascotas. Ante ingestión grande o síntomas, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F5",
+      "F2",
+      "F1"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur (la mejor según Wisconsin y NYBG; RHS: orientación sur u oeste) o ventana este despejada como alternativa (Wisconsin). Norte: insuficiente.",
+      "tolera_sol_directo": "Sí, lo necesita: unas 4-5 horas de sol directo, preferiblemente de mañana, con sombra parcial por la tarde (Wisconsin, NC State, NYBG); NYBG indica que en verano puede necesitar sombra de tarde. RHS: sol pleno. Aclimatar poco a poco: pasarla de golpe a más luz puede quemarla de forma mortal (Wisconsin).",
+      "notas": "Con poca luz se alarga, se inclina hacia la ventana, pierde color, se vuelve verdosa y acaba muriendo (Wisconsin); NC State lo llama etiolación. Por la escala del proyecto, 4-5 h de sol directo equivalen a luz directa (>1000 fc, >10760 lux) durante parte del día; lux_max = null porque ninguna fuente fija techo, pero el sol de tarde de verano tras el cristal quema. Mucha luz en otoño favorece la floración (Llifle, complementaria). Si falta luz natural en invierno, una lámpara de cultivo cercana ayuda [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar SOLO en las fases del ciclo en que la planta crece y SOLO con el sustrato seco del todo: comprobar con el dedo a 5 cm (convención de suculentas del proyecto) y que la maceta pese claramente menos. Entonces empapar hasta que salga agua por el drenaje, vaciar el plato y no volver a regar hasta que se seque por completo (Wisconsin: suele tardar 1-2 semanas) y esperar un par de días más (Wisconsin). Regar por la mañana (Wisconsin, NYBG). Ante la duda, no regar (Wisconsin). Nunca por calendario: el exceso de riego es la causa principal de muerte (Wisconsin). La regla clave: mientras el par de hojas viejo no esté completamente seco y papiráceo, NO se riega, porque las hojas viejas alimentan a las nuevas (Wisconsin, NYBG).",
+      "primavera_verano": "Hemisferio norte / Madrid. PRIMAVERA: el sustrato sigue seco hasta que el par viejo se haya arrugado y secado del todo, convertido en una vaina papirácea; solo entonces se reanuda el riego (Wisconsin). En Madrid esto suele ocurrir entre abril y mayo [orientativo, sin fuente prioritaria]; Llifle (complementaria) lo sitúa en finales de marzo o abril. Desde ese momento hasta principios de verano (≈mayo-junio en Madrid), riegos de empapar y secar del todo, ligeros al principio (Wisconsin, NC State: regar de finales de primavera a principios de verano; NYBG: en primavera regar poco y dejar secar). VERANO (≈julio-agosto en Madrid, con 35-40 °C): reposo estival, se suspende el riego (Wisconsin, NC State). Si el cuerpo se arruga mucho, dar solo lo justo para que recupere la firmeza, mojando únicamente el centímetro superior del sustrato (Wisconsin: la media pulgada superior). Un arrugado ligero en verano es normal y no exige agua.",
+      "otono_invierno": "OTOÑO (≈finales de agosto o septiembre hasta el final de la floración, octubre-noviembre en Madrid): se reanuda el riego cuando la planta vuelve a crecer y florecer; la primera señal es que la fisura entre las hojas empieza a abrirse para sacar la flor (Wisconsin). Empapar y dejar secar del todo; NC State da como referencia un riego cada 2 semanas en esta fase, pero manda la comprobación del sustrato a 5 cm y del peso. INVIERNO Y PRINCIPIO DE PRIMAVERA (desde que termina la floración, ≈noviembre-diciembre, hasta que el par viejo esté seco del todo): NADA de agua (Wisconsin, NC State; NYBG: poca o ninguna; RHS: nada en reposo). Durante este tiempo el par nuevo crece dentro del viejo absorbiendo su agua. Si se riega antes de tiempo, las hojas viejas siguen creciendo, la planta no se desarrolla bien (Wisconsin), aparecen dos pares superpuestos, cuerpos que se rajan o podredumbre (NC State).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo de Madrid (agua blanda del Canal de Isabel II, flúor <0,1 mg/L; dejarla reposar no elimina la cloramina, pero no hace falta). Agua a temperatura ambiente o de lluvia (NYBG).",
+      "notas": "Contradicción entre fuentes sobre los meses (todas coinciden en no regar en invierno ni durante el cambio de hojas): Wisconsin y NC State suspenden el riego en pleno verano (reposo estival); NYBG riega poco en verano; Llifle (complementaria) riega con generosidad toda la temporada de crecimiento y reanuda en marzo-abril. Se adopta lo más conservador (menos agua): reanudar en primavera solo con el par viejo totalmente seco, no regar en julio-agosto salvo arrugado fuerte y nada desde el final de la floración hasta la primavera. L. lesliei es de las especies que mejor toleran algún error de riego (Wikipedia, complementaria), pero eso no cambia el calendario. Riego por inmersión de la maceta (Llifle, complementaria) es válido si luego escurre bien. Señales de exceso: cuerpos amarillentos y blandos, manchas marrones, cuerpos rajados y raíz podrida (NC State). Señal de falta: crecimiento enano (Wisconsin) y arrugado intenso fuera del cambio de hojas. No pulverizar nunca.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3",
+        "F7",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prospera con humedad ambiental baja (Wisconsin, NYBG), por lo que el aire seco de las casas y de Madrid no es problema. No necesita humidificador ni agrupar plantas; pulverizar es contraproducente (moja la fisura y favorece pudriciones). Necesita aire fresco y ventilación, sobre todo con calor (Wisconsin); los problemas se agravan con tiempo fresco, nublado o húmedo (Llifle, complementaria). Ninguna fuente da cifras de humedad relativa: valores null.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": 38,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Mínima: NC State indica que no tolera menos de 40 °F (4,4 °C) y hay que protegerla de heladas; RHS la califica H2 (mínimas de 1 a 5 °C, no sobrevive a la congelación); Llifle (complementaria) da 5 °C de mínima y supervivencia breve hasta -7 °C con sustrato seco. Se adopta la más conservadora: no bajar de 5 °C. Máxima: NC State, tolera 90-100 °F (32-38 °C); Wisconsin, tolera temperaturas muy altas si hay buena ventilación. Ideal 65-80 °F (18-27 °C) según NC State. Nunca dejar que se congele (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mineral y de drenaje muy rápido: sustrato para cactus y suculentas, o sustrato normal enmendado con arena gruesa o perlita (Wisconsin); mezcla de cactus o arenosa con grava (NC State); sustrato a base de tierra franca sin turba con grava extra (RHS); mezcla de cactus con arena extra en proporción 2:1 (NYBG). En la práctica, al menos la mitad del volumen mineral (arena gruesa lavada, grava fina, pómez) [orientativo, sin fuente prioritaria]. Cubrir la superficie con grava o arena gruesa de forma que solo asomen las caras superiores (NYBG, Wisconsin).",
+      "ph": "Indiferente: ácido, neutro o alcalino (RHS).",
+      "drenaje": "Imprescindible. Maceta con agujeros. Profundidad de 7,5-12,5 cm (Wisconsin; NYBG: 7,5-15 cm) por la raíz pivotante y extensa. Colocar el cuerpo ligeramente por encima del nivel del sustrato (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido bajo en nitrógeno y rico en potasio (Wisconsin), o abono líquido equilibrado (RHS), muy diluido. Puede prescindirse de él.",
+      "npk": null,
+      "primavera_verano": "Mínimo: como mucho 1-2 aplicaciones al año a ¼-½ de la dosis de etiqueta, aprovechando un riego de la fase de crecimiento (finales de primavera tras el cambio de hojas). RHS habla de 2-3 aplicaciones por temporada y Wisconsin de abonar con moderación. Nada durante el cambio de hojas ni en el reposo de julio-agosto.",
+      "otono_invierno": "Opcional una sola aplicación diluida en otoño, en plena fase de crecimiento y floración y coincidiendo con un riego. Nada desde el final de la floración hasta la primavera.",
+      "notas": "Se adopta lo más prudente entre RHS (2-3 veces) y Wisconsin (con moderación), dentro de la convención del proyecto (¼-½ dosis, máximo mensual, solo con crecimiento activo). El exceso de abono favorece cuerpos blandos y alargados [orientativo, sin fuente prioritaria]. npk = null: ninguna fuente fija fórmula.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Muy rara vez: puede vivir 10-20 años en la misma maceta (Wisconsin). Solo cuando la mata llene la maceta o el sustrato se haya degradado.",
+      "epoca": "Al terminar el cambio de hojas, en primavera, cuando el par viejo esté seco y antes de reanudar el riego [orientativo, sin fuente prioritaria]; RHS sitúa en primavera la división de hijuelos. Tras trasplantar, esperar unos días antes de regar [orientativo, sin fuente prioritaria].",
+      "senales": "Cuerpos que cubren toda la superficie, raíces que salen por el drenaje, sustrato compactado que tarda mucho en secarse.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No (RHS: no requiere poda).",
+      "epoca": "No aplica.",
+      "como": "No cortar nada. Las hojas viejas se secan solas y quedan como una vaina papirácea a los lados del par nuevo (Wisconsin): no arrancarlas mientras estén verdes o blandas, porque alimentan al par nuevo; cuando estén completamente secas pueden retirarse con cuidado o dejarse [orientativo, sin fuente prioritaria]. Las flores marchitas pueden quitarse cuando se sequen.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Dos fases secas en el hemisferio norte / Madrid: (1) desde el final de la floración (≈noviembre-diciembre) hasta que el par viejo se seca en primavera (≈abril-mayo), periodo de formación del par nuevo dentro del viejo; (2) reposo estival en pleno verano (≈julio-agosto) (Wisconsin, NC State).",
+      "cambios": "Sin riego en ambas fases (en verano, solo un sorbo superficial si se arruga mucho), sin abono, máxima luz posible en invierno y fresco moderado sin bajar de 5 °C (NC State, RHS). Reanudar el riego en primavera solo cuando el par viejo esté seco del todo (Wisconsin) y a finales de verano cuando se abra la fisura para florecer (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "división de matas de varias cabezas"
+      ],
+      "epoca": "Semilla en primavera (RHS) o verano (Wisconsin), con calor; división en primavera (RHS).",
+      "pasos": "Semilla: sembrar en sustrato muy drenante y cubrir con una capa muy fina de arena; regar con suavidad para no desplazarla; poner en lugar cálido y luminoso, manteniendo húmedo sin encharcar. Germina en unas semanas (algunas hasta un año). Con las plántulas creciendo, dejar secar el ¼ de pulgada superior (≈0,5 cm) manteniendo húmedo debajo; el exceso de agua provoca la caída de plántulas (damping off). A los 2-3 meses, dejar secar del todo unos días entre riegos y alargar poco a poco el secado. Trasplantar con un año. Florecen a los 3-4 años (Wisconsin). Las flores necesitan polinización cruzada: la especie es autoestéril (Wisconsin). División: sacar la planta de varias cabezas, cortar con cuidado a través de las raíces y replantar enseguida (Wisconsin). Los esquejes no suelen merecer la pena (Llifle, complementaria).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Exceso de riego, sobre todo en invierno, durante el cambio de hojas o con frío: cuerpos amarillentos, blandos o translúcidos que acaban pudriéndose (NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de la raíz pivotante por sustrato poco drenante, maceta sin agujeros o riego frecuente (NC State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base del cuerpo oscura y blanda por agua acumulada alrededor del cuello o cuerpo enterrado demasiado; colocar el cuerpo algo por encima del sustrato y con grava (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Cuerpos rajados o partidos (NC State) y pares nuevos deformes o superpuestos al viejo por regar durante el cambio de hojas o en reposo (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Arrugado: es NORMAL en el par viejo durante el cambio de hojas (no regar) y tolerable en el reposo de verano. Solo indica sed si ocurre en la fase de crecimiento con el sustrato seco mucho tiempo; entonces se riega a fondo (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de sol directo: el cuerpo se alarga, se inclina hacia la ventana, pierde color y se vuelve verdoso (Wisconsin, NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paso brusco a sol directo o sol de tarde de verano tras el cristal en ventanas sur u oeste: quemadura que puede ser mortal (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la fisura, en las hojas nuevas, las flores y también en las raíces (RHS, NC State; raíces según Llifle)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en ambiente cálido y seco (NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosca del sustrato (Sciara) en semilleros y sustratos húmedos con materia orgánica; la grava en superficie la disuade (Llifle, complementaria)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento detenido o cuerpos enanos por falta de agua en las fases de crecimiento (Wisconsin) o por falta de luz."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, julio-agosto es el reposo estival: no regar (salvo un sorbo superficial si el cuerpo se arruga mucho) y no abonar (Wisconsin, NC State). En ventana sur u oeste, evitar el sol directo de las horas centrales y de la tarde tras el cristal (NYBG: sombra de tarde en verano); mantener ventilación, porque tolera el calor si hay aire fresco (Wisconsin). No sacarla a pleno sol de golpe. El aire seco (HR ≈38 %) no es problema. Con calor y sustrato húmedo el riesgo de pudrición es alto: el riego de finales de primavera debe terminar al llegar las olas de calor.",
+    "invierno": "Nada de agua desde el final de la floración (≈noviembre-diciembre) hasta que el par viejo esté seco del todo (≈abril-mayo): el par nuevo crece a costa del viejo. La calefacción y la humedad interior <30 % no le perjudican (prospera con humedad baja, Wisconsin, NYBG), pero no ponerla encima de un radiador. Darle la ventana más luminosa (sur) para que no se alargue. Junto a cristales fríos, que no baje de 5 °C (NC State, RHS); un alféizar algo fresco (10-15 °C) con sustrato seco es aceptable [orientativo, sin fuente prioritaria].",
+    "ubicacion_recomendada": "Alféizar interior de ventana sur o este despejada, con 4-5 h de sol directo de mañana y algo de sombra por la tarde en verano (Wisconsin, NC State, NYBG). En terraza solo de primavera a otoño, protegida de la lluvia y aclimatada poco a poco; entrar antes de que haya noches por debajo de 5 °C y cuando lleguen las lluvias otoñales si no hay techo [orientativo, sin fuente prioritaria]."
+  },
+  "lagunas": [
+    "Nombre aceptado: Lithops lesliei (N.E.Br.) N.E.Br. (GBIF; RHS: 'Correct'). Sinónimos según GBIF: Mesembryanthemum lesliei N.E.Br. (basiónimo), Mesembryanthemum ferrugineum Schwantes, Lithops orpenii L.Bolus, Lithops venteri Nel. POWO no se pudo abrir (403); su área nativa (SE de Botsuana al Estado Libre) procede solo de un resultado de búsqueda.",
+    "No hay ficha de cultivo de la especie en una extensión universitaria: Wisconsin, NC State y NYBG tratan el género Lithops; la ficha RHS es de la especie pero solo da pautas breves (riego moderado en crecimiento, nada en reposo, sin meses).",
+    "Los meses del calendario de riego no están fijados por ninguna fuente prioritaria para Madrid: se traducen las fases (finales de primavera, verano, finales de verano-otoño, invierno-principio de primavera) a meses orientativos. Lo que manda es el estado de la planta (par viejo seco, fisura abriéndose para florecer).",
+    "Toxicidad: ASPCA no tiene ficha de L. lesliei; la de 'Living Stones' figura bajo Lithops naureeniae (con nombres comunes erróneos 'Kiawe, Mesquite'). NC State y Wisconsin dan no tóxica para el género. Ninguna fuente prioritaria de toxicología humana específica; Wisconsin afirma que no es tóxica para personas.",
+    "Sin cifras de humedad relativa en fuentes prioritarias (solo 'prospera con humedad baja').",
+    "Sin dato prioritario de fecha óptima de trasplante ni de frecuencia de abonado específica para la especie.",
+    "Descripción morfológica fina de la especie (diámetro de cuerpo, variedades y rasgos frente a otras Lithops) solo en fuentes complementarias (Llifle) salvo la breve descripción de RHS; no se encontró la ficha de SANBI PlantZAfrica ni la del Red List de SANBI accesible."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hort.extension.wisc.edu/articles/living-stones-lithops/",
+      "institucion": "University of Wisconsin–Madison, Division of Extension (Wisconsin Horticulture), S. Mahr",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/lithops/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox (Lithops)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/10367/lithops-lesliei/details",
+      "institucion": "Royal Horticultural Society (RHS), Lithops lesliei",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libanswers.nybg.org/faq/222842",
+      "institucion": "New York Botanical Garden, Mertz Library Plant Information Service",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/node/5098",
+      "institucion": "ASPCA Animal Poison Control, Toxic and Non-Toxic Plants: Living Stones",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://api.gbif.org/v1/species/7329207/synonyms",
+      "institucion": "GBIF Backbone Taxonomy",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://llifle.eu/Encyclopedia/SUCCULENTS/Family/Aizoaceae/12971/Lithops_lesliei_f._minor",
+      "institucion": "LLIFLE, Encyclopedia of Succulents",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://en.wikipedia.org/wiki/Lithops_lesliei",
+      "institucion": "Wikipedia",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

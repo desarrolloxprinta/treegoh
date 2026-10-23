@@ -1,0 +1,331 @@
+{
+  "nombre_cientifico": "Pachira aquatica",
+  "nombres_comunes": [
+    "pachira",
+    "árbol del dinero",
+    "castaño de Guayana",
+    "castaño de Malabar",
+    "money tree"
+  ],
+  "familia": "Malvaceae",
+  "origen": "Nativa del centro y sur de México a Centroamérica (Belice, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panamá) y Sudamérica tropical (Colombia, Venezuela, Guayanas, Ecuador, Perú, Bolivia, norte y nordeste de Brasil) según POWO. Introducida en Cuba, La Española, Puerto Rico, Trinidad y Tobago, varios países de África occidental y central e islas del Pacífico.",
+  "clima_nativo": "Tropical húmedo de tierras bajas, sin heladas: pantanos de agua dulce, estuarios, orillas de ríos que se desbordan y selvas lluviosas (NC State), de 0 a unos 1.200 m de altitud en Colombia (Catálogo de Plantas y Líquenes de Colombia, recogido en POWO). En hábitat es un árbol de hasta unos 18-20 m (NC State: 60 ft; RHS: 20 m). NC State la sitúa en zonas USDA 10a-12b; la RHS la califica H1B (necesita protección; mínima 10-15 °C).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Compuestas palmeadas (digitadas): cada hoja tiene 5-9 folíolos lanceolados que salen del extremo de un pecíolo largo, como los dedos de una mano (NC State). Folíolos verdes, brillantes, lisos, sin pelos, margen entero, de unos 13-25 cm de largo (NC State: 5-10 in). Hojas grandes, verde oscuro brillante (RHS). Las hojas se agrupan en coronas o verticilos en lo alto de cada tallo (NYBG). En los ejemplares trenzados de tienda lo habitual son 5 folíolos (número asociado a la suerte en la tradición china), pero pueden salir 6-7 o más.",
+    "nerviacion": "Cada folíolo tiene un nervio central claro y marcado con nervios secundarios pinnados finos que se curvan hacia el margen; los folíolos parten todos de un mismo punto (inserción palmeada) en el extremo del pecíolo.",
+    "variegacion": "La especie es verde uniforme. En el comercio existe alguna forma variegada (verde con crema) vendida como 'Variegata', sin respaldo en fuentes prioritarias y cuya especie real (P. aquatica o P. glabra) no está comprobada [orientativo, sin fuente prioritaria].",
+    "tallo": "Leñoso, recto, flexible y poco ramificado; verde brillante de joven y gris-pardo después (RHS). Corteza lisa a algo surcada, parda oscura a gris, con la base engrosada en caudex que actúa como reserva de agua (NC State). Lo más característico en tienda: 3-5 tallos jóvenes trenzados entre sí (técnica originada en Taiwán en los años 80), a veces atados con cintas de colores, o un solo tronco con la base abultada en ejemplares tipo bonsái.",
+    "habito": "Árbol de porte erguido, con tallos desnudos y la copa de hojas palmeadas concentrada arriba (aspecto de pequeña palmera o paraguas). Ramifica mal por sí sola: tras despuntar suele sacar uno o dos brotes nuevos. En interior casi nunca florece (NC State); las flores, que solo se ven en ejemplares adultos al aire libre en el trópico, son enormes, nocturnas, de un día, con pétalos crema de hasta 30 cm y 200-250 estambres largos con la punta roja (NC State, RHS), seguidas de una cápsula leñosa parda con 10-25 semillas.",
+    "tamano_adulto_interior": "Normalmente 1-1,5 m en maceta (RHS); hasta 1,8-2,4 m como máximo en interior (NC State: 6-8 ft; NYBG: 3-6 ft habitual). Anchura en maceta 0,1-0,5 m (RHS). Crecimiento rápido en condiciones buenas (NC State).",
+    "confusiones": [
+      {
+        "especie": "Pachira glabra",
+        "rasgo_diferenciador": "Es la confusión principal y la más probable: muchas, posiblemente la mayoría, de las 'pachiras' trenzadas vendidas como P. aquatica son en realidad P. glabra (especie aceptada distinta en POWO, nativa del sureste y sur de Brasil), por un error de identificación antiguo en los viveros de Taiwán. De joven y sin flor son casi imposibles de distinguir por la hoja. Pistas (fuentes complementarias): P. glabra tiene la base del tronco más claramente abultada (bulbosa); sus flores son enteramente blancas (estambres blancos) y su fruto es verde y liso, mientras que P. aquatica tiene estambres con la punta roja y fruto grande pardo-caoba aterciopelado. Algunos cultivadores citan folíolos algo más largos y puntiagudos en P. glabra [orientativo, sin fuente prioritaria]. Una IA de visión no debe afirmar la especie a partir de hojas o tronco trenzado: debe responder 'Pachira (P. aquatica o P. glabra)'. Los cuidados en interior son prácticamente los mismos."
+      },
+      {
+        "especie": "Schefflera arboricola y Schefflera actinophylla (cheflera)",
+        "rasgo_diferenciador": "También tienen hojas palmeadas, pero con más folíolos (7-16), cada uno con su propio peciolulo visible, más gruesos y a menudo colgantes; tallos sin base engrosada y casi nunca trenzados. En Pachira los folíolos (5-9) son lanceolados, finos, brillantes y salen casi sin peciolulo del extremo del pecíolo, y la base del tronco suele estar engrosada."
+      },
+      {
+        "especie": "Dracaena sanderiana (bambú de la suerte)",
+        "rasgo_diferenciador": "También se vende con tallos trenzados o en espiral como planta de la suerte, pero sus hojas son simples, lineales-lanceoladas y salen directamente del tallo verde con nudos tipo caña; Pachira tiene hojas compuestas palmeadas sobre pecíolo largo y tallos leñosos grises-pardos."
+      },
+      {
+        "especie": "Crassula ovata (también llamada 'árbol del dinero' o 'árbol de jade')",
+        "rasgo_diferenciador": "Comparte el nombre común en España, pero es una suculenta de hojas simples, carnosas, ovaladas y gruesas; no se parece en la forma: sirve para desambiguar el nombre común en búsquedas por texto."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "toxica",
+    "ninos": "no_toxica",
+    "principio_activo": "ASPCA: ninguno conocido (planta no tóxica). NC State: ácidos grasos ciclopropenoides en las semillas, posiblemente tóxicos y carcinógenos si se ingieren de forma habitual; las plantas de interior no producen semillas.",
+    "sintomas": "ASPCA: no tóxica para perros, gatos y caballos; la ingestión puede causar náuseas, vómitos y heces blandas (molestia digestiva leve y pasajera, propia de comer material vegetal). NC State la marca como 'problema para gatos' con malestar gastrointestinal leve a moderado (vómitos, diarrea, salivación) y toxicidad de severidad baja para personas, solo por las semillas. Riesgo bajo; ante síntomas persistentes, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F5"
+    ],
+    "notas": "Contradicción entre fuentes prioritarias: ASPCA la clasifica como no tóxica para perros y gatos; NC State la etiqueta como problema para gatos (malestar digestivo). Se adopta la opción conservadora para gatos ('toxica', de severidad leve) y se mantiene 'no_toxica' para perros, donde no hay contradicción. Para niños se marca 'no_toxica' porque la única parte señalada como tóxica (semillas, NC State) no se forma en plantas de interior y las hojas jóvenes y flores se consumen cocinadas en su área nativa (NC State); aun así no debe ingerirse. Además, en el comercio la planta suele ser P. glabra, cuya toxicidad no tiene ficha propia en ASPCA."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Habitación luminosa con sol buena parte del día pero sin sol directo sobre la planta (NYBG): ventana este o a 1-2 m de una ventana sur u oeste tras visillo; ventana norte muy despejada solo como mínimo. Girar la maceta un cuarto de vuelta en cada riego para que crezca equilibrada (NYBG).",
+      "tolera_sol_directo": "No el sol fuerte: el sol directo intenso quema las hojas (NC State, NYBG, NYBG FAQ). Tolera algo de sol suave de primera hora. Si se saca al exterior en verano, a sombra o luz tamizada y aclimatándola poco a poco (NYBG FAQ).",
+      "notas": "Escala del proyecto: medio-brillante indirecta, 100-1000 fc (≈1.076-10.760 lux); ideal en la mitad alta (500-1000 fc). La RHS admite semisombra y sombra y la NYBG dice que soporta algo de sombra ligera, pero con poca luz declina despacio, pierde hojas y se ahila (NYBG). Las plantas jóvenes de interior proceden del sotobosque y son las que peor llevan el sol directo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato con el dedo a 2-3 cm (5 cm en macetas grandes) y el peso de la maceta: regar solo cuando esa capa esté seca y la maceta pese claramente menos, sin dejar que el cepellón se seque del todo (NYBG). Regar a fondo hasta que salga agua por los agujeros de drenaje, esperar unos 15 minutos y vaciar el plato: nunca debe quedar agua encharcada (NYBG, NC State). Ante la duda, mejor quedarse corto (NYBG). Regar sobre el sustrato, sin mojar los tallos trenzados ni la base del tronco.",
+      "primavera_verano": "Con crecimiento activo, calor y buena luz el sustrato se seca antes: comprobar cada pocos días; en pleno verano de Madrid puede necesitar riego más a menudo, pero siempre tras comprobar que los 2-3 cm superiores están secos.",
+      "otono_invierno": "Con menos luz el sustrato tarda más en secarse y hay que espaciar los riegos; con calefacción fuerte puede secarse más deprisa de lo esperado (NYBG). Ajustar siempre por dedo y peso, no por calendario.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid sin tratamiento (blanda, con cloramina que no se elimina dejándola reposar y que no causa daños a las dosis de red). Agua a temperatura ambiente. Ninguna fuente prioritaria describe sensibilidad especial a sales o flúor.",
+      "notas": "El encharcamiento provoca pudrición de raíz (NC State); hojas amarillas y tallos que se pudren indican exceso de riego, agua salpicada sobre el tallo o sustrato que retiene demasiado (NYBG). Los ejemplares trenzados son especialmente delicados: varios tallos finos y jóvenes comparten un cepellón pequeño, a menudo en sustrato muy turboso, y si uno se pudre por exceso de agua la podredumbre puede extenderse; un tallo blando o arrugado en la trenza es señal de alarma [orientativo, sin fuente prioritaria]. La base engrosada (caudex) almacena agua (NC State), por lo que aguanta mejor un despiste de riego que un encharcamiento; pero si se seca demasiado deja caer hojas (NC State). Imprescindible maceta con agujero de drenaje (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "NYBG pide una humedad suave de alrededor del 50 %; NC State dice que prospera en ambiente húmedo y que la humedad baja puede amarillear las hojas. Con aire seco (invierno con calefacción) aparecen hojas crujientes, enrolladas y que caen (NYBG). Tolera el aire seco de casa mejor que muchas tropicales, aunque luce menos (fuente complementaria). Pulverizar las hojas no sube la humedad de forma útil: usar humidificador o agrupar plantas; un plato con grava y agua (recomendado por NYBG) solo ayuda de forma muy local. No hay fuente prioritaria con un mínimo numérico.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 18-24 °C (NC State: 65-75 °F); NYBG da 18-29 °C (65-85 °F) como rango ideal en casa. Mínimo: NC State indica meterla en casa antes de que baje a 7 °C (45 °F); la RHS la califica H1B (mínima 10-15 °C); una fuente complementaria pide entrarla por debajo de 10 °C nocturnos. Se adopta 15 °C como mínimo conservador (extremo alto de H1B). No soporta heladas. Evitar corrientes de aire frío o caliente, salidas de aire acondicionado y radiadores: los cambios bruscos provocan caída de hojas (NYBG). Máximo tolerado: sin dato en fuentes prioritarias (laguna); por encima de unos 30 °C con aire seco conviene más sombra y vigilar el riego [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior de calidad, que retenga algo de humedad pero drene rápido (NYBG, RHS: compost abierto y drenante). Mezclas citadas: turba, perlita, tierra franca o arena (NC State); o partes iguales de compost orgánico y arena gruesa o perlita, con algo de turba o fibra de coco para retener agua (NYBG). Maceta siempre con agujero de drenaje.",
+      "ph": "Ácido a neutro (NC State, referido a suelo); sin rango numérico específico para maceta en fuentes prioritarias.",
+      "drenaje": "Bueno, imprescindible: no tolera agua estancada, que causa pudrición de raíz (NC State). Evitar platos con agua y macetas sin agujero.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes de interior.",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo (aprox. marzo-septiembre en Madrid): ¼-½ de la dosis de la etiqueta, una vez al mes, siempre sobre sustrato húmedo.",
+      "otono_invierno": "Nada en otoño-invierno (NYBG: no abonar en invierno).",
+      "notas": "NYBG recomienda abono equilibrado a media dosis cada dos semanas de marzo a septiembre; se aplica la pauta más prudente del proyecto (¼-½ dosis, mensual), porque el exceso de sales en un cepellón pequeño quema raíces y puntas. NC State relaciona hojas amarillas con falta de nutrientes en el sustrato, además de con humedad baja. Ninguna fuente prioritaria da una fórmula N-P-K concreta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (NYBG), cuando las raíces llenan la maceta.",
+      "epoca": "Primavera, al reanudar el crecimiento (NYBG).",
+      "senales": "Raíces saliendo por los agujeros de drenaje o en espiral, sustrato que se seca en muy poco tiempo, crecimiento parado en primavera. Pasar a una maceta solo un tamaño mayor y con drenaje, removiendo las raíces lo menos posible: si se manipulan mucho, suele tirar las hojas (NYBG); con paciencia rebrotan en la siguiente tanda de crecimiento. Tolera bien estar algo apretada en maceta (fuente complementaria).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Opcional, para controlar tamaño y forma; ramifica poco por sí sola.",
+      "epoca": "Primavera, cuando reanuda el crecimiento fuerte (RHS, NYBG). Las ramas u hojas muertas pueden quitarse en cualquier momento (NYBG).",
+      "como": "Con tijeras afiladas y desinfectadas, cortar a 1 cm por encima de un nudo u hoja, sin quitar más de la mitad del largo del tallo (NYBG). No cortar dentro de la parte trenzada (NYBG). Las partes muertas se cortan unos centímetros por debajo de la zona seca. Pueden eliminarse brotes que salgan de la base o a lo largo del tronco (NYBG). No podar una planta enferma o estresada. Si se quiere mantener tamaño, hacerlo como rutina anual (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. octubre-febrero en Madrid); el crecimiento activo va de marzo a septiembre (NYBG).",
+      "cambios": "Reposo relativo, no estricto: con días cortos y menos luz crece poco y puede amarillear y tirar algunas hojas (NYBG); espaciar riegos según dedo y peso, no abonar, darle la máxima luz indirecta posible y alejarla de radiadores y cristales fríos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso o de madera blanda",
+        "acodo aéreo",
+        "semilla"
+      ],
+      "epoca": "Primavera-verano, con temperaturas cálidas.",
+      "pasos": "Esqueje: cortar en primavera-verano un trozo de tallo sano de unos 10-15 cm con 2-3 nudos y alguna hoja [orientativo, sin fuente prioritaria]; quitar las hojas inferiores, plantar en sustrato ligero y húmedo (turba o coco con perlita) a 21-27 °C y luz indirecta, manteniendo humedad ambiental alta sin encharcar, hasta que enraíce. Acodo aéreo: herir el tallo, envolverlo en musgo húmedo y plástico y cortar cuando aparezcan raíces. Semilla: las semillas pierden viabilidad muy rápido y deben sembrarse frescas (fuente complementaria); en interior la planta no da fruto. Métodos según NC State (esqueje de madera blanda, acodo, semilla) y RHS (semilla, esqueje semileñoso, acodo aéreo). Los ejemplares trenzados comerciales proceden de plántulas de semilla (fuente complementaria); no se ha comprobado en fuentes prioritarias si los esquejes llegan a formar base engrosada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por agua estancada en el plato o sustrato que no drena (NC State). Es la causa principal de muerte, sobre todo en ejemplares trenzados en sustrato turboso y macetas sin drenaje."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Tallos que se pudren o ablandan en la base o dentro de la trenza por exceso de riego, agua salpicada sobre el tallo o sustrato que retiene demasiado (NYBG)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general por exceso de riego (NYBG), humedad baja o falta de nutrientes (NC State)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de hojas viejas en otoño al acortarse los días y bajar la luz (NYBG); normal si brotan hojas nuevas después."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas tras moverla de sitio, comprarla, trasplantarla o manipular raíces, o al entrarla del exterior (NYBG); se recupera con paciencia y condiciones estables."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias o caída de hojas por sustrato demasiado seco (NC State) o, si el sustrato está mojado, por raíces podridas."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas y crujientes por aire seco (calefacción), poca luz o riego irregular (NYBG)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas acartonadas o crujientes por humedad ambiental baja en invierno con calefacción (NYBG) o por sequía prolongada."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura de hojas por sol directo intenso (NC State, NYBG), típica tras cristal sur u oeste en verano o al sacarla al exterior sin aclimatar."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos, hojas pequeñas y pérdida de aspecto con poca luz (NYBG)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo, plaga frecuente (NYBG, NC State, RHS): revisar tallos y nervios; aislar la planta, retirar mecánicamente con bastoncillo o paño húmedo y, si hace falta, producto listo para usar de uso no profesional inscrito en el Registro del MAPA."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (NC State) en axilas y envés."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (RHS), favorecida por el aire seco y cálido del verano o la calefacción."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón (NC State, RHS) en brotes tiernos, sobre todo si pasa el verano en el exterior."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (NC State) por sustrato turboso que se mantiene húmedo demasiado tiempo."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (RHS) y antracnosis (NC State); favorecidas por hojas mojadas y poca ventilación."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, citado por NC State como enfermedad potencial."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C, aire muy seco (HR exterior ≈38 % en julio) y sol fuerte en ventanas sur y oeste: alejarla 1-2 m del cristal o poner visillo, porque el sol directo quema las hojas. El sustrato se seca más rápido: comprobar con el dedo y el peso cada pocos días y regar a fondo cuando estén secos los 2-3 cm superiores, vaciando siempre el plato. Mantenerla lejos del chorro del aire acondicionado. Si sale a terraza, solo a sombra o luz tamizada, aclimatada poco a poco, y revisar araña roja y pulgón; meterla antes de que las noches bajen de 15 °C (finales de septiembre-octubre) y limpiarla de plagas al entrar (NYBG FAQ). Puede perder algunas hojas al volver dentro.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: usar humidificador o agrupar plantas (pulverizar no sirve) y alejarla de radiadores. Espaciar riegos (el sustrato se seca más despacio con poca luz, aunque la calefacción puede acelerarlo) y no abonar. Separarla del cristal frío por la noche y de las corrientes de puertas y ventanas; no dejarla por debajo de 15 °C. Darle el sitio más luminoso de la casa sin sol directo fuerte. Es normal que amarillee y caiga alguna hoja vieja en otoño; no compensarlo con más riego.",
+    "ubicacion_recomendada": "Salón o estancia luminosa con ventana este, o a 1-2 m de una ventana sur u oeste con visillo; sitio estable, sin corrientes, lejos de radiadores y de salidas de aire acondicionado, y sin moverla de lugar con frecuencia (NYBG)."
+  },
+  "lagunas": [
+    "Identidad de la especie en el comercio: muchas (probablemente la mayoría) de las pachiras trenzadas vendidas como Pachira aquatica son Pachira glabra Pasq., especie aceptada distinta en POWO (nativa del sur y sureste de Brasil; sinónimos Bombax glabrum, Bombacopsis glabra, Pochota glabra). El error parte de una identificación antigua en Taiwán. Esta afirmación procede de fuentes complementarias (Laidback Gardener/Larry Hodgson; Wikipedia, que cita al autor taiwanés Wang Jui-min); ninguna fuente prioritaria consultada (NC State, RHS, NYBG, ASPCA) menciona P. glabra: todas tratan la planta de tienda como P. aquatica. Los cuidados en interior se consideran equivalentes, pero no hay ficha prioritaria de P. glabra para confirmarlo.",
+    "Nomenclatura: nombre aceptado en POWO Pachira aquatica Aubl. (1775). Sinónimos homotípicos: Bombax aquaticum (Aubl.) K.Schum., Carolinea princeps L.f., Pachira carolinea Dum.Cours.; heterotípicos, entre otros: Bombax macrocarpum, Carolinea macrocarpa, Pachira macrocarpa, Pachira grandiflora, Pachira pustulifera, Pachira villosula, Sophia carolina. Sin cambio de nombre.",
+    "Error en una fuente prioritaria: NC State Plant Toolbox lista 'Bombax glabrum' como nombre anterior de P. aquatica, pero según POWO Bombax glabrum (Pasq.) A.Robyns es sinónimo de Pachira glabra, no de P. aquatica.",
+    "Humedad relativa: solo NYBG da una cifra (≈50 %); no hay mínimo numérico en fuentes prioritarias (min_pct = null).",
+    "Temperatura máxima tolerada en interior: ninguna fuente prioritaria la da (max_c = null). NYBG sitúa el rango ideal hasta 29 °C.",
+    "pH: NC State solo indica suelo ácido a neutro; no hay rango numérico para sustrato en maceta.",
+    "Fórmula N-P-K: ninguna fuente prioritaria indica una concreta.",
+    "Propagación por esqueje: longitud, temperatura y tiempo de enraizamiento sin fuente prioritaria; no comprobado si los esquejes forman la base engrosada.",
+    "Toxicidad: no hay ficha ASPCA de P. glabra, que es probablemente la especie más vendida; se aplica la de P. aquatica.",
+    "Forma variegada comercial: sin respaldo en fuentes prioritarias ni especie comprobada."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/pachira-aquatica/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/12078/pachira-aquatica/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://libguides.nybg.org/pachira",
+      "institucion": "New York Botanical Garden (NYBG), LuEsther T. Mertz Library, guía 'Money tree (Pachira aquatica)'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libanswers.nybg.org/faq/222948",
+      "institucion": "New York Botanical Garden (NYBG) Plant Information Service, FAQ 'How do I care for my money tree houseplant?'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/money-tree",
+      "institucion": "ASPCA Animal Poison Control Center (ficha 'Money Tree', Pachira aquatica)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:179762-2",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew — Pachira aquatica Aubl.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:562664-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew — Pachira glabra Pasq.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://laidbackgardener.blog/2017/03/27/the-money-tree-doesnt-age-gracefully/",
+      "institucion": "Laidback Gardener (Larry Hodgson, divulgador hortícola)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://en.wikipedia.org/wiki/Pachira_aquatica",
+      "institucion": "Wikipedia (artículo Pachira aquatica, cita a Wang Jui-min sobre P. glabra en Taiwán)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

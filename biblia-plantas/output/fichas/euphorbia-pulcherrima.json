@@ -1,0 +1,300 @@
+{
+  "nombre_cientifico": "Euphorbia pulcherrima",
+  "nombres_comunes": [
+    "flor de Pascua",
+    "poinsettia",
+    "pascuero"
+  ],
+  "familia": "Euphorbiaceae",
+  "origen": "México (vertiente del Pacífico, golfo y centro) y Guatemala (POWO). Joel R. Poinsett, primer embajador de EE. UU. en México, la introdujo en EE. UU. en 1825-1828 (UF/IFAS, Clemson). La planta de maceta actual es fruto de una mejora intensiva: los ejemplares silvestres medían 3,5-4,5 m, con 1-2 tallos y brácteas estrechas y caídas (Clemson).",
+  "clima_nativo": "Tropical estacionalmente seco: costa y bosque tropical seco de México y Guatemala, donde es un arbusto o arbolito caducifolio o semiperenne de hasta 3 m (NC State). Florece de forma natural en invierno, cuando las noches son largas. No tolera heladas: en exterior solo en zonas USDA 9-11 (NC State).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, ovadas, de 7,5-15 cm, verde oscuro, sin pelos; margen entero, lobulado o con dientes romos (NC State). En la parte alta del tallo se transforman en brácteas: hojas modificadas de color rojo (más de tres cuartas partes de las ventas), rosa, blanco, melocotón, amarillo, burdeos, jaspeado o moteado, que forman la «flor» vistosa (Clemson, UF/IFAS). Al romper una hoja o un tallo sale látex blanco lechoso (NC State): es el rasgo diagnóstico más seguro.",
+    "nerviacion": "Pinnada, con nervio central y nervios secundarios bien marcados que llegan al borde; en las brácteas coloreadas los nervios suelen verse más claros o más oscuros que la lámina.",
+    "variegacion": "Las hojas verdes son normalmente lisas; existen cultivares con hoja variegada de verde y amarillo (por ejemplo 'Tapestry') (NC State). El color de las brácteas no es variegación: se debe al fotoperiodo de noches largas. Brácteas verdes en una planta que antes era roja indican que no ha recibido noches largas suficientes.",
+    "tallo": "Tallos verdes, erguidos, que sueltan látex lechoso al cortarlos; son muy quebradizos y se parten con facilidad (NC State). En plantas viejas la base se vuelve leñosa.",
+    "habito": "Arbusto ramificado y compacto en maceta (los productores despuntan para que ramifique). Las flores verdaderas son ciatios: pequeñas copas amarillo-verdosas agrupadas en el centro de las brácteas, cada una con una glándula amarilla grande en el borde y sin pétalos (Clemson, NC State). Se vende de finales de noviembre a diciembre; las brácteas pueden durar hasta marzo (UF/IFAS Gardening Solutions).",
+    "tamano_adulto_interior": "Normalmente 30-60 cm en la maceta de venta; rara vez pasa de 60-90 cm en cultivo en maceta (NC State). En exterior en clima sin heladas llega a 3 m.",
+    "confusiones": [
+      {
+        "especie": "Anthurium andraeanum (anturio)",
+        "rasgo_diferenciador": "La parte roja es una sola espata brillante, cerosa y acorazonada por inflorescencia, con un espádice en forma de dedo; las hojas salen de la base sobre peciolos largos y no hay látex. La flor de Pascua tiene varias brácteas en estrella alrededor de un grupo de ciatios amarillos y suelta látex blanco."
+      },
+      {
+        "especie": "Kalanchoe blossfeldiana (kalanchoe)",
+        "rasgo_diferenciador": "Hojas carnosas, gruesas, de suculenta, y flores verdaderas pequeñas de cuatro pétalos en ramilletes; no tiene brácteas ni látex. También se vende en invierno."
+      },
+      {
+        "especie": "Bougainvillea spp. (buganvilla)",
+        "rasgo_diferenciador": "Trepadora o arbusto con espinas; brácteas finas como papel, de tres en tres, alrededor de flores tubulares blancas pequeñas; sin látex."
+      },
+      {
+        "especie": "Euphorbia milii (corona de espinas)",
+        "rasgo_diferenciador": "Mismo género y también con látex, pero tallos cubiertos de espinas, hojas pequeñas y brácteas diminutas (1-1,5 cm) de dos en dos."
+      },
+      {
+        "especie": "Flores de Pascua artificiales",
+        "rasgo_diferenciador": "Una IA de visión puede confundirlas: las artificiales tienen brácteas idénticas entre sí, bordes perfectos, sin ciatios reales ni sustrato visible; las naturales muestran ciatios con glándula amarilla, peciolos y ligeras diferencias entre brácteas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex (savia lechosa) irritante, con ésteres diterpénicos tipo forbol (euforbol) y sustancias de acción detergente parecida a las saponinas (Pet Poison Helpline). La ASPCA lo resume como «savia irritante».",
+    "sintomas": "Toxicidad LEVE y muy exagerada en la cultura popular. Perros y gatos: irritación de boca y estómago, babeo, lamerse los labios, a veces vómitos y rara vez diarrea; el látex en la piel causa enrojecimiento, hinchazón y picor, y en los ojos irritación leve. Los signos suelen remitir solos y rara vez necesitan tratamiento; no hay antídoto (ASPCA, Pet Poison Helpline). Personas y niños: su sabor es desagradable, así que es raro que un niño coma una cantidad importante; puede dar dolor de estómago, vómitos o diarrea, el látex puede causar una erupción leve y, en los ojos, irritación y enrojecimiento (Clemson). En 22.793 exposiciones notificadas a los centros de toxicología de EE. UU. (93,3 % en niños) no hubo ninguna muerte, el 92,4 % no tuvo síntomas y el 96,1 % no necesitó acudir a un centro sanitario (Krenzelok y cols., 1996). La fama de mortal procede de un único caso de 1919 que resultó ser un rumor sin pruebas (Utah Poison Control Center). Las personas alérgicas al látex pueden reaccionar a la savia (NC State, UF/IFAS). Qué hacer: lavar la piel con agua y jabón y aclarar los ojos con agua (Clemson); si hay ingestión con síntomas o en un animal pequeño, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "notas": "Clasificación conservadora: se marca «toxica» porque ASPCA la lista como tóxica para perros, gatos y caballos y el látex es irritante, pero la app debe decir que es LEVEMENTE tóxica y desmentir que sea mortal. Contradicción terminológica: UF/IFAS y Clemson dicen que «no es venenosa» / «no se considera tóxica», NC State habla de «baja gravedad» y Pet Poison Helpline de toxicidad «leve»; en el fondo coinciden en que solo causa irritación y molestias digestivas leves. No hay dosis tóxica establecida. Usar guantes al podar y no tocarse los ojos (NC State).",
+    "fuentes": ["F8", "F9", "F3", "F10", "F11", "F4", "F1", "F2"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "En floración (diciembre-marzo): junto a una ventana sur, este u oeste, con al menos 6 h de luz brillante indirecta al día, tras un visillo si da sol directo, y sin que las brácteas toquen el cristal. En crecimiento (primavera-verano): la ventana más soleada de la casa o exterior con sol de mañana y sombra en las horas centrales y de tarde.",
+      "tolera_sol_directo": "Parcialmente. En floración el sol directo decolora las brácteas, seca la planta y acorta la floración (Clemson, MSU, UF/IFAS Gardening Solutions); filtrarlo con un visillo. En crecimiento tolera e incluso agradece sol: en exterior 6-8 h de sol directo con algo de sombra por la tarde, aclimatándola de forma gradual durante 1-2 semanas (Illinois, MSU, UF/IFAS).",
+      "notas": "Con poca luz pierde hojas y brácteas antes de tiempo (Clemson, MBG). Es planta de día corto: para que las brácteas vuelvan a colorearse necesita noches largas. Refloración: desde finales de septiembre o el 1 de octubre y durante 8-10 semanas, 14 h seguidas de oscuridad TOTAL cada noche (meterla en un armario o taparla con una caja; Illinois propone de 17:00 a 8:00) y 6-8 h de luz brillante de día. Cualquier luz durante la noche (lámpara, farola, abrir la puerta) retrasa o impide la floración. Se deja de oscurecer cuando las brácteas empiezan a colorearse (MBG, Clemson, MSU, UF/IFAS, Illinois). Las fuentes difieren en la fecha de inicio (tercera semana de septiembre según MBG e Illinois; 1 de octubre según Clemson, MSU y UF/IFAS) y en las horas (14 h la mayoría, 15 h Illinois, 16 h NC State); se adopta 14 h como mínimo desde finales de septiembre. Los lux se derivan de la escala del proyecto para «brillante indirecta» (500-1000 fc); ninguna fuente da cifras en lux.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F5", "F6", "F7", "F1", "F2", "F4"]
+    },
+    "riego": {
+      "criterio": "Regar cuando la superficie del sustrato esté seca al tacto (comprobar con el dedo a 2-3 cm) y la maceta pese poco. Riego a fondo hasta que salga agua por el agujero de drenaje y vaciar el plato o el cubremacetas en 10-15 minutos. Sacarla del envoltorio de papel o plástico decorativo para regar, o perforarlo (Clemson, MSU, UF/IFAS). No dejar que el sustrato se seque del todo: con sequía la planta pierde hojas empezando por abajo (MBG, Clemson).",
+      "primavera_verano": "Tras la poda y con crecimiento activo, riego regular cada vez que la superficie se seque; en exterior o con calor vigilar a menudo, porque las macetas pequeñas (10-12 cm) se secan mucho antes que las de 15-20 cm (MSU). En julio-agosto mantener el sustrato húmedo sin encharcar (MSU).",
+      "otono_invierno": "En floración (diciembre-marzo), igual criterio: húmedo pero nunca empapado. Tras la floración, cuando caen las brácteas, reducir el riego y dejar secar más el sustrato, regando solo lo justo para que los tallos no se arruguen (MBG, MSU, Illinois). En la refloración (octubre-diciembre) volver al riego regular.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo. En Madrid el agua del Canal de Isabel II es blanda (10-47 mg/L CaCO3) y adecuada; el cloro o la cloramina no le causan daños y dejarla reposar no elimina la cloramina. Agua a temperatura ambiente, no fría.",
+      "notas": "El exceso de riego es la causa principal de caída precoz de hojas y brácteas (MSU) y puede matar la planta por pudrición de raíz y tallo (UF/IFAS, Clemson, NC State). El cubremacetas de aluminio o plástico con que se vende retiene agua: es la trampa más habitual tras la compra en diciembre.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F5", "F1", "F2", "F6", "F7", "F4"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente da porcentajes. UF/IFAS indica que un aire ligeramente húmedo alarga el color y la vida de la planta, y Clemson aconseja apartarla del aire seco de aparatos, chimeneas y conductos de ventilación. UF/IFAS sugiere pulverizar o usar bandejas con grava, pero el proyecto ha comprobado que pulverizar no sube la humedad de forma útil: si el aire está muy seco por la calefacción, usar humidificador o agrupar plantas y, sobre todo, alejarla de radiadores y salidas de aire.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F3"]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 27,
+      "ideal_min_c": 15,
+      "ideal_max_c": 22,
+      "notas": "En floración: 20-22 °C de día y 15-18 °C de noche, nunca por debajo de 10 °C (MSU). Por debajo de 10 °C aparecen daños por frío y caída prematura de hojas (Clemson, MSU); MBG advierte que no tolera mucho tiempo menos de 13 °C. El exceso de calor amarillea y tira las hojas y decolora antes las brácteas: Clemson recomienda no superar 21 °C de día. Evitar corrientes frías y aire caliente de radiadores, chimeneas y conductos (Clemson, MSU, NC State) y que las brácteas toquen cristales fríos (MSU). Para refloración: 15-21 °C, ya que noches por encima de 21-24 °C retrasan o impiden la floración (Illinois). Pasa el verano en exterior cuando las noches superan 10-13 °C y vuelve a casa cuando bajan de 13-15 °C (Clemson, Illinois, MSU, MBG). Contradicción: UF/IFAS da como intervalo preferido 18 °C de noche y 24-27 °C de día, más cálido que Clemson (≤21 °C de día) y MSU (20-22 °C); se adopta el intervalo más fresco de MSU/Clemson para alargar la floración, y 27 °C (UF/IFAS) como máximo de referencia. El máximo absoluto que tolera en crecimiento no está documentado.",
+      "confianza": "Alta",
+      "fuentes": ["F5", "F3", "F6", "F7", "F1", "F4"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad para maceta, rico en materia orgánica (compost, mantillo de hojas o turba) y con buen drenaje (Clemson, MSU). NC State propone tierra franca, materia orgánica y turba.",
+      "ph": "5,5-6,5 (UF/IFAS, para suelo en jardín; sin dato específico para maceta)",
+      "drenaje": "Alto. Maceta con agujero de drenaje, sin agua en el plato ni en el cubremacetas; no tolera el sustrato empapado (UF/IFAS, MSU).",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F5", "F4", "F1"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido completo y equilibrado para plantas de interior.",
+      "npk": "Equilibrado, por ejemplo 10-10-10 (Clemson) o 10-5-10 (MSU); UF/IFAS recomienda nitrógeno y potasio equilibrados y fósforo bajo.",
+      "primavera_verano": "Desde que rebrota tras la poda (marzo-mayo) hasta el otoño: ¼-½ de la dosis de etiqueta, una vez al mes (convención del proyecto; las fuentes indican cada 2-4 semanas a dosis completa: Clemson, MSU, MBG, Illinois).",
+      "otono_invierno": "Durante la refloración (octubre-noviembre) se puede seguir abonando a dosis reducida mientras crece (MSU indica cada 14 días). NO abonar con la planta en flor (diciembre-marzo) ni en reposo (Clemson, MSU, UF/IFAS).",
+      "notas": "La flor de Pascua recién comprada no necesita abono: el exceso reduce su calidad (UF/IFAS). La carencia de magnesio es frecuente: amarilleo entre nervios y bordes y puntas quemados; se previene más que se corrige (UF/IFAS). La dosis de sulfato de magnesio que da UF/IFAS es para plantas en jardín, no para maceta.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F5", "F1", "F2", "F6", "F7"]
+    },
+    "trasplante": {
+      "frecuencia": "Una vez al año si se conserva para refloración, a una maceta 5-10 cm mayor (Clemson).",
+      "epoca": "Tras la poda de primavera, cuando las noches superan unos 13 °C (MSU) o a principios de junio (Clemson). En Madrid, de mayo a principios de junio.",
+      "senales": "Raíces que salen por el drenaje, sustrato que se seca en muy poco tiempo, planta recién podada que va a pasar el verano creciendo. No trasplantar en floración.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F5", "F7"]
+    },
+    "poda": {
+      "necesita": "Sí, si se quiere conservar y que vuelva a florecer: una poda fuerte en primavera y despuntes en verano para que ramifique (Clemson, MSU, MBG, UF/IFAS).",
+      "epoca": "Poda fuerte en marzo-abril (o cuando las brácteas se han apagado y ya no hay riesgo de heladas). Despuntes cada 3-4 semanas durante el verano, hasta finales de agosto como muy tarde. No despuntar después del 1 de septiembre, porque retrasa o impide la floración (Clemson, MSU).",
+      "como": "Cortar los tallos a 15-20 cm de altura (Clemson, MBG, MSU) por encima de un nudo; volverá a brotar desde los nudos. En verano, despuntar los brotes dejando unas cuatro hojas por brote (MSU, UF/IFAS). Usar guantes: el látex irrita la piel y los ojos. Los tallos son quebradizos. Contradicción: el límite para el último despunte va de mediados de agosto (Illinois) al 1 de septiembre (Clemson, MSU), el 10 de septiembre (UF/IFAS) o mediados de septiembre (MBG); se adopta el más conservador, finales de agosto.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F5", "F6", "F1", "F7"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semirreposo tras la floración: de finales de invierno a primavera (febrero-abril en el hemisferio norte), cuando las brácteas se apagan y caen; hasta la poda y el rebrote.",
+      "cambios": "Reducir el riego dejando secar más el sustrato, pero sin que los tallos se arruguen; sin abono; mantenerla con luz. Puede perder hojas. Al acercarse la primavera, podar a 15-20 cm, llevarla a un sitio cálido y soleado y retomar riego y abonado (MBG, MSU, Illinois). Contradicción: MBG e Illinois aconsejan un lugar fresco (Illinois incluso oscuro) para el reposo y MSU un lugar cálido; se adopta un sitio luminoso, fresco pero nunca por debajo de 10-13 °C, para no sumar daño por frío. Si la planta conserva sus hojas tras la Navidad, se puede cuidar como planta de interior normal hasta la poda (MSU).",
+      "confianza": "Alta",
+      "fuentes": ["F6", "F5", "F7"]
+    },
+    "propagacion": {
+      "metodos": ["esquejes de tallo"],
+      "epoca": "Principios de verano (NC State); en Madrid, junio.",
+      "pasos": "1) Cortar esquejes de puntas sanas de tallo (los brotes que salen tras la poda de primavera). 2) Aplicar hormona de enraizamiento en la base. 3) Plantar en una mezcla con turba, perlita y vermiculita y mantenerla ligeramente húmeda (NC State). 4) Usar guantes por el látex. Los esquejes enraizados se despuntan en verano igual que la planta madre.",
+      "confianza": "Media",
+      "fuentes": ["F4"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas y brácteas en los días siguientes a la compra (diciembre): por frío en el transporte o junto a la ventana (<10 °C), corrientes de aire frío o caliente (puertas, radiadores, conductos), exceso de riego con agua acumulada en el cubremacetas, poca luz, o por haber pasado días en la funda de plástico de venta (Clemson, MSU, NC State)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas inferiores que amarillean y caen de abajo arriba: sustrato que se ha secado del todo (MBG) o exceso de riego (MSU). Tras la floración también es la caída normal del semirreposo."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída general por exceso de calor (Clemson), poca luz o falta de nutrientes en plantas que llevan meses sin abono (Clemson), y por encharcamiento con pudrición de raíz."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas y brácteas lacias por sustrato seco (las macetas de 10-12 cm se secan muy rápido) o, si el sustrato está mojado, por raíces podridas tras exceso de riego (MSU, MBG, Clemson)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Carencia de magnesio, frecuente en esta especie: amarilleo entre los nervios (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes y puntas quemados por carencia de magnesio (UF/IFAS) o por sales de abono acumuladas; también por contacto de hojas y brácteas con el cristal frío (MSU)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca: la plaga más común de la flor de Pascua (Clemson); revisar el envés antes de comprar (MSU)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y tallos (Clemson, NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla blanda (de escudo) en tallos y nervios (Clemson, NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y cálido de la calefacción o del verano madrileño (Clemson, NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos tras la poda de primavera (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato mal drenado; puede matar la planta (Clemson, NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la base del tallo por exceso de riego y encharcamiento (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos largos y débiles con poca luz o si no se despunta durante el verano (UF/IFAS, MBG)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR ≈38 % en julio), en exterior (terraza o balcón) solo con sol de mañana y sombra desde mediodía; nunca a pleno sol de tarde en orientación sur u oeste (MSU, Illinois aconsejan sombra en las horas centrales y de tarde). Aclimatarla al exterior a lo largo de 1-2 semanas desde mayo, cuando las noches superan 10-13 °C. Vigilar el riego a diario en olas de calor (las macetas pequeñas se secan en un día), sin dejar agua en el plato, y revisar el envés por si hay araña roja y mosca blanca. En interior, la ventana más luminosa con visillo si da sol directo de tarde a través del cristal. Despuntar hasta finales de agosto.",
+    "invierno": "La compra en diciembre es el momento crítico: protegerla del frío al llevarla a casa (envuelta, sin dejarla en el coche ni en la calle por debajo de 10 °C) y quitar la funda nada más llegar. En casa, sitio luminoso a 15-22 °C, lejos de radiadores, salidas de aire caliente, puertas a la calle y corrientes, y sin que las brácteas toquen el cristal frío de la ventana por la noche. La calefacción baja la humedad interior por debajo del 30 % y seca antes el sustrato: comprobar con el dedo, pero no regar por calendario; si el ambiente está muy seco, humidificador o agrupar plantas (pulverizar no sirve). Si se quiere refloración, desde finales de septiembre la luz de la casa por la noche rompe el ciclo: necesita 14 h de oscuridad total diaria (armario o caja) hasta que coloreen las brácteas, a 15-21 °C.",
+    "ubicacion_recomendada": "En floración: salón o comedor templado (15-22 °C), a 0,5-1 m de una ventana este, sur u oeste con visillo, lejos de radiadores y puertas. De mayo a septiembre: terraza o balcón con sol de mañana y sombra de tarde, o la ventana más soleada de la casa. En refloración (octubre-noviembre): ventana luminosa de día y armario o caja opaca de noche."
+  },
+  "lagunas": [
+    "Nomenclatura: el nombre aceptado en POWO es Euphorbia pulcherrima Willd. ex Klotzsch; sinónimos homotípicos y heterotípicos: Poinsettia pulcherrima (Willd. ex Klotzsch) Graham, Euphorbia poinsettiana Buist ex Graham, Euphorbia fastuosa Sessé & Moc., Euphorbia diversifolia Willd. ex Boiss. No hay cambio de nombre en uso.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos o ideales.",
+    "Luz: ninguna fuente da intensidades en lux o fc; los valores son los de la escala del proyecto para «brillante indirecta».",
+    "Temperatura máxima absoluta tolerada en crecimiento (verano madrileño a 35-40 °C) sin documentar; 27 °C es el máximo diurno preferido según UF/IFAS, no un límite letal.",
+    "Propagación: una sola fuente prioritaria (NC State), sin detalles de longitud del esqueje, manejo del látex en el corte ni tiempo de enraizamiento.",
+    "Moho gris (Botrytis) en brácteas y la roña de la flor de Pascua (Sphaceloma poinsettiae, citada por UF/IFAS solo para plantas en jardín de Florida) no se han verificado para plantas de interior; no se incluyen como problemas frecuentes.",
+    "pH: el dato 5,5-6,5 de UF/IFAS es para suelo de jardín; no hay dato específico para sustrato en maceta.",
+    "Tratamientos: Clemson cita imidacloprid y jabón insecticida con marcas comerciales de EE. UU.; no se trasladan. Falta comprobar en el Registro del MAPA qué productos listos para usar de uso no profesional están autorizados en España para mosca blanca, cochinilla y araña roja en planta de interior.",
+    "Toxicidad: no hay dosis tóxica establecida para niños ni animales; falta una fuente española (Servicio de Información Toxicológica) o europea.",
+    "No se ha encontrado una ficha de cultivo de RHS, Univ. Minnesota ni Univ. Wisconsin (páginas 404) ni del Real Jardín Botánico de Madrid."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://edis.ifas.ufl.edu/publication/EP349/pdf",
+      "institucion": "University of Florida IFAS Extension (EDIS ENH1083, Poinsettias at a Glance)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/poinsettia/",
+      "institucion": "University of Florida IFAS Extension (Gardening Solutions)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/poinsettia/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC 1561)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/euphorbia-pulcherrima/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.msstate.edu/publications/selecting-and-maintaining-poinsettias",
+      "institucion": "Mississippi State University Extension (P2573, Selecting and Maintaining Poinsettias)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/1572/how-can-i-get-my-poinsettia-to-reflower",
+      "institucion": "Missouri Botanical Garden (Gardening Help FAQ)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.illinois.edu/blogs/good-growing/2018-12-26-poinsettia-care-after-holidays",
+      "institucion": "University of Illinois Extension (Good Growing)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/poinsettia",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.petpoisonhelpline.com/poison/poinsettia/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://em-consulte.com/article/636897/poinsettia-exposures-have-good-outcomes-m-just-as-",
+      "institucion": "Krenzelok EP, Jacobsen TD, Aronis JM. Poinsettia exposures have good outcomes... just as we thought. American Journal of Emergency Medicine 1996;14(7):671-674 (resumen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://poisoncontrol.utah.edu/news/2023/11/are-my-holiday-plants-poisonous",
+      "institucion": "Utah Poison Control Center, University of Utah",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30176564-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

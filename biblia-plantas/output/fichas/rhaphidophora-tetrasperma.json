@@ -1,0 +1,308 @@
+{
+  "nombre_cientifico": "Rhaphidophora tetrasperma",
+  "nombres_comunes": [
+    "mini monstera",
+    "rhaphidophora",
+    "monstera minima (nombre comercial incorrecto)",
+    "Monstera Ginny",
+    "Philodendron Ginny",
+    "Philodendron Piccolo",
+    "monstera enana (dwarf monstera)"
+  ],
+  "familia": "Araceae",
+  "origen": "Sur de Tailandia y Malasia peninsular (Kelantan, Perak) (POWO; NC State: de la península de Tailandia a la península de Malasia). No es una Monstera ni un Philodendron, aunque se venda con esos nombres: pertenece al género Rhaphidophora, de la misma familia (NC State).",
+  "clima_nativo": "Tropical húmedo sin heladas. Liana de bosque perturbado de bastante seco a húmedo o muy húmedo sobre arenisca y granito (POWO); NC State la sitúa en los trópicos húmedos. En la naturaleza alcanza unos 5 m (POWO).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Simples, verde oscuro, brillantes y lisas, sin pelos, ovadas a ovado-lanceoladas; en interior miden 15-30 cm de largo (NC State: 6-12 in). La lámina, fina y algo coriácea, aparece de dispersa a casi totalmente dividida en segmentos profundos (pinnatipartida a casi pinnatisecta) cuyas hendiduras llegan hasta el margen; a veces con grandes perforaciones rómbicas junto al nervio central (POWO). Las divisiones y ventanas aparecen ya en hojas jóvenes y pequeñas, antes que en Monstera deliciosa (NC State). En la naturaleza, lámina de 12-42 × 9,5-38 cm, base truncada o apenas cordada, punta aguda a acuminada, segmentos de hasta 6 cm de ancho (POWO). Pecíolo de 10-34 cm, liso y poco acanalado, con abultamientos (genículos) ligeramente marcados en ambos extremos; la vaina del pecíolo es prominente, de borde membranoso o papiráceo (NC State, foto), llega hasta el genículo superior y se cae pronto dejando una cicatriz algo corchosa (POWO).",
+    "nerviacion": "Pinnada. Nervio central muy marcado en el envés y algo hundido en el haz; nervios primarios pinnados, en relieve por el envés y ligeramente hundidos en el haz, con nervios intermedios menos visibles; nerviación secundaria débilmente reticulada y terciaria casi invisible (POWO). Cada segmento de la hoja queda recorrido por uno o varios nervios primarios.",
+    "variegacion": "La especie es verde uniforme, no variegada (NC State). Existe un cultivar 'Variegata', planta muy pequeña con hojas variegadas y muy dentadas o recortadas (NC State); en el comercio se venden también formas variegadas de blanco ('Albo') muy caras y escasas (Plantura, fuente complementaria).",
+    "tallo": "Tallos verdes, delgados (hasta unos 1 cm de grosor) y lisos, con entrenudos de hasta 14 cm separados por cicatrices foliares rectas y marcadas (POWO). Raíces aéreas en los nudos con las que se agarra y trepa (NC State); las raíces de anclaje son escasas y las de alimentación, gruesas, salen de una en una o por pares en la mayoría de nudos de los tallos libres (POWO). Sin fibras en el pecíolo ni en el tallo (POWO).",
+    "habito": "Trepadora perennifolia, herbácea, hemiepífita, de crecimiento rápido (NC State). En interior necesita tutor, enrejado, tótem o poste de musgo o fibra de coco para trepar (NC State); también puede cultivarse colgante en cesta (NC State). En interior casi nunca florece; la inflorescencia es un espádice blanco con espata blanca o crema en forma de canoa (NC State, POWO). El epíteto 'tetrasperma' ('de cuatro semillas') alude a las bayas (NC State).",
+    "tamano_adulto_interior": "NC State da 0,6-4,6 m de altura (2-15 ft) y 0,3-1,2 m de anchura según el soporte; RHS Plants (tienda de la RHS, complementaria) indica 1 m de alto y 0,8 m de ancho en maceta, y Plantura 1-2 m. En la naturaleza, hasta 5 m (POWO).",
+    "confusiones": [
+      {
+        "especie": "Monstera deliciosa joven (costilla de Adán)",
+        "rasgo_diferenciador": "Las hojas juveniles de M. deliciosa son acorazonadas y enteras, sin agujeros: las perforaciones y cortes solo aparecen en hojas maduras, grandes (30 cm o más), con una unión marcada entre lámina y pecíolo y tallo grueso (NC State, M. deliciosa). R. tetrasperma tiene hojas mucho menores (15-30 cm) que ya salen divididas en segmentos estrechos desde jóvenes, y tallos delgados (NC State, R. tetrasperma); NC State la señala como la confusión más habitual. Base de hoja de R. tetrasperma truncada o casi recta, no claramente acorazonada (POWO)."
+      },
+      {
+        "especie": "Monstera adansonii (monstera de agujeros, 'Swiss cheese vine')",
+        "rasgo_diferenciador": "M. adansonii tiene hojas acorazonadas con agujeros ovalados cerrados dentro de una lámina de borde entero (NC State, M. adansonii). En R. tetrasperma la lámina se corta en segmentos con hendiduras que llegan hasta el margen y solo ocasionalmente tiene alguna perforación cerrada junto al nervio central (POWO). Ambas tienen tallos finos con raíces aéreas: el rasgo clave es si el borde de la hoja está cortado (R. tetrasperma) o entero con agujeros interiores (M. adansonii)."
+      },
+      {
+        "especie": "Epipremnum pinnatum (poto pinnatum, 'Cebu Blue', cola de dragón)",
+        "rasgo_diferenciador": "Las hojas juveniles de E. pinnatum son elípticas o en punta de flecha, de borde entero; solo cuando la planta trepa y gana altura salen hojas maduras gruesas, coriáceas, ovadas y pinnatífidas, de 30-50 cm, a veces con puntitos blancos y pequeños agujeros junto al nervio central (NC State, E. pinnatum). R. tetrasperma divide la hoja ya en tamaño pequeño (15-30 cm) y su lámina es fina (NC State, POWO). En 'Cebu Blue' el tono verde azulado plateado también la separa del verde oscuro brillante de R. tetrasperma (NC State, E. pinnatum)."
+      },
+      {
+        "especie": "Rhaphidophora nicolsonii",
+        "rasgo_diferenciador": "Según POWO es la especie más parecida y se distingue por los caracteres de la vaina del pecíolo y de la lámina. Es rara en cultivo; no se han encontrado fuentes prioritarias con rasgos visibles de interés para el usuario."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales de oxalato cálcico en todas las partes: hojas, tallos, raíces, flores, frutos y savia (NC State). ASPCA describe oxalatos cálcicos insolubles en Monstera deliciosa, arácea con el mismo principio tóxico.",
+    "sintomas": "NC State (gravedad baja): tóxica si se ingiere para perros, gatos y niños; irritación de boca, babeo excesivo, dificultad para tragar, dificultad para respirar e irritación de estómago. Además provoca dermatitis de contacto: la savia irrita la piel, por lo que se recomienda usar guantes al manipularla (NC State). ASPCA no tiene ficha de R. tetrasperma; en Monstera deliciosa (mismo principio tóxico) describe en perros y gatos irritación oral, ardor intenso en boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. RHS Plants (complementaria): nociva si se ingiere e irritante para piel y ojos. Ante ingestión con síntomas respiratorios o hinchazón, acudir al veterinario o llamar al Servicio de Información Toxicológica.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F4",
+      "F8",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste, o a 1-2 m de una ventana sur con cortina fina o estor. En ventana norte solo si es muy luminosa y despejada.",
+      "tolera_sol_directo": "Poco: puede tolerar una pequeña cantidad de sol directo (suave, de primera hora), pero demasiado sol intenso quema la hoja (NC State). RHS Plants y Plantura (complementarias) aconsejan evitar el sol directo, que quema sus hojas pequeñas.",
+      "notas": "NC State: luz brillante indirecta; la etiqueta 'tolera semisombra (2-6 h de sol directo)' es su categoría de exterior. Con luz insuficiente amarillean las hojas (NC State). Ninguna fuente prioritaria da cifras de lux o fc: lux_min y lux_max corresponden a la franja 'brillante indirecta' de la escala del proyecto (500-1000 fc) [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (NC State: cuando la primera pulgada, 2,5 cm, esté seca) y la maceta pese claramente menos que recién regada. Entonces regar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato a los 15-30 minutos. Nunca por calendario. El sustrato debe estar húmedo pero bien drenado, nunca encharcado (NC State).",
+      "primavera_verano": "Con crecimiento activo (es de crecimiento rápido), el sustrato se seca antes: comprobar dedo y peso cada pocos días, más a menudo en macetas pequeñas (RHS Plants). No dejar que el cepellón se seque del todo: la falta de agua hace que las hojas cuelguen o se enrollen (NC State).",
+      "otono_invierno": "Regar menos (RHS Plants), dejando secar bien la capa superior antes de volver a regar y sin que las raíces queden en sustrato mojado. Con calefacción el sustrato puede secarse antes: guiarse siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid: es blanda (10-47 mg/L CaCO3), así que cumple la recomendación de agua con poca cal de Plantura. La cloramina no se elimina dejando reposar el agua, pero no causa puntas ni bordes marrones. Riesgo real: sales de abono acumuladas; cada 2-3 meses regar con 2-3 veces el volumen de la maceta para lavarlas.",
+      "notas": "El exceso de riego provoca pudrición de raíces y amarilleo (NC State) y el sustrato siempre mojado atrae mosquitos del sustrato (NC State, Plantura). Unas hojas lacias pueden indicar tanto sed como raíces podridas: comprobar el sustrato antes de regar (Plantura). Sensibilidad a la sequía 'media' porque NC State atribuye a la falta de agua el decaimiento y enrollado de hojas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "notas": "NC State: prospera con humedad alta, del 60 %; la falta de humedad causa bordes y manchas marrones. Plantura (complementaria): necesita al menos un 50 %; con aire seco las hojas se enrollan y salen puntas marrones. Para subirla, usar humidificador o agrupar plantas; pulverizar las hojas no la sube de forma útil (criterio del proyecto, aunque RHS Plants y Plantura aconsejen pulverizar). min_pct procede de una fuente complementaria.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    },
+    "temperatura": {
+      "min_c": 18,
+      "max_c": 27,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "NC State: tolera 65-80 °F (18-27 °C) y hay que mantenerla lejos de corrientes. Plantura (complementaria): ideal 16-24 °C, evitar más de 27 °C en verano y menos de 15 °C en invierno. Siguiendo el criterio conservador, min_c es el mínimo más alto (18 °C, NC State). Las zonas USDA 9a-12b de NC State se refieren a cultivo exterior y no se usan como mínimo de interior. No tolera heladas (RHS Plants). ideal_max_c 24 °C sale de Plantura (complementaria).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato rico en materia orgánica, que retenga humedad pero drene bien (NC State). Plantura (complementaria) propone mezclar sustrato universal orgánico con un 50 % de material grueso de drenaje (corteza de pino o trozos de coco); sirve también universal de interior con un 30-50 % de corteza y perlita. Maceta siempre con agujero de drenaje.",
+      "ph": "Ácido (<6,0) a neutro (6,0-8,0) según NC State; Plantura habla de ligeramente ácido. Ninguna fuente prioritaria da un rango exacto.",
+      "drenaje": "Bueno, imprescindible: el sustrato encharcado lleva a pudrición de raíces y mosquitos del sustrato (NC State, Plantura). No usar una maceta mucho mayor que el cepellón (Plantura: unos 5 cm más de diámetro).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, equilibrado o algo rico en nitrógeno y potasio [orientativo, sin fuente prioritaria].",
+      "npk": null,
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (aprox. de marzo a octubre en Madrid). Plantura (complementaria) abona de marzo a octubre cada dos semanas; se aplica la pauta más prudente del proyecto, porque el exceso de abono amarillea las hojas (Plantura).",
+      "otono_invierno": "Nada mientras no haya crecimiento activo.",
+      "notas": "Ninguna fuente prioritaria trata el abonado de esta especie (ver lagunas). No abonar sobre sustrato seco: regar antes.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F9"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando tenga las raíces apretadas, normalmente cada 1-2 años por su crecimiento rápido (Plantura: al menos cada dos años), a una maceta unos 5 cm mayor de diámetro.",
+      "epoca": "Final del invierno o primavera, antes o al inicio del crecimiento activo (Plantura: de diciembre a abril; en Madrid mejor de marzo a mayo [orientativo, sin fuente prioritaria]).",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, sustrato que se seca en muy pocos días, planta que se desequilibra en el tutor.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "Opcional: para controlar la longitud, guiarla en el tutor y obtener esquejes. No cortar las raíces aéreas (Plantura).",
+      "epoca": "Plantura dice que en cualquier época; mejor en primavera o inicio del verano, cuando rebrota antes [orientativo, sin fuente prioritaria].",
+      "como": "Con tijeras limpias y guantes, porque la savia irrita la piel (NC State). Cortar justo por encima de un nudo; los trozos con nudo sirven como esquejes (Plantura). Atar los tallos al tutor o poste de musgo a medida que crecen (NC State recomienda soporte).",
+      "confianza": "Media",
+      "fuentes": [
+        "F9",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. noviembre-febrero en el hemisferio norte; en Madrid, mientras los días son cortos). En el hemisferio sur, de mayo a agosto aprox.",
+      "cambios": "No es un reposo estricto: no pierde hojas, crece más despacio. Riego más espaciado (RHS Plants), sin abono fuera de marzo-octubre (Plantura), por encima de 18 °C y lejos de cristales fríos, corrientes y radiadores (NC State: evitar corrientes).",
+      "confianza": "Media",
+      "fuentes": [
+        "F8",
+        "F9",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo en agua",
+        "esqueje de tallo en sustrato"
+      ],
+      "epoca": "Temporada de crecimiento (primavera y verano) [orientativo, sin fuente prioritaria].",
+      "pasos": "Se propaga por esqueje de tallo (NC State). Pasos (Plantura): 1) Con un cuchillo o tijera afilados y limpios, cortar un trozo de tallo de 15-20 cm con al menos un nudo y, mejor, alguna raíz aérea; usar guantes. 2) Ponerlo en agua (cambiarla cada 2-3 días) o directamente en sustrato ligero y húmedo. 3) Colocarlo en un sitio luminoso sin sol directo, a 16-24 °C y con humedad alta. 4) Enraíza en unas semanas; cuando las raíces midan 4-5 cm, plantarlo. 5) Mantener el sustrato algo húmedo las primeras semanas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por hongos, favorecida por exceso de riego y sustrato encharcado (NC State, Plantura); sobre todo en invierno."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas por exceso de riego o por luz insuficiente (NC State); también por abonar demasiado a menudo (Plantura)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas que cuelgan por falta de agua (NC State); si el sustrato está mojado, sospechar raíces podridas (Plantura; ver S36)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas por falta de agua (NC State) o aire demasiado seco (Plantura)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por falta de humedad en el sustrato o en el aire (NC State); muy frecuente en Madrid con calefacción. No atribuirlo al cloro o al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por aire seco (Plantura), riego irregular o sales de abono acumuladas."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones por falta de humedad (NC State) o quemadura por sol directo intenso (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura de hojas por demasiado sol directo (NC State, RHS Plants); típica en ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State), favorecida por el aire seco."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (NC State), atraídos por un sustrato siempre mojado (Plantura)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo (NC State) en tallos y nervios."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana de la hoja (NC State), favorecida por hojas mojadas y poca ventilación; NC State no describe su aspecto, así que la asignación a este síntoma es orientativa."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle y aire muy seco (≈38 % HR exterior en julio), se sale de su rango (NC State: hasta unos 27 °C): buscar la habitación más fresca, fuera del chorro del aire acondicionado (NC State: lejos de corrientes). Apartarla de ventanas sur y oeste o protegerla con cortina o estor, porque el sol fuerte quema la hoja (NC State). El sustrato se seca muy deprisa: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. Usar humidificador o agrupar plantas para acercarse al 50-60 % de humedad y vigilar la araña roja. No sacarla a terraza: no tolera sol directo ni el aire tan seco.",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %, muy por debajo del 50-60 % que pide (NC State, Plantura): es el principal problema en Madrid. Usar humidificador o agrupar plantas (pulverizar no sirve) y vigilar araña roja y bordes marrones. Mantenerla por encima de 18 °C, lejos de radiadores, de corrientes de puertas y ventanas y sin hojas tocando el cristal frío. Acercarla a la ventana más luminosa (el sol bajo de invierno se tolera mejor), espaciar el riego y no abonar.",
+    "ubicacion_recomendada": "Junto a una ventana este u oeste, o a 1-2 m de una ventana sur con cortina fina, guiada en un poste de musgo o fibra de coco o en una cesta colgante. Un baño o cocina luminosos ayudan con la humedad. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado en POWO Rhaphidophora tetrasperma Hook.f. (1893). No se ha encontrado cambio de nombre. RHS registra 'Monstera minima' como nombre mal aplicado; en el comercio también se vende como 'Monstera Ginny', 'Philodendron Ginny' o 'Philodendron Piccolo' (NC State), nombres que no corresponden a ningún taxón de esos géneros.",
+    "Solo NC State ofrece una ficha de cultivo prioritaria de la especie. La ficha RHS solo da nomenclatura y POWO solo morfología y distribución; RHS Plants (tienda de la RHS) y Plantura se han usado como complementarias. Por eso la mayoría de bloques de cuidados quedan en confianza Media.",
+    "Ninguna fuente prioritaria trata abonado, trasplante ni época de poda: esos bloques se basan en Plantura (complementaria) y en las pautas generales del proyecto (confianza Baja).",
+    "Ninguna fuente prioritaria da cifras de lux o fc, rango de pH numérico, proporción NPK ni humedad mínima; los lux son los de la escala del proyecto y min_pct 50 % sale de Plantura.",
+    "ASPCA no tiene ficha de Rhaphidophora tetrasperma. La toxicidad se basa en NC State (especie) y en la ficha ASPCA de Monstera deliciosa (arácea con el mismo principio tóxico, oxalato cálcico insoluble). Confianza Media.",
+    "NC State cita mancha bacteriana de la hoja sin describirla; la asignación al síntoma S13 es orientativa.",
+    "POWO indica la especie como posiblemente amenazada en su hábitat (predicción de riesgo de extinción con baja confianza); no afecta al cultivo, pero conviene comprar plantas de vivero, no recolectadas.",
+    "La confusión con Rhaphidophora nicolsonii (POWO) carece de rasgos diagnósticos visibles en fuentes prioritarias consultadas."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/rhaphidophora-tetrasperma/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Rhaphidophora tetrasperma",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:88594-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), con descripción de CATE Araceae",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/506806/rhaphidophora-tetrasperma/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de nomenclatura Rhaphidophora tetrasperma",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – ficha de Monstera deliciosa (arácea con el mismo principio tóxico)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, ficha Monstera deliciosa",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-adansonii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, ficha Monstera adansonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-pinnatum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, ficha Epipremnum pinnatum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.rhsplants.co.uk/plants/_/rhaphidophora-tetrasperma/classid.2000043241/",
+      "institucion": "RHS Plants (tienda en línea de la Royal Horticultural Society) – ficha de venta Rhaphidophora tetrasperma",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://plantura.garden/uk/houseplants/monstera/monstera-minima",
+      "institucion": "Plantura (blog y tienda de jardinería) – Mini monstera: care, location & propagation",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

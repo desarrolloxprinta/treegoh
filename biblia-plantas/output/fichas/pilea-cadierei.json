@@ -1,0 +1,327 @@
+{
+  "nombre_cientifico": "Pilea cadierei",
+  "nombres_comunes": [
+    "pilea de aluminio",
+    "planta de aluminio",
+    "pilea sandía"
+  ],
+  "familia": "Urticaceae (familia de la ortiga; sin pelos urticantes)",
+  "origen": "Sur de China (China centro-sur: Guizhou y Yunnan según la literatura) y Vietnam (POWO, Kew). Missouri Botanical Garden la da como nativa de Vietnam; NC State y Penn State, de China y Vietnam. Naturalizada en el Caribe, Centroamérica, Brasil, Hawái, Fiyi y Australia oriental (POWO).",
+  "clima_nativo": "Sotobosque de bosques tropicales y subtropicales de China y Vietnam (Penn State). Zonas USDA 11-12 (Missouri Botanical Garden, NC State). RHS: rusticidad H1C (no aguanta heladas; en el Reino Unido, invernadero o interior).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, opuestas, elípticas a obovadas, con la punta aguda y el borde aserrado (dentado) (NC State, RHS). De 5-10 cm de largo (NC State: 2-4 in; Missouri Botanical Garden: hasta 3 in). Verde oscuro, brillantes y lisas, sin pelos (NC State). La superficie se ve algo abullonada o acolchada: las zonas plateadas están ligeramente levantadas entre los nervios (Missouri Botanical Garden, NC State: 'upraised silver patches').",
+    "nerviacion": "Tres nervios principales hundidos que recorren la hoja a lo largo, de la base a la punta, y que quedan verde oscuro entre las bandas plateadas [orientativo, sin fuente prioritaria]. Las manchas plateadas se sitúan entre los nervios (RHS) y forman cuatro filas longitudinales por hoja (Missouri Botanical Garden, NC State).",
+    "variegacion": "Rasgo propio de la especie, no un defecto: cada hoja tiene cuatro filas de manchas plateadas en relieve, como si la hubieran salpicado de pintura de aluminio; de ahí 'planta de aluminio' y 'pilea sandía' (Missouri Botanical Garden, NC State, Penn State). El brillo plateado se debe a bolsas de aire bajo la epidermis, no a un polvo ni a un hongo [orientativo, sin fuente prioritaria]. IMPORTANTE para la IA de visión: estas manchas fijas, simétricas y brillantes no son oídio (polvo blanco que se frota con el dedo y aparece en placas irregulares), ni el punteado de la araña roja o los trips. Cultivares: 'Minima', enana de hasta 15 cm, y 'Ellen', tupida y con hojas de plata metálica más extensa (NC State).",
+    "tallo": "Verde, de grosor medio, algo carnoso (NC State; RHS, género: tallos ligeramente suculentos). Con la edad las ramas se vuelven leñosas en la base (RHS) y la planta pierde las hojas inferiores: queda un tallo desnudo con hojas solo en la punta. Las mejores hojas están en las plantas jóvenes (Missouri Botanical Garden, NC State).",
+    "habito": "Perenne herbácea perennifolia, erguida y en mata arbustiva densa (NC State, Missouri Botanical Garden, RHS: porte tupido). Crecimiento medio a rápido. En interior rara vez florece; si lo hace, saca pequeñas cimas verdosas, sin interés ornamental (NC State, Missouri Botanical Garden).",
+    "tamano_adulto_interior": "23-30 cm de alto y 15-23 cm de ancho (Missouri Botanical Garden: 0,75-1 ft de alto, 0,5-0,75 ft de ancho; NC State: 9-12 in; Penn State: 6-12 in de alto, 6-9 in de ancho). RHS: hasta 30 cm, en 2-5 años. 'Minima' no pasa de 15 cm (NC State).",
+    "confusiones": [
+      {
+        "especie": "Peperomia argyreia (peperomia sandía)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. P. argyreia tiene hojas peltadas (el pecíolo, rojizo, se inserta en el centro del envés), carnosas, de borde entero, con bandas plateadas que irradian desde ese punto, y forma una roseta sin tallo. P. cadierei tiene hojas opuestas sobre tallos erguidos, de borde dentado, con el pecíolo en la base de la lámina y cuatro filas de manchas en relieve."
+      },
+      {
+        "especie": "Pilea spruceana 'Silver Tree' y otras pileas plateadas",
+        "rasgo_diferenciador": "RHS describe P. spruceana como una planta baja de hojas ovaladas rojo burdeos con rayas gris plata, y 'Silver Tree' con una franja central más ancha y hojas puntiagudas. P. cadierei tiene el fondo de la hoja verde oscuro, no bronce ni burdeos, y las manchas en cuatro filas."
+      },
+      {
+        "especie": "Fittonia albivenis (fitonia nervada de plata)",
+        "rasgo_diferenciador": "En la fitonia lo blanco o plateado son los propios nervios, que forman una red fina sobre toda la hoja; la hoja es ovalada, de borde entero y algo aterciopelada, y la planta es rastrera. En P. cadierei los nervios quedan verdes y lo plateado son las manchas entre ellos; la hoja es dentada y la planta es erguida [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Pilea involucrata y Pilea mollis 'Moon Valley'",
+        "rasgo_diferenciador": "Penn State y RHS las describen con hojas muy rugosas, tipo ortiga, verde bronce (P. involucrata con el envés rojo oscuro; 'Moon Valley' con nervios hundidos púrpura). No tienen manchas plateadas de aluminio."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se le atribuyen síntomas de intoxicación en perros ni gatos (ASPCA). Si un animal se come mucha cantidad, puede sufrir una molestia digestiva leve y pasajera, como con cualquier planta [orientativo, sin fuente prioritaria].",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1"
+    ],
+    "notas": "Perros y gatos: ASPCA tiene ficha propia de la especie ('Aluminum Plant', con el nombre mal escrito como 'Pilea cadieri') y la clasifica como no tóxica para perros, gatos y caballos (F6). NC State le pone las etiquetas 'non-toxic for dogs', 'non-toxic for cats' y 'non-toxic for horses' (F1). Pero NC State también le pone la etiqueta '#poisonous', sin apartado de toxicidad ni principio activo que la explique. Se toma como incoherencia de etiquetado: la ficha de ASPCA es específica y prevalece. Niños: ninguna fuente prioritaria se pronuncia sobre personas. RHS no la incluye en su lista de plantas seguras para niños ni en la de plantas con riesgo. Se deja en 'desconocida': la app debe recomendar que no se ingiera y no presentarla como segura para niños."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana norte, este u oeste. En habitaciones con ventana sur, apartada del cristal, sobre todo en verano, para que no le dé el sol directo (RHS, guía de Pilea). También vale a unos pasos de la ventana o con la luz filtrada por un visillo o una persiana (Penn State). Girar la maceta un cuarto de vuelta en cada riego para que no se incline hacia la luz (RHS, guía de Pilea).",
+      "tolera_sol_directo": "No. Missouri Botanical Garden y NC State dicen que se evite el pleno sol; Penn State, que las pileas no deben recibir luz directa; RHS (guía de Pilea), que pide luz brillante pero indirecta. Con exceso de sol las hojas se tiñen de rojo pardo (RHS, guía de Pilea).",
+      "notas": "lux_min y lux_max son la clase brillante indirecta de la escala del proyecto (500-1000 fc). La ficha de especie de RHS indica 'sombra total o semisombra' con orientación oeste o sur, y NC State da 'luz tamizada' o 'sombra profunda' como exposición. Son categorías de jardín y de invernadero, no de interior: en interior las cuatro fuentes coinciden en luz brillante sin sol directo. Tolera luz media, pero entonces se ahíla antes (tallos largos con pocas hojas; Penn State, para el género).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando se hayan secado los primeros centímetros del sustrato (RHS, guía de Pilea): comprobarlo con el dedo a 2-3 cm y levantando la maceta, que pesa claramente menos cuando está seca (RHS indica las dos comprobaciones). Regar a fondo hasta que salga agua por el drenaje y vaciar el plato o el cubremacetas a los pocos minutos: dejarla en agua encharca el sustrato y pudre las raíces (RHS). Nunca por calendario. Sin pasarse ni quedarse corto (Penn State).",
+      "primavera_verano": "Riego moderado en la época de crecimiento (Missouri Botanical Garden, NC State). El sustrato se seca antes, así que se riega más a menudo, pero siempre cuando los 2-3 cm de arriba estén secos. En las olas de calor de Madrid, comprobar cada 2-3 días y regar solo si el sustrato está seco a esa profundidad. Con hojas finas, se marchita enseguida si se seca del todo [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Reducir el riego de otoño a finales de invierno (Missouri Botanical Garden, NC State; RHS: necesita menos agua en invierno porque el crecimiento se frena). Dejar secar algo más, unos 3-5 cm, antes de regar, y comprobar el peso de la maceta. Con calefacción el sustrato se puede secar antes de lo esperado: decidir siempre comprobando.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Tolera el agua del grifo; lo ideal es agua de lluvia o filtrada (RHS, guía de Pilea). El agua del Canal de Isabel II en Madrid es blanda y apenas tiene flúor, así que sirve. Dejarla reposar no elimina la cloramina, pero tampoco hace falta para esta planta. Las puntas marrones no se deben al cloro ni al flúor del grifo de Madrid: revisar sales de abono acumuladas, riego irregular o aire seco.",
+      "notas": "El exceso de riego o el mal drenaje es la causa habitual de pudrición de raíces (NC State, Penn State, RHS). Missouri Botanical Garden también cita pudrición del tallo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F1",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Le gusta la humedad alta (Missouri Botanical Garden, NC State; RHS, ficha de especie: 'requiere humedad alta'). Penn State dice que el género prefiere ambientes cálidos y húmedos, y que algunas especies necesitan humedad alta sobre todo en los meses fríos. Las fuentes recomiendan habitaciones humidificadas o una bandeja de guijarros húmedos. Según el criterio del proyecto, pulverizar las hojas no sube la humedad de forma útil: lo eficaz es un humidificador o agrupar plantas. Ojo: Penn State advierte que la humedad excesiva con poca ventilación favorece la mancha bacteriana, y NC State, el oídio. Hay que ventilar y no mojar el follaje. Ninguna fuente prioritaria da cifras; hay matices entre RHS especie ('humedad alta') y RHS guía de Pilea (la mayoría de pileas aguantan el aire seco de una casa; no nombra P. cadierei en ese apartado). Se adopta lo conservador: tratarla como planta de humedad alta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Mínimos: RHS (guía de Pilea) pide mantenerla siempre por encima de 10 °C; Penn State pide noches por encima de 55 °F (12,8 °C). Se toma el más alto, redondeado a 13 °C, como mínimo seguro. Ideal de día 65-75 °F, es decir, 18-24 °C (Penn State). Alejarla de corrientes frías, rejillas y radiadores (Penn State, RHS). RHS H1C (5-10 °C) es la rusticidad en exterior en verano en el Reino Unido, no un mínimo de interior. Ninguna fuente prioritaria da una máxima tolerable: por eso max_c es null.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior que drene bien (Penn State). Missouri Botanical Garden y NC State piden una mezcla de base mineral con turba ('peaty soil-based'); RHS, sustrato universal sin turba. Opción práctica: sustrato universal de calidad para interior con un 20-30 % de perlita para airearlo [orientativo, sin fuente prioritaria]. Para esquejes, RHS pide una mezcla arenosa y muy drenante.",
+      "ph": "Amplio: ácido, neutro o alcalino (RHS; NC State). Sin requisito especial.",
+      "drenaje": "Bueno, imprescindible: maceta con agujeros y sin agua en el plato (RHS, NC State, Penn State). Húmedo pero bien drenado (RHS, ficha de especie).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS, guía de Pilea).",
+      "npk": null,
+      "primavera_verano": "Abonar de abril a septiembre. RHS da una frecuencia de cada 1-2 meses a la dosis de etiqueta. Según el criterio del proyecto: ¼-½ de la dosis de la etiqueta, una vez al mes, solo si está creciendo. No sobrealimentar, que hace más daño que bien (RHS).",
+      "otono_invierno": "Nada de abono de octubre a marzo (RHS: solo de abril a septiembre).",
+      "notas": "Si amarillea entre los nervios, suele ser falta de nutrientes: aplicar un abono equilibrado para plantas de interior (RHS, guía de Pilea). Solo una fuente prioritaria da pauta de abonado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Una planta recién comprada puede seguir en su maceta el primer año, salvo que tenga las raíces apretadas. Luego, cada dos años más o menos (RHS, guía de Pilea). Como pierde vigor con la edad, muchas veces compensa más renovarla con esquejes que trasplantar una planta vieja (Missouri Botanical Garden, NC State).",
+      "epoca": "Primavera (RHS, guía de Pilea: revisar las raíces cada primavera).",
+      "senales": "Raíces que llenan el cepellón o salen por los agujeros, o sustrato que se seca muy deprisa (RHS). Usar una maceta solo un par de centímetros más ancha (RHS) o unos 5 cm (2 in) mayor de diámetro que el cepellón (Penn State). Una maceta demasiado grande mantiene el sustrato mojado y causa pudrición de raíces (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, pinzado. Despuntar los tallos para que la planta se mantenga compacta (Missouri Botanical Garden, NC State). Con la edad se ahíla, se lignifica en la base y pierde las hojas bajas (RHS, ficha de especie: las ramas se vuelven leñosas en la base). Eso es su envejecimiento natural, no una enfermedad.",
+      "epoca": "Pinzado durante la época de crecimiento, cuando haga falta (Missouri Botanical Garden). Recorte de tallos altos en primavera o verano (RHS, guía de Pilea).",
+      "como": "1) Pinzar con los dedos o unas tijeras limpias la punta de cada tallo, por encima de un par de hojas, para que ramifique (Missouri Botanical Garden, NC State). 2) Si hay tallos altos, cortarlos en primavera o verano para que rebrote desde la base (RHS, guía de Pilea). 3) Si la planta está leñosa, pelada abajo o sin vigor, es mejor renovarla: sacar esquejes de punta, enraizarlos y desechar la planta vieja (RHS, guía de Pilea). Missouri Botanical Garden y NC State indican que las mejores hojas están en las plantas jóvenes y que muchos la renuevan cada año con esquejes a principios de primavera. Usar las puntas pinzadas como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "En el hemisferio norte, de octubre a febrero o marzo (Missouri Botanical Garden y NC State: menos riego de otoño a finales de invierno; RHS: abono solo de abril a septiembre). En el hemisferio sur, de abril a agosto o septiembre.",
+      "cambios": "Es un reposo relativo, no una parada total: crece más despacio. Regar menos (dejar secar 3-5 cm) y no abonar. Mantener por encima de 13 °C, lejos de cristales fríos y de radiadores. Conservar la luz brillante indirecta y, con calefacción, cuidar la humedad.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta de tallo (método principal)",
+        "división de la mata"
+      ],
+      "epoca": "Primavera y verano (RHS, Missouri Botanical Garden). Lo ideal es a principios de primavera, para renovar la planta (Missouri Botanical Garden, NC State).",
+      "pasos": "Esqueje (RHS, guía de Pilea; Missouri Botanical Garden; RHS, ficha de especie): 1) Cortar puntas de tallo tiernas, no leñosas, de unos 5-8 cm con 2-3 pares de hojas [orientativo, sin fuente prioritaria]. 2) Quitar las hojas del tercio inferior. 3) Clavarlas en un sustrato arenoso, muy drenante y sin turba (RHS), varias por maceta para que quede tupida. 4) Mantener la humedad ambiental alta (RHS), por ejemplo cubriendo con una bolsa transparente o una campana y ventilando a diario, con luz brillante indirecta y calor (unos 20-24 °C) [orientativo, sin fuente prioritaria]. 5) Mantener el sustrato apenas húmedo, nunca encharcado. Cuando broten hojas nuevas, ya ha enraizado. División (RHS, guía de Pilea, para pileas que forman mata): en primavera o verano, separar la mata en trozos con buenas raíces y brotes vigorosos y plantarlos por separado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o mal drenaje: pudrición de raíces, la causa más frecuente de muerte (NC State, Penn State, RHS). También influye una maceta demasiado grande o dejar agua en el plato."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del tallo (Missouri Botanical Garden), asociada a sustrato encharcado y frío. Si la base está blanda, salvar las puntas sanas como esquejes."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Ahilamiento: tallos largos con pocas hojas por falta de luz (Penn State, género Pilea). Mejorar la luz y pinzar (Missouri Botanical Garden, NC State)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Pérdida de las hojas inferiores con la edad: la base se lignifica (RHS) y las mejores hojas quedan en los brotes jóvenes (Missouri Botanical Garden). Es normal si ocurre poco a poco: se soluciona pinzando y renovando con esquejes. Si se caen muchas a la vez con el sustrato húmedo, sospechar exceso de riego o frío [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, con humedad alta y poca ventilación (NC State). No confundir con las manchas plateadas naturales de la hoja: esas son fijas, simétricas, en relieve y brillantes, y no se quitan al frotar. El oídio es un polvo blanco y harinoso en placas irregulares, que se borra con el dedo."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas foliares (Missouri Botanical Garden). En pileas, Penn State describe la mancha bacteriana: manchas marrones a negras que se ablandan, favorecidas por la humedad excesiva. Retirar las hojas afectadas, bajar la humedad, ventilar y no mojar el follaje."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (Missouri Botanical Garden, NC State, RHS, Penn State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Missouri Botanical Garden, NC State, RHS, Penn State), favorecida por el aire seco de la calefacción y del verano de Madrid."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino amarillento por araña roja o por trips (RHS, guía de Pilea). Hay que distinguirlo de la variegación plateada natural, que va en cuatro filas regulares."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo (NC State, RHS, Penn State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, Penn State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosca del sustrato cuando el sustrato pasa mucho tiempo húmedo (Penn State, género Pilea)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas teñidas de rojo pardo por exceso de sol directo (RHS, guía de Pilea), típico tras el cristal de ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Amarilleo entre los nervios: suele ser falta de nutrientes; aplicar un abono equilibrado (RHS, guía de Pilea)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas o arrugadas por malas condiciones: falta o exceso de agua, o poca luz (RHS, guía de Pilea)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Planta lacia: sustrato seco del todo (se recupera al regar) o, si el sustrato está húmedo, raíces o tallo podridos (RHS; Missouri Botanical Garden)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte en ventanas sur y oeste, apartarla del cristal o filtrar la luz con un visillo: el sol directo tiñe las hojas de rojo pardo y las quema (RHS). El sustrato se seca deprisa: comprobar cada 2-3 días con el dedo y el peso de la maceta y regar solo cuando estén secos los 2-3 cm de arriba, sin dejar agua en el plato. El aire seco (HR exterior ≈38 % en julio) favorece la araña roja: revisar el envés cada semana. Usar humidificador o agrupar plantas, no pulverizar. Ninguna fuente da una máxima tolerable; por encima de unos 30 °C en la habitación, buscar el sitio más fresco y luminoso sin sol [orientativo, sin fuente prioritaria]. No sacarla a un balcón al sol.",
+    "invierno": "Mantenerla por encima de 13 °C y lejos del cristal frío por la noche (Penn State, RHS: evitar corrientes frías), y también lejos de radiadores y salidas de aire caliente. Con calefacción la humedad interior suele bajar del 30 %, y es una planta de humedad alta (Missouri Botanical Garden, RHS): humidificador o agrupar plantas. Regar menos (dejar secar 3-5 cm), pero comprobar a menudo, porque la calefacción seca el sustrato. Sin abono de octubre a marzo. Es buen momento para preparar la renovación con esquejes a finales de invierno o principios de primavera.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso, a 1-2 m de una ventana este u oeste, junto a una ventana norte, o retirada de una ventana sur tras un visillo. Lejos de radiadores, aire acondicionado y corrientes. Le van bien un baño o una cocina luminosos y con ventilación, por la humedad, así como los terrarios abiertos (RHS, NC State). En terrario cerrado, vigilar el oídio y la mancha bacteriana."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) e IPNI aceptan Pilea cadierei Gagnep. & Guillaumin (Bull. Mus. Natl. Hist. Nat., 1938-1939; tipo de Annam, Indochina). La página de POWO consultada no muestra sinónimos. No hay cambio de nombre. ASPCA la escribe mal ('Pilea cadieri').",
+    "Origen: Missouri Botanical Garden la da solo como nativa de Vietnam; POWO, NC State y Penn State, de China centro-sur y Vietnam. Se usa la distribución de POWO.",
+    "Humedad: ninguna fuente prioritaria da cifras de humedad relativa mínima o ideal (min_pct e ideal_pct en null). Además, la ficha de especie de RHS ('requiere humedad alta') matiza la guía de género de RHS (la mayoría de pileas aguantan el aire seco de una casa).",
+    "Temperatura máxima: ninguna fuente prioritaria da una máxima tolerable (max_c en null). Es relevante para los veranos de Madrid de 35-40 °C.",
+    "Abonado: no hay NPK concreto en fuentes prioritarias; solo RHS (guía de género) da una pauta (abono equilibrado cada 1-2 meses de abril a septiembre).",
+    "Toxicidad en niños y humanos: ninguna fuente prioritaria se pronuncia (se deja 'desconocida'). NC State le pone a la vez la etiqueta '#poisonous' y las de 'non-toxic' para perros, gatos y caballos, sin explicar la primera; no se ha encontrado un principio tóxico documentado. No se encontró una segunda ficha específica (Pet Poison Helpline, UC ANR) además de ASPCA y NC State.",
+    "Tamaño del esqueje, temperatura de enraizamiento y origen del brillo plateado (bolsas de aire bajo la epidermis): sin fuente prioritaria abierta; marcados como orientativos.",
+    "NC State reproduce casi literalmente el texto de cultivo de Missouri Botanical Garden (luz, humedad, riego, pinzado, renovación): en esos puntos no son del todo independientes. Por eso los bloques Alta se apoyan además en RHS y Penn State.",
+    "No se encontraron fichas de la especie en UF/IFAS, Clemson, Univ. Minnesota ni Wisconsin (las URL probadas de Wisconsin dan 404). El texto de Flora of China (eFloras) no se pudo abrir."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+      "institucion": "NC State Extension (North Carolina State University) — Extension Gardener Plant Toolbox, Pilea cadierei",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287430",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Pilea cadierei",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/13012/pilea-cadierei/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha de especie Pilea cadierei (aluminium plant), AGM",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea",
+      "institucion": "Royal Horticultural Society (RHS) — Growing Guide 'How to grow pilea' (género Pilea, cita expresamente P. cadierei)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.psu.edu/pilea-as-a-houseplant",
+      "institucion": "Penn State Extension (Pennsylvania State University) — 'Pilea as a Houseplant' (M. L. Smith)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/aluminum-plant",
+      "institucion": "ASPCA Animal Poison Control Center — Aluminum Plant (Pilea cadieri [sic]), no tóxica para perros, gatos y caballos",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:855275-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Pilea cadierei Gagnep. & Guillaumin",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.ipni.org/n/855275-1",
+      "institucion": "International Plant Names Index (IPNI, Kew/Harvard/ANBG) — Pilea cadierei Gagnep. & Guillaumin, Bull. Mus. Natl. Hist. Nat. (1938-1939), tipo de Annam (Indochina)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

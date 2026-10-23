@@ -1,0 +1,331 @@
+{
+  "nombre_cientifico": "Ficus pumila",
+  "nombres_comunes": [
+    "ficus trepador",
+    "ficus repens",
+    "higuera trepadora",
+    "ficus pumila"
+  ],
+  "familia": "Moraceae",
+  "origen": "Nativa del centro-norte, centro-sur y sudeste de China, Japón (incluidas Nansei-shoto y Ogasawara), Corea, Taiwán, Laos, Myanmar y Vietnam (POWO). Naturalizada en Florida, Alabama, Canarias, Azores, Cuba, Nueva Zelanda, Nueva Gales del Sur y numerosas islas tropicales (POWO). UF/IFAS la considera de alto riesgo de invasión en los espacios naturales de Florida y ya no la recomienda allí.",
+  "clima_nativo": "Subtropical a templado-cálido húmedo de Asia oriental, con inviernos frescos. Es el Ficus más resistente al frío de los habituales en interior: Clemson la sitúa en zonas USDA 7b-11 y NC State en 8a-11b; Oklahoma State en zona 9; la RHS la califica H2 (tolera temperaturas bajas pero no sobrevive a congelarse, mínimo 1-5 °C). UF/IFAS (EP136) indica que en interiorismo se usa en los lugares más frescos.",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Dimorfismo foliar muy marcado (Clemson, NC State, RHS). Forma juvenil (la que se vende en maceta): hojas diminutas, alternas, simples, de menos de 2,5 cm (RHS: 2-5 cm en tallos trepadores), acorazonadas u ovadas con base asimétrica, ápice agudo, margen entero, peciolo muy corto, haz verde medio a oscuro, abollonado o arrugado, envés algo pubescente (NC State). Las hojas nuevas brotan color vino o burdeos y pasan a bronce y cobre antes de verdear (Clemson). Forma adulta (solo en plantas viejas en exterior): hojas mucho mayores, de 5-10 cm, ovado-elípticas, coriáceas, verde muy oscuro y brillantes, con nerviación reticulada marcada (Clemson, NC State). Látex blanco lechoso al romper hoja o tallo (NC State).",
+    "nerviacion": "Pinnada-reticulada: nervio central y 3-5 pares de nervios secundarios hundidos en el haz que, junto con la red fina de nervillos, dan a la hoja juvenil su aspecto abollonado o 'acolchado'; más marcada y en relieve en el envés de las hojas adultas (NC State: 'reticulate').",
+    "variegacion": "La especie es verde. Cultivares frecuentes: 'Variegata' y 'Snowflake' (margen blanco ancho), 'Sunny' / 'Sunny Fig' (margen blanco crema irregular que se extiende hacia la lámina), 'White Sunny', 'Curly' (hoja rizada con franja variegada central), 'Minima' (hoja diminuta, crecimiento lento, en terrarios) y 'Quercifolia' (hoja diminuta lobulada como de roble) (NC State, Clemson, RHS).",
+    "tallo": "Tallos juveniles finos, alambrados, flexibles, que emiten a lo largo de todo el tallo raicillas aéreas cortas en grupos (almohadillas adhesivas) que segregan un látex pegajoso y se adhieren a muros, cortezas o tutores de musgo (Clemson). Los tallos adultos, sin raíces aéreas, se engrosan, se lignifican y salen hacia fuera del muro en forma de ramas arbustivas que llevan los higos (NC State, Clemson).",
+    "habito": "Trepadora autoadherente o rastrera/colgante: en maceta forma una mata densa de hojitas que cuelga del borde o cubre un tutor, una estructura de topiaria o un terrario (Clemson). En exterior tapiza muros a modo de 'mural vivo'. Rara vez florece en interior; el 'fruto' es un higo (sicono) piriforme de 5-7,5 cm, verde moteado que madura a púrpura, solo en plantas adultas (NC State, Clemson).",
+    "tamano_adulto_interior": "En maceta colgante, tallos de 0,5-1 m [orientativo, sin fuente prioritaria]; en un tutor o pared interior puede cubrir 1-2 m. En exterior la RHS da 2,5-4 m de alto y 1,5-2,5 m de ancho; NC State 2,4-4,5 m; Clemson hasta 12 m sobre muro. La forma juvenil crece hasta unos 30 cm por año y su mata no supera los 5 cm de grosor (Clemson).",
+    "confusiones": [
+      {
+        "especie": "Hedera helix (hiedra común)",
+        "rasgo_diferenciador": "La hiedra tiene hojas palmeadas con 3-5 lóbulos y nervios claros, no tiene látex; Ficus pumila tiene hojitas enteras acorazonadas abollonadas y látex blanco. NC State la cita como confusión habitual."
+      },
+      {
+        "especie": "Euonymus fortunei (evónimo rastrero)",
+        "rasgo_diferenciador": "Hojas opuestas con margen aserrado y sin látex; en F. pumila las hojas son alternas, de margen entero, y sale látex al romperlas (NC State la cita como confusión)."
+      },
+      {
+        "especie": "Peperomia caperata",
+        "rasgo_diferenciador": "Hojas carnosas, con surcos profundos, peciolos largos y porte en roseta, sin tallos trepadores ni raíces adhesivas; sin látex (NC State la cita como confusión)."
+      },
+      {
+        "especie": "Soleirolia soleirolii (lágrimas de bebé)",
+        "rasgo_diferenciador": "Hojas redondas de 2-6 mm, muy tiernas y sin abollonado, tallos herbáceos translúcidos y sin látex; F. pumila tiene hojas mayores, más coriáceas y acorazonadas [rasgo orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Ficus pumila 'Quercifolia' y 'Minima'",
+        "rasgo_diferenciador": "'Quercifolia' tiene hojas lobuladas como de roble y 'Minima' hojas diminutas; son cultivares de la misma especie y se cuidan igual (NC State, Clemson). En tienda, F. pumila se vende a menudo con los nombres erróneos 'Ficus repens' o 'Ficus stipulata'."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex lechoso. ASPCA atribuye a Ficus sp. (ficha 'Weeping Fig', género completo) una enzima proteolítica (ficina) y una furocumarina tipo psoraleno (ficusina). No hay análisis específico de F. pumila en las fuentes prioritarias consultadas.",
+    "sintomas": "Animales: NC State etiqueta F. pumila como 'problema para perros, gatos y caballos'; ASPCA marca Ficus sp. como tóxico para perros, gatos y caballos (irritación digestiva y cutánea por el látex: salivación, vómitos, posible diarrea, irritación de piel y boca). Personas y niños: la RHS la clasifica como alérgeno cutáneo ('usar guantes al manipular') y Clemson advierte de que el látex puede causar dermatitis. La ingestión por niños provoca irritación de boca y digestiva según fuentes complementarias; no se describe como mortal. Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F5",
+      "F3",
+      "F2",
+      "F8"
+    ],
+    "notas": "ASPCA no tiene ficha con el binomio Ficus pumila; su entrada 'Weeping Fig' es a nivel de género (Ficus sp.), por lo que la toxicidad para mascotas se apoya en ASPCA (género) + NC State (especie). La toxicidad en niños por ingestión no tiene fuente prioritaria específica: el dato 'toxica' para niños se basa en el carácter irritante y alergénico del látex por contacto (RHS, Clemson). Usar guantes al podar o al arrancarla de un muro y lavarse las manos; personas con alergia al látex deben evitar el contacto."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este, o a 1-2 m de una ventana sur u oeste tras visillo, protegida del sol de tarde (NC State). Acepta también semisombra luminosa (ventana norte despejada), donde crece más lenta. Los cultivares variegados necesitan el extremo más luminoso para no perder el blanco (fuentes complementarias).",
+      "tolera_sol_directo": "Parcialmente. En exterior y aclimatada tolera pleno sol si el suelo está húmedo (NC State, RHS, Clemson), pero en maceta interior hay que protegerla del sol de tarde tras cristal (NC State), porque la hoja fina se quema y el sustrato se seca en horas. Sol suave de primera hora sí.",
+      "notas": "UF/IFAS (EP136, género Ficus) considera apto para interior 100-200 fc (≈1.100-2.150 lux) en plantas producidas o aclimatadas en sombra, y advierte que los Ficus son sensibles a los cambios bruscos de luz (riesgo de caída de hojas al llevarla a un sitio mucho más oscuro). NC State: luz brillante indirecta o semisombra. Por debajo de ~1.000 lux se alarga (entrenudos largos) y pierde densidad. lux_max de 10.760 (1.000 fc) es el techo de la luz brillante indirecta de la escala del proyecto; con más luz directa en interior hay riesgo de quemadura y de deshidratación.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F3",
+        "F2",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato ligeramente húmedo de forma constante, nunca encharcado. Comprobar con el dedo a 2-3 cm y por el peso de la maceta: regar cuando los 2-3 cm superiores estén secos al tacto y la maceta pese claramente menos, a fondo hasta que salga agua por el drenaje, y vaciar el plato a los 15-30 minutos. A diferencia de otros Ficus, NO dejar que se seque el cepellón: sus hojas finas se tuestan y caen enseguida.",
+      "primavera_verano": "Riego regular durante el crecimiento (NC State); UF/IFAS indica que los Ficus necesitan agua abundante y riego frecuente con calor, con el sustrato siempre húmedo. Con calor y en macetas colgantes pequeñas puede necesitar comprobación cada 2-3 días.",
+      "otono_invierno": "Reducir el riego de otoño a final de invierno (NC State): dejar secar los 2-3 cm superiores antes de regar, pero sin permitir que el cepellón se seque por completo. Con calefacción y aire seco el sustrato sigue secándose rápido: no aplicar una pauta de días.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda, con cloramina y fluoruro <0,1 mg/L), que no causa puntas marrones. Lavar el sustrato con abundante agua 2-3 veces al año para arrastrar sales de abono (UF/IFAS recomienda lixiviar si la salinidad del sustrato supera 3 dS/m y no abonar si supera 1 dS/m).",
+      "notas": "Contradicción aparente: NC State y Clemson la describen como tolerante a la sequía, pero se refieren a plantas establecidas en suelo exterior con raíces profundas. En maceta interior las fuentes complementarias (Costa Farms, Houseplant Central) coinciden en que se le caen las hojas o se rizan y amarillean cuando el sustrato se seca. Se adopta la opción conservadora para la planta: sensibilidad a la sequía alta en maceta. El exceso de riego sigue siendo la primera causa de muerte en general: no confundir 'húmedo' con 'encharcado'.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2",
+        "F8",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 60,
+      "notas": "NC State: crece mejor con humedad alta. UF/IFAS (EP136) produce los Ficus con 60-100 % de HR; de ahí ideal 60 %. Ninguna fuente prioritaria da un mínimo para interior (Houseplant Central, complementaria, propone humidificador a ≥40 %). Con HR <30 % (calefacción en Madrid) los bordes y hojitas se secan: usar humidificador o agruparla con otras plantas; pulverizar no sube la humedad de forma útil. Es una de las mejores especies para terrario o cristalera, donde la humedad es alta (Clemson).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F9"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Mínimo: la RHS la califica H2 (tolera temperaturas bajas pero no sobrevive a congelarse, rango 1-5 °C); se adopta el valor más alto, 5 °C, como mínimo seguro para una planta de maceta. Clemson (exterior, zonas 7b-11) indica daño o muerte de hojas entre -12 y -9 °C y NC State dice que el frío fuerte la mata hasta el suelo; esos datos son para plantas establecidas en suelo en exterior y no se aplican a una maceta, cuyas raíces se hielan antes. Ideal 18-27 °C: rango interior adecuado para Ficus según UF/IFAS (65-80 °F, género). Máximo 35 °C: techo del rango de producción en umbráculo de UF/IFAS (70-95 °F) con HR 60-100 %; en casa con aire seco el calor la deshidrata antes. Evitar corrientes (UF/IFAS, Costa Farms). Por debajo de unos 10 °C deja de crecer [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2",
+        "F1",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato a base de tierra (loam) o sustrato universal de calidad para plantas de interior, sin turba si es posible (RHS: compost a base de tierra sin turba; NC State: sustrato a base de tierra). Para mejorar aireación, añadir 20-30 % de perlita o corteza fina [proporción orientativa, sin fuente prioritaria]; UF/IFAS (género) usa mezclas de turba, corteza de pino, vermiculita o perlita con buena retención y aireación.",
+      "ph": "5,5-7 (UF/IFAS, género Ficus); la RHS admite ácido, neutro o alcalino en exterior.",
+      "drenaje": "Bueno pero con retención de humedad: 'húmedo pero bien drenado' (RHS, NC State). Maceta con agujero de drenaje obligatorio; no dejarla sobre plato con agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes de interior, con micronutrientes.",
+      "npk": "3-1-2 o 3-1-3 (proporción N:P:K recomendada por UF/IFAS para Ficus)",
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de etiqueta, solo mientras saca hojas nuevas (aprox. marzo-septiembre en Madrid).",
+      "otono_invierno": "Nada.",
+      "notas": "UF/IFAS (EP136): no abonar si la salinidad del sustrato es ≥1 dS/m y no abonar durante las primeras cuatro semanas tras llevarla a casa. Las puntas o bordes quemados con abonado frecuente indican acumulación de sales: lavar el sustrato con agua abundante.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años mientras crece, a una maceta 2-4 cm mayor de diámetro; es de raíz fina y crece rápido [frecuencia orientativa, sin fuente prioritaria].",
+      "epoca": "Primavera, al inicio del crecimiento. No trasplantar en las cuatro semanas siguientes a la compra (UF/IFAS, género Ficus: no mover, podar, trasplantar ni abonar durante al menos cuatro semanas tras llevarla al interior).",
+      "senales": "Raíces saliendo por el drenaje, sustrato que se seca en 1-2 días tras regar, crecimiento detenido en primavera-verano.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. Crece con vigor y necesita podas periódicas para mantenerla dentro de su espacio y en su forma (Clemson, NC State, UF/IFAS Gardening Solutions).",
+      "epoca": "En cualquier época con crecimiento; las podas fuertes en primavera. En exterior, retrasar la retirada de tallos dañados por el frío hasta que brote en primavera (Clemson).",
+      "como": "Con guantes (látex irritante). Recortar tallos largos o desordenados por encima de una hoja; despuntar para que ramifique y se espese. Para mantener la hoja pequeña juvenil, eliminar los tallos adultos (hoja grande y sin raíces aéreas) desde su punto de inserción (Clemson). En variegados, cortar los tallos que salgan totalmente verdes. Si trepa por una pared de casa, controlar: sus almohadillas adhesivas marcan y pueden dañar madera y estuco al retirarla (Clemson, UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F10"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño a final de invierno en el hemisferio norte (en Madrid, aprox. octubre-febrero).",
+      "cambios": "Reposo relativo por menos luz y temperatura, no letargo: reducir el riego (NC State) sin dejar secar el cepellón, suspender el abono, no trasplantar ni hacer podas fuertes, darle la máxima luz indirecta disponible.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F9"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo juvenil",
+        "acodo simple (tallos que enraízan al tocar el sustrato)"
+      ],
+      "epoca": "Primavera y verano.",
+      "pasos": "1) Con guantes, cortar esquejes de 8-15 cm de tallo juvenil (hoja pequeña), con varios nudos y raicillas aéreas si es posible. 2) Quitar las hojas de los 1-2 nudos inferiores. 3) Clavarlos en sustrato húmedo ligero (turba o fibra de coco con perlita) o en agua; no hace falta hormona de enraizamiento: la forma juvenil enraíza con facilidad (Clemson). 4) Mantener en luz indirecta, 20-25 °C y humedad alta (bolsa transparente o propagador ventilado a diario). 5) Enraíza en 2-4 semanas [plazo orientativo, sin fuente prioritaria]; plantar varios esquejes por maceta para una mata densa. Acodo: sujetar un tallo sobre el sustrato de otra maceta con una horquilla hasta que enraíce y luego cortarlo. Los esquejes de tallos adultos enraízan peor y conservan el porte arbustivo (Davies et al. 1982, citado por Clemson).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sustrato seco aunque sea una sola vez, sobre todo en maceta colgante pequeña, con calor o junto a radiador: las hojitas se secan, tuestan y quedan crujientes en 1-2 días. Es el problema más típico de la especie; las hojas secas no se recuperan: cortar los tallos afectados y corregir el riego."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Cambio brusco de luz tras la compra o al moverla (los Ficus son sensibles a cambios de luz, UF/IFAS), o un episodio de sequía del cepellón (Costa Farms: tira las hojas prematuramente si se seca)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Aire muy seco (HR <30 % con calefacción o en verano madrileño), riego irregular o sales de abono acumuladas. No se debe al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente; citada por NC State y Oklahoma State. Hojas con punteado claro y telilla en las puntas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja o trips (NC State cita el trips de invernadero de bandas): punteado plateado o amarillento en el haz."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y entre la mata densa de tallos (NC State, Oklahoma State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y nervios (NC State, Oklahoma State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos rojizos, sobre todo si pasa el verano en exterior (NC State)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Sustrato encharcado o plato con agua permanente, maceta sin drenaje o riego abundante en invierno con poca luz."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz (lejos de ventana o en norte cerrada): tallos largos y desnudos con hojas espaciadas."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Cultivares variegados ('Variegata', 'Sunny', 'Snowflake') con poca luz, o tallos revertidos que no se han cortado."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de mediodía o tarde tras cristal sur u oeste, sobre todo en verano y en cultivares variegados."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "En exterior: quemadura invernal de hojas en muros sur u oeste expuestos al frío, al viento y al sol de invierno (Clemson); en interior, quemadura solar o sequedad puntual."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 %), una maceta pequeña se puede secar en 1-2 días: comprobar el sustrato a diario o cada 2 días con el dedo y el peso, y regar en cuanto se sequen los 2-3 cm superiores, sin dejar que el cepellón se seque. Nada de sol directo de mediodía ni tarde tras ventana sur u oeste (visillo o 1-2 m de distancia). Si está en terraza o muro exterior, solo en semisombra o con sol de mañana y riego frecuente. Vigilar araña roja. No ponerla bajo el chorro del aire acondicionado.",
+    "invierno": "En interior: lejos de radiadores y salidas de aire caliente, y sin tocar cristales fríos por la noche. Con HR interior <30 % las hojitas se tuestan: humidificador o agrupar plantas (pulverizar no sirve); un terrario o cristalera es una solución excelente. Regar menos pero sin dejar secar el cepellón; no abonar. En exterior: es el Ficus más resistente al frío de los de interior, pero las fuentes prioritarias se contradicen (Clemson: zonas 7b-11, daño en hojas entre -12 y -9 °C en plantas establecidas en suelo; RHS: H2, no sobrevive a congelarse). Opción conservadora: en Madrid solo intentarla en exterior plantada en suelo junto a un muro sur u oeste resguardado del viento (NC State: en muro sur pasa mejor el invierno) y asumiendo que las heladas pueden quemar o matar la parte aérea; las plantas en maceta deben entrar en casa o a un lugar sin heladas cuando se anuncien temperaturas bajo 5 °C. No plantarla contra la fachada de la vivienda: sus raíces adhesivas marcan y pueden dañar estuco y madera.",
+    "ubicacion_recomendada": "Interior: ventana este o a 1-2 m de una ventana sur u oeste con visillo, en maceta colgante, tutor de musgo, topiaria o terrario, lejos de radiadores y corrientes. Exterior (opcional): muro o celosía orientados al sur u oeste, resguardados del viento, en suelo y con riego en verano; nunca en la fachada de casa."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Ficus pumila L. (familia Moraceae). No se ha podido abrir la pestaña de sinónimos de POWO; Ficus stipulata Thunb. aparece habitualmente como sinónimo y 'Ficus repens' es un nombre mal aplicado de uso comercial, pero no se ha verificado en una fuente prioritaria abierta.",
+    "UF/IFAS Gardening Solutions titula su página 'Creeping Fig' pero usa el nombre 'Ficus erecta' en el texto; se ha usado solo para el control del crecimiento y el daño en muros, datos coherentes con Clemson.",
+    "Toxicidad: ASPCA no tiene ficha específica de Ficus pumila (solo Ficus sp. 'Weeping Fig'); no se ha encontrado fuente prioritaria con síntomas de ingestión en niños para esta especie.",
+    "Humedad: ninguna fuente prioritaria da un mínimo de HR para interior; min_pct queda null e ideal 60 % procede del rango de producción de UF/IFAS (género Ficus).",
+    "Temperatura: el rango ideal (18-27 °C) y el máximo (35 °C) proceden de UF/IFAS EP136 para el género Ficus, no específico de F. pumila.",
+    "Trasplante: ninguna fuente prioritaria da frecuencia de trasplante para F. pumila en maceta; frecuencia orientativa.",
+    "Rusticidad exterior: contradicción entre Clemson (USDA 7b-11), NC State (8a-11b), Oklahoma State (zona 9) y RHS (H2, no tolera congelación). No se ha encontrado fuente prioritaria española (RJB, MAPA) sobre su comportamiento en exterior en Madrid; la recomendación exterior es conservadora.",
+    "No se pudo abrir la ficha de Missouri Botanical Garden Plant Finder para F. pumila (no localizada) ni la ficha FPS-212 de UF/IFAS (Gilman), ni la página de Cornell Cooperative Extension Chemung (404)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-pumila/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/climbing-fig/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (HGIC 1114, Climbing Fig)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/7210/ficus-pumila/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+      "institucion": "UF/IFAS Extension, EDIS EP136/ENH879 'Cultural Guidelines for Commercial Production of Interiorscape Ficus' (Chen et al., revisado 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "institucion": "ASPCA Animal Poison Control Center (ficha 'Weeping Fig', Ficus sp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853513-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.okstate.edu/programs/plant-id/plant-profiles/creeping-fig",
+      "institucion": "Oklahoma State University Extension, Plant ID profile 'Creeping Fig'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://costafarms.com/plants/creeping-fig",
+      "institucion": "Costa Farms (vivero productor)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://houseplantcentral.com/creeping-fig/",
+      "institucion": "Houseplant Central (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/care/weeds-and-invasive-plants/creeping-fig",
+      "institucion": "UF/IFAS Extension Gardening Solutions, 'Creeping Fig'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

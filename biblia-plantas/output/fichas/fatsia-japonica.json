@@ -1,0 +1,322 @@
+{
+  "nombre_cientifico": "Fatsia japonica",
+  "nombres_comunes": [
+    "aralia japonesa",
+    "fatsia",
+    "aralia"
+  ],
+  "familia": "Araliaceae",
+  "origen": "Corea del Sur, Japón y archipiélago de Nansei-shotō (Ryukyu) (POWO, Kew; NC State: South Korea, Japan to Nansei-shoto; RHS: Japón y Corea del Sur). Nombre aceptado en POWO: Fatsia japonica (Thunb.) Decne. & Planch. Sinónimos: Aralia japonica Thunb., Aralia sieboldii K.Koch, Echinopanax japonicus (Thunb.) Kuntze, Dimorphanthus japonicus (Thunb.) Endl., Aralia brownii André. Introducida o naturalizada en Gran Bretaña, Irlanda, Nueva Zelanda, sureste de China, Arkansas y Juan Fernández (POWO).",
+  "clima_nativo": "Templado-cálido húmedo: arbusto perennifolio de bosque costero en sombra o media sombra. Es mucho más rústica que la mayoría de 'plantas de interior': RHS la clasifica H5 (resiste -10 a -15 °C en suelo en Reino Unido) y NC State la da para zonas USDA 7b-10b. Por eso prefiere ambiente fresco y sufre con calor y calefacción.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, muy grandes, de contorno redondeado y base acorazonada, profundamente lobuladas en forma de mano: 7 a 11 lóbulos (NC State; Clemson: 7-9), oblongo-elípticos, acuminados y con el margen dentado. Lámina de hasta 45 cm de ancho (NC State: hasta 18 in; RHS: hasta 45-50 cm; Clemson: 15-35 cm o más). Textura coriácea, lisa, sin pelos y muy brillante, verde oscuro. Se sostienen sobre peciolos largos que salen de la parte alta de los tallos, en corona.",
+    "nerviacion": "Palmeada: un nervio principal claro recorre cada lóbulo y todos parten del punto de unión con el peciolo. Nervios a menudo más claros que la lámina ('Spider's Web' los tiene pálidos, Clemson).",
+    "variegacion": "Forma tipo verde oscuro uniforme. Cultivares variegados: 'Variegata' (borde de los lóbulos blanco o crema, irregular; los bordes blancos se queman con exceso de sol, Clemson), 'Spider's Web' (moteado blanco denso, sobre todo hacia los bordes), 'Murakumo-nishiki' o 'Camouflage' (manchas amarillo-doradas con borde verde oscuro irregular), 'Annelise' (grandes manchas amarillo dorado y verde lima), 'Tsumugi-shibori' (moteado blanco) (NC State; Clemson; RHS). 'Moseri' es una selección verde más compacta (RHS).",
+    "tallo": "Tallos gruesos, poco ramificados, de color marrón o cobrizo, corteza lisa marrón claro y cicatrices foliares muy marcadas (NC State). Brotan varios desde la base y se añaden tallos nuevos cada año (Clemson).",
+    "habito": "Arbusto perennifolio de varios tallos erguidos, de porte redondeado y extendido; los tallos altos acaban arqueándose por su peso (UF/IFAS). En exterior florece en otoño (octubre-noviembre) con umbelas compuestas de flores blancas o crema, esféricas, en panículas terminales por encima de las hojas, y da bayas pequeñas (unos 6 mm) verdes que maduran a negro brillante en invierno (Clemson; NC State; RHS). En interior rara vez florece (NC State).",
+    "tamano_adulto_interior": "En exterior 1,8-6 m (NC State), habitualmente 2-3 m (Clemson, RHS). En maceta e interior queda bastante menor: unos 1-2 m de alto [orientativo, sin fuente prioritaria]. RHS señala 'Moseri' y 'Annelise' como más compactas y aptas para interior. Crece 20-30 cm al año en exterior en sombra con suelo rico (Clemson), menos en interior.",
+    "confusiones": [
+      {
+        "especie": "× Fatshedera lizei (fatshedera, híbrido de Fatsia japonica × Hedera helix)",
+        "rasgo_diferenciador": "Hojas mucho más pequeñas y menos profundamente divididas, casi siempre con 5 lóbulos (Fatsia: 7-11). Porte de arbusto extendido o semitrepador de 0,9-1,5 m que necesita tutor; tallos más finos y flexibles (Clemson; NC State la cita como confusión habitual). Cuidados similares."
+      },
+      {
+        "especie": "Ricinus communis (ricino) — MUY TÓXICO",
+        "rasgo_diferenciador": "Hoja también palmeada (5-11 lóbulos, dentada), pero los tallos son verdes, rojizos o púrpura y ramificados, y las hojas suelen tener tonos rojizos o bronce; flores en espiga amarillo-verdosas en verano y fruto en cápsula con espinas densas que contiene tres semillas moteadas parecidas a una garrapata (NC State). Fatsia tiene tallos marrones con cicatrices, flores blancas en umbelas esféricas en otoño y bayas negras lisas. En el ricino el peciolo se une a la lámina dentro de ella, no en el borde (hoja peltada) [orientativo, sin fuente prioritaria]. Todas las partes del ricino son venenosas y unas pocas semillas pueden matar a una persona (ricina; NC State). RHS incluso recoge 'castor oil plant' como nombre común de Fatsia, de ahí el riesgo de confusión: la app nunca debe identificar un ricino como fatsia."
+      },
+      {
+        "especie": "Fatsia polycarpa",
+        "rasgo_diferenciador": "Muy similar en hoja y tamaño, con lóbulos más estrechos y profundos; mucho menos rústica, necesita protección de las heladas (RHS). Distinguirla con seguridad requiere ver la planta adulta o la etiqueta."
+      },
+      {
+        "especie": "Schefflera spp. (Heptapleurum arboricola, Schefflera actinophylla)",
+        "rasgo_diferenciador": "La schefflera tiene hojas compuestas palmeadas: folíolos separados, cada uno con su peciolulo, unidos en un punto. Fatsia tiene una sola lámina continua dividida en lóbulos unidos en la base."
+      },
+      {
+        "especie": "Tetrapanax papyrifer (planta del papel de arroz)",
+        "rasgo_diferenciador": "Hojas aún mayores, menos brillantes y cubiertas de pelusa blanquecina, sobre todo en el envés y los brotes; Fatsia es lisa y muy brillante [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "toxica",
+    "principio_activo": "Poliacetilenos análogos al falcarinol en las hojas (cis-9,17-octadecadieno-12,14-diino-1,16-diol), sensibilizantes cutáneos (Oka et al., Contact Dermatitis 1999). Para mascotas, ASPCA indica 'no tóxica'.",
+    "sintomas": "Perros y gatos: no tóxica (ASPCA; NC State la etiqueta no tóxica para perros, gatos y caballos). Comer hojas puede causar como mucho una molestia digestiva leve [orientativo, sin fuente prioritaria]. Personas (niños): riesgo leve. RHS la marca como 'potencialmente dañina': los frutos son ornamentales y no deben comerse, y recomienda guantes al manipularla. Las hojas contienen un sensibilizante de contacto de la familia del falcarinol, con reacción cruzada con hiedra (Hedera helix), Schefflera arboricola y ginseng (Oka et al. 1999): en personas sensibles el contacto con la savia puede dar dermatitis alérgica (enrojecimiento, picor, ampollas). Usar guantes al podar, lavar la piel tras el contacto y no dejar que los niños coman las bayas. Ante ingestión o síntomas, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F3",
+      "F8"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA y NC State coinciden: no tóxica). Niños: se marca 'toxica' con criterio conservador y severidad leve: RHS la califica de potencialmente dañina (frutos no comestibles, usar guantes) y un estudio revisado por pares documenta un sensibilizante cutáneo en las hojas. No hay ficha de centro toxicológico humano ni datos de intoxicación por ingestión: es una laguna. No confundir con el ricino (Ricinus communis), que sí es gravemente tóxico."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Interior: junto a ventana norte o este, o a 1-2 m de una ventana sur u oeste protegida con visillo. Exterior (patio, terraza): orientación norte o en sombra de edificio o árboles; aguanta sombra profunda.",
+      "tolera_sol_directo": "No. Sol directo y viento queman y pardean las hojas (NC State; Clemson); las variegadas se queman antes (Clemson). Como mucho, sol suave de primera hora de la mañana.",
+      "notas": "En interior RHS la quiere en sitio fresco y luminoso; en exterior NC State, Clemson y UF/IFAS la dan para media sombra a sombra profunda (menos de 2 h de sol directo). Rango en lux según la escala del proyecto: de luz media (100 fc ≈ 1076 lux) a brillante indirecta (1000 fc ≈ 10 760 lux) [orientativo, sin fuente prioritaria: ninguna fuente da cifras en lux o fc]. Discrepancia: RHS dice que en Reino Unido tolera pleno sol si el suelo es fértil y no se seca; NC State y Clemson dicen que el sol pleno daña la hoja. Se adopta lo conservador: sin sol directo, más aún con el sol de Madrid.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos; regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-20 minutos. Nunca por calendario. RHS: la superficie del sustrato puede parecer seca estando húmeda debajo; meter el dedo antes de regar.",
+      "primavera_verano": "Riego regular en maceta: es la época de más consumo (RHS). Mantener el sustrato ligeramente húmedo, sin encharcar. En exterior en verano puede necesitar riego frecuente; comprobar cada 2-3 días con calor [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Reducir: crece poco o nada (NC State). Dejar secar más la capa superior; en interior fresco (10-15 °C) el sustrato tarda mucho en secarse y el exceso de agua pudre las raíces.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sin requisitos especiales documentados. El agua del grifo de Madrid (Canal de Isabel II) es blanda y apta; dejarla reposar no elimina la cloramina, pero tampoco es necesario.",
+      "notas": "El exceso de humedad en el suelo causa pudrición radicular (NC State); en suelos mal drenados aparece Phytophthora (Clemson). En el suelo, ya establecida, tolera sequía moderada (NC State, Clemson, RHS), pero en maceta necesita riego regular (RHS). Si las hojas grandes cuelgan lacias con el sustrato seco, es sed; si cuelgan con el sustrato mojado, revisar raíces.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da un rango de humedad. Es planta de clima templado húmedo y tolera ambientes urbanos y costeros. Clemson indica que la araña roja aparece sobre todo con condiciones demasiado secas o soleadas, y RHS la quiere en interior en sitio ventilado. Con calefacción (HR <30 %) conviene alejarla de radiadores, agrupar plantas o usar humidificador; pulverizar no sube la humedad de forma útil.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F4",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": 14,
+      "ideal_max_c": 18,
+      "notas": "Ideal en interior: 14-18 °C, fresco y ventilado (RHS). Es la mejor planta de esta lista para estancias frescas y la que peor lleva salones caldeados. Rusticidad: RHS H5 (de -10 a -15 °C) y NC State zona USDA 7b (unos -15 a -12 °C); son datos para plantas establecidas en el suelo en exterior. Se fija min_c en -5 °C para planta en maceta, cuyas raíces quedan más expuestas [orientativo, sin fuente prioritaria]: por debajo, proteger la maceta (envolverla, pegarla a la pared, subirla del suelo). Las heladas fuertes dañan las flores y los racimos de bayas (Clemson). max_c sin dato en fuentes prioritarias: con más de 30 °C y aire seco la planta sufre (hojas lacias, bordes secos) [orientativo, sin fuente prioritaria]. F. japonica 'Tsumugi-shibori' y otras variegadas pueden ser menos rústicas, sobre todo jóvenes (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "En maceta, sustrato a base de tierra (tipo John Innes nº 3), sin turba (RHS): por ejemplo, sustrato universal de calidad con algo de tierra vegetal o compost y un 20-30 % de perlita o corteza fina para drenar [proporción orientativa, sin fuente prioritaria]. Rico en materia orgánica (NC State, Clemson).",
+      "ph": "Prefiere ligeramente ácido (pH < 7) (NC State, Clemson, UF/IFAS), pero tolera neutro y alcalino (NC State; RHS: ácido, neutro o alcalino).",
+      "drenaje": "Bueno: húmedo pero bien drenado (RHS, NC State, Clemson). Maceta con agujeros; el encharcamiento favorece Phytophthora y pudrición radicular.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes en maceta; en suelo exterior, abono de liberación lenta para arbustos.",
+      "npk": "Sin requisito específico. Clemson cita un abono de liberación lenta 12-6-6 para plantas en el suelo.",
+      "primavera_verano": "En maceta, abonar en primavera y verano (RHS). Según la norma del proyecto: ¼-½ de la dosis de etiqueta una vez al mes solo con crecimiento activo.",
+      "otono_invierno": "Nada: no está en crecimiento (NC State).",
+      "notas": "NC State: abonar con regularidad salvo en invierno. En el suelo fértil y con acolchado anual no necesita abono (RHS). El exceso de abono acumula sales y causa puntas y bordes marrones.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años en plantas jóvenes, o cuando las raíces llenen la maceta [orientativo, sin fuente prioritaria]. En maceta crece mucho y a largo plazo se queda pequeña (RHS). Las plantas adultas trasplantan mal (Clemson): en ejemplares grandes, mejor renovar la capa superior del sustrato y podar para contener el tamaño.",
+      "epoca": "Primavera (también principios de otoño en exterior). RHS recomienda plantar en primavera u otoño y evitar verano e invierno.",
+      "senales": "Raíces saliendo por los agujeros de drenaje, agua que atraviesa la maceta sin empapar, sustrato que se seca en 1-2 días, planta que vuelca por peso [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda rutinaria (RHS). Se poda para contener tamaño, rejuvenecer o quitar tallos dañados.",
+      "epoca": "Final de invierno a primavera, antes de la brotación (Clemson; RHS: media o final de primavera para tallos dañados). La retirada de tallos completos puede hacerse desde finales de invierno hasta finales de verano (Clemson). NC State: cualquier época, recordando que las flores del año siguiente salen en el crecimiento nuevo.",
+      "como": "Con guantes (savia irritante). Dos métodos (Clemson): 1) rejuvenecer cortando todos los tallos varios palmos a finales de invierno para que ramifique y quede más densa; 2) quitar hasta un tercio de los tallos desde la base, empezando por los más viejos y altos, para mantenerla pequeña. Tallos larguiruchos: cortarlos para provocar ramificación (UF/IFAS). Las plantas viejas pueden renovarse con una poda fuerte en primavera (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F1",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (en hemisferio norte, aproximadamente noviembre-febrero en Madrid).",
+      "cambios": "Sin abono, riego reducido, mantener fresca (idealmente 10-15 °C, nunca junto a radiadores) [rango orientativo, sin fuente prioritaria] y con buena luz. Es la época en que más agradece una habitación sin calefacción o un patio resguardado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso",
+        "semilla"
+      ],
+      "epoca": "Esquejes: primavera-verano (RHS) o mediados-finales de verano cuando la madera se ha endurecido (Clemson). Semillas: con las bayas maduras, a finales de invierno o principios de primavera (RHS).",
+      "pasos": "Esqueje: 1) cortar un trozo de tallo semileñoso de unos 20 cm (RHS); 2) recortar la parte exterior de las hojas grandes para reducir la pérdida de agua (Clemson); 3) aplicar hormona de enraizamiento (Clemson); 4) plantar en sustrato sin turba y mantener a 15-20 °C (RHS), con calor de fondo y bajo bolsa o tapa transparente para mantener la humedad (Clemson). Los cultivares variegados solo se reproducen fieles por esqueje (Clemson). Semilla: 1) dejar madurar las bayas hasta negras; 2) remojarlas, aplastar la pulpa y extraer las semillas; 3) sembrar poco cubiertas en sustrato sin turba, húmedo sin encharcar; 4) propagador a unos 20 °C (RHS; Clemson: calor de fondo a 27 °C) sin sol directo; 5) germinan en 2-8 semanas (RHS; Clemson: 2-4); 6) repicar cuando midan unos 7 cm.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o mal drenaje, incluida Phytophthora (NC State; Clemson). Riesgo máximo en invierno con interior fresco y riego de verano."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas grandes colgando: sed (sustrato seco), calor excesivo o, si el sustrato está mojado, raíces podridas [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo: hojas descoloridas y quemadas; los bordes blancos de 'Variegata' se queman primero (Clemson; NC State)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas pardas secas por quemadura solar o por exposición a viento (NC State; Clemson)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes pardos por sol pleno o viento en exterior (NC State), calor y aire seco de calefacción o sales de abono acumuladas [orientativo]."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas de los lóbulos secas por aire muy seco y calor (calefacción), riego irregular o exceso de abono [orientativo, sin fuente prioritaria]. No atribuir al flúor ni al cloro del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, sobre todo con ambiente demasiado seco o soleado (Clemson; NC State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado por araña roja o trips en el haz (NC State; RHS citan trips)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, incluida la cochinilla piriforme Protopulvinaria pyriformis (Clemson; NC State; RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, sobre todo en plantas de interior (RHS; NC State; Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State; Clemson)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas o pulgones (consecuencia de S27, S29, S30)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares bacterianas o fúngicas en plantas apiñadas, con poca ventilación o mojadas desde arriba (Clemson; RHS cita leaf spot). Quitar las hojas muy afectadas y mejorar las condiciones."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es el momento más delicado: con 35-40 °C, aire muy seco (HR exterior ≈38 % en julio) y sol fuerte, la fatsia sufre. En exterior, solo en sombra total o sombra luminosa (orientación norte, patio interior, bajo árboles), resguardada del viento (NC State; Clemson; RHS) y sin recibir el sol de mediodía ni de tarde. En interior, nunca junto a ventanas sur u oeste sin protección. Comprobar el sustrato con frecuencia y regar a fondo cuando se seque la capa superior; las macetas pequeñas al sol se recalientan y se secan en un día. Vigilar araña roja (aire seco).",
+    "invierno": "Prefiere fresco. En interior, ponerla en la estancia más fresca y luminosa de la casa (ideal 14-18 °C, RHS), lejos de radiadores; la calefacción con HR <30 % le seca puntas y bordes y favorece la araña roja: agrupar plantas o usar humidificador. Junto a un cristal frío no hay problema de temperatura para esta especie, pero sí de condensación si toca el vidrio. En exterior, por rusticidad (RHS H5, NC State zona 7b) puede vivir fuera todo el año en Madrid en patio o terraza en sombra y resguardada; en maceta, proteger las raíces en heladas fuertes (por debajo de unos -5 °C, envolver la maceta o pegarla a una pared) [orientativo, sin fuente prioritaria]. Regar muy poco.",
+    "ubicacion_recomendada": "La mejor ubicación en Madrid es exterior: patio, terraza o balcón orientado al norte o en sombra, protegido del viento, todo el año. En interior: estancia fresca y luminosa (entrada, rellano, dormitorio sin calefacción) junto a ventana norte o este, sin sol directo. Evitar salones caldeados y ventanas sur u oeste."
+  },
+  "lagunas": [
+    "Nombre aceptado en POWO: Fatsia japonica (Thunb.) Decne. & Planch.; sinónimos Aralia japonica Thunb., Aralia sieboldii K.Koch, Echinopanax japonicus (Thunb.) Kuntze, Dimorphanthus japonicus (Thunb.) Endl. Sin cambio de nombre.",
+    "Ninguna fuente prioritaria da la luz en lux o pies-candela: el rango 1076-10 760 lux es orientativo según la escala del proyecto.",
+    "Ninguna fuente prioritaria da rango de humedad relativa (min_pct e ideal_pct en null).",
+    "No hay temperatura máxima documentada en fuentes prioritarias (max_c en null). Tampoco una mínima específica para planta en maceta: el -5 °C es orientativo; los -10/-15 °C de RHS y NC State son para plantas en el suelo.",
+    "Toxicidad en personas por ingestión: sin ficha de centro toxicológico ni casos documentados; solo RHS (potencialmente dañina, frutos no comestibles) y un estudio de dermatitis de contacto (Oka et al. 1999).",
+    "Frecuencia de trasplante y señales: sin fuente prioritaria específica para maceta.",
+    "No se pudo abrir la ficha UF/IFAS EDIS FPS-210 ni la de Missouri Botanical Garden (enlaces caídos o redirigidos)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/fatsia-japonica/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/fatsia/how-to-grow-fatsia",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow Fatsia (Growing Guide)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/7147/fatsia-japonica/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant profile Fatsia japonica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hgic.clemson.edu/factsheet/fatsia/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC), Fatsia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/fatsia-japonica/",
+      "institucion": "University of Florida IFAS Extension – Gardening Solutions, Fatsia japonica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/japanese-aralia",
+      "institucion": "ASPCA Animal Poison Control Center – Japanese Aralia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:90496-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10208509/",
+      "institucion": "Oka K, Saito F, Yasuhara T, Sugimoto A. The allergens of Dendropanax trifidus and Fatsia japonica and evaluation of cross-reactions with other plants of the Araliaceae family. Contact Dermatitis 1999;40(4):209-13 (PubMed)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://plants.ces.ncsu.edu/plants/ricinus-communis/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, Ricinus communis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

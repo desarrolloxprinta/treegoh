@@ -1,0 +1,362 @@
+{
+  "nombre_cientifico": "Howea forsteriana",
+  "nombres_comunes": [
+    "kentia",
+    "palmera del paraíso",
+    "palmera kentia"
+  ],
+  "familia": "Arecaceae",
+  "origen": "Endémica de la isla de Lord Howe (Australia, Pacífico Sur, frente a Nueva Gales del Sur) (NC State, UF/IFAS, RHS). POWO (Kew) la registra como nativa de la región 'Norfolk Is.' del sistema TDWG, que incluye Lord Howe, e introducida en República Dominicana. Muy cultivada también en la isla Norfolk. Catalogada como Vulnerable por la UICN (evaluación de 1998). Las semillas se recolectan y exportan desde Lord Howe bajo un control estricto (Wikipedia).",
+  "clima_nativo": "Subtropical oceánico insular. NC State indica que, a diferencia de Howea belmoreana (zonas más altas), la kentia prefiere los hábitats costeros y de baja altitud de la isla. UF/IFAS señala que tolera mal el calor, la humedad y la lluvia extremos: prospera mejor en el clima costero templado del sur de California que en el sur de Florida o Hawái. Al aire libre aguanta heladas puntuales hasta unos -4 °C (25 °F; zonas USDA 9b-11) y hasta 38 °C (100 °F) si no le da el sol directo. Tolera moderadamente la salinidad marina y la sequía.",
+  "categoria": "palmera",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas pinnadas (en forma de pluma), arqueadas, de color verde oscuro. En exterior miden hasta 2-3,5 m (UF/IFAS: unos 2,1 m; NC State: hasta 3-3,6 m), y en maceta de interior hasta 1,5 m (RHS). Cada hoja lleva hasta unos 90 folíolos lineares, coriáceos, de margen entero y sin pelos. Los folíolos cuelgan hacia abajo desde el raquis (NC State), lo que da a la hoja un aspecto plano y caído. Son verde oscuro por el haz y verde más claro por el envés (NC State). El peciolo es largo (0,9-1,2 m en ejemplares adultos), liso y sin espinas (UF/IFAS). La corona adulta tiene hasta unas tres docenas de hojas (UF/IFAS).",
+    "nerviacion": "Paralela, típica de monocotiledónea: cada folíolo lineal tiene un nervio central marcado y nervios longitudinales paralelos. El raquis de la hoja es recto o apenas arqueado, sin la curvatura marcada de Howea belmoreana (NC State).",
+    "variegacion": "Sin variegación: toda la hoja es verde oscuro uniforme. No hay cultivares variegados de uso común en las fuentes consultadas. Cualquier mancha amarilla, naranja o marrón indica un problema (carencias, sol, plagas) y no un rasgo varietal.",
+    "tallo": "Un único tronco (estipe) delgado, de 12-15 cm de diámetro en ejemplares adultos, que no echa hijuelos (NC State, UF/IFAS, RHS). Es verde oscuro de joven y se vuelve marrón con la edad y la exposición al sol. Lleva anillos de las cicatrices de las hojas caídas (UF/IFAS). En las plantas jóvenes de interior apenas se ve tronco: los peciolos salen de una base envainadora fibrosa a ras de sustrato. Clave para la identificación: en vivero suelen plantarse varias plántulas (2-5) en la misma maceta para dar volumen (NC State, Wikipedia). Por eso parece una mata con varios tallos, pero cada tallo es un individuo independiente.",
+    "habito": "Palmera solitaria, erecta, con copa de hojas arqueadas y folíolos colgantes. En maceta forma un conjunto elegante tipo 'abanico de plumas'. Crecimiento muy lento: en interior suele sacar pocas hojas al año. Florece rara vez en cultivo de interior (RHS). Si lo hace, la inflorescencia sale por debajo de las hojas, con espigas colgantes de flores crema (NC State, UF/IFAS).",
+    "tamano_adulto_interior": "En interior, normalmente 1,8-3 m de alto (RHS: unos 2 m; NYBG: 2,4 m o más), con un diámetro de copa de 1,5-2 m en ejemplares grandes. En exterior y en su hábitat llega a 8-12 m (RHS) y hasta unos 12 m (UF/IFAS), pero tarda 20-50 años en alcanzar la madurez (RHS).",
+    "confusiones": [
+      {
+        "especie": "Howea belmoreana (palmera centinela de Belmore)",
+        "rasgo_diferenciador": "Hojas fuertemente recurvadas (raquis muy arqueado) con folíolos que se levantan formando una V. En H. forsteriana el raquis es casi recto y los folíolos cuelgan planos (NC State). H. belmoreana crece más despacio y es más compacta."
+      },
+      {
+        "especie": "Dypsis lutescens (areca, palmera bambú)",
+        "rasgo_diferenciador": "Forma matas de muchos tallos que rebrotan desde la base (es cespitosa). Sus peciolos y tallos son amarillentos o dorados y los folíolos son más rígidos y erguidos (RHS). La kentia tiene peciolos verdes y un solo tallo por planta; si parece una mata es porque hay varias plántulas en la maceta."
+      },
+      {
+        "especie": "Chamaedorea elegans (palmera de salón)",
+        "rasgo_diferenciador": "Mucho más pequeña (normalmente 0,6-1,2 m en interior), con hojas más cortas y finas y folíolos más estrechos y blandos. Florece con facilidad en interior, con panículas amarillo-anaranjadas que salen entre las hojas. La kentia raramente florece en interior."
+      },
+      {
+        "especie": "Chamaedorea seifrizii (palmera bambú)",
+        "rasgo_diferenciador": "Forma matas de tallos finos tipo caña de bambú, con anillos visibles, y folíolos estrechos y rígidos. La kentia tiene peciolos largos y lisos que salen de la base y folíolos anchos y colgantes."
+      },
+      {
+        "especie": "Ravenea rivularis (palmera majestuosa)",
+        "rasgo_diferenciador": "Base del tronco engrosada, y folíolos más finos, numerosos y erguidos, de verde más claro. Necesita más luz y más agua que la kentia (NC State la cita como planta de nicho similar)."
+      },
+      {
+        "especie": "Rhapis excelsa (palmera dama)",
+        "rasgo_diferenciador": "Hojas palmeadas (en abanico) divididas en segmentos anchos, y no pinnadas. Forma matas de tallos finos cubiertos de fibra."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "ASPCA la clasifica como no tóxica para perros, gatos y caballos, sin principio tóxico conocido. Si un animal come mucha hoja puede tener molestias digestivas leves por la fibra (vómito puntual), como con cualquier material vegetal no tóxico. En personas no se ha encontrado ninguna ficha de un centro de toxicología ni de una fuente prioritaria. Aunque no hay indicios de toxicidad, se marca como 'desconocida' por prudencia, y conviene evitar que los niños mastiquen hojas o frutos.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F8",
+      "F1"
+    ],
+    "notas": "ASPCA tiene dos fichas (Kentia Palm y Forster Sentry Palm), ambas de Howea forsteriana y ambas 'Non-toxic'. NC State la etiqueta 'non-toxic for cats/dogs/horses'. Niños: sin fuente fiable, véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 1076,
+      "lux_max": 10764,
+      "orientacion_hn": "Lo mejor es una ventana norte o este (RHS: orientación norte o este, en semisombra). Junto a una ventana sur u oeste, colócala a 2-3 m del cristal o tras un visillo para que no le dé el sol directo. En invierno puede acercarse más a la luz (RHS: en invierno la mayoría de las palmeras agradecen una posición más luminosa).",
+      "tolera_sol_directo": "No en interior. El sol directo a través del cristal quema las hojas de la mayoría de las palmeras (RHS 'Palms: indoors'), y la ficha de la RHS pide luz brillante pero con protección del sol. UF/IFAS indica que al aire libre puede adaptarse a pleno sol tras una aclimatación progresiva. En casa, tolera como mucho el sol suave de primera hora de la mañana o de invierno.",
+      "notas": "Tolera bastante poca luz lejos de las ventanas (RHS 'Palms: indoors': Chamaedorea, Howea y Rhapis toleran niveles de luz bastante bajos; NC State: requiere poca luz y aguanta luz baja; NYBG: prospera con menos luz que la mayoría de las palmeras). Pero crece mejor y se ve más robusta con luz media a brillante indirecta (NC State: luz moderada en interior; RHS: luz brillante protegida del sol). Con muy poca luz casi no saca hojas nuevas y las que salen son más largas y lacias (Wikipedia, complementaria). Escala del proyecto: se adopta luz 'media' a 'brillante indirecta', 100-1000 fc (≈1076-10764 lux). Sobrevive en luz baja (50-100 fc) con crecimiento casi nulo. Ninguna fuente prioritaria da valores de lux o fc específicos para la especie: el rango sale de traducir las descripciones cualitativas a la escala del proyecto.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F1",
+        "F6",
+        "F2",
+        "F10"
+      ]
+    },
+    "riego": {
+      "criterio": "Riega cuando los 2-3 cm superiores del sustrato estén secos al tacto (en macetas grandes, de más de 25-30 cm, comprueba a 5 cm) y la maceta pese claramente menos que recién regada. Riega a fondo hasta que salga agua por el drenaje y vacía el plato a los 15-20 minutos: nunca debe quedar en agua estancada (RHS). En verano el sustrato no debe secarse por completo; en invierno hay que dejar que la superficie se seque algo más antes de volver a regar (RHS 'Palms: indoors'). Nunca riegues por calendario.",
+      "primavera_verano": "Riego moderado y regular (RHS): en cuanto se secan los 2-3 cm superiores, sin dejar que el cepellón llegue a secarse del todo. En un piso de Madrid a 24-28 °C suele salir un riego cada 7-10 días en maceta mediana, aunque lo que manda es el dedo y el peso de la maceta, no los días.",
+      "otono_invierno": "Riego escaso (RHS: 'water sparingly in winter'). Deja secar la capa superior (3-5 cm) antes de regar; normalmente cada 2-3 semanas con calefacción y aún menos en habitaciones frescas (13-16 °C). UF/IFAS advierte de que no tolera el exceso de riego continuado, sobre todo en invierno.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid sin problema: es blanda (dureza 10-47 mg/L CaCO3) y casi no lleva fluoruro (<0,1 mg/L). Dejarla reposar no elimina la cloramina, y tampoco hace falta. Mejor a temperatura ambiente, no fría (NYBG). La RHS cita el riego continuado con agua muy dura como posible causa de manchas marrones, cosa que no se da con el agua del Canal de Isabel II. Las sales que sí se acumulan son las del abono: lava el sustrato con un riego abundante cada 3-4 meses en temporada de crecimiento.",
+      "notas": "UF/IFAS: moderadamente tolerante a la sequía, pero no aguanta ni la sequía severa ni el encharcamiento continuado. NC State: sobrevive a la sequía y al descuido, pero para crecer bien el sustrato no debe secarse del todo. El exceso de riego, con pudrición de raíces, es la causa principal de muerte (RHS: el pardeamiento intenso de hojas inferiores con pudrición radicular se debe al exceso de agua). Si salen varias plántulas en la misma maceta, cada una tiene poca raíz: mucho cuidado con el encharcamiento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F2",
+        "F1",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS (ficha): humedad 'moderada' en crecimiento. RHS (guía de palmeras): Howea tolera ambientes más secos y temperaturas más frescas que otras palmeras, por eso es buena planta de interior. NC State: soporta la calefacción central. Aun así, con aire muy seco salen puntas marrones (RHS 'Palms: indoors'; NYBG). Ninguna fuente prioritaria da porcentajes, así que min_pct e ideal_pct quedan en null. Para subir la humedad usa un humidificador o agrupa varias plantas (RHS, NYBG). Pulverizar las hojas no sube la humedad de forma útil, aunque la RHS y la NYBG lo citen. Una bandeja con grava húmeda sin que la maceta toque el agua (RHS, NYBG) tiene un efecto pequeño y local. Pasa una esponja húmeda por las hojas para quitar el polvo (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F1",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 38,
+      "ideal_min_c": 16,
+      "ideal_max_c": 27,
+      "notas": "RHS 'Palms: indoors': mínima nocturna invernal de 16 °C para Howea, Chamaedorea y Cocos (10-13 °C para el resto de las palmeras), con días de verano 3-8 °C más cálidos siempre que haya ventilación. Pero la misma guía dice que Howea tolera temperaturas más frescas que otras palmeras. La ficha RHS le da rusticidad H1A (bajo cristal todo el año, por encima de 15 °C). UF/IFAS: al aire libre aguanta hasta -4 °C (25 °F) puntualmente y hasta 38 °C (100 °F) a la sombra, pero tolera mal el calor húmedo. NYBG: las palmeras de interior están cómodas entre unos 16 y 27 °C (60-80 °F). NC State: en interior, temperaturas cómodas para las personas. Hay discrepancia entre la mínima de interior de la RHS (16 °C) y la tolerancia al frío en exterior de UF/IFAS (-4 °C), porque se refieren a contextos distintos (maceta de interior frente a palmera plantada en el suelo y aclimatada). Se adopta lo prudente: 16-27 °C como ideal, sin bajar de 10 °C de forma sostenida en interior y lejos de corrientes frías y radiadores (RHS). Más de 30 °C con aire seco exige vigilar el riego y la sombra.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F2",
+        "F6",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior sin turba o de base franca (tipo John Innes nº 2), con buen drenaje y rico en materia orgánica. RHS (ficha): mezcla de base franca con partes iguales añadidas de corteza compostada y mantillo de hojas. RHS (guía): John Innes nº 2 o sustrato universal, con arena gruesa para mejorar el drenaje. NC State: mezcla bien drenada y rica en humus que no se seque del todo. En la práctica: 2 partes de sustrato universal de calidad + 1 parte de corteza fina de pino + 1 parte de perlita o arena gruesa. Maceta con agujeros de drenaje.",
+      "ph": "Ácido a neutro (aprox. 5,5-7,0; RHS: 'acid or neutral')",
+      "drenaje": "Imprescindible. Bien drenado (RHS: 'well-drained'). Un sustrato que se compacta y se queda sin aire con los años causa clorosis férrica y pudrición de raíces (UF/IFAS, ENH1010): no lo reutilices viejo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F1",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas verdes o de interior, o abono de liberación lenta encapsulado, con potasio, magnesio y microelementos (Mn, B, Fe).",
+      "npk": "Proporción N:P2O5:K2O ≈ 3:1:2 (UF/IFAS, palmeras en contenedor). En jardín de Florida se usa 8-2-12-4Mg con micronutrientes (UF/IFAS).",
+      "primavera_verano": "Solo con crecimiento activo (aprox. de abril a mediados de septiembre en Madrid): abono líquido a ¼-½ de la dosis de la etiqueta, una vez al mes (RHS ficha: abono líquido mensual en verano). Como alternativa, una sola aplicación de abono de liberación lenta en primavera a la dosis baja de la etiqueta (NC State: abonar poco; lo ideal es liberación lenta encapsulada). No abones hasta 6-8 semanas después de un trasplante (RHS 'Palms: indoors').",
+      "otono_invierno": "Nada de abono desde octubre hasta marzo (reposo relativo con poca luz).",
+      "notas": "UF/IFAS (ENH456): la carencia de potasio es un problema serio en la kentia. Produce necrosis de las puntas y márgenes de los folíolos de las hojas MÁS VIEJAS, sin apenas manchas amarillas y más intensa hacia la punta de la hoja. El potasio de liberación controlada es mucho más eficaz que el soluble, que se lava. Sin embargo, el ENH1010 matiza que en palmeras de contenedor la carencia de potasio es relativamente poco común y rara vez grave, y que en contenedor el elemento más limitante es el nitrógeno: lo que se ve es un verde claro uniforme que empieza en las hojas viejas. Manganeso (UF/IFAS): necrosis de las puntas de los folíolos basales de las hojas MÁS JÓVENES; aparece en suelos alcalinos. Boro (UF/IFAS, NC State): hojas nuevas pequeñas, deformadas o que no llegan a abrirse. Magnesio (ENH1010): bandas amarillas anchas en el borde de las hojas viejas cuando se agota la dolomita del sustrato, a partir de unos 6 meses en la misma maceta. RHS (guía) habla de abonar cada 15 días de abril a septiembre a dosis normal. Aquí se aplica la convención del proyecto (¼-½ dosis mensual), más conservadora, porque la kentia de interior crece despacio y el exceso de sales quema las puntas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Lo menos posible. Odia que le toquen las raíces (NYBG; RHS ficha: trasplantar solo cuando esté de verdad apretada en la maceta). RHS (guía de palmeras): cada 2 años, si las raíces llenan la maceta, hasta llegar a macetas de 20-30 cm. Después basta con renovar cada primavera los 3-5 cm superiores del sustrato (top-dressing). En ejemplares grandes, cada 3-5 años o más.",
+      "epoca": "Inicio de primavera (marzo-abril en Madrid), con temperaturas por encima de 16 °C y antes del calor de junio.",
+      "senales": "Raíces que salen por los agujeros de drenaje o empujan la planta hacia arriba; agua que atraviesa el cepellón sin empaparlo; sustrato apelmazado, que huele mal o no drena (riesgo de clorosis férrica y pudrición); planta que vuelca por peso. Pasa a una maceta solo 3-5 cm más ancha y no deshagas el cepellón: las raíces primarias dañadas no se recuperan bien (RHS 'Palms: indoors'). No entierres el cuello más que antes. Si hay varias plántulas en la maceta, no las separes salvo que sea imprescindible.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS). Solo hay que quitar las hojas viejas secas o muy dañadas.",
+      "epoca": "Cuando una hoja esté seca del todo, en cualquier época. Mejor en primavera-verano.",
+      "como": "Corta la hoja muerta con tijera limpia y afilada cerca de la base del peciolo, sin pasar al tronco: corta, no tires (RHS 'Palms: indoors'). Las bases viejas del tronco solo se retiran si se sueltan con un tirón suave. Si se fuerzan o se arrancan, dejan cicatrices permanentes y abren una vía de entrada a la pudrición del tronco por Thielaviopsis (UF/IFAS). No cortes hojas que aún están verdes en parte: la palmera recupera nutrientes (sobre todo potasio) de las hojas viejas, y quitarlas puede agravar la carencia. Nunca cortes el brote central (la 'flecha'): la palmera tiene un solo punto de crecimiento y, si se daña, ese tallo muere. Puntas marrones: recórtalas dejando un margen fino de tejido seco, sin cortar el verde (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo (no es una latencia verdadera) en otoño-invierno, de octubre a marzo en el hemisferio norte (en Madrid, con días cortos y poca luz). En el hemisferio sur, de abril a septiembre.",
+      "cambios": "Riego escaso, dejando secar más la capa superior (RHS ficha y guía; NYBG; UF/IFAS: especial cuidado con el exceso de agua en invierno). Sin abono. Temperatura de 13-16 °C o más, lejos de radiadores y corrientes. Se puede acercar a una ventana más luminosa porque el sol de invierno es más débil (RHS 'Palms: indoors').",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F6",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "epoca": "Primavera-verano, con calor (sustrato a 19 °C o más, idealmente 29-35 °C).",
+      "pasos": "1) La kentia solo se propaga por semilla: es una palmera solitaria que no echa hijuelos (NC State, UF/IFAS, RHS). 2) Usa semilla fresca y madura (de color rojo apagado): solo es viable durante 8-16 semanas tras madurar (UF/IFAS, RHS). 3) Remoja los frutos en agua tibia varios días y quita la pulpa (UF/IFAS). 4) Siembra superficialmente, cubriendo la semilla con su propio grosor de sustrato, en una mezcla para semilleros bien drenada (RHS) o en una bolsa cerrada con sustrato húmedo (UF/IFAS). 5) Mantén húmedo pero no empapado, porque la semilla se pudre con exceso de agua. Usa calor de fondo: RHS indica al menos 19 °C y UF/IFAS 29-40 °C (85-104 °F). Luz indirecta. 6) Ten paciencia: tarda de 3 meses a varios años en germinar, de forma irregular (UF/IFAS). 7) Cuando aparezca la primera hoja, pasa la plántula a una maceta de 9 cm sin dañar la raíz primaria (RHS 'Palms: indoors'). No intentes separar las plántulas de una kentia de vivero salvo necesidad: las raíces se dañan con facilidad y se pierde volumen. En casa, la propagación es lenta y poco práctica.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas de los folíolos marrones. En hojas VIEJAS, con necrosis en las puntas y márgenes más intensa hacia la punta de la hoja: carencia de potasio (UF/IFAS). En hojas nuevas y en los folíolos basales: carencia de manganeso (UF/IFAS, más propia de suelos alcalinos). En general: aire seco por calefacción o calor, falta de riego, corrientes (RHS) o sales de abono acumuladas. No se debe al cloro ni al flúor del agua de Madrid. Recorta dejando un margen seco fino."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Algún amarilleo esporádico de las hojas inferiores es envejecimiento normal (RHS). Si es un verde claro uniforme que empieza por las hojas viejas, es carencia de nitrógeno, la más frecuente en palmeras de maceta (UF/IFAS ENH1010). Si son bandas amarillas anchas en los márgenes con el centro verde, es carencia de magnesio por dolomita agotada (ENH1010). Si amarillean muchas hojas a la vez, revisa el riego: tanto la falta como el exceso de agua dan este síntoma (RHS)."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Hojas nuevas amarillentas o casi blancas, a veces con los nervios algo más verdes: clorosis férrica. Se debe a un sustrato viejo, compactado y mal aireado, a la pudrición de raíces o al daño por sales (UF/IFAS ENH1010). Renueva el sustrato y corrige el riego antes de añadir hierro."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas pequeñas, deformadas, arrugadas o que no llegan a abrirse: carencia de boro, descrita en esta especie (UF/IFAS, NC State). No añadas boro a ciegas: es tóxico en exceso. Usa un abono completo con micronutrientes a la dosis baja."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones en las hojas por exceso de riego o por un enfriamiento brusco: plantas junto a un cristal frío o una corriente en invierno, o durante el transporte (RHS 'Palms: indoors'). También por quemadura del sol a través del cristal."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Folíolos blanqueados o con zonas secas de color paja tras recibir sol directo a través del cristal: la kentia de vivero no está aclimatada al sol (RHS; Wikipedia). Es típico en ventanas sur u oeste de Madrid en verano. Aleja la planta del cristal o pon un visillo."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares de hongos (Cylindrocladium, Stigmina y otras), sobre todo en producción de vivero (UF/IFAS). En interior son raras. Retira las hojas muy afectadas y evita mojar las hojas y el exceso de humedad estancada."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino amarillento o plateado en el haz por araña roja (Tetranychus urticae). Es de las plagas más comunes de la kentia de interior (UF/IFAS, RHS), y se ve favorecida por el aire seco de la calefacción o del verano de Madrid. También puede deberse a trips (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña fina en el envés y entre los folíolos: infestación avanzada de araña roja (RHS, UF/IFAS). Muy frecuente con HR interior por debajo del 30 %."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las axilas de las hojas, en la base de los peciolos y en el envés. También en las raíces (cochinilla de raíz) (NC State, UF/IFAS, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (incluida la cochinilla de los helechos, Pinnaspis aspidistrae) a lo largo de los nervios y del envés de los folíolos y en los peciolos (NC State, UF/IFAS, RHS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa sobre las hojas y el suelo, producida por cochinillas algodonosas o con escudo (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina (negrilla) que crece sobre la melaza de las cochinillas. NC State la cita como enfermedad común de la especie. Se elimina tratando la plaga y limpiando las hojas con una esponja húmeda."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego, plato con agua estancada o sustrato viejo y compactado, sobre todo en invierno (RHS, UF/IFAS). Es la causa principal de muerte de la kentia de interior. Suele ir con pardeamiento intenso de las hojas inferiores y con marchitez aunque el sustrato esté húmedo."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del tronco o de la base por Thielaviopsis, que entra por las heridas que dejan las bases de hoja arrancadas a la fuerza (UF/IFAS), o por un cuello enterrado y encharcado. Tanto el estipe como la flecha central pueden pudrirse."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias o caídas por sequedad extrema del cepellón o, al contrario, por encharcamiento y raíces podridas (RHS 'Palms: indoors'). Comprueba la humedad del sustrato a 5 cm y el peso de la maceta antes de regar."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "La kentia crece muy despacio de por sí (NC State, UF/IFAS). Si no saca ninguna hoja nueva en toda la temporada, suele deberse a muy poca luz (lejos de las ventanas), a falta de nitrógeno en un sustrato viejo o a raíces dañadas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "En rincones oscuros saca hojas largas, lacias y espaciadas, y el conjunto se abre y se ve desgarbado (Wikipedia, complementaria; NC State: crece mejor con luz moderada). Acércala a la luz de forma gradual."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire exterior muy seco (HR ≈38 % en julio), la kentia aguanta el calor si está a la sombra (UF/IFAS: hasta 38 °C sin sol directo). Pero el sol de la tarde en ventanas sur y oeste la quema a través del cristal (RHS). Colócala a 2-3 m de esas ventanas o tras un visillo, o en una ventana norte o este. Ventila bien la habitación (RHS: buena ventilación en verano). Sácala a una terraza solo si está en sombra completa y tras aclimatarla poco a poco: nunca al sol directo sin aclimatar (RHS). Revisa el sustrato con más frecuencia, porque se seca antes con el calor, pero no lo dejes encharcado. Vigila la araña roja en el envés, que prolifera con calor seco. Usa un humidificador o agrupa plantas; pulverizar no sirve. Evita el chorro directo del aire acondicionado.",
+    "invierno": "Con la calefacción, la humedad interior baja a menudo del 30 %, lo que favorece las puntas marrones y la araña roja: humidificador o agrupar plantas, y aléjala al menos 1-1,5 m de radiadores y bombas de calor (RHS). Junto a un cristal frío por la noche, o en un pasillo con corrientes de la puerta, puede sufrir manchas por enfriamiento (RHS): sepárala unos 30 cm del vidrio o baja la persiana de noche. Mantén al menos 13-16 °C por la noche (RHS: mínima de 16 °C para Howea; tolera algo menos). Riego escaso: deja secar 3-5 cm de sustrato y comprueba el peso de la maceta, normalmente cada 2-3 semanas. Sin abono. Puede acercarse a una ventana más luminosa, porque el sol de invierno quema poco.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana norte o este. También a 2-3 m de una ventana sur u oeste o tras un visillo, sin sol directo en verano. Lejos de radiadores, salidas del aire acondicionado y puertas con corrientes. Admite rincones con menos luz que la mayoría de las palmeras, pero allí crecerá muy poco."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) e IPNI confirman Howea forsteriana (F.Muell.) Becc. como nombre aceptado. El basiónimo es Kentia forsteriana F.Muell., sinónimo que también cita la RHS. No hay cambio de nombre. POWO asigna la distribución nativa a la región TDWG 'Norfolk Is.', que en ese sistema incluye la isla de Lord Howe. Las demás fuentes la dan como endémica de Lord Howe.",
+    "Luz: ninguna fuente prioritaria da valores de lux o pie-candela específicos para H. forsteriana. El rango lux_min/lux_max se ha obtenido traduciendo las descripciones cualitativas (tolera poca luz; prefiere luz brillante protegida del sol) a la escala del proyecto. Un resumen del buscador atribuía a Mississippi State Extension la categoría de luz media (75-150 fc), pero el PDF devolvía 404 y no se ha podido abrir, así que no se cita.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales (RHS habla de humedad 'moderada' y de que tolera atmósferas secas); min_pct e ideal_pct quedan en null.",
+    "Toxicidad para niños y personas: no se ha encontrado ninguna ficha de un centro de toxicología ni de una fuente prioritaria. Solo hay comercios que la declaran no tóxica (no válidos). Se marca como 'desconocida'. ASPCA (dos fichas) y NC State la dan como no tóxica para perros y gatos.",
+    "Clima nativo: no se ha consultado una fuente climatológica prioritaria de la isla de Lord Howe (p. ej., el Bureau of Meteorology australiano). El clima se describe solo a partir de lo que dicen NC State y UF/IFAS sobre su hábitat costero y su tolerancia.",
+    "Temperatura mínima en interior: la RHS (guía de palmeras) pide 16 °C de mínima nocturna para Howea, pero en la misma guía la describe como tolerante a temperaturas más frescas que otras palmeras. UF/IFAS da -4 °C de tolerancia en exterior. No hay un dato prioritario claro de mínima de supervivencia en maceta de interior. Se fija min_c = 10 °C por prudencia (límite inferior del rango general de palmeras de la RHS) y como ideal no bajar de 16 °C.",
+    "Abonado: no se han encontrado ensayos sobre la dosis óptima de abono líquido para kentias de interior doméstico. Se aplica la convención del proyecto (¼-½ dosis mensual). UF/IFAS cita un ensayo en contenedor con abono de liberación controlada (Lamont et al. 1988, Scientia Horticulturae 36:293-302) que no se ha abierto."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/howea-forsteriana/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/ST297",
+      "institucion": "UF/IFAS Extension – EDIS ENH456 'Howea forsteriana: Kentia Palm' (Shawaqfeh, Broschat, Klein y Hilbert, rev. 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP262",
+      "institucion": "UF/IFAS Extension – EDIS ENH1010 'Nutrition and Fertilization of Palms in Containers' (Broschat)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/8845/howea-forsteriana/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Howea forsteriana",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/advice/profile?pid=757",
+      "institucion": "Royal Horticultural Society (RHS) – guía 'Palms: indoors'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://libanswers.nybg.org/faq/223483",
+      "institucion": "New York Botanical Garden (NYBG) – Mertz Library / Plant Information Service",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kentia-palm",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Kentia Palm)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/forster-sentry-palm",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Forster Sentry Palm)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:667434-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO) / IPNI",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://en.wikipedia.org/wiki/Howea_forsteriana",
+      "institucion": "Wikipedia – Howea forsteriana",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

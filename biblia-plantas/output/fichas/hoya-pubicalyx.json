@@ -1,0 +1,317 @@
+{
+  "nombre_cientifico": "Hoya pubicalyx",
+  "nombres_comunes": [
+    "hoya pubicalyx",
+    "flor de cera",
+    "flor de porcelana",
+    "hoya rosa plateada (traducción de 'Silver Pink Vine')"
+  ],
+  "familia": "Apocynaceae (subfamilia Asclepiadoideae). POWO, NC State y NParks la sitúan en Apocynaceae; ASPCA aún usa Asclepiadaceae, familia hoy integrada en Apocynaceae.",
+  "origen": "Endémica de Filipinas (POWO: nativa de Filipinas; localidad tipo en Luzón). Descrita por E. D. Merrill en 1918 (Philipp. J. Sci., C 13: 331).",
+  "clima_nativo": "Tropical húmedo (POWO: 'wet tropical'; NC State: selvas tropicales). Trepadora epífita perennifolia (POWO: 'climber'; NC State y NParks: epífita), sin tolerancia a heladas. Hojas gruesas y carnosas que almacenan agua: se comporta como semisuculenta (NC State la etiqueta 'succulent' y 'drought tolerant').",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 2,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Opuestas (por parejas en cada nudo), simples, de margen entero y sin pelos. Gruesas, carnosas, coriáceas y brillantes. Forma lanceolada a oblonga, larga y estrecha, con ápice acuminado (NC State: lanceolada, 7,5-15 cm de largo y 2,5-7,5 cm de ancho; LLIFLE: 10-14 cm, a veces 8-18 cm, por 2,5-6 cm, oblonga a oblongo-ovada; NParks: ovada, hasta 8 x 3,5 cm). Haz verde medio a oscuro, casi siempre salpicado de motas o manchas plateadas o gris plata (NC State, NParks, Iowa State); envés más pálido (LLIFLE). Con mucha luz las hojas jóvenes enrojecen por antocianos, y las maduras pueden tomar un tono plateado-rosado (NC State). Peciolo a menudo pardo rojizo oscuro (LLIFLE). Látex blanco al cortar (NParks).",
+    "nerviacion": "Pinnada, poco visible por el grosor de la lámina: nervio central y 4-5 pares de nervios laterales finos y arqueados que se unen cerca del margen (LLIFLE, fuente complementaria). Las fuentes prioritarias no la describen.",
+    "variegacion": "La especie tipo es verde con motas plateadas, cuya densidad varía según el clon (LLIFLE: 'Pink Silver' muy moteada, 'Red Button' poco). Cultivares: 'Splash', hojas verdes muy salpicadas de blanco y rosa (NC State); 'Royal Hawaiian Purple', flores rojo rosado a casi negras, a veces en la misma planta, y 'Pink Silver' (NParks, LLIFLE). En el comercio existen formas variegadas (Wikipedia, complementaria). Los brotes nuevos pueden salir rojizos y verdear al madurar (LLIFLE, NC State).",
+    "tallo": "Cilíndrico, de unos 3 mm de grosor, liso y sin pelos (LLIFLE); puede ser morado-grisáceo (NC State). Voluble, se enrosca en los soportes, con raíces en los nudos. Látex blanco lechoso al cortar (NParks). Rasgo clave: espolones florales (pedúnculos) cortos, gruesos y persistentes en las axilas, que vuelven a florecer durante varios años (NC State, Iowa State).",
+    "habito": "Trepadora o colgante perennifolia, epífita en origen. En casa, en cesta colgante o guiada en aro, enrejado o tutor (NC State, NParks, Iowa State). Crecimiento rápido y vigoroso (NC State: 'rapid'; Iowa State: 'vigorous-growing'). Flores en umbelas semiesféricas, de unos 1-1,8 cm cada una, estrelladas, con corola rosa polvo a rosa oscuro, rojo vino o casi negra según el clon, densamente afelpada, y corona central en estrella rosa pálido con centro rojo oscuro (NParks, NC State, LLIFLE). Muy perfumadas al atardecer y de noche (NC State, Iowa State). Florece en primavera y verano (NC State) y tarda unos 2 años en madurar y florecer (NC State).",
+    "tamano_adulto_interior": "En cultivo suele alcanzar 1,5-2 m de tallo (LLIFLE, complementaria); en la naturaleza, hasta unos 6 m. NC State indica un espacio de 30 cm a 1 m para plantarla. Se controla con el soporte y la poda.",
+    "confusiones": [
+      {
+        "especie": "Hoya carnosa (flor de cera común)",
+        "rasgo_diferenciador": "Muy parecida y emparentada: un estudio de ADN (Wanntorp et al., 2006, citado por LLIFLE) sugiere que podrían ser la misma especie, aunque POWO mantiene H. pubicalyx como especie aceptada. Diferencias prácticas: H. pubicalyx tiene hojas más largas y estrechas, lanceoladas a oblongas (Iowa State, NC State), a menudo con motas plateadas más densas, tallos que pueden ser morado-grisáceos y flores de rosa oscuro a granate o casi negras, con la corola densamente afelpada y el cáliz pubescente (de ahí el nombre 'pubicalyx'; NC State, NParks). H. carnosa tiene hojas ovadas a elíptico-ovadas, más anchas, tallo verde o crema-tostado y flores blancas a rosa pálido con corona rojiza (NC State, ficha H. carnosa). Sin flores, distinguirlas solo por la hoja es poco fiable: la app debe indicar confianza baja si no hay flores."
+      },
+      {
+        "especie": "Hoya kerrii (hoya corazón)",
+        "rasgo_diferenciador": "Hojas en forma de corazón, muy gruesas y anchas, y crecimiento menos vigoroso (Iowa State). H. pubicalyx tiene hojas lanceoladas, largas y estrechas, con motas plateadas."
+      },
+      {
+        "especie": "Hoya australis",
+        "rasgo_diferenciador": "Hojas redondeadas a ovaladas, verde brillante, sin las motas plateadas típicas, y flores blancas con centro rojo rosado (Iowa State)."
+      },
+      {
+        "especie": "Scindapsus pictus (poto satinado)",
+        "rasgo_diferenciador": "También tiene hojas verdes con manchas plateadas, pero son alternas (una por nudo), acorazonadas, finas y de tacto satinado, y el tallo no tiene látex blanco. En H. pubicalyx las hojas salen por parejas opuestas, son gruesas y céreas, y el tallo sangra látex (rasgo general, sin fuente prioritaria abierta)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "toxica",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: ASPCA la clasifica como no tóxica para perros, gatos y caballos (ficha 'Silver Pink Vine', con la errata 'Hoya publcalyx'), y NC State la etiqueta igual. Si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. Personas: NParks (Singapur) advierte que el látex blanco puede irritar la piel de algunas personas y la marca como 'tóxica por ingestión', recomendando mantenerla fuera del alcance de niños y mascotas. Riesgo práctico: irritación de piel u ojos por el látex y, si se ingiere, posibles molestias. Usar guantes al podar o esquejar. Ante ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F4",
+      "F1",
+      "F2",
+      "F7"
+    ],
+    "notas": "Perros y gatos: Alta, porque ASPCA y NC State tratan la especie y coinciden en 'no tóxica'. Contradicción: NParks (y la base de datos de la Univ. de Santo Tomás, que copia a NParks) dicen que el látex 'podría ser tóxico' y piden apartarla de niños y mascotas, pero es una advertencia genérica de las plantas con látex, sin casos ni principio activo. Para mascotas prevalece ASPCA, el centro toxicológico veterinario de referencia, y la ficha de H. carnosa sigue el mismo criterio. Niños: se elige lo más conservador, 'toxica' de bajo riesgo, por el látex irritante (NParks); confianza real Media. Ninguna fuente identifica el principio activo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. Una ventana norte suele dar poca luz para que florezca.",
+      "tolera_sol_directo": "Solo sol suave de mañana, un máximo de 2 horas (NC State). El sol directo fuerte quema las hojas (NC State, Iowa State). Un enrojecimiento de las hojas jóvenes con mucha luz es una protección natural (antocianos) y no es grave, pero indica que está al límite (NC State).",
+      "notas": "NC State: luz brillante e indirecta, unas 6 horas al día de luz filtrada, cerca de una ventana soleada, y no más de 2 h de sol directo de mañana. NParks: semisombra (contexto de exterior tropical en Singapur). Iowa State (género, cita la especie): luz brillante indirecta, la ventana más luminosa de la casa si se quieren flores; con poca luz da tallos largos y finos y no florece. Las tres coinciden. Rango de lux de la escala del proyecto (500-1000 fc); ninguna fuente da cifras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego de semisuculenta en ciclo mojado-seco. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato. No volver a regar hasta que el sustrato se haya secado (NC State) o casi del todo (Iowa State): comprobar con el dedo a 2-3 cm en macetas pequeñas y a unos 5 cm en macetas medianas o grandes, y confirmar con el peso (la maceta debe pesar claramente menos que recién regada). Nunca por calendario. Hojas blandas o arrugadas con sustrato seco indican sed; hojas amarillas con sustrato húmedo indican exceso (Iowa State).",
+      "primavera_verano": "Riego más frecuente en crecimiento, siempre dejando secar entre riegos (NC State). Con calor y mucha luz el sustrato se seca antes (Iowa State). Con botones, mantener el riego regular: los cambios bruscos de riego hacen caer los botones (Iowa State).",
+      "otono_invierno": "Menos agua: dejar que el sustrato pase más tiempo seco entre riegos (NC State), ajustando al crecimiento más lento y a la menor luz (Iowa State).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "NC State recomienda agua filtrada o de lluvia. En Madrid el agua del grifo es blanda (10-47 mg/L CaCO3) y sirve; dejarla reposar no elimina la cloramina, pero no hace falta. Usarla a temperatura ambiente. Cada pocos meses, regar con agua sola en abundancia para lavar las sales del abono.",
+      "notas": "NParks pide 'riego moderado' y 'pulverización ocasional'; pulverizar no sube la humedad de forma útil (convención del proyecto) y no se recomienda. NC State etiqueta la especie como tolerante a la sequía e intolerante a suelos encharcados. El exceso de agua causa pudrición de raíces y caída de hojas (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 70,
+      "notas": "NC State (especie): humedad del 60-70 %, con humidificador si hace falta, y lejos de rejillas de aire y calefactores, que resecan las hojas. Iowa State (género): las hoyas se adaptan a la humedad normal de una casa; ideal 40-60 %. Criterio del proyecto: la mínima es la cifra más alta de las prioritarias, y la de NC State es la única de la especie, así que mínimo 60 % e ideal 70 % (revisión del orquestador; la ficha original daba 40/60). En la práctica, en pisos de Madrid con calefacción la HR baja del 40 %: usar humidificador o agrupar plantas; pulverizar no sirve. Si la HR cae al 40-60 % la planta suele tolerarlo (Iowa State, género), pero vigilar bordes secos y araña roja, que el aire seco favorece (Iowa State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "NC State (especie): no tolera las heladas; mantenerla por encima de 10 °C (50 °F), porque el frío daña las hojas. Iowa State (género): 18-27 °C (65-80 °F) es lo ideal, con noches algo más frescas, y no tolera menos de 13 °C (55 °F). Se adopta 13 °C como mínimo, el valor más conservador, coherente con la ficha de H. carnosa; 10 °C es el límite de NC State para la especie y no debe tomarse como objetivo. Ninguna fuente da un máximo: se deja null. Una ligera bajada nocturna favorece la floración (Iowa State). LLIFLE (complementaria) afirma que aguanta frío 'si está totalmente seca'; no se adopta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla suelta, aireada y de drenaje rápido, que retenga algo de humedad: por ejemplo, sustrato universal con corteza de orquídea y perlita o pómez (Iowa State). NC State pide buen drenaje y materia orgánica, y sugiere macetas de barro (terracota) con agujeros suficientes.",
+      "ph": "Ácido a neutro: menos de 6,0 hasta 8,0 (NC State).",
+      "drenaje": "Imprescindible (NC State: 'como otras suculentas, un buen drenaje es imprescindible'; NParks: sustrato bien drenado). Maceta con agujeros y nunca demasiado grande, porque mantiene el sustrato mojado (Iowa State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (Iowa State: abono para todo uso), o abono de liberación lenta según etiqueta.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (convención del proyecto, coherente con Iowa State: ½-¼ de dosis, saltándose algunos riegos).",
+      "otono_invierno": "Nada: no abonar en invierno, para que repose y florezca mejor después (Iowa State).",
+      "notas": "Ninguna fuente prioritaria da pautas de abono para la especie; Iowa State trata el género y cita H. pubicalyx entre las hoyas habituales. NC State no menciona el abono.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Pocas veces: no le importa tener las raíces apretadas, así que rara vez hace falta trasplantar (NC State). Florece mejor algo apretada de raíces (Iowa State).",
+      "epoca": "Primavera, al empezar el crecimiento, y nunca con botones o flores para no provocar su caída (Iowa State: los cambios bruscos hacen caer los botones). La época no la da ninguna fuente prioritaria para la especie.",
+      "senales": "Raíces que salen por los agujeros o rodean el cepellón, sustrato que se seca en muy poco tiempo, o mezcla vieja y apelmazada que ya no drena (Iowa State). Subir solo un tamaño de maceta y renovar con mezcla aireada (Iowa State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Solo recortar si se hace demasiado grande (NC State) o para aclarar tallos.",
+      "epoca": "Final del invierno o principio de la primavera, antes del crecimiento rápido (dato del género; sin fuente prioritaria específica para la especie).",
+      "como": "REGLA CLAVE: no cortar nunca los espolones florales (pedúnculos) viejos ni quitar las flores pasadas. Cada espolón vuelve a florecer durante varios años, y cortarlo elimina floraciones futuras (NC State, especie; Iowa State, género). Dejar que las flores marchitas caigan solas. Para recortar, cortar justo por encima de un nudo con hojas, con guantes, porque el látex puede irritar la piel (NParks). Tampoco cortar los brotes largos sin hojas: luego las despliegan (Iowa State, género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ],
+      "notas": "La regla de los espolones la da NC State para la especie y Iowa State para el género; se deja en Media por el criterio del proyecto (dos prioritarias deben tratar la especie), pero es una regla firme en todo el género."
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semirreposo invernal, de octubre a febrero aproximadamente en el hemisferio norte; en el hemisferio sur, de abril a agosto.",
+      "cambios": "Menos riego (NC State) y nada de abono (Iowa State). Mantener la luz brillante y al menos 13 °C. Una ligera bajada de temperatura nocturna ayuda a formar botones (Iowa State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ],
+      "notas": "Las fechas de octubre a febrero son orientativas y siguen la ficha de H. carnosa; ninguna fuente prioritaria da meses para H. pubicalyx."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo (en agua, musgo esfagno húmedo o sustrato ligero)"
+      ],
+      "epoca": "Primavera o principio del verano, con calor y buena luz (las raíces salen antes con calor y luz, según Iowa State).",
+      "pasos": "1) Con guantes, cortar un tramo de tallo con al menos 1-2 nudos y varias hojas (Iowa State). 2) Quitar las hojas del nudo inferior. 3) Poner el nudo en agua, en musgo esfagno húmedo o en una mezcla ligera para esquejes (Iowa State). 4) Suele enraizar en pocas semanas, según el calor y la luz (Iowa State). 5) Ya enraizado, plantar en una maceta pequeña con mezcla aireada y regar con moderación. Una hoja sola sin nudo puede enraizar pero no forma tallo (Iowa State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "notas": "NC State y NParks recomiendan el esqueje de tallo para la especie; los pasos detallados son de Iowa State (género)."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, citada por NC State para la especie y por Iowa State como de las plagas más comunes del género. Se esconde en axilas, tallos y entre los espolones florales. Tratar con un producto listo para usar de uso no profesional inscrito en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones florales (NC State, especie)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State, especie), sobre todo si pasa el verano en terraza."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinilla algodonosa, pulgón, mosca blanca o escama (NC State, Iowa State). Las flores de esta especie dan poco néctar (LLIFLE), así que una planta pegajosa sin flores abiertas apunta a plaga."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y hojas, a veces con melaza (Iowa State, género)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire muy seco (Iowa State, género): calefacción en invierno y calor seco en verano en Madrid."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja en fase inicial (Iowa State, género). No confundir con las motas plateadas naturales de la hoja, que son manchas más grandes, repartidas y presentes desde que la hoja se abre."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o mal drenaje (NC State, especie; Iowa State). Es la causa principal de muerte."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas amarillas con el sustrato siempre húmedo: exceso de riego o mezcla que no drena (Iowa State)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas por exceso de agua (NC State) y caída de botones al moverla o cambiar bruscamente la luz, el riego o la temperatura (Iowa State). No moverla ni girarla con botones."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas o blandas: falta de agua; pero si el sustrato está mojado, indica raíces dañadas por exceso de riego (Iowa State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallos largos y finos y floración escasa o nula (Iowa State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo en verano tras un cristal sur u oeste: hojas quemadas (NC State). Un enrojecimiento sin manchas secas es protección por antocianos, no quemadura (NC State)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas o zonas ennegrecidas cuando las hojas quedan mojadas sin ventilación (Iowa State): regar el sustrato, no las hojas. El frío por debajo de 10 °C también daña las hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento por falta de luz, frío o sustrato viejo y apelmazado (Iowa State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla 1-2 m de las ventanas sur y oeste o tamizar la luz con cortina fina: NC State limita el sol directo a 2 horas de mañana. Una ventana este es ideal. Con calor y aire seco (HR exterior ≈38 %) el sustrato se seca antes: comprobar con el dedo y el peso cada pocos días, sin regar por calendario. Vigilar la araña roja y la cochinilla. Florece en primavera y verano: no moverla ni girarla con botones. Puede pasar el verano fuera, a la sombra de un árbol o en un patio (NC State), acostumbrándola poco a poco y protegida del sol de tarde; volver a meterla en cuanto refresque (NC State), y en Madrid antes de que las noches bajen de 13 °C, normalmente a finales de septiembre o principios de octubre.",
+    "invierno": "Semirreposo con riego escaso y sin abono. Mínimo 13 °C: alejarla del cristal frío por la noche. NC State pide alejarla de rejillas de aire y calefactores, que resecan las hojas. Con calefacción la humedad baja a menudo del 30 %, por debajo de lo que pide (NC State: 60-70 %; Iowa State: 40-60 %): usar humidificador o agrupar plantas; pulverizar no sirve. Mantenerla en la ventana más luminosa, porque la luz invernal es débil. Una ligera bajada nocturna, sin bajar de 13 °C, favorece la floración siguiente (Iowa State).",
+    "ubicacion_recomendada": "Cesta colgante o aro y enrejado junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. Un sitio luminoso y estable donde no haya que moverla en floración, lejos de radiadores, rejillas de aire acondicionado y corrientes."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) acepta Hoya pubicalyx Merr. (Philipp. J. Sci., C 13: 331, 1918), nativa de Filipinas, trepadora de clima tropical húmedo; no lista sinónimos. No hay cambio de nombre. Un estudio de ADN (Wanntorp, Kocyan y Renner, 2006, Mol. Phylogenet. Evol. 39: 722-733), citado por LLIFLE, sugiere que H. pubicalyx y H. carnosa podrían ser una sola especie; no se ha abierto el artículo.",
+    "Fuentes de cultivo: solo NC State y NParks tratan la especie, y NParks de forma muy breve (semisombra, riego moderado, buen drenaje, esqueje). Abono, trasplante, reposo, poda y plagas como escama y araña roja proceden sobre todo de Iowa State, que trata el género y solo describe la especie. Por eso esos bloques quedan en Media.",
+    "No se encontró ficha de H. pubicalyx en RHS ni en Missouri Botanical Garden; la búsqueda web se agotó antes de poder buscar más fuentes prioritarias.",
+    "Tamaño de la hoja: las fuentes no coinciden (NParks: hasta 8 x 3,5 cm, ovada; NC State: 7,5-15 x 2,5-7,5 cm, lanceolada; LLIFLE: 10-14 cm). Probablemente refleja la variación entre clones; se dan todas las cifras.",
+    "Temperatura máxima: ninguna fuente da un máximo tolerable; max_c se deja en null.",
+    "Luz en lux o fc: ninguna fuente da cifras; lux_min y lux_max se toman de la escala del proyecto para luz brillante indirecta (500-1000 fc).",
+    "Abono: ninguna fuente da una proporción NPK; npk se deja en null.",
+    "Toxicidad en personas: ninguna fuente prioritaria trata la ingestión por niños; NParks marca la planta como 'tóxica por ingestión' por su látex, sin principio activo ni casos. Principio activo desconocido.",
+    "Tamaño en interior: solo LLIFLE (complementaria) da 1,5-2 m en cultivo.",
+    "Confusión con Scindapsus pictus: rasgo general, sin fuente prioritaria abierta."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-pubicalyx/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Hoya pubicalyx",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/5/3/5303",
+      "institucion": "National Parks Board de Singapur (NParks, gestor del Jardín Botánico de Singapur) – Flora & Fauna Web, ficha Hoya pubicalyx",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-hoyas",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden, 'All About Hoyas' (género; describe H. pubicalyx)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/silver-pink-vine",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Silver Pink Vine, 'Hoya publcalyx')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:98653-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Hoya pubicalyx Merr.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://llifle.com/Encyclopedia/SUCCULENTS/Family/Asclepiadaceae/26377/Hoya_pubicalyx",
+      "institucion": "LLIFLE – Encyclopedia of Living Forms (enciclopedia divulgativa)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.ust.edu.ph/ust-manila-plant-databse/kapal-kapal-baging/",
+      "institucion": "University of Santo Tomas (Manila) – UST Manila Campus Plant Database, 'Kapal-kapal Baging' (resume NParks y POWO)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://en.wikipedia.org/wiki/Hoya_pubicalyx",
+      "institucion": "Wikipedia – Hoya pubicalyx",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

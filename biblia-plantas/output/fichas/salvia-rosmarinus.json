@@ -1,0 +1,382 @@
+{
+  "nombre_cientifico": "Salvia rosmarinus",
+  "nombres_comunes": [
+    "romero",
+    "romero común",
+    "Rosmarinus officinalis (nombre antiguo)"
+  ],
+  "familia": "Lamiaceae",
+  "origen": "Cuenca mediterránea: sur de Europa, norte de África y Asia occidental; NC State cita entre sus países nativos España, Italia, Grecia, Turquía y Marruecos, donde crece en 'zonas secas y pedregosas'. Autóctono en España. Introducido en EE. UU., México y Bermudas (NC State). Wisconsin y RHS: arbusto de las colinas mediterráneas.",
+  "clima_nativo": "Mediterráneo: veranos cálidos y secos, laderas soleadas, suelos ligeros, pobres, pedregosos y muy bien drenados (NC State, RHS, Wisconsin). Arbusto perennifolio leñoso. Rusticidad moderada: RHS H4 (-10 a -5 °C), USDA 8a-10b (NC State), 8-10 (Penn State); Maryland: rústico donde el invierno no baja de -15 °C (5 °F); RHS: las plantas asentadas en suelo aguantan hasta unos -8 °C. Muy tolerante a la sequía y a la salinidad (NC State).",
+  "categoria": "aromatica",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Lineares, 'como agujas', de 1,5-5 cm (RHS; Penn State: 1,3-3,8 cm), opuestas, sésiles, coriáceas y de margen entero (enrollado hacia abajo). Haz verde oscuro y envés blanquecino y afieltrado ('green above and white-tomentose beneath', NC State; Wisconsin: envés blanco y peludo que da aspecto gris verdoso). Muy aromáticas al frotarlas: olor resinoso a pino, eucalipto y alcanfor (Penn State, Maryland).",
+    "nerviacion": "Un solo nervio central hundido en el haz; la lámina es tan estrecha y de bordes tan revueltos que no se ven nervios secundarios. [orientativo, sin fuente prioritaria]",
+    "variegacion": "La especie es verde con envés blanquecino. Existen cultivares de hoja dorada o jaspeada (p. ej. 'Golden Rain', 'Gold Dust') [orientativo, sin fuente prioritaria]. Los cultivares se distinguen sobre todo por el porte (rastreros del Prostrata Group frente a erguidos como 'Arp' o 'Tuscan Blue') y el color de la flor (RHS, NC State, Delaware).",
+    "tallo": "Tallos de sección cuadrada y aromáticos; verdes y tiernos de jóvenes, se vuelven leñosos con la edad (NC State, Wisconsin, Penn State). En plantas viejas aparecen bultos o protuberancias en el tallo (raíces adventicias), que son normales (Maryland). Flores pequeñas, bilabiadas, azul pálido o violeta, a veces blancas o rosadas, en racimos cortos axilares a lo largo de las ramas, de primavera a verano y a veces en otoño (NC State, RHS, Wisconsin).",
+    "habito": "Arbusto perennifolio, de erguido a rastrero según el cultivar: erguido, redondeado, arqueado, extendido o columnar (NC State, RHS). Los rastreros (Prostrata Group) cuelgan del borde de la maceta.",
+    "tamano_adulto_interior": "En suelo, de 15 cm a 2 m según el cultivar (RHS; NC State: 1,2-1,5 m de alto). En maceta de 30 cm suele quedarse en 40-80 cm [orientativo, sin fuente prioritaria]. Crecimiento medio (NC State).",
+    "confusiones": [
+      {
+        "especie": "Lavandula angustifolia (lavanda)",
+        "rasgo_diferenciador": "La lavanda tiene hojas gris plateado por las dos caras (el romero, verde oscuro por el haz y blanco por el envés) y flores en espigas terminales sobre tallos largos sin hojas; el romero florece en racimos cortos en las axilas de las hojas, pegados a la rama. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Thymus vulgaris (tomillo)",
+        "rasgo_diferenciador": "Mata mucho más pequeña (20-30 cm) con hojitas ovadas de pocos milímetros, no lineares de 1,5-5 cm; olor a tomillo, no alcanforado. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Westringia fruticosa (romero australiano)",
+        "rasgo_diferenciador": "Hojas en verticilos de 3-4 alrededor del tallo, no opuestas por pares, y sin aroma al frotarlas; flor blanca. No es comestible como el romero. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Satureja montana (ajedrea)",
+        "rasgo_diferenciador": "Hojas más cortas, verdes por las dos caras y sin envés blanco afieltrado; flores blancas o rosadas en verano-otoño. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Coníferas enanas (Juniperus, Taxus) vendidas como mini árbol",
+        "rasgo_diferenciador": "Las hojas de las coníferas no tienen el envés blanco afieltrado ni huelen a romero al frotarlas, y los tallos son redondos, no cuadrados (tallo cuadrado: NC State). Ojo: el tejo es muy tóxico. [orientativo, sin fuente prioritaria]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "ASPCA: no tóxico para perros, gatos y caballos; NC State lo etiqueta igual. Es una hierba culinaria: hojas y flores son comestibles (NC State, Penn State). RHS advierte que puede producir alergia en la piel al manipularlo ('Skin allergen'): usar guantes si hay sensibilidad. Si una mascota come mucha cantidad puede tener molestias digestivas leves por volumen vegetal [orientativo, sin fuente prioritaria]. El riesgo real en niños son el aceite esencial concentrado y las hojas recién tratadas con un fitosanitario (respetar el plazo de seguridad de la etiqueta), no la planta.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F1",
+      "F3",
+      "F6"
+    ],
+    "notas": "Perros y gatos: dos fuentes prioritarias coinciden (ASPCA, ficha a nombre de Rosmarinus officinalis; NC State Plant Toolbox, etiquetas 'non-toxic' para gatos, perros y caballos). Niños: 'no tóxica' se basa en su uso como alimento (NC State, Penn State); no se ha consultado una fuente toxicológica humana específica ni sobre el aceite esencial."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Sur u oeste (RHS: orientación sur u oeste y resguardada; Illinois y Penn State: ventana sur u oeste en interior). En interior una ventana norte o este no basta: usar lámpara de cultivo.",
+      "tolera_sol_directo": "Sí, lo necesita: pleno sol, 6 h o más de sol directo al día (NC State, RHS, Wisconsin, Penn State). En interior, al menos 4 h de sol directo o unas 12 h de luz artificial intensa (horticultor de Clemson, F11).",
+      "notas": "Es la planta de pleno sol por excelencia; en interior sufre por falta de luz, que es, junto al riego incorrecto, la razón por la que cuesta tanto mantenerlo dentro en invierno (Penn State). lux_min = 10 760 lux es el umbral de luz directa de la escala del proyecto (>1000 fc); ninguna fuente prioritaria da cifras en lux. Con poca luz los brotes nuevos salen débiles y más propensos al oídio [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F10",
+        "F11"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a 2-3 cm de profundidad (5 cm en macetas de 30 cm o más) y la maceta pese claramente menos; entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato (Clemson, F11: dejar que el sustrato se seque moderadamente y regar hasta que drene). Nunca encharcar: el exceso de riego es la primera causa de decaimiento y muerte (NC State, Wisconsin; Penn State: evitar el exceso para prevenir la pudrición de raíz). Pero tampoco dejar que llegue a mustiarse: a diferencia de otras hierbas, el romero no se recupera de un marchitamiento fuerte (F11) y si se seca del todo tira las hojas (Illinois).",
+      "primavera_verano": "En terraza a pleno sol y en maceta, el sustrato se seca rápido con calor (RHS): comprobar cada 1-3 días en olas de calor y regar solo al notar los 2-3 cm superiores secos. En suelo y ya asentado casi no necesita riego (RHS, NC State: muy tolerante a la sequía). En interior, comprobar a menudo: se seca rápido junto a una ventana soleada (Illinois).",
+      "otono_invierno": "Mucho menos: el crecimiento se frena. En exterior, el sustrato frío y mojado pudre las raíces (RHS): con lluvias persistentes poner la maceta a cubierto o bajo un alero, sin plato. En interior con calefacción el sustrato se seca más deprisa de lo que parece: seguir comprobando con el dedo y el peso, sin dejar que se seque del todo (Illinois, F11).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sin exigencias especiales: tolera bien la sal (NC State). El agua del grifo de Madrid (blanda, con cloramina) sirve tal cual; dejarla reposar no elimina la cloramina y no hace falta.",
+      "notas": "Sensibilidad a la sequía 'media': planta asentada en suelo muy tolerante (NC State, Penn State), pero en maceta pequeña se seca rápido y no perdona un marchitamiento fuerte (F11, Illinois). Maceta de barro: seca más rápido y reduce el riesgo de pudrición (Penn State; F11).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F10",
+        "F11"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Es planta de clima mediterráneo y aguanta bien el aire seco en exterior. Lo que más daña es la humedad alta con poca ventilación, que favorece el oídio (NC State; Penn State: asegurar circulación de aire). En interior, un horticultor de Clemson (F11) indica que prefiere algo más de humedad que otras hierbas, porque el aire de casa con calefacción seca hojas y ramitas: si la HR baja del 30 %, usar humidificador o agrupar macetas, sin pulverizar (pulverizar no sube la humedad de forma útil y mojar las hojas favorece hongos) y manteniendo siempre buena ventilación.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F11"
+      ]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": 13,
+      "ideal_max_c": 18,
+      "notas": "Mínima: las fuentes difieren. RHS lo califica H4 (-10 a -5 °C) y dice que las plantas asentadas 2-3 años en suelo aguantan unos -8 °C; Wisconsin y NC State dan zona USDA 8a (unos -12 °C); Maryland, -15 °C (5 °F). Se toma el valor más conservador, -5 °C (límite superior de H4), además porque en maceta el cepellón se congela antes que en el suelo (mismo criterio que la ficha de Origanum vulgare). El frío con sustrato mojado es más peligroso que el frío seco (RHS). Los cultivares 'Arp' y 'Madeline Hill' son más rústicos (zona 7a, Wisconsin; 'Arp' RHS H5). Ideal: en interior en invierno, fresco: unos 17-18 °C de día (63-65 °F, Illinois) y noches que no pasen de 13 °C (55 °F, horticultor de Clemson, F11) [13 °C orientativo, sin fuente prioritaria]; una casa a 22-24 °C con calefacción le sienta mal. Ninguna fuente da una máxima: es planta de clima mediterráneo que soporta el calor del verano a pleno sol.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4",
+        "F5",
+        "F10",
+        "F11"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Para maceta: sustrato con base de tierra (sin turba) mezclado con hasta un 25 % de grava hortícola (RHS); o mezcla ligera, arenosa o con grava (Penn State). Evitar sustratos que retengan mucha agua y los suelos arcillosos (NC State, Penn State). Penn State recomienda acolchado de gravilla mejor que orgánico.",
+      "ph": "6,5-7,0 (Penn State, Maryland); RHS: tolera ácido, neutro o alcalino",
+      "drenaje": "Imprescindible y excelente (Wisconsin: el buen drenaje es esencial; RHS: 'odia tener las raíces mojadas'). Maceta con varios agujeros, sin plato con agua; si el suelo es pesado, cultivarlo en bancal elevado o maceta (RHS).",
+      "notas": "Contradicción de pH: NC State indica 'ácido, por debajo de 6,0', mientras que Penn State y Maryland dan 6,5-7,0 y RHS dice que tolera suelo ácido, neutro o alcalino. Se adopta 6,5-7,0 (dos prioritarias coinciden y RHS lo admite); el romero crece silvestre en suelos calizos de España [orientativo, sin fuente prioritaria]. Lo crítico no es el pH sino el drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F6",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono equilibrado de liberación lenta (granulado) o líquido para plantas verdes, siempre poco.",
+      "npk": null,
+      "primavera_verano": "En maceta que lleva más de un año en el mismo sustrato: una aplicación de abono granulado de uso general a finales de primavera o principios de verano (RHS); o abono líquido a ¼-½ de la dosis de etiqueta una vez al mes solo con crecimiento activo (criterio del proyecto). En suelo no necesita abono (RHS).",
+      "otono_invierno": "Nada.",
+      "notas": "Abonar poco: el exceso de abono reduce la floración y el aroma (Wisconsin) y prefiere suelos pobres o moderadamente fértiles (RHS). No abonar con calor extremo ni con la planta parada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando las raíces llenen la maceta [orientativo, sin fuente prioritaria]. Estar ligeramente apretado en la maceta favorece la floración (Wisconsin).",
+      "epoca": "Primavera, pasado el riesgo de heladas [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces saliendo por los agujeros, el sustrato se seca en un día, o maceta pequeña para el porte. Usar maceta de al menos 30 cm de ancho y de fondo con muchos agujeros (RHS), mejor de barro (Penn State). RHS aconseja renovar la planta cada 7-8 años porque las viejas se vuelven leñosas y peladas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, ligera cada año: sin poda se vuelve desgarbado y pelado por la base (RHS).",
+      "epoca": "Justo después de la floración (RHS, Penn State, NC State), normalmente a finales de primavera.",
+      "como": "Recortar ligeramente las puntas para mantenerlo compacto, sin cortar nunca en madera vieja sin hojas, que rebrota mal (RHS; Wisconsin: no cortar tallos leñosos salvo para dar forma). En plantas jóvenes, pinzar las puntas para ramificar (Wisconsin, Maryland). Para cosechar, no quitar más del 20 % de la planta a la vez (Wisconsin). Admite formas y topiaria (UF/IFAS).",
+      "notas": "NC State menciona como opción una poda severa tras la floración; RHS y Wisconsin desaconsejan cortar en madera vieja. Se adopta la opción conservadora: poda ligera, siempre dejando parte verde con hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F6",
+        "F1",
+        "F4",
+        "F13"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno en el hemisferio norte (en Madrid, aprox. noviembre-febrero); es perennifolio y no pierde las hojas, solo frena el crecimiento.",
+      "cambios": "Regar mucho menos y proteger del encharcamiento con frío (RHS); no abonar. Si se mete en casa, sitio fresco y muy luminoso, lejos de radiadores (Illinois, Penn State). En verano muy caluroso también ralentiza el crecimiento [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F10",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo (puntas)",
+        "acodo",
+        "semilla (no recomendada)"
+      ],
+      "epoca": "Esquejes de madera blanda de finales de primavera a principios de verano; semimaduros en verano (RHS, Wisconsin). Acodo en primavera u otoño (RHS).",
+      "pasos": "1) Cortar puntas de 10-15 cm de un brote sin flor (Wisconsin; Penn State: 15 cm). 2) Quitar las hojas de la mitad inferior. 3) Opcional: mojar la base en hormona de enraizamiento. 4) Clavar en perlita o mezcla sin tierra estéril y aireada. 5) Mantener con calor de fondo a 21-24 °C (70-75 °F, Penn State), luz brillante sin sol fuerte y sustrato apenas húmedo. 6) Enraízan en 10-20 días (Penn State); entonces pasar a maceta. Acodo: enterrar y sujetar un tallo bajo en el suelo, cortarlo y trasplantarlo cuando haya enraizado (RHS). La semilla germina mal y lenta (14-21 días a unos 15 °C, Wisconsin), tarda hasta 3 años en dar cosecha y no reproduce el cultivar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F6",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato encharcado y frío: es la principal causa de muerte (NC State, Wisconsin, Penn State, RHS). Típica en interior en invierno y en macetas con plato."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de cuello y raíz (UC IPM, RHS 'foot and root rots') por suelo mojado y mal drenado, sobre todo con frío."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas de las 'agujas' marrones: Penn State lo asocia a pudrición de raíz por exceso de riego; también por sequedad total del cepellón o aire muy seco de calefacción. Antes de regar más, comprobar el sustrato (regar de más empeora el problema)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio: muy frecuente (NC State, Penn State, Delaware, UC IPM, RHS), sobre todo en interior con poca ventilación y humedad alta; suele empezar en los brotes débiles que salen con poca luz. Más luz, más ventilación y no mojar las hojas. Al ser comestible, cualquier producto debe estar autorizado para aromáticas y respetar el plazo de seguridad de la etiqueta."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Ramas lacias por sequedad total del cepellón (el romero no se recupera bien de un marchitamiento fuerte, F11) o, al contrario, por raíces podridas por encharcamiento: mirar el sustrato antes de actuar."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas al meterlo en casa en otoño (cambio brusco de luz, calor y aire seco) o porque el cepellón se secó del todo (Illinois). Meterlo antes de las heladas, con aclimatación gradual (Wisconsin, Penn State: 2-3 semanas antes de la primera helada)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Etiolación por falta de luz en interior: necesita sol directo (6 h o más, NC State) y la poca luz es una de las causas de su fracaso dentro (Penn State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, sobre todo en interior con calefacción y aire seco (NC State, Penn State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado pálido por cicadélidos de la salvia (RHS) en primavera-verano en exterior, o por trips o araña roja (Delaware, Penn State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, Penn State, Wisconsin, UC IPM)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, sobre todo en interior (NC State, Penn State, UC IPM)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas (NC State, Penn State, Wisconsin). No confundir con la espuma blanca de la 'saliva de cuco' (ninfas de cercópidos), que es inofensiva (RHS, UC IPM)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos (RHS, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis o moho gris con humedad alta y poca ventilación (NC State, Wisconsin, Delaware)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Escarabajo del romero (Chrysolina americana), nativo del sur de Europa: adultos de 6-7 mm con rayas metálicas verdes y moradas y larvas grisáceas que comen hojas y flores, sobre todo de agosto a abril. Suele no afectar a la salud de la planta: retirar a mano o sacudir las ramas sobre un periódico (RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es autóctono y soporta el calor de 35-40 °C y el aire seco a pleno sol; no necesita sombra. El problema es la maceta: con calor y sol el sustrato se seca muy rápido (RHS). Usar maceta de al menos 30 cm, mejor de barro (RHS, Penn State), comprobar el sustrato cada 1-3 días en olas de calor y regar a fondo solo cuando esté seco a 2-3 cm, sin dejar agua en el plato. Una maceta negra o de plástico fino a sur puede calentar en exceso las raíces: mejor barro o una maceta doble [orientativo, sin fuente prioritaria]. Vigilar araña roja. No abonar con calor extremo. Si está en interior en verano, sacarlo a la terraza.",
+    "invierno": "Mejor fuera todo el año, en terraza o balcón soleado: aguanta las heladas suaves habituales (RHS H4, hasta -5/-10 °C; mínimo orientativo en maceta -5 °C), pero lo mata el sustrato frío y encharcado (RHS). Ponerlo junto a una pared o bajo un alero, sin plato, y regar muy poco; en olas de frío fuerte, agrupar macetas, envolver la maceta (manta o plástico de burbujas) o arrimarla a la pared (RHS). Si se mete dentro, en la ventana más soleada y fresca de la casa (unos 13-18 °C), lejos de radiadores; con calefacción y HR < 30 % se secan las hojas y aparece araña roja: comprobar el riego con más frecuencia de lo que parece, humidificador o agrupar plantas, y buena ventilación para evitar oídio. Que las hojas no toquen el cristal frío.",
+    "ubicacion_recomendada": "Terraza o balcón a pleno sol (sur u oeste), 6 h o más de sol directo, todo el año, en maceta de barro de 30 cm o más con sustrato con grava. En interior solo de forma temporal, en una ventana sur fresca o con lámpara de cultivo intensa; es una de las aromáticas más difíciles de mantener dentro en invierno (Penn State)."
+  },
+  "lagunas": [
+    "Nomenclatura: el nombre actual es Salvia rosmarinus (NC State, RHS, Penn State, Delaware y Wisconsin usan Salvia rosmarinus y citan Rosmarinus officinalis L. como nombre anterior). POWO (Kew) devolvió 403/Cloudflare y no se pudo confirmar en POWO el nombre aceptado, el autor ni la lista de sinónimos. ASPCA, Maryland y UC IPM siguen usando Rosmarinus officinalis.",
+    "No se ha consultado Flora iberica (Real Jardín Botánico) para la distribución en España; la autoctonía se basa en NC State (país nativo: España).",
+    "Missouri Botanical Garden Plant Finder no se pudo consultar (el taxonid probado no correspondía a la especie). La ficha de Clemson HGIC y la de RHS 'rosmarinus-officinalis' no se localizaron (404); lo de Clemson procede de una entrevista en revista (F11), tratada como complementaria.",
+    "Ninguna fuente prioritaria da intensidad de luz en lux o fc; lux_min (10 760) sale de la escala del proyecto para luz directa y lux_max queda en null.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa (min_pct e ideal_pct en null).",
+    "No hay temperatura mínima específica en maceta ni máxima. min_c = -5 °C es el límite superior de RHS H4 y se aplica como orientativo para maceta.",
+    "Temperatura ideal nocturna de 13 °C solo de fuente complementaria (F11); el ideal diurno de 17-18 °C es de Illinois Extension (blog).",
+    "Frecuencia y época de trasplante sin fuente prioritaria.",
+    "Toxicidad en niños: no se ha consultado una fuente toxicológica humana; 'no tóxica' se basa en su uso alimentario. Sin datos verificados sobre el aceite esencial.",
+    "No se ha comprobado en el Registro del MAPA qué productos de uso no profesional están autorizados en romero o aromáticas contra oídio, araña roja, pulgón o mosca blanca, ni sus plazos de seguridad.",
+    "RHS señala el romero como huésped de alto riesgo de Xylella fastidiosa; no se ha verificado la situación ni la normativa de esta bacteria en España (EPPO/MAPA).",
+    "Los rasgos para distinguirlo de lavanda, tomillo, Westringia, ajedrea y coníferas enanas, y los cultivares de hoja dorada, no se han verificado en fuentes prioritarias."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox, 'Salvia rosmarinus'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/herbs/rosemary/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS), 'How to grow rosemary'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/384211/salvia-rosmarinus-ro/details",
+      "institucion": "Royal Horticultural Society (RHS), Plant Profile 'Salvia rosmarinus (Ro)'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umd.edu/resource/rosemary",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center, 'Rosemary' (act. feb. 2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/rosemary-rosemarinus-officinalis/",
+      "institucion": "University of Wisconsin-Madison Extension, Wisconsin Horticulture, 'Rosemary, Rosmarinus officinalis'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.psu.edu/herb-garden-plants-rosemary",
+      "institucion": "Penn State Extension, 'Herb Garden Plants: Rosemary'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://udel.edu/content/dam/udelImages/canr/pdfs/extension/factsheets/Rosemary.pdf",
+      "institucion": "University of Delaware Cooperative Extension, ficha 'Rosemary' (Master Gardeners, oct. 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ipm.ucanr.edu/PMG/GARDEN/PLANTS/rosemary.html",
+      "institucion": "University of California ANR, UC IPM, 'Rosemary: pests, diseases and disorders'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary",
+      "institucion": "ASPCA Animal Poison Control Center, 'Rosemary' (Rosmarinus officinalis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://extension.illinois.edu/blogs/ilriverhort/2017-12-03-give-rosemary-sign-love-and-remembrance",
+      "institucion": "University of Illinois Extension, blog de horticultura (R. Ferree), 'Give rosemary as a sign of love and remembrance' (2017)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.hortmag.com/weekly-tips/qa-with-bob-polomski-11",
+      "institucion": "Horticulture Magazine, 'Q&A with Bob Polomski' (respuestas de un horticultor de extensión de Clemson University, publicadas en revista divulgativa)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.rhs.org.uk/biodiversity/rosemary-beetle",
+      "institucion": "Royal Horticultural Society (RHS), 'Rosemary beetle'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/05/28/fact-sheet-rosemary",
+      "institucion": "UF/IFAS Extension Nassau County, 'Fact sheet: Rosemary' (2017)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

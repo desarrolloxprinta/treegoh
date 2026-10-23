@@ -1,0 +1,395 @@
+{
+  "nombre_cientifico": "Streptocarpus ionanthus",
+  "nombres_comunes": [
+    "violeta africana",
+    "saintpaulia",
+    "violeta de Usambara"
+  ],
+  "familia": "Gesneriaceae (familia de la gloxinia)",
+  "origen": "África oriental: Kenia y Tanzania (POWO, Kew); NC State la sitúa en el este y suroeste de Tanzania. Antes Saintpaulia ionantha H.Wendl.; hoy Streptocarpus ionanthus (H.Wendl.) Christenh. (POWO). Las plantas de venta son cultivares e híbridos con cientos de formas y colores (Iowa State).",
+  "clima_nativo": "Tropical sin heladas: solo rústica en zonas USDA 11a-12b (NC State). Las fuentes consultadas no describen el hábitat natural en detalle (ver lagunas). En cultivo prefiere temperatura constante y humedad alta, y no tolera el aire seco (NC State).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples en roseta basal, gruesas, blandas y aterciopeladas, densamente peludas; lámina ovada a casi redonda, de punta obtusa y margen festoneado (crenado), de 2,5-7,5 cm de largo y ancho; haz verde medio a oscuro, envés a menudo rojo, rosado o púrpura; peciolos largos respecto a la lámina, verdes o rojizos (NC State). Existen cultivares de hoja rizada, flecada, en cuchara, puntiaguda o variegada (Iowa State). Con poca luz las hojas se vuelven finas, oscuras y con peciolo muy largo (Iowa State, Clemson).",
+    "nerviacion": "Pinnada, con los nervios hundidos en el haz que dan a la hoja aspecto acolchado o arrugado bajo el vello (NC State describe la hoja como 'arrugada'); nervios poco visibles por la pubescencia.",
+    "variegacion": "La especie es verde; hay cultivares variegados con bordes o zonas blanco crema, y hojas verde plateado (Iowa State, Univ. Minnesota, Clemson).",
+    "tallo": "Prácticamente sin tallo visible (acaule), verde y peludo (NC State). Con los años pierde hojas basales y forma un 'cuello' o tallo desnudo que eleva la corona sobre el sustrato (Iowa State). Plantas viejas pueden tener varias coronas (UF/IFAS, UGA).",
+    "habito": "Roseta compacta en montículo; existen formas en roseta y colgantes (trailing) (NC State). Flores de hasta 2,3 cm, sencillas a dobles, en grupos de 3-10 sobre un escapo que sobresale de las hojas; corola de tubo corto con dos labios (superior de 2 lóbulos, inferior de 3) y 2 estambres con anteras amarillas muy visibles en el centro (NC State). Colores azul, violeta, lavanda, blanco, rosa, rojo-violeta y bicolores; formas sencilla, semidoble, doble, estrella, flecada o rizada (Iowa State). Puede florecer todo el año (NC State, Clemson).",
+    "tamano_adulto_interior": "Especie tipo: 15-23 cm de alto y ancho (NC State). Por diámetro de roseta (clases de la American Violet Society citadas por Iowa State): miniatura <15 cm, semiminiatura 15-20 cm, estándar 20-40 cm, grande >40 cm.",
+    "confusiones": [
+      {
+        "especie": "Episcia cupreata (episcia)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. La episcia emite estolones largos con plantitas, tiene hojas más alargadas con dibujo cobrizo o plateado muy marcado y flores tubulares rojo-anaranjadas solitarias; la violeta africana es una roseta sin estolones con flores abiertas de anteras amarillas."
+      },
+      {
+        "especie": "Fittonia albivenis (fitonia)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. La fitonia tiene tallos rastreros, hojas opuestas lisas (no aterciopeladas) con la red de nervios blanca o rosa muy contrastada y flores diminutas en espiga; la violeta africana es una roseta sin tallo de hojas peludas."
+      },
+      {
+        "especie": "Streptocarpus del grupo 'cape primrose' (Streptocarpus × hybridus)",
+        "rasgo_diferenciador": "Mismo género actual. Tienen hojas mucho más largas, estrechas y en tira, y flores más grandes en forma de trompeta con garganta rayada; la violeta africana tiene hojas casi redondas con peciolo largo y flores pequeñas planas."
+      },
+      {
+        "especie": "Violetas de jardín (Viola odorata y otras Viola)",
+        "rasgo_diferenciador": "No están emparentadas (Iowa State). Viola tiene flores con espolón y pétalos desiguales, hojas lisas acorazonadas y es planta de exterior; la violeta africana tiene hojas peludas y flores sin espolón con anteras amarillas centrales."
+      },
+      {
+        "especie": "Cyclamen persicum (ciclamen)",
+        "rasgo_diferenciador": "El ciclamen tiene tubérculo, hojas lisas acorazonadas con jaspeado plateado y flores solitarias con los pétalos vueltos hacia atrás; la violeta africana no tiene tubérculo y sus hojas son aterciopeladas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se conocen principios tóxicos. Como con cualquier planta no tóxica, una ingestión abundante puede provocar molestias digestivas leves (vómito o diarrea pasajeros) en mascotas [orientativo, sin fuente prioritaria]; en niños pequeños el riesgo principal es el atragantamiento (Alberta Health Services indica que las plantas no tóxicas pueden causar síntomas leves). Si la planta se ha tratado con fitosanitarios, el riesgo es el del producto, no el de la planta. Ante ingestión dudosa: Servicio de Información Toxicológica, 91 562 04 20.",
+    "confianza": "Alta",
+    "notas": "ASPCA: no tóxica para perros, gatos y caballos (Saintpaulia spp.). NC State: no tóxica para gatos, perros y caballos. Clemson la incluye entre las plantas seguras para mascotas. Univ. Saskatchewan la cita como ejemplo de planta que se cree venenosa y no lo es. Alberta Health Services (complementaria) la lista como no tóxica.",
+    "fuentes": [
+      "F10",
+      "F1",
+      "F11",
+      "F12",
+      "F14"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Este como opción general todo el año; norte muy luminosa vale para mantenerla pero florece menos. En invierno, ventana sur u oeste a menos de 1 m (UGA, Clemson, UF/IFAS); en primavera-verano, este o norte (UGA, Iowa State, Univ. Minnesota). Nunca sol directo de tarde (Clemson).",
+      "tolera_sol_directo": "No de forma prolongada: la luz directa durante mucho tiempo la daña (Iowa State) y el exceso produce hojas pálidas o amarillo verdosas, quemaduras y plantas enanas y compactas (UF/IFAS, UGA). Solo admite sol suave de primera hora de la mañana o luz tamizada por visillo (UGA).",
+      "notas": "La luz es lo que hace florecer: la falta de luz es la causa más común de que no florezca (Clemson, UGA, Iowa State). Óptimo ≈1000 fc (≈10 760 lux), sin sol directo (UF/IFAS, UGA); tolera 200-500 fc (≈2150-5380 lux) pero florece poco (UGA). Necesita 8-12 h de luz (hasta 16 h) y al menos 8 h de oscuridad para florecer (UF/IFAS); Univ. Minnesota pide 14-16 h de luz y 8-10 h de oscuridad. Con luz artificial sola: ≈600 fc (≈6460 lux) 14-16 h al día (UF/IFAS, UGA), con tubos o LED a 10-20 cm (Iowa State) o 30-38 cm (UF/IFAS, UGA) según potencia. Señales: hojas finas, verde oscuro, peciolos largos y sin flor = falta luz; hojas pálidas, decoloradas, pequeñas y apretadas = exceso de luz. Discrepancia de orientación: Iowa State y Univ. Minnesota prefieren norte/este; Clemson y UF/IFAS, sureste-sur-oeste a menos de 1 m. Se resuelve por estación (UGA), y se recomienda la opción conservadora: luz brillante sin sol directo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F2",
+        "F3",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando la superficie del sustrato esté seca al tacto (los 2-3 cm superiores; Iowa State pide que se seque la primera pulgada) y la maceta pese claramente menos, pero antes de que el sustrato se endurezca o la planta se lacie (UF/IFAS, UGA). Nunca por calendario: la necesidad cambia con sustrato, maceta, luz, temperatura y humedad (UF/IFAS, UGA). El exceso de riego es el problema nº 1 y provoca pudrición de corona y raíz (NC State, Clemson, Univ. Minnesota). Riego por abajo (recomendado): poner la maceta en un plato con unos 2,5 cm de agua a temperatura ambiente; cuando la superficie se humedezca, sacarla, dejar escurrir y tirar el sobrante; no dejarla en agua (Clemson, UF/IFAS, Univ. Minnesota, Iowa State). Riego por arriba: solo sobre el sustrato con regadera de pico fino, sin mojar hojas ni corona, empapando hasta que drene y vaciando el plato a los 20-30 min (UGA, Univ. Minnesota). Cada cierto tiempo (Univ. Minnesota: una vez al mes) regar por arriba con agua abundante para lavar sales acumuladas (Iowa State, UF/IFAS, UGA).",
+      "primavera_verano": "Con calor y mucha luz se seca antes y hay que comprobar el sustrato con más frecuencia (UGA); mantenerlo húmedo pero no encharcado. No regar a pleno sol ni dejar gotas en las hojas expuestas a la luz: forman manchas (Iowa State).",
+      "otono_invierno": "Con menos luz y frío el sustrato tarda más en secarse: espaciar los riegos siguiendo el mismo criterio de tacto y peso. En invierno la temperatura del agua es crítica: el agua fría sobre las hojas las daña rápidamente (Iowa State); usar agua a temperatura ambiente o ligeramente más templada (UF/IFAS, Clemson).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente o ligeramente más templada, nunca fría: el agua fría (≤13 °C, o solo 5-6 °C más fría que la hoja) sobre las hojas causa manchas en anillo (UGA, UF/IFAS, Clemson). El agua potable sirve (UF/IFAS); el agua del grifo de Madrid es blanda (10-47 mg/L CaCO3) y adecuada. Nunca agua de descalcificador (Univ. Minnesota). Univ. Minnesota recomienda además evitar el agua clorada y usar destilada, de lluvia o de ósmosis: es la opción más prudente si se quiere evitar cualquier riesgo, pero no es necesaria con el agua de Madrid (UF/IFAS considera apta el agua de consumo). Dejar reposar el agua del grifo no elimina la cloramina, pero sí sirve para que alcance la temperatura ambiente, que es lo importante para esta planta.",
+      "notas": "MANCHAS POR AGUA FRÍA (ring spot): manchas, anillos y líneas de color blanco, amarillo, pajizo o marrón claro en el haz de la hoja, de tamaño irregular, que pueden unirse (Clemson, TAMU, CAES, UF/IFAS). Es un daño fisiológico, no una enfermedad, y las manchas no desaparecen; más frecuentes en invierno y en cultivares sensibles (CAES). También aparecen si el sol da sobre hojas mojadas (Iowa State) o si una corriente de aire enfría por evaporación el agua sobre la hoja aunque fuera templada (TAMU). Prevención: regar por abajo o sin mojar hojas, y con agua templada; sacudir o retirar con pincel las gotas que caigan (Univ. Minnesota). Mechas (riego por capilaridad con cordón de nailon) mantienen humedad constante pero obligan a lavar sales por arriba periódicamente (Iowa State, UF/IFAS, Univ. Minnesota). Las macetas de barro se secan antes que las de plástico (Clemson, UF/IFAS); nunca macetas sin agujero de drenaje (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F1"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "Univ. Minnesota da 40-60 % de HR. NC State: prospera con humedad alta y no tolera el aire seco; UF/IFAS y UGA: crece mejor con humedad alta, aunque florece con la de una casa normal (UGA). Para subirla: humidificador o agrupar plantas; las fuentes citan también bandejas con guijarros y agua sin que la maceta toque el agua (UF/IFAS, UGA, Univ. Minnesota). No pulverizar las hojas: no sube la humedad de forma útil y, en esta especie, el agua sobre la hoja produce manchas y favorece botritis (UGA no lo recomienda; TAMU, CAES). Humedad muy alta (80-90 %) con frío favorece al ácaro del ciclamen (Clemson HGIC 2250) y a la botritis (TAMU).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F7",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 29,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Óptimo 18-27 °C (65-80 °F, Iowa State); noches de 18-21 °C (65-70 °F) ideales (UF/IFAS, Clemson, UGA); crece de forma satisfactoria entre 16 y 27 °C (60-80 °F, UF/IFAS, NC State, Univ. Minnesota; ideal 21 °C). Mínimo: se toma 16 °C (60 °F) como valor conservador porque por debajo se atrofia y puede tardar mucho en recuperarse (NC State) y las hojas se deforman, se curvan, se acopan y se vuelven quebradizas (UGA). Iowa State da un umbral de daño más bajo, 10 °C (50 °F), a partir del cual las hojas se oscurecen, se marchitan y se ven empapadas: es daño agudo, no mínimo de cultivo. Máximo: se toma 29 °C (85 °F), por encima del cual se frena el crecimiento y la floración (Iowa State); Clemson admite 27-29 °C de día y UGA hasta 32 °C (90 °F) de día; con calor prolongado, al lugar más fresco de la casa o habitación con aire acondicionado (UF/IFAS). Prefiere temperaturas constantes (NC State); evitar corrientes y que las hojas toquen el cristal (UGA).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1",
+        "F7",
+        "F3",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla sin suelo, ligera, porosa y fértil, alta en turba o fibra de coco: sustrato comercial para violetas africanas (Iowa State, UF/IFAS, Univ. Minnesota). Mezclas caseras de referencia: partes iguales de turba, vermiculita y perlita (UF/IFAS); 2-3 partes de turba, 2 de vermiculita y 1 de perlita, con cal para corregir la acidez de la turba o usando fibra de coco (NC State); o 50 % de sustrato para violetas y 50 % de perlita (Univ. Minnesota). Sustrato y macetas siempre limpios o esterilizados (Clemson, CAES, TAMU). Al plantar, la corona queda ligeramente por encima del nivel del sustrato, nunca enterrada (NC State, UGA, Clemson HGIC 2250).",
+      "ph": "6,0-6,5 (UF/IFAS, UGA); 6,2-6,5 según Univ. Minnesota",
+      "drenaje": "Imprescindible: macetas con agujeros de drenaje y sin plato con agua estancada (Clemson, UF/IFAS, Univ. Minnesota, CAES). La planta tiene raíces finas que se pudren si el sustrato está siempre mojado (Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F1",
+        "F6",
+        "F7",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido hidrosoluble completo y equilibrado, o específico para violetas africanas, a dosis baja (Iowa State, UF/IFAS, UGA). Aplicar siempre con el sustrato ya húmedo, nunca en seco (UF/IFAS, Univ. Minnesota, Clemson).",
+      "npk": "20-20-20 o 15-30-15 (UF/IFAS); 20-20-20 (UGA)",
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de etiqueta, una vez al mes, mientras crece y florece. UGA da 20-20-20 cada 4-6 semanas a ⅓-½ de la dosis; UF/IFAS y Univ. Minnesota abonan con ¼ de la dosis en cada riego (pauta de cultivador avanzado, con lavado mensual de sales).",
+      "otono_invierno": "No tiene reposo y puede seguir floreciendo si tiene luz suficiente: mantener la pauta mensual a ¼ de dosis solo si sigue creciendo y floreciendo (por ejemplo con luz artificial); si el crecimiento se para por falta de luz o frío, no abonar (UGA: con condiciones peores o sin crecimiento activo necesita menos abono).",
+      "notas": "Es muy sensible a la acumulación de sales (UGA). Exceso de abono: crecimiento de hojas sin flores (Iowa State), centro apretado y hojas nuevas de color óxido (UF/IFAS, Univ. Minnesota), costra blanca en el borde de la maceta y podredumbre del peciolo donde toca el borde (Clemson HGIC 2250, TAMU, CAES). Falta de abono: hojas inferiores amarillas, pérdida de color y crecimiento lento (Clemson, UF/IFAS). Tanto el exceso como la falta impiden la floración (Iowa State). Discrepancia: las fuentes van de ¼ de dosis en cada riego (UF/IFAS, Univ. Minnesota) a cada 4-6 semanas (UGA); se adopta la convención del proyecto, que cae en el lado prudente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F2",
+        "F6",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cambiar a sustrato fresco una vez al año (Univ. Minnesota); pasar a la maceta siguiente solo cuando esté apretada, porque con la planta encajada cuesta más controlar la humedad (UGA). Conviene no pasarse de tamaño: maceta demasiado grande = sustrato húmedo mucho tiempo y riesgo de pudrición [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera, cuando aumenta la luz y empieza el crecimiento [orientativo, sin fuente prioritaria]; las fuentes no fijan época. Evitar regar en exceso justo después: la pudrición de corona es frecuente en plantas recién trasplantadas (Iowa State).",
+      "senales": "Planta encajada o con raíces llenando la maceta (UGA); varias coronas (dividir, UF/IFAS, UGA); 'cuello' o tallo desnudo que eleva la corona sobre el sustrato: trasplantar enterrando el tallo hasta las hojas inferiores (Iowa State, UF/IFAS); costra de sales en sustrato y borde de maceta (CAES).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F2",
+        "F5",
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda; solo limpieza: retirar hojas muertas o amarillas y flores pasadas (NC State, Univ. Minnesota, UF/IFAS).",
+      "epoca": "Todo el año, en cuanto aparezcan hojas o flores dañadas.",
+      "como": "Quitar hojas y flores marchitas con pinzas o tijera fina de punta (Univ. Minnesota), arrancando la hoja desde la base del peciolo sin dejar tocones. Retirar en seco y desechar los restos con moho gris (CAES, TAMU). El polvo de las hojas se quita con un pincel seco o paño suave, no lavándolas (Univ. Minnesota). Las coronas laterales se pueden separar como divisiones (UF/IFAS, UGA). Si se forma un cuello largo, cortar la roseta a ras y volver a enraizarla, o trasplantar más hondo (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F1",
+        "F9"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo: con luz y temperatura adecuadas florece casi todo el año (NC State, Clemson, Iowa State). En otoño-invierno, en el hemisferio norte, la menor luz reduce crecimiento y floración: espaciar riegos según el sustrato, reducir o suspender el abono si no crece, y acercarla a ventana más luminosa o añadir luz artificial (UGA, UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de hoja con peciolo",
+        "división de coronas",
+        "reenraizado de la roseta (plantas con cuello)",
+        "semilla (no reproduce fielmente los cultivares)"
+      ],
+      "epoca": "Cualquier época con temperatura de 18-24 °C y buena luz; las fuentes no fijan una estación. Mejor primavera o inicio de verano [orientativo, sin fuente prioritaria].",
+      "pasos": "Esqueje de hoja (UF/IFAS): 1) Elegir una hoja sana y firme de la corona media, no de las más viejas ni de las del centro. 2) Cortarla o desprenderla con su peciolo y recortar el peciolo a 2,5-4 cm. 3) Hacer un agujero con un lápiz en un medio de mitad vermiculita y mitad arena, o mitad vermiculita y mitad sustrato, e insertar el peciolo; UGA lo clava a 1 cm y cubre con una caja de plástico transparente a modo de invernadero. 4) Mantener húmedo, con luz brillante sin sol directo. 5) Las raíces salen en 3-4 semanas y las plantitas 3-4 semanas después (UF/IFAS); UGA: plantitas en 8-10 semanas, trasplantables a los 3 meses. 6) Separar las plantitas y ponerlas en macetas pequeñas, sin abonar al principio (UGA). Florece a los 6-10 meses (UF/IFAS, UGA). División: sacar la planta, separar las coronas con cuchillo afilado procurando que cada una tenga raíces, y plantar cada una por separado (UF/IFAS, UGA). No usar plantas enfermas para propagar (TAMU).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F1",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas blancas, amarillas, pajizas o marrón claro, en anillos o líneas, en el haz: daño por agua fría o salpicada sobre la hoja (ring spot), o sol sobre hojas mojadas. No es enfermedad y no se recupera; regar por abajo o sin mojar hojas, con agua templada (Clemson, UF/IFAS, UGA, TAMU, CAES, Iowa State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de corona (Pythium, Phytophthora, Fusarium, Rhizoctonia): corona blanda y empapada, hojas centrales atrofiadas que se ennegrecen, hojas viejas lacias. Por exceso de riego, mal drenaje, plantar demasiado hondo o recién trasplantada. Casi siempre mortal: desechar y desinfectar la maceta con lejía 1:9 durante 30 min (Clemson HGIC 2250, Iowa State, TAMU, CAES)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato siempre mojado o maceta en agua: raíces marrones y blandas. Si las raíces están todas blandas, la planta rara vez se salva; si queda roseta sana, se puede reenraizar en sustrato nuevo (Univ. Minnesota, UF/IFAS, CAES)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Planta lacia con el sustrato húmedo: pudrición de raíz o corona por exceso de riego (Univ. Minnesota, CAES). Con sustrato seco y duro, falta de agua."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (Oidium sp.): círculos o manchas de polvo blanco o gris en el haz de las hojas, peciolos y flores; más visible en flores oscuras. Favorecido por plantas apiñadas y poca ventilación. Retirar hojas afectadas en bolsa, separar las plantas y, si sigue, sacar la planta al balcón y tratarla allí con un producto listo para usar de uso no profesional registrado contra oídio en ornamentales (bicarbonato potásico o azufre), siguiendo la etiqueta, y volver a entrarla seca: en España no hay fungicida doméstico autorizado para aplicar dentro de casa (arbol.json S33; productos.md §3; decisión de Fase 5) (Iowa State, CAES, TAMU recomiendan fungicida en su país)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis (Botrytis cinerea): manchas empapadas que crecen rápido y se cubren de moho gris en flores, hojas y peciolos; ambiente fresco y húmedo, poca ventilación, flores marchitas caídas sobre las hojas. Retirar flores pasadas, no mojar flores ni hojas, ventilar (Clemson HGIC 2250, TAMU, CAES)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: hojas finas, verde oscuro, con peciolos muy largos que se estiran hacia arriba, y sin flores. Es la causa más común de que no florezca (Iowa State, Clemson, UF/IFAS, UGA)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz o sol directo: hojas pálidas, amarillo verdosas o blanqueadas, con zonas quemadas, y planta enana y apretada (Iowa State, UF/IFAS, UGA)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaro del ciclamen (Phytonemus pallidus): hojas del centro muy pequeñas, retorcidas, muy peludas y grisáceas, corona apretada, botones que no abren. Muy difícil de controlar: aislar y normalmente desechar la planta (Clemson, UF/IFAS, UGA). También el exceso de abono da centros apretados con hojas color óxido (UF/IFAS, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la corona, axilas de hojas y envés; muy común en esta especie (NC State, Clemson, UGA). Retirar a mano con bastoncillo de algodón humedecido en alcohol rebajado (UF/IFAS, Clemson); si hay muchas, insecticida listo para usar autorizado en el MAPA para uso no profesional en plantas de interior. Revisar también el fondo de la maceta (Clemson)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja: telillas finas en axilas, hojas y flores, planta atrofiada; sacudir una hoja sobre papel blanco para ver los ácaros (Iowa State, UGA). Favorecida por aire seco."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Podredumbre del peciolo (fisiológica): mancha color óxido donde el peciolo toca el borde de la maceta, por sales de abono acumuladas; el peciolo y la hoja pueden colapsar. Reducir abono, lavar sales y cubrir el borde con papel de aluminio (Clemson HGIC 2250, TAMU, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca cristalina en el sustrato o en el borde y exterior de la maceta: sales de abono acumuladas; lavar el sustrato con agua abundante o trasplantar a sustrato nuevo (CAES)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas inferiores amarillas con crecimiento lento: falta de abono (Clemson, UF/IFAS); también la muerte natural de las hojas más viejas, que con el tiempo forma el 'cuello' (Iowa State)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento o enanismo por noches por debajo de 16 °C (NC State), sustrato demasiado seco (Iowa State) o ácaros. Junto a cristales fríos en invierno."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas oscurecidas, marchitas y de aspecto empapado por frío por debajo de 10 °C (Iowa State), típico junto a la ventana en noches de invierno o con corrientes."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas curvadas hacia abajo, acopadas y quebradizas por temperaturas por debajo de 16 °C (UGA), o hojas del centro retorcidas por ácaro del ciclamen (Clemson)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C, la casa supera fácilmente los 29 °C a partir de los que se frenan crecimiento y floración: llevarla a la habitación más fresca o con aire acondicionado (UF/IFAS), sin chorro directo de aire. Nada de ventana sur u oeste con sol de tarde: el sol fuerte de Madrid la blanquea y quema en horas; usar ventana este, norte luminosa, o visillo. El aire seco (HR exterior ≈38 %) y el calor secan el sustrato antes: comprobar tacto y peso con más frecuencia, sin encharcar. Regar a primera hora o al atardecer, sin mojar hojas, y nunca dejarla con gotas al sol. La araña roja prolifera con calor seco: revisar axilas y envés.",
+    "invierno": "Calefacción con HR interior a menudo <30 %, por debajo del 40 % que pide: humidificador cerca o agrupar plantas; no pulverizar las hojas. Acercarla a la ventana más luminosa (sur u oeste en invierno, a menos de 1 m) o añadir luz LED 14-16 h para que siga floreciendo. Pero los cristales y el alféizar se enfrían de noche: que las hojas no toquen el cristal y apartarla de la ventana por la noche si baja de 16 °C. Lejos de radiadores. El agua del grifo sale muy fría en invierno: dejarla en la jarra hasta que alcance la temperatura de la habitación antes de regar, porque el agua fría sobre las hojas deja manchas. Espaciar riegos y reducir o suspender el abono si deja de crecer.",
+    "ubicacion_recomendada": "Ventana este a menos de 1 m durante todo el año; en invierno puede ir a ventana sur u oeste con visillo, y en verano a norte luminosa o este. Habitación con temperatura estable de 18-24 °C, sin corrientes, sin radiador ni aire acondicionado directo. Una estantería con luz LED a 15-30 cm, 14-16 h al día, es una alternativa excelente en pisos interiores de Madrid."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Streptocarpus ionanthus (H.Wendl.) Christenh.; Saintpaulia ionantha H.Wendl. es sinónimo. NC State cita también Saintpaulia tongwensis como nombre anterior. Casi todas las fuentes de cultivo (Iowa State, Clemson, UF/IFAS, Univ. Minnesota, UGA, ASPCA) siguen usando Saintpaulia.",
+    "Hábitat natural: las fuentes consultadas solo dan la distribución (Kenia y Tanzania, POWO; este y suroeste de Tanzania, NC State) y la rusticidad (USDA 11a-12b); no se abrió una fuente prioritaria que describa el hábitat (sotobosque, altitud, roquedos).",
+    "Humedad: solo Univ. Minnesota da porcentajes (40-60 %); el resto habla de 'humedad alta' sin cifras.",
+    "Toxicidad: no se encontró ficha de Pet Poison Helpline para la violeta africana; no hay estudios de toxicidad en humanos, solo listas de plantas no tóxicas (Univ. Saskatchewan, Alberta Health Services).",
+    "Trasplante y propagación: ninguna fuente prioritaria fija la época del año ni la proporción maceta/roseta; los valores marcados como orientativos no tienen fuente prioritaria.",
+    "Fitosanitarios: las fuentes estadounidenses citan productos (neem, imidacloprid, ciflutrina, tau-fluvalinato, etc.) que no se recogen aquí; no se comprobó en el Registro del MAPA qué productos concretos listos para usar están autorizados contra oídio, cochinilla o ácaros en violeta africana."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/streptocarpus-ionanthus/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Streptocarpus ionanthus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden (All About African Violets)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1550, African Violet)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hgic.clemson.edu/factsheet/african-violet-diseases-insect-pests/",
+      "institucion": "Clemson Cooperative Extension – HGIC 2250, African Violet Diseases and Insect Pests",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/MG028/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH17, African Violets (rev. 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.umn.edu/houseplants/african-violets",
+      "institucion": "University of Minnesota Extension – African violets",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://fieldreport.caes.uga.edu/publications/C660/growing-african-violets/",
+      "institucion": "University of Georgia Cooperative Extension – Circular 660, Growing African Violets",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plantdiseasehandbook.tamu.edu/landscaping/flowers/african-violet-staintpaulia/",
+      "institucion": "Texas A&M AgriLife Extension – Texas Plant Disease Handbook (African Violet)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://portal.ct.gov/caes/plant-pest-handbook/ppha/african-violet-saintpaulia",
+      "institucion": "Connecticut Agricultural Experiment Station (CAES) – Plant Pest Handbook, African Violet (Saintpaulia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+      "institucion": "ASPCA Animal Poison Control – African Violet (Saintpaulia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://hgic.clemson.edu/pet-safe-indoor-houseplants-whats-safe-for-cats-and-dogs/",
+      "institucion": "Clemson Cooperative Extension – HGIC, Pet-Safe Indoor Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://gardening.usask.ca/articles-and-lists/articles-indoor-growing/poisonous-houseplants.php",
+      "institucion": "University of Saskatchewan – Gardening at USask, Poisonous houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77117375-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (Streptocarpus ionanthus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://myhealth.alberta.ca/alberta/Pages/non-toxic-and-toxic-plants-in-alberta.aspx",
+      "institucion": "Alberta Health Services (MyHealth Alberta) – Non-toxic and toxic plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,339 @@
+{
+  "nombre_cientifico": "Davallia fejeensis",
+  "nombres_comunes": [
+    "helecho pata de conejo",
+    "pata de conejo",
+    "davalia",
+    "rabbit's foot fern / lacy hare's foot (inglés)"
+  ],
+  "familia": "Davalliaceae (ASPCA, F7). NC State la sitúa en Polypodiaceae en sentido amplio (F2), igual que la ficha genérica de la ASPCA para Davallia spp. (F8).",
+  "origen": "Islas del Pacífico: islas Carolinas, Fiyi e islas Tubuai; introducida en Hawái (POWO, F9). NC State indica Fiyi y las islas Carolinas (F2); Clemson, Fiyi (F1). Nombre aceptado en POWO: Davallia fejeensis Hook.; Davallia solida var. fejeensis (Hook.) Noot. (Blumea 39: 204, 1994) es sinónimo homotípico (F9, F10), aunque la lista World Ferns (2018) la sigue tratando como variedad de D. solida (F9) y Clemson y la RHS usan ese nombre (F1, F3).",
+  "clima_nativo": "Tropical húmedo insular, sin heladas. Helecho epífito: en la naturaleza crece sobre árboles y en grietas de rocas, casi sin suelo, anclado por sus rizomas (F1, F2, F5). Rústico al exterior solo en zonas USDA 10a-12b (F2, F12). RHS: H1C (planta de invernadero o de interior que puede salir al exterior en verano; mínimo 5-10 °C) (F3).",
+  "categoria": "helecho",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Frondes finamente divididas (varias veces pinnadas), de aspecto de encaje, de contorno ovado a triangular (deltoide), firmes y algo coriáceas, de color verde vivo y brillante (F2, F3). Pínnulas lanceoladas y estrechas (F2). Frondes de 45-60 cm de largo con pecíolos lisos y verdes de hasta unos 25 cm (F2); la RHS indica hasta 1 m en condiciones ideales y más compactas como planta de interior (F3). SOROS (esporas) en el envés, junto al margen de los segmentos (submarginales a marginales) (F2): son puntitos pardos regulares en el borde de los lóbulos, NO una plaga. Rasgo clave para la IA: follaje de encaje muy recortado + rizomas peludos visibles sobre el sustrato.",
+    "nerviacion": "Frondes multipinnadas: raquis y pecíolo verdes y lisos, sin pelos, del que salen pinnas y pínnulas cada vez más finas (F2). No hay una lámina continua con nervio central marcado como en Asplenium.",
+    "variegacion": "Sin variegación: verde uniforme (F2, F3). Las frondes amarillas o pardas no son variegación: suelen indicar sol directo, aire seco o fronda vieja (F1).",
+    "tallo": "Rasgo diagnóstico: RIZOMAS largos, rastreros, gruesos y muy ramificados, densamente cubiertos de escamas pilosas (de aspecto peludo, como una 'pata de conejo'), que crecen SOBRE el sustrato y cuelgan por el borde de la maceta (F1, F2, F3, F5). Es su comportamiento normal, no una enfermedad (F2). Botánicamente son tallos especializados con los que la planta se agarra a los árboles (F5). Color de las escamas: pardo a gris plateado [orientativo, sin fuente prioritaria]. Las frondes salen espaciadas a lo largo del rizoma.",
+    "habito": "Helecho epífito perenne y siempreverde, rastrero; los rizomas se extienden por la superficie y desbordan la maceta, por lo que se cultiva mucho en cestas colgantes (F1, F2, F3, F5). Crecimiento lento (F3).",
+    "tamano_adulto_interior": "Frondes de 45-60 cm (F2); la RHS da un tamaño máximo de 0,5-1 m de alto y de ancho, con 5-10 años hasta la madurez (F3). Como planta de interior queda más compacta (F3). El cultivar 'Dwarf Ripple' mide 15-45 cm (F2).",
+    "confusiones": [
+      {
+        "especie": "Davallia trichomanoides (helecho pata de ardilla, squirrel's foot fern)",
+        "rasgo_diferenciador": "Mismo género y mismo hábito de rizomas peludos que cuelgan de la maceta; Clemson la describe más pequeña, de 30-45 cm (F6). Separarlas por foto es poco fiable y los nombres comerciales se mezclan; los cuidados son equivalentes, así que la app puede tratarlas igual [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Davallia canariensis (pata de liebre, helecho nativo de la Península Ibérica, Canarias, Azores, Madeira, Cabo Verde y Marruecos según POWO)",
+        "rasgo_diferenciador": "También tiene rizomas peludos visibles y UF/IFAS ilustra el 'rabbit's foot fern' con esta especie (F5, F11). No hay un rasgo visual verificado en fuentes prioritarias para separarlas en foto; si el usuario la ha recogido en el campo, recordar que es planta silvestre autóctona."
+      },
+      {
+        "especie": "Phlebodium aureum (sin. Polypodium aureum), que Clemson también llama 'rabbit's foot fern'",
+        "rasgo_diferenciador": "Clemson la describe con frondes coriáceas de 60 cm o más sobre rizomas gruesos y peludos (F6): sus frondes son grandes y lobuladas en segmentos anchos, no finamente divididas en encaje como las de D. fejeensis (F2) [diferencia de forma de fronda orientativa, sin fuente prioritaria para P. aureum]."
+      },
+      {
+        "especie": "Nephrolepis exaltata (helecho de Boston)",
+        "rasgo_diferenciador": "Frondes largas una sola vez pinnadas (pinnas enteras en fila) y sin rizomas peludos gruesos visibles sobre el sustrato; D. fejeensis tiene frondes de encaje varias veces divididas (F2) y rizomas peludos expuestos (F1) [rasgos de Nephrolepis orientativos, sin fuente prioritaria en esta ficha]."
+      },
+      {
+        "especie": "Asparagus setaceus (esparraguera plumosa)",
+        "rasgo_diferenciador": "También parece encaje, pero son tallos con cladodios en forma de aguja, sin soros en el envés y sin rizomas peludos [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "La ASPCA la clasifica como no tóxica para perros, gatos y caballos, sin principios tóxicos (Davallia fejeensis, 'Dainty Rabbit's-foot Fern') (F7), y da también como no tóxico el género Davallia spp. para perros y gatos (F8). NC State la etiqueta como no tóxica para gatos, perros y caballos (F2) y Clemson indica que no es tóxica para perros ni gatos (F1). La ingestión de cualquier planta puede causar molestias digestivas leves. Ante una ingestión: Servicio de Información Toxicológica (91 562 04 20) o veterinario, con foto o nombre de la planta.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F8",
+      "F2",
+      "F1"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA a nivel de especie, NC State y Clemson coinciden). Niños: ninguna fuente prioritaria trata la toxicidad en personas; se deja 'desconocida' y se recomienda mantenerla fuera del alcance de niños pequeños."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este, norte u oeste en posición resguardada (RHS, F3); una ventana norte luminosa es ideal para la mayoría de helechos y nunca deben ir directamente en ventana sur u oeste con sol (Clemson, F6). Con ventana sur u oeste, a 2-3 m del cristal o tras cortina tupida [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "No. Evitar ventanas soleadas y calurosas: el sol directo quema las frondes y oscurece los rizomas (F1). NC State admite sol tamizado o sombra parcial en exterior (F2) y una nota de UF/IFAS dice que tolera sol directo o luz artificial (F4); se adopta lo más conservador: sin sol directo salvo el sol suave de primera hora de la mañana [orientativo, sin fuente prioritaria].",
+      "notas": "Clemson: luz brillante indirecta (F1). RHS: luz brillante indirecta, sombra parcial (F3). UF/IFAS: luz brillante indirecta (F4) o moderada indirecta, como la mayoría de helechos (F5). NC State: buena luz indirecta en interior (F2). Chicago Botanic Garden: sombra parcial a total (F12). Contradicción: F4 dice que tolera el sol directo y F1 que lo quema; se elige la opción conservadora. Los límites 100-1000 fc (≈1076-10760 lux) son conversión de la escala del proyecto (media a brillante indirecta), no cifras de las fuentes [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F12"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo pero nunca empapado (F1, F2, F4). Regar cuando el primer centímetro y medio esté seco: Clemson y NC State piden dejar secar solo la capa superior de ½ pulgada (≈1,3 cm) entre riegos (F1, F2); UF/IFAS, cuando la superficie empieza a secarse (F4). Comprobar con el dedo a 2-3 cm (a esa profundidad todavía debe notarse algo de humedad) y con el peso de la maceta; no dejar que el cepellón se seque del todo (F6). Regar sobre el sustrato, entre los rizomas, hasta que drene, y vaciar el plato o el macetero unos 15 minutos después para evitar la pudrición de raíces (F1). Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo y calor el sustrato se seca rápido, sobre todo en cesta colgante y en maceta de barro: revisar cada 2-3 días (a diario en olas de calor) y regar en cuanto la capa superior de ≈1,3 cm esté seca (F1, F2) [frecuencia de revisión orientativa, sin fuente prioritaria]. Las macetas de plástico pesan menos y se secan más despacio que las de barro, útil para colgar (F4).",
+      "otono_invierno": "Con menos luz y temperatura el sustrato tarda más en secarse: espaciar los riegos según dedo y peso, manteniéndolo apenas húmedo, sin encharcar (F1, F6). Con la calefacción encendida puede volver a secarse deprisa: decidir siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Con el agua del grifo de Madrid (blanda, con cloramina, flúor <0,1 mg/L) no hace falta agua destilada ni de lluvia; dejarla reposar no elimina la cloramina y tampoco es necesario. Las puntas pardas se deben al aire seco (F1), al riego irregular o a sales del abono acumuladas, no al cloro ni al flúor. Lavar el sustrato con agua abundante 2-3 veces al año para arrastrar sales [orientativo, sin fuente prioritaria]. Agua a temperatura ambiente.",
+      "notas": "Exceso 'alta': el agua estancada en el plato y el sustrato empapado pudren las raíces (F1, F4, F6); además los rizomas deben quedar al aire, nunca enterrados ni mojados de forma continua (F1, F6) [riesgo de podredumbre del rizoma enterrado orientativo, sin fuente prioritaria]. Sequía 'media': Clemson la considera menos delicada que muchos helechos tropicales (F1), pero ninguna fuente admite que se seque del todo (F6). Contradicción menor con la convención del proyecto (dedo a 2-3 cm): las fuentes piden regar antes, cuando solo se ha secado ≈1,3 cm; se adopta lo de las fuentes porque es lo más seguro para un helecho.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 55,
+      "notas": "Necesita humedad alta (RHS, F3) o al menos humedad adicional en casas con aire seco (Clemson, F1); con humedad baja las puntas de las frondes se ponen pardas (F1). El aire de invierno es especialmente seco (F6). Ninguna fuente prioritaria da una cifra para esta especie (el 50 % de Clemson se refiere a los culantrillos, F6): mínimo 40 % e ideal 55 % son [orientativo, sin fuente prioritaria]. Medidas útiles: humidificador (F1), agrupar plantas, doble maceta con musgo húmedo (F6). Clemson sugiere pulverizar varias veces por semana (F1), pero pulverizar no sube la humedad de forma útil (convención del proyecto): usar humidificador. Alejarla de salidas de calefacción y aire acondicionado (F1).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 65-75 °F (≈18-24 °C) según Clemson (F1). NC State: por encima de 55 °F (≈12,8 °C), no tolera el frío (F2). Para la mayoría de helechos, noches unos 5-6 °C más frescas que el día (F6). La clasificación RHS H1C (mínimo 5-10 °C) se refiere a planta de invernadero en Reino Unido que sale al exterior en verano (F3), otro contexto: se adopta el mínimo más alto, 13 °C (F2). Máximo tolerado: ninguna fuente lo cifra (max_c = null); UF/IFAS advierte que el calor fuerte quema las frondes y recomienda temperaturas moderadas (F4). Evitar salidas de calefacción y aire acondicionado (F1).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla rica en materia orgánica y con buen drenaje, a base de turba o con turba añadida (NC State, F2; UF/IFAS: sustrato universal enmendado con turba para retener humedad, F4). Para helechos, mitad sustrato de interior y mitad turba o mantillo de hojas (Clemson, F6). RHS, mezcla muy aireada tipo epífita: a partes iguales mantillo de hojas grueso, musgo de origen sostenible, corteza, arena gruesa, carbón vegetal y acículas de pino (F3). Como alternativa sin turba: fibra de coco con corteza fina [orientativo, sin fuente prioritaria]. Maceta ancha y poco profunda o cesta colgante, dejando los rizomas SOBRE la superficie: no enterrarlos (F1, F6).",
+      "ph": "Ácido a neutro (RHS, F3). Rango práctico 5,5-6,5 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Bueno: sustrato poroso que drene rápido, maceta con agujeros y sin agua en el plato (F1, F2, F6).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble para plantas de interior, equilibrado y diluido (F1, F4, F6).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (convención del proyecto, coherente con Clemson: media dosis mensual de abril a septiembre para los helechos, F6). Clemson, en la ficha de la especie, da media dosis cada tres semanas de primavera a otoño (F1) y UF/IFAS ¼ de dosis dos veces al mes (F4): se adopta la opción más prudente (mensual, diluida). En Madrid: abril-septiembre si hay frondes nuevas.",
+      "otono_invierno": "Nada: no abonar en invierno (F1, F6).",
+      "notas": "No abonar plantas recién compradas o trasplantadas durante seis meses (F6). Diferencias de frecuencia entre fuentes (F1, F4, F6) resueltas a favor de la menor carga de sales.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando esté apelmazada: las plantas con exceso de raíces se dividen o se pasan a un recipiente mayor (F4, F6). Macetas de 15-25 cm (6-10 pulgadas) (F4). Cada 2-3 años como orientación [orientativo, sin fuente prioritaria].",
+      "epoca": "Principio de primavera (F6); la división de rizomas, en primavera (F3).",
+      "senales": "Rizomas que cubren toda la superficie y cuelgan por los lados, sustrato que se seca enseguida, raíces saliendo por los agujeros (F4, F5) [secado rápido como señal, orientativo]. Con el tiempo los rizomas bajan por los lados de la maceta y complican el trasplante (F5).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No requiere poda (RHS, F3).",
+      "epoca": "Cualquier momento, para limpieza.",
+      "como": "Cortar en la base las frondes secas o dañadas con tijera limpia [orientativo, sin fuente prioritaria]. No cortar ni enterrar los rizomas peludos: son tallos que deben quedar a la vista y al aire (F1, F5).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (en Madrid, aproximadamente noviembre-febrero).",
+      "cambios": "No es un reposo verdadero sino una ralentización del crecimiento: suspender el abonado (F1, F6) y espaciar los riegos según dedo y peso sin dejar secar el sustrato del todo (F6). Mantener por encima de 13 °C (F2). Con frío y poca luz puede perder algunas frondes viejas [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de rizomas",
+        "esquejes de punta de rizoma"
+      ],
+      "epoca": "Primavera (F3).",
+      "pasos": "DIVISIÓN: en primavera, sacar la planta y separar trozos de rizoma asegurando que cada división tenga raíces (F3); plantar cada sección en sustrato nuevo (F4). ESQUEJE DE RIZOMA: cortar una punta de rizoma de 5-7,5 cm con una o dos frondes, sujetarla con una horquilla sobre sustrato húmedo sin enterrarla, cubrir con una bolsa de plástico y mantener con luz brillante indirecta hasta que enraíce (F2). Los trozos de 'pata' que se rompen también pueden enraizar y dar plantas nuevas (F5). La división es el mejor método para la mayoría de helechos (F6). Esporas: no se describen en las fuentes consultadas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas de las frondes pardas por humedad ambiental baja (F1): muy típico en Madrid con calefacción (HR <30 %) o en verano con aire muy seco y aire acondicionado. También riego irregular o sales del abono. No es el agua del grifo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Frondes quemadas o descoloridas y rizomas que se oscurecen por sol directo en ventana soleada y calurosa (F1)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por agua estancada en el plato o el macetero o por sustrato que drena mal (F1, F6)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Frondes secas y acartonadas cuando el cepellón se seca del todo, frecuente en cestas colgantes cerca de un radiador o en olas de calor (F6) [asociación con cestas colgantes orientativa]."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja: NC State recomienda vigilarla (F2); se ve favorecida por el aire seco y caliente [orientativo]. En Clemson, los ácaros figuran entre las plagas más comunes de los helechos (F6)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la base de las frondes y entre los rizomas (F2)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en raquis y envés (F2, F6). No confundir con los soros: puntitos pardos regulares en el borde de los segmentos (F2), que no se levantan con la uña."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas o quemaduras tras pulverizar insecticidas o fungicidas: muchos helechos se dañan con los tratamientos (F6). Probar siempre antes en una fronda y esperar unos días."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de frondes viejas: renovación normal si es poco y hay frondes nuevas [orientativo, sin fuente prioritaria]; si es generalizado, revisar sol directo (F1) o encharcamiento (F1)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y HR exterior ≈38 %: retirarla de ventanas sur y oeste (el sol quema frondes y rizomas, F1; los helechos nunca deben ir directamente en ventana sur u oeste, F6) y colocarla junto a una ventana norte o este. El calor fuerte quema las frondes (F4): si la habitación supera unos 30 °C, buscar la estancia más fresca [umbral orientativo, sin fuente prioritaria]. Revisar el sustrato a diario en olas de calor y regar en cuanto se seque el primer centímetro y medio (F1, F2), sobre todo en cesta colgante. No ponerla bajo la salida del aire acondicionado (F1). Humidificador o agrupar plantas; pulverizar no sirve. Puede salir a un balcón norte en sombra total si las noches superan los 13 °C [orientativo, sin fuente prioritaria].",
+    "invierno": "Con calefacción y HR interior a menudo <30 %: humidificador cerca (F1) o doble maceta con musgo húmedo (F6) para evitar puntas pardas (F1). Alejarla de radiadores y salidas de aire (F1) y de cristales fríos por la noche: no debe bajar de 13 °C (F2). Suspender el abonado (F1, F6) y espaciar riegos según dedo y peso. Aprovechar la ventana más luminosa sin sol directo fuerte (el sol de invierno de una ventana este es aceptable) [orientativo, sin fuente prioritaria].",
+    "ubicacion_recomendada": "Cesta colgante o maceta ancha y baja junto a una ventana norte o este luminosa, o a 2-3 m de una ventana sur u oeste; un baño o cocina luminosos con más humedad son buena opción. Los rizomas peludos deben quedar a la vista sobre el sustrato y colgando por el borde, nunca enterrados (F1, F6). Lejos de radiadores, aire acondicionado y corrientes."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Davallia fejeensis Hook. y trata Davallia solida var. fejeensis (Hook.) Noot. (Blumea 39: 204, 1994) como sinónimo homotípico (F9, F10); otros sinónimos homotípicos: Odontoloma fejeensis (Hook.) J.Sm. y Stenolobus fejeensis (Hook.) C.Presl; heterotípicos: Davallia andersonii Baker, Humata andersonii (Baker) C.Chr.; variante ortográfica D. fijiensis Diels. World Ferns (2018), Clemson y RHS siguen usando D. solida var. fejeensis (F1, F3, F9). No hay cambio de nombre respecto a lista-maestra.csv.",
+    "Familia: Davalliaceae (ASPCA especie) frente a Polypodiaceae sensu lato (NC State, ASPCA género); diferencia de criterio taxonómico, sin efecto en el cuidado.",
+    "Poca información específica de la especie en fuentes prioritarias: humedad, sustrato, plagas, trasplante, reposo y sensibilidad a fitosanitarios se completan con fuentes del género (Davallia spp.) o de los helechos de interior en general (Clemson indoor ferns, F6; UF/IFAS footed ferns, F5).",
+    "Ninguna fuente prioritaria da cifras de humedad relativa para la especie: 40 % mínimo y 55 % ideal son orientativos.",
+    "Ninguna fuente prioritaria da temperatura máxima tolerada (max_c = null) ni NPK recomendado.",
+    "Toxicidad en niños/personas: sin datos en fuentes prioritarias (desconocida).",
+    "No se ha encontrado en fuentes prioritarias un rasgo visual fiable para separar en foto D. fejeensis de D. trichomanoides ni de D. canariensis (esta última nativa de España según POWO).",
+    "Propagación por esporas: no descrita en las fuentes consultadas.",
+    "Missouri Botanical Garden Plant Finder no tiene ficha de la especie (búsqueda sin resultados); la ficha de NC State en Davallia canariensis no está disponible (404); la publicación UF/IFAS EDIS MG032 'Ferns' está retirada (410)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hgic.clemson.edu/rabbits-foot-fern",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center (B. H. Smith, 2023): Rabbit's Foot Fern",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/davallia-fejeensis/",
+      "institucion": "NC State Extension, Extension Gardener Plant Toolbox: Davallia fejeensis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/Plants/131210/Davallia-solida-var-fejeensis/Details",
+      "institucion": "Royal Horticultural Society (RHS): Davallia solida var. fejeensis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/06/09/fact-sheet-rabbits-foot-fern/",
+      "institucion": "UF/IFAS Extension Nassau County: Fact sheet Rabbit's Foot Fern",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/?p=6483",
+      "institucion": "UF/IFAS Gardening Solutions: Footed Ferns (género Davallia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "institucion": "Clemson Cooperative Extension, HGIC: Indoor Ferns",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/dainty-rabbits-foot-fern",
+      "institucion": "ASPCA Animal Poison Control: Dainty Rabbits-Foot Fern (Davallia fejeensis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/rabbits-foot-fern",
+      "institucion": "ASPCA Animal Poison Control: Rabbits Foot Fern (Davallia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17078850-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO): Davallia fejeensis Hook.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17564870-1",
+      "institucion": "Royal Botanic Gardens, Kew – POWO: Davallia solida var. fejeensis (Hook.) Noot. (sinónimo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17078300-1",
+      "institucion": "Royal Botanic Gardens, Kew – POWO: Davallia canariensis (L.) Sm.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/davallia_fejeensis--rabbits_foot_fern",
+      "institucion": "Chicago Botanic Garden, Plant Finder: Davallia fejeensis (archivado, sin actualizar desde 2022)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

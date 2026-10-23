@@ -1,0 +1,305 @@
+{
+  "nombre_cientifico": "Ceropegia woodii",
+  "nombres_comunes": [
+    "collar de corazones",
+    "rosario de corazones",
+    "cadena de corazones",
+    "corazones enredados"
+  ],
+  "familia": "Apocynaceae (subfamilia Asclepiadoideae). POWO, RHS, NC State y Wisconsin coinciden en Apocynaceae.",
+  "origen": "Sur de África: de Zimbabue a Sudáfrica (POWO; RHS). POWO la da como nativa de Zimbabue, Mozambique, Esuatini y las provincias sudafricanas del Cabo (Oriental, Occidental, Septentrional), Gauteng, Limpopo, Mpumalanga, Noroeste y KwaZulu-Natal; introducida en el archipiélago Bismarck y las islas de la Sociedad (NC State). En su hábitat crece en laderas (NC State).",
+  "clima_nativo": "Subtropical, sin heladas (POWO: clima 'subtropical', forma vital 'geófito tuberoso trepador'). Tiene tubérculo basal y tubérculos aéreos que almacenan agua, y hojas algo suculentas: se comporta como semisuculenta adaptada a periodos secos (Wisconsin, NC State). Rusticidad RHS H1C: solo puede estar al aire libre en verano; zonas USDA 10a-12b (NC State).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Opuestas (por parejas en cada nudo), simples, sin pelos, acorazonadas (cordadas) a ovadas o algo lanceoladas, pequeñas: 1,3-1,9 cm de largo y de ancho (Wisconsin; NC State: menos de 2,5 cm). Haz verde oscuro jaspeado o marmoleado de gris plateado; envés verde a púrpura (NC State, Wisconsin, RHS). Algo carnosas: se engrosan cuando almacenan agua (Wisconsin). Con luz intensa el color es más oscuro y el jaspeado más marcado; con poca luz se vuelven verde claro (Wisconsin). Los pares de hojas van espaciados a lo largo del tallo colgante, como cuentas de un rosario (NC State: unos 7,5 cm entre hojas).",
+    "nerviacion": "Poco visible: el haz está dominado por el jaspeado plateado, que en muchas hojas dibuja un patrón alrededor de un nervio central. Ninguna fuente prioritaria abierta describe la nerviación en detalle.",
+    "variegacion": "La especie tipo es verde oscuro con jaspeado plateado y envés púrpura (no es variegación genética). Cultivares (NC State, Wisconsin): f. variegata, hojas con crema y rosa, y tallos y brotes rosados; 'Heartless', hojas verde vivo con rosa en el envés; 'Orange River', hojas verdes con tono anaranjado; 'Silver Glory', hojas plateadas más redondeadas con una línea verde oscura; 'String of Arrows', hojas puntiagudas verde lima y plata. RHS recoge además el cultivar 'Lady Heart' (variegado).",
+    "tallo": "Tallos muy finos, largos y alambrinos, rosados a púrpura, colgantes, que salen de un tubérculo basal (NC State, Wisconsin). Rasgo clave: en los nudos o la base de las hojas se forman tubérculos aéreos redondeados, como pequeñas patatas o cuentas, de color grisáceo a pardo, que enraízan al tocar el sustrato (NC State, Wisconsin). Con la edad desarrolla un cáudex leñoso en la base; bajo tierra puede llenar la maceta de tubérculos (Wisconsin). Los tallos se enredan entre sí con facilidad.",
+    "habito": "Perenne siempreverde tuberosa, colgante o trepadora; en su hábitat trepa entre otra vegetación (Wisconsin). En interior se cultiva en maceta colgante o guiada en un aro o enrejado pequeño (NC State, Wisconsin). Flores (sobre todo verano y otoño, a veces esporádicas): tubulares, en forma de farolillo o jarrón invertido, de unos 2-2,5 cm, con base abultada, blanco a magenta pálido, y cinco lóbulos púrpura soldados en la punta formando una jaula (RHS, Wisconsin). Fruto en cuerno con semillas con vilano, como las de las asclepias (NC State, Wisconsin).",
+    "tamano_adulto_interior": "Altura en maceta muy baja (RHS: hasta 10 cm); los tallos cuelgan hasta 1 m o más (RHS) y unos 90 cm habitualmente en maceta (NC State); extensión 0,5-1 m (RHS). Tarda 2-5 años en alcanzar su tamaño (RHS). En su hábitat los tallos llegan a 3,6 m (NC State, UConn). Crecimiento rápido (NC State).",
+    "confusiones": [
+      {
+        "especie": "Curio rowleyanus (sin. Senecio rowleyanus), collar de perlas",
+        "rasgo_diferenciador": "Hojas esféricas verdes como guisantes, sin forma de corazón ni jaspeado plateado ni envés púrpura; sin tubérculos aéreos en los nudos. Familia Asteraceae. [rasgo general, sin fuente prioritaria abierta]"
+      },
+      {
+        "especie": "Curio radicans (sin. Senecio radicans), collar de plátanos",
+        "rasgo_diferenciador": "Hojas carnosas alargadas en forma de plátano, verde claro y sin jaspeado; tallos más gruesos y verdes. NC State la cita como planta de nicho similar. [rasgo diferenciador general, sin fuente prioritaria abierta]"
+      },
+      {
+        "especie": "Peperomia prostrata, collar de tortugas",
+        "rasgo_diferenciador": "Hojas redondas, no acorazonadas, con dibujo en mosaico de líneas claras que recuerda un caparazón; sin tubérculos aéreos; alternas, no por parejas. [rasgo general, sin fuente prioritaria abierta]"
+      },
+      {
+        "especie": "Dischidia ovata (hoja de sandía)",
+        "rasgo_diferenciador": "Hojas ovadas más grandes y gruesas con nervios claros longitudinales tipo sandía, sin jaspeado plateado ni tubérculos; NC State la cita como planta de nicho similar. [rasgo diferenciador general, sin fuente prioritaria abierta]"
+      },
+      {
+        "especie": "Hoya curtisii",
+        "rasgo_diferenciador": "Hojas pequeñas carnosas de punta ancha y moteadas de plata, pero gruesas y alternas en apariencia, con raíces aéreas y sin tubérculos en forma de cuenta; NC State la cita como planta de nicho similar. [rasgo diferenciador general, sin fuente prioritaria abierta]"
+      },
+      {
+        "especie": "Ceropegia linearis (subespecie tipo) y otras Ceropegia",
+        "rasgo_diferenciador": "C. linearis tiene hojas estrechas, lineares o lanceoladas, en vez de acorazonadas; el cultivar 'String of Arrows' de C. woodii tiene hojas puntiagudas y puede confundirse. [rasgo general, sin fuente prioritaria abierta]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "confianza": "Baja",
+    "fuentes": [
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "notas": "ASPCA no tiene ficha de Ceropegia woodii ni de 'rosary vine' / 'string of hearts' (las URL directas devuelven una página sin resultados y la especie no aparece en sus listas de plantas para perros y gatos). Ninguna fuente prioritaria abierta (NC State, Wisconsin, RHS, UConn) trata la toxicidad. Dos fuentes complementarias apuntan a que no es tóxica: Plantura dice que 'hasta ahora no hay evidencia de toxicidad' y aconseja aun así evitar que niños y animales la coman por pertenecer a Apocynaceae; Plant Pono la describe como 'no tóxica'. Blogs de mascotas la declaran levemente tóxica sin fuente. La app debe decir 'toxicidad no confirmada; mantener fuera del alcance de mascotas y niños' y no presentarla como segura."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS: orientación oeste o este, semisombra). Wisconsin admite ventana sur u oeste en interior; NC State y UConn piden luz brillante indirecta o filtrada. En Madrid, en ventana sur u oeste, a 1-2 m del cristal o tras una cortina fina en verano.",
+      "tolera_sol_directo": "Parcialmente: tolera sol suave (mañana o última hora) y, en interior, ventana sur u oeste según Wisconsin; el exceso de sol quema las hojas (NC State). Si se saca al exterior en verano hay que aclimatarla poco a poco para evitar quemaduras (Wisconsin). Sin sol fuerte de mediodía en verano.",
+      "notas": "lux_min/lux_max según la escala del proyecto para luz brillante indirecta (500-1000 fc); ninguna fuente da cifras en lux. Señales: con poca luz los entrenudos se alargan, hay huecos grandes entre hojas y las hojas pierden el jaspeado y se vuelven verde claro (NC State, Wisconsin); con exceso de sol, hojas quemadas (NC State). Con buena luz el color es más oscuro y el jaspeado más marcado (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego de suculenta: regar a fondo hasta que salga agua por el drenaje, vaciar el plato y no volver a regar hasta que el sustrato esté seco (NC State: que se seque del todo; Wisconsin: regar solo cuando el sustrato esté seco). Comprobar con el dedo a 2-3 cm en macetas pequeñas y a 5 cm en las medianas, y por el peso: la maceta debe pesar claramente menos que recién regada. Nunca por calendario. Las hojas que se ablandan, se arrugan o cuelgan lacias indican sed (NC State: hojas mustias por falta de agua); hojas amarillas con sustrato húmedo indican exceso (NC State).",
+      "primavera_verano": "En crecimiento, riego moderado (RHS): regar a fondo cada vez que el sustrato se seque. Con calor y mucha luz se seca antes; no adelantar el riego si el sustrato aún está húmedo.",
+      "otono_invierno": "Reducir aún más el riego durante el reposo invernal (NC State, Wisconsin). RHS pide mantenerla seca fuera de la época de crecimiento: regar solo lo justo para que los tallos y tubérculos no se arruguen, y siempre con el sustrato totalmente seco. Frío con sustrato mojado provoca podredumbre de la base (RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua a temperatura ambiente. El agua del grifo de Madrid (blanda) es adecuada; reposar el agua no elimina la cloramina, y no hace falta. Si se abona, lavar el sustrato con agua abundante de vez en cuando para evitar acumulación de sales [orientativo, sin fuente prioritaria].",
+      "notas": "Diferencia de matiz: NC State pide que se seque por completo entre riegos; UConn, 'que se seque ligeramente'; Wisconsin, que se seque entre riegos profundos; Plantura (complementaria) advierte de no dejar que el cepellón se seque del todo durante mucho tiempo. Se adopta lo más conservador para la planta: dejar secar el sustrato en profundidad antes de regar, porque se mata fácilmente con exceso de agua y tolera mucho mejor la sequía que el encharcamiento (Wisconsin). Los tubérculos almacenan agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da requisitos de humedad; como semisuculenta, tolera el aire seco de interior. Plantura (complementaria) dice que no es exigente con la humedad. No pulverizar: no sube la humedad de forma útil y el agua en la base favorece pudriciones. Evitar corrientes de aire (UConn).",
+      "confianza": "Baja",
+      "fuentes": [
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15.6,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Mínimo: en invierno mantenerla por encima de 15,6 °C (60 °F) (Wisconsin); por debajo de 15,6 °C puede entrar en reposo (UConn). Se toma 15,6 °C como mínimo, la cifra más conservadora. RHS la clasifica H1C (mínimo 5-10 °C), pero esa escala se refiere a si puede estar al aire libre en verano en Reino Unido, no a la temperatura de cultivo en casa; Plantura (complementaria) admite hasta 8 °C en reposo y considera ideal 20-25 °C, pero no hay fuente prioritaria para el rango ideal ni para el máximo, por lo que se dejan en null. Meter en casa antes de la primera helada si ha pasado el verano fuera (Wisconsin). Evitar corrientes de aire frío (UConn).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas (RHS, Wisconsin, UConn) o sustrato universal enriquecido con perlita extra (Wisconsin); NC State recomienda una mezcla arenosa y bien drenada. Maceta con agujero de drenaje.",
+      "ph": "Ácido a neutro (NC State: <6,0 a 6,0-8,0; RHS: ácido o neutro)",
+      "drenaje": "Excelente; imprescindible (Wisconsin). Tolera mucho mejor el sustrato seco que el encharcado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, bajo en nitrógeno (RHS) y a media dosis (Wisconsin).",
+      "npk": null,
+      "primavera_verano": "Abonar poco: como máximo una vez al mes con crecimiento activo, a ¼-½ de la dosis de etiqueta (Wisconsin: media dosis, como mucho mensual); RHS indica solo 2 o 3 aplicaciones de abono líquido bajo en nitrógeno en toda la temporada.",
+      "otono_invierno": "Nada durante el reposo invernal (Wisconsin).",
+      "notas": "Ninguna fuente da proporción NPK concreta. Coherente con la convención del proyecto (¼-½ dosis, mensual, solo en crecimiento).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando sea necesario: le gusta estar apretada en la maceta (NC State, Wisconsin). En la práctica, cuando los tubérculos y raíces llenan la maceta.",
+      "epoca": "Primavera, antes de que empiece el nuevo crecimiento (Wisconsin).",
+      "senales": "Raíces o tubérculos que salen por el drenaje o llenan la maceta (Wisconsin: los tubérculos subterráneos pueden llenar el tiesto); sustrato que se seca en muy poco tiempo. Usar una maceta solo algo mayor y con buen drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS); se pueden recortar los tallos para mantenerla más compacta (UConn).",
+      "epoca": "Primavera, al empezar el crecimiento, aprovechando los trozos como esquejes [orientativo, sin fuente prioritaria para la época; Plantura (complementaria) indica primavera].",
+      "como": "Cortar con tijera limpia los tallos demasiado largos, enredados o pelados justo por encima de un par de hojas. Los tallos se enredan fácilmente: desenredar con cuidado porque son frágiles.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aproximadamente de noviembre a febrero; se parametriza por hemisferio).",
+      "cambios": "Reducir mucho el riego y no abonar (NC State, Wisconsin); RHS pide mantenerla seca fuera de la temporada de crecimiento. Mantener por encima de 15,6 °C (Wisconsin); por debajo de esa temperatura entra en reposo (UConn). Le sienta bien un descanso invernal (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "tubérculos aéreos (acodo)",
+        "esquejes de tallo",
+        "semilla"
+      ],
+      "epoca": "Primavera y principios de verano (RHS: esquejes a principios de verano; semilla a principios de primavera).",
+      "pasos": "Tubérculos aéreos (el más fácil): 1) elegir un tubérculo del tallo, preferiblemente aún unido a la planta; 2) presionarlo sobre la superficie del sustrato de otra maceta, sin enterrarlo del todo; 3) mantener el sustrato húmedo pero no mojado; 4) cuando haya enraizado y crezca (de unas semanas a unos meses), cortar el tallo que lo une a la madre (Wisconsin, NC State). Esquejes: 1) cortar trozos de 10-15 cm; 2) enraizarlos en sustrato de cactus a 22-25 °C, mejor con calor de fondo, manteniéndolos húmedos (RHS, Wisconsin). Semilla: sembrar a 19-24 °C a principios de primavera (RHS). También se pueden plantar tubérculos sueltos ya separados (RHS: 'bulbillos del tallo').",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego: es la causa principal de muerte; pudre raíces y tubérculos (NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de la base por sustrato demasiado húmedo en invierno, sobre todo con frío (RHS)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Exceso de riego, que provoca amarilleo de las hojas y pudrición de raíces (NC State)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Falta de agua: hojas mustias por riego insuficiente (NC State). Si el sustrato está húmedo, sospechar pudrición radicular."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: grandes huecos entre hojas y hojas verde claro sin jaspeado (NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de sol directo o paso brusco al exterior sin aclimatar (NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga más habitual (Wisconsin, RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos (NC State, RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste, alejarla 1-2 m del cristal o filtrar con cortina fina en las horas centrales: el exceso de sol quema las hojas. El aire seco (HR ≈38 %) no le afecta mucho por ser semisuculenta; no pulverizar. Regar a fondo solo cuando el sustrato esté seco: con calor se seca antes, pero el riego frecuente con sustrato húmedo sigue siendo el principal riesgo. Si se saca a terraza, a la sombra luminosa y aclimatándola poco a poco; nunca a pleno sol de tarde.",
+    "invierno": "La calefacción y la HR interior <30 % no le perjudican; sí el frío: mantenerla por encima de 15,6 °C y separada 20-30 cm de cristales fríos y corrientes de aire. Reposo: riego muy escaso, solo con el sustrato totalmente seco, y sin abono. Situarla junto a la ventana más luminosa (sur u oeste), ya que en invierno el sol es suave, para evitar que los tallos se alarguen sin hojas.",
+    "ubicacion_recomendada": "Maceta colgante o en estante alto junto a una ventana este u oeste, o a 1-2 m de una ventana sur con cortina fina en verano. Lejos de radiadores encendidos en contacto directo y de cristales fríos en invierno. Fuera del alcance de perros, gatos y niños hasta confirmar su toxicidad."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew, vía su API) acepta Ceropegia woodii Schltr. (1894) y trata Ceropegia linearis subsp. woodii (Schltr.) H.Huber como sinónimo homotípico; otros sinónimos heterotípicos: C. barbertonensis, C. hastata, C. schoenlandii, C. leptocarpa y C. euryacme. En cambio, RHS usa como nombre correcto C. linearis subsp. woodii (con C. woodii como sinónimo) y NC State la da como 'previously known as C. linearis subsp. woodii'. Se mantiene C. woodii según lista-maestra y POWO.",
+    "Toxicidad: ASPCA no tiene ficha de la especie y ninguna fuente prioritaria abierta (NC State, Wisconsin, RHS, UConn) la trata. Solo fuentes complementarias (Plantura, Plant Pono) la dan como no tóxica o sin evidencia de toxicidad. Se deja 'desconocida' para perros, gatos y niños. Principio activo y síntomas desconocidos.",
+    "Humedad: ninguna fuente prioritaria da cifras; min_pct e ideal_pct en null.",
+    "Temperatura: ninguna fuente prioritaria da rango ideal ni máximo tolerable; ideal_min_c, ideal_max_c y max_c en null. Plantura (complementaria) da 20-25 °C como ideal.",
+    "Luz en lux o fc: ninguna fuente da cifras; lux_min y lux_max se toman de la escala del proyecto para luz brillante indirecta.",
+    "Abono: ninguna fuente da proporción NPK; npk en null.",
+    "Confusiones (Curio rowleyanus, Curio radicans, Peperomia prostrata, Dischidia ovata, Hoya curtisii, C. linearis): rasgos diferenciadores generales sin fuente prioritaria abierta específica; NC State solo cita C. radicans, D. ovata y H. curtisii como plantas de nicho similar.",
+    "Nerviación: ninguna fuente abierta la describe.",
+    "Missouri Botanical Garden Plant Finder: no se encontró ficha de la especie; no se cita."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/ceropegia-woodii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hort.extension.wisc.edu/articles/string-of-hearts-ceropegia-woodii/",
+      "institucion": "University of Wisconsin–Madison Division of Extension – Wisconsin Horticulture (S. Mahr)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/Plants/74288/Ceropegia-linearis-subsp-woodii/Details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Ceropegia linearis subsp. woodii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://homegarden.cahnr.uconn.edu/2024/02/06/hearts_for_valentines_day/",
+      "institucion": "UConn Home & Garden Education Center (University of Connecticut, CAHNR) – 'Hearts for Valentine's Day'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:95848-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew – consultado vía API de POWO",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – listas de plantas tóxicas y no tóxicas para gatos y perros (sin ficha de Ceropegia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plantura.garden/uk/houseplants/ceropegia/string-of-hearts",
+      "institucion": "Plantura Magazin – guía de cultivo de Ceropegia woodii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plantpono.org/hpwra/ceropegia-woodii",
+      "institucion": "Plant Pono – Hawaii-Pacific Weed Risk Assessment, ficha Ceropegia woodii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

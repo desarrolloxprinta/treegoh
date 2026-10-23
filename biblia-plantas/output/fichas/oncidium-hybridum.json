@@ -1,0 +1,377 @@
+{
+  "nombre_cientifico": "Oncidium hybridum",
+  "nombres_comunes": [
+    "oncidium",
+    "dama danzante",
+    "orquídea dama danzante",
+    "orquídea chocolate ('Sharry Baby')"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "Género americano tropical y subtropical: POWO (Kew) acepta Oncidium Sw. con 339 especies, nativo desde Florida, Bahamas, Antillas y México hasta Argentina y Paraguay; NC State da la misma área. Las plantas de venta son casi siempre híbridos (grex) del género y de su alianza (subtribu Oncidiinae): p. ej. Oncidium Sharry Baby, Oncidium Twinkle (O. cheirophorum × O. sotoanum [escrito «sotaoanum» en NC State]), Jungle Monarch (NC State) o 'Gower Ramsey', 'Sweet Sugar' (NYBG), además de cruces intergenéricos con Odontoglossum, Brassia, Miltonia y otros géneros afines (NYBG). Odontoglossum y Cochlioda se consideran hoy sinónimos de Oncidium (POWO), por lo que muchas 'Odontoglossum' y 'Cambria' de etiqueta son ya Oncidium en sentido botánico.",
+  "clima_nativo": "Epífitas que crecen sobre ramas y troncos de árboles, a los que solo usan como soporte (NC State). Género muy diverso: desde especies de clima cálido al nivel del mar hasta especies de clima fresco en los Andes (NYBG). Los híbridos comunes de interior son de temperatura intermedia a cálida (AOS, NYBG, NC State). Zonas USDA 9a-12b (NC State).",
+  "categoria": "orquidea",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas estrechas, alargadas (acintadas, elípticas o lanceoladas), de hasta 60 cm de largo, verde medio y de textura coriácea, que salen de pseudobulbos grandes en la base (RHS, NC State). Color de referencia de luz: verde brillante = luz correcta; verde rojizo = exceso de luz; verde oscuro = falta de luz (RHS, NC State). Algunos tipos (Oncidium 'oreja de mula', equitantes) tienen hojas muy gruesas y rígidas o en abanico (AOS), pero no son los híbridos comerciales habituales.",
+    "nerviacion": "Paralela, típica de monocotiledónea; nervio central marcado que forma un pliegue en V a lo largo de la hoja [orientativo, sin fuente prioritaria].",
+    "variegacion": "Sin variegación: hojas verdes lisas (NC State). Puntitos oscuros diminutos en la lámina pueden ser daño estético por agua fría (NYBG), no variegación.",
+    "tallo": "Crecimiento simpodial: un rizoma corto une pseudobulbos ovoides o algo aplanados, de color verde, que hacen de reserva de agua (RHS, NC State); en muchas plantas de la alianza el pseudobulbo es acanalado de forma natural y se pliega más con la edad (NYBG). Cada pseudobulbo nuevo nace junto al anterior (RHS). La vara floral sale de la axila de las hojas de la base del pseudobulbo (NC State), es larga, a menudo ramificada, y lleva muchas flores (al menos 25 por vara) de unos 2,5 cm (NC State).",
+    "habito": "Epífita en mata. Flor pequeña con el labelo grande, ancho y volantero que recuerda la falda de una bailarina, con sépalos y pétalos pequeños como cabeza y brazos (NYBG, NC State). Colores habituales: amarillo con manchas marrones; también rojo, naranja, blanco, rosa o púrpura (NC State). 'Sharry Baby': flores marrón rojizo con puntas blancas y olor a chocolate o vainilla, más de 100 flores por planta (NC State). Muchas son perfumadas (vainilla, chocolate, limón) (NC State, NYBG).",
+    "tamano_adulto_interior": "Muy variable: de 15 cm (miniaturas como 'Twinkle', hasta 30 cm) a 75 cm con la vara ('Sharry Baby', hasta 76 cm) (NC State); hojas de hasta 60 cm (RHS). Una planta grande puede sacar 5-7 varas (RHS).",
+    "confusiones": [
+      {
+        "especie": "Gomesa (antiguas Oncidium brasileñas, p. ej. Gomesa flexuosa, ex Oncidium flexuosum)",
+        "rasgo_diferenciador": "Misma alianza y mismo aspecto (flores amarillas con manchas pardas, pseudobulbos, hojas coriáceas) (NC State). Para la app el cuidado es casi igual; Gomesa flexuosa tolera menos luz directa según NC State. Solo la etiqueta permite distinguirlas con fiabilidad."
+      },
+      {
+        "especie": "Híbridos intergenéricos de la alianza Oncidium: 'Cambria', Odontoglossum, Brassia, Miltonia, Beallara, Burrageara, etc.",
+        "rasgo_diferenciador": "Comparten pseudobulbos aplanados y hojas finas; suelen tener flores más grandes y en estrella (Brassia: sépalos largos tipo araña; Miltonia: flor plana tipo pensamiento) [orientativo, sin fuente prioritaria]. Varios necesitan clima más fresco (RHS diferencia 'oncidium de clima cálido' y 'de clima fresco', antes llamados Odontoglossum). Consultar la etiqueta."
+      },
+      {
+        "especie": "Phalaenopsis (orquídea mariposa)",
+        "rasgo_diferenciador": "Monopodial, sin pseudobulbos, con hojas anchas y carnosas en roseta y flores grandes y planas; Oncidium tiene pseudobulbos visibles en la base, hojas estrechas y flores pequeñas con labelo en falda [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Cattleya y su alianza",
+        "rasgo_diferenciador": "Pseudobulbos en maza con una o dos hojas gruesas y pocas flores grandes (5-15 cm) con labelo en trompeta; Oncidium da muchas flores pequeñas en varas ramificadas [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Dendrobium (p. ej. D. nobile)",
+        "rasgo_diferenciador": "Pseudobulbos en caña larga y segmentada con hojas a lo largo de toda la caña; Oncidium tiene pseudobulbos cortos y ovoides con las hojas solo en el ápice y la base [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: no tóxica. La ASPCA clasifica como 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses' a Oncidium flexuosum ('Dancing Doll Orchid') y a Oncidium sphacelatum ('Golden Shower Orchid', 'Toxic Principles: Non-toxic'), y NC State etiqueta Gomesa flexuosa (ex Oncidium flexuosum) como no tóxica para perros, gatos y caballos. Si un animal come mucha hoja o flor puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En personas no se ha encontrado ficha de un centro de toxicología ni de una fuente prioritaria: se marca 'desconocida' por prudencia, aunque no hay indicios de toxicidad. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F10",
+      "F4"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA en dos especies del género y NC State coinciden). La ASPCA no tiene ficha para los híbridos comerciales; se extrapola desde especies del género. Niños: sin fuente fiable; véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 9700,
+      "lux_max": 32300,
+      "orientacion_hn": "Ventana este u oeste ideal; sur válida con una cortina fina en verano (RHS, NYBG, AOS). Norte: insuficiente para que florezca [orientativo, sin fuente prioritaria que mencione el norte expresamente].",
+      "tolera_sol_directo": "Sí, parcial: tolera mejor la luz fuerte que otras orquídeas comunes; le van bien 1-5 horas de sol al día, sobre todo de mañana o de tarde (AOS, RHS). Evitar el sol intenso de verano del mediodía, que daña sobre todo las flores (RHS). Los tipos de hoja gruesa toleran más luz (AOS, NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F8",
+        "F3"
+      ],
+      "notas": "Más luz da más flores (AOS). AOS: en invernadero 2.000-6.000 fc (21.500-64.500 lux); con luz artificial, unos 900 fc (≈9.700 lux) a 30-60 cm de la planta, y 100 fc (≈1.080 lux) como mínimo para crecer, con floración pobre. Missouri la incluye en el grupo de luz alta (3.000-4.000 fc). lux_min = 900 fc de AOS (en la escala del proyecto, en el límite alto de 'brillante indirecta'); lux_max ≈ 3.000 fc como techo práctico en ventana de casa para no quemar hoja ni flor, inferior al máximo de invernadero de AOS. Indicador visual: hoja verde brillante = bien; verde rojizo = demasiada luz; verde oscuro = poca (RHS, NC State, Missouri). Medir con luxómetro en la ubicación real."
+    },
+    "riego": {
+      "criterio": "Regar a fondo y volver a regar cuando el sustrato se haya secado aproximadamente hasta la mitad de la maceta (AOS, NC State): en la práctica, cuando a 2-3 cm con el dedo esté seco (NYBG: dejar secar unos 2,5 cm) y la maceta pese claramente menos que recién regada (Missouri: el peso indica la humedad del fondo). Nunca por calendario: la frecuencia depende de lo rápido que se seque el sustrato en cada casa (AOS). No dejar agua en el plato (Missouri, RHS). Regar por arriba y dejar escurrir; mojar las hojas lo menos posible porque es propensa a infecciones (AOS).",
+      "primavera_verano": "Crecimiento activo: riegos frecuentes, a menudo cada pocos días, dejando que el sustrato se seque un poco entre riegos (RHS); NC State lo sitúa entre cada 2 y 10 días según condiciones, solo como orientación. Con calor fuerte necesita más agua (AOS). Un pseudobulbo nuevo arrugado o hojas nuevas plegadas 'en acordeón' indican que le falta agua o que los riegos están demasiado espaciados (AOS, RHS, Missouri).",
+      "otono_invierno": "Reducir mucho: RHS habla de una vez al mes o menos en invierno y NYBG y NC State de bajar el riego con menos luz y frío. Comprobar siempre dedo y peso: si los pseudobulbos se arrugan con raíces blancas y firmes, falta agua; si las raíces están negras y blandas, sobra (Missouri, RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente (NC State): el agua fría puede dejar puntitos pardos o negros en las hojas, solo estéticos (NYBG). RHS recomienda agua de lluvia o filtrada en zonas de agua dura; el agua del grifo de Madrid es blanda (10-47 mg/L CaCO3) y sirve. Evitar agua descalcificada con mucho sodio y agua con muchas sales (Missouri).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3",
+        "F8"
+      ],
+      "notas": "Contradicción: AOS dice, para interior, mantener el sustrato 'siempre ligeramente húmedo, como una esponja escurrida', y a la vez dejar secar al menos media maceta; RHS, NYBG y NC State insisten en dejar que se seque parcialmente. Se elige lo más conservador para la planta (secado parcial con control por dedo y peso), porque los pseudobulbos y raíces carnosos se pudren con el sustrato demasiado húmedo (RHS, NC State) y los pseudobulbos almacenan agua y aguantan bastante sequía (RHS, NYBG). AOS no menciona reducir el riego en invierno; RHS sí (una vez al mes o menos): se adopta reducirlo vigilando que el pseudobulbo no se arrugue."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F5",
+        "F3"
+      ],
+      "notas": "Contradicción: AOS y NYBG dan 30-60 % y dicen que muchos Oncidium necesitan menos humedad que otras orquídeas; RHS da 55-75 % de ideal y nunca por debajo del 40 %; NC State, 50 % o más. Se adopta el mínimo más conservador (40 %, RHS) y un ideal de 55 % (donde coinciden RHS y NC State y dentro del rango de AOS/NYBG). Con humedad >75 % o ambiente encharcado, más ventilación (AOS); le gusta el aire en movimiento sin corrientes frías (RHS). Para subir la humedad: bandeja con grava húmeda sin que la maceta toque el agua, agrupar plantas (NYBG, RHS, AOS) o humidificador. RHS sugiere pulverizar, pero por convención del proyecto pulverizar no sube la humedad de forma útil y además AOS desaconseja mojar las hojas. Revisión del orquestador: min_pct 50 % (NC State ≥50 %, el valor más conservador) e ideal 60 %."
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 29,
+      "ideal_min_c": 16,
+      "ideal_max_c": 27,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3",
+        "F8"
+      ],
+      "notas": "Orquídea de temperatura intermedia a cálida (AOS, NYBG, NC State): noches de 13-16 °C (AOS) o 13-18 °C (NC State, NYBG) y días de 27-29 °C (AOS) o 21-29 °C (NC State); RHS da 18-25 °C de día y 13-17 °C de noche (13-25 °C en general). min_c = 13 °C, el mínimo nocturno en el que coinciden AOS, RHS, NC State y NYBG; Missouri la clasifica como orquídea 'fresca' con mínimo nocturno de 10 °C (50 °F), pero se descarta por ser menos conservador. max_c = 29 °C (máximo diurno de AOS y NC State). AOS indica que tolera picos de 35-38 °C solo si por la noche baja a 21-27 °C y se aumenta el riego: es tolerancia puntual, no condición de cultivo. Una bajada nocturna de unos 5 °C ayuda a que florezca (RHS, NYBG), aunque AOS dice que florece aunque la diferencia día-noche sea pequeña."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de orquídea a base de corteza fina a media, muy suelto y que drene bien (RHS, NYBG, NC State). Alternativas de AOS para interior: 100 % fibra de helecho arborescente, o 1/3 de esfagno con 2/3 de corteza fina de orquídea; 100 % esfagno solo si nunca queda en agua. Nunca tierra ni sustrato universal: es epífita (NC State). Maceta de plástico o de barro con buen drenaje (NYBG, NC State), justa de tamaño: le gusta ir apretada y una maceta grande retiene demasiada agua (NYBG, RHS, Missouri).",
+      "ph": "Ácido (<6,0) según NC State; ninguna otra fuente prioritaria da un rango.",
+      "drenaje": "Muy alto: aire abundante alrededor de las raíces (RHS) y sin agua en el plato. Cambiar la corteza cuando se descompone, porque deja de drenar (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para orquídeas, muy diluido, aplicado tras regar.",
+      "npk": "Equilibrado (p. ej. 20-20-20) o rico en nitrógeno (30-10-10) en corteza, según AOS; AOS propone uno rico en fósforo (10-30-20) cuando salen las varas. Cualquiera de uso doméstico para orquídeas sirve a la dosis del proyecto.",
+      "primavera_verano": "Solo con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (convención del proyecto). Las fuentes coinciden en abono débil y regular durante el crecimiento: RHS a ¼ de dosis cada segundo o tercer riego, de primavera a otoño; NYBG cada dos semanas; NC State abono débil 'bimonthly'; Missouri 'weekly-weakly' a ¼-½ dosis.",
+      "otono_invierno": "Nada. AOS: no abonar en invierno; NYBG: reducir con menos luz y frío.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F8"
+      ],
+      "notas": "La frecuencia de las fuentes es mayor que la del proyecto (que es más conservadora); el exceso de abono frena el crecimiento y pone marrones las puntas de las hojas, y las sales acumuladas queman raíces: lavar el sustrato con agua abundante varios minutos si ocurre (Missouri). AOS insiste en abonar para que forme pseudobulbos fuertes."
+    },
+    "trasplante": {
+      "frecuencia": "Aproximadamente cada 2 años (RHS, Missouri); puede quedarse en la maceta original los primeros un o dos años porque le gusta tener las raíces apretadas y no le gusta que la molesten (RHS).",
+      "epoca": "Cuando empieza un brote nuevo, normalmente en primavera, pero nunca con la vara floral en marcha (AOS); RHS: después de florecer, en febrero-abril o septiembre-octubre.",
+      "senales": "Corteza descompuesta, sin sitio para los pseudobulbos nuevos o pseudobulbos que sobresalen del borde de la maceta (RHS, Missouri); raíces negras y podridas (RHS). Al trasplantar: cortar raíces muertas (marrones, blandas o como de papel), las sanas son blancas y firmes; dejar sitio para 2-3 pseudobulbos nuevos (RHS) o 1-2 años de crecimiento (NYBG); colocar el brote más nuevo hacia el centro, no junto al borde (AOS); misma altura que antes (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F8"
+      ]
+    },
+    "poda": {
+      "necesita": "No, salvo limpieza: no necesita poda ni guiado (RHS).",
+      "epoca": "Al terminar la floración (RHS); raíces muertas, en el trasplante (RHS).",
+      "como": "Cortar las varas florales viejas desde la base cuando se marchitan todas las flores (RHS). Si un pseudobulbo empieza a pudrirse, cortarlo con tijeras desinfectadas y reducir el riego (RHS). No quitar los pseudobulbos viejos sanos aunque estén sin hojas o algo arrugados por la edad: siguen nutriendo a la planta (NYBG, para orquídeas con pseudobulbo en general).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (en Madrid, aprox. noviembre-febrero): ralentización con menos luz y frío, no reposo estricto (RHS, NYBG, AOS).",
+      "cambios": "Menos riego (RHS: una vez al mes o menos, siempre comprobando dedo y peso) y nada de abono (AOS, convención del proyecto). Mantener la luz alta y noches algo más frescas, sin bajar de 13 °C. Muchos híbridos no tienen requisitos especiales para florecer y florecen al madurar cada pseudobulbo nuevo, hasta 3 veces al año (AOS); las especies y muchos híbridos florecen de otoño a invierno (RHS, NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6"
+      ],
+      "notas": "AOS dice que pueden crecer todo el año y no menciona reducir el riego; RHS sí lo reduce mucho en invierno. Se adopta la reducción moderada vigilando los pseudobulbos, como opción más prudente frente a la pudrición."
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata"
+      ],
+      "epoca": "Al trasplantar, después de florecer: febrero-abril o septiembre-octubre (RHS), coincidiendo con el inicio de un brote nuevo (AOS).",
+      "pasos": "1) Sacar la planta y limpiar el sustrato viejo. 2) Cortar el rizoma con herramienta desinfectada en secciones de al menos 3 pseudobulbos cada una (RHS, NC State). 3) Quitar raíces muertas (RHS). 4) Plantar cada sección en una maceta pequeña con corteza fina para orquídeas, con el brote nuevo hacia el centro (RHS, AOS). 5) Riego moderado hasta que arraigue. Las divisiones pequeñas pueden tardar unos años en volver a florecer (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato demasiado húmedo: pseudobulbos y raíces carnosos se pudren con facilidad (RHS, NC State). Raíces negras y podridas = exceso de agua (RHS). Ojo: el exceso de riego también arruga los pseudobulbos porque las raíces podridas ya no absorben (Missouri, NYBG). Trasplantar a corteza nueva cortando lo podrido y regar menos."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pseudobulbo que se reblandece y oscurece por pudrición (exceso de humedad o agua estancada; bacterias tipo podredumbre blanda con calor y humedad) (RHS, Missouri). Cortar el pseudobulbo afectado con tijera desinfectada y reducir el riego (RHS); si avanza rápido, desechar la planta (Missouri)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas plegadas 'en acordeón' y pseudobulbo nuevo arrugado: falta de agua o riegos demasiado espaciados mientras se forma el brote (AOS, Missouri). No se corrige en las hojas ya formadas; ajustar el riego para los brotes siguientes (Missouri)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Pseudobulbos y hojas arrugados: falta de agua o de humedad ambiental, o raíces dañadas que no absorben (RHS, NYBG, Missouri). Diferenciar mirando las raíces: blancas y firmes = falta de agua; negras y blandas = exceso (Missouri, RHS). En la alianza Oncidium algunos pseudobulbos son acanalados de forma natural y se pliegan con la edad: no es síntoma (NYBG)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz: hojas verde rojizo o amarillentas (RHS, NC State, Missouri) y quemaduras si se pasa de golpe al sol directo (Missouri). El sol fuerte daña también las flores (RHS). En Madrid, sol de mediodía en ventanas sur y oeste en verano: cortina fina."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: hojas verde oscuro, crecimiento débil y pocas o ninguna flor (RHS, NC State, Missouri). Acercarla poco a poco a una ventana este, oeste o sur con cortina."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Planta sin brotes ni flores: poca luz (Missouri, AOS: más luz = más flores), temperatura inadecuada sin bajada nocturna (Missouri, RHS), abono insuficiente para formar pseudobulbos fuertes (AOS) o maceta saturada con la planta saliéndose (Missouri)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Exceso de abono y sales acumuladas en la corteza (Missouri). Lavar la maceta con agua abundante y volver a ¼-½ de dosis una vez al mes. En Madrid no atribuir a cloro o flúor del grifo."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas oscuras en hojas por infección bacteriana (NC State; Missouri: lesiones húmedas, blandas, de avance rápido, con frío y humedad alta o calor y exceso de agua). Puntitos negros diminutos y secos tras regar con agua fría son solo estéticos (NYBG). Retirar tejido afectado con cuchilla desinfectada, no mojar hojas y mejorar ventilación."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de hojas, base de la planta y flores (Missouri; NC State y RHS la citan en Oncidium). Retirar con bastoncillo con alcohol isopropílico al 70 % (Missouri); si no basta, insecticida listo para usar autorizado en el Registro del MAPA para uso no profesional en interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo, incluida la cochinilla de Boisduval, que prefiere las orquídeas Oncidiinae (UF/IFAS): manchas amarillas en hojas; revisar axilas y base de los pseudobulbos bajo las vainas (UF/IFAS, Missouri). Retirar a mano con bastoncillo con alcohol (Missouri); producto autorizado si la plaga es extensa (los sistémicos que sirven para algodonosa no funcionan con escudos acorazados, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja y otros ácaros, favorecidos por aire caliente y seco (Missouri; RHS y NC State la citan en Oncidium); existe incluso un ácaro plano específico, el 'oncidium mite' Brevipalpus oncidii (UF/IFAS). Típico con la calefacción de Madrid: subir humedad, ventilar y aislar la planta."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado por trips o ácaros (Missouri). Los trips pueden transmitir virus a Oncidium (UF/IFAS). Se ven con lupa; favorecidos por ambiente seco."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en varas florales, botones y brotes tiernos (NC State, RHS, Missouri); deforma y amarillea y transmite virus (Missouri). Chorro de agua o producto autorizado listo para usar."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinilla algodonosa, cochinilla blanda o pulgón (Missouri). Buscar el insecto en axilas, envés y varas."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botrytis en flores con humedad muy alta: pequeñas manchas rosadas o pardas en sépalos y pétalos (Missouri). Retirar flores dañadas y ventilar."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (Missouri los cita entre otras plagas de orquídeas), ligados a sustrato descompuesto o siempre húmedo, sobre todo con esfagno. Dejar secar más y renovar la corteza."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte: apartarla de la ventana sur u oeste al mediodía o poner cortina fina (RHS: sombrear el sol intenso de verano; las flores se queman). Dentro de casa conviene que no pase de 29 °C (AOS, NC State); AOS indica que aguanta picos de 35-38 °C solo si por la noche baja a 21-27 °C y se riega más, así que en olas de calor ventilar de noche y comprobar el sustrato a diario (se seca mucho antes). El aire exterior está muy seco (HR ≈38 % en julio): mantener la humedad por encima del 40 % (RHS) con bandeja de grava húmeda, agrupando plantas o con humidificador; el aire acondicionado reseca. Puede salir a una terraza sombreada en verano (NC State), nunca a pleno sol.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %, por debajo del mínimo de todas las fuentes (30 % AOS/NYBG, 40 % RHS): usar humidificador o agrupar plantas, y alejarla de radiadores y salidas de aire caliente. Junto al cristal frío, que la noche no baje de 13 °C (AOS, RHS) y que las hojas no toquen el vidrio; una ventana es buena porque refresca unos 5 °C de noche y eso ayuda a florecer (RHS). Menos riego (RHS: una vez al mes o menos, siempre por dedo y peso) y nada de abono. Agua del grifo a temperatura ambiente: el agua fría deja puntitos en las hojas (NYBG).",
+    "ubicacion_recomendada": "Junto a una ventana este u oeste, o sur con cortina fina en verano, con 1-5 horas de sol suave al día (AOS, RHS), a ser posible con algo de aire en movimiento sin corrientes frías (RHS). Lejos de radiadores. Medir la luz con luxómetro: al menos ~9.700 lux para que florezca bien."
+  },
+  "lagunas": [
+    "Nomenclatura: 'Oncidium hybridum' no es un nombre botánico publicado: IPNI (Kew) devuelve 0 resultados para 'Oncidium hybridum', y en POWO no aparece entre las especies ni notoespecies (Oncidium × ...) aceptadas del género. El nombre aceptado del género es Oncidium Sw. (Kongl. Vetensk. Acad. Nya Handl. 21: 239, 1800, nom. cons.), con 339 especies aceptadas y 16 sinónimos genéricos, entre ellos Odontoglossum Kunth, Cochlioda Lindl., Miltonioides y Mexicoa (POWO). La ficha trata el grupo de híbridos comerciales de Oncidium y su alianza (subtribu Oncidiinae), p. ej. Oncidium Sharry Baby, Twinkle, Gower Ramsey. Se mantiene nombre_cientifico 'Oncidium hybridum' por indicación del proyecto; conviene renombrar el nombre visible a 'Oncidium (híbridos y alianza)'.",
+    "Taxonomía inestable: AOS dice que los límites del género 'siguen siendo inestables'; varias antiguas Oncidium se han pasado a Gomesa (p. ej. Oncidium flexuosum → Gomesa flexuosa, NC State), Psychopsis, Tolumnia o Cyrtochilum, y Odontoglossum se ha integrado en Oncidium. Las etiquetas comerciales usan nombres antiguos y abreviaturas intergenéricas: la app no puede deducir el clima (cálido o fresco) solo por la foto.",
+    "Oncidium de clima fresco (antiguas Odontoglossum, muchas 'Cambria'): RHS tiene una guía aparte; esta ficha cubre los de clima intermedio-cálido, que son los habituales en tienda. No se investigó el cultivo de los de clima fresco.",
+    "Toxicidad en niños: no se encontró ficha de un centro de toxicología ni de una fuente prioritaria sobre ingestión humana de Oncidium; se marca 'desconocida' por prudencia. La ASPCA tiene fichas de especies (O. flexuosum, O. sphacelatum), no de los híbridos.",
+    "Smithsonian Gardens (ficha de cultivo de Oncidium) no se pudo abrir (error 403); no se cita.",
+    "pH del sustrato: solo NC State da 'ácido (<6,0)'; ninguna segunda fuente prioritaria lo confirma.",
+    "Orientación norte: ninguna fuente prioritaria la menciona expresamente para Oncidium; se deduce de que es orquídea de luz alta.",
+    "Nerviación y rasgos diferenciadores frente a Phalaenopsis, Cattleya, Dendrobium, Brassia o Miltonia: descritos sin fuente prioritaria específica (marcados como orientativos).",
+    "Riego en invierno: RHS da 'una vez al mes o menos' y NC State 'bimonthly or less' (ambiguo: cada dos meses o dos veces al mes); AOS no menciona reducirlo. No hay cifra fiable única.",
+    "Frecuencia de abonado: las fuentes (RHS, NYBG, NC State, Missouri) usan pautas más frecuentes y diluidas que la convención del proyecto (¼-½ dosis mensual); se aplica la convención."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet",
+      "institucion": "American Orchid Society (AOS) — Oncidium Culture Sheet",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://aos.org/explore/oncidium",
+      "institucion": "American Orchid Society (AOS) — Explore Orchids: Genus Oncidium (clasificación y literatura)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/oncidium/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Oncidium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/gomesa-flexuosa/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Gomesa flexuosa (ex Oncidium flexuosum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/oncidium-orchids/warm/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — Growing Guide: Warm growing oncidium orchids",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.nybg.org/blogs/plant-talk/2015/02/horticulture-2/dancing-ladies/",
+      "institucion": "New York Botanical Garden (NYBG) — Plant Talk: Dancing Ladies",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://libanswers.nybg.org/faq/430828",
+      "institucion": "New York Botanical Garden (NYBG), Mertz Library Reference — Why does my orchid have a wrinkled pseudobulb?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.missouribotanicalgarden.org/Portals/0/Gardening/Gardening%20Help/Factsheets/Orchid%20Problems34.pdf",
+      "institucion": "Missouri Botanical Garden — Factsheet 'Orchids: Problems'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/node/4825",
+      "institucion": "ASPCA Animal Poison Control Center — Dancing Doll Orchid (Oncidium flexuosum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/node/4949",
+      "institucion": "ASPCA Animal Poison Control Center — Golden Shower Orchid (Oncidium sphacelatum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://edis.ifas.ufl.edu/publication/IN1433",
+      "institucion": "UF/IFAS Extension (University of Florida), EDIS IN1433 — Orchid Insect and Mite Pests in South Florida",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:331250-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Oncidium Sw.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://www.ipni.org/api/1/search?q=Oncidium%20hybridum",
+      "institucion": "Royal Botanic Gardens, Kew y socios — International Plant Names Index (IPNI): búsqueda 'Oncidium hybridum' (0 resultados)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

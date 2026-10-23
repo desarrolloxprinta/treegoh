@@ -1,0 +1,338 @@
+{
+  "nombre_cientifico": "Philodendron verrucosum",
+  "nombres_comunes": [
+    "filodendro verrucosum",
+    "filodendro de Ecuador ('Ecuador philodendron', nombre comercial en fuentes complementarias)"
+  ],
+  "familia": "Araceae",
+  "origen": "De Costa Rica a Perú: Costa Rica, Panamá, Colombia, Ecuador y Perú (POWO; NParks; RHS: 'Costa Rica to Ecuador' en la ficha de la especie y 'C. America, Ecuador, Colombia and Peru' en las de sus clones). Según la descripción CATE Araceae recogida por POWO vive entre 200 y 1500 m (sobre todo por encima de 500 m) en Centroamérica y la vertiente pacífica de los Andes, y a 750-1850 m en la vertiente oriental andina (Napo, Morona-Santiago, San Martín, Junín). En Colombia, 230-2000 m en las regiones andina y pacífica (Antioquia, Cauca, Chocó, Cundinamarca, Nariño, Risaralda, Valle del Cauca; ColPlantA, Catálogo de Plantas y Líquenes de Colombia).",
+  "clima_nativo": "Tropical muy húmedo de media montaña, sin heladas: crece sobre todo en bosque pluvial premontano y bosque pluvial montano bajo, y también en bosque tropical húmedo (zonas de vida de Holdridge citadas en POWO/CATE). Es la franja de los bosques nubosos de estribación andina y centroamericana, con aire casi saturado de humedad y temperaturas suaves; las fuentes prioritarias no dan cifras de temperatura ni de lluvia del hábitat. RHS la califica H1A: en el Reino Unido solo bajo cristal todo el año, con mínima superior a 15 °C.",
+  "categoria": "trepadora",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Simples, ampliamente ovado-acorazonadas (cordadas), con punta acuminada y lóbulos basales amplios y redondeados; seno basal en herradura, obovado o incluso cerrado (POWO/CATE). En el hábitat la lámina mide 28-75 x 19-60 cm, 1-1,7 veces más larga que ancha (POWO); RHS indica que en planta madura puede superar 30 cm de anchura, y el clon enano 'Mini' las tiene de menos de 12 cm, a menudo de 5 cm. Lámina fina pero algo coriácea, con el margen ligeramente ondulado (Wikipedia, complementaria). HAZ: verde oscuro o verde bronce, ATERCIOPELADO a mate (POWO; RHS: 'velvety and deep green'); las hojas nuevas salen verde negruzco por el haz. ENVÉS: verde pálido con BANDAS ROJO-PÚRPURA entre los nervios secundarios (POWO; NParks; RHS: coloración verde rojiza en el envés); en hojas nuevas el envés es púrpura-violeta y algo brillante (POWO). PECÍOLO: largo, de 33-65 cm (hasta 90 cm), subcilíndrico, púrpura-violeta a pardo, DENSAMENTE CUBIERTO DE ESCAMAS O CERDAS de dos tipos, unas cortas, anchas y desflecadas y otras largas, aciculares y erguidas (POWO/CATE; NParks: pecíolo cubierto de escamas); RHS las describe como cerdas blandas, pálidas y translúcidas sobre pecíolos y tallos verde rojizos. Este pecíolo 'peludo' es el rasgo clave para una IA de visión.",
+    "nerviacion": "Pinnada. Nervio central plano o hundido por el haz, algo más pálido que la lámina. 3-6 (hasta 8) nervios laterales primarios por lado, que salen del central en ángulo de 50-55°, hundidos por el haz y más claros que la lámina (POWO/CATE). En la vista típica del haz los nervios destacan en verde claro brillante o casi blanco sobre el terciopelo oscuro (RHS: 'bright green veins'; NParks: nervios verde pálido; Wikipedia, complementaria: nervios blancos), lo que forma un dibujo de líneas claras muy marcado. 6-8 nervios basales por lado. Nervios menores y 'nervios transversales' visibles por el envés, donde los nervios principales son más oscuros que la lámina (POWO).",
+    "variegacion": "No variegada. El contraste lo dan los nervios claros, el terciopelo oscuro o bronceado, las bandas rojo-púrpura del envés y los pecíolos rojizos con cerdas. RHS registra clones con nombre comercial ('Mini', clon enano natural; 'Ppipve007', 'Ppipve015'), sin variegación descrita. Hay mucha variación natural entre poblaciones (formas de Ecuador, Colombia, Perú) en el tono del haz y la intensidad del envés [orientativo, sin fuente prioritaria].",
+    "tallo": "Trepador, pegado al soporte (hemiepífita), DENSAMENTE ESCAMOSO O SETOSO, con tricomas verdes o blanco verdosos (POWO/CATE). Entrenudos juveniles de hasta 20 cm y 1-2 cm de diámetro; en planta adulta, de 3-10 cm de largo y 2-6 cm de grosor, grises a pardos (POWO). Catafilos (vainas) de 10-30 cm, verdes o rojizos, escamosos, que persisten como una maraña de fibras. Raíces aéreas cortas y bastante numerosas en los nudos.",
+    "habito": "Trepadora perennifolia hemiepífita: sube por los troncos de los árboles agarrada con raíces aéreas (RHS; NParks; POWO), rara vez terrestre o epífita. En cultivo necesita un tutor vertical, mejor de musgo o corteza que pueda mantenerse húmedo, para desarrollar hojas grandes [orientativo, sin fuente prioritaria]; sin soporte cuelga o se arrastra con hojas más pequeñas. Crecimiento lento: RHS da 5-10 años hasta el tamaño adulto; Araflora (vivero, complementaria) la clasifica de crecimiento lento.",
+    "tamano_adulto_interior": "RHS (clon 'Ppipve007', representativo de la especie): 1,5-2,5 m de altura y 0,5-1 m de anchura en 5-10 años; clon 'Mini': 0,5-1 m de altura y 0,1-0,5 m de anchura. En vivienda la altura la limita el tutor; con humedad media de piso las hojas suelen quedarse en 15-30 cm [orientativo, sin fuente prioritaria]; en el hábitat llegan a 75 cm (POWO).",
+    "confusiones": [
+      {
+        "especie": "Philodendron melanochrysum",
+        "rasgo_diferenciador": "También trepadora de terciopelo oscuro y nervios claros. P. melanochrysum tiene hojas alargadas, mucho más largas que anchas (hasta unos 90 cm de largo en planta guiada en vertical), verde negruzco con brillo dorado-cobrizo y nervios verde pálido (Clemson), y su envés no muestra las bandas rojo-púrpura entre nervios. P. verrucosum tiene hojas anchamente acorazonadas (1-1,7 veces más largas que anchas), envés con bandas rojo-púrpura y, sobre todo, pecíolos y tallos densamente cubiertos de escamas o cerdas (POWO/CATE; RHS). Pecíolo con cerdas = verrucosum; pecíolo liso = melanochrysum [contraste del pecíolo liso de melanochrysum orientativo, sin fuente prioritaria abierta en esta sesión]. Existen híbridos comerciales entre ambas (p. ej. P. 'Splendid') con rasgos intermedios que la app debe señalar como duda [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Philodendron gloriosum",
+        "rasgo_diferenciador": "P. gloriosum NO trepa: tiene tallo rastrero horizontal (rizoma) con entrenudos verdes de 4-6 cm y catafilos púrpura, y su pecíolo es semicilíndrico, de 20-30 cm, verde abajo y rojizo arriba, con estrías longitudinales blancas y SIN escamas ni cerdas; la lámina es fina, herbácea, con el margen rojizo y nervios principales pálidos (POWO, ficha de P. gloriosum). P. verrucosum es trepadora, con pecíolos de 33-65 cm púrpura-violeta a pardos y densamente escamosos, y envés con bandas rojo-púrpura entre nervios (POWO/CATE)."
+      },
+      {
+        "especie": "Philodendron hederaceum (forma 'Micans', terciopelo)",
+        "rasgo_diferenciador": "Trepadora o colgante de tallos finos y lisos con hojas pequeñas aterciopeladas, verde bronce, sin nervios claros contrastados ni cerdas en el pecíolo. Puede confundirse con el clon enano P. verrucosum 'Mini' (hojas de 5-12 cm, RHS), que conserva los nervios verde claro, el envés rojizo y los pecíolos con cerdas translúcidas (RHS) [rasgos de 'Micans' orientativos, ver ficha philodendron-hederaceum]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico en todas las partes de la planta (Clemson y NC State para el género; ASPCA para P. hederaceum como referencia de género). RHS, en las fichas de los clones de P. verrucosum, la clasifica como nociva si se ingiere, también para mascotas, e irritante o alergénica para piel y ojos. ASPCA no tiene ficha específica de P. verrucosum.",
+    "sintomas": "Perros y gatos (ASPCA, género): irritación oral, dolor e hinchazón de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Pet Poison Helpline (complementaria): babeo, arcadas y vómitos; rara vez hinchazón grave de garganta con dificultad respiratoria. Personas (Clemson; NC State, gravedad baja): ardor e irritación de boca, labios y lengua, babeo, vómitos, dificultad para tragar; la savia irrita la piel (NC State) y los ojos (RHS). Usar guantes al podar o sacar esquejes (RHS) y mantenerla fuera del alcance de mascotas y niños pequeños (Clemson; RHS, ficha del género).",
+    "confianza": "Alta",
+    "fuentes": ["F2", "F3", "F7", "F9", "F10", "F12", "F11"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1614,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste protegida, o junto a una norte luminosa (RHS: orientación este, norte u oeste, semisombra, luz brillante pero difusa). En ventana sur, a 1,5-2 m del cristal o tras cortina o estor.",
+      "tolera_sol_directo": "No. RHS pide luz brillante pero difusa y semisombra, y NParks la clasifica como planta de semisombra. El sol directo tras el cristal quema la lámina aterciopelada (Gardenia.net y Araflora, complementarias); como mucho, sol suave de primera hora.",
+      "notas": "Dos prioritarias tratan la especie (RHS, NParks) y coinciden en semisombra o luz difusa. Las cifras en lux no son de la especie: el mínimo útil procede de UF/IFAS ENH893 (género), que indica que con 150 fc (≈1600 lux) o más los filodendros mantienen color y tamaño de hoja; el máximo es el techo de la luz brillante indirecta adoptada por el proyecto (1000 fc ≈ 10 760 lux). Con poca luz da tallos largos y hojas pequeñas y menos coloreadas (Gardenia.net, complementaria).",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F6", "F8", "F14", "F16"]
+    },
+    "riego": {
+      "criterio": "Regar cuando la superficie del sustrato se haya secado justo (2-3 cm superiores secos al tacto; 5 cm en macetas grandes) y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. RHS: dejar que la superficie del sustrato quede justo seca antes de regar a fondo y evitar que la planta se quede en agua, porque se pudren las raíces. NParks: riego moderado, suelo húmedo pero bien drenado. Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo, calor y aire seco el sustrato aireado se seca rápido: comprobar dedo y peso cada 2-3 días. Mantenerlo ligeramente húmedo en profundidad, nunca encharcado (RHS; NParks). Si tiene tutor de musgo, mantener también el musgo húmedo para que las raíces aéreas se agarren [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Regar con menos frecuencia (RHS: menos en invierno, cuando el crecimiento casi se detiene), dejando secar algo más la capa superior, pero sin dejar que el cepellón se seque del todo: es una planta de bosque nuboso que sufre con la sequía. Con calefacción el sustrato puede secarse antes: guiarse siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo, a temperatura ambiente; en Madrid (Canal de Isabel II) es blanda y la cloramina no es causa de puntas marrones. El riesgo real es la acumulación de sales de abono: UF/IFAS ENH893 (género) indica no abonar con conductividad del sustrato ≥2,0 dS/m y lavar el sustrato con agua abundante si supera 3,0 dS/m.",
+      "notas": "RHS y NParks coinciden en sustrato húmedo pero bien drenado, sin encharcamiento. Clemson (género): el sustrato que drena despacio y el riego demasiado frecuente causan pudrición radicular. La sensibilidad a la sequía se pone en 'media' porque la especie pide humedad constante, aunque el exceso de agua es más peligroso [orientativo].",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F6", "F7", "F8"]
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 70,
+      "notas": "RHS (fichas de los clones de la especie): prefiere más humedad ambiental que muchos otros filodendros, y el clon 'Mini' puede cultivarse en terrario para aprovechar la humedad alta; califica la planta H1A (bajo cristal todo el año). Ninguna fuente prioritaria da porcentajes para la especie: los valores proceden de complementarias coherentes [orientativo, sin fuente prioritaria]: Gardenia.net, más del 60 %; Foliage Factory, 60-80 %; Simplify Gardening, 60-95 %. UF/IFAS ENH893 da 60-100 % solo para producción en vivero (género). Clemson (género) indica que los filodendros toleran la humedad de una vivienda, pero esta especie de bosque nuboso es de las que menos la toleran: con aire seco las hojas nuevas se atascan al abrirse, salen pequeñas o deformes y se secan los bordes [orientativo, sin fuente prioritaria]. Usar humidificador, agrupar plantas o cultivarla en vitrina o armario de cultivo con algo de ventilación; pulverizar no sube la humedad de forma útil y el agua retenida en el terciopelo no la beneficia.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F3", "F14", "F15", "F17", "F8"]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 26,
+      "notas": "Mínima: RHS califica la especie H1A (bajo cristal todo el año, mínima superior a 15 °C) y en la ficha del género dice que a los filodendros no les gustan las temperaturas por debajo de 15 °C; Foliage Factory y Araflora (viveros, complementarias) también fijan 15 °C. Ninguna prioritaria da una cifra más alta para la especie, así que se adopta 15 °C, coherente con las fichas de P. hederaceum y P. melanochrysum. Máxima de 30 °C [orientativo, sin fuente prioritaria]: Araflora da 30 °C como máximo y Simplify Gardening pide no superar unos 29 °C (85 °F) a mediodía; se fija por debajo del umbral de 35 °C a partir del cual UF/IFAS ENH893 (género) ve caer la calidad, porque es una especie de bosque nuboso premontano y montano bajo (POWO) que sufre con el calor, sobre todo si además el aire es seco. Ideal 18-26 °C [orientativo, sin fuente prioritaria]: complementarias dan 18-29 °C; Clemson (género) da 18-21 °C de noche y 24-29 °C de día, pero para esta especie se recomienda quedarse en la parte baja de ese rango de día y agradece noches algo más frescas que el día [orientativo]. Varias horas a 0,5-4,5 °C amarillean las hojas inferiores (UF/IFAS, género). Sin heladas; lejos de radiadores, chorros de aire acondicionado y cristales fríos.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F12", "F7", "F8", "F4", "F15", "F16", "F17"]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla abierta, aireada y bien drenada, pero que retenga humedad, sin turba: RHS recomienda sustrato ericáceo (ácido) que puede incluir roca volcánica o pumita, corteza fina de abeto, mantillo de hojas o musgo esfagno troceado de origen sostenible. NParks: suelos húmedos y bien drenados. Ejemplo de mezcla tipo aroide: 1 parte de sustrato universal sin turba, 1 de corteza fina, 1 de pumita o perlita y ½ de esfagno troceado [proporciones orientativas, sin fuente prioritaria]. Maceta siempre con agujeros.",
+      "ph": "Ácido a neutro (RHS: 'acid or neutral'; sustrato ericáceo). UF/IFAS ENH893 (género): 6,0-6,5 en sustrato de producción.",
+      "drenaje": "Imprescindible: RHS insiste en evitar que la planta quede en agua porque se pudren las raíces; NParks pide suelo bien drenado; Clemson (género) atribuye la pudrición radicular a sustratos que drenan despacio.",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F6", "F7", "F8"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior (RHS), diluido; o de liberación lenta a dosis baja (Clemson, género).",
+      "npk": "3-1-2 o 3-1-3 (UF/IFAS ENH893, género, producción comercial).",
+      "primavera_verano": "RHS: abono líquido una vez al mes de abril a septiembre (hemisferio norte). Se aplica la pauta del proyecto: ¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo, regando antes si el sustrato está seco. Si en pleno verano madrileño la planta se para por el calor, no abonar hasta que vuelva a crecer [orientativo].",
+      "otono_invierno": "Nada: RHS indica dejar de abonar en invierno hasta la primavera. Tampoco abonar plantas enfermas o recién trasplantadas.",
+      "notas": "Solo RHS trata el abonado de la especie. El exceso de abono enrolla y pardea las puntas (Clemson, género). No abonar ni trasplantar durante unas 4 semanas tras llevarla a casa (UF/IFAS ENH893, género). En el hemisferio sur, el periodo de abonado es de octubre a marzo.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F3", "F7", "F8"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS) o cuando las raíces llenen la maceta; subir solo 2-5 cm de diámetro [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera o inicio del verano, con crecimiento activo y antes de los calores fuertes [orientativo, sin fuente prioritaria]; Gardenia.net (complementaria) recomienda la primavera. Nunca en las primeras 4 semanas tras comprarla (UF/IFAS ENH893, género). Aprovechar para poner o alargar el tutor sin arrancar las raíces aéreas ya agarradas.",
+      "senales": "Raíces que salen por los agujeros o rodean el cepellón, sustrato que se seca muy rápido tras regar, planta apiñada (Clemson, género) o sustrato viejo compactado que ya no drena (corteza descompuesta).",
+      "confianza": "Media",
+      "fuentes": ["F2", "F3", "F8", "F7", "F14"]
+    },
+    "poda": {
+      "necesita": "Poca. Solo retirar hojas viejas secas o dañadas y controlar la altura cuando sobrepasa el tutor; los filodendros trepadores se controlan con la altura del soporte, el guiado y la poda (Clemson, género). Crece despacio (RHS: 5-10 años hasta el tamaño adulto), así que cada hoja cuenta.",
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "Con tijera limpia y guantes (savia irritante para piel y ojos, RHS), cortar justo por encima de un nudo; la punta cortada sirve como esqueje (RHS: esqueje de punta de tallo). Retirar las hojas secas cortando el pecíolo cerca del tallo. Evitar cortes innecesarios.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F3", "F7"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de octubre a marzo en el hemisferio norte; de abril a septiembre en el hemisferio sur).",
+      "cambios": "No es un reposo estricto: no pierde hojas, solo crece mucho más despacio con menos luz y temperatura (RHS: en invierno el crecimiento casi se detiene). Regar con menos frecuencia, no abonar hasta la primavera (RHS), mantenerla por encima de 15 °C (RHS) y con humedad ambiental alta, lejos de radiadores y cristales fríos.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F3", "F12"]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta de tallo",
+        "esqueje de yema y hoja (un nudo con su hoja)",
+        "acodo aéreo"
+      ],
+      "epoca": "Primavera y verano, con calor moderado y crecimiento activo [orientativo]; Clemson (género) indica que los esquejes y el acodo aéreo pueden hacerse en cualquier estación. En Madrid, evitar las semanas de más calor seco.",
+      "pasos": "1) Elegir un trozo de tallo con al menos un nudo con raíz aérea y una hoja (RHS: esqueje de punta o de yema y hoja; NParks: esqueje de tallo). 2) Cortar con tijera limpia y guantes. 3) Enraizar en musgo esfagno húmedo con perlita, en sustrato ligero o en agua (Gardenia.net y Foliage Factory, complementarias), con calor suave (unos 21-26 °C) [orientativo, sin fuente prioritaria], luz brillante indirecta y humedad alta (propagador o caja cerrada con ventilación diaria). 4) En los filodendros las yemas brotan en 3-5 semanas y las raíces aparecen en 4-6 semanas (UF/IFAS ENH893, género, para P. hederaceum). 5) Acodo aéreo: envolver un nudo con esfagno húmedo y plástico sin cortar el tallo hasta que enraíce (Clemson, género). 6) Pasar a mezcla aireada cuando las raíces midan 3-5 cm [orientativo].",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F6", "F7", "F8", "F14", "F15"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato que no drena o por dejar la maceta en agua (RHS; Clemson, género; Gardenia.net). Grave en esta especie de crecimiento lento: tarda mucho en reponer raíces."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base del tallo blanda u oscura por encharcamiento crónico, sobre todo en invierno con poca luz y temperaturas bajas [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas pequeñas, atascadas al abrirse, deformes o rasgadas por aire seco (RHS: necesita más humedad que otros filodendros) o por falta de tutor vertical [orientativo para el mecanismo, sin fuente prioritaria]. Es el síntoma más típico de esta especie en pisos con calefacción o en verano seco."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes secos y pardos por humedad ambiental baja (calefacción, verano madrileño), calor por encima de 30 °C o sequía del sustrato [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones y enrolladas por exceso de abono (Clemson, género) o aire muy seco. En Madrid no atribuirlo al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias en días de calor (más de 30 °C) con aire seco aunque el sustrato esté húmedo: la planta pierde agua más deprisa de lo que absorbe [orientativo, sin fuente prioritaria]; si el sustrato está encharcado, sospechar pudrición radicular (S36)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores por poca luz o exceso de riego (Clemson, género) o tras horas a menos de 5 °C junto a un cristal frío (UF/IFAS ENH893, género)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Zonas decoloradas o quemadas por sol directo tras el cristal; RHS pide luz difusa y semisombra y NParks la clasifica de semisombra."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos y pecíolos largos, hojas pequeñas y poco coloreadas por luz insuficiente (UF/IFAS ENH893, género; Gardenia.net)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y cálido (Clemson, género; Gardenia.net)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento en la lámina por araña roja antes de ver la telaraña (Gardenia.net); difícil de ver en el terciopelo oscuro: revisar el envés y entre las cerdas de los pecíolos."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y entre las escamas del pecíolo (Clemson, género; Gardenia.net)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo en tallos y nervios (Clemson, género; Gardenia.net)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas nuevas y brotes (Clemson, género)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Deterioro o caída de hojas al pasar de un invernadero o vivero muy húmedo a la vivienda seca [orientativo, sin fuente prioritaria]; no abonar ni trasplantar en las primeras 4 semanas (UF/IFAS ENH893, género)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es el periodo crítico: es una planta de bosque nuboso y el verano de Madrid (35-40 °C en la calle, aire muy seco, ≈38 % HR exterior en julio) le combina calor y sequedad, lo peor para ella. Llevarla a la habitación más fresca de la casa, idealmente por debajo de 28-30 °C [orientativo, sin fuente prioritaria], fuera del sol directo de ventanas sur y oeste (apartarla 1,5-2 m o filtrar con cortina o estor; RHS pide luz difusa). Con aire acondicionado, nunca en el chorro: enfría pero reseca el aire, así que mantener humidificador cerca (objetivo ≥60 % de humedad) o tenerla en vitrina o armario de cultivo con ventilación, vigilando que dentro no se acumule calor. Bajar persianas en las horas centrales. El sustrato y el tutor de musgo se secan muy rápido: comprobar dedo y peso cada 2-3 días, regar a fondo y vaciar el plato. Si se para el crecimiento por el calor, no abonar. No sacarla a la terraza ni al balcón. Revisar a menudo el envés por araña roja, que prolifera con calor seco.",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %: muy insuficiente para esta especie (RHS: prefiere más humedad que otros filodendros); humidificador cerca o vitrina, no pulverizar, y revisar el envés por araña roja. Nunca sobre o junto a radiadores. Mantenerla por encima de 15 °C (RHS) y lejos de cristales fríos y corrientes de puertas: varias horas por debajo de 5 °C amarillean las hojas inferiores (UF/IFAS ENH893, género). Con menos luz, acercarla a la ventana más luminosa con cortina fina (el sol bajo de invierno filtrado se tolera), regar menos y no abonar.",
+    "ubicacion_recomendada": "Habitación luminosa y fresca, junto a una ventana este o norte luminosa, o a 1,5-2 m de una sur u oeste con cortina, guiada en un tutor de musgo o corteza alto, con humidificador cerca o dentro de una vitrina o armario de cultivo ventilado. Lejos de radiadores, chorros de aire acondicionado y puertas con corriente. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado Philodendron verrucosum L.Mathieu ex Schott, Syn. Aroid.: 85 (1856) (POWO; RHS: 'Name Status Correct'). Sinónimos heterotípicos según NParks y Wikipedia (que cita POWO): P. carderi (auct.), P. daguense Linden & André, P. discolor K.Krause, P. lindenii Engl. y P. pilatonense Engl.; la página de POWO cargada no mostró la lista de sinónimos, por lo que no se ha verificado directamente en POWO. Sin cambio de nombre.",
+    "Especie de coleccionista: las fuentes prioritarias de especie son RHS (ficha de la especie, solo datos botánicos, y fichas de sus clones 'Mini' y 'Ppipve007' con cultivo), NParks (luz, agua, suelo y propagación en categorías) y POWO/ColPlantA (descripción y hábitat). Humedad, temperatura, abonado, trasplante, poda y reposo se apoyan en RHS y en fuentes del género (Clemson, UF/IFAS ENH893, NC State), por lo que esos bloques quedan en Media.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa para la especie; los valores 60 % (mínimo) y 70 % (ideal) proceden de fuentes complementarias coherentes (Gardenia.net, Foliage Factory, Simplify Gardening).",
+    "Temperatura máxima (30 °C) e ideal (18-26 °C): sin fuente prioritaria para la especie; proceden de viveros y blogs (Araflora, Foliage Factory, Simplify Gardening) y del hábitat de bosque premontano y montano bajo (POWO). No hay datos experimentales de tolerancia al calor de la especie.",
+    "Altitud del hábitat: POWO/CATE da 200-1500 m (sobre todo >500 m) y 750-1850 m en la vertiente oriental andina; ColPlantA da 230-2000 m en Colombia; Araflora (complementaria) da 0-1500 m. Sin datos climáticos del hábitat en fuentes prioritarias.",
+    "Confusión con P. melanochrysum: el contraste 'pecíolo liso' de melanochrysum no se ha verificado en una fuente prioritaria abierta en esta sesión (Clemson describe su hoja, no su pecíolo); los híbridos comerciales (p. ej. P. 'Splendid') no tienen fuente prioritaria.",
+    "Las proporciones del sustrato casero, la frecuencia de revisión del riego, la temperatura de enraizamiento y los síntomas S06, S08, S12, S15 y parte de S18 no tienen fuente prioritaria y se marcan como orientativos.",
+    "Toxicidad: ASPCA no tiene ficha de P. verrucosum; se usa la de P. hederaceum (género) junto a RHS (fichas de clones de la especie), Clemson y NC State (género). Pet Poison Helpline consultada como complementaria."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/250769/philodendron-verrucosum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Philodendron verrucosum (datos botánicos: nombre correcto, área Costa Rica a Ecuador)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/519453/philodendron-verrucosum-ppipve007/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Philodendron verrucosum 'Ppipve007' (descripción de la especie, cultivo, H1A, toxicidad)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/510416/philodendron-verrucosum-mini/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Philodendron verrucosum 'Mini' (clon enano natural; cultivo, humedad, terrario)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:314474-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Philodendron verrucosum L.Mathieu ex Schott (descripción CATE Araceae basada en Croat 1997, hábitat y distribución)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:314474-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – ColPlantA (Catálogo de Plantas y Líquenes de Colombia, Univ. Nacional de Colombia; Useful Plants and Fungi of Colombia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/6/1/6182",
+      "institucion": "National Parks Board de Singapur (NParks, gestor del Singapore Botanic Gardens) – Flora & Fauna Web, Philodendron verrucosum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center, HGIC 1509 Philodendron (género; incluye P. melanochrysum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://edis.ifas.ufl.edu/publication/EP150",
+      "institucion": "UF/IFAS Extension – EDIS ENH893: Cultural Guidelines for Commercial Production of Interiorscape Philodendron (McConnell, Chen, Henny y Everitt; género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "institucion": "ASPCA Animal Poison Control Center – Heartleaf Philodendron (P. hederaceum, referencia de género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, Philodendron (género; toxicidad)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+      "institucion": "Pet Poison Helpline – Philodendron (centro de toxicología veterinaria)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.rhs.org.uk/plants/philodendron",
+      "institucion": "Royal Horticultural Society (RHS) – página del género Philodendron (preferencias, mínimo de 15 °C, toxicidad)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87777-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Philodendron gloriosum (descripción para confusiones)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://www.gardenia.net/plant/philodendron-verrucosum",
+      "institucion": "Gardenia.net (portal especializado) – Philodendron verrucosum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://foliage-factory.com/philodendron-verrucosum",
+      "institucion": "Foliage Factory (vivero especializado) – Philodendron verrucosum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F16",
+      "url": "https://www.araflora.com/product/philodendron-verrucosum-3/",
+      "institucion": "Araflora (vivero especializado, Países Bajos) – Philodendron verrucosum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F17",
+      "url": "https://simplifygardening.com/philodendron-verrucosum-best-care-guide/",
+      "institucion": "Simplify Gardening (blog) – Philodendron verrucosum care guide",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F18",
+      "url": "https://en.wikipedia.org/wiki/Philodendron_verrucosum",
+      "institucion": "Wikipedia – Philodendron verrucosum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

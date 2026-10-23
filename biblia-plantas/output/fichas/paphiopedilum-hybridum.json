@@ -1,0 +1,346 @@
+{
+  "nombre_cientifico": "Paphiopedilum hybridum",
+  "nombres_comunes": [
+    "zapatito de Venus",
+    "paphiopedilum",
+    "orquídea zapatilla de dama",
+    "zapatilla de dama"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "'Paphiopedilum hybridum' no es un nombre botánico: designa los híbridos comerciales del género Paphiopedilum Pfitzer (1886, nom. cons.), género aceptado en POWO con área nativa del sur de China a Asia tropical. NC State lo sitúa de la India a China, Indonesia, Malasia, Filipinas y Nueva Guinea, con 109 especies reconocidas y miles de híbridos; Missouri Botanical Garden cita el sudeste asiático, el sur de China y el subcontinente indio. Las especies van de las zonas altas y frescas del Himalaya a las regiones cálidas al nivel del mar de Malasia, Indonesia y Filipinas (AOS, Batchelor). Los híbridos complejos de hoja verde descienden sobre todo de especies frescas como P. insigne (AOS, Nash; Batchelor); los de hoja moteada, como el clásico Paphiopedilum Maudiae (P. callosum × P. lawrenceanum, registrado en 1900), de especies cálidas de baja altitud (AOS, Batchelor).",
+  "clima_nativo": "Sotobosque de bosque tropical y subtropical, a la sombra y con humedad: la mayoría son terrestres o semiterrestres que crecen en el humus del suelo del bosque o en grietas de rocas, unas pocas son litófitas (P. niveum) o epífitas (P. lowii) (AOS Batchelor y Nash; NC State; Missouri BG). No tienen pseudobulbos que almacenen agua, por eso necesitan humedad constante en el sustrato (Missouri BG; RHS). Dos grupos térmicos: las de hoja moteada, de zonas bajas y cálidas; las de hoja verde lisa, de montaña, más frescas (NC State; Missouri BG; CSU). Rusticidad RHS de un híbrido moteado: H1A, bajo cristal todo el año, mínimo >15 °C (RHS).",
+  "categoria": "orquidea",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Roseta o abanico de hojas en cada brote, sin pseudobulbo (NC State, 'Quick ID'). Hojas simples, de margen entero, sin pelos, de ovadas u obovadas y cortas a largas y casi lineares (NC State); coriáceas pero no gruesas ni carnosas (CSU). Dos tipos de hoja que la IA debe distinguir porque cambian el cuidado: (1) verde liso, en la mayoría de los híbridos complejos 'redondos', con hojas por lo general de menos de 30 cm en plantas en flor (AOS, Batchelor); (2) moteadas o teseladas (dibujo en mosaico verde oscuro y verde claro por el haz y a veces el envés), como en P. Maudiae, con hojas de 20-30 cm (RHS 'Femma'; AOS). Los multiflorales de hoja en cinta (P. rothschildianum, P. philippinense, P. lowii y sus híbridos) tienen hojas largas y estrechas que superan a menudo 30 cm (AOS, Batchelor). Rasgo clave para visión: la flor tiene el labelo transformado en una bolsa o 'zapato' (NC State), flor cerosa y duradera, normalmente una por vara (Missouri BG; NC State), sobre varas de 8 a 60 cm (NC State 3-24 in), con sépalos laterales a menudo fusionados (NC State). Colores: todos salvo azul y rojo verdadero (CSU); flores rayadas, punteadas o lisas (CSU). Color de hoja correcto: verde medio; verde oscuro = falta de luz; amarillento o con tinte rojizo en los bordes = exceso de luz (Smithsonian Gardens; Missouri BG).",
+    "nerviacion": "Paralela, típica de monocotiledónea; en las de hoja moteada el teselado forma un dibujo reticulado de verde claro y oscuro sobre la lámina (AOS; RHS 'Femma'). [Detalle de nerviación orientativo, sin fuente prioritaria específica.]",
+    "variegacion": "No variegada en sentido estricto: el dibujo moteado o teselado es propio de muchas especies e híbridos cálidos (AOS; NC State) y no debe confundirse con variegación ni interpretarse como enfermedad. Puede haber también manchas o punteado púrpura en el envés [orientativo, sin fuente prioritaria]. Un moteado irregular en mosaico amarillento, con rayas cloróticas o necrosis, no es el patrón natural: puede indicar virus, a los que el género es sensible (CSU).",
+    "tallo": "Sin tallo visible ni pseudobulbos (NC State; Missouri BG). Crece en mata de varios abanicos de hojas unidos por la base; los brotes viejos mueren y quedan 'tocones' sin hojas (AOS, Nash). Raíces relativamente escasas, gruesas y pilosas, de color pardo, que viven en el sustrato; tiene menos raíces que otras orquídeas (CSU; Missouri BG: raíces 'pilosas' sensibles a las sales). Sin raíces aéreas plateadas tipo Phalaenopsis. La vara floral sale del centro del abanico, de una vaina (AOS, Batchelor; RHS 'Femma').",
+    "habito": "Perenne siempreverde, en mata, semiterrestre (RHS 'Femma'), de porte erguido a arqueado (NC State). Florece por lo general una vez al año (CSU); la floración típica va de otoño a primavera (Missouri BG; RHS: noviembre a marzo, aunque puede salir en otras épocas). Los híbridos complejos de hoja verde florecen sobre todo en invierno; P. Maudiae florece en los meses cálidos (AOS, Batchelor). La flor dura de 6-8 semanas (Missouri BG) a más de 3 meses (RHS; AOS), más con ambiente fresco y poca luz (AOS).",
+    "tamano_adulto_interior": "Altura y anchura 10-50 cm (RHS 'Femma'; NC State: menos de 30 cm a 90 cm de espacio). Varas de 8-60 cm (NC State); pétalos de 2,5 a 30 cm de largo según el tipo (NC State, 1-12 in), unos 10-13 cm en los híbridos complejos y en Maudiae (AOS; RHS). Los multiflorales de hoja en cinta pueden llevar hasta media docena de flores en varas de 60 cm o más (AOS, Batchelor).",
+    "confusiones": [
+      {
+        "especie": "Phalaenopsis (orquídea mariposa)",
+        "rasgo_diferenciador": "Phalaenopsis tiene hojas anchas, gruesas y carnosas, raíces aéreas plateadas o verdes fuera de la maceta y varas con varias flores planas en forma de mariposa. Paphiopedilum tiene hojas más finas y coriáceas (CSU), raíces dentro del sustrato y casi siempre una sola flor por vara con labelo en bolsa (NC State; Missouri BG). El cuidado difiere: Paphiopedilum no debe secarse del todo."
+      },
+      {
+        "especie": "Cypripedium (zapatito de dama de clima templado, incluido el autóctono C. calceolus)",
+        "rasgo_diferenciador": "NC State los describe como los 'primos' templados de Paphiopedilum. Cypripedium es de jardín, pierde la parte aérea en invierno y tiene hojas plisadas a lo largo del tallo; Paphiopedilum es siempreverde, de interior, con hojas lisas en roseta. [Rasgos de Cypripedium orientativos, sin fuente prioritaria abierta.] No aplicar a Paphiopedilum los consejos de 'lady slipper' que hablan de frío invernal o de plantarla en el jardín."
+      },
+      {
+        "especie": "Phragmipedium (zapatito americano)",
+        "rasgo_diferenciador": "También tiene labelo en bolsa, pero procede de Centro y Sudamérica, tiene hojas largas en cinta y pide mucha más agua (a menudo con el plato con agua). [Orientativo, sin fuente prioritaria abierta.] Si la etiqueta dice 'Phrag.' no es Paphiopedilum."
+      },
+      {
+        "especie": "Impatiens spp. ('Lady Slipper' en la base de la ASPCA)",
+        "rasgo_diferenciador": "No es una orquídea: la ASPCA usa 'Lady Slipper' como nombre común de Impatiens (Balsaminaceae), no tóxica (ASPCA). La app no debe trasladar ese dato de toxicidad a Paphiopedilum por coincidencia de nombre."
+      },
+      {
+        "especie": "Orquídeas joya (Ludisia y afines) y otras de hoja moteada",
+        "rasgo_diferenciador": "Las hojas moteadas de Paphiopedilum pueden recordar a otras orquídeas de follaje, pero la flor en bolsa y la roseta en abanico sin tallo rastrero la identifican (NC State). [La comparación con Ludisia es orientativa, sin fuente prioritaria.]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "La ASPCA no tiene ficha de Paphiopedilum en sus listas de plantas tóxicas y no tóxicas para gatos y perros (comprobado en las listas completas). Atención: su entrada 'Lady Slipper' es Impatiens spp. (no tóxica), no esta orquídea, y no sirve para Paphiopedilum. NC State Plant Toolbox no incluye aviso de toxicidad en su ficha del género, y la ficha RHS consultada ('Femma') no da datos de toxicidad. Sin fuente prioritaria sobre ingestión en mascotas ni en niños, se deja 'desconocida'. No se conocen casos documentados de intoxicación, pero la falta de datos no equivale a seguridad. Recomendación prudente: mantenerla fuera del alcance de animales que muerden plantas y de niños pequeños; ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F11",
+      "F8",
+      "F4"
+    ],
+    "notas": "Media: se confirma la ausencia de datos en ASPCA y NC State (fuentes prioritarias), pero no hay ninguna fuente que afirme toxicidad o inocuidad. No se marca 'no_toxica' por analogía con Phalaenopsis (que sí es no tóxica para la ASPCA): son géneros distintos."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 26900,
+      "orientacion_hn": "Ventana este o norte (CSU), o ventana sur u oeste con sombra, por ejemplo tras una cortina fina (Smithsonian Gardens; Missouri BG). Debe estar luminosa pero filtrada: no es planta de sombra profunda; con demasiada sombra las hojas y las varas se ablandan y la planta no florece (AOS, Nash; Missouri BG). En invierno, toda la luz posible sin sombreo (RHS). También crece bien bajo luz artificial de espectro completo (CSU; AOS, Batchelor).",
+      "tolera_sol_directo": "Solo sol suave de invierno o de primera hora. En verano hay que dar sombra al sol directo (RHS) y protegerla del sol de mediodía incluso en una ventana (AOS, Batchelor). Exceso de luz: tinte rojizo en los bordes, hojas amarillentas o demasiado erguidas y varas cortas (Missouri BG; Smithsonian Gardens; AOS, Nash).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F8",
+        "F5",
+        "F6",
+        "F7",
+        "F3",
+        "F1",
+        "F2"
+      ],
+      "notas": "Es de las orquídeas que menos luz piden: las fuentes la llaman 'orquídea de luz baja' (Missouri BG; Smithsonian Gardens), pero lo dicen en comparación con otras orquídeas. La única cifra de una fuente prioritaria es de NC State: 500-2500 fc (con la escala del proyecto, 5380-26.900 lux), es decir, luz brillante indirecta en la escala de plantas de interior, en el límite con la luz media. Por eso tipo = brillante_indirecta y no 'baja': con menos de unas 500 fc vive, pero no florece y se ablanda. Las de hoja verde lisa piden más o menos la misma luz que las moteadas (AOS, Nash). Señales: hoja verde medio y firme formando un abanico ancho = bien; hojas grandes y blandas o verde oscuro = falta luz; hojas más erguidas que horizontales, amarillentas o con bordes rojizos = exceso (AOS, Nash; Missouri BG; Smithsonian Gardens)."
+    },
+    "riego": {
+      "criterio": "No tiene pseudobulbos que almacenen agua: el sustrato debe estar húmedo pero no encharcado y no debe secarse del todo (Missouri BG; CSU; NC State; Smithsonian Gardens; AOS, Nash). Regla de la app: comprobar con el dedo a 2-3 cm y por el peso de la maceta; regar cuando la superficie empieza a secarse y la maceta pesa menos, antes de que se seque por completo. Regar a fondo dejando correr el agua templada por la maceta y que escurra del todo; no dejar el plato con agua (Missouri BG; Smithsonian Gardens). Regar al sustrato, sin mojar las hojas ni dejar agua en el centro de la roseta (RHS: evitar el riego por encima y mojar las hojas; AOS, Nash: el agua retenida en los brotes nuevos lleva a pudrición). Si cae agua en el cogollo, secarlo con papel absorbente [orientativo, sin fuente prioritaria].",
+      "primavera_verano": "Riego regular: el sustrato se mantiene húmedo y se deja secar solo un poco por arriba entre riegos (RHS). Como orientación, una planta adulta suele pedir agua cada 5-7 días (Missouri BG; Smithsonian Gardens: unos 5 días), pero la decisión es siempre por humedad y peso. Con calor y aire seco (verano de Madrid) comprobar cada 2-3 días.",
+      "otono_invierno": "Reducir el riego, pero sin dejar que el sustrato se seque por completo (RHS). Con calefacción el sustrato puede secarse casi tan rápido como en verano: comprobar igual por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua templada, nunca fría ni descalcificada con sal (agua de descalcificador doméstico) (Missouri BG; Smithsonian Gardens: agua sin suavizantes). No usar cubitos de hielo (Smithsonian Gardens). El agua del grifo de Madrid es blanda y válida; la cloramina no la elimina el reposo, pero no hay fuente que la relacione con daños en esta planta. Lavar el sustrato con agua sola una vez al mes para arrastrar sales de abono, que queman las raíces pilosas (Missouri BG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F8",
+        "F6",
+        "F3",
+        "F1"
+      ],
+      "notas": "Sensible a los dos extremos: tiene pocas raíces y es muy propensa a la pudrición radicular, por lo que el sustrato tiene que drenar muy bien (CSU), pero sin pseudobulbos tampoco aguanta la sequía (Missouri BG; RHS 'Femma': no dejarla seca mucho tiempo). Con mucho abono es aún más importante que no se seque, porque las sales queman las raíces (AOS, Nash). Matiz entre fuentes: RHS deja secar 'un poco' en verano; CSU, NC State y AOS piden humedad constante. Opción conservadora adoptada: regar en cuanto la superficie empiece a secarse, nunca con el sustrato encharcado."
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 65,
+      "notas": "Rangos de las fuentes: 40-50 % (Missouri BG), 50-70 % (Smithsonian Gardens), 50-80 % (CSU), no menos de 60 % (NC State). Se adopta 50 % como mínimo (coinciden Smithsonian y CSU; es el techo de Missouri BG) y 60 % como ideal (mínimo de NC State). Las moteadas piden humedad alta (RHS). Cómo subirla: humidificador o bandeja con guijarros y agua con el fondo de la maceta por encima del agua, porque si la maceta toca el agua, el agua sube al sustrato y pudre las raíces (CSU; Missouri BG; Smithsonian Gardens). No pulverizar: la RHS lo desaconseja expresamente ('Do not mist this orchid') y además no sube la humedad de forma útil (convención del proyecto). Revisión del orquestador: min_pct 60 % (NC State ≥60 %, el valor más conservador; Missouri BG da 40-50 %).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 18,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Hay dos grupos y la app debe preguntar o detectar el tipo de hoja. HOJA MOTEADA (cálidas, p. ej. Maudiae): mínimo nocturno 18 °C, día 20-30 °C (RHS); invierno 18-22 °C y verano 20-25 °C (RHS 'Femma', rusticidad H1A >15 °C); CSU da 18-21 °C de día y 14-16 °C de noche. HOJA VERDE LISA (frescas, híbridos complejos): 10-25 °C con mínimo invernal de 10-13 °C (RHS); unos 3-5 °C más frescas que las moteadas, ~13 °C de noche y menos de 27 °C de día (AOS, Nash); noches de 10-16 °C (Missouri BG). En general, 24-29 °C de día y 16-18 °C de noche (Missouri BG); 15-29 °C (Smithsonian Gardens); 16-27 °C (NC State). Valores adoptados: min_c = 18 °C, el mínimo más alto de las fuentes (RHS para las moteadas), por ser el más conservador cuando no se sabe el tipo; una planta de hoja verde identificada con seguridad tolera noches de 10-13 °C (RHS) y florece mejor con ellas. Floración: muchas, sobre todo los híbridos complejos de hoja verde, necesitan en otoño noches de 13-16 °C durante 2-8 semanas para sacar vara; para crecer, noches de 18-20 °C; días de más de 27 °C la frenan (AOS, Batchelor, citando a Bertsch). P. Maudiae florece sin noches frescas (AOS, Batchelor). Las que tienen sangre de híbridos rojos y blancos tampoco aguantan inviernos fríos: con frío se pudren (AOS, Nash). Necesitan diferencia entre el día y la noche (AOS, Nash). Máximo: Missouri BG dice que toleran extremos de 35 °C a unos 7 °C, pero de forma puntual; se adopta max_c = 30 °C (techo diurno de la RHS para las moteadas) e ideal_max_c = 27 °C (AOS: más de 27 °C de día frena el crecimiento; hoja verde <27 °C).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para orquídeas terrestres: retiene humedad y drena muy bien (CSU; Missouri BG; AOS, Nash). Ejemplos de fuentes: 50 % corteza fina de abeto, 40 % carbón vegetal hortícola y 10 % arena gruesa o perlita fina (AOS, Nash); 2 partes de corteza fina, 1 de corteza pequeña, 1 de perlita y 1 de carbón fino (Smithsonian Gardens); corteza fina o media, carbón granulado, turba gruesa y perlita (CSU); mezcla comercial de corteza para el género, con perlita y carbón (Missouri BG); mezcla de corteza para orquídea terrestre con musgo esfagno y grava hortícola o gravilla caliza (RHS 'Femma'). No usar tierra universal.",
+      "ph": "Neutro (RHS 'Femma'). [Sin cifra de pH en ninguna fuente; dato de una sola fuente prioritaria.]",
+      "drenaje": "Muy alto: tiene pocas raíces y es muy propensa a la pudrición radicular (CSU). Maceta con agujeros de drenaje (Missouri BG), de plástico o barro, justa para las raíces, sin sobredimensionar ('zapatos apretados') (Missouri BG; RHS; AOS, Nash). La corteza se descompone rápido con el sustrato siempre húmedo; el carbón mantiene la mezcla aireada hasta unos 18 meses (AOS, Nash).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F7",
+        "F5",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para orquídeas, soluble en agua, equilibrado (Missouri BG; CSU; RHS). Es planta de poco abono (CSU).",
+      "npk": "20-20-20 (CSU; Missouri BG; Smithsonian Gardens)",
+      "primavera_verano": "Regla de la app (convención del proyecto): ¼-½ de la dosis de etiqueta, una vez al mes, cuando haya brote nuevo en crecimiento. Coincide con CSU (una vez al mes a ¼ de dosis mientras se forma brote nuevo). Otras fuentes dan pautas más frecuentes y diluidas (¼ de dosis cada semana: Missouri BG; Smithsonian Gardens; ½ dosis semanal: AOS, Nash; dosis de etiqueta cada 2-3 semanas: RHS); la app no las adopta. Una vez al mes, lavar el sustrato con agua sola (Missouri BG).",
+      "otono_invierno": "Reducir: como mucho una vez al mes a ¼ de dosis, solo si la planta sigue sacando brote con calor y luz (Missouri BG; Smithsonian Gardens; AOS, Nash; RHS: menos a menudo y/o más diluido). Sin brote nuevo, no abonar.",
+      "notas": "Las sales de abono queman las raíces pilosas y sensibles (Missouri BG); con más abono, más importante que no se seque el sustrato (AOS, Nash). Discrepancia de frecuencia entre fuentes (mensual en CSU frente a semanal en Missouri BG y Smithsonian); se elige la pauta más prudente, que es además la del proyecto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F5",
+        "F6",
+        "F1",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años, por la descomposición del sustrato fino (AOS, Nash: cada 12-24 meses, al menos cada dos años; las jóvenes cada 12-15 meses; Missouri BG y NC State: idealmente cada año; Smithsonian Gardens: cada dos años; CSU: cada 2-3 años). Se adopta la frecuencia más prudente para la planta: no pasar de 2 años.",
+      "epoca": "Tras la floración, de febrero a junio en el hemisferio norte (RHS), o cuando empiece el brote nuevo (CSU); AOS (Nash) añade final de verano y señala que, a diferencia de otras orquídeas, se puede trasplantar en cualquier momento, incluso con capullo o flor, si hace falta. Mejor momento: cuando se ven puntas de raíz nuevas (AOS, Nash).",
+      "senales": "Sustrato oscuro, descompuesto, que se desmorona y cae de las raíces; hojas que mueren y 'calva' en el centro de la mata; planta que se sale de la maceta (AOS, Nash; Smithsonian Gardens). Al trasplantar: quitar raíces muertas con herramienta desinfectada entre plantas (Missouri BG), maceta justa, y enterrar la base solo hasta cubrir el arranque de los brotes (unos 1,3 cm, Missouri BG): ni tan hondo que el agua se quede en los brotes nuevos (pudrición), ni tan alto que se tambalee (AOS, Nash).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F8",
+        "F6",
+        "F7",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza: varas florales pasadas, hojas secas y tocones de brotes viejos muertos.",
+      "epoca": "Al terminar la floración; los tocones, al trasplantar o dividir.",
+      "como": "Cortar la vara por la base con tijeras limpias cuando la flor se marchite (Smithsonian Gardens); en las que pueden sacar varias flores seguidas en la misma vara, esperar a que la vara se ponga marrón antes de cortarla (Missouri BG). Retirar los tocones sin hojas al dividir (AOS, Nash). Desinfectar las herramientas entre plantas (Missouri BG): el género es sensible a los virus (CSU).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F1",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo marcado: es siempreverde y no debe secarse. En invierno se reduce el riego sin dejar secar del todo y se abona menos o nada (RHS; Missouri BG). Lo que sí necesitan muchas de hoja verde es un periodo fresco en otoño (noches de 13-16 °C durante 2-8 semanas) para sacar vara (AOS, Batchelor); no es un reposo y no se deja de regar.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata"
+      ],
+      "epoca": "Después de la floración, al trasplantar (RHS).",
+      "pasos": "1) Esperar a que la mata llene la maceta (RHS 'Femma'). 2) Sacarla y separar con cuidado un grupo de abanicos del borde de la mata con buen sistema radicular (RHS). 3) Cada división debe tener al menos 3 rosetas sanas con raíces (RHS 'Femma'); las divisiones grandes florecen antes y mejor que las pequeñas (AOS, Nash). 4) Quitar tocones sin hojas y raíces muertas con herramienta desinfectada (AOS, Nash; Missouri BG). 5) Plantar cada división en maceta justa con sustrato nuevo, a la profundidad correcta, siguiendo los pasos del trasplante (RHS). La semilla solo es viable en laboratorio (RHS 'Femma'). No se propaga por esquejes ni por keikis.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del cogollo o del cuello por agua retenida en el centro de la roseta o en los brotes nuevos, o por plantarla demasiado honda (AOS, Nash; RHS: evitar mojar las hojas). Los híbridos de sangre roja o blanca se pudren con frío (AOS, Nash)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato encharcado, descompuesto o poco drenante, o por maceta tocando el agua de la bandeja de humedad (CSU; Missouri BG). Tiene pocas raíces y es muy propensa (CSU)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, plaga ocasional (CSU)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo, plaga ocasional (CSU)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sustrato demasiado seco: sin pseudobulbos no aguanta la sequía (Missouri BG; RHS 'Femma'). También raíces podridas que ya no absorben agua: revisar raíces antes de regar más."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Falta de luz: hojas grandes, blandas y poco firmes, con varas débiles que no sostienen la flor (AOS, Nash). Si además hay olor o base oscura, pensar en pudrición (S15)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz o sol directo: tinte rojizo en los bordes, hojas amarillentas o descoloridas (Missouri BG; Smithsonian Gardens)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "No florece: poca luz (Missouri BG) o, en las de hoja verde, falta de noches frescas en otoño (13-16 °C) (AOS, Batchelor; AOS, Nash)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Las hojas de los brotes viejos mueren de forma natural tras florecer; si mueren muchas y queda una calva en el centro, el sustrato está descompuesto y toca trasplantar (AOS, Nash)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Sales de abono acumuladas (lavar el sustrato una vez al mes, Missouri BG), riego irregular o aire muy seco [orientativo para esta especie, sin fuente prioritaria específica de puntas marrones]. No atribuir al cloro ni al flúor del agua de Madrid."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte en ventanas sur y oeste: nunca sol directo de mediodía o tarde; ponerla en ventana este o norte, o retirada 1-2 m de una ventana sur u oeste tras cortina (RHS; Smithsonian Gardens; CSU). Vigilar que dentro no pase de unos 30 °C (max_c); por encima de 27 °C la planta se frena (AOS). Las de hoja verde lisa son las que peor llevan el calor: NC State desaconseja sacar al exterior en verano las de clima fresco salvo que las temperaturas sean siempre frescas, y AOS (Nash) solo lo admite en sombra 'salvo en las zonas más calurosas': en Madrid, mejor dentro, en la habitación más fresca y luminosa. Las moteadas podrían pasar el verano fuera a la sombra (NC State), pero con el aire exterior de Madrid (HR ≈38 % en julio) no se recomienda [orientativo]. Comprobar el sustrato cada 2-3 días por dedo y peso: con calor seco se seca rápido y no debe secarse del todo. Humedad con humidificador o bandeja con guijarros (sin que la maceta toque el agua); no pulverizar.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %: usar humidificador o agruparla con otras plantas sobre bandeja con guijarros (CSU; Missouri BG). Lejos de radiadores y salidas de aire caliente. Darle toda la luz posible sin sombreo (RHS), pero sin que las hojas toquen el cristal frío. Moteadas: no dejar que la noche baje de 18 °C (RHS); en Madrid, cuidado con ventanas que se enfrían de noche. Hoja verde lisa: toleran noches de 10-13 °C (RHS) y en otoño agradecen 2-8 semanas de noches de 13-16 °C para sacar vara (AOS); una habitación fresca sin calefacción alta, junto a una ventana luminosa, puede servir. Riego reducido pero sin dejar secar: con calefacción, comprobar igual por dedo y peso.",
+    "ubicacion_recomendada": "Alféizar o mesa junto a una ventana este o norte luminosa; o a 1-2 m de una ventana sur u oeste con cortina fina. Sobre bandeja con guijarros o cerca de un humidificador, lejos de radiadores, aire acondicionado y corrientes. Las de hoja verde, en la habitación más fresca de la casa; las moteadas, en la más templada y estable."
+  },
+  "lagunas": [
+    "Nomenclatura: 'Paphiopedilum hybridum' no es un nombre botánico válido. IPNI no devuelve ningún registro para 'Paphiopedilum hybridum' (búsqueda directa, 0 resultados). POWO acepta el género Paphiopedilum Pfitzer, Morph. Stud. Orchideenbl.: 11 (1886), nom. cons., nativo del sur de China a Asia tropical. La ficha trata los híbridos comerciales del género (grex registrados), sobre todo los complejos de hoja verde y los moteados tipo Maudiae. Recomendación para la app: mostrar 'Paphiopedilum (híbridos)' y preguntar si la hoja es verde lisa o moteada. Se mantiene nombre_cientifico 'Paphiopedilum hybridum' por indicación del proyecto. No se ha revisado en POWO la lista de especies ni los sinónimos del género (la página solo carga parcialmente).",
+    "Número de especies del género: NC State da 109 especies reconocidas; el artículo de AOS (Batchelor), antiguo, 'más de cincuenta'. No se ha contado en POWO.",
+    "Toxicidad para perros, gatos y niños: sin fuente prioritaria. ASPCA no tiene ficha de Paphiopedilum (su 'Lady Slipper' es Impatiens spp.), NC State no da aviso y la ficha RHS consultada no indica toxicidad. Se deja 'desconocida' en los tres. principio_activo = null.",
+    "Luz: solo NC State da cifra (500-2500 fc); las demás fuentes prioritarias la describen de forma cualitativa ('luz baja' para una orquídea, luz filtrada). No hay mediciones de lux en interior ni cifras separadas para hoja verde y hoja moteada en fuentes prioritarias.",
+    "pH del sustrato: solo la RHS ('Femma') indica 'neutro'; sin cifra. La RHS menciona gravilla caliza en la mezcla, lo que apunta a tolerancia de pH neutro a algo alcalino en algunas, pero no hay más datos.",
+    "Virus: CSU indica que el género es sensible a infecciones víricas, pero no hay un id de síntoma específico de virus en la lista; no se ha incluido en problemas_frecuentes. Tampoco se han documentado con fuente prioritaria podredumbres bacterianas concretas (Erwinia/Pectobacterium) en esta ficha.",
+    "Toxicidad por contacto (dermatitis) y alergias: sin datos en fuentes prioritarias.",
+    "Fitosanitarios: CSU remite a jabones y aceites hortícolas para cochinillas; no se dan tratamientos en esta ficha (solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA, convención del proyecto).",
+    "Comportamiento en verano de Madrid (exterior con HR ≈38 % y 35-40 °C): ninguna fuente lo trata; las recomendaciones de no sacarla al exterior son prudencia orientativa."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://secure.aos.org/media/Content-Images/PDFs/Paph_culture_Nash_2.pdf",
+      "institucion": "American Orchid Society (AOS) — Ned Nash, 'Paphiopedilum Culture for Beginners — 2' (híbridos complejos de hoja verde), AOS Bulletin 54(5), mayo 1985",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://secure.aos.org/media/Content-Images/PDFs/Paph_beginner_1.pdf",
+      "institucion": "American Orchid Society (AOS) — Stephen R. Batchelor, 'Beginner's Series: Paphiopedilums — Part 1', AOS Bulletin",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/paphiopedilum/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — Paphiopedilum (slipper orchid), Growing Guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/320206/paphiopedilum-maudiae-femmapbr/details",
+      "institucion": "Royal Horticultural Society (RHS) — Plant details: Paphiopedilum Maudiae 'Femma' (descripción, rusticidad H1A, pH, cultivo, división)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.missouribotanicalgarden.org/Portals/0/Kemper%20Gardens/Fact%20Sheets/Orchids%20-%20Paphiopedilum%20%282020%29.pdf",
+      "institucion": "Missouri Botanical Garden — William T. Kemper Center for Home Gardening: Paphiopedilum, Lady's Slipper Orchid (2020)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://gardens.si.edu/wp-content/uploads/2025/05/Paphiopedilum.pdf",
+      "institucion": "Smithsonian Gardens (Smithsonian Institution) — How to care for Paphiopedilum / Cómo cuidar Paphiopedilum (ficha bilingüe)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1349-orchid-paphiopedilum/",
+      "institucion": "Colorado State University Extension — PlantTalk Colorado 1349: Orchid: Paphiopedilum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/paphiopedilum/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Paphiopedilum (Lady Slipper Orchid)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:327473-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Paphiopedilum Pfitzer",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.ipni.org/api/1/search?q=Paphiopedilum%20hybridum",
+      "institucion": "International Plant Names Index (IPNI, Kew/Harvard/ANBG) — búsqueda 'Paphiopedilum hybridum' (0 resultados)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — listas de plantas tóxicas y no tóxicas para gatos y perros (sin entrada de Paphiopedilum; 'Lady Slipper' corresponde a Impatiens spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

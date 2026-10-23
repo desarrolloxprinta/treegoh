@@ -1,0 +1,289 @@
+{
+  "nombre_cientifico": "Portulacaria afra",
+  "nombres_comunes": [
+    "arbusto elefante",
+    "jade enano",
+    "portulacaria",
+    "spekboom",
+    "comida de elefante"
+  ],
+  "familia": "Didiereaceae",
+  "origen": "Sur y este de África: Sudáfrica (desde el Pequeño Karoo, en el Cabo Occidental, y el Cabo Oriental hacia el norte por KwaZulu-Natal, Mpumalanga y Limpopo), Esuatini y Mozambique (Wisconsin, SANBI).",
+  "clima_nativo": "Subtropical semiárido y cálido. Crece en laderas rocosas y afloramientos, en matorral suculento del Karoo, matorral denso (thicket), sabana arbustiva y valles fluviales secos (SANBI, Wisconsin). Inviernos secos; aguanta calor fuerte y sequía largas gracias a sus hojas y tallos suculentos y a que puede alternar la fotosíntesis normal y la CAM (Wisconsin, SANBI).",
+  "categoria": "bonsai",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas opuestas, carnosas, aplanadas, redondas u ovaladas, de 1,3-1,9 cm de largo (½-¾ de pulgada), casi sin pecíolo (sésiles), verde esmeralda brillante (Wisconsin, RHS). Muy juntas a lo largo de ramas finas. Con mucho sol directo las puntas pueden ponerse amarillas o rojas (Wisconsin). La forma silvestre del norte ('Limpopo', P. afra f. macrophylla) tiene hojas más grandes y ovadas, de 2-3 cm de largo y 1,5-2 cm de ancho (SANBI, Wisconsin).",
+    "nerviacion": "No visible: hoja suculenta gruesa y lisa, sin nervios marcados a simple vista.",
+    "variegacion": "La especie es verde. Hay formas variegadas: 'Variegata' (hojas verde claro con borde blanco o crema y toques rosados, porte más compacto; tolera peor el sol fuerte), 'Foliis Variegatus' (variegada, lenta, buena para maceta) y 'Medio-picta' (manchas blanquecinas desde el centro de la hoja y tallos rojo vivo). 'Aurea' saca las hojas nuevas amarillo intenso a pleno sol (Wisconsin, SANBI). Las variegadas son más pequeñas y menos vigorosas que la verde (Wisconsin).",
+    "tallo": "Tallos carnosos y quebradizos, de color pardo rojizo en los brotes jóvenes (a menudo con tinte rojo) que con la edad se vuelven grises; por dentro tienen tejido leñoso (Wisconsin, RHS). Ramificación densa, rígida e irregular. El cultivar 'Cork Bark' tiene corteza corchosa y agrietada, apreciada en bonsái (Wisconsin).",
+    "habito": "Arbusto o arbolito suculento perenne (semiperenne), erguido y con muchos tallos; sin poda forma una maraña densa (Wisconsin, RHS). Las ramas pesadas se rompen y enraízan donde caen (Wisconsin). Hay formas rastreras ('Prostrata', 'Low Form') usadas en cestas colgantes y como tapizante (Wisconsin, SANBI). Flores diminutas estrelladas rosa pálido en racimos en las puntas de las ramas; en cultivo, y sobre todo en interior, rara vez florece (Wisconsin, RHS, SANBI).",
+    "tamano_adulto_interior": "En maceta se mantiene del tamaño que se quiera con la poda; en bonsái, muy pequeño. Al aire libre en clima suave llega a 1,5-2,5 m (RHS, en 10-20 años) y en el hábitat a 2-5 m (SANBI); Wisconsin da 2,4-4,5 m plantado en el suelo. Crece despacio (RHS).",
+    "confusiones": [
+      {
+        "especie": "Crassula ovata (árbol de jade)",
+        "rasgo_diferenciador": "Se parecen a primera vista, pero P. afra tiene hojas mucho más pequeñas (1,3-1,9 cm), más juntas y sobre tallos más finos de color pardo rojizo (Wisconsin). No están emparentadas: son de familias distintas (Wisconsin). Importa para mascotas: C. ovata figura como tóxica en ASPCA; para P. afra no hay dato veterinario verificado."
+      },
+      {
+        "especie": "Portulacaria pygmaea y Portulacaria armiana",
+        "rasgo_diferenciador": "Mismo género, raras en cultivo. P. pygmaea es una matita enana de hojas pequeñas muy gruesas y gris verdosas; P. armiana tiene hojas más grandes gris verdosas (SANBI). P. afra tiene hojas verde brillante, planas y tallos rojizos."
+      },
+      {
+        "especie": "Portulacaria afra 'Variegata' y otros cultivares",
+        "rasgo_diferenciador": "Son la misma especie. Se distinguen por el color de la hoja (borde crema, centro blanquecino o amarillo) y por el porte más compacto. Se cuidan igual, pero las variegadas quieren menos sol fuerte (Wisconsin). Puede haber errores de etiqueta entre cultivares (Wisconsin)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: sin dato verificado. ASPCA no tiene ficha de Portulacaria afra (no aparece ni en su lista de plantas para gatos ni en la de perros); ninguna fuente prioritaria veterinaria la evalúa. Un vivero (Mountain Crest Gardens) la pone en su lista de suculentas aptas para mascotas, pero esa misma lista incluye Portulaca, que ASPCA da como tóxica, así que no es fiable. La app no debe decir que es segura para mascotas. Personas: sus hojas son comestibles, de sabor ácido, y en el sur de África se comen en ensaladas, sopas y guisos; el ganado, la fauna y las tortugas la comen mucho (Wisconsin, SANBI). Que sea comestible no quita que un niño o una mascota pueda tener molestias si come mucha: ante ingestión con síntomas, consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F6",
+      "F9",
+      "F8"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Sur como ubicación ideal en interior; este u oeste también valen (Wisconsin). RHS indica orientación sur u oeste.",
+      "tolera_sol_directo": "Sí, con aclimatación. Wisconsin pone como ideal la ventana sur y RHS la admite a pleno sol o media sombra en exterior. Al pasarla de golpe del interior a pleno sol se quema; aclimatarla poco a poco (Wisconsin). Demasiado sol directo amarillea o enrojece las puntas e incluso quema las hojas (Wisconsin). Las variegadas toleran peor el sol fuerte (Wisconsin).",
+      "notas": "Necesita mucha luz (Wisconsin). RHS pide para interior 'luz brillante pero indirecta'; Wisconsin, ventana sur. Se toma como mínimo la luz brillante indirecta (≥500 fc ≈ 5.380 lux, escala del proyecto) y se admite el sol directo con aclimatación. No hay techo de lux verificado. Si recibe menos luz que antes (al entrarla en otoño) puede soltar algunas hojas (Wisconsin). Con luz escasa es de esperar que se alargue y crezca peor [orientativo, sin fuente prioritaria específica para esta especie].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco: Wisconsin pide dejar secar al menos 2,5 cm entre riegos; el criterio del proyecto para suculentas es comprobar a 5 cm con el dedo y que la maceta pese poco. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato. Nunca por calendario: el sustrato húmedo de forma continua pudre las raíces (Wisconsin).",
+      "primavera_verano": "De mediados de primavera a mediados de otoño, regar bien cuando el sustrato se haya secado (RHS, Wisconsin). Con agua suficiente crece más rápido y con hoja más lustrosa, aunque resiste mucho la sequía (Wisconsin). En bonsái la maceta es poco profunda y se seca antes: vigilar el peso a menudo en verano.",
+      "otono_invierno": "Mantenerla casi seca (RHS). Wisconsin: salvo que el interior sea muy luminoso y cálido, no regar hasta que las hojas de abajo empiecen a arrugarse, lo que puede tardar varios meses; retomar el riego con moderación cuando los días se alargan en primavera. Con calefacción y mucha luz, el sustrato se seca antes: regar poco cuando esté seco del todo y la planta lo pida.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "No necesita agua especial. El agua del grifo de Madrid (blanda, con cloramina y flúor <0,1 mg/L) sirve tal cual. Dejarla reposar no quita la cloramina, pero tampoco hace falta.",
+      "notas": "Las hojas inferiores arrugadas indican sed (Wisconsin). Las macetas de barro sin esmaltar y con agujeros grandes ayudan a que el agua sobrante se evapore (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes de humedad. Procede de zonas secas y semiáridas (SANBI) y resiste calor y sequía extremos (Wisconsin), así que es de esperar que tolere bien el aire seco de la calefacción [orientativo, deducido del hábitat]. No necesita humidificador. No pulverizar: no sube la humedad de forma útil y en una suculenta el agua en hojas y tallo no ayuda.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Contradicción: RHS la clasifica H1B (en invierno necesita 10-15 °C como mínimo; solo puede salir al exterior en verano). Wisconsin dice meterla en casa cuando las noches bajen de 4,4 °C (40 °F) y que puede salir al exterior cuando pasen las heladas. SANBI dice que, sobre todo si es adulta, aguanta heladas moderadas, y UNF recoge un informe de -4 °C; ambas se refieren a plantas en el suelo, en jardín o en su hábitat, no en maceta. Se adopta el valor más conservador: 10 °C de mínima (RHS). Por debajo, el riesgo aumenta si el sustrato está húmedo. Ninguna fuente da máximo ni rango ideal (ver lagunas). Soporta el 'calor abrasador' de su hábitat (Wisconsin). Revisión del orquestador: min_c fijado en 15 °C, el extremo alto de RHS H1B (única cifra de interior; los 4,4 °C de Wisconsin y la tolerancia a heladas de SANBI/UNF se refieren a exterior o a plantas en suelo), mismo criterio que Kalanchoe tomentosa. La planta tolera puntualmente menos si está seca.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de cactus o mezcla propia con mucho material grueso no poroso: gravilla fina, grit, piedra pómez o similar (Wisconsin). Evitar mucha arena, porque sus partículas finas llenan los poros (Wisconsin). RHS: compost muy drenante, como el de cactus. Para bonsái vale una mezcla drenante de bonsái del mismo tipo.",
+      "ph": null,
+      "drenaje": "Muy alto. Maceta con agujeros grandes; mejor de barro sin esmaltar para que se evapore el agua sobrante (Wisconsin). La planta pesa arriba: hasta que enraíce bien puede hacer falta sujetarla con una piedra o tutor, sobre todo en las macetas planas de bonsái (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas en maceta (para cactus y suculentas, o equilibrado), diluido.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes en temporada de crecimiento (Wisconsin), a ¼-½ de la dosis de etiqueta (criterio del proyecto). Wisconsin admite abonar más a menudo si se poda mucho para formar una planta densa en maceta pequeña, como en bonsái; aun así, mantener la dosis reducida.",
+      "otono_invierno": "Nada en reposo.",
+      "notas": "Solo una fuente prioritaria trata el abonado; ninguna da NPK.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando la planta haya llenado la maceta o salgan raíces por los agujeros de drenaje (Wisconsin). Su cepellón es pequeño y aguanta mucho en macetas planas de bonsái (Wisconsin).",
+      "epoca": "Primavera, al empezar el crecimiento [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces saliendo por el drenaje, maceta llena de raíces, sustrato que ya no drena o que se seca en muy poco tiempo (Wisconsin para las dos primeras).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible (RHS: poda mínima, grupo 1), pero sin poda forma una maraña densa (Wisconsin). Admite muy bien la poda y se puede mantener casi de cualquier tamaño y forma; por eso se usa mucho en bonsái (Wisconsin, SANBI).",
+      "epoca": "Durante el crecimiento activo, de primavera a verano [orientativo, sin fuente prioritaria].",
+      "como": "Despuntar con los dedos o cortar justo por encima de un par de hojas: brota por donde se quitan ramas o incluso hojas (Wisconsin). Los recortes sirven como esquejes. Las ramas son quebradizas: manipular con cuidado al alambrar o mover la planta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno, desde mediados de otoño hasta mediados de primavera (RHS, Wisconsin).",
+      "cambios": "Riego casi nulo (RHS) o ninguno hasta que se arruguen las hojas de abajo si hace fresco y hay poca luz (Wisconsin). Sin abono. Darle toda la luz posible; al entrarla del exterior puede soltar algunas hojas si recibe menos luz (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo",
+        "esquejes gruesos (estacas)",
+        "hojas sueltas (ocasional)",
+        "semilla (rara vez disponible)"
+      ],
+      "epoca": "Primavera y verano (Wisconsin); RHS indica primavera con calor de fondo.",
+      "pasos": "1. Cortar un trozo de tallo en primavera o verano (Wisconsin). 2. Dejar que el corte se seque y cicatrice 1-2 días en un sitio fresco y seco (Wisconsin, SANBI). 3. Plantarlo en un sustrato ligero, por ejemplo arena lavada (SANBI) o cualquier sustrato para enraizar (Wisconsin). RHS aconseja calor de fondo. 4. Mantenerlo en un sitio cálido, con luz pero sin sol directo, hasta que enraíce (SANBI). 5. Enraíza en 4-6 semanas (Wisconsin, SANBI). También puede enraizar en agua, y las hojas que se caen al podar a veces enraízan solas (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato húmedo de forma continua (Wisconsin). Es el principal riesgo, sobre todo en invierno con frío y riego."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga más habitual, sobre todo en interior (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (RHS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura solar al sacarla de golpe del interior a pleno sol, o por exceso de sol directo; las puntas se ponen amarillas o rojas o la hoja se quema (Wisconsin). Más fácil en las variegadas."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de algunas hojas al entrarla en casa en otoño, si recibe menos luz que fuera (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas inferiores arrugadas por sed; en invierno es la señal para volver a regar (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Daño en las hojas por productos en pulverización: no tolera algunos insecticidas, sobre todo los de base petrolífera (aceites). Probar antes en unas pocas hojas (Wisconsin). Usar solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA para plantas de interior, siguiendo la etiqueta."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos alargados por falta de luz; necesita mucha luz (Wisconsin) [síntoma orientativo, sin fuente prioritaria específica]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Puede pasar el verano en terraza o balcón desde que no hay riesgo de heladas y las noches superan unos 10 °C (mayo, orientativo), aclimatándola poco a poco durante 1-2 semanas para evitar quemaduras (Wisconsin). Con 35-40 °C y sol fuerte, dar sombra en las horas centrales y de tarde, sobre todo a las variegadas y a las que acaban de salir (Wisconsin: el exceso de sol quema). Tras un cristal sur u oeste, un visillo en julio y agosto. El aire seco no le afecta. Con calor, el sustrato y las macetas planas de bonsái se secan muy rápido: comprobar a 5 cm y por el peso; no regar a diario por rutina ni dejar agua en el plato. Evitar macetas negras al sol.",
+    "invierno": "Entrarla en casa cuando las noches bajen de 10 °C (criterio conservador RHS; en Madrid suele ser en octubre, orientativo). Es su reposo: ponerla en la ventana más luminosa, mejor en una habitación fresca, lejos de radiadores, y mantenerla casi seca. La calefacción y la humedad <30 % no son un problema para ella, pero el calor con poca luz la debilita. No dejar que las hojas toquen el cristal frío. Puede soltar algunas hojas al entrar si recibe menos luz (Wisconsin).",
+    "ubicacion_recomendada": "Junto a la ventana más soleada (sur; este u oeste también valen), con visillo en las tardes de verano. De mayo a septiembre-octubre, en terraza o balcón aclimatada, con sombra de tarde. En invierno, habitación luminosa y fresca, sin calefacción directa."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Portulacaria afra Jacq. y la sitúa en la familia Didiereaceae (también RHS y GBIF). Wisconsin y SANBI la siguen citando en Portulacaceae, su familia clásica. Se usa Didiereaceae.",
+    "Toxicidad para perros y gatos: ASPCA no tiene ficha de Portulacaria afra y ninguna otra fuente prioritaria veterinaria la evalúa. Solo hay listas de viveros que la dan como apta para mascotas, poco fiables. Se deja 'desconocida'.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales.",
+    "Temperatura: no hay máximo ni rango ideal en fuentes prioritarias. El mínimo varía según la fuente (ver notas).",
+    "Abono: ninguna fuente da NPK recomendado.",
+    "pH: RHS solo indica que en jardín vale suelo ácido, neutro o alcalino; no hay pH para maceta.",
+    "Época de trasplante y de poda: ninguna fuente prioritaria la fija; se da primavera-verano como orientativo.",
+    "NC State Plant Toolbox (404) y Missouri Botanical Garden (sin resultados) no tienen ficha accesible de la especie.",
+    "Manejo específico como bonsái (alambrado, época de trasplante de raíz) sin fuente prioritaria; solo hay sociedades y viveros de bonsái."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hort.extension.wisc.edu/articles/elephant-bush-portulacaria-afra/",
+      "institucion": "University of Wisconsin–Madison Extension – Wisconsin Horticulture (Susan Mahr)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/13534/portulacaria-afra/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Portulacaria afra",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://pza.sanbi.org/portulacaria-afra",
+      "institucion": "South African National Biodiversity Institute (SANBI) – PlantZAfrica",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/api/2/search?q=Portulacaria%20afra",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.unf.edu/botanical-garden/plants/portulacaria-afra.html",
+      "institucion": "University of North Florida – UNF Botanical Garden (ficha de jardín del campus)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – lista de plantas para gatos (sin entrada de Portulacaria)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://api.gbif.org/v1/species/match?name=Portulacaria%20afra&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://answers.mountaincrestgardens.com/Article/3330986/Pets-and-Your-Succulents-What-You-Should-Know",
+      "institucion": "Mountain Crest Gardens (vivero)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – lista de plantas para perros (sin entrada de Portulacaria)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

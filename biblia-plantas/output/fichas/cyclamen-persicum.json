@@ -1,0 +1,349 @@
+{
+  "nombre_cientifico": "Cyclamen persicum",
+  "nombres_comunes": [
+    "ciclamen",
+    "violeta de Persia",
+    "ciclamen de floristería"
+  ],
+  "familia": "Primulaceae (algunas clasificaciones lo sitúan en Myrsinaceae; ASPCA y RHS usan Primulaceae)",
+  "origen": "Mediterráneo oriental y norte de África: de Argelia y Túnez a Turquía, Chipre, Grecia (islas del Egeo y Creta), Líbano, Siria, Israel, Palestina y Jordania (NC State). Pese al nombre, no es de Persia. Se introdujo en Europa occidental en el siglo XVII; el ciclamen de floristería son cultivares e híbridos seleccionados de la especie silvestre.",
+  "clima_nativo": "Mediterráneo: inviernos frescos y lluviosos, en los que crece y florece, y veranos cálidos y secos, que pasa en reposo como tubérculo. Vive en pinares, matorral de robles y laderas rocosas. Sensible a las heladas: en exterior solo en zonas USDA 9-11 (NC State).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas todas basales, que salen directamente del tubérculo sobre peciolos largos, carnosos y a menudo rojizos. Lámina acorazonada (en forma de corazón), de 2,5-14 cm, verde oscura con un jaspeado o marmoleado plateado muy característico en el haz; envés pálido o verde purpúreo. Margen finamente dentado (NC State). Sin pelos visibles.",
+    "nerviacion": "Palmeada desde la inserción del peciolo, poco marcada; el dibujo plateado sigue a menudo un patrón en anillo o en «árbol de Navidad» que resalta más que los nervios.",
+    "variegacion": "El jaspeado plateado es natural de la especie y muy variable entre cultivares: desde hojas casi verdes hasta hojas casi enteramente plateadas ('Silver Leaf'). No es una variegación por falta de clorofila.",
+    "tallo": "No tiene tallo aéreo. Órgano de reserva: tubérculo redondeado y algo aplanado, pardo oscuro, que en maceta asoma ligeramente sobre el sustrato. Hojas y flores salen del ápice del tubérculo (la corona).",
+    "habito": "Roseta en montículo, compacta. Flores solitarias, una por pedúnculo sin hojas que sale del tubérculo, colgantes, con 5 pétalos soldados en la base y vueltos hacia arriba (reflejos), a menudo con la boca más oscura (carmín). Colores blanco, rosa, rojo, magenta, lila o bicolores; formas sencillas, dobles, de borde rizado o flecado. La especie es perfumada; muchos cultivares no. Florece de otoño-invierno a primavera y en verano pierde las hojas y entra en reposo.",
+    "tamano_adulto_interior": "10-30 cm de alto según el tipo (miniatura ≤15 cm, intermedio, estándar ≈30 cm) y anchura parecida (RHS, Iowa State, NC State, Clemson).",
+    "confusiones": [
+      {
+        "especie": "Ciclámenes rústicos de jardín (Cyclamen hederifolium, Cyclamen coum)",
+        "rasgo_diferenciador": "Plantas mucho más pequeñas, de flor diminuta y para exterior; C. hederifolium tiene hojas con forma de hoja de hiedra (anguladas) y C. coum hojas redondeadas y flores de pétalos cortos y anchos. El ciclamen de floristería tiene flores grandes (≈5 cm) y se vende como planta de interior en invierno."
+      },
+      {
+        "especie": "Primula obconica (prímula de interior)",
+        "rasgo_diferenciador": "Hojas redondeadas, peludas, sin jaspeado plateado, y flores planas agrupadas en umbela sobre un tallo. En el ciclamen las flores van solas y con los pétalos vueltos hacia atrás."
+      },
+      {
+        "especie": "Saintpaulia ionantha (violeta africana)",
+        "rasgo_diferenciador": "Hojas aterciopeladas con pelos, sin dibujo plateado, y flores pequeñas abiertas hacia fuera, no reflejas. No tiene tubérculo."
+      },
+      {
+        "especie": "Begonias de hoja ornamental (Begonia rex)",
+        "rasgo_diferenciador": "Hojas asimétricas con tallo o rizoma visible y flores pequeñas en racimo; el ciclamen tiene hojas simétricas acorazonadas que salen de un tubérculo y flores solitarias reflejas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas terpenoides (triterpénicas). Se concentran sobre todo en el tubérculo (ASPCA, NC State).",
+    "sintomas": "Perros y gatos: salivación, vómitos y diarrea. Tras ingerir grandes cantidades de tubérculo pueden aparecer arritmias, convulsiones e incluso la muerte (ASPCA, NC State); las formas graves son poco frecuentes (Pet Poison Helpline). Personas y niños: la ingestión es rara por su mal sabor; puede causar vómitos y diarrea, y el tubérculo crudo puede causar diarrea grave (NC State). Su manipulación puede irritar la piel (NC State); la RHS aconseja usar guantes. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "notas": "La ASPCA la recoge a nivel de género (Cyclamen spp.), también tóxica para caballos. La RHS la clasifica como «potencialmente dañina». No hay dosis tóxica establecida para niños.",
+    "fuentes": [
+      "F10",
+      "F3",
+      "F4",
+      "F11"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este o norte muy luminosa, junto al cristal pero sin tocarlo. En sur u oeste, apartada 1-2 m o tras un visillo.",
+      "tolera_sol_directo": "Parcialmente. Tolera el sol suave de invierno y de primera hora de la mañana; la RHS admite sol pleno o semisombra y Clemson recomienda un sitio muy luminoso, incluso a pleno sol, cuando rebrota en septiembre. El sol fuerte detrás de un cristal calienta la planta por encima de 21 °C y aborta los botones, así que en interior se prefiere luz brillante filtrada (RHS, Clemson, Iowa State).",
+      "notas": "Con poca luz, que es lo habitual en las casas, da plantas débiles, con peciolos alargados (etiolación), menos flores, más pequeñas y de color más pálido (Clemson, NC State). Como referencia de vivero, en producción se sombrea para no pasar de 4000 fc (≈43 000 lux) (Univ. Minnesota); el rango en lux de la ficha aplica la escala del proyecto para luz brillante indirecta (500-1000 fc). Opción conservadora entre RHS (sol pleno o semisombra) y RHS Navidad (lejos del sol directo): luz brillante, sol directo solo suave.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F8"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo a 2-3 cm y por el peso de la maceta: regar a fondo cuando la superficie esté seca al tacto y la maceta pese claramente menos; si sigue húmedo, esperar y volver a comprobar al día siguiente (Iowa State, Clemson). Regar siempre por el borde de la maceta o por debajo (dejar que absorba desde el plato y retirar el agua sobrante), sin mojar nunca el tubérculo ni el centro de la planta, porque se pudre (Clemson, NC State, Iowa State). Nunca por calendario.",
+      "primavera_verano": "Al terminar la floración (final de primavera) se sigue regando con cuidado hasta que las hojas amarillean; entonces se reduce el riego poco a poco para iniciar el reposo (RHS, Iowa State). Durante el reposo estival el sustrato se mantiene apenas húmedo, nunca encharcado ni completamente seco (ver bloque reposo). A finales de verano, cuando salen hojas nuevas, se reanuda el riego normal.",
+      "otono_invierno": "Es la época de crecimiento y floración: sustrato húmedo pero nunca empapado. Con calefacción se seca rápido, así que hay que comprobarlo a menudo, incluso a diario cerca de una fuente de calor (Clemson, Iowa State). Que se seque de vez en cuando es menos dañino que el exceso de riego (RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente (no fría) para no dañar el follaje (Iowa State). El agua de Madrid (blanda, con cloramina) es adecuada. Regar a fondo para evitar la acumulación de sales del abono, que frenan el crecimiento y dañan las raíces (Univ. Minnesota, UConn).",
+      "notas": "Las hojas lacias pueden deberse tanto a falta de agua como a pudrición del tubérculo por exceso: comprobar siempre el sustrato antes de regar. Hojas que amarillean o caen en una planta recién comprada suelen indicar exceso de riego (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F8",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes solo dan valores cualitativos: humedad moderada (RHS, NC State) y alta para el rebrote (Iowa State), evitando el aire caliente y seco (RHS). El aire muy húmedo y estancado favorece la botritis (RHS, AHDB), así que conviene humedad moderada con buena ventilación. Para subirla, humidificador o agrupar plantas; pulverizar no sirve y además moja flores y corona, favoreciendo la botritis. Con aire muy seco aparecen ácaros (araña roja). Valores numéricos sin verificar.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F2",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 21,
+      "ideal_min_c": 10,
+      "ideal_max_c": 18,
+      "notas": "Planta de ambiente fresco. Ideal de día 15-18 °C y de noche ≈10 °C (Clemson); Iowa State da 10-15,5 °C. Por encima de 21 °C los botones no se desarrollan (Clemson), y la pudrición blanda bacteriana avanza rápido por encima de 20 °C (AHDB). En reposo estival, fresco: 7-10 °C (Iowa State). La RHS indica en invernadero una mínima invernal de 13-16 °C, por encima de la noche de 10 °C de Clemson e Iowa State; ambas son compatibles con la planta y en casa lo crítico es el calor, no el frío. No resiste heladas (NC State). En producción, bajar la noche a 16-17 °C antes de florecer mejora la floración (Univ. Minnesota, UConn).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3",
+        "F7",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para macetas rico, sin turba o con base de tierra franca (RHS), o turba con un 10 % de tierra en vivero (Univ. Minnesota), siempre con muy buen drenaje (NC State, RHS). Maceta con orificio. El tubérculo se planta con la parte superior al ras o ligeramente por encima del sustrato, nunca enterrado (RHS, Iowa State, UConn).",
+      "ph": "5,5-6,5 (ligeramente ácido)",
+      "drenaje": "Imprescindible (Univ. Minnesota): el encharcamiento pudre raíces y tubérculo. Plantar demasiado hondo favorece la pérdida de la planta y la entrada de bacterias de pudrición blanda en la parte superior del tubérculo (UConn, AHDB).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F8",
+        "F9",
+        "F2",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, preferiblemente bajo en nitrógeno (RHS).",
+      "npk": "Bajo en nitrógeno (RHS); en vivero se usa 20-20-20 a 100 ppm de N (Univ. Minnesota).",
+      "primavera_verano": "Al final de la floración, seguir abonando hasta que amarilleen las hojas (RHS). En reposo estival, nada.",
+      "otono_invierno": "Desde el rebrote (septiembre) y durante la floración: ¼-½ de la dosis de etiqueta una vez al mes (convención del proyecto; Clemson abona una vez al mes al rebrotar).",
+      "notas": "RHS e Iowa State abonan cada 2 semanas en crecimiento o floración con abono diluido; se adopta la convención más prudente del proyecto (mensual, dosis reducida) porque el exceso de sales frena el crecimiento y daña las raíces (Univ. Minnesota, UConn). Si se quiere seguir el ritmo quincenal, que sea a ¼ de dosis.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F2",
+        "F8",
+        "F9"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando haga falta (tubérculo que ocupa la maceta o sustrato agotado); no es necesario cada año. Si no se trasplanta, al rebrotar basta con renovar los primeros centímetros de sustrato (RHS).",
+      "epoca": "Al final del reposo estival, cuando empiezan a salir hojas nuevas (finales de verano-principios de otoño) (Iowa State, RHS).",
+      "senales": "Raíces que salen por el drenaje, sustrato apelmazado o que se seca muy rápido. Usar una maceta solo algo mayor: cuanto mayor la maceta, más tarda en florecer (Univ. Minnesota). Dejar la parte superior del tubérculo ligeramente por encima del sustrato.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F8"
+      ]
+    },
+    "poda": {
+      "necesita": "No se poda. Solo se retiran flores pasadas y hojas amarillas para alargar la floración y evitar la botritis.",
+      "epoca": "Durante toda la floración; las hojas secas, al entrar en reposo.",
+      "como": "Agarrar el pedúnculo de la flor pasada (o el peciolo de la hoja amarilla) junto a la base, girarlo y dar un tirón seco para arrancarlo entero desde la corona. No cortar con tijera dejando muñones: se pudren y son la puerta de entrada de la botritis (RHS, Clemson). Retirar y tirar enseguida flores y hojas muertas, sin dejarlas sobre el sustrato (RHS grey mould).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Finales de primavera y verano en el hemisferio norte (en Madrid, aprox. de mayo-junio a finales de agosto-septiembre); dura unas 6-8 semanas o más, hasta que salen hojas nuevas (Iowa State, Clemson). En el hemisferio sur, desplazar 6 meses.",
+      "cambios": "Tras la floración, las hojas amarillean y caen: es natural, no es una enfermedad (Clemson, NC State). Reducir el riego poco a poco y quitar el follaje muerto (Iowa State). Durante el reposo mantener el sustrato apenas húmedo, sin abono, en un sitio fresco (ideal 7-10 °C) y sombreado (Iowa State, Clemson). Cuando aparezcan hojas nuevas (hacia mediados de septiembre), pasar a un sitio muy luminoso, regar a fondo y volver a abonar (Clemson). Reflorecer en casa es difícil por la falta de luz; muchos la desechan al acabar la floración (Clemson, Iowa State).",
+      "notas": "Contradicción entre fuentes: la RHS dice mantener el tubérculo seco en reposo; Clemson dice evitar que el sustrato se seque por completo; Iowa State, reducir el riego gradualmente. Se adopta la opción del proyecto (contradicción C25): apenas húmedo, fresco y sombreado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "división del tubérculo (no recomendada)"
+      ],
+      "epoca": "Semilla fresca, en cuanto madura (RHS); en vivero se siembra en invierno-primavera para flor en otoño-invierno siguiente.",
+      "pasos": "1) Sembrar semilla fresca en sustrato estéril, cubierta 3-6 mm. 2) Germinar a oscuras a 12-20 °C con humedad alta (≈70 %); por encima de 22 °C se inhibe la germinación (RHS, Univ. Minnesota, UConn). 3) Germina en 20-30 días o más, de forma irregular (NC State). 4) En cuanto germine, pasar a luz sin sol directo. 5) Tarda 9-15 meses en dar planta en flor, incluso en invernadero (Clemson). La división del tubérculo casi nunca funciona: tiene pocos puntos de crecimiento y el corte se deseca o pudre (Clemson, NC State). En casa se recomienda comprar plantas nuevas (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F8",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la corona o del tubérculo por regar por encima mojando el centro, sustrato encharcado o tubérculo enterrado demasiado hondo. La botritis pudre la base de los peciolos en el centro de la planta y la hace colapsar (AHDB, NC State). Si el tubérculo huele mal y está blando y viscoso, es pudrición blanda bacteriana (Pectobacterium/Erwinia), que avanza rápido por encima de 20 °C: desechar la planta (AHDB)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis cinerea), muy frecuente en el ciclamen: moho pardo-grisáceo sobre flores, peciolos y hojas, flores con manchas que se pardean y arrugan, y tallos de hojas y flores que se doblan. Favorecido por aire húmedo y estancado, frío húmedo, plantas apiñadas y restos de flores y hojas muertas sobre la planta (RHS, AHDB). Retirar enseguida las partes afectadas, ventilar y no mojar la planta; el particular no dispone de fungicidas para esto (RHS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o falta de drenaje (NC State). La RHS cita también la podredumbre negra de la raíz como problema."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Al final de la floración (primavera), amarilleo de todas las hojas por la entrada natural en reposo (Clemson, NC State). En pleno invierno no es normal: suele ser exceso de riego (RHS) o calor (>21 °C) junto a la calefacción. Si amarillean primero las hojas viejas y la planta colapsa, con el interior del tubérculo con vasos pardo-rojizos al cortarlo, es marchitez por Fusarium: desechar (AHDB)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato seco, muy frecuente con calefacción (Clemson, Univ. Minnesota). Si el sustrato está húmedo y la planta se marchita de golpe, sospechar pudrición del tubérculo (bacteriana o Fusarium) (AHDB)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: peciolos largos y débiles, menos flores y más pequeñas y pálidas (Clemson, NC State). También el calor y las plantas apiñadas favorecen el ahilamiento (Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Botones que no se abren o se secan: temperatura por encima de 21 °C (Clemson), poca luz, o abonado irregular, que frena el crecimiento sin dar otros síntomas visibles (Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Botones y hojas nuevas que se ennegrecen, se arrugan y no llegan a abrirse en la parte alta del tubérculo: antracnosis, favorecida por calor y humedad (AHDB). Hojas y botones deformados también pueden ser el ácaro del ciclamen (Phytonemus pallidus), una plaga difícil de controlar; Clemson aconseja desechar la planta afectada."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, sobre todo con aire seco y caliente por la calefacción (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en botones y hojas jóvenes (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips o araña roja (Clemson, NC State cita ambas plagas). Tratamiento: solo productos listos para usar de uso no profesional inscritos en el Registro del MAPA para plantas de interior."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "La planta está en reposo. No se pueden conseguir los 7-10 °C ideales, así que el tubérculo debe ir al rincón más fresco y oscuro de la casa: habitación orientada al norte, lejos de ventanas sur y oeste, sin sol directo y nunca en un balcón o terraza al sol (a 35-40 °C y con sol fuerte se cuece). Sustrato apenas húmedo (C25), sin abono y sin mojar el tubérculo: con calor, el exceso de agua favorece la pudrición blanda bacteriana, que avanza rápido por encima de 20 °C (AHDB). Si el tubérculo se pone blando o huele mal, desecharlo. A finales de agosto-septiembre, con las primeras hojas nuevas, sacar a la luz y reanudar el riego.",
+    "invierno": "Es su temporada. El gran enemigo es la calefacción: por encima de 21 °C los botones abortan (Clemson), el sustrato se seca en horas y el aire seco (HR a menudo <30 %) trae araña roja. Colocar en la habitación más fresca y luminosa de la casa (ideal 10-18 °C; un dormitorio sin calefacción o con el radiador cerrado es perfecto), lejos de radiadores, chimeneas y salidas de aire caliente (Clemson, RHS). Junto a la ventana pero sin tocar el cristal frío y sin corrientes de aire (RHS). Humidificador o agrupar plantas, sin pulverizar la planta (favorece la botritis). Comprobar el sustrato a menudo y regar por debajo.",
+    "ubicacion_recomendada": "Alféizar o mesa junto a una ventana este o norte luminosa, en una habitación fresca (10-18 °C) y ventilada, lejos de radiadores y de corrientes; en reposo estival, el rincón más fresco y en sombra de la casa."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) bloqueó el acceso (403/Cloudflare); no se pudo comprobar allí el estado taxonómico. La RHS indica 'Name status: Correct' y el sinónimo Cyclamen latifolium. Revisar POWO.",
+    "Humedad: ninguna fuente prioritaria da porcentajes de humedad relativa para el cultivo en casa (solo 'moderada' o 'alta'); min_pct e ideal_pct quedan en null. Solo hay el 70 % de HR para la germinación de semillas (Univ. Minnesota, UConn).",
+    "Luz: no hay valores en lux o fc para el cultivo en casa; el rango aplica la escala del proyecto para luz brillante indirecta. Solo consta el máximo de 4000 fc en producción en invernadero (Univ. Minnesota).",
+    "Temperatura mínima letal y tolerancia exacta a frío no heladizo no verificadas; solo 'no resiste heladas' (NC State).",
+    "Ácaro del ciclamen (Phytonemus pallidus): Clemson lo nombra y aconseja desechar la planta, pero no se ha verificado en fuente prioritaria la descripción de sus síntomas (deformación de hojas y botones).",
+    "Frecuencia de trasplante y señales concretas: sin fuente prioritaria específica; confianza Media.",
+    "Toxicidad: no hay dosis tóxica establecida para niños ni para animales pequeños.",
+    "Reposo estival en Madrid: las fuentes piden 7-10 °C, imposible en un piso madrileño en julio-agosto sin aire acondicionado; no hay datos verificados de supervivencia del tubérculo a 25-30 °C."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hgic.clemson.edu/factsheet/cyclamen/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (Florist Cyclamen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-cyclamen",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden (All About Cyclamen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/cyclamen-persicum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/101163/cyclamen-persicum/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant profile Cyclamen persicum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/advice/profile?pid=582",
+      "institucion": "Royal Horticultural Society (RHS) – Christmas-flowering houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/disease/cyclamen-grey-mould",
+      "institucion": "Royal Horticultural Society (RHS) – Cyclamen grey mould",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://archive.ahdb.org.uk/knowledge-library/cyclamen-disease-identification-and-biology-foliar-and-corm-diseases",
+      "institucion": "Agriculture and Horticulture Development Board (AHDB, organismo público británico) / ADAS – Cyclamen disease identification and biology: foliar and corm diseases",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/m/i/minnesot_54eb9822d7786.pdf",
+      "institucion": "University of Minnesota, Agricultural Extension Service – Widmer, Platteter y Gembis, 'Minnesota fast crop cyclamen' (1976), alojado en NC State HortScans",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://hortscans.ces.ncsu.edu/uploads/f/a/fast_cro_53b48af759f15.pdf",
+      "institucion": "University of Connecticut Cooperative Extension – Meister y Botacchi, 'Fast crop cyclamen', alojado en NC State HortScans",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cyclamen",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.petpoisonhelpline.com/poison/cyclamen/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,332 @@
+{
+  "nombre_cientifico": "Monstera adansonii",
+  "nombres_comunes": [
+    "monstera adansonii",
+    "monstera agujereada",
+    "monstera de Adanson",
+    "planta de los cinco agujeros"
+  ],
+  "familia": "Araceae",
+  "origen": "América tropical (RHS). Según POWO (Kew), nativa de Nicaragua, Costa Rica y Panamá, Colombia, Venezuela, Guayanas, Trinidad y Tobago, Antillas Menores, Ecuador, Perú, Bolivia y Brasil; introducida en Puerto Rico. NC State amplía el área al sur de México y Belice-Honduras (ver lagunas). La describió Michel Adanson en 1763 y lleva su nombre (Univ. Missouri Extension).",
+  "clima_nativo": "Tropical húmedo de selva lluviosa, sin heladas. Hemiepífita: enraíza en el suelo y trepa por los troncos sujetándose con raíces aéreas (Univ. Missouri Extension, NC State). Solo es perenne al aire libre en climas sin heladas (zonas USDA 10-12; NC State, Univ. Missouri Extension).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, acorazonadas (cordadas) a ovadas, de verde medio a oscuro y brillantes, con pecíolo largo (NC State). Lo que la define: perforaciones ovaladas u oblongas cerradas dentro de la lámina, situadas entre los nervios laterales a ambos lados del nervio central, mientras el margen de la hoja queda casi siempre entero, sin hendiduras hasta el borde (RHS, NC State, Penn State). Las hojas jóvenes son ovaladas y tienen pocos agujeros; al madurar se vuelven acorazonadas y suelen llevar unos cinco agujeros por lado o en total, de ahí 'planta de los cinco agujeros' (Univ. Missouri Extension). En interior las hojas son más pequeñas que en la naturaleza (NC State: más de 15 cm de ancho en cultivo; hasta unos 45 cm en la naturaleza) y mucho menores que las de M. deliciosa (Penn State). La lámina es fina pero firme, mucho más delgada que la de Monstera deliciosa y menos que la de M. obliqua.",
+    "nerviacion": "Pinnada: nervio central marcado y nervios laterales paralelos que van hacia el margen; las perforaciones se abren entre los nervios laterales principales, a ambos lados del nervio central (RHS, NParks).",
+    "variegacion": "La especie es verde uniforme. Existen cultivares variegados como 'Archipelago' (NC State, Penn State) y 'Mint' (RHS, con manchas verde claro-crema). Los ejemplares variegados son caros y menos frecuentes; la planta común de vivero es verde.",
+    "tallo": "Delgado, verde, flexible, con entrenudos visibles y nudos de los que salen raíces aéreas cortas que se agarran a soportes y pueden dejar marcas en paredes (RHS, NParks). Mucho más fino que el tallo grueso y leñoso de Monstera deliciosa. No forma estolones rastreros sin hojas (ver confusión con M. obliqua).",
+    "habito": "Trepadora herbácea perennifolia de crecimiento rápido: trepa si tiene soporte (tutor de musgo, espaldera) o cuelga si se cultiva en maceta colgante, hasta unos 2 m (RHS, NC State, NParks). Planta más densa y vigorosa que M. deliciosa (Penn State). En maceta rara vez florece; si lo hace, la inflorescencia es una espata blanco-crema con espádice amarillento (NC State, RHS).",
+    "tamano_adulto_interior": "0,9-2,4 m de alto (NC State y Penn State: 3-8 ft; Univ. Missouri Extension: 3-5 ft) y 0,3-1 m de ancho con tutor o espaldera (NC State, RHS: 0,5-1 m). RHS: altura máxima 1,5-2,5 m, alcanzada en 5-10 años. Al aire libre en el trópico, 3-4 m.",
+    "confusiones": [
+      {
+        "especie": "Monstera deliciosa joven (costilla de Adán)",
+        "rasgo_diferenciador": "Las hojas juveniles de M. deliciosa son enteras, gruesas y coriáceas, sin agujeros o con muy pocos, y a medida que crecen las hendiduras llegan hasta el margen; su tallo es grueso (varios cm) y la planta mucho mayor (NC State, Penn State). M. adansonii tiene ya de joven hojas finas con agujeros ovalados cerrados dentro de la lámina, margen entero y tallos finos y flexibles. Las hojas adultas de M. deliciosa (30-90 cm) son muy superiores a las de M. adansonii."
+      },
+      {
+        "especie": "Monstera obliqua",
+        "rasgo_diferenciador": "Especie muy rara en cultivo; buena parte de lo que se vende como 'obliqua' es M. adansonii. M. obliqua tiene hojas muy pequeñas (unos 10-25 cm), finísimas, casi como papel de seda y algo translúcidas, con tanta superficie perforada que parecen 'más agujero que hoja', bordes algo ondulados, crecimiento muy lento y forma estolones (tallos rastreros sin hojas que enraízan). M. adansonii tiene la lámina más gruesa y opaca, con zonas sólidas amplias entre agujeros (aproximadamente la mitad de la hoja o menos perforada), bordes rectos, crecimiento rápido y no forma estolones (Ohio Tropics, Jardinería On; fuentes complementarias, confianza Media). Solo la inflorescencia (M. obliqua con muchas menos flores en el espádice) es definitiva, y casi nunca aparece en interior."
+      },
+      {
+        "especie": "Rhaphidophora tetrasperma (minimonstera, 'Monstera Ginny')",
+        "rasgo_diferenciador": "No es una monstera. Sus hojas son ovadas a lanceoladas, de 15-30 cm, y se parten en segmentos estrechos con hendiduras que llegan hasta el margen, casi hasta el nervio central; los agujeros cerrados son escasos (NC State). M. adansonii tiene agujeros ovalados cerrados dentro de una lámina de margen entero, sin cortes hasta el borde. Ambas tienen tallos finos con raíces aéreas, por eso la forma del borde de la hoja es el rasgo clave."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios) en hojas, tallos, raíces, flores y savia (NC State, Penn State). ASPCA no tiene una ficha propia para M. adansonii; registra como tóxica para perros, gatos y caballos a Monstera deliciosa por oxalatos cálcicos insolubles, el mismo principio del género.",
+    "sintomas": "Gravedad baja (NC State). Al morder o ingerir: inflamación y dolor de boca, lengua, labios y garganta, babeo excesivo, dificultad para tragar, vómitos y pérdida de apetito; puede irritar los ojos y el tubo digestivo (NC State, ASPCA para el género). La savia puede causar dermatitis de contacto e irritación de piel y ojos: usar guantes al podar o manipular (NC State, RHS, Penn State). Si hay ingestión, enjuagar la boca y consultar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F2",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "A 1-2 m de una ventana este u oeste, o detrás de una cortina fina en una ventana sur. Una ventana norte solo sirve pegada al cristal; RHS admite exposiciones este, oeste y sur siempre con luz filtrada.",
+      "tolera_sol_directo": "Solo sol suave de primera hora de la mañana o de invierno. El sol directo fuerte quema sus hojas finas (NC State). RHS la clasifica para semisombra.",
+      "notas": "Rango en la escala del proyecto: desde luz media alta (100 fc, 1076 lux, mínimo para mantenerla) hasta brillante indirecta (1000 fc, 10760 lux, óptimo). Con poca luz se vuelve larguirucha, con entrenudos largos (Penn State, para el género). Contradicción: la base de datos de NC State la clasifica en 'semisombra (2-6 h de sol directo)' pero el propio texto advierte que el sol directo quema las hojas; NParks (Singapur, complementaria) admite hasta 4 h de sol directo. Se adopta la opción más conservadora: luz brillante indirecta, sin sol directo fuerte.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F8"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos que recién regada. Entonces regar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato a los 15-30 minutos. Nunca por calendario. Penn State indica dejar secar los 2,5-5 cm superiores entre riegos; NC State, mantener el sustrato húmedo pero bien drenado, porque el exceso de riego pudre las raíces.",
+      "primavera_verano": "Con crecimiento activo y calor, el sustrato se seca deprisa: comprobar con el dedo y el peso cada pocos días, y regar con generosidad cuando toque (RHS: regar abundantemente en la temporada de crecimiento). Sin dejar que se seque del todo: sus hojas finas se arrugan y lacian antes que las de M. deliciosa.",
+      "otono_invierno": "Regar con moderación (RHS: regar poco en invierno). Con menos luz el sustrato tarda más en secarse; esperar a que estén secos los 2-3 cm superiores y comprobar el peso antes de cada riego. La calefacción puede acelerar el secado, así que la comprobación manda.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid el agua es blanda y con cloramina, que no se elimina dejándola reposar; no es causa de puntas marrones. Las puntas marrones se deben a sales de abono acumuladas, riego irregular o aire seco. Regar a fondo de vez en cuando hasta que drene bien para lavar sales.",
+      "notas": "Contradicción menor: NC State y NParks hablan de sustrato 'constantemente húmedo' y Penn State de dejar secar los 2,5-5 cm superiores. Se adopta el criterio más seguro frente a la pudrición radicular (secado superficial entre riegos), que NC State señala como el riesgo principal.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": 50,
+      "notas": "Prefiere humedad alta (NC State) o de moderada a alta (RHS). Penn State, para el género, recomienda más del 50 %. Ninguna fuente prioritaria da un mínimo numérico. Para subir la humedad usar humidificador o agrupar plantas; pulverizar las hojas no sirve de forma útil y mojar el follaje favorece manchas foliares (NC State recomienda no salpicar las hojas y buena ventilación).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 29,
+      "notas": "Evitar corrientes frías y temperaturas por debajo de 10 °C (NC State: 50 °F). RHS la clasifica como H1B: necesita protección con mínimas de 10-15 °C. Rango ideal del género según Penn State: 60-85 °F (16-29 °C). No tolera heladas. Ninguna fuente prioritaria da un máximo tolerado; NParks señala estrés por calor con marchitez repetida como origen de plagas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior sin turba, rico en materia orgánica y con buen drenaje: base de compost con tierra franca (RHS) o mezcla sin suelo rica en materia orgánica aligerada con corteza, perlita o carbón vegetal (Penn State). Maceta con agujeros de drenaje; en tutor de musgo, mantener el musgo algo húmedo para que las raíces aéreas se agarren.",
+      "ph": "6,0-7,0",
+      "drenaje": "Imprescindible: es sensible a la pudrición radicular (NC State, NParks). Nunca dejar la maceta en agua estancada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS, Penn State).",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (criterio del proyecto, compatible con la RHS, que indica abono equilibrado mensual).",
+      "otono_invierno": "No abonar mientras no haya crecimiento activo.",
+      "notas": "Contradicción entre fuentes: Penn State (para el género) aconseja abonar cada dos semanas en temporada de crecimiento y una vez al mes en invierno; RHS, mensual; NParks (complementaria), mensual con abono rico en nitrógeno. Se adopta la opción más conservadora: dosis reducida, mensual y solo con crecimiento activo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces ocupen la maceta, subiendo un solo tamaño cada vez. En plantas jóvenes de crecimiento rápido suele ser cada 1-2 años; NParks (complementaria) indica trasplantar una vez al año para evitar que quede apretada. Ninguna fuente prioritaria da un intervalo fijo.",
+      "epoca": "Primavera, al inicio del crecimiento activo (regla general; no consta en fuentes prioritarias para esta especie).",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, sustrato que se seca muy rápido tras el riego, crecimiento frenado en plena temporada. Usar el mismo tipo de sustrato que para el cultivo (Penn State) y aprovechar para colocar un tutor en el centro de la maceta (NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F8",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca, pero la acepta bien. Pinzar o recortar puntas para que quede más tupida y controlar tallos largos (NParks); retirar hojas dañadas.",
+      "epoca": "Primavera y verano, con crecimiento activo; las puntas cortadas sirven como esquejes (RHS: esquejes de punta en verano).",
+      "como": "Con guantes, porque la savia irrita la piel y los ojos (NC State, RHS). Cortar con tijera limpia justo por encima de un nudo. Guiar y atar los tallos al tutor o a la espaldera. Limpiar el polvo de las hojas con un paño suave para prevenir araña roja (NParks). RHS la asigna a su grupo de poda 11.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero, pero en otoño-invierno, con menos luz, crece más despacio: regar poco (RHS), no abonar y mantenerla por encima de 10 °C y lejos de corrientes frías (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con nudo (en agua o en sustrato)",
+        "esqueje de punta",
+        "acodo",
+        "semilla"
+      ],
+      "epoca": "Primavera-verano para esquejes (RHS: verano, con calor de fondo); acodo en otoño según RHS; semilla fresca a 18-24 °C.",
+      "pasos": "1) Con guantes, cortar un trozo de tallo con al menos un nudo (mejor con una raíz aérea) y una o dos hojas, justo por debajo del nudo. 2) Ponerlo en agua limpia, cambiándola cada pocos días, o directamente en sustrato húmedo y bien drenado con el nudo enterrado (NC State, NParks, RHS). 3) Mantenerlo con luz brillante indirecta y calor de fondo (RHS), por encima de 18 °C. 4) Cuando el esqueje en agua tenga raíces de varios centímetros, pasarlo a maceta con sustrato. 5) Acodo: sujetar un tallo sobre sustrato húmedo o envolver un nudo con musgo húmedo hasta que enraíce, y luego cortar (RHS, Penn State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F8"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o mal drenaje; es el problema más señalado (NC State, Penn State, NParks)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por pudrición de raíz (exceso de riego) o por sustrato totalmente seco y estrés de calor; la marchitez repetida por calor la debilita y favorece plagas (NParks)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, citada por NC State, RHS y NParks; muy favorecida por aire seco (calefacción o verano madrileño). Prevenir limpiando el polvo de las hojas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado fino amarillento o plateado por araña roja o trips (NC State, RHS, Penn State para el género)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, Penn State, NParks)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos y nervios (NC State, RHS, Penn State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, NParks, Penn State)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa producida por cochinillas, pulgón o mosca blanca, todas citadas para esta especie (NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) cuando el sustrato se mantiene húmedo en exceso (Penn State, para el género)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas en la lámina por sol directo fuerte: sus hojas finas se queman con facilidad (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas descoloridas o blanqueadas tras exponerla a sol directo o al sacarla al exterior sin aclimatar (NC State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos larguiruchos con entrenudos largos y hojas pequeñas por falta de luz (Penn State, para el género)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, citado por NC State entre sus enfermedades; prevenir con buena ventilación."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya, citada por NC State entre sus enfermedades; poco frecuente en interior. Evitar mojar las hojas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste, apartarla del sol directo: detrás de una cortina fina o a 1-2 m del cristal. Sus hojas son más finas que las de M. deliciosa y se queman y se arrugan antes. Junto a un cristal soleado la temperatura supera de sobra los 29 °C de su rango ideal. Si se saca a terraza o balcón, solo a sombra luminosa y aclimatándola poco a poco. El calor y el aire seco (HR exterior ≈38 % en julio) secan el sustrato muy deprisa, más aún en maceta colgante: comprobar a diario en olas de calor con el dedo a 2-3 cm y el peso, sin regar por calendario. Revisar el envés por araña roja. Humedad con humidificador o agrupando plantas, no pulverizando. Abono a ¼-½ de dosis, una vez al mes.",
+    "invierno": "La calefacción baja la humedad interior a menudo por debajo del 30 %, muy lejos del 50 % que prefiere: riesgo de bordes secos, hojas arrugadas y araña roja. Humidificador cerca o agrupar plantas, lejos de radiadores y salidas de aire caliente. Junto a cristales fríos, separarla de la ventana por la noche o comprobar que no baja de 10 °C, y evitar corrientes de puertas y ventanas (NC State). Puede recibir el sol suave de invierno en una ventana sur o este. Regar poco, guiándose por el dedo y el peso, porque la calefacción puede secar el sustrato antes de lo esperado. No abonar.",
+    "ubicacion_recomendada": "Estancia luminosa, a 1-2 m de una ventana este u oeste o tras cortina fina en ventana sur, con un tutor de musgo o espaldera para trepar, o en maceta colgante (cuelga hasta unos 2 m). Lejos de radiadores, aire acondicionado directo y corrientes. Fuera del alcance de perros, gatos y niños pequeños, porque es tóxica; en maceta colgante los tallos que cuelgan quedan al alcance de gatos."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Monstera adansonii Schott; sinónimos homotípicos Dracontium pertusum L., Calla pertusa (L.) Kunth y Monstera pertusa (L.) de Vriese (nom. illeg.); la RHS usa Monstera pertusa como sinónimo. Mucha planta comercial vendida como M. adansonii corresponde a Monstera adansonii subsp. laniata (Schott) Mayo & I.M.Andrade, con Monstera friedrichsthalii Schott y M. adansonii var. laniata (Schott) Madison como sinónimos (según el resumen del buscador de POWO, GBIF y WFO; la ficha de POWO de M. friedrichsthalii no se ha abierto). La ficha usa el nombre del encargo sin autor.",
+    "Área nativa discrepante: POWO no incluye México, Belice ni Honduras en el área nativa de M. adansonii (empieza en Nicaragua), mientras NC State cita el sur de México, Belice y Honduras; probablemente NC State incluye la subsp. laniata. No resuelto.",
+    "ASPCA no tiene ficha específica de Monstera adansonii; la toxicidad para animales se apoya en ASPCA para M. deliciosa (mismo principio del género), NC State, RHS y Penn State. No se ha abierto Pet Poison Helpline.",
+    "Ninguna fuente prioritaria da humedad mínima numérica (min_pct null) ni temperatura máxima tolerada (max_c null). El ideal del 50 % y el rango de 16-29 °C vienen de Penn State para el género Monstera.",
+    "No hay valores de luz en lux o pie-candelas en fuentes prioritarias para esta especie; lux_min y lux_max se derivan de la escala del proyecto.",
+    "Ninguna fuente prioritaria da NPK (npk null), frecuencia de trasplante en años ni época de trasplante; se usa regla general y NParks (complementaria).",
+    "Las diferencias con Monstera obliqua solo se han encontrado en fuentes complementarias (Ohio Tropics, Jardinería On); no se ha localizado una fuente botánica abierta (p. ej., la revisión de Croat et al. 2024 en Phytotaxa) que las confirme.",
+    "No se ha localizado ficha de Missouri Botanical Garden Plant Finder ni de UF/IFAS EDIS para la especie. No se ha comprobado qué implica exactamente el grupo de poda 11 de la RHS.",
+    "No hay datos en fuentes prioritarias sobre reversión de la variegación en 'Archipelago' o 'Mint'; no se incluye S19."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-adansonii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Monstera adansonii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://extension.psu.edu/monstera-as-a-houseplant",
+      "institucion": "Penn State Extension – Monstera as a Houseplant (Penn State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/11191/i-monstera-adansonii-i/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Monstera adansonii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87464-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ceriman",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Ceriman, Monstera deliciosa)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ipm.missouri.edu/meg/index.cfm?ID=813",
+      "institucion": "University of Missouri Extension – Missouri Environment & Garden (D. Trinklein, 2025)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/rhaphidophora-tetrasperma/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Rhaphidophora tetrasperma)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://gardeningsg.nparks.gov.sg/gardening-resource-library/adansons-monstera/",
+      "institucion": "National Parks Board de Singapur (NParks) – GardeningSG, Adanson's Monstera",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.ohiotropics.com/2020/07/14/monstera-obliqua-vs-adansonii/",
+      "institucion": "Ohio Tropics (blog especializado) – Monstera obliqua vs. adansonii",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.jardineriaon.com/en/differences-between-monstera-adansonii-and-obliqua.html",
+      "institucion": "Jardinería On (blog especializado) – diferencias entre Monstera adansonii y obliqua",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

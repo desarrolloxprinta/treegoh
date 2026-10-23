@@ -1,0 +1,292 @@
+{
+  "nombre_cientifico": "Tradescantia spathacea",
+  "nombres_comunes": [
+    "barquito",
+    "moisés en la cuna",
+    "tradescantia moisés en la cuna",
+    "planta ostra",
+    "Rhoeo"
+  ],
+  "familia": "Commelinaceae",
+  "origen": "Sur de México (Golfo, sureste y suroeste), Belice y Guatemala (POWO, Kew; NC State). Naturalizada en Florida, Luisiana, Hawái, el Caribe, numerosas islas del Pacífico e Índico y también en Canarias (POWO, 'introduced into').",
+  "clima_nativo": "Tropical y subtropical cálido de baja altitud de Mesoamérica; en cultivo exterior solo resiste en zonas USDA 9-11 (NC State: 9a-11b; UF/IFAS: 9B-11). Muy tolerante a la sequía (UF/IFAS).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas en roseta, dispuestas en espiral y muy apretadas, rígidas, sésiles y abrazadoras en la base, de linear-lanceoladas a en forma de espada, de 15-30 cm de largo y 2,5-5 cm de ancho (NC State; UF/IFAS da 15-30 cm). Haz verde oscuro y envés púrpura intenso (NC State, RHS); textura cerosa y algo áspera, margen entero. Rasgo clave para la IA: roseta erguida de hojas largas en espada con contraste neto haz verde / envés morado, y flores blancas diminutas de 3 pétalos metidas en brácteas púrpuras en forma de barquito o concha en las axilas de las hojas.",
+    "nerviacion": "Paralela, típica de monocotiledónea: nervios longitudinales finos, poco marcados, sin nervio central prominente salvo un leve surco en la base de la hoja.",
+    "variegacion": "Forma típica sin variegar (verde arriba, púrpura abajo). Existen formas con hojas verdes con rayas longitudinales amarillo pálido (NC State) y otras con rayas crema o rosadas; POWO recoge como sinónimos las formas 'concolor' (sin púrpura) y 'variegata'. Con poca luz el púrpura del envés tiende a perderse y la hoja se vuelve más verde (NC State).",
+    "tallo": "Tallo corto, grueso, carnoso, simple y rojizo (NC State), casi oculto por la roseta; con la edad se alarga un poco y aparecen hijuelos basales que forman matas.",
+    "habito": "Herbácea perenne siempreverde, erguida, en roseta, que forma matas densas que se extienden por hijuelos (NC State, UF/IFAS, RHS). No es colgante: crece hacia arriba y no sirve para cestas colgantes (NC State). Crecimiento lento (NC State). Flores blancas pequeñas (<2,5 cm) en cimas axilares dentro de brácteas en barquito, casi todo el año (NC State); cápsula seca con 2 semillas.",
+    "tamano_adulto_interior": "15-30 cm de alto y 30-60 cm de ancho (NC State: 6-12 in de alto, 1-2 ft de ancho); RHS: 10-50 cm de alto y de ancho, adulta en 1-2 años; UF/IFAS: 30-45 cm de alto.",
+    "confusiones": [
+      {
+        "especie": "Tradescantia zebrina",
+        "rasgo_diferenciador": "T. zebrina es rastrera o colgante, con tallos largos y articulados y hojas ovadas pequeñas (unos 2-5 cm) con dos franjas plateadas en el haz y flores rosa-violeta. T. spathacea es una roseta erguida, sin tallos colgantes, con hojas en espada de 15-30 cm sin franjas plateadas y flores blancas dentro de brácteas en barquito."
+      },
+      {
+        "especie": "Cordyline fruticosa",
+        "rasgo_diferenciador": "La cordiline es un arbusto con tronco leñoso que se alarga y hojas pecioladas agrupadas en penacho en lo alto del tallo; el color rojo o rosa suele verse en ambas caras y no tiene brácteas en barquito. T. spathacea apenas tiene tallo, las hojas son sésiles y nacen en roseta a ras del sustrato, con el haz verde y solo el envés púrpura."
+      },
+      {
+        "especie": "Tradescantia pallida",
+        "rasgo_diferenciador": "T. pallida ('Purpurea') tiene tallos rastreros o caídos y hojas más cortas, púrpuras por ambas caras, con flores rosas; T. spathacea forma una roseta erguida con el haz verde."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "No identificado (NC State: 'toxic principle unidentified'). La parte problemática es la savia o jugo de la planta.",
+    "sintomas": "Gravedad baja (NC State). Por ingestión, sobre todo en cantidad: irritación de labios, boca, lengua y garganta, y posibles náuseas, vómitos, pérdida de apetito y dolor abdominal, en personas y mascotas (NC State). Por contacto, la savia irrita la piel y los ojos: dermatitis de contacto, escozor y picor (NC State; RHS: 'skin allergen', usar guantes; Iowa State University: tóxica e irritante para la piel). Usar guantes al dividir, podar o hacer esquejes y no frotarse los ojos. Si una mascota o un niño la mastica y se irrita, enjuagar la boca o lavar la zona con agua y consultar al veterinario o al Servicio de Información Toxicológica (91 562 04 20). ASPCA no tiene ficha de esta especie.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F7"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste tras un visillo. En ventana norte luminosa sobrevive, pero se alarga y pierde el púrpura.",
+      "tolera_sol_directo": "Algo, con precaución. NC State: en interior, luz brillante indirecta; al exterior, sombra por la tarde en verano. RHS: luz brillante filtrada en interior; el sol directo puede quemar las hojas. En exterior UF/IFAS la da de sol a sombra profunda. En Madrid, evitar el sol de mediodía y de tarde en verano tras el cristal.",
+      "notas": "Escala del proyecto: brillante indirecta 500-1000 fc (≈5380-10760 lux). Con poca luz el crecimiento se alarga y las hojas pierden el púrpura y se vuelven verdes (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2,5-5 cm superiores del sustrato estén secos (NC State: dejar secar 1-2 in entre riegos en maceta). Comprobar con el dedo y por el peso de la maceta; nunca por calendario. Regar a fondo hasta que drene y vaciar el plato. Evitar que el agua quede en el centro de la roseta y en la base de las hojas.",
+      "primavera_verano": "Riego moderado durante el crecimiento activo (RHS) en cuanto se secan los 2,5-5 cm superiores. En verano de Madrid puede ser necesario comprobar el sustrato cada pocos días, pero solo regar si está seco.",
+      "otono_invierno": "Reducir el riego (NC State, RHS): dejar secar más profundamente, aproximadamente hasta la mitad de la maceta [orientativo, sin fuente prioritaria], sobre todo si la habitación está por debajo de 18 °C.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo de Madrid apta (agua blanda; la cloramina no se elimina dejándola reposar, pero no es un problema a las dosis de red). Si aparecen costras blancas en el sustrato, lavar el sustrato con riego abundante para arrastrar sales de abono.",
+      "notas": "UF/IFAS: extremadamente tolerante a la sequía y propensa a problemas de hojas y raíces si se riega en exceso; NC State cita la pudrición de raíz por exceso de riego. El exceso de riego es la principal causa de muerte.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Sus hojas son cerosas y la planta es muy tolerante a la sequía (NC State, UF/IFAS), por lo que soporta mejor que muchas tropicales la humedad doméstica. Con aire muy seco (<30 % con calefacción) y cálido prolifera la araña roja (citada como plaga por NC State y RHS); si hace falta, humidificador o agrupar plantas. Pulverizar no sube la humedad de forma útil y el agua retenida en la roseta favorece manchas y pudriciones.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Mínimo: la RHS la clasifica H1B (necesita un mínimo de 10-15 °C; solo puede salir al exterior en verano). Se adopta 15 °C como mínimo prudente en interior, el valor más alto del rango. NC State (zonas USDA 9a-11b) y UF/IFAS (9B-11) se refieren a cultivo exterior en clima cálido y no sirven como objetivo en interior; NC State indica meterla en casa cuando haya riesgo de helada. Las fuentes prioritarias no dan rango ideal ni máximo; algunas fuentes complementarias dan 16-29 °C (60-85 °F) [orientativo, sin fuente prioritaria]. Evitar el contacto con cristales fríos y corrientes en invierno.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal o para plantas de interior sin turba, bien drenante (RHS: compost para plantas de interior o multiuso sin turba; NC State: sustrato de maceta bien drenado). Para mejorar el drenaje puede añadirse 20-30 % de perlita [orientativo, sin fuente prioritaria]. Maceta con agujeros de drenaje.",
+      "ph": "No exigente: tolera sustratos ácidos, neutros y alcalinos (RHS; UF/IFAS: alcalino y ácido). Sin rango numérico en las fuentes.",
+      "drenaje": "Imprescindible (UF/IFAS: el suelo bien drenado es una necesidad). Nunca dejar agua en el plato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes durante el crecimiento activo (RHS), a ¼-½ de la dosis de la etiqueta (convención del proyecto).",
+      "otono_invierno": "No abonar.",
+      "notas": "Crecimiento lento (NC State): no necesita mucho abono. El exceso de sales se acumula y puede quemar puntas y raíces.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años o cuando la mata llene la maceta [orientativo, sin fuente prioritaria]; crece despacio (NC State).",
+      "epoca": "Primavera, al iniciar el crecimiento.",
+      "senales": "Raíces saliendo por los agujeros de drenaje, la mata de hijuelos ocupa toda la superficie, el agua atraviesa la maceta sin empapar el sustrato.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Retirar los tallos florales pasados (RHS) y las hojas secas o dañadas de la base.",
+      "epoca": "Todo el año, según aparezcan; los cortes más fuertes, en primavera.",
+      "como": "Con guantes, porque la savia irrita la piel (RHS, NC State). Cortar a ras de la base las hojas viejas secas y los restos florales. Si la roseta se alarga por falta de luz, se puede cortar la parte superior y enraizarla como esqueje. No tirar los restos al jardín ni a solares: es invasora en zonas cálidas (UF/IFAS); desecharlos con la basura orgánica o el resto.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo, no un letargo verdadero: en invierno (en Madrid, aproximadamente de noviembre a febrero).",
+      "cambios": "Reducir el riego (NC State, RHS), no abonar (RHS solo abona con crecimiento activo), mantener la máxima luz sin sol abrasador y no bajar de 15 °C. No trasplantar ni dividir hasta la primavera.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division de hijuelos",
+        "esqueje de roseta o de punta",
+        "semilla"
+      ],
+      "epoca": "Primavera y principio del verano.",
+      "pasos": "Métodos según NC State, UF/IFAS y RHS: semilla, división de la mata y esquejes de punta. 1) División: con guantes, sacar la planta de la maceta, separar los hijuelos basales que tengan raíces propias y plantarlos en sustrato bien drenante; regar ligeramente y mantener con luz brillante indirecta. 2) Esqueje: cortar una roseta lateral o la punta de una roseta alargada con algo de tallo, dejar secar el corte unas horas y enraizar en sustrato ligero apenas húmedo o en agua; suele enraizar en 2-4 semanas [orientativo, sin fuente prioritaria]. 3) Semilla: posible pero lenta; en cultivo doméstico es mejor la división. Es invasora en el sur de Florida (UF/IFAS) y está naturalizada en Canarias (POWO): no plantar ni tirar restos o semillas al exterior en zonas de clima suave.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato que no drena (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la base de la roseta por agua retenida entre las hojas o sustrato encharcado; UF/IFAS advierte de problemas de hojas y raíces con exceso de riego."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas foliares fúngicas (NC State, UF/IFAS), favorecidas por mojar el follaje y por el exceso de riego."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las axilas de las hojas de la roseta (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y cálido: calefacción en invierno y verano de Madrid (NC State, RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja o por trips (RHS cita ambas plagas)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y flores, sobre todo si pasa el verano al exterior (RHS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: roseta alargada y débil (NC State)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Falta de luz: el envés púrpura revierte a verde (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo intenso tras el cristal, sobre todo en ventanas sur y oeste en verano (RHS: el sol directo puede quemar las hojas)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Riego irregular, acumulación de sales de abono o aire muy seco [orientativo, sin fuente prioritaria]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste: alejarla 1-2 m del cristal o poner un visillo, porque el sol directo quema las hojas (RHS). Comprobar el sustrato cada pocos días, pero regar solo si los 2,5-5 cm superiores están secos; tolera bien la sequía y peor el encharcamiento. El aire seco y caliente favorece la araña roja: revisar el envés y las axilas cada semana. Puede pasar el verano en una terraza a media sombra (RHS: H1B, puede salir en verano), sin sol de tarde, metiéndola antes de que las noches bajen de 15 °C (aprox. principios de octubre). No dejar caer hijuelos ni semillas en jardineras o suelo del exterior.",
+    "invierno": "Con calefacción, HR interior a menudo <30 %: alejarla de radiadores y de la salida del aire caliente; si aparece araña roja, usar humidificador o agrupar plantas (no pulverizar). Mantener al menos 15 °C y apartarla de los cristales fríos por la noche. Reducir mucho el riego y no abonar. Darle la ventana más luminosa de la casa para que no pierda el púrpura.",
+    "ubicacion_recomendada": "Salón o despacho con calefacción moderada, junto a una ventana este o a 1-2 m de una ventana sur u oeste tras visillo, fuera del alcance de perros, gatos y niños pequeños (savia irritante)."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Tradescantia spathacea Sw. (1788); sinónimos homotípicos Rhoeo spathacea (Sw.) Stearn y heterotípicos Rhoeo discolor (L'Hér.) Hance, Rhoeo spathacea f. concolor (Baker) Stehlé y f. variegata (Hook.) Stehlé. NC State añade Ephemerum bicolor y Tradescantia discolor. Sin cambio de nombre.",
+    "Estatus invasor en España: comprobado en el texto consolidado del RD 630/2013 (BOE-A-2013-8565, última actualización publicada el 19/10/2026): T. spathacea NO figura en el Catálogo Español de Especies Exóticas Invasoras; el único Tradescantia incluido es T. fluminensis. (Tampoco figura T. zebrina, lo que resuelve la laguna anotada en su ficha.) Aun así, POWO la da como introducida en Canarias y UF/IFAS la evalúa como invasora en el sur de Florida (precaución en el centro, sin problema en el norte; actualizado en agosto de 2026): no tirar restos ni semillas al exterior.",
+    "Toxicidad: ASPCA no tiene ficha de T. spathacea (búsqueda en su base de datos sin resultado). La clasificación para perros y gatos se basa en NC State; RHS e Iowa State University confirman la irritación cutánea. Principio tóxico no identificado; no se ha consultado Pet Poison Helpline (sin ficha encontrada).",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes mínimo ni ideal (min_pct e ideal_pct = null).",
+    "Temperatura: sin rango ideal ni máximo en fuentes prioritarias (ideal_min_c, ideal_max_c y max_c = null); el mínimo de 15 °C sale de la categoría RHS H1B.",
+    "Trasplante: ninguna fuente prioritaria da frecuencia ni señales; bloque basado en la práctica general (confianza Baja).",
+    "Abonado: ninguna fuente prioritaria da NPK concreto (npk = null).",
+    "Tratamientos fitosanitarios: no se han buscado productos concretos del Registro del MAPA para esta especie.",
+    "Missouri Botanical Garden Plant Finder no tiene ficha localizable de T. spathacea."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-spathacea/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://ask.ifas.ufl.edu/publication/FP510",
+      "institucion": "University of Florida IFAS Extension – EDIS FPS510 'Tradescantia spathacea Oyster Plant, Moses in the Cradle'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/18299/tradescantia-spathacea/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://assessment.ifas.ufl.edu/assessments/tradescantia-spathacea/",
+      "institucion": "UF/IFAS Assessment of Non-Native Plants in Florida's Natural Areas",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:173471-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-8565",
+      "institucion": "BOE – Real Decreto 630/2013, Catálogo Español de Especies Exóticas Invasoras (texto consolidado)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://greenhouse.eeob.iastate.edu/plant/rhoeo-spathacea",
+      "institucion": "Iowa State University – Bessey Greenhouse (Richard W. Pohl Conservatory), índice de plantas",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

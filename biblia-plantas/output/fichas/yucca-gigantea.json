@@ -1,0 +1,323 @@
+{
+  "nombre_cientifico": "Yucca gigantea",
+  "nombres_comunes": [
+    "yuca de interior",
+    "yuca pie de elefante",
+    "yuca",
+    "yuca sin espinas",
+    "yuca gigante"
+  ],
+  "familia": "Asparagaceae (subfamilia Agavoideae). ASPCA y la ficha antigua de UF/IFAS (ST676) aún usan la clasificación anterior, Agavaceae.",
+  "origen": "México y Centroamérica. POWO (Kew) da como área nativa Belice, Costa Rica, Guatemala, Honduras, Nicaragua, Panamá y México (Centro, Golfo, Sureste y Suroeste). Figura como introducida en España, Portugal, Italia, Ecuador, El Salvador, Puerto Rico y las islas de Sotavento (POWO, NC State).",
+  "clima_nativo": "Cálido y sin heladas. NC State indica que prospera con 21-32 °C (70-90 °F) y la sitúa en las zonas USDA 10-12. UF/IFAS la da como resistente en las zonas 9b-11. Tolera mucho la sequía (UF/IFAS, NC State, RHS). No se ha encontrado en fuentes prioritarias una descripción más detallada del hábitat (régimen de lluvias, tipo de bosque).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, lineares o lanceoladas, en forma de espada. Salen en rosetas espirales densas en la punta de cada tronco. Son rígidas, coriáceas, lisas y perennes, de color verde pálido a verde azulado. La punta es BLANDA, sin espina terminal: es el rasgo que la separa de otras yucas. El margen es entero o tiene dientecillos diminutos. En maceta miden unos 30-45 cm de largo (NC State); en ejemplares grandes de exterior superan los 90 cm y llegan a unos 120 cm (UF/IFAS, RHS). Las hojas inferiores amarillean y se secan poco a poco de forma natural a medida que crece el tronco (RHS).",
+    "nerviacion": "Paralela, propia de monocotiledónea (UF/IFAS). Sin nervio central marcado ni peciolo.",
+    "variegacion": "La especie tipo es verde. En el comercio hay cultivares variegados: 'Variegata', con bandas anchas de color crema, y 'Marginata', con una franja estrecha crema en ambos bordes (NC State, UF/IFAS ST676).",
+    "tallo": "Tronco grueso, leñoso y rugoso, gris claro, con cicatrices anulares de hojas caídas. La base se ensancha con la edad (de ahí 'pie de elefante', epíteto del antiguo nombre Y. elephantipes). Se vende casi siempre como 'tronco enraizado': uno o varios trozos de caña de distinta altura, cortados en plano o sellados en la parte superior, en la misma maceta, cada uno con uno o varios penachos de hojas que brotan de los lados (UF/IFAS RH-91-36: las plantas comerciales suelen ser cañas o puntas de 0,6-1,8 m). Pueden salir hijuelos en la base.",
+    "habito": "Arbusto grande o arbolito erguido, de uno o varios troncos, con penachos de hojas en lo alto. Crecimiento de moderado a rápido en exterior (UF/IFAS, NC State). En interior casi nunca florece (NC State). En exterior da panículas erguidas de flores acampanadas de color blanco crema a finales de primavera o en verano, cuando el ejemplar mide 2,5-3 m (UF/IFAS).",
+    "tamano_adulto_interior": "En interior se mantiene mucho más compacta que en exterior (NC State). Las plantas de venta suelen medir 0,6-1,8 m (UF/IFAS RH-91-36). Una altura de 1,5-2,5 m en maceta tras años es una cifra [orientativo, sin fuente prioritaria]. En exterior en clima cálido alcanza 4,5-9 m (NC State, UF/IFAS) y hasta 8-12 m (RHS).",
+    "confusiones": [
+      {
+        "especie": "Yucca aloifolia (bayoneta española) y otras yucas de jardín (Y. gloriosa, Y. filamentosa)",
+        "rasgo_diferenciador": "Tienen una espina terminal dura y punzante en cada hoja; Y. gigantea tiene la punta blanda (UF/IFAS, NC State). Y. filamentosa además no tiene tronco y lleva filamentos rizados en el borde (RHS)."
+      },
+      {
+        "especie": "Dracaena fragrans (palo de Brasil)",
+        "rasgo_diferenciador": "También se vende como caña enraizada, pero sus hojas son más anchas (5-10 cm), blandas, arqueadas y colgantes, a menudo con una banda central amarilla. Las de Yucca gigantea son más estrechas, rígidas, rectas y en forma de espada, de color verde azulado."
+      },
+      {
+        "especie": "Dracaena marginata (drácena de borde rojo)",
+        "rasgo_diferenciador": "Tiene tallos finos y flexibles y hojas muy estrechas (≈1 cm), con el borde rojo o púrpura. Yucca gigantea tiene un tronco grueso y rugoso y hojas más anchas, sin borde rojo."
+      },
+      {
+        "especie": "Beaucarnea recurvata (pata de elefante, nolina)",
+        "rasgo_diferenciador": "Tiene la base hinchada en forma de botella globosa y hojas finas (≈2 cm), en cinta, que cuelgan como una cola de caballo. Yucca gigantea tiene un tronco cilíndrico, solo algo ensanchado en la base, y hojas rígidas y erguidas."
+      },
+      {
+        "especie": "Cordyline fruticosa (cordiline)",
+        "rasgo_diferenciador": "Sus hojas tienen peciolo, son más anchas y blandas, y suelen ser rojas, rosadas o púrpura. Yucca gigantea tiene hojas sésiles, rígidas y verdes o verde azuladas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas (ASPCA, NC State). Según NC State, se concentran sobre todo en raíces y hojas.",
+    "sintomas": "Perros y gatos: vómitos (ASPCA, NC State). Personas: náuseas, vómitos, diarrea, dolor de cabeza y mareo si se ingiere. NC State clasifica la gravedad como baja. La savia puede causar irritaciones leves en la piel (NC State), y la RHS la señala como alérgeno cutáneo: usar guantes al manipularla o al podarla. En caballos: enfermedad hepática y dermatitis (ASPCA).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F4"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 1614,
+      "lux_max": 75320,
+      "orientacion_hn": "En interior, la ventana más luminosa de la casa. Sur en invierno; este u oeste en verano, o sur con visillo en las horas centrales (RHS). Gira la maceta con regularidad para que no se incline hacia la luz (RHS).",
+      "tolera_sol_directo": "Sí. Es planta de pleno sol o semisombra (NC State, UF/IFAS, RHS). Detrás de un cristal en verano, la RHS recomienda una sombra ligera y buena ventilación para evitar el exceso de calor. Si pasa de golpe de poca luz a sol fuerte, las hojas superiores se blanquean: aclimátala de forma gradual (UF/IFAS RH-91-36).",
+      "notas": "El mínimo es el que da UF/IFAS (RH-91-36) para mantenerla en interior: 150 fc o más (≈1614 lux). Esa cifra queda en el tramo 'media' de la escala del proyecto, pero es un mínimo de supervivencia: con menos luz las hojas se ponen lacias y la planta se estira (RHS). Lo deseable es luz directa o muy brillante (>1000 fc). El máximo corresponde a 7000 fc (≈75 320 lux), el nivel con el que UF/IFAS obtiene en vivero el mejor color y aspecto (sombreo del 50-60 %). Tolera pleno sol una vez aclimatada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "riego": {
+      "criterio": "Riega solo cuando el sustrato esté seco a 5 cm de profundidad (es una planta de tronco y suele ir en maceta grande) y la maceta pese claramente menos. Entonces riega a fondo hasta que salga agua por el drenaje y vacía el plato a los 15-20 minutos. No riegues nunca por calendario. Es muy sensible al encharcamiento: ante la duda, espera. El riego excesivo es la causa principal de pudrición de raíz y de tronco (NC State, UF/IFAS, RHS).",
+      "primavera_verano": "Riego generoso en cada ocasión, de abril a septiembre (RHS: 'water freely' en crecimiento activo), pero solo cuando los 5 cm superiores estén secos. En terraza o junto a una ventana soleada en Madrid se secará antes: comprueba con el dedo y por el peso cada pocos días.",
+      "otono_invierno": "Riego escaso (RHS). Deja secar al menos los 5 cm superiores, y en macetas grandes con calefacción baja casi hasta el fondo. Si la planta está fresca (10-15 °C), riega todavía menos. Si amarillean de golpe y se ablandan las hojas inferiores, deja que el sustrato se seque casi por completo (RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo. En Madrid (Canal de Isabel II) el agua es blanda, se desinfecta con cloramina, que no se elimina dejándola reposar, y lleva fluoruro por debajo de 0,1 mg/L. No hace falta tratarla. UF/IFAS (RH-91-36) cita el flúor como posible causa de puntas necróticas en vivero, ligado a sustratos con superfosfato; con el agua de Madrid no es un factor. Las puntas marrones apuntan a sales de abono acumuladas o a riego irregular: lava el sustrato con riego abundante de vez en cuando.",
+      "notas": "No cultives yuca si el drenaje no es excelente (UF/IFAS). Usa maceta con agujeros y sin plato con agua estancada. La 'caña' sin raíces vivas pudre muy rápido si se mantiene mojada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Tolera la humedad baja (UF/IFAS RH-91-36). Según NC State, la humedad normal de una vivienda le basta. No necesita humidificador y aguanta el aire seco de la calefacción de Madrid. No se pulveriza: no sube la humedad de forma útil y el agua en la roseta favorece las manchas foliares (UF/IFAS recomienda evitar mojar el follaje). Ninguna fuente prioritaria da cifras de humedad relativa.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 32,
+      "notas": "Mínimo de 10 °C: NC State indica meterla en casa cuando la temperatura baje de 10 °C (50 °F), y la guía de yuca de la RHS da 10 °C de mínimo para Y. elephantipes. La misma guía de la RHS dice en otro apartado que, en reposo invernal, tolera noches de 7 °C con días algo más cálidos, y su ficha la clasifica H2 (1-5 °C, no sobrevive a la congelación). Se adopta el valor más conservador, 10 °C. El frío y las heladas dañan la planta y causan muerte regresiva (NC State). Ideal: UF/IFAS da 18-35 °C (65-95 °F) para el mejor crecimiento en vivero, y NC State 21-32 °C (70-90 °F) en exterior; se toma 18-32 °C. El máximo de 35 °C es el límite superior de crecimiento óptimo de UF/IFAS, no un límite letal: con buena ventilación aguanta picos algo mayores [orientativo, sin fuente prioritaria]. Evita corrientes frías y cambios bruscos de temperatura (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Muy drenante y pesado, para que la caña no vuelque. NC State recomienda 1 parte de sustrato universal por 3 de perlita o arena gruesa. La RHS recomienda sustrato sin turba a base de tierra franca (tipo John Innes nº 2) con un 20-30 % de grava añadida. En vivero, UF/IFAS usa turba y arena 3:1: la arena sujeta la caña y conserva agua y nutrientes.",
+      "ph": "5,5-6,5 (UF/IFAS, en producción; por encima de 6,5 puede aparecer carencia de hierro). En el jardín, la RHS indica que tolera suelos ácidos, neutros o alcalinos.",
+      "drenaje": "Imprescindible y excelente (UF/IFAS: 'no la plantes si el drenaje no es superior'). Maceta con agujeros amplios. Una maceta de barro o de base ancha y pesada aporta estabilidad [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes, diluido en el agua de riego.",
+      "npk": "Equilibrado (RHS). En vivero, UF/IFAS usa una proporción 3-1-2 (N-P2O5-K2O).",
+      "primavera_verano": "De abril a septiembre, solo con crecimiento activo: abono líquido a ¼-½ de la dosis de la etiqueta, una vez al mes, regando sobre sustrato ya húmedo.",
+      "otono_invierno": "Nada (RHS: no abonar en invierno).",
+      "notas": "La ficha de la RHS dice abono mensual; su guía de cultivo, quincenal. Se sigue la pauta del proyecto (mensual y diluido), la más conservadora: el exceso de sales favorece las puntas y bordes necróticos (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente. Crece despacio en maceta y tolera estar algo apretada: cada 2-3 años, o cuando lo pidan las raíces [orientativo, sin fuente prioritaria]. Si la planta es muy grande, basta con renovar los 3-5 cm superiores de sustrato.",
+      "epoca": "Primavera, al reanudar el crecimiento (abril-mayo). Es la época que la RHS indica para manipularla (poda, separación de hijuelos).",
+      "senales": "Raíces que salen por el drenaje, sustrato agotado o compacto que no drena, o planta que vuelca por el peso del tronco. Si hay pudrición de raíz: saca la planta, retira todo el sustrato y las raíces podridas, y replántala en una maceta justa para el cepellón reducido, con poco sustrato nuevo. Ponla en lugar cálido y riégala muy poco (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "Normalmente no (RHS; UF/IFAS: 'little required').",
+      "epoca": "Primavera, al reanudar el crecimiento (RHS).",
+      "como": "Corta en la base las hojas dañadas o secas y las varas florales pasadas (RHS). Las hojas inferiores que se secan de forma natural pueden retirarse tirando suavemente o cortándolas. Si la planta es demasiado alta, corta el tronco hasta la mitad en primavera: una planta sana rebrota bajo el corte, aunque hay un pequeño riesgo (RHS). La parte superior cortada sirve como esqueje. Usa guantes por la savia irritante (RHS, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno, aproximadamente de octubre a marzo en el hemisferio norte. La RHS sitúa la temporada de crecimiento entre abril y septiembre.",
+      "cambios": "Sin abono, con riego escaso dejando secar al menos los 5 cm superiores, y con la máxima luz (ventana sur). Tolera un ambiente fresco: la RHS indica que en reposo aguanta hasta 7 °C de noche, pero en esta ficha se usa como mínimo seguro 10 °C.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo o caña",
+        "hijuelos basales",
+        "semilla"
+      ],
+      "epoca": "Primavera (marzo-abril para los hijuelos según la RHS).",
+      "pasos": "Esqueje de tallo: en primavera, corta puntas de 20-25 cm (medidas desde el extremo) o trozos de caña. UF/IFAS indica que enraízan esquejes de casi cualquier tamaño, pero conviene evitar cañas muy finas y jóvenes o muy gruesas y viejas. Recortar unos 6 mm de la base de la caña justo antes de plantarla mejora la supervivencia (UF/IFAS RH-91-36). Plántalo en un sustrato arenoso grueso, en semisombra y con calor de fondo de al menos 18 °C (RHS). Mantén el sustrato apenas húmedo, nunca encharcado: la pudrición por Fusarium es frecuente en esquejes (UF/IFAS). Hijuelos: en marzo-abril, descubre el hijuelo de la base, córtalo por donde se une a la planta madre y déjalo secar un par de días. Plántalo como el esqueje o cúbrelo con plástico en un lugar cálido y luminoso, sin sol directo (RHS). Los hijuelos enraízan con facilidad (UF/IFAS). Semilla: siembra en primavera a 19-24 °C. En cultivo rara vez florece y puede necesitar polinización manual (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F2",
+        "F3",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Riego excesivo o sustrato que no drena: es la causa principal de pérdida de esta especie (NC State, UF/IFAS, RHS). Es más grave en invierno y en cañas recién enraizadas."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Tronco o caña blandos y oscuros en la base, por pudrición asociada al exceso de agua o por Fusarium, frecuente en cañas recién enraizadas (UF/IFAS). También puede deberse a larvas del picudo de la yuca (Scyphophorus acupunctatus), que excavan galerías bajo la corteza y pueden anillar y matar la caña (UF/IFAS, NC State). Una caña blanda al apretarla no se recupera: corta por encima de la zona sana para hacer un esqueje."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Es normal que amarilleen y se sequen poco a poco algunas hojas inferiores. Si amarillean de golpe y se ablandan, es por exceso de riego (RHS)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas caídas o lacias por falta de luz. También por riego excesivo o insuficiente: revisa el sustrato antes de actuar (RHS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente en interior, por debajo de 150 fc (UF/IFAS): la roseta se estira, se inclina hacia la ventana y las hojas nuevas salen más blandas y pálidas. Acércala a la luz y gira la maceta (RHS)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas inferiores secas y crujientes por falta de riego (RHS). Ojo: algunas hojas basales se secan de forma natural."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas y bordes necróticos por estrés hídrico (riego irregular) o por exceso de sales solubles de abono (UF/IFAS). En Madrid no se atribuye al agua del grifo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Grandes zonas blanquecinas en las hojas superiores al pasar de golpe de poca luz a mucha (UF/IFAS); por ejemplo, al sacarla a la terraza en mayo sin aclimatarla."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha foliar por Coniothyrium concentricum: puntitos claros en hojas viejas que pasan a amarillo y luego a pardo, a veces con halo clorótico y puntos negros en el centro (UF/IFAS). Se favorece al mojar el follaje. Retira las hojas afectadas y no las mojes. Suele ser leve (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y raíces (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en hojas y tallos (NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón, sobre todo en las varas florales de plantas de exterior (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips: cicatrices plateadas o grisáceas y hojas deformadas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Mordeduras de caracoles en plantas que pasan el verano en la terraza (RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Puede pasar el verano en la terraza o el balcón, desde finales de mayo hasta agosto-septiembre (la RHS indica de finales de mayo a agosto), siempre que las noches no bajen de 10 °C (NC State). Ponla en un lugar resguardado del viento y con maceta estable (RHS). Aclimátala de forma gradual: una o dos semanas en semisombra antes del sol pleno, para evitar el blanqueo de las hojas (UF/IFAS). Con 35-40 °C y sol de tarde en orientación oeste, tolera el sol, pero agradece sombra ligera en las horas centrales [orientativo, sin fuente prioritaria]. En interior, detrás de un cristal orientado al sur o al oeste, pon un visillo en las horas centrales y ventila para que no se acumule calor (RHS). Con el aire seco de Madrid (HR ≈38 %) el sustrato se seca antes: comprueba a 5 cm de profundidad y por el peso cada pocos días, sin regar por costumbre. Vacía el plato después de cada riego y tras las tormentas.",
+    "invierno": "No puede pasar el invierno fuera en Madrid: hay heladas y noches por debajo de 10 °C. Métela en casa en otoño, en cuanto las mínimas nocturnas bajen de 10 °C (NC State); en Madrid suele ser hacia octubre [orientativo, sin fuente prioritaria]. Dentro, colócala en la ventana más luminosa (la sur es la ideal en invierno, según la RHS), con las hojas sin tocar el cristal frío y lejos de corrientes frías o de puertas a la calle (NC State). Tolera bien la humedad interior por debajo del 30 % de la calefacción (UF/IFAS: tolera humedad baja), pero no la pongas pegada al radiador. Riega muy poco, sin abono. Con calefacción el sustrato se seca más rápido que en una habitación fresca, pero sigue siendo el periodo de más riesgo de pudrición: riega solo con el sustrato seco a 5 cm o más y la maceta ligera.",
+    "ubicacion_recomendada": "Junto a una ventana sur, sureste u oeste muy luminosa, en salón o terraza acristalada. De finales de mayo a septiembre, también en terraza o balcón resguardado del viento, a pleno sol tras aclimatarla. Evita los rincones oscuros o lejos de ventanas: allí la planta se estira y se pudre por exceso de riego."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Yucca gigantea Lem. Yucca elephantipes Regel ex Trel. (1902) es un nombre ilegítimo (nom. illeg.) y sinónimo, igual que Y. guatemalensis Baker, Y. lenneana Baker, Y. roezlii Baker, Y. mazelii W.Watson y Sarcoyucca elephantipes Linding., entre otros. La RHS sigue usando Y. elephantipes con Y. gigantea como sinónimo, y marca el nombre como 'not valid'. GBIF coincide con POWO. El comercio español sigue vendiéndola como 'Yucca elephantipes'.",
+    "Humedad: ninguna fuente prioritaria da mínimo ni ideal en porcentaje. Solo consta que tolera la humedad baja (UF/IFAS) y que basta con la de una vivienda (NC State). Se dejan los valores en null.",
+    "Trasplante: ninguna fuente prioritaria da la frecuencia. La cifra de 2-3 años es orientativa.",
+    "Tamaño en maceta: ninguna fuente prioritaria da una altura máxima en interior. Solo consta que se mantiene mucho más compacta que en exterior.",
+    "Luz: el único dato cuantitativo para interior es el mínimo de 150 fc de UF/IFAS (nota de investigación RH-91-36, de 1991, consultada en una copia de archive.org porque la URL original ya no existe). No hay un óptimo cuantificado para interior.",
+    "Temperatura máxima: no hay un límite letal verificado. Los 35 °C son el techo de crecimiento óptimo en vivero (UF/IFAS).",
+    "pH: el rango 5,5-6,5 procede de producción en vivero (UF/IFAS); no hay dato específico para maceta doméstica.",
+    "Toxicidad en niños: NC State la clasifica como de gravedad baja en personas. No se ha consultado ningún centro de toxicología humano (por ejemplo, el Instituto Nacional de Toxicología en España).",
+    "Clima nativo: no se ha encontrado en fuentes prioritarias una descripción detallada del hábitat (estacionalidad de lluvias, altitud)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/yucca-gigantea/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/ST675",
+      "institucion": "UF/IFAS Extension, EDIS ST675 (Yucca gigantea: Spineless Yucca)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://web.archive.org/web/20201231120055/https://mrec.ifas.ufl.edu/foliage/folnotes/yucca.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center, Foliage Plant Research Note RH-91-36 (Poole, Chase y Osborne), copia archivada",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/68706/yucca-elephantipes/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de Yucca elephantipes",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/yucca/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo de Yucca",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/yucca",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:543700-1",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://edis.ifas.ufl.edu/publication/ST676",
+      "institucion": "UF/IFAS Extension, EDIS ST676 (Yucca gigantea 'Variegata')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

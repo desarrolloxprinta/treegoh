@@ -1,0 +1,342 @@
+{
+  "nombre_cientifico": "Astrophytum asterias",
+  "nombres_comunes": [
+    "astrophytum",
+    "cactus estrella",
+    "cactus erizo de mar",
+    "cactus dólar de arena",
+    "kabuto"
+  ],
+  "familia": "Cactaceae",
+  "origen": "Sur de Texas (EE. UU.) y noreste de México (Nuevo León, Tamaulipas) (POWO; Flora of North America). En EE. UU. solo se conoce en el condado de Starr, Texas (FNA; US Fish & Wildlife Service). Especie amenazada en su hábitat: en peligro según la Ley de Especies Amenazadas de EE. UU. desde el 18 de octubre de 1993 (USFWS, Federal Register 2002), incluida en el Apéndice I de CITES desde el 22/10/1987 y en el Anexo A del Reglamento de comercio de especies silvestres de la UE (Species+, UNEP-WCMC/CITES). Las plantas que se venden en España son de semilla de vivero; los cultivares 'Super Kabuto' y 'Kikko' son selecciones de cultivo (NC State).",
+  "clima_nativo": "Matorral espinoso tamaulipeco a 20-100 m de altitud: pastizales, matorrales, laderas de grava y suelos profundos de llanura (FNA). Veranos cálidos y húmedos e inviernos cortos y secos (NC State, género); florece de marzo a mayo y de forma esporádica tras las lluvias de verano (FNA). Crece en arcillas o francos con grava, en claros entre matorrales de mezquite, a menudo al borde de la copa de un arbusto nodriza (Castela erecta, Opuntia leptocaulis) o al descubierto (Terry, Price y Poole, USDA Forest Service). En sequía el tallo se aplana y queda casi a ras del suelo (Terry et al.; FNA).",
+  "categoria": "cactus",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Sin hojas ni espinas. El cuerpo es un tallo único, aplanado o en cúpula baja, como un erizo de mar o una galleta: en la naturaleza hasta 7 cm de alto y 15 cm de diámetro (Terry et al.); NC State da unos 6 cm de alto y 15 cm de ancho. Superficie verde oscura, verde grisácea o pardo-dorada, algo brillante y dura, salpicada de pequeñas motas blancas (mechones de pelos de 0,5-1 mm, fuera de las areolas) (FNA; Terry et al.).",
+    "nerviacion": "No aplica (cactus sin hojas). Rasgo clave: normalmente 8 costillas muy bajas, casi planas o redondeadas, separadas por surcos estrechos, que forman una estrella vista desde arriba; por el centro de cada costilla corre una fila de areolas redondas de 3-5 mm con lana amarilla o gris, sin espinas (FNA; Terry et al.).",
+    "variegacion": "La especie silvestre no es variegada. Hay selecciones de cultivo muy variables: 'Super Kabuto' con motas blancas tan densas que forman bandas o cubren casi todo el cuerpo, y 'Kikko' con areolas y relieve en forma de hexágonos (NC State). También se ven en el comercio formas sin motas ('nudum') y formas amarillas o rojizas variegadas ('Nishiki') [orientativo, sin fuente prioritaria para estas dos últimas]. Muchas plantas de coleccionista se venden injertadas sobre un patrón verde de otro cactus [orientativo, sin fuente prioritaria].",
+    "tallo": "Tallo único, rara vez ramificado, hundido en el suelo; corteza y médula duras, no mucilaginosas (FNA, género). Raíces fibrosas, con una raíz principal diminuta (≈10 % del diámetro del tallo); si se corta la parte aérea la planta no rebrota (Terry et al.). Flor diurna en el ápice, en embudo, de 4,5-5,4 cm, amarilla con el centro rojo o anaranjado y exterior muy lanoso; fruto verde o rosado a rojo, de 1,5-2 cm, lanoso (FNA).",
+    "habito": "Cactus globoso deprimido, solitario y de crecimiento muy lento. En sequía se aplana y queda casi a ras del sustrato (Terry et al.).",
+    "tamano_adulto_interior": "En maceta suele medir 3-10 cm de diámetro y 2-5 cm de alto tras muchos años [orientativo, sin fuente prioritaria]. Máximo en la naturaleza: 7 cm de alto y 15 cm de diámetro (Terry et al.).",
+    "confusiones": [
+      {
+        "especie": "Lophophora williamsii (peyote)",
+        "rasgo_diferenciador": "El peyote tiene el tallo muy blando y de un azul verdoso pálido uniforme, sin motas blancas, con mechones de pelos en las areolas y una raíz gruesa en forma de nabo; A. asterias es duro, verde con motas blancas brillantes y de raíces fibrosas (FNA; Terry et al.). En Texas se le llama 'star peyote' por este parecido."
+      },
+      {
+        "especie": "Astrophytum myriostigma (mitra de obispo)",
+        "rasgo_diferenciador": "Tiene 3-7 costillas (casi siempre 5) anchas y marcadas que terminan en arista, por lo que vista desde arriba es una estrella de puntas agudas, y se hace columnar con la edad (hasta 60 cm); A. asterias tiene unas 8 costillas casi planas y sigue siendo una cúpula baja (Missouri Botanical Garden; NC State)."
+      },
+      {
+        "especie": "Astrophytum capricorne y Astrophytum ornatum",
+        "rasgo_diferenciador": "Tienen espinas largas, curvadas (capricorne) o rectas y rígidas (ornatum); A. asterias no tiene espinas (NC State; FNA)."
+      },
+      {
+        "especie": "Astrophytum coahuilense",
+        "rasgo_diferenciador": "Parecido a A. myriostigma, con 5 costillas y motas grises; A. asterias tiene 8 costillas muy bajas (NC State)."
+      },
+      {
+        "especie": "Euphorbia obesa",
+        "rasgo_diferenciador": "Es una euforbia, no un cactus: sin areolas ni lana, con bandas transversales pardo-rojizas y látex blanco irritante si se hiere [orientativo, sin fuente prioritaria]. Importante para la toxicidad."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se describe toxicidad química. NC State etiqueta el género Astrophytum como no tóxico para gatos y perros. No tiene espinas, por lo que tampoco hay riesgo mecánico apreciable. Si un animal se come un trozo pueden aparecer molestias digestivas leves por ingerir material vegetal [orientativo, sin fuente prioritaria].",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F10"
+    ],
+    "notas": "ASPCA no tiene ficha de Astrophytum asterias ni del género (listas de perros y gatos revisadas el 2026-10-21; solo recoge como no tóxicos otros cactus, como Echinopsis multiplex o Mammillaria fragilis). La etiqueta de NC State es del género, no de la especie: por eso la confianza es Media. Ninguna fuente prioritaria habla de personas, así que para niños se deja 'desconocida'. El nombre 'star peyote' se debe al parecido con el peyote (FNA), no a que tenga sus alcaloides: no se ha encontrado una fuente prioritaria que lo confirme o lo descarte."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur, este u oeste muy luminosa, con varias horas de sol (RHS: alféizar soleado todo el año). En verano en Madrid, sol de mañana y de última hora de la tarde, pero filtrado con una cortina fina en las horas centrales (11-15 h) en ventanas sur u oeste. Norte: insuficiente.",
+      "tolera_sol_directo": "Sí, con matices. NC State indica pleno sol (6 h o más) para el género y la RHS luz intensa todo el año. Pero en su hábitat crece a menudo bajo el borde de la copa de un arbusto nodriza o en claros (Terry et al.), y la Univ. de Minnesota pide evitar el sol fuerte de 11 a 15 h al sacar los cactus al exterior y aclimatarlos poco a poco. Los cambios bruscos de luz provocan sarna corchosa (RHS) y quemaduras.",
+      "notas": "Escala del proyecto: luz directa >1000 fc (>10760 lux); lux_min en el umbral inferior de esa categoría. Ninguna fuente fija techo (lux_max = null): el límite es la quemadura por cambio brusco de exposición o por sol abrasador detrás del cristal. Con poca luz se alarga, pierde la forma plana y se debilita (RHS: crecimiento débil y deforme con poca luz) [la forma concreta en A. asterias es orientativa, sin fuente prioritaria]. Si falta luz natural, tubos fluorescentes o LED (Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F9"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco por completo: comprobar con un palillo o con el dedo a 5 cm (hasta el fondo en macetas pequeñas) y por el peso de la maceta, que debe estar ligera. Regar a fondo, dejar escurrir y vaciar el plato a los pocos minutos (Univ. Minnesota). Nunca por calendario. El sustrato tiene que secarse del todo entre riegos (NC State; Univ. Minnesota).",
+      "primavera_verano": "Riego profundo cada vez que el sustrato se seque por completo; con más luz y calor necesita más agua (Univ. Minnesota). En macetas pequeñas en Madrid esto suele ocurrir cada 10-20 días en pleno verano [orientativo, sin fuente prioritaria para la frecuencia]. Con calor extremo (>35 °C) la planta frena su crecimiento: espaciar los riegos y regar al atardecer [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Mantenerla seca cuando refresca (NC State). En reposo, de noviembre a principios de marzo, solo regar si se arruga mucho (RHS; Univ. Minnesota): un sorbo pequeño en un día templado, y nada si la planta está fría (<10 °C) [umbral orientativo, sin fuente prioritaria].",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "La RHS recomienda agua de lluvia templada porque los minerales del grifo se acumulan en el sustrato. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve; si aparecen costras blancas, regar a fondo dejando drenar para lavar sales. Dejar reposar el agua no elimina la cloramina, pero no es un problema para esta planta.",
+      "notas": "El exceso de riego es la causa nº 1 de muerte, y en esta especie más aún: no tolera el agua estancada ni el sustrato empapado (NC State); el agua retenida pudre en muy poco tiempo (Univ. Minnesota). Sus raíces son fibrosas y finas (Terry et al.) y, si se pudre la base, la planta no rebrota. Que el cuerpo se aplane o se arrugue un poco en verano seco o en invierno es normal (Terry et al.: se aplana en sequía); se recupera tras un riego en época de crecimiento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F9"
+      ]
+    },
+    "humedad": {
+      "min_pct": 10,
+      "ideal_pct": null,
+      "notas": "Los cactus se adaptan bien a la humedad baja de las viviendas, del 10 al 30 % (Univ. Minnesota); el género prospera en climas secos y semiáridos (NC State). La humedad alta con poca ventilación favorece la pudrición. No pulverizar ni usar humidificador; buena ventilación. Sin valor ideal verificado (ideal_pct = null).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 35,
+      "ideal_min_c": 21,
+      "ideal_max_c": 35,
+      "notas": "Mínima adoptada 7 °C (convención del proyecto para cactus del desierto: noches de reposo de 8-10 °C y nunca por debajo de 5-7 °C; se toma el extremo prudente). RHS: noches de 8-10 °C en reposo. NC State (género): tolera inviernos de 40-70 °F (4-21 °C) y veranos de 70-95 °F (21-35 °C), zonas USDA 9a-11b. Contradicción: el extremo de 4 °C de NC State es más bajo que la convención; se descarta por menos conservador para una maceta con sustrato que puede estar húmedo. El frío excesivo causa muerte regresiva y manchas descoloridas (RHS). Ideal de crecimiento (primavera-verano): 21-35 °C, el rango de verano que da NC State. Máxima: 35 °C es el techo del rango que da NC State, no un límite letal comprobado; por encima, sobre todo detrás de un cristal al sol, hay riesgo de quemadura y conviene ventilar y sombrear en las horas centrales [orientativo, sin fuente prioritaria para el límite letal].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Muy mineral y drenante. RHS: compost para cactus sin turba, o John Innes nº 2 sin turba con hasta un 30 % de grava (o 2 partes de John Innes nº 2 por 1 de grava hortícola o arena gruesa), con una capa de grava por encima. Univ. Minnesota: 1 parte de sustrato y 1 de arena gruesa; al apretarlo húmedo debe deshacerse al soltarlo. Para esta especie, tan sensible a la pudrición, conviene aún más parte mineral (por ejemplo, 50-70 % de pómez, akadama o grava fina) [orientativo, sin fuente prioritaria para el porcentaje]. Maceta siempre con agujero de drenaje.",
+      "ph": "NC State indica suelo ácido (por debajo de 6,0) para el género; es un dato de género y no se ha confirmado para la especie. En su hábitat crece en arcillas y francos con grava (Terry et al.).",
+      "drenaje": "Excelente; no tolera el agua estancada ni el sustrato empapado (NC State). El agua retenida pudre las raíces en muy poco tiempo (Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido específico para cactus o abono líquido rico en potasio (RHS).",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo. Convención del proyecto: ¼-½ de la dosis de etiqueta una vez al mes de abril a septiembre (la RHS indica una vez al mes en esa época; la Univ. de Minnesota, solo 1-2 veces al año a finales de primavera o en verano). Para un cactus tan lento, 2-3 aportes al año bastan [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Nada.",
+      "notas": "Contradicción menor de frecuencia (RHS mensual frente a Univ. Minnesota 1-2 veces al año); se adopta la dosis reducida del proyecto, compatible con ambas. Ninguna fuente da una fórmula NPK para esta especie (npk = null).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente por su crecimiento muy lento: solo cuando las raíces llenen la maceta o el sustrato deje de drenar, cada 2-4 años [orientativo, sin fuente prioritaria para el intervalo].",
+      "epoca": "Primavera (RHS).",
+      "senales": "Raíces saliendo por el drenaje, planta que ha ocupado la maceta, sustrato compactado o que tarda mucho en secarse. Evitar macetas demasiado grandes, porque el sustrato sobrante se queda húmedo y causa pudrición (RHS). Como sus raíces son fibrosas y poco profundas (Terry et al.), una maceta baja y ancha le va bien [orientativo]. Trasplantar con el sustrato seco, no regar hasta pasada una semana para que cicatricen las raíces dañadas [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F9"
+      ]
+    },
+    "poda": {
+      "necesita": "No. No se poda ni se le pueden sacar esquejes: si se le corta la parte aérea no rebrota (Terry et al.).",
+      "epoca": "No aplica.",
+      "como": "Solo si hay pudrición: con un cuchillo limpio, retirar el tejido blando y oscuro hasta llegar a tejido verde y firme, dejar secar la herida varios días en lugar seco y sin riego. Si la pudrición afecta a la base, el ejemplar suele perderse; los coleccionistas a veces salvan la parte sana injertándola [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F9",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a principios de marzo (RHS). Hemisferio sur: de mayo a principios de septiembre (desplazamiento de 6 meses).",
+      "cambios": "Lugar fresco, seco y luminoso, con algo de sol (NC State: habitación fresca y seca con algo de sol); noches de 8-10 °C (RHS) y nunca por debajo de 7 °C (convención del proyecto). Sin riego o casi (RHS; Univ. Minnesota: solo para que no se arrugue). Sin abono. Lejos de radiadores (RHS). Univ. Minnesota: buena luz, sustrato seco y noches frescas ayudan a que florezca.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "injerto (técnica de coleccionista)"
+      ],
+      "epoca": "Siembra en primavera (RHS).",
+      "pasos": "La única vía práctica es la semilla: NC State la recomienda para el género y Terry et al. indican que se cultiva con facilidad a partir de semilla; no da hijuelos ni se puede esquejar (no rebrota si se corta, Terry et al.). Pasos (RHS, siembra de cactus): 1) Sembrar en primavera en John Innes nº 1 sin turba con grava o arena gruesa añadida. 2) Mantener las plántulas calientes y con mucha luz pero sin sol directo, ventilando a diario. 3) Repicarlas cuando se puedan manejar. Para obtener semilla propia hacen falta normalmente dos plantas distintas, porque la especie tiene un mecanismo que impide la autofecundación [orientativo, sin fuente prioritaria leída: el informe TX E-46-R de Texas Parks and Wildlife es un escaneo sin texto legible y solo se vio su título/objetivo]. El injerto de plántulas sobre un patrón vigoroso acelera el crecimiento y es habitual en viveros de coleccionista [orientativo, sin fuente prioritaria]. Comprar solo plantas de vivero: la recolección en la naturaleza está prohibida (CITES Apéndice I; Species+).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F9",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la base (blanda, oscura, translúcida) por exceso de riego, agua estancada o sustrato poco mineral, sobre todo con frío; la causa más frecuente de muerte (NC State; Univ. Minnesota). Esta especie no rebrota si se pierde la base (Terry et al.)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Raíces fibrosas podridas por sustrato que no se seca, maceta demasiado grande o riego en reposo invernal (NC State; RHS; Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Cuerpo arrugado o muy aplanado: normal en parte en sequía y en reposo invernal (se aplana en sequía, Terry et al.); si se arruga mucho en primavera-verano, falta riego, o bien las raíces están podridas y no absorben (revisar raíces antes de regar más)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura o blanqueo amarillento-pardo por pasar de golpe de poca luz a sol fuerte, o por sol abrasador detrás del cristal en ventanas sur y oeste de Madrid en verano (Univ. Minnesota: evitar el sol de 11 a 15 h y aclimatar)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas pardas secas y corchosas (sarna corchosa) por cambios bruscos de luz, o manchas descoloridas por frío excesivo (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las areolas lanosas, en los surcos y en la base de las raíces (NC State); se confunde con la lana y las motas blancas de la planta, igual que en Astrophytum myriostigma (Missouri Botanical Garden)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre la epidermis o en los surcos (NC State; RHS); también se disimula entre las motas blancas (Missouri Botanical Garden, A. myriostigma)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State; RHS), favorecida por el aire muy seco y caliente de la calefacción o del verano madrileño; deja la epidermis punteada y parda."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Crecimiento alargado, ápice pálido y pérdida de la forma plana por poca luz, sobre todo con riego y calor en invierno (RHS: crecimiento débil por riego en reposo y poca luz)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento muy lento por naturaleza; si no crece nada en primavera-verano, suele deberse a raíces dañadas por exceso de riego (RHS: el exceso de agua daña raíces y frena el crecimiento) o a poca luz."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales en el sustrato o la maceta por minerales del agua o abono acumulados (RHS); lavar con un riego abundante en época de crecimiento."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, ventana sur, este u oeste con sol de mañana o de tarde, pero con cortina fina en las horas centrales (11-15 h) si da el sol de lleno a través del cristal; ventilar, porque detrás del vidrio la temperatura puede superar los 35 °C que da NC State como tope. Si se saca a la terraza, aclimatar en 2-3 semanas empezando en semisombra (Univ. Minnesota) y protegerla de tormentas que encharquen la maceta. Riego a fondo solo cuando el sustrato esté totalmente seco, preferiblemente al atardecer; con calor extremo y planta parada, espaciar los riegos [orientativo]. Vigilar araña roja con el aire seco (HR exterior ≈38 %).",
+    "invierno": "Reposo seco de noviembre a principios de marzo: el mejor sitio es una habitación sin calefacción o un rincón fresco junto a una ventana luminosa, con noches de 8-10 °C (RHS) y nunca por debajo de 7 °C; no dejarla en una terraza de Madrid, donde puede helar. La humedad interior <30 % no le perjudica (Univ. Minnesota: 10-30 %). Lejos de radiadores (RHS). Si solo hay sitio en una habitación con calefacción, darle la máxima luz y regar todavía menos para que no se alargue ni se pudra. Si está pegada a un cristal muy frío, que no toque el vidrio.",
+    "ubicacion_recomendada": "Alféizar o mesa junto a una ventana sur, este u oeste, con al menos 4-6 h de luz muy intensa al día, cortina fina en las horas centrales del verano, y en invierno en una estancia fresca (8-10 °C por la noche) y luminosa, lejos de radiadores."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Astrophytum asterias (Zucc.) Lem., publicado en Cactées: 50 (1868); sinónimo homotípico Echinocactus asterias Zucc. (1845) y 8 sinónimos heterotípicos (variedades de Frič, Y. Itô y H. Moeller, como var. nudum y var. roseiflorum). Species+ (CITES) da el autor como (Karwinski ex Zuccarini) Lemaire. Sin cambio de nombre.",
+    "No existe ficha de cultivo específica de la especie en RHS, Missouri Botanical Garden ni NC State (esta solo tiene la página del género Astrophytum, con datos de A. asterias en la lista de cultivares). Los cuidados proceden de fuentes de género (NC State) y de las guías generales de cactus de la RHS y la Univ. de Minnesota, completadas con la ecología de la especie (FNA; Terry, Price y Poole).",
+    "Toxicidad: ASPCA sin entrada; solo la etiqueta de género de NC State (no tóxica para perros y gatos). Sin datos para personas ni sobre alcaloides en la especie.",
+    "pH: el dato de NC State (ácido, <6,0) es de género; no se ha encontrado fuente prioritaria sobre el pH ideal del sustrato para A. asterias. Birnbaum (Texas State University) describe suelos salino-sódicos en parte de las poblaciones, pero no se pudo abrir el documento.",
+    "Humedad: solo la Univ. de Minnesota da cifras (10-30 % para cactus en general); sin valor ideal.",
+    "Temperatura máxima: el tope de 35 °C es el rango de verano tolerado según NC State (género), no un límite letal estudiado.",
+    "Injerto: práctica habitual en viveros de coleccionista (sobre todo 'Super Kabuto'), sin fuente prioritaria que la describa para esta especie.",
+    "No se pudo abrir el informe completo de Texas Parks and Wildlife TX E-46-R (escaneado, sin texto) ni el plan de recuperación del USFWS de 2003; solo se usaron sus objetivos y el resumen del Federal Register.",
+    "Frecuencias de riego, intervalo de trasplante, porcentaje de parte mineral del sustrato y tamaño habitual en maceta sin fuente prioritaria (marcados como orientativos).",
+    "Autoincompatibilidad (necesidad de dos plantas para obtener semilla) sin fuente prioritaria leída: el informe TPWD TX E-46-R no tiene texto extraíble; la revisión del orquestador lo marcó orientativo."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/astrophytum/",
+      "institucion": "NC State Extension – Gardener Plant Toolbox, Astrophytum (Star Cactus), página del género con A. asterias y sus cultivares",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=242412263",
+      "institucion": "Flora of North America (vol. 4, Cactaceae), Astrophytum asterias – eFloras (Missouri Botanical Garden y Harvard University Herbaria)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=103011",
+      "institucion": "Flora of North America (vol. 4), género Astrophytum (A. D. Zimmerman y B. D. Parfitt) – eFloras",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:128907-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Astrophytum asterias (Zucc.) Lem.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://speciesplus.net/species#/taxon_concepts/24757/legal",
+      "institucion": "Species+ (UNEP-WCMC y Secretaría CITES) – Astrophytum asterias: Apéndice I de CITES desde 22/10/1987; Anexo A de la UE (Reglamento (UE) 2026/1383)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2002-10-17/pdf/02-26376.pdf",
+      "institucion": "US Fish and Wildlife Service – Federal Register 67 (17/10/2002): Notice of Availability of the Draft Recovery Plan for the Star Cactus (Astrophytum asterias)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.fs.usda.gov/rm/pubs/rmrs_p048/rmrs_p048_115_121.pdf",
+      "institucion": "USDA Forest Service, Proceedings RMRS-P-48 – Terry, M., Price, D. y Poole, J. (Sul Ross State University; Texas Parks and Wildlife Department): A Tale of Two Cacti – peyote and endangered star cactus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA – Toxic and Non-Toxic Plants (listas de gatos y perros; sin entrada para Astrophytum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=278555",
+      "institucion": "Missouri Botanical Garden – Plant Finder, Astrophytum myriostigma (para confusiones y plagas del género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://api.gbif.org/v1/species/match?name=Astrophytum%20asterias&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy – comprobación del nombre aceptado",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://tpwd.texas.gov/business/grants/wildlife/section-6/docs/plants/e46_final_report.pdf",
+      "institucion": "Texas Parks and Wildlife Department – Final Report TX E-46-R: The Research and Recovery of Star Cactus (Janssen, Poole y Williamson, 2010) (escaneo sin texto legible; no respalda datos de cultivo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

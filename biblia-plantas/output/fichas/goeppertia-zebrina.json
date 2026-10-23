@@ -1,0 +1,343 @@
+{
+  "nombre_cientifico": "Goeppertia zebrina",
+  "nombres_comunes": [
+    "calathea zebrina",
+    "planta cebra",
+    "calatea cebra"
+  ],
+  "familia": "Marantaceae",
+  "origen": "Brasil: POWO (Kew) la da como nativa de Brasil Nordeste, Sur y Sudeste, e introducida en República Dominicana, Islas de Sotavento, Puerto Rico, Trinidad y Tobago y Antillas venezolanas (POWO; NC State repite esta distribución). Selvas tropicales húmedas de Brasil, bajo el dosel de los árboles (NC State). Hasta hace poco se llamaba Calathea zebrina (Sims) Lindl.; el nombre aceptado hoy es Goeppertia zebrina (Sims) Nees (POWO, RHS). El epíteto zebrina significa 'con rayas como una cebra' (NC State).",
+  "clima_nativo": "Sotobosque de selva tropical húmeda: cálido, sombreado y húmedo todo el año, sin heladas (NC State). Zonas USDA 10a-11b (NC State) o 10-13 (Chicago Botanic Garden). RHS H1A: en Reino Unido solo bajo cristal todo el año (>15 °C), con una temperatura constante de al menos 16 °C.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, oblongas a elípticas con punta aguda, grandes: 38-50 cm de largo y 15-20 cm de ancho (NC State: 15-20 in × 6-8 in; hasta 18 in en el texto general), sobre pecíolos largos de 25-30 cm que salen del suelo (NC State; RHS: hojas de pecíolo largo). Rasgo clave para visión: textura ATERCIOPELADA y mate en el haz (NC State: 'velvety'; UF/IFAS EP285 describe así la variedad comercial próxima 'Tigrinum'), con bandas alternas regulares de verde oscuro y verde claro o lima que van desde el nervio central hasta el margen siguiendo los nervios laterales, en espiga, como las rayas de una cebra; el nervio central y el margen suelen ser verde claro (NC State, UF/IFAS EP285, RHS, Chicago Botanic Garden). Envés rojo-púrpura o púrpura (NC State, RHS). Margen entero (NC State). Comportamiento diagnóstico: al atardecer las hojas se pliegan hacia arriba 'como manos que rezan' y se vuelven a abrir por la mañana (nictinastia, NC State, RHS guía); en fotos nocturnas aparecen erguidas mostrando el envés púrpura, lo que es normal.",
+    "nerviacion": "Pinnada: nervio central marcado y nervios laterales paralelos, oblicuos y muy regulares; las bandas claras siguen los nervios laterales y las oscuras quedan entre ellos (NC State, UF/IFAS EP285).",
+    "variegacion": "Dibujo natural y constante de la especie: bandas alternas verde oscuro y verde claro en el haz y envés púrpura (NC State, RHS). Con poca luz el color se apaga (NC State) y con sol directo se queman y decoloran las hojas (NC State). El cultivar 'Snow White' tiene hojas verde oscuro con nervios blancos (NC State).",
+    "tallo": "Sin tallo aéreo: planta rizomatosa en mata cuyas hojas salen del suelo; los pecíolos largos y envainantes hacen de 'tallos' (NC State: tallos envainados; RHS: mata de hojas de pecíolo largo).",
+    "habito": "Herbácea perenne siempreverde, rizomatosa, en mata compacta y erguida (NC State, RHS). Flores pequeñas blancas o violetas con brácteas pardo-violáceas, en estructuras cónicas escondidas bajo el follaje; rara vez florece en interior (NC State, RHS, Chicago Botanic Garden).",
+    "tamano_adulto_interior": "30-90 cm de alto y 30-60 cm de ancho en interior (NC State: 1-3 ft de alto y 1-2 ft de ancho; 'hasta 3 ft' en casa). La RHS da 0,5-1 m de alto y 0,1-0,5 m de ancho, alcanzados en 5-10 años. Es una de las calatheas grandes del comercio.",
+    "confusiones": [
+      {
+        "especie": "Goeppertia insignis / G. lancifolia (calathea serpiente de cascabel)",
+        "rasgo_diferenciador": "Hojas largas, estrechas y lanceoladas con margen muy ondulado, sin textura aterciopelada, y manchas ovaladas oscuras alternas grandes y pequeñas sobre fondo verde amarillento (NC State la cita como confusión frecuente; descripción de UF/IFAS EP285). G. zebrina tiene hojas anchas, oblongas, aterciopeladas y bandas regulares de nervio a margen."
+      },
+      {
+        "especie": "Goeppertia majestica y G. ornata",
+        "rasgo_diferenciador": "Hojas verde oscuro brillantes con finas líneas rosas o blancas por parejas desde el nervio central (UF/IFAS EP285); G. zebrina no tiene líneas finas rosas o blancas sino bandas anchas verde claro y oscuro y tacto aterciopelado (NC State cita la confusión con G. majestica)."
+      },
+      {
+        "especie": "Maranta leuconeura (maranta, planta de la oración)",
+        "rasgo_diferenciador": "Planta baja, extendida o algo colgante, con hojas elípticas pequeñas (unos 10-15 cm) sobre pecíolos cortos y nervios rojos o manchas oscuras entre nervios; G. zebrina es erguida, con hojas de 38-50 cm sobre pecíolos largos (NC State cita la confusión)."
+      },
+      {
+        "especie": "Ctenanthe oppenheimiana y C. lubbersiana",
+        "rasgo_diferenciador": "Las Ctenanthe forman tallos aéreos que ramifican y hojas lanceoladas; C. oppenheimiana tiene bandas plateadas en espiga sobre verde oscuro y C. lubbersiana variegación amarilla irregular. G. zebrina no tiene tallo aéreo y sus bandas son verde lima sobre hoja aterciopelada (NC State cita ambas confusiones)."
+      },
+      {
+        "especie": "Goeppertia warszewiczii y otras calatheas aterciopeladas",
+        "rasgo_diferenciador": "Comparten el tacto aterciopelado; G. warszewiczii tiene un dibujo en espiga claro limitado a la zona del nervio central sobre fondo verde oscuro, mientras G. zebrina tiene bandas claras y oscuras alternas que llegan hasta el margen. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Aphelandra squarrosa, Alocasia zebrina y Tradescantia zebrina (también llamadas 'cebra')",
+        "rasgo_diferenciador": "Comparten nombre común o epíteto pero son otras familias: Aphelandra squarrosa (Acanthaceae) tiene tallo leñoso, hojas brillantes con nervios blancos y brácteas amarillas; Alocasia zebrina (Araceae) se reconoce por los pecíolos con rayas tipo cebra y hojas sagitadas lisas; Tradescantia zebrina (Commelinaceae) es colgante con hojas pequeñas plateadas y moradas. Importante no confundirlas al buscar cuidados o toxicidad por nombre común (Alocasia es tóxica)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos (ASPCA: Calathea spp., 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'; NC State etiqueta G. zebrina como no tóxica para perros, gatos y caballos). No se describe ningún principio tóxico. Que no sea tóxica no significa que sea comestible: si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En niños no hay fuente fiable específica de esta especie; ante una ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario. Ojo: 'planta cebra' también designa a Alocasia zebrina, que sí es tóxica; comprobar la identificación.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1"
+    ],
+    "notas": "Perros y gatos: confianza Alta (ASPCA a nivel de género Calathea spp.; NC State a nivel de especie). La ASPCA no tiene entrada con el nombre Calathea zebrina; su nombre común 'Zebra Plant' aparece como sinónimo en entradas de Calathea insignis y de Cryptanthus zonatus, ambas no tóxicas. Niños: no se encontró ninguna fuente prioritaria ni de centro toxicológico para esta especie, por eso se marca 'desconocida' en lugar de suponer la no toxicidad del género (mismo criterio que G. orbifolia)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 1076,
+      "lux_max": 5380,
+      "orientacion_hn": "Junto a una ventana norte o este luminosa, o a 1,5-2 m de una ventana sur u oeste con cortina fina. La ficha RHS de la especie admite orientación norte, este u oeste en semisombra; la guía RHS sugiere ventana norte o este en verano y acercarla a una ventana sur en invierno, cuando la luz es más débil. En Madrid, mantener cortina fina en ventanas sur y oeste incluso en invierno.",
+      "tolera_sol_directo": "No. El sol directo quema las hojas (NC State: leaf scorch) y la RHS pide luz brillante indirecta o filtrada; la guía RHS: sitio luminoso protegido del sol directo. Chicago Botanic Garden la clasifica en semisombra a sombra.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ],
+      "notas": "UF/IFAS EP285 da para el género en interior una tolerancia mínima de 75 fc (≈800 lux) y un óptimo de 150-200 fc (≈1600-2150 lux), dentro de la luz media de la escala del proyecto (100-500 fc). Se fija lux_min = 100 fc (1076 lux) y lux_max = 500 fc (5380 lux) como rango de mantenimiento, igual que G. makoyana. Con poca luz el color se apaga (NC State). NC State habla de 'luz brillante indirecta o semisombra'; se adopta luz media sin sol directo."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese menos que recién regada; el resto del cepellón debe seguir algo húmedo. Debe estar húmedo pero nunca encharcado (NC State: 'moist, but avoid overwatering or soggy soils'; UF/IFAS EP285: dejar secar ligeramente la superficie antes de regar). Regar a fondo hasta que drene y vaciar plato o cubremacetas a los 10-15 minutos: con las raíces en agua se pudren con facilidad (RHS guía). Regar al sustrato, sin mojar las hojas, porque el agua sobre ellas favorece la mancha foliar (NC State). Nunca por calendario.",
+      "primavera_verano": "Riego moderado manteniendo el sustrato uniformemente húmedo (RHS ficha y guía). Comprobar dedo y peso con frecuencia: en Madrid en verano puede necesitar agua cada 2-4 días según maceta y exposición. Las hojas enrolladas de día avisan de falta de agua o de humedad (NC State).",
+      "otono_invierno": "Mantener el sustrato solo ligeramente húmedo (RHS ficha: 'keep just moist in winter'): dejar secar la superficie antes de volver a regar, pero sin que el cepellón se seque del todo (RHS guía). Con calefacción el sustrato puede secarse rápido: guiarse por dedo y peso. El sustrato demasiado húmedo en invierno favorece el edema (RHS guía).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente. Es sensible a las sales: en interior la conductividad del sustrato debería estar en 1,0-1,5 dS/m y el exceso de abono (sobre todo manganeso) o un pH bajo causan necrosis de puntas y márgenes (UF/IFAS EP285); lavar el sustrato con un riego abundante cada pocos meses para arrastrar sales de abono. NC State recomienda agua destilada o de lluvia por el flúor del agua del grifo, pero el agua del Canal de Isabel II tiene fluoruro <0,1 mg/L y es blanda (10-47 mg/L CaCO3): es apta y no es la causa de las puntas marrones en Madrid. Dejar reposar el agua no elimina la cloramina del Canal, y tampoco hace falta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Intolerante tanto al encharcamiento como a la sequía: el exceso de riego causa pudrición de raíz (NC State) y la falta de agua, hojas enrolladas y bordes secos (NC State). El exceso de riego es la causa nº 1 de muerte. Una planta lacia puede serlo por sequía o por raíces enfermas (UF/IFAS EP285): si está lacia con el sustrato húmedo, no regar y revisar raíces. Contradicción con las convenciones del proyecto: NC State atribuye bordes marrones al flúor del agua del grifo y la guía RHS dice que dejar reposar el agua 24 h elimina el cloro; en Madrid no aplica ninguna de las dos (fluoruro <0,1 mg/L, desinfección con cloramina)."
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 65,
+      "notas": "Es de las calatheas más exigentes en humedad: NC State pide una humedad relativa 'por encima del 60 %'; la RHS pide humedad alta y Chicago Botanic Garden dice que necesita humedad alta para prosperar y que con humedad baja es propensa a la araña roja. UF/IFAS EP285 (género) indica que en interior las calatheas conservan su aspecto con 40-60 %. Se toma 50 % como mínimo práctico (más conservador que el género, mismo criterio que G. orbifolia) e ideal 60-70 %, que en Madrid casi solo se logra con humidificador. Con humedad baja se secan bordes y puntas y las hojas se enrollan (NC State, RHS guía). Pulverizar no sube la humedad de forma útil (convención del proyecto, aunque la guía RHS lo mencione) y además mojar las hojas favorece la mancha foliar (NC State): usar humidificador o agrupar plantas. La bandeja con grava húmeda (RHS guía) aporta poco con calefacción. Un baño luminoso es buena ubicación (RHS guía); también vitrinas o terrarios grandes (NC State). Revisión del orquestador: min_pct subido a 60 % para cumplir la cifra de NC State (más del 60 %), opción más conservadora.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 18-24 °C (NC State: temperatura constante de 65-75 °F); la guía RHS da 16-21 °C y UF/IFAS EP285 18-27 °C en interior para el género. Mínimo: la ficha RHS de la especie pide una temperatura constante de al menos 16 °C; NC State, que la entre en casa antes de que baje de 60 °F (15,6 °C); UF/IFAS da daño por frío por debajo de 55 °F (13 °C) para el género. Se adopta 16 °C, el más alto (conservador), igual que G. orbifolia (G. makoyana tiene 15 °C). Máximo: no hay dato de especie; UF/IFAS produce el género a 21-32 °C pero con 50-100 % de humedad, imposible en casa; se fija 30 °C como límite práctico con aire seco [orientativo, sin fuente prioritaria]. Evitar cambios bruscos y corrientes frías (NC State, RHS), radiadores y aire acondicionado directo (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato rico en materia orgánica, que retenga humedad y drene bien: NC State recomienda una mezcla a base de turba o un sustrato para violetas africanas; la RHS, compost sin turba para interior, o compost universal con un 10 % de grava fina. Ejemplo práctico: sustrato de fibra de coco o turba con un 20-30 % de perlita. En producción se usa turba, corteza de pino, vermiculita y/o perlita (UF/IFAS EP285).",
+      "ph": "Ligeramente ácido, en torno a 6,0 (UF/IFAS EP285; NC State: ácido <6,0 a neutro; Chicago Botanic Garden: suelos ácidos que retengan humedad)",
+      "drenaje": "Imprescindible maceta con agujeros de drenaje y sustrato bien drenado (NC State, RHS); el encharcamiento causa pudrición de raíz (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (NC State, RHS ficha) o de relación N-P2O5-K2O 3-1-2 (UF/IFAS EP285).",
+      "npk": "Equilibrado o relación 3-1-2 (UF/IFAS EP285)",
+      "primavera_verano": "Una vez al mes en la temporada de crecimiento, de abril a septiembre (NC State, RHS ficha y guía), a ¼-½ de la dosis de la etiqueta (convención del proyecto). Si al trasplantar se mezcló abono de liberación lenta, no hace falta abono líquido el primer año (RHS guía).",
+      "otono_invierno": "Nada de octubre a marzo (RHS guía).",
+      "notas": "Sensible al exceso de sales: el abono excesivo, sobre todo con manganeso alto, y un pH bajo causan necrosis de puntas y márgenes; el exceso de potasio da manchas y colores apagados (UF/IFAS EP285). Mejor quedarse corto que pasarse.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años (NC State), o cada pocos años cuando la mata llena la maceta (RHS guía). Una planta recién comprada puede seguir en su maceta la primera temporada (RHS guía).",
+      "epoca": "Primavera o verano (RHS guía); finales de primavera si se aprovecha para dividir (RHS ficha).",
+      "senales": "Mata que ocupa toda la maceta, raíces saliendo por el drenaje, sustrato que se seca muy rápido o crecimiento estancado. Usar una maceta solo 1-2 tallas mayor y dejar la parte superior del cepellón justo por debajo de la superficie (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS ficha y guía).",
+      "epoca": "Todo el año, a medida que aparezcan hojas secas.",
+      "como": "Cortar las hojas marrones o secas y los pecíolos muertos a ras del sustrato con tijeras limpias (RHS guía). Limpiar el polvo de las hojas aterciopeladas con un paño suave o un pincel, sin dejarlas mojadas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3"
+      ],
+      "notas": " Revisión del orquestador: confianza bajada de Alta a Media porque las dos fuentes prioritarias citadas son páginas de la misma institución (RHS), no fuentes independientes."
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño a finales de invierno en el hemisferio norte (octubre a marzo); en Madrid, mientras los días son cortos.",
+      "cambios": "No es un reposo verdadero: no pierde hojas ni necesita frío. Reducir el riego para mantener el sustrato solo ligeramente húmedo (RHS ficha), suspender el abono (RHS guía) y mantener la temperatura por encima de 16 °C y la humedad lo más alta posible (RHS ficha, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata (rizomas)"
+      ],
+      "epoca": "Finales de primavera (RHS ficha).",
+      "pasos": "1) Sacar la planta de la maceta y retirar con cuidado el sustrato. 2) Separar o cortar el rizoma con un cuchillo limpio en trozos, cada uno con raíces y varias hojas (RHS guía; UF/IFAS EP285: al menos una hoja por trozo). 3) Plantar cada trozo en una maceta proporcionada con sustrato nuevo. 4) Mantener las divisiones cálidas, con humedad alta y el sustrato húmedo pero no encharcado hasta que vuelvan a crecer (RHS guía); se puede cubrir con una bolsa transparente ventilada. Es normal que alguna hoja se seque tras la división. NC State confirma la división como método recomendado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco: la causa habitual de puntas marrones en esta especie, muy exigente en humedad (NC State: humedad baja; RHS guía), sobre todo con la calefacción en invierno y el calor seco del verano en Madrid. También sales de abono acumuladas o abono excesivo (UF/IFAS EP285) y riego irregular con el cepellón secándose del todo. No atribuirlo al cloro ni al flúor del agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones y secos por humedad baja (NC State, RHS guía), radiadores o aire acondicionado cercanos, y exceso de abono o pH bajo del sustrato (UF/IFAS EP285). NC State cita también el flúor del agua del grifo, que no aplica al agua del Canal de Isabel II (fluoruro <0,1 mg/L)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas enrolladas de día por falta de agua o humedad baja (NC State). Ojo: que las hojas se plieguen hacia arriba al atardecer y se abran por la mañana es el movimiento nictinástico normal de la especie (NC State, RHS guía), no un síntoma."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sequía del cepellón o raíces enfermas por exceso de riego (UF/IFAS EP285, NC State). Mirar el sustrato antes de regar: si está húmedo y la planta sigue lacia, sospechar pudrición radicular."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato encharcado (NC State), agua en el plato (RHS guía) o riego abundante en invierno."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemadura por sol directo (NC State: leaf scorch) o daño por frío por debajo de 13 °C, por ejemplo en el transporte tras la compra en invierno o contra un cristal frío (UF/IFAS EP285, RHS guía)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo en ventanas sur u oeste: quema y decolora las hojas (NC State). Frecuente en Madrid en verano."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "El dibujo de bandas pierde contraste con poca luz (NC State: el color se apaga) y con exceso de potasio (UF/IFAS EP285)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha foliar favorecida por mala ventilación y por mojar las hojas al regar (NC State). Regar al sustrato y no pulverizar."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Zonas empapadas de agua en la lámina por edema, sobre todo en invierno con el sustrato demasiado húmedo (RHS guía)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Clorosis por falta de abono (sobre todo nitrógeno y hierro), exceso de riego o luz demasiado alta (UF/IFAS EP285)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Sensible al frío y a los cambios bruscos: un transporte frío tras la compra en otoño-invierno daña las hojas (RHS guía) y necesita temperatura constante (NC State, RHS ficha)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja: plaga principal, muy favorecida por la humedad baja (Chicago Botanic Garden, RHS ficha, NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña fina de araña roja en el envés con el aire seco de la calefacción y del verano madrileño (RHS ficha, Chicago Botanic Garden)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca de invernadero (RHS ficha)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en pecíolos y nervios (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en las hojas jóvenes al desenrollarse (NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato por la superficie siempre empapada; dejar secar los primeros centímetros y regar por abajo (RHS guía)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en el exterior y aire muy seco (HR ≈38 % en julio), es de las calatheas que peor lo llevan: pide más del 60 % de humedad (NC State). Nada de sol directo: en ventanas sur y oeste, retirarla a 1,5-2 m o poner una cortina fina; ventana norte o este es lo ideal (RHS). Mantener la habitación por debajo de unos 28-30 °C si es posible, sin chorro directo del aire acondicionado, que reseca y enfría (NC State: evitar corrientes frías y cambios bruscos). Humidificador hacia un 60 % y agrupar plantas; pulverizar no sirve y mojar las hojas favorece la mancha foliar. Comprobar el sustrato con el dedo y el peso cada 2-3 días: se seca rápido, y la sequía provoca hojas enrolladas y bordes marrones. Vigilar la araña roja en el envés, muy favorecida por el calor seco.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, causa principal de puntas y bordes marrones (NC State, RHS guía): humidificador cerca de la planta (objetivo 50-65 %), agrupar plantas y apartarla al menos 1-1,5 m de radiadores y salidas de aire caliente. De noche los cristales se enfrían: no dejar que las hojas toquen el vidrio y mantenerla de forma constante por encima de 16 °C (RHS ficha). Al comprarla en invierno, transportarla bien envuelta (RHS guía). Reducir el riego manteniendo el sustrato solo ligeramente húmedo y sin abono de octubre a marzo; con calefacción fuerte el sustrato puede secarse rápido, así que mirar dedo y peso. Puede acercarse más a la ventana por la menor luz invernal (RHS guía), con cortina fina en ventanas sur.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana este o norte, o un baño con ventana y buena luz (RHS guía: baños y cocinas son las estancias más húmedas), lejos de radiadores, aire acondicionado y puertas con corriente. Idealmente agrupada con otras tropicales y con humidificador cerca; también va bien en vitrinas o terrarios grandes (NC State). Que las hojas se plieguen hacia arriba al anochecer es normal (NC State) y no debe confundirse con marchitez."
+  },
+  "lagunas": [
+    "Cambio de nombre: POWO (Kew) acepta Goeppertia zebrina (Sims) Nees. Sinónimos homotípicos: Calathea zebrina (Sims) Lindl. (1829), Maranta zebrina Sims (1817), Endocodon zebrinus (Sims) Raf., Phrynium zebrinum (Sims) Roscoe y Phyllodes zebrina (Sims) Kuntze; heterotípicos, entre otros: Calathea binotii, Calathea pulchella, Calathea zebrina var. binotii, C. zebrina var. humilior, Maranta tigrina y Maranta pulchella. Casi todo el comercio y varias fuentes (Chicago Botanic Garden, UF/IFAS) siguen usando Calathea zebrina.",
+    "Missouri Botanical Garden tiene ficha de Calathea zebrina (taxonid=282666), pero la página no devolvió contenido al consultarla (2026-10-21) y no se ha citado.",
+    "La ASPCA no tiene ficha propia de Calathea zebrina: la no toxicidad para perros y gatos se apoya en su entrada de género (Calathea spp.) y en la etiqueta de NC State.",
+    "Toxicidad en niños: sin fuente prioritaria ni centro toxicológico específico para esta especie; se deja 'desconocida'.",
+    "Humedad: solo NC State da una cifra de especie (>60 %); el mínimo de 50 % es un criterio práctico conservador del proyecto, por encima del 40-60 % del género (UF/IFAS EP285).",
+    "Temperatura máxima: no hay dato de especie en fuentes prioritarias; los 30 °C son orientativos.",
+    "Valores en lux derivados de la escala del proyecto y de UF/IFAS EP285 (género, 75 fc mínimo y 150-200 fc óptimo); no hay medida específica para G. zebrina.",
+    "pH: UF/IFAS EP285 (producción comercial del género, ~6,0), NC State (ácido a neutro) y Chicago Botanic Garden (ácido); sin rango numérico de especie.",
+    "Descripción del dibujo: NC State habla de hoja verde oscuro con rayas verde claro y la RHS y UF/IFAS de hoja verde claro con bandas verde oscuro; es el mismo patrón de bandas alternas descrito al revés, no una contradicción de fondo.",
+    "La confusión con Goeppertia warszewiczii se describe sin fuente prioritaria (orientativa)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-zebrina/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Goeppertia zebrina",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/357248/goeppertia-zebrina/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Goeppertia zebrina (zebra plant)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/calathea/how-to-grow-calatheas",
+      "institucion": "Royal Horticultural Society (RHS) – guía 'How to grow calatheas' (nivel de grupo)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/EP285",
+      "institucion": "UF/IFAS Extension – EDIS ENH1030/EP285 'Cultural Guidelines for Commercial Production of Interiorscape Calathea' (University of Florida; nivel de género, incluye C. zebrina)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:796810-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Calathea spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.chicagobotanic.org/plant-information/plant-finder/calathea-zebrina-zebra-calathea",
+      "institucion": "Chicago Botanic Garden – Plant Finder (Calathea zebrina)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,432 @@
+{
+  "nombre_cientifico": "Ulmus parvifolia",
+  "nombres_comunes": [
+    "olmo chino",
+    "bonsái olmo",
+    "olmo de corteza de encaje (lacebark elm)",
+    "olmo chino de hoja pequeña (Chinese elm)"
+  ],
+  "familia": "Ulmaceae (familia de los olmos)",
+  "origen": "Nativo del centro-norte, centro-sur y sureste de China, Taiwán, Japón (incluidas las islas Nansei-shoto), Corea y Vietnam (POWO). Introducido y naturalizado en varios estados de EE. UU., Sudáfrica, Bolivia, Guatemala y Uzbekistán (POWO). Flora of China lo da por debajo de 800 m de altitud en Anhui, Fujian, Guangdong, Guangxi, Guizhou, Hebei, Henan, Hubei, Hunan, Jiangsu, Jiangxi, Shaanxi, Shandong, Shanxi, Sichuan, Taiwán y Zhejiang (F20). Missouri Botanical Garden, UF/IFAS y Minnesota lo resumen como nativo de China, Corea y Japón.",
+  "clima_nativo": "Templado a subtropical de Asia oriental, con inviernos fríos en el norte de su área y suaves en el sur. Es un ÁRBOL de exterior, caducifolio o semiperennifolio, de 12-15 m (hasta 25 m en la naturaleza) (Flora of China en F20; MOBOT; RHS). Muy rústico en el suelo: zonas USDA 4-9 (MOBOT, Minnesota), 5b-10a (UF/IFAS, NC State) y RHS H7 (soporta menos de -20 °C en el Reino Unido). Pierde la hoja en otoño en climas fríos y la conserva casi todo el invierno en climas suaves (UF/IFAS: perenne en el sur de su área de cultivo; RHS: las hojas pueden quedarse en las ramas hasta pleno invierno). Por eso su sitio natural como bonsái es el EXTERIOR con un reposo invernal fresco, no un salón con calefacción todo el año.",
+  "categoria": "bonsai",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Pequeñas, ALTERNAS y dispuestas en dos filas sobre la ramita, simples, de 2-7 × 0,8-4 cm en el árbol (Oregon State; UF/IFAS: 2,5-6 cm) y mucho menores en bonsái (a menudo 1-2 cm [orientativo, sin fuente prioritaria]). Elípticas, ovadas u obovadas, de ápice agudo a obtuso. RASGO CLAVE: base ASIMÉTRICA, con las dos mitades del limbo desiguales (Virginia Tech; NC State; Flora of China). Margen con dientes simples, romos e irregulares (Flora of China; Oregon State: 'usually simply serrate'). Haz verde oscuro, brillante y liso, algo coriáceo; envés más pálido con mechones de pelos en las axilas de los nervios (NC State; Virginia Tech). Pecíolo muy corto, de 2-6 mm (Flora of China; Purdue: pecíolos muy cortos respecto a la hoja). En otoño amarillean o enrojecen (RHS; UF/IFAS), lo que es normal.",
+    "nerviacion": "Pinnada, muy marcada: 10-15 pares de nervios secundarios rectos y paralelos, cada uno acabado en un diente del margen (Flora of China en F20; NC State); nervio central hundido en el haz.",
+    "variegacion": "La especie es verde. Existe el cultivar 'Frosty', de hoja pequeña (unos 2 cm) con margen blanco, que puede revertir a verde (UF/IFAS; NC State: hojas con borde blanco o enteramente blancas). En bonsái también se venden formas de hoja diminuta ('Hokkaido'/'Hakkaido', 'Seiju') y de corteza corchosa ('Seiju', NC State).",
+    "tallo": "Leñoso. Ramitas finas, en zigzag, pardas, con lenticelas anaranjadas visibles (Virginia Tech). RASGO CLAVE: corteza que se desprende en placas irregulares tipo puzle, dejando un moteado gris, verde, crema, naranja y pardo (MOBOT; UF/IFAS; Minnesota; Virginia Tech); en ejemplares jóvenes de bonsái puede ser aún lisa y gris. Los cultivares 'Seiju' y otros 'corky bark' desarrollan corteza corchosa con la edad (NC State).",
+    "habito": "Árbol de copa redondeada y ramas finas algo colgantes (MOBOT; UF/IFAS). En interior y terraza se vende casi siempre como bonsái en bandeja baja, con tronco en 'S' o en estilo escoba, a menudo importado de China. Flores diminutas verdosas o rojizas en grupos axilares a FINALES DE VERANO Y OTOÑO (MOBOT: agosto-septiembre; Flora of China: agosto-octubre), seguidas de sámaras aladas planas, ovaladas, de unos 10-13 mm, con una muesca en el ápice y la semilla en el centro (Flora of China; Oregon State). Rara vez florece en bonsái pequeño.",
+    "tamano_adulto_interior": "Como bonsái, habitualmente 15-50 cm de altura, mantenido por poda [orientativo, sin fuente prioritaria]. En el suelo alcanza 12-15 m, a veces 20-25 m (MOBOT; UF/IFAS; Flora of China).",
+    "confusiones": [
+      {
+        "especie": "Ulmus pumila (olmo de Siberia, olmo común de parques en España, a menudo mal vendido como 'olmo chino')",
+        "rasgo_diferenciador": "Hojas mayores con dientes dobles, corteza gris profundamente surcada (no en placas de colores) y floración a principios de primavera, antes de echar la hoja; U. parvifolia florece a finales de verano u otoño y tiene la corteza moteada que se descama (Bonsai Empire; MOBOT y Oregon State avisan de que U. pumila se vende como 'Chinese elm')."
+      },
+      {
+        "especie": "Zelkova serrata (zelkova japonesa)",
+        "rasgo_diferenciador": "Hojas más estrechas, más puntiagudas y menos brillantes, con dientes más marcados; corteza que se mantiene lisa en ejemplares jóvenes y medianos, sin las placas anaranjadas del olmo chino adulto (Bonsai Empire)."
+      },
+      {
+        "especie": "Carmona microphylla (té de Fukien, carmona)",
+        "rasgo_diferenciador": "Hojas alternas o en fascículos, con unos pocos dientes gruesos solo hacia el ápice y diminutos puntos blancos ásperos en el haz; da flores blancas visibles y frutos rojos. El olmo tiene base de la hoja asimétrica y dientes regulares en todo el margen."
+      },
+      {
+        "especie": "Serissa japonica (serissa)",
+        "rasgo_diferenciador": "Hojas OPUESTAS, de margen entero y sin nervios marcados; flores blancas estrelladas casi todo el año y mal olor al cortar ramas o raíces. El olmo tiene hojas alternas y aserradas."
+      },
+      {
+        "especie": "Sageretia theezans (sageretia)",
+        "rasgo_diferenciador": "Hojas opuestas o casi opuestas, de base simétrica y margen finamente aserrado; corteza que se desprende en placas de un modo parecido. La disposición alterna y la base asimétrica de la hoja del olmo las separan."
+      },
+      {
+        "especie": "Celtis spp. (almez, p. ej. Celtis sinensis o C. bungeana en bonsái)",
+        "rasgo_diferenciador": "También Ulmaceae/Cannabaceae de hoja alterna y base asimétrica, pero con TRES nervios principales que salen de la base de la hoja (trinervia) y fruto carnoso tipo drupa; el olmo chino tiene nerviación pinnada con nervios paralelos y fruto alado (sámara)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "toxica",
+    "principio_activo": null,
+    "sintomas": "Personas: la lista de plantas tóxicas de la Universidad de California (UC ANR, basada en el sistema de clases del California Poison Control System) incluye 'Elm tree, Ulmus spp.' SOLO en la clase 4 (dermatitis): la savia o el jugo pueden irritar la piel; lavar con agua y jabón. No figura en las clases 1 (toxicidad grave) ni 2 (toxicidad leve por ingestión). Se marca 'toxica' para niños por prudencia, con riesgo bajo (irritación de piel por contacto). Perros y gatos: ASPCA no tiene ficha de Ulmus parvifolia, 'Chinese elm', 'lacebark elm' ni de ningún Ulmus en sus listas de plantas tóxicas y no tóxicas (comprobado el 2026-10-21); no hay datos verificados.",
+    "confianza": "Media",
+    "fuentes": [
+      "F15",
+      "F16",
+      "F17"
+    ],
+    "notas": "El dato para personas procede de una sola fuente prioritaria (UC ANR) y es de nivel de género (Ulmus spp.), no específico de U. parvifolia. NC State, MOBOT, RHS y UF/IFAS no dan datos de toxicidad. Que no aparezca en ASPCA NO significa que sea segura: la app no debe presentarla como 'no tóxica' para mascotas. Recordar que cualquier materia vegetal ingerida puede causar vómitos en perros y gatos (ASPCA). Ante ingestión o reacción, consultar al veterinario o al Servicio de Información Toxicológica (915 620 420)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "EXTERIOR (terraza, balcón, patio) a pleno sol o semisombra. Lo ideal es sol de mañana con algo de sombra en las horas centrales y de tarde en verano (MOBOT, recomendación general para bonsáis de exterior). Orientación este o sur; en oeste, sombrear en julio y agosto. Si se mantiene dentro de casa, junto a la ventana sur o este más luminosa, a menos de 1 m del cristal (MOBOT: los bonsáis de interior necesitan casi siempre ventana sur o este), y mejor con lámpara de cultivo en invierno (Michigan).",
+      "tolera_sol_directo": "Sí. Es un árbol de pleno sol que tolera semisombra (MOBOT: 'Full sun', tolera sombra ligera; RHS: pleno sol o semisombra; UF/IFAS: pleno sol a semisombra; NC State: pleno sol o 2-6 h de sol). En maceta de bonsái, el sol fuerte de tarde del verano de Madrid seca el sustrato en horas: más sol obliga a regar más (MOBOT). Si viene de interior o de invernadero, acostumbrarlo al sol y al viento de forma gradual durante 1-2 semanas (Yorkshire Bonsai) para evitar quemaduras.",
+      "notas": "lux_min = 10 760 lux es el umbral de luz directa de la escala del proyecto (>1000 fc); ninguna fuente prioritaria da cifras en lux, y en exterior la luz supera con creces ese valor. lux_max se deja en null: no hay techo en exterior si el riego acompaña. En interior es casi imposible darle la luz que necesita: con poca luz echa brotes largos y débiles con hojas grandes y pálidas, y pierde hojas (RHS: los bonsáis de interior necesitan mucha luz). Cuanto más caliente esté la habitación, más luz necesita (Yorkshire Bonsai). La RHS lo incluye entre los bonsáis que se cultivan en interior; ver la nota de reposo sobre por qué en Madrid se recomienda el exterior.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "F10",
+        "F19"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato TODOS LOS DÍAS en primavera, verano y otoño, sin calendario (NYBG: revisar a diario y regar solo cuando lo necesite; cuanto más pequeña la maceta, más a menudo). Meter el dedo o un palillo de madera 1-2 cm [orientativo, sin fuente prioritaria] (en bandejas de bonsái de 3-5 cm de fondo no se puede bajar a 2-3 cm sin llegar al fondo) y sopesar la maceta: regar cuando la capa superior esté seca al tacto y la maceta pese claramente menos que recién regada, ANTES de que se seque todo el cepellón (Bonsai Empire: espere a que la superficie esté seca y entonces riegue a fondo; no soporta la sequía prolongada ni la humedad constante). La meta es mantener el sustrato 'justo húmedo' (RHS). Regar despacio con regadera de alcachofa fina hasta que el agua salga por los agujeros; si el agua escurre enseguida por los lados, el cepellón se ha secado y encogido: sumergir la maceta en un barreño hasta que dejen de salir burbujas y escurrir (MOBOT; NYBG). Vaciar el plato.",
+      "primavera_verano": "En crecimiento y en exterior suele necesitar al menos un riego diario, y dos en días de calor (MOBOT; RHS: una o dos veces al día en verano). Un día sin agua en pleno verano puede secar la planta por completo (MOBOT). En Madrid, con 35-40 °C y aire seco, revisar por la mañana temprano y otra vez al atardecer.",
+      "otono_invierno": "En reposo, con poca o ninguna hoja, consume mucho menos: regar solo cuando la superficie esté seca, por la mañana y nunca con el sustrato helado. No olvidarlo: una semana seca de invierno también lo mata (RHS). En un sitio resguardado no recibe lluvia: vigilar la humedad (MOBOT). En interior con calefacción se seca antes de lo esperado (Michigan).",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Lo ideal es agua de lluvia, porque reduce la acumulación de minerales en el sustrato (RHS). El agua del grifo de Madrid sirve: es blanda (10-47 mg/L CaCO3), con cloramina (dejarla reposar NO la elimina, pero no es un problema para el riego) y casi sin flúor (<0,1 mg/L). Si aparecen costras blancas en la superficie o puntas secas, la causa probable son sales de abono acumuladas o riegos irregulares, no el agua del grifo: regar de vez en cuando a fondo hasta que escurra abundantemente para lavar sales.",
+      "notas": "El fallo nº 1 en el olmo chino de bonsái es la SEQUÍA por el poco sustrato, sobre todo en verano y en exterior; el exceso de riego es la causa principal de muerte en interior y en invierno, cuando la planta no tiene hojas y consume poco (Michigan: sin hojas el agua se absorbe más despacio y el sustrato húmedo pudre las raíces). No usar medidores de días: decidir siempre por el tacto y el peso. Revisión del orquestador: confianza bajada a Media porque las fuentes prioritarias citadas (guía de bonsái de RHS, FAQ de bonsái de MOBOT, NYBG, Matthaei) son guías generales de bonsái, no específicas de Ulmus parvifolia (mismo criterio que Serissa foetida).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10",
+        "F18"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes para la especie. En exterior tolera bien el aire seco de Madrid (es árbol de calle y de climas continentales; MOBOT y Minnesota lo describen tolerante a condiciones urbanas). El problema es en INTERIOR con calefacción: el aire seco favorece la araña roja y la cochinilla (Bonsai Empire), y las salidas de calefacción secan el árbol rápidamente (Michigan: mantener los bonsáis lejos de rejillas). Si la HR interior baja del 30 %, usar humidificador o agrupar plantas; pulverizar las hojas no sube la humedad de forma útil (convención del proyecto), aunque un lavado ocasional del follaje con agua ayuda a quitar polvo y ácaros. Una bandeja de grava con agua (NYBG) solo añade algo de humedad local y la maceta no debe quedar en contacto con el agua.",
+      "confianza": "Media",
+      "fuentes": [
+        "F10",
+        "F9",
+        "F18"
+      ]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Rusticidad en el SUELO: RHS H7 (menos de -20 °C), USDA 4-9 (MOBOT, Minnesota) y 5b-10a (UF/IFAS, NC State). Son cifras para árboles plantados en tierra. En MACETA DE BONSÁI el cepellón es pequeño y se congela mucho antes: min_c = -5 °C en el sustrato como límite práctico orientativo para un árbol ya aclimatado al exterior [orientativo, sin fuente prioritaria] (mismo criterio que otras fichas del proyecto). Por debajo, o con heladas de varios días, proteger la maceta: arrimarla a una pared, envolverla con material aislante, enterrarla en un macetero con grava y mantillo, o meterla en un sitio sin calefacción (galería, trastero, garaje con luz, cajonera fría), ventilando en los días templados para que no se caliente (MOBOT, invernada de bonsáis de exterior). EXCEPCIÓN IMPORTANTE: los olmos chinos importados o cultivados en invernadero y vendidos como 'bonsái de interior' no están aclimatados; además, los de origen sur de China son menos resistentes al frío que los del norte (Bonsai Empire). Su primer invierno, mantenerlos por encima de 0 °C, en un sitio luminoso, fresco y sin heladas (Bonsai Empire; Yorkshire Bonsai), y no sacar un árbol con hojas de una casa caliente directamente a una helada (Yorkshire Bonsai). Máxima: ninguna fuente da una cifra; UF/IFAS lo califica tolerante al calor urbano y llega a la zona 10a, y en Madrid resiste 35-40 °C si no le falta agua. Temperaturas ideales: ninguna fuente prioritaria las da para bonsái; como orientación, en reposo invernal un sitio fresco de 0-10 °C y en crecimiento la temperatura exterior de primavera-verano [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F8",
+        "F11",
+        "F18",
+        "F19"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla de bonsái muy drenante. Receta RHS para bonsáis: 2 partes (en volumen) de sustrato universal sin turba, 2 partes de arena gruesa lavada o gravilla de alpinismo sin cal y 1 parte de mantillo tipo John Innes nº 3 sin turba; se puede añadir abono de liberación lenta al mezclar (RHS). MOBOT pide un sustrato bien drenado con arena cribada. Las mezclas comerciales de bonsái (akadama, pómice y grava volcánica) también sirven; Bonsai Empire indica que no tiene exigencias especiales mientras drene bien.",
+      "ph": "Indiferente: de ácido a alcalino (RHS: ácido, neutro o alcalino; UF/IFAS: se adapta a extremos de pH, incluido el alcalino; NC State: ácido, neutro o alcalino).",
+      "drenaje": "Imprescindible. Maceta de bonsái con agujeros grandes cubiertos con malla; sin plato con agua estancada. En el suelo tolera desde arena hasta arcilla y sitios ocasionalmente húmedos (UF/IFAS; MOBOT), pero en bandeja de bonsái el encharcamiento pudre raíces.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "F18"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono equilibrado para bonsái o plantas verdes: líquido soluble o de liberación lenta (MOBOT: soluble tipo 20-20-20 o uno de liberación lenta en primavera; RHS: abono equilibrado de liberación lenta al trasplantar y después líquido a dosis baja).",
+      "npk": "Equilibrado, p. ej. 20-20-20 (MOBOT).",
+      "primavera_verano": "Solo con crecimiento activo (desde que abren las yemas en primavera hasta finales de verano): ¼-½ de la dosis de la etiqueta una vez al mes (convención del proyecto; MOBOT y RHS piden abonar en la temporada de crecimiento). En exterior y con crecimiento vigoroso la RHS indica dosis baja cada dos semanas; no aumentar la concentración. Aplicar con el sustrato húmedo. No abonar un árbol recién trasplantado hasta que rebrote, ni uno debilitado.",
+      "otono_invierno": "Nada en reposo (Bonsai Empire: no necesita abono en invierno frío cuando está en reposo; MOBOT: reducir abono cuando el crecimiento se ralentiza).",
+      "notas": "El exceso de abono da crecimiento desmedido, entrenudos largos y hojas grandes, y favorece plagas y enfermedades (RHS). En el olmo, que crece rápido, conviene abonar con moderación para mantener la hoja pequeña [orientativo, sin fuente prioritaria]. Revisión del orquestador: confianza bajada a Media porque las fuentes prioritarias citadas (guía de bonsái de RHS, FAQ de bonsái de MOBOT, NYBG, Matthaei) son guías generales de bonsái, no específicas de Ulmus parvifolia (mismo criterio que Serissa foetida).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F18"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años en árboles caducifolios jóvenes (MOBOT: la mayoría de caducifolios cada 2-3 años; RHS: cada 2-3 años, anual en árboles de crecimiento muy rápido). Bonsai Empire: cada dos años de joven y a intervalos mayores con la edad.",
+      "epoca": "Principios de primavera, justo antes de que se hinchen las yemas (en Madrid, habitualmente de mediados de febrero a marzo [orientativo, sin fuente prioritaria]) (RHS; MOBOT). La RHS admite el otoño solo en zonas suaves y resguardadas; en Madrid es preferible la primavera.",
+      "senales": "Raíces que asoman por los agujeros o en espiral en el borde; el agua no penetra o escurre al momento; el sustrato se seca en pocas horas aunque se riegue bien; crecimiento más débil. Al trasplantar: sacar el árbol (puede estar sujeto a la maceta con alambre), peinar y quitar parte del sustrato viejo, recortar raíces largas y gruesas conservando el máximo de raicillas finas, volver a la maceta con sustrato nuevo trabajándolo con un palillo, regar bien y dejarlo en sombra y sin viento hasta que se asiente (RHS; MOBOT). Las raíces del olmo se entrecruzan: podarlas con cuidado (Bonsai Empire). No trasplantar un árbol recién comprado o debilitado solo por estética (Yorkshire Bonsai).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F18",
+        "F19"
+      ],
+      "notas": " Revisión del orquestador: confianza bajada a Media porque las fuentes prioritarias citadas (guía de bonsái de RHS, FAQ de bonsái de MOBOT, NYBG, Matthaei) son guías generales de bonsái, no específicas de Ulmus parvifolia (mismo criterio que Serissa foetida)."
+    },
+    "poda": {
+      "necesita": "Sí, varias veces al año: es lo que mantiene la forma y la hoja pequeña. Crece y engorda rápido y brota bien de madera vieja tras una poda fuerte (Bonsai Empire; MOBOT: hay que eliminar buena parte del crecimiento vigoroso en primavera y a lo largo de la temporada, dejando hojas suficientes para mantener el vigor).",
+      "epoca": "Pinzado y despunte durante toda la temporada de crecimiento (primavera a finales de verano). Poda estructural de ramas gruesas de finales de invierno a principios de primavera (RHS: en caducifolios el trabajo fuerte, mejor de finales de invierno a inicio de primavera). Bonsai Empire prefiere el final del otoño para ramas grandes; ver notas.",
+      "como": "Pinzado: dejar que cada brote alargue 3-4 nudos (pares de hojas) y cortarlo dejando 1-2 hojas (Bonsai Empire; Yorkshire Bonsai) [orientativo, sin fuente prioritaria]. Tijera limpia y afilada; pocos cortes y decididos. Alambrado: admite bien el alambre y los tensores; revisarlo a menudo y retirarlo antes de que se clave en la corteza, porque las ramas engordan rápido (Bonsai Empire; Yorkshire Bonsai). No hacer trabajos fuertes en un árbol débil. Discrepancia: Bonsai Empire recomienda podar ramas grandes a finales de otoño y la RHS hace el trabajo fuerte en caducifolios de finales de invierno a principios de primavera; la app adopta la opción RHS (fuente prioritaria y más prudente en Madrid, donde una herida de otoño queda expuesta a las heladas).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F18",
+        "F19"
+      ],
+      "notas": " Revisión del orquestador: confianza bajada a Media porque las fuentes prioritarias citadas (guía de bonsái de RHS, FAQ de bonsái de MOBOT, NYBG, Matthaei) son guías generales de bonsái, no específicas de Ulmus parvifolia (mismo criterio que Serissa foetida)."
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno: en Madrid, aproximadamente de noviembre-diciembre a febrero, según el frío del año [orientativo, sin fuente prioritaria]. En otoño amarillea o enrojece y pierde total o parcialmente la hoja; en climas suaves la conserva hasta pleno invierno o hasta la brotación (RHS; UF/IFAS; Bonsai Empire).",
+      "cambios": "Árbol caducifolio o semiperennifolio (RHS; UF/IFAS; NC State). Los bonsáis de especies rústicas necesitan un reposo invernal para mantener el vigor (MOBOT, invernada de bonsáis). Cultivar un bonsái de árbol rústico dentro de casa todo el año suele acabar en fracaso si no se reproducen las condiciones del exterior (MOBOT, cuidado de bonsáis); aunque la RHS lo cita entre los bonsáis de interior, en un salón con calefacción, poca luz y aire seco el olmo chino se debilita: brotes débiles y largos, caída de hojas y ácaros y cochinillas (Bonsai Empire; Yorkshire Bonsai: en habitación cálida necesita muchísima más luz que en un refugio fresco). En reposo: sitio fresco (exterior protegido o habitación sin calefacción), luminoso, riego solo cuando la superficie se seque, sin abono. La caída de hojas en otoño es NORMAL; no responder con más agua ni más abono (Yorkshire Bonsai).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F18",
+        "F19"
+      ],
+      "notas": "Contradicción entre fuentes prioritarias: la RHS lo incluye en su lista de bonsáis de interior, mientras que MOBOT advierte que los bonsáis de especies rústicas cultivados en interior suelen fracasar, y la especie es plenamente rústica (RHS H7; USDA 4-9). Se adopta la opción más prudente para la planta: exterior la mayor parte del año con reposo invernal fresco y, si se tiene dentro, en la ventana más luminosa y en una habitación fresca en invierno. Confianza Media porque la afirmación concreta 'en interior con calefacción se debilita' para U. parvifolia solo la dan fuentes complementarias de bonsái."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso o de madera blanda",
+        "semilla",
+        "injerto o injerto de yema (cultivares)",
+        "acodo aéreo [orientativo, sin fuente prioritaria]"
+      ],
+      "epoca": "Esquejes en verano (RHS: esquejes de madera blanda en verano; UF/IFAS: esquejes de verano). Semilla en otoño, recién madura, o en primavera.",
+      "pasos": "Esqueje (método más fácil para el aficionado; Bonsai Empire): 1) en verano, cortar puntas de 5-10 cm de brotes del año poco endurecidos [orientativo, sin fuente prioritaria]; 2) quitar las hojas inferiores; 3) plantar en sustrato muy drenante (mezcla de sustrato y arena o perlita) y mantener húmedo, a la sombra y sin viento; 4) suelen enraizar en pocas semanas [orientativo, sin fuente prioritaria]; trasplantar a la primavera siguiente. Semilla: NC State la considera el mejor método para el árbol; las plantas de semilla son muy variables (NC State). El injerto y el injerto de yema se usan para cultivares (RHS; UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F18"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sequía del cepellón: la causa más típica de muerte del olmo chino de bonsái, sobre todo en verano en exterior o en interior junto a la calefacción. Las hojas se arrugan y quedan secas y crujientes; un solo día sin agua en verano puede matarlo (MOBOT). Remojar la maceta en un barreño de inmediato."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias por falta de agua (lo más común) o por raíces podridas tras encharcamiento. Rara vez, marchitez vascular: UF/IFAS lo da sensible a la verticilosis y MOBOT y Minnesota citan marchitamientos ocasionales; frente a la grafiosis (enfermedad holandesa del olmo) es resistente, aunque no inmune (MOBOT, RHS, UF/IFAS, Minnesota, Oregon State)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas al cambiarlo de sitio: al pasar del exterior o del vivero a una casa (o al revés) suele amarillear y perder hojas, y luego rebrota con hojas adaptadas al nuevo sitio (Michigan). Mientras tenga pocas hojas, regar menos para no pudrir raíces (Michigan). Revisar también si hay ácaros o cochinillas (Yorkshire Bonsai)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "En otoño es NORMAL: las hojas se vuelven amarillas o rojas y caen total o parcialmente (RHS; UF/IFAS). Fuera de otoño, amarilleo general por exceso de riego, falta de luz en interior o cambio de sitio."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por sustrato siempre mojado, plato con agua o riego en invierno con el árbol sin hojas (Bonsai Empire: no soporta la humedad constante; Michigan; MOBOT: el exceso de humedad en invierno pudre las raíces)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Brotes largos y débiles con hojas grandes y pálidas por falta de luz cuando se mantiene en interior, sobre todo en invierno en una habitación cálida (RHS: los bonsáis de interior necesitan mucha luz; Yorkshire Bonsai). Llevarlo al exterior en primavera o añadir lámpara de cultivo."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (RHS cita los pulgones entre las plagas de la especie), sobre todo en primavera en exterior."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza pegajosa sobre las hojas por pulgón o cochinillas (RHS cita ambos en la especie)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros), frecuente cuando la humedad es baja, sobre todo en interior con calefacción y en verano junto a cristales (Bonsai Empire). Revisar el envés de las hojas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado fino amarillento o plateado por ácaros (araña roja) en ambiente seco (Bonsai Empire)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en ramas y tronco: RHS cita la cochinilla del castaño de Indias (Pulvinaria regalis) en la especie y las cochinillas como problema general de los bonsáis; Bonsai Empire las relaciona con la humedad baja. Pueden confundirse con la corteza en placas: el escudo se desprende con la uña."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares ocasionales (MOBOT, Minnesota, NC State) o quemaduras por sol fuerte de tarde tras pasar de golpe del interior al exterior [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas blanqueadas o quemadas al sacar al sol fuerte un árbol que venía de interior o de invernadero sin aclimatarlo poco a poco (Yorkshire Bonsai: introducir el sol y el viento de forma gradual)."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales de abono en la superficie de la bandeja; lavar sales regando a fondo y reducir dosis (RHS: el agua de lluvia reduce la acumulación de minerales)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C, aire muy seco (HR ≈38 % en julio) y sol fuerte, el gran riesgo es la SEQUÍA de la bandeja: revisar el sustrato a primera hora y al atardecer y regar las veces que haga falta (a menudo dos veces al día). En terraza o balcón, sol de mañana y sombra (o malla de sombreo del 30-50 % [orientativo, sin fuente prioritaria]) de mediodía y tarde, sobre todo en orientaciones sur y oeste; las bandejas negras o metálicas al sol recalientan las raíces: sombrear la maceta o ponerla dentro de otra mayor. No dejarlo en el suelo de una terraza reflectante. Si está dentro, no pegarlo a un cristal sur u oeste con sol de tarde ni delante del aire acondicionado (Michigan). Vigilar araña roja y pulgón. Abonar solo con crecimiento activo; si el calor para el crecimiento en agosto, no forzarlo.",
+    "invierno": "Lo mejor para la planta es pasar el invierno FUERA, en reposo: en Madrid las heladas habituales de terraza (-1 a -4 °C) las aguanta un árbol aclimatado; con previsión de heladas fuertes o de varios días por debajo de -5 °C [orientativo, sin fuente prioritaria], proteger la maceta (arrimarla a la pared de la fachada, envolverla con material aislante o meterla temporalmente en una galería o trastero sin calefacción y con luz, MOBOT). No regar con el sustrato helado. Un olmo chino comprado como 'bonsái de interior' en supermercado o vivero (no aclimatado) pasa su primer invierno en un sitio luminoso, fresco y sin heladas, por encima de 0 °C (Bonsai Empire; Yorkshire Bonsai), y se acostumbra al exterior en primavera. Si se queda dentro de casa: habitación fresca y sin calefacción o la ventana más luminosa lejos de radiadores, con humidificador si la HR baja del 30 %; junto al cristal frío de noche no hay problema para esta especie, pero sí las corrientes calientes de la calefacción. Es normal que pierda hojas en otoño-invierno; regar menos, no abonar.",
+    "ubicacion_recomendada": "Terraza, balcón o patio la mayor parte del año, con sol de mañana y protección del sol de tarde en verano; en invierno, fuera y resguardado de vientos y heladas fuertes (o, si no está aclimatado, en un sitio luminoso, fresco y sin heladas). Evitar mantenerlo todo el año en un salón con calefacción. Como planta de interior estricta es de las peores opciones; como bonsái de exterior en Madrid es de los más fáciles."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Ulmus parvifolia Jacq. (Pl. Hort. Schoenbr. 3: 6, 1798). Sinónimos homotípicos: Planera parvifolia (Jacq.) Sweet y Microptelea parvifolia (Jacq.) Spach; heterotípicos: Ulmus chinensis Desf. y Ulmus campestris var. chinensis (Desf.) Loudon. RHS cita además Ulmus sieboldii como sinónimo. Sin cambio de nombre.",
+    "No hay fuentes prioritarias específicas de cultivo de U. parvifolia COMO BONSÁI: los datos de bonsái proceden de guías generales de bonsái de RHS, MOBOT, NYBG y la Universidad de Michigan, más fuentes complementarias especializadas (Bonsai Empire, Yorkshire Bonsai).",
+    "Temperatura mínima en maceta: ninguna fuente prioritaria da la mínima de la especie en maceta de bonsái; -5 °C es orientativo (convención del proyecto). Tampoco hay máxima ni temperaturas ideales con fuente prioritaria.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos o ideales.",
+    "Toxicidad para perros y gatos: ASPCA no tiene ficha de ningún Ulmus; ninguna otra fuente prioritaria aporta datos. Para personas solo hay el dato de género de UC ANR (clase 4, dermatitis).",
+    "No se pudo abrir eFloras (Flora of China) directamente; la descripción se tomó de una reproducción (Naturelib, complementaria) y coincide con Oregon State, Virginia Tech y NC State.",
+    "No se encontraron fuentes prioritarias sobre plagas específicas en bonsái en España (p. ej. galeruca del olmo, Xanthogaleruca luteola, a la que MOBOT, Minnesota y Purdue dan buena resistencia).",
+    "Contradicción RHS (lo cita como bonsái de interior) frente a MOBOT (las especies rústicas fracasan en interior); se adopta la opción conservadora (exterior con reposo invernal) y queda para revisión en contradicciones.md.",
+    "La guía de Michigan (F10) y las FAQ de MOBOT (F7, F8) son guías generales de bonsáis, no específicas de la especie; NC State copia en parte el texto de MOBOT, por lo que no se usan como par independiente en ningún bloque Alta."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:302296-2",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew: Ulmus parvifolia Jacq.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287396",
+      "institucion": "Missouri Botanical Garden, Plant Finder: Ulmus parvifolia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/ST652/pdf",
+      "institucion": "UF/IFAS Extension, EDIS ENH-809 'Ulmus parvifolia: Chinese Elm' (Gilman et al., rev. 2018)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://plants.ces.ncsu.edu/plants/ulmus-parvifolia/",
+      "institucion": "North Carolina State University Extension, NC Extension Gardener Plant Toolbox: Ulmus parvifolia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/21508/ulmus-parvifolia/details",
+      "institucion": "Royal Horticultural Society (RHS), perfil de Ulmus parvifolia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/types/trees/bonsai",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo 'Bonsai' (exterior e interior; cita Ulmus parvifolia entre los bonsáis de interior)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/950/how-do-i-care-for-a-bonsai-plant",
+      "institucion": "Missouri Botanical Garden, Gardening Help FAQ 'How do I care for a bonsai plant?'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/537/how-do-i-overwinter-my-bonsai-plant",
+      "institucion": "Missouri Botanical Garden, Gardening Help FAQ 'How do I overwinter my bonsai plant?'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://libanswers.nybg.org/faq/223000",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service (riego de bonsáis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://mbgna.umich.edu/node/791",
+      "institucion": "Matthaei Botanical Gardens & Nichols Arboretum, Universidad de Michigan, 'Horticulture at Home: Growing Bonsai Inside'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://trees.umn.edu/chinese-elm-ulmus-parvifolia-0",
+      "institucion": "University of Minnesota, Department of Forest Resources (trees.umn.edu): Chinese elm",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://landscapeplants.oregonstate.edu/plants/ulmus-parvifolia",
+      "institucion": "Oregon State University, Landscape Plants: Ulmus parvifolia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://dendro.cnre.vt.edu/dendrology/carddetail.cfm?ID=90",
+      "institucion": "Virginia Tech, Department of Forest Resources and Environmental Conservation, Dendrology: Chinese elm",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://ag.purdue.edu/department/btny/ppdl/potw-dept-folder/2022/chinese-elm.html",
+      "institucion": "Purdue University, Plant and Pest Diagnostic Laboratory, 'Picture of the Week: Chinese Elm' (2022)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://ccfruitandnuts.ucanr.edu/sites/default/files/2022-02/363609.pdf",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR), 'Safe and Poisonous Garden Plants: Toxic Plants (by common name)' (copia PDF de la lista de ucanr.edu)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F16",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center, lista de plantas tóxicas y no tóxicas para gatos",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F17",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center, lista de plantas tóxicas y no tóxicas para perros",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F18",
+      "url": "https://www.bonsaiempire.com/tree-species/chinese-elm",
+      "institucion": "Bonsai Empire (portal especializado en bonsái): guía del olmo chino",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F19",
+      "url": "https://www.yorkshirebonsai.co.uk/blogs/advice-guides/chinese-elm-bonsai-ulmus-parvifolia-care-guide",
+      "institucion": "Yorkshire Bonsai (vivero especializado, Reino Unido): guía de cuidado del olmo chino",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F20",
+      "url": "https://naturelib.net/plantae/ulmus-parvifolia/",
+      "institucion": "Naturelib (reproduce la descripción de Flora of China vol. 5 para Ulmus parvifolia; no se pudo abrir eFloras directamente)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

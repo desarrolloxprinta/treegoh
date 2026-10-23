@@ -1,0 +1,279 @@
+{
+  "nombre_cientifico": "Aeschynanthus radicans",
+  "nombres_comunes": [
+    "planta del pintalabios",
+    "esquinanto",
+    "planta pintalabios",
+    "lipstick plant"
+  ],
+  "familia": "Gesneriaceae (familia de la gloxinia y la violeta africana)",
+  "origen": "Sudeste asiático: sur de Myanmar, Tailandia peninsular, Malasia peninsular, Sumatra, Borneo y Sulawesi (POWO, Kew; NC State: 'Peninsula Thailand to W. & Central Malesia'). Nombre aceptado: Aeschynanthus radicans Jack (1823); sinónimo homotípico Trichosporum radicans (Jack) Nees (POWO). En el comercio se venden muchos cultivares ('Mona Lisa', 'Rasta', 'Curly', 'Tangerine', 'Variegata'; NC State) y plantas etiquetadas como A. radicans que pueden ser A. pulcher, A. lobbianus o híbridos (ver lagunas).",
+  "clima_nativo": "Tropical húmedo sin estación fría: epífita o litófita que crece sobre todo en el bioma tropical húmedo (POWO). Rusticidad exterior solo en zonas USDA 10a-11b (NC State); la RHS la clasifica H1A, es decir, bajo cristal todo el año con mínimas por encima de 15 °C. En cultivo pide calor, humedad ambiental alta y aire que circule (NC State, Jardin botanique de Montréal).",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, opuestas, elípticas, lanceoladas u ovadas, de margen entero, sin pelos, gruesas, carnosas y coriáceas (almacenan agua), brillantes y cerosas; 7,5-15 cm de largo y 2,5-7,5 cm de ancho según NC State, aunque en plantas de interior suelen verse menores. Verde oscuro, a menudo con el borde teñido de rojo (NC State, Jardin botanique de Montréal). En el cultivar 'Rasta' y 'Curly' las hojas se rizan y retuercen (NC State).",
+    "nerviacion": "Pinnada con un nervio central marcado; nervios secundarios poco visibles por el grosor carnoso de la lámina [orientativo, sin fuente prioritaria].",
+    "variegacion": "La especie es verde uniforme. El cultivar 'Variegata' tiene hojas verdes variegadas de blanco, crema y amarillo (NC State).",
+    "tallo": "Tallos largos, colgantes o rastreros, lisos, sin pelos y verdes (NC State, Jardin botanique de Montréal); el epíteto 'radicans' significa 'que enraíza', porque emite raíces en los nudos (NC State).",
+    "habito": "Epífita colgante o rastrera de tallos arqueados y en cascada, típica de cesta colgante (NC State, RHS). Flores en racimos terminales: primero aparecen los botones, con la corola roja asomando de un cáliz tubular burdeos oscuro, como una barra de labios saliendo del estuche (NC State, RHS). Corola tubular escarlata de hasta 5 cm, con garganta amarilla y 5 lóbulos, los superiores más cortos (NC State, RHS). Florece de forma intermitente de primavera a otoño (RHS, NC State). Las flores huelen mal (NC State). Fruto en cápsula de unos 4 cm (NC State).",
+    "tamano_adulto_interior": "Tallos de 0,5-1 m de longitud (colgando) y 0,1-0,5 m de anchura (RHS); NC State da 30 cm-1 m de espacio necesario. Tarda 2-5 años en alcanzar el tamaño adulto (RHS).",
+    "confusiones": [
+      {
+        "especie": "Aeschynanthus pulcher (incluye A. lobbianus según POWO)",
+        "rasgo_diferenciador": "Según el Jardin botanique de Montréal, A. pulcher tiene el cáliz verde teñido de púrpura y la corola de unos 6 cm; A. lobbianus (sinónimo de A. pulcher en POWO) tiene tallos púrpura y hojas gris verdosas finamente dentadas y ribeteadas de púrpura. A. radicans tiene el cáliz tubular burdeos oscuro, cerrado alrededor del botón (RHS, NC State)."
+      },
+      {
+        "especie": "Aeschynanthus humilis",
+        "rasgo_diferenciador": "Tallos más cortos que la mayoría del género, que cuelgan poco y se manejan mejor en maceta (NC State). Originaria del sur de China e Indochina, no de Malasia (NC State). Es la especie que ASPCA ficha como 'Lipstick Plant'."
+      },
+      {
+        "especie": "Aeschynanthus speciosus",
+        "rasgo_diferenciador": "Racimos terminales de 6 a 20 flores naranja rojizo a escarlata con base amarilla, más numerosas por racimo (Jardin botanique de Montréal)."
+      },
+      {
+        "especie": "Columnea spp. y Nematanthus spp. (otras gesneriáceas colgantes)",
+        "rasgo_diferenciador": "Columnea suele tener hojas y tallos pelosos y flores solitarias en las axilas, y Nematanthus flores con la corola hinchada en bolsa; ninguna tiene el cáliz tubular oscuro en racimo terminal [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Hoya carnosa",
+        "rasgo_diferenciador": "También colgante de hoja carnosa y cerosa, pero sus flores son estrelladas, en umbelas colgantes, cerosas y perfumadas, y el tallo exuda látex blanco al cortarlo [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "confianza": "Baja",
+    "notas": "ASPCA no tiene ficha de Aeschynanthus radicans: su ficha 'Lipstick Plant' corresponde a la especie hermana Aeschynanthus humilis y la declara no tóxica para perros, gatos y caballos, sin principios tóxicos. No se encontró ninguna fuente prioritaria que evalúe A. radicans (NC State no indica toxicidad en su ficha). Por el encargo se deja 'desconocida'. No se conocen principios tóxicos en el género y la especie hermana es no tóxica, así que es probable que tenga baja toxicidad, pero no está verificado. Ante una ingestión: Servicio de Información Toxicológica, 91 562 04 20; para mascotas, veterinario.",
+    "fuentes": [
+      "F5",
+      "F1"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS, Jardin botanique de Montréal), con luz brillante y filtrada. En ventana sur, a 1-2 m del cristal o con visillo [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "No: necesita luz brillante indirecta, sin pleno sol (NC State). Solo admite el sol suave de primera hora de la mañana o de última hora de la tarde, filtrado (RHS: 'bright, filtered light').",
+      "notas": "Es la luz lo que la hace florecer: con luz brillante filtrada crece y florece mejor (RHS), y florece con regularidad cada año si tiene buena luz (Jardin botanique de Montréal). Con poca luz sobrevive pero florece poco o nada. El rango en lux corresponde a la categoría 'brillante indirecta' de la escala del proyecto (500-1000 fc); las fuentes no dan cifras en fc o lux para esta especie.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta (o cesta) pese claramente menos; entonces regar a fondo hasta que drene y vaciar el plato. Montréal: dejar que la superficie se seque ligeramente entre riegos en crecimiento, y en invierno esperar a que se seque la mitad superior del cepellón. NC State: riegos frecuentes, pero siempre con sustrato de buen drenaje. Nunca por calendario. El exceso de riego, sobre todo en invierno, provoca caída de hojas y pudrición de raíces (Jardin botanique de Montréal).",
+      "primavera_verano": "De marzo a octubre (crecimiento activo), riego regular pero no abundante (Montréal) o generoso (RHS 'water freely'), con el criterio de tacto y peso. No dejar que se seque del todo mientras está en flor: la falta de agua hace caer los botones y lacia las hojas (Jardin botanique de Montréal). Las cestas colgantes se secan antes: comprobarlas más a menudo.",
+      "otono_invierno": "Regar con moderación (RHS 'water sparingly in winter') y mantenerla algo más seca (NC State). Dejar secar hasta la mitad del cepellón antes de regar (Jardin botanique de Montréal).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente (Jardin botanique de Montréal), nunca fría. El agua del grifo de Madrid es blanda (10-47 mg/L CaCO3) y sirve. Dejarla reposar no elimina la cloramina, pero sí la templa, que es lo que importa aquí.",
+      "notas": "Si se seca del todo, sumergir la maceta 10 minutos en agua a temperatura ambiente y dejar escurrir (Jardin botanique de Montréal). Las hojas carnosas almacenan agua y le dan cierto margen ante un olvido (NC State), pero el sustrato empapado de forma continua es peor que un secado breve.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Necesita humedad ambiental alta (NC State; Montréal: 'keep relative humidity high'), pero con buena circulación de aire: el aire húmedo estancado favorece los hongos (NC State). Con aire demasiado seco amarillean los márgenes de las hojas y se caen los brotes nuevos (Jardin botanique de Montréal). Ninguna fuente prioritaria da porcentajes (ver lagunas). Para subir la humedad, usar humidificador o agrupar plantas; pulverizar no la sube de forma útil y, además, Montréal desaconseja pulverizar con agua fría.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 22,
+      "notas": "Calor estable todo el año. Montréal: de día 20-22 °C, y de noche no debe bajar de 16-18 °C; evitar cambios bruscos. RHS: H1A, bajo cristal todo el año por encima de 15 °C. NC State: en crecimiento, el sustrato rinde mejor a 18-21 °C; en invierno puede estar 'algo más fresca y seca', pero por debajo de 10 °C pierde las hojas. Se adopta como mínimo el valor más conservador, 16 °C (Montréal; el más alto de las fuentes). Ideal 18-22 °C. Frescor invernal y floración: para esta especie las fuentes solo hablan de un invierno algo más fresco y seco (NC State) y no dan una temperatura de inducción. La recomendación de 13-18 °C en reposo para provocar botones en primavera la da NC State para A. humilis, no para A. radicans, y queda por debajo del mínimo de Montréal: no se aplica a esta ficha. Ninguna fuente da un máximo (ver lagunas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla aireada y porosa para epífitas: Montréal propone partes iguales de musgo sphagnum y perlita; la RHS, sustrato para plantas de interior sin turba. NC State pide sustrato rico en materia orgánica con buen drenaje. Mezcla práctica: sustrato universal sin turba con perlita y corteza fina de orquídea [orientativo, sin fuente prioritaria para las proporciones].",
+      "ph": "Ácido a neutro. Montréal lo pide ácido; NC State indica neutro (6,0-8,0) y la RHS lo admite ácido, neutro o alcalino. Se recomienda ligeramente ácido a neutro (≈6-7) [orientativo, sin fuente prioritaria para la cifra].",
+      "drenaje": "Imprescindible: húmedo pero bien drenado (RHS; NC State 'good drainage'). Maceta o cesta con agujeros; no dejar agua en el plato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS: abono general; Montréal: 20-20-20, alternado con abono de floración rico en fósforo, 15-30-15); NC State propone un abono líquido diluido, como el de orquídeas.",
+      "npk": "Equilibrado (p. ej. 20-20-20), alternable con uno de floración (15-30-15) (Jardin botanique de Montréal).",
+      "primavera_verano": "Solo con crecimiento activo, de mediados de primavera a finales de verano: ¼-½ de la dosis de etiqueta una vez al mes. La RHS indica media dosis mensual y Montréal, cada dos meses.",
+      "otono_invierno": "Nada: suspender el abonado en invierno (Jardin botanique de Montréal, RHS).",
+      "notas": "Abonar con el sustrato húmedo, nunca seco. Lavar el sustrato de vez en cuando con riego abundante para evitar que se acumulen sales.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta o cesta; ninguna fuente da una frecuencia en años (ver lagunas).",
+      "epoca": "En cualquier época salvo durante la floración (Jardin botanique de Montréal); mejor a finales de invierno o en primavera, aprovechando la poda.",
+      "senales": "Raíces que salen por los agujeros, sustrato que se seca enseguida tras regar o sustrato apelmazado y degradado. Si hay pudrición por exceso de agua, cortar las raíces dañadas y trasplantar a una mezcla bien drenada (Jardin botanique de Montréal).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, ligera: recortar los tallos débiles o demasiado largos cuando haga falta (RHS); la poda la mantiene compacta y fomenta tallos nuevos que florecen (Jardin botanique de Montréal).",
+      "epoca": "Febrero, antes de que se reanude el crecimiento (Jardin botanique de Montréal; en el hemisferio sur, agosto). En el resto del año, recortes puntuales (RHS).",
+      "como": "Cortar cada tallo por encima de una yema que mire hacia fuera. Si ha perdido muchas hojas en invierno, podar más fuerte, dejando los tallos a 15 cm de la base (Jardin botanique de Montréal). Los trozos sanos sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno, aproximadamente de noviembre a febrero en el hemisferio norte (Montréal sitúa el crecimiento activo de marzo a octubre); en el hemisferio sur, de mayo a agosto.",
+      "cambios": "Menos riego (RHS, NC State, Montréal), sin abono (Montréal) y una temperatura algo más fresca (NC State), pero sin bajar de 16 °C por la noche (Montréal). Mantener la máxima luz posible sin sol directo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo herbáceo (primavera)",
+        "esqueje semileñoso (verano)"
+      ],
+      "epoca": "Primavera para esquejes herbáceos y verano para semileñosos (RHS).",
+      "pasos": "1) Cortar un esqueje de tallo tierno de 3 nudos (NC State). 2) Quitar todas las hojas salvo las 2-4 superiores (NC State). 3) Mojar la base en hormona de enraizamiento (NC State). 4) Plantarlo en una mezcla de partes iguales de vermiculita y perlita y mantenerla húmeda (NC State). 5) Las raíces aparecen en unas dos semanas (NC State). 6) Pasarlo a la mezcla definitiva y poner varios esquejes por cesta para que quede tupida [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones; es la plaga citada por las tres fuentes (NC State, RHS, Jardin botanique de Montréal)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y entre los tallos colgantes (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y nervios (Jardin botanique de Montréal)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Ácaros (NC State), favorecidos por el aire seco de calefacción y verano."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis en flores y hojas por aire húmedo estancado u hojas mojadas en contacto con el sustrato (NC State)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego en invierno: se caen las hojas y se pudren las raíces (Jardin botanique de Montréal)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Falta de agua en crecimiento: hojas lacias y caída de botones (Jardin botanique de Montréal). Si el sustrato está mojado, la causa es la pudrición radicular (S36)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo intenso a través del cristal (ventana sur u oeste en verano). Necesita luz indirecta, no pleno sol (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y HR exterior ≈38 %, alejarla del sol directo de las ventanas sur y oeste (cortina o visillo, o separarla 1-2 m del cristal). Usar humidificador o agrupar plantas; con aire tan seco aumenta el riesgo de ácaros y de que caigan los brotes nuevos (Montréal). Las cestas colgantes cerca del techo se recalientan y se secan muy rápido: comprobar el sustrato y el peso a menudo, sin dejar que se seque del todo si está en flor. No ponerla bajo el chorro del aire acondicionado; ninguna fuente da un máximo.",
+    "invierno": "Con calefacción la humedad interior baja del 30 %: humidificador o agrupar plantas, lejos de radiadores. Mantener las noches por encima de 16 °C. Ojo con el cristal frío y las corrientes: no apoyar los tallos en la ventana y no moverla cuando tenga botones, porque los cambios hacen que se caigan (Montréal). Reducir el riego y no abonar. Aprovechar la mayor luz posible (ventana este, oeste o sur con visillo).",
+    "ubicacion_recomendada": "Cesta colgante o estante alto junto a una ventana este u oeste luminosa, con luz filtrada, aire que circule pero sin corrientes, y lejos de radiadores y salidas de aire acondicionado. Baños luminosos con ventana sirven si tienen suficiente luz [orientativo, sin fuente prioritaria]."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Aeschynanthus radicans Jack (1823); sinónimo homotípico Trichosporum radicans (Jack) Nees; heterotípicos A. radicans var. lanuginosus Ridl., var. robustior C.B.Clarke y Trichosporum ovatum D.Don ex C.B.Clarke. No hay cambio de nombre.",
+    "Discrepancia taxonómica: el Jardin botanique de Montréal dice que A. lobbianus 'se considera hoy una forma de A. radicans', mientras que POWO trata A. lobbianus Hook. como sinónimo de A. pulcher (Blume) G.Don, especie aceptada aparte. Muchas plantas comerciales etiquetadas como A. radicans o 'lobbianus' pueden ser A. pulcher o híbridos.",
+    "Toxicidad: ASPCA solo ficha A. humilis ('Lipstick Plant', no tóxica). No se encontró fuente prioritaria sobre A. radicans; se deja 'desconocida'.",
+    "Humedad: ninguna fuente prioritaria da porcentajes de humedad relativa; solo 'alta, con circulación de aire'.",
+    "Temperatura máxima: ninguna fuente prioritaria da un límite superior.",
+    "Inducción floral por frescor invernal: no documentada para A. radicans con cifras. El rango 13-18 °C de NC State es para A. humilis. Tampoco hay datos sobre fotoperiodo.",
+    "Trasplante: ninguna fuente da frecuencia en años.",
+    "Caída de flores y botones, y caída de hojas por frío (<10 °C, NC State) o por exceso de riego, no tienen un id de síntoma propio en la lista (S12 se refiere a la aclimatación tras traslado o compra). La caída de botones por mover la planta o por falta de agua (Montréal) queda descrita en S08 y en ajustes_madrid.",
+    "El amarilleo del margen de la hoja con caída de brotes por aire seco (Montréal) no tiene un id equivalente exacto (S06 es margen marrón); no se ha mapeado.",
+    "NC State cita 'leaf spot' (mancha foliar) sin describir el aspecto; no se ha asignado id.",
+    "La ficha de Missouri Botanical Garden no se pudo abrir (protección anti-bots), y las de UF/IFAS (MREC Lipstick Plant Production Guide) y Univ. Minnesota dieron 404."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/aeschynanthus-radicans/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Aeschynanthus radicans)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/562/aeschynanthus-radicans/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant profile Aeschynanthus radicans (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://espacepourlavie.ca/en/green-pages/aeschynanthus",
+      "institucion": "Jardin botanique de Montréal (Espace pour la vie) – Green Pages, Aeschynanthus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:377844-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (Aeschynanthus radicans Jack)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lipstick-plant",
+      "institucion": "ASPCA Animal Poison Control – Lipstick Plant (Aeschynanthus humilis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/aeschynanthus-humilis/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (Aeschynanthus humilis, especie hermana)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

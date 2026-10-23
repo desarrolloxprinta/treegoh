@@ -1,0 +1,295 @@
+{
+  "nombre_cientifico": "Tradescantia zebrina",
+  "nombres_comunes": [
+    "tradescantia",
+    "amor de hombre",
+    "judío errante",
+    "tradescantia cebra",
+    "planta pulgada plateada"
+  ],
+  "familia": "Commelinaceae",
+  "origen": "México y Centroamérica. Missouri Botanical Garden: sur de México, Belice, Guatemala y Honduras. NC State: de México a Colombia, incluidos Belice, Costa Rica, Guatemala, Honduras y Panamá. Naturalizada en muchas zonas cálidas; UF/IFAS la considera invasora en Florida.",
+  "clima_nativo": "Tropical y subtropical sin heladas: zonas USDA 9-11 según NC State y UF/IFAS (8-12 según Missouri Botanical Garden). Donde no hiela crece como tapizante a media sombra o sombra, sobre suelos de todo tipo, y enraíza en cada nudo que toca el suelo (UF/IFAS, Missouri Botanical Garden).",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas alternas, simples, de margen entero, ovadas u oblongo-lanceoladas y puntiagudas. Miden 2,5-7,5 cm de largo (Missouri Botanical Garden: hasta unos 6 cm) y menos de 2,5 cm de ancho. Son algo carnosas y abrazan el tallo con una vaina cerrada. Se disponen en dos filas. El haz es verde azulado, verde purpúreo o bronce, con DOS bandas longitudinales anchas plateadas. El envés es morado intenso y uniforme. Tienen pelillos finos en el margen y brillan con luz intensa (NC State, Missouri Botanical Garden, RHS, UF/IFAS).",
+    "nerviacion": "Paralela, de monocotiledónea, poco visible. Las bandas plateadas siguen el eje longitudinal a ambos lados del nervio central (NC State, Missouri Botanical Garden). UF/IFAS describe la nerviación como arqueada ('bowed').",
+    "variegacion": "En la forma típica: dos bandas plateadas sobre fondo verde-morado en el haz y envés morado. Cultivares (NC State, UF/IFAS): 'Quadricolor', con rayas verdes, rosas o rojas, blancas y plateadas; 'Burgundy', de hojas morado oscuro; 'Purpusii', con hojas rojo oscuro o verde rojizo, pubescentes y sin rayas. Con poca luz las bandas y el morado se apagan (NC State). En cultivares variegados aparecen a veces brotes verdes lisos: la RHS recomienda quitarlos.",
+    "tallo": "Tallos suculentos, cilíndricos, rastreros o colgantes, de color rojizo a morado (UF/IFAS). Tienen nudos marcados, separados unos 2,5 cm (de ahí el nombre 'inch plant'), y echan raíces en los nudos al tocar el sustrato (NC State, Missouri Botanical Garden). Flores pequeñas de 3 pétalos, rosa-lavanda o lila, con anteras amarillas, entre dos brácteas en el extremo de los tallos. En interior florece poco (NC State, Missouri Botanical Garden).",
+    "habito": "Herbácea perenne y perennifolia, rastrera y colgante, de crecimiento rápido. En interior se cultiva en cestas colgantes, en macetas sobre estantes o como tapizante en jardineras (Missouri Botanical Garden, UF/IFAS). Con la edad los tallos se desnudan en la base y en el centro de la maceta.",
+    "tamano_adulto_interior": "15-25 cm de alto (NC State: 15-23 cm; RHS: 0,1-0,5 m). Se extiende 30-60 cm o más, y en cesta los tallos cuelgan unos 60 cm (NC State: 30-60 cm de ancho; Missouri Botanical Garden: 60 cm o más).",
+    "confusiones": [
+      {
+        "especie": "Tradescantia fluminensis",
+        "rasgo_diferenciador": "Hojas verdes (o variegadas de blanco o crema en cultivares) SIN las dos bandas plateadas y casi siempre sin el envés morado intenso. Flores blancas, no rosa-lavanda. Missouri Botanical Garden señala que el nombre común 'inch plant' se reserva normalmente para esta especie."
+      },
+      {
+        "especie": "Tradescantia pallida",
+        "rasgo_diferenciador": "Hojas más largas y estrechas, morado uniforme en las dos caras, sin bandas plateadas. Tallos más gruesos y erguidos al principio."
+      },
+      {
+        "especie": "Tradescantia spathacea",
+        "rasgo_diferenciador": "Roseta erguida de hojas largas en forma de espada, verdes por el haz y moradas por el envés. No es colgante ni tiene tallos rastreros con nudos cada 2,5 cm."
+      },
+      {
+        "especie": "Callisia repens",
+        "rasgo_diferenciador": "Hojas mucho más pequeñas (1-3 cm), redondeadas y verdes, a veces con tonos rojizos. Sin bandas plateadas."
+      },
+      {
+        "especie": "Gibasis geniculata",
+        "rasgo_diferenciador": "Hojas verdes finas sin rayas plateadas, y flores blancas diminutas en tallos florales largos y finos."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Desconocido (NC State). La savia es irritante para la piel. Algunas webs no prioritarias citan cristales de oxalato cálcico; no hemos encontrado confirmación prioritaria.",
+    "sintomas": "Toxicidad baja. Lo principal es la irritación de la piel por contacto con la savia o las hojas: dermatitis de contacto con enrojecimiento y picor (NC State, Missouri Botanical Garden, RHS 'skin allergen'). Si se ingiere, irritación de boca y estómago en mascotas y personas (NC State). ASPCA, para la especie hermana T. fluminensis, la da como tóxica para perros, gatos y caballos, con dermatitis como signo clínico. Usar guantes al podar o hacer esquejes (RHS). Si una mascota la mastica o se revuelca en ella y se irrita, lavar la zona con agua y consultar al veterinario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F2",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste tras un visillo. En ventana norte muy luminosa aguanta, pero pierde color y se alarga.",
+      "tolera_sol_directo": "Tolera algo de sol directo con protección por la tarde. Missouri Botanical Garden: luz filtrada lo mejor; crece al sol directo con algo de protección de tarde. NC State: el pleno sol da el color más intenso, pero en latitudes del sur puede desteñir las hojas. En Madrid, evitar el sol de mediodía y de tarde del verano.",
+      "notas": "Escala del proyecto: brillante indirecta 500-1000 fc (≈5380-10760 lux). Con luz media aguanta, pero NC State avisa: con poca luz los tallos pierden las hojas inferiores, el color se apaga y se alarga (etiolación). Es la causa más típica de que 'se estropee'. UF/IFAS la recomienda a media sombra o sombra, pero como tapizante de exterior en Florida, con una intensidad de luz que no es comparable a la de interior. La RHS indica luz brillante filtrada bajo cristal.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-20 min. Nunca regar por calendario. NC State: dejar secar el sustrato entre riegos. Missouri Botanical Garden: sustrato constantemente húmedo pero bien drenado en temporada de crecimiento. RHS: riego moderado en crecimiento activo. Se adopta el criterio más prudente: dejar secar la capa superior, porque el encharcamiento pudre raíces y tallos (NC State, Missouri Botanical Garden).",
+      "primavera_verano": "Riego regular cuando se seque la capa superior. En cesta colgante, con calor y luz, la comprobación puede ser necesaria cada pocos días, pero manda el sustrato, no la fecha.",
+      "otono_invierno": "Reducir claramente el riego (NC State, Missouri Botanical Garden; RHS: 'sparingly'). Dejar que se seque más profundamente, unos 3-5 cm, antes de volver a regar, sobre todo si la habitación está fresca.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda, con cloramina y fluoruro <0,1 mg/L; reposarla no elimina la cloramina y no hace falta). UF/IFAS indica poca tolerancia a la sal del suelo: no excederse con el abono y lavar el sustrato con riego abundante de vez en cuando.",
+      "notas": "Tallos suculentos: aguanta un descuido corto de riego (UF/IFAS: tolerancia moderada a la sequía), pero se marchita si el cepellón se seca del todo. El exceso de riego es la causa nº 1 de muerte: pudre los tallos en la base.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State: tolera la humedad media de una vivienda y también la alta. Ninguna fuente prioritaria da porcentajes. Con aire muy seco (<30 %, calefacción en Madrid) pueden secarse las puntas, y las arañas rojas proliferan con aire seco y cálido; usar humidificador o agrupar plantas. Pulverizar no sube la humedad de forma útil, y mojar el follaje favorece las manchas foliares (NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 18-24 °C (NC State: 65-75 °F). Mínimo: la RHS la clasifica H1C (mínimo 5-10 °C). Se adopta el valor más alto, 10 °C, por ser el más prudente. NC State, UF/IFAS y Missouri Botanical Garden la dan como resistente en zonas USDA 9-11 (8-12 según Missouri Botanical Garden), pero eso se refiere a exterior y no sirve como objetivo en interior. No hay máximo publicado en las fuentes prioritarias; por encima de 30 °C con aire seco, extremar la vigilancia del riego y de la araña roja.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad a base de tierra, que drene bien. RHS: compost a base de franco (loam), sin turba. Missouri Botanical Garden: mezcla a base de tierra con algo de material orgánico. Añadir un 20-30 % de perlita para mejorar el drenaje [orientativo, sin fuente prioritaria]. Maceta siempre con agujero de drenaje.",
+      "ph": "Amplio: ácido, neutro o alcalino (NC State, RHS). UF/IFAS: tolera suelos ácidos y ligeramente alcalinos.",
+      "drenaje": "Imprescindible. Húmedo pero bien drenado (NC State, RHS, Missouri Botanical Garden). Con el sustrato encharcado se pudren raíces y tallos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes (RHS: 'balanced liquid fertiliser').",
+      "npk": "Equilibrado; las fuentes no dan una proporción concreta.",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta (convención del proyecto; RHS: mensual en crecimiento activo).",
+      "otono_invierno": "Nada.",
+      "notas": "UF/IFAS indica poca tolerancia a la sal: el exceso de abono acumula sales y quema raíces y puntas. Abonar en exceso favorece el crecimiento débil y alargado. NC State y Missouri Botanical Garden no mencionan el abonado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando las raíces llenen la maceta, normalmente cada 1-2 años [orientativo, sin fuente prioritaria]. En la práctica, muchas plantas se renuevan antes con esquejes que trasplantándolas.",
+      "epoca": "Primavera, coincidiendo con la poda fuerte de renovación (Missouri Botanical Garden y NC State sitúan la poda a principio de primavera).",
+      "senales": "Raíces saliendo por el agujero de drenaje, sustrato que se seca en muy poco tiempo, planta muy desnuda en el centro.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. Despuntar con regularidad para que ramifique y mantenerla compacta (Missouri Botanical Garden, RHS, NC State). Con los años los tallos se desnudan en la base: la solución es la poda fuerte o rehacer la planta con esquejes.",
+      "epoca": "Despuntes durante todo el periodo de crecimiento. Poda fuerte a principio de primavera (Missouri Botanical Garden; NC State: cada primavera).",
+      "como": "Cortar con tijera limpia justo por encima de un nudo. Los trozos sirven de esquejes. Quitar los brotes verdes lisos que salgan en cultivares variegados (RHS). Usar guantes: la savia irrita la piel (RHS, Missouri Botanical Garden). No tirar los restos al exterior, al compost de jardín ni a desagües o cauces: cada trozo con nudo enraíza, y UF/IFAS la clasifica como invasora en Florida.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo, no un letargo verdadero: de otoño a final de invierno (en Madrid, aproximadamente de noviembre a febrero).",
+      "cambios": "Reducir el riego (Missouri Botanical Garden: desde otoño hasta final de invierno; NC State y RHS: menos agua en invierno), no abonar y mantener la máxima luz posible sin sol abrasador. No trasplantar ni hacer la poda fuerte hasta la primavera.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo en agua",
+        "esquejes de tallo en sustrato"
+      ],
+      "epoca": "Primavera y verano (RHS); en interior cálido enraíza casi todo el año.",
+      "pasos": "1) Cortar puntas de tallo sanas de 8-10 cm, con varios nudos [longitud orientativa, sin fuente prioritaria]. 2) Quitar las hojas de los nudos inferiores. 3) Ponerlas en agua o en sustrato para esquejes ligeramente húmedo (RHS). Los nudos enraízan con mucha facilidad (NC State, UF/IFAS). 4) Para una planta frondosa, poner varios esquejes juntos en la misma maceta. 5) Mantener con luz brillante indirecta, sin encharcar. Es la forma recomendada de renovar una planta vieja desnuda por la base.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: es el problema más típico. Tallos largos con entrenudos largos y hojas pequeñas y pálidas (NC State). Acercarla a la ventana, despuntar y rehacer con esquejes."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Las bandas plateadas y el envés morado se apagan con poca luz (NC State). En cultivares variegados pueden salir brotes verdes lisos, que la RHS recomienda quitar. El pleno sol del sur también puede desteñir las hojas (NC State; ver S22)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Pérdida de las hojas inferiores con la edad y por falta de luz (NC State): la planta se desnuda por la base. También por riego excesivo. Solución: poda fuerte en primavera y renovación por esquejes."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Sustrato encharcado (NC State, Missouri Botanical Garden). Revisar raíces, cortar lo podrido y, si está muy afectada, salvar esquejes sanos."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo en la base por sustrato demasiado húmedo (NC State, Missouri Botanical Garden). Los tallos suculentos se ablandan y se oscurecen junto al sustrato."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, la plaga más citada (NC State, Missouri Botanical Garden, RHS, UF/IFAS), favorecida por el aire seco y cálido."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de hojas y vainas (NC State, Missouri Botanical Garden, RHS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, Missouri Botanical Garden, RHS)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State, Missouri Botanical Garden)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos (NC State, Missouri Botanical Garden)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado plateado por trips (RHS) o punteado por araña roja (ver S24)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Muescas en el borde de las hojas por adultos de otiorrinco (vine weevil, citado por la RHS). Sus larvas se comen las raíces."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas desteñidas por el sol directo fuerte del sur (NC State). En Madrid, el sol de verano en ventanas sur u oeste sin visillo."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire exterior muy seco (HR ≈38 % en julio): apartarla 1-2 m del cristal o poner un visillo en ventanas sur y oeste, porque el sol directo destiñe las hojas (NC State). Las cestas colgantes cerca del techo se calientan y se secan antes: comprobar el sustrato con frecuencia, sin dejar el plato con agua. El aire seco y caliente favorece la araña roja: revisar el envés cada semana. Puede pasar el verano en una terraza a la sombra o a media sombra, protegida del sol de la tarde (Missouri Botanical Garden permite sacarla en verano), pero sin dejar caer trozos al suelo ni a jardineras comunes: enraízan en cada nudo.",
+    "invierno": "Calefacción con HR interior a menudo <30 %: alejarla de radiadores y salidas de aire caliente, y usar humidificador o agrupar plantas (no pulverizar). Regar bastante menos. Mantenerla por encima de 10 °C (RHS H1C) y no dejar que las hojas toquen el cristal frío por la noche. Darle la ventana más luminosa disponible para que no se alargue, porque los días cortos agravan la etiolación.",
+    "ubicacion_recomendada": "Cesta colgante o estante junto a una ventana este, o a 1-2 m de una ventana sur u oeste tras un visillo, lejos de radiadores y fuera del alcance de perros y gatos. Si se saca a la terraza en verano, no tirar nunca restos ni esquejes al jardín, al compost exterior ni a desagües."
+  },
+  "lagunas": [
+    "Nomenclatura: Missouri Botanical Garden, RHS y NC State usan Tradescantia zebrina, con sinónimos Zebrina pendula, Tradescantia pendula, Tradescantia tricolor y Commelina/Cyanotis zebrina. UF/IFAS (FP620) la publica como Tradescantia pendula / Zebrina pendula. Autor correcto según la bibliografía consultada: Bosse (Kew Bulletin 2008, no abierto). No se pudo abrir la ficha de POWO (Kew) para confirmar el nombre aceptado y el autor.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes mínimo ni ideal (min_pct e ideal_pct = null).",
+    "Temperatura máxima tolerada: sin dato en fuentes prioritarias (max_c = null).",
+    "Toxicidad: ASPCA no tiene ficha de T. zebrina; la de 'Inch Plant / Wandering Jew' corresponde a T. fluminensis (dermatitis en perros, gatos y caballos). Para T. zebrina, NC State la marca como problemática para perros, gatos y niños (baja gravedad, principio activo desconocido). Falta una segunda fuente prioritaria veterinaria específica de la especie (Pet Poison Helpline no consultada).",
+    "Estatus invasor en España: no se ha verificado si T. zebrina figura en el Catálogo Español de Especies Exóticas Invasoras (RD 630/2013); sí consta su carácter invasor en Florida (UF/IFAS). Comprobar en el BOE o en MITECO.",
+    "Trasplante: ninguna fuente prioritaria da frecuencia ni señales; el bloque se basa en la práctica general (confianza Baja).",
+    "Tratamientos fitosanitarios: no se han buscado productos concretos del Registro del MAPA para esta especie.",
+    "Actualización del orquestador (2026-10-21): según el texto consolidado del RD 630/2013 (BOE, actualizado el 19/10/2026), consultado para la ficha de Tradescantia spathacea, el único Tradescantia incluido en el Catálogo Español de Especies Exóticas Invasoras es T. fluminensis; T. zebrina no figura. Se mantiene la recomendación de no tirar restos al exterior."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279286",
+      "institucion": "Missouri Botanical Garden – Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/79575/Tradescantia-zebrina/Details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/FP620",
+      "institucion": "University of Florida IFAS Extension – EDIS FPS-620 (Zebrina pendula / Tradescantia pendula)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/inch-plant",
+      "institucion": "ASPCA Animal Poison Control – Inch Plant (Tradescantia fluminensis, especie del mismo género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

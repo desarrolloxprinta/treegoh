@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reglas meteorológicas de ajuste de cuidado",
+  "type": "object",
+  "required": ["version", "ubicacion_referencia", "reglas", "fuentes"],
+  "properties": {
+    "version": { "type": "string" },
+    "ubicacion_referencia": { "type": "string" },
+    "reglas": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "condicion", "ajuste", "afecta_a", "estaciones", "prioridad", "confianza", "fuentes"],
+        "properties": {
+          "id": { "type": "string" },
+          "nombre": { "type": "string" },
+          "condicion": {
+            "type": "object",
+            "required": ["variable", "operador", "valor", "unidad", "origen"],
+            "properties": {
+              "variable": { "type": "string", "enum": ["temp_exterior", "temp_interior", "humedad_relativa_exterior", "humedad_relativa_interior", "horas_sol", "ola_calor", "ola_frio", "calefaccion_activa", "aire_acondicionado_activo", "lluvia", "viento", "radiacion_uv"] },
+              "operador": { "type": "string", "enum": [">", ">=", "<", "<=", "==", "entre"] },
+              "valor": { "type": ["number", "boolean", "array"] },
+              "unidad": { "type": "string" },
+              "origen": { "type": "string", "enum": ["api_meteo", "sensor_movil", "usuario", "calculado"] },
+              "duracion_min_dias": { "type": ["integer", "null"] }
+            }
+          },
+          "ajuste": {
+            "type": "object",
+            "required": ["accion", "parametro", "factor_o_valor", "explicacion_usuario"],
+            "properties": {
+              "accion": { "type": "string", "enum": ["multiplicar_frecuencia_riego", "pulverizar", "sombrear", "mover", "proteger_frio", "aumentar_humedad", "suspender_abonado", "revisar_plagas", "aviso"] },
+              "parametro": { "type": "string" },
+              "factor_o_valor": { "type": ["number", "string"] },
+              "explicacion_usuario": { "type": "string" }
+            }
+          },
+          "afecta_a": {
+            "type": "object",
+            "required": ["categorias", "especies", "excepciones"],
+            "properties": {
+              "categorias": { "type": "array", "items": { "type": "string" } },
+              "especies": { "type": "array", "items": { "type": "string" } },
+              "excepciones": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "estaciones": { "type": "array", "items": { "type": "string", "enum": ["primavera", "verano", "otono", "invierno", "todas"] } },
+          "prioridad": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "ejemplo_madrid": { "type": "string" },
+          "confianza": { "type": "string", "enum": ["Alta", "Media", "Baja"] },
+          "fuentes": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        }
+      }
+    },
+    "fuentes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "institucion", "tipo", "fecha_consulta"],
+        "properties": {
+          "id": { "type": "string" }, "url": { "type": "string" }, "institucion": { "type": "string" },
+          "tipo": { "type": "string", "enum": ["prioritaria", "complementaria"] }, "fecha_consulta": { "type": "string" }
+        }
+      }
+    }
+  }
+}

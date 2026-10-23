@@ -1,0 +1,313 @@
+{
+  "nombre_cientifico": "Aechmea fasciata",
+  "nombres_comunes": [
+    "aechmea",
+    "bromelia aechmea",
+    "piña de salón",
+    "planta urna",
+    "vaso de plata"
+  ],
+  "familia": "Bromeliaceae",
+  "origen": "Sureste de Brasil (POWO, NC State, MBG); introducida en Puerto Rico (NC State).",
+  "clima_nativo": "Tropical húmedo del bosque atlántico del sureste de Brasil: crece como epífita sobre árboles (o a veces en el suelo) sin tomar alimento del hospedador, con luz filtrada, calor y lluvias frecuentes; recoge agua en el vaso central de la roseta (NC State, MBG, RHS).",
+  "categoria": "flor",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Roseta basal en forma de urna o jarrón de hojas rígidas, coriáceas y ásperas, acintadas, de elípticas a obovadas, de más de 15 cm de largo y 2,5-7,5 cm de ancho, curvadas hacia fuera en el ápice. Color verde grisáceo a verde oscuro cubierto de escamas plateadas que forman bandas transversales claras (el epíteto 'fasciata' alude a esas bandas). El margen lleva espinas o dientes negros y punzantes. Las bases solapadas forman un vaso central que retiene agua. Inflorescencia: escapo que sale del centro de la roseta y termina en una cabeza densa y piramidal de brácteas rosa intenso, entre las que asoman flores pequeñas azul-violeta que viran a rojo; las brácteas siguen vistosas varios meses. A veces se forman frutos esféricos blancos y lanosos (NC State, MBG, RHS, Clemson).",
+    "nerviacion": "Paralela, típica de monocotiledónea; sin nervio central marcado ni red de venas visible.",
+    "variegacion": "La especie tiene bandas transversales plateadas de escamas, no variegación verdadera. Cultivares: 'Primera' (hojas anchas verdes con bandas gris plata), 'Purpurea' (hojas morado oscuro con bandas blancas) y 'Variegated' (hojas verde azulado con una franja central crema) (NC State).",
+    "tallo": "Sin tallo visible (acaule): la roseta nace del cuello; el escapo floral sale del centro del vaso y los hijuelos aparecen en la base (NC State, MBG).",
+    "habito": "Epífita en roseta abierta en forma de vaso o urna; crecimiento lento. Monocárpica: cada roseta florece una sola vez, cuando madura (unos 3-5 años según NC State), y después decae poco a poco mientras produce hijuelos.",
+    "tamano_adulto_interior": "30-60 cm de alto y ancho en maceta, con la inflorescencia. NC State y MBG dan 30-90 cm de alto y 30-60 cm de ancho; RHS da 10-50 cm de alto y ancho.",
+    "confusiones": [
+      {
+        "especie": "Aechmea chantinii",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. Roseta abierta de hojas duras verde oliva con bandas transversales gris-rosadas muy marcadas, y espiga ramificada de brácteas rojas con puntas amarillas; A. fasciata tiene hojas verde grisáceo plateadas y una cabeza piramidal compacta de brácteas rosas (Clemson)."
+      },
+      {
+        "especie": "Guzmania lingulata",
+        "rasgo_diferenciador": "Hojas verdes brillantes, lisas y de margen entero sin espinas; inflorescencia en estrella de brácteas rojas, naranjas o amarillas con flores blancas. A. fasciata tiene hojas plateadas con espinas negras en el margen y flores azul-violeta (RHS, Clemson)."
+      },
+      {
+        "especie": "Vriesea splendens",
+        "rasgo_diferenciador": "Hojas con bandas oscuras y espiga alta plana en forma de espada con brácteas rojas; la de A. fasciata es una cabeza densa rosa y sus hojas tienen espinas en el margen (RHS)."
+      },
+      {
+        "especie": "Billbergia nutans",
+        "rasgo_diferenciador": "Hojas estrechas y arqueadas en matas, con inflorescencias colgantes de brácteas rosas y flores tubulares verde-azuladas; no forma una urna ancha plateada (RHS)."
+      },
+      {
+        "especie": "Ananas comosus var. variegatus (piña ornamental)",
+        "rasgo_diferenciador": "Hojas largas con rayas longitudinales verdes y amarillas o crema, sin vaso de agua marcado, y produce un fruto de piña en el centro; A. fasciata tiene bandas transversales plateadas y cabeza de brácteas rosas (RHS, Clemson)."
+      },
+      {
+        "especie": "Neoregelia carolinae f. tricolor",
+        "rasgo_diferenciador": "Hojas con rayas longitudinales verdes y amarillas; en la floración el centro de la roseta se tiñe de rojo y las flores quedan a ras del agua del vaso, sin escapo; A. fasciata levanta una cabeza rosa sobre un escapo (RHS)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos según NC State (etiquetas 'non-toxic for dogs', 'non-toxic for cats' y 'non-toxic for horses') y la Universidad de Illinois (lista 'Aechmea fasciata, urn plant' como no tóxica para perros y gatos). Si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. Riesgo físico: las espinas negras del margen de las hojas pinchan y arañan; manejarla con guantes y ponerla fuera del alcance de niños pequeños y animales que muerdan hojas. En personas no se ha encontrado ficha de una fuente prioritaria: se marca 'desconocida'. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F7"
+    ],
+    "notas": "Perros y gatos: Alta (NC State y Univ. de Illinois coinciden). La ASPCA no tiene ficha propia de Aechmea fasciata (se probaron 'urn plant', 'silver vase' y 'aechmea fasciata' y las páginas de letras A, B, S y U sin resultados); la Universidad de Illinois cita la lista de la ASPCA como referencia. Niños: sin fuente prioritaria; véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este, oeste o sur (RHS: orientación sur, oeste o este) con luz brillante filtrada, a 0,5-1,5 m del cristal. En sur y oeste, tamizar con cortina fina de primavera a otoño.",
+      "tolera_sol_directo": "Parcialmente: tolera sol suave filtrado o de primera hora, pero el sol fuerte de verano quema y blanquea las hojas (RHS). MBG: sol brillante pero filtrado a semisombra. Una planta amarillenta o verde pálida indica exceso de luz; hojas verde oscuro, blandas y caídas indican falta de luz (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "NC State: luz brillante indirecta a semisombra; MBG: sol brillante filtrado a semisombra; RHS: luz brillante filtrada, protegida del sol fuerte de verano; Clemson: las Aechmea necesitan luz brillante. Se toma la franja de luz brillante indirecta de la escala del proyecto (500-1.000 fc ≈ 5.380-10.760 lux). Sobrevive semanas con poca luz pero no crece (UF/IFAS, bromelias en general); para que un hijuelo llegue a florecer necesita la parte alta del rango."
+    },
+    "riego": {
+      "criterio": "Dos reservas de agua. 1) Vaso central: mantener una pequeña lámina de agua (unos 2,5 cm, NC State) de forma continua en la época cálida y vaciarlo y renovarlo una vez al mes (NC State; RHS: cada 1-2 meses) para que no se estanque ni críe insectos. Al rellenar, que el agua no empape el sustrato (Clemson). 2) Sustrato: regar cuando los 2-3 cm superiores estén secos al tacto y la maceta pese claramente menos que recién regada. Regar despacio, dejar escurrir y vaciar el plato a los 10-15 minutos; nunca dejar la maceta en agua. Nunca por calendario.",
+      "primavera_verano": "Vaso con agua continua, comprobándolo cada pocos días; renovar el agua al menos una vez al mes (con calor fuerte, cada 2-3 semanas para que no huela). Sustrato ligeramente húmedo pero nunca empapado (RHS: 'damp but not soggy'), regando cuando se cumpla el criterio del dedo y el peso.",
+      "otono_invierno": "Reducir el riego (NC State, MBG, RHS): dejar secar el sustrato entre riegos (RHS). Si la habitación está fresca o con poca luz, dejar muy poca agua en el vaso o vaciarlo, porque el agua fría estancada favorece la pudrición del cuello. Vaciar el vaso siempre si puede bajar de unos 4 °C (UF/IFAS: el frío deja una línea parda en las hojas al nivel del agua).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "RHS recomienda idealmente agua de lluvia o destilada para el vaso, porque el agua dura deja marcas y sales. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve; dejarla reposar no elimina la cloramina, pero no hace falta. Usar agua a temperatura ambiente. Renovar el agua del vaso arrastra las sales que deja la evaporación (UF/IFAS, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6"
+      ],
+      "notas": "Contradicción en el sustrato: NC State y MBG piden un medio 'constantemente húmedo' bien drenado; Clemson pide dejar secar el sustrato entre riegos (también para Aechmea), y RHS pide húmedo en verano y seco entre riegos en invierno. Opción conservadora adoptada: regar solo cuando la capa superior está seca, sin dejar que el cepellón se seque por completo durante semanas. Contradicción en el vaso: RHS, Clemson, NC State y MBG mantienen agua en el vaso; UF/IFAS describe llenarlo al regar y después vaciarlo. Se adopta agua en el vaso con renovación mensual en época cálida y poca o ninguna con frío. Puntas pardas: NC State y MBG las atribuyen a falta de agua o frío; RHS, a exceso de riego. Es tolerante a la sequía (NC State), de ahí sensibilidad a la sequía baja; el exceso de agua causa pudrición de raíz y cuello (NC State, MBG, Clemson, RHS)."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes piden aire húmedo (RHS: baño o cocina luminosos, sobre todo en verano y con calefacción; Clemson: las bromelias necesitan aire húmedo y la mayoría de las casas son demasiado secas), pero ninguna da un porcentaje. Según la convención del proyecto, pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas; en bandeja de guijarros el agua debe quedar por debajo de la base de la maceta (RHS). MBG recomienda enjuagar la planta con agua de vez en cuando para quitar el polvo de las hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15.5,
+      "max_c": 29,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "NC State: prospera entre 18 y 24 °C (65-75 °F). MBG: mejor rendimiento con unos 16 °C de noche (low 60s °F) y 24-27 °C de día (75-80 °F). Clemson: las bromelias prefieren 15,5-29,4 °C (60-85 °F) 'para sobrevivir y crecer bien', y las Aechmea piden temperaturas muy cálidas. RHS (bromelias en general): mínimo 10 °C en invierno; unos 21 °C en verano favorecen la floración y unos 12 °C con la inflorescencia formada la hacen durar más. Siguiendo la regla de tomar el mínimo más alto, min_c = 15,5 °C (Clemson); entre 10 y 15 °C suele sobrevivir según RHS, pero sin crecer y con más riesgo de puntas pardas por frío (NC State, MBG). max_c = 29 °C es el techo del rango preferido de Clemson, no un límite de daño comprobado. Mantener lejos de radiadores, salidas de aire y corrientes frías (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada para epífitas: sustrato de orquídeas (NC State); o a partes iguales corteza fina compostada (o sustrato de orquídeas), grava fina y fibra de coco; o a partes iguales corteza fina y sustrato universal sin turba; o sustrato comercial para bromelias (RHS). RHS (ficha de especie): compost para bromelias epífitas.",
+      "ph": "Amplio: de ácido a alcalino (NC State; RHS: 'acid or alkaline'). Sin rango numérico en las fuentes.",
+      "drenaje": "Imprescindible y rápido: el sustrato no debe quedar empapado nunca (RHS, Clemson, NC State). Maceta pequeña con agujeros; el aire debe llegar a las raíces (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o bajo en nitrógeno, muy diluido. Puede omitirse: en interior rara vez hace falta (UF/IFAS, RHS).",
+      "npk": null,
+      "primavera_verano": "Si se abona, ¼-½ de la dosis de etiqueta una vez al mes como máximo, solo con crecimiento activo, aplicado al sustrato húmedo. Si se echa en el vaso (RHS), usar la dilución más baja y renovar el agua del vaso unas semanas después. Nunca abono sólido ni granulado en el vaso: quema las hojas (RHS).",
+      "otono_invierno": "Nada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F5"
+      ],
+      "notas": "Contradicción en el lugar: RHS aplica abono líquido a media dosis en el vaso cada mes en primavera-verano; UF/IFAS aconseja no echarlo en el vaso porque las sales se acumulan y queman las hojas nuevas, y aplicarlo al sustrato cada 1-2 meses a 1/3-½ de dosis; Clemson: media dosis o menos en verano. Opción conservadora: al sustrato, muy diluido. El exceso de abono puede apagar el color de las hojas (RHS)."
+    },
+    "trasplante": {
+      "frecuencia": "Rara vez: sistema radicular pequeño, sobre todo de anclaje. La planta comprada en flor no necesita trasplante; lo habitual es trasplantar los hijuelos al separarlos.",
+      "epoca": "Verano (RHS); en el hemisferio norte, de mayo a agosto.",
+      "senales": "La planta ha superado su maceta, vuelca por el peso o el sustrato está descompuesto y ya no drena. Usar una maceta solo un poco mayor para no sobredimensionarla (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS, ficha de especie y guía). Solo limpieza de la inflorescencia seca y de la roseta madre cuando muere.",
+      "epoca": "Cuando la inflorescencia pierde color (las brácteas duran varios meses, MBG) y cuando la roseta madre está seca.",
+      "como": "Cortar el escapo floral seco por su base con tijera limpia; usar guantes por las espinas del margen. Que la roseta madre amarillee y se seque tras florecer es natural (monocárpica), no un problema: dejarla mientras siga verde porque alimenta a los hijuelos, y retirar las rosetas muertas cuando estén secas (MBG, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F2",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero, pero en otoño-invierno (hemisferio norte) crece menos: reducir el riego del sustrato y el agua del vaso (NC State, MBG, RHS) y no abonar (UF/IFAS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos (división)",
+        "semilla (lenta, poco práctica)"
+      ],
+      "epoca": "Separar hijuelos en primavera (RHS: abril o mayo; en Madrid, de abril a junio).",
+      "pasos": "1) Tras la floración, seguir regando: la roseta madre forma hijuelos en la base antes de morir (NC State, MBG). 2) Esperar a que el hijuelo mida al menos 15 cm (NC State, MBG) o un tercio del tamaño de la madre (RHS); UF/IFAS espera a la mitad. Mejor esperar de más. 3) Con guantes y un cuchillo afilado y limpio, cortar el hijuelo por su unión con la madre, con las raíces que tenga. 4) Plantarlo en maceta pequeña con mezcla para bromelias. 5) Ponerlo en sitio cálido y luminoso sin sol directo, cubierto con bolsa transparente o en propagador (RHS). 6) Si solo hay un hijuelo, puede dejarse en la maceta y retirar la roseta madre seca (RHS). Tarda unos 3-5 años en madurar y florecer (NC State). Si una planta madura no florece, puede inducirse cubriéndola con una bolsa transparente con una manzana madura 1-2 semanas, a la sombra (MBG; Clemson: 2-3 días; la floración empieza a las 6-14 semanas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F6",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Tras florecer, la roseta madre amarillea y se seca poco a poco: es su ciclo natural (florece una sola vez y muere, NC State, MBG), no una enfermedad. No hay que tratarla; seguir regando para que salgan hijuelos."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Sustrato que se seca demasiado o frío (NC State, MBG); también exceso de riego o encharcamiento (RHS) y aire muy seco de la calefacción. No se debe al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Sustrato demasiado húmedo, que no drena, o riegos demasiado frecuentes (NC State, MBG, Clemson)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del cuello o corona (NC State, MBG; MBG: sobre todo en la propagación), favorecida por agua fría o estancada en el vaso y sustrato siempre mojado en invierno. Vaciar el vaso, dejar secar el sustrato y no volver a llenarlo hasta que haga calor."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (NC State, MBG), quemaduras por sol o una línea parda a la altura del agua del vaso por frío (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo en verano: hojas blanqueadas o pardas (RHS)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Planta amarillenta o verde pálida en conjunto: luz demasiado intensa (UF/IFAS). Si ocurre después de florecer, ver S02."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas verde oscuro, blandas y caídas: falta de luz (UF/IFAS). Si además la base está blanda, sospechar pudrición (S15)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, plaga frecuente (NC State, MBG, RHS, Clemson); se esconde en las axilas de las hojas y la base de la roseta. Retirarla a mano y, si persiste, usar solo un insecticida listo para usar de uso no profesional autorizado en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, la otra plaga habitual (NC State, MBG, RHS, Clemson); escudos pardos sobre las hojas y en su base. Retirarlas a mano; si persisten, producto listo para usar de uso no profesional autorizado por el MAPA."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, no dejarla en ventana sur u oeste sin cortina (quemaduras, RHS); mejor luz brillante filtrada en un este o a 1-1,5 m de la ventana, lejos del cristal caliente. Por encima de 29 °C no hay datos de tolerancia: sombra, ventilación y humedad (humidificador o agrupar plantas; pulverizar no sirve). Mantener agua en el vaso y renovarla cada 2-3 semanas para que no huela; el sustrato se seca antes, así que comprobar con el dedo y el peso con más frecuencia, sin encharcar. Si se saca a terraza, solo con noches por encima de 10 °C, en sombra parcial y protegida del sol de mediodía (RHS).",
+    "invierno": "Con calefacción y humedad interior a menudo por debajo del 30 %, alejarla de radiadores y salidas de aire (RHS) y usar humidificador o agrupar plantas. Mantenerla por encima de 15,5 °C y no pegarla a cristales fríos ni a corrientes; una ventana sur es ahora el mejor sitio por luz. Regar menos, dejar secar el sustrato entre riegos y poca o ninguna agua en el vaso si la habitación está fresca. Sin abono.",
+    "ubicacion_recomendada": "Junto a una ventana este, o sur u oeste con cortina fina, con luz brillante filtrada, en salón, cocina o baño luminosos, a 18-24 °C, lejos de radiadores y corrientes, y fuera del alcance de niños y mascotas por las espinas del margen."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Aechmea fasciata (Lindl.) Baker (urn:lsid:ipni.org:names:121640-1), nativa del sureste de Brasil. Sinónimos homotípicos: Billbergia fasciata Lindl., Bromelia fasciata (Lindl.) Desf., Hohenbergia fasciata (Lindl.) Schult. & Schult.f. y Platyaechmea fasciata (Lindl.) L.B.Sm. & W.J.Kress; heterotípicos, entre otros: A. fasciata var. purpurea (Guillon) Mez, var. flavivittata Reitz, var. pruinosa Reitz, Billbergia rhodocyanea Lem. y Billbergia glazioviana Regel. No hay cambio de nombre.",
+    "La ASPCA no tiene ficha propia de Aechmea fasciata; la toxicidad para perros y gatos se apoya en NC State y la Universidad de Illinois.",
+    "Toxicidad en niños/personas: sin fuente prioritaria; se marca 'desconocida'. Fuentes secundarias (earth.com, un jardín botánico municipal polaco) dicen que la FDA Poisonous Plant Database la incluye entre las plantas irritantes para la piel (dermatitis de contacto), pero no se pudo abrir esa ficha de la FDA para comprobarlo. La ficha de dermatitis de la Connecticut Agricultural Experiment Station no la menciona.",
+    "Ninguna fuente prioritaria da un porcentaje de humedad mínima ni ideal.",
+    "Sin datos de temperatura máxima tolerada: max_c (29 °C) es el techo del rango preferido de Clemson (85 °F), no un límite de daño comprobado.",
+    "Ninguna fuente prioritaria da un rango numérico de pH; solo indican que tolera de ácido a alcalino.",
+    "La frecuencia de renovación del agua del vaso cada 2-3 semanas en pleno verano es una medida prudente sin fuente específica; las fuentes dan una vez al mes (NC State) o cada 1-2 meses (RHS).",
+    "Tiempo hasta la floración: NC State da 3-5 años; la ficha de especie de la RHS da 5-10 años de 'tiempo hasta la madurez' sin aclarar si es desde semilla."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Aechmea fasciata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=291289&isprofile=0",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Aechmea fasciata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/bromeliads/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/59419/aechmea-fasciata/details",
+      "institucion": "Royal Horticultural Society (RHS) — Plant profile, Aechmea fasciata (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center — HGIC 1501 Bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://edis.ifas.ufl.edu/publication/EP337",
+      "institucion": "UF/IFAS Extension (University of Florida) — ENH1071/EP337 Bromeliads at a Glance",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://pcf.aces.illinois.edu/crop-sciences-plant-collection/",
+      "institucion": "University of Illinois, College of ACES — Crop Sciences Plant Collection (toxicidad para mascotas)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:121640-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

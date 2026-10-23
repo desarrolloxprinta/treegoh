@@ -1,0 +1,360 @@
+{
+  "nombre_cientifico": "Nephrolepis exaltata",
+  "nombres_comunes": [
+    "helecho de Boston",
+    "helecho espada",
+    "helecho de Boston 'Bostoniensis'",
+    "Boston fern / sword fern (inglés)"
+  ],
+  "familia": "Nephrolepidaceae",
+  "origen": "América tropical y subtropical: Florida, Antillas, México, Centroamérica y Sudamérica; MBG añade Polinesia y África (F2, F1, F6). Nativa de Florida (F7). La planta de interior habitual es el cultivar 'Bostoniensis', una mutación natural de frondes arqueadas y colgantes hallada en 1894 en un envío de helechos de Filadelfia a Boston (F4, F7; ENH1286 da 1895). Hoy los cultivares derivados de 'Bostoniensis' han sustituido casi por completo a la especie silvestre en el comercio (F6).",
+  "clima_nativo": "Sotobosque de bosques tropicales y subtropicales húmedos ('hammocks' de Florida), terrestre o epífita, en sombra parcial a profunda, con suelo húmedo pero drenado y humedad ambiental alta (F1, F5, F7). Rústica al exterior solo en zonas USDA 10-12 (F2, F1); UF/IFAS la extiende a 8B-11 en Florida y Wisconsin a 9-11 (F5, F4). Sin heladas.",
+  "categoria": "helecho",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Frondes pinnadas (una vez divididas) en roseta, que salen directamente del sustrato sin tallo aéreo, de 60-90 cm de largo en maceta (hasta 120-150 cm en la especie silvestre) y 7-15 cm de ancho; lanceoladas, de verde claro a verde medio (F1, F5, F6). Pinnas (foliolos) numerosas, alternas, muy juntas, linear-oblongas, terminadas en punta ('en espada'), con la base asimétrica auriculada y el margen crenado a finamente serrado u ondulado (F1, F2, F7). En 'Bostoniensis' las frondes son más anchas y caen en cascada (F3). SOROS: en el envés de las frondes fértiles aparecen dos filas regulares de puntos redondos, pardo oscuros a negros, cada uno sobre un nervio y cerca del margen de la pinna; son los órganos de las esporas, NO una plaga ni una enfermedad (F1, F4). Rasgo para la IA: puntos redondos, todos del mismo tamaño, en filas simétricas y solo en el envés = soros; bultos irregulares, alargados en forma de concha de ostra o abombados, también sobre el raquis y que se levantan con la uña = cochinillas (ver S30). Los cultivares tienen frondes rizadas, onduladas, retorcidas o doblemente pinnadas ('Fluffy Ruffles', 'Rooseveltii', 'Whitmanii'), más compactas ('Compacta', 'Dallas') o amarillentas ('Rita's Gold', 'Tiger') (F1, F4, F6).",
+    "nerviacion": "Nervios de las pinnas finos, libres y poco visibles a simple vista (UF/IFAS: 'difícil de ver') (F5). Raquis central verde a pardo claro, con escamas pálidas de un solo color en la cara superior (F7).",
+    "variegacion": "La especie y 'Bostoniensis' son verde uniforme. Existen cultivares con estrías amarillas o lima ('Tiger', 'Tiger Fern', con patente PP15315) y cultivares de color amarillo verdoso ('Golden Boston', 'Rita's Gold') (F1, F4, F6). Un tono verde pálido-amarillento en una planta verde no es variegación sino exceso de luz (F8, F6).",
+    "tallo": "Rizoma corto y erguido del que salen las frondes; produce estolones (rizomas finos, verdes y filiformes, sin hojas) que cuelgan por fuera de la maceta y enraízan dando plantitas nuevas donde tocan el sustrato (F4, F5). Sin tubérculos en las raíces (los tubérculos indican N. cordifolia) (F7).",
+    "habito": "Helecho perenne siempreverde en mata densa; las frondes nacen erguidas y se arquean con la edad, con porte colgante en 'Bostoniensis', muy usado en cesta colgante o sobre pedestal (F2, F3, F5).",
+    "tamano_adulto_interior": "60-90 cm de alto y de ancho en maceta (F1, F2, F3); cultivares compactos con frondes de 30-45 cm (F4, F6).",
+    "confusiones": [
+      {
+        "especie": "Nephrolepis cordifolia (helecho espada de tubérculos)",
+        "rasgo_diferenciador": "Forma tubérculos redondos en las raíces (si los hay, la identificación es segura); escamas del raquis con el punto de inserción más oscuro que el resto; pinnas medianas solapadas que tapan el raquis; frondes más cortas, rígidas y erguidas, con pinnas rectas y romas; indusios reniformes a semilunares. N. exaltata: sin tubérculos, escamas de un color, pinnas en punta y frondes largas y colgantes (F7). Se vende a menudo como 'helecho de Boston'; es invasora en Florida (F6, F7)."
+      },
+      {
+        "especie": "Nephrolepis biserrata (helecho espada gigante) y Nephrolepis brownii (helecho espada asiático)",
+        "rasgo_diferenciador": "Ambas tienen pelillos cortos y rígidos en el nervio central de las pinnas (se ven doblando la pinna a contraluz); N. brownii además tiene pecíolos cubiertos de escamas pardo oscuras aplicadas con borde pálido. N. exaltata tiene el nervio central glabro (F7)."
+      },
+      {
+        "especie": "Nephrolepis falcata (helecho cola de pez)",
+        "rasgo_diferenciador": "Pinnas bifurcadas 1-3 veces en el extremo, en cola de pez; en N. exaltata las pinnas no se bifurcan (F7)."
+      },
+      {
+        "especie": "Cochinillas sobre la fronde (confusión de diagnóstico, no de especie)",
+        "rasgo_diferenciador": "Los soros son puntos redondos regulares en dos filas simétricas, solo en el envés y siempre en la misma posición de cada pinna (F1, F4). La cochinilla del helecho (Pinnaspis aspidistrae) es una concha alargada, plana y pardo clara (hembra) o una escama blanca afieltrada con tres crestas (macho), dispersa sin orden (F10); la cochinilla hemisférica (Saissetia coffeae) es un escudo abombado pardo con una 'H' en relieve, también en el raquis (F9)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos (ASPCA: 'Non-Toxic to Dogs, Non-Toxic to Cats', F11; NC State la etiqueta como no tóxica para gatos, perros y caballos, F1). En personas, la hoja de toxicidad de plantas de interior de la Extensión de la Univ. de Nebraska–Lincoln la clasifica 'non-toxic' (F12). Que no sea tóxica no significa que sea comestible: si un animal o un niño come mucha fronde puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. Atención: el llamado 'helecho espárrago' (Asparagus) no es un helecho ni esta planta; no extrapolar. Ante cualquier duda, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F11",
+      "F1",
+      "F12"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA y NC State coinciden). Niños: una sola fuente prioritaria (UNL Extension, consultada en copia archivada porque el original da 404); para personas la confianza real es Media. ASPCA la cita como 'Nephrolepis exalta bostoniensis', familia Dryopteridaceae. Ninguna fuente describe un principio tóxico."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este, o ventana sur u oeste detrás de una cortina fina o a 1-2 m del cristal para que no le dé el sol (F4, F13). Una ventana norte muy luminosa sirve para mantenerla, pero crece menos y pierde frondes.",
+      "tolera_sol_directo": "No. Sin sol directo (F2, F3); el sol fuerte de verano la blanquea a un verde amarillento (F8) y la quema si se saca de golpe al sol (F6). Como mucho, sol suave de primera hora de la mañana.",
+      "notas": "Escala del proyecto: media 100-500 fc, brillante indirecta 500-1000 fc. MBG y NYBG piden luz brillante indirecta y Wisconsin 'medium bright' (F2, F8, F4). UF/IFAS indica para mantenimiento en interior 50-200 fc (≈540-2150 lux) (F6) y en invernadero de producción crece mejor con 1500-3000 fc y la mejor calidad hacia 2000 fc (F6). Se adopta 100-1000 fc (≈1076-10760 lux): tolera luz media, pero por debajo de unos 100 fc da frondes largas, débiles, colgantes y escasas y pierde hojas de forma continua (F6, F8). Más luz de la debida = frondes pálidas (F6). No es una contradicción: UF da el mínimo de mantenimiento y los jardines botánicos el óptimo de crecimiento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "F13"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato uniformemente húmedo pero nunca encharcado (F4, F6). Comprobar con el dedo a 2-3 cm y por el peso de la maceta: regar cuando el primer centímetro o dos empiecen a notarse secos y la maceta pese claramente menos, sin esperar a que se seque el cepellón entero (F1, F8, F13). Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos: no dejarla con el fondo en agua (F13). Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo y calor, el sustrato se seca rápido, sobre todo en cesta colgante y maceta pequeña (F4): revisar cada 2-3 días y regar en cuanto la superficie empiece a secarse. Si se seca del todo, la planta se vuelve gris, deja de crecer y suelta frondes (F6, F2).",
+      "otono_invierno": "Con menos luz y frío, reducir algo el riego (MBG: solo una ligera reducción) dejando que la superficie se seque un poco más, pero sin que el cepellón llegue a secarse (F2, F1). En invierno el exceso de agua con poca luz y frío pudre raíces (F1, F6). Con calefacción el sustrato puede secarse casi tan rápido como en verano: decidir siempre por dedo y peso.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente (F13). Tolera mal las sales (UF/IFAS: tolerancia a sales 'pobre', F5) y el exceso de sales solubles quema puntas de frondes y estolones (F6). Con el agua del grifo de Madrid (blanda, con cloramina, flúor <0,1 mg/L) no hace falta agua destilada; lo que causa puntas secas son las sales del abono acumuladas, el riego irregular y el aire seco. Lavar el sustrato con abundante agua 2-3 veces al año si hay costra blanca o puntas quemadas (F6).",
+      "notas": "Wisconsin la considera el helecho más tolerante a la sequía entre los comunes, pero insiste en la humedad constante (F4); NYBG coincide en que tolera algún descuido ocasional mejor que otros helechos (F8). El exceso de riego sigue siendo la causa nº 1 de muerte de plantas de interior (convención del proyecto): húmedo no es empapado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "F13"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "Necesita humedad alta: lo dicen NC State, MBG, Wisconsin y NYBG, sin cifra (F1, F2, F4, F8). El aire seco de interior, sobre todo en invierno con calefacción, causa puntas y bordes de pinnas marrones (F4, F2) y favorece la araña roja y las cochinillas (F1, F13). Las cifras solo vienen de una fuente complementaria (Fairfax Master Gardeners): 30 % es el límite inferior que soporta un helecho y 40-50 % es el rango deseable (F13); se adopta 40 % como mínimo práctico (más conservador) y 50 % como ideal. Medidas útiles: humidificador junto a la planta (F13), agrupar plantas, baño o cocina luminosos (F2, F1), doble maceta con musgo sphagnum húmedo entre ambas (F4, F13). Bandeja con grava húmeda: ayuda poco y el fondo de la maceta no debe tocar el agua (F13). Pulverizar las frondes no sube la humedad de forma útil (convención del proyecto, aunque NYBG lo mencione) y en frondes finas mojadas de noche favorece hongos (F6).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F13"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Interior ideal 20-24 °C (UF/IFAS 68-75 °F, F6); de día 18-24 °C y algo más fresca de noche (F13); NC State da 16-21 °C (F1); noche ideal ≈18 °C (Wisconsin 65 °F, F4). Producción en invernadero 18-30 °C, con óptimo de crecimiento a 24 °C de media (F6). Mínimo: 10 °C (NYBG 50 °F, F8); Wisconsin indica protegerla cuando el exterior baja a 5-6 °C (low 40s °F) (F4): se adopta 10 °C como límite conservador en interior. Máximo: Wisconsin dice que el día no debe pasar de 35 °C (95 °F) (F4); con aire seco por encima de 30 °C se deshidrata rápido, por lo que se adopta 30 °C como máximo práctico. Evitar corrientes de puertas exteriores y rejillas de calefacción o aire acondicionado (F8, F13).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6",
+        "F8",
+        "F13"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla aireada y bien drenada pero con mucha retención de agua: a base de turba (o sustrato universal de calidad) con perlita y vermiculita; UF/IFAS cita 50 % turba, 25 % perlita y 25 % vermiculita (F6); Wisconsin, turba con vermiculita (F4); MBG, sustrato con tierra y rico en turba (F2); NYBG, sustrato de turba o mitad sustrato con tierra y mitad mantillo de hojas (F8). No usar tierra de jardín sin esterilizar (F6).",
+      "ph": "5,0-5,5 (UF/IFAS, F6)",
+      "drenaje": "Imprescindible: maceta o cesta con agujeros; en producción incluso se quita el plato para evitar encharcamiento (F6). No dejar agua en el plato (F13).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F6",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, o de liberación lenta, a dosis reducida (F4, F2).",
+      "npk": "Equilibrado; UF/IFAS usa 20-10-20 en producción comercial (F6).",
+      "primavera_verano": "Una vez al mes de primavera a principios de otoño, a ¼-½ de la dosis de la etiqueta y solo con crecimiento activo (convención del proyecto; MBG: abonados flojos mensuales de primavera a principios de otoño, F2; Wisconsin: media dosis cada 4-6 semanas, F4).",
+      "otono_invierno": "Nada mientras no haya crecimiento activo (noviembre-febrero en el hemisferio norte); Wisconsin pide reducirlo mucho en invierno (F4).",
+      "notas": "El exceso de abono seca y quema las puntas de las frondes (F4, F6, F13). NYBG propone abonar cada 2 semanas en sustrato de turba (F8): se descarta por menos conservador y se sigue la convención del proyecto. No abonar plantas recién trasplantadas o divididas hasta que enraícen (F6).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F6",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando las raíces llenen la maceta (F4, F8).",
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte) (F4, F8).",
+      "senales": "Raíces que salen por el drenaje o forman una masa compacta, sustrato que se seca en pocas horas, crecimiento parado pese a buenos cuidados (F8). Pasar solo a una maceta un número más grande, o recortar parte de las raíces exteriores y volver a la misma maceta limpia; también es el momento de dividir (F8, F4).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F8"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza. Retirar frondes viejas, secas o amarillas y las frondes largas, menos divididas, que revierten al tipo silvestre (F8, F4).",
+      "epoca": "Todo el año para la limpieza; la poda fuerte de rejuvenecimiento, en primavera (F4, F5).",
+      "como": "Cortar las frondes viejas a ras del sustrato con tijera limpia (F4). Si la planta ha perdido muchas frondes por sequía, se pueden cortar todas a unos 5 cm para que rebrote (F2); las matas densas rebrotan rápido desde las raíces tras una poda severa (F5, F6). Cortar las frondes con cochinilla es el control más sencillo (F4). Los estolones que cuelgan se pueden cortar o usar para propagar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo forzado por poca luz y frío: aproximadamente noviembre-febrero en el hemisferio norte (mayo-agosto en el sur).",
+      "cambios": "Crece poco: reducir ligeramente el riego sin dejar secar el cepellón (F2, F1), suprimir el abono (F4) y mantener la humedad ambiental, que es lo que más sufre con la calefacción (F4, F2).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata",
+        "plantitas de estolones",
+        "esporas (solo la especie; los cultivares no salen iguales)"
+      ],
+      "epoca": "Primavera (F4).",
+      "pasos": "División (la más fácil, F4, F5): 1) sacar la planta de la maceta; 2) cortar el cepellón verticalmente en mitades o cuartos con un cuchillo afilado y limpio, dejando el máximo de frondes en cada trozo (F4); 3) plantar cada división en sustrato húmedo y mantenerla con humedad alta y luz indirecta sin abonar hasta que enraíce (F6). Estolones: 1) apoyar un estolón sobre una maceta pequeña con sustrato húmedo y sujetarlo; 2) donde toca el sustrato forma raíces y una plantita (F4, F5); 3) cortar el estolón cuando la plantita tenga varias frondes propias. Esporas: los cultivares con nombre no salen fieles por esporas; los productores usan cultivo in vitro (F4, F6).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco de calefacción o aire acondicionado (la causa más común), exceso de abono o sales acumuladas en el sustrato, riego irregular, o fitotoxicidad por haber pulverizado productos (F4, F2, F6, F9). No atribuir al cloro ni al flúor del agua de Madrid. Corregir humedad, lavar el sustrato y cortar las puntas secas."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Igual que S05: aire seco y riego irregular secan bordes y puntas de las pinnas ('necrosis apical' en CAES) (F4, F9)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de pinnas y frondes en interior, muy típica tras la compra (pasa de invernadero con mucha luz y humedad a un piso): poca luz, aire seco o sustrato que se ha secado (F2, F8, F13). Barrer las hojitas secas, acercarla a la luz, subir la humedad y vigilar el riego."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato que se ha secado del todo: la planta se pone gris y lacia, deja de crecer y suelta frondes (F6, F2). Regar a fondo; si ha perdido muchas frondes, cortarlas a 5 cm para que rebrote (F2). Si el sustrato está mojado y la planta lacia, sospechar pudrición (S36)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de las frondes interiores y más viejas por aire seco o falta de luz; una fronde vieja que amarillea de vez en cuando es normal (F13, F8)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz: frondes largas, débiles, colgantes, de verde oscuro y escasas (F6). Acercarla a una ventana luminosa sin sol directo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Exceso de luz o sol directo: frondes de verde pálido-amarillento o blanqueadas; quemaduras si se saca de golpe al sol (F8, F6)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sustrato que no se mantiene húmedo: crecimiento lento, tono gris y pocos estolones (F6); también maceta llena de raíces (F8)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla del helecho (Pinnaspis aspidistrae, concha alargada pardo clara o escama blanca con tres crestas) y cochinilla hemisférica (Saissetia coffeae, escudo abombado pardo con 'H') en envés y raquis (F9, F10, F4, F2). NO confundir con los soros: puntos redondos en filas regulares solo en el envés (F1, F4). Control más sencillo: cortar las frondes afectadas (F4). Los helechos son sensibles a muchos insecticidas; incluso jabones y aceites pueden dañar las frondes, sobre todo por encima de 27 °C (F10, F9). Si se usa un producto: solo uno listo para usar, de uso no profesional en plantas de interior, inscrito en el Registro del MAPA; probarlo antes en una fronde y esperar 24-48 h; no tratar con calor ni con la planta seca."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), favorecida por el aire seco: frondes amarillentas, a veces con telaraña (F1, F9, F13). Subir la humedad; ducha suave de las frondes; productos solo con la misma precaución que en S30."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la base de las frondes y en el envés (F4, F2, F5). Retirar a mano o cortar frondes afectadas; productos con la precaución de S30."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, citada por MBG y Fairfax como posible plaga (F2, F13)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón negro del helecho (Idiopterus nephrelepidis) en el envés de las frondes, normalmente sin daño grave (F9). Chorro suave de agua en la ducha sin romper las frondes."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego, sobre todo en invierno con poca luz y frío, o maceta con el fondo en agua (F1, F6, F13)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio) es una de las plantas que peor lo pasa: alejarla de ventanas sur y oeste con sol (se blanquea y quema, F8, F6) y del chorro del aire acondicionado (F8, F13). Revisar el sustrato cada 2-3 días con dedo y peso: en cesta colgante puede necesitar riego casi diario en olas de calor (F4). Si la casa supera 30 °C de forma continuada, buscar la habitación más fresca y luminosa. Humidificador cerca o agruparla con otras plantas; no pulverizar. No tratar plagas con calor: jabones y aceites dañan las frondes por encima de 27 °C (F10). No sacarla al exterior a pleno sol; en terraza solo a la sombra y con riego vigilado (F4).",
+    "invierno": "La calefacción con HR interior por debajo del 30 % es su principal enemigo: puntas marrones, caída de pinnas y araña roja (F4, F2, F1, F13). Humidificador junto a la planta para acercarse al 40-50 %, o baño/cocina con ventana (F13, F2). Lejos de radiadores y rejillas y de corrientes de la puerta (F8, F13). Junto al cristal frío de noche puede bajar de 10 °C: separarla 30-50 cm o correr la cortina por la noche (F8). Riego algo menor, pero sin dejar secar el cepellón; con calefacción fuerte puede necesitar casi el mismo riego que en verano. Sin abono de noviembre a febrero.",
+    "ubicacion_recomendada": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina; en cesta colgante o pedestal, lejos de radiadores y del aire acondicionado; el baño o la cocina luminosos son ideales por su humedad (F4, F2, F1)."
+  },
+  "lagunas": [
+    "Nombre: se mantiene 'Nephrolepis exaltata' (lista maestra); el nombre completo con autor es Nephrolepis exaltata (L.) Schott (UF/IFAS ENH1286). No se pudo comprobar en POWO (Kew) sinónimos ni estado actual del nombre: POWO bloquea el acceso automatizado (Cloudflare) también vía proxy.",
+    "Familia: las fuentes no coinciden por cambios de clasificación (MBG: Nephrolepidaceae; UF/IFAS FPS427: Davalliaceae; ASPCA: Dryopteridaceae; NC State: Polypodiaceae). Se usa Nephrolepidaceae (MBG, coherente con UF/IFAS AG120, que cita la familia Nephrolepidaceae en Hovenkamp y Miyamoto 2005); no se pudo verificar en POWO.",
+    "Humedad: ninguna fuente prioritaria da cifras; el mínimo de 40 % y el ideal de 50 % se apoyan en una fuente complementaria (Fairfax County Master Gardeners) y en la regla conservadora.",
+    "Temperatura máxima de 30 °C: decisión conservadora del proyecto; Wisconsin admite hasta 35 °C de día y UF/IFAS produce hasta 30 °C con humedad de invernadero.",
+    "Toxicidad en niños: una única fuente prioritaria (UNL Extension, en copia archivada porque el PDF original da 404).",
+    "Fitosanitarios: ninguna fuente consultada da una lista de materias activas compatibles con Nephrolepis registradas en España; solo hay advertencias genéricas de sensibilidad (CAES Connecticut: no usar malatión en helecho de Boston; Univ. Arkansas: sensibles a muchos insecticidas, jabones y aceites a >27 °C).",
+    "Enfermedades fúngicas: UF/IFAS solo dice que pueden ser un problema ocasional; no se abrió una fuente prioritaria que detalle Botrytis u otras enfermedades en interior.",
+    "RHS: la página de cultivo de Nephrolepis no se encontró (404); no se cita."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Nephrolepis exaltata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285753",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Nephrolepis exaltata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250750",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Nephrolepis exaltata 'Bostoniensis'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata-bostoniensis/",
+      "institucion": "University of Wisconsin–Madison Extension, Horticulture — Boston fern, Nephrolepis exaltata 'Bostoniensis'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/FP427",
+      "institucion": "UF/IFAS Extension (EDIS FPS427, rev. 2023) — Nephrolepis exaltata Boston Fern, Sword Fern",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://edis.ifas.ufl.edu/publication/EP550",
+      "institucion": "UF/IFAS Extension (EDIS ENH1286, rev. 2021, revisado 2024) — Cultural Guidelines for Commercial Production of Boston Fern",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://edis.ifas.ufl.edu/publication/AG120",
+      "institucion": "UF/IFAS Extension (EDIS AG120, revisado 2024) — Distinguishing Native and Non-Native 'Boston Ferns' and 'Sword Ferns' (Nephrolepis spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://libanswers.nybg.org/faq/222598",
+      "institucion": "New York Botanical Garden (NYBG) — Plant Information: How do I care for my Boston fern?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://portal.ct.gov/caes/plant-pest-handbook/pphf/fern-filices",
+      "institucion": "Connecticut Agricultural Experiment Station (CAES) — Plant Pest Handbook, Fern (Filices)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.uaex.uada.edu/yard-garden/plant-health-clinic/docs/2015_Plant_Health_Clinic_Newsletters/Plant%20Health%20Clinic%20Newsletter-Issue%2027.pdf",
+      "institucion": "University of Arkansas System Division of Agriculture, Cooperative Extension — Plant Health Clinic Newsletter n.º 27 (2015), Boston fern / fern scale",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern",
+      "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plants: Boston Fern",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://web.archive.org/web/2022id_/https://lancaster.unl.edu/hort/factsheets/031_ToxicityHouseplants.PDF",
+      "institucion": "University of Nebraska–Lincoln Extension, Lancaster County — Toxicity of Common Houseplants (hoja 031; copia archivada, el original da 404)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://fairfaxgardening.org/boston-fern/",
+      "institucion": "Fairfax County Master Gardeners (Virginia) — Boston Fern",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,336 @@
+{
+  "nombre_cientifico": "Euphorbia trigona",
+  "nombres_comunes": [
+    "euforbia candelabro",
+    "cactus catedral",
+    "árbol de leche africano",
+    "euforbia trigona"
+  ],
+  "familia": "Euphorbiaceae",
+  "origen": "África central. Según POWO (Kew), nativa de Angola, Congo, R. D. del Congo, Gabón y Malaui, e introducida en Bangladés, India, Myanmar y Túnez. NC State coincide (Angola, Congo, Gabón, Malaui y Zaire) y RHS indica 'C Africa'. Nombre aceptado en POWO: Euphorbia trigona Mill. (1768). RHS da como sinónimo Euphorbia hermentiana. NC State advierte que se ha naturalizado formando matorrales densos en climas cálidos como Cuba e India (potencialmente invasora). Wikipedia (complementaria) señala que podría ser un híbrido.",
+  "clima_nativo": "Tropical; según NC State crece habitualmente en bosques tropicales secos. En cultivo exterior: zonas USDA 9a-11b (NC State); RHS la clasifica H2 (tolera temperaturas bajas pero no sobrevive a la helada, mínimas de 1 a 5 °C en Reino Unido) y la considera resistente a la sequía. Wikipedia (complementaria) indica que aguanta brevemente hasta -3 °C; no se usa como referencia.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas pequeñas, carnosas, verdes, obovadas a elípticas con forma de lágrima, margen entero, sin pelos y ápice redondeado (NC State). Salen a lo largo de las crestas del tallo, entre las dos espinas de cada par (Wikipedia, complementaria). Son efímeras: caen de forma estacional (NC State) y RHS las describe como 'de vida corta, ovales, verde medio'. Por eso una planta sin hojas en invierno puede estar sana. En la forma f. rubra ('Rubra') las hojas son granate o rojo vivo (NC State).",
+    "nerviacion": "No descrita por las fuentes. Las hojas son pequeñas y carnosas, sin nerviación llamativa que sirva para identificarla. El rasgo útil para la visión es el tallo (crestas, espinas pareadas, bandas en V), no la nerviación.",
+    "variegacion": "La especie no es variegada en sentido estricto, pero el tallo verde oscuro lleva bandas variables en forma de V, verde grisáceo pálido, a cada lado (RHS; Wikipedia, complementaria). Se venden dos formas: la verde típica y la f. rubra ('Rubra'), con tallos verdes de bordes rojos y hojas granate o rojo vivo (NC State; RHS tiene ficha propia de E. trigona f. rubra).",
+    "tallo": "Tallos suculentos erguidos, columnares y ramificados, de tres ángulos (el epíteto 'trigona' significa 'de tres ángulos', NC State) o de tres a cuatro lados (RHS); Wikipedia (complementaria) dice dos o tres. Color verde pálido a oscuro, con crestas onduladas a lo largo de las aristas (NC State). Espinas cortas, afiladas, de unos 6 mm (0,25 in), EN PARES a lo largo de las crestas, primero granates y luego grises o pardo amarillentas (NC State); RHS las describe como pardo rojizas y persistentes. Al herir sale un látex blanco lechoso (NC State; RHS). La base se vuelve gris o parduzca con la edad: corteza fina y lisa, verde, que madura a gris o marrón (NC State).",
+    "habito": "Arbusto o arbolito suculento, siempre verde, erguido y columnar, con muchos tallos que se ramifican hacia arriba en forma de candelabro (NC State; RHS: 'columnar upright'). Parece un cactus (NC State). Con la altura se vuelve pesada arriba: Wikipedia (complementaria) indica que los ejemplares adultos tienden a volcarse por su sistema radicular pequeño y poco profundo. Rara vez florece en cultivo (NC State); RHS dice que es poco probable que florezca en casa. Sus flores son ciatios pequeños verdosos con glándulas amarillas (NC State).",
+    "tamano_adulto_interior": "RHS describe tallos de hasta 1,8 m en cultivo y da 2,5-4 m de altura máxima con 0,5-1 m de anchura, que alcanza en 10-20 años. En exterior y en clima cálido llega a 1,8-3,7 m de alto (6-12 ft) por 1,5-3 m de ancho (NC State). En interior y en maceta, lo habitual es entre 0,5 y 2 m [orientativo, sin fuente prioritaria]. RHS la considera de crecimiento lento; NC State, de crecimiento rápido (véase lagunas).",
+    "confusiones": [
+      {
+        "especie": "Cactus columnares (familia Cactaceae, p. ej. Cereus repandus)",
+        "rasgo_diferenciador": "Euphorbia trigona NO es un cactus (NC State: 'parece un cactus'; RHS la clasifica como suculenta). Para distinguirla: (1) Espinas: en E. trigona salen de dos en dos (pares) sobre las crestas (NC State; Wikipedia). En los cactus salen agrupadas de areolas, unos cojinetes con pelillos, que no tiene ninguna Euphorbia [rasgo botánico general, orientativo, sin fuente prioritaria específica]. (2) Hojas: E. trigona tiene hojitas en lágrima entre las espinas, al menos en temporada de crecimiento (NC State); los cactus columnares no tienen hojas visibles. (3) Látex: E. trigona exuda un látex blanco y lechoso al herirse (NC State; RHS), mientras que los cactus columnares sueltan savia acuosa o transparente. No se debe cortar la planta para comprobarlo, porque el látex es irritante: basta con mirar las espinas pareadas y las hojas. (4) Las bandas en V verde grisáceo del tallo (RHS) no aparecen en los Cereus."
+      },
+      {
+        "especie": "Euphorbia lactea (euforbia candelabro, 'cactus elkhorn')",
+        "rasgo_diferenciador": "Es la confusión más probable porque también es candelabriforme, con espinas pareadas y látex. E. lactea tiene tallos de 3-4 ángulos con una banda central blanca jaspeada muy marcada, y sus hojas son diminutas y apenas visibles. E. trigona tiene hojas en lágrima bien visibles en las crestas y bandas en V verde grisáceo [orientativo, sin fuente prioritaria]. La toxicidad y los cuidados son prácticamente los mismos, así que el error tiene poca repercusión práctica."
+      },
+      {
+        "especie": "Euphorbia ingens / Euphorbia candelabrum (euforbias arborescentes)",
+        "rasgo_diferenciador": "Se cultivan menos en interior. Forman troncos claros y tallos más gruesos, articulados en segmentos, con 4-5 ángulos y sin las hojas en lágrima persistentes de E. trigona [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Euphorbia trigona f. rubra ('Rubra')",
+        "rasgo_diferenciador": "Es la misma especie: no es una confusión con riesgo. Tiene tallos verdes de bordes rojos y hojas granate o rojo vivo (NC State). Con poca luz el rojo se apaga hacia verde (Leafyplace, complementaria). Cuidados y toxicidad idénticos."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex blanco lechoso con ésteres diterpénicos de tipo euforbol/forbol (NC State: 'diterpenoid euphorbol esters'). Es irritante tanto por contacto como por ingestión (NC State). Están implicadas todas las partes de la planta: hojas, raíces, savia y tallos (NC State).",
+    "sintomas": "PIEL: irritación, sarpullido y ampollas (NC State); dermatitis irritativa de contacto documentada específicamente con E. trigona (Elmas, Contact Dermatitis 2020). RHS: 'IRRITANTE para piel y ojos; nocivo si se ingiere'. OJOS (riesgo principal): irritación ocular grave (NC State). Hay casos clínicos publicados con E. trigona: queratouveítis bilateral grave, con edema palpebral y corneal y exudado en cámara anterior, en una mujer que se aplicó el látex en los ojos; la visión quedó reducida a contar dedos a 1 m y se recuperó con tratamiento de soporte (Cinar et al., Int Ophthalmol 2014). Otro caso: edema corneal grave con uveítis anterior e hipopión 2 días después de exponerse al látex en casa; se resolvió en 3 semanas y a los 6 meses la visión era buena (Ono et al., Case Rep Ophthalmol 2021). Los autores insisten en que la exposición ocular debe tratarse de inmediato para evitar secuelas como cicatrices corneales (Cinar 2014). INGESTIÓN: gastroenteritis grave, vómitos, diarrea y, posiblemente, convulsiones (NC State; severidad 'media'). Las espinas también causan heridas mecánicas (NC State). PRIMEROS AUXILIOS que la app puede dar: si el látex entra en el ojo, lavar inmediatamente con abundante agua corriente durante varios minutos, sin frotar, y acudir a urgencias u oftalmología aunque las molestias parezcan leves, porque los síntomas pueden empeorar en horas o días (Ono 2021: síntomas a los 2 días). Si cae en la piel, lavar con agua y jabón. Si hay ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario. PREVENCIÓN: guantes y gafas protectoras al podar, trasplantar o sacar esquejes (RHS; NC State; Leafyplace), no tocarse los ojos durante la manipulación y lavarse las manos después. Mantener fuera del alcance de niños y mascotas (NC State).",
+    "notas": "ASPCA no tiene ficha de E. trigona; en su lista sí aparecen como tóxicas otras Euphorbia (E. tirucalli, E. pulcherrima). La clasificación 'tóxica' para perros, gatos y niños se apoya en NC State (etiquetas 'problem for dogs/cats/children' y 'poisonous if ingested') y en RHS ('Humans/Pets: irritant... harmful if eaten'). Las dos fuentes prioritarias coinciden. Riesgo añadido de vuelco: una planta alta que cae sobre un niño o una mascota combina golpe, espinas y látex; véase ajustes_madrid.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Junto a una ventana sur, oeste o este (RHS: orientación sur, oeste o este). En interior, luz brillante indirecta (NC State) con algo de sol directo aceptado (RHS: pleno sol a semisombra). Una ventana norte se queda corta: la planta crece débil y fina (RHS guía; Leafyplace). Girar la maceta un cuarto de vuelta cada 2-4 semanas para que crezca recta y no cargue el peso hacia un lado; esto también reduce el riesgo de vuelco [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "Sí, parcialmente. RHS admite pleno sol o semisombra; NC State, en exterior, semisombra (2-6 h de sol directo al día) y luz brillante indirecta en interior. El cambio brusco a sol fuerte quema: la RHS guía advierte que el exceso de sol provoca la 'sarna corchosa' (manchas pardas que se vuelven costra), y Leafyplace (complementaria) recomienda proteger del sol de pleno verano. Si se saca al exterior, aclimatar poco a poco y evitar el sol de 11 a 15 h (Univ. Minnesota, para cactus y suculentas).",
+      "notas": "Escala del proyecto: el óptimo es luz brillante indirecta con algunas horas de sol suave. Mínimo útil ≈5380 lux (500 fc) [orientativo, sin fuente prioritaria]. lux_max = null porque ninguna fuente da techo: tolera sol directo si está aclimatada (RHS) y el límite práctico es la quemadura por exposición brusca. Con poca luz los tallos salen finos y estrechos, y la forma rubra pierde el rojo (Leafyplace, complementaria). La luz artificial puede compensar la falta de luz natural (Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F10"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a unos 5 cm de profundidad (suculenta: convención del proyecto; NC State dice 2,5-5 cm, '1 to 2 inches') y la maceta pese claramente menos que recién regada. Regar a fondo hasta que salga agua por los agujeros, dejar escurrir y vaciar el plato a los pocos minutos (RHS guía; Univ. Minnesota). No dejar nunca la maceta encharcada (RHS guía). NC State: regar con moderación y evitar el exceso. El exceso de riego causa podredumbre de raíz y otras enfermedades fúngicas (NC State) y es la causa nº 1 de muerte. Nunca regar por calendario.",
+      "primavera_verano": "En crecimiento (aprox. abril-septiembre en Madrid), riego a fondo cada vez que el sustrato se seque a 5 cm y la maceta pese poco. Con calor y mucha luz eso puede ser cada 1-2 semanas en maceta mediana [orientativo, sin fuente prioritaria; Leafyplace habla de cada 10-14 días en verano]. Siempre hay que comprobar antes. Univ. Minnesota: dejar secar el sustrato por completo entre riegos. RHS guía: regar a fondo en cuanto la superficie esté seca y no dejar que se reseque en exceso en crecimiento. Se sigue la opción conservadora: que se seque bien, comprobado a 5 cm y por peso.",
+      "otono_invierno": "Reposo de noviembre a principios de marzo (RHS guía): riego mínimo o nulo, solo lo justo para que el tallo no se arrugue (RHS guía; Univ. Minnesota). En la práctica, una vez al mes o menos, con sustrato totalmente seco y maceta ligera [orientativo, sin fuente prioritaria]. Con calefacción y la planta lejos del frío puede necesitar algo más de agua que en una habitación fresca, pero el criterio sigue siendo el sustrato seco. Es normal que pierda hojas en esta época (NC State): no es señal de sed.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "RHS recomienda idealmente agua de lluvia templada, porque los minerales del agua del grifo pueden acumularse en el sustrato y dejar depósitos blancos. En Madrid, el agua del Canal de Isabel II es blanda (10-47 mg/L de CaCO3) y apta tal cual. La cloramina no se elimina dejando reposar el agua, y en esta planta no hace falta. Para evitar que se acumulen sales de abono, regar a fondo con drenaje abundante y lavar el sustrato con agua de vez en cuando en primavera y verano (Leafyplace, complementaria).",
+      "notas": "Contradicción menor: Univ. Minnesota pide que el sustrato se seque por completo entre riegos y la RHS guía, que no se reseque en exceso durante el crecimiento. Se adopta la opción más conservadora para una especie muy sensible al encharcamiento: dejar secar bien, comprobando a 5 cm y por el peso. Resiste la sequía (RHS: 'Drought resistance: yes'; NC State: tolerante a la sequía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F2",
+        "F10"
+      ]
+    },
+    "humedad": {
+      "min_pct": 10,
+      "ideal_pct": null,
+      "notas": "No necesita humedad alta. Las suculentas en general se adaptan bien a la humedad baja de las viviendas, del 10 al 30 % (Univ. Minnesota), y llevan bien el aire seco de la calefacción central si no están junto a un radiador (RHS guía). Agradecen buena ventilación, sobre todo en verano (RHS guía), y NC State pide mantener buena circulación de aire para evitar enfermedades fúngicas. No pulverizar ni usar humidificador para esta planta. Son datos generales de cactus y suculentas, no específicos de E. trigona: no hay valor ideal verificado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 12,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "Ideal 18-29 °C: NC State dice que la mayoría de las especies prefieren 65-85 °F. Leafyplace (complementaria) da 18-26 °C. Mínimos discrepantes entre fuentes: NC State, entrar la planta antes de que baje de 45 °F (≈7 °C); RHS H2 (1-5 °C, contexto de Reino Unido, sin helada); RHS guía, reposo invernal de cactus y suculentas con noches de 8-10 °C; Leafyplace (complementaria, contexto interior), mínimo de 55 °F (12 °C) y daños por debajo de 10 °C; Wikipedia (complementaria), aguanta brevemente -3 °C. Según la regla del proyecto se adopta el mínimo MÁS ALTO: 12 °C. No dejarla nunca por debajo de 10-12 °C ni pegada a cristales fríos. No tolera la helada (RHS H2). max_c = null: ninguna fuente da máximo tolerado. Por su origen tropical seco, probablemente soporta el calor de un interior madrileño en verano si tiene ventilación y el sustrato no está encharcado con calor [orientativo, sin fuente prioritaria]. Evitar corrientes frías y el chorro del aire acondicionado (Leafyplace).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F10",
+        "F11"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para cactus y suculentas (NC State), arenosa o franca y muy drenante. RHS guía: compost para cactus sin turba, o John Innes nº 2 sin turba con hasta un 30 % de grava fina o arena gruesa (o 2 partes de John Innes nº 2 por 1 de grava hortícola). Univ. Minnesota: 1 parte de sustrato por 1 de arena gruesa; al humedecerlo y apretarlo en la mano debe deshacerse al soltarlo. Una alternativa equivalente fácil de encontrar en España es sustrato universal con un 30-50 % de piedra pómez, perlita gruesa o arena de río lavada [orientativo, sin fuente prioritaria].",
+      "ph": "Ácido a neutro según NC State (<6,0 a 8,0); RHS lo admite ácido, neutro o alcalino. No es exigente.",
+      "drenaje": "Imprescindible. Maceta con agujeros (Univ. Minnesota: el agua retenida pudre la planta 'en muy poco tiempo') y buen drenaje (NC State; RHS). Mejor una maceta de barro sin esmaltar, pesada y ancha: seca antes y hace contrapeso a una planta alta y pesada arriba (Leafyplace, complementaria). No poner capa de grava en el fondo como sustituto del drenaje: Univ. Minnesota advierte que puede mantener las raíces húmedas demasiado tiempo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F10"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para cactus y suculentas, o abono líquido rico en potasio tipo tomatera (RHS guía), a ¼-½ de la dosis de la etiqueta (convención del proyecto).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes en la temporada de crecimiento, de abril a septiembre (RHS guía), a ¼-½ de la dosis de la etiqueta. Univ. Minnesota es más conservadora: 3-4 veces en los meses de más luz para suculentas que no son cactus. Abonar solo si la planta está creciendo.",
+      "otono_invierno": "Nada. Dejar de abonar cuando refresca y el crecimiento se para (RHS guía: solo en temporada de crecimiento; Leafyplace).",
+      "notas": "Ninguna fuente prioritaria da un NPK concreto para la especie (npk = null); la RHS guía solo pide abono rico en potasio. El abono acumulado en el sustrato es causa posible de manchas en la base; lavar el sustrato con riegos abundantes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F10"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Solo cuando las raíces llenan la maceta o la planta se ha quedado grande para ella, normalmente cada 2-3 años [orientativo, sin fuente prioritaria] (RHS guía: 'tras varios años'). No pasar a una maceta mucho mayor: el exceso de sustrato se queda húmedo y causa podredumbre (RHS guía). Basta con 2-4 cm más de diámetro [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (RHS guía).",
+      "senales": "Raíces saliendo por los agujeros de drenaje o enrolladas en el cepellón; sustrato que se seca en pocos días; planta tan alta que la maceta vuelca (vuelco: Wikipedia, complementaria). PRECAUCIÓN: guantes gruesos y gafas por el látex y las espinas (NC State; RHS). Atar suavemente los tallos con cuerda para que no se partan ni se pinchen entre sí, y despegar el cepellón pasando un cuchillo plano por el borde de la maceta (Leafyplace). Para sujetar una planta espinosa, la RHS guía sugiere tiras gruesas de papel de periódico doblado o un guante de horno. Usar maceta pesada y, si la planta es alta, un tutor.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F10",
+        "F11"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible. Solo para controlar altura o forma, o para quitar tallos dañados (RHS: 'podar cuando sea necesario para reducir tamaño'). En maceta y en interior, la poda también ayuda a evitar que la planta se haga demasiado pesada arriba y vuelque [orientativo, sin fuente prioritaria].",
+      "epoca": "Principio de primavera (RHS).",
+      "como": "Con GUANTES y GAFAS (látex irritante y peligroso para los ojos: NC State, RHS, casos clínicos). Cortar limpio con un cuchillo o tijera desinfectados. El corte 'sangra' mucho látex: la RHS recomienda mojar la superficie cortada con carbón vegetal en polvo o con agua tibia para cortar el sangrado. Proteger el suelo y no salpicar. Los trozos cortados sirven como esquejes (RHS guía; véase propagación). Lavar las herramientas y las manos al terminar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno, de noviembre a principios de marzo en el hemisferio norte (RHS guía); en Madrid, de noviembre a febrero o marzo. En el hemisferio sur, desplazar 6 meses.",
+      "cambios": "Riego mínimo, solo para que no se arrugue (RHS guía; Univ. Minnesota), y nada de abono. Máxima luz posible. La RHS guía propone para cactus y suculentas noches frescas de 8-10 °C, pero para E. trigona, especie tropical, NO bajar de 12 °C (véase temperatura). Mantenerla lejos de radiadores (RHS guía). Es normal que pierda las hojas, que son estacionales (NC State): el tallo debe seguir firme y verde.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "acodo aéreo"
+      ],
+      "epoca": "Primavera o principio de verano (RHS).",
+      "pasos": "1) Ponerse guantes y gafas protectoras (NC State; RHS; Leafyplace). 2) Cortar un tallo o rama sana; Leafyplace (complementaria) sugiere un tramo apical de 7,5-10 cm, y se puede usar uno mayor. 3) Cortar el sangrado de látex en la planta madre y en el esqueje mojando el corte en carbón vegetal en polvo o en agua tibia (RHS). 4) Dejar secar el esqueje hasta que forme callo: de un día a una semana (RHS guía); Wikipedia (complementaria) dice 3-7 días. 5) Plantar en una mezcla de 2 partes de John Innes nº 1 por 1 de grava hortícola (RHS guía) o en arena gruesa estéril ligeramente húmeda (Univ. Minnesota). 6) Mantener el sustrato apenas húmedo mientras enraíza, para que no se pudra (RHS guía), con luz brillante sin sol fuerte y 20-25 °C [orientativo, sin fuente prioritaria]. 7) Cuando enraíce (varias semanas), pasar a la mezcla definitiva (Univ. Minnesota). NC State también cita el acodo aéreo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F10",
+        "F11"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato que no drena: podredumbre radicular y otras enfermedades fúngicas (NC State; RHS guía). Es la causa nº 1 de muerte. Se agrava en invierno con frío y sustrato húmedo."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base del tallo blanda u oscura por encharcamiento: es la fase visible de la podredumbre de raíz (NC State; RHS guía). No hay que confundirla con el acorchado normal de la base, que se vuelve gris o parda pero DURA con la edad (NC State: la corteza pasa de verde a gris o marrón al madurar)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las crestas, junto a las espinas y en las axilas de las ramas: la plaga principal que citan RHS y NC State."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire muy seco y calor (NC State la cita entre las plagas a vigilar). Es más probable en Madrid en verano y con calefacción."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y hojas nuevas (NC State lo cita entre las plagas a vigilar)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz, sobre todo si crece en invierno con calor y riego: los tallos salen finos, estrechos y débiles (RHS guía; Leafyplace). El estrechamiento no se recupera; mejorar la luz y podar si es necesario."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Paso brusco a sol directo fuerte (ventana sur u oeste en verano, o salida al balcón sin aclimatar): manchas blanquecinas o pardas en la cara expuesta (RHS guía: el exceso de sol provoca manchas pardas que se vuelven costra; Leafyplace)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas pardas secas y acorchadas en el tallo, la 'sarna corchosa', por exceso de sol o condiciones inadecuadas (RHS guía); también por frío excesivo, que causa decoloraciones y muerte de puntas (RHS guía). Distinguir del acorchado normal de la base en ejemplares viejos (NC State)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Tallo arrugado o con crestas hundidas por falta prolongada de agua (RHS guía: la falta de riego causa arrugamiento y crecimiento lento o deforme). Si el sustrato está húmedo y aun así se arruga, sospechar raíces podridas (S36)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas tras un traslado o cambio de luz o temperatura. OJO: en esta especie las hojas son de vida corta y caen de forma estacional, en otoño e invierno (NC State; RHS: 'short-lived leaves'). Si el tallo está firme y verde, no es un problema."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte en ventanas sur y oeste: si la planta viene de una zona con menos luz, aclimatarla poco a poco y, en las horas centrales, poner una cortina fina tras el cristal de las ventanas sur y oeste para evitar quemaduras y sarna corchosa (RHS guía; Leafyplace). Aire muy seco (≈38 % de HR exterior en julio): no supone un problema de humedad para esta suculenta (Univ. Minnesota), pero favorece la araña roja, así que conviene revisar las crestas. Ventilar bien (RHS guía; NC State). Con calor y mucha luz el sustrato se seca antes: comprobar a 5 cm y por peso, y regar a fondo cuando esté seco, quizá cada 1-2 semanas [orientativo, sin fuente prioritaria]. No regar 'por si acaso' en olas de calor si el sustrato sigue húmedo. Si se saca a la terraza, a semisombra, nunca a sol de mediodía sin aclimatar (Univ. Minnesota: evitar el sol de 11 a 15 h), y bien sujeta, porque el viento puede volcarla.",
+    "invierno": "La calefacción y una HR interior por debajo del 30 % no son problema (RHS guía: lleva bien la calefacción central; Univ. Minnesota: 10-30 % de HR), pero hay que tenerla lejos de radiadores y de chorros de aire caliente (RHS guía). Junto a una ventana, que no toque el cristal frío y que no pase de noche por debajo de 12 °C (véase temperatura); cuidado con ventanas mal aisladas y con abrir para ventilar con heladas en el exterior. Riego mínimo, de noviembre a febrero o marzo (RHS guía). Es normal que pierda hojas. Máxima luz disponible.",
+    "ubicacion_recomendada": "Junto a una ventana luminosa este, sur u oeste (RHS), a 0,5-1 m del cristal en sur y oeste durante el verano y pegada a la luz en invierno, sin tocar el cristal [orientativo, sin fuente prioritaria]. SEGURIDAD: es una planta alta, pesada arriba y de raíz poco profunda que tiende a volcarse (Wikipedia, complementaria). Usar una maceta pesada de barro y ancha (Leafyplace), un tutor o estaca discreta si pasa de 1 m, y colocarla en una esquina sin paso, donde no la puedan tirar ni alcanzar niños, perros o gatos, por el vuelco, las espinas y el látex que irrita la piel y puede dañar gravemente los ojos (NC State; RHS; Cinar 2014; Ono 2021)."
+  },
+  "lagunas": [
+    "POWO (Kew), consultado mediante proxy: nombre aceptado Euphorbia trigona Mill. (1768); no hay cambio de nombre. RHS cita como sinónimo Euphorbia hermentiana (no comprobado en POWO). Existen los homónimos E. trigona Roxb. (1814 y 1832) en IPNI, que no corresponden a esta planta. Wikipedia (complementaria) sugiere que podría ser un híbrido; no verificado con fuente prioritaria.",
+    "ASPCA no tiene ficha de Euphorbia trigona (sí de E. tirucalli y E. pulcherrima). La toxicidad se apoya en NC State, RHS y casos clínicos revisados por pares.",
+    "No hay fuente prioritaria con un máximo de temperatura tolerado (max_c = null) ni con humedad ideal específica de la especie (ideal_pct = null).",
+    "Temperatura mínima discrepante: NC State ≈7 °C (45 °F, entrar la planta), RHS H2 (1-5 °C, Reino Unido), RHS guía de suculentas con reposo a 8-10 °C, Leafyplace (complementaria) 12 °C y Wikipedia (complementaria) -3 °C breve. Se adopta 12 °C por ser el más conservador.",
+    "Ritmo de crecimiento contradictorio: RHS lo da como lento (10-20 años hasta la madurez) y NC State como rápido.",
+    "Tamaño de hoja: NC State da 5-10 cm (2-4 in) de longitud y casi 4 cm de anchura, cifra que parece alta para lo que se ve en plantas de interior; no se ha podido contrastar con una segunda fuente prioritaria.",
+    "Número de ángulos del tallo: triangular según NC State, de 3-4 lados según RHS y de 2-3 según Wikipedia (complementaria).",
+    "Floración: NC State dice que rara vez florece en cultivo y describe los ciatios; Wikipedia (complementaria) dice que nunca se ha visto florecer.",
+    "Los rasgos diferenciadores frente a Euphorbia lactea, E. ingens y E. candelabrum, y la ausencia de areolas en Euphorbia, son conocimiento botánico general sin fuente prioritaria abierta en esta investigación; van marcados como orientativos.",
+    "No hay frecuencias de riego, intervalos de trasplante ni NPK verificados por fuente prioritaria para esta especie; las cifras dadas van marcadas como orientativas.",
+    "El riesgo de vuelco solo está documentado en una fuente complementaria (Wikipedia, que cita una referencia secundaria) y en Leafyplace (maceta pesada para estabilidad)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/euphorbia-trigona/",
+      "institucion": "NC State University Extension – Gardener Plant Toolbox, Euphorbia trigona",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/131510/euphorbia-trigona/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Euphorbia trigona",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:348565-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Euphorbia trigona Mill.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23525959/",
+      "institucion": "Cinar Y. et al. (2014). Keratouveitis caused by Euphorbia trigona sap. International Ophthalmology 34(2):285-287 (revista revisada por pares)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34594207/",
+      "institucion": "Ono T. et al. (2021). Corneal Edema with Anterior Uveitis after Exposure to the Sap of Euphorbia trigona: A Case Report. Case Reports in Ophthalmology 12(2):699-705 (revista revisada por pares)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31782156/",
+      "institucion": "Elmas Ö.F. (2020). Irritant contact dermatitis due to Euphorbia trigona. Contact Dermatitis 82(4):234-235 (revista revisada por pares; consultado el registro bibliográfico)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control – lista de plantas tóxicas para gatos (sin ficha de E. trigona)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://leafyplace.com/euphorbia-trigona-african-milk-tree/",
+      "institucion": "Leafyplace – guía de cultivo de Euphorbia trigona (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://en.wikipedia.org/wiki/Euphorbia_trigona",
+      "institucion": "Wikipedia – Euphorbia trigona",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,296 @@
+{
+  "nombre_cientifico": "Syngonium podophyllum",
+  "nombres_comunes": [
+    "singonio",
+    "punta de flecha",
+    "nefthytis",
+    "syngonium"
+  ],
+  "familia": "Araceae",
+  "origen": "Neotrópico: POWO (Kew) la da como nativa de México (centro, golfo, noreste, sureste y suroeste), Centroamérica (Belice, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panamá), Colombia, Venezuela, Ecuador, Perú, Bolivia, las Guayanas, Trinidad y Tobago y Brasil (norte, noreste, sureste y centro-oeste). Introducida y naturalizada en Florida, Hawái, Bahamas, Antillas (Cuba, Jamaica, La Española, Puerto Rico, Islas Caimán, Barlovento y Sotavento), sur de Brasil, Bangladés, Malasia, Borneo, Java, Seychelles, Comoras, Carolinas y Vanuatu. NC State y RHS coinciden: de México a Sudamérica.",
+  "clima_nativo": "Tropical cálido y húmedo, sin heladas. UF/IFAS: el género es hemiepífito y vive en bosques húmedos de altitud de México, Centroamérica y Brasil. Clemson: en fase juvenil crece en el suelo del bosque lluvioso, con poca luz; al trepar por los árboles recibe más luz y cambia la forma de la hoja.",
+  "categoria": "trepadora",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Heterofilia muy marcada: la hoja cambia de forma con la edad (NC State, Clemson, UF/IFAS, RHS). Hoja juvenil (la que se vende casi siempre): simple, alterna, sagitada a hastada (en punta de flecha, con dos lóbulos basales), aguda o acuminada, margen entero, sin pelos, algo aterciopelada, de 7,5-17,5 cm (UF/IFAS; NC State: hasta 14 cm); haz verde oscuro y envés más pálido. Hoja intermedia: trilobulada, con el segmento central estrechado en la base. Hoja adulta (si trepa y recibe más luz): pedatisecta, dividida en 3-11 segmentos elípticos u obovados, el central de hasta 30 cm, con pecíolo de hasta 60 cm (UF/IFAS; las equivalencias en cm del documento están mal convertidas, se usan los pies originales: 1 ft y 2 ft). Pecíolos largos, verdes o verde rojizos, subpeltados y envainadores en la base (NC State); en algunos cultivares, rosados (Clemson: 'Albo-variegatum').",
+    "nerviacion": "Pinnada en la hoja juvenil, con nervio central marcado y nervios laterales que se unen en un nervio colector cerca del margen [orientativo, sin fuente prioritaria]. Muchos cultivares tienen los nervios resaltados en blanco, crema o rosa (UF/IFAS: 'Key Lime', 'Pink Allusion', 'Bold Allusion'; Clemson: 'Batik', 'White Butterfly'); RHS describe hojas a menudo veteadas y teñidas de blanco plateado.",
+    "variegacion": "La especie silvestre es verde; los cultivares comerciales (muchos de cultivo in vitro, UF/IFAS) son muy variados: 'White Butterfly' (la más corriente; casi blanca o verde pálido con margen verde oscuro y nervios blancos), 'Neon' y 'Neon Robusta' (hojas nuevas rosa intenso que verdean al madurar), 'Pink Splash' y 'Confetti'/'Milk Confetti' (motas o manchas rosas), 'Maria Allusion' (bronce rojizo con nervios rosas), 'Holly' (casi blanca), 'Albo-variegatum' (jaspeado blanco), 'Aurea Variegata' (jaspeado amarillo limón), 'Three Kings', 'Pixie' (enana), 'Robusta', 'Emerald Gem' (verde liso brillante) (UF/IFAS, Clemson, NC State). Con poca luz las variegadas pierden color y las hojas nuevas vuelven a verde liso; al pasar a más luz la variegación reaparece en las hojas nuevas (Clemson). Algunas variedades rosas nacen rosas y verdean con la edad de forma normal, no por falta de luz (Clemson: 'Neon Robusta').",
+    "tallo": "Suculento, verde, trepador, con raíces adventicias en cada nudo (NC State, UF/IFAS). En plantas jóvenes los tallos son cortos y la planta parece una mata; con la edad se alargan los entrenudos y se vuelve trepadora o colgante.",
+    "habito": "Mata compacta de hojas largamente pecioladas cuando es joven; con la edad emite tallos trepadores o rastreros (NC State). Trepa con raíces aéreas: en interior se cultiva como mata, en cesta colgante o guiada en tutor de musgo, celosía o caña (Clemson, UF/IFAS). Rara vez florece en interior: espata crema o verde blanquecina con tonos rojos o violetas y espádice más corto que la espata (NC State, UF/IFAS, RHS).",
+    "tamano_adulto_interior": "Cultivares comunes: 0,9-1,8 m de alto y 0,3-0,6 m de ancho (Clemson, NC State); RHS: 1,5-2,5 m de alto y 0,5-1 m de ancho, en 2-5 años. Cultivares enanos: menos de 60 cm ('Pixie' hasta unos 20 cm) (Clemson).",
+    "confusiones": [
+      {
+        "especie": "Philodendron hederaceum (filodendro trepador, incluido 'Brasil' y 'Micans')",
+        "rasgo_diferenciador": "Confusión citada por NC State. La hoja del filodendro es acorazonada (base en corazón con lóbulos redondeados) y entera toda la vida de la planta en interior; la del singonio juvenil es sagitada, en punta de flecha con lóbulos basales apuntados, y en plantas viejas se divide en 3-11 segmentos. El singonio forma una mata con pecíolos largos que salen casi desde la base; el filodendro emite desde el principio tallos colgantes con hojas espaciadas [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Epipremnum aureum (poto)",
+        "rasgo_diferenciador": "Confusión citada por NC State. El poto tiene hoja acorazonada u oval, entera, gruesa, coriácea y muy brillante, con vetas amarillas o blancas irregulares; el singonio tiene hoja en punta de flecha, más fina y algo aterciopelada (UF/IFAS), con variegación que suele seguir los nervios o en motas rosas, y se divide en lóbulos con la edad. El poto tiene pecíolo acanalado y crece colgante desde el principio."
+      },
+      {
+        "especie": "Anthurium spp. de hoja verde (p. ej. Anthurium andraeanum sin flor)",
+        "rasgo_diferenciador": "Confusión citada por NC State. El anturio no trepa como el singonio ni se divide en segmentos, y su pecíolo tiene un engrosamiento articulado (genículo) justo bajo la hoja [orientativo, sin fuente prioritaria]; cuando florece, su espata es grande, vistosa y de color, mientras que la del singonio es crema, pequeña y rara en interior."
+      },
+      {
+        "especie": "Caladium y Xanthosoma (aráceas de hoja sagitada)",
+        "rasgo_diferenciador": "Hojas en punta de flecha parecidas, pero son plantas tuberosas que mueren en invierno y no trepan ni tienen raíces aéreas en los nudos [orientativo, sin fuente prioritaria]. Ninguna fuente prioritaria consultada la cita como confusión: usar con prudencia."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico, presentes en hojas, tallos, raíces, savia, flores y semillas (ASPCA, NC State).",
+    "sintomas": "Perros, gatos y caballos (ASPCA): irritación oral, dolor e hinchazón de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Personas (NC State, gravedad media): los mismos síntomas orales y dermatitis de contacto por la savia. RHS: nociva si se ingiere e irritante para piel y ojos; usar guantes al manipularla (poda, esquejes, trasplante) y mantenerla lejos de mascotas. Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F1",
+      "F4"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 2690,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana oeste o sur con cortina fina (Clemson). Una ventana norte luminosa también sirve, pero el color de la hoja se apaga (Clemson). Las variegadas, rosas y blancas necesitan la posición más luminosa sin sol fuerte.",
+      "tolera_sol_directo": "No: el sol directo quema o blanquea las hojas (NC State). Como mucho, sol suave de primera hora de la mañana.",
+      "notas": "UF/IFAS (EP244): luz óptima en interior de 250 a 1000 fc (≈2690-10760 lux); con poca luz los tallos se estiran, con entrenudos largos y débiles. Clemson: tolera luz baja, pero prefiere media a brillante indirecta; con poca luz las variegadas vuelven a verde. RHS: semisombra; luz brillante indirecta para las verdes y luz filtrada brillante para las variegadas. Discrepancia: RHS acepta orientaciones sur y oeste (contexto británico, de sol más débil) y NC State da como condición de jardín sombra moteada o semisombra con 2-6 h de sol; se adopta la opción conservadora: sin sol directo intenso, sobre todo tras el cristal en Madrid.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos que recién regada. UF/IFAS y Clemson: dejar que la superficie se seque ligeramente entre riegos; es decir, no esperar a que se seque entero. Regar a fondo hasta que salga agua por los agujeros de drenaje y vaciar el plato a los 15-30 minutos. Nunca regar por calendario.",
+      "primavera_verano": "Con crecimiento activo, regar con generosidad cada vez que la capa superior se seque (RHS: regar abundantemente en crecimiento). Con calor el sustrato se seca rápido: comprobar dedo y peso cada 2-3 días.",
+      "otono_invierno": "Reducir la frecuencia, porque el sustrato tarda más en secarse (UF/IFAS, RHS: riego escaso en invierno), pero sin dejar que el cepellón se seque por completo (UF/IFAS). Usar agua a temperatura ambiente: el agua fría en invierno produce manchas empapadas que acaban perforándose (UF/IFAS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo. En Madrid (Canal de Isabel II) el agua es blanda y la cloramina no se elimina dejándola reposar, pero no es causa de puntas marrones. El riesgo real son las sales de abono acumuladas: UF/IFAS considera excesiva una conductividad del sustrato superior a 3,0 dS/m. Cada 2-3 meses regar con 2-3 veces el volumen de la maceta para lavar sales [orientativo, sin fuente prioritaria]. Regar siempre con agua templada, no fría.",
+      "notas": "El exceso de agua y el mal drenaje causan pudrición de tallo y raíz (Clemson: podredumbre de tallo; NC State: podredumbre blanda). Si el sustrato se seca demasiado, amarillean las hojas viejas (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 55,
+      "notas": "UF/IFAS: mantiene mejor su aspecto con una humedad relativa del 40-60 % en interior (en vivero se cultiva al 60-100 %), y las plagas son raras si la humedad es correcta. Clemson: prefiere 50 % o más y tolera humedades más bajas. NC State: lo ideal es un sitio cálido y húmedo. Para subirla, humidificador o agrupar plantas; pulverizar no la sube de forma útil (aunque UF/IFAS recomienda pulverizar y pasar un paño para quitar el polvo, eso es limpieza, no humedad).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "RHS: H1A, mínima de invierno por encima de 15 °C. UF/IFAS: en interior 18-27 °C (65-80 °F) para conservar el color de las hojas; por debajo de 13 °C (55 °F) sufre daño por frío; en vivero se produce a 21-32 °C (70-90 °F) con sombra y humedad alta. Clemson: prefiere 18-24 °C (65-75 °F). Se adopta como mínima la más conservadora (15 °C, RHS). El máximo de 32 °C procede del rango de producción de UF/IFAS en invernadero sombreado y húmedo; en una vivienda con aire seco conviene no pasar de 27 °C. Lejos de radiadores, rejillas de aire y cristales fríos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla suelta, aireada y con buen drenaje. Clemson: partes iguales de turba o fibra de coco, vermiculita y perlita. UF/IFAS: turba con corteza de pino, vermiculita y/o perlita. RHS: sustrato para plantas de interior con base de tierra franca, húmedo pero bien drenado.",
+      "ph": "5,5-6,5 (UF/IFAS); RHS indica que tolera suelo ácido, neutro o alcalino.",
+      "drenaje": "Imprescindible: maceta con agujeros y plato vacío; el encharcamiento favorece la podredumbre de tallo y las bacteriosis.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes, con micronutrientes.",
+      "npk": "Equilibrado 20-20-20 o 10-10-10 (Clemson); en producción UF/IFAS usa proporción 3-1-2 (p. ej. 24-8-16).",
+      "primavera_verano": "Una vez al mes a ¼-½ de la dosis de etiqueta, solo con crecimiento activo (Clemson: dosis reducida, mensual, primavera y verano; RHS: cada 3-4 semanas en crecimiento).",
+      "otono_invierno": "Nada.",
+      "notas": "No es exigente (Clemson). Si se quiere mantener la forma juvenil compacta o la planta está con poca luz, abonar aún menos (Clemson). Hojas viejas amarillas y crecimiento pobre con manchas necróticas en hojas bajas pueden indicar falta de nitrógeno o fósforo (UF/IFAS), pero descartar antes un problema de riego.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada pocos años (NC State), cuando las raíces llenan la maceta; normalmente cada 2-3 años [orientativo, sin fuente prioritaria]. Pasar a una maceta solo 2-5 cm más ancha.",
+      "epoca": "Primavera, al comenzar el crecimiento activo (en Madrid, de marzo a mayo; en el hemisferio sur, de septiembre a noviembre).",
+      "senales": "Raíces saliendo por los agujeros de drenaje o enrolladas en el cepellón, sustrato que se seca en muy poco tiempo, crecimiento parado en temporada. NC State indica que trasplantar cada pocos años y recortar las raíces ayuda a mantener la planta de tamaño manejable. Usar guantes por la savia irritante.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, para mantenerla compacta. Si se quiere conservar la hoja en punta de flecha y el porte de mata, cortar los tallos trepadores en cuanto empiezan a alargarse (NC State). UF/IFAS: poda ocasional para mantener la forma. RHS: reducir altura en primavera si hace falta.",
+      "epoca": "Principalmente en primavera (RHS); los pinzados de tallos que se alargan, en cualquier momento de la temporada de crecimiento.",
+      "como": "Con tijera limpia, cortar o pinzar el tallo justo por encima de un nudo para que brote más compacta. Los trozos cortados sirven como esquejes. Usar guantes: la savia irrita piel y ojos (RHS, NC State). Si se prefiere que trepe y desarrolle hojas lobuladas, no podar y darle un tutor de musgo, celosía o caña (Clemson, UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de octubre-noviembre a febrero-marzo en el hemisferio norte; en el sur, de abril a agosto).",
+      "cambios": "No es un reposo estricto: mantiene las hojas y crece más despacio. Suspender el abono (Clemson), reducir el riego sin dejar secar del todo el cepellón (UF/IFAS, RHS) y mantenerla por encima de 15 °C (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo de un nudo con hoja",
+        "esqueje apical",
+        "acodo aéreo",
+        "división de mata"
+      ],
+      "epoca": "Primavera-verano (RHS: verano, con calor de fondo).",
+      "pasos": "1) Con guantes, cortar trozos de tallo de un nudo con su hoja y raíces aéreas, o puntas de tallo (UF/IFAS, RHS). 2) Plantarlos en sustrato de enraizamiento húmedo (turba o coco con perlita) o en agua. 3) Mantener aire a 24-35 °C, mejor con calor de fondo de 21-24 °C (UF/IFAS), humedad alta (bolsa o propagador) y luz tamizada sin sol. 4) Con raíces de unos centímetros, pasar a maceta con la mezcla habitual. También se puede dividir una mata grande al trasplantar o hacer acodo aéreo (NC State, UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces y tallo por exceso de riego o sustrato sin drenaje (Clemson, NC State); hongos del suelo como Rhizoctonia (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de tallo y podredumbre blanda bacteriana (Erwinia) en la base, favorecidas por encharcamiento y calor (Clemson, NC State, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Bacteriosis (Pseudomonas, Xanthomonas, Erwinia) con hojas mojadas (Clemson, UF/IFAS); también manchas empapadas, de forma irregular y que acaban perforándose, por regar con agua fría en invierno, o hojas jóvenes empapadas cuando el sustrato está frío y el aire cálido (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana de la hoja (Xanthomonas, Pseudomonas) (NC State, Clemson, UF/IFAS). Evitar mojar las hojas y retirar las afectadas."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Falta de luz: las variegadas vuelven a verde liso; con más luz la variegación vuelve en las hojas nuevas (Clemson). En cultivares rosas como 'Neon Robusta' es normal que las hojas viejas verdeen."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: tallos estirados y débiles, con entrenudos largos (UF/IFAS). Además, con la edad la planta tiende a alargarse y trepar de forma natural (NC State): pinzar o darle tutor."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas amarillas por falta de nitrógeno o por dejar secar demasiado el sustrato (UF/IFAS); si el sustrato está siempre mojado, sospechar de pudrición radicular."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo, sobre todo tras el cristal: quema o blanquea las hojas (NC State); las variegadas, blancas y rosas son las más sensibles."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae) con aire seco y calor (NC State, Clemson, RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, Clemson, RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State, Clemson, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (NC State cita el trips de invernadero de bandas) o araña roja incipiente."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas necróticas en hojas bajas con crecimiento pobre por falta de fósforo (UF/IFAS); también quemadura de sol o frío junto al cristal."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en la calle y aire muy seco (≈38 % HR exterior en julio), apartarla 1-2 m de ventanas sur y oeste o protegerla con cortina o estor: el sol tras el cristal quema y blanquea las hojas (NC State). Por encima de unos 27-30 °C en casa sufre y pierde aspecto (UF/IFAS da 18-27 °C para interior): buscar la habitación más fresca, sin ponerla en el chorro del aire acondicionado. El sustrato se seca muy rápido: comprobar dedo y peso cada 2-3 días y no dejar que se seque del todo. Con aire seco aumenta el riesgo de araña roja: revisar el envés. Si se saca a una terraza, solo en sombra total y metiéndola antes de que las noches bajen de 15 °C (finales de septiembre o principios de octubre).",
+    "invierno": "Con calefacción la humedad interior suele bajar del 30 %, por debajo del 40 % mínimo que da UF/IFAS: usar humidificador o agrupar plantas (pulverizar no sirve) y vigilar araña roja. No ponerla sobre ni junto a radiadores. Apartarla de cristales fríos y corrientes: necesita más de 15 °C (RHS) y por debajo de 13 °C sufre daño por frío (UF/IFAS). Regar con agua templada (el agua fría causa manchas, UF/IFAS), espaciar riegos sin dejar secar del todo el cepellón y no abonar. Acercarla a la ventana más luminosa: el sol bajo de invierno en una ventana sur es tolerable a 1 m.",
+    "ubicacion_recomendada": "Mesa, estantería o cesta colgante junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina; una ventana norte luminosa sirve para los cultivares verdes. Baños luminosos con ventana son buen sitio por la humedad. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado en POWO Syngonium podophyllum Schott. Sinónimos heterotípicos, entre otros: Arum auritum Vell., Pothos auritus Willd., Xanthosoma gracile Miq., Syngonium gracile (Miq.) Schott, S. vellozianum Schott, S. affine Schott, S. poeppigii Schott, S. ternatum Gleason. No hay cambio de nombre reciente.",
+    "No se ha encontrado en fuentes prioritarias la frecuencia exacta de trasplante (NC State solo dice 'cada pocos años') ni el mes concreto; confianza Media en ese bloque.",
+    "La temperatura máxima tolerable en vivienda no la da ninguna fuente prioritaria para interior; el valor de 32 °C sale del rango de producción en invernadero de UF/IFAS.",
+    "Los rasgos para distinguirla de Anthurium (genículo del pecíolo) y de Caladium/Xanthosoma, y el nervio colector marginal, no proceden de una fuente prioritaria consultada; marcados como orientativos.",
+    "UF/IFAS (EP244) convierte mal a cm el tamaño de la hoja adulta (1 ft = 19 cm, 2 ft = 38 cm); se han usado los valores en pies (≈30 y 60 cm).",
+    "Missouri Botanical Garden Plant Finder no tiene ficha accesible de la especie; Ask Extension (respuesta de un experto sobre pinzado y tutor) aparece en búsqueda pero no se pudo abrir y no se cita.",
+    "No se ha encontrado en fuentes prioritarias información sobre la relación entre humedad baja y puntas marrones en esta especie concreta, por lo que S05 no se incluye en problemas frecuentes."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1573)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP244",
+      "institucion": "UF/IFAS Extension – EDIS ENH 993/EP244: Cultural Guidelines for Commercial Production of Interiorscape Syngonium (Chen, McConnell y Everitt)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/17899/syngonium-podophyllum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Syngonium podophyllum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nephthytis",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Nephthytis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:89152-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

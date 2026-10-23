@@ -1,0 +1,158 @@
+{
+  "nombre_cientifico": "Gymnocalycium mihanovichii",
+  "nombres_comunes": ["cactus injertado", "gimnocalicio", "cactus luna", "cactus Hibotan", "cactus rubí"],
+  "familia": "Cactaceae",
+  "origen": "Paraguay y noreste de Argentina (Chaco, Formosa), en zonas pedregosas de baja altitud (POWO; NC State). Las formas de color sin clorofila ('Hibotan' y derivadas) son mutantes de cultivo seleccionados en Japón en los años 1940 y hoy se producen sobre todo en Corea del Sur (Univ. de Arkansas; UF/IFAS).",
+  "clima_nativo": "Bioma estacionalmente seco subtropical del Gran Chaco (POWO). La especie silvestre crece en zonas rocosas (NC State) y, como otros Gymnocalycium, a la sombra de otras plantas (Univ. de Arkansas). El patrón habitual del injerto, Hylocereus undatus (pitaya), es un cactus epífito tropical y subtropical de climas sin heladas (UF/IFAS HS303).",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Sin hojas. La parte vistosa es una 'bola' (el injerto o púa) globosa de 2-5 cm de diámetro (las bolas sueltas rara vez superan una pelota de golf; el grupo de bolas puede llegar a unos 10 cm) de color rojo intenso, naranja, amarillo, rosa, morado o casi blanco, sin nada de verde, colocada encima de un tallo verde distinto (el patrón). Las costillas de la bola son 8 (planta silvestre) a 8-14 (formas 'Hibotan'), estrechas y con muescas transversales ('barbilla' bajo cada areola), con 3-6 espinas cortas curvadas grisáceas o pardas por areola (NC State; Univ. de Arkansas; Wikipedia).",
+    "nerviacion": "No aplica (cactus sin hojas). Rasgo clave: costillas de la bola con muescas en forma de barbilla bajo las areolas, típicas del género Gymnocalycium.",
+    "variegacion": "Las formas comerciales carecen por completo de clorofila: el color (betalaínas) queda a la vista. 'Hibotan' es la forma roja-anaranjada clásica; hay al menos 16 variantes de color. 'Hibotan Nishiki' y las formas 'Variegata' son quimeras con manchas verdes que conservan algo de clorofila y pueden vivir sobre sus propias raíces; la var. friedrichii de color natural también (NC State; Univ. de Arkansas).",
+    "tallo": "Dos plantas unidas. Arriba: la bola de color (Gymnocalycium). Abajo: el patrón verde, casi siempre Hylocereus undatus (pitaya), un tallo triangular de tres costillas con pocas espinas, de 5-15 cm por encima del sustrato en las plantas de tienda; a veces se usan Trichocereus o Cereus (patrones redondeados de más costillas) (NC State; UF/IFAS Charlotte; Wikipedia). La línea de injerto es una cicatriz horizontal visible entre ambos colores.",
+    "habito": "Pequeño cactus globoso injertado, erguido, de crecimiento lento. La bola emite hijuelos laterales con facilidad y puede formar un racimo (Univ. de Arkansas; NC State). La forma silvestre, verde-grisácea o rojiza, es solitaria o con hijuelos y mide 5-8 cm.",
+    "tamano_adulto_interior": "Se vende casi siempre en macetas de 5-10 cm. Bola de 2-5 cm, racimo de hasta unos 10 cm de ancho; altura total con el patrón de 10-20 cm [orientativo, sin fuente prioritaria para la altura del patrón]. La planta silvestre: 5-8 cm de alto y ancho (NC State).",
+    "confusiones": [
+      {"especie": "Gymnocalycium mihanovichii var. friedrichii y formas 'Hibotan Nishiki' / 'Variegata'", "rasgo_diferenciador": "Tienen zonas verdes o pardo-verdosas (clorofila) y pueden crecer sobre sus propias raíces, sin patrón; las formas 'Hibotan' puras son de un color uniforme sin nada de verde y siempre van injertadas."},
+      {"especie": "Cactus teñidos o con 'flores' de paja o pegadas (productos de bazar)", "rasgo_diferenciador": "El color está en la superficie y suele ser uniforme y artificial (incluidas las espinas) sobre un cactus verde de una sola pieza; en el cactus injertado hay dos plantas distintas con una cicatriz de unión y la bola de color tiene costillas con muescas propias [orientativo, sin fuente prioritaria]."},
+      {"especie": "Otros injertos de colores (p. ej., Chamaecereus/Echinopsis amarillos, crestados)", "rasgo_diferenciador": "Tienen forma de dedo, de cresta o de cilindro con espinas finas abundantes; la bola de G. mihanovichii es globosa, con pocas costillas anchas y muescas en barbilla [orientativo, sin fuente prioritaria]."},
+      {"especie": "Mammillaria spp.", "rasgo_diferenciador": "Tiene tubérculos (mamilas) en espiral en vez de costillas, suele ir sobre sus raíces y es verde; Gymnocalycium tiene costillas con muescas."},
+      {"especie": "Astrophytum spp.", "rasgo_diferenciador": "Verde con motas blancas de tricomas, costillas muy marcadas en estrella y casi sin espinas; nunca se vende en colores rojo o amarillo sin clorofila."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Sin datos de toxicidad química de Gymnocalycium mihanovichii en fuentes prioritarias. El riesgo verificado es mecánico: espinas (NC State, 'Problems: Spines/Thorns'), cortas en esta especie. El patrón habitual, Hylocereus undatus (pitaya, 'night blooming cereus'), figura en la ASPCA como no tóxico para perros, gatos y caballos.",
+    "confianza": "Baja",
+    "fuentes": ["F9", "F10", "F1"],
+    "notas": "ASPCA no tiene ficha de Gymnocalycium mihanovichii ni de 'moon cactus' (listas de perros y gatos revisadas el 2026-10-21); solo la tiene del patrón Hylocereus undatus, no tóxico. NC State no da datos de toxicidad, solo señala las espinas. Las afirmaciones de 'no tóxica' halladas proceden de tiendas y blogs, no de fuentes veterinarias, por lo que no se presenta como no tóxica. Recomendación prudente: fuera del alcance de niños pequeños y mascotas por las espinas; si se muerde la bola, retirar restos de la boca y consultar si hay síntomas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de mañana) o junto a una ventana sur u oeste con cortina fina o a 1-2 m del cristal. Evitar el sol directo de mediodía y tarde.",
+      "tolera_sol_directo": "Poco: solo sol suave de primera hora. La bola de color, sin clorofila, se quema con sol fuerte: NC State advierte de quemaduras por exceso de sol directo, sobre todo en las variedades injertadas; Univ. de Arkansas y UF/IFAS piden luz intensa pero no pleno sol porque este provoca quemaduras. Necesita menos sol que la mayoría de cactus de desierto.",
+      "notas": "Escala del proyecto: brillante indirecta 500-1000 fc (5380-10760 lux). El patrón verde es la única parte que hace la fotosíntesis y alimenta a la bola (NC State; UF/IFAS Charlotte), así que tampoco debe estar en penumbra: con poca luz el patrón se debilita [orientativo, sin fuente prioritaria para el umbral]. Contradicción menor: la ficha de atributos de NC State marca 'pleno sol y semisombra', pero su propio texto y las otras dos fuentes prioritarias indican luz brillante indirecta y riesgo de quemadura; se adopta la opción conservadora. Aclimatar poco a poco si se saca a la terraza en verano.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3"]
+    },
+    "riego": {
+      "criterio": "Regar a fondo solo cuando el sustrato esté seco por completo: comprobar con el dedo a 5 cm (o con un palillo hasta el fondo en macetas pequeñas) y por el peso de la maceta, que debe estar ligera. Dejar escurrir y no dejar agua en el plato. Nunca por calendario (NC State; UMN; UF/IFAS Charlotte; RHS).",
+      "primavera_verano": "Con crecimiento activo y calor, riego profundo cada vez que el sustrato se seque del todo; en macetas de 5-10 cm en una vivienda de Madrid suele ocurrir cada 7-15 días en pleno verano [orientativo, sin fuente prioritaria para la frecuencia]. A más luz en primavera, más necesidad de agua (UMN).",
+      "otono_invierno": "Reducir mucho (NC State; UF/IFAS Charlotte; RHS, reposo de noviembre a principios de marzo): regar solo lo justo para que no se arrugue, con sorbos espaciados en semanas, y nunca con la planta fría (<10 °C) (UMN; RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "La RHS recomienda agua de lluvia templada porque los minerales del grifo pueden acumularse en el sustrato. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve; si aparecen costras blancas, regar a fondo dejando drenar para lavar sales. Dejar reposar el agua no elimina la cloramina, pero no es un problema para esta planta.",
+      "notas": "El exceso de riego es la causa nº 1 de muerte: los hongos aparecen por riego excesivo o humedad alta (NC State) y el agua retenida en el sustrato pudre en muy poco tiempo (UMN). El patrón Hylocereus soporta sequía extrema (Univ. de Arkansas), así que ante la duda es mejor quedarse corto.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F7", "F8"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere humedad ambiental baja y la tolera bien (NC State: 'low humidity', 'low humidity tolerant'); la humedad alta favorece hongos. Ninguna fuente prioritaria da porcentajes. El aire seco de Madrid en verano e invierno (HR <30 % con calefacción) no es un problema por sí mismo, pero favorece la araña roja: revisar la planta. No pulverizar.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F7"]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 38,
+      "ideal_min_c": 20,
+      "ideal_max_c": 30,
+      "notas": "Mínima adoptada 10 °C, más alta que la convención del proyecto para cactus (noches invernales de 8-10 °C y nunca por debajo de 5-7 °C), porque la planta vive gracias a un patrón tropical: NC State y UF/IFAS indican no exponerla a menos de 10 °C (50 °F) y meterla en casa antes; el especialista de UF/IFAS (Crane y Palmateer) describe daño por frío sin helada en pitaya (Hylocereus) por debajo de 10 °C, sobre todo a 2-7 °C con sol intenso, con decoloración del tallo y riesgo de enfermedades; la helada encharca y pudre los tallos. Contradicción: la RHS recomienda para la mayoría de cactus de interior un reposo con noches de 8-10 °C; se descarta su extremo bajo por ser menos conservador para el patrón y se toma 10 °C como suelo absoluto. Ideal en crecimiento 20-30 °C (68-86 °F, NC State). En invierno basta la temperatura normal de la vivienda (noches por encima de 10 °C, preferiblemente 12-15 °C o más [orientativo, sin fuente prioritaria]), sin buscar un reposo frío. Máxima: UF/IFAS HS303 indica que la pitaya tolera calor siempre que no supere 38 °C; es un dato del patrón en cultivo exterior, no de la bola, que con calor fuerte se quema si recibe sol directo.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F5", "F6", "F7"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas, muy drenante y arenoso: por ejemplo, 1 parte de sustrato universal y 1 de arena gruesa o grava fina (UMN); la RHS pide un compost arenoso sin turba y de drenaje libre. Prueba de UMN: al apretar la mezcla húmeda en la mano debe deshacerse al soltarla. Maceta siempre con agujero de drenaje.",
+      "ph": "Ácido a neutro (por debajo de 6,0 hasta 8,0) según NC State.",
+      "drenaje": "Excelente; el agua retenida pudre raíces y la base del patrón en muy poco tiempo (UMN; NC State).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F7", "F8"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido específico para cactus o abono líquido rico en potasio (RHS).",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo (NC State; UF/IFAS Charlotte, abono diluido). Convención del proyecto: ¼-½ de la dosis de etiqueta una vez al mes de abril a septiembre (la RHS indica una vez al mes en esa época; UMN, solo 1-2 veces al año a finales de primavera o en verano para cactus). Con 2-4 aportes al año es suficiente para esta planta pequeña.",
+      "otono_invierno": "Nada.",
+      "notas": "Contradicción menor sobre la frecuencia (RHS mensual frente a UMN 1-2 veces al año); se adopta la dosis reducida del proyecto, compatible con ambas. Ninguna fuente da una fórmula NPK concreta para esta especie (npk = null).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F7", "F8"]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: solo cuando el patrón o las raíces han llenado la maceta, cada 2-3 años como mucho [orientativo, sin fuente prioritaria para el intervalo]. Hay que saber que la vida del injerto es limitada: según la Univ. de Arkansas, la mayoría de cactus injertados solo sobreviven un par de años porque la bola crece más que el patrón, salvo que se reinjerte en un patrón nuevo.",
+      "epoca": "Primavera (RHS).",
+      "senales": "Raíces saliendo por el drenaje, patrón inestable o sustrato que ya no drena. Si la bola es mucho más ancha que el patrón, o el patrón se arruga, amarillea o se ablanda, plantearse el reinjerto de la bola o de sus hijuelos sobre un patrón nuevo.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F7"]
+    },
+    "poda": {
+      "necesita": "No (NC State: no suele necesitar poda).",
+      "epoca": "Primavera-verano si se quieren retirar hijuelos para injertarlos.",
+      "como": "Los hijuelos de la bola pueden separarse con un cuchillo limpio para injertarlos (UF/IFAS Charlotte). Si el patrón emite brotes laterales verdes, conviene retirarlos para que no compitan con la bola [orientativo, sin fuente prioritaria]. Si la base del patrón se pudre, cortar por encima de lo sano y reinjertar o enraizar el trozo de patrón.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F3"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno: de noviembre a principios de marzo en el hemisferio norte (RHS); en el hemisferio sur, de mayo a principios de septiembre.",
+      "cambios": "Reducir mucho el riego y suprimir el abono (NC State; UF/IFAS Charlotte; RHS). A diferencia de otros cactus, no bajar la temperatura por debajo de 10 °C por el patrón tropical (ver temperatura). Mantener la máxima luz posible sin sol fuerte.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F7"]
+    },
+    "propagacion": {
+      "metodos": ["injerto de hijuelos sobre Hylocereus undatus u otro patrón", "semilla (solo formas con clorofila)"],
+      "epoca": "Primavera-verano, con calor y crecimiento activo [orientativo, sin fuente prioritaria para la época del injerto].",
+      "pasos": "La parte de color no puede vivir sola sobre sus raíces porque no tiene clorofila: solo se propaga por injerto (NC State; Univ. de Arkansas; UF/IFAS Charlotte). 1) Separar un hijuelo de la bola. 2) Cortar en plano la parte superior de un patrón sano (Hylocereus undatus es el habitual) y la base del hijuelo, de modo que los tejidos cortados coincidan. 3) Unir ambos cortes y mantenerlos presionados con suavidad (por ejemplo, gomas elásticas cruzadas por encima) hasta que las heridas cierren y los tejidos se suelden (UF/IFAS Charlotte). 4) Mantener en sombra luminosa y sin regar en exceso mientras suelda. La semilla solo da plantas viables en las formas con clorofila (var. friedrichii, 'Hibotan Nishiki', 'Variegata'), que pueden crecer sobre sus propias raíces (NC State).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S15", "causa_habitual_en_esta_especie": "Podredumbre del patrón o de la zona de injerto (base blanda, oscura o con la unión ennegrecida) por exceso de riego, sustrato sin drenaje o frío húmedo; los hongos aparecen con riego excesivo o humedad alta (NC State). Al pudrirse el patrón la bola muere, porque depende de él: si la bola sigue sana, reinjertarla cuanto antes."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Raíces del patrón podridas por agua retenida en el sustrato (UMN) o por regar en invierno con la planta fría."},
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Quemadura de la bola de color (manchas blanquecinas, pardas o descoloridas) por sol directo fuerte; NC State la cita sobre todo en las variedades injertadas. Típico en ventanas sur y oeste de Madrid en verano."},
+    {"sintoma_id": "S07", "causa_habitual_en_esta_especie": "Manchas o decoloraciones secas en el patrón por daño por frío por debajo de 10 °C (UF/IFAS, pitaya), por ejemplo junto a un cristal frío en invierno, o por quemadura solar."},
+    {"sintoma_id": "S29", "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las costillas, en las areolas y en la unión del injerto (NC State)."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Araña roja (NC State), favorecida por el aire muy seco y caliente de la calefacción o del verano madrileño."},
+    {"sintoma_id": "S23", "causa_habitual_en_esta_especie": "Punteado o moteado decolorado por araña roja (NC State) sobre la bola o el patrón."},
+    {"sintoma_id": "S27", "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos o flores (NC State)."},
+    {"sintoma_id": "S17", "causa_habitual_en_esta_especie": "Agotamiento del injerto: la bola deja de crecer, se arruga o encoge porque ha crecido más que el patrón o porque este está débil; según la Univ. de Arkansas la mayoría solo duran un par de años si no se reinjertan. También por poca luz para el patrón [orientativo, sin fuente prioritaria]."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol intenso, no ponerla al sol directo de ventanas sur u oeste: la bola sin clorofila se quema (NC State; Univ. de Arkansas). Mejor ventana este o detrás de una cortina fina. El patrón tolera calor hasta unos 38 °C (UF/IFAS, pitaya) si hay ventilación; en terraza, solo en semisombra luminosa y aclimatándola poco a poco. Regar a fondo cuando el sustrato esté seco del todo (con el calor seco de julio puede ser cada 1-2 semanas [orientativo]), sin dejar agua en el plato. Vigilar araña roja con el aire seco (HR exterior ≈38 %).",
+    "invierno": "Con calefacción la temperatura de la vivienda le va bien; la humedad interior <30 % no le perjudica (prefiere aire seco), pero favorece la araña roja. Mantenerla lejos de radiadores (RHS) y separada de cristales fríos por la noche: junto al vidrio la temperatura puede bajar de 10 °C, que es el límite para el patrón tropical (NC State; UF/IFAS); no aplicar el reposo frío de 5-8 °C que sirve para otros cactus. Riego mínimo, solo para que no se arrugue, y sin abono. Si estuvo en terraza, meterla antes de que las noches bajen de 10 °C (normalmente a primeros de octubre en Madrid [orientativo, sin fuente prioritaria para la fecha]).",
+    "ubicacion_recomendada": "Junto a una ventana este, o a 1-2 m de una ventana sur/oeste con cortina fina, en una habitación templada (por encima de 10 °C todo el año), lejos de radiadores y sin estar pegada al cristal en invierno."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Gymnocalycium mihanovichii (Frič & Gürke) Britton & Rose, nativa de Paraguay a Argentina (Chaco, Formosa). NC State cita como nombres anteriores Echinocactus mihanovichii y G. mihanovichii var. filadelfiense; Wikipedia cita G. friedrichii (nom. inval.). La Univ. de Arkansas asigna 'Hibotan' a G. mihanovichii var. friedrichii; no se ha verificado en POWO si friedrichii se trata como sinónimo, variedad o especie aparte.",
+    "No se encontró ficha de la especie en la RHS ni en el Missouri Botanical Garden; los cuidados generales de cactus proceden de la guía de la RHS y de la Univ. de Minnesota, y los específicos de NC State, Univ. de Arkansas y UF/IFAS.",
+    "Toxicidad de Gymnocalycium mihanovichii sin datos en fuentes prioritarias (ASPCA sin entrada); solo el patrón Hylocereus undatus figura como no tóxico.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos o ideales (min_pct e ideal_pct = null).",
+    "Vida del injerto: solo una fuente prioritaria (Univ. de Arkansas, 'un par de años' sin reinjerto); no hay datos sobre a qué ritmo se agota el patrón ni sobre la duración con buenos cuidados.",
+    "Umbral de frío: el dato de daño por frío por debajo de 10 °C procede de pitaya en cultivo comercial (UF/IFAS); no hay estudios de la combinación injertada en maceta. Tampoco hay datos sobre otros patrones (Trichocereus, Cereus), que podrían ser más resistentes al frío.",
+    "Frecuencias de riego, intervalo de trasplante, época de injerto y altura del patrón sin fuente prioritaria (marcados como orientativos)."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/gymnocalycium-mihanovichii/", "institucion": "NC State Extension – Gardener Plant Toolbox, Gymnocalycium mihanovichii", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://uaex.uada.edu/yard-garden/resource-library/plant-week/Grafted-Cactus-Neon-Cacti-Moon-Cactus-Hibotan-Cactus-11-27-2015.aspx", "institucion": "University of Arkansas Division of Agriculture, Cooperative Extension Service – Plant of the Week: Grafted Cactus, Neon Cacti, Moon Cactus, Hibotan Cactus (G. Klingaman)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://blogs.ifas.ufl.edu/charlotteco/2024/12/11/neon-color-prickly-nature/", "institucion": "UF/IFAS Extension Charlotte County – Neon color, prickly nature (R. Mitchell, agente de horticultura)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:115434-2", "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Gymnocalycium mihanovichii", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://ask.ifas.ufl.edu/publication/HS303", "institucion": "UF/IFAS EDIS HS303 – Pitaya (Dragonfruit) Growing in the Florida Home Landscape (Crane y Balerdi)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://ucanr.edu/sites/sdsmallfarms/files/248303.pdf", "institucion": "University of Florida IFAS, Tropical Research and Education Center – Pitaya production in Florida (Crane y Palmateer, 2016; alojado por UC ANR)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide", "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://extension.umn.edu/houseplants/cacti-and-succulents", "institucion": "University of Minnesota Extension – Cacti and succulents", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/night-blooming-cereus", "institucion": "ASPCA Animal Poison Control – Night Blooming Cereus (Hylocereus undatus), no tóxico", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F10", "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list", "institucion": "ASPCA – Toxic and Non-Toxic Plants (listas de gatos y perros; sin entrada para Gymnocalycium)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F11", "url": "https://en.wikipedia.org/wiki/Gymnocalycium_mihanovichii", "institucion": "Wikipedia (basado en Britton y Rose, The Cactaceae, y Anderson, Das grosse Kakteen-Lexikon)", "tipo": "complementaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

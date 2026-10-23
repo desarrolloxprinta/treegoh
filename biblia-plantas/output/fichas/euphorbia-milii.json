@@ -1,0 +1,202 @@
+{
+  "nombre_cientifico": "Euphorbia milii",
+  "nombres_comunes": ["corona de Cristo", "espina de Cristo", "corona de espinas"],
+  "familia": "Euphorbiaceae",
+  "origen": "Endémica de Madagascar (POWO, RHS, NC State, Wisconsin). Introducida en cultivo en Francia en 1821 (Wisconsin). Naturalizada en zonas tropicales de Asia, América y África (NC State). Nombre aceptado en POWO: Euphorbia milii Des Moul. Sinónimos heterotípicos: Euphorbia breonii Reider, E. milii var. breonii (Reider) Ursch & Leandri, Euphorbia splendens var. bojeri (Hook.) Costantin & Gallaud y E. splendens subsp. bojeri (Hook.) Denis (POWO). Se escribe a menudo mal como 'E. milli' o 'E. millii' (Wisconsin).",
+  "clima_nativo": "Tropical y subtropical seco de Madagascar, en suelos arenosos o pedregosos poco profundos y bien drenados (NC State). Rusticidad USDA 9a-11b (NC State); crece mejor en zonas 10-11 y muere o se seca hasta la base con heladas (UF/IFAS). RHS H1B: en el Reino Unido se cultiva bajo cristal y solo sale al exterior en verano (mínimas de 10-15 °C). Tolera la sequía y la sal (UF/IFAS, RHS).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, verde brillante a verde grisáceo, lisas, algo carnosas, de margen entero. Son espatuladas, obovadas u oblanceoladas, con base en cuña. Miden 2,5-7,5 cm de largo y menos de 2,5 cm de ancho (NC State); en la especie unos 4 cm, y hasta 15 cm en algunos híbridos (Wisconsin). Se disponen en espiral o en verticilos y solo en las puntas de los tallos nuevos (NC State, Wisconsin, Queensland Children's Health). Duran pocos meses: los tallos viejos quedan pelados y eso es normal (NYBG). Al romperse sueltan látex blanco lechoso.",
+    "nerviacion": "Pinnada poco marcada: un nervio central visible en hoja fina y algo suculenta; los nervios secundarios apenas se aprecian. [orientativo, sin fuente prioritaria]",
+    "variegacion": "La especie es verde. Lo vistoso no son pétalos, sino dos brácteas (apéndices) redondeadas de unos 8 mm bajo cada ciatio (inflorescencia en copa con flores diminutas verdes o amarillas), sobre pedúnculos pegajosos de hasta 5 cm (NC State, Wisconsin). Brácteas rojas en la especie, amarillas en var. tananarivae (vendida como var. lutea), y blancas, crema, amarillas, salmón, rosas o rojas en los híbridos; algunos son dobles (Wisconsin, NC State). Hay híbridos de hoja grande tipo 'Thai' o 'giant' ('Rosalie', 'Vulcanus', 'Saturnus') y enanos como 'Mini-Bell' (Wisconsin). En algunos cultivares las hojas pálidas son normales y no indican carencia (NYBG).",
+    "tallo": "Tallos gris pardos a plateados, gruesos, suculentos (almacenan agua), con 5-7 caras, en zigzag y ramificados de forma irregular (NC State, Wisconsin). Llevan espinas rectas y afiladas, grises o negras, de 1,3-2,5 cm (NC State, Wisconsin). Algunos clones casi no tienen espinas. Todo el tallo tiene látex blanco (NC State).",
+    "habito": "Arbusto perenne, leñoso, multicaule y denso, de textura gruesa (NC State). Florece en las puntas de los tallos con hojas en crecimiento activo; con buena luz florece desde final de invierno hasta otoño en interior (NYBG, NC State), y casi todo el año en condiciones ideales (Wisconsin).",
+    "tamano_adulto_interior": "Como planta de interior suele quedarse por debajo de 60 cm (NC State). La especie llega a unos 90 cm (Wisconsin) y fuera, en clima tropical, a 0,9-1,8 m de alto y 0,45-0,9 m de ancho (NC State). RHS: hasta 1 m. La maceta limita el tamaño (Wisconsin).",
+    "confusiones": [
+      {
+        "especie": "Cactus con espinas (familia Cactaceae)",
+        "rasgo_diferenciador": "Los cactus tienen areolas (cojinetes de donde salen las espinas en grupo), casi nunca hojas, y su savia no es lechosa. E. milii tiene espinas sueltas sin areola, hojas verdes en las puntas de los tallos y látex blanco al cortarla. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Euphorbia geroldii (corona de Cristo sin espinas)",
+        "rasgo_diferenciador": "Especie malgache próxima y muy parecida, pero con tallos lisos sin espinas y hojas más anchas y brillantes. Ojo: algunos clones de E. milii también tienen pocas espinas (Wisconsin), así que la ausencia total de espinas apunta a E. geroldii pero no lo confirma. [orientativo, sin fuente prioritaria]"
+      },
+      {
+        "especie": "Híbridos 'Thai' o 'giant' de Euphorbia milii",
+        "rasgo_diferenciador": "Son la misma especie o híbridos de ella: hojas mucho más grandes (hasta 15 cm), tallos más gruesos, flores más grandes y necesitan más riego que la especie (Wisconsin). La ficha sirve, pero el riego debe ser algo más frecuente."
+      },
+      {
+        "especie": "Euphorbia pulcherrima (flor de Pascua)",
+        "rasgo_diferenciador": "Comparte látex y brácteas rojas, pero no tiene espinas, sus hojas son grandes (más de 10 cm), dentadas o lobuladas y con nervios marcados, y las brácteas son grandes y foliáceas. [orientativo, sin fuente prioritaria]"
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Ésteres diterpénicos (ésteres de forbol) del látex blanco, presente en todas las partes de la planta: tallos, hojas, raíces, flores, frutos y semillas (NC State). La toxicidad no se pierde al secarse (UF/IFAS).",
+    "sintomas": "PIEL: dermatitis de contacto leve a grave; el látex puede causar ampollas y dolor intenso, sobre todo en heridas abiertas (NC State, UF/IFAS, Queensland Children's Health). OJOS: el látex puede causar ceguera temporal (Wisconsin, Queensland Children's Health) y daño de córnea temporal o permanente (NC State). Primeros auxilios ojos: aclarar con agua abundante 15 minutos y acudir a urgencias (Queensland Children's Health). INGESTIÓN en personas: ampollas en labios y mucosa oral (NC State), irritación de boca y aparato digestivo (UF/IFAS); RHS: irritante para piel y ojos y nocivo si se ingiere. PERROS Y GATOS: babeo, falta de apetito, vómitos y diarrea, normalmente leves (Pet Poison Helpline); UF/IFAS cita también hinchazón facial, dolor abdominal, debilidad y diarrea a veces con sangre; la muerte es rara (UF/IFAS). NC State la clasifica de severidad baja por ingestión. Las espinas causan heridas mecánicas (NC State, Queensland Children's Health). Manipular siempre con guantes y gafas; el látex mancha la ropa y los muebles (NYBG, RHS). Ante ingestión: Servicio de Información Toxicológica (España, 91 562 04 20) [orientativo, sin fuente prioritaria] o veterinario.",
+    "confianza": "Alta",
+    "fuentes": ["F1", "F2", "F3", "F4", "F6", "F7", "F8"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Sur u oeste, pegada a la ventana más soleada. Este solo si recibe muchas horas de sol. En terraza o balcón soleado en verano.",
+      "tolera_sol_directo": "Sí, lo necesita: sol pleno, 6 h o más de sol directo al día (NC State); NYBG pide 6-8 h y dice que el sol pleno es el factor principal para que florezca. Al sacarla al exterior hay que aclimatarla poco a poco para que no se queme (Wisconsin). En climas de verano muy caluroso, en exterior, algo de sombra a mediodía mejora la floración (NC State).",
+      "notas": "Escala del proyecto: directa >1000 fc (≈10.760 lux). Tolera media sombra, pero florece mucho menos (Wisconsin, UF/IFAS); en sombra no florece y va mal (UF/IFAS). Con poca luz también pierde hojas antes (NYBG). Girar la maceta cada semana para que crezca pareja (NYBG). Necesita oscuridad por la noche: la luz artificial nocturna fuerte reduce la floración (Wisconsin). No hay techo de lux verificado.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4", "F6"]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a 5 cm de profundidad (dedo) y la maceta pese poco; nunca por calendario. Regar a fondo hasta que salga agua por el drenaje, dejar escurrir y vaciar el plato (NYBG). La especie quiere que el sustrato se seque entre riegos profundos (Wisconsin, UF/IFAS); el encharcamiento la mata (NYBG) y el exceso de riego pudre las raíces muy rápido (UF/IFAS).",
+      "primavera_verano": "En crecimiento y floración, regar a fondo cada vez que el sustrato acabe de secarse (NYBG); RHS pide regar con moderación. Con calor, sol directo y maceta de barro se seca antes: comprobar más a menudo, pero sin regar sobre sustrato húmedo. Los híbridos de hoja grande ('Thai', 'giant') necesitan más agua, casi como una planta tropical de follaje (Wisconsin).",
+      "otono_invierno": "Reducir mucho el riego al acabar la floración y en reposo: mantener el sustrato del lado seco (NYBG); RHS: mantener seca en invierno. Regar solo para que los tallos no se arruguen. Nunca sustrato mojado y frío: lo tolera muy mal (NC State).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo de Madrid sin tratar (blanda, con cloramina que no se va al reposar el agua; no causa problemas en esta especie). Tolera la sal (UF/IFAS). No mojar hojas ni flores en periodos húmedos (Wisconsin).",
+      "notas": "Tolera la sequía (NC State, UF/IFAS, RHS), pero una sequía larga le hace perder las hojas (NYBG, Wisconsin); vuelve a brotar al regar. Las enfermedades suelen venir del exceso de agua en el sustrato o en las hojas (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4", "F6"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere humedad baja (NYBG) y tolera la humedad baja de las casas con calefacción en invierno (Wisconsin). No necesita humidificador ni pulverizar; mojar hojas y flores favorece enfermedades (Wisconsin) como el moho gris (RHS, NC State). Ninguna fuente da porcentajes.",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3"]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 15,
+      "ideal_max_c": null,
+      "notas": "Mínimo conservador 15 °C: NYBG pide mantenerla por encima de 60 °F (≈15,5 °C) y dice que a 10-15 °C (los 50 °F) pierde hojas antes de tiempo; RHS la clasifica H1B (mínimas de 10-15 °C). Sobrevive hasta unos 2 °C (35 °F) (Wisconsin, NC State), pero eso es el límite de supervivencia en exterior, no una temperatura de cultivo, y con frío y sustrato húmedo se pudre. Sin heladas: muere o se seca hasta la base (UF/IFAS). En otoño-invierno le viene bien un ligero descenso de temperatura sin bajar de 15 °C (NYBG). Lejos de corrientes de puertas, rejillas y ventanas (NYBG). Calor: el calor fuerte puede hacerle perder todas las hojas, aunque rebrota (Wisconsin); ninguna fuente fija un máximo.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4", "F6"]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy drenante. Opciones de las fuentes: 3 partes de sustrato con base de tierra (sin turba) + 1 parte de grava fina (RHS); sustrato para cactus con perlita, piedra pómez, arena gruesa o grava y un poco de compost (Wisconsin); 2 partes de sustrato universal + 1 de perlita, sin abono añadido (NYBG). Maceta con agujero de drenaje.",
+      "ph": "Ácido a neutro (menos de 6,0 hasta 6,0-8,0) (NC State); RHS: ácido, neutro o alcalino. Tolera un rango amplio.",
+      "drenaje": "Imprescindible: suelos arenosos o pedregosos bien drenados (NC State, RHS). No tolera el encharcamiento (NYBG, UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o bajo en nitrógeno (RHS: bajo en nitrógeno; NYBG y Wisconsin: equilibrado; NYBG: evitar los ricos en nitrógeno). Evitar productos con boro: la especie es sensible (Wisconsin, NYBG).",
+      "npk": null,
+      "primavera_verano": "¼-½ de la dosis de la etiqueta una vez al mes, solo con crecimiento activo (convención del proyecto; RHS: mensual; NYBG: 1-2 veces al mes hasta que pasen las flores). Abonar poco: el exceso da crecimiento blando y pocas flores (Wisconsin, NYBG).",
+      "otono_invierno": "Nada en reposo (RHS: seca en invierno; NYBG: solo en primavera y verano).",
+      "notas": "Ninguna fuente da un NPK concreto. Las hojas pálidas de algunos cultivares son normales y no se corrigen con abono (NYBG).",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F4"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años, a una maceta solo un número mayor, con sustrato nuevo bien apretado (NYBG). De adulta, en vez de trasplantar, cambiar cada año parte del sustrato de la superficie (NYBG).",
+      "epoca": "Primavera (NYBG).",
+      "senales": "Raíces que salen por el drenaje, sustrato que se seca en muy poco tiempo o planta que se vuelca. Con las raíces algo apretadas florece mejor, así que no adelantar el trasplante (NYBG). Usar guantes gruesos y gafas por las espinas y el látex (NYBG, RHS).",
+      "confianza": "Media",
+      "fuentes": ["F3"]
+    },
+    "poda": {
+      "necesita": "Opcional: para darle forma, ramificar y aclarar. Los híbridos necesitan menos poda que la especie (Wisconsin).",
+      "epoca": "Primavera, con crecimiento fuerte (NYBG).",
+      "como": "Con guantes y gafas, y con cuchillo limpio y desinfectado mejor que con tijeras, porque el látex las pega (Wisconsin, NYBG). Cortar los tallos dañados desde la base y el resto justo por encima de una yema sana o de una ramificación (NYBG, Wisconsin). Para aclarar, quitar ramas enteras empezando por las débiles o finas (Wisconsin). Dejar al menos la mitad de los tallos con hojas (NYBG). Pulverizar los cortes con agua fría para cortar el flujo de látex (NYBG).",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno en el hemisferio norte (de octubre a febrero aprox.; en el hemisferio sur, de abril a agosto) [orientativo, sin fuente prioritaria].",
+      "cambios": "Reducir mucho el riego y mantener el sustrato seco (RHS, NYBG); sin abono (RHS, NYBG); un ligero descenso de temperatura sin bajar de 15 °C (NYBG). Es normal que pierda parte de las hojas antes del reposo (NC State). Con luz fuerte puede seguir floreciendo desde final de invierno (NYBG).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    },
+    "propagacion": {
+      "metodos": ["esqueje de tallo", "semilla", "injerto"],
+      "epoca": "Primavera y verano, con calor (Wisconsin, NYBG).",
+      "pasos": "1) Regar la planta madre 1-2 días antes (NYBG). 2) Con guantes y gafas, cortar puntas de 7-15 cm de tallos jóvenes con hojas (Wisconsin: 7,5-15 cm; NYBG: 7,5-10 cm). 3) Cortar el látex con agua fría (NYBG, Wisconsin) o carbón vegetal en polvo (Wisconsin). 4) Dejar secar el corte 2-3 días hasta que haga callo (Wisconsin, NYBG, NC State). 5) Dejar solo 3-4 hojas (NYBG). 6) Opcional: hormona de enraizamiento. Plantar a unos 4 cm de profundidad en sustrato drenante húmedo, con luz brillante indirecta (NYBG). 7) Mantener el sustrato apenas húmedo; enraíza en 5-8 semanas con calor (Wisconsin). Semilla: sembrar en cuanto madura, a 15-20 °C (RHS); suele requerir polinización a mano (Wisconsin). Injerto en hendidura en V (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato que no drena: las raíces se pudren muy rápido (UF/IFAS, NYBG). Peor con frío y sustrato mojado (NC State). Es la causa principal de muerte."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de tallo por sustrato encharcado, sobre todo en invierno (NC State: pudriciones de tallo y raíz)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Caída natural de las hojas viejas: cada hoja vive pocos meses y los tallos viejos quedan pelados (NYBG). Se acelera con sequía larga, frío por debajo de 15 °C o poca luz (NYBG), o calor fuerte (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras un cambio de sitio, corrientes frías de puertas, rejillas o ventanas o una bajada brusca de temperatura (NYBG)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemaduras al pasarla de golpe al sol exterior sin aclimatación (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga más común (Wisconsin, NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Wisconsin, NC State), favorecida por aire seco y calor."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja o trips (Wisconsin, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (Wisconsin, NC State)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Moho gris (Botrytis) en flores y hojas con humedad y agua sobre la planta (RHS, NC State); quitar hojas muertas y flores apelmazadas en periodos húmedos (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Puede pasar el verano en terraza o balcón: sacarla cuando las mínimas nocturnas pasen de 15 °C (normalmente desde mayo) [orientativo, sin fuente prioritaria] y aclimatarla al sol poco a poco durante 1-2 semanas, empezando por sol de mañana, para que no se queme (Wisconsin). Con 35-40 °C y sol de sur u oeste, darle sombra en las horas centrales (NC State: en climas de verano muy caluroso la sombra de mediodía mejora la floración). El calor fuerte puede hacerle perder todas las hojas, aunque rebrota (Wisconsin). Comprobar el sustrato a 5 cm más a menudo porque se seca antes, pero no regar sobre sustrato húmedo. Dentro de casa, ventana sur u oeste, separada unos centímetros del cristal. Vigilar araña roja con el aire seco.",
+    "invierno": "Meter en casa antes de que las mínimas bajen de 15 °C (en Madrid suele pasar entre finales de septiembre y mediados de octubre) [orientativo, sin fuente prioritaria]; NYBG pide mantenerla por encima de 15,5 °C para que no pierda hojas. Junto a la ventana más soleada, pero sin tocar el cristal frío y lejos de radiadores y corrientes (NYBG). La humedad baja de la calefacción (<30 %) no le perjudica: tolera bien las casas con calefacción (Wisconsin). Riego muy escaso, sustrato seco y sin abono (RHS, NYBG). Si pierde algunas hojas es normal.",
+    "ubicacion_recomendada": "La ventana más soleada de la casa (sur u oeste) todo el año, o terraza soleada de mayo a septiembre con sombra a mediodía en olas de calor. Fuera del alcance de niños, perros y gatos, y lejos de zonas de paso por las espinas y el látex."
+  },
+  "lagunas": [
+    "Taxonomía: nombre aceptado en POWO (Kew) Euphorbia milii Des Moul. Sinónimos heterotípicos: Euphorbia breonii Reider, E. milii var. breonii (Reider) Ursch & Leandri, E. splendens var. bojeri (Hook.) Costantin & Gallaud y E. splendens subsp. bojeri (Hook.) Denis. No hay cambio de nombre. En el comercio se ve aún 'E. splendens' y la falta de ortografía 'E. milli'.",
+    "ASPCA: no se encontró ficha de Euphorbia milii ni de 'crown of thorns' en su base de datos (las URL esperadas devuelven una página vacía). La toxicidad se basa en NC State, UF/IFAS, Wisconsin y RHS (prioritarias), más Pet Poison Helpline y Queensland Children's Health (complementarias).",
+    "Temperatura máxima: ninguna fuente prioritaria fija un máximo (max_c e ideal_max_c a null). Solo consta que el calor fuerte puede quitarle las hojas (Wisconsin). Falta un dato verificado sobre tolerancia a 35-40 °C.",
+    "Humedad: ninguna fuente da porcentajes (min_pct e ideal_pct a null); solo que prefiere y tolera humedad baja.",
+    "Fertilización: ninguna fuente da un NPK concreto (npk a null).",
+    "Luz: no hay techo de lux verificado (lux_max a null).",
+    "Confusiones con cactus, Euphorbia geroldii y E. pulcherrima: rasgos diferenciadores sin fuente prioritaria abierta.",
+    "Fechas de entrada y salida a terraza en Madrid: estimadas a partir del mínimo de 15 °C de NYBG, sin datos AEMET consultados para esta ficha.",
+    "UF/IFAS: la ficha de arbustos (eupmila.pdf) redirige y no se pudo abrir; se usó una publicación de UF/IFAS Extension Nassau County."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/euphorbia-milii/common-name/crown-of-thorns-2/", "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://hort.extension.wisc.edu/articles/crown-of-thorns-euphorbia-milii/", "institucion": "University of Wisconsin–Madison Extension – Wisconsin Horticulture", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://libguides.nybg.org/euphorbiamilii", "institucion": "New York Botanical Garden (NYBG) – Plant Information", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://www.rhs.org.uk/plants/32739/euphorbia-milii/details", "institucion": "Royal Horticultural Society (RHS)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:347359-1", "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://blogs.ifas.ufl.edu/nassauco/2017/07/18/q-crown-thorns-plant-shade-not-well-wrong", "institucion": "UF/IFAS Extension Nassau County (University of Florida)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://www.petpoisonhelpline.com/poison/crown-of-thorns/", "institucion": "Pet Poison Helpline", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://www.childrens.health.qld.gov.au/poisonous-plant-crown-thorns-euphorbia-milii/", "institucion": "Children's Health Queensland (Queensland Government)", "tipo": "complementaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

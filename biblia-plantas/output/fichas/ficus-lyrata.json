@@ -1,0 +1,344 @@
+{
+  "nombre_cientifico": "Ficus lyrata",
+  "nombres_comunes": [
+    "ficus lira",
+    "higuera de hoja de violín",
+    "ficus lyrata",
+    "higuera banjo"
+  ],
+  "familia": "Moraceae",
+  "origen": "África occidental y central tropical. POWO (Kew) la da como nativa de Benín, Camerún, Gabón, Ghana, Guinea, Guinea-Bisáu, Costa de Marfil, Liberia, Nigeria, Sierra Leona y Togo; introducida en Canarias, El Salvador y Trinidad y Tobago.",
+  "clima_nativo": "Selva tropical húmeda de tierras bajas de África occidental, sin heladas. En exterior solo es viable en zonas USDA 10-12 (UF/IFAS: 10B-11); es un árbol de 9-15 m en su hábitat (UF/IFAS: 25-50 pies). En interior no debe bajar de 13 °C.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Muy grandes, simples, alternas, coriáceas y gruesas, con forma de violín o lira (obovadas a liradas): ápice ancho, truncado u obtuso, a menudo con una ligera escotadura; zona media algo estrechada; base cordada. Lámina de 20-38 cm de largo (UF/IFAS, NC State: 8-15 pulgadas) y hasta 25-30 cm de ancho; RHS cita hasta 45 cm. Superficie abollonada (bullada, ondulada entre nervios), margen entero y ondulado. Haz verde oscuro, de mate a algo brillante según la fuente (NC State y UF/IFAS: mate; RHS: brillante); envés verde más pálido. Sin pelos en la hoja adulta (finamente pubescente solo de joven). Pecíolo corto y grueso.",
+    "nerviacion": "Pinnada y broquidódroma: nervio central muy grueso y claro, nervios secundarios marcados que se arquean y se unen cerca del margen; los nervios quedan hundidos en el haz (RHS) y prominentes y más claros en el envés, lo que da el aspecto abollonado.",
+    "variegacion": "La especie es verde uniforme. Existe el cultivar 'Variegata' (verde con zonas crema), poco frecuente. Otros cultivares comunes son de hoja verde: 'Bambino' (enano, hojas más pequeñas, 1-1,5 m), 'Compacta' (hasta 1,5 m, hojas más pequeñas), 'Little Sunshine'.",
+    "tallo": "Tronco leñoso, rígido y robusto, pardo o cobrizo; corteza parda y escamosa de joven, gris y lisa con la edad. Poco ramificado en ejemplares jóvenes (a menudo un solo tallo con penacho de hojas en lo alto, o formado como 'arbolito' con tronco desnudo). Pocas o ninguna raíz aérea. Al cortarlo o romper una hoja exuda látex blanco lechoso.",
+    "habito": "Arbóreo erguido, de copa en vaso o redondeada; crecimiento moderado. En interior casi nunca florece ni fructifica (higos globosos de 1-3 cm, verdes con puntos blancos que enrojecen, solo en exterior tropical). Textura gruesa: hojas grandes muy espaciadas a lo largo del tallo.",
+    "tamano_adulto_interior": "0,6-3 m de altura (NC State: 2-10 pies); 'Bambino' 1-1,5 m. RHS: hasta 4-8 m bajo cristal, con 1-1,5 m de anchura.",
+    "confusiones": [
+      {
+        "especie": "Ficus elastica (ficus de hoja grande, árbol del caucho)",
+        "rasgo_diferenciador": "Hoja elíptica u oblonga, lisa, plana y muy brillante, con ápice acuminado (en punta) y nervios secundarios finos, casi paralelos y poco marcados; la yema terminal va envuelta en una vaina (estípula) a menudo rojiza. F. lyrata tiene hoja en forma de violín, ápice ancho y truncado, superficie abollonada y nervios muy marcados."
+      },
+      {
+        "especie": "Ficus benjamina (ficus benjamina, ficus llorón)",
+        "rasgo_diferenciador": "Hojas pequeñas (5-12 cm), finas, ovadas con punta alargada, sobre ramas arqueadas y colgantes. No se parece en hoja; se confunde solo por el nombre común 'ficus'."
+      },
+      {
+        "especie": "Philodendron bipennifolium (filodendro hoja de violín)",
+        "rasgo_diferenciador": "Comparte el nombre común 'hoja de violín' (UC ANR). Es una arácea trepadora con raíces aéreas, hojas lobuladas más finas sobre pecíolos largos y nerviación que no forma relieve abollonado; no exuda látex blanco al cortarla."
+      },
+      {
+        "especie": "Ficus benghalensis 'Audrey' (ficus Audrey)",
+        "rasgo_diferenciador": "Hoja ovalada sin estrechamiento central, más blanda, con nervios claros (blanco-verdosos) muy visibles en el haz y tallo y envés con pelusa fina; F. lyrata tiene hoja en violín, coriácea y lampiña de adulta."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex blanco del género Ficus: enzima proteolítica (ficina) y furocumarinas (psoraleno, 'ficusina'), según la ficha ASPCA del género Ficus. NC State cita como principio tóxico oxalatos cálcicos insolubles (discrepancia anotada en notas).",
+    "sintomas": "Toxicidad leve. Perros y gatos: irritación gastrointestinal leve con vómitos y diarrea tras ingerir pequeñas cantidades (ASPCA); posible irritación oral y babeo (NC State). Personas y niños: irritación de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (NC State, gravedad baja). El látex irrita la piel y es alérgeno cutáneo (RHS, ASPCA): usar guantes al podar o propagar y evitar el contacto con ojos. También figura como problemática para caballos.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F5",
+      "F7",
+      "F8"
+    ],
+    "notas": "ASPCA (APCC) clasifica Ficus lyrata como 'levemente tóxica' para perros y gatos; NC State la da como tóxica para personas, perros y gatos con gravedad baja. Ambas coinciden en toxicidad leve y en la irritación cutánea del látex. Discrepan en el principio activo: NC State indica oxalatos cálcicos insolubles, ASPCA atribuye la toxicidad del género Ficus a ficina y psoraleno. La app debe presentarla como 'tóxica leve; látex irritante' sin afirmar un único principio activo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana este (sol suave de mañana) o a 1-2 m de ventana sur u oeste con cortina translúcida. Ventana norte solo si es muy luminosa y sin obstáculos; en general insuficiente.",
+      "tolera_sol_directo": "Parcialmente: tolera y agradece unas horas de sol directo de mañana (o de última hora de la tarde, sobre todo en invierno), pero necesita protección del sol de tarde, que quema las hojas. El sol directo prolongado tras un cambio de ubicación causa quemaduras: aclimatar de forma gradual.",
+      "notas": "Lux según la escala del proyecto para luz brillante indirecta (500-1000 fc = 5380-10760 lux). Ninguna fuente prioritaria da un valor numérico propio para F. lyrata. Con poca luz se vuelve espigada, con hojas apagadas, amarillas y caída de hojas (UC ANR). Girar la maceta un cuarto de vuelta periódicamente para un crecimiento recto. La ficha RHS de la especie indica 'pleno sol, orientación sur u oeste' para cultivo en invernadero en Reino Unido; NC State pide protección del sol de tarde y la guía RHS de ficus de interior indica luz brillante sin sol directo: se adopta la opción conservadora (brillante indirecta con sol de mañana).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 5 cm superiores del sustrato estén secos al tacto (maceta grande: comprobar a 5 cm con el dedo) y la maceta pese claramente menos. Regar a fondo con agua a temperatura ambiente hasta que salga por los drenajes y vaciar el plato o cubremacetas a los 15-30 minutos: nunca dejarla con agua estancada. No regar por calendario. Si el cepellón se ha secado tanto que se separa de la maceta, el agua escurre por los lados: remojar por inmersión o airear la superficie antes de regar.",
+      "primavera_verano": "En crecimiento activo: riego regular dejando secar ligeramente la capa superior entre riegos. Con calor y mucha luz el sustrato se seca antes; comprobar con más frecuencia, pero siempre por humedad y peso.",
+      "otono_invierno": "Mantener el sustrato apenas húmedo: dejar secar más profundamente (hasta 5-7 cm) antes de regar. Con poca luz invernal el consumo baja mucho y el riesgo de pudrición sube.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid (agua blanda con cloramina) no hace falta tratarla; dejarla reposar no elimina la cloramina y no es necesario. Lavar el sustrato con un riego abundante de vez en cuando para evitar la acumulación de sales del abono.",
+      "notas": "NC State indica que es sensible al exceso de riego y que la caída de hojas puede deberse tanto a exceso como a falta de agua; UC ANR advierte que ambos causan hojas amarillas o marrones que caen, y que es mejor ser conservador. UF/IFAS le atribuye alta tolerancia a la sequía, pero se refiere a árboles plantados en suelo en Florida; en maceta la sequía provoca caída de hojas, por eso se marca sensibilidad media.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F6",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "Las fuentes prioritarias solo dan valores cualitativos: humedad media (NC State), media a alta (RHS), por encima de la media (UC ANR). Los porcentajes proceden de una fuente complementaria (Bob Vila: 40-60 %, con tolerancia 30-65 %) y se adopta el valor conservador. Bordes marrones de las hojas indican falta de humedad (UC ANR). Alejar de radiadores y salidas de calefacción o aire acondicionado; para subir la humedad usar humidificador o agrupar plantas. Pulverizar las hojas no sube la humedad de forma útil (convención del proyecto, aunque RHS y UC ANR lo mencionan).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F11"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Mínima: NC State indica que rinde mejor por encima de 55 °F (12,8 °C); la guía RHS de ficus de interior pide mantenerlos por encima de 10-13 °C y la ficha RHS la clasifica H1B. Se adopta 13 °C como mínimo conservador. El intervalo ideal de 18-24 °C procede de una fuente complementaria (Bob Vila: 60-75 °F) y es coherente con una temperatura de interior estable. No hay máxima publicada por fuentes prioritarias. Lo crítico es la estabilidad: evitar corrientes, cambios bruscos de temperatura y salidas de calefacción o aire acondicionado, que provocan manchas marrones y caída de hojas (NC State, RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F3",
+        "F11"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para macetas a base de tierra franca (tipo John Innes nº 3 sin turba) con corteza fina añadida, o un sustrato universal sin turba de calidad; debe ser rico en materia orgánica, mantener algo de humedad y drenar con rapidez. Maceta siempre con agujeros de drenaje.",
+      "ph": "Ácido a neutro. NC State indica suelos ácidos (<6,0); RHS y UF/IFAS lo consideran tolerante de suelos ácidos, neutros y alcalinos.",
+      "drenaje": "Imprescindible. Las raíces se pudren en sustrato encharcado (NC State la etiqueta como intolerante a suelos húmedos). No dejar agua en el plato ni en el cubremacetas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F3",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, preferentemente rico en nitrógeno (follaje), diluido.",
+      "npk": "Rico en nitrógeno; proporción orientativa 3-1-2 (fuente complementaria, Penn State Master Gardener).",
+      "primavera_verano": "De primavera a final del verano, solo con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes. Nunca superar la dosis de etiqueta.",
+      "otono_invierno": "No abonar.",
+      "notas": "RHS recomienda abono rico en nitrógeno de primavera a final del verano. UC ANR propone abonar en primavera y verano a la mitad de la dosis y advierte que el exceso de abono quema los bordes de las hojas. Se adopta la convención del proyecto (¼-½ de dosis, mensual, solo en crecimiento).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F10"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años aproximadamente, a una maceta solo algo mayor (2-5 cm más de diámetro). Tolera bien estar algo apretada de raíces. En ejemplares demasiado grandes para trasplantar, renovar cada primavera los 2,5 cm superiores del sustrato.",
+      "epoca": "Primavera.",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, el agua atraviesa la maceta sin empapar, el sustrato se seca muy rápido o la planta se vuelca por el peso. Al trasplantar, desenredar o cortar las raíces que circulan alrededor del cepellón (UF/IFAS). Esperar caída de alguna hoja tras el trasplante.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F10"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Solo para controlar altura o forzar ramificación y para retirar hojas dañadas.",
+      "epoca": "Final del invierno o inicio de la primavera.",
+      "como": "Con guantes (el látex irrita la piel). Cortar justo por encima de una hoja o yema; despuntar los extremos de las ramas favorece una planta más ramificada; si se rebaja el tronco, rebrota desde él. Secar con un papel el látex que gotea. Las hojas con bordes marrones pueden recortarse siguiendo su contorno. Tolera bien podas fuertes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (en el hemisferio norte, aprox. noviembre-febrero), por la menor luz y temperatura.",
+      "cambios": "No es una dormancia verdadera (la planta no pierde las hojas): el crecimiento se ralentiza. Reducir el riego manteniendo el sustrato apenas húmedo, suspender el abonado, mantener la máxima luz posible y temperatura estable por encima de 13 °C, sin moverla.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F10"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta de tallo (semileñoso)",
+        "esqueje de yema con hoja",
+        "acodo aéreo",
+        "semilla (rara en cultivo)"
+      ],
+      "epoca": "Primavera o verano (acodo aéreo: primavera o final del verano).",
+      "pasos": "Esqueje: con guantes, cortar una punta de tallo de unos 15 cm con al menos una hoja; dejar que deje de gotear el látex; enraizar en agua o en sustrato ligero húmedo con calor de fondo (propagador a unos 21-24 °C) y humedad alta; trasplantar cuando las raíces tengan varios centímetros. Acodo aéreo: en un tallo, hacer una incisión, envolverla con musgo húmedo y plástico, esperar a que salgan raíces en el musgo y cortar por debajo para plantarla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy sensible a cambios de ubicación, luz y humedad: tras la compra, un traslado o un trasplante suelta hojas. Elegir sitio definitivo y no moverla."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o maceta que queda con agua en el plato o cubremacetas; es la causa más grave en esta especie."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso o falta de riego, o poca luz: las hojas inferiores amarillean o se ponen marrones y caen prematuramente."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones por fluctuaciones de temperatura junto a salidas de calefacción o aire acondicionado (NC State); también manchas pardas asociadas a pudrición de raíces por exceso de agua."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Aire seco (calefacción) o exceso de abono que quema los bordes."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura por sol directo de tarde o por sacarla al exterior sin aclimatación gradual."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: planta espigada, hojas pequeñas y apagadas."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato demasiado seco o, al contrario, raíces dañadas por encharcamiento; comprobar humedad y peso antes de regar."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo (incluida la cochinilla del helecho), la plaga más citada en esta especie."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza segregada por cochinillas o pulgones."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (trips bandeado de invernadero) o araña roja, favorecidos por aire caliente y seco."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con calor y baja humedad."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (ocasional)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en exterior y sol fuerte, no ponerla pegada a ventanas sur u oeste sin cortina translúcida: el sol de tarde a través del cristal quema las hojas. Ideal: ventana este o a 1-2 m de una sur con visillo. El aire seco (HR exterior ≈38 %) y el calor aceleran el secado del sustrato: comprobar humedad a 5 cm y peso con más frecuencia, sin regar por calendario ni dejar agua en el plato. No situarla en el chorro del aire acondicionado. Vigilar araña roja y trips, que proliferan con calor seco. Si se saca a terraza, solo a sombra o luz filtrada, protegida del viento y con aclimatación gradual; volver a meterla antes de que las noches bajen de unos 13 °C (normalmente a principios de octubre en Madrid), revisando plagas.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %: alejarla de radiadores y salidas de aire, usar humidificador o agrupar plantas (pulverizar no sirve). Mantener la máxima luz posible, pero sin que las hojas toquen el cristal frío ni queden junto a una ventana con corrientes; la temperatura cerca del cristal de noche no debe bajar de 13 °C. Reducir riego (sustrato apenas húmedo), no abonar y no cambiarla de sitio.",
+    "ubicacion_recomendada": "Salón luminoso, a 1-2 m de una ventana este, sur u oeste con visillo (o junto a una este), lejos de radiadores, puertas a la calle y salidas de climatización; en un sitio fijo donde pueda quedarse todo el año."
+  },
+  "lagunas": [
+    "Ninguna fuente prioritaria da intensidad de luz numérica (fc o lux) específica para Ficus lyrata en interior; se usan los valores de la escala del proyecto para luz brillante indirecta.",
+    "No hay valores numéricos de humedad relativa en fuentes prioritarias; los porcentajes proceden de una fuente complementaria (Bob Vila).",
+    "No hay temperatura máxima tolerada publicada por fuentes prioritarias; el intervalo ideal 18-24 °C procede de fuente complementaria.",
+    "Principio tóxico discrepante: NC State cita oxalatos cálcicos insolubles; ASPCA atribuye al género Ficus ficina y psoraleno. ASPCA no tiene ficha propia de F. lyrata en su base de plantas; su clasificación como 'levemente tóxica' procede de un artículo del APCC (2019).",
+    "Nomenclatura: POWO acepta Ficus lyrata Warb.; NC State cita Ficus pandurata como nombre anterior. Sin cambio de nombre vigente.",
+    "La ficha de Missouri Botanical Garden Plant Finder para esta especie no se pudo localizar; la ficha de UF/IFAS (ENH413) trata el árbol de exterior en Florida, no el cultivo en maceta."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/ST254",
+      "institucion": "UF/IFAS Extension, EDIS ENH413/ST254 'Ficus lyrata: Fiddleleaf Fig' (rev. 2018)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/7207/ficus-lyrata/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de planta Ficus lyrata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/147427/ficus-lyrata-bambino/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de planta Ficus lyrata 'Bambino'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS), guía de cultivo 'How to grow ornamental figs'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://ucanr.edu/blog/coastal-gardener/article/fiddle-leaf-fig-houseplant-proper-care",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR), The Coastal Gardener (Master Gardeners), 2021",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/news/houseplant-safe-your-pets",
+      "institucion": "ASPCA Animal Poison Control Center, 'Is That Houseplant Safe for Your Pets?' (2019)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "institucion": "ASPCA Animal Poison Control Center, ficha Ficus sp. (Weeping Fig)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853158-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://extension.psu.edu/programs/master-gardener/counties/adams/news/fiddle-leaf-fig-ficus-lyrata",
+      "institucion": "Penn State Extension, Master Gardeners del condado de Adams (artículo de experiencia personal, 2022)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.bobvila.com/articles/fiddle-leaf-fig-care/",
+      "institucion": "Bob Vila (web divulgativa de hogar y jardín)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

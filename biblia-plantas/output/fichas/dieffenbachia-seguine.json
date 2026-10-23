@@ -1,0 +1,387 @@
+{
+  "nombre_cientifico": "Dieffenbachia seguine",
+  "nombres_comunes": [
+    "difenbaquia",
+    "galatea",
+    "caña muda",
+    "dieffenbachia"
+  ],
+  "familia": "Araceae",
+  "origen": "Nombre aceptado en POWO: Dieffenbachia seguine (Jacq.) Schott. Nativa del Caribe y de Sudamérica tropical: Bolivia, Brasil (norte, noreste, sureste y centro-oeste), Islas Caimán, Colombia, Cuba, República Dominicana, Ecuador, Guayana Francesa, Guyana, Haití, Jamaica, Islas de Sotavento y Barlovento, Perú, Puerto Rico, Surinam, Trinidad y Tobago, Venezuela y Antillas venezolanas (POWO; NC State da la misma lista resumida). Introducida en Bangladés, Borneo, Carolinas, Comoras, Islas Cook, islas del golfo de Guinea, Malaca, suroeste de México, Seychelles, Islas de la Sociedad y Vanuatu (POWO). SINONIMIA IMPORTANTE: POWO trata como sinónimos heterotípicos de D. seguine a D. maculata (G.Lodd.) Sweet, D. picta Schott y D. amoena W.Bull, entre otros muchos nombres de catálogo de vivero del siglo XIX; NC State lo confirma ('plants formerly designated as D. amoena, D. maculata and D. picta are now placed in D. seguine'). Aun así, viveros, tiendas y las propias fuentes de UF/IFAS y Clemson siguen etiquetando los cultivares como D. maculata ('Camille', 'Compacta', 'Exotica', 'Perfection') o D. amoena ('Tropic Snow', 'Tropic Alix'). UF/IFAS (EP530) indica que los cultivares comerciales (unos 100 introducidos, unos 20 en producción) derivan de D. amoena y D. maculata por hibridación interespecífica y de variación somaclonal del cultivo in vitro, y algunos ('Tiki', 'Snow Flake') proceden de D. x memoria-corsii (EP137). La app debe tratar cualquier difenbaquia de maceta como 'D. seguine y afines' con estos cuidados.",
+  "clima_nativo": "Tropical de tierras bajas, cálido y húmedo todo el año, sin heladas; UF/IFAS (EP530) atribuye a ese origen de tierras bajas tropicales que sea uno de los géneros de planta de follaje más sensibles al frío. Fuera solo en zonas USDA 10a-11b (NC State); RHS la clasifica H1A (bajo cristal todo el año, mínima >15 °C).",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, grandes y brillantes, sin pelos, oblongas a oblongo-lanceoladas o elípticas, de punta acuminada y base redondeada a algo acorazonada, margen entero; pecíolo envainante (NC State). Pueden llegar a 45 cm de largo por 30 cm de ancho (Clemson). Se agrupan hacia el ápice de un tallo grueso. Rasgo clave para visión: hoja ancha y grande, verde con manchas, salpicaduras o un panel central crema, blanco o amarillo, con MUCHOS nervios laterales paralelos y bien visibles (más de 8, normalmente 20-30) (NC State).",
+    "nerviacion": "Pinnada, con nervio central marcado (a menudo blanco o crema en los cultivares) y numerosos nervios laterales casi paralelos: más de 8, normalmente unos 20-30. Es el rasgo que la separa de Aglaonema, que tiene 5-8 nervios principales (NC State).",
+    "variegacion": "Casi siempre variegada: manchas, motas, rayas o venas de color crema, blanco, amarillo o verde claro sobre verde (Clemson, NC State). Va desde salpicado fino ('Compacta', 'Tropical Tiki') a hoja casi entera amarilla o crema con borde verde ('Camille', 'Tropic Marianne', 'Rudolph Roehrs') o centro blanco con margen verde ('Exotica', 'Exotica Alba') (UF/IFAS EP137, Clemson, NC State). Con poca luz pierde variegación (UF/IFAS EP137).",
+    "tallo": "Tallo verde, robusto, carnoso, tipo caña, rodeado de cicatrices anulares de hojas caídas, con las hojas hacia el ápice y poca o ninguna ramificación (NC State). Con la edad pierde las hojas inferiores y queda un 'tronco' desnudo (Clemson). En casa rara vez florece: espata verde pálida a blanquecina en forma de barca que envuelve un espádice blanco, seguida (raramente) de drupas verdes que maduran a rojo (NC State).",
+    "habito": "Herbácea perenne siempreverde, erguida, de porte en caña o en mata (los cultivares 'Compacta' y similares sacan muchos brotes basales; 'Bryant Compacta' unos 20 hijuelos) (NC State, UF/IFAS EP137). No trepa ni cuelga.",
+    "tamano_adulto_interior": "La mayoría 0,9-1,8 m de alto y 0,3-0,9 m de ancho (Clemson); NC State da 0,9-2,4 m de alto y 0,6-0,9 m de ancho. Los cultivares compactos se quedan en 0,5-1 m ('Exotica', RHS). Crece deprisa con buena luz y casi nada con poca (Clemson).",
+    "confusiones": [
+      {
+        "especie": "Aglaonema spp. (aglaonema)",
+        "rasgo_diferenciador": "Contar los nervios laterales: Aglaonema tiene 5-8 principales y Dieffenbachia más de 8, normalmente 20-30 (NC State). Aglaonema suele tener hojas más estrechas y lanceoladas con bandas plateadas y tallo corto."
+      },
+      {
+        "especie": "Spathiphyllum spp. (espatifilo)",
+        "rasgo_diferenciador": "Sin tallo aéreo: las hojas salen directamente del sustrato; Dieffenbachia tiene un tallo tipo caña visible en ejemplares maduros (NC State). Espatifilo, además, de hoja verde lisa y espata blanca vistosa."
+      },
+      {
+        "especie": "Anthurium spp. (anturio)",
+        "rasgo_diferenciador": "NC State lo cita como confusión habitual. Anturio tiene hojas acorazonadas o sagitadas sin manchas crema, pecíolo con engrosamiento bajo la lámina y espata plana, cerosa y muy vistosa (roja, rosa o blanca)."
+      },
+      {
+        "especie": "Dracaena fragrans y otras dracenas de caña",
+        "rasgo_diferenciador": "También forman 'troncos' desnudos, pero sus hojas son estrechas, en cinta, sin pecíolo diferenciado y con nerviación paralela longitudinal, no pinnada."
+      },
+      {
+        "especie": "Otras Dieffenbachia (D. oerstedii, híbridos con D. x memoria-corsii como 'Tiki' o 'Snow Flake')",
+        "rasgo_diferenciador": "Distinción casi imposible por foto y sin interés práctico: los cuidados y la toxicidad son los mismos. Identificar como 'Dieffenbachia sp. (cultivar)'. Los cultivares tipo 'Tiki' tienen hojas estrechas, onduladas, con tonos gris y verde y motas blancas (UF/IFAS EP137)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico en forma de aguja (rafidios) y enzimas proteolíticas (ASPCA, UF/IFAS EP137), más otros compuestos que inflaman al contacto (UF/IFAS EP137). Están en todas las partes de la planta (Clemson, UF/IFAS EP137): hojas, tallos, raíces y savia (NC State). NC State la clasifica de gravedad ALTA.",
+    "sintomas": "Al morder la planta los rafidios se clavan en boca y garganta y las enzimas aumentan la irritación. Animales: irritación oral, quemazón intensa de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar (ASPCA); arcadas, y en casos raros hinchazón grave de garganta con dificultad para respirar (Pet Poison Helpline). NC State indica que puede ser mortal para mascotas y ganado. Personas: quemazón, entumecimiento e HINCHAZÓN (edema) de labios, lengua y garganta, dificultad para hablar (de ahí 'caña muda') y para tragar, náuseas, vómitos y diarrea (NC State, Clemson, UF/IFAS EP137). Clemson advierte que la garganta puede hincharse hasta poder causar asfixia: necesita atención médica inmediata. La savia irrita la piel (dermatitis de contacto) y en los ojos es muy dolorosa y puede dañar la córnea (NC State, Clemson). Qué hacer: retirar restos de la boca y enjuagar con agua; si hay hinchazón de boca o garganta, dificultad para tragar o respirar, llamar al 112; en otro caso, al Servicio de Información Toxicológica (91 562 04 20) o al veterinario. Si cae savia en los ojos, lavar con abundante agua y acudir a urgencias.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F8",
+      "F6",
+      "F5",
+      "F1",
+      "F10"
+    ],
+    "notas": "Clemson no la recomienda en casas con niños o mascotas. Manipular siempre con guantes (al podar, sacar esquejes o trasplantar) y lavarse las manos sin tocarse ojos ni boca (NC State, RHS, UF/IFAS EP137). La ficha de ASPCA es a nivel de género (Dieffenbachia) e incluye los nombres 'Tropic Snow', 'Exotica' y 'Spotted Dumb Cane', es decir, los cultivares de D. seguine."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 1614,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este o norte luminosa, o a 1,5-3 m de una ventana sur u oeste con cortina, sin sol directo en las hojas en primavera-verano (Clemson: luz brillante filtrada de primavera a otoño; RHS: luz brillante filtrada). En invierno, el sitio más luminoso de la casa (Clemson admite incluso sol directo en invierno; ver notas).",
+      "tolera_sol_directo": "No en verano ni con sol fuerte: UF/IFAS EP137 pide no exponerla a sol directo ni a un exceso de luz, que da a las hojas un aspecto lavado o desvaído, y NC State pide protegerla del sol directo. Clemson admite luz brillante e incluso sol directo en invierno; se adopta lo conservador: como mucho, sol suave de invierno de primera hora a través del cristal.",
+      "notas": "UF/IFAS EP137 da cifras de interior por cultivar: 'Star Bright' y 'Snow Flake' toleran solo 50 fc (≈538 lux), mientras que 'Camille' necesita 150-250 fc (≈1614-2690 lux) para mantenerse bonita. Como la app no suele saber el cultivar y 'Camille' es de los más comunes, se adopta lux_min = 1614 (150 fc); los cultivares verdes muy tolerantes aguantan desde ≈538 lux. Con poca luz pierde variegación y se espiga (tallo largo, entrenudos largos) (UF/IFAS EP137) y crece muy poco (Clemson). Límite alto en luz brillante indirecta (1000 fc ≈ 10760 lux), coherente con 'luz brillante filtrada' (Clemson, RHS); en producción se cultiva con ~80 % de sombra, 1500-3000 fc (UF/IFAS EP137, RH-91-13), que en casa equivaldría a una ventana muy luminosa sin sol. CONTRADICCIÓN: Clemson acepta sol directo en invierno y la ficha de NC State marca 'sombra parcial (2-6 h de sol directo)' en sus atributos, frente a UF/IFAS EP137 y el propio texto de NC State, que piden evitar el sol directo; se aplica lo más conservador. Girar la maceta de vez en cuando para que no se ladee.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar a fondo y volver a regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (Clemson y NC State: dejar secar por completo los primeros 2,5 cm) y la maceta pese claramente menos que recién regada. Dejar escurrir y vaciar el plato a los 10-15 minutos. El sustrato debe estar húmedo pero nunca mojado ni encharcado (UF/IFAS EP137). Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo, mantener el sustrato ligeramente húmedo de forma regular, dejando secar la capa superior entre riegos (Clemson, NC State, RHS: riego moderado). Con calor y buena luz comprobar dedo y peso a menudo; en verano en Madrid puede tocar cada 4-7 días según maceta y luz, pero siempre según el sustrato.",
+      "otono_invierno": "Mantener el sustrato apenas húmedo (RHS: 'keep just moist in winter'), dejando secar más la capa superior. Con frío o poca luz, el sustrato húmedo y frío favorece la pudrición: guiarse por dedo y peso; con calefacción fuerte se seca antes.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. El agua del grifo de Madrid (Canal de Isabel II: blanda, con cloramina y fluoruro <0,1 mg/L) es apta; dejarla reposar no quita la cloramina, pero no hace falta. Las puntas y bordes marrones se deben a sales de abono acumuladas, riego irregular o aire seco, no al cloro o flúor del grifo. UF/IFAS pide un sustrato con pocas sales solubles y lavarlo con riego abundante si se acumulan (RH-91-13, EP137).",
+      "notas": "La pudrición de raíz suele venir de un sustrato que no drena rápido o de regar con demasiada frecuencia (Clemson, NC State). El exceso de humedad en el sustrato o de sales da hojas pequeñas, curvadas hacia abajo y con bordes necróticos, y puede destruir raíces sin síntomas foliares (UF/IFAS RH-91-13, EP137). NC State la marca como resistente a la sequía, pero la sequía es una de las causas citadas de muescas en el borde de la hoja y de amarilleo de hojas bajas por pérdida de agua (UF/IFAS EP137): por eso sensibilidad a la sequía media.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F1",
+        "F4",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere humedad alta (NC State, RHS: 'high humidity'). En producción se cultiva con 60-100 % de humedad relativa (UF/IFAS EP137), pero ninguna fuente da porcentajes para interior. Con aire seco amarillean las hojas bajas por pérdida de agua (la solución es subir la humedad, UF/IFAS EP137 y RH-91-13) y se secan y pardean los bordes (EP137). Con calefacción (Madrid, HR interior a menudo <30 %) usar humidificador o agrupar plantas; pulverizar no sube la humedad de forma útil y mojar las hojas favorece las manchas bacterianas (UF/IFAS PP286).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F7",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 32,
+      "ideal_min_c": 21,
+      "ideal_max_c": 29,
+      "notas": "MUY SENSIBLE AL FRÍO: por su origen de tierras bajas tropicales es uno de los géneros de follaje más sensibles al daño por enfriamiento, que se produce entre algo más de 0 °C y unos 15 °C y depende de la duración (UF/IFAS EP530). Datos: en transporte hay que mantener 15,5-18 °C (60-65 °F) y por debajo de 13 °C (55 °F) puede haber daño (UF/IFAS EP137); algunas aguantan 7 °C (45 °F) sin daño aparente, pero las cultivadas con calor (21-35 °C) se dañan si la temperatura baja a 10 °C (50 °F) o menos (UF/IFAS RH-91-13); a 7 °C durante 6 h 'Tropic Honey' ya tuvo el 26 % de hojas dañadas y a 1,7 °C (35 °F) murió en 6 h, mientras 'Panther' no sufrió daño (UF/IFAS EP530). RHS la clasifica H1A (mínima >15 °C). Se adopta min_c = 15 °C. Síntomas del frío: amarilleo, manchas empapadas de agua y hojas lacias, primero y peor en las hojas JÓVENES; zonas entre nervios cloróticas o marrón claro; en el tallo, base pardo-rojiza que puede acabar en colapso de toda la planta; los daños siguen apareciendo 5-12 días después (UF/IFAS EP530, EP137). Evitar cambios bruscos y corrientes (Clemson, UF/IFAS EP137). Ideal: UF/IFAS EP137 da para interior 21-29 °C (70-85 °F); Clemson, 15,5-24 °C (60-75 °F); se adopta el rango de UF/IFAS, más alejado del umbral de frío (contradicción anotada). Máxima: en producción hasta 32 °C (90 °F) (UF/IFAS EP137); con aire caliente y sustrato frío las hojas jóvenes se ven acuosas y transparentes (RH-91-13).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior bien aireado, rico en materia orgánica y con pocas sales solubles (NC State, UF/IFAS RH-91-13). Referencia profesional: turba (o fibra de coco) con corteza de pino, vermiculita o perlita (UF/IFAS EP137). RHS recomienda sustrato a base de tierra (loam) sin turba. Maceta con agujeros de drenaje.",
+      "ph": "6,0-6,5 (UF/IFAS EP137; para enraizar, 5-6). NC State admite de ácido a neutro.",
+      "drenaje": "Bueno y rápido: un sustrato que no drena rápido es causa habitual de pudrición de raíz (Clemson); NC State pide buen drenaje y sustrato suelto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de follaje, equilibrado o rico en nitrógeno, con microelementos (Clemson, RHS, UF/IFAS EP137).",
+      "npk": "Relación 3-1-2 (p. ej. 24-8-16 o 18-6-12 con microelementos) (UF/IFAS EP137, RH-91-13); RHS indica un abono equilibrado.",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta una vez al mes, solo con crecimiento activo, aproximadamente de marzo a septiembre (convención del proyecto; Clemson abona de marzo a septiembre y RHS una vez al mes en crecimiento). No abonar los 2 primeros meses tras la compra (UF/IFAS EP137).",
+      "otono_invierno": "Nada (Clemson abona solo de marzo a septiembre).",
+      "notas": "El exceso de abono quema los bordes de las hojas (Clemson) y las sales acumuladas dañan raíces y dan hojas pequeñas, curvadas y con bordes necróticos (UF/IFAS EP137): en interior UF/IFAS recomienda reducir o suspender el abonado y lavar el sustrato si hay sales. La falta de nutrientes da amarilleo, hojas más pequeñas y enanismo (Clemson). Carencias: clorosis de nervios en hojas nuevas por falta de hierro; amarilleo internervial o del margen en hojas viejas por falta de magnesio (UF/IFAS EP137). Discrepancia menor: Clemson propone media dosis cada 2-4 semanas, más que la convención del proyecto; se aplica la convención (más prudente).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F1",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Ninguna fuente da frecuencia: 'trasplantar cuando haga falta' (UF/IFAS EP137, Clemson). Orientación prudente: solo cuando las raíces llenen la maceta, a una maceta 2-5 cm más ancha, no mucho mayor, para no dejar sustrato húmedo sin raíces.",
+      "epoca": "A comienzos de la primavera (Clemson), con temperaturas por encima de 20 °C; nunca con frío, por su sensibilidad al enfriamiento (UF/IFAS EP530).",
+      "senales": "Raíces saliendo por los agujeros o dando vueltas, sustrato que se seca enseguida, planta que se vuelca por el peso del tallo o mata muy densa que conviene dividir. Hacerlo con guantes por la savia irritante (UF/IFAS EP137).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F1"
+      ],
+      "notas": "Época de Clemson; frecuencia y señales son práctica general no verificada en dos fuentes para la especie. Anotado en lagunas."
+    },
+    "poda": {
+      "necesita": "No necesita poda de forma (RHS). Sí limpieza: quitar las hojas bajas cuando amarillean, ya que caen de forma natural al madurar (Clemson, UF/IFAS EP137), y rejuvenecer la planta cuando el tallo queda largo y desnudo.",
+      "epoca": "Limpieza en cualquier momento; el corte de rejuvenecimiento, en primavera o comienzo del verano con calor (coincide con la época de esquejes de Clemson).",
+      "como": "Con guantes y herramienta limpia y desinfectada (las bacterias se transmiten con tijeras y cuchillos, UF/IFAS PP286). Si el tallo está demasiado largo y pelado, cortarlo a unos 15 cm de altura: la planta rebrota por debajo del corte (Clemson, UF/IFAS EP137). La parte superior cortada sirve como esqueje. Limpiar las hojas de vez en cuando con un paño húmedo (UF/IFAS EP137).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F1",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero, pero en invierno crece menos: mantener el sustrato solo apenas húmedo (RHS) y no abonar de octubre a febrero (Clemson abona solo de marzo a septiembre). Más luz en invierno (Clemson) y nunca por debajo de 15 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje apical",
+        "esqueje de caña (trozos de tallo)",
+        "acodo aéreo",
+        "división de mata",
+        "semilla (solo en mejora genética)"
+      ],
+      "epoca": "Primavera o comienzo del verano (Clemson; RHS: primavera o verano), con calor: el sustrato debe estar a 24 °C o más para enraizar (UF/IFAS EP137).",
+      "pasos": "1) Ponerse guantes (savia irritante) y desinfectar la herramienta. 2) Cortar un esqueje apical o trozos de la caña desnuda, o hacer un acodo aéreo en el tallo (Clemson, RHS); en plantas en mata, separar brotes con raíces (división; NC State, UF/IFAS EP137). 3) Plantar en un sustrato muy aireado: referencia UF/IFAS 50 % turba (o coco), 25 % corteza y 25 % perlita, pH 5-6 (UF/IFAS EP137). 4) Mantener el sustrato húmedo pero no mojado, a 24 °C o más y con luz indirecta: enraíza en 3-8 semanas (UF/IFAS EP137). 5) Abonar solo cuando saque hojas nuevas. La semilla casi no se usa fuera de la mejora; la industria propaga por cultivo in vitro para obtener plantas libres de virus y bacterias (UF/IFAS EP137, PP286). Usar como esqueje solo material sano: Erwinia vive dentro del tallo sin síntomas y se activa al enraizar (UF/IFAS RH-91-13).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F1",
+        "F7",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego o sustrato que no drena rápido (Clemson, NC State); en producción también Phytophthora, con raíces que se vuelven marrones y se deshacen deprisa (UF/IFAS PP286). Lo más frecuente en casa."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base del tallo blanda y acuosa: podredumbre bacteriana por Erwinia (olor a podrido o 'a pescado', a veces masa viscosa) o fúngica por Fusarium (borde rojizo o púrpura, puntitos rojos), muy difíciles de distinguir a simple vista (UF/IFAS PP286, RH-91-13). También daño por frío: base del tallo pardo-rojiza que acaba en colapso (UF/IFAS EP530). En casa no hay tratamiento curativo para Erwinia: cortar y enraizar la parte sana alta si queda, o desechar la planta y la tierra."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas blandas, empapadas, que crecen deprisa y cuyo centro puede caerse dejando agujeros, con olor a podrido: Erwinia (bacteriosis), favorecida por calor y humedad alta con poca ventilación (UF/IFAS PP286, RH-91-13). También manchas empapadas por frío, más en hojas jóvenes (UF/IFAS EP530). Quitar las hojas afectadas con herramienta desinfectada y no mojar las hojas."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana por Xanthomonas (X. axonopodis pv. dieffenbachiae): puntitos empapados que empiezan en el borde de la hoja, se vuelven casi negros con halo amarillo brillante y, si alcanzan un nervio grande, colapsan la hoja; se propaga con salpicaduras de agua, herramientas y contacto, y afecta también a aglaonema, anturio y singonio (UF/IFAS PP286, RH-91-13). Antracnosis: manchas tostadas con halo amarillo en el borde, con puntitos negros en anillos, con frío y hojas mojadas (PP286). Retirar hojas afectadas, aislar la planta, no pulverizar ni mojar las hojas."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por exceso de abono o sales acumuladas (Clemson, UF/IFAS EP137, RH-91-13) o por aire seco en interior (UF/IFAS EP137). Lavar el sustrato con riego abundante y no abonar."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Las hojas inferiores caen de forma natural al madurar y dejan ver el tallo (Clemson). Si amarillean varias a la vez: pérdida de agua con raíces débiles y ambiente cálido y seco (UF/IFAS RH-91-13, EP137), exceso de riego, o primer síntoma de Erwinia (UF/IFAS PP286). Carencia de magnesio: amarilleo entre nervios o del margen en hojas viejas (UF/IFAS EP137)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallo que se alarga y se espiga, y menos variegación (UF/IFAS EP137). Acercar a una ventana luminosa sin sol fuerte; si ya está muy espigada, cortar a 15 cm (Clemson)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Pérdida de variegación por luz insuficiente para el cultivar (UF/IFAS EP137): 'Camille' necesita 150-250 fc."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo o exceso de luz: hojas con aspecto lavado o desvaído (UF/IFAS EP137). En Madrid, ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Daño por frío: las zonas entre los nervios principales se vuelven cloróticas o marrón claro (UF/IFAS EP137, RH-91-13). También carencia de magnesio en hojas viejas o de hierro en hojas nuevas (UF/IFAS EP137)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas lacias tras enfriamiento (transporte o ventana fría en invierno) (UF/IFAS EP530), o raíces podridas por exceso de riego que ya no absorben agua."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas jóvenes con aspecto acuoso y transparente en invierno: aire cálido con sustrato frío (raíces que no absorben suficiente agua); suele ser temporal y se corrige calentando el sustrato (separar la maceta de suelos o alféizares fríos) (UF/IFAS RH-91-13, EP137)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Daño por frío durante el transporte o la exposición en tienda en invierno: amarilleo, manchas empapadas y hojas lacias que aparecen hasta 5-12 días después (UF/IFAS EP530, EP137)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas pequeñas, curvadas hacia abajo y con bordes necróticos por exceso de humedad en el sustrato o de sales solubles (UF/IFAS EP137, RH-91-13); hojas nuevas deformadas por pulgón (RH-91-13)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Pequeña muesca, normalmente en el borde inferior de la hoja, por estrés (sequía, calor o tratamientos inadecuados); causa exacta desconocida (UF/IFAS EP137, RH-91-13). Agujeros en el centro de manchas blandas indican Erwinia (PP286)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Falta de nutrientes (amarilleo, hojas más pequeñas y enanismo, Clemson), poca luz (Clemson) o cochinillas y escamas (UF/IFAS RH-91-13)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), la plaga más grave del género según UF/IFAS: punteado y amarilleo de las hojas (RH-91-13; NC State). Favorecida por aire seco."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telaraña de araña roja con poblaciones altas, que acaba en caída de hojas e incluso muerte de la planta (UF/IFAS RH-91-13)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y raíces; difícil de eliminar de adulta (UF/IFAS RH-91-13, Clemson)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas y pulgones, que con infestaciones fuertes cubre las hojas (Clemson, UF/IFAS RH-91-13)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla (fumagina) sobre la melaza de pulgones o cochinillas (UF/IFAS RH-91-13)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (RHS, NC State, Clemson, UF/IFAS RH-91-13); puede haber un pulgón rojizo en las raíces (RH-91-13). Transmite el virus del mosaico del dasheen."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Escamas (cóccidos blandos y diaspinos) en hojas, pecíolos y tallos (NC State, UF/IFAS RH-91-13)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca de invernadero (NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) con el sustrato siempre húmedo (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte en ventanas sur y oeste, alejarla 1,5-3 m de esas ventanas o tamizar con cortina: el sol directo y el exceso de luz decoloran la hoja (UF/IFAS EP137). No sacarla al balcón al sol. El aire muy seco (HR exterior ≈38 % en julio) favorece bordes marrones y araña roja, su plaga más grave: revisar el envés cada semana y agrupar plantas o usar humidificador, sin pulverizar las hojas (mojarlas favorece las manchas bacterianas). Comprobar el sustrato con el dedo y el peso más a menudo (puede tocar cada 4-7 días) sin encharcar: con calor y humedad estancada se activa Erwinia (UF/IFAS PP286). Lejos del chorro del aire acondicionado: no le gustan las corrientes ni los cambios bruscos (UF/IFAS EP137, Clemson).",
+    "invierno": "Es lo crítico: de las plantas de interior más sensibles al frío (UF/IFAS EP530). No dejarla por debajo de 15 °C ni pegada a cristales fríos, ni en habitaciones sin calefacción; por la noche correr la cortina entre planta y cristal. Cuidado al comprarla en invierno: el trayecto en coche frío o un vivero o mercadillo a la intemperie bastan para que en 5-12 días aparezcan amarilleo, manchas empapadas y hojas lacias (UF/IFAS EP530, EP137); llevarla bien envuelta. No apoyar la maceta en suelo, mármol o alféizar fríos: con aire caliente de calefacción y raíces frías las hojas jóvenes se vuelven acuosas y transparentes (UF/IFAS RH-91-13). La calefacción baja la humedad por debajo del 30 %: humidificador o agrupar plantas, y lejos de radiadores. Darle el sitio más luminoso de la casa (Clemson), con como mucho sol suave a través del cristal. Riego reducido (sustrato apenas húmedo) y sin abono.",
+    "ubicacion_recomendada": "Interior todo el año, en salón o despacho con calefacción y temperatura estable de 21-29 °C, junto a una ventana este o norte luminosa o a 1,5-3 m de una ventana sur u oeste con cortina, fuera del alcance de niños, perros y gatos (muy tóxica) y lejos de radiadores, aire acondicionado y puertas a la calle."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Dieffenbachia seguine (Jacq.) Schott y lista como sinónimos heterotípicos D. maculata (G.Lodd.) Sweet, D. picta Schott y D. amoena W.Bull (además de decenas de nombres de catálogo). Muchas difenbaquias de tienda siguen etiquetadas como D. maculata o D. amoena (también en UF/IFAS y Clemson). UF/IFAS EP530 cita 'D. amoena Hort. ex Gentil', autoría distinta de la que da POWO (W.Bull). Los cultivares comerciales son en parte híbridos interespecíficos (EP530) y algunos ('Tiki', 'Snow Flake') derivan de D. x memoria-corsii (EP137), por lo que no todos son D. seguine en sentido estricto; la ficha se aplica a 'D. seguine y afines'.",
+    "Origen: UF/IFAS RH-91-13 (1991) dice 'nativa de Costa Rica a Colombia', pero POWO no incluye Costa Rica ni Centroamérica continental en el área nativa de D. seguine; se sigue POWO.",
+    "Humedad: ninguna fuente da porcentajes para interior (min_pct e ideal_pct = null); solo 60-100 % en producción en invernadero (UF/IFAS EP137).",
+    "Trasplante: ninguna fuente prioritaria da frecuencia ni señales; solo época (comienzos de primavera, Clemson) y 'cuando haga falta' (UF/IFAS EP137).",
+    "Temperatura máxima en interior: solo hay el dato de producción en invernadero (32 °C, UF/IFAS EP137); falta un umbral de daño por calor.",
+    "Missouri Botanical Garden: no se encontró ficha de Plant Finder para la especie.",
+    "Bacteriosis: los nombres de los patógenos varían según la fecha de la fuente (Xanthomonas campestris pv. dieffenbachiae en RH-91-13, X. axonopodis pv. dieffenbachiae en PP286; Erwinia carotovora pv. carotovora y E. chrysanthemi, hoy probablemente reclasificadas en Pectobacterium y Dickeya, sin verificar en las fuentes consultadas). Los bactericidas que cita UF/IFAS (cobre, mancozeb, Bacillus subtilis) son para invernaderos profesionales en EE. UU.; no se ha comprobado en el Registro del MAPA ningún producto de uso no profesional para plantas de interior contra estas bacterias, por lo que la app solo debe recomendar medidas culturales (retirar partes afectadas, desinfectar herramientas, no mojar hojas, desechar la planta si la base está podrida).",
+    "Tratamientos contra araña roja, cochinillas, pulgón y escamas: las fuentes no dan productos de uso doméstico autorizados en España; consultar el Registro del MAPA (productos listos para usar con uso no profesional)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://edis.ifas.ufl.edu/publication/EP137",
+      "institucion": "University of Florida, IFAS Extension (EDIS ENH880/EP137: Cultural Guidelines for Commercial Production of Interiorscape Dieffenbachia; Chen, McConnell, Henny y Everitt)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/EP530",
+      "institucion": "University of Florida, IFAS Extension (EDIS ENH1269/EP530: Chilling Injury in Tropical Foliage Plants: III. Dieffenbachia; J. Chen)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/PP286",
+      "institucion": "University of Florida, IFAS Extension (EDIS PP286: Dieffenbachia Diseases: Identification and Control in Commercial Greenhouse Operations; D. Norman)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://web.archive.org/web/2016/http://mrec.ifas.ufl.edu/foliage/folnotes/dieffenb.htm",
+      "institucion": "University of Florida, IFAS, CFREC-Apopka (Foliage Plant Research Note RH-91-13: Dieffenbachia Production Guide; Henny, Chase y Osborne; copia archivada, el original da 404)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+      "institucion": "Clemson University Cooperative Extension, Home & Garden Information Center (HGIC 1503)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/178015/dieffenbachia-exotica-v/details",
+      "institucion": "Royal Horticultural Society (RHS), ficha de Dieffenbachia 'Exotica' (v)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:86911-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.petpoisonhelpline.com/poison/dieffenbachia/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

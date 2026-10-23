@@ -1,0 +1,312 @@
+{
+  "nombre_cientifico": "Hoya kerrii",
+  "nombres_comunes": [
+    "hoya corazón",
+    "hoya kerrii",
+    "planta del amor",
+    "corazón de cera"
+  ],
+  "familia": "Apocynaceae (subfamilia Asclepiadoideae). NC State y RHS la sitúan en Apocynaceae; ASPCA aún usa Asclepiadaceae, familia hoy integrada en Apocynaceae.",
+  "origen": "De Indochina al oeste de Malesia. POWO (Kew) la da como nativa de Camboya, Java, Laos, Malasia peninsular, Tailandia y Vietnam, e introducida en el sureste de China. NC State coincide: 'Indo-China to Malesia'. El epíteto honra a A. F. G. Kerr, que recolectó plantas en Tailandia (NC State).",
+  "clima_nativo": "Tropical húmedo, sin heladas. Es una trepadora epífita perennifolia (NC State) con hojas gruesas y carnosas que almacenan agua, por lo que se comporta como semisuculenta (NC State la etiqueta como 'succulent' y tolerante a suelos secos, pero intolerante al encharcamiento).",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Opuestas (por parejas en cada nudo), simples, de margen entero y sin pelos. Rasgo clave: forma de corazón invertido, con la muesca en el extremo libre de la hoja y la parte estrecha unida al tallo. Muy gruesas, rígidas, carnosas y céreas (NC State, RHS, Iowa State). RHS indica hasta 6 cm de ancho. Verde medio a oscuro, de superficie lisa y algo brillante. En los tallos las parejas de hojas quedan muy separadas entre sí (Iowa State). Al cortar sale látex blanco lechoso, como en todo el género (RHS, guía de Hoya).",
+    "nerviacion": "Pinnada, con nervio central poco marcado y nervios laterales casi invisibles por el grosor de la lámina. Ninguna fuente abierta la describe en detalle.",
+    "variegacion": "La especie tipo es verde lisa. Cultivar frecuente (NC State): 'Variegata', centro verde y borde blanco crema. En el comercio también se ve la variegación inversa (centro amarillo crema y borde verde), conocida como 'Albomarginata' o 'Splash' según el vivero; no hay fuente prioritaria que la describa (ver lagunas).",
+    "tallo": "Tallos largos, finos, volubles y al principio desnudos, con las hojas muy espaciadas (NC State, Iowa State). Con la edad se vuelven leñosos (RHS: 'woody stems'). Raíces aéreas en los nudos. De las axilas salen pedúnculos florales cortos y persistentes (espolones), que vuelven a florecer año tras año (Iowa State, para el género). Látex blanco al cortar.",
+    "habito": "Trepadora o colgante perennifolia de crecimiento lento (NC State, RHS). Se cultiva guiada en aro o enrejado, o colgando de una cesta (NC State). Muy a menudo se vende como una sola hoja enraizada en una maceta pequeña, sin tallo: ese formato no crece (ver propagación). Flores en umbelas semiesféricas de pequeñas flores estrelladas y céreas, de menos de 2,5 cm, blancas a rosadas con corona central rojiza o púrpura y textura aterciopelada (NC State, RHS, Iowa State), en verano. Perfumadas de noche (NC State), menos que otras hoyas (Iowa State). Gotean mucho néctar pardo rojizo que mancha telas y muebles (NC State, Iowa State). Florece tarde: las plantas jóvenes tardan años (NC State, Iowa State).",
+    "tamano_adulto_interior": "RHS: altura máxima 0,5-1 m y anchura 0,1-0,5 m, con 5-10 años hasta el tamaño máximo. NC State: necesita menos de 30 cm de espacio y crece despacio. Una hoja suelta enraizada sin nudo se queda del mismo tamaño toda su vida (Iowa State).",
+    "confusiones": [
+      {
+        "especie": "Hoya carnosa (flor de cera)",
+        "rasgo_diferenciador": "Hojas ovadas o elípticas con punta aguda, más largas que anchas y menos gruesas; nunca acorazonadas con muesca. H. carnosa es mucho más vigorosa (RHS: 4-8 m) y florece antes; H. kerrii es lenta (RHS: 0,5-1 m)."
+      },
+      {
+        "especie": "Hoya obovata y Hoya australis",
+        "rasgo_diferenciador": "Hojas redondeadas u obovadas (más anchas hacia la punta) pero sin la muesca central en forma de corazón; H. obovata suele tener salpicado plateado. Rasgo general, sin fuente prioritaria que compare con H. kerrii."
+      },
+      {
+        "especie": "Peperomia (especies de hoja carnosa y redonda) y suculentas de hoja suelta",
+        "rasgo_diferenciador": "Una hoja de H. kerrii suelta en maceta puede confundirse con una suculenta. H. kerrii tiene la hoja en corazón con muesca, muy gruesa y cérea, y al romperla sale látex blanco; las peperomias no tienen látex. Rasgo general, sin fuente prioritaria."
+      },
+      {
+        "especie": "Epipremnum aureum (poto) y Philodendron hederaceum",
+        "rasgo_diferenciador": "Hojas alternas, finas y acorazonadas con la muesca junto al pecíolo, sin látex blanco. En H. kerrii las hojas son opuestas, gruesas, céreas y la muesca está en el extremo libre."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "toxica",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: ASPCA tiene ficha propia de Hoya kerrii ('Sweetheart Hoya') y la clasifica como no tóxica para perros, gatos y caballos; NC State la etiqueta igual. Si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. Personas: RHS advierte, para todo el género Hoya, que el látex lechoso es tóxico y puede irritar la piel, y recomienda guantes al podar o esquejar. Riesgo práctico: irritación de piel u ojos por el látex y molestias leves si se ingiere. Ante ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F5",
+      "F1",
+      "F4"
+    ],
+    "notas": "Perros y gatos: confianza Alta, con ficha específica de la especie en ASPCA y etiqueta de NC State. Niños: ninguna fuente prioritaria trata la ingestión de H. kerrii por personas; solo RHS habla del látex del género. Se adopta, como en la ficha de H. carnosa, la opción más conservadora: 'toxica' de bajo riesgo, por irritación del látex. Para niños la confianza real es Media. Ninguna fuente identifica el principio activo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este u oeste, o a 1-2 m de una ventana sur con cortina fina. Suele ser la ventana más luminosa de la casa (Iowa State). Una ventana norte da poca luz para crecer y florecer.",
+      "tolera_sol_directo": "Parcialmente. RHS (ficha de la especie) indica luz brillante indirecta con sombra del sol fuerte, y su guía del género dice que el sol fuerte de verano quema las hojas. Iowa State: con demasiada luz las hojas se queman o enrojecen.",
+      "notas": "NC State la etiqueta 'bright light' y luz tamizada; RHS (ficha de H. kerrii) pide luz brillante indirecta con sombra del sol caliente, aunque su apartado de posición marca 'pleno sol o semisombra' en contexto de invernadero. Iowa State indica que H. kerrii es más exigente con la luz que las hoyas comunes. Con poca luz da tallos finos y alargados y no florece (Iowa State, género). Rango de lux de la escala del proyecto (500-1000 fc); ninguna fuente da cifras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego escaso de semisuculenta. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato. No volver a regar hasta que el sustrato esté seco casi del todo (Iowa State: ciclo mojado-seco): comprobar con el dedo a 5 cm (en una maceta pequeña de hoja suelta, a 2-3 cm, o el sustrato entero) y confirmar con el peso, que debe ser claramente menor que recién regada. Nunca por calendario. Hojas arrugadas, finas o marrones indican que se ha dejado secar demasiado (NC State); hojas amarillas con el sustrato húmedo indican exceso (Iowa State).",
+      "primavera_verano": "Regar en cuanto el sustrato se haya secado casi por completo. Con calor y mucha luz la frecuencia sube (Iowa State). RHS (ficha de la especie): riego moderado en crecimiento. Con botones florales, mantener el riego regular: los cambios bruscos los hacen caer (Iowa State).",
+      "otono_invierno": "Muy poco riego: RHS pide mantenerla 'apenas húmeda' en invierno. Dejar secar el sustrato y regar poco, sin que pase semanas totalmente seco. El frío con sustrato mojado pudre las raíces (RHS, guía del género).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua a temperatura ambiente: el agua fría puede provocar un choque (NC State). El agua del grifo de Madrid es blanda y adecuada. Cada pocos meses, regar con agua sola en abundancia para lavar sales del abono (RHS, guía del género).",
+      "notas": "Una hoja suelta en maceta pequeña tiene muy poca raíz y es especialmente sensible al encharcamiento: regar poco y solo con el sustrato seco. El exceso de riego frena además la floración (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "NC State: necesita sitios cálidos y húmedos; una cocina o un baño luminosos le benefician. Iowa State: H. kerrii es más exigente con la humedad que las hoyas comunes; para el género da un ideal del 40-60 %. Se adopta 40 % como mínimo prudente. Con aire muy seco aumenta la araña roja (Iowa State). Por debajo del 40 %, usar humidificador o agrupar plantas; pulverizar no sirve.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "Ideal: 18-27 °C (65-80 °F), según NC State para esta especie; Iowa State da el mismo rango para el género, con noches algo más frescas para florecer. Las temperaturas bajas frenan el crecimiento y la floración (NC State). Mínimo: Iowa State (género) dice que las hoyas no toleran menos de 13 °C (55 °F) y pide evitar sitios fríos junto a ventanas en invierno. RHS clasifica H. kerrii como H1C (5-10 °C), pero esa escala se refiere a cultivo exterior en verano en Reino Unido, no a interior; su guía del género da 10 °C para H. carnosa y 16 °C para H. bella. Se adopta 13 °C, el valor más conservador y coherente con la ficha de H. carnosa. Ninguna fuente da un máximo: se deja null.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla suelta, aireada y de drenaje rápido. RHS (ficha de la especie): sustrato con base de tierra (loam), sin turba, con materia orgánica añadida. Iowa State (género): sustrato universal con corteza de orquídea y perlita o pómez. La guía RHS del género propone partes iguales de corteza de orquídea, sustrato sin turba y grava, o sustrato de cactus con perlita.",
+      "ph": "6,0-8,0 (NC State); RHS indica tolerancia a sustratos ácidos, neutros o alcalinos.",
+      "drenaje": "Imprescindible. NC State: textura arenosa, buen drenaje y maceta que drene. Una maceta demasiado grande retiene agua y pudre las raíces (NC State, Iowa State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS, ficha de la especie).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (convención del proyecto; RHS de la especie: abono equilibrado mensual; Iowa State, género: ½-¼ de dosis).",
+      "otono_invierno": "Nada en reposo (Iowa State: no abonar en invierno).",
+      "notas": "Una hoja suelta sin nudo no crece y casi no consume: abonar muy poco o nada. No abonar en las 5-6 semanas tras un trasplante (RHS, guía del género). Solo una fuente prioritaria trata la especie; el resto es del género.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Muy poco frecuente: RHS (ficha de la especie) indica que las hoyas llevan mal el trasplante y pueden seguir muchos años en la misma maceta. Florece mejor algo apretada de raíces (Iowa State). NC State: si la maceta no la mantiene apretada de raíces retiene agua y causa pudrición.",
+      "epoca": "Primavera (RHS, guía del género), nunca con botones o flores.",
+      "senales": "Raíces que salen por los agujeros o llenan la maceta, o sustrato deshecho y apelmazado que ya no drena (Iowa State). Pasar solo a una maceta un tamaño mayor, unos pocos centímetros más ancha (Iowa State, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Casi ninguna; es de crecimiento lento. Solo retirar tallos secos o débiles.",
+      "epoca": "Después de la floración (RHS, ficha de la especie: grupo de poda 11) o al final del invierno (RHS, guía del género).",
+      "como": "Con guantes, porque el látex irrita la piel (RHS). Cortar justo encima de una hoja o un brote lateral. REGLAS CLAVE: 1) No cortar los tallos largos y desnudos: de ellos salen después las hojas y flores (NC State). 2) No cortar los espolones florales ni quitar las flores pasadas: vuelven a florecer en el mismo punto (Iowa State, RHS, para el género). NC State sugiere retirar las flores si el néctar mancha; es preferible mover la planta a un sitio donde el goteo no moleste, para no perder floraciones futuras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semirreposo invernal, aproximadamente de octubre a febrero en el hemisferio norte (RHS, guía del género). En el hemisferio sur, de abril a agosto.",
+      "cambios": "Riego mínimo, sustrato 'apenas húmedo' (RHS, ficha de la especie). Sin abono (Iowa State). Mantener la luz brillante y la temperatura por encima de 13 °C; una ligera bajada nocturna favorece la floración (Iowa State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo con nudo (o de hoja con un trozo de tallo y nudo)",
+        "acodo simple"
+      ],
+      "epoca": "Primavera o verano para el acodo; esquejes semimaduros a final del verano con calor de fondo (RHS, ficha de la especie).",
+      "pasos": "AVISO SOBRE LA HOJA SUELTA: H. kerrii se vende muy a menudo como una sola hoja en corazón enraizada en una maceta, sobre todo en San Valentín. Si la hoja no lleva un nudo o un trozo de tallo, puede echar raíces y vivir años, pero no forma tallo ni hojas nuevas: se queda como una hoja casi inmóvil toda su vida (Iowa State; NC State: no suele crecer bien sin algo de tallo). No es un fallo de cuidado. Para tener una planta trepadora, comprar una maceta con tallos o propagar así: Esqueje: 1) Con guantes, cortar un tramo de tallo con 1-2 nudos y sus hojas (Iowa State). 2) Quitar las hojas del nudo inferior. 3) Poner el nudo en agua, musgo esfagno húmedo o mezcla ligera de esquejes (Iowa State); RHS aconseja calor de fondo. 4) Las raíces salen en semanas, según calor y luz (Iowa State). 5) Plantar en una maceta pequeña con mezcla aireada y regar con moderación. Si se esqueja una hoja, debe llevar el nudo en la base (Iowa State). Acodo: doblar un tallo sobre una maceta con sustrato, sujetarlo con una grapa en un nudo, mantenerlo algo húmedo hasta que enraíce y separarlo de la madre (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Hoja suelta enraizada que no brota nunca: le falta el nudo o el trozo de tallo y no puede formar tallo (Iowa State, NC State). No tiene arreglo con riego ni abono. En una planta con tallos, la parada de crecimiento suele deberse a falta de luz, frío o sustrato viejo y apelmazado (Iowa State). Es una especie lenta por naturaleza (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, plaga citada para la especie (NC State, RHS) y la más frecuente en hoyas (Iowa State). Se esconde en axilas y a lo largo de los tallos. Tratar con un producto listo para usar de uso no profesional inscrito en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State), favorecida por el aire muy seco (Iowa State): calefacción en invierno y calor seco en verano en Madrid."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja en su fase inicial (Iowa State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y botones florales (NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre tallos y hojas, a veces con melaza (Iowa State, RHS, para el género)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Dos causas a distinguir. 1) Normal: las flores gotean abundante néctar pardo rojizo que mancha telas, paredes y muebles (NC State, Iowa State). 2) Plaga: melaza de cochinilla o escama, que aparece aunque no haya flores. Si no hay flores abiertas, buscar insectos."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego, maceta demasiado grande o mal drenaje (NC State, Iowa State). Rara vez se recupera: sacar esquejes con nudo de las partes sanas (RHS, guía del género)."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas blandas con el sustrato mojado: raíces dañadas por exceso de riego que ya no absorben agua (Iowa State). Si el sustrato está seco, es sed."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas, finas o marrones: se ha dejado secar demasiado el sustrato entre riegos (NC State, Iowa State)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas amarillas con el sustrato siempre húmedo: exceso de riego o mezcla que no drena (Iowa State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallos finos y alargados y sin flores (Iowa State, género). En H. kerrii los tallos jóvenes ya son largos y desnudos de forma natural (NC State): solo es etiolación si además las hojas nuevas salen pálidas y pequeñas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte tras un cristal sur u oeste en verano: hojas quemadas o enrojecidas (RHS, Iowa State)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas o zonas ennegrecidas si las hojas quedan mojadas sin ventilación (Iowa State) o por frío con sustrato encharcado. Regar el sustrato, no las hojas."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de botones florales al mover la planta o cambiar la luz, el riego o la temperatura (Iowa State, RHS, para el género). No moverla con botones."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla 1-2 m de las ventanas sur y oeste o tamizar la luz con cortina fina: el sol tras el cristal quema o enrojece las hojas. Una ventana este es ideal. Con el aire seco (HR exterior ≈38 %) y el calor el sustrato se seca antes: comprobar con el dedo y el peso cada pocos días, sin regar por calendario. Agradece una cocina o baño luminosos por la humedad (NC State). Vigilar la araña roja. Si florece, colocarla donde el néctar no manche. Si sale a la terraza, solo a sombra luminosa y resguardada, y volver dentro antes de que las noches bajen de 16 °C (RHS, guía del género), en Madrid hacia finales de septiembre.",
+    "invierno": "Semirreposo con riego mínimo y sin abono. Mantenerla siempre por encima de 13 °C: separarla del cristal frío por la noche y de corrientes, y alejarla de radiadores. Con calefacción la humedad interior baja a menudo del 30 %, por debajo de lo que necesita (40 % o más): usar humidificador o agrupar plantas; pulverizar no sirve. Mantenerla junto a la ventana más luminosa, porque la luz invernal es débil.",
+    "ubicacion_recomendada": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina, en un sitio estable, cálido y algo húmedo (por ejemplo, un baño o cocina con buena luz), lejos de radiadores y aire acondicionado. Guiada en aro pequeño o colgante."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew), consultado vía proxy, acepta Hoya kerrii Craib (publicada en 1911); la página no muestra sinónimos. Sin cambio de nombre.",
+    "Tamaño de hoja: NC State marca longitud y anchura de hoja '< 1 inch', cifra que no cuadra con la planta comercial; RHS da hasta 6 cm de ancho. Se usa RHS y no se da longitud por falta de fuente prioritaria.",
+    "Variegaciones comerciales ('Albomarginata', 'Splash' y similares): sin fuente prioritaria; solo NC State describe 'Variegata'.",
+    "Temperatura máxima: ninguna fuente prioritaria da un máximo tolerable; max_c se deja en null.",
+    "Temperatura mínima: ninguna fuente prioritaria da un mínimo de interior específico para H. kerrii; el valor de 13 °C sale de Iowa State para el género. La clasificación RHS H1C (5-10 °C) es de cultivo exterior estival.",
+    "Humedad: las cifras (40-60 %) son de Iowa State para el género; NC State solo pide ambiente húmedo sin dar cifras.",
+    "Luz en lux o fc: ninguna fuente da cifras; lux_min y lux_max se toman de la escala del proyecto para luz brillante indirecta (500-1000 fc).",
+    "Abono: ninguna fuente da proporción NPK; npk se deja en null.",
+    "Toxicidad en personas: ninguna fuente prioritaria trata la ingestión de H. kerrii por niños; solo RHS describe el látex del género como tóxico e irritante. Principio activo desconocido.",
+    "Missouri Botanical Garden Plant Finder: no se encontró ficha de la especie; no se cita.",
+    "Confusiones con H. obovata, H. australis, peperomias, poto y filodendro: rasgos generales, sin fuente prioritaria que los compare con H. kerrii."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-kerrii/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Hoya kerrii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-hoyas",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden, 'All about hoyas' (género, con apartado de H. kerrii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/83016/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Hoya kerrii",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/hoya/how-to-grow",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo del género Hoya",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sweetheart-hoya",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Sweetheart Hoya, Hoya kerrii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:98512-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew – Hoya kerrii Craib",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

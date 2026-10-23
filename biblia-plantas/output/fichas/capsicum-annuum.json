@@ -1,0 +1,181 @@
+{
+  "nombre_cientifico": "Capsicum annuum",
+  "nombres_comunes": [
+    "guindilla ornamental",
+    "pimiento ornamental",
+    "chile ornamental",
+    "pimiento de Navidad"
+  ],
+  "familia": "Solanaceae",
+  "origen": "América tropical. NC State lo da como nativo del norte de Sudamérica y del suroeste de Norteamérica; Missouri Botanical Garden indica México y Guatemala; UF/IFAS, 'partes de Norteamérica'. POWO (Kew) acepta el nombre Capsicum annuum L. Los pimientos ornamentales son cultivares de la misma especie que el pimiento y la guindilla de cocina (Missouri, IVIS).",
+  "clima_nativo": "Tropical y subtropical cálido, sin heladas. Es una perenne herbácea o subleñosa sensible al frío, perenne solo en zonas USDA 9b-11b; en el resto se cultiva como anual de temporada cálida (UF/IFAS, Missouri). Le gustan el calor y el sol pleno, y tolera calor y sequía moderada al aire libre (NC State, UF/IFAS).",
+  "categoria": "aromatica",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, de borde entero, sin pelos y brillantes; ovadas a lanceoladas, de 2,5-10 cm de largo (NC State: hasta 7,5 cm; UF/IFAS: 5-10 cm). Verde oscuro en la mayoría de cultivares; algunos tienen hoja morada o casi negra ('Black Pearl', 'Purple Flash') o variegada de morado, verde y blanco ('Calico'). No huelen a nada especial al estrujarlas.",
+    "nerviacion": "Pinnada, con nervio central marcado y nervios secundarios arqueados hacia el ápice (UF/IFAS: 'bowed'); poco relieve.",
+    "variegacion": "La especie es verde. Hay cultivares variegados ('Calico', 'Tricolor Variegatum') y de follaje morado-negro (NC State, Missouri). Lo más llamativo para identificarla no es la hoja sino los frutos.",
+    "tallo": "Herbáceo, verde, liso y erguido, muy ramificado; se lignifica algo en la base con la edad. Los nudos pueden oscurecerse a morado (NC State). Los tallos se parten con facilidad (RHS).",
+    "habito": "Mata compacta, redondeada y erguida, de varios tallos. Flores pequeñas (<2,5 cm), en estrella o campana de 5 pétalos, blancas o moradas, poco vistosas, que salen solas o en grupos en las axilas (NC State, UF/IFAS). Rasgo clave para visión: bayas brillantes y huecas, erguidas o colgantes, cónicas, alargadas o redondas, de 1,5-7,5 cm, en morado, negro, blanco, amarillo, naranja, rojo o verde, a menudo de varios colores a la vez en la misma planta porque cambian de color al madurar (UF/IFAS, Missouri). El fruto lleva en la base un cáliz verde en forma de copa.",
+    "tamano_adulto_interior": "Los cultivares de maceta que se venden en otoño suelen medir 20-45 cm de alto y otro tanto de ancho (RHS: desde 20 cm en compactos; Missouri: 'Black Pearl' 30-45 cm). La especie llega a 30-120 cm según cultivar (UF/IFAS, NC State).",
+    "confusiones": [
+      {
+        "especie": "Solanum pseudocapsicum (cerezo de Jerusalén, falso pimiento; ASPCA lo llama 'Ornamental Pepper')",
+        "rasgo_diferenciador": "Frutos esféricos tipo tomate cherry, de 1-1,5 cm, naranja-rojo, colgando de un pedúnculo, con cáliz pequeño de 5 sépalos; hojas estrechas y onduladas; arbusto leñoso perenne. Es MUY importante distinguirlo: sus frutos tienen solanina, son tóxicos para perros, gatos y caballos (ASPCA) y no son comestibles (WSU). La guindilla ornamental tiene frutos huecos y alargados o cónicos (a veces redondos, pero huecos y con cáliz en copa) que pican."
+      },
+      {
+        "especie": "Capsicum chinense y Capsicum frutescens (habanero, tabasco)",
+        "rasgo_diferenciador": "Cultivo y aspecto casi iguales; C. chinense suele tener hojas más grandes y arrugadas y varias flores por nudo, con un estrechamiento bajo el cáliz. Para la app la confusión es poco grave en cuidados, pero algunos (habanero) pican mucho más (IVIS, Missouri)."
+      },
+      {
+        "especie": "Pimiento o guindilla de huerto (cultivares culinarios de C. annuum)",
+        "rasgo_diferenciador": "Misma especie; los ornamentales son compactos y con frutos pequeños y erguidos de colores llamativos. La diferencia práctica es que las plantas ornamentales de vivero se producen con reguladores de crecimiento y fitosanitarios autorizados solo para plantas que no se comen (NC State, Flower Growers' Bulletin)."
+      },
+      {
+        "especie": "Ardisia crenata y Skimmia japonica (plantas de bayas rojas de Navidad)",
+        "rasgo_diferenciador": "Leñosas, de hojas coriáceas (Ardisia con margen festoneado) y bayas redondas pequeñas, no huecas; no son Capsicum. Diferencia orientativa basada en la morfología, sin fuente prioritaria abierta para esta comparación."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Capsaicina y otros capsaicinoides, concentrados sobre todo en los frutos y más aún en las semillas y placentas (IVIS). Es un irritante, no un veneno sistémico a las dosis habituales.",
+    "sintomas": "Personas y niños: ardor e irritación de labios, boca y garganta si se muerde o come el fruto o las semillas; si el jugo llega a los ojos, inflamación aguda, dolor y lagrimeo (Departamento de Salud de Nueva York). Comer mucho irrita boca, estómago e intestino y puede dar vómitos y diarrea (NPIC). UF/IFAS desaconseja ponerla donde lleguen niños pequeños porque los frutos irritan al comerlos o tocarlos. Perros y gatos: rara vez es un problema, pero si mastican y tragan los frutos sufren ardor en boca y ojos y, con más cantidad, vómitos y diarrea; los efectos suelen ser pasajeros y se alivian lavando las mucosas con agua (IVIS). Piel: tocar los frutos cortados y luego los ojos provoca irritación fuerte.",
+    "notas": "ASPCA NO tiene ficha de Capsicum annuum: su entrada 'Ornamental Pepper' corresponde a Solanum pseudocapsicum (cerezo de Jerusalén), que sí es tóxico por solanina para perros, gatos y caballos. La app no debe mezclar ambas plantas. Se marca 'toxica' para perros, gatos y niños con sentido de 'irritante leve', de forma conservadora. Comestibilidad: los frutos de los cultivares ornamentales son técnicamente comestibles pero muy picantes y de picor impredecible (UF/IFAS, NC State, Missouri, WSU); algunos cultivares, como 'Aurora', 'Candelabra' o 'Chilly Chili', NC State los da como 'no comestibles'. Además, en vivero se tratan con reguladores de crecimiento y fitosanitarios autorizados solo para pimientos ornamentales que no se consumen (NC State, Flower Growers' Bulletin). Recomendación de la app: no comer los frutos de plantas compradas como ornamentales. Si alguien quiere consumir frutos que se formen después en casa, cualquier tratamiento que se aplique tiene que estar autorizado por el MAPA para pimiento o hortícolas de uso no profesional y respetar el plazo de seguridad de la etiqueta. Lavarse las manos tras tocar los frutos.",
+    "confianza": "Media",
+    "fuentes": ["F10", "F2", "F11", "F12", "F8", "F9", "F6"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Sur u oeste: la ventana más soleada de la casa (WSU: oeste o sur; RHS: alféizar soleado). En primavera-verano, mejor al aire libre en terraza o balcón soleado.",
+      "tolera_sol_directo": "Sí, lo necesita: sol pleno, 6 h o más de sol directo al día (NC State, UF/IFAS, Missouri). El color negro de las hojas de 'Black Pearl' es mejor a pleno sol (Missouri). Al sacarla al exterior en primavera, aclimatarla 2-3 semanas (RHS).",
+      "notas": "Planta de luz directa: según la escala del proyecto, más de 1000 fc (más de 10 760 lux). Ninguna fuente da lux máximos. Con poca luz amarillean y caen las hojas inferiores (WSU) y caen los frutos (NC State, Flower Growers' Bulletin). Por eso se estropea pronto en interiores oscuros. Si no hay ventana sur u oeste, usar lámpara de cultivo de apoyo [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F4", "F3", "F6", "F7"]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo de forma uniforme, nunca encharcado ni seco del todo. Comprobar con el dedo a 2-3 cm y por el peso de la maceta: regar a fondo cuando los primeros 2-3 cm empiecen a secarse y la maceta pese menos, y tirar el agua del plato a los 15-30 minutos. Nunca regar por calendario. No perdona la sequía: si se marchita una y otra vez, pierde hojas inferiores y frutos (NC State, Flower Growers' Bulletin) y se caen los botones florales (RHS). Pero el sustrato siempre empapado deja la raíz sin oxígeno: brotes débiles y amarillos y pudrición radicular por Pythium (NC State, Flower Growers' Bulletin).",
+      "primavera_verano": "Riego frecuente: en maceta y con calor puede hacer falta comprobarla a diario y regar casi todos los días (RHS). Regar por la mañana para que el follaje se seque y evitar botritis (NC State, Flower Growers' Bulletin).",
+      "otono_invierno": "En la fase de compra, con frutos y en interior con calefacción, sigue gastando agua: comprobar cada 2-3 días. Si se conserva la planta tras la fructificación, podarla y regar con moderación (RHS), dejando secar más los 2-3 cm superiores.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "El agua del grifo de Madrid sirve (blanda). Dejarla reposar no elimina la cloramina, pero no hace falta. Si el agua de riego fuera muy dura o alcalina, el pH del sustrato sube; en producción se busca un pH de 5,8-6,2 (NC State, Flower Growers' Bulletin).",
+      "notas": "Es una de las pocas plantas de la biblia que se marchitan más por falta que por exceso de agua, sobre todo en verano. Aun así, el encharcamiento en macetas sin drenaje la mata por pudrición radicular.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F6", "F4"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS dice que prefiere un ambiente húmedo y que hay que subir la humedad cuando hace calor (en invernadero, mojando el suelo). Ninguna fuente prioritaria da porcentajes. El aire muy seco favorece la araña roja (RHS la cita entre sus plagas). Lo que funciona: humidificador cerca y agrupar plantas. Pulverizar las hojas no sube la humedad de forma útil y el follaje mojado favorece la botritis (NC State, Flower Growers' Bulletin).",
+      "confianza": "Media",
+      "fuentes": ["F3", "F6"]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 29,
+      "ideal_min_c": 15,
+      "ideal_max_c": 24,
+      "notas": "Mínimas: RHS dice que aguanta unos 12 °C de mínima nocturna, pero crece mejor por encima de 15 °C. Missouri pide noches de 13 °C (55 °F) o más antes de sacarla al exterior. NC State (Flower Growers' Bulletin) avisa de daños por frío por debajo de 7 °C (45 °F). Se adopta 13 °C, el valor más alto. Óptimos: NC State recomienda 24 °C de día y 18 °C de noche para el cultivo. Para que los frutos duren más en casa, bajar a 16-18 °C de noche y 18-21 °C de día (NC State, Flower Growers' Bulletin); WSU también aconseja una habitación fresca. Máximas: por encima de 29-30 °C se caen flores y frutos y cuaja menos (NC State, Flower Growers' Bulletin: más de 85 °F; RHS: más de 30 °C). Se adopta 29 °C, el más conservador. No tolera heladas: muere con la primera (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F6", "F4", "F2", "F7"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad (RHS: universal sin turba), rico en materia orgánica, aireado y con buen drenaje (Missouri, NC State). En producción se usa turba con perlita gruesa o corteza de pino para equilibrar retención y drenaje (NC State, Flower Growers' Bulletin). Maceta con agujeros; para una planta, maceta de unos 22 cm (RHS).",
+      "ph": "Ligeramente ácido a neutro: 5,8-6,2 en producción (NC State, Flower Growers' Bulletin); UF/IFAS dice que va mejor en suelo ácido a casi neutro. Con pH bajo aparecen manchas moradas oscuras en las hojas inferiores (NC State, Flower Growers' Bulletin).",
+      "drenaje": "Bueno, imprescindible. Un sustrato que se queda demasiado mojado da brotes débiles y cloróticos y pudrición radicular (NC State, Flower Growers' Bulletin).",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F4", "F1", "F6", "F2"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido rico en potasio (tipo tomate) desde que empieza a florecer (RHS).",
+      "npk": "Rico en potasio (K ≥ N). Evitar abonos con mucho fósforo o mucho nitrógeno amoniacal o urea, porque alargan y ablandan los tallos (NC State, Flower Growers' Bulletin). Necesita bastante calcio y magnesio.",
+      "primavera_verano": "Con crecimiento activo, floración y fructificación: ¼-½ de la dosis de la etiqueta, una vez al mes (convención del proyecto).",
+      "otono_invierno": "Si se compra en otoño con frutos ya formados, no hace falta abonar mientras dura la exhibición (8-12 semanas). Si se conserva y poda para el año siguiente, nada de abono en invierno; volver a abonar en primavera con brotes nuevos.",
+      "notas": "Las fuentes abonan más a menudo: RHS cada semana desde la floración (cultivo para cosecha); WSU cada 2 semanas con abono de plantas de interior, porque la falta de abono adelanta la caída de hojas. NC State la da como planta de consumo moderado y avisa de que el exceso la deja blanda y espigada y empeora el cuajado. Se mantiene la convención prudente del proyecto (¼-½ dosis mensual). Si las hojas inferiores amarillean con buena luz y riego correcto, se puede acortar a cada 2-3 semanas a la misma dosis reducida [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": ["F3", "F6", "F7"]
+    },
+    "trasplante": {
+      "frecuencia": "Normalmente nunca: se suele tratar como anual y desecharse cuando caen los frutos (WSU, UF/IFAS). Si se conserva para otro año, trasplantar una vez en primavera a una maceta algo mayor (unos 22 cm por planta, RHS).",
+      "epoca": "Primavera, con temperaturas nocturnas por encima de 13-15 °C. Nunca durante la exhibición de frutos en otoño-invierno.",
+      "senales": "Raíces que salen por los agujeros de drenaje (RHS) o sustrato que se seca en pocas horas. No le gusta que le toquen las raíces (NC State, Missouri): trasplantar con el cepellón entero, sin desmenuzarlo, y a la misma profundidad.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F1", "F4", "F7"]
+    },
+    "poda": {
+      "necesita": "Poca. Despuntar las plantas jóvenes para que ramifiquen y queden más compactas (NC State, UF/IFAS, Missouri). En los cultivares compactos no hace falta: NC State desaconseja despuntarlos porque quedan amazacotados.",
+      "epoca": "Despunte en plantas jóvenes en primavera-verano (RHS: hacia 30 cm de altura). Poda de reducción al final de la fructificación, si se quiere conservar la planta en invierno (RHS).",
+      "como": "Despuntar con los dedos o tijera limpia la yema terminal. Para pasar el invierno, recortarla a un tamaño manejable y ponerla en un lugar luminoso y templado (RHS). Retirar frutos arrugados y hojas caídas para evitar botritis. Usar guantes si se cortan frutos y no tocarse los ojos.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F4", "F3", "F6"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno, solo si se conserva la planta tras la fructificación (es perenne en climas sin heladas).",
+      "cambios": "No es un reposo verdadero sino una parada por poca luz y frío. Tras podarla, ponerla en un lugar luminoso y templado (alféizar o galería), regar con moderación (RHS) y no abonar. Mantenerla por encima de 13 °C. En primavera retomar el riego normal, abonar y, si se quiere, sacarla al exterior cuando las noches pasen de 13 °C (Missouri, RHS). Missouri confirma que se puede mantener más tiempo pasando el invierno dentro si hay un sitio soleado.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F4"]
+    },
+    "propagacion": {
+      "metodos": ["semilla"],
+      "epoca": "Siembra de finales de invierno a mediados de primavera (RHS); en Madrid, febrero-abril en interior.",
+      "pasos": "1) Sembrar en semillero con sustrato de siembra, sin cubrir o apenas cubiertas las semillas (UF/IFAS: no cubrirlas). 2) Mantener a unos 21-24 °C (RHS: unos 21 °C; NC State: 21-24 °C); germinan en 7-12 días (NC State, Flower Growers' Bulletin). 3) Al nacer, pasar a luz intensa a 16-18 °C y mantener el sustrato húmedo de forma uniforme (RHS). 4) Con 2-3 cm de altura, repicar cada plántula a su alveolo o maceta pequeña; cuando las raíces salgan por abajo, pasar a maceta de 13 cm (RHS). No dejar que se queden apretadas en el alveolo, porque se frenan (NC State, Flower Growers' Bulletin). 5) De semilla a planta con frutos coloreados: 15-20 semanas (NC State, Flower Growers' Bulletin). Las semillas de híbridos F1 no reproducen la planta madre [orientativo, sin fuente prioritaria]. Usar guantes al sacar semillas de frutos picantes.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F2", "F6", "F1"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S27", "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos, flores y envés: es la plaga más citada (NC State, RHS, Missouri). Debilita la planta y deforma los brotes. Primer paso: retirarlo a mano o con agua. Si hace falta, solo productos listos para usar de uso no profesional inscritos en el MAPA y autorizados para la planta; si se van a comer los frutos, autorizados para pimiento y respetando el plazo de seguridad."},
+    {"sintoma_id": "S28", "causa_habitual_en_esta_especie": "Mosca blanca (de invernadero y Bemisia), sobre todo en interior y en verano (RHS, NC State, Missouri). Las plantas compradas en vivero pueden traerla: revisar el envés antes de juntarla con otras."},
+    {"sintoma_id": "S23", "causa_habitual_en_esta_especie": "Araña roja de invernadero: punteado y moteado de las hojas y caída temprana (RHS, NC State). Se dispara con calor y aire seco: en Madrid, en verano y con calefacción en invierno."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Telaraña fina de araña roja en infestaciones avanzadas (RHS)."},
+    {"sintoma_id": "S25", "causa_habitual_en_esta_especie": "Melaza pegajosa que dejan pulgones y mosca blanca (RHS)."},
+    {"sintoma_id": "S26", "causa_habitual_en_esta_especie": "Fumagina negra que crece sobre la melaza de pulgón o mosca blanca (RHS)."},
+    {"sintoma_id": "S18", "causa_habitual_en_esta_especie": "Trips: comen las hojas jóvenes, que salen deformadas, y dejan los frutos blanquecinos; además transmiten el virus INSV, que obliga a tirar la planta (NC State, Flower Growers' Bulletin). Otra causa: virus del mosaico (NC State)."},
+    {"sintoma_id": "S02", "causa_habitual_en_esta_especie": "Amarilleo y caída de hojas inferiores por falta de luz (WSU), falta de abono (WSU) o marchitarse por sequía una y otra vez (NC State, Flower Growers' Bulletin). Suele ir con caída de frutos."},
+    {"sintoma_id": "S12", "causa_habitual_en_esta_especie": "Tras la compra en otoño: caída de hojas y frutos al pasar del invernadero a un interior con poca luz; también por etileno durante el transporte (NC State, Flower Growers' Bulletin). Los frutos maduros se arrugan y caen solos a las 8-12 semanas, y eso es el final normal de la planta (WSU)."},
+    {"sintoma_id": "S08", "causa_habitual_en_esta_especie": "Marchitez por falta de agua: en maceta pequeña, con sol y calor, se seca en horas (RHS). Si el sustrato está mojado y la planta sigue lacia, sospechar pudrición radicular o marchitez por Verticillium (NC State, Missouri)."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Pudrición radicular por Pythium si el sustrato se mantiene demasiado mojado (NC State, Flower Growers' Bulletin; Missouri: pudrición de tallo y raíz)."},
+    {"sintoma_id": "S01", "causa_habitual_en_esta_especie": "Brotes débiles y amarillos en general por falta de oxígeno en la raíz con sustrato encharcado (NC State, Flower Growers' Bulletin)."},
+    {"sintoma_id": "S34", "causa_habitual_en_esta_especie": "Botritis (moho gris) en flores, frutos y hojas con humedad alta, poca ventilación y follaje mojado (RHS, NC State, Flower Growers' Bulletin). Regar por la mañana y al pie, y retirar los frutos podridos."},
+    {"sintoma_id": "S16", "causa_habitual_en_esta_especie": "Tallos blandos y espigados por exceso de abono, sobre todo de nitrógeno amoniacal o fósforo (NC State, Flower Growers' Bulletin), o por falta de luz en interior."},
+    {"sintoma_id": "S14", "causa_habitual_en_esta_especie": "Manchas foliares bacterianas o fúngicas (mancha bacteriana, antracnosis), sobre todo al aire libre con lluvia o riego por aspersión (NC State, Missouri). Raras en interior."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Si se conserva hasta el verano, lo mejor es tenerla fuera, en terraza o balcón a pleno sol, aclimatada 2-3 semanas. Con 35-40 °C pasa del límite de 29-30 °C y se caen flores y frutos nuevos (NC State, RHS). En terrazas sur u oeste, sombra ligera en las horas centrales de julio y agosto [orientativo, sin fuente prioritaria]. Maceta clara o doble maceta para que el cepellón no se cueza. Con aire muy seco (HR ≈38 %) la maceta se seca en horas: comprobar a diario, por la mañana y a veces también al atardecer, y regar a fondo (RHS: puede necesitar riego diario). El calor seco dispara la araña roja: revisar el envés cada semana.",
+    "invierno": "Es la época en que se compra, en otoño, con frutos. Ponerla en la ventana más soleada (sur u oeste), pegada al cristal pero sin que las hojas lo toquen las noches frías, y retirarla del cristal si de noche baja de 13 °C. Lejos de radiadores y del aire caliente, que secan la planta y los frutos y favorecen la araña roja. Una habitación fresca (16-18 °C de noche, 18-21 °C de día) alarga la vida de los frutos (NC State, WSU). Con calefacción la HR interior suele bajar del 30 %: humidificador cercano o agrupar plantas, sin pulverizar. Sigue gastando agua: comprobar el sustrato cada 2-3 días. Normal: a las 8-12 semanas los frutos se arrugan y caen (WSU); entonces se desecha o se poda y se conserva en lugar luminoso y templado (RHS). No sacarla al exterior hasta que las mínimas pasen de 13 °C (en Madrid, normalmente a partir de mediados o finales de mayo; confirmar con la previsión de AEMET).",
+    "ubicacion_recomendada": "Interior: en la ventana o galería orientada al sur u oeste más soleada, en una habitación fresca y sin radiadores cerca, fuera del alcance de niños pequeños y mascotas (los frutos pican e irritan). De mayo a septiembre, mejor en terraza o balcón soleado, con algo de sombra en las horas centrales de las olas de calor."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Capsicum annuum L.; no se pudo abrir la ficha del taxón en POWO (403), solo su página de resultados de búsqueda, así que no se verificaron sinónimos ni variedades aceptadas (p. ej., var. glabriusculum).",
+    "Toxicidad: ASPCA no tiene ficha de Capsicum annuum. Su entrada 'Ornamental Pepper' es Solanum pseudocapsicum. Para perros y gatos solo hay una fuente veterinaria complementaria (IVIS, Knight) más el dato general de NPIC sobre la capsaicina en animales. Falta una fuente veterinaria prioritaria específica para la especie.",
+    "Humedad: ninguna fuente prioritaria da porcentajes de humedad relativa mínima o ideal; RHS solo dice que prefiere un ambiente húmedo.",
+    "Luz: ninguna fuente da lux; se aplica la escala del proyecto (>1000 fc = >10 760 lux) para el sol pleno de 6 h o más.",
+    "Abonado: las fuentes (RHS semanal, WSU quincenal) abonan más a menudo que la convención del proyecto (¼-½ dosis mensual); no hay datos de abonado para planta ornamental en interior durante la exhibición de frutos.",
+    "Fitosanitarios: no se comprobó en el Registro del MAPA qué productos listos para usar de uso no profesional están autorizados a la vez para ornamentales y para pimiento, ni sus plazos de seguridad.",
+    "Confusión con Ardisia crenata y Skimmia japonica: rasgos diferenciadores sin fuente prioritaria abierta."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/capsicum-annuum/", "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox – Capsicum annuum", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://edis.ifas.ufl.edu/publication/FP105/pdf", "institucion": "UF/IFAS Extension, EDIS FPS105 'Capsicum annuum: Ornamental Pepper' (rev. abril 2026)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://www.rhs.org.uk/vegetables/chilli-pepper/grow-your-own", "institucion": "Royal Horticultural Society (RHS) – How to grow chilli peppers", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287148&isprofile=1", "institucion": "Missouri Botanical Garden, Plant Finder – Capsicum annuum (y 'Black Pearl', taxonid=260123)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://hortscans.ces.ncsu.edu/uploads/s/u/success__5405ea4af2b37.pdf", "institucion": "NC State University, N.C. Flower Growers' Bulletin 47(3), 2002: Whipker et al., 'Success with Ornamental Peppers'", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/57/2014/03/01-01-06-Christmas-Cherry-and-Jerusalem-Cherry.pdf", "institucion": "WSU Skagit County Extension, columna 'Ask the Master Gardener' (2006): Christmas pepper y Jerusalem cherry", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ornamental-pepper", "institucion": "ASPCA Animal Poison Control Center – 'Ornamental Pepper' (corresponde a Solanum pseudocapsicum)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list", "institucion": "ASPCA Animal Poison Control Center – listas de plantas para perros y gatos (sin entrada de Capsicum)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F10", "url": "https://www.nyc.gov/site/doh/health/health-topics/poison-plants.page", "institucion": "NYC Department of Health and Mental Hygiene / NYC Poison Center – Poison Prevention: Plants", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F11", "url": "https://npic.orst.edu/factsheets/capgen.html", "institucion": "National Pesticide Information Center (Oregon State University y U.S. EPA) – Capsaicin General Fact Sheet", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F12", "url": "https://www.ivis.org/library/guide-to-poisonous-house-and-garden-plants/capsicum-species-chili-pepper", "institucion": "IVIS – Knight A., Guide to Poisonous House and Garden Plants (manual veterinario): Capsicum species", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F13", "url": "https://powo.science.kew.org/results?q=Capsicum%20annuum", "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO) – búsqueda Capsicum annuum (Capsicum annuum L., aceptado)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

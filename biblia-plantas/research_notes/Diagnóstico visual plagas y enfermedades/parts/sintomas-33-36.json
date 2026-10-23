@@ -1,0 +1,308 @@
+[
+  {
+    "id": "S33",
+    "nombre": "Polvo o recubrimiento blanco sobre hojas o tallos (oídio)",
+    "como_se_ve": "Manchas o fieltro blanco-grisáceo de aspecto de talco que se extiende por el haz (y a veces envés, tallos y flores), con colonias desde blancas y algodonosas hasta tenues y difíciles de ver (E01, E25); forma manchas circulares que se fusionan o cubren toda la hoja (E16); lo blanco-gris es el hongo y sus esporas creciendo sobre la superficie del tejido verde vivo (E46). Puede acompañarse de hojas deformadas o amarillas, brotes atrofiados y caída (E02, E16). En Kalanchoe, Sedum y Crassula puede verse solo como costras o lesiones pardas con poco polvo (E11, E25); una colonia en el envés puede delatarse por una mancha amarilla pequeña en el haz (E25, E28). Diferenciar de gotas secas de residuo (contorno de gota, sin hilos), de masas algodonosas de cochinilla (tridimensionales, en axilas, con insecto debajo) y de la pelusa gris-violácea del mildiu en el envés.",
+    "donde_mirar": "Haz de las hojas primero, hojas bajas y centro de la planta, brotes y botones; zonas con grandes cambios de temperatura día-noche (E25); hojas viejas por ambas caras en poinsettia (E28); buscar manchas amarillas en el haz que delaten colonias en el envés (E25, E28). Con lupa de 10 aumentos: hilos blancos que irradian desde un punto central y cadenas de esporas (E02, E25).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Oídio (Golovinomyces / Erysiphe, Podosphaera, Oidium, Leveillula)",
+        "tipo": "enfermedad",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si el polvo es fieltro con hilos radiales, se extiende en círculos y aparece en begonia, violeta africana (Saintpaulia), Kalanchoe, Crassula, Cissus, Pilea, romero o poinsettia (E16, E25, E46). No son gotas secas: es esponjoso, con hilos blanquecinos que irradian desde un punto central bajo la lupa; el residuo de pulverización tiende a tener contorno de gota (E25). Crece sobre tejido verde vivo, no sobre tejido muerto (E02, E15). No necesita agua libre en la hoja; la humedad alta nocturna favorece las esporas y la baja de día su dispersión; poca luz, mala ventilación y 16–29 °C lo favorecen; las temperaturas por encima de 35 °C lo suprimen (E02, E03, E25, E28). Llega por esporas aéreas desde hospedantes de exterior (E01). Exceso de nitrógeno y estrés hídrico aumentan la susceptibilidad (E02, E03). Cámara húmeda un día hace aparecer el micelio en hojas sospechosas (E25). Rara vez mata la planta (E25, E46).",
+        "preguntas_confirmacion": [
+          "¿Al frotar con el dedo, el polvo se extiende y queda un velo (hongo) o se desprende como escamas o gotas secas (residuo)?",
+          "¿Hay hilos finos radiales con lupa?",
+          "¿Está en el haz y crece en manchas circulares?",
+          "¿La planta es begonia, violeta africana, Kalanchoe o Crassula?",
+          "¿Está en un rincón con poca luz, poco aire y mucha humedad nocturna?"
+        ],
+        "tratamiento": [
+          "1. Aislar la planta; retirar las hojas o brotes afectados metiéndolos directamente en una bolsa de plástico, porque las esporas se dispersan con facilidad por el aire (E01, E03, E25, E46).",
+          "2. Subir la luz, separar las plantas para bajar la humedad del dosel (mantener la humedad relativa por debajo del 93 %), ventilar, evitar corrientes frías y regar por la mañana (E16, E25, E46).",
+          "3. No abonar en exceso con nitrógeno (E02, E03).",
+          "4. Si persiste, bajo impacto: azufre, solo preventivo sobre hojas nuevas, no por encima de 32 °C ni en las 2 semanas siguientes a un aceite (E01, E02); aceite hortícola o de neem como erradicante en infecciones leves a moderadas, no por encima de 32 °C ni con estrés hídrico y a 2 semanas o más del azufre (E02); bicarbonato potásico registrado como erradicante, con cuidado porque puede dañar plantas infectadas y no en enfermedad avanzada (E02); dosis de referencia de un producto al 85 %: 1,5–6 g/L, con cobertura total y sin mezclar con acidificantes (E21). Repetir cada 7–10 días según etiqueta si las condiciones favorecen la enfermedad (E02). Una vez el oídio es moderado, los productos suelen llegar tarde: aplicar en cuanto se detecta (E02, E25). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados de jardinería exterior doméstica se aplican con la planta en el balcón (R01).",
+          "5. Biológico: Bacillus amyloliquefaciens o B. subtilis como preventivo en rotación (E01, E25); la investigación no los muestra tan eficaces como aceites o azufre (E02).",
+          "6. Químico de aficionado en España: difenoconazol (producto doméstico con nº de registro 25202; ámbito y dosis de etiqueta pendientes de verificar, E32), aplicado fuera de la vivienda, a la sombra y con temperaturas suaves, devolviendo la planta cuando esté seca (E01, E09); rotar grupos de fungicidas (E25). No usar miclobutanil ni tebuconazol sin producto español de uso no profesional verificado: el miclobutanil no está aprobado en la UE (E47)."
+        ],
+        "tiempo_recuperacion": "Las hojas afectadas no se limpian; se evalúa por ausencia de colonias nuevas en hojas nuevas tras 1–2 ciclos de 7–10 días [estimación a partir de E02; sin plazo explícito en las fuentes].",
+        "cuando_descartar": "Desechar las plantas gravemente enfermas (E16); planta cubierta y deformada que reinfecta a otras. En general no es necesario matar la planta (E46).",
+        "plaga_o_enfermedad_ref": "oídio (Golovinomyces / Podosphaera / Oidium spp.)"
+      },
+      {
+        "causa": "Residuo mineral de sales del agua de riego o nebulización, o residuo de pulverizaciones",
+        "tipo": "agua",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media-alta si la planta se nebuliza o se riega por encima y las manchas son gotas secas, blanquecinas, duras, con contorno de gota (E25). Contorno de gota, sin hilos, no se extiende con el tiempo, no afecta al vigor; un paño húmedo lo elimina del todo; no hay colonias circulares crecientes (E25). Nota: en Madrid capital el agua del grifo es muy blanda (ver S20), por lo que el residuo procede más bien de pulverizaciones, abrillantadores o agua de otra procedencia.",
+        "preguntas_confirmacion": [
+          "¿Nebulizas o riegas sobre las hojas?",
+          "¿Las manchas tienen forma de gota con borde?",
+          "¿Desaparecen completamente al limpiar con paño húmedo?",
+          "¿Siguen igual días después?"
+        ],
+        "tratamiento": [
+          "1. Limpiar las hojas con paño húmedo; dejar de nebulizar y regar sobre el sustrato (E01, E06)."
+        ],
+        "tiempo_recuperacion": "Inmediato.",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Cochinilla algodonosa (Pseudococcidae) y sus masas cerosas",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media si las motas blancas son algodonosas, discretas, en axilas, envés y nudos, y hay melaza pegajosa (E46 incluye la cochinilla algodonosa entre las plagas de interior). Masas algodonosas tridimensionales con insecto ovalado debajo al levantarlas; están en axilas, nervios y envés, no en láminas extensas; melaza y negrilla; no hay fieltro superficial uniforme. Ver S29.",
+        "preguntas_confirmacion": [
+          "¿Las motas se levantan con un palillo y debajo hay un insecto rosado o gris?",
+          "¿Están en axilas y uniones?",
+          "¿Hay superficie pegajosa?"
+        ],
+        "tratamiento": [
+          "1. Ver S29: alcohol isopropílico con bastoncillo, jabón potásico o aceite listo para usar con repeticiones, desechar si es masivo (E46)."
+        ],
+        "tiempo_recuperacion": "Ver S29.",
+        "cuando_descartar": "Ver S29.",
+        "plaga_o_enfermedad_ref": "cochinilla algodonosa (Planococcus citri / Pseudococcus longispinus)"
+      },
+      {
+        "causa": "Mildiu (Peronospora / Plasmopara)",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "Baja en interior: requiere agua libre, humedad relativa del 90 % o más y 10–21 °C (E02). Pelusa gris-violácea en el envés con esporas sobre tallitos ramificados como arbolitos bajo la lupa, y manchas amarillas angulares en el haz; el oídio está sobre todo en el haz y no necesita agua libre (E02).",
+        "preguntas_confirmacion": [
+          "¿La pelusa está en el envés y el haz tiene manchas amarillas limitadas por nervios?",
+          "¿La planta ha estado mojada muchas horas y fresca?"
+        ],
+        "tratamiento": [
+          "1. Retirar hojas afectadas, secar el follaje, ventilar (E02); no hay producto de aficionado verificado."
+        ],
+        "tiempo_recuperacion": "Sin dato en las fuentes [estimación: semanas].",
+        "cuando_descartar": "Planta muy afectada con esporulación en muchas hojas (principio general de E06).",
+        "plaga_o_enfermedad_ref": "oídio (diferencial: mildiu)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["E01", "E02", "E03", "E06", "E09", "E11", "E15", "E16", "E21", "E25", "E28", "E32", "E46", "E47", "R01"]
+  },
+  {
+    "id": "S34",
+    "nombre": "Pelusa gris-marrón (moho gris) sobre flores, hojas o tallos",
+    "como_se_ve": "Parches tostados y papiráceos normalmente cubiertos de masas grises y esponjosas en hojas y flores (E06); el tejido es primero translúcido o empapado, luego marrón y blando, cubierto de esporas grisáceas o pardas con aspecto de pelusa cuando hay humedad; la pelusa no se desarrolla en seco (E15, E27); flores que se pudren y marchitan, yemas que no abren (E04, E15); manchas en V desde el borde o anillos concéntricos tipo diana en hoja (E22, E39); puntitos negros como semillas (esclerocios) en tejido viejo (E04). Diferenciar del oídio (blanco, seco, sobre tejido verde sano) y de la podredumbre blanda bacteriana (sin pelusa, olor a pescado).",
+    "donde_mirar": "Flores pasadas y pétalos caídos sobre hojas, hojas viejas en contacto con el sustrato, base de tallos herbáceos, puntos de herida o poda, zonas con condensación (E14, E15, E27, E46). Nunca en tejido leñoso (E15).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Botritis / moho gris (Botrytis cinerea)",
+        "tipo": "enfermedad",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si hay pelusa gris sobre tejido blando marrón y la planta es Cyclamen, Saintpaulia, Begonia, Pelargonium, Primula, poinsettia, orquídea o gerbera (E04, E08, E14). La pelusa es gris o parda y crece sobre tejido muerto, dañado o senescente: el tejido verde sano no suele invadirse salvo heridas o a partir de un pétalo u hoja caídos (E14, E27); a diferencia del oídio (blanco, sobre tejido verde, E02), de la podredumbre blanda bacteriana (sin pelusa, olor a pescado, E19) y del moho saprófito del sustrato (en la tierra, no en la planta). Esclerocios negros en tejido viejo (E04). Necesita humedad relativa alta durante horas (6 h o más de hoja mojada o HR por encima del 90 %; condensación) y 16–25 °C (E14, E15, E27, E39, E46); las esporas están siempre presentes en el aire (E04).",
+        "preguntas_confirmacion": [
+          "¿La pelusa está sobre flores marchitas, pétalos caídos u hojas viejas?",
+          "¿El tejido bajo la pelusa está marrón y blando?",
+          "¿Al tocarla sale una nubecilla de polvo gris?",
+          "¿La planta está en un sitio húmedo, fresco (16–25 °C), con poco aire o con condensación?",
+          "¿Hubo nebulización o flores sin retirar?"
+        ],
+        "tratamiento": [
+          "1. Retirar inmediatamente flores pasadas, hojas muertas y partes con pelusa, embolsándolas con cuidado para no dispersar esporas; la higiene estricta es el núcleo del control (E04, E14, E27).",
+          "2. Aumentar la circulación de aire, separar plantas, bajar la humedad, evitar la condensación, no mojar follaje ni flores, regar temprano (E14, E15, E27, E46).",
+          "3. Evitar heridas y manipular con cuidado (E04).",
+          "4. Bajo impacto y biológico: ninguna fuente prioritaria recomienda azufre, bicarbonato ni Bacillus específicamente contra botritis; no hay opción respaldada.",
+          "5. Químico: en el Reino Unido no hay fungicidas aprobados para aficionados contra el moho gris (E04); los fungicidas son solo preventivos, poco eficaces con humedad y con resistencias frecuentes (E15, E27); el mancozeb no está aprobado en la UE (E45). Para el aficionado en España no se verificó ningún producto contra botritis en ornamentales: quedarse en el escalón cultural."
+        ],
+        "tiempo_recuperacion": "Las partes afectadas no se recuperan; con humedad baja el crecimiento del hongo se detiene en días y se reanuda al volver la humedad (E14); sin plazo explícito en las fuentes [estimación].",
+        "cuando_descartar": "Plantas muertas o gravemente afectadas (E04); esquejes o plántulas con el tallo anillado (E27); cuando el problema es grande, es mejor eliminar la planta y evitar la propagación (E06).",
+        "plaga_o_enfermedad_ref": "moho gris (Botrytis cinerea)"
+      },
+      {
+        "causa": "Moho saprófito del sustrato o de restos (no patógeno)",
+        "tipo": "sustrato",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media si la pelusa está sobre la superficie de la tierra o sobre restos caídos y no sobre tejido vivo. No hay lesión marrón blanda en la planta; está en la tierra o en restos (E08 trata el crecimiento de algas y hongos sobre el sustrato como problema aparte). Ver S20.",
+        "preguntas_confirmacion": [
+          "¿El moho está en la tierra o en restos y la planta está sana?"
+        ],
+        "tratamiento": [
+          "1. Retirar restos, dejar secar la superficie, ventilar (principios de E26); ver S20."
+        ],
+        "tiempo_recuperacion": "Días [estimación].",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Oídio avanzado con aspecto grisáceo",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "Polvo blanco-gris seco sobre tejido verde, sin pudrición blanda (E02, E46). Ver S33.",
+        "preguntas_confirmacion": [
+          "¿El tejido bajo el polvo está verde y firme?"
+        ],
+        "tratamiento": [
+          "1. Ver S33."
+        ],
+        "tiempo_recuperacion": "Ver S33.",
+        "cuando_descartar": "Ver S33.",
+        "plaga_o_enfermedad_ref": "oídio (Golovinomyces / Podosphaera / Oidium spp.)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["E02", "E04", "E06", "E08", "E14", "E15", "E19", "E22", "E26", "E27", "E39", "E45", "E46"]
+  },
+  {
+    "id": "S35",
+    "nombre": "Pústulas elevadas naranjas, pardo-rojizas o amarillas en el envés con manchas amarillas en el haz (roya)",
+    "como_se_ve": "Hinchazones o pústulas en relieve, como ampollas, en el envés, que producen masas polvorientas de esporas, precedidas de clorosis en el haz (E33); color naranja, amarillo, marrón, negro o blanco, sobre todo en el envés, con manchas visibles en el haz que corresponden a las pústulas de abajo (E05). En Pelargonium zonal: manchas amarillas pequeñas en el haz que corresponden al principio a ampollas blanquecinas debajo, que se vuelven masas pardas polvorientas de esporas a menudo en anillos concéntricos formando una diana, rodeadas de tejido amarillo; las hojas amarillean y caen (E13, E21, E33). En Fuchsia: pústulas naranja brillante en el envés, hojas deformadas y defoliación (E20, E33). El polvo se desprende al tocarlo (E22). Diferenciar del edema (bultos pálidos que se vuelven corchosos, sin polvo) y de las cochinillas de escudo (escudos que se levantan enteros).",
+    "donde_mirar": "Envés de las hojas, empezando por las hojas bajas; peciolos y tallos ocasionalmente (E21); haz para localizar las manchas amarillas correspondientes a contraluz (E05, E13). Frotar el envés con un dedo o papel blanco: las esporas se desprenden como polvo y manchan de naranja o marrón (E22).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Roya (Puccinia pelargonii-zonalis en geranio zonal; Pucciniastrum epilobii en fucsia; otras Puccinia y Coleosporium en crisantemo, boca de dragón, malvarrosa)",
+        "tipo": "enfermedad",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si hay pústulas elevadas que manchan de naranja o marrón al frotar y la planta es Pelargonium zonal o Fuchsia (E13, E20, E21, E33); también crisantemo, boca de dragón, malvarrosa, aster, iris, poinsettia, rosa, violeta (E05, E33). Pústulas en relieve con polvo que se desprende (E22); anillos concéntricos tipo diana en geranio (E21, E33); correspondencia haz-envés (E05); frente al edema (bultos verde-pálidos o corchosos sin polvo, por exceso de riego, E22) y frente a cochinillas de escudo (escudos que se levantan enteros, sin polvo). Infección favorecida por hojas mojadas durante horas (5–6 h a 13–24 °C en geranio, E21; E05, E13, E33); dispersión por aire y salpicaduras (E13, E33); en pelargonio los síntomas aparecen todo el año en interior, peor en meses fríos bajo cristal (E13); periodo latente de unas 2 semanas o más, por lo que los esquejes infectados viajan sin síntomas (E13). Los pelargonios de hoja de hiedra no se ven afectados; Regal, perfumados y de hiedra son resistentes (E13, E33).",
+        "preguntas_confirmacion": [
+          "¿Al pasar un dedo o papel por el envés queda polvo naranja o marrón?",
+          "¿Las pústulas forman anillos concéntricos?",
+          "¿La planta es geranio zonal (no de hiedra) o fucsia?",
+          "¿Hay manchas amarillas pequeñas en el haz justo encima?",
+          "¿Las hojas han estado mojadas varias horas?",
+          "¿Es una planta nueva o un esqueje reciente (latencia de unas 2 semanas)?"
+        ],
+        "tratamiento": [
+          "1. Retirar pocas hojas afectadas al principio, embolsándolas; quitar muchas hojas puede hacer más daño que bien (E05); UConn y PNW recomiendan retirar todas las hojas infectadas y las plantas muy infectadas en bolsa de plástico porque las esporas se dispersan por el aire (E21, E33): en interior, con pocas plantas, retirar las afectadas sin deshojar la planta.",
+          "2. Regar en la base, no mojar el follaje, mejorar ventilación y espaciado, bajar la humedad (E13, E21).",
+          "3. Evitar el exceso de nitrógeno (E05).",
+          "4. Si continúa, bajo impacto: bicarbonato potásico registrado (dosis de referencia de un producto al 85 %: 1,5–6 g/L, con cobertura total, sin mezclar con acidificantes, E21) o azufre (listado en el Reino Unido para enfermedades de ornamentales, E31); cobre solo en productos profesionales (E21). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados se aplican con la planta en el balcón (R01).",
+          "5. Químico de aficionado en España: difenoconazol (producto doméstico nº de registro 25202; etiqueta por verificar, E32), aplicado cuando aparece la roya y repitiendo a intervalos de dos semanas, con 2–4 pulverizaciones por temporada (E21); la RHS desaconseja los fungicidas y, si se usan, de forma mínima y muy dirigida (E05). No usar miclobutanil ni mancozeb: no aprobados en la UE (E45, E47)."
+        ],
+        "tiempo_recuperacion": "Sin plazo explícito en las fuentes; evaluar ausencia de pústulas nuevas en hojas nuevas tras 2–4 semanas [estimación a partir del intervalo de E21].",
+        "cuando_descartar": "Si las plantas están muy infectadas y debilitadas, puede ser prudente desecharlas y empezar de nuevo (E13); destruir las plantas gravemente afectadas (E21); no compostar el material con esporas (E05).",
+        "plaga_o_enfermedad_ref": "roya (Puccinia pelargonii-zonalis / Pucciniastrum epilobii)"
+      },
+      {
+        "causa": "Edema / intumescencia",
+        "tipo": "riego",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media en geranio y suculentas de interior en invierno. Ampollas o bultos verde pálido a blancos en el envés que se vuelven marrones, costrosos o corchosos, sobre todo en hojas viejas, sin polvo que se desprenda (E22); Clemson: hinchazones corchosas en peciolos y envés por exceso de riego con poca luz; las hojas con edema no se recuperan (E01).",
+        "preguntas_confirmacion": [
+          "¿Los bultos son corchosos y no sueltan polvo?",
+          "¿Riegas mucho con poca luz o frío?"
+        ],
+        "tratamiento": [
+          "1. Más luz y menos riego (E01)."
+        ],
+        "tiempo_recuperacion": "Las hojas nuevas salen sanas; las viejas no se recuperan (E01).",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Cochinillas de escudo (Diaspididae / Coccidae) u otros insectos en el envés",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Probabilidad baja-media. El escudo se levanta entero con la uña y no es polvo; ver S30.",
+        "preguntas_confirmacion": [
+          "¿Se levanta como una costra entera con la uña?"
+        ],
+        "tratamiento": [
+          "1. Ver S30: retirada manual, aceite hortícola o jabón potásico listo para usar con repeticiones semanales 4–6 semanas."
+        ],
+        "tiempo_recuperacion": "Ver S30.",
+        "cuando_descartar": "Ver S30.",
+        "plaga_o_enfermedad_ref": "cochinilla de escudo (Coccus hesperidum / Saissetia coffeae / Diaspididae)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["E01", "E05", "E13", "E20", "E21", "E22", "E31", "E32", "E33", "E45", "E47", "R01"]
+  },
+  {
+    "id": "S36",
+    "nombre": "Raíces marrones o negras, blandas, que se deshacen y huelen mal (pudrición radicular)",
+    "como_se_ve": "Raíces oscuras, pastosas, flácidas, que se rompen con facilidad (E06), blandas y marrones con mal olor (E26); al tirar suavemente, la corteza se desliza y deja un hilo central (cola de rata: núcleos finos y fibrosos, E23; una hebra de tejido vascular, E30); puntas de raíz muertas (E30, E46); base del tallo blanda, marrón o agrietada (E01, E23, E46); en Phytophthora las raíces finas han desaparecido y el cuello muestra decoloración parda o negra bajo la corteza, a menudo en V invertida (E07, E12); en Rhizoctonia tejido más seco, pardo, con crecimiento fúngico pardo-rojizo como telarañas (E07, E29); en Thielaviopsis pudrición muy negra (E29); en Fusarium base del tallo blanda con decoloración rojiza o púrpura (E19). Parte aérea: marchitez con el sustrato húmedo que no se recupera al regar, amarilleo, enanismo, hojas rojizas o amarillas que parecen carencia, caída de hojas bajas (E07, E18, E26, E46). Referencia de raíz sana: blanca, entera o al menos bajo su cubierta exterior (E46), firme, con puntas vivas y pelos radiculares; la corteza no se desprende (E16, E23, E30).",
+    "donde_mirar": "Sacar la planta de la maceta para examinar las raíces (E46) y hacerlo siempre que haya marchitez (E46); mirar primero las puntas de raíz y las raíces finas (E12, E30, E46); revisar la base del tallo y el cuello (E01, E23); oler (E26); tirar suavemente de una raíz oscura para ver si la corteza se desliza (E07, E16, E23, E30); comprobar si el sustrato está encharcado, hay platillo con agua o la maceta no tiene agujeros (E06, E26, E46). El género exacto solo se confirma en laboratorio: los síntomas de pudrición radicular son sorprendentemente parecidos sea cual sea el patógeno (E23, E30).",
+    "urgencia": "alta",
+    "causas": [
+      {
+        "causa": "Pudrición radicular por oomicetos (Pythium spp. / Phytophthora spp.)",
+        "tipo": "enfermedad",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si hay raíces empapadas, oscuras, con corteza que se desliza, sustrato muy húmedo y riego frecuente (E07, E26, E30). Pudrición húmeda marrón oscura a negra que ablanda y desintegra las raíces (E29); corteza que se desliza dejando un hilo central (E07, E30); Phytophthora ataca puntas y cuello con pérdida de raíces finas (E07, E12); el género exacto solo se confirma en laboratorio (E23, E30). Favorecida por sustrato que permanece húmedo, sales solubles altas, macetas sin drenaje o con platillo lleno, riego frecuente y sustrato de mala calidad (E06, E26, E30); la enfermedad puede desarrollarse tras solo 4–8 horas de saturación del sustrato (E18); los mosquitos del sustrato pueden ser vectores de Pythium (E30); contamina sustratos y se transmite por herramientas sucias (E30). Puede afectar a casi todas las plantas de interior (E16, E26): Aglaonema, Peperomia, Philodendron, potos, suculentas, Dracaena fragrans, Nephrolepis, Anthurium (E34); orquídea, aloe, poinsettia, prímula (E07); Kalanchoe (E11); Dieffenbachia (E19).",
+        "preguntas_confirmacion": [
+          "¿El sustrato está húmedo o encharcado y la planta está marchita igualmente?",
+          "¿La maceta tiene agujeros y no hay agua en el platillo?",
+          "¿Al tirar de una raíz oscura se queda un hilo central?",
+          "¿Huele a podrido?",
+          "¿Riegas con frecuencia fija sin comprobar la humedad?",
+          "¿Hay mosquitos del sustrato?",
+          "¿Reutilizaste sustrato o maceta sin limpiar?"
+        ],
+        "tratamiento": [
+          "1. Sacar la planta, lavar las raíces y cortar con tijera desinfectada (lejía al 10 % o alcohol, E26; alcohol al 70 %, E46) todas las raíces oscuras y blandas hasta tejido blanco y firme; si solo unas pocas raíces están infectadas, cortarlas y trasplantar en sustrato estéril (E01).",
+          "2. Trasplantar a maceta limpia (preferible nueva; no reutilizar las de plástico, E26) con agujeros y sin grava en el fondo, que impide el drenaje (E26), con sustrato comercial pasteurizado nuevo, nunca tierra de jardín (E07, E26).",
+          "3. Regar solo lo necesario, dejar secar los centímetros superiores, no regar en exceso, no dejar la maceta en agua (E18, E26, E46); buena aireación y drenaje, lixiviar sales periódicamente (E46).",
+          "4. Aislar de otras plantas (E07).",
+          "5. No abonar hasta la recuperación: el exceso de sales daña las puntas radiculares y favorece Pythium (E30); controlar los mosquitos del sustrato (E30).",
+          "6. Biológico preventivo: Trichoderma harzianum o Gliocladium virens dan cierta protección con presión de enfermedad baja, pero el exceso de riego o de abono reduce su eficacia (E30).",
+          "7. Químico: no recomendado para plantas de interior (E26); probablemente cuesta más que una planta nueva (E01); la RHS no conoce tratamientos químicos para aficionados contra Phytophthora (E12). Si se quiere en ornamentales herbáceas en el balcón: fosetil-aluminio 80 % autorizado para jardinería exterior doméstica y uso no profesional contra Phytophthora al 0,1–0,13 %, máximo 3 aplicaciones con intervalo de 28 días, aplicado con regadera (ficha oficial nº 15907; vigencia posterior a 30/04/2023 sin verificar, E41); el propamocarb está aprobado en la UE (E49) pero sin producto español de uso no profesional verificado. Nunca bicarbonato, agua oxigenada ni canela: sin apoyo en las fuentes prioritarias (E40, E50).",
+          "8. Rescate alternativo: tomar esquejes de tallo solo de tejido sano (E07)."
+        ],
+        "tiempo_recuperacion": "Ninguna fuente de extensión da plazo [laguna]; observar que no sigan muriendo hojas y que aparezcan raíces blancas nuevas; mantener el sustrato apenas húmedo mientras tanto (E26). Si tras el trasplante no hay hojas nuevas ni firmeza en varias semanas y el tallo sigue blando, descartar [estimación].",
+        "cuando_descartar": "Si la mayoría de las raíces están oscuras, blandas y muertas (E01); planta gravemente infectada (E07, E16); cuello o base del tallo blando y anillado (E01, E07, E29); plantas que no se recuperan al regar y siguen decayendo (E18); las plantas rara vez se recuperan y es mejor eliminarla para evitar la propagación (E06); descartar es a menudo la opción mejor y más rentable (E26).",
+        "plaga_o_enfermedad_ref": "pudrición radicular (Pythium / Phytophthora)"
+      },
+      {
+        "causa": "Asfixia radicular por encharcamiento sin patógeno (exceso de riego, drenaje nulo)",
+        "tipo": "riego",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta como causa primaria: la RHS señala que el encharcamiento causa un daño radicular similar y hace falta laboratorio para distinguirlo (E12); Clemson: el amarilleo general suele deberse al exceso de riego (E01); las bases de tallo blandas indican normalmente exceso de riego (E46). En la práctica se maneja igual; si las raíces están marrones pero firmes y sin olor y hay agua estancada, el primer paso es corregir riego y drenaje (E01, E46).",
+        "preguntas_confirmacion": [
+          "¿La maceta no tiene agujeros o el platillo está lleno?",
+          "¿El sustrato es compacto y no se seca en 1–2 semanas?"
+        ],
+        "tratamiento": [
+          "1. Pasos 1–3 de la causa anterior: cortar lo podrido, trasplantar a sustrato nuevo con drenaje y reducir el riego; proporcionar drenaje y regar menos (E01, E26, E46)."
+        ],
+        "tiempo_recuperacion": "Sin dato en las fuentes [estimación: semanas, valorando por raíces y hojas nuevas].",
+        "cuando_descartar": "Igual que en la causa anterior: mayoría de raíces muertas o cuello anillado (E01).",
+        "plaga_o_enfermedad_ref": "pudrición radicular (Pythium / Phytophthora)"
+      },
+      {
+        "causa": "Podredumbre de cuello o tallo por Rhizoctonia solani o Fusarium spp.",
+        "tipo": "enfermedad",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media si la pudrición es más seca, parda, con chancro a nivel de suelo (Rhizoctonia, E07, E20, E29) o con base de tallo blanda rojiza o púrpura (Fusarium, E19). Rhizoctonia: pudrición más seca de raíz o tallo, tejidos marrones o tostados, chancros en la línea del suelo, telarañas pardo-rojizas (E07, E29); en fucsia las bases de tallo se secan y deshilachan (E20). Fusarium: decoloración rojiza o púrpura y a veces cuerpos fructíferos rojos (E19). Los fungicidas para unos no sirven para otros (E30).",
+        "preguntas_confirmacion": [
+          "¿La base del tallo está seca y deshilachada (Rhizoctonia) o blanda y rojiza (Fusarium)?",
+          "¿Hay hilos pardo-rojizos como telaraña en la base?"
+        ],
+        "tratamiento": [
+          "1. Igual que los pasos 1–5 de la causa principal (cortar, trasplantar a sustrato desinfectado, reducir riego, aislar, no abonar); en fucsia con Rhizoctonia, plantar en sustrato desinfectado (E20).",
+          "2. En Fusarium, retirar las plantas infectadas en cuanto se detecte y no reutilizar el sustrato ni la maceta (E19)."
+        ],
+        "tiempo_recuperacion": "Sin dato en las fuentes [estimación: semanas a meses].",
+        "cuando_descartar": "Fusarium confirmado o sospechado con la base del tallo podrida: descartar (E19); planta anillada en el cuello (E01).",
+        "plaga_o_enfermedad_ref": "pudrición radicular y de cuello (Rhizoctonia solani / Fusarium spp.)"
+      },
+      {
+        "causa": "Podredumbre blanda bacteriana (Erwinia / Pectobacterium) de tallo y base",
+        "tipo": "enfermedad",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media en aráceas (Dieffenbachia, Aglaonema, Syngonium) y suculentas con tejido blando, acuoso, con olor a pescado (E19, E46). Olor a podrido y pescado (E19) o desagradable (E46); tejido acuoso que se deshace y deja agujeros, sin pelusa ni telarañas (E19); especialmente agudo en meses cálidos con humedad alta; persiste en suelo no estéril (E19).",
+        "preguntas_confirmacion": [
+          "¿Huele claramente a pescado o podrido?",
+          "¿La pudrición está en tallo y hojas bajas y avanza rápido con calor y humedad?"
+        ],
+        "tratamiento": [
+          "1. No hay cura química: ningún producto cura una infección por Erwinia ya establecida; el cobre solo frena su propagación (E19).",
+          "2. Retirar y desechar el tejido y las plantas afectadas; cuidar la higiene de manos y herramientas (E46).",
+          "3. Tomar esquejes solo de tejido sano (E07)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "De inmediato si el tallo principal está afectado: desechar las plantas infectadas suele ser la mejor opción (E19, E46).",
+        "plaga_o_enfermedad_ref": "podredumbre blanda bacteriana (Pectobacterium carotovorum)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["E01", "E06", "E07", "E11", "E12", "E16", "E18", "E19", "E20", "E23", "E26", "E29", "E30", "E34", "E40", "E41", "E46", "E49", "E50"]
+  }
+]

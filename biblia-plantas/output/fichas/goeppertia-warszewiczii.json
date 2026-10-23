@@ -1,0 +1,162 @@
+{
+  "nombre_cientifico": "Goeppertia warszewiczii",
+  "nombres_comunes": ["calathea warscewiczii", "calathea jungle velvet", "calathea warszewiczii", "calathea aterciopelada"],
+  "familia": "Marantaceae",
+  "origen": "América Central: POWO (Kew) la da como nativa de Costa Rica, El Salvador, Honduras, Nicaragua y Panamá, igual que NC State. Nombre aceptado en POWO: Goeppertia warszewiczii (Lem.) Borchs. & S.Suárez (2012); hasta entonces se llamaba Calathea warszewiczii (Lem.) Planch. & Linden. Sinónimos heterotípicos según POWO: Calathea picta Hook.f., Maranta picta W.Bull y Calathea bullii K.Schum. El epíteto homenajea a Józef Warszewicz, colector polaco del siglo XIX que la introdujo en cultivo en Berlín (NC State). En el comercio aparece a menudo escrita 'warscewiczii' y como 'Jungle Velvet'.",
+  "clima_nativo": "Sotobosque de bosque tropical de América Central, cálido y húmedo todo el año, sin heladas (NC State: climas cálidos y húmedos de Costa Rica y Nicaragua). Zonas USDA 11a-12b (NC State). En Europa solo es planta de interior todo el año.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Hojas simples, grandes, ovadas a oblongo-lanceoladas con punta aguda: las basales miden 18-46 cm de largo y 10-20 cm de ancho y las de los tallos 8-36 × 5-15 cm (NC State: 7-18 in × 4-8 in y 3-14 in × 2-6 in). Rasgo clave para visión: haz de textura ATERCIOPELADA, suave y mate, verde muy oscuro, con un dibujo verde claro en espiga o 'pluma de pavo real' que nace del nervio central y se abre hacia el margen (NC State). Margen ondulado o rizado (NC State: 'ruffled and wavy'). Envés morado intenso cubierto de pelos lanosos densos (NC State). Pecíolos largos verde-purpúreos (NC State). Comportamiento normal: al anochecer las hojas se elevan y se pliegan y por la mañana se abren (nictinastia de la familia Marantaceae, RHS guía); en fotos nocturnas puede verse el envés morado, y no es un síntoma.",
+    "nerviacion": "Pinnada: nervio central marcado del que parten nervios laterales paralelos y oblicuos; el dibujo verde claro sigue el nervio central y se ramifica a lo largo de los laterales en forma de pluma (NC State).",
+    "variegacion": "Dibujo natural de la especie, no variegación de cultivar: fondo verde oscuro con espiga verde claro a lo largo del nervio central y envés morado (NC State). El dibujo se apaga con poca luz y el sol directo quema la hoja (NC State).",
+    "tallo": "Planta rizomatosa en mata; las hojas salen del suelo sobre pecíolos largos verde-purpúreos y algunas hojas se forman sobre tallos cortos (NC State distingue hojas basales y caulinares).",
+    "habito": "Herbácea perenne siempreverde, rizomatosa, erguida y densa (NC State). A diferencia de casi todas las calatheas, puede florecer en interior (NC State): inflorescencia terminal de 6-9 cm de largo y 2,5-5 cm de ancho, formada por 4-16 brácteas en espiral con flores tubulares que salen blanco crema, pasan a amarillentas y acaban rosadas, sobre un pedúnculo verde y peludo de 5-10 cm (NC State). Fruto en cápsula ovoide blanco crema de unos 2,5 cm (NC State).",
+    "tamano_adulto_interior": "50-120 cm de alto y de ancho (NC State: 1 ft 8 in-4 ft, 'hasta 3-4 ft'). Es una de las calatheas más grandes del comercio y se usa como planta de suelo.",
+    "confusiones": [
+      {"especie": "Goeppertia zebrina (calathea cebra)", "rasgo_diferenciador": "También tiene hoja aterciopelada y envés púrpura, pero su dibujo son bandas alternas regulares verde oscuro y verde lima que van del nervio central hasta el margen siguiendo los nervios laterales, y el margen es entero (NC State, ficha G. zebrina). G. warszewiczii tiene fondo verde muy oscuro con una sola espiga verde claro en pluma alrededor del nervio central, margen ondulado-rizado y envés morado con pelos lanosos densos (NC State)."},
+      {"especie": "Goeppertia makoyana (calathea pavo real)", "rasgo_diferenciador": "Hojas finas, lisas y algo translúcidas, verde claro con un dibujo de óvalos oscuros a lo largo de los nervios; no son aterciopeladas. G. warszewiczii tiene hoja gruesa, aterciopelada y verde muy oscuro (NC State la cita como planta de nicho similar). [orientativo, sin fuente prioritaria para la comparación]"},
+      {"especie": "Goeppertia rufibarba (calathea 'Furry Feather')", "rasgo_diferenciador": "Comparte el tacto aterciopelado (RHS guía), pero sus hojas son estrechas, lanceoladas y de margen muy ondulado, verdes lisas sin dibujo en espiga y con envés granate. G. warszewiczii tiene hojas anchas y ovadas con espiga verde claro. [orientativo, sin fuente prioritaria para la comparación]"},
+      {"especie": "Goeppertia orbifolia", "rasgo_diferenciador": "Hojas casi redondas, lisas y brillantes, con bandas plateadas anchas paralelas a los nervios laterales sobre verde medio; no es aterciopelada ni tiene envés morado intenso (NC State la cita como planta de nicho similar)."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos: la ASPCA clasifica Calathea spp. (a nivel de género) como 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses' y NC State etiqueta G. warszewiczii como no tóxica para perros y gatos. No se describe ningún principio tóxico. Que no sea tóxica no significa que sea comestible: si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En niños no hay fuente fiable específica; ante una ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": ["F6", "F1"],
+    "notas": "Perros y gatos: confianza Alta (ASPCA a nivel de género Calathea spp.; NC State a nivel de especie). La ASPCA no tiene entrada propia para Calathea warszewiczii. Niños: no se encontró ninguna fuente prioritaria ni de centro toxicológico para esta especie, por eso se marca 'desconocida' en lugar de suponer la no toxicidad del género (mismo criterio que el resto de Goeppertia del proyecto)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "media",
+      "lux_min": 1076,
+      "lux_max": 5380,
+      "orientacion_hn": "Junto a una ventana norte o este luminosa, o a 1,5-2 m de una ventana sur u oeste con cortina fina. La guía RHS de calatheas sugiere ventana norte o este en verano y acercarla a una ventana sur en invierno, cuando la luz es más débil. En Madrid, mantener cortina fina en ventanas sur y oeste incluso en invierno.",
+      "tolera_sol_directo": "No. El sol directo quema las hojas (NC State: 'leaf scorch can occur from too much direct sunlight'); la guía RHS pide un sitio luminoso protegido del sol directo.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"],
+      "notas": "NC State pide luz brillante indirecta y la clasifica en semisombra. UF/IFAS EP285 da para el género en interior una tolerancia mínima de 75 fc (≈800 lux) y un óptimo de 150-200 fc (≈1600-2150 lux), dentro de la luz media de la escala del proyecto (100-500 fc). Se fija lux_min = 100 fc (1076 lux) y lux_max = 500 fc (5380 lux) como rango de mantenimiento, igual que G. zebrina y G. makoyana; puede recibir algo más de luz siempre que sea sin sol directo. Con poca luz el dibujo se apaga (NC State) y el crecimiento es débil, sobre todo en Goeppertia (RHS guía). Los datos en lux son del género, no de la especie."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese menos que recién regada; el resto del cepellón debe seguir algo húmedo. Sustrato húmedo pero nunca encharcado (NC State: evitar suelos mojados o empapados; UF/IFAS EP285: dejar secar ligeramente la superficie antes de regar). Regar a fondo hasta que drene y vaciar plato o cubremacetas a los 10-15 minutos: con las raíces en agua se pudren con facilidad (RHS guía). Regar al sustrato, sin mojar las hojas, porque el agua sobre el follaje favorece la mancha foliar (NC State). Nunca por calendario.",
+      "primavera_verano": "Mantener el sustrato uniformemente húmedo (RHS guía). Comprobar dedo y peso con frecuencia: en Madrid en verano puede necesitar agua cada 2-4 días según maceta y exposición. Las hojas enrolladas avisan de falta de agua o de humedad (NC State).",
+      "otono_invierno": "Dejar secar la superficie del sustrato antes de volver a regar, sin que el cepellón se seque del todo (RHS guía). Con calefacción el sustrato puede secarse rápido: guiarse por dedo y peso. El sustrato demasiado húmedo en invierno favorece el edema (RHS guía).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua a temperatura ambiente. Es sensible a las sales: en interior la conductividad del sustrato debería estar en 1,0-1,5 dS/m y el exceso de abono (sobre todo manganeso) o un pH bajo causan necrosis de puntas y márgenes en el género (UF/IFAS EP285); lavar el sustrato con un riego abundante cada pocos meses para arrastrar sales de abono. NC State recomienda agua destilada o de lluvia por el flúor del agua del grifo, pero el agua del Canal de Isabel II tiene fluoruro <0,1 mg/L y es blanda (10-47 mg/L CaCO3): es apta y no es la causa de las puntas marrones en Madrid. Dejar reposar el agua no elimina la cloramina del Canal, y tampoco hace falta.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"],
+      "notas": "Intolerante al encharcamiento y a la sequía: el exceso de riego causa pudrición de raíz (NC State) y la falta de agua, hojas enrolladas (NC State). El exceso de riego es la causa nº 1 de muerte. Una planta lacia puede serlo por sequía o por raíces enfermas (UF/IFAS EP285): si está lacia con el sustrato húmedo, no regar y revisar raíces. Contradicción con las convenciones del proyecto: NC State atribuye bordes y puntas marrones al flúor del agua del grifo y la guía RHS dice que dejar reposar el agua 24 h elimina el cloro; en Madrid no aplica ninguna de las dos (fluoruro <0,1 mg/L, desinfección con cloramina)."
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 70,
+      "notas": "Muy exigente en humedad: NC State pide una humedad relativa 'por encima del 60 %' para esta especie, y la guía RHS dice que las calatheas disfrutan de humedad alta. UF/IFAS EP285 indica que en interior el género conserva su aspecto con 40-60 %, pero se adopta el 60 % de NC State, la cifra de especie y la más conservadora (mismo criterio que G. zebrina); ideal 60-70 %, que en Madrid casi solo se logra con humidificador. Con humedad baja se secan puntas y bordes (NC State, RHS guía) y las hojas se enrollan (NC State). Pulverizar no sube la humedad de forma útil (convención del proyecto, aunque la guía RHS lo mencione) y mojar las hojas favorece la mancha foliar (NC State): usar humidificador o agrupar plantas. La bandeja con grava húmeda (NC State, RHS guía) aporta poco con calefacción. Un baño luminoso es buena ubicación (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 18-24 °C: NC State pide para esta especie una temperatura estable de 65-75 °F (18-24 °C). La guía RHS de calatheas da 16-21 °C y UF/IFAS EP285 18-27 °C en interior para el género, con daño por frío por debajo de 55 °F (13 °C). Mínimo: se adopta 16 °C, el más alto de los mínimos de daño o límite inferior (RHS guía), igual que G. orbifolia, G. roseopicta, G. zebrina y G. lancifolia; los 18 °C de NC State son el límite inferior del rango recomendado, no un umbral de daño. Máximo: no hay dato de especie; UF/IFAS produce el género a 21-32 °C pero con 50-100 % de humedad, imposible en casa; se fija 30 °C como límite práctico con aire seco [orientativo, sin fuente prioritaria]. Evitar cambios bruscos y corrientes frías (NC State, RHS guía), radiadores y fuentes de calor directo (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato a base de turba (o fibra de coco), húmedo pero bien drenado, con perlita y vermiculita para mejorar el drenaje y evitar que se encharque (NC State). La guía RHS propone compost para plantas de interior sin turba o compost universal con un 10 % de grava fina. En producción se usa turba, corteza de pino, vermiculita y/o perlita (UF/IFAS EP285).",
+      "ph": "Ácido a neutro, en torno a 6,0 (NC State: ácido <6,0 a neutro; UF/IFAS EP285: pH ~6,0 en producción del género)",
+      "drenaje": "Imprescindible maceta con agujeros de drenaje y sustrato húmedo pero bien drenado (NC State; RHS guía: 'free-draining, moisture-retentive'). Un sustrato siempre mojado provoca pudrición de raíz (NC State).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (NC State; RHS guía: abono líquido universal o equilibrado para plantas de interior) o de relación N-P2O5-K2O 3-1-2 (UF/IFAS EP285, género).",
+      "npk": "Equilibrado o relación 3-1-2 (UF/IFAS EP285)",
+      "primavera_verano": "Una vez al mes en temporada de crecimiento, primavera y verano (NC State; RHS guía: de abril a septiembre), a ¼-½ de la dosis de la etiqueta (convención del proyecto). Si al trasplantar se mezcló abono de liberación lenta, no hace falta abono líquido el primer año (RHS guía).",
+      "otono_invierno": "Nada de octubre a marzo (RHS guía).",
+      "notas": "Sensible al exceso de sales: el abono excesivo, sobre todo con manganeso alto, y un pH bajo causan necrosis de puntas y márgenes; el exceso de potasio da manchas y colores apagados (UF/IFAS EP285, a nivel de género). Mejor quedarse corto que pasarse.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, cuando la mata llena la maceta (RHS guía: cada pocos años). Una planta recién comprada puede seguir en su maceta la primera temporada (RHS guía).",
+      "epoca": "Primavera o verano (RHS guía); en Madrid, mejor de abril a junio, antes del calor fuerte.",
+      "senales": "Mata que ocupa toda la maceta, raíces saliendo por el drenaje, sustrato que se seca muy rápido o crecimiento estancado. Usar una maceta solo 1-2 tallas mayor (RHS guía).",
+      "confianza": "Media",
+      "fuentes": ["F3"]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS guía, nivel de grupo).",
+      "epoca": "Todo el año, a medida que aparezcan hojas secas.",
+      "como": "Cortar las hojas muertas o marrones y los pecíolos secos a ras del sustrato con tijeras limpias (RHS guía). Limpiar el polvo de las hojas con un paño limpio y húmedo, con suavidad para no dañar el terciopelo, porque el polvo reduce la fotosíntesis (NC State). Las plantas altas pueden necesitar tutor ocasionalmente (RHS guía).",
+      "confianza": "Media",
+      "fuentes": ["F3", "F1"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño a finales de invierno en el hemisferio norte (octubre a marzo); en Madrid, mientras los días son cortos.",
+      "cambios": "No es un reposo verdadero: no pierde hojas ni necesita frío. Mantener el sustrato solo ligeramente húmedo, suspender el abono (RHS guía; NC State solo abona en primavera y verano) y mantener la temperatura por encima de 16 °C y la humedad lo más alta posible.",
+      "confianza": "Media",
+      "fuentes": ["F3", "F1"]
+    },
+    "propagacion": {
+      "metodos": ["división de la mata (rizomas)"],
+      "epoca": "Primavera (RHS guía); en Madrid, de abril a junio.",
+      "pasos": "1) Sacar la planta de la maceta y retirar con cuidado el sustrato. 2) Separar o cortar el rizoma con un cuchillo limpio en trozos con raíces y varias hojas cada uno (RHS guía; UF/IFAS EP285: al menos una hoja por trozo). 3) Plantar cada trozo en una maceta proporcionada con sustrato nuevo. 4) Mantener las divisiones cálidas, con humedad alta y el sustrato húmedo pero no encharcado hasta que vuelvan a crecer (RHS guía); se puede cubrir con una bolsa transparente ventilada. Es normal que alguna hoja se seque tras la división. NC State indica que la división es el mejor método para esta especie; en la práctica comercial casi toda la producción viene de cultivo in vitro (UF/IFAS EP285).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S05", "causa_habitual_en_esta_especie": "Aire seco: es la causa principal de puntas marrones en esta especie, que pide más del 60 % de humedad (NC State, RHS guía), sobre todo con calefacción en invierno y con el calor seco del verano en Madrid. También sales de abono acumuladas o abono excesivo (UF/IFAS EP285) y riego irregular. No atribuirlo al cloro ni al flúor del agua del grifo de Madrid."},
+    {"sintoma_id": "S06", "causa_habitual_en_esta_especie": "Bordes marrones por humedad baja (NC State, RHS guía), radiadores o aire acondicionado cercanos, y exceso de abono o pH bajo (UF/IFAS EP285). NC State cita el flúor del agua del grifo, que no aplica al agua del Canal de Isabel II (fluoruro <0,1 mg/L)."},
+    {"sintoma_id": "S09", "causa_habitual_en_esta_especie": "Hojas enrolladas por falta de agua o humedad baja (NC State). Que las hojas se eleven y plieguen al anochecer es la nictinastia normal de la familia (RHS guía), no un síntoma."},
+    {"sintoma_id": "S08", "causa_habitual_en_esta_especie": "Sequía del cepellón o raíces enfermas por exceso de riego (UF/IFAS EP285, NC State). Si está lacia con el sustrato húmedo, sospechar pudrición radicular."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o agua en el plato (NC State, RHS guía)."},
+    {"sintoma_id": "S14", "causa_habitual_en_esta_especie": "Manchas foliares favorecidas por mala ventilación o por mojar el follaje al regar (NC State). Regar al sustrato; en hojas aterciopeladas el agua tarda en secarse."},
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Sol directo: quema las hojas (NC State). Frecuente en ventanas sur y oeste de Madrid sin cortina."},
+    {"sintoma_id": "S19", "causa_habitual_en_esta_especie": "El dibujo verde claro en espiga se apaga por falta de luz (NC State); un exceso de potasio también apaga el color en el género (UF/IFAS EP285)."},
+    {"sintoma_id": "S16", "causa_habitual_en_esta_especie": "Crecimiento débil y pobre con poca luz, especialmente en Goeppertia (RHS guía)."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco (NC State la cita entre las plagas a vigilar; RHS guía: punteado, amarilleo y telaraña fina)."},
+    {"sintoma_id": "S23", "causa_habitual_en_esta_especie": "Punteado amarillento o plateado por araña roja (RHS guía; NC State)."},
+    {"sintoma_id": "S29", "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State; RHS guía)."},
+    {"sintoma_id": "S30", "causa_habitual_en_esta_especie": "Cochinillas de escudo en pecíolos y nervios (NC State; RHS guía: cochinilla blanda)."},
+    {"sintoma_id": "S27", "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State lo cita entre las plagas a vigilar)."},
+    {"sintoma_id": "S26", "causa_habitual_en_esta_especie": "Negrilla sobre la melaza de cochinillas algodonosas o de escudo (RHS guía)."},
+    {"sintoma_id": "S31", "causa_habitual_en_esta_especie": "Mosquitos del sustrato por sustrato rico en turba siempre mojado (RHS guía): regar menos y dejar secar la superficie."},
+    {"sintoma_id": "S13", "causa_habitual_en_esta_especie": "Zonas empapadas de agua en la hoja por edema, sobre todo en invierno con el sustrato demasiado húmedo (RHS guía)."},
+    {"sintoma_id": "S12", "causa_habitual_en_esta_especie": "Muy sensible al frío y a los cambios bruscos de temperatura (NC State; RHS guía); un transporte frío tras la compra en otoño-invierno daña las hojas (RHS guía; UF/IFAS EP285: daño por frío bajo 13 °C)."},
+    {"sintoma_id": "S01", "causa_habitual_en_esta_especie": "Clorosis por falta de abono (sobre todo nitrógeno y hierro), exceso de riego o luz demasiado alta (UF/IFAS EP285, género)."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en el exterior y aire muy seco (HR ≈38 % en julio), es de las plantas de interior que peor lo llevan. Nada de sol directo: en ventanas sur y oeste, retirarla a 1,5-2 m o poner cortina fina; una ventana este o norte es lo ideal (RHS guía). Mantener la habitación por debajo de unos 28-30 °C si es posible, sin chorro directo del aire acondicionado (NC State: evitar corrientes frías y cambios bruscos). Humidificador hacia el 60-70 % (NC State: más del 60 %) y agrupar plantas; pulverizar no sirve. Comprobar dedo y peso cada 2-3 días: dejar secar el cepellón enrolla las hojas y seca bordes y puntas. Vigilar araña roja en el envés, que prolifera con aire seco y calor.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, muy lejos del 60 % que pide (NC State): es la causa principal de bordes y puntas marrones en Madrid, no el agua del grifo. Humidificador cerca de la planta (objetivo 60 %), agrupar plantas y apartarla al menos 1-1,5 m de radiadores y salidas de aire caliente (RHS guía). Mantenerla siempre por encima de 16 °C y con temperatura estable: de noche los cristales se enfrían, así que no dejar que las hojas toquen el vidrio ni ponerla en el alféizar. Al comprarla en invierno, transportarla bien envuelta (RHS guía). Sustrato solo ligeramente húmedo y sin abono de octubre a marzo, pero con calefacción fuerte puede secarse rápido: mirar dedo y peso. Puede acercarse algo a la ventana por la menor luz (RHS guía), con cortina fina en ventanas sur.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana este o norte, o un baño con ventana y buena luz (RHS guía: baños y cocinas son las estancias más húmedas), lejos de radiadores, aire acondicionado y puertas con corriente. Por su tamaño (hasta 1-1,2 m, NC State) suele ir en el suelo; mejor agrupada con otras tropicales y con un humidificador cerca."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO (Kew) acepta Goeppertia warszewiczii (Lem.) Borchs. & S.Suárez (Syst. Bot. 37: 635, 2012). Sinónimos homotípicos: Calathea warszewiczii (Lem.) Planch. & Linden y Maranta warszewiczii Lem.; heterotípicos: Calathea picta Hook.f., Maranta picta W.Bull, Calathea bullii K.Schum. y la variante ortográfica Maranta warscewiczii. EPPO (código CBAWA) cita el autor del basiónimo como Planchon en lugar de Lemaire; se sigue POWO. En el comercio se escribe a menudo 'warscewiczii'.",
+    "La ficha RHS de la especie (Goeppertia warszewiczii, id 523277) solo da datos botánicos (nombre correcto, América Central); no trae datos de cultivo, rusticidad ni tamaño. Los datos RHS de cultivo proceden de la guía de grupo 'How to grow calatheas'.",
+    "Solo NC State da datos de cultivo a nivel de especie. Luz en lux, conductividad, pH, temperatura máxima y daño por frío proceden de UF/IFAS EP285 a nivel de género; trasplante, poda y reposo solo de la guía RHS a nivel de grupo (confianza Media).",
+    "Temperatura máxima tolerable: sin dato de especie ni de fuente prioritaria para interior; 30 °C es orientativo.",
+    "Toxicidad: ASPCA solo tiene ficha a nivel de género (Calathea spp.); sin fuente prioritaria para niños.",
+    "Confusiones con G. makoyana y G. rufibarba: la comparación morfológica no tiene fuente prioritaria que compare ambas especies directamente."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/goeppertia-warszewiczii/", "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Goeppertia warszewiczii (Jungle Velvet Calathea)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://www.rhs.org.uk/plants/523277/goeppertia-warszewiczii/details", "institucion": "Royal Horticultural Society (RHS) – ficha Goeppertia warszewiczii (solo datos botánicos)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://www.rhs.org.uk/plants/calathea/how-to-grow-calatheas", "institucion": "Royal Horticultural Society (RHS) – guía 'How to grow calatheas' (nivel de grupo)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://edis.ifas.ufl.edu/publication/EP285", "institucion": "UF/IFAS Extension – EDIS EP285 'Cultural Guidelines for Commercial Production of Interiorscape Calathea' (University of Florida; nivel de género)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77130098-1", "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/Calathea", "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (Calathea spp.)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://gd.eppo.int/taxon/CBAWA", "institucion": "EPPO Global Database – Goeppertia warszewiczii (CBAWA)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

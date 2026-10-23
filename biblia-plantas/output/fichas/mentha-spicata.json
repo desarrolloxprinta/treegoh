@@ -1,0 +1,325 @@
+{
+  "nombre_cientifico": "Mentha spicata",
+  "nombres_comunes": [
+    "menta",
+    "hierbabuena",
+    "menta verde",
+    "menta romana"
+  ],
+  "familia": "Lamiaceae",
+  "origen": "Europa a China (POWO: nativa de Europa central y meridional, Mediterráneo oriental, Oriente Próximo, Asia central, Himalaya y sur de China); naturalizada en América, norte de África y otras regiones (NC State, POWO).",
+  "clima_nativo": "Templado: prados húmedos y orillas de charcas, lagos y arroyos (NC State). Herbácea perenne rizomatosa que pierde la parte aérea en invierno y rebrota en primavera (RHS). Muy rústica en suelo: zonas USDA 4a-9b (NC State), resiste unos -29 °C en tierra (Utah State).",
+  "categoria": "aromatica",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, opuestas, lanceoladas a ovadas, de 2,5-7,5 cm de largo y menos de 2,5 cm de ancho, casi sentadas (sin peciolo o con uno muy corto), con margen aserrado y punta aguda. Haz verde medio, más claro que la menta piperita, arrugado a lo largo de los nervios; envés verde pálido. Casi lampiñas. Olor mentolado dulce al frotarlas (NC State, Maryland).",
+    "nerviacion": "Pinnada, con los nervios hundidos en el haz que dan el aspecto rugoso o 'abollonado' de la lámina (NC State).",
+    "variegacion": "Ninguna en la especie tipo. Existen cultivares de hoja rizada ('Crispa') que no son variegados.",
+    "tallo": "De sección cuadrada, aromático, verde (sin el tono rojizo-púrpura típico de la piperita), lampiño o algo peloso; enraiza en los nudos al tocar el suelo. Se extiende con rizomas y estolones (NC State, Maryland).",
+    "habito": "Herbácea perenne erguida y rastrera a la vez: matas de tallos erectos que se extienden de forma agresiva por rizomas. En verano saca espigas terminales densas de 2,5-15 cm con flores diminutas blancas, rosadas o lila (NC State). Pierde la parte aérea en invierno (RHS).",
+    "tamano_adulto_interior": "30-60 cm de alto y de ancho (NC State); en exterior en suelo húmedo puede llegar a 0,5-1 m (RHS). En maceta llena el contenedor en una temporada.",
+    "confusiones": [
+      {
+        "especie": "Mentha × piperita (menta piperita)",
+        "rasgo_diferenciador": "Hojas verde más oscuro, más lisas, con peciolo visible; tallos rojizos; olor más intenso y picante (mentol). La hierbabuena tiene hojas verde más claro, arrugadas, casi sentadas y un olor más dulce (Maryland, NC State)."
+      },
+      {
+        "especie": "Nepeta × faassenii (nébeda, hierba gatera)",
+        "rasgo_diferenciador": "Hojas gris verdosas, más pequeñas, con margen festoneado (dientes redondeados), muy pelosas, y flores lavanda más grandes en verticilos laxos. La hierbabuena es verde, casi lampiña y de margen aserrado (NC State la cita como confusión habitual)."
+      },
+      {
+        "especie": "Mentha pulegium (poleo)",
+        "rasgo_diferenciador": "Hojas mucho más pequeñas (1-2 cm), ovaladas, porte rastrero y flores en verticilos separados a lo largo del tallo, no en espiga terminal. Importante: RHS lo señala como dañino si se ingiere; comprar hierbabuena etiquetada en vivero de confianza."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Aceites esenciales (ASPCA, NC State).",
+    "sintomas": "Perros y gatos (ASPCA, género Mentha): vómitos y diarrea solo con ingestas grandes. Personas (NC State): toxicidad de gravedad baja; solo grandes cantidades pueden causar vómitos y diarrea; no produce dermatitis de contacto. Es una hierba culinaria: en niños el riesgo real es mínimo con las cantidades normales de uso en cocina.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F1"
+    ],
+    "notas": "ASPCA la lista como 'Mint, Mentha sp.' (todo el género). 'Tóxica' en sentido leve: la app debe hablar de molestias digestivas si un animal come mucha cantidad, no de intoxicación grave. No confundir con el poleo (Mentha pulegium), mucho más peligroso (RHS)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "En interior, alféizar orientado a sur (o oeste) con al menos 5-6 h de sol al día (Oklahoma State, RHS). En balcón o terraza: sol de mañana y sombra en las horas centrales del verano en Madrid. Ventana norte o interior de la habitación: insuficiente.",
+      "tolera_sol_directo": "Sí. Pleno sol (6 h o más) es lo ideal; tolera semisombra (2-6 h de sol) (NC State, RHS, Maryland, Utah State). En calor fuerte conviene moverla a un sitio con sombra parcial para que no se seque tan rápido (RHS).",
+      "notas": "Planta de luz directa: según la escala del proyecto, más de 1000 fc (más de 10 760 lux). Ninguna fuente da lux máximos. Con poca luz se ahíla (tallos largos y hojas pálidas) y pierde aroma. En interior sin ventana sur, una lámpara de cultivo LED puede suplir la falta de sol.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato uniformemente húmedo, sin encharcar (RHS). Comprobar con el dedo a 2-3 cm: regar en cuanto esa capa empiece a estar seca, sin esperar a que se seque toda la maceta; la maceta debe pesar poco antes de regar. Regar hasta que salga agua por los agujeros y vaciar el plato a los 15-30 minutos. Nunca por calendario.",
+      "primavera_verano": "Comprobar a diario en verano: en maceta se seca mucho más rápido que en tierra, sobre todo con calor y aire seco (RHS). En terraza en Madrid en julio puede necesitar riego diario o cada 1-2 días; en interior, cada 2-4 días según luz y tamaño de maceta.",
+      "otono_invierno": "Con la parte aérea en reposo, regar solo para que el cepellón no se seque del todo (el sustrato puede secarse en superficie). Si sigue creciendo en interior junto a una ventana soleada, mantener ligeramente húmedo y comprobar cada 3-5 días; no dejar agua en el plato (Oklahoma State).",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "El agua del grifo de Madrid (blanda, con cloramina) es adecuada; no hace falta dejarla reposar ni filtrarla. Agua a temperatura ambiente.",
+      "notas": "Prefiere suelo húmedo y le va mal el suelo seco (NC State), pero el exceso de agua favorece enfermedades de raíz y hoja (Utah State, Maryland) y la pudrición de raíz en interior (Oklahoma State). Sensibilidad al exceso 'media' porque tolera humedad constante si la maceta drena.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da porcentajes. Oklahoma State indica que las hierbas en interior sufren con el aire seco de la calefacción y prefieren algo de humedad. Siguiendo la convención del proyecto: humidificador o agrupar plantas; pulverizar no sube la humedad de forma útil (aunque Oklahoma State lo menciona). El aire seco favorece la araña roja.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": null,
+      "max_c": null,
+      "ideal_min_c": 15.5,
+      "ideal_max_c": 21,
+      "notas": "Oklahoma State da 15,5-21 °C (60-70 °F) como ideal para hierbas en interior (dato general de hierbas, no específico de menta). En exterior y en suelo es muy rústica: zonas USDA 4a-9b (NC State), hasta unos -29 °C (Utah State); la parte aérea muere con el frío y rebrota de los rizomas. En maceta las raíces están más expuestas; ninguna fuente da el mínimo exacto en maceta. En ventanas de vidrio simple, que las hojas no toquen el cristal (Oklahoma State). Ninguna fuente da una máxima; con calor fuerte necesita más agua y algo de sombra (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F1",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal sin turba o sustrato a base de tierra (RHS), rico en materia orgánica y que retenga humedad pero drene (NC State). Opción práctica: sustrato universal de calidad con un 10-20 % de compost bien hecho. Maceta con agujeros, de 30-40 cm de diámetro para una mata que dure varios años (Maryland).",
+      "ph": "6,0-7,0 (rango conservador). NC State da 6,0-8,0; Utah State prefiere suelo ligeramente ácido.",
+      "drenaje": "Bueno pero no excesivamente rápido: debe mantener la humedad. Nada de agua estancada en el plato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ],
+      "notas": "Pequeña discrepancia de pH: NC State acepta hasta 8,0 y Utah State habla de suelo ligeramente ácido. Se recomienda el solape, 6,0-7,0."
+    },
+    "fertilizacion": {
+      "tipo": "Abono equilibrado (líquido para plantas verdes, o de liberación lenta). Poco nitrógeno extra: el exceso de abono reduce el aceite esencial (aroma) y favorece la roya y las podredumbres (Utah State, Maryland).",
+      "npk": "Equilibrado, tipo 16-16-16 (Utah State) o equivalente.",
+      "primavera_verano": "Una de dos: una única aplicación de abono de liberación lenta al rebrotar en primavera (Utah State, 1 cucharadita de 16-16-16 por planta en suelo), o abono líquido a ¼-½ de la dosis de la etiqueta una vez al mes mientras crece (de marzo-abril a septiembre en Madrid). En maceta, tras cada corte fuerte, la planta agradece la dosis mensual.",
+      "otono_invierno": "Nada en reposo. Si sigue creciendo en interior, solo abono líquido diluido y muy de vez en cuando (Oklahoma State).",
+      "notas": "Abonar de más da hojas grandes pero menos sabrosas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F8",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-3 años: trasplantar a maceta mayor o dividir la mata (RHS: cada pocos años). En maceta crece muy deprisa y la llena de rizomas.",
+      "epoca": "Primavera, antes de que empiece a crecer, o principios de otoño (RHS, Utah State). En Madrid: marzo o finales de septiembre-octubre.",
+      "senales": "Raíces y rizomas que salen por los agujeros o dan vueltas en la maceta, centro de la mata seco o sin brotes, se seca en pocas horas tras regar y pierde vigor (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí. La recolección es la poda: cortar a menudo mantiene la planta compacta y con brotes tiernos (RHS, Maryland). Quitar las espigas florales: si florece, las hojas pierden aceite y sabor (Utah State).",
+      "epoca": "De finales de primavera a otoño, recolecciones continuas. Corte fuerte tras la floración (RHS) o 2-3 veces por temporada (Utah State). Antes del invierno, cortar los tallos viejos a ras (Utah State; RHS: desde finales de otoño hasta antes del rebrote).",
+      "como": "Con tijera limpia, cortar los tallos por encima de un par de hojas, cogiendo las puntas jóvenes, que son las más sabrosas; empezar cuando la planta tenga 8-10 cm (Utah State). Corte de renovación: toda la mata a unos 2,5-5 cm de la base (Utah State, RHS); rebrota en pocas semanas. En interior en invierno no quitar más de un tercio de la planta de una vez (Oklahoma State). Retirar los tallos secos en invierno.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F4",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aproximadamente de noviembre a febrero en Madrid; en el hemisferio sur, de mayo a agosto). Lo marca el frío y los días cortos.",
+      "cambios": "La parte aérea amarillea y muere y la planta queda en rizomas (RHS). Cortar los tallos muertos, regar poco (solo para que el cepellón no se seque del todo) y no abonar. Rebrota en primavera. Si se mete en casa en otoño junto a una ventana soleada puede seguir dando hojas en invierno, más despacio (RHS, Oklahoma State). Que pierda las hojas en invierno al aire libre es normal, no una enfermedad.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F8",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division",
+        "esquejes de tallo",
+        "esquejes en agua",
+        "esquejes de rizoma",
+        "semilla"
+      ],
+      "epoca": "División: primavera u otoño. Esquejes de tallo: primavera y principios de verano. Esquejes de rizoma: en cualquier época (RHS). Semilla: primavera, a unos 20 °C.",
+      "pasos": "1) División: sacar la mata, cortar el cepellón en trozos con brotes, tirar el centro seco y plantar cada trozo en sustrato nuevo (RHS). 2) Esqueje: cortar una punta de 8-10 cm no leñosa, quitar las hojas de abajo y ponerla en un vaso de agua o en sustrato húmedo; enraiza en 1-2 semanas; luego plantar (RHS, Maryland). 3) Rizoma: trozos de rizoma de 5-8 cm enterrados horizontalmente a 1-2 cm en sustrato húmedo (RHS). 4) Semilla: sembrar en superficie sobre sustrato húmedo a unos 20 °C; germina en unas 2 semanas (RHS). Las mentas se hibridan y la semilla no suele salir fiel a la planta madre: mejor esqueje o división (Utah State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F4",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya de la menta (Puccinia menthae): en primavera brotes pálidos y deformados; luego pústulas naranjas pulverulentas en tallos y envés, después amarillas y negras; mueren zonas de hoja y la planta se defolia (RHS, Utah State, NC State). La favorecen las hojas mojadas por la noche y el exceso de riego y abono (Utah State). Qué hacer: retirar y tirar a la basura (no al compost) los tallos afectados enseguida, antes de que se formen las esporas negras; regar al pie y por la mañana; renovar la planta con esquejes sanos o tratar los rizomas lavados 10 min en agua a 44 °C (temperatura cercana a la letal, termómetro exacto) (RHS). No hay fungicidas autorizados contra la roya en menta ni otras aromáticas según RHS. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa. Maryland desaconseja pulverizar insecticidas en hierbas."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones en brotes tiernos: hojas que se enrollan, amarillean y crecimiento frenado (Utah State, RHS). Retirarlos con un chorro de agua fuerte o cortando las puntas afectadas (es también recolección). Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa. Maryland desaconseja pulverizar insecticidas en hierbas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (ácaros) con aire seco: punteado amarillento o blanco en las hojas y aspecto enfermizo (Maryland, en hierbas en general). Típica en interior con calefacción y en terraza en pleno verano de Madrid. Cortar los tallos afectados, ducha de agua en el envés y subir la humedad con humidificador o agrupando plantas. Al ser una planta comestible, cualquier fitosanitario debe ser un producto listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado expresamente para plantas aromáticas o hierbas culinarias; hay que respetar el plazo de seguridad de la etiqueta (días entre aplicación y recolección) y no cosechar hasta que se cumpla. Si la etiqueta no menciona aromáticas, no se usa. Maryland desaconseja pulverizar insecticidas en hierbas."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en infestación avanzada: aparecen telillas finas en puntas y axilas. Igual que el punteado: corte de los tallos afectados y aumento de humedad; la menta rebrota bien tras un corte fuerte."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o maceta sin drenaje: el sustrato sin aire daña las raíces finas (Maryland, Oklahoma State, Utah State). Vaciar el plato, regar solo cuando los 2-3 cm de arriba empiecen a secarse y, si la mata está muy dañada, rehacerla con esquejes sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas inferiores e interiores por exceso de agua o mal drenaje (Maryland); en una mata densa también por falta de luz en el interior y por agotamiento de nutrientes en maceta. Al final del otoño es el inicio normal del reposo."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sustrato seco: en maceta se seca muy rápido con calor (RHS) y la menta tolera mal el suelo seco (NC State). Regar a fondo; suele recuperarse en horas. Si está húmedo y aun así lacia, sospechar pudrición de raíz o verticilosis."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Verticilosis (Verticillium): amarilleo que empieza por el margen de la hoja, que luego se curva y muere (Utah State). Retirar las plantas afectadas, no reutilizar el sustrato y no abonar en exceso."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Antracnosis: pequeñas manchas empapadas de agua en hojas y tallos (Utah State). Retirar las partes afectadas, cortar a ras en otoño y evitar mojar las hojas."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "En terraza: orugas (polilla de la menta), escarabajo azul de la menta, pulguilla (agujeritos pequeños) y gusanos grises que cortan tallos jóvenes (RHS, Utah State). Retirar a mano; cortar los tallos muy dañados."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior (ventana no orientada a sur o lejos del cristal): tallos largos, hojas pequeñas y pálidas, poco aroma. Llevar a la ventana más soleada o poner lámpara de cultivo y recolectar a menudo para que ramifique (Oklahoma State)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Maceta llena de rizomas o sustrato agotado: crece poco aunque sea temporada. Dividir o trasplantar en primavera (RHS). En invierno la parada es normal (reposo)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, en balcón o terraza sur u oeste se seca en horas: dar sol de mañana y sombra en las horas centrales y de tarde (RHS aconseja sombra parcial con calor para reducir el riego), maceta grande (30-40 cm) y de color claro, y comprobar el sustrato a diario (puede pedir riego diario). En interior, junto a la ventana pero que las hojas no toquen el cristal caliente. Es la época de la araña roja: revisar el envés. Cortar las espigas florales (julio-octubre) para mantener el aroma.",
+    "invierno": "En terraza la parte aérea muere con las heladas y rebrota en primavera: cortar tallos secos y regar poco, sin abonar. Los rizomas en maceta están más expuestos que en suelo; en olas de frío fuerte, arrimar la maceta a la pared o protegerla. Para seguir cosechando, entrarla en otoño a la ventana más soleada de la casa (RHS), lejos de radiadores; con calefacción y humedad por debajo del 30 % sufre de araña roja y se seca antes: humidificador o agrupar plantas. Si la ventana es de vidrio simple, separar las hojas del cristal frío (Oklahoma State).",
+    "ubicacion_recomendada": "Balcón o terraza orientada a este o sureste (sol de mañana), o alféizar interior de ventana sur u oeste con 5-6 h de sol. Siempre en maceta propia (no mezclada con otras plantas, porque las invade)."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Mentha spicata L. (Sp. Pl.: 576, 1753); no hay cambio de nombre. Es una especie muy variable con híbridos (p. ej. Mentha × piperita = M. aquatica × M. spicata) y numerosos sinónimos heterotípicos no revisados en detalle.",
+    "El nombre común 'hierbabuena' se aplica en España a varias mentas (también a Mentha × piperita, M. suaveolens y otras según la región); la app debe identificar por rasgos, no por nombre común.",
+    "Ninguna fuente prioritaria da la intensidad de luz en lux o fc; lux_min (10 760) sale de la escala del proyecto para luz directa y lux_max queda en null.",
+    "Ninguna fuente prioritaria da porcentajes de humedad relativa (min_pct e ideal_pct en null).",
+    "No hay temperatura mínima tolerada específica para menta en maceta ni temperatura máxima (min_c y max_c en null). El ideal de 15,5-21 °C es el de Oklahoma State para hierbas en interior en general.",
+    "No se ha encontrado una fuente prioritaria específica de menta en interior sobre plagas de interior (araña roja, mosca blanca); el dato de araña roja procede de Maryland para hierbas en general.",
+    "No se ha comprobado en el Registro del MAPA qué productos concretos de uso no profesional están autorizados en plantas aromáticas para roya, pulgón o ácaros; RHS indica que en Reino Unido no hay fungicidas autorizados contra la roya en menta.",
+    "Missouri Botanical Garden Plant Finder no se pudo abrir (bloqueo/certificado)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/mentha-spicata/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox, 'Mentha spicata'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS), 'How to grow mint'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/disease/mint-rust",
+      "institucion": "Royal Horticultural Society (RHS), 'Mint rust'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umd.edu/resource/growing-mint-home-garden",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center, 'Growing mint in a home garden' (act. 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.usu.edu/yardandgarden/research/mint-in-the-garden.pdf",
+      "institucion": "Utah State University Extension, 'How to grow mint in your garden' (K. Buckland y D. Drost, 2020, revisada por pares)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.okstate.edu/announcements/grow-gardening-columns/november-19-2023",
+      "institucion": "Oklahoma State University Extension, 'Herbs are easy to grow indoors in the winter' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.umd.edu/resource/herb-problems",
+      "institucion": "University of Maryland Extension, 'Herb problems'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://extension.umd.edu/resource/care-herbs",
+      "institucion": "University of Maryland Extension, 'Care of herbs'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+      "institucion": "ASPCA Animal Poison Control Center, 'Mint' (Mentha sp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/451162-1",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO), 'Mentha spicata L.'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

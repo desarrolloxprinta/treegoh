@@ -1,0 +1,320 @@
+{
+  "nombre_cientifico": "Polyscias fruticosa",
+  "nombres_comunes": [
+    "aralia polyscias",
+    "polyscias",
+    "aralia Ming",
+    "árbol Ming (Ming tree)",
+    "bonsái de polyscias"
+  ],
+  "familia": "Araliaceae",
+  "origen": "Nativa de Sulawesi, Molucas (Maluku), Nueva Guinea, archipiélago Bismarck, Queensland, Nueva Caledonia y Vanuatu (POWO). Introducida y cultivada en buena parte de los trópicos: Bangladés, Borneo, Java, Tailandia, Vietnam, Myanmar, Mozambique, Puerto Rico, República Dominicana, Haití, Trinidad y Tobago, Tonga y otras islas del Pacífico (POWO). NC State resume su área natural como 'Malesia central al Pacífico suroccidental'.",
+  "clima_nativo": "Tropical cálido y húmedo, sin heladas: NC State la da como rústica solo en zonas USDA 11-12 (mínimas anuales por encima de +4 °C) y pide humedad media-alta y aire cálido. Arbusto o arbolito perenne de hasta 7-8 m (25 ft) en su hábitat (NC State).",
+  "categoria": "bonsai",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Compuestas, 1 a 3 veces pinnadas (tripinnadas en las formas típicas: 'quick ID hint' de NC State), de más de 15 cm de largo, agrupadas hacia el extremo de las ramas. Folíolos estrechos, linear-lanceolados, estrecho-ovados u oblongos, con el ápice irregularmente lobulado, dentado o pinnatisecto y margen aserrado con dientes finos casi espinosos; textura fina, aspecto de helecho o de perejil rizado. Verde oscuro brillante (NC State). Alternas sobre el tallo (UF/IFAS, página de género de NC State; la ficha de especie de NC State dice 'opuestas', ver lagunas). El cultivar enano 'Elegans' (aralia perejil) tiene folíolos aún más pequeños y apretados (UF/IFAS, NC State).",
+    "nerviacion": "Pinnada en cada folíolo, poco visible; lo que la IA debe leer es la división repetida de la hoja (raquis ramificado con muchos folíolos estrechos y recortados), no la nerviación.",
+    "variegacion": "La especie y 'Elegans' son verdes. Existen formas comerciales con márgenes crema o amarillos (p. ej. las vendidas como 'Golden Ming'); la página de género de NC State menciona variegados crema a dorado en Polyscias en general. Sin datos de fuentes prioritarias sobre variegados concretos de P. fruticosa.",
+    "tallo": "Leñoso, liso y flexible de joven, pardo-rojizo a cobrizo o burdeos (NC State); corteza bastante lisa, marrón media a oscura en tallos viejos. Ramas en ángulo abierto, de modo que tronco y ramas quedan a la vista entre el follaje fino (UF/IFAS), rasgo que la hace apreciada como bonsái. Tallo no aromático (NC State).",
+    "habito": "Arbusto perenne erguido, de crecimiento lento, con varios troncos o tronco único y copa abierta en pisos; en interior no suele florecer ni fructificar (NC State). Se vende en maceta, como 'stump' de tronco grueso podado y como bonsái de interior (UF/IFAS: excelente candidata a bonsái).",
+    "tamano_adulto_interior": "1,8-2,4 m de alto y 0,6-0,9 m de ancho como planta de interior (NC State: 6-8 ft × 2-3 ft); como bonsái se mantiene habitualmente entre 20 y 60 cm [orientativo, sin fuente prioritaria]. Crecimiento lento (NC State, UF/IFAS).",
+    "confusiones": [
+      {
+        "especie": "Polyscias fruticosa 'Elegans' (aralia perejil)",
+        "rasgo_diferenciador": "Es la misma especie: cultivar enano, más ramificado, con folíolos muy cortos y apiñados que recuerdan al perejil rizado (UF/IFAS). Cuidados idénticos."
+      },
+      {
+        "especie": "Polyscias filicifolia (aralia helecho)",
+        "rasgo_diferenciador": "Hojas solo una vez pinnadas, con folíolos más largos tipo fronde de helecho (UF/IFAS); P. fruticosa tiene hojas 2-3 veces divididas y folíolos más pequeños y recortados."
+      },
+      {
+        "especie": "Polyscias scutellaria / P. balfouriana (aralia Balfour, aralia plato)",
+        "rasgo_diferenciador": "Folíolos anchos, redondeados, coriáceos y crenados, a menudo en grupos de 3 (NC State, UF/IFAS); nada que ver con el follaje fino de la aralia Ming."
+      },
+      {
+        "especie": "Polyscias guilfoylei (aralia geranio, 'Coffee Tree' en ASPCA)",
+        "rasgo_diferenciador": "Hoja pinnada simple con folíolos redondeados, brillantes y de margen irregular, a veces con borde blanco (NC State, UF/IFAS); porte más erguido y poco ramificado."
+      },
+      {
+        "especie": "Plerandra elegantissima (falsa aralia, antes Dizygotheca)",
+        "rasgo_diferenciador": "Hoja palmeada (folíolos que salen de un mismo punto, como dedos), estrechos, dentados y de color bronce oscuro; la aralia Ming tiene hojas pinnadas (folíolos a lo largo de un eje)."
+      },
+      {
+        "especie": "Aralia spp. (aralias verdaderas, p. ej. Aralia spinosa)",
+        "rasgo_diferenciador": "Árboles caducifolios de exterior, con tallos espinosos; muchas etiquetas comerciales llaman 'aralia' a Polyscias. Polyscias fruticosa es perenne, sin espinas y tropical."
+      },
+      {
+        "especie": "Asparagus setaceus (esparraguera plumosa)",
+        "rasgo_diferenciador": "Lo que parecen hojas son cladodios filiformes sobre tallos verdes finos y a menudo con espinillas; no hay tronco leñoso ni folíolos aplanados dentados."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas (NC State para el género Polyscias; ASPCA para Polyscias guilfoylei).",
+    "sintomas": "Ingestión: irritación de boca, náuseas, vómitos y trastornos digestivos en personas; en perros y gatos vómitos, diarrea, anorexia y decaimiento (NC State). Contacto: dermatitis o irritación de piel con la savia; conviene usar guantes al podar (NC State; ASPCA para P. guilfoylei). Gravedad baja (NC State).",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F5"
+    ],
+    "notas": "La ASPCA NO tiene ficha propia de Polyscias fruticosa ni de 'Ming aralia': el único Polyscias de su base de datos es P. guilfoylei, publicado como 'Coffee Tree' y 'Geranium-Leaf Aralia' (también 'Wild Coffee'), tóxico para perros, gatos y caballos por saponinas, con dermatitis de contacto, vómitos, anorexia y depresión. Ese 'Coffee Tree' no es el cafeto (Coffea arabica). Para P. fruticosa la clasificación sale de NC State: su ficha de especie la marca como 'problem for cats' y 'problem for dogs', y la ficha de género Polyscias (que enlaza a P. fruticosa) indica toxicidad baja por saponinas para personas y animales, dermatitis de contacto y 'problem for children'. Es una sola institución prioritaria con datos de especie más un congénere en ASPCA: confianza Media."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1345,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana este; a 1-2 m de una ventana sur u oeste con cortina fina. En norte solo si está pegada al cristal y el cristal es amplio.",
+      "tolera_sol_directo": "Sol suave de primera hora sí; evitar sol directo prolongado de mediodía y tarde en interior (NC State). Al aire libre en el trópico admite sol pleno a semisombra (NC State), pero una planta aclimatada al interior se quema si se pasa de golpe al sol.",
+      "notas": "UF/IFAS: es una buena planta de interior con luz de 125 fc o más (≈1345 lux, en el tramo medio de la escala del proyecto); en vivero crece con 1500-4500 fc. NC State: luz brillante indirecta, evitar periodos largos de sol directo. Por debajo de unos 1300 lux pierde hojas y se ahíla. Los cambios bruscos de luz (comprarla y llevarla a un rincón oscuro) son una causa frecuente de caída masiva de hojas: elegir el sitio definitivo y no moverla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 5 cm superiores del sustrato estén secos (NC State: dejar secar las 2 pulgadas superiores; NYBG: en ejemplares grandes, cuando se hayan secado 5-7 cm) y la maceta pese claramente menos. En bonsái de maceta baja, comprobar con el dedo a 2-3 cm y por peso, porque se seca mucho antes. Regar a fondo con agua a temperatura ambiente hasta que salga un poco por el drenaje, por la mañana, y vaciar el plato a los 15-20 minutos (NYBG). Nunca por calendario.",
+      "primavera_verano": "Con calor y buena luz el sustrato se seca rápido: comprobar cada 3-4 días y regar en cuanto se cumpla el criterio. No dejar que la maceta se seque del todo: la sequía provoca defoliación grave (UF/IFAS).",
+      "otono_invierno": "Comprobar cada 7-10 días; con menos luz y algo menos de temperatura el sustrato tarda más en secar. Mantener el criterio de los 5 cm, sin encharcar: el exceso de agua con frío amarillea y tira las hojas viejas y acaba en pudrición radicular (UF/IFAS, NYBG).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo a temperatura ambiente (NYBG pide agua templada). El agua de Madrid es blanda y apta; no hace falta dejarla reposar (la cloramina no se elimina así). Si las puntas se secan, sospechar antes de sales de abono acumuladas, riego irregular o aire seco que del agua.",
+      "notas": "Es de las pocas plantas de interior sensibles a los dos extremos: el encharcamiento produce pudrición (Pythium) y la sequía, caída masiva de hojas (UF/IFAS). NYBG: los ejemplares grandes casi no tienen raíces en los 5-7 cm superiores, por eso hay que asegurar que el agua llegue al fondo, pero sin dejar agua en el plato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State pide humedad media a alta y atribuye a la humedad insuficiente parte de la caída de hojas, y al ambiente seco la aparición de ácaros. Ninguna fuente prioritaria da cifras; como referencia práctica, intentar mantener 40-60 % junto a la planta [orientativo, sin fuente prioritaria]. NC State recomienda pulverizar o plato con guijarros mojados; según la convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas, y el plato con guijarros solo como complemento menor.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 16,
+      "max_c": null,
+      "ideal_min_c": 21,
+      "ideal_max_c": 29,
+      "notas": "Mínimo: NC State indica que la temperatura de la habitación no baje de 60 °F (15,6 °C); se redondea a 16 °C. NYBG precisa que, si el descenso es gradual, se aclimata bien a 65 °F (18 °C), pero que una bajada brusca o una corriente de aire hacen que las hojas amarilleen y caigan. UF/IFAS: crece mejor a 70-85 °F (21-29 °C) y la exposición brusca a frío de 40-55 °F (4-13 °C) provoca pérdida rápida de hojas viejas, de la que se recupera despacio. Máximo tolerado: sin dato en fuentes prioritarias (laguna); con calor, lo crítico es mantener la humedad del sustrato y del aire. Evitar corrientes frías (puertas, ventanas abiertas en invierno, aire acondicionado) y chorros de calefacción.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para plantas de interior con turba (o fibra de coco) y arena o perlita, rica en materia orgánica y que retenga agua pero drene bien (NC State: turba y arena; UF/IFAS: mezcla bien drenada con alta capacidad de retención de agua). En bonsái, sustrato de bonsái con parte orgánica, no solo árido, porque no tolera secarse del todo.",
+      "ph": "Ligeramente ácido, en torno a 6,0 (UF/IFAS ajusta a ≈6,0 con dolomita; NC State: ácido, <6,0).",
+      "drenaje": "Imprescindible: maceta con agujeros, sin agua estancada en el plato; no enterrar el cuello más profundo de lo que estaba (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido completo para plantas verdes, rico en nitrógeno.",
+      "npk": "Proporción 3-1-2 a 2-1-2 (UF/IFAS, producción en vivero)",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo mientras emite hojas nuevas.",
+      "otono_invierno": "Nada.",
+      "notas": "UF/IFAS da la proporción para cultivo comercial con dosis altas de vivero; en casa se aplica la regla del proyecto (¼-½ de dosis). Si aparecen costras blancas en el sustrato o puntas secas, lavar el sustrato con riego abundante y espaciar el abono. Recién comprada, trasplantada o tras perder hojas, no abonar hasta que vuelva a brotar.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años en maceta normal; en bonsái cada 2-3 años con poda ligera de raíces [orientativo, sin fuente prioritaria]. Crece despacio y no le gusta que le muevan las raíces.",
+      "epoca": "Final de primavera o inicio de verano, con temperaturas estables por encima de 20 °C [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces saliendo por el drenaje, sustrato que se seca en 1-2 días o que ya no absorbe el agua. No trasplantar una planta recién comprada ni una que está perdiendo hojas.",
+      "notas": "UF/IFAS insiste en alterar las raíces lo menos posible y en no enterrar la planta más honda; un trasplante agresivo suma estrés y puede provocar caída de hojas.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, para mantener la forma y la densidad; imprescindible en bonsái.",
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria].",
+      "como": "Despuntar los extremos de las ramas para que ramifique y se espese el follaje (NC State). Cortar con tijera limpia por encima de una hoja o yema. Usar guantes: la savia puede irritar la piel (NC State). Los trozos de punta sirven como esquejes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero (perenne tropical). En invierno, con menos luz, crece poco: espaciar riegos según el criterio del sustrato, suprimir abono y protegerla del frío y de las corrientes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta semileñoso",
+        "esqueje de tallo leñoso sin hojas (caña)",
+        "semilla (poco habitual)"
+      ],
+      "epoca": "Primavera-verano, cuando se puede mantener el sustrato a 21-24 °C.",
+      "pasos": "1) Cortar una punta de 10-15 cm o un trozo de tallo leñoso; no usar material guardado mucho tiempo (UF/IFAS). 2) Aplicar hormona de enraizamiento, que mejora el resultado (UF/IFAS). 3) Clavar directamente en su maceta definitiva con sustrato bien drenado que retenga humedad, para no tener que mover las raíces después (UF/IFAS). 4) Cubrir con bolsa o mini invernadero para mantener humedad sin empapar el sustrato: enraíza mejor en un medio que no esté encharcado (UF/IFAS). 5) Mantener la base a 21-24 °C (70-75 °F, UF/IFAS) y con luz brillante sin sol. 6) Paciencia: enraíza despacio y con porcentajes bajos (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "El problema más típico: caída masiva de hojas tras la compra, un cambio de sitio, una corriente de aire o un descenso brusco de temperatura (NYBG, UF/IFAS). Elegir sitio estable y no moverla; suele rebrotar despacio si el tallo sigue verde bajo la corteza."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas que amarillean y caen, o caen verdes: frío brusco (4-13 °C), gases de combustión (estufas mal ventiladas) o sustrato demasiado seco (UF/IFAS); también riego excesivo (NYBG)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición por Pythium con sustrato encharcado: planta parada, amarilla y lacia aunque la tierra esté húmeda; raíces pardas y blandas cuya corteza se desprende (UF/IFAS, NC State)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Marchitez con sustrato húmedo indica pudrición radicular; con sustrato seco, falta de riego (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae) con aire seco y calefacción: telillas finas en envés y puntas, que se confunden con polvo (UF/IFAS, NC State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento por la alimentación de la araña roja, que precede a la caída de hojas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Ácaro blanco (Polyphagotarsonemus latus): hojas nuevas acopadas hacia abajo, arrugadas, enanas y con necrosis del ápice del brote (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, envés y también en raíces (UF/IFAS, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en tallos, pecíolos y hojas, difíciles de distinguir de la corteza (UF/IFAS, NYBG)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas, pulgón o mosca blanca (UF/IFAS, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State)."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (Sciaridae) por exceso de riego; las larvas dañan raíces (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares por Alternaria panax (en P. fruticosa pueden llegar a 1 cm y defoliar en 5 días) o antracnosis (Colletotrichum), favorecidas por mojar las hojas (UF/IFAS). Por eso no conviene pulverizarla."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana por Xanthomonas: lesiones corchosas diminutas en el envés que se vuelven negras con halo amarillo (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente (por debajo de unos 1300 lux): ramas largas, follaje escaso y caída de hojas interiores (UF/IFAS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato se seca muy rápido, sobre todo en bonsái de maceta baja: comprobar cada 2-3 días (a diario en bonsái) y no dejar que se seque del todo, porque la sequía la defolia (UF/IFAS). Apartarla del sol directo de ventanas sur y oeste (cortina fina o 1-2 m de distancia). No ponerla en el chorro del aire acondicionado: el frío y la corriente tiran las hojas (NYBG). Revisar el envés cada semana por araña roja. Si se saca a una terraza, solo a sombra luminosa y con aclimatación gradual; meterla antes de que las noches bajen de 16 °C.",
+    "invierno": "Es la época de riesgo. Mantenerla por encima de 16 °C, lejos de cristales fríos (de noche puede hacer menos de 13 °C junto al vidrio, umbral de frío que según UF/IFAS provoca caída rápida de hojas), de puertas que se abren a la calle y de radiadores o salidas de aire caliente. Con calefacción la humedad interior baja de 30 %: usar humidificador o agrupar plantas, y vigilar araña roja. Regar menos (cada 7-10 días comprobar), sin abono. No moverla de sitio ni trasplantarla.",
+    "ubicacion_recomendada": "Salón o despacho luminoso y de temperatura estable, junto a ventana este o a 1-2 m de una sur/oeste con visillo, sin corrientes ni chorros de climatización. Una vez encontrado el sitio, no cambiarla."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Polyscias fruticosa (L.) Harms. Sinónimos homotípicos: Panax fruticosus L. (basiónimo), Aralia fruticosa (L.) L.H.Bailey, Nothopanax fruticosus (L.) Miq., Tieghemopanax fruticosus (L.) R.Vig. Heterotípicos incluyen Aralia deleauana, Aralia tripinnata, Panax dissectus, Panax plumatus y P. fruticosa var. plumata. No hay cambio de nombre.",
+    "ASPCA no tiene ficha de Polyscias fruticosa; solo de P. guilfoylei ('Coffee Tree', 'Geranium-Leaf Aralia'). La toxicidad se basa en NC State (especie y género) y queda en confianza Media.",
+    "Sin cifras de humedad relativa mínima ni ideal en fuentes prioritarias (min_pct e ideal_pct a null).",
+    "Sin temperatura máxima tolerada en fuentes prioritarias (max_c a null); UF/IFAS solo da el óptimo de 21-29 °C.",
+    "Sin frecuencia de trasplante ni época de poda en fuentes prioritarias (marcados como orientativos).",
+    "No se encontró ficha de P. fruticosa en Missouri Botanical Garden ni en UF/IFAS EDIS; la ficha RHS solo aporta familia, descripción de género y estado del nombre, sin datos de cultivo.",
+    "La ficha de especie de NC State describe las hojas como 'opuestas'; su propia página de género y UF/IFAS dicen alternas (lo correcto en Polyscias). Se adopta alternas.",
+    "Sin datos de fuentes prioritarias sobre cultivares variegados ('Golden Ming' y similares) ni sobre el cultivo específico como bonsái."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/polyscias-fruticosa/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox (Polyscias fruticosa)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/polyscias/common-name/ming-aralia",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox (género Polyscias, Ming aralia)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://mrec.ifas.ufl.edu/Foliage/folnotes/aralia.htm",
+      "institucion": "University of Florida IFAS, CFREC-Apopka, Foliage Plant Research Note RH-91-5 'Aralia Production Guide' (Henley, Osborne y Chase); consultada en copia de Internet Archive porque la URL original da 404",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libanswers.nybg.org/faq/222754",
+      "institucion": "New York Botanical Garden, Mertz Library Plant Information Service",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/coffee-tree",
+      "institucion": "ASPCA Animal Poison Control Center (Polyscias guilfoylei, congénere)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:847351-1",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/13473/polyscias-fruticosa/details",
+      "institucion": "Royal Horticultural Society, RHS Find a Plant",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

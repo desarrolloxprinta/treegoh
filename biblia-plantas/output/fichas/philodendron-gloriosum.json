@@ -1,0 +1,370 @@
+{
+  "nombre_cientifico": "Philodendron gloriosum",
+  "nombres_comunes": [
+    "filodendro gloriosum",
+    "filodendro rastrero",
+    "filodendro glorioso",
+    "glorious philodendron (nombre inglés usado por la RHS)"
+  ],
+  "familia": "Araceae",
+  "origen": "Endémica de Colombia (Kew/POWO, ColPlantA, RHS): vertiente oriental de la Cordillera Oriental y borde de los Llanos, departamentos de Cundinamarca y Meta, entre 350 y 700 m de altitud (ColPlantA; Croat et al. 2020). Introducida en Hawái (POWO). Catalogada como Vulnerable, VU B1ab(iii), en la Lista Roja de la UICN (2021) y en la Lista Roja nacional de Colombia (ColPlantA): conviene comprar plantas de vivero (cultivo in vitro o división), no ejemplares extraídos del medio natural.",
+  "clima_nativo": "Tropical húmedo de selva (bioma 'wet tropical' según Kew), sin heladas, a baja-media altitud (350-700 m) en el piedemonte andino-llanero. Planta terrestre del suelo del bosque, con tallo rastrero sobre la hojarasca (Croat et al. 2020), bajo el dosel: luz tamizada, calor constante y humedad ambiental alta. Hábitats según la UICN: bosque, matorral, humedales interiores y medios artificiales terrestres (ColPlantA).",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Simples, de acorazonado-ovadas (cordiformes), de 15-25 cm de largo y 12-20 cm de ancho en la descripción botánica (CATE Araceae/POWO); en cultivo bien llevado pueden superar con mucho esa medida (hasta unos 65 cm de ancho según Garden Betty [orientativo, sin fuente prioritaria]). Lámina fina, herbácea (no coriácea), de haz verde oscuro, MATE Y ATERCIOPELADO, con el margen teñido de rojizo-rosado; envés más pálido y ligeramente brillante (POWO; Croat et al. 2020). Lóbulos basales semicirculares de 3-5 × 6-9 cm, separados por un seno abierto en la mayoría de hojas (seno agudo según CATE; 'mayormente abierto' según Croat); lóbulo anterior que se estrecha en arco hasta una punta acuminada, 3,5-4 veces más largo que los basales. Las hojas salen de una en una desde el ápice del rizoma, erguidas sobre pecíolos largos. Pecíolo de 20-30 cm, semicilíndrico (semiterete: redondeado por debajo, algo aplanado por arriba), verde en la parte inferior y rojizo en la superior, con estrías longitudinales blancas muy características (POWO), sin engrosamiento (genículo) bajo la lámina.",
+    "nerviacion": "Nervio central y nervios primarios laterales BLANCOS (a veces rosados o plateados), brillantes y bien marcados sobre el haz aterciopelado, sin franja resaltada a sus lados (Croat et al. 2020); en el envés se ven rojizos (POWO). 3-4 nervios basales a cada lado, de los que solo el primer par es libre hasta la base; 3-4 nervios costales que salen del central en ángulo obtuso y se curvan hacia el margen; nervios secundarios mucho más finos y poco visibles, sin el aspecto de 'cristal craquelado' de P. luxurians (Croat et al. 2020).",
+    "variegacion": "La especie no es variegada: el contraste viene de los nervios blancos y el margen rojizo. En el comercio circulan formas seleccionadas como 'Dark Form' (hoja más oscura y redondeada con borde rojizo) y 'Pink Back' (envés y nervios rosados) (Garden Betty) [orientativo, sin fuente prioritaria]. Existen híbridos comerciales con otras especies de terciopelo; si la hoja es más alargada y colgante o el tallo trepa, sospechar de híbrido (ver lagunas).",
+    "tallo": "Rizoma (tallo rastrero) horizontal que avanza sobre la superficie del sustrato o el suelo, verde, de 1,5-2 cm de grosor, con entrenudos de 4-6 cm (CATE Araceae/POWO; Croat et al. 2020 da 3-4 cm para la especie afín P. luxurians). Catafilos (vainas) púrpuras, sin quillas, de 10-15 cm, persistentes durante mucho tiempo (POWO). Las raíces salen de la cara inferior del rizoma. No forma tallo vertical ni raíces aéreas trepadoras.",
+    "habito": "Herbácea perenne siempreverde, TERRESTRE Y RASTRERA (serie 'Rupicola' según Croat et al. 2020): no trepa. El rizoma crece en horizontal y va dejando una hilera de hojas; con el tiempo 'se sale' de la maceta por un lado. Por eso necesita maceta ancha y baja, preferiblemente rectangular, con el rizoma sobre el sustrato y no enterrado. Crecimiento lento: cada hoja nueva puede tardar 1-2 meses en abrirse del todo (Garden Betty) [orientativo, sin fuente prioritaria]. Inflorescencia (rara en interior): espata verde pálida abajo y rosa intensa arriba, con estrías blancas, de unos 7 cm, sobre pedúnculo verde estriado de blanco (POWO).",
+    "tamano_adulto_interior": "Unos 40-90 cm de altura (pecíolo más lámina) por 60-120 cm o más de extensión a lo largo del rizoma [orientativo, sin fuente prioritaria]; hojas de 20-50 cm en cultivo doméstico. En el hábitat las hojas descritas miden 15-25 cm (POWO), pero en cultivo se citan mayores (Garden Betty, Ohio Tropics). Laguna: no hay medidas de interior en fuentes prioritarias.",
+    "confusiones": [
+      {
+        "especie": "Philodendron melanochrysum (juvenil)",
+        "rasgo_diferenciador": "P. melanochrysum es TREPADORA: tallo delgado y vertical, con entrenudos de 6-10 cm y raíces aéreas, y necesita tutor (Kew/CATE; Clemson; NC State). Sus hojas son oblongas u ovado-oblongas, más largas que anchas, con la punta larga y oblicua y un seno basal estrecho; el haz es verde negruzco con brillo dorado y los nervios son verde pálido, plateados o amarillos, apenas en relieve (Kew; Clemson; NC State). Las hojas jóvenes salen rojo salmón (Kew). Pecíolo corto (9-12 cm) y acanalado por arriba. P. gloriosum, en cambio, tiene rizoma rastrero horizontal, hojas acorazonadas casi tan anchas como largas con seno abierto, nervios blancos brillantes, margen rojizo y pecíolo largo (20-30 cm) con estrías blancas."
+      },
+      {
+        "especie": "Anthurium clarinervium",
+        "rasgo_diferenciador": "PECÍOLO: en Anthurium es cilíndrico (terete), de solo 7-16 cm, y lleva justo bajo la lámina un genículo, un engrosamiento articulado de 1-1,5 cm que permite orientar la hoja (Kew/POWO); P. gloriosum no tiene genículo y su pecíolo es semicilíndrico, de 20-30 cm, rojizo arriba y con estrías blancas. NERVADURA: en A. clarinervium todos los nervios van perfilados por una banda blanca o blanco verdosa y hay 4-5 pares de nervios basales; en P. gloriosum el nervio en sí es blanco y solo un par basal es libre hasta la base. Además la lámina de A. clarinervium es gruesa, coriácea (tacto de cartón), con los lóbulos basales a veces solapados sobre el seno, y la planta forma una roseta compacta sobre un tallo corto, sin rizoma rastrero (POWO). La lámina de P. gloriosum es fina y herbácea."
+      },
+      {
+        "especie": "Anthurium crystallinum",
+        "rasgo_diferenciador": "Epífita (Kew/POWO), en mata compacta con tallo corto. Sus hojas son más largas que anchas, cuelgan casi verticales apuntando hacia abajo y tienen el pecíolo cilíndrico con genículo bajo la lámina, rasgo propio del género Anthurium (ver A. clarinervium en POWO). Los nervios blancos están perfilados por una banda plateada y el haz tiene un brillo cristalino. P. gloriosum mantiene las hojas erguidas sobre un pecíolo semicilíndrico sin genículo, con estrías blancas, que nace de un rizoma rastrero horizontal."
+      },
+      {
+        "especie": "Philodendron luxurians",
+        "rasgo_diferenciador": "Pariente más cercano, también terrestre y rastrero (Croat et al. 2020). Se distingue por la lámina más redondeada, sin punta acuminada marcada; los nervios menores muy visibles, que dan al haz aspecto de 'cristal craquelado'; dos pares de nervios basales libres hasta la base y un envés semibrillante teñido de violeta-rosado; los nervios principales no son blanco brillante. P. gloriosum tiene la punta acuminada, el seno mayormente abierto, un solo par basal libre, nervios principales blancos y brillantes y nervios menores poco visibles. Croat lo considera además más difícil de cultivar."
+      },
+      {
+        "especie": "Philodendron hederaceum (forma 'Micans', terciopelo)",
+        "rasgo_diferenciador": "Trepadora o colgante de tallos finos con hojas pequeñas (5-10 cm), aterciopeladas, bronce-cobrizas, sin nervios blancos contrastados (Clemson; UF/IFAS). P. gloriosum tiene hojas mucho mayores con nervios blancos y rizoma rastrero grueso."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios), presentes en todas las partes de la planta: hojas, tallos, raíces, savia, flores, frutos y semillas (ASPCA, NC State y Clemson para el género Philodendron).",
+    "sintomas": "Perros y gatos (ASPCA, Philodendron spp.): irritación oral, dolor e hinchazón de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Pet Poison Helpline: al masticar la planta se liberan los cristales, con dolor en labios, boca y garganta, babeo, arcadas y vómitos; en casos raros, hinchazón grave de la garganta con dificultad para respirar. Personas (NC State, gravedad baja): dolor e hinchazón de boca, labios, lengua y garganta, babeo, vómitos, dificultad para tragar y pérdida del habla; la savia puede irritar la piel (dermatitis de contacto). Clemson: mantener fuera del alcance de mascotas y niños pequeños. Usar guantes al dividir el rizoma o cortar hojas. Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F8",
+      "F7",
+      "F6",
+      "F9",
+      "F10"
+    ],
+    "notas": "ASPCA, NC State y Clemson describen la toxicidad del género Philodendron, no de P. gloriosum en concreto; Ohio Tropics (complementaria) la aplica a la especie. Como la toxicidad por oxalato cálcico es común a todo el género, se marca tóxica para perros, gatos y niños, coherente con las fichas de P. hederaceum y P. erubescens; la confianza queda en Media porque ninguna fuente prioritaria nombra la especie."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1600,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este (sol suave de primera hora) o a 1,5-2 m de una ventana sur u oeste tras una cortina fina. Una ventana norte muy luminosa sirve, pero la planta crecerá más despacio y con hojas menores. Como es rastrera y suele ir en maceta baja, colócala a la altura de la ventana (mesa o soporte), no en el suelo lejos del cristal.",
+      "tolera_sol_directo": "No. El sol directo quema la lámina aterciopelada (Garden Betty, Ohio Tropics); UF/IFAS describe en el género quemaduras en el centro y las puntas de la hoja por sol y bordes bronceados por exceso de luz o calor. Un rato de sol suave de mañana o de última hora de la tarde es tolerable (Garden Betty).",
+      "notas": "UF/IFAS (género, interior): la mayoría de filodendros toleran 75 fc (≈800 lux), pero con 150 fc o más (≈1600 lux) mantienen color y tamaño de hoja. NC State (género): luz brillante indirecta, evitar el sol directo; Clemson: luz indirecta o filtrada por cortina. Para P. gloriosum los blogs especializados piden luz brillante indirecta: con poca luz crece aún más despacio y saca hojas pequeñas y pecíolos largos (Ohio Tropics, Garden Betty). lux_min = 150 fc (UF/IFAS); lux_max ≈ 1000 fc, techo de la luz brillante indirecta en la escala del proyecto. Si falta luz natural, sirve una lámpara de cultivo. Las fuentes prioritarias de cultivo (UF/IFAS, Clemson, NC State) tratan el género Philodendron, no esta especie; los datos específicos de P. gloriosum proceden de blogs especializados. Por eso el bloque no pasa de Media.",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F6",
+        "F10",
+        "F11"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos que recién regada. Entonces regar a fondo, alrededor del rizoma y no sobre él, hasta que salga agua por los agujeros, y vaciar el plato a los 15-30 minutos. Nunca por calendario. No dejar que el sustrato se seque del todo durante días ni que quede encharcado; nunca dejar la planta con agua en el plato (Clemson).",
+      "primavera_verano": "Con crecimiento activo el sustrato se seca antes: comprobar dedo y peso cada pocos días. Mantenerlo ligeramente húmedo, dejando secar los 2-5 cm superiores entre riegos (Ohio Tropics, Garden Betty).",
+      "otono_invierno": "Crece muy despacio y el sustrato tarda más en secarse: dejar que se seque hasta aproximadamente la mitad de la maceta antes de volver a regar (Garden Betty) [orientativo, sin fuente prioritaria]. Con calefacción fuerte puede secarse antes: guiarse siempre por el dedo y el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo. En Madrid (Canal de Isabel II) es blanda y lleva cloramina, que no se elimina dejándola reposar, pero no es causa de puntas marrones. El riesgo real son las sales de abono acumuladas: UF/IFAS recomienda no abonar si la conductividad del sustrato es ≥2,0 dS/m y lavar el sustrato con abundante agua si supera 3,0 dS/m. En la práctica, cada 2-3 meses regar con 2-3 veces el volumen de la maceta para arrastrar sales [orientativo, sin fuente prioritaria].",
+      "notas": "El exceso de riego causa pudrición radicular (NC State, Clemson) y, en esta especie, pudrición del rizoma, sobre todo si está enterrado o el sustrato es compacto (Garden Betty). Clemson y UF/IFAS (género) piden sustrato 'uniformemente húmedo, sin encharcar'; se adopta el criterio conservador del proyecto (secar la capa superior antes de regar), que evita la causa nº 1 de muerte. NC State: regar sin mojar las hojas para prevenir manchas foliares; en hojas aterciopeladas el agua se queda retenida. Las fuentes prioritarias de cultivo (UF/IFAS, Clemson, NC State) tratan el género Philodendron, no esta especie; los datos específicos de P. gloriosum proceden de blogs especializados. Por eso el bloque no pasa de Media.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F7",
+        "F10",
+        "F11"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 60,
+      "notas": "Garden Betty: si la humedad baja a menudo del 40 %, usar humidificador; objetivo 50-60 %. Ohio Tropics: 50-60 % con humidificador, buena ventilación para evitar hongos y no pulverizar, porque no sube la humedad. Género: NC State y Clemson dicen que prefieren humedad alta pero se adaptan a la de una vivienda normal; UF/IFAS produce filodendros con 60-100 % de HR. Con aire muy seco las hojas nuevas pueden abrirse con bordes secos o deformadas [orientativo, sin fuente prioritaria]. Medios útiles: humidificador o agrupar plantas, no pulverizar. Las cifras min_pct e ideal_pct proceden de fuentes complementarias.",
+      "confianza": "Media",
+      "fuentes": [
+        "F11",
+        "F10",
+        "F7",
+        "F6",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "Garden Betty: no dejar que baje de 15 °C (59 °F); Ohio Tropics: evitar mínimas por debajo de 13 °C (55 °F), ideal 18-29 °C (65-85 °F). Se adopta el mínimo más alto, 15 °C, coherente con las fichas de P. hederaceum y P. erubescens (RHS H1A, mínimas por encima de 15 °C). Género: NC State, ideal 18-29 °C (65-85 °F), muy sensible al frío, evitar corrientes; Clemson, noches de 18-21 °C y días de 24-29 °C; UF/IFAS, en interior 21-27 °C (70-80 °F); en producción la calidad cae si el día supera a menudo 35 °C (95 °F) o la noche baja de 18 °C (65 °F), y varias horas a 0,5-4,5 °C (33-40 °F) amarillean las hojas inferiores. ideal_min_c = 18 °C (umbral de calidad de UF/IFAS); max_c = 35 °C (UF/IFAS). No tolera heladas. Ninguna fuente prioritaria da un mínimo específico para P. gloriosum.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F6",
+        "F5",
+        "F11",
+        "F10"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla para aráceas suelta y aireada: a partes iguales sustrato universal de calidad, corteza de pino u orquídea y perlita (Ohio Tropics, Garden Betty); se puede añadir algo de musgo esfagno si se seca demasiado rápido (Garden Betty). UF/IFAS (género, producción): turba de esfagno, corteza de pino, vermiculita o perlita, con buena retención de agua y aireación y sales solubles de 1-2 dS/m. NC State (género): rico en materia orgánica y bien drenado. Al plantar, el RIZOMA NO SE ENTIERRA: solo quedan cubiertas las raíces y al menos la mitad superior del rizoma queda a la vista sobre el sustrato (Garden Betty); enterrarlo favorece que se pudra.",
+      "ph": "6,0-6,5 (UF/IFAS, sustratos de producción de Philodendron); NC State indica pH ácido (<6,0) para el género.",
+      "drenaje": "Excelente: maceta con agujeros de drenaje obligatorios (Ohio Tropics) y mezcla gruesa que no se apelmace. Maceta ancha y baja, mejor rectangular, para que el rizoma avance en horizontal (Ohio Tropics).",
+      "confianza": "Media",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F10",
+        "F11"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes, soluble en agua, o abono de liberación lenta (Clemson; UF/IFAS).",
+      "npk": "Proporción N:P:K de 3:1:2 o 3:1:3 (UF/IFAS, producción de Philodendron).",
+      "primavera_verano": "Con crecimiento activo (aproximadamente de marzo a octubre en Madrid): ¼-½ de la dosis de etiqueta, una vez al mes, sobre sustrato ya húmedo.",
+      "otono_invierno": "Nada: sin crecimiento activo no se abona.",
+      "notas": "Clemson (género): abonar con regularidad con abono diluido; el exceso de abono curva y quema las puntas de las hojas. UF/IFAS: no abonar si las sales solubles del sustrato son ≥2,0 dS/m; tras comprar la planta, esperar unas 4 semanas sin trasplantar ni abonar; con poca luz o poco abono el color de la hoja se apaga. Como P. gloriosum crece despacio, se le aplica la pauta prudente del proyecto. Garden Betty: abonar solo en la temporada de crecimiento, de primavera a mediados de otoño.",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F5",
+        "F11"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 1-2 años, o cuando el rizoma llegue al borde de la maceta o las raíces la llenen (Garden Betty; NC State: cuando quede apretada de raíces). Crece despacio, así que no suele hacer falta más a menudo [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (NC State; Garden Betty). Clemson admite trasplantar en cualquier estación una planta apretada; en Madrid, mejor de abril a junio.",
+      "senales": "El rizoma sobresale del borde o cuelga fuera de la maceta (Ohio Tropics desaconseja macetas redondas por eso), raíces por los agujeros de drenaje, sustrato apelmazado o que se seca en muy poco tiempo. Al trasplantar, pasar a una maceta más LARGA que profunda, dejando espacio por delante del ápice del rizoma (el extremo que crece), y apoyar el rizoma sobre el sustrato sin enterrarlo.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7",
+        "F6",
+        "F10",
+        "F11"
+      ]
+    },
+    "poda": {
+      "necesita": "Apenas: solo retirar hojas viejas amarillas o secas. Es normal que vaya perdiendo la hoja más antigua del extremo trasero del rizoma (Garden Betty). Clemson (género): los pecíolos largos son quebradizos; colocar la planta fuera de zonas de paso.",
+      "epoca": "En cualquier momento para hojas muertas; los cortes del rizoma, mejor en primavera-verano.",
+      "como": "Cortar el pecíolo en su base con tijera limpia y desinfectada, con guantes (savia irritante). Si el rizoma se sale de la maceta, se puede cortar el tramo trasero viejo (ver propagación) en lugar de forzarlo.",
+      "confianza": "Media",
+      "fuentes": [
+        "F11",
+        "F6",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero. En otoño-invierno el crecimiento se frena por la menor luz y temperatura: espaciar riegos según el dedo y el peso y suspender el abono (Garden Betty).",
+      "confianza": "Media",
+      "fuentes": [
+        "F11",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división del rizoma (esqueje de rizoma)",
+        "separación de hijuelos"
+      ],
+      "epoca": "Primavera y verano, con crecimiento activo [orientativo, sin fuente prioritaria]; Clemson admite multiplicar filodendros en cualquier época.",
+      "pasos": "1) Sacar la planta de la maceta o retirar algo de sustrato para ver bien el rizoma. 2) Con cuchilla o tijera desinfectada y guantes, cortar el rizoma entre hojas, de modo que cada trozo tenga al menos 1-2 nudos (puntos de crecimiento) y, mejor, 1-2 hojas y algunas raíces; un trozo sin hojas tarda mucho más en brotar (Ohio Tropics, Garden Betty). 3) Dejar secar la herida unas horas [orientativo, sin fuente prioritaria]. 4) Colocar cada trozo sobre mezcla para aráceas húmeda, o sobre esfagno húmedo, sin enterrar el rizoma. 5) Mantener humedad alta mientras enraíza: bolsa transparente sujeta con palitos para que no toque las hojas, o humidificador (Ohio Tropics). Calor de 21-27 °C y luz brillante indirecta. 6) Los hijuelos que salen junto al rizoma se separan con tijera limpia y se plantan aparte (Garden Betty). UF/IFAS (género): los filodendros de autor se propagan comercialmente in vitro, y en esquejes de nudo de otras especies el brote aparece en 3-5 semanas y las raíces en 4-6 semanas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F10",
+        "F11",
+        "F6",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Riego excesivo o sustrato compacto que no drena: pudrición de raíces (NC State, Clemson). Es la principal causa de pérdida de esta especie."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Rizoma enterrado o mojado continuamente: se reblandece, oscurece y se pudre desde la base de las hojas (Garden Betty). Desenterrar la parte superior del rizoma, cortar el tejido blando y dejar secar."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego o falta de luz (Clemson); sustrato demasiado seco o encharcado durante mucho tiempo (Ohio Tropics, Garden Betty); varias horas a 0,5-4,5 °C (UF/IFAS); o la caída natural de la hoja más vieja del extremo trasero del rizoma."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: pecíolos excesivamente largos, porte abierto y hojas pequeñas (UF/IFAS; Garden Betty)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Poca luz, frío (<18 °C) o invierno. Ojo: es de crecimiento lento por naturaleza y cada hoja tarda 1-2 meses en abrirse, así que una sola hoja cada varias semanas es normal (Garden Betty, Ohio Tropics)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo sobre la lámina aterciopelada, sobre todo en ventanas sur u oeste en verano: manchas quemadas en el centro y las puntas o lámina descolorida (UF/IFAS; Garden Betty)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Exceso de abono o sales acumuladas (Clemson; UF/IFAS) y aire muy seco con calefacción (Garden Betty). No atribuir al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas que se abren deformadas, con bordes secos o rasgadas por aire muy seco durante el lento despliegue [orientativo, sin fuente prioritaria]; UF/IFAS cita en filodendros híbridos la carencia de calcio (hojas nuevas algo retorcidas) y la toxicidad por manganeso (hojas nuevas púrpuras, retorcidas o rasgadas)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Ácaros (araña roja), favorecidos por el aire seco de la calefacción en invierno o del verano madrileño (NC State, Clemson, Garden Betty)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en el envés, en la unión del pecíolo y bajo los catafilos del rizoma (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en pecíolos y nervios (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas nuevas aún enrolladas (NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips (NC State cita el trips de invernadero de bandas) o ácaros incipientes: punteado claro en el haz."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Manchas foliares favorecidas por hojas mojadas y poca ventilación (NC State); en hojas aterciopeladas el agua queda retenida, así que hay que regar sin mojarlas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, nunca en el alféizar de una ventana sur u oeste: retirarla 1,5-2 m o filtrar con cortina, porque la lámina aterciopelada se quema enseguida. Por encima de 35 °C cae la calidad de crecimiento (UF/IFAS): mantenerla en la estancia más fresca y sombreada, lejos del cristal caliente y sin corriente directa del aire acondicionado. El aire exterior muy seco (HR ≈38 % en julio) y el aire acondicionado bajan la humedad: humidificador o agrupar plantas para estar en el 50-60 %. El sustrato se seca antes: comprobar dedo y peso cada 2-3 días, sin regar por rutina. Vigilar la araña roja.",
+    "invierno": "Con la calefacción la HR interior baja a menudo del 30 %, muy por debajo del mínimo del 40 % recomendado: humidificador casi imprescindible, y planta lejos de radiadores y salidas de aire caliente. Mantenerla por encima de 15 °C (ideal ≥18 °C) y separada 20-30 cm de cristales fríos; de noche, que las hojas no toquen la ventana. Como va en maceta baja, no dejarla sobre un suelo frío o junto a una puerta a la terraza: mejor en una mesa o con un soporte aislante [orientativo, sin fuente prioritaria]. Regar mucho menos, solo cuando el sustrato esté seco hasta media maceta, y no abonar. Aprovechar la ventana más luminosa (sur u oeste), cuyo sol de invierno es débil, tras una cortina fina.",
+    "ubicacion_recomendada": "Salón o despacho cálido y luminoso: a 1 m de una ventana este, o a 1,5-2 m de una ventana sur u oeste con cortina, sobre una mesa o un soporte bajo y ancho, en maceta rectangular baja con el ápice del rizoma apuntando hacia el lado libre. Lejos de radiadores, del aire acondicionado y de corrientes. Fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "No se ha encontrado ninguna ficha de cultivo de Philodendron gloriosum en fuentes prioritarias (NC State no tiene ficha de la especie; la de la RHS solo da familia, nombre correcto y área de distribución). Los cuidados se basan en fichas del género de UF/IFAS, Clemson y NC State y en dos blogs especializados (Ohio Tropics, Garden Betty). Por eso ningún bloque de cuidados ni de toxicidad pasa de Media.",
+    "Nomenclatura: nombre aceptado Philodendron gloriosum André, Ill. Hort. 23: 194 (1876) (POWO, IPNI, RHS: 'Name status: correct'). POWO no muestra sinónimos. El cultivar histórico 'Terciopelo Redondo' de Exotica (Graf, 1957), atribuido a P. gloriosum, corresponde según Croat et al. (2020) a P. luxurians.",
+    "No hay datos de fuentes prioritarias sobre humedad mínima, temperatura mínima, tamaño en interior ni ritmo de crecimiento de la especie; las cifras de humedad (40 % mín., 60 % ideal) y de mínima (15 °C) proceden de blogs y de la coherencia con las fichas de Philodendron del proyecto.",
+    "Conservación: Vulnerable, VU B1ab(iii), en la Lista Roja de la UICN (2021) (ColPlantA). No se ha comprobado su situación en CITES; no figura en el material consultado.",
+    "Híbridos comerciales: en el mercado circulan híbridos de P. gloriosum con otras especies aterciopeladas; no se ha encontrado fuente prioritaria que los describa, así que la app no debe identificarlos con seguridad a partir de una foto.",
+    "Toxicidad: ninguna fuente prioritaria nombra P. gloriosum; se aplica la ficha del género Philodendron de ASPCA, NC State y Clemson."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87777-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Philodendron gloriosum André; descripción de CATE Araceae (Haigh et al., 2011)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:87777-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – ColPlantA (Catálogo de Plantas y Líquenes de Colombia, Useful Plants and Fungi of Colombia, Lista Roja UICN), Philodendron gloriosum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.missouribotanicalgarden.org/Portals/0/staff/PDFs/croat/Aroideana-CroatHannonKaufmann-Philolux.pdf",
+      "institucion": "Croat, T.B., Hannon, D.P. & Kaufmann, R. (2020). A new species of Philodendron subgenus Philodendron from Colombia (P. luxurians). Aroideana 43(3-4), revista revisada por pares (International Aroid Society; PDF alojado por Missouri Botanical Garden)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/12678/philodendron-gloriosum/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant Finder, Philodendron gloriosum (glorious philodendron)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/EP150/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH893, Cultural Guidelines for Commercial Production of Interiorscape Philodendron (University of Florida), género Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC 1509, Philodendron), género",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox, género Philodendron",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/philodendron-pertusum",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants (ficha de Philodendron spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.petpoisonhelpline.com/poison/philodendron/",
+      "institucion": "Pet Poison Helpline – Philodendron (centro de toxicología veterinaria)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.ohiotropics.com/2021/10/15/philodendron-gloriosum-care/",
+      "institucion": "Ohio Tropics (blog especializado), Philodendron gloriosum care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://gardenbetty.com/philodendron-gloriosum/",
+      "institucion": "Garden Betty (blog especializado), Philodendron gloriosum care",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:15185-2/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – POWO, Anthurium clarinervium (descripción de CATE Araceae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://colplanta.org/taxon/urn:lsid:ipni.org:names:87882-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – ColPlantA, Philodendron melanochrysum (descripción de CATE Araceae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84713-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew – POWO, Anthurium crystallinum (hábito y distribución)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

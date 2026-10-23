@@ -1,0 +1,365 @@
+{
+  "nombre_cientifico": "Nepenthes alata",
+  "nombres_comunes": [
+    "nepentes",
+    "planta jarra",
+    "planta odre",
+    "jarra tropical alada"
+  ],
+  "familia": "Nepenthaceae",
+  "origen": "Endémica de Filipinas. En sentido estricto (Cheek y Jebb 2013, European Journal of Taxonomy) N. alata Blanco queda restringida al norte de Luzón; las poblaciones del sur de Luzón a Mindanao se asignan a N. graciliflora Elmer. El grupo N. alata ocupa sobre todo bosque submontano. Atención: la mayoría de las plantas vendidas como «N. alata» en viveros y grandes superficies son híbridos, sobre todo N. × ventrata (N. alata × N. ventricosa, multiplicado masivamente por cultivo de tejidos según NParks) o N. graciliflora; los cuidados de esta ficha valen para los tres.",
+  "clima_nativo": "Tropical húmedo de colinas y montaña media filipina: calor diurno, noches algo más frescas, humedad ambiental alta todo el año y sin estación fría. Clemson la describe como especie de las colinas que rodean la selva con amplia tolerancia térmica (12-35 °C). Las fuentes no coinciden en clasificarla como de tierras bajas o altas (ver notas de temperatura).",
+  "categoria": "carnivora",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas alternas, coriáceas, lanceoladas o acintadas, verdes y brillantes, de 15-20 cm de lámina (NC State), con pecíolo alado (rasgo del grupo N. alata). El nervio central se prolonga más allá de la lámina en un zarcillo de longitud parecida a la hoja, en cuyo extremo cuelga una jarra (ascidio) hueca con tapa. Jarras inferiores: estrechas, ensanchadas en el tercio inferior, con dos alas o crestas verticales en la cara frontal, borde (peristoma) engrosado y tapa apical con cresta basal; unos 18 cm las inferiores y hasta 23 cm las superiores (RHS). Color muy variable incluso en la misma planta: verde amarillento, rojo, moteado, naranja o púrpura; NC State la describe como jarra verde con rayas rojo oscuro y Clemson como jarras inferiores delgadas teñidas de rojo arriba. En N. alata estricta los tallos son persistentemente pubescentes y más de la mitad de la superficie externa de la jarra está cubierta de pelos estrellados grises; las jarras superiores llevan alas con flecos en la parte alta (Cheek y Jebb 2013).",
+    "nerviacion": "Nervio central muy marcado que continúa en zarcillo; nervios secundarios longitudinales casi paralelos al central [orientativo, sin fuente prioritaria].",
+    "variegacion": "No tiene variegación foliar. Las manchas y rayas rojas están en las jarras y se intensifican con más luz (NParks, para N. × ventrata).",
+    "tallo": "Tallo herbáceo a algo leñoso, primero en roseta basal y después trepador mediante los zarcillos; en N. alata estricta, pubescente. Raíz pivotante y sistema radicular algo quebradizo (NC State).",
+    "habito": "Perenne siempreverde, trepadora o colgante; en interior se cultiva sobre todo en cesta colgante para que las jarras cuelguen (RHS, NC State). Planta dioica: flores diminutas sin pétalos, verdes o pardas, en racimos espiciformes y de olor desagradable.",
+    "tamano_adulto_interior": "RHS: 0,1-0,5 m de altura y de anchura en 2-5 años. Clemson para el género: 60-90 cm de alto y 30-60 cm de ancho, de crecimiento lento al principio; los tallos trepadores pueden alargarse más y se recortan (ver poda).",
+    "confusiones": [
+      {
+        "especie": "Nepenthes × ventrata (N. alata × N. ventricosa)",
+        "rasgo_diferenciador": "Hojas lisas y brillantes sin pelos; peristoma ancho y acampanado; las alas de la jarra se reducen a un fleco estrecho de pelos; jarras verde amarillento con rubor rojo al sol (NParks). Es lo que se vende con más frecuencia como «alata»."
+      },
+      {
+        "especie": "Nepenthes graciliflora",
+        "rasgo_diferenciador": "Tallos glabros o casi; jarras superiores sin alas con flecos en la parte alta y sin pelos estrellados en la cara externa (Cheek y Jebb 2013). Antes incluida en N. alata."
+      },
+      {
+        "especie": "Nepenthes ventricosa",
+        "rasgo_diferenciador": "Jarras rechonchas que se estrechan claramente a media altura, en forma de reloj de arena; planta compacta (Clemson)."
+      },
+      {
+        "especie": "Sarracenia spp. (jarras americanas)",
+        "rasgo_diferenciador": "Jarras erguidas que salen directamente de un rizoma a ras de sustrato, sin lámina foliar ni zarcillo; planta de exterior con reposo invernal frío."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "confianza": "Media",
+    "fuentes": [
+      "P7",
+      "P8",
+      "P15"
+    ],
+    "notas": "Clemson (HGIC 1571) indica «Pet Safe: Yes» para Nepenthes spp. y NC State la etiqueta como no tóxica para gatos y perros, ambas a nivel de género. La ASPCA no tiene ficha de ninguna Nepenthes (solo de Darlingtonia californica y Dionaea), por lo que no hay ficha de centro antitóxicos específica de la especie; por eso la confianza queda en Media. No se ha encontrado ninguna fuente prioritaria sobre niños: si un niño la come, llamar al Servicio de Información Toxicológica (91 562 04 20). El líquido de las jarras contiene enzimas digestivas y restos de insectos: no beberlo ni dejar que lo beban los animales."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de mañana) u oeste protegida; en ventana sur, a 1-2 m del cristal o tras cortina fina. En invierno se puede acercar a la ventana sur si no hay cristal frío ni radiador debajo.",
+      "tolera_sol_directo": "Sí, unas horas de sol suave de primera hora o de última hora de la tarde (Clemson; NC State: sombra parcial con 2-6 h de sol directo). No el sol de mediodía de verano tras el cristal, que quema las hojas (RHS).",
+      "notas": "Clemson: luz brillante difusa, cerca de ventana este u oeste, tolera unas horas de sol directo de mañana o tarde. RHS: luz brillante filtrada; las carnívoras de interior se queman con sol directo a través del cristal. ICPS: los Nepenthes de hoja gruesa son buenas plantas de interior si hay una ventana con algo de sol directo. Poca luz (junto con poca humedad) es la causa habitual de que no forme jarras (Clemson). Rango en lux según la escala del proyecto para luz brillante indirecta (500-1000 fc); NParks recomienda 6-8 h de pleno sol para que N. × ventrata enrojezca, pero se refiere al exterior en Singapur y no se adopta. Bajo LED se puede cultivar en terrario (ICPS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "P4"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato siempre húmedo, sin dejarlo secar nunca (Clemson), pero sin que esté empapado como una esponja escurriendo (ICPS). Comprobar con el dedo a 2-3 cm en el esfagno: regar en cuanto deje de notarse claramente húmedo, antes de que esté seco; y sopesar la maceta: el esfagno seco pesa muy poco, así que una maceta ligera indica que toca regar. Regar por arriba hasta que salga agua por el agujero; se puede dejar en el plato con agua uno o dos días para que el esfagno se empape (ICPS), pero no de forma permanente.",
+      "primavera_verano": "Crecimiento activo y más evaporación: comprobar el sustrato cada 1-2 días; en casa los Nepenthes gastan mucha más agua y se secan mucho antes que en invernadero (ICPS), sobre todo en macetas pequeñas o colgantes.",
+      "otono_invierno": "Sigue creciendo, más despacio: comprobar cada 3-4 días y regar con el mismo criterio de sustrato húmedo. Con calefacción el esfagno se seca antes de lo esperado. No dejar el plato con agua más de un día si la habitación está fresca.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua sin minerales: destilada, de ósmosis inversa o de lluvia limpia (Clemson, NC State, US Botanic Garden; USBG: nunca agua del grifo ni mineral). La ICPS admite el agua del grifo para carnívoras si su total de sólidos disueltos (TDS) es menor de 90 ppm, comprobado con la compañía de aguas o con un medidor TDS; filtrar con jarras NO quita las sales. Según la Fase 4 del proyecto, el grifo de Madrid capital (≈45-55 ppm estimados) cumple ese umbral con margen escaso y el sur metropolitano no: usar grifo solo tras medirlo con un medidor TDS. Nunca agua mineral embotellada ni agua dura. Dejar reposar el agua no sirve (Madrid usa cloramina).",
+      "notas": "Contradicción: la RHS admite agua del grifo hervida y enfriada si no hay lluvia, cambiando el sustrato cada seis meses por acumulación de minerales; el US Botanic Garden la desaconseja y la ICPS pone el límite de 90 ppm. Opción conservadora adoptada: agua destilada, de ósmosis o de lluvia, y grifo solo si el medidor TDS marca <90 ppm. Las jarras deben contener algo de líquido propio: no hace falta llenarlas, pero si se secan no se rellenan con agua del grifo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P8",
+        "P11",
+        "P6",
+        "P2",
+        "P4",
+        "P10"
+      ]
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 70,
+      "notas": "Clemson: humedad por encima del 60 %. RHS, NC State y USBG coinciden en que necesita humedad alta, sin cifra. Con humedad baja las jarras no se desarrollan bien o se secan (NC State, Clemson): la planta sigue viva pero deja de hacer jarras. La ICPS indica que las especies y los híbridos de hoja gruesa y coriácea soportan mejor la humedad de una casa y cita N. alata entre las adecuadas para interior. El 70 % ideal es [orientativo, sin fuente prioritaria]. Para subirla: humidificador, agrupar plantas, cesta en baño o cocina luminosos, o vitrina o terrario parcialmente abierto. Pulverizar las hojas no sube la humedad de forma útil (convención del proyecto; NParks lo sugiere para Singapur, pero no se adopta).",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P8",
+        "P9",
+        "P11",
+        "P4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 21,
+      "ideal_max_c": 29,
+      "notas": "Mínimos distintos: Clemson da para N. alata una tolerancia de 12-35 °C (54-95 °F); la RHS la clasifica H1A (bajo cristal todo el año, mínimo >15 °C). Se adopta el más conservador: 15 °C. Ideal diurno 21-29 °C (Clemson para especies de altura 21-27 °C; NC State 24-29 °C), con un descenso nocturno de unos grados que le sienta bien (NC State: noches en torno a 16 °C para las de altura). Máximo 35 °C (Clemson; NC State para las de tierras bajas). Contradicción sobre su origen: la ICPS la agrupa entre las de montaña de bosque no nuboso que aguantan noches frescas, mientras que NParks la llama especie de tierras bajas; Clemson la sitúa en colinas con amplia tolerancia. Los híbridos comerciales toleran mejor la temperatura que las especies (Clemson). Evitar las corrientes frías junto al cristal: la ICPS ha visto morir puntas de crecimiento por el aire frío de la ventana en invierno, incluso con doble acristalamiento.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P9",
+        "P8",
+        "P4",
+        "P14"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada, pobre en nutrientes y SIN abono: Clemson recomienda 60 % esfagno de fibra larga, 20 % perlita y 20 % corteza de orquídea; la ICPS, para Nepenthes en casa (donde se secan antes), 75 % esfagno de fibra larga y 25 % perlita; para esquejes, esfagno puro, 50:50 esfagno:perlita o 50:50 fibra de coco:perlita. El US Botanic Garden pide una mezcla «abierta»: esfagno de fibra larga con carbón hortícola, perlita, vermiculita u otro árido poroso. Fibra de coco solo si el envase garantiza que está lavada de sales (la ICPS pide la que ha estado «expuesta al agua de lluvia de al menos tres monzones»). Comprobar que el esfagno es de verdad Sphagnum: el musgo de forrar cestas no lo es (ICPS). NUNCA sustrato universal ni de macetas, ni tierra de jardín (demasiado ricos; RHS, NC State).",
+      "ph": "Ácido, <6,0 (NC State; RHS: ácido). ICPS: medio neutro a ligeramente ácido para enraizar esquejes.",
+      "drenaje": "Bueno: sustrato húmedo pero bien drenado (NC State, RHS). Maceta de plástico con agujeros o cesta colgante; nunca encharcado de forma permanente.",
+      "notas": "Perlita: la ICPS avisa de que en algunas zonas cuesta encontrar perlita que no sea salina (se humedece en fábrica con agua de cualquier calidad y la roca de origen puede ser salada), de que ha recibido perlita mortal para las carnívoras más sensibles y de que no hay que comprarla de marcas de fertilizantes. Hay que lavarla antes de usarla y quedarse con la que flota, y mantenerla húmeda al manipularla (el polvo daña los pulmones). La turba también puede llevar sales tóxicas para carnívoras (ICPS). El esfagno se degrada con el tiempo: renovar al trasplantar (Clemson). NParks usa 50 % perlita o arena y 50 % turba o esfagno para N. × ventrata.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P4",
+        "P2",
+        "P11",
+        "P3",
+        "P8",
+        "P9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "No abonar el sustrato. Alimentación preferente: los insectos que capture sola o, en casa, una presa ocasional echada en una jarra que tenga líquido (grillos, cochinillas de la humedad, gusanos de la harina, insectos secos; Clemson) o un trozo de gusano de sangre seco (ICPS). Nunca carne: no digieren proteínas complejas (NC State, USBG).",
+      "npk": null,
+      "primavera_verano": "Opcional, solo si no captura insectos y con crecimiento activo: abono orgánico líquido (extracto de algas o de kelp; Clemson) diluido a ¼ de la dosis de etiqueta, aplicado sobre las hojas y dentro de las jarras abiertas, no en el sustrato. Clemson dice dos veces al mes; se adopta la convención del proyecto, una vez al mes, por ser más conservadora. Probar primero en una sola jarra.",
+      "otono_invierno": "Nada en el sustrato. Presas ocasionales si hay jarras activas; sin abono foliar cuando el crecimiento se frena por menos luz o frío.",
+      "notas": "Contradicción: la RHS dice que las carnívoras no necesitan fertilizante, mientras que Clemson, el US Botanic Garden (abono orgánico a ¼, «especialmente Nepenthes») y NC State admiten abono orgánico diluido en temporada de crecimiento. Opción conservadora: no abonar el sustrato nunca y, como mucho, abono muy diluido en hojas y jarras. La ICPS describe poner gránulos de liberación lenta 19-6-12 en el sustrato de plántulas y después un gránulo dentro de una jarra, como práctica experimental de cultivador: no se traslada a la app como recomendación general. La emulsión de pescado que cita Clemson huele mucho en interior y favorece la mosca del sustrato: se omite.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P11",
+        "P8",
+        "P10",
+        "P1"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (Clemson), a una maceta solo un poco mayor (RHS, Clemson). La primera temporada puede quedarse en la maceta de compra (RHS).",
+      "epoca": "Con crecimiento activo, en primavera (en Madrid, de marzo a mayo) [orientativo, sin fuente prioritaria]; nunca con frío ni en plena ola de calor.",
+      "senales": "La planta se ha quedado pequeña para la maceta o las raíces la llenan; el sustrato se ha descompuesto (esfagno apelmazado, oscuro, que ya no airea) (Clemson, RHS).",
+      "notas": "Cómo (Clemson): retirar jarras viejas o marrones, humedecer la planta, sacarla, quitar con cuidado el sustrato viejo minimizando el daño a las raíces (se puede usar agua para soltarlo) y plantar en la mezcla nueva. Las raíces son quebradizas (NC State): manipular con suavidad.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P9",
+        "P10",
+        "P8"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, ligera: retirar jarras secas y, si se quiere, acortar tallos trepadores largos.",
+      "epoca": "Jarras secas, en cualquier momento. Acortar tallos, con crecimiento activo (primavera-verano), aprovechando los trozos como esquejes (ICPS).",
+      "como": "Las jarras viejas se secan de forma natural: duran 2-3 meses en las variedades rápidas y 6-12 en las lentas, y se vuelven marrones o negras al final de su vida (Clemson). Cortarlas en el extremo de la hoja, donde empieza la jarra (Clemson; RHS: quitar jarras pasadas), dejando la lámina verde, que sigue haciendo fotosíntesis. Si un tallo trepador se alarga mucho y la base queda pelada, se puede cortar dejando al menos 4 hojas verdes en la planta madre o tumbar la maceta para que el tallo cuelgue y forme una nueva roseta basal antes de cortarlo (ICPS). Usar cuchilla nueva y limpia.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P7",
+        "P9",
+        "P2"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "Sin reposo invernal: es tropical y no necesita una estación fría. En invierno crece más despacio y suele hacer menos jarras por la menor luz y por el frío junto al cristal (ICPS); se mantiene el mismo criterio de riego por sustrato húmedo y se suspende cualquier abono foliar. No bajar de 15 °C.",
+      "confianza": "Media",
+      "fuentes": [
+        "P4",
+        "P7",
+        "P9"
+      ],
+      "notas": "Ninguna fuente prioritaria dice literalmente «Nepenthes no tiene reposo»: se deduce de su clasificación como tropical H1A (RHS), de que florece en cualquier estación (NC State) y de que las indicaciones de Clemson solo cambian con la «temporada de crecimiento». El reposo frío que mencionan el USBG y la RHS para las carnívoras se refiere a especies templadas (Dionaea, Sarracenia), no a Nepenthes."
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "semilla"
+      ],
+      "epoca": "Esquejes en cualquier época, mejor con la planta madre en crecimiento activo (ICPS); la RHS indica febrero. Semillas, en cuanto se reciben (son efímeras y no toleran heladas).",
+      "pasos": "Esqueje (ICPS): 1) Elegir un tallo trepador con hojas separadas; el mejor esqueje es la punta en crecimiento con 2-3 hojas; dejar al menos 4 hojas verdes en la planta madre. 2) Cortar con cuchilla nueva, a ser posible bajo el agua, por encima de la yema (unos mm por encima de donde se inserta la hoja). 3) Hacer esquejes de 1 nudo (cerca de la punta), o de 2-3 nudos en partes más viejas, quitando la hoja inferior; al menos una yema debe quedar bajo el sustrato. 4) Enraizar en esfagno de fibra larga, esfagno:perlita 50:50 o coco lavado:perlita 50:50, húmedo pero no empapado. 5) Etiquetar, meter la maceta en una bolsa de plástico cerrada y colocarla con luz brillante sin sol directo. 6) Esperar de un mes a un año; mientras las hojas sigan verdes hay posibilidades; retirar los esquejes fallidos para que no se pudran. 7) Cuando broten, trasplantar y aclimatar poco a poco a menos humedad (bolsa entreabierta o terrario). Las hormonas de enraizamiento no ayudan según la ICPS y en exceso impiden enraizar. Semilla (ICPS): planta dioica, hacen falta un pie macho y uno hembra en flor a la vez; sembrar en superficie sobre esfagno vivo picado o coco lavado, en bolsa de plástico a 26-32 °C con luz suave; germina en 4 semanas a casi un año y tarda 3-5 años en dar una planta de exposición. Recomendada solo para cultivadores con experiencia.",
+      "confianza": "Alta",
+      "fuentes": [
+        "P2",
+        "P1",
+        "P9",
+        "P10",
+        "P8"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "No forma jarras nuevas o casi no crece: casi siempre poca luz y humedad baja (Clemson, NC State); en invierno, además, el frío del cristal (ICPS). Las hojas pueden salir con zarcillo pero sin jarra."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Jarras que se secan y se arrugan: si son las viejas, una a una, es el envejecimiento natural (duran de 2-3 meses a 6-12 meses; Clemson). Si se secan varias a la vez, hay un cambio brusco de humedad, temperatura o riego (Clemson): aire seco por calefacción o calor de verano, o sustrato que se ha secado."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las axilas de las hojas, en la base del tallo y a veces en las raíces (ICPS, Clemson, RHS, NC State). Llega con plantas nuevas: cuarentena de unas semanas. La ICPS cita insecticidas y alcohol con detergente que no son admisibles en España para un particular; usar solo productos listos para usar autorizados en el Registro del MAPA para uso no profesional en interior y retirar a mano las colonias."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos y jarras en formación (Clemson, RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en tallos y nervios (Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado plateado por trips (Clemson y NC State citan los trips entre sus plagas)."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya: manchas fúngicas naranjas en hojas (Clemson). No usar fungicidas a base de cobre: pueden matar a los Nepenthes (Clemson). La mala ventilación favorece las enfermedades fúngicas (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas quemadas o blanqueadas por sol directo de mediodía a través del cristal (RHS), típico en ventanas sur y oeste de Madrid en verano."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Costra blanca de sales en el esfagno por regar con agua con sales (grifo >90 ppm TDS, agua mineral) o por abonar el sustrato; perlita o fibra de coco sin lavar también aportan sales (ICPS). Cambiar el sustrato y pasar a agua destilada, de ósmosis o de lluvia."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera, el interior junto a una ventana sur u oeste puede superar los 35 °C que tolera (Clemson): alejarla del cristal a mediodía, usar cortina fina y preferir ventana este. El aire seco (HR exterior ≈38 % en julio) y el aire acondicionado bajan la humedad por debajo del 60 % que necesita: humidificador cerca, agrupar plantas o vitrina parcialmente abierta; no sirve pulverizar. El esfagno se seca muy rápido en cesta colgante: comprobar el sustrato a diario y regar con agua destilada, de ósmosis o de lluvia en cuanto deje de estar claramente húmedo. Las noches algo más frescas que el día le convienen; no sacarla al balcón con sol directo ni viento seco.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: sin humidificador o vitrina dejará de hacer jarras, aunque la planta siga viva. No colocarla encima de radiadores ni junto al cristal frío: las corrientes frías de la ventana matan las puntas de crecimiento (ICPS). Mantener por encima de 15 °C. Hay menos luz: puede acercarse a una ventana sur luminosa (sin tocar el cristal) o completarse con luz LED. Sin reposo: seguir regando con criterio de sustrato húmedo, sin abono.",
+    "ubicacion_recomendada": "Cesta colgante o estante a 0,5-1 m de una ventana este, o a 1-2 m de una sur u oeste con cortina, en una habitación templada (21-29 °C de día) lejos de radiadores y de salidas del aire acondicionado; un baño o cocina con buena luz natural, o una vitrina o terrario parcialmente abierto, ayudan a mantener la humedad alta."
+  },
+  "lagunas": [
+    "Taxonomía: POWO acepta Nepenthes alata Blanco y también N. graciliflora Elmer. Cheek y Jebb (2013, European Journal of Taxonomy 69) restringen N. alata en sentido estricto al norte de Luzón (tallos pubescentes, pelos estrellados grises en la jarra) y asignan a N. graciliflora el resto de poblaciones antes incluidas en N. alata. No se ha consultado la lista de sinónimos de POWO (la ficha del taxón dio error 500 y la API está protegida por Cloudflare).",
+    "Muchas plantas comerciales etiquetadas «N. alata» son N. × ventrata (N. alata × N. ventricosa según NParks; algunos cultivadores sostienen que el parental es N. graciliflora, sin fuente revisada por pares) o N. graciliflora. Casi todos los datos de cultivo de las fuentes prioritarias son del género Nepenthes o de híbridos; solo Clemson (rango 12-35 °C) y RHS (H1A, porte, ficha general) son específicos de N. alata.",
+    "No hay cifra de luz en lux ni de humedad ideal en ninguna fuente prioritaria: lux según la escala del proyecto y 70 % de humedad ideal orientativo.",
+    "Ninguna fuente prioritaria afirma de forma literal que Nepenthes no tenga reposo invernal; se deduce de su condición tropical (H1A) y de la floración en cualquier estación.",
+    "Toxicidad: la ASPCA no tiene ficha de Nepenthes; la clasificación como no tóxica para perros y gatos procede de Clemson y NC State a nivel de género, sin datos de principio activo. Sin datos para niños.",
+    "Época de trasplante: ninguna fuente prioritaria la indica para Nepenthes (primavera, orientativo).",
+    "Plagas: la ICPS recomienda contra la cochinilla imidacloprid, diazinón, malatión o alcohol con detergente, que no son opciones admisibles para un particular en interior en España; no se ha encontrado una fuente prioritaria con tratamiento autorizado específico para Nepenthes.",
+    "Origen ecológico: las fuentes no coinciden en si N. alata es de tierras bajas (NParks) o de montaña (ICPS); no se ha localizado su rango altitudinal en una fuente prioritaria abierta."
+  ],
+  "fuentes": [
+    {
+      "id": "P1",
+      "url": "https://www.carnivorousplants.org/grow/guides/Nepenthes",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Nepenthes from Seed (J. Brittnacher)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P2",
+      "url": "https://www.carnivorousplants.org/grow/propagation/NepenthesStemCuttings",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Nepenthes Propagation via stem cuttings (T. Cahill y J. Brittnacher)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P3",
+      "url": "https://www.carnivorousplants.org/grow/SoilsWaterLight/CPmix",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Peat, Sand, Perlite (advertencia sobre perlita salina)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P4",
+      "url": "https://www.carnivorousplants.org/grow/environs/windowsill",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Window Sill Garden (Nepenthes como planta de interior)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P5",
+      "url": "https://www.carnivorousplants.org/grow/pests/Mealybugs",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Mealybugs",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P6",
+      "url": "https://www.carnivorousplants.org/grow/guides/Dionaea",
+      "institucion": "International Carnivorous Plant Society (ICPS) — Growing Dionaea muscipula (umbral de TDS del agua del grifo para carnívoras)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P7",
+      "url": "https://hgic.clemson.edu/factsheet/tropical-pitcher-plants-nepenthes-spp-indoor-care-growing-tips-plant-guide/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center — HGIC 1571 Tropical Pitcher Plants (Nepenthes spp.) (J. Jordan, 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P8",
+      "url": "https://plants.ces.ncsu.edu/plants/nepenthes/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Nepenthes (género, con N. alata como cultivar/especie listada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P9",
+      "url": "https://www.rhs.org.uk/plants/76432/nepenthes-alata/details",
+      "institucion": "Royal Horticultural Society (RHS) — Nepenthes alata, winged tropical pitcher plant",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P10",
+      "url": "https://www.rhs.org.uk/plants/types/carnivorous/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow carnivorous plants (2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P11",
+      "url": "https://www.usbg.gov/cultivating-carnivorous-plants",
+      "institucion": "United States Botanic Garden — Cultivating Carnivorous Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P12",
+      "url": "https://powo.science.kew.org/api/2/search?q=Nepenthes%20alata",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew — Nepenthes alata Blanco (aceptado) y N. graciliflora Elmer (aceptado)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P13",
+      "url": "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/191",
+      "institucion": "Cheek M. y Jebb M. (2013), European Journal of Taxonomy 69:1-23, revista revisada por pares — Recircumscription of the Nepenthes alata group in the Philippines",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P14",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/6/9/6989",
+      "institucion": "National Parks Board de Singapur (NParks, organismo oficial que gestiona el Singapore Botanic Gardens), Flora & Fauna Web — Nepenthes × ventrata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "P15",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plant List (sin entrada para Nepenthes)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

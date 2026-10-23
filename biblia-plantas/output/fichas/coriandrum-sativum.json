@@ -1,0 +1,351 @@
+{
+  "nombre_cientifico": "Coriandrum sativum",
+  "nombres_comunes": [
+    "cilantro",
+    "coriandro",
+    "culantro",
+    "perejil chino"
+  ],
+  "familia": "Apiaceae",
+  "origen": "POWO (Kew) la da como nativa del Mediterráneo oriental y Oriente Próximo hasta Pakistán: Turquía, Líbano-Siria, Palestina, Sinaí, Arabia Saudí, Irán, Afganistán, Pakistán, Cáucaso y Transcaucasia; introducida en el resto del mundo, incluida España. Otras fuentes dan un origen más amplio: Mediterráneo occidental, sur de Europa y oeste de Asia (NC State), sur de Europa y Asia (Wisconsin) o Mediterráneo oriental (Penn State). Cultivada desde hace más de 3000 años (Penn State, Wisconsin).",
+  "clima_nativo": "Mediterráneo y subtropical seco. Es un cultivo de temporada fresca: crece mejor en primavera y otoño y espiga (florece y da semilla) en cuanto llegan el calor y los días largos (NC State, Penn State, Wisconsin, UF/IFAS). No sobrevive a una helada fuerte (Wisconsin). Óptimo de cultivo de 15,5-18 °C, con mínimo de 7 °C y máximo de 24 °C según UC ANR; OMAFRA da un óptimo de 18-27 °C.",
+  "categoria": "aromatica",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas basales anchas, planas y lobuladas, compuestas, parecidas a las del perejil liso; las hojas superiores del tallo floral son muy finas, divididas y plumosas, como de eneldo (NC State, Wisconsin). Verde brillante, sin pelos (NC State, UF/IFAS). Al frotarlas desprenden un olor intenso, dulce-almizclado, que a unas personas les resulta cítrico y a otras 'a jabón' (Wisconsin, Penn State). Los folíolos pueden tener el margen profundamente recortado o casi entero (Wisconsin). Cuando la planta empieza a espigar deja de producir hojas anchas y solo saca hojas finas plumosas (Wisconsin): es una señal visual clara de que la cosecha de hoja se acaba.",
+    "nerviacion": "Pinnada en cada folíolo, con nervios finos poco marcados. La hoja basal es pinnaticompuesta (1-2 veces dividida) con folíolos anchos dentados o lobulados; las hojas superiores, divididas en segmentos filiformes casi sin lámina.",
+    "variegacion": "No existe variegación en la especie: es verde uniforme (NC State: color de hoja verde). Hojas pálidas indican falta de luz (RHS) y hojas amarillas, problema o vejez, no un cultivar.",
+    "tallo": "Al principio forma una roseta baja de peciolos finos y verdes que salen de la base. Raíz pivotante larga y blanca, comestible (Wisconsin: no trasplanta bien por su raíz pivotante larga; las raíces se usan en la cocina tailandesa). Al espigar sube un tallo floral fino, erguido, ramificado y hueco que llega a 60-90 cm (Wisconsin).",
+    "habito": "Anual herbácea erguida de crecimiento rápido (NC State). Primero roseta de hojas anchas; después tallo floral con umbelas compuestas de flores pequeñas blancas o rosa pálido de unos 5 cm de diámetro (NC State, Wisconsin), muy visitadas por insectos útiles (Wisconsin, UC Master Gardeners). Fruto redondo, globoso, primero verde, luego rojizo y por último pardo claro: es la semilla de cilantro (coriandro) (NC State, Wisconsin). Tras dar semilla la planta muere (RHS).",
+    "tamano_adulto_interior": "Hojas de 30-45 cm de alto y tallo floral de 60-90 cm (Wisconsin). NC State da 30-60 cm de alto y de ancho; UC Master Gardeners, 45-60 cm de alto y 25-35 cm de ancho. En interior con poca luz queda ahilado y pálido (RHS). En las macetas de supermercado son muchas plántulas finas y apretadas (RHS).",
+    "confusiones": [
+      {
+        "especie": "Petroselinum crispum var. neapolitanum (perejil liso)",
+        "rasgo_diferenciador": "Las hojas del cilantro se parecen en forma a las del perejil (Wisconsin, NC State), pero el olor es muy distinto: intenso y almizclado en el cilantro (Wisconsin). Las hojas basales del cilantro son más redondeadas y lobuladas y de verde más claro; el perejil es bienal y tiene flores amarillo verdosas, el cilantro las tiene blancas o rosadas (NC State). Las hojas superiores muy finas solo aparecen en el cilantro al espigar."
+      },
+      {
+        "especie": "Conium maculatum (cicuta)",
+        "rasgo_diferenciador": "MUY TÓXICA, puede ser mortal (NC State). Sus hojas se parecen al perejil y al cilantro, pero es una planta grande de 1,8-3 m, con tallo hueco y liso con manchas moradas, raíz con manchas rojas y olor fétido al aplastarla; en el centro de la umbela suele haber una flor morada (NC State). No recoger nunca 'cilantro silvestre' en el campo."
+      },
+      {
+        "especie": "Anethum graveolens (eneldo) y Foeniculum vulgare (hinojo)",
+        "rasgo_diferenciador": "NC State los cita como plantas de nicho similar. Sus hojas son siempre filiformes, también en la base, y huelen a anís; el cilantro tiene hojas basales anchas y lobuladas y solo saca hojas finas en el tallo floral. Las flores del eneldo y del hinojo son amarillas, las del cilantro blancas o rosadas. Rasgo orientativo, sin fuente prioritaria para la comparación."
+      },
+      {
+        "especie": "Eryngium foetidum (culantro, cilantro de hoja ancha)",
+        "rasgo_diferenciador": "Otra Apiaceae con aroma parecido que en Latinoamérica también se llama 'culantro'. Tiene hojas enteras, alargadas y dentadas con espinas suaves en el margen, en roseta, muy distintas de las hojas divididas del cilantro. Rasgo orientativo, sin fuente prioritaria consultada."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "ASPCA la clasifica como no tóxica para perros, gatos y caballos (ficha 'Cilantro', Coriandrum sativum). NC State la etiqueta también como no tóxica para perros, gatos y caballos, y como comestible en hojas, tallos, flores y semillas. Como con cualquier planta, comer mucha cantidad puede dar vómitos o malestar digestivo leve en perros y gatos (advertencia general de ASPCA). En niños es una hierba comestible (NC State).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2"
+    ],
+    "notas": "El riesgo práctico para niños y mascotas no es la planta, sino comer hojas tratadas con un fitosanitario antes de cumplirse el plazo de seguridad de su etiqueta, o abonadas con productos no aptos para cultivos comestibles. La cicuta (Conium maculatum), con la que se puede confundir, es mortal (NC State). Posibles alergias o dermatitis por contacto en personas: no documentadas en las fuentes consultadas (ver lagunas)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "En interior, junto a la ventana más soleada (sur u oeste): necesita 6 h de luz intensa de una ventana soleada o 12-16 h de luz con LED o fluorescentes de luz fría (UC Master Gardeners); RHS recomienda un alféizar cálido y soleado para sembrar y después un sitio luminoso pero razonablemente fresco. Rinde mucho más en balcón o terraza: RHS recomienda sembrarlo en el exterior siempre que se pueda. En verano, sombra a mediodía y por la tarde (RHS, Penn State).",
+      "tolera_sol_directo": "Sí: pleno sol, 6 h o más de sol directo, aunque tolera sombra parcial de 2-6 h de sol (NC State) o sombra ligera (Wisconsin, UC Master Gardeners, RHS). Excepción: con calor, el sol de mediodía y tarde acelera el espigado; en verano hay que sembrarlo en un lugar más fresco, protegido del sol de mediodía (RHS), con algo de sombra por la tarde (Penn State).",
+      "notas": "Luz directa según la escala del proyecto: más de 1000 fc, es decir, más de 10 760 lux. Ninguna fuente da un máximo de lux. Con poca luz en interior se vuelve pálido y ahilado y dura poco (RHS): la luz es el factor que más limita su cultivo en casa.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F6",
+        "F5",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato uniformemente húmedo, nunca encharcado (Wisconsin, RHS: 'apenas húmedo'; no le gusta el sustrato empapado). Mete el dedo 2-3 cm y riega a fondo cuando esté casi seco; comprueba también el peso de la maceta: si pesa poco, pide agua. Nunca riegues por calendario. Vacía el plato a los 15-20 min: el exceso de riego es la causa nº 1 de muerte. La sequedad es especialmente perjudicial en esta especie porque adelanta el espigado (RHS: espiga antes con tiempo caluroso y seco; UC Master Gardeners: necesita riego regular para reducir el espigado).",
+      "primavera_verano": "En maceta se seca mucho más deprisa que en el suelo: compruébala a diario y riega cuando lo pida (RHS). Riega temprano por la mañana o al atardecer (RHS). Con calor y aire seco, una maceta pequeña puede necesitar agua casi cada día, pero decide siempre por el dedo y el peso. Cuando se cultiva para semilla, se reduce el riego al madurar las semillas (Wisconsin).",
+      "otono_invierno": "Crece más despacio y gasta menos agua: riega cuando los 2-3 cm de arriba estén secos y deja escurrir del todo. Con frío y sustrato empapado aumenta la caída de plántulas (damping-off, citada por OMAFRA) y la podredumbre de raíz. En interior con calefacción se seca antes de lo esperado: comprueba con el dedo.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "El agua del grifo de Madrid sirve: es blanda y su cloramina (que no se elimina dejándola reposar) no causa problemas a esta planta. RHS prefiere agua de lluvia almacenada si se tiene, pero no es imprescindible. Lo importante es que la maceta drene bien.",
+      "notas": "Moja el sustrato, no las hojas: la mancha bacteriana, su enfermedad más frecuente, se reduce regando a ras de suelo y no por encima (Penn State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da un porcentaje de humedad relativa para el cilantro (ver lagunas). No es una planta tropical; NC State la considera resistente a la humedad ambiental. El problema del aire seco en Madrid es que seca antes el sustrato, y la sequedad adelanta el espigado (RHS). Pulverizar las hojas no sube la humedad de forma útil y mantiene la hoja mojada, lo que favorece la mancha bacteriana (Penn State: regar a ras de suelo y mejorar la ventilación). Agrupar macetas o usar un humidificador es lo útil si el aire está muy seco [orientativo, sin fuente prioritaria].",
+      "confianza": "Baja",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 24,
+      "ideal_min_c": 15,
+      "ideal_max_c": 18,
+      "notas": "UC ANR (Pub. 31-043C) incluye el cilantro entre los cultivos con óptimo de 60-65 °F (15,5-18 °C), mínimo de 45 °F (7 °C) y máximo de 75 °F (24 °C). OMAFRA da un óptimo más alto, de 18-27 °C, y lo califica de tolerante a heladas; Wisconsin indica que no sobrevive a una helada fuerte. Ante la contradicción en el máximo se adopta el valor más conservador, 24 °C: por encima espiga pronto (Penn State: espiga 'al primer signo de calor'). Para el mínimo se adopta el más alto, 7 °C (UC ANR); aguanta heladas ligeras en el exterior (OMAFRA), pero no heladas fuertes (Wisconsin). Para germinar necesita el sustrato a más de 10 °C (OMAFRA). Además del calor, los días largos disparan el espigado (UF/IFAS, Wisconsin: ningún cultivar aguanta bien temperaturas altas y días largos; RHS cita también golpes de frío y cambios de duración del día).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F8",
+        "F4",
+        "F5",
+        "F9",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal sin turba que drene bien (RHS). Le va bien en maceta precisamente porque le gusta el drenaje libre (RHS). Suelo rico y bien drenado (UF/IFAS), de textura franca (NC State; OMAFRA: francos y franco-arenosos). Por la raíz pivotante, usa una maceta profunda, de al menos 20-25 cm de fondo [orientativo, sin fuente prioritaria].",
+      "ph": "Alrededor de 6,5 (Penn State); 6,5-7,5 (OMAFRA). Rango práctico 6,5-7,0.",
+      "drenaje": "Imprescindible: maceta con agujeros y nunca encharcada; no le gusta el sustrato empapado (RHS). Sin platos con agua permanente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F8",
+        "F2",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas aromáticas o de hoja, apto para cultivos comestibles.",
+      "npk": null,
+      "primavera_verano": "Con crecimiento activo, ¼-½ de la dosis de etiqueta una vez al mes (criterio del proyecto). Como es un cultivo corto (40-80 días hasta la cosecha de hoja; OMAFRA, Wisconsin) y el sustrato nuevo ya trae nutrientes, muchas tandas no necesitan más que 1-2 aportes. OMAFRA solo da necesidades de nitrógeno para cultivo en campo (50-100 kg/ha), no una pauta doméstica.",
+      "otono_invierno": "Si sigue creciendo junto a una ventana luminosa o bajo lámpara, la misma pauta más espaciada. Si apenas crece por poca luz o frío, nada.",
+      "notas": "Ninguna fuente prioritaria da una pauta de abonado para cilantro en maceta (ver lagunas). Abona solo con el sustrato húmedo. Si es para consumo, usa solo abonos autorizados para cultivos comestibles y respeta las indicaciones de su etiqueta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F8",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "No se trasplanta: es anual y se siembra directamente en su maceta definitiva. Su raíz pivotante larga hace que no trasplante bien (Wisconsin); RHS dice que no le gusta que lo trasplanten y Penn State recomienda sembrar directo en vez de trasplantar para tener plantas más sanas y fuertes. La planta de vivero se pone una sola vez en su maceta, a la misma profundidad que tenía y sin romper el cepellón (RHS).",
+      "epoca": "Al mismo tiempo que la siembra: en Madrid, finales de invierno-primavera (febrero-abril) y finales de verano-otoño (finales de agosto-octubre). UC Master Gardeners, en clima mediterráneo de California, indica plantar de marzo a mayo y de agosto a octubre.",
+      "senales": "Solo en macetas de supermercado: llevan muchas plántulas finas y apretadas que tienden a sufrir hongos o a florecer pronto; pueden sobrevivir si se dividen y se trasplantan enseguida, y conviene mantenerlas en interior en maceta (RHS). Si se hace, mover cada mata con su cepellón sin romper la raíz principal.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No se poda como tal: la cosecha es la poda. Cosechar a menudo estimula hojas nuevas y tiernas (UC Master Gardeners, RHS).",
+      "epoca": "Desde que la planta mide 10-15 cm (RHS) o unos 15 cm (Wisconsin, Penn State, UF/IFAS), y de forma continua hasta que espiga.",
+      "como": "Cosecha 'corta y vuelve a crecer': toma unas pocas hojas de cada planta y deja que se recupere un par de semanas (RHS). Penn State indica cortar cada vez un tercio de la planta a ras de suelo; Wisconsin, retirar las hojas exteriores más viejas para que saque nuevas, o cortar la mata entera a 2,5 cm del suelo para que rebrote una segunda vez. Quita los tallos florales en cuanto aparezcan para alargar la cosecha de hoja (RHS, UC Master Gardeners). Deja alguna planta florecer si quieres semilla para la siguiente siembra o atraer insectos útiles (RHS, Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F9"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "Es una planta ANUAL: no tiene reposo invernal. Germina, produce hoja, espiga, da semilla y muere en unos meses (RHS: al ser anual, muere tras dar semilla; NC State y Wisconsin: anual). La hoja se cosecha a los 40-80 días de la siembra (OMAFRA, Wisconsin) y la semilla hacia los 100-120 días (Wisconsin, OMAFRA). Cuando espiga, las hojas se vuelven amargas y la planta deja de producir hoja (Penn State, Wisconsin): no es una enfermedad ni un fallo de cuidado, sino el final de su ciclo. Para tener cilantro continuo hay que sembrar de nuevo cada 2-4 semanas (ver propagación).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F4",
+        "F8",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla"
+      ],
+      "epoca": "Siembras escalonadas cada 2-3 semanas (Wisconsin, UC Master Gardeners) o cada 2-4 semanas (Penn State). En Madrid: desde febrero en interior, en un alféizar soleado (RHS: en macetas desde febrero), y de marzo a abril en el exterior; de nuevo desde finales de agosto hasta octubre. NO sembrar en pleno verano (de finales de mayo a mediados de agosto): con calor y días largos espiga antes de producir hoja (Wisconsin: no se recomiendan siembras de verano; para cosecha de otoño, sembrar a mediados de agosto; UF/IFAS: cultivarlo en otoño e invierno porque espiga con días largos y cálidos). UC Master Gardeners, en clima mediterráneo, indica siembra de marzo a mayo y de agosto a octubre; en Madrid, más caluroso en mayo, conviene acortar la siembra de primavera a abril [orientativo, sin fuente prioritaria para Madrid]. En otoño-invierno se puede seguir sembrando en interior luminoso y fresco.",
+      "pasos": "1) Usa semilla de buena calidad; si quieres cultivo de hoja, elige variedades de espigado lento (RHS, Wisconsin, UC Master Gardeners). 2) La 'semilla' es un fruto duro con dos semillas: UF/IFAS indica que puede necesitar partirse o escarificarse antes de sembrar; presiónalo suavemente para abrirlo en dos. 3) Siembra directamente en la maceta definitiva, a 0,6-1,3 cm de profundidad (Wisconsin), unos 5 cm entre semillas, cubre con un poco de sustrato y riega con suavidad (RHS). 4) Mantén el sustrato húmedo y a más de 10 °C (OMAFRA). Germina en 1-3 semanas según la temperatura (RHS). 5) Aclara a 5 cm en maceta de alféizar (RHS) o a 7-15 cm para plantas más grandes (Wisconsin); para semilla, a 20-30 cm (RHS, Wisconsin). 6) Primera cosecha de hoja a los 40-80 días (OMAFRA, Wisconsin); como microbrotes, a las 2 semanas (RHS). 7) Guarda semilla de las plantas que espiguen para la siguiente tanda (RHS); se resiembra sola con facilidad (Wisconsin). No se propaga por esquejes ni por división (ver lagunas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F5",
+        "F3",
+        "F9",
+        "F10",
+        "F8"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón, la plaga más común del cilantro (Penn State; también RHS). Suele estar en el envés de las hojas y en los tallos. Control: un chorro fuerte de agua (Penn State). Si hace falta un producto, usa solo uno listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado en su etiqueta para aromáticas o cilantro, y respeta SIEMPRE el plazo de seguridad de la etiqueta antes de cosechar, porque es una planta comestible."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza producida por el pulgón sobre hojas y tallos [orientativo: relación general pulgón-melaza, sin fuente específica de cilantro]."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina sobre la melaza del pulgón; OMAFRA la cita como posible problema del cilantro. Se resuelve controlando el pulgón."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana (Pseudomonas syringae pv. coriandricola), la enfermedad más frecuente (Penn State, OMAFRA, Wisconsin). Empieza como manchas empapadas de agua con borde amarillento que se agrandan y se vuelven pardo oscuras o negras con centro rojizo (Penn State). Retira y tira las plantas afectadas (no al compost), mejora la ventilación, riega a ras de suelo y no repitas en la misma maceta o sustrato con otra Apiaceae (perejil, apio, perifollo, eneldo) (Penn State). Se transmite por semilla: compra semilla analizada (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Fase avanzada de la mancha bacteriana: manchas que pasan de empapadas de agua a pardo oscuras o negras (Penn State). Mismo manejo que S14."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Caída de plántulas (damping-off), citada por OMAFRA, con sustrato frío y empapado. Las macetas de supermercado, con muchas plántulas apretadas, tienden a sufrir hongos (RHS). Riega solo cuando lo pida el dedo, usa sustrato nuevo y aclara las plántulas."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por encharcamiento o plato con agua; OMAFRA cita pudrición radicular, Fusarium y Rhizoctonia como problemas potenciales. No le gusta el sustrato empapado (RHS). La planta se pone lacia aunque el sustrato esté mojado."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior: se vuelve pálido y ahilado si se mantiene mucho tiempo dentro (RHS). Ponlo en la ventana más soleada o complementa con 12-16 h de LED (UC Master Gardeners)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Calor o sustrato seco: en maceta se seca muy deprisa con calor (RHS). Dale sombra a mediodía y riega según el dedo. Si está lacio con el sustrato mojado, sospecha de pudrición de raíz (S36). Ojo: si además saca un tallo central con hojas finas plumosas, está espigando (fin de ciclo, ver reposo), no enfermo."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas finas, recortadas y plumosas en lugar de anchas: es el espigado. Al empezar a espigar, la planta produce hojas finas a lo largo del tallo floral (Wisconsin) y la hoja se vuelve amarga (Penn State). Lo provocan el calor, la sequía, los días largos (RHS, UF/IFAS, Wisconsin) y también es el final natural de una planta anual. Quita el tallo floral en cuanto aparezca para alargar algo la cosecha (RHS) y siembra una tanda nueva."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Babosas y caracoles en balcón o terraza, sobre todo con humedad (RHS). Gusanos grises (orugas cortadoras) que cortan las plántulas por la base y orugas que esqueletizan las hojas (Penn State). Orugas de la mariposa macaón (Papilio machaon), de la que el cilantro es planta nutricia (NC State). Retíralas a mano (Penn State)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Envejecimiento normal de las hojas exteriores (Wisconsin recomienda retirar las hojas exteriores más viejas) o final del ciclo anual tras espigar [orientativo, sin fuente prioritaria para la relación causa-síntoma]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es la estación imposible para el cilantro de hoja en Madrid. Con 35-40 °C supera con mucho su máximo de unos 24 °C (UC ANR), y el calor junto con los días largos de junio-julio lo hacen espigar en pocos días (Wisconsin, UF/IFAS, Penn State). No siembres de finales de mayo a mediados de agosto (Wisconsin: no se recomiendan siembras de verano). Si tienes una tanda en marcha a principios de verano: llévala a un sitio fresco, a la sombra a mediodía y por la tarde (RHS, Penn State), nunca en ventana sur u oeste sin protección. Con aire seco (HR ≈38 %) la maceta se seca en horas: compruébala a diario y riega temprano (RHS), porque la sequedad adelanta aún más el espigado. Cuando espigue, deja que dé semilla y guárdala para sembrar a finales de agosto o septiembre.",
+    "invierno": "Es una buena época si se cultiva en interior o en balcón protegido. Fuera aguanta heladas ligeras (OMAFRA), pero no heladas fuertes (Wisconsin) y por debajo de unos 7 °C apenas crece (UC ANR); en noches de helada, mételo en casa. Dentro, ponlo en la ventana más soleada (sur) o bajo LED 12-16 h (UC Master Gardeners), en un sitio luminoso pero fresco (RHS), lejos de radiadores y salidas de aire caliente: el calor y la sequedad lo hacen espigar (RHS). Con calefacción y humedad interior por debajo del 30 % el sustrato se seca antes: riega según el dedo y el peso. Evita que las hojas toquen el cristal frío de noche. Con poca luz se pondrá pálido y ahilado (RHS): no abones si apenas crece.",
+    "ubicacion_recomendada": "Finales de invierno y primavera (febrero-mayo) y otoño (septiembre-noviembre): balcón o terraza a pleno sol, o junto a una ventana sur u oeste. Invierno: dentro, junto a la ventana más luminosa (sur) o con lámpara de cultivo, en una habitación fresca. Verano: no cultivarlo para hoja; si hay plantas, balcón este o con sombra desde mediodía. Siempre en maceta profunda con drenaje y sembrado directamente en ella, con siembras escalonadas cada 2-3 semanas."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Coriandrum sativum L. (Sp. Pl. 1753). Sinónimo homotípico: Selinum coriandrum E.H.L.Krause (nom. illeg. superfl.). Sinónimos heterotípicos, entre otros: Bifora loureiroi Kostel., Coriandropsis syriaca H.Wolff, Coriandrum globosum Salisb., Coriandrum majus Gouan, Coriandrum melphitense Guss. & Ten. y varias variedades de Stolet. No hay cambio de nombre.",
+    "Origen: POWO limita el área nativa al Mediterráneo oriental-Oriente Próximo hasta Pakistán y considera la especie introducida en España; NC State incluye el Mediterráneo occidental y el sur de Europa. Se sigue a POWO.",
+    "Humedad relativa: ninguna fuente prioritaria da un porcentaje mínimo ni ideal para el cilantro en interior (min_pct e ideal_pct a null).",
+    "Lux: ninguna fuente da cifras en lux ni un máximo; solo horas de sol directo (6 h o más) o de lámpara (12-16 h).",
+    "Abonado: ninguna fuente prioritaria da una pauta de abonado para cilantro en maceta; OMAFRA solo da necesidades de nitrógeno en campo. Se aplica el criterio general del proyecto. NPK sin dato (null).",
+    "Profundidad mínima de maceta para la raíz pivotante: sin cifra en las fuentes prioritarias consultadas (se da 20-25 cm como orientativo).",
+    "Temperatura umbral exacta de espigado: no hay una cifra en fuentes prioritarias; solo 'calor' y 'días largos'. Se usa el máximo de 24 °C de UC ANR.",
+    "Calendario de siembra específico para Madrid: derivado de Wisconsin, UF/IFAS y UC Master Gardeners (clima mediterráneo de California); no hay fuente prioritaria española consultada.",
+    "Oídio, mosca blanca y araña roja en cilantro de interior: no documentados en las fuentes prioritarias consultadas.",
+    "Propagación vegetativa (esquejes o división): ninguna fuente la describe salvo la división de macetas de supermercado (RHS); la especie se propaga por semilla (NC State).",
+    "Alergias o dermatitis por contacto en personas: no documentadas en las fuentes consultadas.",
+    "Eryngium foetidum como confusión: rasgos orientativos, sin fuente prioritaria consultada."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cilantro",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/coriandrum-sativum/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/herbs/coriander/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/cilantro-coriander-coriandrum-sativum/",
+      "institucion": "University of Wisconsin-Madison Extension, Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.psu.edu/cilantro-a-unique-culinary-herb",
+      "institucion": "Penn State Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://mgsantaclara.ucanr.edu/garden-help/herbs/cilantro",
+      "institucion": "UC ANR, UC Master Gardeners of Santa Clara County",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://oc4h.ucanr.edu/sites/default/files/2017-01/142583.pdf",
+      "institucion": "University of California ANR, Cooperative Extension Placer-Nevada (Pub. 31-043C, Vegetable Characteristics)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.omafra.gov.on.ca/cropop/en/herbs/culinary/cilan.html",
+      "institucion": "Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA), CropOp",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/cilantro/",
+      "institucion": "University of Florida IFAS Extension, Gardening Solutions",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://blogs.ifas.ufl.edu/sarasotaco/2023/12/19/move-over-rosemary-its-time-for-cilantro/",
+      "institucion": "University of Florida IFAS Extension, Sarasota County",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:840760-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://plants.ces.ncsu.edu/plants/conium-maculatum/",
+      "institucion": "NC State Extension, Gardener Plant Toolbox (Conium maculatum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

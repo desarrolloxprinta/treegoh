@@ -1,0 +1,369 @@
+{
+  "nombre_cientifico": "Allium schoenoprasum",
+  "nombres_comunes": [
+    "cebollino",
+    "cebollino común",
+    "ciboulette"
+  ],
+  "familia": "Amaryllidaceae (subfamilia Allioideae; antes Alliaceae o Liliaceae)",
+  "origen": "Amplia zona templada del hemisferio norte (NC State). POWO (Kew) la da como nativa de buena parte de Europa —incluidas España y Portugal—, Asia templada (Turquía, Irán, Siberia, Mongolia, Japón, Corea) y el norte de Norteamérica (Canadá, Alaska y estados del norte de EE. UU.). Wisconsin señala que se discute si en Norteamérica es nativa o naturalizada. Se cultiva en Europa desde la Edad Media (Wisconsin).",
+  "clima_nativo": "Templado y templado-frío, de montaña y prados húmedos. Es una perenne resistente al frío: zonas USDA 4a-8b (NC State) y resistente hasta la zona 4a (Wisconsin). POWO la clasifica como geófito bulboso del bioma templado. En climas fríos la parte aérea muere en invierno y rebrota en primavera; en climas suaves puede mantenerse verde (Wisconsin). UC ANR la incluye entre las hortalizas de temporada fresca, con óptimo de 13-24 °C.",
+  "categoria": "aromatica",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas basales finas, CILÍNDRICAS y HUECAS (tubulares), erguidas, parecidas a hierba o junco, de borde entero y sin pelos (NC State, RHS, Wisconsin). Miden unos 30 cm (RHS); Wisconsin da 20-50 cm y NC State 7,5-15 cm de longitud útil, con menos de 2,5 cm de ancho (en realidad 2-4 mm de diámetro [orientativo, sin fuente prioritaria]). Color verde azulado según Wisconsin, verde brillante según Maryland. Al cortarlas o frotarlas huelen a cebolla suave (NC State, Univ. Minnesota). Rasgo clave para la IA: sección redonda y hueca, no plana.",
+    "nerviacion": "Paralela, típica de monocotiledónea; no se aprecian nervios en la hoja tubular a simple vista.",
+    "variegacion": "No hay formas variegadas habituales; la especie es verde uniforme. Puntas amarillas o marrones indican hojas viejas o estrés, no un cultivar (Wisconsin recomienda usar solo hojas turgentes, sin puntas amarillas). Hay formas de flor blanca (f. albiflorum, 'Album', 'Snowcap') y de flor rosa ('Forescate', 'Pink Perfection') (RHS, Wisconsin, NC State).",
+    "tallo": "No tiene tallo foliar visible: forma matas densas de bulbillos pequeños y alargados, de hasta 1 cm de ancho, unidos por la base (RHS, Wisconsin). En primavera echa escapos florales huecos y tubulares, más duros que las hojas, de hasta 45-50 cm (NC State), coronados por una umbela globosa de 10-30 flores en estrella de 6 tépalos, rosa a lila pálido, de 1,3-1,9 cm cada una, envuelta antes de abrir por una bráctea membranosa (espata) que se rasga al florecer (Wisconsin, NC State). Fruto: cápsula de 3 valvas con semillas negras y angulosas (Wisconsin, NC State).",
+    "habito": "Perenne herbácea bulbosa que forma matas compactas que se ensanchan con los años (NC State, RHS, Wisconsin). Florece de mediados de primavera a principios de verano (Wisconsin; RHS: finales de primavera y verano). En climas fríos se seca la parte aérea en invierno y rebrota en primavera (Wisconsin, RHS). Puede autosembrarse si no se quitan las flores pasadas (RHS, Wisconsin).",
+    "tamano_adulto_interior": "Mata de 25-45 cm de alto y 30-45 cm de ancho (NC State: 30-45 cm de alto y 30-43 cm de ancho; RHS: hojas de unos 30 cm; Maryland: unos 25 cm). En maceta de ventana suele quedar en 20-30 cm de alto con cortes frecuentes [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {
+        "especie": "Allium tuberosum (cebollino chino o de ajo)",
+        "rasgo_diferenciador": "Hojas PLANAS (no huecas), más largas (40-50 cm), de verde más vivo, con sabor a ajo; flores BLANCAS en estrella que salen a finales de verano (julio-septiembre), no rosas en primavera (RHS, Wisconsin, Univ. Minnesota). También es un Allium y es igual de tóxico para perros y gatos (Pet Poison Helpline incluye todo el género)."
+      },
+      {
+        "especie": "Allium nutans (cebollino de Siberia)",
+        "rasgo_diferenciador": "Hojas anchas y planas, gris verdosas, de hasta 60 cm, sabor suave a ajo y flores malva azuladas o rosa pálido (RHS)."
+      },
+      {
+        "especie": "Allium fistulosum (cebolleta, cebolla de verdeo)",
+        "rasgo_diferenciador": "También tiene hojas huecas, pero mucho más gruesas (más de 1 cm de diámetro) y una base blanca engrosada; flores blanco verdosas. Rasgo orientativo, sin fuente prioritaria consultada."
+      },
+      {
+        "especie": "Gramíneas ornamentales finas (Festuca, Carex) y bulbos de hoja estrecha (Muscari, Ornithogalum)",
+        "rasgo_diferenciador": "Sus hojas son macizas o acanaladas, no tubulares, y NO huelen a cebolla al aplastarlas. Muscari y Ornithogalum son bulbos tóxicos que no deben comerse: el olor a cebolla y la hoja hueca son la prueba práctica. Rasgo orientativo, sin fuente prioritaria consultada."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "no_toxica",
+    "principio_activo": "Compuestos organosulfurados del género Allium: disulfuro de n-propilo (ASPCA) y n-propiltiosulfato sódico y otros tiosulfatos/tiosulfinatos que se forman al masticar o triturar la planta (Salgado et al. 2011; Cortinovis y Caloni 2016). El disulfuro de n-propilo inhibe la glucosa-6-fosfato deshidrogenasa de los glóbulos rojos y el tiosulfato aumenta la metahemoglobina y los cuerpos de Heinz (Salgado et al. 2011).",
+    "sintomas": "ASPCA la clasifica como tóxica para perros, gatos y caballos. Signos: vómitos, rotura de glóbulos rojos (anemia hemolítica con cuerpos de Heinz), sangre en la orina, debilidad, taquicardia y jadeo (ASPCA). Al principio, vómitos, diarrea, dolor abdominal, falta de apetito y decaimiento; después, por la anemia, mucosas pálidas, debilidad y respiración y pulso rápidos (Cortinovis y Caloni 2016; Pet Poison Helpline). Los signos pueden tardar de 1 a varios días y el punto más bajo de la anemia suele llegar varios días después de la ingesta (Cortinovis y Caloni 2016; Salgado et al. 2011). Puede deberse a una sola ingesta grande o a pequeñas cantidades repetidas (Salgado et al. 2011). Cocinar, secar o deshidratar NO elimina la toxicidad (Cortinovis y Caloni 2016). Los gatos son más sensibles: su hemoglobina es 2-3 veces más vulnerable al daño oxidativo (Salgado et al. 2011); con cebolla bastan 5 g/kg en gatos y 15-30 g/kg en perros para cambios hematológicos importantes (Cortinovis y Caloni 2016; dato de cebolla, no hay umbral específico de cebollino). Las razas japonesas (Akita, Shiba, Jindo) son más susceptibles (Cortinovis y Caloni 2016; Pet Poison Helpline). Si un perro o gato mordisquea o come cebollino, llama al veterinario aunque no tenga síntomas. Para personas es una hierba comestible (hoja y flor): ninguna fuente consultada la marca como tóxica para niños.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F13",
+      "F14",
+      "F2",
+      "F15"
+    ],
+    "notas": "Mensaje que la app debe dar siempre: el cebollino, como todo Allium (cebolla, ajo, puerro, cebollino chino), es tóxico para perros y gatos (ASPCA, NC State, Pet Poison Helpline, Cortinovis y Caloni 2016, Salgado et al. 2011). Colocar la maceta fuera de su alcance, sobre todo con gatos, que mordisquean hojas tipo hierba. No dar a mascotas restos de comida con cebollino. Para niños se marca 'no_toxica' porque es un alimento; el riesgo práctico es comer hojas tratadas con un fitosanitario antes de cumplirse el plazo de seguridad, o confundirlo con un bulbo ornamental tóxico de hoja estrecha (ver confusiones). NC State remite a una sección 'Poisonous to Humans' que no aparece en la ficha consultada."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana o balcón sur, este u oeste. Lo ideal son 6-8 h de sol directo (Univ. Minnesota); tolera semisombra con 2-6 h de sol (NC State, RHS), aunque florece menos (Wisconsin). Dentro de casa, en el alféizar más soleado (Univ. Minnesota, RHS).",
+      "tolera_sol_directo": "Sí. Prefiere pleno sol (Univ. Minnesota, NC State, Wisconsin) y tolera sombra ligera (RHS, Wisconsin). En el verano de Madrid, con 35-40 °C, conviene sombra en las horas centrales o por la tarde, porque supera su máximo de crecimiento de 29 °C (UC ANR); en calor el sabor es más fuerte (Wisconsin).",
+      "notas": "Luz directa según la escala del proyecto: más de 1000 fc, es decir, más de 10 760 lux. Ninguna fuente da cifras en lux ni un máximo. En invierno, con poca luz en interior, casi no crece y puede secarse en parte; se recupera en primavera (Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2",
+        "F3",
+        "F5",
+        "F10"
+      ]
+    },
+    "riego": {
+      "criterio": "En maceta, mantener el sustrato uniformemente húmedo durante la temporada de crecimiento, sin encharcar (RHS). Mete el dedo 2-3 cm: riega a fondo cuando esa capa esté casi seca y la maceta pese poco; vacía el plato a los 15-20 min. Nunca por calendario. El exceso de agua y el sustrato mal drenado provocan pudrición de raíz (NC State, Maryland), que es la causa nº 1 de muerte. En el suelo tolera la sequía una vez establecido (NC State, Wisconsin), pero crece mejor con humedad constante (Wisconsin).",
+      "primavera_verano": "Crecimiento activo: las macetas se secan antes que el suelo, así que compruébalas a menudo (RHS). En verano en Madrid, con sol y aire seco, puede necesitar riego cada 1-2 días en macetas pequeñas; decide siempre por el dedo y el peso [orientativo, sin fuente prioritaria]. Riega temprano por la mañana y moja el sustrato, no las hojas: el mildiu se ve favorecido por la hoja mojada (Penn State PlantVillage).",
+      "otono_invierno": "Si la parte aérea se ha secado (reposo) en el balcón, riega muy poco: solo para que el cepellón no se seque del todo; el sustrato frío y mojado favorece podredumbres (Penn State PlantVillage, Maryland). Si está dentro de casa y sigue verde, crece despacio y bebe menos (Univ. Minnesota): riega cuando los 2-3 cm de arriba estén secos.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "El agua del grifo de Madrid sirve: es blanda y su cloramina no se elimina dejándola reposar, pero no causa problemas a esta planta. Lo importante es que la maceta tenga agujeros de drenaje (Univ. Minnesota).",
+      "notas": "Las puntas amarillas o secas suelen indicar riego irregular (sustrato que se seca del todo entre riegos), hojas viejas o maceta muy apretada. Sensibilidad al exceso 'alta' porque las fuentes citan la pudrición de raíz como su principal problema en suelo mal drenado (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F5",
+        "F4",
+        "F7",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da un porcentaje de humedad relativa. NC State la marca como resistente a la humedad ambiental. No necesita ambiente húmedo: es una planta de clima templado. Al contrario, el exceso de humedad y las matas apretadas favorecen la roya (RHS) y el mildiu (Penn State PlantVillage), así que conviene buena ventilación y no amontonar macetas. Pulverizar las hojas no sube la humedad de forma útil y las mantiene mojadas, lo que favorece el mildiu. Con calefacción, el aire seco afecta sobre todo porque el sustrato se seca antes [orientativo, sin fuente prioritaria].",
+      "confianza": "Baja",
+      "fuentes": [
+        "F2",
+        "F11",
+        "F8"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 29,
+      "ideal_min_c": 13,
+      "ideal_max_c": 24,
+      "notas": "UC ANR agrupa el cebollino con ajo, puerro y cebolla: óptimo 55-75 °F (13-24 °C), mínimo 45 °F (7 °C) y máximo 85 °F (29 °C). Estos valores son de CRECIMIENTO ACTIVO: min_c = 7 °C indica la temperatura por debajo de la cual deja de crecer, no la de muerte. En reposo, la mata en maceta en el exterior es muy resistente al frío: zonas USDA 4a-8b (NC State, Wisconsin), con la parte aérea seca y rebrote en primavera (Wisconsin, RHS). Por eso, en Madrid puede pasar el invierno en el balcón; la maceta pequeña se congela antes que el suelo, así que conviene una maceta de al menos 20 cm (RHS) y protegerla de heladas fuertes y prolongadas [orientativo, sin fuente prioritaria]. Por encima de 29 °C crece poco y la hoja se endurece y pica más (Wisconsin: sabor más fuerte con calor). No hay contradicción entre fuentes; solo UC ANR da cifras.",
+      "confianza": "Media",
+      "fuentes": [
+        "F10",
+        "F2",
+        "F5",
+        "F3"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de buena calidad, ligero y que drene bien, rico en materia orgánica: sustrato para plantas de interior (Univ. Minnesota) o sustrato con tierra (loam) sin turba (RHS). Maceta de al menos 20 cm de ancho y de fondo (RHS), con agujeros de drenaje (Univ. Minnesota).",
+      "ph": "6,0-7,0 (Univ. Minnesota, Penn State PlantVillage).",
+      "drenaje": "Imprescindible. Sustrato que retenga humedad pero que no se encharque (RHS). La pudrición de raíz aparece en suelos mal drenados (NC State). Nada de plato con agua permanente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F8",
+        "F2",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes o aromáticas, autorizado para cultivos comestibles. Necesita poco abono (Wisconsin).",
+      "npk": "Univ. Minnesota cita un 5-10-5 en aplicación muy ligera en primavera para matas de jardín debilitadas por cosechas continuas. Evita abonos muy nitrogenados: la roya empeora con mucho nitrógeno y poco potasio (RHS).",
+      "primavera_verano": "Con crecimiento activo, ¼-½ de la dosis de etiqueta una vez al mes (criterio del proyecto). Univ. Minnesota indica media dosis cada 4-6 semanas en maceta, en exterior o en ventana soleada. Tras una poda fuerte o división, un aporte ayuda al rebrote.",
+      "otono_invierno": "Nada. Univ. Minnesota: no abonar en invierno. En reposo (parte aérea seca) tampoco.",
+      "notas": "El exceso de abono perjudica: un crecimiento más lento y compacto da más sabor y plantas más sanas (Univ. Minnesota). Wisconsin dice que no necesita abonado regular. Penn State PlantVillage recomienda abono líquido cada 4-6 semanas; se adopta la pauta más conservadora del proyecto (¼-½ dosis, mensual). Abona siempre con el sustrato húmedo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F11",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-4 años, aprovechando para dividir la mata cuando está demasiado apretada (Wisconsin: 2-3 años; RHS y Univ. Minnesota: 3-4 años; Maryland: 3 años).",
+      "epoca": "Primavera, al empezar el rebrote, es la mejor época (Univ. Minnesota, Maryland, Penn State PlantVillage); también otoño (RHS, NC State). En Madrid: marzo-abril o finales de septiembre-octubre, evitando el calor del verano [época concreta orientativa, sin fuente prioritaria].",
+      "senales": "Mata muy densa que llena la maceta, raíces saliendo por los agujeros, sustrato que se seca en horas, menos vigor y hojas más finas pese a abonar. Las macetas de supermercado suelen venir muy apretadas: pueden dividirse en varias matas al comprarlas (RHS: las plantas grandes se pueden separar en varias). Al trasplantar, colocar la mata a la misma altura a la que estaba (RHS), regar bien y mantener húmeda hasta que arraigue (Penn State PlantVillage).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F4",
+        "F6",
+        "F8",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí: la recolección es la poda. Cortar a menudo estimula hojas nuevas (RHS). Además, hay que quitar los escapos florales pasados y las hojas viejas o amarillas (RHS, Univ. Minnesota).",
+      "epoca": "Durante todo el periodo de crecimiento, de primavera a otoño (RHS). Empieza cuando las hojas miden unos 15 cm (NC State, Wisconsin, Maryland). Tras la floración (finales de primavera-verano), corte general. A finales de invierno, retirar los restos secos antes del rebrote (Wisconsin).",
+      "como": "Con tijeras limpias, corta hojas desde la base, dejando 2,5-5 cm sobre el sustrato (Maryland: 2,5-5 cm; Wisconsin: unos 5 cm). Para cosecha continua, corta solo una parte de la mata cada vez, empezando por las hojas exteriores (Wisconsin, Penn State PlantVillage); si se corta toda la mata tarda varias semanas en rebrotar (Wisconsin). Corta los tallos florales a ras de sustrato al terminar la flor para evitar semillas y mantener la producción (Univ. Minnesota, RHS). Tras la floración se puede rebajar toda la mata a unos 5 cm (RHS) o 7,5 cm (Wisconsin) para forzar hoja nueva y tierna. Las flores también se comen (RHS, NC State). Cosecha por la mañana (RHS). Si se ha aplicado algún fitosanitario, no cortes para comer hasta cumplir el plazo de seguridad de la etiqueta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F2",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno. En el exterior, la parte aérea se seca en otoño-invierno y rebrota a principios de primavera; en climas suaves puede seguir verde (Wisconsin, RHS). En Madrid, en balcón, lo normal es que amarillee y se seque entre noviembre y febrero [meses orientativos, sin fuente prioritaria]. Dentro de casa con poca luz casi no crece y puede secarse en parte (Univ. Minnesota).",
+      "cambios": "Que la parte aérea se seque en invierno es NORMAL y no significa que la planta haya muerto: los bulbillos siguen vivos y rebrotan en primavera (Wisconsin, Univ. Minnesota). Riega muy poco (solo que el cepellón no se seque del todo), no abones (Univ. Minnesota) y retira los restos secos a finales de invierno, antes del rebrote (Wisconsin). Para tener hoja en invierno, se puede meter una mata en maceta dentro de casa, en una ventana soleada (RHS, Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de matas",
+        "semilla",
+        "autosiembra"
+      ],
+      "epoca": "División en primavera (Univ. Minnesota, Maryland, Penn State PlantVillage) u otoño (RHS, NC State). Semilla en interior a principios de primavera (RHS), unas 4-10 semanas antes de la última helada (Penn State PlantVillage: 4 semanas; NC State: 8-10 semanas); en exterior, en primavera (RHS).",
+      "pasos": "División (lo más rápido): 1) Riega unas horas antes para que la mata esté turgente (Penn State PlantVillage). 2) Recorta las hojas a unos 10 cm (Penn State PlantVillage). 3) Saca el cepellón y sepáralo con las manos en grupos; cada división arraiga rápido si tiene al menos 5 bulbillos (Wisconsin). 4) Planta enseguida, a la misma altura que estaba (RHS), separando las matas unos 15 cm (RHS). 5) Riega bien y mantén húmedo hasta que arraigue. Semilla: siembra unas semillas por alvéolo o maceta a 0,5-1 cm de profundidad en sustrato de semillero sin turba, en lugar cálido y luminoso, y mantén el sustrato apenas húmedo (RHS). Germina en unos 7 días (Penn State PlantVillage) y se trasplanta con unos 10 cm (RHS). Cuidado con el damping-off: aparece con sustrato frío y muy húmedo (Penn State PlantVillage, Univ. Delaware).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F8",
+        "F4",
+        "F6",
+        "F2",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por sustrato encharcado o mal drenado (NC State, Maryland). Es el problema principal en maceta. Raíces y bulbillos blandos y oscuros. Corta lo podrido, conserva las divisiones sanas y replanta en sustrato nuevo con buen drenaje."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Exceso de agua (Maryland: el riego excesivo da marchitez o amarilleo de hojas bajas e interiores, igual que la sequía), sustrato seco en verano o larvas de mosca de la cebolla (Delia antiqua) que perforan los bulbillos: plántulas atrofiadas o marchitas que se rompen a ras de suelo al tirar (Penn State PlantVillage). Contra la mosca: retirar y destruir las matas afectadas y usar sustrato nuevo."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Hojas viejas, riego irregular (sustrato que se seca del todo), calor extremo o maceta muy apretada que necesita división. Wisconsin aconseja cosechar solo hojas sin puntas amarillas. Corta las hojas afectadas desde la base y divide la mata si lleva más de 3 años."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "En otoño-invierno es el REPOSO NORMAL: la parte aérea amarillea y se seca, y rebrota en primavera (Wisconsin). Fuera de esa época: exceso de riego (Maryland) o mildiu (Penn State PlantVillage)."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya del puerro (Puccinia porri, sin. P. allii): pústulas naranja brillante en ambas caras de la hoja, de mediados de verano a finales de otoño (RHS). Empeora con mucho nitrógeno y poco potasio y con matas apretadas. Corta y desecha las hojas afectadas, no amontones macetas y no te pases con el abono. RHS: no hay fungicidas autorizados para aficionados contra la roya en Reino Unido; en España, consulta el Registro del MAPA. Si hace falta un producto, usa solo uno listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado en su etiqueta para cebollino o aromáticas, y respeta el plazo de seguridad de la etiqueta antes de cortar hojas para comer. Nada de aceite de neem, detergente ni recetas caseras."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips de la cebolla (Thrips tabaci) o trips de las flores (Frankliniella occidentalis): tejido descolorido, cicatrices y aspecto plateado en las hojas (Penn State PlantVillage, Univ. Delaware). Pueden llegar desde otras plantas. Revisa con lupa; corta las hojas muy dañadas. Si hace falta un producto, usa solo uno listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado en su etiqueta para cebollino o aromáticas, y respeta el plazo de seguridad de la etiqueta antes de cortar hojas para comer. Nada de aceite de neem, detergente ni recetas caseras."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón: chupa savia y resta vigor (RHS). Retíralo a mano o con chorro de agua y corta las hojas muy infestadas. Si hace falta un producto, usa solo uno listo para usar, de uso no profesional, inscrito en el Registro del MAPA y autorizado en su etiqueta para cebollino o aromáticas, y respeta el plazo de seguridad de la etiqueta antes de cortar hojas para comer. Nada de aceite de neem, detergente ni recetas caseras."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mildiu (Peronospora destructor): manchas pálidas o alargadas, a veces con pelusa gris violácea, hojas que se ponen pálidas y luego amarillas y puntas que se doblan (Penn State PlantVillage; también Univ. Delaware). Favorecido por tiempo fresco y hoja mojada. Corta y desecha lo afectado, no mojes las hojas y separa las macetas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz dentro de casa, sobre todo en invierno: hojas finas, pálidas y lacias (Univ. Minnesota: en invierno con poca luz casi no crece). Llévalo a la ventana más soleada o al balcón."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Damping-off (Pythium, Fusarium, Rhizoctonia) en plántulas: semillas y plántulas que se ablandan y caen; favorecido por sustrato frío y muy húmedo (Penn State PlantVillage, Univ. Delaware). Usa sustrato de semillero nuevo y no riegues en exceso."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C supera su máximo de crecimiento de unos 29 °C (UC ANR): crece menos, la hoja se endurece y pica más (Wisconsin). Ponlo donde reciba sol de mañana y sombra por la tarde; en ventana sur u oeste sin protección en julio-agosto se quema y se seca. Comprueba el sustrato a diario: con aire seco (HR ≈38 %) y sol, la maceta se seca en horas (RHS: las macetas se secan antes). Riega temprano por la mañana, sin mojar las hojas. Usa maceta de al menos 20 cm (RHS) para tener reserva de agua. Tras la floración (mayo-junio), rebájalo a unos 5 cm (RHS) para que rebrote hoja tierna. Vigila trips y la roya de mediados de verano (RHS).",
+    "invierno": "En el balcón es NORMAL que la parte aérea se seque: los bulbillos aguantan el frío (zonas USDA 4a-8b, NC State) y rebrotan en primavera (Wisconsin). No lo tires. Riega muy poco y no abones (Univ. Minnesota). Si quieres hoja en invierno, mete una mata dentro, en la ventana más soleada (sur) (RHS, Wisconsin), lejos de radiadores. Con calefacción y humedad interior por debajo del 30 % el sustrato se seca antes: riega según el dedo y el peso. Dentro, con poca luz, crecerá poco y fino (Univ. Minnesota); sin abono. Evita que las hojas toquen el cristal frío de noche.",
+    "ubicacion_recomendada": "Primavera y otoño: balcón o ventana a pleno sol (sur, este u oeste), 6-8 h de sol directo (Univ. Minnesota). Verano: balcón este o con sombra por la tarde. Invierno: en el balcón en reposo, o dentro junto a la ventana más luminosa si se quiere seguir cosechando. Siempre fuera del alcance de perros y gatos (tóxico, ASPCA) y en maceta de al menos 20 cm de ancho y fondo con drenaje (RHS)."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Allium schoenoprasum L. (Sp. Pl.: 301, 1753), sin cambio de nombre. Sinónimos homotípicos según POWO: Ascalonicum schoenoprasum (L.) P.Renault, Cepa schoenoprasa (L.) Moench, Porrum schoenoprasum (L.) Schur, Schoenoprasum vulgare Fourr.; heterotípicos, entre otros: Allium sibiricum L., Allium foliosum Clarion ex DC., Allium alpinum (DC.) Hegetschw. y Allium schoenoprasum subsp. latiorifolium (Pau) Rivas Mart. et al. Familia: Amaryllidaceae (ASPCA, NC State, RHS); Wisconsin y Penn State PlantVillage aún escriben Liliaceae y Univ. Minnesota Alliaceae (clasificaciones antiguas).",
+    "Humedad relativa: ninguna fuente prioritaria da un porcentaje mínimo ni ideal (min_pct e ideal_pct a null).",
+    "Lux: ninguna fuente da cifras de iluminancia ni un máximo; solo horas de sol (6-8 h, Univ. Minnesota; 2-6 h en semisombra, NC State).",
+    "Temperatura: solo UC ANR da cifras (óptimo 13-24 °C, mín. 7 °C, máx. 29 °C de crecimiento). No se ha encontrado en fuente prioritaria la temperatura mínima que aguanta la mata en maceta en reposo (solo zonas USDA de jardín, 4a-8b), ni si necesita frío invernal para rebrotar con vigor.",
+    "Toxicidad: no hay dosis tóxica específica de cebollino para perros y gatos; los umbrales (5 g/kg en gatos, 15-30 g/kg en perros) son de cebolla (Cortinovis y Caloni 2016). NC State cita una sección 'Poisonous to Humans' que no aparece en la ficha.",
+    "Fitosanitarios: no se ha comprobado qué productos de uso no profesional del Registro del MAPA están autorizados en concreto para cebollino contra roya, trips, mildiu o pulgón; RHS indica que en Reino Unido no hay fungicida para aficionados contra la roya.",
+    "Penn State PlantVillage atribuye el mildiu a 'Puccinia destructor'; es una errata: el agente del mildiu de la cebolla es Peronospora destructor (Puccinia es el género de las royas). Se ha escrito Peronospora en la ficha.",
+    "Confusiones con Allium fistulosum, gramíneas finas, Muscari y Ornithogalum: rasgos sin fuente prioritaria consultada.",
+    "Meses concretos de reposo, trasplante y frecuencia de riego en verano en Madrid: orientativos, sin fuente prioritaria."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chives",
+      "institucion": "ASPCA Animal Poison Control Center, 'Chives'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/allium-schoenoprasum/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox, 'Allium schoenoprasum'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/herbs/chives/grow-your-own",
+      "institucion": "Royal Horticultural Society (RHS), 'How to grow chives'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.umn.edu/vegetables/growing-chives",
+      "institucion": "University of Minnesota Extension, 'Growing chives in home gardens' (revisado 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/chives-allium-schoenoprasum/",
+      "institucion": "University of Wisconsin-Madison Extension, Wisconsin Horticulture, 'Chives, Allium schoenoprasum' (rev. julio 2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.umd.edu/resource/chives",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center, 'Chives' (2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://extension.umd.edu/resource/herb-problems",
+      "institucion": "University of Maryland Extension, 'Herb problems' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plantvillage.psu.edu/topics/chives/infos",
+      "institucion": "Penn State University, PlantVillage, 'Chives'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://udel.edu/content/dam/udelImages/canr/pdfs/extension/factsheets/Chives.pdf",
+      "institucion": "University of Delaware Cooperative Extension, ficha 'Chives' (New Castle County Master Gardeners, 2024)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://oc4h.ucanr.edu/sites/default/files/2017-01/142583.pdf",
+      "institucion": "University of California ANR, Cooperative Extension Placer-Nevada (Pub. 31-043C, Vegetable Characteristics, 2011)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.rhs.org.uk/disease/leek-rust",
+      "institucion": "Royal Horticultural Society (RHS), 'Leek rust'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:528823-1",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO), 'Allium schoenoprasum L.'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://www.frontiersin.org/articles/10.3389/fvets.2016.00026/full",
+      "institucion": "Frontiers in Veterinary Science (revista revisada por pares): Cortinovis y Caloni 2016, 'Household food items toxic to dogs and cats'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://www.scielo.br/j/jvatitd/a/HB5wqsgNcbhcg8cGm3hy95j/?lang=en",
+      "institucion": "Journal of Venomous Animals and Toxins including Tropical Diseases (revisada por pares): Salgado, Monteiro y Rocha 2011, 'Allium species poisoning in dogs and cats' (UNESP)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://www.petpoisonhelpline.com/poison/chives/",
+      "institucion": "Pet Poison Helpline, 'Chives'",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

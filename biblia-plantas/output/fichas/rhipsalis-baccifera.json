@@ -1,0 +1,289 @@
+{
+  "nombre_cientifico": "Rhipsalis baccifera",
+  "nombres_comunes": [
+    "cactus muérdago",
+    "ripsalis",
+    "cactus espagueti",
+    "disciplinas (Colombia)",
+    "lluvia de perlas (Colombia)"
+  ],
+  "familia": "Cactaceae",
+  "origen": "Nombre aceptado en POWO (Kew): Rhipsalis baccifera (J.S.Muell.) Stearn. Nativa de la América tropical y subtropical (de Florida y México a Argentina y Paraguay, Antillas), del África tropical hasta KwaZulu-Natal y El Cabo, Madagascar, Mascareñas, Seychelles, Comoras y Sri Lanka; introducida en Myanmar (POWO). Es el único cactus con poblaciones nativas fuera de América (NC State cita su presencia natural en África tropical y Madagascar). En Florida está catalogada como especie en peligro (NC State, FNPS). Sinónimos homotípicos (POWO): Cassytha baccifera J.S.Muell., Cereus baccifer (J.S.Muell.) Hemsl., Hariota cassytha Lem. y Rhipsalis cassytha Gaertn. (este último es el nombre, escrito 'cassutha', con el que la recoge la ASPCA).",
+  "clima_nativo": "Epífita de bosque lluvioso tropical de tierras bajas y de montaña y de matorral siempreverde de montaña, a 550-2200 m en África oriental, a veces sobre humus en rocas (POWO, descripción de la Flora of Tropical East Africa); en Colombia entre 100 y 1500 m (POWO, Catálogo de Plantas de Colombia). En Florida crece sobre ramas de árboles o roca caliza en bosques de 'hammock' y manglares (FNPS: zonas USDA 10A-11). Clima cálido y húmedo, sin heladas: no es un cactus de desierto. RHS la clasifica H1B (bajo cristal, mínimo 10-15 °C; puede salir al exterior en verano).",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Sin hojas. La fotosíntesis la hacen los tallos. En tallos jóvenes hay areolas diminutas, con lana escasa y 1-2 cerdas cortas (≈1 mm) que caen al madurar; los tallos adultos quedan lisos y sin espinas (RHS, NC State, POWO).",
+    "nerviacion": "No aplica (cactus sin hojas). Tallos cilíndricos, a veces con surcos longitudinales leves (POWO).",
+    "variegacion": "La especie no es variegada: tallos verdes, verde pálido o verde azulado pálido (RHS). Con exceso de sol los tallos pueden tomar un tono rojizo o amarillento por estrés (ukhouseplants, complementaria), que no debe confundirse con variegación.",
+    "tallo": "Tallos muy finos, cilíndricos, de 2-8 mm de diámetro (POWO; NC State: menos de 5 mm), carnosos, verdes a verde pálido, articulados en segmentos largos que se ramifican en parejas, verticilos o racimos desde las puntas de los tallos viejos; a veces echan raíces aéreas en las puntas (POWO). NC State los compara con espaguetis verdes. Flores laterales, solitarias, diminutas (≈1 cm), blancas o blanco verdosas, de invierno a primavera; bayas esféricas de 4-8 mm, translúcidas, blancas, rosadas o rojas, parecidas a las del muérdago (POWO, RHS, NC State).",
+    "habito": "Epífita colgante, muy ramificada, en cascada; en maceta se cultiva en cesta colgante o en estante alto (NC State, RHS). En su hábitat cuelga de las ramas de los árboles hasta 1-3 m, excepcionalmente 9 m (POWO).",
+    "tamano_adulto_interior": "En interior, tallos colgantes de 1,2-1,8 m (4-6 ft) de largo y 30-60 cm de anchura (NC State); RHS da como tamaño máximo 2,5-4 m de largo y 0,5-1 m de anchura, alcanzado en 5-10 años. Crecimiento lento (NC State).",
+    "confusiones": [
+      {
+        "especie": "Otras Rhipsalis de tallo fino (R. capilliformis, R. cereuscula, R. ewaldiana, R. pilocarpa)",
+        "rasgo_diferenciador": "R. cereuscula ('cactus coral') tiene segmentos cortos y gruesos en verticilos en la punta de tallos largos; R. pilocarpa tiene tallos cubiertos de pelos; R. capilliformis tiene tallos aún más finos, casi capilares, y ramificación más densa [orientativo, sin fuente prioritaria]. La separación fiable por foto entre especies de tallo cilíndrico fino es difícil; los cuidados son prácticamente los mismos."
+      },
+      {
+        "especie": "Hatiora salicornioides (cactus bailarín, 'huesos de borracho')",
+        "rasgo_diferenciador": "Sus segmentos son cortos (2-3 cm) y en forma de botellita, más anchos en el extremo, y las flores son amarillo anaranjadas en la punta de los tallos; R. baccifera tiene segmentos largos y cilíndricos de grosor uniforme y flores blancas laterales [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Euphorbia tirucalli (árbol lápiz)",
+        "rasgo_diferenciador": "También tiene tallos verdes, cilíndricos y sin hojas, pero crece erguida y arbustiva (no colgante) y al romperla suelta látex blanco, irritante y tóxico; Rhipsalis no tiene látex [orientativo, sin fuente prioritaria]. Confusión importante por la toxicidad."
+      },
+      {
+        "especie": "Viscum album (muérdago verdadero)",
+        "rasgo_diferenciador": "Solo comparte el nombre común y las bayas blancas: es otra planta, y el muérdago europeo es muy tóxico para mascotas (UC ANR, Master Gardeners de Fresno, F7). El cactus muérdago no tiene hojas; el muérdago verdadero tiene hojas coriáceas opuestas [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Rhipsalis baccifera subsp. horrida (cactus cola de ratón)",
+        "rasgo_diferenciador": "Subespecie de la misma especie con tallos más cubiertos de cerdas y flores amarillas según NC State; se cuida igual."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "ASPCA y NC State la clasifican como no tóxica para perros y gatos (ASPCA también para caballos). No se conocen principios tóxicos. Ingerir mucha cantidad podría causar molestias digestivas leves por el material vegetal (vómito, náuseas, inapetencia) según una fuente complementaria. Para niños no hay dato de fuente prioritaria.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F4",
+      "F6"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de mañana) o junto a una ventana norte muy luminosa; en ventanas sur u oeste, a 1-2 m del cristal o tras cortina translúcida.",
+      "tolera_sol_directo": "Solo sol suave de primera hora. El sol directo fuerte quema los tallos (NC State). NC State la clasifica como de semisombra (2-6 h de sol directo al aire libre) y RHS admite 'sol pleno o semisombra' en exterior, pero para interior ambas recomiendan luz brillante indirecta.",
+      "notas": "Luz brillante indirecta según NC State y RHS (500-1000 fc ≈ 5380-10760 lux en la escala del proyecto). Contradicción: RHS da 'sol pleno o semisombra' en su ficha de exposición; NC State advierte que el sol directo quema los tallos. Se adopta la opción conservadora: luz brillante sin sol directo de mediodía o tarde. Una fuente complementaria indica que tolera 1-2 h de sol al día y también sombra marcada, aunque con menos crecimiento; el exceso de sol enrojece o amarillea los tallos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos, sin dejar que se seque del todo. A diferencia de los cactus de desierto, prefiere una humedad más constante (NC State). Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-20 minutos. Señal de sed: los tallos se arrugan y pierden rigidez (NC State). Nunca regar por calendario.",
+      "primavera_verano": "Riego moderado y regular durante el crecimiento (RHS): cada vez que la capa superior de 2-3 cm esté seca. En Madrid en verano, con calor y aire seco, eso puede ser cada pocos días en macetas colgantes pequeñas; comprobar siempre con el dedo y el peso.",
+      "otono_invierno": "Reducir el riego en el reposo invernal (NC State) y mantener el sustrato apenas húmedo (RHS): dejar secar algo más de profundidad (3-5 cm) antes de regar, pero sin el reposo totalmente seco de los cactus de desierto.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid apta (agua blanda, cloramina; dejarla reposar no elimina la cloramina, pero no es necesario). RHS recomienda agua blanda: la de Madrid lo es (10-47 mg/L CaCO3). Usar agua a temperatura ambiente.",
+      "notas": "El exceso de riego causa tallos blandos y pudrición de raíz (NC State); es la causa principal de muerte. La falta de agua o de humedad ambiental causa puntas de tallo marrones (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State y RHS piden humedad alta. Ninguna fuente prioritaria da porcentajes (laguna). NC State sugiere bandeja con guijarros y agua o humidificador; RHS recomienda pulverizar a diario con agua blanda, pero según la convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas. Una fuente complementaria considera suficiente la humedad normal de una vivienda, salvo cerca de radiadores. Con humedad alta y poca ventilación hay que vigilar los hongos (NC State): necesita buena circulación de aire.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 27,
+      "notas": "NC State: prefiere 60-80 °F (≈15,6-26,7 °C). RHS: H1B, cultivo bajo cristal con mínimo de 10-15 °C. Una fuente complementaria (ukhouseplants) da un mínimo de 10 °C y un rango de 10-26 °C. Se adopta como mínimo conservador 15 °C, la cota alta de H1B, casi igual al límite inferior del rango ideal de NC State. Las zonas USDA 9b-11 (NC State) y 10A-11 (FNPS) se refieren al exterior en clima subtropical, no a interior. Ninguna fuente prioritaria da temperatura máxima (laguna). Puede salir al exterior en verano en semisombra (NC State, RHS), con noches por encima de 15 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus epífitos (RHS): mezcla arenosa y aireada, ligeramente ácida y bien drenada que retenga algo de humedad (NC State). Opción práctica: sustrato universal o de cactus con un tercio de corteza fina de orquídea y perlita [proporción orientativa, sin fuente prioritaria]. En su hábitat crece en materia orgánica, o en fibra de coco en cultivo (FNPS). Maceta o cesta con agujeros de drenaje.",
+      "ph": "Ácido, por debajo de 6,0 (NC State). RHS lo da como indiferente (ácido, neutro o alcalino); se prefiere ligeramente ácido.",
+      "drenaje": "Bueno e imprescindible: nunca dejar agua en el plato ni en un cubremacetas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido diluido, bajo en nitrógeno (RHS); vale un abono para cactus o para plantas de interior.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes durante el crecimiento activo (RHS), a ¼-½ de la dosis de la etiqueta (convención del proyecto). Aplicar siempre sobre sustrato húmedo, nunca seco.",
+      "otono_invierno": "Nada durante el reposo invernal.",
+      "notas": "RHS solo indica abono mensual diluido bajo en nitrógeno, sin NPK concreto (laguna). Una fuente complementaria sugiere pasar a un abono rico en potasio cuando aparecen los botones florales [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F6"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años o cuando las raíces llenen la maceta; le gusta estar algo apretada (fuente complementaria).",
+      "epoca": "Primavera, al empezar el crecimiento.",
+      "senales": "Raíces que salen por los agujeros de drenaje, agua que atraviesa la maceta sin empapar el sustrato, sustrato degradado y compacto. Pasar solo a una maceta un tamaño mayor y manipular con cuidado: los tallos se rompen con facilidad.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No es necesaria (NC State, RHS).",
+      "epoca": "Primavera o verano, en crecimiento activo.",
+      "como": "Recortar con tijera limpia los tallos demasiado largos o secos para controlar la longitud (RHS) o hacer la planta más densa (NC State). Los trozos sanos sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aprox. noviembre-febrero; en Madrid coincide con días cortos y calefacción).",
+      "cambios": "Reducir el riego (NC State) y mantener el sustrato apenas húmedo, sin dejarlo secar del todo (RHS); no abonar. No es el reposo frío y seco de los cactus de desierto: mantener por encima de 15 °C y con luz brillante. Florece de invierno a primavera (NC State, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de tallo",
+        "semillas"
+      ],
+      "epoca": "Esquejes en primavera o verano (RHS).",
+      "pasos": "1) Cortar un trozo sano de tallo de unos 7-10 cm. 2) Dejar que el corte se seque y cicatrice unos días en sitio seco y luminoso, sin sol directo [orientativo, sin fuente prioritaria]. 3) Clavar la base 1-2 cm en sustrato para cactus epífitos ligeramente húmedo; se pueden poner varios esquejes por maceta para que quede densa. 4) Mantener con luz brillante indirecta y temperatura de unos 18-24 °C, regando solo cuando la superficie esté seca. 5) Las semillas se siembran a 19-24 °C (RHS). NC State y RHS confirman la propagación por esqueje de tallo y por semilla.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato compacto: pudrición de raíces (NC State). Es la causa de muerte más frecuente."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Tallos blandos o reblandecidos por exceso de riego (NC State); suele acompañar a la pudrición de raíz."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base de los tallos marrón y podrida a la altura del sustrato por encharcamiento (fuente complementaria). Salvar como esquejes los tallos sanos."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas de los tallos marrones por aire demasiado seco o falta de riego (NC State); en Madrid, por la calefacción o el verano seco. No atribuirlo al agua del grifo."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Tallos arrugados y sin rigidez por sed (NC State): regar a fondo; se recuperan en pocos días si las raíces están sanas."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Tallos quemados, amarillentos o rojizos por sol directo fuerte (NC State), típico en ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, su plaga más citada (RHS, NC State), escondida en las ramificaciones de los tallos."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, sobre todo con aire seco y calor (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo en los tallos (fuente complementaria)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 %), alejarla del sol directo de ventanas sur y oeste, que quema los tallos: ponerla en ventana este o a 1-2 m de un cristal sur con cortina. Vigilar el sustrato cada 2-3 días: las macetas colgantes se secan rápido cerca del techo, donde el aire es más cálido. Agrupar plantas o usar humidificador para frenar la araña roja y las puntas secas. Si sale a terraza o balcón, solo en semisombra y protegida del viento y de las horas centrales, con noches por encima de 15 °C (aprox. junio-septiembre en Madrid).",
+    "invierno": "Con calefacción y HR interior por debajo del 30 %, alejarla de radiadores y de las salidas de aire caliente; usar humidificador o agrupar plantas, no pulverizar. Mantener por encima de 15 °C: separarla de cristales fríos por la noche y de corrientes al ventilar. Regar menos, sin dejar que el sustrato se seque del todo, y no abonar. Darle la ventana más luminosa disponible, incluso una sur con cortina, porque la luz invernal es más débil.",
+    "ubicacion_recomendada": "Cesta colgante o estante alto junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina translúcida. Lejos de radiadores, aire acondicionado y corrientes. Los baños o cocinas luminosos funcionan bien por la humedad. Fuera del paso, porque los tallos son frágiles."
+  },
+  "lagunas": [
+    "Taxonomía: POWO acepta Rhipsalis baccifera (J.S.Muell.) Stearn, Cact. (Croydon) 7: 107 (1939). Sinónimos homotípicos: Cassytha baccifera J.S.Muell., Cereus baccifer (J.S.Muell.) Hemsl., Hariota cassytha Lem., Rhipsalis cassytha Gaertn. La ASPCA la recoge como 'Rhipsalis cassutha' (variante del sinónimo R. cassytha). No hay cambio de nombre. POWO reconoce varias subespecies (al menos subsp. baccifera); no se ha verificado la lista completa ni si los cuidados difieren entre ellas.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales (solo 'humedad alta').",
+    "Temperatura máxima tolerable: sin dato en fuentes prioritarias (NC State da el ideal hasta 80 °F ≈ 27 °C).",
+    "Toxicidad para niños: sin fuente prioritaria; ASPCA y NC State solo cubren perros, gatos y caballos.",
+    "Fertilización: sin NPK concreto en fuentes prioritarias (RHS: diluido y bajo en nitrógeno).",
+    "Trasplante: ninguna fuente prioritaria da la frecuencia; se usa una fuente complementaria (confianza Baja).",
+    "Missouri Botanical Garden no tiene ficha en Plant Finder para esta especie (solo registros de herbario); no se encontraron fichas de UF/IFAS, Wisconsin ni Clemson.",
+    "Rasgos para distinguirla de otras Rhipsalis de tallo fino y de Hatiora salicornioides o Euphorbia tirucalli sin fuente prioritaria; marcados como orientativos."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/rhipsalis-baccifera/",
+      "institucion": "North Carolina State University Extension, Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/14483/wd/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:219250-2",
+      "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mistletoe-cactus",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.fnps.org/plant/rhipsalis-baccifera",
+      "institucion": "Florida Native Plant Society (FNPS)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.ukhouseplants.com/plants/rhipsalis-hatiora-mistletoe-cacti",
+      "institucion": "UK Houseplants (guía especializada, ficha del género Rhipsalis/Hatiora)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://ucanr.edu/sites/mgfresno/files/344050.pdf",
+      "institucion": "University of California ANR, Master Gardeners de Fresno (Holiday Plants Toxic to Pets, 2020)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

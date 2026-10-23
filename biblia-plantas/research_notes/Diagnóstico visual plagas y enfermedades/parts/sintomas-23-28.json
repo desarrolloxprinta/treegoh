@@ -1,0 +1,334 @@
+[
+  {
+    "id": "S23",
+    "nombre": "Moteado fino (punteado amarillento o plateado) en el haz de la hoja",
+    "como_se_ve": "Multitud de puntos diminutos más claros que el verde de la hoja: un punteado de puntos claros (P01), un moteado pálido fino en el haz (P06), motas pálidas (P20), que al juntarse dan aspecto pálido, plateado o bronceado: efecto punteado-blanqueado (P17), decoloración blanco-plateada en el haz (P07), parches de tejido pálido, fino y plateado (P20). Con el tiempo la hoja amarillea, se broncea, se seca y cae (P01, P13, P20). Dos variantes para el modelo: punteado uniforme muy fino con tono bronce y telaraña en el envés (araña roja) frente a estrías o bandas plateadas alargadas con motas negras brillantes de excremento (trips). Ninguna fuente da una regla visual única sobre el moteado en sí: la distinción se hace por los signos acompañantes.",
+    "donde_mirar": "Haz para ver el moteado; envés para ver los causantes: ácaros, huevos esféricos, mudas blancas y telaraña (P06, P23); nervio central y hojas de edad media (P23); yemas, brotes tiernos, flores, bordes de hoja y uniones de peciolo para trips (P02, P20); frotar con el dedo y mirar con lupa de 10 aumentos (P01, P12); golpear la hoja sobre papel blanco y mirar qué cae (P01, P02, P07, P25).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Araña roja (Tetranychus urticae)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en invierno con calefacción y aire seco (P23, P27) y en Hedera, Ficus, Dracaena, Schefflera y Araucaria (P16). Puntos muy finos, uniformes, a menudo con tono bronce; en el envés con lupa se ven puntos móviles de 0,4–1 mm, amarillo-verdosos con dos manchas oscuras (naranja-rojos solo en reposo invernal), huevos esféricos perlados y mudas blancas (P01, P06, P17, P23); telaraña fina en envés, axilas y brotes, que es la forma fácil de distinguirla de trips y pulgón (P01); no hay motas negras de excremento (ninguna fuente de araña roja describe heces visibles; UC IPM advierte de que chinches y otros ácaros también punteen el follaje, P02). Prueba del papel blanco: caen puntos que caminan (P01, P25). Los fitoseidos depredadores son del mismo tamaño pero con patas más largas, más activos y piriformes (P01).",
+        "preguntas_confirmacion": [
+          "¿Hay hilos finos de seda en el envés o entre hoja y tallo?",
+          "¿Al golpear la hoja sobre papel blanco caen puntos que se mueven?",
+          "¿La planta está cerca de un radiador o la humedad es baja?",
+          "¿Los puntos son muy pequeños y no hay manchas negras?"
+        ],
+        "tratamiento": [
+          "1. Aislar la planta y tratar a la vez todas las plantas susceptibles (P11, P13, P16); podar y desechar las hojas muy infestadas (P13).",
+          "2. Ducha o chorro de agua fuerte en el envés, repetido cada 3–5 días (P22) o a diario (P01); lavar las hojas grandes con un paño húmedo (P13); regar correctamente, porque las plantas con estrés hídrico son más susceptibles (P01, P13, P23).",
+          "3. Subir la humedad y alejar de radiadores y conductos de aire caliente (P06, P22, P27); la humedad alta reduce el riesgo pero por sí sola no controla la plaga (P06).",
+          "4. Jabón potásico (sales potásicas de ácidos grasos) o aceite hortícola (parafina) o de neem al 1–2 % cubriendo todo el envés (P01, P03, P13); 2–3 aplicaciones a 5 días (P22), o a 5 días en verano y 7 en invierno (P17), o semanal varias semanas (P12), o cada 1–2 semanas mientras persistan (P13); los huevos no mueren, por eso hay que repetir (P13, P17). Empezar al 1 % en hojas finas: al 2 % hay más riesgo de quemaduras (P17). No aplicar con estrés hídrico ni por encima de 32 °C; probar antes en una o dos hojas (P01, P12). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados de jardinería exterior doméstica se aplican con la planta en el balcón (R01). No usar jabón de fregar (P15, P31).",
+          "5. Biológico, solo si la humedad relativa puede mantenerse por encima del 60–70 % y hay varias plantas juntas (terrario, invernadero de interior): Phytoseiulus persimilis, un depredador por cada 10 ácaros (P01), 13–27 °C, sensible a HR <70 % (PC01, P28, P29); Neoseiulus californicus tolera mejor el calor y la sequedad (P06, PC03). En plantas de interior individuales los biocontroles no se recomiendan (P13, P23).",
+          "6. Químico: las piretrinas tienen poca eficacia contra ácaros (P22); los piretroides y organofosforados no son eficaces y provocan brotes (P01); la abamectina solo está autorizada en invernaderos permanentes (PC10); el imidacloprid no controla araña roja (P13, P22) y no está aprobado en la UE. No hay escalón químico de aficionado recomendable.",
+          "7. Desechar las plantas muy infestadas (P13, P24, P27)."
+        ],
+        "tiempo_recuperacion": "Las hojas moteadas no reverdecen; la planta se recupera con el crecimiento nuevo; control en 2–4 semanas de tratamientos repetidos [estimación a partir de los intervalos de P13, P17 y P22]. Una generación tarda unos 12 días a 21 °C (P06) y menos de una semana a 27 °C (P01, P17).",
+        "cuando_descartar": "Desechar las plantas muy infestadas (P13, P24); UC IPM: si la infestación persiste pese al tratamiento, descartar para no contagiar (P01). Descartar esta causa si no hay telaraña ni puntos móviles en el envés tras la prueba del papel y hay motas negras o estrías plateadas alargadas (trips); si el moteado es más grueso o en manchas sin ácaros, pensar en otras causas (chinches, quemaduras, deficiencias).",
+        "plaga_o_enfermedad_ref": "araña roja (Tetranychus urticae)"
+      },
+      {
+        "causa": "Trips (Frankliniella occidentalis, Parthenothrips dracaenae, Heliothrips haemorrhoidalis)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en Monstera, Ficus, Dracaena, aráceas (Alocasia, Philodendron, Anthurium), palmeras, gesneriáceas, orquídeas y Peperomia (P07, P20). El rasgo distintivo son las motas negras brillantes de excremento, como barniz o alquitrán, pegadas junto al daño (P02, P07, P11, P20, P26); el plateado forma estrías o bandas alargadas siguiendo los nervios más que puntitos uniformes (P20); en hojas gruesas aparecen zonas hundidas (P20); hojas nuevas deformadas, arrugadas o enrolladas y flores con flecos blancos o yemas que no abren (P02, P07, P20); no hay telaraña; los insectos son alargados, de 1–2 mm, amarillos a negros, y corren o saltan (P20); larvas blanco-amarillas sin alas en el envés (P07). Trampa azul captura adultos (P07, P11, P18). Parecidos: colémbolos (en sustrato), psocópteros, ninfas de mosca blanca (planas, inmóviles) (P20).",
+        "preguntas_confirmacion": [
+          "¿Hay puntitos negros como barniz junto a las zonas plateadas?",
+          "¿Las zonas plateadas son estrías alargadas o parches, más que un punteado uniforme?",
+          "¿Las hojas nuevas salen deformadas o con cicatrices?",
+          "¿Caen insectos alargados (no puntos) al golpear sobre papel?",
+          "¿Hay telaraña? (si la hay, pensar en araña roja)"
+        ],
+        "tratamiento": [
+          "1. Aislar; quitar las hojas desfiguradas y las flores y yemas infestadas (P02, P20, P27).",
+          "2. Chorro de agua fuerte en ambas caras y frotar las larvas con los dedos (P20); colgar trampas adhesivas azules entre las plantas para capturar adultos y vigilar (P02, P07, P11); las trampas no controlan por sí solas (P22).",
+          "3. Jabón potásico, aceite hortícola o azadiractina (neem) cubriendo a fondo brotes, yemas y partes susceptibles, repitiendo mientras haya trips (P02, P20); Mississippi State: 2–3 pulverizaciones a 7 días (P22); los jabones dan control temporal (P02). En interior, solo productos listos para usar de uso no profesional; en España no se ha verificado ningún producto de azadiractina para aficionado (R01).",
+          "4. Trasplantar para eliminar las pupas del sustrato; solo elimina una parte de la población (P20). Evitar el exceso de nitrógeno, el riego excesivo y los sustratos muy orgánicos (P02, P20); la humedad alta disuade a muchas especies de trips (P20, P26).",
+          "5. Biológico, en espacio cerrado y húmedo con sueltas repetidas: Amblyseius swirskii contra larvas jóvenes (20–32 °C, no por debajo de 18 °C, HR >60 %, PC02) u Orius laevigatus (>20 °C, soltar en grupos de al menos 50, PC07) (P18, P20); UC IPM advierte de que comprar auxiliares rara vez da un control satisfactorio de trips (P02).",
+          "6. Químico: espinosad es más eficaz que los anteriores y dura al menos una semana, no aplicar en floración (P02; 2–3 pulverizaciones a 7 días, P22), pero su estado para uso no profesional en España no está verificado; el acetamiprid (aprobado en la UE hasta 2033) es sistémico y el más dañino para auxiliares (P11); imidacloprid no controla trips y no está aprobado en la UE (P02); los piretroides no son eficaces contra trips y provocan brotes de araña roja (P02). Los productos no restauran el aspecto del tejido dañado (P02).",
+          "7. Desechar las plantas muy infestadas (P20, P27)."
+        ],
+        "tiempo_recuperacion": "El tejido plateado no recupera el color (P11); el control químico suele actuar solo sobre el crecimiento nuevo (P02); varias semanas de repeticiones: una generación dura 2–4 semanas a 20–25 °C y unos 10–14 días a 27 °C (P02, P07, P18, P20) [estimación].",
+        "cuando_descartar": "Desechar las plantas muy infestadas (P20, P27). Descartar esta causa si hay telaraña y puntos móviles sin excrementos negros (araña roja); si el plateado es en manchas grandes irregulares sin insectos, pensar en daño abiótico (ver S22).",
+        "plaga_o_enfermedad_ref": "trips (Frankliniella occidentalis / Parthenothrips dracaenae / Heliothrips haemorrhoidalis)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["P01", "P02", "P03", "P06", "P07", "P11", "P12", "P13", "P15", "P16", "P17", "P18", "P20", "P22", "P23", "P24", "P25", "P26", "P27", "P28", "P29", "P31", "PC01", "PC02", "PC03", "PC07", "PC10", "R01"]
+  },
+  {
+    "id": "S24",
+    "nombre": "Telaraña fina (hilos de seda) en el envés de las hojas, axilas y puntas de brotes",
+    "como_se_ve": "Hilos muy finos, a veces solo visibles a contraluz, que unen el envés con el tallo, cubren axilas y yemas y, en infestaciones fuertes, envuelven hojas y brotes enteros con puntos diminutos moviéndose dentro (P01, P06, P23, P27). Acompañada casi siempre de moteado pálido en el haz (P06). Los hilos son finísimos, sin la estructura de una tela de araña verdadera.",
+    "donde_mirar": "Envés, axilas de las hojas, alrededor de los brotes y en las yemas (P27); entre hojas y tallos; brotes terminales; a contraluz; lupa de 10 aumentos (P01, P12).",
+    "urgencia": "alta",
+    "causas": [
+      {
+        "causa": "Araña roja (Tetranychus urticae y afines)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad muy alta: la telaraña con puntos móviles es prácticamente diagnóstica (P01, P06). Hay puntos móviles, huevos esféricos y mudas blancas dentro (P06, P23); puede confundirse con telas de arañas verdaderas o pelusa, pero esas no tienen puntos móviles ni moteado en el haz (P13). Cuando la telaraña es visible, la población ya está bien establecida (P23) y la tela protege a la colonia de depredadores y de la mayoría de pulverizaciones (P27).",
+        "preguntas_confirmacion": [
+          "¿Hay puntos diminutos moviéndose dentro de la tela?",
+          "¿El haz tiene moteado pálido?",
+          "¿Ves huevos esféricos y pieles blancas en el envés con lupa?",
+          "¿Al golpear sobre papel blanco caen puntos que caminan?"
+        ],
+        "tratamiento": [
+          "1. Aislar; desechar o podar severamente las partes envueltas en tela (P13, P24); tratar a la vez todas las plantas susceptibles (P13).",
+          "2. Chorro de agua fuerte para romper la tela y desprender los ácaros (P13, P27) antes de cualquier pulverización, porque la tela bloquea el producto (P27); repetir cada 3–5 días (P22) o a diario (P01).",
+          "3. Jabón potásico o aceite hortícola (parafina o neem) al 1–2 % con cobertura total del envés, 2–3 aplicaciones a 5–7 días (P17, P22) o semanal varias semanas (P12); no con estrés hídrico ni por encima de 32 °C (P01). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados se aplican con la planta en el balcón (R01).",
+          "4. Humedad alta y alejar de fuentes de calor (P06, P27).",
+          "5. Phytoseiulus persimilis se recomienda especialmente para suprimir densidades altas en invernadero (PC01), si se cumplen HR >70 % y 13–27 °C (P28, P29, PC01); un depredador por cada 10 ácaros, reduciendo antes la plaga con un acaricida selectivo (P01); no recomendado en plantas individuales de interior (P23).",
+          "6. Desechar las plantas muy infestadas (P13, P24, P27)."
+        ],
+        "tiempo_recuperacion": "Semanas; las hojas muy dañadas caen (P06); control en 2–4 semanas de tratamientos repetidos [estimación a partir de P13, P17 y P22].",
+        "cuando_descartar": "Desechar si la infestación persiste pese al tratamiento (P01, P24). Descartar esta causa si no hay puntos móviles ni moteado: tela de araña verdadera o pelusa (P13).",
+        "plaga_o_enfermedad_ref": "araña roja (Tetranychus urticae)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["P01", "P06", "P12", "P13", "P17", "P22", "P23", "P24", "P27", "P28", "P29", "PC01", "R01"]
+  },
+  {
+    "id": "S25",
+    "nombre": "Hojas, tallos o superficies cercanas pegajosas y brillantes (melaza)",
+    "como_se_ve": "Película transparente, brillante y pegajosa en el haz de las hojas inferiores, en el tallo, la maceta, el suelo o los muebles bajo la planta: líquido dulce y pegajoso que excretan los insectos chupadores (P05, P16). Puede ir seguida de un polvo negro (fumagina, ver S26) y atraer hormigas (P04, P05). La producen pulgones, moscas blancas, cochinillas algodonosas, cochinillas blandas, psílidos y cicadélidos (P05); en interior sobre todo pulgones, cochinillas y cochinillas algodonosas (P11).",
+    "donde_mirar": "La melaza cae hacia abajo: mirar encima del punto pegajoso, en el envés de las hojas superiores, brotes tiernos y axilas, y en las plantas que cuelgan por encima (P10). Buscar pulgón en brotes y yemas (P08, P11), mosca blanca en el envés (P09), cochinilla algodonosa en axilas y cochinillas de escudo cerca de los nervios (P11).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Pulgón (Aphididae)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Insectos de 1–3 mm, piriformes, con sifones (dos tubitos en el extremo del abdomen), agrupados en brotes y yemas, que no huyen; mudas blancas en el haz; hojas nuevas rizadas (P03, P08, P11). Probabilidad alta si hay brotes tiernos con insectos agrupados y mudas blancas.",
+        "preguntas_confirmacion": [
+          "¿Ves insectos verdes o negros agrupados en los brotes?",
+          "¿Hay pieles blancas en el haz?",
+          "¿Las hojas nuevas salen rizadas?"
+        ],
+        "tratamiento": [
+          "1. Ver S27: aplastar con los dedos, chorro de agua, podar brotes rizados, jabón potásico listo para usar repetido a los 2–7 días (P03, P08, P15, P26, R01).",
+          "2. Limpiar la melaza con un paño húmedo (P08)."
+        ],
+        "tiempo_recuperacion": "Días tras eliminar la colonia; la melaza se limpia con paño húmedo (P08).",
+        "cuando_descartar": "Descartar esta causa si no hay insectos en los brotes: mirar el envés (mosca blanca) y las axilas (cochinillas).",
+        "plaga_o_enfermedad_ref": "pulgón (Aphididae)"
+      },
+      {
+        "causa": "Mosca blanca (Trialeurodes vaporariorum / Bemisia tabaci)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en poinsettia, hibisco, hiedra, pelargonio y fucsia (P09, P16, P19). Al tocar la planta salen volando insectos blancos de unos 1,5 mm; en el envés, discos ovalados inmóviles (ninfas) y huevos en círculos (P09, P21); trampa amarilla llena de adultos (P04).",
+        "preguntas_confirmacion": [
+          "¿Salen volando insectos blancos al tocar la planta?",
+          "¿Hay escamas planas blanquecinas en el envés?"
+        ],
+        "tratamiento": [
+          "1. Ver S28: retirar hojas con ninfas, trampas amarillas, jabón potásico o aceite listo para usar en el envés con repeticiones (P04, P09, R01)."
+        ],
+        "tiempo_recuperacion": "Semanas: ciclo de unas 3 semanas a 21 °C (P09).",
+        "cuando_descartar": "Descartar esta causa si nada vuela ni hay ninfas en el envés.",
+        "plaga_o_enfermedad_ref": "mosca blanca (Trialeurodes vaporariorum / Bemisia tabaci)"
+      },
+      {
+        "causa": "Cochinilla algodonosa o cochinillas blandas",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en cactus, suculentas, orquídeas y cítricos (P11). Masas de cera blanca algodonosa en axilas y vainas (algodonosa) o escudos pardos pegados a los nervios del envés (cochinilla de escudo) (P11). Ver S29 y S30.",
+        "preguntas_confirmacion": [
+          "¿Hay algodones blancos en las axilas o bultos pardos pegados a los nervios?"
+        ],
+        "tratamiento": [
+          "1. Ver S29 (cochinilla algodonosa) y S30 (cochinilla de escudo); RHS advierte de que en muchos casos puede ser imposible eliminar la cochinilla algodonosa (P11)."
+        ],
+        "tiempo_recuperacion": "Largo: ver S29 y S30.",
+        "cuando_descartar": "Descartar esta causa si no hay cera ni escudos.",
+        "plaga_o_enfermedad_ref": "cochinilla algodonosa (Planococcus citri / Pseudococcus longispinus); cochinilla de escudo (Coccus hesperidum / Saissetia coffeae)"
+      },
+      {
+        "causa": "Melaza procedente de una planta situada encima",
+        "tipo": "ambiental",
+        "probabilidad": "baja",
+        "como_diferenciar": "La planta pegajosa no tiene insectos; la de encima sí (P10). Probabilidad baja-media.",
+        "preguntas_confirmacion": [
+          "¿Hay otra planta o rama colgando sobre esta?"
+        ],
+        "tratamiento": [
+          "1. Tratar la planta superior según su plaga; limpiar la afectada con agua tibia (P10)."
+        ],
+        "tiempo_recuperacion": "Inmediato al limpiar.",
+        "cuando_descartar": "Descartar esta causa si no hay plantas encima.",
+        "plaga_o_enfermedad_ref": "melaza y fumagina (nota transversal)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["P03", "P04", "P05", "P08", "P09", "P10", "P11", "P15", "P16", "P19", "P21", "P26", "R01"]
+  },
+  {
+    "id": "S26",
+    "nombre": "Capa negra o parda, seca y pulverulenta, en el haz de las hojas (fumagina, negrilla)",
+    "como_se_ve": "Como hollín: polvo negro o marrón sobre el haz de las hojas (P08, P09, P10); de un ligero espolvoreado a una capa gruesa que puede agrietarse y desprenderse en tiempo seco; al lavarla aparece la hoja sana debajo (P10). Se asienta sobre melaza pegajosa (P05) y también en macetas, muebles o suelo (P05). No infecta la planta (P05, P10): es un hongo saprófito que crece sobre la melaza; se diferencia de las manchas foliares fúngicas (S14) en que se quita frotando y deja la hoja intacta.",
+    "donde_mirar": "Haz de las hojas bajas y superficies bajo la planta; los insectos están encima: envés de hojas superiores, brotes, axilas y plantas colgantes (P10, P11).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Fumagina (hongos saprófitos) sobre melaza de pulgón",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si hay colonias de pulgón en los brotes. Se limpia con un paño húmedo y queda la hoja intacta (P10), a diferencia de las manchas foliares fúngicas, que están en el tejido; hay melaza pegajosa y pulgones encima (P03, P08). Es un signo revelador de infestación por insectos (P11).",
+        "preguntas_confirmacion": [
+          "¿La capa negra se quita al frotar con agua?",
+          "¿La hoja está pegajosa?",
+          "¿Hay pulgones en brotes, mosca blanca en el envés o cochinillas en axilas?"
+        ],
+        "tratamiento": [
+          "1. Identificar y tratar al insecto productor de melaza (P05, P10) según S27 (pulgón).",
+          "2. Limpiar las hojas con esponja y agua tibia, sin jabones fuertes ni detergentes (P10), o con agua y jabón suave (P05).",
+          "3. Ventilar bien para limitar la fumagina (P09).",
+          "4. Controlar las hormigas que protegen a los chupadores (P05)."
+        ],
+        "tiempo_recuperacion": "Las capas gruesas pueden tardar semanas o meses en irse, incluso después de eliminar los insectos (P10).",
+        "cuando_descartar": "Descartar esta causa si la mancha negra no se desprende y está dentro del tejido: enfermedad foliar (ver S13 y S14).",
+        "plaga_o_enfermedad_ref": "melaza y fumagina (nota transversal); pulgón (Aphididae)"
+      },
+      {
+        "causa": "Fumagina sobre melaza de mosca blanca",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si vuelan insectos blancos al tocar la planta; ninfas planas en el envés (P04, P09). Ver S28.",
+        "preguntas_confirmacion": [
+          "¿Vuelan insectos blancos al tocar la planta?"
+        ],
+        "tratamiento": [
+          "1. Tratar la mosca blanca según S28 y limpiar las hojas con agua tibia (P04, P10)."
+        ],
+        "tiempo_recuperacion": "Semanas o meses para la capa negra (P10).",
+        "cuando_descartar": "Descartar esta causa si no hay mosca blanca.",
+        "plaga_o_enfermedad_ref": "mosca blanca (Trialeurodes vaporariorum / Bemisia tabaci); melaza y fumagina (nota transversal)"
+      },
+      {
+        "causa": "Fumagina sobre melaza de cochinilla algodonosa, cochinilla de escudo o psílidos",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en suculentas, orquídeas y cítricos (P11). Cera blanca en axilas (algodonosa) o escudos pardos en nervios (cochinilla blanda) (P11); las cochinillas acorazadas no producen melaza. Ver S29 y S30.",
+        "preguntas_confirmacion": [
+          "¿Hay algodones blancos o escudos pardos en la planta?"
+        ],
+        "tratamiento": [
+          "1. Tratar según S29 (cochinilla algodonosa) o S30 (cochinilla de escudo) y limpiar las hojas con agua tibia (P10, P11)."
+        ],
+        "tiempo_recuperacion": "Largo: ver S29 y S30; la capa negra tarda semanas o meses (P10).",
+        "cuando_descartar": "Descartar esta causa si no hay cera ni escudos.",
+        "plaga_o_enfermedad_ref": "cochinilla algodonosa (Planococcus citri / Pseudococcus longispinus); cochinilla de escudo (Coccus hesperidum / Saissetia coffeae)"
+      },
+      {
+        "causa": "Melaza y fumagina procedentes de una planta superior",
+        "tipo": "ambiental",
+        "probabilidad": "baja",
+        "como_diferenciar": "Sin insectos en la planta afectada; la de arriba sí los tiene (P10). Probabilidad baja-media.",
+        "preguntas_confirmacion": [
+          "¿Hay plantas por encima?"
+        ],
+        "tratamiento": [
+          "1. Tratar la planta superior y limpiar la afectada con agua tibia (P10)."
+        ],
+        "tiempo_recuperacion": "Inmediato tras limpiar.",
+        "cuando_descartar": "Descartar esta causa si no hay nada encima.",
+        "plaga_o_enfermedad_ref": "melaza y fumagina (nota transversal)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["P03", "P04", "P05", "P08", "P09", "P10", "P11"]
+  },
+  {
+    "id": "S27",
+    "nombre": "Insectos pequeños, blandos, verdes, negros, amarillos o rosados, agrupados en brotes tiernos, yemas y envés de hojas jóvenes (pulgón)",
+    "como_se_ve": "Colonias densas de insectos piriformes de 1–3 mm (hasta 7 mm en algunas especies), de cuerpo blando, con patas y antenas largas, casi inmóviles, con dos tubitos (sifones) en el extremo trasero; verdes, negros, amarillos, rosas, pardos o blancos, algunos cerosos; algunos alados; mudas blancas acumuladas en el haz; brotes y hojas nuevas rizadas o deformadas; melaza y fumagina; a veces hormigas y momias redondas doradas (pulgones parasitados) (P03, P08, P11, P12).",
+    "donde_mirar": "Puntas de los brotes, yemas florales y envés de las hojas más jóvenes (P08); alrededor de yemas y crecimiento nuevo (P11); puntas de ramas y envés (P16); lupa para ver los sifones y diferenciar de mudas (P12).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Pulgón (Aphididae: Myzus persicae, Aphis gossypii, Aulacorthum spp.)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad muy alta. Los sifones distinguen a los pulgones de todos los demás insectos (P03); no se mueven rápido al molestarlos (P03); mudas blancas en el haz (P08); momias doradas redondas y crujientes = pulgones parasitados (P03). Activos todo el año en interior; cada hembra pare hasta 12 crías al día y pasan de ninfa a adulto reproductor en 7–8 días con calor (P03); hasta 100 crías por semana (P26). Diferenciar de ninfas de mosca blanca (planas, ovaladas, inmóviles, blanquecinas, en el envés de hojas más viejas, P04, P09) y de cochinilla algodonosa (cera algodonosa en axilas, P11). Hospedantes de interior citados: hiedra, hierbas aromáticas, hibisco (P16); cítricos, orquídeas y suculentas entre los más afectados por chupadores (P11).",
+        "preguntas_confirmacion": [
+          "¿Tienen dos tubitos atrás?",
+          "¿Están en los brotes más tiernos y en las yemas?",
+          "¿Hay pieles blancas en el haz y hojas pegajosas?",
+          "¿Hay algunos con alas?",
+          "¿Hay momias doradas o hinchadas?"
+        ],
+        "tratamiento": [
+          "1. Aislar; aplastar las colonias con los dedos (P08, P11); podar los brotes muy infestados y las hojas rizadas, porque dentro de ellas los productos de contacto no llegan (P03). Tolerar poblaciones bajas: en números bajos o moderados no suelen ser dañinos (P03, P08).",
+          "2. Chorro de agua suficiente para desprenderlos, a primera hora para que la planta seque (P03, P22, P26); limpiar la melaza con un paño húmedo (P08).",
+          "3. Jabón potásico (sales potásicas de ácidos grasos) cubriendo bien la colonia, sabiendo que solo mata a los pulgones presentes ese día (P03): repetir a los 2–3 días (etiqueta citada por P26) o a los 4–7 días (P15); dosis de referencia 1–2 % (P15, P31); aceite de neem o de parafina al 1–2 % en el envés (P03); piretrinas con jabón dan algo más de derribo (P03). No tratar con estrés hídrico ni por encima de 32 °C; probar antes en una zona (P03). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados se aplican con la planta en el balcón (R01). No usar jabón de fregar ni mezclas caseras (P15, P31).",
+          "4. Si hay momias, esperar: la población suele bajar sustancialmente en una o dos semanas (P03); no pulverizar jabón con parasitoides adultos presentes (el estudio sobre su sensibilidad no pudo abrirse). En vivienda con varias plantas: Aphidius colemani (20–25 °C, 0,25–4/m², al menos 3 sueltas, momias a los 10–14 días, PC05) o larvas de Chrysoperla carnea (media >12 °C, 2–20/m² semanal, PC06); las mariquitas requieren cantidades no prácticas en casa (P03).",
+          "5. Químico solo si lo anterior falla: piretrinas de uso doméstico (P03, P22) o acetamiprid (P22), evitando la floración (P03); RHS considera el acetamiprid sistémico y el más dañino para auxiliares (P11); imidacloprid no está aprobado en la UE. En España solo con producto listo para usar de uso no profesional (R01).",
+          "6. Reducir el abonado nitrogenado y evitar abonos de liberación lenta en exceso (P03); revisar al menos dos veces por semana en crecimiento rápido (P03)."
+        ],
+        "tiempo_recuperacion": "La colonia se elimina en días con tratamientos mecánicos repetidos; las hojas rizadas no se enderezan; el crecimiento nuevo sale sano [estimación; sin cifra en las fuentes].",
+        "cuando_descartar": "Raramente necesario. Descartar esta causa si los insectos son planos, inmóviles y están en el envés de hojas viejas (mosca blanca, S28); si son algodonosos (cochinilla algodonosa, S29); si saltan o vuelan al tocar (mosca blanca o trips).",
+        "plaga_o_enfermedad_ref": "pulgón (Aphididae)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["P03", "P04", "P08", "P09", "P11", "P12", "P15", "P16", "P22", "P26", "P31", "PC05", "PC06", "R01"]
+  },
+  {
+    "id": "S28",
+    "nombre": "Nube de insectos blancos diminutos que echan a volar al tocar o mover la planta (mosca blanca)",
+    "como_se_ve": "Adultos blancos de unos 1,5 mm con cuatro alas, a veces con aspecto pulverulento, posados en el envés; al agitar la planta salen nubes de pequeños insectos de alas blancas que revolotean y vuelven a posarse (P09, P12, P21). En el envés, huevos grisáceos a menudo en círculos y escamas ovaladas planas e inmóviles (ninfas) blanquecinas o verdosas o, si están parasitadas, negras (P09, P21). Hojas pegajosas, fumagina, amarilleo, aspecto seco y caída (P04, P21). Distinguir del mosquito del sustrato (negro, alrededor de la tierra, S31) y de las mudas de pulgón (blancas pero inmóviles en el haz, P09).",
+    "donde_mirar": "Envés de las hojas: adultos, huevos en hojas nuevas, ninfas en hojas más viejas, por lo que hay que muestrear a distintas alturas (P19); lupa de 10 aumentos para las ninfas, el primer estadio apenas se ve ni con lupa (P04, P19); trampa amarilla cerca de la planta (P04, P09).",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Mosca blanca de invernadero (Trialeurodes vaporariorum)",
+        "tipo": "plaga",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en plantas de interior y especialmente en poinsettia, hibisco, hiedra, pelargonio, fucsia, gerbera y crisantemo (P09, P16). Alas planas sobre el cuerpo; pupa con filamentos cerosos largos y fleco marginal (P04); los adultos vuelan (los pulgones y cochinillas no, P03, P11; los trips son alargados y oscuros, P20); ninfas inmóviles en el envés, no en los brotes (P09). Ciclo de unas 3 semanas a 21 °C y varios meses a 10 °C; más de 200 huevos por hembra, sin necesidad de machos (P09); 21–36 días según temperatura (P26). Ninfas negras = parasitadas por Encarsia (P09).",
+        "preguntas_confirmacion": [
+          "¿Son blancos y salen volando al tocar la planta?",
+          "¿Hay escamas planas ovaladas o huevos en círculos en el envés?",
+          "¿Las hojas están pegajosas o con polvo negro?",
+          "¿Alguna escama se ha vuelto negra?"
+        ],
+        "tratamiento": [
+          "1. Aislar y poner en cuarentena; retirar las hojas con más ninfas (P04); aspirar los adultos por la mañana, cuando están aletargados (P26); chorro de agua fuerte para desprender adultos (P04); colgar trampas amarillas para vigilar y reducir adultos, sabiendo que no controlan por sí solas y atrapan también parasitoides (P04, P09, P22); ventilar bien para limitar la fumagina (P09).",
+          "2. Jabón potásico (sales potásicas de ácidos grasos) o aceite hortícola (parafina o neem) cubriendo todo el envés de las hojas infestadas, al atardecer, sin estrés hídrico ni por encima de 32 °C, repetido: reducen pero no eliminan las poblaciones (P04, P21, P26); hay que tratar las ninfas, no solo los adultos; el aceite hortícola es lo más eficaz y la azadiractina requiere varios tratamientos sucesivos (P22); jabón y aceite válidos para los biotipos de Bemisia (P19). En interior, solo productos listos para usar autorizados para uso no profesional; los concentrados se aplican con la planta en el balcón (R01). Repetir semanalmente hasta que no emerjan adultos nuevos, al menos 3 semanas [inferencia a partir de P09].",
+          "3. Biológico: Encarsia formosa, introducida antes de que la infestación sea fuerte porque no da control instantáneo (P09), con 20–25 °C y media de 24 h no inferior a 17 °C, 1–10 pupas/m², tarjetas a unos 75 cm bajo el ápice y sin sol directo (PC04); a 21 °C su desarrollo tarda 25 días (P30); se vende para invernadero (P04). Amblyseius swirskii contra huevos y larvas si hay más de 18 °C y HR >60 % (PC02); ambos compatibles con jabón insecticida y azadiractina (P30).",
+          "4. Químico: incluso los insecticidas más tóxicos solo son parcialmente eficaces contra la mosca blanca; evitar piretroides, organofosforados y neonicotinoides; el imidacloprid (no aprobado en la UE) provoca brotes de araña roja (P04); piretrinas con PBO de residual corto y eficacia limitada (P22); el acetamiprid figura en productos domésticos del Reino Unido y Estados Unidos (P11, P22), pero genera resistencia (P19). En España, solo producto listo para usar de uso no profesional (R01).",
+          "5. Desechar las plantas muy infestadas (P04, P21)."
+        ],
+        "tiempo_recuperacion": "Varias semanas: al menos un ciclo completo de 3 semanas a 21 °C (P09); incluso los insecticidas más tóxicos solo son parcialmente eficaces (P04).",
+        "cuando_descartar": "Desechar las plantas muy infestadas (P04, P21). Descartar esta causa si los insectos son negros y revolotean sobre la tierra (mosquito del sustrato, S31); si las motas blancas no se mueven ni vuelan (mudas de pulgón o cochinilla algodonosa).",
+        "plaga_o_enfermedad_ref": "mosca blanca (Trialeurodes vaporariorum)"
+      },
+      {
+        "causa": "Mosca blanca del tabaco (Bemisia tabaci, biotipos MEAM1 y MED)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Más probable en poinsettia, hibisco, lantana, mandevilla y salvia (P19). Alas ligeramente inclinadas en tejadillo, dejando ver el cuerpo amarillo, y pupa sin filamentos cerosos ni fleco marginal (P04); puede provocar plateado, distorsión y decoloración (P04); manchas cloróticas, amarilleo y caída; vector de más de 120 virus (P19); determinar el biotipo antes de aplicar productos (P19); las pupas parasitadas por Encarsia se vuelven pardas, no negras (PC04).",
+        "preguntas_confirmacion": [
+          "¿Las alas se ven inclinadas, dejando ver el cuerpo amarillo?",
+          "¿Las pupas carecen de filamentos cerosos?"
+        ],
+        "tratamiento": [
+          "1. Como en la mosca blanca de invernadero (aislar, retirar hojas, trampas, lavado); jabón potásico y aceite hortícola válidos para ambos biotipos, aunque en un ensayo el aceite solo dio un 29,4 % de control estacional (P19); en interior, solo productos listos para usar de uso no profesional (R01).",
+          "2. El biotipo MED ya es resistente a numerosos insecticidas, incluidos los neonicotinoides, por lo que el acetamiprid puede fallar; limitar cada grupo a 2–3 aplicaciones por temporada (P19).",
+          "3. Biológico: Amblyseius swirskii y Eretmocerus eremicus son muy eficientes contra MED (P19); Encarsia formosa solo con menos de 2–3 adultos por planta y semana (P30).",
+          "4. Desechar las plantas muy infestadas (P04, P21)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación; los datos de desarrollo de B. tabaci no se verificaron en fuente abierta].",
+        "cuando_descartar": "Desechar las plantas muy infestadas (P21). Descartar esta causa si las pupas tienen filamentos y fleco (T. vaporariorum).",
+        "plaga_o_enfermedad_ref": "mosca blanca (Bemisia tabaci)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["P03", "P04", "P09", "P11", "P12", "P16", "P19", "P20", "P21", "P22", "P26", "P30", "PC02", "PC04", "R01"]
+  }
+]

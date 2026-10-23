@@ -1,0 +1,332 @@
+{
+  "nombre_cientifico": "Crassula ovata",
+  "nombres_comunes": [
+    "árbol de jade",
+    "planta de jade",
+    "árbol del dinero",
+    "planta del dinero"
+  ],
+  "familia": "Crassulaceae",
+  "origen": "Sur de África: Sudáfrica (Cabo Oriental, KwaZulu-Natal) y Mozambique (Wisconsin, Penn State). Sinónimos: Crassula argentea y Crassula portulacea (RHS); ASPCA aún la lista como Crassula argentea. Nombre aceptado según GBIF: Crassula ovata (Mill.) Druce.",
+  "clima_nativo": "Subtropical semiárido sin heladas fuertes. Crece en el matorral denso de valles (valley thicket) del Cabo Oriental y KwaZulu-Natal (Wisconsin), con suelos bien drenados y una estación fresca y seca. Rusticidad USDA 11-12 (NC State, Penn State); RHS H2: soporta frío ligero pero no la congelación.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas opuestas, por pares, gruesas, carnosas y brillantes, ovales o en forma de huevo. Miden 2,5-9 cm de largo y 2-4 cm de ancho, con margen entero (liso) y casi sin pecíolo, y se agrupan hacia las puntas de las ramas (NC State). Color verde medio a oscuro; con sol directo el borde se tiñe de rojo (NC State, Wisconsin, Penn State). Con poca luz son verde claro y pierden el borde rojo (Penn State). Los puntitos blancos o negros diminutos en la lámina son hidatodos (poros que expulsan agua), no una enfermedad (Penn State).",
+    "nerviacion": "No visible: hoja suculenta gruesa con un solo nervio central apenas marcado o inapreciable.",
+    "variegacion": "La especie es verde. Hay cultivares variegados: 'Variegata' (verde con blanco), 'Tricolor' (rayas crema y rosa), 'Sunset' y 'Hummel's Sunset' (amarillo dorado con borde rojo) (Wisconsin, Penn State). También hay formas de hoja tubular: 'Gollum', 'Hobbit' y 'ET's Fingers'.",
+    "tallo": "Tallos gruesos, carnosos y ramificados, con anillos marcados (cicatrices) a lo largo. Los brotes nuevos son verdes o pardo rojizos y los viejos, grisáceos y leñosos, con corteza que se descama (NC State, Wisconsin).",
+    "habito": "Arbusto perenne redondeado que con la edad toma forma de arbolito con tronco grueso (NC State). Puede dar racimos de florecitas estrelladas blancas o rosadas en otoño-invierno, pero en interior florece poco (Penn State, Clemson, Wisconsin).",
+    "tamano_adulto_interior": "Crece despacio. En interior llega hasta 1,5 m de alto (Clemson) y fuera, en clima sin heladas, a 1-2 m (NC State, RHS: 1,5-2,5 m en 5-10 años). La maceta pequeña limita su tamaño (Penn State).",
+    "confusiones": [
+      {
+        "especie": "Crassula arborescens (jade plateado)",
+        "rasgo_diferenciador": "Hojas redondeadas de color azul plateado o gris, con borde y puntos granates (Penn State). C. ovata tiene hojas verdes brillantes, sin tono plateado."
+      },
+      {
+        "especie": "Crassula arborescens subsp. undulatifolia (jade ondulado)",
+        "rasgo_diferenciador": "Hojas verde azuladas con el borde ondulado (Penn State). En C. ovata la hoja es plana y el margen liso."
+      },
+      {
+        "especie": "Portulacaria afra (falso jade, 'elephant bush')",
+        "rasgo_diferenciador": "Hojas mucho más pequeñas (hacia 1-2 cm) y redondas, sobre tallos finos y rojizos. Ninguna fuente abierta para esta ficha lo verifica: es una pista de identificación, no un dato confirmado."
+      },
+      {
+        "especie": "Cultivares tubulares de C. ovata ('Gollum', 'Hobbit')",
+        "rasgo_diferenciador": "Son la misma especie y se cuidan igual, pero sus hojas son tubulares con la punta rojiza, en vez de ovales y planas (Wisconsin)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Desconocido según ASPCA. Un manual veterinario (IVIS, Knight y Walter) atribuye a las crasuláceas bufadienólidos de efecto digitálico, pero no lo confirma para C. ovata.",
+    "sintomas": "Perros y gatos (también caballos): vómitos, decaimiento e incoordinación (ASPCA). Según Pet Poison Helpline también diarrea, pérdida de apetito y letargo; suele ser leve y pasajero. Personas y niños: ligeramente tóxica si se ingiere, con vómitos o diarrea, y la savia puede irritar la piel (UC ANR). Los ensayos de intoxicación en gatos no lo lograron, lo que apunta a toxicidad muy baja (IVIS). Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F7",
+      "F1",
+      "F8",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Sur u oeste (RHS, Penn State), o junto a la ventana más luminosa. Este solo si recibe varias horas de sol.",
+      "tolera_sol_directo": "Sí. Lo ideal son 4 horas o más de sol directo al día (Wisconsin, Penn State, Clemson). Hay que aclimatarla poco a poco para evitar quemaduras, y NC State aconseja algo de sombra por la tarde.",
+      "notas": "Tolera la luz brillante indirecta (≥500 fc ≈ 5.380 lux, escala del proyecto), pero crece menos y pierde el borde rojo. Con poca luz las hojas se vuelven verde oscuro o pálido y los tallos se alargan y caen (Wisconsin, Penn State). Si falta luz: luz LED de espectro completo cerca de la planta, unas 12 h al día, y oscuridad el resto (Penn State). No hay techo de lux verificado: al sol pleno exterior soporta mucho más que en interior, siempre con aclimatación.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a unos 5 cm de profundidad (suculenta: comprobar con el dedo) y la maceta pese poco. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato. Nunca por calendario: el exceso de riego es la causa nº 1 de muerte (pudrición de raíz y tallo, caída de hojas).",
+      "primavera_verano": "Riegos profundos espaciados, dejando secar el sustrato entre riegos (Wisconsin, NC State, Penn State). Es cuando más agua usa. En una maceta pequeña de barro con calor puede tocar regar cada 1-2 semanas, pero manda la comprobación del sustrato y el peso.",
+      "otono_invierno": "Reducir mucho desde el otoño hasta final del invierno (NC State) y regar muy poco en reposo (RHS, Wisconsin). Dejar secar del todo entre riegos y mojar solo lo justo para que las hojas no se arruguen. Con la planta fresca (10-13 °C), a veces bastan riegos muy espaciados (cada 3-6 semanas, orientativo).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "No necesita agua especial. El agua del grifo de Madrid (blanda, con cloramina y flúor <0,1 mg/L) sirve tal cual; dejarla reposar no quita la cloramina, pero no hace falta. No mojar las hojas al regar (Clemson).",
+      "notas": "Contradicción: Clemson y RHS dicen mantener el sustrato 'ligeramente húmedo' en crecimiento, mientras que Wisconsin, NC State y Penn State piden dejarlo secar entre riegos. Se adopta la opción más conservadora para la planta (dejar secar), porque el encharcamiento la mata y la sequía rara vez. La sequía muy prolongada sí causa enanismo, manchas, caída de hojas y muerte (Wisconsin, Clemson). Los extremos de seco o húmedo provocan caída de hojas (Penn State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Tolera bien una gran variedad de humedades (Wisconsin). No necesita humidificador. La humedad baja de la calefacción de Madrid (<30 %) no le perjudica. No pulverizar: no sube la humedad de forma útil y el agua sobre las hojas favorece problemas (Clemson: no mojar las hojas). Ninguna fuente da porcentajes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal de día 18-24 °C y de noche 10-13 °C (Clemson). Prefiere temperaturas interiores medias o frescas (NC State). RHS H2 (soporta 1-5 °C pero no la congelación); Wisconsin dice que puede aguantar una helada ligera, pero la congelación la mata. Se toma 5 °C como mínimo seguro conservador, siempre con el sustrato seco. En invierno, protegerla de corrientes y no dejar que las hojas toquen el cristal frío (Clemson). Ninguna fuente fija un máximo: ver lagunas y ajustes de Madrid.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F2",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas (RHS, Penn State, Wisconsin), o universal mejorado con perlita o arena gruesa (Wisconsin). Una mezcla casera por volumen (Clemson): 1 parte de tierra orgánica esterilizada, 1 de turba y 3 de arena gruesa.",
+      "ph": null,
+      "drenaje": "Imprescindible: un sustrato lento en drenar provoca pudrición de raíz (Penn State, Clemson). Maceta con agujero de drenaje; la de barro sin esmaltar es la mejor porque seca antes que la de plástico o esmaltada (Penn State). Con ejemplares grandes y pesados por arriba, usar una maceta pesada (barro) para que no vuelquen (Clemson, Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F2",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (Penn State, RHS, Clemson).",
+      "npk": null,
+      "primavera_verano": "Abono a ¼-½ de la dosis de la etiqueta, como mucho una vez al mes y solo con crecimiento activo (primavera-verano). Para esta especie basta cada 1-2 meses. No abonar hasta 4 meses después de un trasplante (Clemson, Penn State).",
+      "otono_invierno": "Nada. Está en reposo.",
+      "notas": "Contradicción en la frecuencia: RHS dice mensual; Wisconsin, cada 2 meses (o diluido más a menudo); Penn State, 2-3 veces por temporada; Clemson, cada 3-4 meses. Se adopta la opción conservadora: dosis reducida y frecuencia baja, porque el exceso de abono da crecimiento alargado y débil (Penn State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F2",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (Wisconsin, Penn State). Tolera estar con las raíces apretadas durante años (Penn State, Clemson).",
+      "epoca": "Al empezar el crecimiento, en primavera (Wisconsin, Clemson).",
+      "senales": "La planta pesa más arriba que la maceta y vuelca, las raíces llenan el cepellón o salen por el drenaje, o el sustrato está muy degradado. Si se vuelve a la misma maceta, recortar raíces (Wisconsin). Tras trasplantar, regar muy poco o dejar secar unos días (Wisconsin, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "poda": {
+      "necesita": "No es imprescindible (RHS: no requiere poda). Es útil para mantenerla compacta, engrosar el tronco o formarla como bonsái (Wisconsin, Penn State).",
+      "epoca": "Primavera (Wisconsin, Penn State).",
+      "como": "Con una cuchilla limpia y afilada, cortar justo por encima de un anillo del tallo o hasta una rama lateral; las heridas cicatrizan en pocos días (Penn State, Wisconsin). Quitar ramas rotas, cruzadas, dañadas u hojas amarillas. Pinzar las puntas unos 3 mm por encima de un par de hojas para que ramifique (Penn State). Los trozos cortados sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F2",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno en el hemisferio norte (Madrid: aprox. octubre-febrero; parametrizar por hemisferio).",
+      "cambios": "Semirreposo invernal (Wisconsin; RHS: latente en invierno). Reducir el riego al mínimo desde el otoño hasta final del invierno (NC State) y no abonar. Le conviene un invierno fresco: noches a 10-13 °C (Clemson) en un sitio luminoso. Para que florezca (Wisconsin): en otoño suspender el riego y tenerla fresca (~13 °C, sobre todo de noche), con noches largas y sin luz artificial, durante varias semanas; después volver al riego normal. En Madrid una habitación sin calefacción o una galería luminosa sin heladas sirven para este reposo fresco y seco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "esqueje de hoja",
+        "semilla",
+        "hijuelos"
+      ],
+      "epoca": "Todo el año, pero enraíza mejor en verano (Wisconsin); RHS recomienda la primavera.",
+      "pasos": "1) Cortar un trozo de tallo (o arrancar una hoja entera con su base). 2) Dejarlo secar unos días hasta que la herida cicatrice (Wisconsin). 3) Plantarlo en sustrato seco y bien drenado para suculentas (Wisconsin). 4) No regar hasta que pase alrededor de una semana; después, riegos ligeros cuando el sustrato se seque. 5) Las raíces salen con facilidad, incluso sin tierra (Wisconsin). Las semillas se siembran en primavera-verano (Wisconsin) o en cuanto maduran (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato que drena mal. Es el problema principal (NC State, Penn State, Clemson)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del tallo por exceso de riego (Wisconsin), sobre todo en invierno con frío y sustrato húmedo."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas que se ablandan y caen por exceso de riego: NC State y Wisconsin citan la caída de hojas y la pudrición. El reblandecimiento es la forma habitual en que se presenta, aunque las fuentes no lo describen así. Revisar raíces y cuello."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Enanismo por sequía prolongada (Wisconsin, Clemson) o por falta de luz."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas en las hojas por sequía (Wisconsin, Clemson) o por quemadura solar."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura solar al pasarla de golpe a pleno sol o al exterior sin aclimatarla (Wisconsin, Penn State). En Madrid, el sol de tarde de verano tras un cristal oeste."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Tallos alargados y caídos por falta de luz o exceso de abono (Penn State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga más común. Se aloja en las axilas de las hojas (Penn State, Wisconsin, Clemson)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Brotes nuevos deformados por la cochinilla algodonosa (Penn State)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja: pérdida de color y aspecto polvoriento o moteado (Clemson, Wisconsin, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo, ocasional (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón ocasional en brotes tiernos (NC State, RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, junto a una ventana sur u oeste conviene algo de sombra o un visillo en las horas centrales y de tarde (NC State aconseja sombra por la tarde), sobre todo detrás del cristal. Si sale al balcón, aclimatarla poco a poco durante 1-2 semanas para evitar quemaduras (Wisconsin, Penn State). El aire seco no le afecta. El sustrato se seca muy rápido en barro: comprobarlo a 5 cm y por el peso, sin regar a diario. Ninguna fuente fija un máximo de temperatura; con olas de calor, evitar la maceta negra al sol y el sustrato encharcado y caliente.",
+    "invierno": "Es la estación de reposo. Lo ideal es un sitio muy luminoso y fresco (noches a 10-13 °C), lejos de radiadores, y regar muy poco. La calefacción (HR <30 %) no la daña por la sequedad, pero el calor con poca luz alarga los tallos e impide que florezca. No dejar que las hojas toquen el cristal frío ni ponerla en corrientes (Clemson). En terraza, entrarla antes de las heladas: no soporta la congelación (RHS H2, Wisconsin). Si se queda fuera en una galería sin heladas, mantener el sustrato seco.",
+    "ubicacion_recomendada": "Junto a la ventana más soleada (sur u oeste), con 4 horas o más de sol al día, y un visillo en las tardes de julio y agosto. En verano puede pasar a una terraza o balcón tras aclimatarla, con sombra de tarde. En invierno va a una habitación luminosa y fresca, sin calefacción directa."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) bloqueó el acceso (403/Cloudflare) y no se pudo abrir. GBIF da Crassula ovata (Mill.) Druce como aceptado. RHS cita los sinónimos Crassula argentea y C. portulacea, y ASPCA la lista aún como Crassula argentea. No hay cambio de nombre vigente.",
+    "Humedad: ninguna fuente da porcentajes mínimo ni ideal (min_pct e ideal_pct a null). Solo consta que tolera una gran variedad de humedades.",
+    "Temperatura máxima tolerada: ninguna fuente prioritaria la fija (max_c null). Falta un dato verificado de tolerancia a 35-40 °C.",
+    "pH del sustrato: ninguna fuente consultada lo indica (ph null).",
+    "NPK: ninguna fuente da una fórmula concreta; solo 'abono líquido equilibrado'.",
+    "Jabón insecticida: Clemson advierte que no se use porque puede dañar el árbol de jade, y Wisconsin avisa de fitotoxicidad de los insecticidas en sus hojas. No se encontró una segunda fuente prioritaria que nombre el jabón expresamente. La app debe recomendar retirar la cochinilla a mano con un bastoncillo empapado en alcohol, como dicen Clemson, Wisconsin y Penn State, repitiendo varias semanas. Si se usa un fitosanitario listo para usar autorizado por el MAPA para uso no profesional, probarlo antes en una hoja.",
+    "Portulacaria afra como confusión: el rasgo diferenciador no se verificó en las fuentes abiertas.",
+    "Principio tóxico: ASPCA lo da como desconocido. Los bufadienólidos se citan para la familia Crassulaceae (IVIS) sin confirmarse en C. ovata.",
+    "Frecuencias orientativas de riego (días o semanas) sin fuente: el criterio que manda es el estado del sustrato y el peso de la maceta."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hort.extension.wisc.edu/articles/jade-plant-crassula-ovata/",
+      "institucion": "University of Wisconsin–Madison Extension – Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://extension.psu.edu/jade-plant-a-no-fuss-houseplant",
+      "institucion": "Penn State Extension (Pennsylvania State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hgic.clemson.edu/factsheet/jade-plant/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/4739/crassula-ovata/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Crassula ovata (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://ucanr.edu/node/139573/printable/print",
+      "institucion": "University of California Agriculture and Natural Resources (UC ANR) – Plant Safely in Drought-Tolerant Landscapes",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.petpoisonhelpline.com/poison/jade-plant/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.ivis.org/library/guide-to-poisonous-house-and-garden-plants/crassula-species-silver-jade-plant",
+      "institucion": "IVIS – Knight y Walter, Guide to Poisonous House and Garden Plants (manual veterinario)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://api.gbif.org/v1/species/match?name=Crassula%20ovata&kingdom=Plantae",
+      "institucion": "GBIF Backbone Taxonomy",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

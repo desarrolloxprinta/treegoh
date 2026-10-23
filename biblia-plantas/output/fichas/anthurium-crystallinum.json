@@ -1,0 +1,350 @@
+{
+  "nombre_cientifico": "Anthurium crystallinum",
+  "nombres_comunes": [
+    "anturio crystallinum",
+    "anturio cristal",
+    "crystal anthurium"
+  ],
+  "familia": "Araceae",
+  "origen": "Panamá y Colombia (POWO: nativa de Colombia y Panamá). En Panamá solo se conoce del bosque pluvial premontano de Cerro Pirre, hacia 1400 m (Croat). Muchas plantas comerciales son híbridos F1/F2 con especies afines (p. ej. A. magnificum) o proceden de cultivo in vitro, y pueden diferir de la especie pura en tamaño y exigencias.",
+  "clima_nativo": "Bosque tropical pluvial premontano, sombreado y muy húmedo, con temperaturas cálidas estables y sin heladas. Crece como epífita (o semiepífita) sobre troncos en márgenes de selva.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Hojas simples, grandes, de estrechamente ovadas a ovadas (más largas que anchas), acorazonadas en la base con lóbulos posteriores profundos y ápice bruscamente acuminado; 25-39 cm de largo y 15-22 cm de ancho en estado silvestre (Croat); RHS indica hasta 45 cm. Lámina relativamente fina (no gruesa ni acartonada), haz verde oscuro, mate y aterciopelado, finamente papiloso, que puede mostrar reflejos cristalinos con luz rasante; envés más pálido, mate, punteado de pardo rojizo. Las hojas nuevas salen de color bronce o rosado-violáceo y se oscurecen al madurar. Las láminas cuelgan casi paralelas al tallo, apuntando hacia abajo. Pecíolo cilíndrico (terete, de sección redonda), a veces teñido de rojo violáceo en la base, con un geniculum (rodilla) de 1,4-3 cm bajo la lámina.",
+    "nerviacion": "Nervio central y 4-5 pares de nervios basales más 1-3 nervios laterales primarios por lado, todos mucho más pálidos (blanco plateado a verde muy claro) que la lámina y rodeados por una banda pálida que los perfila; también se marcan algunos nervios secundarios cerca de la base. Un nervio colector une los laterales cerca del margen. Es el rasgo visual dominante.",
+    "variegacion": "Sin variegación verdadera: el dibujo plateado es nerviación contrastada, no variegación. El contraste se reduce con poca luz o en ejemplares híbridos.",
+    "tallo": "Tallo corto, de hasta 25 cm de largo y 2-2,5 cm de grosor, verde, con entrenudos muy cortos y cicatrices foliares anchas; raíces aéreas cortas y gruesas que descienden; catáfilos (vainas) que se secan de color pardo y persisten en la base de las hojas.",
+    "habito": "Herbácea perenne epífita, en mata compacta (RHS: 'clump forming'), con crecimiento lento. Inflorescencia poco vistosa: espata estrecha, oblongo-lanceolada, verde teñida de violeta, de 7-9 cm, y espádice verde que vira a amarillo, de 9-12 cm; puede aparecer de forma intermitente todo el año. Bayas blancas teñidas de violeta púrpura.",
+    "tamano_adulto_interior": "RHS: 0,1-0,5 m de alto y de ancho en cultivo. Hojas individuales de hasta 45 cm. Fuentes complementarias citan ejemplares de unos 50 cm en maceta y hasta 90 cm en condiciones óptimas.",
+    "confusiones": [
+      {
+        "especie": "Anthurium clarinervium",
+        "rasgo_diferenciador": "Hojas casi tan anchas como largas (forma de corazón muy marcada), con el seno basal cerrado o muy estrecho y los lóbulos a veces solapados; lámina gruesa, coriácea y rígida (como cartón), más pequeña (11-25 cm de largo) y con nervios blanco crema aún más contrastados. Pecíolo también cilíndrico (terete), así que el pecíolo NO sirve para separarlas: lo que las separa es la forma de la hoja (A. crystallinum es más alargada, ovada, de lámina fina y colgante) y el grosor. Bayas naranjas en A. clarinervium, blanco-violáceas en A. crystallinum. Endémica de Chiapas (México), terrestre entre rocas calizas."
+      },
+      {
+        "especie": "Anthurium magnificum",
+        "rasgo_diferenciador": "Pecíolo de sección cuadrangular, con aristas o alas en las esquinas (sobre todo hacia el ápice); en A. crystallinum el pecíolo es cilíndrico (redondo). Hojas más grandes y algo más coriáceas, de verde oscuro con nervios verde plateado menos contrastados; planta principalmente terrestre de Colombia. Mirar el pecíolo en sección es la comprobación más fiable."
+      },
+      {
+        "especie": "Híbridos A. crystallinum × A. magnificum y otros de la sección Cardiolonchium (p. ej. A. papillilaminum)",
+        "rasgo_diferenciador": "Los híbridos pueden mostrar pecíolo de sección intermedia (redondeado con una o dos aristas) y forma de hoja intermedia; A. papillilaminum es terrestre, con espádice verde y sin la banda pálida que perfila los nervios. Para una identificación segura hace falta ver pecíolo, base de la hoja y espata."
+      },
+      {
+        "especie": "Alocasia de hoja aterciopelada (p. ej. Alocasia micholitziana 'Frydek', A. reginula)",
+        "rasgo_diferenciador": "Hojas sagitadas o peltadas con el pecíolo insertado en la lámina (A. reginula) o en forma de flecha con nervios blancos gruesos; crecen de un rizoma o cormo con pecíolos largos y erguidos, sin la rodilla (geniculum) bajo la lámina típica de Anthurium."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios) en todas las partes de la planta: hojas, tallos, raíces, flores, frutos, semillas y savia. Croat describe células con rafidios en el mesocarpo de las bayas de esta especie.",
+    "sintomas": "Al morder o masticar: irritación y dolor en boca, labios y lengua, inflamación, babeo excesivo, dificultad para tragar, pérdida de apetito y vómitos. La savia irrita la piel y los ojos (enrojecimiento, escozor). Gravedad baja según NC State. Usar guantes al manipularla (RHS) y colocarla fuera del alcance de niños y mascotas; si hay ingestión con síntomas, contactar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F5",
+      "F8"
+    ],
+    "notas": "Solo la RHS (F1) trata la especie: 'Harmful if eaten; skin/eye irritant' para personas y mascotas. NC State (F3) da la toxicidad para el género Anthurium (problema para perros, gatos y niños, oxalato cálcico, dermatitis de contacto) y cita A. crystallinum dentro de ese género. ASPCA (F5) no tiene ficha de A. crystallinum; su ficha 'Flamingo Flower' (A. scherzerianum) da el mismo principio tóxico para perros, gatos y caballos. Coherente con la ficha del proyecto de A. andraeanum. Se deja en Media porque solo una fuente prioritaria trata la especie."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS indica orientación este u oeste para esta especie), o ventana sur tamizada con cortina fina o estor. En Madrid, en ventana este a 1 m o en ventana sur u oeste a 1,5-2 m del cristal y detrás de cortina en primavera-verano.",
+      "tolera_sol_directo": "No. Es planta de sotobosque y sus hojas aterciopeladas se queman con sol directo de verano (manchas secas y pardas o blanqueadas). Como mucho, sol suave de primera hora de la mañana.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F11"
+      ],
+      "notas": "Contradicción interna en la RHS: la ficha de la especie (F1) indica en el recuadro 'Position: Full sun, Partial shade', pero su texto de cultivo dice 'grow indoors in bright, indirect light', igual que la guía del género (F2), que añade que el sol directo de verano quema las hojas. Se adopta lo más conservador para la planta: luz brillante indirecta sin sol directo; el 'full sun' se interpreta como sol tamizado de invernadero británico. Ninguna fuente prioritaria da lux para esta especie: el intervalo 1076-10760 lux (100-1000 fc) [orientativo, sin fuente prioritaria para la especie] se toma de la escala del proyecto y del dato de UF/IFAS para el género (crecimiento en interior desde 100 fc). Con poca luz crece más despacio y el contraste de los nervios se reduce (NC State para el género)."
+    },
+    "riego": {
+      "criterio": "Comprobar con el dedo a 2-3 cm y el peso de la maceta. Regar cuando los 2-3 cm superiores estén secos y la maceta pese claramente menos que recién regada (RHS para el género indica comprobar hasta 5 cm y regar cuando la mezcla 'se acerque a la sequedad'). Con sustrato muy aireado de corteza, el interior debe seguir ligeramente húmedo: no dejar que se seque el cepellón entero. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos. Nunca por calendario ni con la maceta encharcada.",
+      "primavera_verano": "Riego abundante cada vez que se cumpla el criterio (RHS: 'water freely'); con calor y crecimiento activo el sustrato se seca antes, así que comprobarlo cada 2-3 días en Madrid en verano.",
+      "otono_invierno": "Regar con moderación (RHS: 'water sparingly in winter'), esperando a que los 2-3 cm superiores estén secos y la maceta ligera. Con calefacción el sustrato puede secarse rápido: guiarse por el dedo y el peso, no por la estación.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente, nunca fría. RHS recomienda agua de lluvia o filtrada porque el agua dura y alcalina perjudica a estas plantas acidófilas; el agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y es adecuada. Lavar el sustrato con riego abundante cada pocos meses para arrastrar sales de abono (UF/IFAS para el género). Dejar reposar el agua no elimina la cloramina, y no es necesario.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Solo la RHS (F1) da riego para la especie; el resto es del género. El encharcamiento causa pudrición de raíces (RHS para la especie). Al ser epífita con raíces gruesas, tolera peor un sustrato compacto que una sequía breve."
+    },
+    "humedad": {
+      "min_pct": 60,
+      "ideal_pct": 70,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F11",
+        "F12"
+      ],
+      "notas": "La RHS (F1) pide 'high humidity' para la especie sin dar cifra; NC State (F3) pide condiciones 'muy húmedas' para el género y señala que las puntas se vuelven marrones si la humedad es baja. Las cifras salen de fuentes complementarias coherentes: Epic Gardening (F11) ≥70 % y dice que el 50 % habitual no basta; Foliage Factory (F12) 60-80 %. Las fuentes recomiendan pulverizar o bandeja de grava; según la convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador, agrupar plantas o una vitrina o armario de cultivo (NC State menciona terrarios y armarios de cultivo para el género). Con humedad baja las hojas nuevas pueden quedarse atascadas al abrir o salir rasgadas [orientativo, sin fuente prioritaria]."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F12"
+      ],
+      "notas": "Discrepancia en el mínimo: la RHS para la especie (F1) la clasifica H1A ('bajo cristal todo el año, >15 °C') pero en el texto de cultivo pide mantenerla por encima de 18 °C en invierno; la guía de género (F2) da 18-30 °C; UF/IFAS (F4, género) sitúa el daño por debajo de 13 °C (55 °F); Wikipedia cita 16 °C y Foliage Factory (F12) 'evitar por debajo de 15 °C'. Se fija min_c = 15 °C como umbral de daño (coherente con la ficha del proyecto de A. andraeanum y con H1A) y ideal_min_c = 18 °C como mínimo de cultivo recomendado: en la práctica la app debe avisar por debajo de 18 °C y alertar por debajo de 15 °C. Máximo 30 °C (RHS género); ideal 18-29 °C (NC State, 65-85 °F, género). Sin corrientes frías, cambios bruscos ni fuentes de calor cercanas."
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada, de tipo epífita. RHS para la especie: 2 partes de sustrato ácido (ericáceo) sin turba, 1 parte de grava hortícola y 1 parte de corteza de orquídea (la guía del género cambia la grava por perlita y pide corteza mediana). UF/IFAS (género): turba, perlita y corteza 1:1:1. Maceta con agujeros de drenaje, solo un tamaño mayor que el cepellón; un poste o tablilla de apoyo puede ayudar a sujetar las hojas grandes.",
+      "ph": "Ácido a neutro (RHS para la especie); 6.0-6.5 según UF/IFAS para el género.",
+      "drenaje": "Excelente y muy aireado. Un sustrato compacto o una maceta demasiado grande mantienen la humedad y provocan pudrición de raíces (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para orquídeas o abono soluble equilibrado, diluido.",
+      "npk": "20-20-20 (equilibrado) a baja concentración en interior según UF/IFAS para el género; RHS recomienda abono de orquídeas.",
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras haya crecimiento activo (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada si la planta no crece. Si está en un interior cálido y luminoso y sigue sacando hojas, como mucho una dosis mínima mensual.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "notas": "Contradicción de frecuencia: la RHS para la especie (F1) recomienda abono de orquídeas cada 2 semanas de primavera a otoño; UF/IFAS (F4, género) una vez al mes con 20-20-20 a 50 ppm de N en interior. Se adopta la opción más conservadora, que coincide con la convención del proyecto (mensual, ¼-½ de dosis). El exceso de abono acumula sales y quema puntas y bordes (UF/IFAS)."
+    },
+    "trasplante": {
+      "frecuencia": "Puede quedarse en la maceta original 1-2 años; después, cada 2-3 años o cuando las raíces ocupen casi toda la maceta (RHS para el género). Ejemplares jóvenes de crecimiento rápido pueden necesitarlo cada año.",
+      "epoca": "Primavera.",
+      "senales": "Raíces que salen por los agujeros o por encima del sustrato, cepellón lleno de raíces, sustrato degradado y compacto (la corteza se descompone y retiene demasiada agua), agua que atraviesa la maceta sin empapar o parada del crecimiento.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F11"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda.",
+      "epoca": "Todo el año, cuando aparezcan hojas secas o inflorescencias pasadas.",
+      "como": "Cortar por la base las hojas muertas y los tallos de las inflorescencias marchitas con tijera limpia. Muchos aficionados cortan la inflorescencia al aparecer para que la planta dedique energía a las hojas [orientativo, sin fuente prioritaria]. Usar guantes: la savia irrita la piel.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero: es perenne y la RHS indica inflorescencias intermitentes todo el año. En invierno, con menos luz, el crecimiento se frena: regar con moderación, suspender el abono si no crece y mantenerla por encima de 18 °C (mínimo absoluto 15 °C).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division de mata",
+        "esquejes de tallo o de rizoma",
+        "hijuelos",
+        "semilla (necesita polinización; raro en interior)"
+      ],
+      "epoca": "Primavera o verano.",
+      "pasos": "División o hijuelos: al trasplantar, separar con las manos las secciones o hijuelos que tengan sus propias raíces y plantarlos en la mezcla aireada. Esqueje de tallo o rizoma: plantar el trozo en sustrato ácido sin turba en un propagador cerrado y calefactado a unos 21 °C hasta que broten raíces y yemas latentes (RHS, género). Trozo de tallo con hojas y raíces aéreas: ponerlo en agua en un lugar cálido y luminoso sin sol directo y plantarlo cuando enraíce (RHS, género). Semilla: sembrar en cuanto madure, a 24-27 °C (RHS, especie). Mantener alta humedad durante el enraizamiento. Usar guantes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o sustrato compacto y encharcado (RHS para la especie). Es la causa de muerte más habitual."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Tallo central blando y olor agrio como continuación de la pudrición radicular por exceso de agua (Foliage Factory, complementaria)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas amarillas con el sustrato mojado: exceso de riego, frío junto al cristal o corrientes (fuentes complementarias)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por humedad baja (NC State para el género), riego irregular o sales de abono acumuladas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por aire seco, sobre todo con calefacción (RHS para el género)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras secas y pardas por sol directo de verano o hojas apoyadas en cristales calientes (RHS para el género)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas pálidas o con zonas blanqueadas por exceso de luz; UF/IFAS advierte que en el género se confunde a menudo con carencia nutritiva."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento muy lento o parado por luz insuficiente (NC State para el género) o por frío por debajo de 18 °C."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, citada por la RHS para la especie."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo, citada por la RHS para la especie."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente (NC State para el género)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado claro en el haz por araña roja o trips (NC State cita ambos para el género)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas nuevas (NC State para el género)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State para el género)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato aireado se seca deprisa: comprobar dedo y peso cada 2-3 días y regar a fondo cuando estén secos los 2-3 cm superiores, sin dejar agua en el plato. Apartarla del sol directo de ventanas sur y oeste (1,5-2 m del cristal o detrás de cortina fina): las hojas aterciopeladas se queman en pocas horas. Si dentro de casa se superan los 30 °C, llevarla a la habitación más fresca y luminosa sin sol, sin ponerla bajo el chorro del aire acondicionado (que además reseca el aire). Humedad: el aire de Madrid en verano queda muy por debajo del mínimo del 60 %; usar humidificador, agrupar plantas o una vitrina de cultivo. Vigilar araña roja y trips.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, la mitad de lo que necesita: humidificador imprescindible o vitrina/armario de cultivo; alejarla de radiadores y salidas de aire caliente (bordes y puntas marrones, hojas nuevas que se atascan al abrir). Mantenerla por encima de 18 °C y nunca por debajo de 15 °C, lejos de cristales fríos y corrientes de puertas y ventanas por la noche. Regar con agua a temperatura ambiente, con moderación, siempre comprobando sustrato y peso. Sin abono si no crece. Puede acercarse a la ventana más luminosa (este, sur u oeste con cortina) porque el sol de invierno es suave, sin que las hojas toquen el cristal.",
+    "ubicacion_recomendada": "Interior todo el año, cerca de una ventana este o a 1,5-2 m de una ventana sur u oeste con cortina fina, en la estancia más húmeda y de temperatura más estable (un baño luminoso, o mejor una vitrina o armario de cultivo con humidificador). Fuera del alcance de niños y mascotas. No sacarla al exterior en Madrid."
+  },
+  "lagunas": [
+    "Hay muy poca información de extensión agraria específica de A. crystallinum: la única fuente prioritaria con ficha de cultivo de la especie es la RHS (F1). NC State (F3) solo la cita dentro de la ficha del género Anthurium, y UF/IFAS (F4) trata A. andraeanum en producción comercial. Por eso todos los bloques de cuidados y la toxicidad quedan en confianza Media.",
+    "No hay cifras de humedad relativa en fuentes prioritarias para la especie: min_pct e ideal_pct salen de dos fuentes complementarias coherentes (Epic Gardening, Foliage Factory).",
+    "No hay valores de lux para la especie en fuentes prioritarias: lux_min y lux_max son orientativos (escala del proyecto y dato de UF/IFAS para el género).",
+    "Nomenclatura: POWO (F6) acepta Anthurium crystallinum Linden & André (1873), urn:lsid:ipni.org:names:84713-1, nativa de Colombia y Panamá. No se pudo abrir la pestaña de sinónimos de POWO (bloqueo anti-bot); GBIF (F13), que sigue el catálogo de Kew, da como sinónimos A. crystallinum f. peltifolium Engl. y A. killipianum L.Uribe. Sin cambio de nombre.",
+    "La RHS cita 'leaf spot' (manchas foliares) para la especie sin describir aspecto ni agente causal; no se asigna síntoma hasta tener una fuente de fitopatología.",
+    "El rasgo del pecíolo cuadrangular de A. magnificum solo se ha podido verificar en fuentes complementarias (Wikipedia, Exotic Rainforest citando notas de campo de T. B. Croat); no se pudo abrir la ficha de A. magnificum de CATE Araceae ni de la International Aroid Society.",
+    "Muchas plantas vendidas como A. crystallinum son híbridos (con A. magnificum u otras de la sección Cardiolonchium); su tamaño y tolerancias pueden diferir de la especie pura y no hay datos de cultivo específicos de los híbridos."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/25099/anthurium-crystallinum/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Anthurium crystallinum (crystal anthurium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow anthuriums (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Anthurium (género, incluye A. crystallinum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/EP159",
+      "institucion": "UF/IFAS Extension (University of Florida) — Cultural Guidelines for Commercial Production of Interiorscape Anthurium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "institucion": "ASPCA Animal Poison Control Center — Flamingo Flower (Anthurium scherzerianum, congénere)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84713-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.missouribotanicalgarden.org/Portals/0/staff/PDFs/croat/ARevisionGenusAnthuriumMexicoCentralAmericaPart%20I.pdf",
+      "institucion": "Croat, T. B. (1983). A revision of the genus Anthurium (Araceae) of Mexico and Central America. Part I. Annals of the Missouri Botanical Garden 70: 211-416 (revista revisada por pares; descripción de A. clarinervium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://web.archive.org/web/2021/http://www.aroid.org/genera/anthurium/cardiolonchium/crystallinum.php",
+      "institucion": "International Aroid Society — descripción botánica de A. crystallinum según T. B. Croat (revisión de Anthurium de Panamá), copia archivada",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://exoticrainforest.com/Anthurium%20magnificum%20%20pc.html",
+      "institucion": "Exotic Rainforest (colección privada de aráceas) — Anthurium magnificum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://en.wikipedia.org/wiki/Anthurium_crystallinum",
+      "institucion": "Wikipedia — Anthurium crystallinum y Anthurium magnificum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.epicgardening.com/anthurium-crystallinum/",
+      "institucion": "Epic Gardening — guía de cultivo de Anthurium crystallinum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://foliage-factory.com/anthurium-crystallinum",
+      "institucion": "Foliage Factory (vivero) — ficha de cultivo de Anthurium crystallinum",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://api.gbif.org/v1/species/search?q=Anthurium%20crystallinum&datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "institucion": "GBIF Backbone Taxonomy (sinónimos)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

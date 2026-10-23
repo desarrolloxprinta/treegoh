@@ -1,0 +1,353 @@
+{
+  "nombre_cientifico": "Clivia miniata",
+  "nombres_comunes": [
+    "clivia",
+    "lirio de Natal",
+    "lirio de los arbustos"
+  ],
+  "familia": "Amaryllidaceae (familia del amarilis)",
+  "origen": "Endémica del sur de África. POWO la da como nativa de las provincias del Cabo (Cabo Oriental), KwaZulu-Natal, provincias del norte (Mpumalanga) y Esuatini (Suazilandia); introducida en México. Vive en bosques subtropicales costeros y barrancos de bosque de montaña, a la sombra moteada y a menudo en grandes colonias, sobre suelo humífero bien drenado, a veces incluso en horquillas de árboles (SANBI, Wisconsin, NYBG). Popular como planta de interior en Europa desde la época victoriana.",
+  "clima_nativo": "Subtropical de lluvias de verano: crece en la estación cálida y lluviosa y soporta un invierno más fresco y seco, que es el que induce la floración. Sensible a la helada (SANBI); en exterior solo en zonas USDA 9-11 (NC State, Wisconsin).",
+  "categoria": "flor",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas basales en forma de cinta (acintadas o ensiformes), gruesas, coriáceas y brillantes, verde oscuro, de margen entero y sin pelos; de 2,5-7,5 cm de ancho y hasta 60-90 cm de largo, arqueadas (NC State). Salen opuestas en dos filas alternas desde una base de aspecto bulboso, de modo que la planta forma un abanico plano y simétrico (Wisconsin). Cada año añade unas cuatro hojas nuevas o más (NYBG).",
+    "nerviacion": "Paralela, longitudinal, típica de monocotiledónea; sin nervio central marcado ni nervios laterales visibles. Algunas selecciones asiáticas se crían por un nervado más visible en la hoja ancha (Wisconsin).",
+    "variegacion": "La especie es verde uniforme. Existen cultivares con hojas variegadas a rayas longitudinales amarillas o crema, seleccionados sobre todo en Japón, China y Corea (Wisconsin, SANBI, Iowa State).",
+    "tallo": "Sin tallo aéreo visible (acaule, NC State). Base carnosa en forma de rizoma grueso, no es un bulbo verdadero (NYBG), con raíces gruesas, carnosas y esponjosas que almacenan agua (Wisconsin, UF/IFAS) y que a menudo empujan la planta fuera de la maceta. El escapo floral es macizo, grueso y carnoso, y sale del centro del abanico.",
+    "habito": "Herbácea perenne de hoja persistente, en mata que con los años forma varios abanicos (hijuelos). Inflorescencia en umbela de 12-20 flores en embudo, erguidas o ligeramente abiertas hacia arriba, de 5-7,5 cm, naranja escarlata con garganta amarilla; hay formas amarillas (var. citrina), melocotón, rojas y casi blancas (NC State, Wisconsin). Florece de finales de invierno a primavera en el hemisferio norte; cada flor dura unos días pero la umbela abre en sucesión durante varias semanas. Si se poliniza da bayas del tamaño de una cereza, verdes y luego rojas, que tardan casi un año en madurar.",
+    "tamano_adulto_interior": "45-60 cm de alto y 30-90 cm de ancho en maceta (RHS: unos 45 × 30 cm; NC State: 45-60 × 60-90 cm; Wisconsin: plantas maduras hasta 60-90 cm de alto). Crecimiento lento.",
+    "confusiones": [
+      {
+        "especie": "Clivia nobilis, Clivia gardenii y Clivia caulescens (otras clivias)",
+        "rasgo_diferenciador": "Flores tubulares estrechas y colgantes (péndulas), con puntas verdosas; C. miniata tiene flores en embudo, anchas y erguidas, en umbela abierta (Wisconsin)."
+      },
+      {
+        "especie": "Clivia × cyrtanthiflora (híbrido C. miniata × C. nobilis)",
+        "rasgo_diferenciador": "Flores intermedias, algo colgantes y más estrechas que las de C. miniata; sin flor es prácticamente indistinguible."
+      },
+      {
+        "especie": "Hippeastrum (amarilis)",
+        "rasgo_diferenciador": "Tiene un bulbo verdadero grande, visible en la superficie, hojas menos rígidas y más mates, y un escapo hueco con solo 2-6 flores mucho más grandes. La clivia tiene escapo macizo con 12-20 flores pequeñas y hojas en abanico persistentes (Iowa State, Wisconsin)."
+      },
+      {
+        "especie": "Agapanthus (agapanto)",
+        "rasgo_diferenciador": "Hojas más estrechas, blandas y de verde más claro, que salen en roseta, y flores azules o blancas en umbela sobre un escapo largo y fino; es planta de exterior a pleno sol."
+      },
+      {
+        "especie": "Dracaena trifasciata (sansevieria)",
+        "rasgo_diferenciador": "Hojas erectas, rígidas y carnosas, normalmente con bandas transversales grises; la clivia tiene hojas arqueadas, lisas y verde oscuro uniforme, dispuestas en abanico plano."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Licorina y otros alcaloides de las amarilidáceas (ASPCA, NC State, Wisconsin). El rizoma/base bulbosa es la parte más venenosa (ASPCA); toda la planta es tóxica: flores, frutos, hojas, raíces, semillas y tallos (NC State).",
+    "sintomas": "Perros, gatos (y caballos): vómitos, salivación y diarrea; con ingestiones grandes, convulsiones, bajada de tensión, temblores y arritmias cardiacas (ASPCA). En personas, NC State le asigna gravedad baja con los mismos síntomas; Wisconsin indica que hay que ingerir mucha cantidad para que aparezcan. La savia puede irritar la piel: usar guantes al trasplantar, dividir o cortar el escapo, y lavarse las manos tras limpiar semillas (RHS, NYBG, SANBI). Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F6",
+      "F5",
+      "F8",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de primera hora) o norte luminosa; oeste o sur solo con cortina o retirada 1-2 m del cristal, sin sol directo a mediodía y por la tarde (Iowa State, Wisconsin, NYBG, NC State).",
+      "tolera_sol_directo": "No. Solo algo de sol de primera hora de la mañana. El sol directo, sobre todo de mediodía y tarde o a través del cristal, produce manchas blanqueadas y pardas en las hojas (NYBG, RHS, UF/IFAS, SANBI).",
+      "notas": "Luz brillante indirecta a media (100-1000 fc ≈ 1076-10760 lux en la escala del proyecto). Tolera poca luz como planta de follaje, pero con luz baja rara vez florece (Wisconsin, NYBG); la falta de luz es, junto con la falta de reposo fresco, la causa más habitual de que no florezca. Prueba de NYBG: si la mano proyecta sombra nítida sobre las hojas, hay demasiada luz; hojas muy verde oscuro indican que falta luz. La cifra exacta de lux no la da ninguna fuente: el rango es la traducción de 'bright indirect/filtered light' a la escala del proyecto. Limpiar el polvo de las hojas con un paño húmedo cada pocos meses (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F8",
+        "F11"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas grandes) y la maceta pese claramente menos; Iowa State indica 2,5-5 cm secos. Regar a fondo hasta que salga por el drenaje y vaciar el plato a los 15 minutos. Nunca por calendario. Las raíces carnosas almacenan agua: prefiere quedarse algo seca a estar encharcada (Iowa State, Wisconsin, NYBG).",
+      "primavera_verano": "Crecimiento activo: riego regular y a fondo cada vez que se seque la capa superior; el sustrato se seca ligeramente entre riegos (Maryland, Wisconsin). Aumentar poco a poco el riego al aparecer la vara floral (RHS, Wisconsin). Regar por la mañana con agua templada y sin mojar el interior del abanico de hojas, porque el agua retenida en la corona favorece la podredumbre (NYBG, NC State). Si está en exterior, protegerla de lluvias intensas y no dejar agua en el plato (NYBG).",
+      "otono_invierno": "Reducir el riego progresivamente en otoño. Durante el reposo fresco (6-8 semanas) mantenerla casi seca: regar solo un poco cuando las hojas empiecen a perder firmeza (Iowa State, NYBG, Wisconsin). Opción conservadora adoptada: no dejar que el cepellón se seque del todo durante semanas (RHS); regar ligeramente cuando el sustrato esté seco en profundidad y la maceta pese poco. Tras el reposo, aumentar el riego poco a poco al volver al calor.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo a temperatura ambiente (templada, NYBG). El agua de Madrid es blanda, con fluoruro <0,1 mg/L y cloramina: sirve tal cual; dejarla reposar no elimina la cloramina pero no es necesario. Los riegos a fondo lavan las sales del abono acumuladas (NYBG).",
+      "notas": "Contradicción menor: Maryland pide que el sustrato se seque por completo en el reposo e Iowa State regar solo cuando las hojas se ablanden, mientras que la RHS aconseja regar poco pero sin dejar que se seque del todo. Se adopta la postura intermedia y más segura: casi seco, con riegos ligeros de mantenimiento. El exceso de riego causa amarilleo, podredumbre de raíces y muerte (Iowa State, Wisconsin, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F8",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Tolera la humedad relativamente baja de los pisos con calefacción en invierno (Iowa State); una humedad muy baja puede contribuir a las puntas marrones (NYBG). Ninguna fuente prioritaria da cifras. Por debajo del 30 % conviene agrupar plantas o usar humidificador; pulverizar no sube la humedad de forma útil (la RHS lo sugiere solo para hijuelos recién separados).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 5,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "En crecimiento y floración: temperatura normal de casa, 18-24 °C (65-75 °F, NYBG). Puede salir al exterior a la sombra cuando el día está en 21-27 °C (NYBG). Mínimo adoptado 5 °C: la RHS indica que suele aguantar hasta 5 °C y que hay que meterla antes de que las noches bajen más; Maryland da un reposo a 4-10 °C, Wisconsin y NYBG aceptan hasta unos 2 °C (36 °F, 'por encima de 35 °F'), sin helar. Se toma el mínimo más alto de las fuentes prioritarias (RHS). Reposo para florecer: 5-10 °C durante 6-8 semanas (ver bloque 'reposo'). Máxima: ninguna fuente prioritaria da una temperatura máxima tolerada; laguna. Evitar cambios bruscos junto a radiadores, salidas de aire acondicionado o calefacción y corrientes frías (NYBG, RHS). Helada: la daña y el daño tarda mucho en crecer (SANBI).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F8",
+        "F4",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla rica en materia orgánica, aireada y de drenaje rápido. NYBG: sustrato con abundante turba o sustituto, corteza de pino molida y arena gruesa o perlita (algunos cultivadores usan corteza de orquídea media o gruesa). RHS: John Innes nº 2 sin turba + sustrato universal sin turba + grava + mantillo de hojas. Wisconsin e Iowa State: sustrato sin suelo, bien drenado y muy orgánico. UF/IFAS: sustrato grueso y bien drenado; las mezclas de orquídea son ideales porque sus raíces semiepífitas necesitan aire. Maceta con agujero de drenaje; NYBG recomienda barro resistente para que no vuelque.",
+      "ph": "Ligeramente ácido (NYBG: 'mildly acidic'). Ninguna fuente prioritaria da un rango numérico.",
+      "drenaje": "Imprescindible y rápido: sus raíces carnosas se pudren en sustrato empapado, sobre todo en invierno (RHS, Wisconsin, UF/IFAS). Nunca dejar agua en el plato.",
+      "notas": "Diferencia de enfoque: UF/IFAS (Florida, plantación en el suelo) prefiere mezclas de orquídea muy gruesas y la RHS incluye tierra franca (John Innes). Se recomienda la opción conservadora para el riego: mezcla orgánica pero muy aireada, con corteza y perlita o grava abundantes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F8",
+        "F5",
+        "F1",
+        "F11"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, soluble en agua.",
+      "npk": null,
+      "primavera_verano": "¼-½ de la dosis de etiqueta una vez al mes, solo con crecimiento activo, desde que aparece la vara floral o se reanuda el crecimiento en primavera hasta finales de verano (Iowa State y Wisconsin: mensual a media dosis).",
+      "otono_invierno": "Nada. Suspender a finales de verano o principios de otoño y no abonar durante el reposo (Iowa State, Wisconsin, Maryland).",
+      "notas": "Las fuentes no coinciden en la frecuencia: Iowa State y Wisconsin, mensual a media dosis; Maryland y NYBG, cada dos semanas (Maryland a media dosis); la RHS, semanal en primavera. Se adopta la convención del proyecto (la más conservadora). El exceso de abono da mucha hoja a costa de las flores (Iowa State) y puede quemar las puntas (NYBG). La RHS aconseja además renovar la capa superior del sustrato cada año a principios de primavera. Ninguna fuente prioritaria da NPK para maceta (SANBI cita 3:1:5 o 2:3:2 granulado para macizos en jardín).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F4",
+        "F2",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 3-5 años (NYBG, RHS, Maryland; Iowa State: 4-5 años; NC State: hasta 5 años en la misma maceta). Florece mejor con las raíces apretadas, así que no se trasplanta cada año.",
+      "epoca": "Principios de primavera, al reanudar el crecimiento, o justo después de la floración (NYBG, RHS, Maryland). Wisconsin indica que se puede dividir en cualquier época.",
+      "senales": "Raíces muy apretadas que salen por los agujeros de drenaje o empujan la planta fuera de la maceta, sustrato degradado o que no drena (NYBG, RHS, Wisconsin). Subir solo un tamaño de maceta, 2-5 cm más de diámetro: una maceta demasiado grande frena la floración (RHS, NYBG). Plantar a la misma profundidad, con el cuello de las hojas por encima del sustrato, sin romper las raíces carnosas, y usar guantes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F8",
+        "F4",
+        "F1",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "Mínima: solo quitar la vara floral pasada y las hojas viejas secas.",
+      "epoca": "Tras la floración (vara) y cuando aparezcan hojas viejas amarillas o secas.",
+      "como": "Cuando se marchiten todas las flores de la umbela, cortar la vara entera por la base (salvo que se quieran semillas), con guantes. Las hojas inferiores viejas amarillean de forma natural: retirarlas cuando estén secas (Maryland). Hojas con quemaduras de sol: no cortarlas si siguen mayoritariamente verdes, porque las necesita para acumular energía para la floración; quitar solo las casi totalmente pardas con herramienta desinfectada (NYBG, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F8",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: otoño-invierno, 6-8 semanas en algún momento entre octubre y enero (NYBG); la RHS lo sitúa de noviembre a febrero. Hemisferio sur: desplazar 6 meses (abril-julio).",
+      "cambios": "Para florecer necesita un reposo fresco y seco: 6-8 semanas en un lugar luminoso (sin sol directo) y fresco, a unos 5-10 °C (Iowa State: unos 10 °C; RHS: unos 10 °C; Maryland: 4-10 °C; NYBG: por debajo de 10 °C y por encima de 2 °C; Wisconsin: al menos un mes de noches por debajo de 10 °C sin helar, seguido de 6-8 semanas con muy poca agua). Riego mínimo (ver 'riego') y sin abono. Después, devolverla poco a poco a unos 16 °C y luego a la temperatura de la casa y aumentar el riego; la floración llega unos dos meses después (un reposo en noviembre-diciembre da flor hacia marzo, NYBG). Sin reposo, o con un invierno demasiado cálido, las flores salen sobre varas cortas escondidas entre las hojas, florece tarde o no florece, y las flores duran menos (NYBG, RHS). Cuando ya tenga capullos, no moverla de sitio (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F8"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de hijuelos",
+        "semilla"
+      ],
+      "epoca": "División: tras la floración, en primavera o verano (RHS, NYBG); Wisconsin indica que se puede en cualquier época. Semilla: en cuanto madura la baya, en fresco.",
+      "pasos": "División (método principal): 1) Con guantes, sacar la planta y separar los hijuelos que tengan ya 3-4 hojas (Wisconsin, NYBG), mejor tirando con suavidad que cortando y dejando a cada uno buena parte de raíz. 2) Si hay que cortar, usar cuchillo desinfectado y dejar secar las heridas unos días antes de volver a regar (NYBG). 3) Plantar cada uno en una maceta justa para sus raíces, con sustrato bien drenado. 4) Mantener a unos 16-21 °C con luz brillante indirecta y riego ligero mientras enraíza (RHS, NYBG). Florecen en un par de años (RHS). Semilla: 1) Solo hay semilla viable si se polinizan las flores a mano con un pincel. 2) Las bayas tardan casi un año en madurar; quitar la pulpa y la membrana y sembrar enseguida, sin dejar secar, presionando la semilla sobre el sustrato de semillero. 3) Mantener húmedo (no empapado) a unos 21 °C (RHS; Wisconsin indica 27-29 °C) con luz indirecta; germina en 4-8 semanas. 4) Florece a los 3-5 años y el color puede no ser igual al de la madre (RHS, Wisconsin, SANBI).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F8",
+        "F2",
+        "F5",
+        "F1",
+        "F10"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal: las hojas inferiores viejas amarillean y se secan con la edad; retirarlas cuando estén secas (Maryland). Si es generalizado, puede ser falta de abono en primavera-verano (RHS)."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Amarilleo de hojas jóvenes: síntoma más grave que suele indicar exceso de riego (Maryland)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Exceso de riego y encharcamiento, sobre todo en invierno; o falta de nutrientes en temporada de crecimiento (RHS, Iowa State)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Falta de agua en crecimiento, raíces que han llenado la maceta y apenas dejan sustrato, exceso de abono, calor durante el reposo invernal, cercanía a radiadores o salidas de aire, o humedad muy baja (NYBG, RHS). En Madrid no se debe al flúor ni al cloro del agua del grifo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de mediodía o tarde, o a través del cristal o de gotas de agua sobre las hojas: manchas blanqueadas y pardas (NYBG, RHS). Muy frecuente en ventanas sur y oeste en Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras de sol que pasan a manchas pardas secas y bordes crujientes; no se curan, pero no dañan a la planta (NYBG, RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga principal: se esconde entre las bases de las hojas del abanico y a menudo no se ve hasta que la infestación es grave (Iowa State, Wisconsin, RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo en hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Ácaros (NC State los cita); más probables con aire seco y calor."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre de corona por exceso de riego o agua retenida dentro del abanico de hojas (NC State, NYBG)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego y sustrato encharcado, especialmente en invierno; sacar la planta, cortar raíces podridas y cambiar el sustrato (Iowa State, Wisconsin, RHS)."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya favorecida por el riego por encima de las hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Durante el reposo seco es normal y sirve de señal para dar un riego ligero (Iowa State, NYBG). En temporada de crecimiento indica falta de agua o raíces podridas: comprobar el sustrato."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, no ponerla nunca en ventana sur u oeste sin cortina: se quema enseguida. Dentro, ventana este o norte, o a 1-2 m de una ventana soleada con visillo. Las fuentes respaldan que pase el verano fuera a la sombra (NYBG, Iowa State, Wisconsin, RHS): en Madrid, terraza o balcón a sombra todo el día (nada de sol de mediodía ni de tarde), resguardada del viento seco, aclimatándola poco a poco durante una semana (NYBG) y protegida de las tormentas fuertes. Ninguna fuente fija la máxima que tolera: en olas de calor de 38-40 °C, si la terraza no está en sombra fresca, meterla dentro [orientativo, sin fuente prioritaria]. Con el calor seco el sustrato se seca antes: comprobar dedo y peso con más frecuencia, pero sin dejar agua en el plato. Abono mensual a ¼-½ dosis hasta finales de agosto.",
+    "invierno": "El invierno de Madrid ayuda a hacer el reposo que necesita para florecer: de noviembre a enero, 6-8 semanas en un sitio luminoso sin sol directo a 5-10 °C, como una habitación sin calefacción, una terraza acristalada, un rellano o descansillo fresco, o la propia terraza en otoño mientras las noches no bajen de 5 °C (RHS); meterla antes de las primeras heladas. Riego mínimo y nada de abono. En un piso con calefacción a 20-22 °C todo el invierno no hace reposo y las flores salen cortas entre las hojas o no salen. Junto a cristales muy fríos, separar la maceta del vidrio para que no se hiele. Lejos de radiadores y salidas de aire caliente. Tolera la humedad interior baja (<30 %), aunque con aire muy seco pueden secarse las puntas: agrupar plantas o usar humidificador, no pulverizar.",
+    "ubicacion_recomendada": "Interior junto a una ventana este o norte luminosa (o sur/oeste con visillo y retirada del cristal); verano en terraza a la sombra; reposo invernal en una estancia fresca y luminosa sin calefacción a 5-10 °C."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Clivia miniata (Lindl.) Verschaff. Sinónimos homotípicos: Imantophyllum miniatum (Lindl.) Hook., Imatophyllum miniatum (Lindl.) Groenland, Vallota miniata Lindl.; heterotípicos, entre otros, Clivia miniata var. citrina W.Watson, C. miniata var. flava E.Phillips y Clivia sulphurea Laing. No hay cambio de nombre.",
+    "Temperatura máxima tolerada: ninguna fuente prioritaria la da; falta dato para las olas de calor de 35-40 °C en Madrid con la planta en terraza a la sombra.",
+    "Humedad: ninguna fuente prioritaria da cifras de humedad mínima o ideal.",
+    "pH del sustrato: solo 'ligeramente ácido' (NYBG), sin rango numérico.",
+    "NPK para maceta: ninguna fuente prioritaria lo da; SANBI cita 3:1:5 o 2:3:2 solo para macizos en el jardín.",
+    "Lux exactos: ninguna fuente da cifras; el rango es la traducción de 'luz brillante indirecta/filtrada' a la escala del proyecto.",
+    "Frecuencia de abonado y riego durante el reposo: las fuentes prioritarias no coinciden (ver notas de los bloques 'fertilizacion' y 'riego')."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-clivia-indoors",
+      "institucion": "Iowa State University Extension and Outreach (Yard and Garden)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://libguides.nybg.org/Clivia",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service – Clivia Houseplant guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://libanswers.nybg.org/faq/443858",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service – FAQ temperatura estacional de clivia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://marylandgrows.umd.edu/tag/kaffir-lily/",
+      "institucion": "University of Maryland Extension, Home and Garden Information Center (Maryland Grows)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/clivia/",
+      "institucion": "University of Wisconsin–Madison Extension, Horticulture (S. Mahr)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/clivia-miniata/",
+      "institucion": "NC State Extension, Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kaffir-lily",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.rhs.org.uk/plants/clivia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow clivias",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:994513-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://pza.sanbi.org/clivia-miniata",
+      "institucion": "SANBI (South African National Biodiversity Institute), PlantZAfrica – Witwatersrand National Botanical Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/clivia/",
+      "institucion": "University of Florida IFAS Extension – Gardening Solutions",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

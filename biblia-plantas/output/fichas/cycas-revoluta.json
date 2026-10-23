@@ -1,0 +1,210 @@
+{
+  "nombre_cientifico": "Cycas revoluta",
+  "nombres_comunes": ["cica", "palma de sagú", "falsa palmera", "cícada", "sagú del Japón"],
+  "familia": "Cycadaceae. Es una gimnosperma (produce conos, no flores) y no es una palmera: no pertenece a Arecaceae (NC State, UF/IFAS FOR254).",
+  "origen": "POWO (Kew) la acepta como Cycas revoluta Thunb., nativa de China Sudeste, Japón, Nansei-shoto (islas Ryukyu) y Taiwán; introducida en Alabama, Azores y Bangladés. NC State concreta: de Kyushu (Japón) a las islas Nansei-Shoto. UF/IFAS la sitúa en las islas tropicales del sur de Japón.",
+  "clima_nativo": "Subtropical oceánico de islas del sur de Japón y costas del sureste de China y Taiwán. Crece en matorrales de laderas (NC State). Soporta fríos breves si la planta y el suelo están secos, pero no heladas fuertes ni prolongadas (UF/IFAS ENH1344, NC State).",
+  "categoria": "otra",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas pinnadas (compuestas como una pluma) dispuestas en roseta apretada en la punta del tronco. Son de color verde oscuro, brillantes, rígidas y coriáceas, con aspecto casi artificial (UF/IFAS Baker). En ejemplares de jardín miden 1,2-1,5 m de largo y hasta 23 cm de ancho (UF/IFAS); en maceta de interior son mucho más cortas. Cada hoja lleva muchos folíolos estrechos y lineares, como agujas, de 7-15 cm de largo, que terminan en una punta espinosa y pinchan. El margen de cada folíolo está enrollado hacia abajo (revoluto): de ahí el nombre 'revoluta' (NC State, UF/IFAS FOR254). En la parte baja del peciolo los folíolos se reducen a espinas cortas (NC State). Las hojas nuevas brotan todas juntas en una corona o 'flush', enrolladas como un báculo y de un verde más claro.",
+    "nerviacion": "Cada folíolo tiene un único nervio central marcado y no muestra nervios laterales visibles. Es un rasgo del género Cycas, pero no está verificado en las fuentes abiertas (véase lagunas).",
+    "variegacion": "La especie es de hoja verde uniforme. No se han documentado formas variegadas en las fuentes consultadas. Los folíolos amarillos o con manchas indican un problema (cochinilla, carencia de manganeso o frío) y no son variegación.",
+    "tallo": "Tronco grueso, corto, pardo oscuro a cobrizo, de aspecto rugoso y 'peludo' por las bases de las hojas viejas que quedan pegadas. Solo tiene hojas en la corona (NC State, UF/IFAS FOR254). Crece muy despacio: el tronco tarda años en engordar de 2,5 a 30 cm de diámetro (NC State). Con la edad puede ramificarse o echar hijuelos en la base y en el propio tronco. Los ejemplares masculinos se ramifican más que los femeninos (UF/IFAS FOR254).",
+    "habito": "Porte de palmera enana: un tronco o cáudice corto coronado por una roseta simétrica de hojas arqueadas. Las plantas son masculinas o femeninas (dioica). Las masculinas forman en el centro un cono amarillo alargado de hasta 60 cm; las femeninas, una masa globosa amarilla y afelpada con semillas de color naranja a rojo (UF/IFAS FOR254, NC State). En interior rara vez forma conos (NC State).",
+    "tamano_adulto_interior": "En interior se queda pequeña. NC State da 0,9-3 m de alto y de ancho para la planta en general y señala que en interior es menor. Crece unos 5-7,5 cm al año como mucho (UF/IFAS Baker) y puede tardar 50 años o más en llegar a 3 m (NC State). RHS: en el Reino Unido alcanza 1-1,5 m de alto y de ancho en 20-50 años. En maceta de interior lo habitual es 0,5-1 m de envergadura.",
+    "confusiones": [
+      {
+        "especie": "Cycas taitungensis (sagú emperador)",
+        "rasgo_diferenciador": "UF/IFAS (Baker) la trata como especie distinta y muy parecida, normalmente de un solo tronco y de hojas más largas. POWO (Kew) la considera hoy sinónimo de Cycas revoluta. A efectos de cuidados y de toxicidad, se trata igual."
+      },
+      {
+        "especie": "Zamia furfuracea (palma de cartón)",
+        "rasgo_diferenciador": "Sus folíolos son anchos, ovalados, gruesos y algo aterciopelados, como de cartón, no estrechos como agujas. También es una cícada y la intoxicación es la misma (Pet Poison Helpline)."
+      },
+      {
+        "especie": "Palmeras verdaderas de hoja pinnada (p. ej. Phoenix roebelenii, Chamaedorea elegans)",
+        "rasgo_diferenciador": "Las palmeras son angiospermas: florecen en racimos y sus folíolos son blandos o plegados, sin el margen enrollado hacia abajo ni la punta espinosa y dura de la cica. La cica forma conos en el centro de la corona y su tronco es grueso y rugoso por las bases de las hojas viejas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cicasina, un azoxiglucósido que en el intestino se convierte en metilazoximetanol (MAM), hepatotóxico y neurotóxico (ASPCA, Frontiers in Veterinary Science 2020). También contiene BMAA (β-metilamino-L-alanina), un aminoácido neurotóxico, y un compuesto de alto peso molecular aún sin identificar (Frontiers 2020). TODAS las partes son tóxicas: semillas, hojas, raíces, tronco, médula y savia. Las SEMILLAS tienen la concentración más alta (NC State, Pet Poison Helpline, UF/IFAS Baker). Según Frontiers 2020, las semillas y las raíces son las partes más cargadas.",
+    "sintomas": "Perros y gatos: vómitos (a veces con sangre), diarrea, heces negras (melena), sed intensa, ictericia, hematomas, sangrado nasal, trastornos de la coagulación, gastroenteritis hemorrágica, daño hepático, insuficiencia hepática y muerte (ASPCA, NC State, Pet Poison Helpline). Signos neurológicos: debilidad, marcha inestable, temblores, ataxia y convulsiones (Pet Poison Helpline, Frontiers 2020). En perros los signos pueden aparecer en las 4 horas siguientes a comer semillas (Frontiers 2020). Es una intoxicación grave: en dos estudios retrospectivos solo sobrevivió en torno al 36 % y al 50 % de los perros (citados en Frontiers 2020). Personas y niños: vómitos, diarrea, debilidad, convulsiones e insuficiencia hepática; la ingestión de cualquier parte puede causar daño interno permanente o la muerte (NC State, UF/IFAS ENH1344). ASPCA la marca también como tóxica para caballos. Ante cualquier ingestión, acudir al veterinario o a urgencias de inmediato, aunque aún no haya síntomas. En España, Servicio de Información Toxicológica: 91 562 04 20. Contacto: RHS indica que irrita la piel y recomienda guantes; NC State dice que no causa dermatitis de contacto (véase notas de lagunas). Por prudencia, usar guantes y manga larga, también por las puntas espinosas de los folíolos.",
+    "confianza": "Alta",
+    "fuentes": ["F6", "F1", "F8", "F2", "F4", "F5", "F7"]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "En interior, junto a una ventana sur, este u oeste muy luminosa. En verano, con visillo en la ventana sur u oeste. RHS recomienda para exterior exposición sur o este, en lugar resguardado. Como planta de terraza, semisombra o sol de mañana.",
+      "tolera_sol_directo": "Sí, con aclimatación. UF/IFAS indica que crece a pleno sol o en semisombra y que al sol queda más compacta. NC State prefiere luz brillante indirecta y advierte de que el sol directo fuerte puede quemar el follaje. RHS pide luz plena pero sombra frente al sol caliente. Una planta que viene de interior se quema si se saca de golpe al sol del verano. En interior, dar 4-6 horas al día de sol filtrado (NC State).",
+      "notas": "Con poca luz las hojas nuevas salen más largas, más débiles y más separadas (UF/IFAS FOR254 y ENH1344: a la sombra las hojas son más grandes). No es planta para rincones oscuros. Los valores en lux corresponden a la franja 'brillante indirecta' de la escala del proyecto (500-1000 fc). Al aire libre y aclimatada soporta valores muy superiores (sol directo, >1000 fc). Girar la maceta un cuarto de vuelta cada pocas semanas mantiene la corona simétrica.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4", "F5", "F2"]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco a 5 cm de profundidad (comprobar con el dedo o con un palillo) y la maceta pese claramente menos. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Nunca regar por calendario. NC State indica que no tolera el exceso de riego ni el mal drenaje y que, una vez establecida, resiste la sequía. UF/IFAS la clasifica con necesidades de agua bajas.",
+      "primavera_verano": "Crecimiento activo: riego moderado (RHS). Dejar que se seque la mitad superior del sustrato entre riegos. Con el calor de Madrid una maceta en terraza puede necesitar agua cada pocos días; en interior, mucho menos. Decidir siempre por el sustrato y el peso.",
+      "otono_invierno": "Riego escaso (RHS): dejar secar casi por completo, sobre todo si la habitación está fresca o si la planta pasa el invierno en la terraza. Con frío y sustrato húmedo, el riesgo de pudrición es máximo. Nunca mojar la corona.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "El agua del grifo de Madrid sirve (es blanda y lleva cloramina, que no se elimina dejándola reposar, pero no supone un problema para esta planta). No atribuir las puntas marrones al cloro ni al flúor. El agua blanda ayuda a mantener el pH del sustrato ácido o neutro, que favorece la absorción de manganeso (véase fertilización).",
+      "notas": "La pudrición de raíz y cuello (Phytophthora) es la principal enfermedad y casi siempre se debe al exceso de riego o al mal drenaje (NC State, UC IPM). No dejar agua dentro de la corona.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F4", "F5", "F11"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS pide humedad 'moderada' cuando se cultiva bajo cristal, sin dar cifras. Ninguna fuente prioritaria da porcentajes (véase lagunas). Tolera bien el aire seco del interior. La sequedad extrema con calefacción favorece la araña roja (RHS la cita bajo cristal). Si la humedad interior baja del 30 %, un humidificador o agrupar plantas ayuda; pulverizar no sube la humedad de forma útil.",
+      "confianza": "Media",
+      "fuentes": ["F5"]
+    },
+    "temperatura": {
+      "min_c": -5,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Tolerancia al frío (dato clave para terrazas de Madrid): RHS la califica H3, resistente en zonas costeras y templadas del Reino Unido entre -5 y 1 °C. NC State dice que no sobrevive por debajo de -9,4 °C (15 °F). UF/IFAS (Baker) la da resistente hasta -12 °C (10 °F), pero con las hojas quemadas entre -7 y -1 °C (20-29 °F). UF/IFAS ENH1344 la describe resistente a la sequía pero no a la helada: aguanta fríos breves y sufre daños en las hojas con heladas. La corona es más resistente que las hojas (ENH1344). Se adopta -5 °C como mínimo seguro, el valor más conservador (RHS), porque en maceta las raíces están más expuestas que en el suelo. Las fuentes no dan temperaturas óptimas ni máxima tolerable en cifras (véase lagunas). Es planta subtropical que crece bien en verano en Florida, Georgia y Puerto Rico (UF/IFAS). En interior la temperatura habitual de una vivienda le va bien.",
+      "confianza": "Media",
+      "fuentes": ["F5", "F1", "F4", "F2"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato muy drenante. RHS: compost a base de tierra franca, sin turba, con mantillo de hojas y grava añadidos. NC State: suelo arenoso o franco, húmedo pero bien drenado. UF/IFAS: tolera muchos tipos de suelo, pero exige buen drenaje. Ejemplo práctico: sustrato universal de calidad con un 30-40 % de grava fina, pómez o perlita. Maceta con agujeros de drenaje y sin plato encharcado.",
+      "ph": "Ácido a neutro: RHS 'ácido o neutro'; NC State, ácido (<6,0) a neutro (6,0-8,0). UF/IFAS (Baker) tolera de ácido a alcalino, pero un pH alcalino limita mucho la disponibilidad de manganeso (ENH1344). Por eso se recomienda evitar sustratos alcalinos (criterio conservador: pH aproximado 5,5-7,0).",
+      "drenaje": "Imprescindible. El encharcamiento provoca pudrición de raíz y cuello (NC State, UC IPM, UF/IFAS Baker: 'necesita buen drenaje').",
+      "confianza": "Alta",
+      "fuentes": ["F5", "F1", "F4", "F2"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono para palmeras con manganeso y microelementos (las cicas comparten necesidades nutritivas con las palmeras: UF/IFAS ENH1344 y Baker), o abono líquido equilibrado para plantas verdes con microelementos.",
+      "npk": null,
+      "primavera_verano": "¼-½ de la dosis de la etiqueta, una vez al mes, solo mientras haya crecimiento activo. En macetas, lo más seguro es un abono que incluya magnesio y manganeso. UF/IFAS Baker pide vigilar las carencias de magnesio y manganeso; un abono 'especial palmeras' suele prevenirlas.",
+      "otono_invierno": "Nada. Sin abono en reposo.",
+      "notas": "Carencia de manganeso ('frizzle top'), UF/IFAS ENH1344. Empieza con manchas o rayas amarillas o marrones que parecen una enfermedad. Las hojas nuevas brotan pequeñas, deformadas y rizadas y pasan rápido de amarillo a marrón. En casos graves, toda la mitad superior de la planta queda deformada y gris o parda. Causas: falta de manganeso en el suelo o pH alcalino. También cualquier problema que dañe las raíces: pudrición, exceso o falta de agua, mal drenaje o un trasplante reciente. Qué hacer: corregir primero la causa (riego, drenaje, raíces). Puede ayudar a corto plazo un aporte al suelo de sulfato de manganeso (no confundir con sulfato de magnesio) o un abono para palmeras con manganeso; usar un producto fertilizante comercial y seguir su etiqueta. Las hojas ya manchadas no se recuperan; se pueden quitar cuando hayan salido hojas nuevas sanas. Las fuentes no dan un NPK concreto (véase lagunas).",
+      "confianza": "Media",
+      "fuentes": ["F2", "F4"]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente, porque crece muy despacio. Trasplantar solo cuando las raíces llenen la maceta o salgan por el drenaje, a una maceta solo un poco mayor. Las fuentes prioritarias no dan una frecuencia concreta (véase lagunas).",
+      "epoca": "Primavera, al inicio del crecimiento, con temperaturas suaves.",
+      "senales": "Raíces saliendo por los agujeros de drenaje, sustrato que se seca en muy poco tiempo, maceta deformada o planta que vuelca. Mantener el cuello del tronco a la misma altura y no enterrarlo. Un trasplante reciente puede dar síntomas de carencia de manganeso en las hojas nuevas mientras las raíces se recuperan (UF/IFAS ENH1344). Usar guantes: es tóxica y los folíolos pinchan.",
+      "confianza": "Baja",
+      "fuentes": ["F2", "F10"]
+    },
+    "poda": {
+      "necesita": "Muy poca. RHS: no necesita poda. NC State y UF/IFAS Baker: basta con quitar las hojas muertas o descoloridas, una vez al año.",
+      "epoca": "Hojas secas, en cualquier momento. Hojas dañadas por el frío: NO quitarlas hasta que pase todo riesgo de helada (final del invierno o primavera), porque protegen la corona y las hojas de debajo (UF/IFAS ENH1344). Hojas con cochinilla abundante: quitarlas en cuanto se vean, para reducir la plaga (ENH1344).",
+      "como": "Cortar el peciolo cerca del tronco con tijera o sierra limpia, con guantes gruesos y manga larga (folíolos espinosos y planta tóxica). Quitar solo las hojas completamente secas o muy dañadas. Las hojas verdes alimentan a la planta y en interior solo saca una corona de hojas al año o menos. Desechar los restos en bolsa cerrada, fuera del alcance de perros, gatos y niños.",
+      "confianza": "Alta",
+      "fuentes": ["F5", "F1", "F4", "F2"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno en el hemisferio norte (en Madrid, aproximadamente de noviembre a febrero). En el hemisferio sur, de mayo a agosto.",
+      "cambios": "Riego escaso (RHS: 'moderadamente en la estación de crecimiento, con moderación el resto del tiempo'), sin abono. En terraza, mantenerla seca y protegida del frío extremo. Es normal que no salgan hojas nuevas durante meses.",
+      "confianza": "Media",
+      "fuentes": ["F5"]
+    },
+    "propagacion": {
+      "metodos": ["semilla", "hijuelos (vástagos basales o del tronco)"],
+      "epoca": "Hijuelos: cortarlos en primavera o al principio del verano, con calor. Semillas: maduran en septiembre-octubre (NC State).",
+      "pasos": "NC State y RHS citan dos métodos: semilla e hijuelos. Semilla: hacen falta una planta macho y una hembra; en interior casi nunca forman conos. Las semillas son la parte MÁS TÓXICA: no manipular sin guantes y mantener fuera del alcance de perros, gatos y niños. Hijuelos (pasos basados en la experiencia de una Master Gardener de UC ANR, fuente complementaria): 1) Con guantes gruesos, cortar el hijuelo al ras del tronco con un cuchillo o sierra limpia. 2) Quitarle todas las hojas. 3) Dejar que la herida cicatrice al aire unos días o semanas, a la sombra. 4) Plantarlo en una maceta solo un poco mayor que el hijuelo, en perlita con un poco de tierra. 5) Mantenerlo a la sombra y regar solo cuando el sustrato esté seco. 6) Enraiza muy despacio: en el ejemplo de UC ANR tardó unos 9-10 meses (de julio a abril) y enraizaron 7 de 8 hijuelos. Los hijuelos pequeños tuvieron más éxito. 7) Cuando tenga raíces, pasarlo a una mezcla con más tierra y seguir a semisombra hasta que saque hojas.",
+      "confianza": "Media",
+      "fuentes": ["F1", "F5", "F10"]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego, sustrato que no drena o plato encharcado, sobre todo en invierno o con frío. Es la principal enfermedad de la especie (NC State; UC IPM cita Phytophthora)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de cuello y corona (Phytophthora, según UC IPM) por agua que se queda en la corona o por un tronco enterrado demasiado hondo en un sustrato húmedo."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con caparazón. La más dañina en cicas es la cochinilla de las cícadas (Aulacaspis yasumatsui): forma escudos blancos en forma de pera y acaba en una costra blanca que cubre el envés, los peciolos e incluso las raíces. Las hojas salen con manchas cloróticas, amarillean, se secan y pasan a marrón; puede matar la planta. También atacan otras cochinillas, como la hemisférica Saissetia coffeae, de color pardo (UF/IFAS ENH1344, NC State). Qué hacer: lavar la planta con un chorro fuerte de agua, quitar las hojas muy infestadas y desecharlas en bolsa cerrada. Si hace falta, usar un insecticida listo para usar con uso no profesional inscrito en el Registro del MAPA y autorizado contra cochinillas en ornamentales de interior; mojar bien el envés y seguir la etiqueta. Aislar la planta y revisarla con frecuencia: la cochinilla de las cícadas reinfesta desde las raíces."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, sobre todo la de cola larga (Pseudococcus longispinus). Se agrupa en las hojas nuevas, las decolora y deforma, y es más frecuente en sitios frescos y en sombra (UF/IFAS ENH1344, NC State). Se multiplica rápido: actuar enseguida con un producto registrado en el MAPA para uso doméstico en plantas de interior."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza segregada por la cochinilla algodonosa (y por las cochinillas blandas). Atrae hormigas (UF/IFAS ENH1344)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla o fumagina que crece sobre la melaza de la cochinilla algodonosa. La cochinilla de las cícadas no produce negrilla (UF/IFAS ENH1344). Desaparece al eliminar la plaga y limpiar las hojas."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Carencia de manganeso ('frizzle top'): las hojas nuevas salen pequeñas, deformadas y rizadas y pasan rápido de amarillo a marrón. Causas: pH alto, falta de manganeso, o raíces dañadas por exceso o falta de agua, mal drenaje o trasplante reciente (UF/IFAS ENH1344). También puede deberse a cochinilla en los brotes nuevos (ENH1344)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Daño por frío o helada: tramos de folíolos pardos de manera uniforme, sobre todo en las hojas de arriba (UF/IFAS ENH1344). Es típico en terrazas de Madrid tras una helada fuerte. No cortar esas hojas hasta que pase el riesgo de helada; la planta suele sacar una corona nueva sana. También pueden ser quemaduras de sol si una planta de interior se saca de golpe al sol del verano (NC State)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Primeras fases de la carencia de manganeso: manchas o rayas amarillas o marrones en los folíolos que parecen una enfermedad (UF/IFAS ENH1344). UF/IFAS Baker pide vigilar también la carencia de magnesio. Las fuentes no describen un patrón internervial típico en cicas, porque los folíolos solo tienen un nervio (véase lagunas)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus) con aire seco y cálido: con calefacción en invierno o en verano junto a una ventana caliente. RHS la cita bajo cristal y NC State entre las plagas."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Telarañas finas de araña roja en infestaciones avanzadas, en el envés de los folíolos y en la corona (RHS, NC State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz en interior: las hojas nuevas salen largas, blandas, más separadas y arqueadas. A la sombra las hojas son más grandes (UF/IFAS FOR254 y ENH1344). Hay que llevarla a la ventana más luminosa."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Normal en esta especie: crece muy despacio y en interior puede pasar uno o más años sin sacar hojas nuevas (NC State: en interior se queda más pequeña; UF/IFAS Baker: 5-7,5 cm al año como máximo). Solo preocupa si va acompañado de amarilleo, tronco blando o plaga. Con poca luz se para aún más."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco, la planta aguanta bien el calor si tiene agua suficiente. Detrás del cristal de una ventana sur u oeste, poner visillo en las horas centrales para evitar quemaduras (NC State: el sol directo fuerte puede quemar el follaje; RHS: sombra frente al sol caliente). Si pasa el verano en la terraza, aclimatarla poco a poco a lo largo de 2-3 semanas, empezando por sol de mañana y sombra por la tarde. Las macetas oscuras al sol recalientan las raíces: mejor maceta clara o protegida del sol. En terraza el sustrato se seca rápido: comprobar con el dedo a 5 cm y por el peso, y regar a fondo cuando esté seco; no dejar agua en el plato. El calor seco favorece la araña roja y la cochinilla: revisar el envés y la base de los folíolos cada 1-2 semanas.",
+    "invierno": "En interior con calefacción y humedad por debajo del 30 % sobrevive bien, pero vigilar la araña roja. Alejarla de radiadores y salidas de aire caliente, y mantenerla junto a la ventana más luminosa. Regar muy poco. En la terraza, en Madrid puede vivir todo el año: RHS la califica H3 (-5 a 1 °C) y UF/IFAS y NC State dan resistencias de -9 a -12 °C para plantas en el suelo, con daño en las hojas desde unos -1 a -7 °C. En maceta, ser conservador: con pronóstico de mínimas por debajo de -5 °C (o heladas de varios días seguidos), meterla en casa, en un garaje o en un sitio resguardado, o cubrir la corona y la maceta con manta térmica. Mantener el sustrato casi seco en invierno: el frío combinado con humedad es lo que más daño hace. Es normal que alguna helada queme las hojas de arriba; no cortarlas hasta la primavera (UF/IFAS ENH1344). En interior, no dejar los folíolos pegados al cristal frío.",
+    "ubicacion_recomendada": "Interior: junto a una ventana sur, este u oeste muy luminosa, con visillo en verano en sur y oeste, y lejos de radiadores. Terraza o balcón: sitio resguardado del viento, con sol de mañana o semisombra, en maceta con muy buen drenaje, y protección o resguardo en las noches de helada fuerte. Por su toxicidad (las semillas sobre todo) y sus folíolos espinosos, colocarla donde perros, gatos y niños no puedan morderla ni rozarse con ella, y retirar las hojas caídas y cualquier cono o semilla."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Cycas revoluta Thunb. y trata como sinónimos heterotípicos, entre otros, Cycas inermis, Cycas miquelii, Epicycas miquelii, Cycas aurea y Cycas taitungensis. UF/IFAS (Baker County, 2013) trata C. taitungensis como especie distinta. No afecta a los cuidados ni a la toxicidad.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimos ni ideales; RHS solo dice 'humedad moderada'.",
+    "Temperatura: ninguna fuente prioritaria da rangos óptimos de cultivo ni temperatura máxima tolerable en cifras. Las tolerancias al frío varían entre fuentes (RHS H3 -5 °C; NC State -9,4 °C; UF/IFAS Baker -12 °C con daño foliar desde unos -7 °C) y no distinguen entre planta en el suelo y en maceta.",
+    "Fertilización: las fuentes no dan un NPK concreto ni dosis de sulfato de manganeso para maceta de interior.",
+    "Trasplante: ninguna fuente prioritaria da una frecuencia; los criterios se basan en señales de la planta.",
+    "Propagación por hijuelos: los pasos detallados provienen solo de una fuente complementaria (blog de Master Gardener de UC ANR); faltan protocolos de extensión verificados con tiempos de secado de la herida.",
+    "Nerviación: que el folíolo tenga un único nervio central sin nervios laterales es un rasgo conocido del género Cycas, pero no se ha verificado en las fuentes abiertas.",
+    "Carencia de magnesio: UF/IFAS Baker pide vigilarla, pero ninguna fuente abierta describe sus síntomas en Cycas revoluta.",
+    "Dermatitis por contacto: RHS dice que irrita la piel y recomienda guantes; NC State indica que no causa dermatitis de contacto. Se adopta la opción conservadora (guantes).",
+    "Cochinilla de las cícadas (Aulacaspis yasumatsui): no se ha comprobado su presencia ni su estatus regulatorio en España o la UE (EPPO); la información de manejo procede de Florida."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/cycas-revoluta/", "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://journals.flvc.org/edis/article/download/127497/131443", "institucion": "UF/IFAS Extension (EDIS ENH1344 / EP608, Key Plant, Key Pests: Sago Palm (Cycas revoluta), 2021)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://journals.flvc.org/edis/article/download/118581/116512", "institucion": "UF/IFAS Extension (EDIS FOR254 / FR316, Cycas revoluta, Sago Palm, 2010)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://sfyl.ifas.ufl.edu/media/sfylifasufledu/baker/docs/pdf/horticulture/demonstration-gardens/King-and-Emperor-Sago-Palms.pdf", "institucion": "UF/IFAS Extension Baker County (King Sago Palm and Emperor Sago Palm, 2013)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://www.rhs.org.uk/plants/5127/cycas-revoluta/details", "institucion": "Royal Horticultural Society (RHS)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm", "institucion": "ASPCA Animal Poison Control Center", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://www.petpoisonhelpline.com/poison/sago-palm/", "institucion": "Pet Poison Helpline", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://www.frontiersin.org/articles/10.3389/fvets.2020.00468/full", "institucion": "Frontiers in Veterinary Science (revista revisada por pares): Maeso et al. 2020, Presumptive Cycad Toxicosis in a Dog", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:328823-2", "institucion": "Royal Botanic Gardens, Kew, Plants of the World Online (POWO)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F10", "url": "https://ucanr.edu/blog/under-solano-sun/article/sago-saga", "institucion": "UC ANR, blog Under the Solano Sun (Master Gardener Karen Metz, 2025)", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F11", "url": "https://ipm.ucanr.edu/PMG/GARDEN/PLANTS/sagopalm.html", "institucion": "UC IPM, University of California Agriculture and Natural Resources", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

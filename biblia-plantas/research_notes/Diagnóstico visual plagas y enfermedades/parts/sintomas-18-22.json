@@ -1,0 +1,550 @@
+[
+  {
+    "id": "S18",
+    "nombre": "Hojas nuevas anormalmente pequeñas, arrugadas, enrolladas, engrosadas o rasgadas",
+    "como_se_ve": "Dos patrones que el modelo debe separar: (A) pequeñas pero de forma normal: hojas recientes claramente menores que las antiguas, a menudo pálidas y en tallos finos (G23, G34, G36); (B) deformadas: hojas nuevas retorcidas, arrugadas, con márgenes curvados hacia abajo, engrosadas y quebradizas (ácaros tarsonémidos) (G10); enrolladas o abarquilladas (pulgón) (G06, G11); con estrías plateadas y puntos negros brillantes (trips) (G10); con bordes rizados por riego irregular o cambios de temperatura (G15); o con amarilleo intervenal en hojas nuevas (micronutrientes o pH) (G10). NC State: con exceso de luz la planta produce hojas más pequeñas para reducir la pérdida de agua (G36).",
+    "donde_mirar": "Comparar las 2–3 hojas más jóvenes con las maduras (tamaño, color, forma); ápice de crecimiento con zoom (los ácaros tarsonémidos no se ven a simple vista, pero sí su daño); envés y axilas (pulgón, trips, huevos); sustrato y maceta (raíces por los orificios); orientación de la ventana; proximidad a radiador.",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Luz insuficiente (hojas pequeñas, pálidas, tallos finos)",
+        "tipo": "luz",
+        "probabilidad": "alta",
+        "como_diferenciar": "Hojas pequeñas y tallos largos y finos que buscan la luz (G34); crecimiento nuevo pálido y espigado por luz insuficiente (G36); hojas verde claro a amarillo (G10); variegadas más verdes (G14, G16).",
+        "preguntas_confirmacion": [
+          "¿A qué distancia está de la ventana y con qué orientación?",
+          "¿Ha empezado en otoño o invierno?",
+          "¿Los tallos nuevos se estiran hacia la ventana?"
+        ],
+        "tratamiento": [
+          "1. Ver S16: acercar gradualmente a una ventana más luminosa, rotar semanalmente, luz artificial si hace falta, no compensar con abono (G02, G06, G34, G36)."
+        ],
+        "tiempo_recuperacion": "Ver S16: solo el crecimiento nuevo sale normal, en semanas-meses [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Cepellón saturado / falta de espacio radicular",
+        "tipo": "sustrato",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta si lleva más de 1–2 años sin trasplante. Illinois: indicador explícito de hojas nuevas más pequeñas de lo normal, junto con raíces por los agujeros y marchitez entre riegos (G23); Penn State: crecimiento detenido, sustrato que se seca muy rápido, raíces circulares (G22); UMD: puntas secas y agua que atraviesa la maceta sin empapar (G24).",
+        "preguntas_confirmacion": [
+          "¿Cuánto hace del último trasplante?",
+          "¿Salen raíces por los agujeros?",
+          "¿El sustrato se seca en 1–2 días?"
+        ],
+        "tratamiento": [
+          "1. Ver S17 causa 2: confirmar sacando el cepellón y trasplantar en primavera a una maceta solo un tamaño mayor con drenaje, desenredando las raíces (G22, G23, G24, G35)."
+        ],
+        "tiempo_recuperacion": "Brotes nuevos en semanas tras el trasplante en temporada [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Deficiencia nutricional (nitrógeno general; micronutrientes o pH en hojas nuevas)",
+        "tipo": "nutricion",
+        "probabilidad": "media",
+        "como_diferenciar": "NC State: crecimiento nuevo pálido y espigado por abono insuficiente (G36); UC IPM: hojas nuevas verde-amarillas por exceso de riego, desequilibrio de pH o deficiencia de micronutrientes; hojas viejas verde-amarillas por falta de nitrógeno (G10); UNH: enanismo y tintes amarillos o púrpura (G29); RHS: amarilleo intervenal en plantas acidófilas por cal (hierro, manganeso), usar agua de lluvia (G15).",
+        "preguntas_confirmacion": [
+          "¿Cuándo abonaste por última vez?",
+          "¿Riegas con agua del grifo dura?",
+          "¿El amarilleo está entre los nervios de las hojas nuevas?"
+        ],
+        "tratamiento": [
+          "1. Ver S17 causa 4: descartar luz y raíces, abonar a dosis reducida solo en temporada de crecimiento, trasplantar si el sustrato está agotado (G01, G12, G29, G36).",
+          "2. En acidófilas (Gardenia, Azalea), sustrato ácido y agua de lluvia (G15)."
+        ],
+        "tiempo_recuperacion": "Semanas [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Ácaros tarsonémidos (ácaro ancho Polyphagotarsonemus latus, ácaro del ciclamen Phytonemus pallidus)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "UC IPM: demasiado pequeños para verse sin aumento; buscar follaje nuevo engrosado y quebradizo con márgenes atrofiados y curvados hacia abajo; los síntomas pueden parecer daño químico (G10); UMD: el ácaro del ciclamen afecta primero al crecimiento nuevo y produce crecimiento atrofiado, retorcido y deforme (G06); UC IPM: la distorsión de partes de la planta se asocia a ácaros eriófidos o tarsonémidos como el ancho y el del ciclamen (G19). Frecuente en begonia, ciclamen, violeta africana, Schefflera y pimiento ornamental.",
+        "preguntas_confirmacion": [
+          "¿La deformación está solo en el brote nuevo y las hojas viejas son normales?",
+          "¿Las hojas nuevas están duras, gruesas, con el borde curvado hacia abajo?",
+          "¿Has usado algún producto químico que pueda haberlas dañado?"
+        ],
+        "tratamiento": [
+          "1. Aislar la planta [inferencia].",
+          "2. Lavar las hojas con frecuencia y retirar los brotes afectados (G10).",
+          "3. Aceite hortícola (parafina) o jabón potásico como último recurso (G10); en interior, solo productos listos para usar autorizados para uso no profesional, o concentrados de jardinería exterior doméstica aplicados con la planta en el balcón (R01).",
+          "4. Desechar la planta si la infestación persiste (G10); UMD recomienda desechar directamente las plantas con ácaro del ciclamen (G06)."
+        ],
+        "tiempo_recuperacion": "Solo el crecimiento posterior sale normal; semanas-meses [estimación].",
+        "cuando_descartar": "Persistencia tras los tratamientos (G10); UMD recomienda desechar directamente (G06).",
+        "plaga_o_enfermedad_ref": "ácaro ancho / ácaro del ciclamen (Polyphagotarsonemus latus / Phytonemus pallidus)"
+      },
+      {
+        "causa": "Pulgón (Aphididae)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Causan crecimiento nuevo distorsionado en plantas como hiedra, hierbas aromáticas e hibisco (G11); UMD: el pulgón produce crecimiento retorcido y deforme, controlable con chorro de agua (G06); insectos visibles en brotes tiernos, melaza pegajosa, fumagina (G10). Ver S25.",
+        "preguntas_confirmacion": [
+          "¿Ves insectos pequeños verdes o negros en los brotes?",
+          "¿Las hojas están pegajosas?"
+        ],
+        "tratamiento": [
+          "1. Chorro de agua, retirada manual, jabón potásico o aceite registrado listo para usar (G06, G10, R01); ver S25."
+        ],
+        "tiempo_recuperacion": "Ver S25; las hojas ya deformadas no se enderezan.",
+        "cuando_descartar": "Ver S25.",
+        "plaga_o_enfermedad_ref": "pulgón (Aphididae)"
+      },
+      {
+        "causa": "Trips (Thysanoptera)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Estriado y distorsión de flores y follaje (G11); UC IPM: estriado, puntos fecales negros brillantes, zonas plateadas, cicatrices y a veces crecimiento deforme (G10). Ver S24.",
+        "preguntas_confirmacion": [
+          "¿Hay estrías plateadas o puntitos negros en las hojas nuevas?",
+          "¿Ves insectos alargados diminutos que saltan al soplar?"
+        ],
+        "tratamiento": [
+          "1. Lavar, retirar las partes afectadas, aceite hortícola o jabón potásico listo para usar (G10, R01); ver S24."
+        ],
+        "tiempo_recuperacion": "Ver S24; el tejido dañado no recupera el color.",
+        "cuando_descartar": "Ver S24.",
+        "plaga_o_enfermedad_ref": "trips (Thysanoptera)"
+      },
+      {
+        "causa": "Riego irregular u oscilaciones de temperatura durante el desarrollo de la hoja",
+        "tipo": "riego",
+        "probabilidad": "media",
+        "como_diferenciar": "RHS: hojas arrugadas o enrolladas por riego irregular mientras se desarrollan o por oscilaciones de temperatura; condiciones luminosas y secas curvan las hojas hacia dentro (Maranta); frío y sequedad curvan los márgenes hacia fuera (Saintpaulia, Gloxinia) (G15); sin insectos ni engrosamiento.",
+        "preguntas_confirmacion": [
+          "¿Dejas secar del todo y luego riegas mucho?",
+          "¿Hay corrientes o cambios bruscos de temperatura?",
+          "¿Está junto a un radiador?"
+        ],
+        "tratamiento": [
+          "1. Riego regular, poco y a menudo, manteniendo el sustrato húmedo pero no encharcado; evitar corrientes; cambiar de sitio (G15)."
+        ],
+        "tiempo_recuperacion": "Las hojas nuevas salen normales una vez estabilizadas las condiciones [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Exceso de luz (hojas nuevas más pequeñas)",
+        "tipo": "luz",
+        "probabilidad": "baja",
+        "como_diferenciar": "NC State: con luz excesiva las hojas salen más pequeñas para limitar la pérdida de agua, con amarilleo y parches marrones (G36).",
+        "preguntas_confirmacion": [
+          "¿Está a pleno sol en ventana sur u oeste?",
+          "¿Hay zonas blanqueadas?"
+        ],
+        "tratamiento": [
+          "1. Ver S22: retirar del sol directo o filtrar con visillo (G04, G15)."
+        ],
+        "tiempo_recuperacion": "Ver S22 [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Virus",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "UMD: crecimiento deforme por virus, desechar (G06); Iowa State: mosaico, moteado, manchas anulares (G09).",
+        "preguntas_confirmacion": [
+          "¿Hay mosaicos, moteados o anillos amarillos además de la deformación?"
+        ],
+        "tratamiento": [
+          "1. Desechar la planta (G06, G09)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Al confirmar el patrón vírico (G06, G09).",
+        "plaga_o_enfermedad_ref": "virosis"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G01", "G02", "G04", "G06", "G09", "G10", "G11", "G12", "G14", "G15", "G16", "G19", "G22", "G23", "G24", "G29", "G34", "G35", "G36", "R01"]
+  },
+  {
+    "id": "S19",
+    "nombre": "Pérdida de variegación o reversión a verde",
+    "como_se_ve": "Dos patrones: (A) difuminado progresivo: las hojas nuevas salen con menos zonas blancas, crema o amarillas y márgenes verdes más anchos, o toda la hoja más verde y apagada, mientras las antiguas conservan el dibujo (G14, G16, G31); (B) reversión: aparecen brotes o tallos enteros de color verde puro, claramente más vigorosos y de hojas más grandes, entre el follaje variegado (G03, G15). Patrón asociado: en poca luz también hay estiramiento (S16). RHS añade que el encharcamiento puede causar pérdida de color (G15). No confundir con hojas pálidas o blanqueadas por sol (S22) ni con amarilleo por nutrición (afecta a todas las hojas).",
+    "donde_mirar": "Comparar hojas nuevas frente a viejas (proporción de superficie verde); identificar si el verde está en un tallo o brote concreto (reversión) o en toda la planta progresivamente (luz); posición respecto a la ventana; sustrato encharcado.",
+    "urgencia": "baja",
+    "causas": [
+      {
+        "causa": "Luz insuficiente (la planta produce más clorofila)",
+        "tipo": "luz",
+        "probabilidad": "alta",
+        "como_diferenciar": "Clemson: las hojas revierten a verde liso con poca luz; las hojas verdes o que revierten indican que la planta no recibe luz suficiente (G16); Penn State: con menos luz se producen hojas nuevas más verdes y menos variegadas (Dieffenbachia) (G14); Penn State (potos): en poca luz acaba perdiendo la variegación o el brillo del follaje (G31); RHS: descartada la reversión, la luz inadecuada suele ser la causa de la pérdida permanente (G15); Penn State: el verde oscuro indica mayor concentración de clorofila y los cultivares de hoja oscura toleran mejor la poca luz (G14). Situación típica: ventana norte, más de 2,5 m de la ventana, invierno (G20, G36).",
+        "preguntas_confirmacion": [
+          "¿Ha cambiado de sitio o ha llegado el invierno?",
+          "¿Orientación y distancia a la ventana?",
+          "¿Las hojas nuevas son las que salen más verdes?",
+          "¿Toda la planta o solo un brote?",
+          "¿El sustrato se mantiene encharcado?"
+        ],
+        "tratamiento": [
+          "1. Trasladar gradualmente a luz brillante indirecta (ventana este u oeste, o sur con visillo) (G02, G15, G16); Clemson: mover la planta a un sitio más luminoso favorece que la variegación vuelva en el crecimiento nuevo (G16).",
+          "2. Rotar la planta (G31).",
+          "3. No abonar en exceso [inferencia; no confirmado en fuente prioritaria].",
+          "4. Opcional [inferencia]: podar por encima de la última hoja bien variegada para forzar brotes nuevos en mejor luz.",
+          "5. Luz artificial si no hay ventana adecuada (G06)."
+        ],
+        "tiempo_recuperacion": "Las hojas ya verdes no recuperan el dibujo; la variegación vuelve en las hojas nuevas (G16); duración en semanas-meses [estimación].",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Reversión quimérica (brote verde vigoroso que toma la planta)",
+        "tipo": "fisiologico",
+        "probabilidad": "media",
+        "como_diferenciar": "RHS: brotes de verde puro que surgen entre las ramas de una planta variegada, más vigorosos por tener más clorofila, que pueden acabar dominando la planta; suele ser un trastorno de crecimiento y no genético; los sports variegados no siempre son estables; ocurre sobre todo en primavera o verano, a menudo como respuesta a fluctuaciones de temperatura (G03); RHS: la reversión ocurre cuando brotes verdes más vigorosos superan a las partes variegadas (G15). Rasgo clave: el verde está confinado a un tallo o brote, no a todas las hojas nuevas [inferencia a partir de G03]. Contradicción entre fuentes: RHS no menciona la luz como causa de la reversión, mientras Clemson y Penn State atribuyen la pérdida de variegación a la poca luz; se resuelve distinguiendo ambos fenómenos.",
+        "preguntas_confirmacion": [
+          "¿El verde es de un tallo o brote concreto y el resto sigue variegado?",
+          "¿Ese tallo crece más deprisa y con hojas más grandes?",
+          "¿Ha ocurrido en primavera o verano?"
+        ],
+        "tratamiento": [
+          "1. Podar el brote reverdecido por completo o hasta tejido con hojas variegadas, en cuanto aparezca (G03, G15).",
+          "2. Mantener la planta con buena luz para no favorecer el verde (G15).",
+          "3. Si la mayor parte de la planta ya es verde y no quedan nudos variegados [inferencia]: aceptar la planta verde o propagar esquejes de los tallos aún variegados."
+        ],
+        "tiempo_recuperacion": "Inmediato tras la poda (el resto conserva el dibujo); vigilancia continua porque reaparece (G03).",
+        "cuando_descartar": "No procede: la planta verde es sana [inferencia].",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Encharcamiento / raíces dañadas",
+        "tipo": "riego",
+        "probabilidad": "baja",
+        "como_diferenciar": "RHS: el encharcamiento también puede causar pérdida de variegación o de color; control: mejorar el drenaje si hace falta (G15); acompañado de amarilleo general y sustrato húmedo.",
+        "preguntas_confirmacion": [
+          "¿El sustrato está siempre húmedo?",
+          "¿La maceta tiene drenaje?"
+        ],
+        "tratamiento": [
+          "1. Mejorar el drenaje y espaciar los riegos (G15).",
+          "2. Revisar las raíces (ver S15)."
+        ],
+        "tiempo_recuperacion": "Con el crecimiento nuevo [estimación].",
+        "cuando_descartar": "Ver S15 si las raíces están podridas.",
+        "plaga_o_enfermedad_ref": "podredumbre radicular (Pythium / Phytophthora) si las raíces están negras; ninguna en caso contrario"
+      }
+    ],
+    "confianza": "Media",
+    "fuentes": ["G02", "G03", "G06", "G14", "G15", "G16", "G20", "G31", "G36"]
+  },
+  {
+    "id": "S20",
+    "nombre": "Crecimiento blanco en la superficie del sustrato: moho saprófito, setas o costra de sales",
+    "como_se_ve": "Tres aspectos que el modelo debe distinguir: (A) moho saprófito: capa o parches algodonosos, filamentosos o aterciopelados, de color blanco, crema o amarillento, de bordes difusos, sobre el sustrato o sobre restos orgánicos (G01, G26); (B) setas: cuerpos fructíferos amarillo limón de 2–8 cm, de sombrero oval o acampanado, aislados o en grupos (Leucocoprinus birnbaumii) (G25, G27); (C) costra de sales: depósitos costrosos blancos a grises en la superficie del sustrato o el borde de la maceta (G01), costra blanca dura, cristalina o granular, también en el plato, en el exterior de macetas de barro y en los orificios de drenaje (G02, G07, G08); puede haber depósitos blancos en hojas por agua dura (G07, G12). Clemson advierte expresamente de no confundir la costra de sales con el moho blanco o amarillo de los hongos saprófitos del sustrato (G01). Capa verdosa (algas): no descrita en fuentes prioritarias; se trata por analogía como señal de humedad superficial persistente [inferencia]. Si es sales, la planta muestra puntas y márgenes marrones, crecimiento reducido, caída de hojas inferiores y marchitez (G02, G33); si es moho, la planta suele estar normal pero el sustrato está húmedo (G26, G27).",
+    "donde_mirar": "Superficie del sustrato (textura: algodonosa frente a cristalina), borde de la maceta y orificios de drenaje, plato, exterior de maceta de barro, puntas de hojas, presencia de mosquitos del sustrato (humedad) (G08, G10), humedad del sustrato a 3–4 cm. Regla visual: lo que se quita con el dedo y es filamentoso es hongo; lo duro, granular y cristalino en superficie, borde y drenaje es sal [inferencia a partir de G01, G07, G26].",
+    "urgencia": "baja",
+    "causas": [
+      {
+        "causa": "Hongo saprófito del sustrato por exceso de humedad superficial y poca ventilación",
+        "tipo": "sustrato",
+        "probabilidad": "alta",
+        "como_diferenciar": "Textura algodonosa, blanco-amarillenta, se retira con el dedo; Iowa State: los mohos no dañan a plántulas sanas, pero su presencia puede indicar niveles excesivos de humedad (G26); Clemson: son hongos saprófitos del suelo, distintos de las sales (G01); Penn State: saprótrofo que vive de la materia orgánica del sustrato comercial, prefiere 15–27 °C y humedad (G27).",
+        "preguntas_confirmacion": [
+          "¿Cuándo regaste y el sustrato está siempre húmedo en superficie?",
+          "¿La habitación está poco ventilada?",
+          "¿Hay mosquitos diminutos volando sobre la maceta?",
+          "¿La planta está bien por lo demás?",
+          "¿Has añadido materia orgánica (posos de café, compost)?"
+        ],
+        "tratamiento": [
+          "1. Dejar secar algo el sustrato entre riegos (G26).",
+          "2. Mejorar la circulación de aire (G09, G10).",
+          "3. Retirar con una cuchara la capa superficial afectada (1–2 cm) y reponer sustrato seco [inferencia; Illinois describe raspar la capa superior para las sales, G23].",
+          "4. No aplicar fungicidas: son ineficaces contra estos hongos (G25, G27).",
+          "5. Si reaparece constantemente, revisar drenaje y tamaño de maceta y trasplantar a sustrato nuevo más aireado [inferencia a partir de G27 y G35].",
+          "6. Revisar las raíces si además hay marchitez (ver S15)."
+        ],
+        "tiempo_recuperacion": "Días a semanas tras secar la superficie [estimación; ninguna fuente prioritaria indica cuánto tarda en desaparecer].",
+        "cuando_descartar": "Nunca por el moho en sí (G26, G27).",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Acumulación de sales (abono, agua dura, riego por inmersión, sin drenaje)",
+        "tipo": "nutricion",
+        "probabilidad": "alta",
+        "como_diferenciar": "Costra dura blanco-grisácea, cristalina, en borde de maceta, drenaje y plato (G01, G02, G07, G08); Clemson: película blanca en la superficie o costra blanca en el borde o el orificio de drenaje indican sobreabonado o riego incorrecto (G02); daños: pardeamiento o muerte de puntas y márgenes, crecimiento reducido, caída de hojas, raíces dañadas y colapso del tallo en la línea del suelo, sobre todo si se riega por abajo (G33); UMD: el agua dura aporta carbonato cálcico, sodio y hierro (G07); RHS: depósitos blancos en hojas por agua del grifo dura (G12). En Madrid el agua es muy blanda (ver S05 y S20 en la parte de riego), por lo que la costra se atribuye sobre todo a sales de abono.",
+        "preguntas_confirmacion": [
+          "¿Cuándo abonaste por última vez y a qué dosis?",
+          "¿Riegas por inmersión o por arriba?",
+          "¿Dejas agua en el plato?",
+          "¿La maceta tiene drenaje?",
+          "¿Riegas con agua del grifo?",
+          "¿Tiene puntas marrones?"
+        ],
+        "tratamiento": [
+          "1. Retirar la costra y el centímetro superior de sustrato (G01, G23).",
+          "2. Lixiviar regando desde arriba con agua limpia hasta que drene, con al menos 3 veces el volumen de la maceta, dejando drenar por completo; repetir cada 4–6 meses (G07); UNH: cada 4 meses aproximadamente (G29).",
+          "3. Vaciar siempre el plato; evitar el riego por inmersión y las macetas sin drenaje (G02, G07).",
+          "4. Reducir el abono y no abonar en invierno (G02, G28).",
+          "5. Usar agua de lluvia o baja en minerales (G01, G07).",
+          "6. En casos graves o macetas pequeñas, trasplantar a sustrato nuevo y maceta limpia (remojar, cepillar y aclarar la vieja) (G01, G07, G33)."
+        ],
+        "tiempo_recuperacion": "Las puntas marrones no se recuperan; las hojas nuevas salen sanas en semanas [estimación].",
+        "cuando_descartar": "Colapso del tallo en la base (G33); ver S15.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Setas amarillas (Leucocoprinus birnbaumii)",
+        "tipo": "sustrato",
+        "probabilidad": "media",
+        "como_diferenciar": "Setas amarillo limón de 2–8 cm (G25); no dañan a las plantas vivas y no hace falta retirarlas por la planta (G25); indican sustrato cálido y húmedo; si aparecen con regularidad, el sustrato está probablemente demasiado húmedo (G27).",
+        "preguntas_confirmacion": [
+          "¿Hay niños pequeños o mascotas en casa?",
+          "¿Riegas mucho?",
+          "¿Hace calor en la habitación?"
+        ],
+        "tratamiento": [
+          "1. Arrancar las setas al aparecer, sobre todo si hay niños o mascotas: se consideran venenosas para personas y animales (G25, G27).",
+          "2. Reducir el riego (G27).",
+          "3. No usar fungicidas: generalmente no son eficaces contra las setas (G25, G27).",
+          "4. Opcional: sustituir el sustrato, aunque el micelio puede persistir (G27)."
+        ],
+        "tiempo_recuperacion": "No aplica a la planta; las setas dejan de salir al reducir la humedad [estimación].",
+        "cuando_descartar": "Nunca la planta (G25).",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Cochinilla algodonosa en el cuello o las raíces (confusión con moho)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "Masas algodonosas blancas pegadas a la base del tallo, axilas o raíces, no sobre el sustrato; pegajosidad; insectos visibles con lupa (G10). Ver S29.",
+        "preguntas_confirmacion": [
+          "¿Lo blanco está sobre la planta (tallo, axilas) o sobre la tierra?",
+          "¿Es pegajoso?"
+        ],
+        "tratamiento": [
+          "1. Según la plaga: ver S29 (alcohol isopropílico con bastoncillo, jabón potásico o aceite listo para usar, desechar si es masivo) (G10)."
+        ],
+        "tiempo_recuperacion": "Ver S29.",
+        "cuando_descartar": "Ver S29.",
+        "plaga_o_enfermedad_ref": "cochinilla algodonosa (Planococcus citri / Pseudococcus longispinus)"
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G01", "G02", "G07", "G08", "G09", "G10", "G12", "G23", "G25", "G26", "G27", "G28", "G29", "G33", "G35"]
+  },
+  {
+    "id": "S21",
+    "nombre": "Agujeros, mordeduras, muescas o desgarros en hojas",
+    "como_se_ve": "Patrones para el modelo: (a) agujeros irregulares de bordes desgarrados o rasposos, de tamaño variable, en el limbo y entre nervios, a veces con rastro plateado brillante de baba = babosas o caracoles (G18, G19); (b) agujeros irregulares o follaje hecho jirones con excrementos oscuros en la hoja o el sustrato = orugas (G06, G19); (c) muescas semicirculares en el borde = gorgojos adultos; recortes ovales muy limpios en el borde = abejas cortadoras, solo si la planta estuvo en exterior (G19); (d) follaje masticado o hecho jirones = escarabajos, grillos o saltamontes, larvas de sínfitos (G19); (e) perforaciones pequeñas, redondas, con margen necrótico marrón o halo claro, a veces con el centro muerto que se cae (shot hole) = origen fúngico o bacteriano en que la lesión necrótica se desprende (G05, descrito en Prunus; extrapolación analógica); (f) desgarros lineales, bordes limpios, sin tejido necrótico, en hojas que se desplegaron pegadas a un obstáculo o manipuladas = daño mecánico (RHS menciona magulladuras por mascotas o personas, G15; el resto es inferencia); (g) ventanas naturales (fenestraciones) en Monstera y perforaciones simétricas propias de la especie: no son daño [inferencia; ninguna fuente prioritaria abierta lo trata].",
+    "donde_mirar": "Bordes del agujero (desgarrado frente a necrótico marrón frente a limpio), presencia de rastro de baba, excrementos, insectos en envés y sustrato (mirar de noche con linterna: babosas y orugas son nocturnas) (G18), posición (hojas bajas cerca del sustrato = babosas; borde = gorgojos o abejas), historial (si estuvo en balcón o terraza en verano, si es planta nueva).",
+    "urgencia": "baja",
+    "causas": [
+      {
+        "causa": "Daño mecánico (roces, mascotas, manipulación, hojas nuevas que se rasgan al desplegarse en aire seco)",
+        "tipo": "ambiental",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta en interior porque las plagas masticadoras son raras en casa salvo introducción desde el exterior (G06). Bordes limpios, sin necrosis progresiva, sin excrementos ni baba ni insectos; los agujeros no aumentan con los días; a veces en línea o simétricos en una hoja que se abrió pegada [inferencia]; RHS cita magulladuras por mascotas o personas entre las causas de hojas dañadas (G15).",
+        "preguntas_confirmacion": [
+          "¿Hay gato, perro o niños que toquen la planta?",
+          "¿La hoja estaba así al desplegarse?",
+          "¿Los agujeros aumentan o aparecen nuevos?",
+          "¿Has visto insectos, babas o excrementos?"
+        ],
+        "tratamiento": [
+          "1. Nada: la hoja no cicatriza pero sigue funcionando [inferencia].",
+          "2. Retirar las hojas muy dañadas por estética.",
+          "3. Apartar de zonas de paso y de mascotas.",
+          "4. Para hojas nuevas que se rasgan al abrirse, elevar la humedad ambiental en invierno con calefacción [inferencia a partir de G12 sobre aire seco]."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Babosas y caracoles (traídos con plantas de exterior o sustrato)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad alta si la planta estuvo en balcón, terraza o jardín. Penn State: mastican agujeros de forma irregular; patrones de mordedura irregulares de babosa o caracol; rastro plateado (G18); UC IPM: rastros brillantes o baba por babosas y caracoles (o larvas de mosquito del sustrato) (G19); UMD: agujeros por masticadores que normalmente se recogen en el exterior durante el verano (G06).",
+        "preguntas_confirmacion": [
+          "¿La planta estuvo fuera o es recién comprada?",
+          "¿Ves rastros brillantes en hojas, maceta o suelo?",
+          "¿Los agujeros aparecen de noche?"
+        ],
+        "tratamiento": [
+          "1. Buscar de noche con linterna bajo las hojas, bajo la maceta y en el plato, y retirar a mano (G06, G18).",
+          "2. UMD: recoger a mano las plagas y trasplantar las plantas antes de meterlas en casa (G06).",
+          "3. Retirar restos y escondrijos húmedos [inferencia a partir de G18]."
+        ],
+        "tiempo_recuperacion": "No aplica; las hojas no se reparan.",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": "babosas / caracoles (Gastropoda)"
+      },
+      {
+        "causa": "Orugas (Lepidoptera)",
+        "tipo": "plaga",
+        "probabilidad": "media",
+        "como_diferenciar": "Probabilidad media si ha estado fuera o hay ventanas abiertas. UC IPM: flores o follaje masticados o hechos jirones por orugas (G19); excrementos granulares oscuros; la oruga suele estar en el envés o en el sustrato de día [inferencia a partir de G18 y G19].",
+        "preguntas_confirmacion": [
+          "¿Hay bolitas negras o verdes (excrementos) sobre hojas o sustrato?",
+          "¿Has visto una oruga?",
+          "¿Tienes ventanas abiertas sin mosquitera?"
+        ],
+        "tratamiento": [
+          "1. Retirar a mano (G06); revisar envés y sustrato; aislar la planta [inferencia]."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": "orugas (Lepidoptera)"
+      },
+      {
+        "causa": "Otros masticadores traídos del exterior (escarabajos, gorgojos con muescas en el borde, saltamontes, grillos, tijeretas)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "UMD: orugas, escarabajos defoliadores, gorgojos, saltamontes, grillos, babosas y tijeretas, normalmente recogidos en el exterior durante el verano (G06); UC IPM: escarabajos adultos y larvas, grillos, saltamontes, larvas de sínfitos, abejas cortadoras (recortes limpios; no matar, son polinizadores) (G19).",
+        "preguntas_confirmacion": [
+          "¿Muescas en el borde o agujeros en el centro?",
+          "¿Estuvo fuera?"
+        ],
+        "tratamiento": [
+          "1. Retirar a mano y trasplantar antes de entrar la planta (G06)."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": "escarabajos / gorgojos / tijeretas"
+      },
+      {
+        "causa": "Shot hole: lesión de mancha foliar cuyo centro necrótico se desprende dejando un agujero con borde marrón o halo",
+        "tipo": "enfermedad",
+        "probabilidad": "baja",
+        "como_diferenciar": "UC IPM (en Prunus, hongo Wilsonomyces carpophilus): manchas pequeñas púrpura o rojizas con borde verde claro o amarillo en hojas jóvenes; al agrandarse, los centros se vuelven marrones y se caen dejando agujeros; puntos oscuros (esporas) en el centro visibles con lupa (G05). Transferencia a interior [inferencia analógica]: cualquier mancha foliar fúngica o bacteriana (S14) puede acabar perforándose; el agujero tiene siempre un margen necrótico seco, a diferencia de la mordedura.",
+        "preguntas_confirmacion": [
+          "¿El agujero tiene un borde marrón o amarillo?",
+          "¿Había antes una mancha en ese sitio?",
+          "¿Mojas las hojas?"
+        ],
+        "tratamiento": [
+          "1. Como S14: retirar las hojas afectadas, no mojar el follaje, ventilar (G05, G10)."
+        ],
+        "tiempo_recuperacion": "Ver S14 [estimación].",
+        "cuando_descartar": "Ver S14.",
+        "plaga_o_enfermedad_ref": "mancha foliar con perforación (shot hole; Wilsonomyces carpophilus en Prunus; en interior, mancha fúngica o bacteriana perforante)"
+      },
+      {
+        "causa": "Fenestración natural (Monstera deliciosa, M. adansonii, Rhaphidophora)",
+        "tipo": "fisiologico",
+        "probabilidad": "alta",
+        "como_diferenciar": "Probabilidad alta solo en esas especies. Aberturas regulares, de bordes lisos, simétricas respecto al nervio central y presentes ya al desplegarse la hoja [inferencia; sin fuente prioritaria].",
+        "preguntas_confirmacion": [
+          "¿Es una Monstera o similar y las aberturas son simétricas y de borde liso?"
+        ],
+        "tratamiento": [
+          "1. Ninguno."
+        ],
+        "tiempo_recuperacion": "No aplica.",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Media",
+    "fuentes": ["G05", "G06", "G10", "G12", "G15", "G18", "G19"]
+  },
+  {
+    "id": "S22",
+    "nombre": "Quemadura solar / fotoblanqueo (hojas descoloridas o blanqueadas por exceso de sol)",
+    "como_se_ve": "Zonas de la hoja pálidas, blanqueadas, lavadas o amarillentas, de forma difusa o en parches grandes (G04, G35, G36), que con los días se vuelven marrones, secas y quebradizas (G04); RHS: parches marrones chamuscados por sol fuerte y directo, como el de una ventana sur en verano (G12); Clemson: las hojas se blanquean o escaldan, a veces mueren (G02); UC IPM: manchas, parches o puntas chamuscadas por exceso de luz, sobre todo tras un cambio de sitio reciente o por sol o calor a través de una ventana (G10); NC State: la clorofila puede destruirse dando hojas amarillas, hojas más pequeñas y grandes parches marrones de tejido muerto (G36); RHS: demasiada luz a mediodía hace que las hojas caigan o se chamusquen de amarillo; manchas pálidas por exceso de sol (G15); Penn State: en potos el sol directo amarillea las hojas (G31). Distribución diagnóstica: solo en las hojas o caras expuestas al cristal; las sombreadas o inferiores están intactas [inferencia respaldada por G04]. Peor con sustrato seco: los síntomas son más graves cuando el sol fuerte se combina con sustrato seco (G04). Calor: hojas marchitas, enrolladas, blanqueadas y crujientes indican estrés térmico; junto a radiadores, hojas chamuscadas (G12).",
+    "donde_mirar": "Hojas superiores o externas orientadas a la ventana frente a hojas interiores; orientación de la ventana (sur, suroeste, oeste) y presencia de cortina; distancia al cristal; estación (mayo a septiembre en Madrid) y hora; historial de cambio de sitio (de interior a ventana o a terraza); humedad del sustrato; radiador o fuente de calor cerca.",
+    "urgencia": "media",
+    "causas": [
+      {
+        "causa": "Sol directo a través del cristal en ventana sur, suroeste u oeste (verano) o tras cambio brusco de sitio sin aclimatación",
+        "tipo": "luz",
+        "probabilidad": "alta",
+        "como_diferenciar": "Parches blanqueados que pasan a marrones solo en hojas expuestas (G04); especies de sombra (helechos, Calathea, Maranta, Spathiphyllum, Aglaonema, Dieffenbachia) especialmente sensibles: cuando las plantas de sombra se exponen a pleno sol pueden sufrir quemadura (G04); aparece tras mover la planta: también ocurre en plantas de interior adaptadas a poca luz sacadas directamente al exterior sin aclimatación (G04); UC IPM: sobre todo tras un cambio reciente (G10); UF/IFAS: la luz directa (>1.000 ft-c, unos 10.000 lux) se da normalmente en ventanas sur o suroeste sin sombra (G20); Illinois: justo delante de una ventana sur, unos 1.500 ft-c (G21); Oregon State: las ventanas sur reciben el sol más intenso (G30); sol de mediodía (G15). Madrid: sol estival muy fuerte; las ventanas sur y suroeste sin obstáculos reciben pleno sol varias horas [inferencia de contexto; sin fuente local].",
+        "preguntas_confirmacion": [
+          "¿Ha cambiado de sitio recientemente (más cerca de la ventana, a la terraza, a otra habitación)?",
+          "¿Hacia dónde mira la ventana y hay cortina o visillo?",
+          "¿A qué distancia del cristal está?",
+          "¿Le da el sol directo y a qué horas?",
+          "¿Es verano?",
+          "¿Estaba seco el sustrato cuando apareció?",
+          "¿Las hojas dañadas son solo las que miran a la ventana?",
+          "¿Es una especie de sombra?"
+        ],
+        "tratamiento": [
+          "1. Retirar del sol directo: alejar del cristal aproximadamente 1 m o interponer visillo o cortina ligera; mover a ventana este (sol suave de mañana) o a luz indirecta brillante (G04, G12, G15).",
+          "2. Regar correctamente: el daño es mayor con sustrato seco (G04); mantener una humedad adecuada [inferencia a partir de G04].",
+          "3. No abonar hasta que brote tejido sano [inferencia].",
+          "4. Dejar las hojas parcialmente dañadas mientras conserven tejido verde (siguen fotosintetizando); cortar solo las completamente secas; RHS: retirar las hojas totalmente marrones o amarillas porque no se recuperan (G12).",
+          "5. Si se quiere más luz o sacar la planta a terraza o balcón, aclimatar gradualmente: colocar a pleno sol 2 horas al día al principio y aumentar poco a poco la exposición (G04); Clemson: los cambios de luz deben ser graduales (G02); NC State: aclimatar incluso al cambiar a bombillas más potentes para evitar el choque lumínico (G36).",
+          "6. Último recurso [inferencia] si la mayor parte del follaje está quemada: podar para forzar el rebrote o esquejar las partes sanas."
+        ],
+        "tiempo_recuperacion": "Las zonas quemadas son permanentes; la planta emite hojas nuevas sanas en semanas-meses según especie y estación [estimación; ninguna fuente da plazo].",
+        "cuando_descartar": "Raramente; solo si casi todo el follaje está necrosado y no hay rebrote tras varias semanas en luz adecuada [inferencia].",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Estrés por calor (ventana cerrada a pleno sol, galería, radiador)",
+        "tipo": "temperatura",
+        "probabilidad": "media",
+        "como_diferenciar": "RHS: hojas marchitas, enrolladas, blanqueadas y crujientes indican estrés térmico; las plantas cerca de fuentes directas de calor como radiadores suelen tener hojas chamuscadas (G12); UC IPM: hojas de toda la planta amarillo-verdes por calor alto con sequedad (G10); Oregon State: alejar de rejillas de calefacción y chimeneas (G30); suele acompañarse de bordes crispados y marchitez diurna (G12). Probabilidad alta en verano madrileño en galerías o ventanas sin ventilación y en invierno junto a radiadores.",
+        "preguntas_confirmacion": [
+          "¿Hay calefacción cerca?",
+          "¿La habitación o galería se calienta mucho a mediodía?",
+          "¿Las hojas se marchitan por la tarde y se recuperan de noche?"
+        ],
+        "tratamiento": [
+          "1. Alejar de la fuente de calor, ventilar, sombrear a mediodía y mantener la humedad (G12, G30)."
+        ],
+        "tiempo_recuperacion": "Las hojas chamuscadas no se recuperan; nuevas hojas sanas en semanas [estimación].",
+        "cuando_descartar": "Raramente [inferencia].",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Daño por productos (abrillantadores, aerosoles, insecticidas)",
+        "tipo": "ambiental",
+        "probabilidad": "baja",
+        "como_diferenciar": "RHS: las manchas pálidas suelen deberse a productos de limpieza y aerosoles que caen sobre las hojas (G12); manchas pálidas pequeñas, no parches grandes orientados al sol; Iowa State: los abrillantadores taponan los estomas y acumulan polvo (G08).",
+        "preguntas_confirmacion": [
+          "¿Has usado abrillantador o pulverizado algo cerca?"
+        ],
+        "tratamiento": [
+          "1. Dejar de usar aerosoles; limpiar las hojas con agua (G08, G15)."
+        ],
+        "tiempo_recuperacion": "Las marcas son permanentes pero inocuas [inferencia].",
+        "cuando_descartar": "Nunca.",
+        "plaga_o_enfermedad_ref": null
+      },
+      {
+        "causa": "Araña roja o trips (blanqueado por punteado)",
+        "tipo": "plaga",
+        "probabilidad": "baja",
+        "como_diferenciar": "UC IPM: follaje blanqueado, bronceado, punteado o amarillento por ácaros, trips y otros (G19); punteado fino y uniforme, bronceado, telarañas finas en el envés, no parches contiguos marrones; favorecida por aire seco y polvo (calefacción invernal) (G10). Probabilidad baja-media. Ver S23 y S24.",
+        "preguntas_confirmacion": [
+          "¿Has mirado el envés con lupa: puntos moviéndose o telarañas?",
+          "¿El blanqueado es un punteado fino y homogéneo?",
+          "¿Hay calefacción (aire seco)?"
+        ],
+        "tratamiento": [
+          "1. Según la plaga: lavar las hojas, aumentar la humedad, aceite o jabón potásico listo para usar (G10, R01); ver S23 y S24."
+        ],
+        "tiempo_recuperacion": "Ver S23 y S24.",
+        "cuando_descartar": "Ver S23 y S24.",
+        "plaga_o_enfermedad_ref": "araña roja (Tetranychus urticae) / trips (Thysanoptera)"
+      },
+      {
+        "causa": "Deficiencia de hierro o manganeso (clorosis intervenal en hojas nuevas, no blanqueado por sol)",
+        "tipo": "nutricion",
+        "probabilidad": "baja",
+        "como_diferenciar": "Amarilleo entre nervios que quedan verdes, en hojas nuevas, en toda la planta y no solo en la cara al sol (G10, G15); en acidófilas por agua calcárea (G15). Ver S04.",
+        "preguntas_confirmacion": [
+          "¿El amarillo deja los nervios verdes?",
+          "¿Afecta a hojas que no reciben sol?"
+        ],
+        "tratamiento": [
+          "1. Ver S04 y S18 causa 3: abono con micronutrientes, sustrato ácido en acidófilas, corregir pH (G10, G15)."
+        ],
+        "tiempo_recuperacion": "Ver S04.",
+        "cuando_descartar": "No procede.",
+        "plaga_o_enfermedad_ref": null
+      }
+    ],
+    "confianza": "Alta",
+    "fuentes": ["G02", "G04", "G08", "G10", "G12", "G15", "G19", "G20", "G21", "G30", "G31", "G35", "G36", "R01"]
+  }
+]

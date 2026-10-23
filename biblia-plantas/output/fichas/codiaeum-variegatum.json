@@ -1,0 +1,336 @@
+{
+  "nombre_cientifico": "Codiaeum variegatum",
+  "nombres_comunes": [
+    "crotón",
+    "croton",
+    "codiaeum",
+    "laurel variegado"
+  ],
+  "familia": "Euphorbiaceae",
+  "origen": "Nativa de Malesia hasta el suroeste del Pacífico y el norte de Australia: Borneo, Sumatra, Java, Sulawesi, Molucas, islas menores de la Sonda, Filipinas, Nueva Guinea, archipiélago Bismarck, islas Salomón, Santa Cruz, Vanuatu, Fiyi y Queensland (POWO). Introducida y naturalizada en numerosas zonas tropicales de Asia, África, el Caribe y el Pacífico.",
+  "clima_nativo": "Tropical húmedo, cálido todo el año y sin heladas; en hábitat es un arbusto o arbolito perennifolio de hasta unos 3 m (Wisconsin, UF/IFAS). Rústica solo en zonas USDA 11-12 (NC State, Wisconsin); UF/IFAS la sitúa en 9b-11 y señala daños por frío por debajo de unos 10 °C.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Alternas, simples, coriáceas y muy brillantes (NC State), de 5-30 cm de largo (Wisconsin). Forma muy variable según cultivar: de elípticas anchas u ovadas a lineares casi como cintas, enteras o lobuladas (algunos cultivares con hoja trilobulada en forma de 'hoja de roble'), planas o retorcidas en tirabuzón (UF/IFAS). Las hojas nuevas salen verdes y adquieren el color definitivo al madurar con buena luz (UF/IFAS). Al cortar una hoja o un tallo sale savia que mancha la ropa de forma permanente.",
+    "nerviacion": "Pinnada, con nervio central bien marcado y nervios secundarios arqueados. En muchos cultivares los nervios destacan en un color distinto al de la lámina (amarillo, naranja o rojo sobre fondo verde o granate), lo que da el típico dibujo 'pintado' de la hoja.",
+    "variegacion": "La forma silvestre es verde; los cientos de cultivares combinan verde, amarillo, naranja, rojo, rosa, bronce, púrpura, casi negro y blanco, en manchas, punteado, bandas o nervios coloreados (NC State, UF/IFAS). Ejemplos: 'Petra' (hoja ancha, nervios amarillos y rojos, la que mejor conserva el color en interior según UF/IFAS), 'Gold Dust' (punteado amarillo), 'Mammy' (hoja estrecha retorcida), 'Banana', 'Norma', 'Sunny Star'. Con poca luz la hoja revierte a tonos verdes; con sol excesivo los rojos y naranjas se apagan y la hoja se ve grisácea (Wisconsin, UF/IFAS).",
+    "tallo": "Leñoso, erguido; el crecimiento nuevo es verde y el viejo pardo y leñoso, con fisuras verticales y cicatrices foliares ovaladas (NC State). Sangra savia al cortarlo.",
+    "habito": "Arbusto perennifolio erecto, ramificado y denso, de crecimiento moderado en interior. En interior rara vez florece (Wisconsin); si lo hace, emite racimos axilares largos y finos de flores pequeñas estrelladas, blanquecinas o amarillentas, poco vistosas; el fruto es una cápsula de tres semillas (NC State, NTBG).",
+    "tamano_adulto_interior": "Habitualmente 0,6-1 m en interior (NC State: suele quedarse cerca de 90 cm), pudiendo llegar a 1,5-1,8 m en ejemplares viejos y bien iluminados; en exterior tropical hasta 2,5-3 m (NC State, Wisconsin, UF/IFAS).",
+    "confusiones": [
+      {
+        "especie": "Cordyline fruticosa (cordiline, planta del Ti)",
+        "rasgo_diferenciador": "Hojas en penacho o roseta en lo alto del tallo, con pecíolo acanalado envainador y nerviación casi paralela en tonos rosa-rojo-púrpura; el crotón tiene hojas alternas repartidas por tallos ramificados, coriáceas y brillantes, con nervios pinnados a menudo coloreados en amarillo, y suelta savia al cortar."
+      },
+      {
+        "especie": "Dracaena spp. (D. fragrans, D. marginata)",
+        "rasgo_diferenciador": "Hojas lineares o en cinta con nerviación paralela, agrupadas en penachos al final de tallos tipo caña; el crotón de hoja estrecha tiene nervio central y nervios secundarios pinnados y hojas rígidas y gruesas."
+      },
+      {
+        "especie": "Aucuba japonica 'Crotonifolia' (aucuba)",
+        "rasgo_diferenciador": "Hojas opuestas, con margen dentado y punteado amarillo sobre verde, planta rústica de exterior; el crotón tiene hojas alternas, de margen entero o lobulado, y gamas de rojo y naranja."
+      },
+      {
+        "especie": "Plectranthus scutellarioides (coleo)",
+        "rasgo_diferenciador": "Planta herbácea de tallo cuadrangular, hojas opuestas, blandas, aterciopeladas y de margen dentado; el crotón es leñoso, de hojas alternas, coriáceas y brillantes."
+      },
+      {
+        "especie": "Acalypha wilkesiana (acalifa, manto de José)",
+        "rasgo_diferenciador": "Hojas finas, de margen aserrado y tonos cobrizos o rojizos moteados; las del crotón son gruesas, céreas y de margen entero o lobulado."
+      },
+      {
+        "especie": "Iresine herbstii (iresine)",
+        "rasgo_diferenciador": "Herbácea de hojas opuestas, pequeñas, blandas, con ápice escotado y nervios rosados; el crotón es arbustivo y leñoso, con hojas grandes coriáceas alternas."
+      },
+      {
+        "especie": "Género Croton (p. ej. Croton tiglium)",
+        "rasgo_diferenciador": "Es otro género de la misma familia, origen del 'aceite de crotón'; el nombre común 'crotón' de la planta de interior se refiere a Codiaeum variegatum, cuyo basiónimo fue Croton variegatus L. (POWO). No se deben mezclar los datos de toxicidad de ambos géneros."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Ésteres de diterpenos (NC State), entre ellos 5-desoxiingenol (NTBG), presentes en la savia (látex), hojas, corteza y raíces.",
+    "sintomas": "Toxicidad leve: solo es tóxica si se ingieren cantidades grandes (NC State). La ingestión causa irritación y ardor en boca y tubo digestivo, babeo, náuseas, vómitos y diarrea (NC State, Pet Poison Helpline, NTBG). La savia irrita piel, ojos y mucosas (picor, hinchazón); el contacto repetido puede provocar dermatitis alérgica o eccema en personas sensibles (NC State, RHS, Wisconsin, NTBG). Usar guantes al podar, lavarse las manos y no tocarse los ojos; la savia mancha la ropa de forma permanente. Mantener fuera del alcance de niños, perros y gatos (RHS, UF/IFAS). Ante ingestión en mascota, avisar al veterinario; en niños, llamar al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F4",
+      "F8",
+      "F9"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Lo más cerca posible de una ventana este, o junto a una ventana sur u oeste con visillo en verano; en invierno, pegada a la ventana más luminosa (sur), donde el sol suave le favorece. Evitar ventanas norte o el fondo de la habitación: pierde color.",
+      "tolera_sol_directo": "Parcialmente: tolera y agradece unas horas de sol directo suave (mañana, o sol de invierno), pero el sol fuerte de verano tras un cristal puede quemar las hojas (RHS) y el exceso de luz apaga rojos y naranjas y deja la hoja grisácea (Wisconsin, UF/IFAS). Aclimatarla de forma gradual antes de darle más sol.",
+      "notas": "La intensidad de luz controla el color: con luz insuficiente las hojas revierten a verde y la planta se alarga; con poca luz además pierde hojas inferiores (NC State, Wisconsin, RHS, CSU). UF/IFAS indica que algunos cultivares seleccionados para interior mantienen calidad durante meses con solo 100 fc (≈1.076 lux), pero la mayoría mejora con más luz; por eso 1.076 lux es un mínimo de supervivencia y 5.380 lux (500 fc) el mínimo para conservar el color. Las hojas nuevas salen verdes y se colorean con el tiempo: no es un fallo. Contradicción: NC State y CSU recomiendan sol pleno o parcial y lugar soleado; RHS y Wisconsin, luz brillante indirecta en interior. Se adopta la opción conservadora: luz brillante indirecta con sol directo suave, protegiendo del sol de mediodía de verano.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar a fondo, hasta que salga agua por los agujeros de drenaje, cuando los 2-3 cm superiores del sustrato estén secos al tacto (Wisconsin: 1,3-2,5 cm; RHS: cuando se seque la capa superficial) y la maceta pese claramente menos; vaciar el plato a los 15-30 minutos. Si el sustrato aún está húmedo, esperar (RHS). Nunca por calendario: el exceso de riego es la causa nº 1 de muerte. Señal de aviso: las hojas jóvenes se ponen lacias cuando le falta agua (UF/IFAS); no esperar a que llegue a ese punto de forma habitual.",
+      "primavera_verano": "Riego generoso y regular: el crotón tiene una de las tasas de transpiración más altas entre las plantas de follaje (UF/IFAS), así que con calor y mucha luz el sustrato puede secarse en pocos días. Mantener el cepellón ligeramente húmedo, sin encharcar: tanto el sustrato demasiado seco como demasiado mojado durante días provocan caída de hojas (Wisconsin, RHS). Comprobar con el dedo y el peso cada 2-3 días en pleno verano.",
+      "otono_invierno": "Reducir: regar solo cuando la superficie esté seca y dejar que seque algo más en profundidad (NC State, RHS, Wisconsin). Con calefacción el sustrato puede secarse casi como en verano; comprobar igualmente. Usar agua a temperatura ambiente, nunca fría.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "La RHS recomienda agua de lluvia o blanda a temperatura ambiente y evitar el agua dura del grifo, que alcaliniza el sustrato. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y con fluoruro <0,1 mg/L, por lo que es apta; la cloramina no se elimina dejándola reposar, pero a esas concentraciones no la daña. Usarla a temperatura ambiente. En zonas de agua dura, preferir agua de lluvia o filtrada. Lavar el sustrato con agua abundante 2-3 veces al año para arrastrar sales de abono.",
+      "notas": "CSU pide mantener la mezcla 'uniformemente húmeda' y UF/IFAS (producción) habla de riegos frecuentes; Wisconsin y la RHS indican dejar secar la capa superior. Se adopta la opción conservadora para el hogar: secado ligero de la capa superior, sin dejar que se seque todo el cepellón. Maceta siempre con agujeros de drenaje; el encharcamiento o la maceta dentro de un cubremacetas con agua causa pudrición de raíces (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F1"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 60,
+      "notas": "CSU da un rango de 40-80 % de humedad relativa; la RHS dice que necesita humedad alta y Wisconsin moderada a alta; el aire seco provoca caída de hojas (RHS) y favorece la araña roja, su plaga principal (UF/IFAS). NC State la califica de humedad baja a media: contradicción que se resuelve con la opción conservadora (mínimo 40 %). El ideal de 60 % es el punto medio del rango de CSU, no una cifra publicada. Para subir la humedad usar humidificador o agrupar plantas; pulverizar las hojas no la sube de forma útil (convención del proyecto). Las bandejas de guijarros húmedos que citan RHS y NC State tienen efecto local muy limitado. Limpiar el polvo de las hojas con un paño húmedo de vez en cuando (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 29,
+      "notas": "RHS: mantener entre 18 y 35 °C y nunca por debajo de 15 °C; Wisconsin: óptimo 15-29 °C (60-85 °F) y caída de hojas por debajo de 10 °C; UF/IFAS: daños por frío por debajo de unos 10 °C; CSU: unos 21 °C de día y 13-15 °C de noche. Se adopta como mínimo el valor más conservador (15 °C, RHS). Más que el valor absoluto, le dañan los cambios bruscos y las corrientes de aire frío, que provocan caída masiva de hojas (RHS, Wisconsin). Tolera bien el calor (CSU) si tiene agua y humedad; 35 °C es el máximo indicado por la RHS. En exterior (terraza) solo con mínimas estables por encima de 10-15 °C, y aclimatándola de forma gradual (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F5",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior rico en materia orgánica, fértil y muy bien drenado (NC State, Wisconsin). La RHS propone 3 partes de sustrato ácido (para plantas acidófilas, sin turba) por 1 parte de grava fina o arena gruesa; UF/IFAS usa en maceta turba:corteza de pino:arena 6:3:1 o turba:arena 3:1.",
+      "ph": "4,5-6,5 (ligeramente ácido); los sustratos alcalinos inducen carencias de micronutrientes (UF/IFAS, RHS).",
+      "drenaje": "Imprescindible: maceta con agujeros, sin plato con agua estancada; añadir grava o perlita para mejorar el drenaje (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes de interior, soluble en el agua de riego, o abono de liberación lenta (UF/IFAS).",
+      "npk": "Proporción aproximada 3-1-2 (N-P2O5-K2O) (UF/IFAS)",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (convención del proyecto; CSU: mensual a media dosis; Wisconsin: una o dos veces en la temporada como mínimo).",
+      "otono_invierno": "Nada en reposo (de octubre a febrero en Madrid).",
+      "notas": "El exceso de abono reduce la intensidad del color de las hojas y el tamaño del sistema radicular (UF/IFAS): con el crotón es mejor quedarse corto. No abonar plantas recién trasplantadas, enfermas o con el sustrato seco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F6",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando las raíces llenan la maceta; puede pasar 1-2 años en la maceta original (RHS).",
+      "epoca": "Primavera (marzo-mayo en Madrid), al inicio del crecimiento (RHS).",
+      "senales": "Raíces que salen por los agujeros de drenaje o rodean el cepellón, el agua atraviesa la maceta sin empapar, el sustrato se seca en muy poco tiempo. Subir solo 2,5-5 cm de diámetro (Wisconsin); evitar macetas demasiado grandes (RHS), que retienen agua y favorecen la pudrición.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo para dar forma o corregir ejemplares desgarbados o alargados.",
+      "epoca": "Principio de primavera, antes de que empiece el crecimiento nuevo (Wisconsin, RHS).",
+      "como": "Cortar con tijeras afiladas y desinfectadas justo por encima de un nudo (inserción de hoja) para estimular brotes laterales (RHS); una poda fuerte en primavera ramifica plantas alargadas (Wisconsin). Usar guantes y proteger los ojos: la savia irrita la piel y mancha (RHS, NC State). Desinfectar las herramientas entre plantas para no transmitir la agalla del cuello (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "De otoño a finales de invierno (en Madrid, aproximadamente octubre-febrero; en hemisferio sur, abril-agosto).",
+      "cambios": "No es un reposo verdadero sino una fase de crecimiento lento por la menor luz (NC State, RHS): reducir el riego, no abonar, dar la máxima luz posible y mantener por encima de 15 °C, lejos de corrientes y de radiadores.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esquejes de punta (semileñosos/herbáceos)",
+        "acodo aéreo"
+      ],
+      "epoca": "Esquejes a finales de primavera-verano (RHS: principio de verano; Wisconsin: verano); acodo aéreo en primavera (Wisconsin).",
+      "pasos": "1) Cortar esquejes de punta de 8-15 cm con 3-5 hojas (UF/IFAS, CSU), con guantes. 2) Quitar las hojas inferiores y dejar que la savia deje de manar; opcionalmente impregnar la base en hormona de enraizamiento (UF/IFAS Gardening Solutions). 3) Plantar en una mezcla aireada a partes iguales de perlita y turba o fibra de coco, o enraizar en agua (CSU). 4) Mantener húmedo sin encharcar, con humedad ambiental alta y luz brillante indirecta. 5) Con el sustrato a 21-27 °C enraízan en unas 4 semanas; por debajo de 21 °C tardan varias semanas más (UF/IFAS). 6) Trasplantar cuando haya raíces y salgan hojas nuevas. Una hoja suelta en agua echa raíces pero no forma planta nueva (UF/IFAS). Las semillas no reproducen el cultivar: solo los esquejes o el acodo conservan los colores (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Muy típica del crotón: tras la compra, un cambio de sitio o pasar de exterior a interior pierde muchas hojas por el cambio brusco de luz, temperatura y humedad (Wisconsin: moverlo de forma gradual). También por corrientes frías, temperaturas por debajo de 15 °C, aire seco o sustrato demasiado seco o demasiado mojado durante días (RHS, Wisconsin). No moverla más, darle luz brillante, riego por criterio de sustrato y paciencia: rebrota."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: las hojas revierten a tonos verdes, pierden el contraste de los nervios y la planta se alarga; con mucha sombra también caen hojas inferiores (Wisconsin, RHS, NC State, CSU). Acercarla a una ventana más luminosa. Las hojas recién salidas son verdes de forma normal y se colorean después (UF/IFAS); el exceso de abono también apaga el color (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol fuerte de verano a través del cristal (ventanas sur y oeste) quema las hojas (RHS); el exceso de luz decolora rojos y naranjas y deja la hoja apagada y grisácea (Wisconsin, UF/IFAS). Poner visillo o retirarla 1-2 m del cristal en verano."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Falta de agua: las hojas jóvenes se ponen lacias en cuanto el sustrato se seca (UF/IFAS), algo frecuente por su alta transpiración en verano. Si el sustrato está mojado y la planta sigue lacia, sospechar pudrición de raíces (S36)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), principal plaga del crotón (UF/IFAS, NC State): punteado fino amarillento en el haz y, después, amarilleo. Favorecida por aire seco y calefacción."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en infestación avanzada: telaraña fina en el envés y en las puntas (UF/IFAS). Revisar el envés con frecuencia: suele detectarse tarde."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Planococcus citri, Pseudococcus longispinus y otras): masas blancas algodonosas en axilas, envés y también en raíces (UF/IFAS, Wisconsin, CSU)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (varias especies) sobre hojas, pecíolos y tallos; difíciles de ver por su forma y color variables (UF/IFAS, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza producida por cochinillas algodonosas y algunas cochinillas con escudo (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina que crece sobre la melaza de las cochinillas (UF/IFAS); se elimina al controlar la plaga y limpiar las hojas."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Trips (Heliothrips haemorrhoidalis) que se alimentan de hojas en formación (las dejan enrolladas o deformes, con cicatrices gris plateadas y puntitos oscuros) o ácaro blanco (Polyphagotarsonemus latus), que deforma y curva hacia abajo las hojas nuevas, las vuelve anaranjadas o purpúreas y acorta los entrenudos (UF/IFAS, NC State)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Encharcamiento por riego excesivo, maceta en un plato o cubremacetas con agua o sustrato que no drena (RHS); puede matar la planta."
+    },
+    {
+      "sintoma_id": "S32",
+      "causa_habitual_en_esta_especie": "Agalla del cuello (Agrobacterium tumefaciens): abultamientos que acaban acorchados en tallos, nervios y raíces, sobre todo donde se cortaron esquejes (UF/IFAS). Poco frecuente en casa; no tiene cura: desechar la planta y desinfectar herramientas."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C el crotón aguanta el calor (RHS lo admite hasta 35 °C) siempre que tenga agua y algo de humedad: su transpiración es muy alta (UF/IFAS), así que comprobar el sustrato con el dedo y el peso cada 2-3 días y regar a fondo en cuanto se sequen los 2-3 cm superiores. En ventanas sur y oeste poner visillo o retirarla 1-2 m del cristal de junio a septiembre, porque el sol fuerte tras el cristal quema y decolora las hojas; una ventana este con sol de mañana es ideal. El aire muy seco (HR exterior ≈38 % en julio) y el aire acondicionado favorecen la araña roja: revisar el envés cada semana y usar humidificador o agrupar plantas. No colocarla en la salida directa del aire acondicionado. Si sale a la terraza, hacerlo de forma gradual y en semisombra.",
+    "invierno": "Mantener por encima de 15 °C día y noche, lejos de cristales fríos por la noche (separarla unos centímetros o correr la cortina entre ella y el cristal), de puertas con corrientes y de radiadores. La calefacción deja la humedad interior por debajo del 30 %, muy lejos del mínimo de 40 %: usar humidificador o agrupar plantas, porque el aire seco provoca caída de hojas y araña roja. En invierno sí conviene la ventana más luminosa, incluso con sol directo de sur, para no perder color. Reducir el riego (pero comprobar: la calefacción seca el sustrato) y no abonar de octubre a febrero. No moverla de sitio en esta época.",
+    "ubicacion_recomendada": "Habitación luminosa y cálida, a menos de 1 m de una ventana este o junto a una sur u oeste con visillo en verano; sin corrientes ni radiador cerca. Elegir un sitio definitivo y no moverla, porque cada cambio de lugar provoca caída de hojas. Fuera del alcance de niños y mascotas."
+  },
+  "lagunas": [
+    "Toxicidad: ASPCA no tiene ficha de Codiaeum variegatum (se buscó por nombre científico y comunes en sus listas de perros y gatos el 2026-10-21; su 'Variegated Laurel' corresponde a Tradescantia y 'Joseph's Coat' a Iresine herbstii). La clasificación 'toxica' para perros y gatos se basa en NC State, RHS, UF/IFAS, NTBG y Pet Poison Helpline (esta última sin distinguir especie animal). No se encontraron casos clínicos veterinarios documentados con dosis.",
+    "Taxonomía: POWO acepta Codiaeum variegatum (L.) Rumph. ex A.Juss.; basiónimo Croton variegatus L. Sinónimos homotípicos: Codiaeum chrysosticton, Crozophyla variegata, Oxydectes variegata, Phyllaurea variegata. Los crotones de interior se comercializan a menudo como 'Codiaeum variegatum var. pictum', nombre que no figura entre los sinónimos homotípicos mostrados por POWO; no se ha verificado su estatus.",
+    "Humedad: solo CSU da cifras (40-80 %); el ideal de 60 % es el punto medio de ese rango, no una cifra publicada.",
+    "Luz: ninguna fuente prioritaria da un valor de luz en lux o fc para el hogar salvo el mínimo de 100 fc de UF/IFAS para cultivares seleccionados; el límite de 500-1000 fc es la escala del proyecto para luz brillante indirecta aplicada a lo que describen las fuentes.",
+    "Temperatura máxima: solo la RHS da un máximo (35 °C); no hay datos sobre daños por calor por encima de 35-40 °C en interior.",
+    "Nerviación: ninguna fuente prioritaria abierta describe la nerviación de forma explícita; el texto de identificación se basa en la morfología observable de los cultivares comerciales.",
+    "Color de la savia: NC State la describe como transparente; Wisconsin como lechosa y la RHS como blanca tipo látex. Se anota en identificación sin precisar el color."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/codiaeum-variegatum/",
+      "institucion": "NC State Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hort.extension.wisc.edu/articles/croton-codiaeum-variegatum/",
+      "institucion": "University of Wisconsin-Madison Division of Extension, Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/codiaeum/how-to-grow-codiaeum",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/?p=4553",
+      "institucion": "University of Florida IFAS Extension, Gardening Solutions (Crotons)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://journals.flvc.org/edis/article/view/108744",
+      "institucion": "University of Florida IFAS, EDIS ENH878 'Croton Production and Use' (Stamps y Osborne)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1346-croton-codiaeum-variegatum/",
+      "institucion": "Colorado State University Extension, PlantTalk Colorado",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:85073-3",
+      "institucion": "Plants of the World Online (Royal Botanic Gardens, Kew)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ntbg.org/database/plants/detail/codiaeum-variegatum",
+      "institucion": "National Tropical Botanical Garden (NTBG), base de datos de plantas",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.petpoisonhelpline.com/poison/croton/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

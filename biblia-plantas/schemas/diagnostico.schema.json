@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Árbol de diagnóstico visual",
+  "type": "object",
+  "required": ["version", "sintomas", "fuentes"],
+  "properties": {
+    "version": { "type": "string" },
+    "sintomas": {
+      "type": "array",
+      "minItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "como_se_ve", "donde_mirar", "causas", "confianza", "fuentes"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^S[0-9]{2,3}$" },
+          "nombre": { "type": "string" },
+          "como_se_ve": { "type": "string" },
+          "donde_mirar": { "type": "string" },
+          "urgencia": { "type": "string", "enum": ["baja", "media", "alta"] },
+          "causas": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["causa", "tipo", "probabilidad", "como_diferenciar", "preguntas_confirmacion", "tratamiento", "tiempo_recuperacion", "cuando_descartar"],
+              "properties": {
+                "causa": { "type": "string" },
+                "tipo": { "type": "string", "enum": ["riego", "luz", "humedad", "temperatura", "nutricion", "sustrato", "plaga", "enfermedad", "fisiologico", "ambiental", "agua"] },
+                "probabilidad": { "type": "string", "enum": ["alta", "media", "baja"] },
+                "como_diferenciar": { "type": "string" },
+                "preguntas_confirmacion": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "tratamiento": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "tiempo_recuperacion": { "type": "string" },
+                "cuando_descartar": { "type": "string" },
+                "plaga_o_enfermedad_ref": { "type": ["string", "null"] }
+              }
+            }
+          },
+          "confianza": { "type": "string", "enum": ["Alta", "Media", "Baja"] },
+          "fuentes": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        }
+      }
+    },
+    "fuentes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "institucion", "tipo", "fecha_consulta"],
+        "properties": {
+          "id": { "type": "string" }, "url": { "type": "string" }, "institucion": { "type": "string" },
+          "tipo": { "type": "string", "enum": ["prioritaria", "complementaria"] }, "fecha_consulta": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "nombre_cientifico": "Aspidistra elatior",
+  "nombres_comunes": ["aspidistra", "hojas de salón", "pilistra", "planta de hierro"],
+  "familia": "Asparagaceae",
+  "origen": "Sur de Japón (POWO, Kew; RHS: Japón). Nombre aceptado: Aspidistra elatior Blume (1834). Naturalizada en el sur de China, Taiwán, Corea, Florida, Alabama, Arkansas, México, El Salvador, Gran Bretaña y España (POWO). RHS cita el sinónimo Aspidistra insularis. ASPCA aún la asigna a Liliaceae, clasificación ya obsoleta.",
+  "clima_nativo": "Subtropical húmedo: perenne rizomatosa (geófito) del sotobosque de bosques templado-cálidos (POWO; UF/IFAS: bosques de Asia templada). Vive en sombra densa, en suelos pobres, y aguanta heladas ligeras.",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, basales y erguidas, que salen una a una directamente del sustrato. Lámina de 45-90 cm de largo (UF/IFAS) y 7,5-15 cm de ancho (NC State), elíptica, oblonga o lanceolada, de punta aguda y margen entero. Coriácea, gruesa, lisa, sin pelos y brillante; verde oscuro. Cada hoja tiene un peciolo largo, acanalado y rígido de 18-30 cm.",
+    "nerviacion": "Paralela: 16-20 nervios longitudinales que corren de la base a la punta (NC State), visibles como surcos finos en el haz. Sin nervio central dominante en forma de espina de pescado.",
+    "variegacion": "Forma tipo verde oscuro uniforme. Cultivares: 'Variegata' u 'Okame' (bandas longitudinales crema o blancas), 'Milky Way' y 'Hoshi-zora' (motas blancas o amarillas), 'Asahi' y 'Snow Cap' (punta de la hoja blanca), 'Goldfeather' (rayas doradas o verde claro). Con abono excesivo o con muy poca luz las variegadas vuelven al verde (RHS; UF/IFAS).",
+    "tallo": "Acaule: no tiene tallo aéreo; lo que parecen tallos son los peciolos (NC State). Bajo el sustrato hay un rizoma grueso, carnoso y rastrero que se ramifica y forma matas densas.",
+    "habito": "Mata erguida, densa, que se ensancha despacio por el rizoma. Crecimiento lento: pocas hojas nuevas al año. Flores raras en interior: pequeñas (menos de 2,5 cm), carnosas, en forma de copa de 8 lóbulos, color crema, pardo o púrpura, a ras del sustrato y a menudo ocultas por las hojas; necesita más luz para florecer (NC State; RHS).",
+    "tamano_adulto_interior": "Unos 60 cm de alto y de ancho en maceta (RHS); hasta 30-90 cm de alto y de ancho según NC State y UF/IFAS.",
+    "confusiones": [
+      {"especie": "Hosta spp. (hosta)", "rasgo_diferenciador": "La hosta es caducifolia (pierde la parte aérea en invierno), tiene hojas más anchas, acorazonadas o redondeadas, y forma varas florales altas por encima de las hojas. La aspidistra es perenne, de hoja estrecha y lanceolada, y florece a ras de suelo (NC State la cita como confusión habitual)."},
+      {"especie": "Canna spp. (caña de Indias)", "rasgo_diferenciador": "La canna tiene un falso tallo aéreo formado por las vainas de las hojas, hojas alternas a lo largo de él y espigas de flores grandes y vistosas en lo alto. La aspidistra no tiene tallo: cada hoja sale sola del sustrato con su peciolo."},
+      {"especie": "Spathiphyllum wallisii (espatifilo)", "rasgo_diferenciador": "El espatifilo tiene hojas más finas y blandas, con un nervio central marcado y nervios secundarios pinnados, y espatas blancas sobre tallos florales. La aspidistra tiene nervios paralelos sin nervio central dominante y hojas muy rígidas y coriáceas."},
+      {"especie": "Rohdea japonica (rodea)", "rasgo_diferenciador": "Rohdea forma una roseta de hojas sin peciolo largo, más estrechas, acintadas y agrupadas, y da bayas rojas vistosas en el centro. La aspidistra tiene cada hoja sobre un peciolo largo y casi nunca da fruto en interior."},
+      {"especie": "Otras Aspidistra (A. sichuanensis, A. attenuata, A. linearifolia)", "rasgo_diferenciador": "Especies afines de colección: A. linearifolia es más baja (unos 40 cm) y de hoja estrecha con una franja central; A. attenuata florece con más profusión (UF/IFAS). Los cuidados son similares, pero la identificación exacta requiere ver la flor."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros, gatos y caballos (ASPCA; NC State la etiqueta como no tóxica para perros, gatos y caballos). En personas, el Centro de Toxicología de Utah (Utah Poison Control Center, Universidad de Utah) la incluye en su lista de plantas no tóxicas: la enfermedad por ingerirla o tocarla es poco probable. No tóxica no significa comestible: comer mucha hoja coriácea puede causar una molestia digestiva leve y pasajera. Ante cualquier duda, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": ["F5", "F1", "F7"],
+    "notas": "Perros y gatos: Alta (ASPCA y NC State coinciden). Niños: una sola fuente prioritaria (Utah Poison Control Center), por lo que para personas la confianza es Media. Ninguna fuente cita un principio activo tóxico."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "baja",
+      "lux_min": 269,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana norte o rincón interior luminoso, lejos de ventanas sur (Clemson). Este u oeste solo a 2-3 m del cristal o tras visillo. Tolera pasillos, recibidores y rincones oscuros (RHS).",
+      "tolera_sol_directo": "No. El sol directo quema las hojas: manchas pardas o blanqueadas (UF/IFAS, Clemson, RHS, NC State: 'intolerante al sol directo').",
+      "notas": "Escala del proyecto: aguanta luz baja (25-100 fc, ≈269-1076 lux) y crece mejor con luz media a brillante filtrada (hasta 1000 fc, ≈10760 lux) siempre sin sol directo (RHS: 'aunque tolera sombra profunda, crece mejor con luz brillante filtrada'). Con muy poca luz crece más despacio y las variegadas se vuelven verdes (RHS). Para florecer necesita más luz (NC State). Limpiar el polvo de las hojas con un paño húmedo de vez en cuando (RHS).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4", "F6"]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto y la maceta pese claramente menos; en macetas grandes, comprobar a 5 cm (Clemson indica esperar a que se seque a 5-7,5 cm). Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-20 minutos: nunca dejar agua estancada (Clemson). El encharcamiento pudre el rizoma y las raíces (RHS); el exceso de riego es la causa nº 1 de muerte.",
+      "primavera_verano": "Riego regular con crecimiento activo: sustrato ligeramente húmedo, nunca empapado, dejando que se seque un poco entre riegos (RHS; NC State: 'regar regularmente de primavera a otoño'). Como orientación de interior, suele ser cada 7-14 días [orientativo, sin fuente prioritaria]; manda siempre el dedo y el peso.",
+      "otono_invierno": "Reducir: regar con moderación (NC State: 'escasamente en invierno'), esperando a que se seque más, pero sin dejar que el cepellón se seque del todo (RHS). Con calefacción y luz baja, a menudo cada 2-4 semanas [orientativo, sin fuente prioritaria].",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo válida. Arkansas Extension incluye Aspidistra entre las plantas sensibles al flúor (puntas necrosadas y clorosis marginal) y señala como fuentes de flúor el agua fluorada, el superfosfato, la perlita y algunas turbas; recomienda lavar la perlita y mantener el pH del sustrato en 6,0-6,5. El agua de Madrid (Canal de Isabel II) tiene fluoruro <0,1 mg/L y es blanda: no hay que atribuir puntas marrones al agua del grifo de Madrid, sino a sales de abono acumuladas, riego irregular o perlita sin lavar. UF/IFAS indica baja tolerancia a la salinidad del suelo; NC State, ligera tolerancia: lavar el sustrato con abundante agua 2-3 veces al año evita la acumulación de sales.",
+      "notas": "Pequeña discrepancia sobre la sal: UF/IFAS 'poor' frente a NC State 'slightly salt tolerant' (contexto de jardín costero). Se adopta lo prudente: abono diluido y lavado periódico del sustrato.",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F4", "F1", "F8"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No necesita humedad ambiental alta: está bien con el aire bastante seco de una vivienda normal (RHS). Ninguna fuente prioritaria da porcentajes, por eso los valores son null. Pulverizar no sirve; no hace falta humidificador. Con aire muy seco (calefacción, HR <30 %) pueden aparecer puntas secas y aumenta el riesgo de araña roja.",
+      "confianza": "Media",
+      "fuentes": ["F4"]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": null,
+      "ideal_min_c": 7,
+      "ideal_max_c": 20,
+      "notas": "En interior: RHS indica 5-20 °C en su guía y un mínimo de 7 °C en la ficha de cultivo como planta de interior; se adopta 7 °C (el más conservador). Prefiere una habitación fresca, lejos de radiadores; tolera algo más de calor en verano y las fluctuaciones y corrientes de aire (RHS). Ninguna fuente prioritaria da un máximo: max_c null; por encima de 30 °C con aire seco conviene vigilar el riego y la araña roja [orientativo, sin fuente prioritaria]. En exterior es mucho más rústica: RHS H3 (aguanta de -5 a 1 °C; resistente en zonas suaves del Reino Unido, en lugar resguardado); NC State, Clemson y UF/IFAS: zonas USDA 7-11. Las hojas sufren quemadura por viento invernal: resguardar del viento (UF/IFAS, NC State).",
+      "confianza": "Alta",
+      "fuentes": ["F4", "F6", "F1", "F2", "F3"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior bien drenado (Clemson). RHS recomienda una mezcla 50:50 de sustrato con base de tierra franca (tipo loam, sin turba) y sustrato universal sin turba. Tolera suelos pobres y de cualquier textura (UF/IFAS, NC State). Si se usa perlita, lavarla antes (Arkansas, flúor).",
+      "ph": "Indiferente: ácido, neutro o alcalino (RHS; NC State; UF/IFAS: ligeramente alcalino a ácido). Arkansas recomienda 6,0-6,5 para plantas sensibles al flúor.",
+      "drenaje": "Imprescindible: maceta con agujeros y sin agua en el plato. No soporta el suelo encharcado (Clemson; RHS).",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F4", "F2", "F1", "F8"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS; Clemson). Necesita poco: tolera suelos pobres (UF/IFAS).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes de primavera a final de verano, a ¼-½ de la dosis de la etiqueta (RHS indica mensual; la ficha de cultivo de RHS, solo 2-3 veces por temporada). En variegadas, mejor 2-3 veces por temporada: el exceso de abono las vuelve verdes (RHS; UF/IFAS: las variegadas necesitan suelo pobre para conservar el color).",
+      "otono_invierno": "Nada.",
+      "notas": "Las dos páginas de RHS difieren (mensual frente a 2-3 veces); se adopta la pauta del proyecto a dosis reducida y la más baja para variegadas. Ninguna fuente prioritaria da NPK: null.",
+      "confianza": "Alta",
+      "fuentes": ["F4", "F6", "F3", "F2"]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: crece despacio y puede pasar varios años en la misma maceta, hasta que las raíces asomen por los agujeros de drenaje (RHS); cada 3-4 años es lo habitual [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (RHS).",
+      "senales": "Raíces saliendo por el drenaje, rizomas que llenan toda la superficie y empujan contra el borde, agua que no empapa o drena enseguida. Usar una maceta solo un poco mayor para no sobredimensionar y mantener la planta a la misma altura (RHS).",
+      "confianza": "Media",
+      "fuentes": ["F4"]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS); solo limpieza.",
+      "epoca": "En cualquier momento para hojas secas; en exterior, la renovación de hojas viejas a final de invierno o en primavera (Clemson; UF/IFAS).",
+      "como": "Cortar a ras del sustrato, con tijera limpia, cada hoja amarilla, rota o quemada; una hoja dañada no se recupera. En plantas de patio, Clemson indica que se puede cortar toda la mata cada 2-3 años a finales de invierno y vuelve a brotar en primavera.",
+      "confianza": "Alta",
+      "fuentes": ["F4", "F6", "F3", "F2"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno en el hemisferio norte (en Madrid, aprox. de noviembre a febrero).",
+      "cambios": "Crecimiento casi nulo: reducir el riego sin dejar que se seque del todo (RHS), suspender el abono y mantenerla fresca (5-20 °C según RHS, mínimo 7 °C en interior), lejos de radiadores. No es un reposo estricto: es una planta perenne que conserva todas sus hojas.",
+      "confianza": "Alta",
+      "fuentes": ["F4", "F1", "F6"]
+    },
+    "propagacion": {
+      "metodos": ["división del rizoma"],
+      "epoca": "Primavera y principios de verano, con crecimiento activo (Clemson; RHS).",
+      "pasos": "1) Sacar la planta de la maceta y quitar el sustrato sobrante del rizoma. 2) Cortar el rizoma grueso con un cuchillo limpio y afilado, de forma que cada trozo tenga varias hojas (RHS) y al menos dos (Clemson) con sus raíces. 3) Plantar cada división en una maceta poco mayor que su cepellón, con sustrato drenante y a la misma profundidad. 4) Regar una vez a fondo y dejar en sombra luminosa; después regar con moderación hasta ver hojas nuevas. 5) Es normal que tarde meses en brotar: crece despacio (UF/IFAS). No se propaga por esqueje de hoja ni, en la práctica, por semilla.",
+      "confianza": "Alta",
+      "fuentes": ["F3", "F4", "F2", "F1"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Sol directo, sobre todo tras una ventana sur u oeste o en un patio sin sombra: manchas pardas o blanqueadas en la lámina (UF/IFAS, Clemson, RHS)."},
+    {"sintoma_id": "S07", "causa_habitual_en_esta_especie": "Quemadura por sol o por viento invernal en exterior (UF/IFAS); también las manchas foliares, el único problema de enfermedad que cita UF/IFAS."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Exceso de riego o agua en el plato: el rizoma y las raíces se pudren (RHS, Clemson). Es la forma más habitual de matarla."},
+    {"sintoma_id": "S02", "causa_habitual_en_esta_especie": "Envejecimiento natural de las hojas más viejas (normal si es una hoja suelta); si son varias a la vez, exceso de riego."},
+    {"sintoma_id": "S05", "causa_habitual_en_esta_especie": "Sales de abono acumuladas, riego irregular, aire muy seco o perlita sin lavar. Arkansas la cita como sensible al flúor, pero en Madrid el agua del grifo no aporta flúor relevante."},
+    {"sintoma_id": "S23", "causa_habitual_en_esta_especie": "Araña roja con aire seco y cálido (calefacción o verano): punteado amarillento o plateado en el haz (RHS; Clemson recomienda revisar las hojas cada semana)."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Araña roja en ataques fuertes (RHS: 'glasshouse red spider mite')."},
+    {"sintoma_id": "S30", "causa_habitual_en_esta_especie": "Cochinillas de escudo en nervios y envés (RHS, Clemson)."},
+    {"sintoma_id": "S29", "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la base de los peciolos y en el envés (RHS)."},
+    {"sintoma_id": "S19", "causa_habitual_en_esta_especie": "Cultivares variegados que vuelven al verde por exceso de abono o por muy poca luz (RHS; UF/IFAS)."},
+    {"sintoma_id": "S17", "causa_habitual_en_esta_especie": "Crecimiento muy lento normal de la especie, más aún con luz muy baja o en invierno (RHS): no es un problema por sí mismo."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 %), alejarla de ventanas sur y oeste: el sol directo, incluso tras el cristal, quema las hojas. Ideal: una habitación orientada al norte o un rincón interior luminoso. Regar cuando los 2-3 cm superiores estén secos (con calor puede ser más a menudo), sin dejar agua en el plato. Revisar cada semana el envés por si hay araña roja, que prolifera con calor seco. En patio o terraza, solo en sombra total y fuera del sol de la tarde.",
+    "invierno": "Con calefacción y HR interior <30 %, apartarla de radiadores y bombas de calor: prefiere una habitación fresca (RHS: 5-20 °C; mínimo 7 °C en interior). Junto a un cristal frío no suele sufrir, porque tolera el fresco y las corrientes, pero las hojas no deben tocar el vidrio. Regar poco, sin dejar que el cepellón se seque del todo, y no abonar. Exterior: con calificación RHS H3 (hasta unos -5 °C) y zonas USDA 7-11, puede vivir todo el año en un patio sombreado y resguardado del viento, en el suelo o en una maceta grande. En las olas de frío con heladas fuertes por debajo de -5 °C, o en macetas pequeñas (el rizoma se hiela antes), conviene meterla dentro o protegerla con tela térmica; si se quema la parte aérea, el rizoma suele rebrotar en primavera [orientativo, sin fuente prioritaria para Madrid].",
+    "ubicacion_recomendada": "Interior: recibidor, pasillo, salón u oficina con luz norte o luz indirecta, a 2-3 m de ventanas este u oeste y lejos de ventanas sur. Exterior: patio sombreado o umbría de terraza, protegida del sol directo y del viento de invierno."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) confirma Aspidistra elatior Blume (1834) como nombre aceptado, nativa del sur de Japón; familia Asparagaceae. RHS cita el sinónimo Aspidistra insularis. ASPCA usa Liliaceae (obsoleta). No hay cambio de nombre.",
+    "Humedad: ninguna fuente prioritaria da porcentajes; min_pct e ideal_pct = null. RHS solo dice que tolera el aire seco de una vivienda normal.",
+    "Temperatura máxima: ninguna fuente prioritaria da un máximo; max_c = null.",
+    "Abono: ninguna fuente prioritaria da NPK; npk = null.",
+    "Luz en lux o fc: ninguna fuente prioritaria abierta da cifras para la especie. Una hoja de Mississippi State Extension (P1012) la clasificaría como luz baja (25-75 fc) según el buscador, pero su URL devuelve 404 y no se cita. lux_min y lux_max se toman de la escala del proyecto.",
+    "L32 (sensibilidad al flúor): se encuentra fuente prioritaria. El boletín de la Arkansas Plant Health Clinic (University of Arkansas Cooperative Extension, n.º 11, mayo de 2014) incluye 'Aspidistra (Cast Iron Plant)' entre las plantas sensibles al flúor. No da umbrales de concentración. En Madrid no se aplica al agua de red (fluoruro <0,1 mg/L).",
+    "Toxicidad en personas: una sola fuente prioritaria (Utah Poison Control Center, Universidad de Utah), que la lista como no tóxica. La hoja de UConn Extension 'Houseplants Safe and Poisonous Varieties' devolvió error 503 y no se cita.",
+    "Missouri Botanical Garden Plant Finder: no se encontró la ficha de la especie (la búsqueda no devolvió resultados accesibles); no se cita.",
+    "Frecuencias orientativas de riego (en días) y de trasplante (cada 3-4 años): sin fuente prioritaria, marcadas como orientativas.",
+    "Rusticidad en Madrid: no hay fuente prioritaria específica para el clima de Madrid; se deduce de la calificación RHS H3 y de las zonas USDA 7-11."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/aspidistra-elatior/", "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://edis.ifas.ufl.edu/publication/FP053/pdf", "institucion": "UF/IFAS Extension – EDIS FPS53 'Aspidistra spp.: Cast Iron Plant' (University of Florida, rev. dic. 2025)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://hgic.clemson.edu/cast-iron-plant/", "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://www.rhs.org.uk/plants/aspidistra/how-to-grow-aspidistras", "institucion": "Royal Horticultural Society (RHS) – guía 'How to grow aspidistras'", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cast-iron-plant", "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://www.rhs.org.uk/plants/153971/aspidistra-elatior-asahi-v/details", "institucion": "Royal Horticultural Society (RHS) – ficha de cultivo Aspidistra elatior 'Asahi'; ficha de la especie (H3, sinónimos) en https://www.rhs.org.uk/plants/1715/aspidistra-elatior/details", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://poisoncontrol.utah.edu/sites/g/files/zrelqx281/files/media/documents/2021/PlantGuide.pdf", "institucion": "Utah Poison Control Center (University of Utah College of Pharmacy) – Plant Poisoning Prevention", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://www.uaex.uada.edu/yard-garden/plant-health-clinic/docs/2014_Plant_Health_Clinic_Newsletters/Plant%20Health%20Clinic%20Newsletter-Issue%2011.pdf", "institucion": "University of Arkansas System Division of Agriculture – Cooperative Extension, Plant Health Clinic Newsletter n.º 11 (2014)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:531586-1", "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

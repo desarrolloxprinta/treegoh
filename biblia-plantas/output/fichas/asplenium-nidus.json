@@ -1,0 +1,379 @@
+{
+  "nombre_cientifico": "Asplenium nidus",
+  "nombres_comunes": [
+    "helecho nido de ave",
+    "nido de ave",
+    "asplenio",
+    "bird's nest fern (inglés)"
+  ],
+  "familia": "Aspleniaceae",
+  "origen": "Trópicos del Viejo Mundo (F1, F7): desde Polinesia y Hawái hacia el oeste por el Sudeste Asiático (Indonesia, Malasia, Nueva Guinea) hasta Australia tropical y Madagascar (F1, F2, F5). UF/IFAS lo sitúa en las selvas tropicales húmedas de Oceanía (F3). POWO (Kew) lo recoge como especie con autor Linneo: Asplenium nidus L. (F13). El epíteto 'nidus' significa nido, por la roseta en forma de nido (F1).",
+  "clima_nativo": "Tropical húmedo de selva, sin heladas: vive como epífita sobre troncos y ramas, recogiendo agua y hojarasca en su roseta (F1, F2, F3). No tolera la sequedad ni las heladas (F2). Rústico al exterior solo en zonas USDA 10-12 según la fuente (MBG 10-11 en cultivo, 11-12 como rango; NC State 11a-12b; UF 9b-11b con protección en la 9) (F1, F2, F3). RHS: H1B (cultivo bajo cristal; mínimo 10-15 °C; puede salir al exterior en verano en Reino Unido) (F7).",
+  "categoria": "helecho",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Frondes SIMPLES y ENTERAS (sin dividir en pinnas, a diferencia de casi todos los helechos), en forma de cinta o correa, coriáceas, lisas y brillantes, de color verde manzana claro, con margen ondulado y punta aguda (F1, F2, F3, F7). En interior miden 45-60 cm de largo (F1, F5); en exterior tropical, hasta 1,2-1,5 m de largo y unos 20 cm de ancho (F1, F2, F7). Se recuerdan a hojas de plátano (F2). Las frondes nuevas se desenrollan desde el centro de la roseta (F3, F5). SOROS (estructuras de esporas): en el envés, en líneas rectas pardas a negras, paralelas, dispuestas en espiga desde el nervio central hacia el margen (F1, F2); UF los describe como esporóforos pardos y prominentes (F3). Rasgo clave para la IA: rayas regulares, paralelas y simétricas en el envés = soros, NO plaga; bultos sueltos, irregulares, que se levantan con la uña = cochinillas (S30). Cultivares: 'Antiquum' (margen ondulado), 'Campio' (frondes rizadas, como plumosas), 'Crispy Wave' (rizadas, como espadas), 'Osaka' (estrechas con margen ondulado), 'Victoria' (largas, en forma de lengua y onduladas) (F2); hay formas crestadas o con puntas bifurcadas y enanas, y los nombres de cultivar no son estables (F4).",
+    "nerviacion": "Nervio central (costa) muy marcado, pardo oscuro a negro, que contrasta con la lámina verde (F1, F2, F3). Nerviación pinnada (F3): nervios secundarios finos, rectos y paralelos que salen del nervio central hacia el margen, la misma dirección que siguen las líneas de soros (F1).",
+    "variegacion": "Sin variegación: verde uniforme (F2, F3). Un amarilleo de la fronda no es variegación: suele indicar exceso de sol (F2, F4) o fronda vieja.",
+    "tallo": "Sin tallo visible: las frondes salen directamente de un rizoma corto y erguido en el centro de la roseta (F3, F7), rodeado de escamas y raíces que forman el 'nido' donde se acumula materia orgánica (F1, F3).",
+    "habito": "Epífita perenne y siempreverde de crecimiento lento, en roseta erguida en forma de jarrón o embudo con el centro hueco ('nido') (F1, F2, F3, F7). Normalmente una sola roseta por planta [orientativo, sin fuente prioritaria].",
+    "tamano_adulto_interior": "En maceta de interior, frondes de 45-60 cm (F1, F5); Clemson indica unos 45 cm de altura (F6). En exterior tropical, 0,6-1,5 m de alto y 0,5-1 m de ancho (F1, F2, F3, F7). Crecimiento lento: RHS da 5-10 años hasta el tamaño adulto (F7).",
+    "confusiones": [
+      {
+        "especie": "Asplenium antiquum (helecho nido de ave japonés), muy vendido como planta de interior",
+        "rasgo_diferenciador": "Especie asiática más pequeña, que UF/IFAS señala como más común en el comercio de plantas de interior que A. nidus (F3); RHS la describe de 60-90 cm, con frondes también enteras, brillantes y onduladas y nervio central pardo en las frondes maduras (F8), frente a 1-1,5 m de A. nidus (F7). 'Leslie' tiene las puntas de las frondes bifurcadas (F5). En foto de planta joven la separación es difícil: los cuidados son equivalentes, así que la app puede tratarlas igual. Muchas plantas vendidas como A. nidus podrían ser A. antiquum o híbridos [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Dracaena trifasciata (Sansevieria), llamada 'Golden Bird's Nest' / 'nido de ave'",
+        "rasgo_diferenciador": "Comparte el nombre común 'nido de pájaro' en algunas listas (ASPCA) pero es una suculenta de hojas rígidas, gruesas, carnosas y erguidas, a menudo con bandas o bordes amarillos, sin nervio central negro y sin soros. Importante: la ASPCA la da como tóxica para perros y gatos (F9, F10), mientras que el helecho no figura en su base de datos. No confundir por el nombre común."
+      },
+      {
+        "especie": "Musa spp. (platanera) joven",
+        "rasgo_diferenciador": "NC State compara las frondes con hojas de plátano (F2), pero A. nidus no tiene tallo ni pecíolo largo: las frondes salen directamente de una roseta en embudo (F3), y las frondes adultas llevan líneas de soros en el envés (F1, F2). La platanera no tiene soros."
+      },
+      {
+        "especie": "Otros helechos de interior (Nephrolepis, Adiantum, Davallia)",
+        "rasgo_diferenciador": "Tienen las frondes divididas en pinnas o pínnulas; las de A. nidus son enteras, sin divisiones (F1, F2, F7)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas para Asplenium nidus en ninguna fuente prioritaria. Clemson Extension, en su ficha de la especie, indica que los helechos se consideran no tóxicos para las mascotas (F5). La ASPCA no tiene entrada para A. nidus ni 'bird's nest fern' (listas de perros y gatos revisadas: solo aparecen la Sansevieria 'Golden Bird's Nest', tóxica, y Asplenium bulbiferum) (F9, F10); su congénere A. bulbiferum figura como no tóxico para perros, gatos y caballos (F11). La RHS no lleva advertencia de toxicidad en su ficha (F7). La ASPCA advierte con carácter general que comer cualquier planta puede causar vómitos y molestias digestivas leves. Ante una ingestión: Servicio de Información Toxicológica (91 562 04 20) o veterinario, llevando foto o nombre de la planta.",
+    "confianza": "Media",
+    "fuentes": [
+      "F5",
+      "F9",
+      "F10",
+      "F11",
+      "F7"
+    ],
+    "notas": "Perros y gatos: 'no_toxica' con confianza Media, apoyada en una sola fuente prioritaria específica de la especie (Clemson, F5), que además lo dice de forma genérica para 'los helechos'; la ASPCA solo confirma la no toxicidad del congénere A. bulbiferum (F11), no de A. nidus. Niños: ninguna fuente prioritaria trata la toxicidad en personas; se deja 'desconocida' y se recomienda mantenerla fuera del alcance de niños pequeños. No confundir con la Sansevieria 'Golden Bird's Nest', que sí es tóxica (F9, F10)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana norte luminosa (F1, F2, F6) o este (F5); RHS indica este u oeste, en posición resguardada (F7). En ventana sur u oeste, nunca detrás del cristal con sol: a 2-3 m o tras cortina tupida [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "No. Evitar el sol directo (F1); con demasiado sol las frondes amarillean y la planta deja de crecer (F2, F4); la luz directa daña el follaje de los helechos de interior (F6).",
+      "notas": "MBG: luz brillante filtrada, ni sol directo ni sombra densa; tolera algo de sombra (F1). NC State: luz brillante o sombra ligera, como una ventana norte (F2). UF/IFAS: luz brillante indirecta en interior (F3, F4). RHS: luz brillante indirecta (F7). Clemson: luz brillante indirecta, ventana este o norte (F5). Escala del proyecto: media 100-500 fc, brillante indirecta 500-1000 fc. Se adopta 100-1000 fc (≈1076-10760 lux) porque las fuentes admiten una ventana norte y algo de sombra; los límites en lux son conversión de la escala del proyecto, no cifras de las fuentes [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo de forma uniforme pero no empapado (F1, F7). Comprobar con el dedo a 2-3 cm y por el peso de la maceta: regar cuando los 2-3 cm superiores estén secos al tacto (Clemson: 'cuando la pulgada superior del suelo esté seca', ≈2,5 cm) (F5) o la maceta pese claramente menos, sin dejar NUNCA que el cepellón se seque del todo entre riegos (F5, F6). REGAR POR EL BORDE de la maceta, sobre el sustrato, sin mojar las frondes y sin echar agua en el centro de la roseta (F5). Regar a fondo hasta que drene y vaciar el plato: la maceta no debe quedar en agua, porque pudre las raíces (F5, F6). Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo y calor, el sustrato se seca antes: revisar cada 2-3 días (a diario con olas de calor en Madrid) y regar en cuanto los 2-3 cm superiores estén secos [frecuencia de revisión orientativa, sin fuente prioritaria]. La tolerancia a la sequía es escasa (F3, F2).",
+      "otono_invierno": "Con menos luz y temperatura la planta consume menos y el sustrato tarda más en secarse: espaciar los riegos según dedo y peso, sin dejar que se seque del todo (F5, F6). Con la calefacción encendida el sustrato puede volver a secarse rápido: decidir siempre por dedo y peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Tolerancia a las sales del suelo 'pobre' (UF/IFAS, F3) y los helechos se queman con exceso de abono (F6): lavar el sustrato con agua abundante 2-3 veces al año para arrastrar sales [orientativo, sin fuente prioritaria]. Con el agua del grifo de Madrid (blanda, con cloramina, flúor <0,1 mg/L) no hace falta agua destilada ni de lluvia; dejarla reposar no elimina la cloramina y tampoco es necesario. Las puntas secas se deben al aire seco, a corrientes, al riego irregular o a sales del abono, no al cloro ni al flúor. Agua a temperatura ambiente.",
+      "notas": "Sensibilidad al exceso 'alta' por dos vías: agua acumulada en el centro de la roseta (Clemson pide regar por el borde para evitarlo, F5; riesgo de podredumbre de corona, S15) y maceta encharcada o en plato con agua (pudrición radicular, F5, F6). Sensibilidad a la sequía 'alta': no tolera condiciones secas (F2) y su tolerancia a la sequía es escasa (F3).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 50,
+      "notas": "Necesita humedad 'bastante alta', difícil de lograr en interior en invierno (MBG, F1); no tolera condiciones secas (F2); RHS pide humedad moderada (F7). Ninguna fuente prioritaria da una cifra para esta especie: el 50 % de Clemson se refiere a los culantrillos (F6). Mínimo 40 % e ideal 50 % son [orientativo, sin fuente prioritaria]. Medidas útiles: humidificador cerca en invierno (F5), agrupar plantas, baño luminoso (F1). El plato con grava húmeda (F1, F2, F5) ayuda poco y pulverizar no sube la humedad de forma útil (convención del proyecto); además mojar las frondes y el centro no conviene (F5). Las corrientes de aire secan los bordes de las frondes (F1).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F7"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 21,
+      "notas": "Ideal 60-70 °F (≈16-21 °C) según MBG y NC State (F1, F2); Clemson: 55-70 °F (≈13-21 °C) y, para la mayoría de helechos, unos 5-6 °C menos por la noche (F5, F6). Mínimo: MBG fija para interior 55 °F (≈12,8 °C) y advierte que las plantas de interior toleran peor bajar de 50 °F (10 °C) que las de exterior (F1); NC State dice que no sobrevive por debajo de 40 °F (≈4,4 °C) (F2); Clemson pide entrarla antes de que las noches bajen de 50 °F (10 °C) (F5). Se adopta el mínimo más alto, 13 °C (F1). La clasificación RHS H1B (mínimo 10-15 °C) se refiere al cultivo bajo cristal en Reino Unido (F7) y es coherente con ese valor. Sin heladas (F2). Máximo tolerado: ninguna fuente prioritaria lo da (max_c = null). Evitar el calor directo de radiadores, chimeneas y salidas de aire (F2, F5).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla rica en materia orgánica, porosa y con buen drenaje, tipo sustrato para helechos o plantas tropicales (F1, F2, F5). MBG: mezcla porosa, bien drenada y turbosa (F1). RHS: 3 partes de sustrato universal sin turba, 1 parte de sustrato con tierra (tipo John Innes nº 3) y grava hortícola añadida (F7). Clemson: para helechos, mitad sustrato de interior y mitad turba o mantillo de hojas (F6). Como epífita también puede cultivarse sobre placa de fibra o en muy poco sustrato (F3, F4).",
+      "ph": "Ácido a neutro: NC State, ácido (<6,0) (F2); RHS, ácido o neutro (F7); UF/IFAS, tolera suelos ácidos (F3). Rango práctico 5,5-6,5 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Bueno: el agua sobrante debe drenar rápido; maceta con agujeros y sin agua en el plato (F2, F5, F6).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior, diluido (F2, F5, F7).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes con crecimiento activo, a ¼-½ de la dosis de la etiqueta (F5, F6, F7, F2). Época según fuentes: RHS, mayo-agosto (F7); Clemson, de finales de primavera a verano (F5) o abril-septiembre para los helechos (F6). En Madrid: abril-septiembre si hay frondes nuevas.",
+      "otono_invierno": "Nada. No abonar los helechos en invierno (F6).",
+      "notas": "Los helechos se queman las frondes con exceso de abono (F6) y A. nidus tolera mal las sales (F3). No abonar plantas recién compradas o trasplantadas durante seis meses (F6). En la naturaleza se nutre de la hojarasca que atrapa la roseta (F2, F3); no imitarlo en casa echando restos en el centro [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada pocos años: crece despacio (F5, F3).",
+      "epoca": "Primavera, cuando empieza el crecimiento nuevo (F5, F4, F6).",
+      "senales": "Planta que ha desbordado la maceta (F4): raíces saliendo por los agujeros o el sustrato se seca muy deprisa tras regar [orientativo, sin fuente prioritaria]. Al trasplantar, no enterrar el centro de la roseta y mantenerla a la misma altura [orientativo, sin fuente prioritaria]; manipular con cuidado, porque las frondes son frágiles (F1, F2).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza: retirar frondes muertas o dañadas (F7) y, de vez en cuando, las viejas pardas o amarillas (F4).",
+      "epoca": "En cualquier época, cuando aparezcan frondes secas o dañadas (F7).",
+      "como": "Cortar la fronda vieja por su base con tijera limpia, sin tirar de ella [orientativo, sin fuente prioritaria]. NO tocar ni manipular las frondes nuevas que se desenrollan en el centro: el follaje es frágil y conviene evitar tocarlo (F1, F2); las frondes de los helechos se dañan con el roce, así que colocarla fuera de zonas de paso (F6). Una fronda dañada no se recupera: si solo tiene una punta seca puede recortarse siguiendo la forma, dejando un borde fino de tejido seco [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F6",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo, no obligatorio: otoño-invierno (en Madrid, aproximadamente octubre-marzo), cuando baja la luz.",
+      "cambios": "Sin abono (F6); abonar solo de primavera a verano (F7, F5). Riego más espaciado según dedo y peso, sin dejar que se seque (F5, F6). Más humedad en invierno, cuando la calefacción la baja mucho (F6, F5). Mantener por encima de 13 °C (F1).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esporas",
+        "cultivo de tejidos (profesional)",
+        "división (solo si hay varias rosetas)"
+      ],
+      "epoca": "Primavera (F6); esporas en cuanto estén maduras (F7).",
+      "pasos": "UF/IFAS indica que se propaga por esporas o por cultivo de tejidos (F3); RHS añade la división y la siembra de esporas recién maduras a 21 °C (F7). En casa: (1) Esporas: cuando las líneas de soros del envés se vuelvan pardas, cortar un trozo de fronda y dejarlo sobre papel 1-2 días para recoger el polvo de esporas; espolvorearlo sobre sustrato fino y estéril, húmedo, en recipiente tapado, a unos 21 °C (F7) y luz indirecta; mantener húmedo sin encharcar; primero aparecen láminas verdes (protalos) y meses después las frondes; trasplantar cuando tengan 2-3 frondes [pasos orientativos, sin fuente prioritaria salvo la temperatura]. (2) División: solo si la maceta tiene varias rosetas independientes; separarlas en primavera con su parte de raíces (F6, F7). Una roseta única no se divide [orientativo, sin fuente prioritaria]. Es un proceso lento y de éxito incierto en casa.",
+      "notas": "Discrepancia leve: UF/IFAS solo cita esporas y cultivo de tejidos (F3), RHS incluye la división (F7). Se presenta la división como opción limitada a plantas con varias rosetas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas, la plaga más citada (F1, F2, F3, F5, F7). Escudos sueltos pardos o claros a lo largo de nervios y frondes, que se levantan con la uña. NO confundir con los soros: líneas pardas regulares, rectas y paralelas que salen del nervio central en el envés (F1, F2), que son normales. Primero retirar a mano con un bastoncillo o una ducha suave de agua (F6), sin mojar el centro. Si hace falta un producto, solo uno listo para usar de uso no profesional inscrito en el Registro del MAPA para plantas de interior, probándolo antes en una sola fronda y esperando 24 h (F6, F12): los insecticidas dañan los helechos y este no es una excepción (F4, F2). Nada de aceite de neem, detergente ni recetas caseras."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (F1, F2), en la base de las frondes y en el centro de la roseta. Retirar a mano con bastoncillo; mismo criterio de productos que para S30 (F6, F12, F4)."
+    },
+    {
+      "sintoma_id": "S32",
+      "causa_habitual_en_esta_especie": "Nematodos foliares, frecuentes en esta especie (F1, F2, F3): zonas pardas que avanzan entre los nervios paralelos de la fronda, a menudo desde la base [descripción del patrón orientativa, sin fuente prioritaria]. Retirar las frondes afectadas, no mojar el follaje (el agua sobre las hojas ayuda a extenderlos [orientativo, sin fuente prioritaria]) y aislar la planta. No hay tratamiento doméstico autorizado."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Enfermedades bacterianas de la hoja (F1, F2): manchas oscuras empapadas que se extienden. Se favorecen al mojar las frondes y el centro de la roseta: regar por el borde (F5). Cortar las frondes afectadas con tijera desinfectada."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Agua acumulada en el centro de la roseta o sustrato siempre empapado: el centro se ablanda y oscurece y las frondes nuevas se pudren. Clemson pide regar por el borde de la maceta para que el agua no entre en el centro (F5). Si el centro está podrido, la planta rara vez se recupera [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Maceta en plato con agua o sustrato que no drena (F5, F6). Revisar raíces; si están blandas y huelen mal, cortar lo podrido y trasplantar a mezcla porosa nueva."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Corrientes de aire, que ponen pardos los bordes de las frondes (F1), y aire seco por calefacción o aire acondicionado (F1, F6). Alejar de radiadores, salidas de aire y puertas (F2, F5) y subir la humedad con humidificador (F5)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco (F1, F6), riego irregular o sales del abono acumuladas (F3, F6). No atribuir al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo: las frondes amarillean o se blanquean y la planta deja de crecer (F2, F4); el sol directo daña el follaje (F1, F6). Apartar de la ventana sur u oeste."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Exceso de sol (F2, F4), frío por debajo de 13 °C (F1) o falta de luz; recuerda que es una especie de crecimiento lento (F1, F2): en interior saca pocas frondes al año."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Sustrato que se ha secado del todo: tolera mal la sequía (F3, F2). Regar a fondo por el borde y no dejar que se repita (F5)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sequía del sustrato (F2, F3); si el sustrato está mojado y la planta sigue lacia, sospechar pudrición radicular (S36) (F5, F6)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Frondes nuevas tocadas, rozadas o golpeadas mientras se desenrollan: el follaje es frágil y no debe manipularse (F1, F2, F6); quedan rasgadas o deformadas para siempre. También aire muy seco [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Daño por insecticidas: los productos químicos dañan esta planta (F1, F2) y los insecticidas suelen dañar los helechos (F4); los pulverizados lesionan muchos helechos (F6). Probar siempre en una fronda y esperar 24 h (F12); no aplicar al sol ni con calor (>32 °C) (F12). También quemaduras de sol (S22)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Envejecimiento normal de las frondes externas, que se secan y se retiran (F4, F7). Si amarillean muchas a la vez, revisar riego (S36) y exceso de sol (S22)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Babosas y caracoles, sobre todo si la planta pasa el verano en terraza o balcón (F1, F2, F3, F5)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato se seca rápido: revisar con dedo y peso cada 1-2 días y regar por el borde en cuanto los 2-3 cm superiores estén secos (F5), sin dejar agua en el plato ni en el centro de la roseta. Nunca al sol directo de ventanas sur u oeste: las frondes amarillean y se queman (F2, F4); ponerla junto a ventana norte o este (F1, F5). Mantenerla lejos del chorro del aire acondicionado, que reseca y causa bordes pardos (F1, F2). Humidificador o agrupar plantas. Puede salir a una terraza a la sombra total y resguardada del viento (F5), vigilando babosas y caracoles (F1), pero el aire seco y caluroso de Madrid la estresa más que dentro [orientativo, sin fuente prioritaria]; mantener la temperatura ideal 16-21 °C es imposible en olas de calor: priorizar sombra y humedad. Sin máximo tolerado publicado.",
+    "invierno": "La calefacción baja la humedad interior a menudo por debajo del 30 %: es la estación más difícil (F1, F6). Humidificador junto a la planta (F5), lejos de radiadores, chimeneas y salidas de aire caliente (F2, F5). Cuidado con el cristal frío: no debe pasar la noche por debajo de 13 °C (F1); separarla 30-50 cm del cristal o cerrar la cortina por la noche [distancia orientativa, sin fuente prioritaria]. Regar menos a menudo, siempre por dedo y peso y sin que se seque del todo (F5, F6). Sin abono de octubre a marzo (F6). Si estuvo fuera en verano, entrarla antes de que las noches bajen de 10 °C (F5), lo que en Madrid suele ocurrir en octubre [orientativo, sin fuente prioritaria].",
+    "ubicacion_recomendada": "Junto a una ventana norte o este, o a 2-3 m de una sur u oeste tras cortina, sin sol directo (F1, F5, F7); el baño o la cocina luminosos son buenos sitios por su humedad (F1). Fuera de zonas de paso, para que no se rocen las frondes (F6), y lejos de radiadores y del aire acondicionado (F2, F5)."
+  },
+  "lagunas": [
+    "Nombre: se mantiene 'Asplenium nidus' (lista maestra). POWO (Kew) lo muestra como especie 'Asplenium nidus L.' (resultado de búsqueda); no se pudo abrir la ficha del taxón para confirmar sinónimos y estado por el bloqueo Cloudflare. RHS da el nombre como 'Correct'. UF/IFAS y Clemson advierten que A. antiquum se comercializa como 'nido de ave' y que los nombres de cultivar no son estables: parte de las plantas vendidas como A. nidus pueden ser otra especie o híbrido.",
+    "Toxicidad: la ASPCA no tiene entrada para Asplenium nidus (solo para A. bulbiferum, no tóxico). La no toxicidad para perros y gatos descansa en una sola fuente prioritaria (Clemson, de forma genérica para los helechos): confianza Media. No hay fuente prioritaria sobre toxicidad en personas: niños = 'desconocida'. Falta consultar Pet Poison Helpline o un centro toxicológico.",
+    "Temperatura máxima: ninguna fuente prioritaria da un máximo tolerado; max_c = null.",
+    "Humedad: ninguna fuente prioritaria da cifras para esta especie; 40 % mínimo y 50 % ideal son orientativos.",
+    "Sensibilidad concreta al jabón insecticida: no se ha encontrado una fuente prioritaria que nombre A. nidus como sensible al jabón potásico. MBG recomienda usar jabones si hace falta en lugar de insecticidas químicos; UF/IFAS, NC State y Clemson dicen que los insecticidas (en general) dañan esta especie o los helechos. Se adopta: retirada manual primero y prueba en una fronda antes de cualquier producto.",
+    "Propagación: los pasos domésticos de siembra de esporas no están en fuentes prioritarias (solo la temperatura de 21 °C de RHS).",
+    "Nematodos foliares: las fuentes los citan como frecuentes, pero no describen el patrón de síntomas en esta especie ni el manejo doméstico."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b581",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Asplenium nidus (bird's nest fern)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Asplenium nidus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/FP054/pdf",
+      "institucion": "UF/IFAS Extension — FPS54 Asplenium nidus: Bird's Nest Fern (rev. diciembre 2025)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/birds-nest-fern/",
+      "institucion": "UF/IFAS Extension — Gardening Solutions, Bird's Nest Fern",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/how-to-grow-and-care-for-birds-nest-fern-asplenium-nidus/",
+      "institucion": "Clemson Cooperative Extension, HGIC — How To Grow and Care for Bird's Nest Fern (Asplenium nidus), 2026",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "institucion": "Clemson Cooperative Extension, HGIC — HGIC 1505 Indoor Ferns",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/1728/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha de planta Asplenium nidus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.rhs.org.uk/plants/1721/asplenium-antiquum/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha de planta Asplenium antiquum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plant List: Cats",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plant List: Dogs",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.aspca.org/node/4985",
+      "institucion": "ASPCA Animal Poison Control — Hen and Chickens Fern (Asplenium bulbiferum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/",
+      "institucion": "Clemson Cooperative Extension, HGIC — Insecticidal Soaps for Garden Pest Control",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://powo.science.kew.org/results?q=Asplenium%20nidus",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), búsqueda Asplenium nidus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

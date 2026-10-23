@@ -1,0 +1,352 @@
+{
+  "nombre_cientifico": "Hippeastrum hybridum",
+  "nombres_comunes": [
+    "amarilis",
+    "hippeastrum",
+    "amaryllis",
+    "azucena roja"
+  ],
+  "familia": "Amaryllidaceae",
+  "origen": "Híbridos de cultivo, sin área natural propia. El género Hippeastrum (unas 90 especies) es nativo de zonas tropicales y subtropicales de América, con dos centros principales: el este de Brasil y los Andes centro-meridionales (Perú, Bolivia y Argentina); algunas especies llegan a México y las Antillas. La mayoría de los híbridos comerciales derivan de unas 6 especies; la hibridación empezó en Inglaterra en 1799 y hoy los bulbos se seleccionan sobre todo en Países Bajos, Sudáfrica, EE. UU., Japón e Israel (Univ. Wisconsin). La amarilis verdadera (Amaryllis belladonna) es otro género, sudafricano.",
+  "clima_nativo": "Tropical y subtropical con una estación seca: en su hábitat las hojas se secan en otoño y el bulbo reposa hasta la primavera (Univ. Wisconsin). Sin resistencia a heladas: daños por debajo de 2 °C (NC State); en exterior solo zonas USDA 8-10 (UF/IFAS, Wisconsin).",
+  "categoria": "flor",
+  "dificultad": "facil",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas basales, acintadas (lineales en forma de correa), lisas, brillantes y algo coriáceas, verde medio, de 30-60 cm de largo (hasta 90 cm en jardín) y 2,5-7,5 cm de ancho, de 2 a 7 por bulbo y en dos filas opuestas. Margen entero. Salen del cuello del bulbo, a menudo después o a la vez que la vara floral (Wisconsin, NC State, UF/IFAS).",
+    "nerviacion": "Paralela, a lo largo de la hoja, poco marcada; nervio central ligeramente hundido formando un canal.",
+    "variegacion": "Sin variegación en las hojas. Las flores sí pueden ser bicolores, rayadas, moteadas o con el borde de otro color (picotee).",
+    "tallo": "No tiene tallo con hojas. Órgano de reserva: bulbo tunicado grande (6-12 cm de diámetro o más), redondeado, con túnicas pardas apergaminadas y un cuello alargado del que salen hojas y varas; en maceta se planta con 1/3 a 2/3 del bulbo fuera del sustrato, así que el bulbo se ve. La vara floral (escapo) es gruesa, hueca, verde y sin hojas, de 30-60 cm.",
+    "habito": "Bulbosa de porte erguido. Cada vara lleva en la punta 2-6 flores grandes en forma de trompeta, de 12-20 cm de diámetro, con 6 tépalos, en rojo, blanco, rosa, salmón, naranja, verde pálido o bicolores; existen sencillas, dobles, miniatura y de tipo trompeta. Antes de abrirse, los capullos están envueltos en dos brácteas. Un bulbo grande puede dar 2 o más varas. Tras la flor puede formar una cápsula de tres valvas con semillas negras, planas y papiráceas (Wisconsin, NC State, UF/IFAS).",
+    "tamano_adulto_interior": "30-60 cm de alto en flor (vara de 30-60 cm) y unos 30 cm de ancho; las hojas pueden llegar a 60 cm (NC State, Wisconsin).",
+    "confusiones": [
+      {
+        "especie": "Amaryllis belladonna (amarilis verdadera, azucena de Santa Ana)",
+        "rasgo_diferenciador": "Género sudafricano de jardín: florece a finales de verano con la vara desnuda, sin hojas, y flores rosas más pequeñas, perfumadas y en mayor número por vara. La amarilis de interior (Hippeastrum) florece en invierno-primavera en maceta, con flores muy grandes y vara hueca."
+      },
+      {
+        "especie": "Clivia miniata (clivia)",
+        "rasgo_diferenciador": "No tiene bulbo visible (raíces carnosas y bases de hoja en abanico), hojas verde oscuro más anchas y persistentes todo el año, y una umbela de 10-20 flores naranjas pequeñas sobre vara maciza."
+      },
+      {
+        "especie": "Crinum spp.",
+        "rasgo_diferenciador": "Bulbo con un falso tallo largo formado por las bases de las hojas, hojas más blandas y arqueadas y flores más estrechas y colgantes, casi siempre blancas o rosa pálido; es planta de jardín."
+      },
+      {
+        "especie": "Lilium spp. (azucenas y lirios de floristería)",
+        "rasgo_diferenciador": "Tallo con hojas a lo largo de toda su longitud y flores con anteras muy visibles que manchan; en Hippeastrum la vara es hueca y sin hojas y las hojas salen solo de la base."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Alcaloides de las Amaryllidaceae (fenantridínicos), sobre todo licorina; el bulbo es la parte más tóxica (NC State, ASPCA, Clemson). Pet Poison Helpline cita además cristales de oxalato (rafidios), más concentrados en el bulbo.",
+    "sintomas": "Perros y gatos: vómitos, salivación excesiva, diarrea, dolor abdominal, decaimiento, falta de apetito y temblores (ASPCA). Con ingestiones grandes, sobre todo de bulbo: bajada de tensión, convulsiones, depresión respiratoria y arritmias (NC State, Pet Poison Helpline). Personas y niños: toxicidad media; vómitos, salivación y diarrea, y en grandes cantidades los mismos efectos graves (NC State); todas las partes son venenosas si se comen en cantidad (Clemson). Guardar los bulbos en reposo fuera del alcance de niños y mascotas: parecen cebollas. Ante una ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "notas": "La ficha de la ASPCA está a nombre de «Amaryllis spp.» (incluye la belladona) y no cita Hippeastrum de forma expresa; Pet Poison Helpline sí la recoge como Hippeastrum spp. NC State (Hippeastrum) y Clemson la dan como tóxica, con el bulbo como parte más peligrosa. No hay dosis tóxica publicada.",
+    "fuentes": [
+      "F8",
+      "F9",
+      "F5",
+      "F10"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Mientras crece (rebrote, vara y hojas tras la flor): la ventana más luminosa de la casa; sur la mejor, este u oeste después, con al menos 4 h de sol directo al día (Clemson). En flor: luz brillante pero sin sol directo, para que la flor dure más (Wisconsin, UF/IFAS, RHS). En reposo no necesita luz.",
+      "tolera_sol_directo": "Sí, con matices. Agradece varias horas de sol directo mientras crece (Clemson, UF/IFAS): con poca luz florece mal y la vara se tuerce hacia la ventana. Pero a pleno sol fuerte las hojas amarillean o se decoloran (UF/IFAS) y en flor el sol acorta la floración. Si sale al exterior en verano, aclimatarla de sombra a sol en 7-10 días (Iowa State) y darle sombra en las horas de más calor (RHS).",
+      "notas": "Girar la maceta cada pocos días para que la vara crezca recta (Clemson, RHS). Lux en la escala del proyecto: brillante indirecta 5.380-10.760 lux (500-1000 fc), con horas de sol directo (>10.760 lux) bien toleradas en la fase de hojas. Sin límite superior publicado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F1",
+        "F6",
+        "F4",
+        "F3",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Según la fase del ciclo y siempre comprobando el sustrato con el dedo a 2-3 cm (5 cm en macetas grandes) y el peso de la maceta. Bulbo recién plantado: un riego a fondo, escurrir y no volver a regar hasta que asome el brote o la vara (UF/IFAS) o al menos en una semana (Clemson); el exceso de agua antes de que haya raíces y hojas pudre el bulbo. Con hojas y vara: regar cuando los primeros 2-3 cm estén secos (Iowa State: cuando la superficie esté casi seca), a fondo y vaciando el plato. Reposo: nada de agua.",
+      "primavera_verano": "Fase de hojas tras la flor, la que recarga el bulbo para la floración siguiente: riego regular cuando los 2-3 cm superiores estén secos y la maceta pese poco; no dejarla secar del todo durante semanas (RHS: la falta de agua en verano es causa de que no florezca), pero sin encharcar ni dejar agua en el plato. Con calor y exterior puede necesitar agua cada pocos días: decidir siempre por el dedo y el peso.",
+      "otono_invierno": "Desde finales de septiembre se reduce el riego y se corta del todo para inducir el reposo (Iowa State, Clemson, RHS). Tras 8-10 semanas, al replantar o al ver aparecer la vara, un riego a fondo y después solo cuando el sustrato se seque en superficie; durante la floración invernal suele bastar 1-2 riegos por semana en casa con calefacción (Clemson), comprobando antes.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo de Madrid sin problema (blanda, cloramina sin efecto práctico; reposarla no la elimina). Regar sobre el sustrato, sin mojar el cuello ni el interior del bulbo (Clemson, UF/IFAS): la humedad en el cuello favorece la mancha roja y la pudrición.",
+      "notas": "El sustrato encharcado y los bulbos magullados causan pudrición de bulbo y raíces (Clemson). El bulbo aguanta bien la sequía, así que ante la duda es mejor esperar. Sin cifras de días: la frecuencia depende de la fase, la temperatura y el tamaño de la maceta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F3",
+        "F4",
+        "F6",
+        "F1"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente consultada da porcentajes ni menciona la humedad como factor de cultivo de la amarilis en maceta. Las hojas coriáceas y el bulbo la hacen poco exigente en este aspecto. Clemson aconseja alejarla de radiadores y salidas de aire, que dan calor y aire seco. No pulverizar: no sube la humedad de forma útil y mojar el cuello del bulbo favorece la mancha roja (Stagonospora curtisii), que según UF/IFAS aparece con riego por encima frecuente. Valores sin verificar.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F5",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 27,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Por fases. Brotación y crecimiento de la vara: 21-24 °C (RHS 21 °C; Clemson e Iowa State 21-24 °C; Wisconsin 18-21 °C). Más calor da varas débiles y flores más pequeñas (Wisconsin). En flor: 15-18 °C para alargar la floración (RHS, Wisconsin, Clemson). Reposo: fresco, 10-13 °C (Iowa State 10-13 °C; RHS 13 °C; Wisconsin 7-13 °C), sin heladas. Las hojas se dañan por debajo de unos 2 °C (NC State). min_c = 7 °C es el mínimo de almacenamiento que da Wisconsin; max_c = 27 °C es el techo de crecimiento que indica UF/IFAS (24-27 °C) en interior; no hay una máxima de daño publicada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F2",
+        "F1",
+        "F8",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de calidad para macetas, sin turba si es posible y rico en materia orgánica pero bien drenado: RHS recomienda John Innes n.º 2 o universal sin turba; Clemson, mezcla a partes iguales de turba y perlita. Maceta con agujeros, solo 2,5-5 cm más ancha que el bulbo (le gusta ir algo apretada) y pesada para que no vuelque con la vara (Wisconsin, Clemson, UF/IFAS). Plantar con el cuello y los hombros del bulbo fuera: entre 1/3 y 2/3 del bulbo por encima del sustrato (UF/IFAS 1/4-1/3, Clemson 1/3-1/2, Wisconsin 1/2, RHS 2/3), con el sustrato unos 2,5 cm por debajo del borde de la maceta. Nunca enterrar el cuello.",
+      "ph": "Tolera suelos ácidos, neutros o alcalinos (NC State); sin rango numérico verificado.",
+      "drenaje": "Imprescindible. El agua estancada pudre bulbo y raíces (Clemson, Wisconsin). No dejar agua en el plato.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F1",
+        "F6",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido completo y equilibrado para plantas de interior, o algo más bajo en nitrógeno.",
+      "npk": "10-10-10 o 5-10-10 (Wisconsin); el exceso de nitrógeno da hojas a costa de flores (UF/IFAS).",
+      "primavera_verano": "Solo cuando ya hay hojas creciendo: desde que acaba la flor hasta finales de verano, ¼-½ de la dosis de la etiqueta una vez al mes (criterio del proyecto). Es la fase en que el bulbo acumula reservas para florecer el año siguiente.",
+      "otono_invierno": "Nada desde finales de septiembre ni durante el reposo. Nunca abonar un bulbo sin hojas: puede matar las raíces (Clemson). Durante la floración no hace falta (UF/IFAS).",
+      "notas": "Las fuentes dan frecuencias más altas: Wisconsin mensual a dosis de interior, Clemson dos veces al mes a dosis de etiqueta, Iowa State diluido cada 2-4 semanas y RHS semanal. Se adopta la pauta conservadora del proyecto (¼-½ dosis, mensual) porque Wisconsin advierte que más abono acumula sales y quema raíces y UF/IFAS que el exceso de abono reduce la floración.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F6",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (RHS, UF/IFAS); el bulbo engorda cada año (Wisconsin). Los años intermedios basta con renovar los 2,5-5 cm superiores de sustrato al acabar el reposo (RHS).",
+      "epoca": "Al final del reposo, justo antes de reanudar el riego (Wisconsin, Iowa State), o de enero a marzo tras la floración (RHS).",
+      "senales": "Bulbo que casi toca el borde de la maceta, raíces que salen por los agujeros, sustrato apelmazado o que no retiene agua, o hijuelos que llenan la maceta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F6",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Solo limpieza; no se poda en sentido estricto.",
+      "epoca": "Flores pasadas: al marchitarse cada una. Vara: cuando amarillea, tras la floración. Hojas: solo cuando están secas, al entrar en reposo.",
+      "como": "Quitar cada flor marchita con el ovario hinchado de debajo para que no forme semilla y no gaste reservas, sin dañar la vara (Wisconsin, UF/IFAS). Cuando toda la vara amarillee, cortarla a 2,5-5 cm sobre el cuello del bulbo (Iowa State, Wisconsin, Clemson). Conservar todas las hojas verdes: son las que recargan el bulbo. En reposo retirar las hojas cuando estén amarillas y secas (Wisconsin, Iowa State); RHS, si se mantiene semiverde, las recorta a 10 cm sobre el cuello al final del reposo. Usar guantes: la savia y el bulbo son tóxicos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F5",
+        "F6",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte (Madrid): de finales de septiembre a finales de noviembre o diciembre, unas 8-10 semanas, para florecer en invierno. En el hemisferio sur, desplazar seis meses (finales de marzo a mayo-junio). Las fechas se pueden mover para escalonar la floración.",
+      "cambios": "Ciclo anual del bulbo: 1) Plantación con el cuello fuera; florece unas 6-8 semanas después (RHS, Wisconsin; 4-8 según Clemson). 2) Tras la flor, cortar la vara y mantener las hojas creciendo con luz, riego y abono suave durante primavera y verano (puede salir al exterior en semisombra). 3) A finales de septiembre, dejar de abonar y cortar el riego; llevar a un lugar fresco, a 10-13 °C, en semioscuridad (Iowa State, Wisconsin) o con luz si se mantiene semiverde (RHS); las hojas amarillean y se secan. 4) Mantener así 8-10 semanas como mínimo (Iowa State, Wisconsin, RHS, Clemson). 5) Al terminar, o cuando asome la punta de la vara, renovar el sustrato superior o trasplantar, regar a fondo y pasar a un sitio luminoso a 21-24 °C; florece unas 4-6 semanas después (Wisconsin).",
+      "notas": "Resuelve la laguna L30 (duración del reposo): Iowa State, Wisconsin, RHS y Clemson coinciden en 8-10 semanas; Iowa State lo da como mínimo necesario para que florezca (exposición a 10-13 °C). Discrepancias menores: UF/IFAS, para bulbos de jardín en Florida, habla de 6-8 semanas en seco y a la sombra, y el segundo método de la RHS de 1-2 meses en seco. Se adopta lo más conservador para garantizar la floración: 8-10 semanas a 10-13 °C. Wisconsin precisa que los híbridos comerciales no necesitan reposo y pueden florecer si se mantienen siempre verdes; el reposo sirve para controlar cuándo florecen. Iowa State admite también mantenerla verde y con luz a 10-13 °C de otoño a pleno invierno y luego pasarla a 21-24 °C. Causas habituales de que no florezca: poner el bulbo en reposo demasiado pronto, falta de luz o de agua en verano (RHS) y exceso de nitrógeno (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F1",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos (bulbillos laterales)",
+        "semilla",
+        "troceado del bulbo en escamas dobles (twin-scaling)"
+      ],
+      "epoca": "Hijuelos: al trasplantar, al final del reposo o de enero a marzo (RHS, Wisconsin). Semilla: en primavera, recién cosechada. Troceado: de julio a noviembre, con el bulbo ya crecido tras la flor (UF/IFAS).",
+      "pasos": "Hijuelos (el método doméstico): 1) Al trasplantar, separar los hijuelos que tengan raíces propias y al menos 1/4-1/3 del tamaño del bulbo madre (UF/IFAS). 2) Plantarlos solos en maceta pequeña con sustrato drenante, con el cuello fuera. 3) Mantener a unos 21 °C y en crecimiento continuo, sin reposo, hasta que alcancen tamaño de floración: 2 años según UF/IFAS, 3-4 según RHS. Reproducen exactamente la planta madre. Conservar al máximo las raíces del bulbo madre: son perennes y regenerarlas le cuesta reservas (UF/IFAS). Semilla: la cápsula madura 4-5 semanas tras la polinización; sembrar las semillas negras planas en sustrato para semillero, cubrirlas apenas, a 21 °C y semisombra; tardan de 3 a 6 años en florecer y no salen iguales a la madre (UF/IFAS, RHS, FP255). Troceado: cortar el bulbo en vertical en 4 o más partes con al menos dos escamas y un trozo de placa basal cada una, enterrar 1/3 en vermiculita o turba con arena, húmedo, cálido y en sombra; los bulbillos salen en 4-8 semanas y florecen en 2-3 años (UF/IFAS). Técnica de vivero; sacrifica el bulbo madre.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F4",
+        "F1",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del bulbo: base o cuello blando y oscuro por sustrato encharcado, cuello enterrado o riego antes de que haya raíces y hojas, o por bulbos magullados (Clemson, Wisconsin). Desechar el bulbo enfermo y el sustrato."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o falta de drenaje (Clemson). En jardín, los nematodos también dañan raíces y placa basal (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Mancha roja (red blotch, hongo Stagonospora curtisii): manchas rojizas o pardo-rojizas de borde neto en vara, hojas y bulbo, que se alargan, se hunden y deforman o doblan la vara y las hojas. Se favorece con sombra y riego que moja la planta. Comprar bulbos sin manchas rojas en las capas internas; las rayas rojas sueltas por roces no son la enfermedad (UF/IFAS, Wisconsin, Clemson)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Normal al entrar en reposo (otoño) o cuando se corta el riego: las hojas amarillean y se secan. Fuera de esa época, revisar exceso de riego."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas decoloradas o amarillentas por sol directo fuerte, sobre todo en exterior en verano o tras sacarla sin aclimatar (UF/IFAS, Iowa State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Vara larga, débil y torcida hacia la ventana por poca luz, no girar la maceta o temperaturas altas durante el crecimiento de la vara (Wisconsin, Clemson, RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Trips o ácaros (Clemson, UF/IFAS); también virus del mosaico, con rayas amarillo claro en las hojas y declive de crecimiento y floración, sin cura (Clemson)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en la base de las hojas y entre las túnicas del cuello del bulbo (Wisconsin, NC State, Clemson)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (Clemson)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco y cálido (UF/IFAS la cita entre plagas menos comunes)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en vara y capullos (UF/IFAS, poco frecuente)."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botritis (moho gris) en flores y hojas con humedad y poca ventilación (UF/IFAS FP255)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas y vara deformadas o retorcidas por ácaro del bulbo (bulb scale mite, RHS) o por mancha roja (UF/IFAS); la mosca del narciso (larva dentro del bulbo) deja el bulbo blando y sin brotar (RHS, NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es la fase de hojas que recarga el bulbo. Puede pasar el verano en terraza o balcón desde mayo, aclimatada en 7-10 días, con sol de mañana y sombra a partir del mediodía: el sol de tarde con 35-40 °C quema y decolora las hojas, y la maceta de plástico negro al sol recalienta raíces y bulbo. En interior, junto a una ventana este o sur con visillo en las horas centrales; en ventana oeste, apartada. Con calor y aire seco la maceta se seca deprisa: comprobar cada pocos días con el dedo y el peso y regar a fondo cuando estén secos 2-3 cm, sin dejar agua en el plato. No dejarla secar semanas: la sequía de verano es causa de que no florezca. Vigilar araña roja y cochinilla.",
+    "invierno": "A finales de septiembre empieza el reposo de 8-10 semanas a 10-13 °C: en un piso con calefacción (20-22 °C) no se consigue, así que hay que buscar un sitio fresco y sin heladas: habitación sin calefacción, terraza acristalada, trastero o garaje, por encima de 7 °C. No dejarla fuera en Madrid en invierno: las heladas nocturnas la matan. Al sacarla del reposo (finales de noviembre-diciembre), regar y ponerla junto a la ventana más luminosa a 21-24 °C; en flor, mejor 15-18 °C, lejos de radiadores y salidas de aire (secan y acortan la flor) y sin tocar el cristal frío de noche. Con la calefacción la humedad baja del 30 %: no le afecta mucho, pero no pulverizar.",
+    "ubicacion_recomendada": "Crecimiento y floración: ventana sur o este muy luminosa, girando la maceta; en flor, sin sol directo y en la habitación más fresca de la casa. Verano: exterior en semisombra o ventana este. Reposo (octubre-noviembre): rincón fresco y oscuro sin calefacción ni heladas, fuera del alcance de niños y mascotas porque el bulbo es tóxico."
+  },
+  "lagunas": [
+    "«Hippeastrum hybridum» no es un nombre botánico válido: es un nombre de horticultura (UF/IFAS lo usa como Hippeastrum × hybridum) para los híbridos comerciales de Hippeastrum, derivados de unas 6 especies (Wisconsin). La búsqueda en POWO (Kew) no devuelve ningún resultado para este nombre. La forma correcta es nombrar el cultivar dentro del género, p. ej. Hippeastrum 'Red Lion' o Hippeastrum (Grupo Galaxy) 'Rilona', como hace la RHS. La ficha trata el grupo de híbridos; se mantiene el nombre de lista-maestra.csv. Comprobar en POWO el estado del nombre y sus sinónimos con acceso directo (la página bloqueó la consulta directa).",
+    "L30 (reposo de 8-10 semanas) queda respaldada por Iowa State, Wisconsin, RHS y Clemson; UF/IFAS da 6-8 semanas para bulbos de jardín en Florida.",
+    "Humedad: ninguna fuente prioritaria da porcentajes para Hippeastrum en maceta.",
+    "pH: sin rango numérico; NC State solo indica que tolera suelos ácidos, neutros y alcalinos.",
+    "Temperatura máxima de daño: no publicada; max_c 27 °C es el techo de crecimiento de UF/IFAS, no un límite de tolerancia.",
+    "Falta de floración (la queja más frecuente en esta especie) no tiene id en la lista de síntomas; se documenta en las notas de reposo.",
+    "ASPCA recoge la toxicidad a nombre de Amaryllis spp. y no cita Hippeastrum de forma expresa; la toxicidad de Hippeastrum se apoya en NC State, Clemson y Pet Poison Helpline.",
+    "Cornell (Monroe County CCE) apareció en la búsqueda pero no se abrió; no se cita."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://mastergardener.extension.wisc.edu/files/2015/12/Amaryllis.pdf",
+      "institucion": "University of Wisconsin-Madison Extension – Wisconsin Master Gardener (Amaryllis, Hippeastrum, 2014)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/why-wont-my-amaryllis-bloom",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden (Why Won't My Amaryllis Bloom?)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/what-should-i-do-my-amaryllis-after-it-blooms",
+      "institucion": "Iowa State University Extension and Outreach – Yard and Garden (What should I do with my amaryllis after it blooms?)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/hippeastrum/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – Hippeastrum growing guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/amaryllis/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (Amaryllis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://edis.ifas.ufl.edu/publication/EP060/pdf",
+      "institucion": "University of Florida IFAS Extension (EDIS Cir-1243, Amaryllis; rev. 2025)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://edis.ifas.ufl.edu/publication/FP255/pdf",
+      "institucion": "University of Florida IFAS Extension (EDIS FPS-255, Hippeastrum x hybridum Amaryllis; rev. 2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/hippeastrum/",
+      "institucion": "NC State Extension – Gardener Plant Toolbox (Hippeastrum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/amaryllis",
+      "institucion": "ASPCA Animal Poison Control Center (Amaryllis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.petpoisonhelpline.com/poison/amaryllis/",
+      "institucion": "Pet Poison Helpline (Amaryllis)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://powo.science.kew.org/results?q=Hippeastrum%20hybridum",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (búsqueda del nombre)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

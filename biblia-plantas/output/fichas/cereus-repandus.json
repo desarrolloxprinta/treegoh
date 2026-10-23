@@ -1,0 +1,333 @@
+{
+  "nombre_cientifico": "Cereus repandus",
+  "nombres_comunes": [
+    "cereus",
+    "cactus columnar peruano",
+    "cactus manzana del Perú",
+    "cadushi",
+    "cardón (en su área nativa)"
+  ],
+  "familia": "Cactaceae",
+  "origen": "Según POWO (Kew), nativo de Aruba, Colombia, Antillas Neerlandesas, Venezuela, Antillas venezolanas e islas de Barlovento, e introducido en la República Dominicana; RHS indica 'Venezuela, Antillas'. Nombre aceptado: Cereus repandus (L.) Mill. Sinónimo heterotípico muy usado en el comercio: Cereus peruvianus (L.) Mill. (POWO, RHS, Univ. Arizona). Ojo: el homónimo Cereus peruvianus C.F.Först. es otra planta (sinónimo de Stenocereus griseus, POWO). Pese al nombre común, no es de Perú (Univ. Arizona). Discrepancia: el Arboreto de la Univ. de Arizona y BYU le atribuyen origen en Argentina, Brasil y Uruguay, que corresponde al área de Cereus hildmannianus/C. uruguayanus, especie con la que se confunde en el comercio (NYBG); se sigue a POWO.",
+  "clima_nativo": "Tropical seco caribeño de baja altitud (0-200 m en Colombia), en bosque y matorral seco y sabana (POWO, Catálogo de Plantas de Colombia). Crece en regiones áridas y fructifica en la estación seca (Wikipedia, complementaria). En cultivo: RHS la clasifica H1C (puede estar fuera en verano; mínimas de 5 a 10 °C en Reino Unido); la Univ. de Arizona la da como rústica hasta -6,7 °C (20 °F, zonas USDA 9a-11) en el exterior de Tucson y con protección de los ápices.",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Sin hojas visibles: la fotosíntesis la hacen los tallos. Lo que se ve son areolas (puntos de los que salen las espinas) a lo largo de las costillas, pequeñas y muy separadas entre sí (Wikipedia). Espinas grises, aciculares y muy variables: a veces numerosas, a veces casi ausentes; las más largas, hasta 5 cm (Wikipedia). La Univ. de Arizona las describe como espinas blanquecinas agrupadas en los puntos altos del borde de cada costilla.",
+    "nerviacion": "No aplica (cactus sin hojas). En su lugar, costillas longitudinales redondeadas: 8-13 según RHS, 4-12 según la Univ. de Arizona (el número puede cambiar de un segmento a otro e incluso dentro del mismo segmento) y 9-10 según Wikipedia; hasta 1 cm de altura.",
+    "variegacion": "La especie no es variegada. En el comercio son frecuentes la forma monstruosa 'Monstrosus' (sinónimo Cereus peruvianus 'Monstrosus', nombre sin resolver en RHS), de crecimiento irregular y abultado, y formas crestadas; se venden también plantas variegadas con zonas amarillas, que son selecciones de cultivo y no la especie tipo.",
+    "tallo": "Tallos columnares cilíndricos, verde grisáceos a azulados (RHS, Wikipedia), glaucos (con capa cerosa azulada) (Univ. Arizona), de hasta 20 cm de diámetro (RHS), a veces segmentados con constricciones (RHS, Univ. Arizona). Los segmentos pueden ser ondulados (Univ. Arizona). Con poca luz, la parte nueva sale más estrecha y pálida que la vieja: 'cuello de botella' por etiolación (NYBG: tallo fino si crece en los meses de poca luz).",
+    "habito": "Cactus erguido, columnar, que con los años se ramifica desde la base o el tronco y toma porte arbustivo o arborescente, como un candelabro (RHS, Univ. Arizona). Flores nocturnas grandes, blanco crema, en embudo, que duran una sola noche; frutos ovoides o esféricos sin espinas, rojo-violáceos a amarillos, comestibles, de hasta 4 cm (RHS, Univ. Arizona, Wikipedia). En maceta de interior rara vez florece: solo plantas de varios años (NYBG).",
+    "tamano_adulto_interior": "En maceta pequeña de interior rara vez supera unos 90 cm (3 ft) (NYBG); en macetas grandes y terrazas puede alcanzar 1,5-3 m [orientativo, sin fuente prioritaria]. En la naturaleza y en jardín al aire libre llega a 8-12 m (RHS) o 10 m (Univ. Arizona). Crecimiento rápido para un cactus (Univ. Arizona).",
+    "confusiones": [
+      {
+        "especie": "Cereus hildmannianus / Cereus uruguayanus",
+        "rasgo_diferenciador": "Muy parecidos y vendidos a menudo con el mismo nombre de 'Cereus peruvianus' (NYBG, Wikipedia). Proceden del sur de Sudamérica (Brasil, Uruguay, Argentina). La separación fiable por foto no es posible en ejemplares jóvenes sin flor; para los cuidados la diferencia práctica es menor (todos son cactus columnares de pleno sol y reposo invernal seco)."
+      },
+      {
+        "especie": "Cereus jamacaru",
+        "rasgo_diferenciador": "Cactus columnar brasileño muy similar (Wikipedia lo cita como confusión frecuente); suele tener espinas centrales amarillentas más largas y robustas [orientativo, sin fuente prioritaria]. Distinción fiable solo con flor o fruto."
+      },
+      {
+        "especie": "Cereus forbesii (incl. 'Spiralis') y Cereus hexagonus",
+        "rasgo_diferenciador": "Otras especies del género con las que se confunde (Wikipedia). 'Spiralis' tiene las costillas retorcidas en espiral, rasgo visible en foto."
+      },
+      {
+        "especie": "Euphorbia de aspecto cactiforme (p. ej. Euphorbia ingens, E. acrurensis, E. trigona)",
+        "rasgo_diferenciador": "Confusión importante por toxicidad: las euforbias suculentas no tienen areolas (sus espinas salen por pares sobre un reborde córneo, sin almohadilla lanosa) y sueltan un látex blanco irritante al herirlas; Cereus tiene areolas con espinas en grupo y su savia no es lechosa [orientativo, sin fuente prioritaria]. ASPCA clasifica como tóxica a Euphorbia tirucalli."
+      },
+      {
+        "especie": "Stenocereus griseus",
+        "rasgo_diferenciador": "Comparte el nombre 'Cereus peruvianus' (homónimo C.F.Först., POWO), lo que provoca errores en etiquetas. Es otro cactus columnar caribeño; ante una etiqueta 'Cereus peruvianus' la app debe pedir confirmación visual del tallo glauco azulado y las areolas muy separadas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Sin datos de toxicidad química en fuentes prioritarias. El riesgo verificado es mecánico: espinas aciculares de hasta 5 cm (Wikipedia) que pueden clavarse en la piel, la boca o las patas; RHS y la Univ. de Arizona aconsejan manipularlo con cuidado. Los frutos son comestibles para las personas (RHS, Univ. Arizona), pero eso no permite afirmar que el tallo sea inocuo para mascotas.",
+    "confianza": "Baja",
+    "fuentes": [
+      "F9",
+      "F1",
+      "F5",
+      "F10"
+    ],
+    "notas": "ASPCA no tiene ficha de Cereus repandus ni de C. peruvianus (consultadas sus listas de perros y gatos el 2026-10-21; solo lista como no tóxicos a otros cactus, como Hylocereus undatus). NC State Plant Toolbox no tiene ficha de la especie. Solo un vivero (Planet Desert, complementaria) la declara segura para personas, perros y gatos, sin citar evidencia. No se presenta como 'no tóxica'."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "La ventana más soleada de la casa: sur u oeste (RHS). Girar la maceta con frecuencia para que no se incline hacia la ventana (NYBG). Este solo si recibe varias horas de sol directo. Norte: insuficiente; aparece etiolación.",
+      "tolera_sol_directo": "Sí. Pleno sol (RHS) y 'la máxima luz posible' (NYBG). Matiz de la Univ. de Arizona: los ejemplares jóvenes prefieren sombra ligera y los adultos sol directo, pero en verano pueden necesitar semisombra para no quemarse. Al sacarlo al exterior, aclimatar poco a poco y evitar el sol de 11 a 15 h los primeros días (Univ. Minnesota).",
+      "notas": "Escala del proyecto: óptimo luz directa (>10760 lux, >1000 fc); mínimo útil, luz brillante alta (≈5380 lux, 500 fc) [orientativo, sin fuente prioritaria], valor que solo aguanta un tiempo. Con luz insuficiente crece débil y deforme (RHS guía de cactus) y saca tallo fino, sobre todo si sigue creciendo en los días cortos (NYBG): por eso en invierno debe estar fresco y casi seco, para que no crezca sin luz. El estrechamiento por etiolación es permanente. Si falta luz natural, tubos fluorescentes o LED a 15-30 cm, 14-16 h al día (Univ. Minnesota). lux_max = null: ninguna fuente fija techo; el límite práctico es la quemadura por cambio brusco de luz.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté completamente seco (Univ. Minnesota): comprobar con el dedo a 5 cm de profundidad (convención del proyecto para suculentas y macetas grandes) y por el peso de la maceta, que debe estar ligera. Riego a fondo hasta que el agua salga por los agujeros y tirar el agua sobrante del plato a los pocos minutos (Univ. Minnesota, RHS guía). Nunca riegos superficiales repetidos: deforman el crecimiento (Univ. Minnesota). Nunca dejar la maceta encharcada (RHS guía).",
+      "primavera_verano": "Regar con generosidad cuando está en crecimiento (RHS ficha), siempre esperando a que el sustrato se seque. Las fuentes dan frecuencias orientativas de una vez cada 1-2 semanas en temporada de crecimiento (Univ. Arizona, BYU), pero dependen del sol, el calor y el tamaño de la maceta: decidir siempre por sustrato seco y peso. En exterior necesita más agua y conviene revisarlo a menudo (Univ. Minnesota).",
+      "otono_invierno": "Reposo de noviembre a principios de marzo (RHS guía): riego mínimo o nulo, solo lo justo para que el tallo no se arrugue (RHS guía, Univ. Minnesota). Las fuentes de calendario hablan de una vez al mes (Univ. Arizona, BYU), pero si la planta está a 8-10 °C conviene ir a lo más seco. Si está en una habitación caldeada y muy luminosa, puede necesitar algo más; revisar el peso.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo de Madrid apta: es blanda (10-47 mg/L CaCO3) y dejarla reposar no elimina la cloramina, pero no hace falta. RHS recomienda agua de lluvia templada porque los minerales del agua dura se acumulan en el sustrato; en Madrid ese riesgo es bajo. Evitar agua salina: la especie no tolera sustrato salino (Univ. Arizona). Usar agua a temperatura ambiente.",
+      "notas": "El exceso de riego daña las raíces, frena el crecimiento y provoca edema y podredumbres (RHS guía, RHS ficha: 'el exceso de riego causa podredumbre'); el agua retenida en el sustrato pudre las raíces en muy poco tiempo (Univ. Minnesota). Contradicción menor en invierno: NYBG pide regar lo justo para que el sustrato no se seque del todo, mientras que RHS (casi seco) y Univ. Minnesota (solo para evitar que se arrugue) son más estrictas; se adopta lo más prudente para la planta, que es lo más seco, porque la podredumbre basal es mucho más grave que un leve arrugamiento, que se recupera.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": 10,
+      "ideal_pct": null,
+      "notas": "Muchos cactus se adaptan bien a la humedad baja de las viviendas, del 10 al 30 % (Univ. Minnesota), y soportan bien la calefacción central si no están junto a un radiador (RHS guía). No necesita humidificador; no pulverizar. Agradece buena ventilación, sobre todo en verano (RHS guía). Demasiada humedad junto con mucha luz puede causar la sarna corchosa del cactus (manchas pardas que forman costra) (RHS guía). Datos generales para cactus, no específicos de C. repandus; sin valor ideal verificado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": null,
+      "ideal_min_c": 10,
+      "ideal_max_c": null,
+      "notas": "Mínima adoptada 7 °C (convención del proyecto para cactus del desierto: nunca por debajo de 5-7 °C; se toma el extremo más prudente). RHS la califica H1C (mínimas de 5 a 10 °C; solo fuera en verano). En reposo invernal, noches de 8-10 °C (RHS guía) o un sitio fresco 'hasta 10 °C (50 °F) si es posible' (NYBG). Contradicción: la Univ. de Arizona (y BYU, que la copia) dan rusticidad hasta -6,7 °C (20 °F, USDA 9a-11) con protección de los ápices; ese dato es para ejemplares plantados en el exterior del desierto de Tucson, con suelo seco, y no se aplica a una maceta de interior; se adopta lo más conservador (RHS). El frío excesivo causa muerte regresiva y manchas descoloridas en la piel (RHS guía). En crecimiento (primavera-verano) le va bien el calor de vivienda y de terraza; ninguna fuente prioritaria da máxima: tolera calor si tiene ventilación, pero con sol fuerte de verano puede quemarse (Univ. Arizona). Ideal de crecimiento: por encima de 10 °C por la noche; en reposo, 8-10 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato comercial para cactus con drenaje muy rápido (RHS ficha), o mezcla propia: 2 partes de sustrato de base (tipo John Innes nº 2, sin turba) + 1 parte de grava hortícola o arena gruesa lavada, con hasta un 30 % de grava en volumen (RHS guía); alternativa de la Univ. de Minnesota: 1 parte de sustrato universal + 1 parte de arena gruesa (prueba: al apretar la mezcla húmeda en la mano, debe desmoronarse). Cubrir la superficie con grava (RHS guía), lo que además mantiene seca la base del tallo. La Univ. de Arizona señala que tolera casi cualquier suelo bien drenado y sin sales, y que crece mejor con un 30 % de materia orgánica.",
+      "ph": "6,1-7,8 (Univ. Arizona); RHS: tolera ácido, neutro o alcalino",
+      "drenaje": "Imprescindible: maceta con agujeros de drenaje (Univ. Minnesota) y nunca plato con agua. Preferible maceta de barro, pesada y estable, porque el cactus columnar alto vuelca con facilidad [orientativo, sin fuente prioritaria]. Evitar macetas demasiado grandes: el sobrante de sustrato se queda húmedo y pudre (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido rico en potasio (tipo tomate) o abono específico para cactus (RHS guía, NYBG); alternativas: abono soluble equilibrado (Univ. Arizona) o con más fósforo que nitrógeno a media dosis (Univ. Minnesota).",
+      "npk": null,
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de etiqueta, una vez al mes, solo con crecimiento activo (aprox. abril-septiembre, RHS guía). Las fuentes van de 1-2 abonados al año (Univ. Minnesota) a cada 2-4 semanas (NYBG); se adopta la pauta prudente mensual a dosis reducida, o menos. Abonar poco frena el crecimiento si se quiere contener el tamaño (Univ. Arizona). NYBG indica que también vive bien sin abonar.",
+      "otono_invierno": "Nada durante el reposo (octubre/noviembre-marzo).",
+      "notas": "Contradicción de frecuencia entre fuentes prioritarias (Univ. Minnesota 1-2 veces al año; RHS mensual; NYBG cada 2-4 semanas); se elige lo más conservador compatible con la convención del proyecto. No abonar plantas recién trasplantadas, enraizando o con raíz dañada [orientativo, sin fuente prioritaria]. Ninguna fuente da un NPK concreto.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Ejemplares jóvenes, cada año (Univ. Arizona); adultos, solo cuando las raíces llenen la maceta o la planta haya crecido demasiado para ella (RHS guía), en la práctica cada 2-4 años [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera (Univ. Arizona, RHS guía).",
+      "senales": "Raíces saliendo por los agujeros de drenaje, sustrato que se seca en muy pocos días en temporada de crecimiento, planta desequilibrada que vuelca o crecimiento parado en verano pese a buenas condiciones. Subir solo un tamaño de maceta: el exceso de sustrato se queda húmedo y pudre (RHS guía). Manipular con tiras de papel de periódico doblado o guantes gruesos por las espinas (RHS guía). Tras trasplantar, esperar unos días antes de regar para que cicatricen las raíces dañadas [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS ficha).",
+      "epoca": "Si hay que cortar (tallo etiolado, demasiado alto o con podredumbre), primavera o principio de verano, cuando enraízan los esquejes.",
+      "como": "Cortar con cuchillo limpio y afilado. Si la punta se ha estrechado por falta de luz o la planta toca el techo, se puede cortar la parte superior y usarla como esqueje (Univ. Arizona: los esquejes se toman de la parte superior del tallo; RHS guía: los tallos retirados sirven como esquejes). La base cortada suele rebrotar lateralmente [orientativo, sin fuente prioritaria]. Si hay podredumbre, cortar por encima de la zona blanda hasta tejido sano, firme y sin manchas, y dejar secar el corte. El estrechamiento por etiolación no se recupera; solo desaparece al cortar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a principios de marzo (RHS guía). Hemisferio sur: de mayo a principios de septiembre (desplazamiento de 6 meses).",
+      "cambios": "Lugar fresco y muy luminoso, con noches de 8-10 °C (RHS guía; NYBG: hasta 10 °C si es posible) y nunca por debajo de 7 °C (convención del proyecto). Riego mínimo o nulo, solo para evitar que se arrugue (RHS guía, Univ. Minnesota). Sin abono. Lejos de radiadores (RHS guía). Este reposo evita que crezca débil con poca luz (NYBG) y favorece la floración (RHS guía, Univ. Minnesota).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "hijuelos",
+        "semilla"
+      ],
+      "epoca": "Esquejes e hijuelos en primavera-verano (Univ. Arizona); semilla a principios de primavera (RHS ficha).",
+      "pasos": "Esqueje de tallo (el más fácil): 1) cortar un tramo de la punta o de una rama (Univ. Arizona, RHS ficha), con guantes; 2) dejar secar el corte hasta que forme callo, de un día a una semana (RHS guía); en tallos gruesos, más tiempo [orientativo, sin fuente prioritaria]; 3) plantar en 2 partes de sustrato tipo John Innes nº 1 + 1 parte de grava (RHS guía) o en arena estéril ligeramente húmeda (Univ. Minnesota), apenas enterrado y sujeto con un tutor; 4) mantener casi seco hasta que enraíce, regando poco para evitar la podredumbre (RHS guía, Univ. Minnesota); 5) cuando tenga raíces, pasar al sustrato habitual (Univ. Minnesota). Hijuelos: separarlos cuando tengan raíz propia (RHS guía). Semilla: posible pero difícil; germina a 21-27 °C (Univ. Arizona); sembrar en sustrato con grava, cubrir con vidrio o plástico, a 21 °C, luz brillante sin sol directo, ventilar a diario (RHS guía); las plántulas pueden tardar hasta 12 meses en poder repicarse (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición basal por exceso de riego, sustrato que no drena o agua en el plato, sobre todo en invierno con frío (RHS ficha: el exceso de riego causa podredumbre; RHS guía; Univ. Minnesota). La base se vuelve blanda, oscura o translúcida. Es la causa nº 1 de muerte; si avanza, cortar la parte sana superior y enraizarla como esqueje."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Raíces podridas por riegos frecuentes, maceta demasiado grande o sustrato sin arena/grava (RHS guía, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Etiolación: el tallo nuevo sale más estrecho, pálido y blando ('cuello de botella') por falta de luz o por crecer en invierno en una habitación caldeada con días cortos (NYBG, RHS guía). Corregir con más luz y reposo fresco y seco; la parte estrechada no recupera grosor."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura solar (zonas amarillentas, blanquecinas o pardas en la cara expuesta) al pasar bruscamente de interior a sol pleno o en verano con sol intenso (Univ. Arizona, Univ. Minnesota). Aclimatar en 2-3 semanas."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las espinas, en las areolas y en la base del tallo y las raíces (RHS ficha y guía, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre el tallo (RHS ficha y guía, Univ. Minnesota)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja en ambiente cálido y muy seco (RHS guía cita la araña roja entre las plagas de cactus); deja punteado amarillento-pardo en la piel y telilla fina."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas pardas secas y costrosas en la piel del tallo: sarna corchosa por exceso de humedad o de luz brusca, o daño por frío (RHS guía). En la parte baja de cactus viejos, un acorchado pardo uniforme es normal (envejecimiento) [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Tallo arrugado o con costillas muy marcadas por falta de agua prolongada (RHS guía: la falta de riego causa arrugamiento) o, paradójicamente, por raíces podridas que ya no absorben: revisar la base y las raíces antes de regar."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Crecimiento parado o deforme por exceso o falta de riego (RHS guía), poca luz o maceta que necesita trasplante. En invierno, la parada es normal (reposo)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire seco, C. repandus lo lleva bien si está aclimatado: puede pasar el verano en terraza o balcón soleado (RHS ficha: puede salir al exterior en verano en un lugar resguardado; NYBG: agradece la terraza en los meses más cálidos). Aclimatar al sol en 2-3 semanas para evitar quemaduras y, en orientación sur u oeste, dar algo de sombra en las horas centrales en olas de calor, sobre todo a ejemplares jóvenes o recién comprados (Univ. Arizona). En exterior se seca mucho antes: comprobar sustrato y peso cada pocos días y regar a fondo solo cuando esté seco. Detrás de un cristal de ventana sur u oeste el calor se acumula: ventilar. Vigilar araña roja con el aire seco.",
+    "invierno": "Necesita reposo fresco, luminoso y seco: lo ideal es una habitación sin calefacción o una galería acristalada con noches de 8-10 °C, junto a la ventana más luminosa, y casi sin riego de noviembre a principios de marzo. Nunca por debajo de 7 °C: aunque la Univ. de Arizona la da como rústica hasta -6,7 °C en el desierto, RHS la clasifica H1C y las heladas de Madrid (con suelo húmedo en maceta) son un riesgo no respaldado; no dejarla en la terraza en invierno salvo que no baje de 7 °C. Si solo puede estar en salón con calefacción, lejos del radiador (RHS guía), con la máxima luz y riego mínimo; la humedad interior por debajo del 30 % no le perjudica (Univ. Minnesota). Junto a un cristal muy frío por la noche, separarla unos centímetros para que el tallo no toque el vidrio.",
+    "ubicacion_recomendada": "Interior: la ventana más soleada (sur u oeste), girando la maceta cada pocas semanas para que crezca recta. De mayo a octubre (cuando las noches superen 10-12 °C), terraza soleada y resguardada del viento, con maceta pesada que no vuelque. En invierno, dentro, en el lugar más fresco y luminoso de la casa."
+  },
+  "lagunas": [
+    "POWO (Kew) consultado mediante proxy: nombre aceptado Cereus repandus (L.) Mill.; Cereus peruvianus (L.) Mill. es sinónimo heterotípico. No hay cambio de nombre. El homónimo Cereus peruvianus C.F.Först. es sinónimo de Stenocereus griseus.",
+    "Discrepancia de área nativa: POWO (Caribe sur: Aruba, Curazao, Venezuela, Colombia) frente a Univ. Arizona y BYU (Argentina, Brasil, Uruguay, que corresponde a C. hildmannianus/C. uruguayanus). En el comercio europeo muchas plantas etiquetadas 'Cereus peruvianus' pueden ser en realidad C. hildmannianus/uruguayanus (NYBG); no se ha podido verificar qué especie se vende mayoritariamente en España.",
+    "Toxicidad sin fuente prioritaria: ASPCA y NC State no tienen ficha de la especie; solo un vivero la declara no tóxica. Se deja 'desconocida' para perros, gatos y niños.",
+    "Ninguna fuente prioritaria da valores en lux o fc; lux_min se deriva de la escala del proyecto y lux_max queda en null.",
+    "Sin temperatura máxima verificada; max_c e ideal_max_c en null.",
+    "Rusticidad sin consenso: RHS H1C (mínimas de 5-10 °C) frente a Univ. Arizona -6,7 °C (exterior en Tucson). No hay dato verificado de supervivencia en exterior en Madrid; no se respalda dejarla fuera todo el año.",
+    "No hay NPK concreto en ninguna fuente prioritaria.",
+    "Rasgos para distinguir C. repandus de C. hildmannianus y C. jamacaru en planta joven sin flor no verificados en fuentes prioritarias."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/157556/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Cereus repandus (sin. C. peruvianus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libanswers.nybg.org/faq/222959",
+      "institucion": "New York Botanical Garden (NYBG) – Plant Information Service, cuidado del Peruvian apple cactus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=1077",
+      "institucion": "University of Arizona – Campus Arboretum, ficha Cereus repandus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:130627-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), Cereus repandus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://api.gbif.org/v1/species/match?name=Cereus%20repandus&kingdom=Plantae",
+      "institucion": "GBIF – Backbone Taxonomy (consulta de nombre)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://pws.byu.edu/greenhouse/column-cactus",
+      "institucion": "Brigham Young University – Life Sciences Greenhouse, Column Cactus (deriva de la ficha de la Univ. de Arizona)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA – Toxic and Non-Toxic Plants (listas de gatos y perros; sin entrada para la especie)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://planetdesert.com/products/peruvian-apple-cactus-cereus-peruvianus-repandus",
+      "institucion": "Planet Desert (vivero especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://en.wikipedia.org/wiki/Cereus_repandus",
+      "institucion": "Wikipedia (basado en Anderson, The Cactus Family)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

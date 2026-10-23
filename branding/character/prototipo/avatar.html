@@ -1,0 +1,649 @@
+<title>Avatar Treegoh</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500;700&family=Funnel+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: escenario cuadrado protagonista a la izquierda, panel de control a la derecha; en móvil se apilan. */
+:root {
+  --bg: #EEF0DA;
+  --surface: #F8F9EE;
+  --ink: #2F3E46;
+  --muted: #52796F;
+  --line: #CAD2C5;
+  --accent: #52796F;
+  --accent-ink: #F8F9EE;
+  --chip: #E3E7CF;
+  --display: "Funnel Display", "Funnel Sans", ui-sans-serif, system-ui, sans-serif;
+  --body: "Funnel Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #172024; --surface: #1F2B30; --ink: #E6E8C4; --muted: #9DB7A2; --line: #354F52;
+    --accent: #84A98C; --accent-ink: #172024; --chip: #263439; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #172024; --surface: #1F2B30; --ink: #E6E8C4; --muted: #9DB7A2; --line: #354F52;
+  --accent: #84A98C; --accent-ink: #172024; --chip: #263439; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 32px;
+}
+.wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 20px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.3rem); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+header p { margin: 0; color: var(--muted); max-width: 60ch; }
+.main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .main { grid-template-columns: 1fr; } }
+.stage {
+  position: relative; width: 100%; max-width: 100%; aspect-ratio: 1 / 1; border-radius: 28px; overflow: hidden;
+  border: 1px solid var(--line); touch-action: none; user-select: none; -webkit-user-select: none;
+}
+.stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
+.stage canvas:active { cursor: grabbing; }
+.stage .tag {
+  position: absolute; left: 14px; bottom: 12px; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,0.55); color: #2F3E46; backdrop-filter: blur(6px);
+  pointer-events: none;
+}
+.stage.dark .tag { background: rgba(0,0,0,0.35); color: #E6E8C4; }
+.panel { display: grid; gap: 18px; min-width: 0; }
+.group { display: grid; gap: 10px; }
+.group h2 { margin: 0; font-family: var(--display); font-weight: 500; font-size: 1.05rem; }
+.label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.states { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.state {
+  display: grid; gap: 1px; text-align: left; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; transition: border-color .2s, background .2s, transform .15s;
+}
+.state:hover { border-color: var(--accent); }
+.state:active { transform: scale(0.98); }
+.state b { font-weight: 600; font-size: 14px; }
+.state span { font-size: 12px; color: var(--muted); }
+.state[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.state[aria-pressed="true"] span { color: var(--accent-ink); opacity: .85; }
+.state kbd { font-family: var(--mono); font-size: 11px; opacity: .6; float: right; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--chip); color: var(--ink); font: inherit; font-size: 13px; cursor: pointer;
+}
+.chip i { width: 20px; height: 20px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.15); display: inline-block; }
+.chip[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; cursor: pointer; }
+.toggle input { accent-color: var(--accent); width: 18px; height: 18px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hint { margin: 0; padding: 12px 14px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); font-size: 14px; }
+.hint ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.rive { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.rive table { border-collapse: collapse; width: 100%; font-size: 13px; }
+.rive th, .rive td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.rive tr:last-child td { border-bottom: 0; }
+.rive code { font-family: var(--mono); font-size: 12px; }
+.readout { font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Avatar Treegoh</h1>
+    <p>Prototipo de movimiento con las capas reales: cristal transparente, núcleo de partículas y cara kawaii en vector. Mueve el puntero, toca o arrastra la esfera.</p>
+  </header>
+
+  <div class="main">
+    <div class="stage" id="stage">
+      <canvas id="cv" aria-label="Avatar animado: esfera de cristal con núcleo de partículas verdes y cara kawaii" role="img"></canvas>
+      <span class="tag" id="tag">Reposo</span>
+    </div>
+
+    <div class="panel">
+      <div class="group">
+        <h2>Estado</h2>
+        <div class="states" id="states"></div>
+      </div>
+
+      <div class="group">
+        <h2>Fondo de la app</h2>
+        <div class="chips" id="fondos"></div>
+        <div class="row">
+          <label class="toggle"><input type="checkbox" id="auto"> Recorrer estados solo</label>
+          <span class="readout" id="fps"></span>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Qué probar</h2>
+        <div class="hint">
+          <ul>
+            <li>Mueve el puntero o el dedo: te sigue con la mirada y la cara gira un poco hacia ti.</li>
+            <li>Toca la esfera: se aplasta como gelatina, el núcleo se agita y sonríe.</li>
+            <li>Arrástrala y suéltala: vuelve con rebote y el núcleo se queda atrás por inercia.</li>
+            <li>Teclas 1 a 8 para cambiar de estado; las transiciones son continuas, sin cortes.</li>
+            <li>Cada estado funde su propia variante del núcleo; en reposo la forma respira lentamente entre densa, aérea y espiral.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Entradas para Rive</h2>
+        <div class="rive">
+          <table>
+            <thead><tr><th>Entrada</th><th>Tipo</th><th>Uso en la app</th></tr></thead>
+            <tbody>
+              <tr><td><code>estado</code></td><td>número 0–7</td><td>Lo fija la lógica: riego pendiente, diagnóstico, voz, noche…</td></tr>
+              <tr><td><code>mirarX</code>, <code>mirarY</code></td><td>número −1…1</td><td>Dedo, cámara o el elemento de la pantalla que se quiere señalar</td></tr>
+              <tr><td><code>tocar</code></td><td>disparador</td><td>Toque sobre el avatar</td></tr>
+              <tr><td><code>voz</code></td><td>número 0–1</td><td>Volumen del micrófono en modo escucha</td></tr>
+              <tr><td><code>oscuro</code></td><td>booleano</td><td>Cambia núcleo opaco por emisivo y activa el halo</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // ---------- estados y parámetros de la cara ----------
+  const ESTADOS = [
+    { id: "reposo", nombre: "Reposo", cuando: "Entre acciones", p: { open: 1, brow: 0, tilt: 0, asym: 0, curve: .55, mopen: 0, mw: .8, mx: 0, blush: .65, tear: 0, star: 0, closed: 0, drop: 0, dim: 1, speed: 1, swirl: .25, bob: 1, glow: .85, shiver: 0, hop: 0, voice: 0, zzz: 0, gaze: null } },
+    { id: "feliz", nombre: "Feliz", cuando: "Todas las plantas al día", p: { open: .92, brow: -.12, tilt: .15, asym: 0, curve: 1, mopen: .45, mw: 1, mx: 0, blush: 1, tear: 0, star: 0, closed: 0, drop: -.02, dim: 1.05, speed: 1.35, swirl: .35, bob: 1.4, glow: 1.05, shiver: 0, hop: .35, voice: 0, zzz: 0, gaze: null } },
+    { id: "sediento", nombre: "Sediento", cuando: "Toca regar", p: { open: .52, brow: .12, tilt: -.75, asym: 0, curve: -.25, mopen: .22, mw: .42, mx: 0, blush: .25, tear: 0, star: 0, closed: 0, drop: .15, dim: .62, speed: .4, swirl: .05, bob: .45, glow: .42, shiver: 0, hop: 0, voice: 0, zzz: 0, gaze: [0, .45] } },
+    { id: "preocupado", nombre: "Preocupado", cuando: "Diagnóstico o alerta", p: { open: 1.08, brow: -.18, tilt: -1, asym: 0, curve: -.75, mopen: .05, mw: .6, mx: 0, blush: .45, tear: 1, star: 0, closed: 0, drop: .03, dim: .85, speed: 1.5, swirl: .5, bob: .7, glow: .7, shiver: .5, hop: 0, voice: 0, zzz: 0, gaze: null } },
+    { id: "pensando", nombre: "Pensando", cuando: "Identificando una foto", p: { open: .86, brow: 0, tilt: 0, asym: .9, curve: .05, mopen: 0, mw: .42, mx: .3, blush: .55, tear: 0, star: 0, closed: 0, drop: -.02, dim: 1, speed: 1.2, swirl: 1.6, bob: .8, glow: .95, shiver: 0, hop: 0, voice: 0, zzz: 0, gaze: [-.62, -.72] } },
+    { id: "escuchando", nombre: "Escuchando", cuando: "Modo voz", p: { open: 1.16, brow: -.28, tilt: .1, asym: 0, curve: .2, mopen: .3, mw: .34, mx: 0, blush: .8, tear: 0, star: 0, closed: 0, drop: 0, dim: 1.05, speed: 1.1, swirl: .4, bob: .9, glow: 1.1, shiver: 0, hop: 0, voice: 1, zzz: 0, gaze: [0, 0] } },
+    { id: "celebracion", nombre: "Celebración", cuando: "Tarea completada", p: { open: 1.05, brow: -.25, tilt: .2, asym: 0, curve: 1, mopen: .85, mw: 1.12, mx: 0, blush: 1, tear: 0, star: 1, closed: 0, drop: -.04, dim: 1.12, speed: 2, swirl: .8, bob: 1.2, glow: 1.35, shiver: 0, hop: 1, voice: 0, zzz: 0, gaze: [0, 0] } },
+    { id: "dormido", nombre: "Dormido", cuando: "Noche o reposo invernal", p: { open: 0, brow: .14, tilt: 0, asym: 0, curve: .3, mopen: .12, mw: .3, mx: 0, blush: .5, tear: 0, star: 0, closed: 1, drop: .06, dim: .7, speed: .3, swirl: .1, bob: .45, glow: .35, shiver: 0, hop: 0, voice: 0, zzz: 1, gaze: [0, 0] } },
+  ];
+  const FONDOS = [
+    { id: "crema", nombre: "Crema", c: "#E6E8C4" },
+    { id: "blanco", nombre: "Blanco", c: "#FFFFFF" },
+    { id: "pizarra", nombre: "Pizarra", c: "#2F3E46" },
+    { id: "noche", nombre: "Noche", c: "#101413" },
+  ];
+
+  // muelle amortiguado: la base de toda la fluidez
+  class Muelle {
+    constructor(x, k = 90, c = 14) { this.x = x; this.v = 0; this.k = k; this.c = c; this.t = x; }
+    paso(dt) { const a = this.k * (this.t - this.x) - this.c * this.v; this.v += a * dt; this.x += this.v * dt; return this.x; }
+  }
+  const P = {};
+  const rigidez = { open: [160, 20], curve: [70, 12], mopen: [90, 14], star: [60, 11], closed: [70, 14], drop: [18, 6], dim: [8, 5], speed: [6, 5], swirl: [5, 4], bob: [6, 5], glow: [6, 5] };
+  for (const k of Object.keys(ESTADOS[0].p)) {
+    if (k === "gaze") continue;
+    const [kk, cc] = rigidez[k] || [60, 12];
+    P[k] = new Muelle(ESTADOS[0].p[k], kk, cc);
+  }
+
+  // ---------- recursos ----------
+  const img = (src) => new Promise((ok) => { const i = new Image(); i.onload = () => ok(i); i.onerror = () => ok(null); i.src = src; });
+  const R_CRISTAL = 0.49;          // radio de la esfera / lado de cristal.webp
+  const NUCLEO = 0.70;             // diámetro del núcleo / diámetro de la esfera
+
+  // ---------- lienzo ----------
+  const stage = document.getElementById("stage");
+  const cv = document.getElementById("cv");
+  const ctx = cv.getContext("2d");
+  let W = 0, H = 0, DPR = 1, R = 100, HOME = { x: 0, y: 0 };
+  function medir() {
+    const r = stage.getBoundingClientRect();
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = r.width; H = r.height;
+    cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+    R = Math.min(W, H) * 0.31;
+    HOME = { x: W / 2, y: H * 0.47 };
+  }
+  new ResizeObserver(medir).observe(stage);
+  medir();
+
+  // ---------- estado de la escena ----------
+  let estado = 0, fondo = 0, oscuro = false;
+  const esfera = { x: new Muelle(HOME.x, 60, 9), y: new Muelle(HOME.y, 60, 9) };
+  const hop = new Muelle(0, 70, 7);
+  const squash = new Muelle(0, 220, 9);
+  const nucleo = { x: new Muelle(0, 34, 5), y: new Muelle(0, 34, 5) };
+  const mirada = { x: new Muelle(0, 140, 17), y: new Muelle(0, 140, 17) };
+  const giro = { x: new Muelle(0, 28, 8), y: new Muelle(0, 28, 8) };
+  let arrastre = null, puntero = null, ultimoPuntero = -10, alegriaHasta = 0;
+  let parpadeo = 1, proximoParpadeo = 2, fasePar = -1, doble = false;
+  let proximaMirada = 1.5, miradaLibre = [0, 0];
+  let tProxSalto = 1.2;
+  const ondas = [], chispas = [], zetas = [];
+  let tZeta = 0, tOnda = 0, voz = 0;
+
+  // ---------- partículas generativas ----------
+  const N = reduce ? 90 : 240;
+  const motas = Array.from({ length: N }, () => ({
+    a: Math.random() * Math.PI * 2,
+    r: Math.pow(Math.random(), 0.7) * 1.15,
+    w: (0.4 + Math.random()) * (Math.random() < .5 ? 1 : -1) * 0.25,
+    f: 0.3 + Math.random() * 0.9, ph: Math.random() * 10,
+    s: 0.5 + Math.random() * 1.6, z: Math.random(),
+    tono: Math.floor(Math.random() * 4),
+  }));
+  const TONOS_OSC = ["rgba(150,235,170,", "rgba(110,200,140,", "rgba(200,255,210,", "rgba(132,169,140,"];
+  const TONOS_CLA = ["rgba(53,79,82,", "rgba(82,121,111,", "rgba(132,169,140,", "rgba(255,255,255,"];
+  const sprite = document.createElement("canvas");
+  sprite.width = sprite.height = 32;
+  { const s = sprite.getContext("2d"); const g = s.createRadialGradient(16, 16, 0, 16, 16, 16);
+    g.addColorStop(0, "rgba(220,255,225,1)"); g.addColorStop(.35, "rgba(150,235,170,.55)"); g.addColorStop(1, "rgba(150,235,170,0)");
+    s.fillStyle = g; s.fillRect(0, 0, 32, 32); }
+
+  // ---------- interacción ----------
+  const pos = (e) => { const r = cv.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
+  cv.addEventListener("pointermove", (e) => { puntero = pos(e); ultimoPuntero = reloj;
+    if (arrastre) { esfera.x.t = puntero.x - arrastre.dx; esfera.y.t = puntero.y - arrastre.dy;
+      arrastre.mov += Math.abs(e.movementX || 0) + Math.abs(e.movementY || 0); } });
+  cv.addEventListener("pointerdown", (e) => {
+    const p = pos(e); puntero = p; ultimoPuntero = reloj;
+    const d = Math.hypot(p.x - esfera.x.x, p.y - esfera.y.x);
+    if (d < R * 1.05) {
+      cv.setPointerCapture(e.pointerId);
+      arrastre = { dx: p.x - esfera.x.x, dy: p.y - esfera.y.x, t0: reloj, mov: 0 };
+      esfera.x.k = esfera.y.k = 520; esfera.x.c = esfera.y.c = 38;
+    }
+  });
+  const soltar = () => {
+    if (!arrastre) return;
+    const toque = reloj - arrastre.t0 < 0.3 && arrastre.mov < 12;
+    arrastre = null;
+    esfera.x.k = esfera.y.k = 60; esfera.x.c = esfera.y.c = 7.5;
+    esfera.x.t = HOME.x; esfera.y.t = HOME.y;
+    if (toque) tocar();
+  };
+  cv.addEventListener("pointerup", soltar);
+  cv.addEventListener("pointercancel", soltar);
+  cv.addEventListener("pointerleave", () => { if (!arrastre) puntero = null; });
+
+  function tocar() {
+    squash.v += 7.5;
+    nucleo.x.v += (Math.random() - .5) * R * 4; nucleo.y.v -= R * 3.2;
+    if (ESTADOS[estado].id !== "dormido") alegriaHasta = reloj + 1.1;
+    else { alegriaHasta = 0; parpadeo = 1; }
+    for (let i = 0; i < 10; i++) chispa(0.6);
+  }
+  function chispa(f = 1) {
+    const a = Math.random() * Math.PI * 2, v = (0.6 + Math.random()) * R * 1.4 * f;
+    chispas.push({ x: esfera.x.x, y: esfera.y.x + hop.x, vx: Math.cos(a) * v, vy: Math.sin(a) * v - R * .6, vida: 0, max: .9 + Math.random() * .6, s: 1 + Math.random() * 2 });
+  }
+
+  // ---------- interfaz ----------
+  const cont = document.getElementById("states");
+  ESTADOS.forEach((s, i) => {
+    const b = document.createElement("button");
+    b.className = "state"; b.type = "button"; b.id = "estado-" + s.id;
+    b.innerHTML = `<b>${s.nombre} <kbd>${i + 1}</kbd></b><span>${s.cuando}</span>`;
+    b.addEventListener("click", () => fijarEstado(i));
+    cont.appendChild(b);
+  });
+  const contF = document.getElementById("fondos");
+  FONDOS.forEach((f, i) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.id = "fondo-" + f.id;
+    b.innerHTML = `<i style="background:${f.c}"></i>${f.nombre}`;
+    b.addEventListener("click", () => fijarFondo(i));
+    contF.appendChild(b);
+  });
+  function fijarEstado(i) {
+    const prev = ESTADOS[estado].id;
+    estado = i;
+    const s = ESTADOS[i];
+    for (const k in P) P[k].t = s.p[k];
+    document.querySelectorAll(".state").forEach((b, j) => b.setAttribute("aria-pressed", j === i ? "true" : "false"));
+    document.getElementById("tag").textContent = `${s.nombre} · núcleo ${NUC_ESTADO[s.id]}`;
+    if (s.id === "celebracion") { for (let n = 0; n < 34; n++) chispa(1.2); hop.v -= R * 5; squash.v -= 4; }
+    if (prev === "dormido" && s.id !== "dormido") { squash.v += 3; }
+    if (s.id === "sediento") { squash.v -= 2; }
+  }
+  function fijarFondo(i) {
+    fondo = i;
+    const c = FONDOS[i].c;
+    const n = parseInt(c.slice(1), 16), lum = (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255;
+    oscuro = lum < 0.4;
+    stage.classList.toggle("dark", oscuro);
+    stage.style.background = c;
+    document.querySelectorAll(".chip").forEach((b, j) => b.setAttribute("aria-pressed", j === i ? "true" : "false"));
+  }
+  addEventListener("keydown", (e) => { const n = parseInt(e.key, 10); if (n >= 1 && n <= 8 && !e.metaKey && !e.ctrlKey) fijarEstado(n - 1); });
+  const auto = document.getElementById("auto");
+  let tAuto = 0;
+
+  // ---------- dibujo de la cara (unidad u = radio de la esfera) ----------
+  const CIRUELA = "#5B1636", CIRUELA2 = "#7A2348", ROSA = "rgba(244,160,178,", LENGUA = "#F39AAE";
+  function ojo(lado, u, open, star, closed, gx, gy) {
+    const ex = lado * 0.27 * u, ey = -0.04 * u;
+    const rx = 0.1 * u, ry = 0.128 * u;
+    ctx.save(); ctx.translate(ex, ey);
+    if (open < 0.14 || closed > 0.6) {
+      // ojo cerrado: arco suave con dos pestañas
+      ctx.strokeStyle = CIRUELA; ctx.lineWidth = 0.022 * u; ctx.lineCap = "round";
+      ctx.beginPath();
+      if (closed > 0.6) { ctx.moveTo(-rx, 0); ctx.quadraticCurveTo(0, ry * .75, rx, 0); }
+      else { ctx.moveTo(-rx, 0.02 * u); ctx.quadraticCurveTo(0, -0.03 * u, rx, 0.02 * u); }
+      ctx.stroke();
+      if (closed > 0.6) { ctx.lineWidth = 0.014 * u; ctx.beginPath();
+        ctx.moveTo(lado * rx * .85, ry * .12); ctx.lineTo(lado * rx * 1.25, ry * .32);
+        ctx.moveTo(lado * rx * .55, ry * .42); ctx.lineTo(lado * rx * .85, ry * .72); ctx.stroke(); }
+      ctx.restore(); return;
+    }
+    const k = Math.min(open, 1.2);
+    ctx.save(); ctx.scale(1, k);
+    // globo ocular
+    ctx.fillStyle = CIRUELA;
+    ctx.beginPath(); ctx.ellipse(gx * 0.02 * u, gy * 0.02 * u, rx, ry, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = CIRUELA2;
+    ctx.beginPath(); ctx.ellipse(gx * 0.03 * u, gy * 0.03 * u + ry * .28, rx * .62, ry * .5, 0, 0, Math.PI * 2); ctx.fill();
+    if (star > 0.02) {
+      // estrella de 4 puntas blanca
+      ctx.save(); ctx.translate(gx * 0.02 * u, gy * 0.02 * u); ctx.rotate(reloj * 1.6);
+      const s = 0.085 * u * star, t = s * 0.28;
+      ctx.fillStyle = "#FFFFFF"; ctx.beginPath();
+      for (let i = 0; i < 4; i++) { const a = i * Math.PI / 2; ctx.lineTo(Math.cos(a) * s, Math.sin(a) * s); ctx.lineTo(Math.cos(a + Math.PI / 4) * t, Math.sin(a + Math.PI / 4) * t); }
+      ctx.closePath(); ctx.fill(); ctx.restore();
+    }
+    // brillos: fijos respecto a la luz, se mueven menos que la pupila
+    const h = 1 - star;
+    if (h > 0.02) {
+      ctx.fillStyle = `rgba(255,255,255,${0.95 * h})`;
+      ctx.beginPath(); ctx.ellipse(-0.032 * u + gx * .008 * u, -0.045 * u, 0.052 * u, 0.05 * u, 0, 0, Math.PI * 2); ctx.fill();
+      ctx.beginPath(); ctx.arc(0.04 * u + gx * .008 * u, 0.05 * u, 0.019 * u, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.restore();
+    // párpado superior y pestañas
+    ctx.strokeStyle = CIRUELA; ctx.lineCap = "round"; ctx.lineWidth = 0.02 * u;
+    const top = -ry * k;
+    ctx.beginPath(); ctx.ellipse(0, 0, rx * 1.04, ry * k * 1.02, 0, Math.PI * 1.08, Math.PI * 1.92); ctx.stroke();
+    ctx.lineWidth = 0.013 * u; ctx.beginPath();
+    ctx.moveTo(lado * rx * .88, top * .62); ctx.lineTo(lado * rx * 1.3, top * .95);
+    ctx.moveTo(lado * rx * .62, top * .86); ctx.lineTo(lado * rx * .92, top * 1.22);
+    ctx.stroke();
+    ctx.restore();
+  }
+  function ceja(lado, u, brow, tilt, asym) {
+    ctx.save();
+    const lift = (lado > 0 ? asym : 0) * -0.075 * u;
+    ctx.translate(lado * 0.27 * u, -0.235 * u + brow * 0.12 * u + lift);
+    ctx.rotate(lado < 0 ? tilt * 0.32 : -tilt * 0.32);
+    ctx.strokeStyle = CIRUELA; ctx.lineWidth = 0.02 * u; ctx.lineCap = "round";
+    ctx.beginPath(); ctx.moveTo(-0.085 * u, 0.012 * u); ctx.quadraticCurveTo(0, -0.03 * u, 0.085 * u, 0.012 * u); ctx.stroke();
+    ctx.restore();
+  }
+  function boca(u, curve, mopen, mw, mx) {
+    const w = 0.13 * u * mw, cx = mx * 0.12 * u, cy = 0.15 * u;
+    ctx.save(); ctx.translate(cx, cy);
+    ctx.strokeStyle = CIRUELA; ctx.fillStyle = CIRUELA; ctx.lineCap = "round"; ctx.lineJoin = "round"; ctx.lineWidth = 0.02 * u;
+    if (mopen < 0.06) {
+      ctx.beginPath(); ctx.moveTo(-w, 0); ctx.quadraticCurveTo(0, curve * 0.12 * u, w, 0); ctx.stroke();
+    } else {
+      const sup = curve * 0.05 * u - mopen * 0.02 * u, inf = curve * 0.1 * u + mopen * 0.17 * u;
+      ctx.beginPath(); ctx.moveTo(-w, 0); ctx.quadraticCurveTo(0, sup, w, 0); ctx.quadraticCurveTo(0, inf, -w, 0); ctx.closePath(); ctx.fill();
+      ctx.save(); ctx.clip();
+      ctx.fillStyle = LENGUA; ctx.beginPath(); ctx.ellipse(0, inf * 0.55, w * 0.62, Math.max(inf * 0.3, 0.01 * u), 0, 0, Math.PI * 2); ctx.fill();
+      ctx.restore();
+    }
+    ctx.restore();
+  }
+  function cara(x, y, u, f, gx, gy) {
+    ctx.save(); ctx.translate(x, y);
+    // coloretes
+    ctx.fillStyle = ROSA + (0.85 * f.blush).toFixed(3) + ")";
+    for (const l of [-1, 1]) { ctx.beginPath(); ctx.ellipse(l * 0.37 * u, 0.1 * u, 0.075 * u, 0.045 * u, 0, 0, Math.PI * 2); ctx.fill(); }
+    const open = Math.max(0, f.open * parpadeo);
+    ojo(-1, u, open, f.star, f.closed, gx, gy);
+    ojo(1, u, open, f.star, f.closed, gx, gy);
+    ceja(-1, u, f.brow, f.tilt, f.asym);
+    ceja(1, u, f.brow, f.tilt, f.asym);
+    boca(u, f.curve, f.mopen, f.mw, f.mx);
+    if (f.tear > 0.05) {
+      const ciclo = (reloj * 0.45) % 1, ty = 0.06 * u + ciclo * 0.22 * u;
+      ctx.globalAlpha = f.tear * Math.sin(Math.PI * Math.min(ciclo * 1.4, 1));
+      ctx.fillStyle = "#A9C8EF";
+      ctx.beginPath(); ctx.moveTo(-0.27 * u, ty - 0.035 * u);
+      ctx.quadraticCurveTo(-0.235 * u, ty + 0.01 * u, -0.27 * u, ty + 0.025 * u);
+      ctx.quadraticCurveTo(-0.305 * u, ty + 0.01 * u, -0.27 * u, ty - 0.035 * u); ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+    ctx.restore();
+  }
+
+  // ---------- bucle ----------
+  let cristal;
+  // variantes del núcleo (Magnific): cada estado tiene la suya y se funden con muelles
+  const VARIANTES = ["base", "densa", "aerea", "espiral", "sedimento", "radiante", "bruma"];
+  const NUC_ESTADO = { reposo: "base", feliz: "aerea", sediento: "sedimento", preocupado: "densa", pensando: "espiral", escuchando: "base", celebracion: "radiante", dormido: "bruma" };
+  const AMBIENTE = ["densa", "aerea", "espiral"];
+  const nuc = Object.fromEntries(VARIANTES.map((v) => [v, { claro: null, emis: null, w: new Muelle(v === "base" ? 1 : 0, 14, 7.5), fase: Math.random() * 6 }]));
+  let ambIdx = 0, ambT = 0;
+  const AMB_CICLO = 16;   // segundos por cada respiración de forma en reposo
+  const ESCALA_VAR = 1.12;
+  let reloj = 0, previo = performance.now(), fpsN = 0, fpsT = 0, dtF = 1 / 60;
+  const fpsEl = document.getElementById("fps");
+
+  function paso(dt) {
+    reloj += dt;
+    const f = {}; for (const k in P) f[k] = P[k].paso(dt);
+    // alegría breve tras un toque
+    if (reloj < alegriaHasta) { f.curve = Math.max(f.curve, 1); f.mopen = Math.max(f.mopen, .35); f.blush = 1; }
+
+    // pesos de las variantes del núcleo: la del estado + una respiración lenta de forma en reposo
+    const idEst = ESTADOS[estado].id, principal = NUC_ESTADO[idEst];
+    ambT += dt; if (ambT > AMB_CICLO) { ambT = 0; ambIdx = (ambIdx + 1) % AMBIENTE.length; }
+    const amb = (idEst === "reposo" && !reduce) ? 0.32 * Math.sin(Math.PI * ambT / AMB_CICLO) ** 2 : 0;
+    for (const v of VARIANTES) {
+      nuc[v].w.t = (v === principal ? 1 - amb * 0.5 : 0) + (v === AMBIENTE[ambIdx] ? amb : 0);
+      nuc[v].w.paso(dt);
+    }
+
+    // recorrido automático
+    if (auto.checked) { tAuto += dt; if (tAuto > 4.2) { tAuto = 0; fijarEstado((estado + 1) % ESTADOS.length); } }
+
+    // flotación con dos frecuencias para que no se note el bucle
+    const amp = reduce ? .3 : 1;
+    const bobY = (Math.sin(reloj * 0.95) * 0.03 + Math.sin(reloj * 1.73 + 1.3) * 0.009) * R * f.bob * amp;
+    const bobX = (Math.sin(reloj * 0.61 + .4) * 0.014) * R * f.bob * amp;
+    const tiritar = f.shiver * Math.sin(reloj * 38) * 0.006 * R;
+    if (f.hop > 0.5 && !reduce) { tProxSalto -= dt; if (tProxSalto < 0) { tProxSalto = 1.6 + Math.random() * .8; hop.v -= R * 4.4; squash.v -= 3; for (let i = 0; i < 8; i++) chispa(.8); } }
+    else if (f.hop > 0.2 && !reduce) { tProxSalto -= dt; if (tProxSalto < 0) { tProxSalto = 2.8 + Math.random() * 1.5; hop.v -= R * 2.2; } }
+
+    const vx0 = esfera.x.v, vy0 = esfera.y.v;
+    if (!arrastre) { esfera.x.t = HOME.x; esfera.y.t = HOME.y; }
+    esfera.x.paso(dt); esfera.y.paso(dt); hop.paso(dt); squash.paso(dt);
+    const ax = (esfera.x.v - vx0) / dt, ay = (esfera.y.v - vy0) / dt;
+    const hopA = hop.k * (0 - hop.x) - hop.c * hop.v;
+    // el núcleo se queda atrás: aceleración de la esfera como fuerza ficticia
+    nucleo.x.t = 0; nucleo.y.t = f.drop * R;
+    nucleo.x.v -= ax * dt * 0.9; nucleo.y.v -= (ay + hopA) * dt * 0.9;
+    nucleo.x.paso(dt); nucleo.y.paso(dt);
+    const lim = R * 0.24, dn = Math.hypot(nucleo.x.x, nucleo.y.x - f.drop * R);
+    if (dn > lim) { const s = lim / dn; nucleo.x.x *= s; nucleo.y.x = f.drop * R + (nucleo.y.x - f.drop * R) * s; nucleo.x.v *= .6; nucleo.y.v *= .6; }
+
+    // mirada
+    const est = ESTADOS[estado].p;
+    let gx = 0, gy = 0;
+    if (est.gaze) { [gx, gy] = est.gaze; }
+    else if (puntero && reloj - ultimoPuntero < 2.5) {
+      const dx = puntero.x - esfera.x.x, dy = puntero.y - (esfera.y.x + hop.x);
+      const d = Math.hypot(dx, dy), m = Math.min(d / (R * 2.2), 1);
+      gx = d ? dx / d * m : 0; gy = d ? dy / d * m : 0;
+    } else {
+      proximaMirada -= dt;
+      if (proximaMirada < 0) { proximaMirada = 1.2 + Math.random() * 2.6; miradaLibre = Math.random() < .35 ? [0, 0] : [(Math.random() - .5) * 1.1, (Math.random() - .5) * .7]; }
+      [gx, gy] = miradaLibre;
+    }
+    mirada.x.t = gx; mirada.y.t = gy; mirada.x.paso(dt); mirada.y.paso(dt);
+    giro.x.t = gx; giro.y.t = gy; giro.x.paso(dt); giro.y.paso(dt);
+
+    // parpadeo natural, a veces doble
+    if (f.closed < 0.5 && f.star < 0.5) {
+      if (fasePar < 0) { proximoParpadeo -= dt; if (proximoParpadeo < 0) { fasePar = 0; doble = Math.random() < 0.18; } }
+      else {
+        fasePar += dt / 0.17;
+        parpadeo = 1 - Math.sin(Math.min(fasePar, 1) * Math.PI) ** 1.4;
+        if (fasePar >= 1) { parpadeo = 1; if (doble) { doble = false; fasePar = -1; proximoParpadeo = 0.12; } else { fasePar = -1; proximoParpadeo = 2.2 + Math.random() * 4; } }
+      }
+    } else parpadeo = 1;
+
+    // voz simulada
+    voz += ((f.voice > .5 ? (0.35 + 0.65 * Math.abs(Math.sin(reloj * 7.3) * Math.sin(reloj * 2.1 + 1) * Math.sin(reloj * 13.7))) : 0) - voz) * Math.min(1, dt * 14);
+    if (f.voice > .5) { tOnda -= dt; if (tOnda < 0) { tOnda = .75; ondas.push({ r: 1, vida: 0 }); } }
+    if (f.zzz > .5) { tZeta -= dt; if (tZeta < 0) { tZeta = 1.5; zetas.push({ x: 0, vida: 0, s: .8 + Math.random() * .5 }); } }
+
+    for (const c of chispas) { c.vida += dt; c.vy += R * 2.2 * dt; c.x += c.vx * dt; c.y += c.vy * dt; c.vx *= .985; }
+    for (let i = chispas.length - 1; i >= 0; i--) if (chispas[i].vida > chispas[i].max) chispas.splice(i, 1);
+    for (const o of ondas) o.vida += dt;
+    for (let i = ondas.length - 1; i >= 0; i--) if (ondas[i].vida > 1.6) ondas.splice(i, 1);
+    for (const z of zetas) z.vida += dt;
+    for (let i = zetas.length - 1; i >= 0; i--) if (zetas[i].vida > 3) zetas.splice(i, 1);
+
+    return { f, bobX: bobX + tiritar, bobY, gx: mirada.x.x, gy: mirada.y.x };
+  }
+
+  function dibujar(s) {
+    const { f } = s;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    ctx.globalCompositeOperation = "source-over";
+    ctx.fillStyle = FONDOS[fondo].c; ctx.fillRect(0, 0, W, H);
+
+    const cx = esfera.x.x + s.bobX, cy = esfera.y.x + s.bobY + hop.x;
+    const altura = Math.max(0, -(hop.x + s.bobY)) / R;
+
+    // sombra o reflejo de luz en el suelo
+    const sy = HOME.y + R * 1.32, sw = R * (0.82 - altura * 0.25), sa = Math.max(0.15, 1 - altura * 0.6);
+    const g0 = ctx.createRadialGradient(cx, sy, 0, cx, sy, sw);
+    if (oscuro) { g0.addColorStop(0, `rgba(120,220,150,${0.22 * f.glow * sa})`); g0.addColorStop(1, "rgba(120,220,150,0)"); }
+    else { g0.addColorStop(0, `rgba(47,62,70,${0.2 * sa})`); g0.addColorStop(1, "rgba(47,62,70,0)"); }
+    ctx.save(); ctx.translate(cx, sy); ctx.scale(1, 0.22); ctx.translate(-cx, -sy);
+    ctx.fillStyle = g0; ctx.beginPath(); ctx.arc(cx, sy, sw, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+
+    // ondas de escucha
+    for (const o of ondas) {
+      const t = o.vida / 1.6;
+      ctx.strokeStyle = oscuro ? `rgba(150,235,170,${0.35 * (1 - t)})` : `rgba(82,121,111,${0.35 * (1 - t)})`;
+      ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(cx, cy, R * (1.04 + t * 0.55), 0, Math.PI * 2); ctx.stroke();
+    }
+
+    // deformación de la esfera: aplastado por toque + estirado por velocidad
+    const vx = esfera.x.v, vy = esfera.y.v + hop.v, vel = Math.hypot(vx, vy);
+    const est = Math.min(vel / (R * 14), 0.12) * (reduce ? .3 : 1), ang = Math.atan2(vy, vx);
+    const sq = Math.max(-0.18, Math.min(0.18, squash.x * 0.06));
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(ang); ctx.scale(1 + est, 1 - est * 0.55); ctx.rotate(-ang);
+    ctx.scale(1 + sq * 0.8, 1 - sq);
+
+    // interior recortado a la esfera
+    ctx.save();
+    ctx.beginPath(); ctx.arc(0, 0, R * 0.965, 0, Math.PI * 2); ctx.clip();
+    const nx = nucleo.x.x + giro.x.x * R * 0.05, ny = nucleo.y.x + giro.y.x * R * 0.035;
+    const resp = 1 + Math.sin(reloj * (f.closed > .5 ? 0.9 : 1.25)) * 0.022 + voz * 0.06;
+    const tam = R * 2 * NUCLEO * resp;
+    const rot = reloj * 0.06 * f.speed;
+
+    if (oscuro) {
+      ctx.globalCompositeOperation = "lighter";
+      const gl = ctx.createRadialGradient(nx, ny, 0, nx, ny, R * 1.05);
+      gl.addColorStop(0, `rgba(90,200,130,${0.32 * f.glow})`); gl.addColorStop(.55, `rgba(70,160,110,${0.12 * f.glow})`); gl.addColorStop(1, "rgba(70,160,110,0)");
+      ctx.fillStyle = gl; ctx.fillRect(-R, -R, R * 2, R * 2);
+      ctx.globalCompositeOperation = "screen";
+      dibujarVariantes("emis", nx, ny, tam, rot, Math.min(1, f.dim * 0.95), 0.38 * f.dim);
+    } else {
+      dibujarVariantes("claro", nx, ny, tam, rot, Math.min(1, 0.55 + 0.45 * f.dim), 0.3 * f.dim);
+    }
+    ctx.globalAlpha = 1;
+
+    // polvo generativo que fluye alrededor del núcleo
+    ctx.globalCompositeOperation = oscuro ? "lighter" : "source-over";
+    const rc = tam * 0.5;
+    for (const m of motas) {
+      m.a += (m.w + f.swirl * 0.35 * Math.sign(m.w || 1)) * f.speed * (1 / (m.r + .35)) * dtF * 1.6;
+      const rr = (m.r + Math.sin(reloj * m.f + m.ph) * 0.08) * rc;
+      const px = nx + Math.cos(m.a) * rr, py = ny + Math.sin(m.a) * rr * 0.92 + Math.sin(reloj * .7 + m.ph) * R * 0.02 + f.drop * R * m.r * 0.6;
+      const tw = 0.55 + 0.45 * Math.sin(reloj * (1.5 + m.f * 2) + m.ph);
+      if (oscuro) {
+        const sz = m.s * (2.2 + m.z * 2.2) * (0.7 + 0.5 * f.glow);
+        ctx.globalAlpha = Math.min(1, (0.25 + 0.6 * tw) * f.dim);
+        ctx.drawImage(sprite, px - sz, py - sz, sz * 2, sz * 2);
+      } else {
+        ctx.fillStyle = TONOS_CLA[m.tono] + ((0.25 + 0.45 * tw) * f.dim).toFixed(3) + ")";
+        const sz = m.s * (0.55 + m.z * 0.7);
+        ctx.beginPath(); ctx.arc(px, py, sz, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = "source-over";
+
+    // cara: sigue al núcleo con parallax y gira hacia la mirada
+    const fx = nx + giro.x.x * R * 0.06, fy = ny + giro.y.x * R * 0.045 - R * 0.02;
+    cara(fx, fy, R, f, s.gx, s.gy);
+    ctx.restore();
+
+    // cristal encima
+    if (cristal) { const lado = R / R_CRISTAL; ctx.drawImage(cristal, -lado / 2, -lado / 2, lado, lado); }
+    else { ctx.strokeStyle = "rgba(255,255,255,.6)"; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(0, 0, R, 0, Math.PI * 2); ctx.stroke(); }
+    ctx.restore();
+
+    // chispas y zetas por fuera
+    ctx.globalCompositeOperation = oscuro ? "lighter" : "source-over";
+    for (const c of chispas) {
+      const t = c.vida / c.max, a = (1 - t) * (1 - t);
+      if (oscuro) { const sz = c.s * 5; ctx.globalAlpha = a; ctx.drawImage(sprite, c.x - sz, c.y - sz, sz * 2, sz * 2); }
+      else { ctx.globalAlpha = a; ctx.fillStyle = c.s > 2 ? "#FFFFFF" : "#84A98C"; ctx.beginPath(); ctx.arc(c.x, c.y, c.s * 1.3, 0, Math.PI * 2); ctx.fill(); }
+    }
+    ctx.globalAlpha = 1; ctx.globalCompositeOperation = "source-over";
+    for (const z of zetas) {
+      const t = z.vida / 3;
+      ctx.globalAlpha = Math.sin(Math.PI * t) * 0.85;
+      ctx.fillStyle = oscuro ? "#CFE8D3" : "#52796F";
+      ctx.font = `600 ${Math.round(R * 0.16 * z.s * (0.7 + t * 0.6))}px "Funnel Display", system-ui, sans-serif`;
+      ctx.fillText("z", cx + R * (0.62 + t * 0.35 + Math.sin(t * 6) * 0.06), cy - R * (0.55 + t * 0.7));
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  function dibujarVariantes(tipo, x, y, tam, rot, aPrin, aSec) {
+    const lista = VARIANTES.map((v) => [v, Math.max(0, Math.min(1, nuc[v].w.x))]).filter(([, w]) => w > 0.01).sort((a, b) => b[1] - a[1]);
+    const t = tam * ESCALA_VAR;
+    lista.forEach(([v, w], i) => {
+      const im = nuc[v][tipo]; if (!im) return;
+      const r = rot + nuc[v].fase;
+      ctx.globalAlpha = aPrin * w; capaNucleo(im, x, y, t, r);
+      if (i === 0) { ctx.globalAlpha = aSec * w; capaNucleo(im, x, y, t * 0.93, -rot * 1.4 + 1.2 + nuc[v].fase); }
+    });
+  }
+
+  function capaNucleo(im, x, y, tam, rot) {
+    ctx.save(); ctx.translate(x, y); ctx.rotate(rot);
+    ctx.drawImage(im, -tam / 2, -tam / 2, tam, tam);
+    ctx.restore();
+  }
+
+  function bucle(ahora) {
+    let dt = Math.min((ahora - previo) / 1000, 1 / 20); previo = ahora; dtF = dt;
+    // subpasos para que los muelles rígidos sean estables
+    const n = Math.max(1, Math.ceil(dt / (1 / 120)));
+    let s; for (let i = 0; i < n; i++) s = paso(dt / n);
+    dibujar(s);
+    fpsN++; fpsT += dt; if (fpsT > 1) { fpsEl.textContent = Math.round(fpsN / fpsT) + " fps"; fpsN = 0; fpsT = 0; }
+    requestAnimationFrame(bucle);
+  }
+
+  fijarEstado(0);
+  fijarFondo(0);
+  img("assets/cristal.webp").then((a) => { cristal = a; });
+  for (const v of VARIANTES) {
+    img(`assets/nucleo-${v}-claro.webp`).then((a) => { nuc[v].claro = a; });
+    img(`assets/nucleo-${v}-emisivo.webp`).then((a) => { nuc[v].emis = a; });
+  }
+  requestAnimationFrame((t) => { previo = t; requestAnimationFrame(bucle); });
+})();
+</script>

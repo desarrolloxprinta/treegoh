@@ -1,0 +1,349 @@
+{
+  "nombre_cientifico": "Vanda hybrida",
+  "nombres_comunes": [
+    "vanda",
+    "orquídea vanda",
+    "vanda en jarrón"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "Grupo de híbridos de cultivo del género Vanda R.Br. (incluye los antiguos Ascocenda y cruces con Ascocentrum, Neofinetia, Euanthe y Trudelia, hoy dentro de Vanda). El género es nativo de Asia tropical y subtropical hasta el Pacífico noroccidental (POWO): de Sri Lanka y Nepal al sur de China, Taiwán, Filipinas, Nueva Guinea y el noreste de Australia (AOS). Los híbridos comerciales proceden de viveros del sudeste asiático (sobre todo Tailandia) [orientativo, sin fuente prioritaria].",
+  "clima_nativo": "Tropical húmedo de tierras bajas: epífitas o litófitas en la copa de árboles, arbustos y rocas de bosques húmedos o estacionalmente secos (NC State, AOS), con humedad alta, aire en movimiento y luz fuerte filtrada (NYBG). Unas pocas especies de montaña (V. coerulea, V. coerulescens, V. javierae, V. roeblingiana) son de clima fresco a intermedio (AOS).",
+  "categoria": "orquidea",
+  "dificultad": "dificil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Hojas numerosas, alternas y dísticas (en dos filas opuestas a lo largo del tallo, como un abanico plano), acintadas (lineares), coriáceas, con sección en V (plegadas por el nervio central) y el ápice irregularmente dentado o mordido (AOS). Verdes y brillantes, de 7,5 a 60 cm de largo y 2,5-7,5 cm de ancho según el híbrido (NC State). Hay formas 'teretes' (hojas cilíndricas como lápices) y 'semiteretes', hoy en su mayoría separadas en Papilionanthe, aunque algunos híbridos las conservan (NC State, NYBG). Las vandas compactas derivadas de Ascocentrum tienen hojas más cortas y estrechas, muy apretadas (NC State).",
+    "nerviacion": "Paralela, poco visible; destaca solo el pliegue central que da la sección en V (AOS: 'v-shaped in cross-section').",
+    "variegacion": "No variegada en los híbridos comerciales habituales. El tallo puede llevar motas blancas (NC State).",
+    "tallo": "Monopodial: un solo tallo erguido que crece por el ápice y produce hojas nuevas cada año, cubierto por las bases de las hojas (NC State, AOS). Sin pseudobulbos. De la parte baja del tallo y entre las hojas salen muchas raíces aéreas gruesas, de color gris plateado o blanquecino cuando están secas y verdes cuando están mojadas (NYBG), que cuelgan libres y no caben en maceta (NC State). Las varas florales salen de las axilas de hojas de 1-2 años (NC State).",
+    "habito": "Epífita erguida, a menudo vendida sin sustrato: raíces desnudas en cesta de madera colgante o en jarrón de cristal (NC State, NYBG, AOS). Flores grandes, planas, gruesas y céreas, de 2,5 a 12,5 cm, con tépalos anchos y labelo pequeño trilobulado con espolón (NC State, AOS), muchas veces fragantes; colores muy variados (azul-violeta, púrpura, rosa, rojo, naranja, amarillo), con frecuencia con un dibujo reticulado o ajedrezado [orientativo, sin fuente prioritaria para el ajedrezado]. Cada floración dura algo más de un mes y puede repetirse cada pocos meses (NC State).",
+    "tamano_adulto_interior": "De 15 cm a 1,5 m de alto y de 15 a 60 cm de ancho según el híbrido (NC State); los tallos pueden alcanzar 'muchos pies' y las raíces aéreas pasar de 60 cm (NYBG, AOS). Los híbridos compactos (ex-Ascocenda) se quedan en 20-40 cm de tallo [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {
+        "especie": "Phalaenopsis (orquídea mariposa)",
+        "rasgo_diferenciador": "También es monopodial con raíces aéreas, pero tiene pocas hojas anchas, planas y carnosas en roseta baja casi sin tallo visible; Vanda tiene muchas hojas estrechas en V, en dos filas a lo largo de un tallo alto, y flores planas céreas con labelo pequeño."
+      },
+      {
+        "especie": "Papilionanthe teres y otras vandas 'teretes' (antes Vanda)",
+        "rasgo_diferenciador": "Hojas cilíndricas como lápices, no planas en V (NC State, NYBG). Necesitan aún más sol."
+      },
+      {
+        "especie": "Aerides, Rhynchostylis, Renanthera y sus híbridos con Vanda (Aeridovanda, Renantanda, Aranda/Mokara)",
+        "rasgo_diferenciador": "Mismo porte monopodial con hojas dísticas (NC State); se distinguen por la flor: Aerides y Rhynchostylis con racimos densos colgantes de flores pequeñas, Renanthera y Arachnis (Aranda, Mokara) con flores estrechas tipo araña, a menudo rojas o anaranjadas [orientativo, sin fuente prioritaria para los rasgos florales]. La etiqueta del vivero es lo más fiable."
+      },
+      {
+        "especie": "Vanda falcata (antes Neofinetia falcata, orquídea del samurái)",
+        "rasgo_diferenciador": "Planta pequeña (menos de 15 cm) de hojas curvadas en abanico denso y flores blancas pequeñas con espolón muy largo; es del mismo género y, según la AOS, ella y sus híbridos sí pueden cultivarse en interior con sol directo en ventana sur, este u oeste (AOS) [orientativo, sin fuente prioritaria para el tamaño y la flor]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": null,
+    "confianza": "Baja",
+    "fuentes": [
+      "F9",
+      "F10",
+      "F3"
+    ],
+    "notas": "La ASPCA no tiene ficha de Vanda ni de sus antiguos géneros (Ascocenda, Ascocentrum, Neofinetia): se revisaron sus listas completas de plantas para gatos y perros. Sí clasifica como no tóxicas otras orquídeas (Phalaenopsis, varias Cattleya, Dendrobium, Oncidium, Odontoglossum…), pero no se extrapola a Vanda sin fuente. La ficha de NC State no da dato de toxicidad, y no se encontró otra fuente prioritaria (RHS, UC ANR, Pet Poison Helpline). No hay indicios publicados de toxicidad, pero la app no debe afirmar que es segura. Ante cualquier ingestión: veterinario o Servicio de Información Toxicológica (91 562 04 20)."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 32280,
+      "lux_max": 43040,
+      "orientacion_hn": "Ventana sur sin obstáculos, la mejor para todas las vandas en casa (NYBG); colgada delante de la ventana, con aire (NYBG FAQ). Este u oeste solo si reciben muchas horas de luz fuerte. Norte: insuficiente [orientativo, sin fuente prioritaria explícita; se deduce de que es orquídea de luz muy alta]. Se puede completar con LED de cultivo de espectro completo, subiendo la exposición poco a poco y sin acercarlo demasiado (NYBG).",
+      "tolera_sol_directo": "Parcialmente. Las vandas de hoja acintada (las de jarrón) necesitan algo de protección del sol directo; solo las de hoja cilíndrica (terete) quieren sol pleno (NYBG, AOS). En la ficha del género, la AOS pide 'luz muy intensa pero no directa'; NC State, luz brillante indirecta o sol filtrado. En verano en Madrid, cortina fina en ventana sur u oeste a mediodía.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "La luz es el factor más importante para crecer y florecer (AOS) y donde la planta más exige (NYBG). Cifras: NYBG 3500-4000 fc; NC State 3000-5000 fc para las de hoja acintada e híbridos; la hoja de cultivo AOS pide 5000 fc o más (50-100 % de sol pleno) en invernadero. Con la escala del proyecto (1 fc = 10,76 lux): lux_min = 3000 fc ≈ 32.280 lux y lux_max = 4000 fc ≈ 43.040 lux, rango para interior; el valor de invernadero de la AOS no se adopta en casa porque exige humedad y ventilación de invernadero. Una ventana sur da unos 5000 fc en día soleado (NYBG). Por la escala del proyecto (>1000 fc) el tipo es 'directa', aunque las fuentes la describen como luz muy intensa filtrada. La calidad de la flor depende de la luz: mejor en verano, peor en invierno (AOS). La AOS dice expresamente que las Vanda en sentido estricto NO deben cultivarse en interior porque son demasiado grandes, falta luz y la humedad es demasiado baja; los híbridos compactos con ex-Ascocentrum o ex-Neofinetia sí pueden cultivarse dentro con sol directo en ventana sur, este u oeste (AOS). Contradicción interna AOS (sol 50-100 % en invernadero frente a 'no directa' en la ficha del género): se adopta luz muy intensa con protección del sol de mediodía, lo más prudente."
+    },
+    "riego": {
+      "criterio": "Sin sustrato (raíces desnudas en cesta o jarrón) NO se aplica la regla del dedo en el sustrato del proyecto, porque no hay sustrato que comprobar: el indicador son las propias raíces. Raíces gris plateado o blanquecinas = secas, toca regar; raíces verdes = hidratadas, no regar (NYBG: las raíces expuestas pasan de blanco a verde al hidratarse). Comprobar también el peso: cesta o planta ligera = seca. La AOS lo resume: le gustan ciclos rápidos de mojado y secado y se riega cuando la planta o su sustrato llegan a estar secos. Si se cultiva en maceta con corteza, aplicar la regla general: dedo a 2-3 cm y peso de la maceta. Cómo regar: mojar a fondo las raíces (NYBG: 'misting the roots thoroughly'), o sumergirlas en agua templada hasta que se pongan verdes, unos 15-30 minutos [orientativo, sin fuente prioritaria; la inmersión de 30 minutos es el método tradicional según ODT], y después escurrir del todo y sacar toda el agua del jarrón o la cesta. Regar siempre por la mañana, nunca de noche (NYBG). No dejar agua en las axilas de las hojas ni en el cogollo.",
+      "primavera_verano": "Con calor y crecimiento activo, a diario si las raíces están sanas y el aire se mueve (AOS, NYBG); en olas de calor puede necesitar 2-3 riegos al día, sobre todo si está fuera (NYBG; NC State: 'varios riegos al día en verano'). En invernadero, la AOS indica riego diario. Aun así, lo que manda es el color de las raíces: si siguen verdes, esperar.",
+      "otono_invierno": "De finales de otoño a invierno, cada 2 días aproximadamente (NYBG), reduciendo el riego de noviembre a febrero según baje la luz (NYBG) y regando menos salvo rachas cálidas y soleadas (UF/IFAS Charlotte). Con calefacción las raíces se secan muy rápido: mirar el color cada día antes de decidir.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua templada: por debajo de 10 °C puede dañar la planta (AOS). Evitar agua dura y agua de descalcificador con sales añadidas (AOS). El agua del grifo de Madrid (Canal de Isabel II) es blanda y apta; dejarla reposar no elimina la cloramina, y no hace falta. Si se cultiva sin sustrato, la AOS recomienda bañar las raíces de vez en cuando (cada pocos meses, unas horas) en sulfato de magnesio (sal de Epsom) a una cucharada por galón (≈3,8 L), porque con el tiempo pierden sales y entonces no absorben agua y se arrugan por mucho que se riegue; no hace falta si tiene algo de sustrato (AOS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F11",
+        "F12"
+      ],
+      "notas": "La frecuencia casi diaria es real en estas plantas porque no tienen pseudobulbos ni sustrato que retenga agua (sensibilidad a la sequía alta); el riesgo de pudrición viene del agua que queda en hojas, cogollo o en un recipiente sin drenaje (NC State) y del aire estancado (NYBG), por eso la sensibilidad al exceso se marca 'media'. Jarrón de cristal: James Wong (ODT, complementaria) propone dejar agua cubriendo el 20 % inferior de las raíces para crear un microclima húmedo; las fuentes prioritarias piden ciclos rápidos de mojado y secado (AOS) y aire en movimiento (NYBG), así que la app recomienda la opción prudente: vaciar siempre el jarrón tras el riego y usarlo solo como cámara de humedad, con las hojas fuera. La AOS advierte que las fluctuaciones de riego (y de temperatura) hacen que la planta pierda las hojas inferiores y quede como un 'árbol' de tallo pelado."
+    },
+    "humedad": {
+      "min_pct": 65,
+      "ideal_pct": 75,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "notas": "NYBG: mínimo 65 % de humedad relativa, preferido 70-80 %; sin humedad suficiente puede no florecer. AOS y NC State: humedad alta imprescindible (la AOS explica que la humedad frena el secado de unas raíces muy expuestas). Una casa con calefacción o aire acondicionado puede bajar al 25 % (NYBG). Cómo subirla: humidificador (NYBG) o agrupar plantas; pulverizar no sube la humedad de forma útil (convención del proyecto). Con humedad alta hace falta aire en movimiento suave, con un ventilador que no apunte a la planta, para prevenir hongos y bacterias (AOS, NYBG). En un piso de Madrid el 65 % es muy difícil de mantener en invierno y en verano: es la principal razón de que esta planta sea 'difícil'."
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 35,
+      "ideal_min_c": 16,
+      "ideal_max_c": 29,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F11"
+      ],
+      "notas": "Mínimos: AOS, noches de 12,7-22,2 °C; NYBG, no dejar bajar de 55 °F (12,8 °C); UF/IFAS Charlotte, resguardar por debajo de 55 °F. Se adopta min_c = 13 °C (el más alto, redondeado). Ideal NYBG: días 70-85 °F (21-29 °C) y noches 60-70 °F (16-21 °C) todo el año; la AOS da días de 21-35 °C. Máximo: 35 °C (AOS); tolera hasta 41 °C solo si se suben humedad, riego, ventilación y sombreo (AOS), algo casi imposible en un piso. Necesita una diferencia de unos 5-6 °C (10 °F) entre día y noche para florecer (NYBG). Los híbridos de V. coerulea y otras de montaña prefieren temperaturas más frescas y florecen mejor en invierno fresco (AOS). Las fluctuaciones bruscas hacen caer las hojas inferiores (AOS)."
+    },
+    "sustrato": {
+      "mezcla": "Lo habitual y preferido por la mayoría: sin sustrato, raíces desnudas en cesta abierta de madera (cedro) colgada, o montada (AOS, NC State, NYBG). Si se cultiva en maceta: mezcla gruesa de drenaje rapidísimo, como corteza de pino/abeto media a gruesa, roca volcánica, carbón vegetal o productos cerámicos cocidos (AOS, NC State, NYBG); sin esfagno salvo en plántulas muy pequeñas (AOS). Nunca mantillo de jardín (NYBG). Las raíces aéreas no caben en maceta y no deben forzarse a entrar (NC State).",
+      "ph": null,
+      "drenaje": "Máximo: el sustrato, si lo hay, debe drenar y airearse de forma excelente y secarse rápido (NC State, NYBG); en jarrón de cristal, vaciar el agua siempre después de regar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido o soluble equilibrado para orquídeas (por ejemplo 20-20-20) (AOS, NYBG); en primavera algunos cultivadores usan uno rico en fósforo para estimular la floración (AOS, NYBG).",
+      "npk": "20-20-20",
+      "primavera_verano": "Con crecimiento activo: ¼-½ de la dosis de etiqueta, una vez al mes (convención del proyecto; la AOS indica igualmente ¼-½ de la dosis normal con crecimiento activo). Disolver el abono en el agua del baño de raíces.",
+      "otono_invierno": "Reducir o suprimir el abono en otoño, en cuanto se frena el crecimiento, y no abonar en invierno (AOS; NYBG: reducir en invierno).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ],
+      "notas": "Discrepancia con la convención del proyecto: la AOS pide abonar 'con regularidad' y NYBG dice que Vanda necesita más nutrientes que la mayoría de orquídeas y recomienda ¼-½ de dosis en cada riego ('feed weakly, weekly'); UF/IFAS Charlotte, semanal. La app aplica la convención (¼-½ de dosis, mensual, solo con crecimiento activo) como mínimo seguro; un cultivador avanzado con crecimiento muy activo podría abonar más a menudo a dosis muy diluida. En cultivo sin sustrato, lavar las raíces con agua sola entre abonados evita acumular sales [orientativo, sin fuente prioritaria específica de Vanda]."
+    },
+    "trasplante": {
+      "frecuencia": "En cesta puede seguir muchos años: no se saca de la cesta vieja, sino que se mete la cesta entera dentro de otra mayor cuando se queda pequeña (NYBG, UF/IFAS Charlotte). En maceta, cuando el sustrato se descompone (AOS, NYBG), en la práctica cada 2 años aproximadamente (UF/IFAS Charlotte).",
+      "epoca": "Primavera, cuando empieza el crecimiento nuevo (NYBG, UF/IFAS Charlotte).",
+      "senales": "Corteza deshecha o apelmazada (AOS, NYBG); planta que ya no cabe en la cesta o maceta (NYBG). Antes de manipular, mojar las raíces para que estén flexibles y no se rompan (UF/IFAS Charlotte).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F11"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Cortar la vara floral en la base cuando se vuelva marrón tras la floración (NYBG). No cortar raíces aéreas vivas (NC State); quitar solo raíces muertas (huecas y secas o marrones y blandas) [orientativo, sin fuente prioritaria].",
+      "epoca": "La vara, al secarse tras la floración (NYBG); la limpieza de raíces muertas, en cualquier momento, mejor en primavera.",
+      "como": "Con herramienta esterilizada en lejía al 10 % (1 parte de lejía y 9 de agua) o alcohol, o con una cuchilla nueva de un solo filo; usar guantes o lavarse las manos entre plantas porque las orquídeas se contagian de virus (NYBG). Limpiar las hojas de vez en cuando con un paño húmedo (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "notas": "Contradicción entre fuentes prioritarias: la AOS dice que las raíces aéreas se pueden recortar con herramienta estéril hasta unos 60 cm sin daño, para que la planta ocupe menos; NC State dice que no deben recortarse porque son vitales para absorber agua y nutrientes y para la fotosíntesis. Se adopta la opción más conservadora: no recortar raíces vivas. NYBG propone lavar las hojas con agua jabonosa suave; la app no recomienda jabones ni recetas caseras (convención del proyecto) y lo limita a agua."
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: aproximadamente noviembre-febrero (NYBG), con crecimiento más lento en otoño-invierno (AOS). No es un reposo estricto: sigue necesitando agua y humedad.",
+      "cambios": "Menos riego (cada 2 días aproximadamente según el color de las raíces) y abono reducido o nulo (AOS, NYBG). Las de montaña (V. coerulea y sus híbridos) necesitan un invierno algo más fresco para iniciar la floración (AOS). Mantener la luz al máximo posible y la temperatura por encima de 13 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos (keikis basales) con raíces propias"
+      ],
+      "epoca": "Primavera (NYBG).",
+      "pasos": "1) Esperar a que el hijuelo que nace en la base o en el tallo tenga varias raíces propias [orientativo, sin fuente prioritaria para el número de raíces]. 2) En primavera, separarlo de la planta madre (NYBG: 'pull off any offshoots that develop in the spring'), con herramienta esterilizada si hace falta cortar (NYBG). 3) Colocarlo en una cesta pequeña o maceta con corteza gruesa y darle los mismos cuidados que a la adulta, con humedad alta.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F5"
+      ],
+      "notas": "Solo NYBG (una institución) trata la propagación. El esquejado de cabeza de plantas con el tallo pelado ('árbol' de la AOS) y la propagación por semilla o in vitro (de laboratorio) no se verificaron con fuentes prioritarias de cultivo doméstico."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Caída de las hojas inferiores por condiciones inestables: cambios bruscos de temperatura y de riego dejan un tallo pelado con pocas hojas arriba (AOS). En Madrid, sobre todo por la calefacción, los cristales fríos y los días sin regar."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras pasar del vivero o invernadero, cálido y húmedo, a un piso seco y con menos luz; la planta necesita condiciones estables (AOS)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas por deshidratación: humedad ambiental muy baja o riego insuficiente de unas raíces sin sustrato; también raíces que han perdido sales y no absorben agua aunque se riegue (AOS: corregir con baños ocasionales de sal de Epsom) o raíces muertas por pudrición."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por drenaje pobre (NC State): agua estancada en el fondo del jarrón, corteza descompuesta o aire estancado (NYBG)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Podredumbre del cogollo o del tallo por agua que se queda en las hojas y en el cogollo (NC State); regar por la mañana y secar el agua que quede (NYBG)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura en hojas acintadas por sol directo sin protección, sobre todo de mediodía en verano o al sacarla fuera de golpe (NYBG: las de hoja acintada necesitan algo de protección; subir la luz poco a poco)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "No crece o no florece por falta de luz (factor más importante, AOS) o por humedad, temperatura o abono fuera de rango (NYBG). Muy frecuente en interior de noviembre a febrero."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado o bronceado por ácaros (araña roja o ácaros planos) o por trips (UF/IFAS); los ácaros proliferan con humedad baja (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae) en el envés, favorecida por el aire seco de la calefacción (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo (Diaspis boisduvalii, cochinilla blanda parda) en hojas y bases foliares (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Pseudococcus longispinus y otras) en axilas y bases de hojas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de cochinillas blandas o algodonosas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla o fumagina sobre la melaza de cochinillas (UF/IFAS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Calor de 35-40 °C: está en el límite (AOS: hasta 35 °C, y más solo con más humedad, riego, ventilación y sombreo). Dentro de casa, con aire acondicionado o aire seco, la humedad cae muy por debajo del 65 % mínimo (NYBG): regar a diario por la mañana y, en olas de calor, mirar las raíces también por la tarde; puede necesitar 2-3 riegos al día (NYBG). Sol directo de ventana sur u oeste a mediodía: cortina fina para no quemar las hojas acintadas (NYBG). Sacarla al exterior, como se hace en Nueva York (NYBG), solo a sombra luminosa de árbol o toldo y aclimatándola poco a poco; con HR exterior ≈38 % en julio se seca muy rápido [orientativo, sin fuente prioritaria para Madrid]. Noches de verano de Madrid (≈18-22 °C) le van bien para la diferencia día-noche (NYBG).",
+    "invierno": "Es la estación crítica. Calefacción con HR interior <30 %: lejos del 65 % mínimo; necesita humidificador en la habitación (NYBG) y aire suave en movimiento. Lejos de radiadores y del chorro de aire caliente. Cristal frío: la noche junto a la ventana puede bajar de 13 °C, su mínimo (AOS, NYBG); separarla del cristal por la noche o poner una cortina entre ambos. Luz escasa de noviembre a febrero: ventana sur sin cortina y, si es posible, LED de cultivo de apoyo (NYBG); reducir el riego a cada 2 días aproximadamente según el color de las raíces (NYBG) y no abonar (AOS).",
+    "ubicacion_recomendada": "Colgada delante de una ventana sur luminosa y despejada, con humidificador cerca y algo de aire en movimiento (NYBG), en una habitación que no baje de 13 °C. Advertencia para la app: la AOS dice que las Vanda grandes no deben cultivarse en interior (falta luz, falta humedad y son demasiado grandes); en un piso de Madrid con calefacción es una planta para cultivadores con experiencia y equipo (humidificador, LED), y muchas se tratan como planta de temporada que florece una vez. Para interior son más realistas los híbridos compactos con antiguo Ascocentrum o Neofinetia, que la AOS sí considera aptos para ventana sur, este u oeste con sol directo."
+  },
+  "lagunas": [
+    "Nomenclatura: 'Vanda hybrida' no es un nombre botánico válido. IPNI no devuelve ningún registro para 'Vanda hybrida' y POWO (Kew) no lo incluye entre las 90 especies aceptadas de Vanda R.Br. (género nativo de Asia tropical y subtropical al Pacífico noroccidental). La ficha trata el grupo de híbridos de cultivo del género (nombre correcto: Vanda, híbridos de cultivo, p. ej. 'Vanda grex'), que incluye los antiguos Ascocenda (Ascocentrum × Vanda), hoy dentro de Vanda; POWO lista Ascocentrum, Euanthe, Neofinetia, Trudelia y × Trudelianda como sinónimos de Vanda. Se mantiene nombre_cientifico 'Vanda hybrida' por indicación del proyecto; conviene mostrar en la app 'Vanda (híbridos)'.",
+    "Taxonomía en movimiento: NC State habla de 90 especies, la AOS de unas 53 y POWO acepta 90; las vandas de hoja cilíndrica (terete) se han pasado a Papilionanthe. Las etiquetas comerciales pueden usar nombres antiguos (Ascocenda, Ascocentrum, Neofinetia).",
+    "Toxicidad: ni la ASPCA ni NC State ni otra fuente prioritaria tienen ficha de Vanda; perros, gatos y niños quedan como 'desconocida'. No se extrapola desde otras orquídeas no tóxicas.",
+    "Cultivo en jarrón de cristal con raíces desnudas (cómo se vende a menudo en España): ninguna fuente prioritaria lo trata. Los detalles de inmersión (15-30 min) y el método de dejar agua en el fondo del jarrón (James Wong, ODT) son solo complementarios; la app aplica el criterio prudente de vaciar siempre el jarrón.",
+    "pH del sustrato: ninguna fuente prioritaria da un rango para corteza ni para cultivo sin sustrato; se deja en null.",
+    "Origen comercial (viveros del sudeste asiático) y tamaño de los híbridos compactos: sin fuente prioritaria, marcados como orientativos.",
+    "Propagación: solo NYBG menciona la separación de hijuelos; esquejado de cabeza de plantas con tallo pelado no verificado.",
+    "Rasgos florales para distinguir Aerides, Rhynchostylis, Renanthera y Aranda, y el dibujo ajedrezado de las flores de Vanda: sin fuente prioritaria, marcados como orientativos.",
+    "Retirada de raíces muertas: ninguna fuente prioritaria lo describe; marcado como orientativo. Contradicción AOS (se pueden recortar raíces aéreas a ≈60 cm) frente a NC State (no recortarlas): se adopta no recortar raíces vivas.",
+    "Frecuencia de abonado: AOS, NYBG y UF/IFAS Charlotte piden abonar más a menudo (NYBG: en cada riego a dosis diluida) que la convención del proyecto (mensual); se aplica la convención.",
+    "Comportamiento en Madrid (exterior en verano con HR ≈38 %, temperaturas junto al cristal en invierno): sin fuente prioritaria específica; deducido de los rangos de las fuentes."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aos.org/orchid-care/care-sheets/vanda-culture-sheet",
+      "institucion": "American Orchid Society (AOS) — Vanda Culture Sheet",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.aos.org/explore/vanda",
+      "institucion": "American Orchid Society (AOS) — Explore Orchids: Genus Vanda, Care and Culture Card",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/vanda/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Vanda",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://libguides.nybg.org/vanda",
+      "institucion": "New York Botanical Garden (NYBG), LuEsther T. Mertz Library — Plant Guide: Vanda",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://libanswers.nybg.org/faq/223293",
+      "institucion": "New York Botanical Garden (NYBG) Plant Information Service — How do I care for the orchid Ascocenda, Vanda hybrid?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://edis.ifas.ufl.edu/publication/IN1433",
+      "institucion": "UF/IFAS Extension (University of Florida), EDIS IN1433 — Caldwell y Leigh, Orchid Insect and Mite Pests in South Florida",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30077641-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Vanda R.Br.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.ipni.org/api/1/search?q=Vanda%20hybrida",
+      "institucion": "International Plant Names Index (IPNI; Kew, Harvard, ANBG) — búsqueda 'Vanda hybrida' (0 resultados)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center — Toxic and Non-Toxic Plant List: Cats (sin entrada para Vanda)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center — Toxic and Non-Toxic Plant List: Dogs (sin entrada para Vanda)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://blogs.ifas.ufl.edu/charlotteco/2021/12/23/vanda-orchids-at-a-glance/",
+      "institucion": "UF/IFAS Extension Charlotte County — blog del agente R. E. Mitchell, 'Vanda orchids at a glance' (2021); artículo divulgativo, se trata como complementario",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://www.odt.co.nz/lifestyle/home-garden/easy-solution-keep-vandas-alive",
+      "institucion": "Otago Daily Times (Guardian News and Media; truco de James Wong) — 'Easy solution to keep vandas alive'",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

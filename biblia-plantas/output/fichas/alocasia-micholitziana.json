@@ -1,0 +1,343 @@
+{
+  "nombre_cientifico": "Alocasia micholitziana",
+  "nombres_comunes": [
+    "alocasia Frydek",
+    "alocasia terciopelo verde",
+    "Alocasia 'Frydek' (cultivar más vendido; RHS lo registra como 'Freydyk')",
+    "green velvet alocasia (nombre comercial inglés)",
+    "oreja de elefante de terciopelo"
+  ],
+  "familia": "Araceae",
+  "origen": "Endémica de la isla de Luzón (Filipinas) (POWO, Kew). Wikipedia la sitúa en las provincias de Apayao, Benguet e Ifugao, en el norte de Luzón. Descrita por H. F. C. Sander en 1912 y dedicada al recolector alemán Wilhelm Micholitz. Está catalogada como Vulnerable por la UICN y su recolección silvestre está prohibida en Filipinas (Wikipedia); POWO, con el modelo de Bachman et al. 2024, la predice como amenazada. Comprar solo plantas de vivero (división o cultivo in vitro), nunca de origen silvestre.",
+  "clima_nativo": "Tropical húmedo de montaña sin heladas. Según POWO (CATE Araceae, a partir de Hay 1999) crece en bosque primario y secundario y en bordes de caminos a unos 1200-1500 m de altitud en Luzón, lo que implica un clima más templado y fresco que el de las tierras bajas tropicales; Wikipedia, en cambio, la sitúa en zonas sombrías de bosque húmedo de tierras bajas. Sotobosque con sombra luminosa y humedad alta.",
+  "categoria": "tropical",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Hojas en punta de flecha (sagitadas), de unos 40 cm de largo por 13 cm de ancho en la naturaleza, 4-7 a la vez; haz verde oscuro intenso, MATE y aterciopelado; envés verde más pálido (POWO/CATE; RHS: hojas de hasta 40 cm, aterciopeladas, verde oscuro). Lóbulo anterior triangular ancho de unos 20 cm y dos lóbulos posteriores estrechos y triangulares, divergentes 60-90°, de hasta 11 cm; margen ondulado, de muy marcado a suave (POWO; RHS: 'bordes ondulados'). La hoja es muy ligeramente peltada: el pecíolo se une un poco por dentro de la escotadura basal (POWO). En interior las hojas suelen quedarse en 20-40 cm [orientativo, sin fuente prioritaria]. Rasgo clave para visión: superficie aterciopelada, sin brillo, que absorbe la luz, con nervios blancos muy contrastados.",
+    "nerviacion": "Pinnada (broquidódroma en el género, UF/IFAS). Nervio central y 4-5 nervios primarios laterales a cada lado, que salen a 60-80° y se curvan hacia el margen, de color BLANCO en el haz y formando un dibujo en espina de pescado sobre el verde oscuro (POWO; RHS: 'nervios blancos'). Los nervios secundarios quedan al ras de la lámina en ambas caras (POWO).",
+    "variegacion": "La forma típica no está variegada: el contraste lo dan los nervios blancos sobre fondo verde oscuro. Existe en el comercio una forma variegada ('Frydek Variegata'; RHS registra 'Freydyk' (v), con 'manchas blanco plateado', y UF/IFAS lista 'Frydek' variegada con manchas verde claro, verde oscuro y blancas), mucho más cara y delicada: las zonas blancas no hacen fotosíntesis y se queman o secan con facilidad [orientativo, sin fuente prioritaria].",
+    "tallo": "Tallo (rizoma) carnoso, erguido a decumbente, de hasta unos 50 cm de largo y 4 cm de grosor en la naturaleza (POWO); en interior queda casi todo en la base. Los pecíolos miden hasta 45 cm, envainan la planta en su cuarto o tercio inferior y están JASPEADOS de pardo, rojizo o púrpura (POWO; RHS: pecíolos de hasta 45 cm). Produce cormelos y se propaga por división (Wikipedia).",
+    "habito": "Herbácea perenne rizomatosa, de hoja persistente, que forma mata (RHS: 'clump-forming', 'evergreen'). Crece despacio (RHS, 'Freydyk'). En invierno, con menos luz y temperatura, puede frenar y perder hojas (RHS, guía del género). Florece raramente en interior: espata verdosa de unos 14 cm con espádice crema, hasta 4 inflorescencias juntas (POWO; RHS).",
+    "tamano_adulto_interior": "0,5-1 m de alto y de ancho; tarda 2-5 años en alcanzarlo (RHS, especie y cultivar 'Freydyk'). RHS cita unos 65 cm de altura habitual; UF/IFAS da 60-90 cm para la forma variegada y el Florida Museum (Univ. de Florida) unos 60 cm.",
+    "confusiones": [
+      {
+        "especie": "Alocasia × amazonica ('Polly', A. × mortfontanensis)",
+        "rasgo_diferenciador": "Lámina casi negra, BRILLANTE y algo coriácea, con margen festoneado y nervios blanco-plateados más gruesos (UF/IFAS, RHS); A. micholitziana tiene la lámina verde oscuro MATE y aterciopelada, de tacto suave, con lóbulos posteriores más estrechos y pecíolos jaspeados de pardo o púrpura. Es la confusión más frecuente: comprobar el brillo de la hoja."
+      },
+      {
+        "especie": "Alocasia reginula 'Black Velvet'",
+        "rasgo_diferenciador": "También aterciopelada, pero mucho más pequeña (hojas de 10-15 cm), casi negra, redondeada o acorazonada y gruesa, no en punta de flecha alargada [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Alocasia sanderiana",
+        "rasgo_diferenciador": "Hoja brillante y metálica, con el margen profundamente lobulado (recortado en lóbulos) y no solo ondulado, y nervios plateados [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Alocasia zebrina",
+        "rasgo_diferenciador": "Lámina verde lisa y brillante sin nervios blancos; el rasgo es el pecíolo crema con rayas oscuras de cebra (RHS). En A. micholitziana el interés está en la hoja aterciopelada con nervios blancos."
+      },
+      {
+        "especie": "Alocasia macrorrhizos",
+        "rasgo_diferenciador": "POWO advierte de que puede confundirse con ella en la naturaleza, pero A. macrorrhizos es totalmente glabra (sin vello), mucho mayor, con hojas verde medio brillantes, nervios secundarios poco marcados e inflorescencias mayores (POWO; UF/IFAS)."
+      },
+      {
+        "especie": "Colocasia esculenta (taro)",
+        "rasgo_diferenciador": "Hoja claramente peltada, mate pero no aterciopelada, orientada hacia fuera o hacia abajo y sin nervios blancos contrastados (Wisconsin); en A. micholitziana la hoja se mantiene erguida y la peltación es apenas perceptible."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios en forma de aguja) en todas las partes de la planta; la savia irrita piel y ojos (RHS para la especie: 'tóxica si se ingiere; irritante para piel y ojos', y tóxica para mascotas; ASPCA, LSU y UF/IFAS para el género Alocasia).",
+    "sintomas": "En perros y gatos: irritación y dolor de boca, hinchazón de boca, lengua y labios, salivación excesiva, vómitos y dificultad para tragar (ASPCA, LSU; género). En personas, sobre todo niños: ardor de boca y garganta y molestias digestivas si se mastica; irritación de piel y ojos por la savia (RHS; UF/IFAS). Manipular con guantes al dividir, trasplantar o cortar hojas (RHS). Ante ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F5",
+      "F6",
+      "F4"
+    ],
+    "notas": "Solo RHS trata la especie (toxicidad declarada en las fichas de la especie y del cultivar); ASPCA, LSU y UF/IFAS tratan Alocasia spp. a nivel de género. Siguiendo el criterio del proyecto para especies de coleccionista se deja en Media, aunque la toxicidad por oxalato cálcico es constante en todo el género."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (RHS, ficha de especie: orientación este u oeste, exposición resguardada). En ventana sur, a 1,5-2 m del cristal o tras cortina fina. En ventana norte sobrevive, pero crece aún más despacio y los pecíolos se alargan.",
+      "tolera_sol_directo": "No. Solo sol suave de primera hora de la mañana. El sol fuerte quema las hojas (RHS, guía del género); la lámina oscura y aterciopelada se calienta mucho tras el cristal.",
+      "notas": "RHS (ficha de especie) marca 'semisombra' y pide en su texto de cultivo 'luz brillante e indirecta'; UF/IFAS (género) pide luz brillante indirecta en interior; el Florida Museum (Univ. de Florida, ficha de venta) indica luz filtrada a sombra total. La ficha RHS del cultivar 'Freydyk' (v) marca 'pleno sol o semisombra, orientación sur u oeste', dato del buscador que contradice su propio texto de cultivo (luz brillante indirecta): se adopta la opción conservadora, sin sol directo de mediodía ni de tarde. Su hábitat es el sotobosque (POWO). Los lux corresponden a la franja 'brillante indirecta' de la escala del proyecto (500-1000 fc); ninguna fuente da cifras. Confianza Media: solo RHS trata la especie. Girar la maceta en cada riego para que no se incline (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F8",
+        "F9",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 5 cm superiores del sustrato estén secos al tacto (RHS, guía del género) y la maceta pese claramente menos que recién regada; entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Es más estricto que el criterio general del proyecto (2-3 cm) porque el género pudre raíz y rizoma con facilidad por exceso de riego (UF/IFAS; RHS). Nunca por calendario.",
+      "primavera_verano": "Con crecimiento activo (aprox. abril-octubre) RHS pide 'regar abundantemente' (especie) o 'mantener bien regada' (cultivar 'Freydyk'): sustrato ligeramente húmedo, nunca encharcado, regando cada vez que se sequen los 5 cm superiores. Si el sustrato se seca muy deprisa, la planta puede necesitar una maceta algo mayor (RHS, guía del género).",
+      "otono_invierno": "Reducir el riego al mínimo en invierno (RHS, ficha de especie; 'regar con moderación', ficha del cultivar): dejar secar casi todo el cepellón y dar poca agua, sobre todo si está en reposo o ha perdido hojas; regar en exceso durante el reposo pudre las raíces (RHS, guía del género). Si sigue sacando hojas en un piso cálido (>18 °C) y luminoso, aplicar el criterio de 5 cm y peso; tardará más en secarse.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda; la cloramina no se elimina dejándola reposar y no causa puntas marrones). Usar agua a temperatura ambiente. Lavar el sustrato con abundante agua cada pocos meses si se abona, porque el género tolera mal las sales (UF/IFAS).",
+      "notas": "Contradicción: UF/IFAS indica que muchas Alocasia de jardín toleran suelos encharcados e inundaciones, y Wisconsin que muchas pueden vivir con unos centímetros de agua; eso no se aplica a esta especie en maceta e interior, donde RHS y UF/IFAS citan la pudrición radicular por exceso de riego. Se adopta la opción conservadora (dejar secar 5 cm). Confianza Media: datos de especie solo en RHS y el criterio de 5 cm procede de la guía del género.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "RHS (especie y cultivar) pide subir la humedad con una bandeja de grava o guijarros húmedos; la guía del género RHS, humedad media a alta, y Wisconsin, humedad alta. Ninguna fuente prioritaria da porcentajes: se dejan en null; las cifras de blogs (60-80 %) no están verificadas. El aire seco seca los bordes y favorece la araña roja (RHS, guía del género), plaga a la que esta especie es muy sensible (RHS, ficha de especie). Según la convención del proyecto, pulverizar no sube la humedad de forma útil (aunque RHS lo sugiere) y además deja agua sobre el terciopelo de la hoja, que tarda en secarse: usar humidificador, agrupar plantas o bandeja de grava húmeda sin que la maceta toque el agua. Un baño luminoso con ventana es buena ubicación (RHS, guía del género). Lejos de radiadores y aire acondicionado.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F2",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": null,
+      "notas": "RHS (ficha de especie): mantener por encima de 15 °C en invierno, rusticidad H1A (bajo cristal todo el año, >15 °C). La ficha RHS del cultivar 'Freydyk' (v) marca H2 (tolera 1-5 °C sin helar), pero su propio texto de cultivo vuelve a pedir más de 15 °C en invierno: se descarta H2 y se adopta 15 °C, el valor más alto y conservador. RHS (guía del género): >16 °C en temporada de crecimiento y nunca <10 °C en reposo; Wisconsin (género): el crecimiento se resiente con temperaturas prolongadas <10 °C. Evitar corrientes frías y el transporte en frío tras la compra. Ninguna fuente prioritaria da máximos: max_c e ideal_max_c en null. Su hábitat a 1200-1500 m de altitud (POWO) sugiere que no le gusta el calor extremo; en Madrid conviene evitar más de 30 °C prolongados junto al cristal [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F2",
+        "F4",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para plantas de interior sin turba con grava hortícola añadida (RHS, ficha de especie y del cultivar): unas 3 partes de sustrato por 1 de grava o árido grueso (RHS, guía del género). Alternativa equivalente: sustrato de interior con un 25-30 % de perlita o corteza fina [orientativo, sin fuente prioritaria]. Colocar el cepellón con su parte superior justo bajo la superficie, sin enterrar la base de los pecíolos (RHS, guía). Maceta con agujeros de drenaje; las de barro ayudan a secar antes.",
+      "ph": "RHS (especie): ácido, neutro o alcalino; RHS (cultivar 'Freydyk'): ácido o neutro. Se recomienda ácido a neutro, aproximadamente 5,5-7,0 [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: húmedo pero bien drenado (RHS, especie y cultivar). Sin plato con agua ni cubremacetas que retenga agua.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido general para plantas de follaje, diluido en el agua de riego.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras saque hojas nuevas (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada durante el reposo ni cuando no crece. Reanudar con la primera hoja nueva de primavera.",
+      "notas": "Contradicción de frecuencia: RHS (fichas de especie y cultivar) recomienda abono líquido general cada 2-3 semanas de primavera a otoño; la guía RHS del género remite a la etiqueta de abril a octubre; Wisconsin considera el género muy exigente. Se adopta la opción conservadora de la convención del proyecto (mensual, ¼-½ de dosis) porque es una especie de crecimiento lento (RHS) y el género tolera mal las sales (UF/IFAS): en maceta el exceso de abono acumula sales que queman bordes y puntas. Ninguna fuente prioritaria da fórmula NPK.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F2",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años aproximadamente, cuando las raíces llenan la maceta (RHS, guía del género); es de crecimiento lento (RHS), así que no conviene adelantarlo. Subir solo unos 5 cm de diámetro cada vez para no pasarse de maceta (RHS).",
+      "epoca": "Primavera, al reanudar el crecimiento (marzo-mayo en Madrid). Nunca en pleno reposo invernal.",
+      "senales": "Raíces que salen por el drenaje o rodean el cepellón, sustrato que se seca muy rápido tras regar (RHS), cormelos o hijuelos que llenan la maceta, planta inestable. Aprovechar para revisar el rizoma y retirar partes blandas, negras o malolientes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS, fichas de especie y cultivar); solo retirar hojas viejas, amarillas o secas.",
+      "epoca": "En cualquier momento, cuando una hoja amarillea por completo o se seca.",
+      "como": "Cortar el pecíolo de la hoja marchita en su base con tijera limpia (RHS, guía del género). Usar guantes: la savia irrita piel y ojos (RHS). No cortar hojas aún verdes: la planta tiene pocas (4-7, POWO) y las necesita para reponerse.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno (hemisferio norte: aprox. noviembre-marzo; en Madrid, cuando bajan la luz y la temperatura interior). En hemisferio sur, aprox. mayo-septiembre.",
+      "cambios": "Con menos luz y temperatura frena el crecimiento y puede perder parte de las hojas, a veces casi todas: es normal y las hojas nuevas vuelven al reanudarse el crecimiento en primavera (RHS, guía del género). Durante el reposo: mantener por encima de 15 °C (RHS, ficha de especie), con buena luz, riego al mínimo (RHS), sin abono y sin trasplantar (Wisconsin: más seca en semirreposo y reanudar riego y abono en primavera). Antes de tirar una planta sin hojas, comprobar el rizoma: firme = vivo; blando y maloliente = podrido. Si el piso es cálido y luminoso puede seguir creciendo despacio sin perder hojas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata o del rizoma",
+        "separación de hijuelos",
+        "cormelos de la base",
+        "semilla (rara en interior)"
+      ],
+      "epoca": "Primavera o verano para la división (RHS, ficha de especie); hijuelos en primavera y división del rizoma a finales de primavera o principios de verano (RHS, guía del género).",
+      "pasos": "1) Con guantes, sacar la planta de la maceta y localizar hijuelos y cormelos alrededor de la base (Wikipedia: se propaga por cormelos y división). 2) Separar cada hijuelo con un cuchillo limpio, con el máximo de raíz posible (RHS, guía). 3) Plantarlo en maceta pequeña con sustrato sin turba y grava (3:1). 4) Mantenerlo en calor (>18 °C [orientativo, sin fuente prioritaria]), luz brillante indirecta y sustrato apenas húmedo hasta que saque hoja nueva. 5) Para dividir el rizoma: cortarlo en trozos con al menos una yema y plantarlos en las mismas condiciones, con calor y luz (RHS, guía). 6) Los cormelos se semientierran en sustrato húmedo, no mojado, con calor; pueden tardar semanas en brotar [orientativo, sin fuente prioritaria]. La semilla se siembra fresca a 23 °C (RHS, ficha de especie). RHS cita también esquejes de tallo en primavera; la especie no enraíza por esqueje de hoja ni de pecíolo. La forma variegada es inestable y sus hijuelos pueden salir con más o menos blanco [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F10"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja de invernadero (Tetranychus urticae): RHS la cita expresamente como plaga de la especie y el aire seco la favorece (RHS, guía del género). Es la plaga más grave en pisos con calefacción y en el verano seco de Madrid; en la hoja aterciopelada la telaraña cuesta más de ver. Revisar el envés cada 1-2 semanas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado amarillento o plateado del haz por la alimentación de la araña roja; suele preceder a la telaraña visible."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas de los pecíolos, base y envés (RHS, ficha de especie)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en hojas nuevas al desenrollarse; RHS lo cita como plaga del cultivar 'Freydyk'."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato compacto, sobre todo en invierno durante el reposo (RHS, guía del género; UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Rizoma o base de los pecíolos blanda, oscura y maloliente por riego excesivo con frío; aislar, retirar la parte podrida y recuperar cormelos o hijuelos sanos."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Renovación normal (cada hoja nueva suele sustituir a una vieja) o entrada en reposo invernal (RHS, guía del género). Solo preocupa si es masivo en primavera-verano: revisar entonces riego y raíces."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Pecíolos que se doblan por exceso de riego con raíces dañadas, sequía puntual, frío o corrientes (RHS, guía) o falta de luz (pecíolos largos y blandos inclinados hacia la ventana)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por humedad ambiental baja (RHS, guía del género), riego irregular o sales de abono acumuladas. No atribuir al agua del grifo de Madrid."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Quemaduras por sol fuerte a través del cristal (RHS, guía del género), habituales en ventanas sur u oeste de Madrid en verano; en la forma variegada se queman primero las zonas blancas."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Pérdida de hojas tras la compra, el transporte en frío o un cambio brusco de ubicación; muy frecuente en esta especie al pasar del invernadero del vivero al aire seco de un piso."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Sin hojas nuevas en primavera-verano por luz insuficiente, temperatura por debajo de 16 °C o raíces dañadas. Es de crecimiento lento (RHS) y en invierno la parada es normal (reposo)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el riesgo principal es la araña roja: revisar el envés cada semana y subir la humedad con humidificador o agrupando plantas. Retirar de ventanas sur y oeste sin protección: a 1,5-2 m del cristal o tras cortina fina, porque la hoja oscura se quema y se calienta. Procedente de montaña tropical (1200-1500 m, POWO), agradece la habitación más fresca de la casa; evitar más de 30 °C prolongados [orientativo, sin fuente prioritaria]. El sustrato se seca deprisa: comprobar con el dedo (5 cm) y el peso cada 2-4 días, sin regar por calendario ni dejar agua en el plato. No ponerla frente al aire acondicionado. No sacarla a la terraza: el viento y el aire seco de Madrid la dañan.",
+    "invierno": "Con calefacción la humedad interior baja a menudo del 30 %: máximo riesgo de araña roja y bordes secos; usar humidificador y alejar de radiadores. Separar de los cristales fríos (por la noche pueden bajar de 15 °C junto a la ventana) y de corrientes. Mantener siempre por encima de 15 °C. Es normal que frene y pierda algunas hojas: reducir mucho el riego, no abonar ni trasplantar, y no tirarla si el rizoma está firme. Si el piso está a 20-22 °C y bien iluminado puede seguir creciendo: regar solo con el sustrato seco a 5 cm.",
+    "ubicacion_recomendada": "Salón o dormitorio luminoso junto a una ventana este u oeste (con cortina en verano en la oeste), o a 1,5-2 m de una ventana sur con cortina fina; un baño luminoso con ventana es buena opción por la humedad. Lejos de radiadores, aire acondicionado y corrientes, y fuera del alcance de perros, gatos y niños por su toxicidad."
+  },
+  "lagunas": [
+    "Nombre y autoría: POWO (Kew) acepta Alocasia micholitziana Sander (Gardeners' Chronicle, 1912), nativa de Filipinas (endémica de Luzón según CATE Araceae). POWO no muestra sinónimos y Wikipedia tampoco; no hay cambio de nombre. Se usa 'Alocasia micholitziana' sin autor, como en lista-maestra.csv.",
+    "Nombre del cultivar: RHS lo registra como 'Freydyk' y el comercio como 'Frydek'. UF/IFAS lista por separado 'Frydek' (verde medio con nervios de variegación amarillo claro) y A. micholitziana 'Frydek' variegada; no se ha podido aclarar si son el mismo clon ni si 'Frydek' es un cultivar o un híbrido de la especie.",
+    "Información de cultivo específica de la especie: solo RHS (fichas de la especie y del cultivar 'Freydyk'); NC State, Missouri Botanical Garden, Clemson y Wisconsin no tienen ficha. UF/IFAS solo la lista con su tamaño. Riego, temperatura ideal, trasplante, reposo y propagación se completan con fuentes del género Alocasia (RHS guía, UF/IFAS, Wisconsin): todos los bloques quedan en confianza Media.",
+    "Hábitat: POWO/CATE (según Hay 1999) da bosque primario y secundario y bordes de caminos a 1200-1500 m; Wikipedia dice bosque húmedo de tierras bajas. No se pudo abrir la monografía de Hay (1999, Gardens' Bulletin Singapore 51: 1-41) para comprobarlo.",
+    "Humedad relativa: ninguna fuente prioritaria da porcentajes; min_pct e ideal_pct en null.",
+    "Temperatura máxima e ideal máxima: ninguna fuente prioritaria las da; max_c e ideal_max_c en null.",
+    "Luz: sin cifras en fc o lux en fuentes prioritarias; lux tomados de la franja 'brillante indirecta' de la escala del proyecto. Las casillas de posición de RHS ('semisombra' en la especie; 'pleno sol o semisombra, sur u oeste' en 'Freydyk') no coinciden con su texto de cultivo (luz brillante indirecta).",
+    "Rusticidad del cultivar: RHS marca H2 (1-5 °C) para 'Freydyk' (v) y H1A (>15 °C) para la especie; se adopta el mínimo de 15 °C.",
+    "Fertilización: sin fórmula NPK en fuentes prioritarias; frecuencia contradictoria (RHS cada 2-3 semanas frente a la convención del proyecto, mensual a ¼-½ de dosis).",
+    "Toxicidad: ASPCA, LSU y UF/IFAS tratan Alocasia spp. a nivel de género; solo RHS confirma la toxicidad para la especie. Sin datos de ensayos específicos.",
+    "Plagas y enfermedades: RHS cita araña roja y cochinilla algodonosa (especie) y pulgón y orugas (cultivar), y la considera 'generalmente libre de enfermedades'; no hay fuentes prioritarias sobre enfermedades fúngicas o bacterianas específicas.",
+    "Cultivo in vitro: existe un artículo (Yang et al. 2015, Chinese Journal of Tropical Crops 36(8): 1451) sobre cultivo de tejidos de la especie; solo se vio el título, no se usa como fuente."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/131678/alocasia-micholitziana/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia micholitziana",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow alocasias (Growing Guide, género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://ask.ifas.ufl.edu/publication/FP033",
+      "institucion": "UF/IFAS Extension (University of Florida) — FPS33 Alocasia spp.: Elephant's Ear, Alocasia, Taro (género; lista A. micholitziana 'Frydek' variegada)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/elephant-ears-colocasia-alocasia-and-xanthosoma/",
+      "institucion": "University of Wisconsin–Madison Extension — Elephant Ears (Colocasia, Alocasia and Xanthosoma) (género)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "institucion": "ASPCA Animal Poison Control Center — Elephant's Ear (Alocasia spp.)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://artsci.lsu.edu/vetmed/toxic_plants/alocasia.php",
+      "institucion": "Louisiana State University School of Veterinary Medicine — Toxic plants: Alocasia spp.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84208-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Alocasia micholitziana Sander (taxonomía, distribución y descripción de CATE Araceae según Hay 1999)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.rhs.org.uk/plants/522537/alocasia-micholitziana-freydyk-(v)/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Alocasia micholitziana 'Freydyk' (v)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.floridamuseum.ufl.edu/shops/plant/velvet-leaf-wild-coffee",
+      "institucion": "Florida Museum of Natural History (University of Florida) — ficha de venta de su vivero: Green Velvet Alocasia, A. micholitziana 'Frydek'",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://en.wikipedia.org/wiki/Alocasia_micholitziana",
+      "institucion": "Wikipedia — Alocasia micholitziana (cita a Fernando et al. 2008 y a POWO)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,329 @@
+{
+  "nombre_cientifico": "Ficus benghalensis",
+  "nombres_comunes": [
+    "ficus Audrey",
+    "baniano",
+    "higuera de Bengala",
+    "ficus de Bengala"
+  ],
+  "familia": "Moraceae",
+  "origen": "Subcontinente indio. POWO (Kew) la da como nativa de Assam, Bangladés, Himalaya oriental, India, islas Laquedivas, Maldivas, Nepal, Pakistán y Sri Lanka; introducida en Afganistán, Andamán y Nicobar, Florida, Jamaica, Laos, Mauricio, Myanmar, Queensland, Reunión y otras islas tropicales.",
+  "clima_nativo": "Bosques tropicales y subtropicales del subcontinente indio, sin heladas. En exterior solo es viable en zonas USDA 10a-12b (NC State). En su hábitat es un árbol gigantesco (hasta unos 30 m, NC State; más de 20 m, RHS) que empieza como epífita estranguladora y forma troncos secundarios a partir de raíces aéreas. En interior se cultiva como arbolito ('Audrey') y no debe bajar de 15 °C.",
+  "categoria": "tropical",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Simples, alternas, coriáceas, de elípticas a ovadas (a veces obovadas), con margen entero. Lámina de 10-20 cm de largo (extremos 8-25 cm) y 8-15 cm de ancho (UF/IFAS); NC State da 10-25 cm de largo y 10-20 cm de ancho. Ápice algo acuminado (NC State) u obtuso (UF/IFAS). Haz verde oscuro, liso y algo brillante; envés con pelusa fina (finamente pubescente), rasgo útil al tacto y en fotos con luz rasante. Pecíolo corto, grueso y peloso, de 2-6 cm. Las hojas nuevas salen verde brillante en 'Audrey' (RHS) o con tono bronce en la especie (RHS), y maduran a verde oscuro. Tienden a agruparse hacia las puntas de las ramas.",
+    "nerviacion": "Pinnada, con nervio central y nervios secundarios de color claro (blanquecino o verde pálido) muy visibles sobre el verde oscuro del haz (NC State, RHS: 'paler veins'); en 'Audrey' los nervios aparecen marcados ('deep veins', NC State). Es el rasgo visual más característico del ficus Audrey.",
+    "variegacion": "La especie y 'Audrey' son verdes uniformes con nervios claros. Existen otras selecciones comerciales (p. ej. Chandelier® Happiness™, hojas ovaladas verde medio con nervios claros, NC State). Las formas variegadas no aparecen en las fuentes prioritarias consultadas.",
+    "tallo": "Leñoso, de corteza lisa; en 'Audrey' el tronco es claro, blanquecino (NC State) y liso, con aspecto de arbolito de tronco desnudo. Corteza parda y lisa en la especie (NC State). En interior no forma las raíces aéreas típicas del árbol en exterior (NC State). Al cortar o romper hojas o tallos exuda látex blanco y pegajoso.",
+    "habito": "En interior, arbolito o arbusto erguido, ramificado, de crecimiento medio (NC State), con porte más arbustivo que F. lyrata. En exterior tropical, árbol de copa enorme con ramas horizontales y raíces aéreas que se convierten en troncos. En interior rara vez florece o fructifica; los higos (siconos), en parejas en las axilas, son globosos, pelosos, de 1,5-2,5 cm y rojos o anaranjados al madurar.",
+    "tamano_adulto_interior": "0,3-2,5 m según edad y poda. NC State da para 'Audrey' 30-60 cm (1-2 pies); RHS da para 'Audrey' 1,5-2,5 m de altura y 0,5-1 m de anchura en 10-20 años. Ejemplares grandes vendidos como arbolito pueden superar 2 m.",
+    "confusiones": [
+      {
+        "especie": "Ficus elastica (ficus de hoja grande, árbol del caucho)",
+        "rasgo_diferenciador": "Hoja completamente lampiña, muy brillante, más larga y rígida, con nervios secundarios finos, casi paralelos y poco visibles, y yema terminal envuelta en una vaina (estípula) a menudo rojiza. F. benghalensis tiene envés y pecíolo con pelusa fina y nervios claros muy visibles."
+      },
+      {
+        "especie": "Ficus lyrata (ficus lira)",
+        "rasgo_diferenciador": "Hoja en forma de violín, con zona media estrechada, ápice ancho y truncado y superficie abollonada, lampiña de adulta. F. benghalensis tiene hoja ovalada sin estrechamiento central y envés peloso."
+      },
+      {
+        "especie": "Ficus altissima (incluido 'Yellow Gem')",
+        "rasgo_diferenciador": "Hoja ovalada muy parecida, pero lampiña y más brillante, y a menudo variegada en verde-amarillo en los cultivares de venta; el envés no tiene pelusa [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Ficus benjamina (ficus benjamina)",
+        "rasgo_diferenciador": "Hojas pequeñas (5-12 cm), finas, con punta alargada, sobre ramas arqueadas y colgantes. Solo comparte el nombre común 'ficus'."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Látex del género Ficus: enzima proteolítica (ficina) y psoraleno (furocumarina, 'ficusina'). NC State da estos mismos principios para F. benghalensis; ASPCA los da para el género Ficus.",
+    "sintomas": "Toxicidad leve (NC State: gravedad baja). En perros, gatos y personas, la ingestión puede causar falta de apetito, babeo, náuseas, vómitos y diarrea (NC State); irritación gastrointestinal y cutánea (ASPCA, Pet Poison Helpline). El látex irrita la piel y es alérgeno cutáneo (RHS, NC State): usar guantes al podar, propagar o trasplantar y evitar el contacto con los ojos. Los psoralenos pueden sensibilizar la piel al sol. También figura como problemática para caballos.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F3",
+      "F8",
+      "F9"
+    ],
+    "notas": "ASPCA no tiene ficha propia de F. benghalensis: su ficha 'Weeping fig' cubre 'Ficus sp.' (tóxica para perros, gatos y caballos). NC State sí tiene ficha de la especie y coincide en principios activos y gravedad baja. La app debe presentarla como 'tóxica leve; látex irritante para la piel'."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este (sol suave de mañana) o a 1-2 m de una ventana sur u oeste con visillo translúcido. Una ventana norte suele ser insuficiente salvo que sea muy amplia y despejada.",
+      "tolera_sol_directo": "Parcialmente: tolera unas horas de sol directo de mañana o de última hora de la tarde, sobre todo en invierno (guía RHS de ficus de interior), pero debe protegerse del sol fuerte de mediodía y tarde a través del cristal en verano, y aclimatarse de forma gradual si se pasa a más luz.",
+      "notas": "NC State: luz brillante indirecta en interior ('Audrey': sol parcial). La ficha RHS de la especie y de 'Audrey' indica pleno sol o luz filtrada, orientación sur u oeste, pero se refiere al cultivo en invernadero en Reino Unido; la guía RHS de ficus de interior pide luz brillante indirecta con algo de sol de mañana o tarde. Se adopta la opción conservadora. Lux según la escala del proyecto (500-1000 fc). UF/IFAS (Ficus de interiorismo en general) indica que las plantas aclimatadas toleran 100-200 fc, pero con menos luz crecen menos y sueltan hojas: la caída de hojas verdes por poca luz es típica del género. Girar la maceta periódicamente.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar cuando los 5 cm superiores del sustrato estén secos al tacto (NC State: 2-3 pulgadas, 5-7,5 cm; en macetas grandes comprobar a 5 cm con el dedo) y la maceta pese claramente menos. Regar a fondo con agua a temperatura ambiente hasta que salga por los drenajes y vaciar el plato o cubremacetas a los 15-30 minutos. Nunca por calendario.",
+      "primavera_verano": "En crecimiento activo, riego moderado y regular dejando secar ligeramente la capa superior entre riegos (RHS). Con calor y mucha luz el sustrato se seca antes: comprobar más a menudo, siempre por humedad y peso.",
+      "otono_invierno": "Mantener el sustrato apenas húmedo (RHS: 'keep moist over winter', 'only just moist'): dejar secar más en profundidad antes de regar y reducir la cantidad. Con poca luz invernal el consumo baja y el riesgo de pudrición sube.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid (agua blanda con cloramina) no hace falta tratarla; dejarla reposar no elimina la cloramina y no es necesario. Lavar el sustrato con un riego abundante de vez en cuando para evitar la acumulación de sales del abono (UF/IFAS asocia el exceso de sales a pérdida de hojas viejas y quemaduras).",
+      "notas": "NC State: el exceso de riego causa pudrición de raíces, y la falta de agua produce manchas secas marrón claro. NC State la etiqueta como tolerante a la sequía, pero esa etiqueta se refiere al árbol plantado en suelo; en maceta, el estrés hídrico provoca caída de hojas amarillas (UF/IFAS, Ficus en general), por eso se marca sensibilidad a la sequía media.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "notas": "NC State indica para la planta de interior una humedad del 50-80 % y recomienda un humidificador cerca; la guía RHS de ficus de interior pide humedad media a alta. Con aire muy seco las hojas pueden agrietarse (NC State). Se toma el 50 % como mínimo deseable y el 60 % como ideal realista en casa; tolera algo menos si el riego y la luz son correctos, pero por debajo del 30 % (calefacción en Madrid) aparecen bordes secos y más araña roja. Pulverizar las hojas no sube la humedad de forma útil (convención del proyecto, aunque la RHS lo mencione): usar humidificador o agrupar plantas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 18,
+      "ideal_max_c": 27,
+      "notas": "NC State: prefiere 65-80 °F (18-27 °C) y necesita protección frente a corrientes frías y cambios bruscos de temperatura. RHS (ficha de la especie y de 'Audrey'): H1A, cultivo bajo cristal todo el año con mínima de 15 °C. UF/IFAS (Ficus de interiorismo): mantener siempre por encima de 60 °F (15,5 °C); por debajo aparecen daños por frío con manchas necróticas viscosas y caída masiva de hojas. La guía RHS general de ficus da 10-13 °C, pero la ficha específica de la especie es más exigente. Se adopta 15 °C como mínima, igual que en las demás fichas de Ficus del proyecto. Las fichas de extensión que tratan el árbol en exterior (zonas USDA 10-12) no aplican al cultivo en maceta en interior. El máximo de 35 °C procede del rango de producción en umbráculo con humedad alta (70-95 °F, UF/IFAS); en casa, por encima de unos 30 °C con aire seco conviene ventilar y vigilar el riego. Lo crítico es la estabilidad: los cambios bruscos provocan caída de hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para macetas de buena calidad con perlita (NC State) o sustrato sin turba a base de tierra franca (tipo John Innes nº 3) con corteza fina añadida (RHS); también un universal sin turba de calidad. Debe retener algo de humedad y drenar con rapidez. Maceta siempre con agujeros de drenaje.",
+      "ph": "Neutro, aprox. 6,0-7,5 (NC State: pH neutro, 6,0-8,0; RHS: tolera ácido, neutro o alcalino).",
+      "drenaje": "Imprescindible: el encharcamiento provoca pudrición de raíces (NC State). No dejar agua en el plato ni en el cubremacetas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, preferentemente rico en nitrógeno (favorece el follaje), diluido.",
+      "npk": "Rico en nitrógeno; proporción orientativa 3-1-2 o 3-1-3 (UF/IFAS, para producción comercial de Ficus).",
+      "primavera_verano": "De primavera a final del verano, solo con crecimiento activo: ¼-½ de la dosis de la etiqueta, una vez al mes (convención del proyecto). Nunca superar la dosis de etiqueta.",
+      "otono_invierno": "No abonar.",
+      "notas": "NC State: abono líquido durante la temporada de crecimiento (primavera-verano). Guía RHS: abono rico en nitrógeno de primavera a final del verano. UF/IFAS: no abonar durante las primeras 4 semanas tras colocar la planta en interior y evitar el exceso de sales (quema bordes y provoca pérdida de hojas viejas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2 años aproximadamente, a una maceta solo algo mayor (2-5 cm más de diámetro). Cuando ya no se pueda trasplantar por tamaño, renovar cada primavera los 2,5 cm superiores del sustrato (RHS).",
+      "epoca": "Primavera.",
+      "senales": "Raíces saliendo por los agujeros de drenaje o rodeando el cepellón, sustrato que se seca muy rápido, agua que atraviesa la maceta sin empapar. No trasplantar una planta recién comprada: UF/IFAS aconseja no moverla, podarla, trasplantarla ni abonarla durante al menos 4 semanas tras llevarla a interior. Esperar la caída de alguna hoja tras el trasplante.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Normalmente no se necesita (RHS, grupo de poda 1); solo para controlar altura, forzar ramificación o retirar ramas y hojas dañadas.",
+      "epoca": "Final del invierno o inicio de la primavera.",
+      "como": "Con guantes (el látex irrita la piel). Acortar los brotes demasiado largos cortando justo por encima de una hoja o yema; despuntar las puntas favorece la ramificación. Los ficus toleran bien podas fuertes (RHS). Secar con papel el látex que gotea. No podar una planta recién llegada (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (hemisferio norte, aprox. noviembre-febrero), por la menor luz y temperatura. En el hemisferio sur, mayo-agosto.",
+      "cambios": "No es una dormancia verdadera (no pierde las hojas): el crecimiento se ralentiza. Mantener el sustrato apenas húmedo, suspender el abonado, dar la máxima luz posible y temperatura estable por encima de 15 °C, sin moverla.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje semileñoso de punta de tallo",
+        "acodo aéreo",
+        "semilla (rara en cultivo)"
+      ],
+      "epoca": "Primavera o verano.",
+      "pasos": "Esqueje: con guantes, cortar una punta de tallo semileñosa de 10-15 cm con 2-3 hojas; dejar que deje de gotear el látex; plantar en sustrato ligero húmedo con calor de fondo (propagador) y humedad alta (RHS); trasplantar cuando haya enraizado. Acodo aéreo (NC State): hacer una incisión en un tallo, envolverla con musgo húmedo y plástico, esperar a que salgan raíces y cortar por debajo para plantarla. Semilla (RHS): remojar 12 horas y sembrar a 18-21 °C en primavera; en cultivo casi nunca se dispone de semilla viable porque los higos no se polinizan fuera del área nativa.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas tras la compra, un traslado o un trasplante, por cambio de luz, temperatura o humedad; muy típica de los Ficus. Elegir sitio definitivo y no moverla ni trasplantarla en las primeras 4 semanas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o agua estancada en el plato o cubremacetas (NC State). Es el problema más grave."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas secas marrón claro por falta de riego (NC State); también manchas necróticas tras exposición a frío por debajo de 15 °C (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha foliar: manchas marrones y amarillas que se extienden despacio, favorecidas por poca ventilación y exceso de humedad (NC State)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Hojas agrietadas o rajadas cuando la humedad ambiental es demasiado baja (NC State), típico con calefacción."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Estrés hídrico (por exceso o falta de riego), poca luz o exceso de sales del abono: las hojas inferiores amarillean y caen (UF/IFAS, Ficus en general)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Acumulación de sales del abono o riego irregular; aire muy seco."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: entrenudos largos, hojas más pequeñas y caída de hojas verdes."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte de mediodía o tarde a través del cristal, o paso brusco a más luz sin aclimatar."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por aire caliente y seco (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado por araña roja o trips (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en tallos y nervios (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza segregada por cochinillas."
+    },
+    {
+      "sintoma_id": "S31",
+      "causa_habitual_en_esta_especie": "Mosquitos del sustrato (esciáridos) con el sustrato siempre húmedo (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C en el exterior y sol fuerte, no ponerla pegada a ventanas sur u oeste sin visillo: el sol de tarde a través del cristal quema las hojas. Mejor ventana este o a 1-2 m de una sur con visillo. El aire seco (HR exterior ≈38 %) y el calor secan antes el sustrato: comprobar humedad a 5 cm y peso con más frecuencia, sin regar por calendario ni dejar agua en el plato. No situarla en el chorro del aire acondicionado ni en corrientes. Vigilar araña roja y trips, que proliferan con calor seco. Si se saca a una terraza, solo a sombra o luz filtrada, protegida del viento y con aclimatación gradual; meterla antes de que las noches bajen de 15 °C (en Madrid suele ser a finales de septiembre o principios de octubre), revisando plagas, y esperar algo de caída de hojas al cambiar de sitio.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %: alejarla de radiadores y salidas de aire, usar humidificador o agrupar plantas (pulverizar no sirve); con aire tan seco las hojas pueden agrietarse. Dar la máxima luz posible, pero sin que las hojas toquen el cristal frío ni queden junto a una ventana con corrientes: de noche, junto al cristal, la temperatura no debe bajar de 15 °C. Reducir el riego (sustrato apenas húmedo), no abonar y no cambiarla de sitio.",
+    "ubicacion_recomendada": "Salón luminoso, junto a una ventana este o a 1-2 m de una sur u oeste con visillo, lejos de radiadores, puertas a la calle y salidas de climatización, en un sitio fijo donde pueda quedarse todo el año."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Ficus benghalensis L. (Sp. Pl. 2: 1059, 1753); sinónimos incluidos Ficus indica L., Ficus banyana Oken, Perula benghalensis (L.) Raf. y Urostigma bengalense (L.) Gasp. 'Audrey' es un cultivar; no hay cambio de nombre.",
+    "Ninguna fuente prioritaria da intensidad de luz numérica (fc o lux) para F. benghalensis en interior; se usa la escala del proyecto para luz brillante indirecta. El dato de 100-200 fc de UF/IFAS es para Ficus de interiorismo en general.",
+    "ASPCA no tiene ficha propia de F. benghalensis; se usa su ficha del género (Ficus sp.) y la ficha de NC State de la especie.",
+    "Tamaño en interior de 'Audrey' discrepante: NC State 30-60 cm, RHS 1,5-2,5 m; probablemente NC State describe la planta de venta y RHS la talla final.",
+    "Frecuencia de trasplante y temperatura máxima proceden de fuentes de Ficus en general (guía RHS de ficus, UF/IFAS EP136), no de la especie.",
+    "La diferenciación con Ficus altissima no tiene respaldo en fuentes prioritarias consultadas."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-benghalensis/",
+      "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/7196/wd/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de Ficus benghalensis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/371934/ficus-benghalensis-audrey/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha de Ficus benghalensis 'Audrey'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/popular/ornamental-figs/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de ficus ornamentales",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://ask.ifas.ufl.edu/publication/EP136",
+      "institucion": "University of Florida IFAS Extension – EP136 Cultural Guidelines for Commercial Production of Interiorscape Ficus",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plant-directory.ifas.ufl.edu/plant-directory/ficus-benghalensis",
+      "institucion": "University of Florida IFAS – Center for Aquatic and Invasive Plants, Plant Directory",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:852482-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.petpoisonhelpline.com/poison/ficus/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

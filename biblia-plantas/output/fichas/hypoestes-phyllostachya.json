@@ -1,0 +1,312 @@
+{
+  "nombre_cientifico": "Hypoestes phyllostachya",
+  "nombres_comunes": [
+    "hipoestes",
+    "planta de lunares",
+    "planta de las pecas",
+    "polka dot plant (inglés)",
+    "freckle face (inglés)"
+  ],
+  "familia": "Acanthaceae",
+  "origen": "Madagascar (POWO, Wisconsin). Naturalizada o introducida en India, Nepal, Himalaya oriental, México, Centroamérica, Colombia, sureste de Brasil, Paraguay, República Dominicana e isla Norfolk (POWO). La RHS indica 'Sudáfrica, Madagascar y Sureste asiático', pero ese es el rango del género Hypoestes, no de la especie. En cultivo se venden sobre todo series de semilla y cultivares compactos ('Confetti', 'Splash', 'Pink Brocade', 'Carmina', 'Wit').",
+  "clima_nativo": "Tropical húmedo de Madagascar, en zonas de bosque y matorral (POWO, hábitats IUCN: bosque, sabana, matorral y humedales; en Colombia naturalizada a 1250-1800 m). Sin heladas: en exterior solo en zonas USDA 10-11 (NC State); la RHS la clasifica H1B (en el Reino Unido solo puede salir al exterior en verano; mínimo 10-15 °C). Prefiere ambiente húmedo (RHS, Wisconsin).",
+  "categoria": "tropical",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, opuestas, ovadas, de 2,5-7,5 cm de largo y menos de 2,5 cm de ancho, margen entero, blandas (NC State). Lámina verde oscura salpicada de puntos y manchas irregulares rosas, rojas o blancas repartidas por toda la superficie, sin seguir los nervios; en algunos cultivares el patrón se invierte (hoja casi rosa, roja o blanca con motas verdes) (Wisconsin, NC State). Rasgo clave para visión: 'lunares' o 'pecas' de color dispersos al azar sobre hojas pequeñas, opuestas y de borde liso. NC State las describe glabras y Wisconsin 'suavemente pubescentes': en la práctica son ligeramente pelosas al tacto según cultivar.",
+    "nerviacion": "Pinnada, con nervio central y 4-6 pares de nervios secundarios hundidos en el haz [orientativo, sin fuente prioritaria]; los nervios suelen ir del color de fondo, no coloreados: el dibujo es de manchas, no de red.",
+    "variegacion": "Manchas y salpicaduras pigmentadas (rosa, rojo, blanco, burdeos) sobre fondo verde. Los cotiledones son verdes y ya el primer par de hojas verdaderas muestra el color (Wisconsin, NC State). Con poca luz las manchas palidecen y la planta se vuelve más verde; con exceso de sol directo también se decoloran (RHS, Wisconsin). Las plantas de semilla varían en el moteado (RHS).",
+    "tallo": "Tallos herbáceos a algo leñosos en la base, verdes o teñidos del color de las manchas (Wisconsin, NC State), muy ramificados si se pinzan; se alargan y desnudan con la edad o con poca luz (Wisconsin).",
+    "habito": "Perenne siempreverde arbustiva y compacta, de mata baja (RHS: 'bushy'). Inflorescencias terminales en espiga de hasta unos 15 cm con flores tubulares pequeñas lila, rosa o azuladas, poco vistosas; en interior florece a finales de verano u otoño, cuando acortan los días (Wisconsin, NC State).",
+    "tamano_adulto_interior": "En maceta, unos 20-30 cm de alto (RHS: hasta 30 cm con el tiempo; serie 'Confetti' unos 20 cm, Wisconsin). La especie puede alcanzar 30-60 cm de alto y 23-30 cm de ancho (NC State) o hasta 75 cm en condiciones ideales (Wisconsin). Crecimiento rápido en primavera-verano [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {
+        "especie": "Fittonia albivenis (fitonia)",
+        "rasgo_diferenciador": "Fittonia tiene el color en una red continua de nervios blancos, rosas o rojos (mosaico) y porte rastrero y tapizante; Hypoestes tiene manchas sueltas repartidas por la lámina, sin relación con los nervios, y porte erguido y ramificado."
+      },
+      {
+        "especie": "Coleus scutellarioides (coleo, antes Solenostemon/Plectranthus scutellarioides)",
+        "rasgo_diferenciador": "El coleo tiene hojas mayores con margen dentado o festoneado, tallo claramente cuadrangular y color en zonas o bandas (centro, borde), no en lunares pequeños; además es aromático al frotar."
+      },
+      {
+        "especie": "Begonia maculata (begonia lunares)",
+        "rasgo_diferenciador": "Lunares blancos plateados regulares sobre hojas grandes, asimétricas, en forma de ala de ángel, con envés rojo y tallos tipo caña con nudos marcados; Hypoestes tiene hojas pequeñas simétricas, opuestas y manchas rosas o rojas irregulares."
+      },
+      {
+        "especie": "Pilea cadierei (planta aluminio)",
+        "rasgo_diferenciador": "Manchas plateadas en bandas entre los nervios principales, con brillo metálico, hojas acolchadas de margen dentado; no aparecen tonos rosas ni rojos."
+      },
+      {
+        "especie": "Episcia cupreata (episcia)",
+        "rasgo_diferenciador": "Hojas aterciopeladas grandes con bandas cobrizas o plateadas a lo largo del nervio central, estolones colgantes y flores rojas o naranjas vistosas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "ASPCA: no tóxica para perros, gatos y caballos; principio tóxico desconocido; si se come puede dar vómitos y diarrea leves. Para niños no se describen síntomas; como con cualquier planta, una ingestión grande puede causar molestias digestivas o atragantamiento (Minnesota Poison Control System). Ante ingestión, consultar al veterinario o al Servicio de Información Toxicológica (915 620 420).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F6",
+      "F1",
+      "F7"
+    ],
+    "notas": "Perros y gatos: ASPCA y NC State ('Non-toxic for cats, dogs and horses') coinciden. Niños: la única fuente prioritaria es la lista del Minnesota Poison Control System recogida por el Departamento de Servicios Humanos de Minnesota, que incluye 'Polka Dot Plant' en la lista alfabética de plantas no tóxicas; esa lista tiene alguna clasificación discutible para otras plantas, así que el dato para niños descansa en una sola fuente oficial. Algunas tiendas la etiquetan como tóxica sin respaldo: la app no debe afirmarlo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o norte muy luminosa; en ventana sur u oeste, a 1-2 m del cristal o tras una cortina fina en primavera-verano. La RHS cita alféizar norte u oeste o detrás de cristal translúcido (clima británico). También crece bajo luz artificial (Wisconsin).",
+      "tolera_sol_directo": "Solo un poco de sol suave (primeras horas de la mañana). Tolera algo de sol (NC State, Wisconsin), pero el sol directo de verano decolora y quema las hojas (RHS) y las arruga y enrolla (NC State). Color mejor en semisombra luminosa que a pleno sol (Wisconsin).",
+      "notas": "Necesita luz abundante para mantener el color: con poca luz las manchas se apagan y la planta se ahíla (tallos largos y débiles) (RHS, NC State, Wisconsin). Rango expresado con la escala del proyecto: luz brillante indirecta 500-1000 fc (≈5.380-10.760 lux); por debajo de ~500 fc pierde color y se espiga.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato ligeramente húmedo, dejando que se seque solo la superficie entre riegos (RHS; Wisconsin: dejar secar ligeramente). Comprobar con el dedo a 2-3 cm: regar cuando los primeros 1-2 cm estén secos al tacto y la maceta pese claramente menos; no esperar a que se seque del todo. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-20 minutos. Nunca por calendario.",
+      "primavera_verano": "Crecimiento activo: necesita agua abundante (Wisconsin: 'crece mejor con mucha agua'). En maceta pequeña y con calor puede pedir agua cada 2-4 días; comprobar dedo y peso con frecuencia. Si se desmaya (hojas y tallos lacios) es sed: regar a fondo y se recupera en horas, siempre que no haya estado seca mucho tiempo (RHS).",
+      "otono_invierno": "Con menos luz y crecimiento lento, el sustrato tarda más en secar: seguir el mismo criterio (superficie seca a 1-2 cm), lo que suele espaciar los riegos. Con calefacción el sustrato puede secar casi tan rápido como en verano; no dejar que se seque del todo.",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua del grifo a temperatura ambiente. En Madrid el agua es blanda (10-47 mg/L CaCO3) y con cloramina, que no se elimina dejándola reposar; no es causa de puntas marrones. Las puntas o bordes marrones en esta especie se deben sobre todo a aire seco (RHS) o a sales de abono acumuladas.",
+      "notas": "Marcada como 'drought intolerant' por NC State; la RHS indica que el desmayo es el primer signo de sed y que la planta se recupera al regar si no se ha dejado demasiado tiempo. Tanto el exceso como la falta de agua provocan amarilleo y caída de hojas (RHS); el encharcamiento puede causar pudrición de raíz (NC State, Wisconsin). Wisconsin la describe 'algo tolerante a la sequía', NC State como intolerante: se adopta la opción conservadora (no dejar secar el cepellón).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F1"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Necesita humedad ambiental moderada a alta; con aire seco se ponen marrones los bordes de las hojas (RHS) y aumenta el riesgo de oídio (RHS). Wisconsin: prefiere ambiente húmedo y en interior sufre en invierno. Ninguna fuente prioritaria da cifras de HR. Pulverizar las hojas no sube la humedad de forma útil (convención del proyecto, aunque la RHS y Wisconsin lo mencionan): usar humidificador, agrupar plantas o una bandeja con grava húmeda sin que la maceta toque el agua; también vale como planta de terrario (RHS). Alejar de radiadores (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": null,
+      "notas": "Mínimos de las fuentes: RHS guía de cultivo, al menos 12 °C; RHS ficha, H1B (mínimo 10-15 °C); Wisconsin, no crece bien por debajo de 60 °F (≈16 °C) y no sacar al exterior hasta superar de forma estable 50 °F (10 °C). Se adopta 15 °C como mínimo (el más alto y conservador, coherente con H1B y con Wisconsin) e ideal por encima de 16 °C. Las semillas germinan mejor a 20 °C (68 °F, Wisconsin). Sensible a heladas (NC State). Ninguna fuente prioritaria da máximo: con calor fuerte el problema práctico es la deshidratación rápida y el sol directo, no la temperatura en sí. Evitar corrientes frías y fuentes de calor directo (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal o de plantas de interior sin turba (o con turba/fibra de coco) que retenga humedad pero drene bien, rico en materia orgánica (RHS; Wisconsin: mezclas porosas con turba o mantillo de hojas; NC State: franco, rico en materia orgánica y bien drenado). Se puede aligerar con un 20-30 % de perlita [orientativo, sin fuente prioritaria]. Maceta con agujero de drenaje.",
+      "ph": "Ácido a neutro (RHS: ácido o neutro; NC State: tolera ácido <6,0 y neutro 6,0-8,0). Un sustrato universal comercial (pH 5,5-6,5) es adecuado [orientativo, sin fuente prioritaria].",
+      "drenaje": "Bueno: drenaje libre sin encharcamiento, porque la pudrición de raíz es uno de sus pocos problemas (NC State, Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o específico para plantas de interior, diluido (RHS; Wisconsin: abono líquido diluido de forma periódica).",
+      "npk": null,
+      "primavera_verano": "De abril a septiembre (época de crecimiento según RHS): ¼-½ de la dosis de etiqueta una vez al mes, con el sustrato húmedo.",
+      "otono_invierno": "Nada de octubre a marzo, o mientras no haya crecimiento activo.",
+      "notas": "La RHS indica abonar cada 2-3 semanas a la dosis de etiqueta; se aplica la convención del proyecto (¼-½ dosis, mensual), más conservadora. La propia RHS advierte que el exceso de abono produce crecimiento alto y ahilado, que en esta especie es justo lo que se quiere evitar. Lavar el sustrato con riego abundante si aparecen costras de sales.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, cuando las raíces llenan la maceta (RHS). En la práctica muchas plantas se renuevan por esqueje antes (Wisconsin: con los años hay que reemplazarlas).",
+      "epoca": "Primavera, al iniciar el crecimiento [orientativo, sin fuente prioritaria para la época].",
+      "senales": "Raíces saliendo por el agujero de drenaje, sustrato que se seca en uno o dos días y planta que se desmaya muy a menudo, o raíces que llenan el cepellón (RHS). Pasar a una maceta solo 2-3 cm más ancha.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí: pinzado regular. Sin pinzar se espiga y se abre, sobre todo con la edad y con poca luz (Wisconsin, RHS, NC State).",
+      "epoca": "Durante todo el periodo de crecimiento (primavera-verano), cada vez que un brote se alargue; quitar las espigas florales en cuanto aparezcan (finales de verano-otoño).",
+      "como": "Pinzar con los dedos o tijeras limpias la punta de cada tallo justo por encima de un par de hojas, para que broten dos ramas laterales (RHS, NC State, Wisconsin). Quitar las espigas florales: la floración no tiene interés ornamental y retirarlas dirige la energía al follaje (NC State, RHS). Retirar hojas y tallos secos (RHS). Las puntas pinzadas sirven como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero, pero de octubre a marzo crece poco por la menor luz: no abonar (la RHS limita el abonado a abril-septiembre), regar según el criterio de sustrato y darle el sitio más luminoso posible sin sol fuerte. Los días largos la mantienen en crecimiento vegetativo y los días cortos de finales de verano y otoño inducen la floración (Wisconsin); tras florecer y con la edad la planta tiende a espigarse y perder vigor, y a menudo se trata como planta de temporada que se renueva por esqueje o semilla (Wisconsin: 'con el tiempo las plantas de interior habrá que reemplazarlas').",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo (en agua o en sustrato)",
+        "semilla",
+        "división de mata"
+      ],
+      "epoca": "Esquejes en primavera y verano, cuando enraízan con más seguridad (RHS, Wisconsin). Semilla y división en primavera (RHS); en interior la semilla puede sembrarse en cualquier época (Wisconsin).",
+      "pasos": "Esqueje (método más fácil, NC State): 1) cortar puntas de 5-10 cm (RHS: unos 5 cm; Wisconsin: 10 cm) justo por debajo de un par de hojas; 2) quitar las hojas inferiores; 3) ponerlas en agua junto a una ventana luminosa sin sol, o clavarlas en sustrato húmedo, arena o vermiculita; 4) mantener humedad alta con una bolsa transparente o propagador hasta que enraícen (RHS); en agua echan raíces rápido (Wisconsin); 5) pasar a maceta varias juntas para lograr una mata densa. Semilla: sembrar sobre sustrato húmedo, presionar sin cubrir porque la luz ayuda a germinar (RHS); a 20 °C germina en unos 4 días (Wisconsin); repicar con 4 hojas verdaderas (3 plántulas por maceta de 7-8 cm o 5 por maceta de 10 cm, Wisconsin). El moteado de las plantas de semilla es variable (RHS). División: separar una mata grande en trozos de al menos 3 tallos cada uno (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Sed: es muy sensible a la falta de agua y se desmaya de golpe; se recupera en horas al regar a fondo si no ha pasado demasiado tiempo (RHS). Si el sustrato está mojado y la planta sigue lacia, sospechar pudrición de raíz."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente, falta de pinzado, exceso de abono o edad de la planta: tallos largos, débiles y desnudos (RHS, Wisconsin, NC State). Acercar a más luz, pinzar y renovar por esqueje."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Pérdida del color de las manchas por poca luz o reversión; también por exceso de sol directo (RHS, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo de verano, sobre todo tras el cristal en ventana sur u oeste: hojas descoloridas y quemadas (RHS)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Exceso de sol directo: las hojas se arrugan y se enrollan (NC State)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Aire seco (humedad baja) por calefacción o verano seco: bordes y puntas marrones (RHS)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire seco o riego irregular con secados completos (RHS); en Madrid no atribuir al cloro ni al flúor del agua."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Amarilleo y caída de hojas por exceso o por falta de riego (RHS)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Encharcamiento o maceta sin drenaje (NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio, favorecido por la sequedad del sustrato o del aire (RHS) y citado por NC State y Wisconsin como su enfermedad más habitual."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (RHS, NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (RHS, NC State, Wisconsin)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y cálido (RHS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado causado por araña roja en ambiente seco (RHS cita la araña roja entre sus plagas)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato de una maceta pequeña puede secarse en 1-2 días y la planta se desmaya con facilidad: revisar el sustrato (dedo a 2-3 cm y peso) a diario en olas de calor y regar a fondo en cuanto se sequen los primeros 1-2 cm. Nunca sol directo de mediodía o tarde tras cristal en ventanas sur u oeste: la quema, decolora y arruga; usar ventana este o cortina fina, a 1-2 m del cristal. Evitar el chorro del aire acondicionado. Si se saca a una terraza, solo a sombra luminosa y con riego vigilado. Pinzar con frecuencia porque crece rápido.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %: es la causa típica de bordes marrones, araña roja y oídio en esta especie. Usar humidificador o agrupar plantas, alejar de radiadores y no pulverizar como solución. Mantener por encima de 15 °C y separar de cristales fríos por la noche (no dejarla entre la cortina y la ventana). Darle la ventana más luminosa disponible (en invierno el sol bajo de una ventana sur filtrado por cortina es aceptable) para que no pierda color ni se ahíle. Sin abono de octubre a marzo; regar por criterio de sustrato, que con calefacción puede secar rápido.",
+    "ubicacion_recomendada": "Interior todo el año, en una ventana este o una norte muy luminosa, o a 1-2 m de una ventana sur u oeste con cortina fina; lejos de radiadores y del aire acondicionado. Buen sitio también en baño o cocina luminosos por la humedad, o en terrario abierto. Por su vida corta en interior, planificar renovarla por esqueje cada 1-2 años [orientativo, sin fuente prioritaria]."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Hypoestes phyllostachya Baker (J. Linn. Soc., Bot. 22: 511, 1887). Hypoestes sanguinolenta y Eranthemum sanguinolentum son nombres mal aplicados a esta planta en el comercio (RHS, NC State: 'previously known as H. sanguinolenta').",
+    "Humedad relativa: ninguna fuente prioritaria da cifras (min_pct e ideal_pct en null); solo 'moderada a alta' (RHS) y 'prefiere ambiente húmedo' (Wisconsin).",
+    "Temperatura máxima: ninguna fuente prioritaria da un máximo tolerable ni un ideal superior (max_c e ideal_max_c en null).",
+    "NPK: ninguna fuente prioritaria indica una fórmula concreta (npk en null).",
+    "Época de trasplante: la RHS da la frecuencia (cada 2-3 años) pero no la época; 'primavera' es orientativa.",
+    "Declive tras la floración: Wisconsin documenta que la floración se induce con días cortos y que con la edad hay que reemplazar las plantas de interior, y NC State que quitar las flores dirige la energía al follaje; no se ha encontrado fuente prioritaria que describa de forma explícita la muerte o decaimiento de la planta tras florecer.",
+    "Toxicidad en niños: una sola fuente prioritaria (lista del Minnesota Poison Control System); no hay ficha específica en otras fuentes oficiales.",
+    "Discrepancia menor de descripción: NC State describe las hojas glabras y Wisconsin 'suavemente pubescentes'."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/hypoestes-phyllostachya/",
+      "institucion": "NC State University Extension — Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/hypoestes/how-to-grow-hypoestes",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow Hypoestes",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/73160/i-hypoestes-phyllostachya-i-(v)/details",
+      "institucion": "Royal Horticultural Society (RHS) — Plant details Hypoestes phyllostachya (v)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hort.extension.wisc.edu/articles/polka-dot-plant-hypoestes-phyllostachya/",
+      "institucion": "University of Wisconsin–Madison Division of Extension — Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:49962-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/node/5280",
+      "institucion": "ASPCA — Toxic and Non-Toxic Plant List (Polka Dot Plant)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://goodhuecountymn.gov/files/health_human_services/social_services/guidance_poisonous_plants_in_family_child_care_57277.pdf",
+      "institucion": "Minnesota Department of Human Services (2016) — Guidance: Poisonous Plants in Family Child Care, con la lista del Minnesota Poison Control System",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

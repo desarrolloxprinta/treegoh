@@ -1,0 +1,287 @@
+{
+  "nombre_cientifico": "Scindapsus treubii",
+  "nombres_comunes": [
+    "scindapsus Moonlight",
+    "scindapsus treubii",
+    "scindapsus Dark Form",
+    "scindapsus plateado Moonlight"
+  ],
+  "familia": "Araceae",
+  "origen": "Península malaya, noroeste de Borneo y Java (POWO, Kew; NC State: 'Peninsula of Malaysia, Northwest Borneo, and Jawa'; selvas tropicales de Malasia e Indonesia). Nombre aceptado en POWO: Scindapsus treubii Engl. (1898), con un sinónimo heterotípico, Pothos enderianus N.E.Br. (1884), que NC State recoge como nombre anterior.",
+  "clima_nativo": "Tropical ecuatorial húmedo sin heladas: POWO la sitúa en el bioma tropical húmedo ('wet tropical biome'). Trepadora (POWO) de selva tropical (NC State) que sube por troncos con raíces adventicias bajo la sombra del dosel, con luz tamizada (NC State: 'Dappled Sunlight', sombra del dosel superior). Zonas USDA 9a-11b según NC State.",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Hoja simple, entera, gruesa y algo coriácea, brillante, de base acorazonada o redondeada (NC State: 'heart-shaped, glossy, thick'; forma 'cordate', margen entero, sin pelos). En las plantas jóvenes del comercio la lámina es ovado-lanceolada, más larga que ancha y algo asimétrica, con punta aguda [orientativo, sin fuente prioritaria]. Al trepar por un tutor las hojas salen mayores (Costa Farms, complementaria). Color según cultivar (NC State): verde oscuro a verde plateado o moteado.",
+    "nerviacion": "Nervio central marcado y algo hundido en el haz; nervios laterales finos, poco visibles bajo el brillo [orientativo, sin fuente prioritaria]. En 'Moonlight' el brillo plateado cubre la lámina de forma más o menos uniforme y no sigue los nervios (NC State: 'silvery sheen on the top side').",
+    "variegacion": "Sin variegación amarilla ni blanca. 'Moonlight': haz verde oscuro con un brillo plateado o verde lechoso uniforme por encima (NC State: 'dark green with a silvery sheen on the top side'; 'thick, glossy, milky-green leaves'; Costa Farms: 'silvery sheen on top'); el envés es verde sin plata [orientativo, sin fuente prioritaria]. 'Dark Form': hojas jóvenes verde intenso que al madurar se vuelven casi negras, brillantes (NC State). 'sp. Sumatra': verde oscuro con marcas plateadas (NC State). Con poca luz el brillo plateado se apaga y el crecimiento es más ralo (Costa Farms, complementaria).",
+    "tallo": "Fino, verde, flexible, con nudos de los que salen raíces aéreas que se agarran a troncos o tutores (trepadora según POWO y NC State). Crecimiento lento (NC State: 'Growth Rate: Slow'; Costa Farms).",
+    "habito": "Trepadora perennifolia de hábito colgante, trepador u horizontal (NC State: 'cascading, climbing, horizontal'): en interior se cultiva en cesta colgante, en un tutor o enrejado pequeño, o extendida sobre un mueble (NC State, Costa Farms). No florece en interior; la inflorescencia es un espádice con espata blanca (NC State).",
+    "tamano_adulto_interior": "Sin cifra verificada en fuentes prioritarias: NC State solo la describe como de crecimiento lento. En interior, tras varios años, tallos de 1-2 m colgando o trepando [orientativo, sin fuente prioritaria].",
+    "confusiones": [
+      {
+        "especie": "Scindapsus pictus (poto satinado, incl. 'Argyraeus', 'Exotica', 'Silver Lady')",
+        "rasgo_diferenciador": "S. pictus tiene hojas mates y satinadas, verde oscuro con manchas o salpicaduras plateadas irregulares y envés más pálido sin manchas (NC State, ficha de S. pictus); S. treubii tiene hojas brillantes y gruesas, con brillo plateado uniforme ('Moonlight') o casi negras ('Dark Form'), sin moteado (NC State). La hoja de S. treubii suele ser más estrecha y alargada [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Epipremnum aureum (poto común), incl. 'Marble Queen', 'Njoy', 'Pearls and Jade'",
+        "rasgo_diferenciador": "El poto tiene hojas céreas muy lisas con variegación amarilla, blanca o crema, pecíolo acanalado y crecimiento rápido (Clemson); S. treubii no tiene variegación amarilla ni blanca, sino un brillo plateado uniforme o un verde casi negro, y crece despacio (NC State). NC State la cita como especie con la que se confunde a menudo."
+      },
+      {
+        "especie": "Philodendron hederaceum (filodendro trepador, incl. 'Brasil' y 'Micans')",
+        "rasgo_diferenciador": "NC State la cita como confusión frecuente. El filodendro trepador tiene hojas más finas y blandas, pecíolo liso y un surco central más profundo (Clemson, comparación con poto); S. treubii tiene hoja gruesa y rígida. En los brotes nuevos del filodendro hay catáfilos (vainas) que envuelven la hoja que sale [orientativo, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Epipremnum pinnatum 'Cebu Blue' o 'Baltic Blue'",
+        "rasgo_diferenciador": "Hoja alargada de tono azul plateado y más fina, de crecimiento más rápido; con la edad 'Baltic Blue' y 'Cebu Blue' desarrollan hojas con perforaciones o lóbulos, que S. treubii no forma en interior [orientativo, sin fuente prioritaria]."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales de oxalato cálcico en hojas, raíces, savia y tallos (NC State, ficha de S. treubii). ASPCA no tiene ficha de S. treubii; su ficha de Scindapsus pictus (mismo género) indica oxalatos cálcicos insolubles. No se sube a Alta: solo una fuente prioritaria trata la especie.",
+    "sintomas": "NC State (S. treubii, toxicidad media): babeo, hinchazón de boca y lengua, vómitos, pérdida de apetito y molestias orales; la marca como problema para perros, gatos y niños. ASPCA (S. pictus, por género): irritación oral, dolor e hinchazón de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. NC State añade que en mascotas puede haber 'posible daño renal o muerte'; ese efecto es propio de oxalatos solubles y ASPCA no lo recoge para las aráceas con oxalato insoluble, así que la app no debe presentarlo como afirmación, pero sí tratar cualquier ingestión como consulta veterinaria. Ante ingestión: enjuagar la boca con agua y llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario. Por precaución, guantes al podar o esquejar [orientativo, sin fuente prioritaria; NC State indica que no causa dermatitis de contacto].",
+    "confianza": "Media",
+    "fuentes": [
+      "F1",
+      "F6"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este o norte luminosa, o a 1,5-2 m de una ventana sur u oeste o tras una cortina fina. NC State: 'bright indirect sunlight or filtered light'.",
+      "tolera_sol_directo": "No: NC State advierte que el sol directo puede quemar las hojas. Como mucho, un rato de sol suave de primera hora de la mañana [orientativo, sin fuente prioritaria].",
+      "notas": "NC State pide luz brillante indirecta o filtrada; en su ficha marca 'luz tamizada' y 'sombra parcial (2-6 h de sol directo)', lo que contradice su propio aviso de quemaduras por sol directo; se adopta la opción conservadora, sin sol directo tras el cristal. Tolera menos luz que muchas aráceas: Costa Farms (complementaria) indica que prefiere luz media a brillante, que tolera poca luz y que en sitios oscuros crece menos densa; también vale luz artificial. Ninguna fuente da lux: lux_min (≈100 fc) y lux_max (≈1000 fc) son [orientativo, sin fuente prioritaria] según la escala del proyecto. 'Moonlight' mantiene mejor el brillo plateado en la zona alta del rango [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco al menos en los 2-3 cm superiores (5 cm en macetas de más de 20 cm) y la maceta pese claramente menos que recién regada; NC State aconseja esperar a que el sustrato esté entre medio seco y casi seco del todo, y Costa Farms a que se sequen los 5 cm superiores. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato. Nunca por calendario. NC State: 'no tolera el exceso de riego' y se pudre la raíz; Clemson indica que el género Scindapsus tolera el encharcamiento peor que el poto común. Señal útil: las hojas gruesas aguantan algo de sequía y, si el sustrato pasa mucho tiempo demasiado seco (o demasiado húmedo), se enrollan hacia abajo (Costa Farms, complementaria); con hoja enrollada y sustrato seco, regar a fondo; con hoja enrollada y sustrato húmedo, revisar raíces.",
+      "primavera_verano": "Con crecimiento activo, comprobar el sustrato cada pocos días (en verano, con calor, cada 3-4 días) y regar solo al cumplirse el criterio; dejar secar al menos la mitad superior del sustrato entre riegos, como pide NC State.",
+      "otono_invierno": "Crece aún más despacio: dejar secar más (de la mitad a casi todo el sustrato) y vigilar el peso. Con calefacción el sustrato puede secarse rápido: comprobar, no suponer [orientativo, sin fuente prioritaria].",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo de Madrid (blanda; la cloramina no se elimina dejándola reposar, pero a estas concentraciones no daña la planta), a temperatura ambiente. Si aparece costra blanca de sales, lavar el sustrato con agua abundante.",
+      "notas": "Sensibilidad a la sequía 'baja' por la hoja gruesa (Costa Farms, complementaria, y NC State, que admite dejar secar casi del todo); el enrollado foliar como señal de riego solo está respaldado por fuentes complementarias (Costa Farms; Healthy House Plants), no por NC State, y Costa Farms lo atribuye tanto a exceso como a falta de agua: [orientativo, sin fuente prioritaria]. La ficha del proyecto de S. pictus usa el enrollado como señal de sed con respaldo de NC State para esa especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F5",
+        "F7",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria da cifras. Costa Farms (complementaria): prefiere humedad por encima de la media pero prospera en condiciones domésticas normales; Healthy House Plants (complementaria) da 50-70 % y tolera un 40 % con crecimiento más lento. Se toma 40 % como mínimo orientativo. Pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas. Con aire seco aumenta el riesgo de araña roja (NC State la cita como plaga).",
+      "confianza": "Baja",
+      "fuentes": [
+        "F7",
+        "F8"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15.6,
+      "max_c": null,
+      "ideal_min_c": 18,
+      "ideal_max_c": 24,
+      "notas": "Ideal 18-24 °C (NC State, S. treubii: 65-75 °F). Mínimo 15,6 °C por coherencia con la ficha del proyecto de S. pictus: Missouri Botanical Garden pide evitar temperaturas por debajo de 60 °F en esa especie del mismo género porque el aire frío daña el follaje; no hay mínimo de una fuente prioritaria para S. treubii. Healthy House Plants (complementaria) da 13 °C; se toma el más alto. NC State la sitúa en zonas USDA 9a-11b, referido a cultivo exterior y no a un mínimo seguro en interior. Sin máximo verificado; por encima de 30 °C con aire seco conviene subir la humedad y alejarla de cristales calientes [orientativo, sin fuente prioritaria]. Evitar corrientes frías y salidas de calefacción o aire acondicionado (Healthy House Plants).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato bien drenado y rico en materia orgánica (NC State: 'well-drained soil that is rich in organic matter'). En la práctica: sustrato universal de calidad con un 30-50 % de perlita y corteza de pino o fibra de coco [orientativo, sin fuente prioritaria]; Healthy House Plants (complementaria) propone partes iguales de sustrato, corteza y perlita. Maceta con agujeros de drenaje, solo algo mayor que el cepellón.",
+      "ph": "Indiferente según NC State (ácido, neutro o alcalino). Rango práctico en maceta 5,5-6,5 [orientativo, sin fuente prioritaria; Healthy House Plants, complementaria, da 5,5-6,5].",
+      "drenaje": "Imprescindible: no tolera el exceso de agua y se pudre la raíz (NC State); NC State marca 'buen drenaje' y 'húmedo, ocasionalmente seco'. Nunca dejar agua en el plato.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F8"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior, diluido en el agua de riego (Costa Farms, complementaria).",
+      "npk": "Equilibrado (N, P y K en proporciones similares) [Healthy House Plants, complementaria]; sin dato en fuentes prioritarias.",
+      "primavera_verano": "Una vez al mes a ¼-½ de la dosis de la etiqueta (convención del proyecto), solo si la planta está echando hojas nuevas. Costa Farms: abonar en primavera y verano y no superar nunca la dosis de la etiqueta. Es de crecimiento lento (NC State): el exceso de abono acumula sales y quema puntas y raíces.",
+      "otono_invierno": "Nada (Healthy House Plants: reducir o parar en otoño e invierno; convención del proyecto: nada en reposo).",
+      "notas": "Sin fuente prioritaria específica de abonado para esta especie.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F7",
+        "F8"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años, o cuando las raíces salgan por el drenaje; por su crecimiento lento (NC State) rara vez antes [orientativo, sin fuente prioritaria; Healthy House Plants, complementaria, dice cada 1-2 años].",
+      "epoca": "Primavera, al empezar el crecimiento [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces enrolladas en el fondo o saliendo por el drenaje, agua que atraviesa la maceta sin empapar el cepellón, sustrato degradado (Healthy House Plants). Subir solo 2-4 cm de diámetro: una maceta demasiado grande retiene agua y favorece la pudrición (Healthy House Plants). Al trasplantar, cortar las raíces blandas o negras.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (Costa Farms, complementaria); basta pinzar los brotes para que ramifique y quede más tupida.",
+      "epoca": "Primavera o principio de verano, con crecimiento activo [orientativo, sin fuente prioritaria]; los recortes sirven como esquejes.",
+      "como": "Con tijera limpia, cortar justo por encima de un nudo los tallos largos o desnudos; brota desde ese nudo. Usar guantes por la savia con oxalato cálcico [orientativo, sin fuente prioritaria].",
+      "confianza": "Baja",
+      "fuentes": [
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (en Madrid, aproximadamente de noviembre a febrero): no es un reposo obligatorio sino una ralentización por menos luz y temperatura (Healthy House Plants, complementaria).",
+      "cambios": "Regar menos y dejar secar más el sustrato, no abonar (Costa Farms abona solo en primavera y verano), mantenerla por encima de 16 °C y con la máxima luz indirecta posible.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F7",
+        "F8"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo en sustrato",
+        "esqueje de tallo en agua",
+        "acodo"
+      ],
+      "epoca": "Primavera o principio de verano [orientativo, sin fuente prioritaria].",
+      "pasos": "NC State recomienda esqueje de tallo y acodo. 1) Cortar un trozo de tallo de unos 10 cm con al menos un nudo (mejor con raíz aérea) y una o dos hojas, cortando justo por debajo del nudo. 2a) En sustrato: enterrar el nudo en sustrato ligero y húmedo, cubrir con una bolsa transparente y airear a diario. 2b) En agua: dejar el nudo sumergido y cambiar el agua cada pocos días hasta que las raíces midan unos 2-3 cm. 3) Mantener a 20-25 °C con luz brillante indirecta. 4) Acodo: sujetar un nudo del tallo, sin cortarlo, sobre una maceta con sustrato húmedo y separarlo cuando haya enraizado. Enraíza despacio, como corresponde a su crecimiento lento. Pasos 1-4 [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato mal drenado (NC State: pudrición de raíz por exceso de riego; Clemson: el género tolera peor el encharcamiento que el poto). Frecuente en invierno si se mantiene el ritmo de riego del verano."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas que se enrollan hacia abajo tras pasar demasiado tiempo muy secas o muy húmedas (Costa Farms, complementaria). Mirar el sustrato: seco, regar a fondo; húmedo, revisar raíces."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Exceso de riego (Healthy House Plants, complementaria); también la caída natural y lenta de alguna hoja vieja."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo tras el cristal en ventana sur u oeste (NC State: el sol directo puede quemar las hojas): zonas descoloridas o manchas quemadas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Luz insuficiente: tallos largos y ralos con hojas espaciadas y más pequeñas (Costa Farms, Healthy House Plants)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Poca luz: el brillo plateado de 'Moonlight' se apaga y las hojas nuevas salen más verdes y apagadas (Healthy House Plants, complementaria)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Sales de abono acumuladas, riego irregular o aire muy seco (calefacción, verano madrileño). No atribuir al cloro o al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State la cita), favorecida por el aire seco."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y envés (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C fuera y sol fuerte, apartarla al menos 1,5-2 m de ventanas sur y oeste o protegerla con cortina o estor: el sol directo la quema (NC State). Comprobar el sustrato cada 3-4 días, pero regar solo cuando esté seco al menos en la mitad superior; las hojas enrolladas con sustrato seco indican que hay que regar ya. No dejar agua en el plato. Si la casa supera 30 °C y la HR cae por debajo del 40 %, usar humidificador o agrupar plantas (no pulverizar) y vigilar la araña roja en el envés. Fuera del chorro directo del aire acondicionado.",
+    "invierno": "Mantenerla por encima de 16 °C también de noche, separada del cristal frío y de corrientes de puertas y ventanas, y lejos de radiadores. Con calefacción la HR interior baja del 30 %: usar humidificador o agrupar plantas. Regar menos, dejando secar más sustrato y vigilando el peso, y no abonar de noviembre a febrero. Acercarla a una ventana este o sur con cortina para aprovechar la poca luz invernal.",
+    "ubicacion_recomendada": "Salón, dormitorio o despacho luminoso junto a una ventana este o norte, o a 1,5-2 m de una sur u oeste con cortina fina; aguanta rincones con menos luz que muchas aráceas, a costa de crecer más rala. Colgada en cesta, en estantería alta o en un tutor, fuera del alcance de perros, gatos y niños pequeños."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Scindapsus treubii Engl. (Bot. Jahrb. Syst. 25: 13, 1898) con un sinónimo heterotípico, Pothos enderianus N.E.Br. (1884), recogido también por NC State como nombre anterior. Sin cambio de nombre.",
+    "Solo una fuente prioritaria (NC State Extension Plant Toolbox) trata el cultivo de S. treubii; RHS, Missouri Botanical Garden, NParks y UF/IFAS no tienen ficha de la especie en las búsquedas realizadas. Por eso ningún bloque llega a Alta.",
+    "Toxicidad: ASPCA no lista S. treubii; se usa su ficha de S. pictus por género. NC State menciona 'posible daño renal o muerte' en mascotas, sin respaldo de otra fuente prioritaria.",
+    "Enrollado de la hoja como señal de riego: solo fuentes complementarias (Costa Farms, Healthy House Plants), y Costa Farms lo asocia tanto a sequía como a exceso de agua.",
+    "Temperatura mínima: sin cifra prioritaria para S. treubii; 15,6 °C se toma por analogía con S. pictus (Missouri Botanical Garden). Sin temperatura máxima verificada.",
+    "Humedad relativa, luz en lux, abonado, trasplante, poda y reposo: sin fuente prioritaria específica; solo complementarias u orientativos.",
+    "Tamaño adulto en interior, forma lanceolada y asimetría de la hoja, nerviación y diferencias con Epipremnum pinnatum: sin fuente prioritaria.",
+    "Diferencias de cuidado entre 'Moonlight' y 'Dark Form': no documentadas."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/scindapsus-treubii/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox (Scindapsus treubii)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:88927-1",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://plants.ces.ncsu.edu/plants/scindapsus-pictus/",
+      "institucion": "NC State Extension, North Carolina Extension Gardener Plant Toolbox (Scindapsus pictus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=297512&isprofile=0&basic=Scindapsus",
+      "institucion": "Missouri Botanical Garden, Plant Finder (Scindapsus pictus 'Argyraeus')",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/satin-pothos",
+      "institucion": "ASPCA Animal Poison Control Center (Scindapsus pictus)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://costafarms.com/plants/sterling-silver-scindapsus",
+      "institucion": "Costa Farms (productor de plantas de interior)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.healthyhouseplants.com/?p=34218",
+      "institucion": "Healthy House Plants (blog de plantas de interior)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

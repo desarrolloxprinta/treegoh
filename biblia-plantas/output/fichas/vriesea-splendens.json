@@ -1,0 +1,324 @@
+{
+  "nombre_cientifico": "Vriesea splendens",
+  "nombres_comunes": [
+    "vriesea",
+    "espada flamígera",
+    "espada de fuego"
+  ],
+  "familia": "Bromeliaceae",
+  "origen": "Este de Colombia, Venezuela (incluidas las Antillas venezolanas), Guayana, Surinam, Guayana Francesa y Trinidad y Tobago (POWO, NC State).",
+  "clima_nativo": "Tropical húmedo de selva lluviosa: crece como epífita en la base de los árboles o sobre sus ramas, en bosques húmedos y sombríos, con calor estable y humedad ambiental alta; recoge agua de lluvia en el vaso central de la roseta (POWO: bioma tropical húmedo; NC State).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples en roseta, acintadas a lanceoladas, de hasta unos 60 cm de largo, lisas, de margen entero SIN espinas, de color verde grisáceo o algo purpúreo, cruzadas por BANDAS TRANSVERSALES oscuras (verde oscuro o pardo rojizo) muy marcadas (RHS, NC State). Las bases se solapan formando un vaso central que retiene agua. Inflorescencia: espiga erecta, plana y en forma de espada, de hasta unos 45 cm, formada por brácteas rojo escarlata superpuestas en dos filas, de las que salen flores tubulares amarillas pequeñas (RHS, NC State). Las brácteas duran varios meses.",
+    "nerviacion": "Paralela, típica de monocotiledónea; sin nervio central marcado ni red de venas visible. Las bandas oscuras son transversales a los nervios.",
+    "variegacion": "No es variegación en sentido estricto: el dibujo típico son bandas transversales oscuras sobre fondo verde grisáceo. El cultivar 'Splenriet' tiene hojas verdes con bandas pardo oscuro a negro purpúreo y brácteas rojo vivo (NC State, Clemson). Muchas Vriesea híbridas comerciales tienen hojas verdes lisas.",
+    "tallo": "Sin tallo visible (acaule): la roseta nace directamente del cuello; el escapo floral sale del centro del vaso. Los hijuelos aparecen en la base o entre las hojas basales.",
+    "habito": "Epífita en roseta en forma de vaso o embudo, de hojas arqueadas, que forma matas por hijuelos. Monocárpica: cada roseta florece una sola vez y después muere poco a poco mientras produce hijuelos (NC State, RHS). Crecimiento lento.",
+    "tamano_adulto_interior": "60-90 cm de alto con la espiga y 45-60 cm de ancho (NC State); RHS da 0,5-1 m de alto. Tarda 2-5 años en alcanzar la madurez (RHS).",
+    "confusiones": [
+      {
+        "especie": "Guzmania lingulata (guzmania)",
+        "rasgo_diferenciador": "Guzmania tiene hojas verdes brillantes lisas, sin bandas, y brácteas dispuestas en estrella o roseta alrededor de un capítulo con flores blancas; Vriesea splendens tiene hojas con bandas transversales oscuras y una espiga plana en forma de espada con flores amarillas (RHS, NC State)."
+      },
+      {
+        "especie": "Aechmea fasciata (planta urna)",
+        "rasgo_diferenciador": "Aechmea tiene espinas en el margen de las hojas, escamas plateadas en bandas y una espiga densa de brácteas rosas con flores azuladas; Vriesea no tiene espinas y sus brácteas son rojas en espada plana (Clemson, RHS)."
+      },
+      {
+        "especie": "Tillandsia cyanea (clavel del aire rosa)",
+        "rasgo_diferenciador": "Hojas estrechas, finas y arqueadas, sin vaso, e inflorescencia en 'pala' aplanada de brácteas rosas con flores grandes violetas; Vriesea splendens tiene hojas anchas con bandas, vaso central y brácteas rojas con flores amarillas (Clemson, RHS)."
+      },
+      {
+        "especie": "Vriesea carinata y otros híbridos de Vriesea",
+        "rasgo_diferenciador": "Son plantas más compactas, de hojas verdes lisas y blandas sin bandas, a menudo con espigas ramificadas de brácteas amarillas, naranjas o rojas; V. splendens tiene hojas con bandas oscuras y una sola espiga roja en espada (Clemson, NC State género). El cuidado es parecido, pero las de hoja verde lisa piden algo más de agua y sombra (Clemson)."
+      },
+      {
+        "especie": "Cryptanthus zonatus (estrella de tierra)",
+        "rasgo_diferenciador": "También tiene bandas transversales, pero en zigzag plateado, con roseta plana pegada al suelo, margen ondulado-dentado, sin vaso y con flores poco vistosas escondidas en el centro; es terrestre (Clemson)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se encontró ficha de la ASPCA ni de ninguna otra fuente prioritaria (NC State, RHS, Univ. de Illinois, UC ANR) para Vriesea splendens ni para el género; por norma del proyecto se deja 'desconocida'. Fuentes complementarias la describen como no tóxica: ukhouseplants dice que no se conoce como venenosa para mascotas ni personas y que, si se come en gran cantidad, puede causar vómitos, náuseas y pérdida de apetito; Joy Us Garden dice que, como otras bromelias, se considera no tóxica para perros y gatos, aunque puede causar molestias de estómago. Como referencia, la ASPCA sí da como no tóxicas a otras bromelias del proyecto (Guzmania lingulata, Aechmea fasciata), pero eso no se extrapola a esta especie. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F8",
+      "F9"
+    ],
+    "notas": "Probablemente de bajo riesgo según fuentes complementarias, pero sin respaldo prioritario: la app no debe afirmar que es 'segura para mascotas'. Véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana norte luminosa o este (RHS: orientación norte o este), a 1-2 m del cristal; en ventanas sur u oeste, tamizar con cortina fina de primavera a otoño. Evitar el sol directo de mediodía.",
+      "tolera_sol_directo": "No. Sol directo como mucho unas horas suaves por la mañana (NC State la da para sombra parcial). El sol fuerte de verano blanquea o pardea las hojas (RHS). Planta amarillenta o verde pálida = exceso de luz; hojas verde oscuro, blandas y caídas = falta de luz (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "NC State: luz brillante indirecta a sombra parcial; RHS (ficha de la especie): luz moderada, sombra parcial, orientación norte o este; Clemson: luz moderada, y las Vriesea de hojas con bandas, como esta, con más luz que las de hoja verde lisa. Se adopta luz brillante indirecta con el mismo rango que Guzmania lingulata: lux_min = 100 fc (≈1.076 lux), por debajo de lo cual solo se mantiene; lux_max = 1.000 fc (≈10.760 lux), techo de la luz indirecta de la escala del proyecto, para no arriesgar quemaduras. Para que un hijuelo llegue a florecer necesita la parte alta del rango."
+    },
+    "riego": {
+      "criterio": "Tiene dos reservas de agua. 1) Vaso central: mantener POCA agua dentro (un dedo en el fondo) durante la temporada cálida y renovarla vaciando la roseta y volviendo a llenar, al menos cada 1-2 meses (RHS) y mejor cada 2-4 semanas con calor, para que no se estanque ni acumule sales (Clemson, UF/IFAS). Al llenarlo, que el agua no empape el sustrato (Clemson). 2) Sustrato: regar solo cuando la mitad superior del sustrato esté seca (NC State); comprobarlo con el dedo a 2-3 cm (debe estar seco) y por el peso de la maceta, que debe pesar claramente menos que recién regada. Regar poco a poco, dejar escurrir y vaciar el plato a los 10-15 minutos. Nunca por calendario: sus raíces son pocas, superficiales y sobre todo de anclaje, y se pudren con facilidad (Clemson, RHS).",
+      "primavera_verano": "Vaso con un poco de agua de forma continua, comprobando cada pocos días que no se ha secado y renovándola cada 2-4 semanas con calor. Sustrato húmedo pero bien drenado (NC State), regado solo cuando se cumpla el criterio del dedo y el peso; con el calor de Madrid esto puede ocurrir antes, pero nunca dejarlo empapado.",
+      "otono_invierno": "Sustrato apenas húmedo (RHS, ficha de la especie: 'keep just moist in winter'), dejando secar entre riegos (guía RHS). Con poca luz o si la habitación baja de unos 16 °C, dejar el vaso con muy poca agua o vacío, porque el agua fría estancada en la roseta favorece la pudrición del cogollo. Vaciarlo siempre si la planta puede quedar por debajo de 4-5 °C (UF/IFAS: el frío deja una línea parda en las hojas a la altura del agua).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "RHS recomienda idealmente agua de lluvia o destilada para el vaso, porque el agua dura deja marcas y sales. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve; dejarla reposar no elimina la cloramina, pero no hace falta. Usar agua a temperatura ambiente, nunca fría. Renovar el agua del vaso arrastra las sales que deja la evaporación (UF/IFAS, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "Contradicción (misma que C155/C191 en Guzmania y Aechmea): NC State (género) y la guía RHS piden el vaso siempre lleno, y NC State incluso que rebose hacia las raíces; UF/IFAS describe llenar el vaso al regar y después vaciarlo; Clemson pide mantener las Vriesea 'relativamente secas' y regar con menos agua las de hojas con bandas, como esta. Opción conservadora adoptada, coherente con el proyecto: vaso con poca agua renovada y sustrato regado solo cuando la mitad superior está seca, sin dejar que el cepellón se seque por completo durante semanas. Soporta periodos secos (UF/IFAS), por eso la sensibilidad a la sequía es baja; el exceso de agua causa pudrición de raíces, puntas pardas (RHS, Clemson, UF/IFAS) y pudrición del cogollo (NC State). Tras la floración seguir regando igual para que la roseta madre dé hijuelos (RHS)."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes piden humedad alta (NC State) o 'aire constantemente húmedo' (Clemson, igual que Guzmania), pero ninguna da un porcentaje. La ficha RHS de la especie recomienda pulverizar a diario y la guía RHS una bandeja de grava húmeda; según la convención del proyecto, pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas; si se usa bandeja de guijarros, el agua debe quedar por debajo de la base de la maceta (RHS). Un baño o cocina luminosos son buenos sitios (RHS). Mantener buena ventilación (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 29,
+      "ideal_min_c": 16,
+      "ideal_max_c": 27,
+      "notas": "Mínimos de las fuentes: RHS (ficha de la especie) la clasifica H1A, 'bajo cristal todo el año (>15 °C)'; la guía general de bromelias de la RHS da 10 °C como mínimo invernal para el conjunto de las bromelias. Se toma el más alto y específico: 15 °C. NC State: prospera entre 60 y 80 °F (≈16-27 °C), que se usa como rango ideal. Clemson: las bromelias prefieren 60-85 °F (≈16-29 °C); max_c 29 °C es ese techo preferido, no un límite de daño comprobado. Mantener lejos de radiadores, salidas de aire y corrientes frías (RHS). Una vez formada la espiga, algo más de fresco (sin bajar de 15 °C en esta especie) alarga la floración (guía RHS da 12 °C para bromelias en general, que aquí no se aplica por ser inferior al mínimo de la especie)."
+      ,
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F5",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada para epífitas: sustrato comercial para bromelias (RHS) o para orquídeas a base de corteza (NC State); o a partes iguales corteza fina compostada (o sustrato de orquídeas), grava fina y fibra de coco; o a partes iguales corteza fina y sustrato universal sin turba (guía RHS). También puede cultivarse fijada a una corteza o tronco (RHS, NC State). Maceta pequeña y pesada en proporción a la planta, para que no vuelque (NC State).",
+      "ph": "Ácido, por debajo de 6,0 (NC State: 'Acid (<6.0)'; RHS: ácido).",
+      "drenaje": "Imprescindible y muy rápido: el sustrato no debe retener agua ni quedar empapado nunca (guía RHS, Clemson, NC State). Maceta con agujeros de drenaje.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o bajo en nitrógeno, muy diluido. Necesita poco: puede omitirse en interior (guía RHS, UF/IFAS).",
+      "npk": null,
+      "primavera_verano": "Si se abona, ¼-½ de la dosis de etiqueta una vez al mes como máximo, solo con crecimiento activo, aplicado al sustrato húmedo y no en el vaso (UF/IFAS). Alternativa que da la RHS en la ficha de la especie: abono foliar a ¼ de dosis cada 4-5 semanas. Nunca abono sólido ni granulado en el vaso: quema las hojas (guía RHS).",
+      "otono_invierno": "Nada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F6",
+        "F3",
+        "F4",
+        "F2",
+        "F5"
+      ],
+      "notas": "Contradicción en el lugar de aplicación (igual que C155): NC State (género) y la guía RHS añaden el abono a media dosis en el vaso; la ficha RHS de la especie y Clemson lo aplican por vía foliar muy diluido; UF/IFAS aconseja no echarlo en el vaso porque las sales se acumulan y queman las hojas nuevas, y aplicarlo al sustrato a 1/3-½ de la dosis cada 1-2 meses. Opción conservadora adoptada, coherente con el proyecto: al sustrato, muy diluido. El exceso de abono puede apagar el color de las hojas (guía RHS)."
+    },
+    "trasplante": {
+      "frecuencia": "Rara vez. Sistema radicular pequeño: solo cuando la planta ha superado su maceta, vuelca por el peso o las rosetas se amontonan. La planta comprada en flor no necesita trasplante; lo habitual es trasplantar los hijuelos al separarlos.",
+      "epoca": "Verano (guía RHS); en hemisferio norte, de mayo a agosto.",
+      "senales": "La maceta vuelca por el peso de la roseta y la espiga, rosetas apiñadas o sustrato descompuesto que ya no drena. Usar una maceta solo un poco mayor y pesada (NC State); la mayoría de bromelias van bien en 7,5-12,5 cm y las grandes en unos 17,5 cm; plantar al mismo nivel que antes (guía RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (RHS, ficha de la especie y guía). Solo limpieza de la espiga seca y de la roseta madre cuando muere.",
+      "epoca": "Cuando la espiga se seca, tras varios meses de floración, y cuando la roseta madre está seca, normalmente uno o dos años después de florecer (UF/IFAS).",
+      "como": "Cortar el escapo seco por su base con tijera limpia. La roseta madre que amarillea y se seca tras florecer es un proceso natural (monocarpismo), no una enfermedad: dejarla mientras siga verde porque alimenta a los hijuelos, y retirarla cuando esté seca o al separar los hijuelos (NC State, guía RHS, UF/IFAS). Quitar hojas secas tirando suavemente o cortándolas por la base.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero. En otoño-invierno (hemisferio norte) crece menos: sustrato apenas húmedo (RHS), poca o ninguna agua en el vaso si hace fresco o hay poca luz, y sin abono (UF/IFAS: poco o nada de abono en invierno o con poca luz).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos (división)",
+        "semilla (poco fiable y muy lenta)"
+      ],
+      "epoca": "Separar hijuelos en primavera (RHS: abril o mayo en el Reino Unido; en Madrid, de abril a junio).",
+      "pasos": "1) Tras la floración, seguir regando: la roseta madre produce hijuelos en la base o en el centro de la roseta (NC State). 2) Esperar a que el hijuelo tenga al menos un tercio del tamaño de la madre (NC State género, guía RHS; UF/IFAS espera a la mitad); mejor esperar de más que separarlo pequeño. 3) Con un cuchillo afilado y limpio, cortarlo por su unión con la madre, con las raíces que tenga. 4) Plantarlo en maceta pequeña con mezcla para bromelias al mismo nivel. 5) Ponerlo en sitio cálido (por encima de 15 °C) y luminoso sin sol directo, cubierto con bolsa transparente o en propagador (guía RHS). 6) Si solo hay un hijuelo, puede dejarse crecer en la maceta y retirar la roseta madre seca (guía RHS). Los hijuelos tardan 3-5 años en florecer (NC State; RHS da 2-5 años hasta la madurez). La semilla es poco fiable (NC State), requiere polinización manual y tarda cinco años o más en florecer (guía RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F3",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Tras florecer, la roseta madre amarillea y se seca poco a poco: es su ciclo natural (monocárpica), no una enfermedad. No hay que tratarla; seguir regando para que salgan hijuelos (NC State, guía RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Exceso de riego o encharcamiento del sustrato (guía RHS); también aire muy seco con calefacción y acumulación de sales de abono en el vaso. No se debe al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Sustrato que no drena o riegos demasiado frecuentes; es el problema más común de las bromelias en casa (Clemson, UF/IFAS, guía RHS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del cogollo o del cuello y podredumbre blanda bacteriana (NC State especie y género), favorecidas por agua fría o estancada mucho tiempo en el vaso y sustrato siempre mojado, sobre todo en invierno con poca luz. Vaciar el vaso, dejar secar el sustrato y no volver a llenarlo hasta que haga calor."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo en verano en ventanas sur u oeste: hojas blanqueadas o pardas (guía RHS)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Planta amarillenta o verde pálida en conjunto: luz demasiado intensa (UF/IFAS). Si ocurre después de florecer, ver S02."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas verde oscuro, blandas y caídas: falta de luz (UF/IFAS). Si además la base está blanda, sospechar pudrición (S15)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares (NC State), línea parda a la altura del agua del vaso por frío (UF/IFAS) o quemaduras por sol (guía RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, la plaga más citada en esta especie (RHS ficha de la especie, NC State, Clemson); escudos pardos en el envés y en la base de las hojas. Retirarlas a mano; si persisten, usar solo un insecticida listo para usar de uso no profesional autorizado en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (NC State, Clemson, UF/IFAS, guía RHS), escondida en las axilas de las hojas y en la base de la roseta. Retirarla a mano y, si persiste, producto listo para usar de uso no profesional autorizado por el MAPA."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Ácaros (Clemson los cita entre los problemas principales de las bromelias), favorecidos por el aire seco de la calefacción o del verano madrileño."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco, apartarla de ventanas sur y oeste sin cortina (quemaduras) y de los cristales calientes; mejor luz brillante indirecta en un norte luminoso o un este, o a 1-2 m de la ventana. Por encima de 27-29 °C sale de su rango preferido (NC State, Clemson): dar sombra, ventilación y humedad (humidificador o agrupar plantas; pulverizar no sirve). Mantener un poco de agua en el vaso y renovarla cada 2-4 semanas para que no huela; vigilar el sustrato con el dedo y el peso porque se seca antes, pero sin encharcar. Si se saca a una terraza, solo a la sombra y con noches por encima de 15 °C. Vigilar ácaros con el aire seco.",
+    "invierno": "Es más exigente en frío que otras bromelias: mantener al menos 15 °C (RHS, H1A), sin pegarla a cristales fríos ni a corrientes. Con calefacción y humedad interior a menudo por debajo del 30 %, alejarla de radiadores y salidas de aire caliente (RHS) y usar humidificador o agrupar plantas. Las ventanas sur con cortina, que ahora no queman, son buen sitio por la luz. Sustrato apenas húmedo y poca o ninguna agua en el vaso si la habitación está fresca o con poca luz. Sin abono.",
+    "ubicacion_recomendada": "Junto a una ventana norte luminosa o este (RHS), o un baño o cocina luminosos y cálidos, sin sol directo de mediodía, lejos de radiadores y corrientes, a 16-27 °C."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO no acepta Vriesea splendens (Brongn. ex Neumann) Lem.; la trata como sinónimo homotípico de Lutheria splendens (Brongn. ex Neumann) Barfuss & W.Till (Phytotaxa 279: 53, 2016; urn:lsid:ipni.org:names:77158988-1). Otros sinónimos homotípicos: Tillandsia splendens Brongn. ex Neumann y Werauhia splendens (Brongn. ex Neumann) Christenh. & Byng; POWO da 21 sinónimos en total. NC State ya usa Lutheria splendens; la RHS sigue usando Vriesea splendens. En el comercio se vende como Vriesea, y muchas plantas son híbridos o cultivares (p. ej. 'Splenriet').",
+    "Toxicidad: no hay ficha de la ASPCA (probadas las entradas 'flaming sword', 'vriesea', 'bromeliad', 'painted feather' y las listas generales) ni de ninguna otra fuente prioritaria para la especie ni el género; perros, gatos y niños quedan como 'desconocida'. Solo fuentes complementarias (ukhouseplants, Joy Us Garden) la dan como no tóxica.",
+    "Ninguna fuente prioritaria da un porcentaje de humedad mínima ni ideal; solo piden 'humedad alta' o 'aire constantemente húmedo'.",
+    "Sin datos de temperatura máxima tolerada: max_c (29 °C) es el techo del rango preferido de Clemson para bromelias (85 °F), no un límite de daño comprobado.",
+    "Ninguna fuente prioritaria da una frecuencia de renovación del agua del vaso más allá de 'cada 1-2 meses' (guía RHS) o 'periódicamente' (Clemson, UF/IFAS); renovarla cada 2-4 semanas con calor es una medida prudente sin fuente específica.",
+    "No se encontró ficha de la especie en el Missouri Botanical Garden Plant Finder ni en UF/IFAS; parte del cuidado procede de fichas de bromelias en general (guía RHS, Clemson, UF/IFAS) y del género (NC State).",
+    "La ficha RHS de la especie recomienda pulverizar a diario; se sustituye por humidificador o agrupar plantas según la convención del proyecto."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/lutheria-splendens/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Lutheria splendens (antes Vriesea splendens)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/vriesea/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, género Vriesea",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/19052/vriesea-splendens/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha de Vriesea splendens (flaming sword), AGM",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/bromeliads/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center — HGIC 1501 Bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://edis.ifas.ufl.edu/publication/EP337",
+      "institucion": "UF/IFAS Extension (University of Florida) — EP337 Bromeliads at a Glance",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77158988-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO), Lutheria splendens",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.ukhouseplants.com/plants/vriesea",
+      "institucion": "UK Houseplants — Vriesea care guide (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.joyusgarden.com/vriesea-plant-care-tips/",
+      "institucion": "Joy Us Garden — Vriesea plant care tips (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

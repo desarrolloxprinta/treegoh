@@ -1,0 +1,319 @@
+{
+  "nombre_cientifico": "Oxalis triangularis",
+  "nombres_comunes": [
+    "oxalis morado",
+    "trébol morado",
+    "falso trébol",
+    "planta mariposa"
+  ],
+  "familia": "Oxalidaceae",
+  "origen": "Sudamérica: Brasil (norte, nordeste, centro-oeste, sudeste y sur), Bolivia, Paraguay, Perú y noreste y noroeste de Argentina (POWO, Kew). Nombre aceptado: Oxalis triangularis A.St.-Hil.; sinónimos frecuentes en el comercio: Oxalis regnellii Miq. y Oxalis papilionacea Hoffmanns. ex Zucc. / O. triangularis subsp. papilionacea (POWO, NC State, Penn State).",
+  "clima_nativo": "Subtropical y tropical de Sudamérica, con periodos de crecimiento y de reposo. Perenne con rizomas escamosos de reserva que le permiten secarse por encima del suelo y rebrotar. No resiste heladas fuertes: en exterior solo en zonas USDA 8a-11b (NC State); RHS la clasifica H3 (resiste aproximadamente de -5 a 1 °C en zonas costeras templadas, con protección).",
+  "categoria": "otra",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas trifolioladas (tres folíolos), como un trébol, sobre peciolos largos y finos que salen directamente del rizoma. Cada folíolo es triangular invertido (obtriangular): estrecho en la base y ancho y casi recto o ligeramente escotado en el ápice, de 2,5-7,5 cm, de margen liso (NC State). Color típico púrpura muy oscuro, casi negro-violáceo, a menudo con una mancha central en V de púrpura más claro (Wisconsin); también existen formas verdes y abigarradas (NC State, RHS). RASGO CLAVE: los folíolos se pliegan hacia abajo como un paraguas cerrado o una mariposa de alas plegadas por la noche, en días nublados o al tocarlos, y se abren con la luz (nictinastia, movimiento normal controlado por el reloj circadiano; Penn State, Wisconsin, NC State). Una foto nocturna con hojas plegadas NO indica marchitez.",
+    "nerviacion": "Nervio central fino que divide cada folíolo en dos mitades; nervios secundarios poco visibles. El pliegue nocturno se produce a lo largo de ese nervio central.",
+    "variegacion": "La mancha central en V de tono más claro es natural en muchas plantas púrpuras. Hay cultivares verdes ('Charmed Jade'), con matices burdeos y abigarrados ('Marmer'; RHS). Hojas rosadas o rojizas al principio y al final de la vida de la hoja son normales [orientativo, sin fuente prioritaria].",
+    "tallo": "Sin tallo aéreo. Órgano subterráneo: rizomas cortos, alargados y escamosos, con aspecto de bulbillos o piñitas, formados por hojas-escama carnosas que almacenan agua y nutrientes (NC State). Las fuentes los llaman indistintamente bulbos, tubérculos o rizomas. Son la parte que sobrevive al reposo.",
+    "habito": "Mata compacta en montículo, perenne que se extiende formando colonias por los rizomas. Flores pequeñas (menos de 2,5 cm), de 5 pétalos, en forma de embudo, blancas a rosa pálido, en umbelas sobre tallos finos por encima del follaje; se cierran de noche; floración de principios de verano a otoño (NC State, RHS).",
+    "tamano_adulto_interior": "15-45 cm de alto y 30-60 cm de ancho (NC State); RHS indica 10-50 cm de alto y ancho y 15-30 cm en flor.",
+    "confusiones": [
+      {
+        "especie": "Trifolium repens (trébol blanco) y otros Trifolium",
+        "rasgo_diferenciador": "Folíolos ovalados o redondeados, con margen finamente dentado y a menudo una marca blanquecina en V; flores en cabezuelas globosas de muchas florecitas tipo guisante, no flores de 5 pétalos sueltas. Es planta de exterior, no de maceta interior (Iowa State) [rasgos morfológicos orientativos, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Oxalis tetraphylla (trébol de la suerte, 'Iron Cross')",
+        "rasgo_diferenciador": "Cuatro folíolos por hoja en lugar de tres, verdes con una banda o cruz púrpura central, y flores rosadas. Se vende también como «shamrock» (Iowa State menciona un 'Lucky Shamrock' de hojas mayoritariamente de cuatro folíolos) [rasgos de color orientativos, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Oxalis acetosella / Oxalis montana (acederilla)",
+        "rasgo_diferenciador": "Folíolos verdes en forma de corazón (con el ápice escotado y lóbulos redondeados), no triangulares; planta pequeña de sotobosque. ASPCA Pro señala que suele ser la planta implicada en consultas por «shamrock» en San Patricio [rasgos de forma orientativos, sin fuente prioritaria]."
+      },
+      {
+        "especie": "Oxalis triangularis verde ('Charmed Jade') frente a la forma púrpura",
+        "rasgo_diferenciador": "Misma especie y mismos cuidados: solo cambia el color de la lámina. La IA debe identificarla igual como Oxalis triangularis."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Oxalatos de calcio solubles (ácido oxálico soluble) en todas las partes de la planta (ASPCA, NC State). Penn State señala que todas las Oxalis contienen ácido oxálico, responsable de su sabor ácido.",
+    "sintomas": "Perros y gatos: salivación, temblores y, rara vez, insuficiencia renal (ASPCA). Mecanismo: el oxalato soluble pasa a la sangre, se une al calcio (hipocalcemia) y forma cristales que dañan el riñón; los efectos graves suelen requerir ingerir grandes cantidades (ASPCA, NC State, Penn State). En caballos puede causar cólico y posible fallo renal (NC State, ASPCA). Severidad baja según NC State. Niños: no hay ficha pediátrica específica; NC State indica toxicidad baja que solo se manifiesta con grandes cantidades. Por prudencia se marca como tóxica: mantener fuera del alcance de niños pequeños y mascotas y, ante ingestión, consultar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F2",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este (sol suave de mañana) o junto a una ventana oeste o sur con cortina fina. Norte solo si es muy luminosa. Nunca en un rincón oscuro.",
+      "tolera_sol_directo": "Sí, unas horas de sol suave de mañana o de última hora; no el sol fuerte del mediodía tras un cristal. NC State la da de pleno sol a semisombra en exterior; RHS, semisombra; Wisconsin pide una ventana soleada y luminosa; Iowa State, luz brillante indirecta.",
+      "notas": "Se adopta luz brillante indirecta (500-1000 fc) como opción conservadora entre «ventana soleada» (Wisconsin) y «semisombra» (RHS). Con poca luz se ahila (peciolos largos y débiles que se tumban) y florece poco; con mucha luz sale más compacta y de color más intenso (Iowa State: con buena luz suele florecer). Las hojas se cierran de noche y en días nublados: es normal.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Comprobar el sustrato con el dedo a 2-3 cm y el peso de la maceta: regar cuando los 2-3 cm superiores estén secos y la maceta pese poco, hasta que drene, y vaciar el plato. Mantener el sustrato apenas húmedo, nunca encharcado; tolera un ligero secado entre riegos (Wisconsin, NC State). El exceso de riego es el principal riesgo: pudre rizomas y raíces (Penn State).",
+      "primavera_verano": "Crecimiento activo: riego regular según el criterio anterior; en calor fuerte la planta gasta más agua, pero NO compensar una planta que entra en reposo regando más. Si en pleno verano las hojas amarillean y se secan con el sustrato húmedo, es reposo por calor, no sed: reducir el riego.",
+      "otono_invierno": "Si sigue verde, regar menos, dejando secar un poco más. Si entra en reposo (follaje seco), dejar de regar del todo o mantener el sustrato apenas húmedo, sin encharcar (Wisconsin: dejar de regar; RHS: apenas húmedo; Penn State: dejar de regar y abonar).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua del grifo de Madrid apta: es blanda y con fluoruro muy bajo; dejarla reposar no elimina la cloramina y no hace falta. Las puntas marrones no se deben al cloro ni al flúor sino a sales de abono acumuladas, riego irregular o aire seco; lavar el sustrato con agua abundante de vez en cuando si se abona.",
+      "notas": "La sequía prolongada no la mata pero desencadena el reposo (NC State: entra en reposo con calor o sequía extremos); los rizomas carnosos almacenan agua. Tras el reposo, regar poco hasta que la nueva hoja esté establecida (Iowa State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Ninguna fuente prioritaria consultada da cifras de humedad; ninguna la presenta como planta exigente en humedad. UK Houseplants (complementaria) relaciona puntas marrones con halo amarillo con el aire seco de la calefacción. Si la humedad interior baja del 30 % en invierno, usar humidificador o agrupar plantas; pulverizar no sirve.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F8"
+      ]
+    },
+    "temperatura": {
+      "min_c": 12,
+      "max_c": null,
+      "ideal_min_c": 15,
+      "ideal_max_c": 24,
+      "notas": "Prefiere ambiente fresco: días como máximo 24 °C (75 °F) y noches 8-14 °C más frescas (Wisconsin); noches ~15-16 °C (60 °F) y días ~21 °C (70 °F) (Iowa State). min_c 12 °C [orientativo, sin fuente prioritaria; UK Houseplants] para la planta con hojas: es el mínimo más alto encontrado y el más conservador. Los rizomas en reposo aguantan más frío: RHS pide condiciones frescas y sin heladas en invierno (H3, aprox. -5 a 1 °C en exterior protegido) y NC State la da resistente en zonas USDA 8a-11b. max_c sin dato: las fuentes dicen que el calor fuerte provoca el reposo (Iowa State, NC State) pero no dan cifra.",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F7",
+        "F2",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal de interior de buena calidad, con drenaje: por ejemplo 2 partes de sustrato para plantas de interior y 1 de perlita o arena gruesa [proporción orientativa, sin fuente prioritaria]. RHS propone a partes iguales tierra franca, mantillo de hojas (o sustrato sin tierra) y grava fina; Wisconsin, un sustrato sin tierra bien drenado; NC State, mezcla franca bien drenada.",
+      "ph": "Neutro a ligeramente alcalino según RHS; NC State la da tolerante a suelos ácidos, neutros y alcalinos. Un sustrato universal (pH 5,5-7) le sirve [orientativo, sin fuente prioritaria].",
+      "drenaje": "Imprescindible: maceta con agujeros y sin agua en el plato. Los rizomas se plantan someros, justo bajo la superficie (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F7",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (Wisconsin y RHS: mensual mientras crece; Penn State: a media dosis durante la floración). Regar antes de abonar.",
+      "otono_invierno": "Nada durante el reposo (Penn State: dejar de abonar). Si la planta sigue verde en invierno, como mucho una vez al mes a ¼ de dosis o suspender.",
+      "notas": "Penn State propone cada 2-3 semanas a media dosis en floración; se adopta la convención del proyecto (¼-½ de la dosis, mensual), más conservadora. Ninguna fuente prioritaria da NPK.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F7",
+        "F5"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: cada 2-3 años o cuando los rizomas llenan la maceta. Tiene raíces someras y suele ir mejor algo apretada en su maceta (Iowa State, Penn State).",
+      "epoca": "Al final del reposo, justo antes de reanudar el riego, o a principios de primavera (Wisconsin: trasplantar o abonar al sacarla del reposo).",
+      "senales": "Rizomas que asoman o desbordan la maceta, sustrato que se seca muy rápido, crecimiento lento con el sustrato seco. Usar una maceta poco profunda y solo un tamaño mayor.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda de formación (RHS).",
+      "epoca": "Cualquier momento para limpieza; al entrar en reposo, retirar el follaje seco.",
+      "como": "Cortar o tirar suavemente desde la base las hojas y tallos florales secos o amarillos. Cuando el follaje se ha secado por el reposo, retirarlo a ras del sustrato (Wisconsin). Si la mata está ahilada y desordenada, se puede cortar todo el follaje a ras y dejar que rebrote [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F7",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Variable: a menudo tras unos meses de crecimiento, en verano por calor fuerte o sequía, o en otoño-invierno por días cortos y noches frescas (Wisconsin, Iowa State, NC State, Penn State). En casa con buena luz y temperatura estable algunas plantas no llegan a parar.",
+      "cambios": "CÓMO RECONOCERLO (no es muerte): las hojas amarillean, se ponen lacias y se secan de forma más o menos simultánea en toda la mata, sin plagas visibles, hasta quedar la maceta aparentemente vacía. Comprobación: escarbar con cuidado y tocar los rizomas; si están firmes, carnosos y de color claro por dentro, la planta está viva y en reposo. Si están blandos, oscuros, huelen mal o se deshacen, es pudrición (exceso de riego), no reposo. QUÉ HACER: dejar de regar y de abonar (Penn State, Wisconsin) o mantener apenas húmedo (RHS); retirar el follaje seco; dejar la maceta en un lugar fresco y oscuro o con poca luz. DURACIÓN: unos 1-3 meses (Iowa State); en las formas de hoja púrpura, a menudo solo alrededor de un mes (Wisconsin). CÓMO RETOMAR: cuando aparezcan brotes nuevos (o tras 1-3 meses), volver a una ventana luminosa, regar poco hasta que las hojas nuevas estén establecidas y después volver al riego normal; aprovechar para trasplantar o dividir (Wisconsin, Iowa State). Error típico: seguir regando la maceta «muerta» y pudrir los rizomas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F6",
+        "F5",
+        "F2",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de rizomas",
+        "semilla"
+      ],
+      "epoca": "Durante el reposo o al final de este, antes de reanudar el riego (Wisconsin).",
+      "pasos": "1) Sacar la mata en reposo de la maceta y retirar el sustrato. 2) Separar los rizomas escamosos, que se desprenden con facilidad; también las escamas sueltas pueden dar plantas nuevas (NC State). 3) Plantarlos en grupos pequeños (varios por maceta) justo bajo la superficie, a unos 1-2 cm, en sustrato bien drenado (Wisconsin). 4) Regar ligeramente y poner en luz brillante indirecta. 5) No volver a regar hasta que el sustrato se seque en superficie; los brotes salen en pocas semanas. La semilla es posible pero rara en casa (RHS, NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F5",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Casi siempre es el REPOSO natural (calor de verano, días cortos o sequía): amarilleo y secado de toda la mata con rizomas firmes. Si los rizomas están blandos, es exceso de riego."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas plegadas por la noche o en días nublados: movimiento normal (nictinastia), no marchitez. Si siguen lacias de día con luz: sed (sustrato seco) o inicio del reposo."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego, maceta sin drenaje o seguir regando durante el reposo: rizomas y raíces se pudren (Penn State)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la base de los peciolos y del rizoma por sustrato encharcado, sobre todo con frío y poca luz."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Poca luz: peciolos muy largos y débiles que se tumban, hojas más pálidas y sin flores. Acercar a una ventana luminosa."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol fuerte del mediodía tras un cristal en ventana sur u oeste en verano: hojas descoloridas o quemadas."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Aire muy seco por calefacción, riego irregular o sales de abono acumuladas (no el agua del grifo de Madrid)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Deshidratación fuerte por sequía prolongada o calor: hojas acartonadas; si los rizomas están firmes, rebrotará."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, la plaga más frecuente en esta especie según UK Houseplants (complementaria), favorecida por aire seco y calor."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Picaduras de araña roja o trips en el haz."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón ocasional en brotes y flores (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca ocasional (Wisconsin)."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Roya, posible según RHS, sobre todo con hojas mojadas y poca ventilación; más probable si pasa el verano en exterior."
+    },
+    {
+      "sintoma_id": "S20",
+      "causa_habitual_en_esta_especie": "Moho saprófito en superficie por exceso de riego y poca luz."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco es muy probable que entre en reposo por calor en julio-agosto: no es muerte; reconocerlo por los rizomas firmes, reducir o suspender el riego y no abonar. Apartarla del sol directo del mediodía y de la tarde en ventanas sur y oeste (quema las hojas); mejor ventana este o detrás de una cortina fina, en la habitación más fresca. Si sigue verde, regar según el sustrato (se seca rápido con el calor) sin encharcar. En terraza solo a semisombra y protegida, vigilando la araña roja.",
+    "invierno": "Puede pasar el invierno en reposo (fresco, con poca luz y casi seca) o seguir verde junto a una ventana luminosa. Si está verde: alejarla de radiadores y salidas de aire caliente (con HR interior <30 % favorece la araña roja y las puntas secas; usar humidificador o agrupar plantas), mantener por encima de 12 °C [orientativo] y evitar que las hojas toquen el cristal frío. Regar menos: con frío y poca luz el riesgo de pudrición sube. Si está en reposo, una habitación fresca sin calefacción es ideal; sin heladas.",
+    "ubicacion_recomendada": "Alféizar o mesa junto a una ventana este, o a 1 m de una ventana sur u oeste con cortina fina, en habitación fresca (15-24 °C), lejos de la calefacción. Rotar la maceta cada semana porque las hojas se orientan hacia la luz."
+  },
+  "lagunas": [
+    "Nombre: el encargo y la lista maestra usan Oxalis triangularis; POWO acepta Oxalis triangularis A.St.-Hil. y da como sinónimos heterotípicos Oxalis regnellii Miq., Oxalis papilionacea Hoffmanns. ex Zucc. y O. triangularis subsp. papilionacea (Hoffmanns. ex Zucc.) Lourteig. RHS todavía mantiene fichas separadas de subsp. papilionacea y subsp. triangularis (estatus de nombre no uniforme). Sin cambio de nombre para la app.",
+    "Humedad: ninguna fuente prioritaria da cifras de humedad mínima ni ideal; min_pct e ideal_pct quedan en null.",
+    "Temperatura máxima: las fuentes indican que el calor fuerte desencadena el reposo, pero ninguna da una cifra; max_c queda en null.",
+    "Temperatura mínima de la planta con hojas: solo hay cifra en una fuente complementaria (12 °C, UK Houseplants); las prioritarias dan temperaturas ideales (Wisconsin, Iowa State) o resistencia de los rizomas en exterior (RHS H3, USDA 8a-11b).",
+    "NPK recomendado: ninguna fuente prioritaria lo especifica.",
+    "Plagas: la araña roja como plaga principal solo consta en fuente complementaria (UK Houseplants); NC State indica que no tiene problemas serios de plagas ni enfermedades y Wisconsin cita pulgón y mosca blanca ocasionales.",
+    "Toxicidad en niños: no hay ficha pediátrica específica; se infiere de la toxicidad por oxalato soluble (ASPCA, NC State) y se marca como tóxica por prudencia.",
+    "Missouri Botanical Garden Plant Finder no pudo abrirse (respuesta vacía con curl); no se cita.",
+    "Rasgos diferenciadores de las confusiones (Trifolium, Oxalis tetraphylla, Oxalis acetosella) proceden de morfología general y no se han verificado en una fuente prioritaria específica para cada par."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/shamrock-plant",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/oxalis-triangularis/",
+      "institucion": "NC State Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hort.extension.wisc.edu/articles/shamrocks-oxalis-spp/",
+      "institucion": "University of Wisconsin-Madison Extension, Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:375478-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://extension.psu.edu/the-botany-behind-the-shamrock",
+      "institucion": "Penn State Extension",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-shamrocks-indoors",
+      "institucion": "Iowa State University Extension and Outreach, Yard and Garden",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/63222/oxalis-triangularis-subsp-papilionacea/details",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://ukhouseplants.com/plants/false-shamrock-oxalis",
+      "institucion": "UK Houseplants (blog especializado)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

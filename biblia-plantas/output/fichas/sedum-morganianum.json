@@ -1,0 +1,292 @@
+{
+  "nombre_cientifico": "Sedum morganianum",
+  "nombres_comunes": [
+    "cola de burro",
+    "sedum burrito",
+    "cola de borrego",
+    "cola de cordero",
+    "cola de caballo (nombre ambiguo)"
+  ],
+  "familia": "Crassulaceae (crasuláceas). POWO, RHS, NC State, Wisconsin y ASPCA coinciden.",
+  "origen": "México: endemismo estrecho del centro de Veracruz. POWO lo da como nativo de México Central, Golfo y Sureste. Se describió en 1938 (E. Walther) a partir de plantas cultivadas que venían de un vivero de Coatepec (Veracruz). Durante más de 70 años no se conocieron plantas silvestres, hasta que en 2008 se encontró una población en dos barrancas del municipio de Tenampa, entre 600 y 700 m de altitud. Allí crece colgando de paredes verticales de arenisca conglomerada, orientadas al norte y al sur, en zona de bosque tropical caducifolio (Jimeno-Sevilla et al. 2010, Acta Botanica Mexicana). NC State añade la República Dominicana y Wisconsin, Honduras; ninguna de las dos cosas aparece en POWO ni en el artículo de 2010.",
+  "clima_nativo": "Tropical estacionalmente seco y sin heladas: bosque tropical caducifolio de Veracruz, a 600-700 m, sobre roca vertical que drena al momento (Jimeno-Sevilla et al. 2010). En su hábitat florece y fructifica de febrero a julio. Es una suculenta que guarda agua en las hojas, se hinchan cuando tiene agua de sobra y se arrugan cuando le falta (Wisconsin). No tolera heladas: zonas USDA 10a-11b (NC State) y RHS H1C (mínimo de 5-10 °C; en el Reino Unido puede salir al exterior en verano).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas carnosas, casi cilíndricas o semicilíndricas, lanceoladas o algo falcadas ('en forma de gominola' o de barca), de 1,8-2,1 cm × 6-8,5 mm × 4-5 mm. Acaban en punta aguda y a menudo tienen la punta y los bordes rojizos (Jimeno-Sevilla et al. 2010; NC State; Wisconsin). Son de color verde azulado glauco y llevan una pruina plateada que se borra al tocarlas: si hay huellas sin pruina, es por la manipulación y no indica enfermedad (Wisconsin, NC State). Se disponen en espiral, muy apretadas y solapadas, y tapan del todo el tallo, que parece una trenza o una cola (Wisconsin, NC State). Se desprenden al menor roce (Wisconsin, NC State, Jimeno-Sevilla et al. 2010: 'caedizas'). Si no hay otros signos (reblandecimiento, arrugas, manchas, base oscura), eso es normal en la especie y no una enfermedad. Señales para una IA de visión: hojas tersas y gruesas indican una planta bien hidratada; arrugadas indican sed; blandas, lacias o translúcidas indican exceso de agua (Wisconsin); amarillentas o blanquecinas en vez de azuladas indican exceso de sol (Wisconsin).",
+    "nerviacion": "No se ve. Las hojas son macizas y semicilíndricas, sin lámina plana ni nervios aparentes (Jimeno-Sevilla et al. 2010; NC State: hoja simple, entera, subcilíndrica).",
+    "variegacion": "Ninguna. La especie es verde azulada glauca uniforme, con la punta y los bordes rojizos en algunas hojas (Jimeno-Sevilla et al. 2010). Ninguna fuente prioritaria cita cultivares variegados.",
+    "tallo": "Tallos numerosos y poco ramificados, de 3,5-4 mm de diámetro, de rojizos a verdes y glaucos (Jimeno-Sevilla et al. 2010). Primero crecen erguidos y luego cuelgan (Wisconsin). Son quebradizos y pesan por el agua que guardan las hojas (Wisconsin). Donde se han caído las hojas pueden salir ramas (Wisconsin). Raíces fibrosas. En interior florece poco: en verano puede dar corimbos terminales de 1-6 flores estrelladas de unos 12 mm, de rosa intenso a rojo escarlata, con anteras amarillas, colgando de pedicelos largos. Solo florece con tallos de más de 25 cm (Wisconsin, NC State, Jimeno-Sevilla et al. 2010).",
+    "habito": "Subarbusto perenne de tallos colgantes. Se cultiva en cesta colgante, maceta en alto o pedestal, donde los tallos caen en cascada (Wisconsin, NC State, RHS: hábito colgante).",
+    "tamano_adulto_interior": "Tallos de 30-90 cm, a veces más: RHS da 30 cm o más, NC State hasta 60 cm en la descripción y hasta 90 cm en los atributos, Jimeno-Sevilla et al. 90 cm o más y Wisconsin hasta unos 120 cm. Altura y anchura de la mata, 10-50 cm (RHS). En interior, con buenas condiciones, puede vivir décadas (Wisconsin).",
+    "confusiones": [
+      {
+        "especie": "Sedum burrito (S. 'Burrito', 'cola de burro enana')",
+        "rasgo_diferenciador": "Hojas más pequeñas, cortas y redondeadas, sin la punta aguda, de un verde más lima o verde grisáceo, en tallos más cortos (Wisconsin; NC State lo pone como cultivar 'Burrito', de hojas rechonchas). En S. morganianum las hojas son más largas (1,8-2,1 cm), lanceoladas, acaban en punta y suelen ser más azuladas. Su categoría no está clara: Wisconsin no sabe si es especie, cultivar o híbrido; Jimeno-Sevilla et al. 2010 lo tratan como especie (Sedum burrito Moran) de hábitat silvestre desconocido. Los cuidados son los mismos."
+      },
+      {
+        "especie": "Curio rowleyanus (rosario, collar de perlas)",
+        "rasgo_diferenciador": "Familia Asteraceae. Hojas esféricas como guisantes, separadas entre sí a lo largo de un tallo filiforme, con una franja translúcida lateral. En S. morganianum las hojas son alargadas y en punta, y están tan apretadas que tapan el tallo como una trenza (Wisconsin, NC State). Diferencia importante: Curio rowleyanus es tóxica para perros y gatos (ASPCA) y S. morganianum no (ASPCA)."
+      },
+      {
+        "especie": "Euphorbia myrsinites (también llamada en inglés 'donkey's tail')",
+        "rasgo_diferenciador": "Wisconsin avisa de que comparte el nombre común en inglés. Es una perenne rústica de exterior con hojas planas y anchas, no cilíndricas, y savia lechosa [orientativo, sin fuente prioritaria para los rasgos]. No confundirlas: la toxicidad de S. morganianum no vale para esa euforbia."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "ASPCA la clasifica como no tóxica para perros, gatos y caballos. NC State también la etiqueta como no tóxica para perros, gatos y caballos, y dice que tallos y hojas se pueden comer, pero que en grandes cantidades pueden causar malestar de estómago. Para niños, ingerir mucha cantidad puede dar molestias digestivas leves (NC State).",
+    "confianza": "Alta",
+    "fuentes": [
+      "f5",
+      "f1"
+    ],
+    "notas": "Para perros y gatos coinciden dos fuentes prioritarias (ASPCA y NC State). Para niños solo hay NC State (molestias de estómago si se come mucha cantidad); no se ha encontrado una segunda fuente prioritaria. Ojo: el nombre 'donkey's tail' también se usa para Euphorbia myrsinites (Wisconsin), así que esta ficha no vale para esa planta."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur u oeste (RHS: orientación sur u oeste, pleno sol; NC State: alféizar con al menos sol parcial). En Madrid, en verano, filtrar el sol del mediodía y la tarde tras el cristal de las ventanas sur y oeste (ver ajustes_madrid). Una ventana este con sol de mañana también sirve.",
+      "tolera_sol_directo": "Sí. Le va bien de luz brillante a pleno sol (Wisconsin; RHS: pleno sol; NC State: pleno sol o sombra parcial). Hay un límite: si la luz es demasiado intensa, las hojas se decoloran y pasan de verde azulado a amarillentas (Wisconsin). Al pasarla al exterior o a una ventana más soleada hay que aclimatarla poco a poco o se quema (Wisconsin). En invernadero, RHS recomienda luz brillante filtrada.",
+      "notas": "Con poca luz los entrenudos se alargan y las hojas quedan menos apretadas en el tallo, la 'cola' pierde densidad (Wisconsin). lux_min de 5380 lux (500 fc) es el límite inferior útil en la escala del proyecto (brillante indirecta alta). Lo ideal es luz directa (>10.760 lux) suavizada en las horas más fuertes del verano. No se pone lux_max porque ninguna fuente lo da en cifras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f3",
+        "f1",
+        "f4"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando los 5 cm superiores del sustrato estén secos y la maceta pese poco. La propia planta avisa: las hojas tersas y gruesas indican que tiene agua; si empiezan a arrugarse, le falta (Wisconsin). Entonces regar a fondo con agua templada (NC State; RHS guía), dejar escurrir y vaciar el plato: la maceta nunca debe quedar en agua (RHS guía). Nunca por calendario. Si las hojas están lacias, blandas o translúcidas, el sustrato tiene demasiada agua: dejar de regar y comprobar las raíces (Wisconsin).",
+      "primavera_verano": "Riego regular en crecimiento (RHS: abundante; Wisconsin: regular), dejando que el sustrato se seque casi del todo entre riegos (Wisconsin; NC State: dejar secar). En pleno verano de Madrid, con calor y luz, puede pedir agua con más frecuencia: guiarse siempre por el peso de la maceta y el aspecto de las hojas.",
+      "otono_invierno": "Reducir en otoño y en invierno regar muy poco, solo lo justo para que el sustrato no se seque del todo y las hojas no se arruguen (Wisconsin; RHS: escaso; RHS guía: mínimo o nada entre noviembre y principios de marzo). En interior puede bastar un riego al mes o menos, según la temperatura y la luz (Wisconsin).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua del grifo templada (NC State). La guía de RHS prefiere agua de lluvia templada porque los minerales del agua dura se acumulan y dejan depósitos blancos calcáreos en las hojas. El agua de Madrid (Canal de Isabel II) es blanda y sirve. Dejarla reposar no quita la cloramina, pero tampoco hace falta.",
+      "notas": "La pudrición de raíz por exceso de riego es su problema más frecuente (Wisconsin; RHS: pudriciones de cuello y raíz). Como suculenta, no tolera el encharcamiento, sobre todo en el reposo invernal (Wisconsin). Hay una diferencia de matiz entre fuentes: la guía de RHS dice que en crecimiento no se seque en exceso, y Wisconsin y NC State que se seque casi del todo o del todo. Se elige lo más conservador para una suculenta propensa a pudrirse: dejar secar casi todo el cepellón y regar antes de que las hojas se arruguen mucho. Regar sin mover ni golpear la planta, porque las hojas se caen.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f1",
+        "f3",
+        "f4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No necesita humedad ambiental. Como la mayoría de suculentas de zonas secas, prefiere aire seco y bien ventilado (RHS guía: baja humedad ambiental; NC State: aire fresco). Ninguna fuente da porcentajes. El aire seco de Madrid (HR interior <30 % en invierno) no es un problema. No pulverizarla.",
+      "confianza": "Media",
+      "fuentes": [
+        "f4",
+        "f1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 10,
+      "ideal_max_c": null,
+      "notas": "min_c = 10 °C, el valor más conservador. RHS la clasifica como H1C, con mínimos de 5-10 °C; se toma el límite superior. La guía de RHS pide un reposo invernal con noches de 8-10 °C. Wisconsin recomienda inviernos frescos de 10-20 °C (50-60 °F) para que florezca. NC State y Wisconsin dicen que en exterior aguanta hasta unos 4,4 °C (40 °F) y que hay que meterla dentro cuando se prevean noches por debajo de esa cifra. Esto se refiere a tolerancia en exterior, no a un mínimo recomendado en interior. No tolera heladas (NC State: USDA 10a-11b). Ninguna fuente prioritaria da un máximo ni un rango ideal de crecimiento en cifras.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f3",
+        "f4",
+        "f2",
+        "f1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas, o sustrato universal con mucha perlita, pumita, arcilla expandida o gravilla fina. Wisconsin desaconseja la arena fina porque tapa los poros y empeora el drenaje. Otra opción, de RHS: sustrato con tierra y sin turba, más grava hortícola (por ejemplo, 2 partes de sustrato por 1 de grava, o hasta un 30 % de grava, según la guía de RHS).",
+      "ph": "De neutro a alcalino (RHS: alcalino o neutro; NC State: neutro 6,0-8,0 o alcalino >8,0).",
+      "drenaje": "Imprescindible. Maceta con agujeros y sustrato muy drenante (Wisconsin, RHS guía). NC State recomienda macetas poco profundas. No usar una maceta demasiado grande: el sustrato que sobra se queda húmedo y pudre las raíces (RHS guía).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f3",
+        "f4",
+        "f1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido, a poca dosis. RHS: abono líquido a media dosis. La guía de RHS para suculentas propone un abono líquido rico en potasio o uno específico para cactus.",
+      "npk": null,
+      "primavera_verano": "Pocas veces y flojo. NC State y Wisconsin: solo 1-2 veces en toda la temporada de crecimiento. RHS: como mucho una vez al mes, a media dosis. Se aplica la opción más conservadora con el convenio del proyecto: 1-2 abonados entre primavera y verano, a ¼-½ de la dosis de etiqueta, y nunca más de uno al mes.",
+      "otono_invierno": "Nada: está en reposo.",
+      "notas": "Las fuentes difieren en la frecuencia (NC State y Wisconsin: 1-2 veces por temporada; RHS: mensual). Se elige la menor. No hay una proporción NPK concreta para la especie.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente. Solo cuando la planta llena por completo la maceta, porque crece bien con las raíces algo apretadas (Wisconsin). Según la guía de RHS, cada varios años.",
+      "epoca": "Primavera (Wisconsin, RHS guía).",
+      "senales": "Maceta llena de raíces y tallos, o sustrato degradado que ya no drena. Pasar a una maceta solo algo mayor (RHS guía). Hay que manipularla con mucho cuidado, porque se caen muchas hojas: las hojas caídas sirven para propagar. Después del trasplante, esperar una semana para regar y regar poco hasta que arraigue (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f4"
+      ]
+    },
+    "poda": {
+      "necesita": "No (RHS: no necesita poda).",
+      "epoca": "Si se cortan tallos para esquejes o para quitar los que se han quedado sin hojas, mejor en primavera o verano, con la planta en crecimiento.",
+      "como": "Cortar con un corte limpio. Donde faltan hojas en el tallo pueden salir ramas (Wisconsin). Según la guía de RHS para suculentas, cortar justo encima de una hoja estimula brotes nuevos. Los trozos cortados se usan como esquejes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f3",
+        "f2",
+        "f4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Invierno, en el hemisferio norte de noviembre a principios de marzo (RHS guía; Wisconsin: reposo invernal). En el hemisferio sur, de mayo a principios de septiembre.",
+      "cambios": "Lugar fresco y luminoso, con noches de 8-10 °C (RHS guía) o un ambiente de 10-20 °C (Wisconsin), lejos de radiadores. Riego mínimo, solo para que no se arrugue (Wisconsin, RHS). Sin abono. El frescor invernal favorece la floración (Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "f4",
+        "f2",
+        "f3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de tallo",
+        "esqueje de hoja (también hojas caídas)",
+        "división",
+        "semilla"
+      ],
+      "epoca": "Primavera y verano, con la planta en crecimiento. RHS indica sembrar a principios de primavera, a 15-18 °C.",
+      "pasos": "1) Esqueje de tallo, el método más rápido: cortar un trozo, quitar las hojas de la parte de abajo, dejar que el corte se seque y cicatrice 1-2 días y clavarlo en sustrato drenante. Los esquejes largos o pesados se sujetan con horquillas o tutores. Puede tardar varios meses en enraizar bien (Wisconsin). 2) Hojas, incluidas las que se caen solas: dejarlas secar y ponerlas sobre sustrato de cactus apenas húmedo. Enraízan con facilidad (NC State), pero tardan más que los esquejes en formar una planta (Wisconsin). Mantener el sustrato solo un poco húmedo mientras enraízan, para que no se pudran (RHS guía). 3) División de matas grandes, en primavera (RHS, NC State). 4) Semilla a 15-18 °C a principios de primavera (RHS); es poco práctico en casa porque en interior rara vez florece.",
+      "confianza": "Alta",
+      "fuentes": [
+        "f2",
+        "f1",
+        "f3",
+        "f4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por exceso de riego. Es el problema más común (Wisconsin, NC State; RHS: pudriciones de raíz por hongos y bacterias). Empeora en invierno con frío y sustrato húmedo, y en macetas grandes o sin drenaje."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del cuello por exceso de agua o sustrato que no drena (RHS: pudriciones de cuello). Si la base se pudre, salvar la planta con esquejes de las puntas sanas (Wisconsin: propagación por esqueje)."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas lacias, blandas o translúcidas: casi siempre indican exceso de humedad en el sustrato (Wisconsin). Hay que revisar las raíces."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas o desinfladas: falta de agua (Wisconsin: las hojas se arrugan con sequía). Si el sustrato está seco y la maceta pesa poco, regar a fondo; deberían volver a hincharse en pocos días. Si el sustrato está húmedo y aun así se arrugan, la causa puede ser una pudrición de raíz (S36)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: entrenudos largos, hojas separadas y 'cola' poco densa (Wisconsin). Llevarla poco a poco a un lugar con sol directo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Luz demasiado intensa o un cambio brusco a más sol (pasarla al exterior o a una ventana sur o oeste en verano): las hojas pierden el color azulado y se vuelven amarillentas o blanquecinas (Wisconsin). Aclimatar poco a poco."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Las hojas se sueltan al menor roce, sobre todo al traerla a casa, moverla o trasplantarla (Wisconsin, NC State). Si las hojas caídas están firmes y el resto de la planta está sano, no es una enfermedad: es mecánico. Se pueden usar para propagar. Hay que preocuparse solo si las hojas que caen están blandas, translúcidas o arrugadas (ver S10, S11 y S36)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en los tallos y entre las hojas apretadas (Wisconsin, RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (RHS)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Mordeduras de babosas y caracoles, sobre todo si pasa el verano en exterior (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, una ventana sur u oeste puede decolorar las hojas, que pasan de azuladas a amarillentas (Wisconsin), o quemarlas. Desde finales de junio, alejarla 1-2 m del cristal o poner un visillo en las horas centrales y de tarde [orientativo, sin fuente prioritaria]. Si sale a la terraza o al balcón, aclimatarla poco a poco (Wisconsin), protegerla del viento porque los tallos se rompen, y de la lluvia de tormenta. Por el calor y la luz necesitará algo más de agua, pero siempre con el sustrato seco a 5 cm y la maceta ligera. El aire seco no le afecta.",
+    "invierno": "La calefacción no le afecta siempre que no esté cerca de un radiador (RHS guía). La humedad interior por debajo del 30 % tampoco es un problema. Lo ideal es un rincón luminoso y fresco, por ejemplo una habitación sin calefacción con noches de 10-15 °C, sin bajar de 10 °C (RHS H1C; Wisconsin). Riego mínimo. Si está pegada a un cristal frío en noches de helada, separarla unos centímetros. En terraza, meterla en casa antes de que las noches bajen de unos 4-5 °C, en Madrid normalmente desde octubre o noviembre [orientativo, sin fuente prioritaria para las fechas] (NC State, Wisconsin: 40 °F).",
+    "ubicacion_recomendada": "Colgada o en una estantería alta junto a una ventana sur, oeste o este muy luminosa, lejos de zonas de paso donde se pueda golpear, porque las hojas se caen al rozarla (Wisconsin). En verano, sol tamizado en las horas centrales. En invierno, todo el sol posible y fresco."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Sedum morganianum E.Walther (1938) sin cambio de nombre. No se han encontrado sinónimos relevantes.",
+    "Sedum burrito: su categoría no está clara (Wisconsin no sabe si es especie, cultivar o híbrido; NC State lo lista como cultivar 'Burrito'; Jimeno-Sevilla et al. 2010 lo citan como Sedum burrito Moran). No se ha comprobado en POWO.",
+    "Origen: NC State incluye la República Dominicana y Wisconsin, Honduras; POWO y Jimeno-Sevilla et al. 2010 lo limitan a México (centro de Veracruz). Se sigue a POWO.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimo o ideal.",
+    "Temperatura: ninguna fuente prioritaria da un máximo ni un rango ideal de crecimiento en cifras.",
+    "Abonado: no hay una proporción NPK concreta para la especie.",
+    "Toxicidad en niños: solo NC State (malestar de estómago si se come en grandes cantidades); no hay segunda fuente prioritaria.",
+    "Missouri Botanical Garden Plant Finder: no se ha encontrado ficha de la especie."
+  ],
+  "fuentes": [
+    {
+      "id": "f1",
+      "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f2",
+      "url": "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/",
+      "institucion": "University of Wisconsin–Madison Division of Extension – Wisconsin Horticulture",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f3",
+      "url": "https://www.rhs.org.uk/plants/16969/sedum-morganianum/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Sedum morganianum (AGM)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f4",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – How to grow houseplant cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+      "institucion": "ASPCA Animal Poison Control Center – Burro's Tail",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f6",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:231789-2",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "f7",
+      "url": "https://www.redalyc.org/pdf/574/57412477003.pdf",
+      "institucion": "Jimeno-Sevilla, Cházaro-Basáñez y Albalat-Botana (2010), Acta Botanica Mexicana 91: 13-20 (Instituto de Ecología A.C.), revista revisada por pares",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

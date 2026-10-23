@@ -1,0 +1,331 @@
+{
+  "nombre_cientifico": "Cattleya hybrida",
+  "nombres_comunes": [
+    "cattleya",
+    "catleya",
+    "orquídea corsage",
+    "orquídea de ramillete"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "Género americano tropical: de Costa Rica a Argentina según Missouri Botanical Garden y NC State; la AOS lo describe como 48 especies de México a Bolivia y Trinidad (la diferencia se debe a los cambios taxonómicos recientes). Las plantas de venta son casi siempre híbridos, a menudo intergenéricos con géneros de la misma alianza (Laeliinae): Brassocattleya, Brassolaeliocattleya, Rhyncholaeliocattleya, Cattlianthe (con Guarianthe), Cattleytonia, Epicattleya (NC State). Las antiguas Laelia brasileñas y Sophronitis se incluyen hoy en Cattleya, y la mayoría de las Cattleya centroamericanas pasaron al género Guarianthe (AOS, NC State). Cattleya está en el Apéndice II de CITES: comprar solo plantas de vivero, nunca recolectadas del medio natural (NC State).",
+  "clima_nativo": "Epífitas y litófitas de bosques cálidos de América Central y del Sur: crecen en grupos sobre ramas y rocas, en bolsas de restos que drenan enseguida, con luz intensa filtrada, humedad alta y aire en movimiento (NYBG). Clima de temperaturas intermedias a cálidas (AOS) con diferencia marcada entre día y noche; las especies de baja altitud son más cálidas y las de altura, intermedias (NYBG). Zonas USDA 10a-12b, sin heladas (NC State).",
+  "categoria": "orquidea",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Una o dos (hasta cuatro) hojas por pseudobulbo, en su extremo superior (AOS, NC State). Gruesas, cerosas, coriáceas y rígidas, de oblongas a ovadas u oblongo-elípticas, de 10-38 cm de largo y hasta unos 7,5 cm de ancho, margen entero, sin pelos (NC State, AOS). Color correcto: verde medio (AOS, Missouri, NC State) o verde claro (AOS explore); verde oscuro = poca luz. Dos grupos: 'unifoliadas' o labiadas, con una sola hoja grande y gruesa por pseudobulbo y flores grandes tipo corsage; 'bifoliadas', con pseudobulbos más largos y finos, 2-3 hojas y más flores, más pequeñas, por vara (NYBG, AOS). Rasgo clave para visión: flor grande y vistosa (5-25 cm, la mayoría de 10-25 cm), a menudo perfumada, con pétalos anchos y ondulados y un labelo grande, tubular en la base, rizado y de color contrastado (NC State, AOS); vara floral que sale de lo alto del pseudobulbo, protegida por una vaina verde o parda, con 2-5 flores (a veces decenas) (NC State, NYBG).",
+    "nerviacion": "Paralela, de monocotiledónea; nervio central muy hundido, que forma un surco marcado a lo largo de la hoja (NC State: 'midveins are deeply impressed').",
+    "variegacion": "Hojas verdes sin variegación. El color está en la flor: blanco, amarillo, oro, naranja, verde, rosa, lavanda, púrpura, rojo-burdeos y combinaciones, con el labelo a menudo de otro color (NC State, Missouri).",
+    "tallo": "Rizoma rastrero, robusto y leñoso, horizontal (crecimiento simpodial), que debe quedar sobre la superficie del sustrato (AOS explore, NC State, NYBG). De él salen pseudobulbos erguidos: tallos engrosados que almacenan agua, de cilíndricos a en forma de maza, cortos y gruesos en las unifoliadas y largos y finos en las bifoliadas (AOS, NC State). Los pseudobulbos viejos pierden la hoja y se arrugan con el tiempo: es normal (NYBG, NC State). Raíces gruesas, carnosas, cubiertas de velamen esponjoso (AOS). Cada brote nuevo nace en la base del pseudobulbo anterior (Missouri).",
+    "habito": "Epífita perenne simpodial: la planta avanza en horizontal por el rizoma y suma un pseudobulbo nuevo por temporada (NYBG, Missouri). Erguida, de crecimiento lento (NC State). Florece de media una vez al año, 3-6 semanas, y cada pseudobulbo florece una sola vez: las flores salen en los pseudobulbos nuevos (Missouri). Según el híbrido florece en primavera, en otoño o en periodos más largos (NYBG). Algunas especies y híbridos florecen nada más madurar el brote, con la vaina aún verde; otros 'reposan' varios meses y la vara sale por la vaina ya seca y parda: es normal (AOS explore).",
+    "tamano_adulto_interior": "De 8 cm a 60 cm de alto y de ancho (NC State), según el híbrido: hay miniaturas y plantas grandes. Flores de 5 cm en las más pequeñas a más de 15 cm en las clásicas de corsage (NC State).",
+    "confusiones": [
+      {
+        "especie": "Guarianthe (p. ej. G. skinneri, G. aurantiaca) y la antigua Laelia",
+        "rasgo_diferenciador": "Son parientes de la misma alianza y muy parecidos (las Cattleya centroamericanas se pasaron a Guarianthe; las Laelia brasileñas, a Cattleya) (AOS). Para la app se cuidan igual que Cattleya; no hace falta distinguirlas para el cuidado."
+      },
+      {
+        "especie": "Híbridos intergenéricos: Rhyncholaeliocattleya (Rlc.), Brassocattleya (Bc.), Cattlianthe (Ctt.), Cattleytonia, Epicattleya",
+        "rasgo_diferenciador": "No es otra planta para el cuidado: son cruces de Cattleya con géneros afines (NC State) y comparten cultivo (NYBG). La etiqueta con la abreviatura del híbrido es la única forma fiable de saberlo; Rhyncholaelia suele dar un labelo muy grande y flecado."
+      },
+      {
+        "especie": "Phalaenopsis (orquídea mariposa)",
+        "rasgo_diferenciador": "Phalaenopsis no tiene pseudobulbos ni rizoma: forma una roseta baja de 3-6 hojas anchas y planas, y una vara larga y fina con varias flores planas en mariposa. Cattleya tiene pseudobulbos erguidos con 1-2 hojas rígidas arriba y pocas flores grandes con labelo rizado. Cattleya necesita mucha más luz."
+      },
+      {
+        "especie": "Dendrobium (tipo caña, p. ej. D. nobile y los tipo 'Phalaenopsis')",
+        "rasgo_diferenciador": "Los pseudobulbos son cañas altas y segmentadas, con muchas hojas a lo largo de la caña y flores que salen de los nudos o de lo alto. En Cattleya el pseudobulbo es corto o en maza, sin nudos foliares a lo largo, con 1-2 (hasta 4) hojas solo en la punta."
+      },
+      {
+        "especie": "Oncidium y su alianza",
+        "rasgo_diferenciador": "Pseudobulbos ovalados y aplanados con hojas finas y flexibles, y varas largas y ramificadas con muchas flores pequeñas (tipo 'damas danzantes'). Cattleya tiene hojas gruesas y rígidas y pocas flores grandes."
+      },
+      {
+        "especie": "Epidendrum (tipo caña, orquídea crucifijo)",
+        "rasgo_diferenciador": "Tallos finos como juncos con hojas pequeñas a lo largo y una bola terminal de muchas flores pequeñas. Cattleya tiene pseudobulbos engrosados y flores grandes y pocas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: no tóxica. La ASPCA clasifica como 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses' a Cattleya labiata y a Cattleya mossiae ('Toxic Principles: Non-toxic'), especies de la base de muchos híbridos comerciales; NC State etiqueta el género Cattleya como no tóxico para perros, gatos y caballos. Si un animal come mucha hoja o flor puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En personas no se ha encontrado una ficha de un centro de toxicología ni de una fuente prioritaria: se marca 'desconocida' por prudencia, aunque no hay indicios de toxicidad. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F8",
+      "F6"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA y NC State coinciden). La ASPCA no tiene ficha para el grupo de híbridos, sino para especies; se extrapola al grupo con el respaldo de NC State, que lo dice del género. Niños: sin fuente fiable; véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 21520,
+      "lux_max": 32280,
+      "orientacion_hn": "Ventana este sin obstáculos, la mejor (Missouri, NC State, AOS); oeste también (Missouri, NC State), con cortina fina en verano. Sur con cortina fina que filtre (AOS, NYBG); en invierno, luz plena en la ventana sur sin cortina (NYBG). Norte: insuficiente para que florezca [orientativo, sin fuente prioritaria explícita para la orientación norte; las fuentes la clasifican como orquídea de luz alta]. Con luz LED de cultivo de espectro completo se puede completar la luz, subiéndola poco a poco y sin acercarla demasiado (NYBG).",
+      "tolera_sol_directo": "Sí, sol suave de mañana o de última hora de la tarde ('bright light to some sun', AOS); NO el sol directo del mediodía, que quema las hojas enseguida (AOS, Missouri, NC State). En invierno admite luz plena (NYBG). Al pasarla a más luz, hacerlo de forma gradual para no quemarla (NYBG).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6",
+        "F2"
+      ],
+      "notas": "Es una orquídea de luz alta (Missouri, NYBG), con bastante más luz que Phalaenopsis. Cifras: NYBG pide 2000-3000 fc en casa y estima que una ventana sur da unos 5000 fc; la AOS da 3000-5000 fc (50-70 % de sol pleno) en invernadero. Con la escala del proyecto (1 fc = 10,76 lux): lux_min = 2000 fc = 21.520 lux y lux_max = 3000 fc = 32.280 lux, rango para interior; el techo de la AOS (5000 fc ≈ 53.800 lux) es de invernadero con ventilación y humedad, y no se adopta en casa por prudencia. Por la escala del proyecto (>1000 fc) el tipo es 'directa', pero siempre sin sol de mediodía. La luz es el factor más importante para crecer y florecer (AOS) y la falta de luz es la causa más común de que una planta sana no florezca (AOS explore). Señales: hoja verde medio o verde claro = luz correcta; verde oscuro = poca luz (AOS, Missouri, NC State); pseudobulbos que no se sostienen solos y caen = poca luz (AOS, NYBG); hojas quemadas o blanqueadas = exceso."
+    },
+    "riego": {
+      "criterio": "Regar solo cuando la corteza esté seca o casi seca hasta el fondo: una Cattleya adulta debe secarse por completo entre riegos (AOS, NC State, Missouri); NYBG dice 'casi seca'. Comprobar en este orden: (1) peso: comparar con una maceta del mismo tamaño y sustrato seca; ligera = seca, pesada = húmeda (AOS); (2) dedo a 2-3 cm en la corteza (NYBG: 'use your finger to test before you water'); si está húmeda, esperar. Si hay dudas, esperar uno o dos días más (AOS, NYBG). Nunca por calendario. Cómo: en el fregadero, dejar correr agua templada por la maceta alrededor de un minuto hasta que salga por los agujeros (Missouri, NC State); la corteza seca repele el agua al principio, así que mojar hasta empaparla (NYBG); escurrir del todo y no dejar agua en el plato. Regar por la mañana para que las hojas estén secas al anochecer (Missouri, NYBG), y secar con un papel el agua que quede sobre hojas, vainas o brotes (NYBG).",
+      "primavera_verano": "Con crecimiento activo (brote y raíces nuevas, vaina o capullos) necesita más agua (AOS), y más aún mientras se forman los capullos (NYBG). Missouri da como orientación 'una vez por semana o más' para una adulta, pero lo que manda es que se seque entre riegos. En el calor seco de Madrid la corteza se seca antes: comprobar peso y dedo cada 2-3 días.",
+      "otono_invierno": "Cuando la planta reposa (pseudobulbo ya maduro, sin raíces nuevas) necesita menos agua (AOS): dejarla seca más tiempo y regar solo cuando la maceta pese poco. Con calefacción la corteza se seca más rápido de lo que parece: comprobar siempre antes de decidir.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Agua templada, nunca fría: por debajo de 10 °C (50 °F) puede dañar la planta (AOS, NC State); no usar cubitos de hielo (NC State). No usar agua de descalcificador, que lleva sales (AOS, Missouri, NC State). El agua del grifo de Madrid (Canal de Isabel II) es blanda y apta; dejarla reposar no elimina la cloramina, y no hace falta. Lavar el sustrato con agua sola una vez al mes para arrastrar sales de abono (AOS, Missouri).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "Las plántulas (plantas jóvenes sin florecer) necesitan humedad más constante que las adultas (AOS, Missouri). Los pseudobulbos almacenan agua y le permiten aguantar sequías (NC State): por eso tolera mucho mejor quedarse seca que el exceso de riego, que es lo que más orquídeas mata (NYBG) y pudre las raíces (Missouri)."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "La AOS da 50-80 %; Missouri y NC State, más del 50 %; NYBG, mínimo 50 % y preferido 60-80 %. Coinciden en el mínimo del 50 %; se adopta un ideal del 60 %, alcanzable en una vivienda con humidificador. Una casa con calefacción puede bajar al 25 % (NYBG), muy por debajo. Cómo subirla: humidificador de habitación (NYBG) o agrupar plantas dejando espacio para que corra el aire; bandeja con grava y agua sin que la maceta toque el agua (AOS, Missouri, NC State, NYBG), de efecto pequeño y local. Pulverizar no sube la humedad de forma útil (convención del proyecto). Con humedad alta hace falta aire en movimiento (ventilador suave, ventana abierta si la temperatura es adecuada) para evitar hongos y bacterias (AOS, Missouri, NYBG). Si el calor sube, la humedad debe estar en la parte alta del rango (NYBG). Con humedad baja aparecen ácaros (NC State)."
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 35,
+      "ideal_min_c": 13,
+      "ideal_max_c": 29,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6",
+        "F2"
+      ],
+      "notas": "Día 21-29 °C (70-85 °F) según AOS, Missouri, NC State y NYBG. Noche 13-16 °C (55-60 °F) según AOS, Missouri y NC State; NYBG da 13-18 °C (55-65 °F). Todas coinciden en 13 °C (55 °F = 12,8 °C) como mínimo nocturno; se adopta min_c 13 °C. Las plántulas quieren noches 3-6 °C más cálidas (AOS). Máximo: tolera hasta 35 °C (95 °F) de día solo si se suben la humedad, la ventilación y la sombra (AOS, Missouri); ideal_max_c 29 °C. DIFERENCIA DÍA-NOCHE PARA FLORECER: la AOS recomienda 8-11 °C (15-20 °F) entre día y noche, sobre todo en plantas adultas; Missouri, 5,5-8 °C (10-15 °F); NYBG, unos 5,5 °C (10 °F), y dice que esta diferencia es parte importante del inicio de la floración. En casa: una habitación luminosa donde de noche se apague la calefacción y baje a 13-16 °C. NYBG aconseja bajar unos 3 °C (5 °F) justo después de florecer. Las bifoliadas toleran más calor y menos diferencia día-noche; las de altura (p. ej. C. mooreana) quieren temperaturas más frescas (AOS explore)."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato comercial de orquídeas para Cattleya: corteza de pino (abeto) o secuoya de grano medio a grueso, que puede llevar carbón vegetal hortícola y perlita (Missouri, NC State). Las adultas, en corteza más gruesa que las plántulas (AOS). Algunos cultivadores usan materiales inorgánicos cocidos (arcilla expandida) (NC State). Nunca mantillo de jardín (NYBG). Maceta de plástico o barro con agujeros, ni demasiado grande: que deje unos dos años de crecimiento (AOS, Missouri); mejor ancha y poco honda, con ranuras de ventilación, y con el rizoma sobre la superficie (NYBG, NC State). Con humedad alta se puede cultivar montada en placa (NYBG).",
+      "ph": null,
+      "drenaje": "Muy alto: es epífita y sus raíces están hechas para secarse entre riegos (AOS). La corteza se descompone en 2-3 años y deja de drenar, sobre todo en el fondo de la maceta, aunque la parte de arriba parezca bien (Missouri, AOS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6",
+        "F5"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble para orquídeas, equilibrado (Missouri, NC State, NYBG, AOS).",
+      "npk": "Equilibrado, tipo 20-20-20 (Missouri, NYBG). En corteza de pino sola, la AOS cita una fórmula alta en nitrógeno tipo 30-10-10.",
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (brote y raíces nuevas). Regar con agua sola y abundante una vez al mes para lavar sales (AOS, Missouri, NYBG).",
+      "otono_invierno": "Nada mientras la planta reposa (pseudobulbo maduro, sin brote ni raíces nuevas). Si sigue creciendo bajo buena luz, a la dosis más baja.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "Las fuentes coinciden en abonar diluido y lavar sales, y en que es mejor quedarse corto que pasarse, porque el exceso reduce la floración (NYBG). Sus frecuencias son más altas que la convención del proyecto: AOS, cada dos semanas en crecimiento y una vez al mes en reposo, o ¼ de dosis en cada riego; Missouri, ¼ de dosis cada semana (½ en crecimiento activo); NC State, ½ dosis dos veces al mes o ¼ cada semana; NYBG, ¼ de dosis en uno de cada dos riegos y todo el año. Se adopta la convención del proyecto (¼-½ mensual, nada en reposo), la opción más conservadora; se anota como contradicción."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (AOS, NYBG); Missouri y NC State dicen 'unos dos años'. Solo cuando haga falta.",
+      "epoca": "Justo antes de que salgan raíces nuevas del rizoma: después de florecer o en primavera (AOS, Missouri, NC State). En la práctica, cuando el brote nuevo empieza a echar su tanda de raíces nuevas (AOS explore, NYBG). Fuera de ese momento lo lleva mal (Missouri).",
+      "senales": "El rizoma o el brote nuevo sobresale del borde de la maceta, o la corteza se ha deshecho y drena mal (AOS, Missouri, NC State). Revisar el fondo: puede estar descompuesto aunque arriba parezca bien (Missouri). Pasos: quitar la corteza vieja y cortar con cuchilla o tijera desinfectada las raíces muertas (huecas o blandas) (AOS, Missouri); poner el pseudobulbo más viejo contra el borde para que los brotes avancen hacia el centro (AOS, Missouri); rellenar con corteza nueva apretando con los dedos entre las raíces y entutorar si hace falta (AOS, Missouri). Después, mantenerla con humedad ambiental, a la sombra y con las raíces secas hasta que se vean raíces nuevas (AOS). Hasta que tenga al menos seis pseudobulbos maduros, pasarla a una maceta mayor sin dividir (AOS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6",
+        "F5",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca: flores pasadas, vara seca, vainas secas y pseudobulbos viejos sin hojas cuando sobran. No cortar raíces sanas.",
+      "epoca": "Las flores y la vara, al terminar la floración; los pseudobulbos viejos, aprovechando el trasplante (NYBG).",
+      "como": "Quitar las flores pasadas (Missouri). Cortar la vara hasta la base cuando se ponga parda (NYBG). Muchos cultivadores quitan la vaina parda y apergaminada tras la floración (NYBG); además, bajo las vainas secas se esconde la cochinilla (UF/IFAS). No cortar una vaina verde: en muchas plantas la vara sale meses después por la vaina seca (AOS explore). Los pseudobulbos viejos aportan reservas: quitar solo los arrugados o que sobran, al trasplantar (NYBG). Herramientas desinfectadas entre planta y planta (lejía al 10 %, alcohol o cuchilla nueva), por los virus de orquídeas (NYBG, Missouri).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F4",
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Variable según el híbrido: tras madurar el pseudobulbo nuevo y, a menudo, tras la floración; en muchas plantas coincide con otoño-invierno [orientativo, sin fuente prioritaria para la época concreta].",
+      "cambios": "Menos agua y menos abono que en crecimiento activo (AOS); según la convención del proyecto, nada de abono. Mantener la luz alta (en invierno, luz plena según NYBG) y las noches frescas. Algunas plantas 'reposan' varios meses con la vaina seca antes de sacar la vara: es normal y no hay que cortar la vaina (AOS explore). Bajar unos 3 °C la temperatura después de florecer ayuda (NYBG).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "notas": "Las fuentes hablan de plantas 'en reposo' (AOS) y de un 'descanso' antes de florecer en algunas especies (AOS explore), pero ninguna da una época fija para los híbridos: depende de cada cruce (NYBG: unas florecen en primavera, otras en otoño)."
+    },
+    "propagacion": {
+      "metodos": [
+        "división del rizoma"
+      ],
+      "epoca": "Al trasplantar: justo antes de que salgan raíces nuevas, después de florecer o en primavera (AOS, Missouri, NC State).",
+      "pasos": "1) Dividir solo plantas grandes: con menos de seis pseudobulbos maduros, mejor pasarla a una maceta mayor sin dividir (AOS). 2) Cortar el rizoma con cuchilla o tijera desinfectada de forma que cada trozo tenga al menos tres pseudobulbos sanos y gruesos, mejor cinco, con raíces sanas (AOS, Missouri, NC State). 3) Limpiar raíces muertas (Missouri). 4) Plantar cada trozo en corteza nueva, con el corte del rizoma contra el borde de la maceta y el brote hacia el centro (AOS, Missouri). 5) Entutorar, mantener humedad ambiental y sombra, y no regar el sustrato hasta ver raíces nuevas (AOS). La siembra y el cultivo de tejidos (meristemo) son técnicas de laboratorio (NC State); no son prácticas en casa.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Exceso de riego o sustrato siempre mojado: pudre las raíces (Missouri, NYBG); empeora con corteza vieja que ya no drena (AOS, Missouri) o maceta demasiado grande (Missouri), o con la maceta en agua en el plato (Missouri). Es lo que más orquídeas mata (NYBG). Revisar raíces: sanas = firmes y gruesas; podridas = blandas, oscuras o huecas. Trasplantar a corteza nueva cortando las muertas."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: pseudobulbos débiles que no se sostienen solos y se caen, hojas verde oscuro y planta que no florece (NYBG, AOS, AOS explore). Pasarla poco a poco a más luz (ventana este o sur con cortina) (NYBG). Es la causa más común de que no florezca (AOS explore)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo del mediodía tras el cristal: quema las hojas muy rápido (Missouri, NC State), sobre todo en ventanas sur y oeste en verano o al pasarla de golpe a más luz (NYBG). Filtrar con cortina fina."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Agua que queda sobre hojas, vainas, brotes o flores tras regar, o aire húmedo y quieto: la podredumbre avanza rápido (NYBG); los hongos y bacterias aparecen con humedad alta sin ventilación o con frío (AOS, Missouri). Regar por la mañana, secar el agua que salpique y mover el aire."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Pseudobulbos y hojas arrugados: si es solo el pseudobulbo más viejo, sin hoja, es normal (NYBG, NC State). Si se arrugan los nuevos, falta agua o, más a menudo, las raíces están podridas y ya no absorben: revisar raíces antes de regar más [orientativo, sin fuente prioritaria específica para Cattleya]."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo, sobre todo la cochinilla de Boisduval (Diaspis boisduvalii), que prefiere Cattleya y Cymbidium: escudos redondos blanquecinos o amarillentos de 1-2 mm en el envés, el nervio central, la base de los pseudobulbos y bajo las vainas secas, con manchas amarillas en la hoja; los machos forman grupos de hilos blancos cerosos que se confunden con cochinilla algodonosa (UF/IFAS). NC State cita también la cochinilla hemisférica. Revisar todo el año, levantando las vainas secas (UF/IFAS). Aislar la planta, retirar los escudos a mano con un bastoncillo o cepillo suave y, si persiste, usar un producto listo para usar autorizado en el Registro del MAPA para uso no profesional en plantas de interior."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas, bajo las vainas y entre las raíces; tiene varias generaciones al año, así que hay que vigilar cada semana (UF/IFAS, NYBG). Antes de tratar, comprobar que no sean los machos de la cochinilla de Boisduval (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado o bronceado de la hoja por ácaros (araña roja, falso ácaro) o trips (NC State, UF/IFAS); los trips dejan además puntitos negros brillantes de excrementos y dañan capullos y flores (UF/IFAS). Los ácaros aparecen sobre todo con humedad baja (NC State), típica de la calefacción en Madrid."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja con aire seco (NC State: 'especially problematic if the humidity is too low'). Subir la humedad con humidificador y revisar el envés."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Babosas y caracoles si la planta pasa el verano en la terraza o el jardín; comen brotes, raíces nuevas y flores (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 % en julio), la planta está en su límite: solo tolera hasta 35 °C con más humedad, más ventilación y más sombra (AOS, Missouri). Apartarla del cristal en ventanas sur y oeste, o filtrar con cortina fina: el sol del mediodía y de la tarde la quema enseguida (Missouri, NC State). Usar humidificador para mantener ≥50 % y un ventilador suave. La corteza se seca antes: comprobar peso y dedo cada 2-3 días, regar siempre por la mañana con agua templada. Si sale a la terraza, a semisombra luminosa, sin sol de mediodía, protegida de babosas (NC State), y metida en casa si las noches bajan de 13 °C.",
+    "invierno": "La calefacción puede dejar la humedad por debajo del 30 % (NYBG habla del 25 % en casas del noreste de EE. UU.), muy lejos del 50 % mínimo: humidificador imprescindible, y vigilar araña roja (NC State). En invierno necesita luz plena: ventana sur sin cortina (NYBG). Que las hojas no toquen el cristal frío y que de noche no baje de 13 °C junto a la ventana; a la vez, unas noches frescas (13-16 °C) con 5-11 °C menos que de día ayudan a florecer (AOS, Missouri, NYBG): ideal una habitación luminosa con la calefacción apagada de noche. Regar menos si está en reposo, comprobando siempre el peso: la calefacción seca la corteza.",
+    "ubicacion_recomendada": "La ventana más luminosa de la casa. Primavera-verano: ventana este junto al cristal, o sur/oeste con cortina fina que corte el sol del mediodía y de la tarde. Otoño-invierno: ventana sur sin cortina. Lejos de radiadores y de salidas de aire acondicionado, con aire en movimiento y humidificador cerca."
+  },
+  "lagunas": [
+    "Nomenclatura: el encargo indica que 'Cattleya hybrida' no es un nombre válido, pero POWO (Kew) SÍ acepta 'Cattleya × hybrida J.Veitch f.' (Gard. Chron. 1863: 602): es un notoespecie natural, C. guttata × C. loddigesii, nativa del sureste de Brasil (Espírito Santo, Minas Gerais, Río de Janeiro, São Paulo), epífita con pseudobulbos de clima tropical estacionalmente seco; sinónimos heterotípicos C. × itatiayae Porto y C. × picta. Ese nombre NO designa los híbridos comerciales de Cattleya y su alianza, que son lo que trata esta ficha (miles de híbridos registrados, muchos intergenéricos: Rlc., Bc., Blc., Ctt., Cattleytonia, Epicattleya). Riesgo de confusión en la app: conviene renombrar el id o el nombre visible como 'Cattleya (híbridos y alianza)'. Se mantiene nombre_cientifico 'Cattleya hybrida' por indicación del proyecto.",
+    "Taxonomía del género en movimiento: la AOS describe 48 especies de México a Bolivia y Trinidad; Missouri y NC State dicen de Costa Rica a Argentina. Las Laelia brasileñas y Sophronitis se han pasado a Cattleya y la mayoría de Cattleya centroamericanas a Guarianthe (AOS, NC State). Las etiquetas comerciales pueden usar nombres antiguos (p. ej. Sophrolaeliocattleya, Potinara).",
+    "Toxicidad en niños: no se encontró ficha de un centro de toxicología ni de una fuente prioritaria sobre ingestión humana de Cattleya; se marca 'desconocida' por prudencia. La ASPCA tiene fichas de especies (C. labiata, C. mossiae, C. trianae, C. forbesii), no del grupo de híbridos.",
+    "pH del sustrato: ninguna fuente prioritaria da un rango concreto para corteza de orquídeas; se deja en null.",
+    "Reposo: ninguna fuente prioritaria da una época fija para los híbridos; depende del cruce. La coincidencia con otoño-invierno es orientativa.",
+    "Luz en lux para interior: NYBG da 2000-3000 fc para casa y la AOS 3000-5000 fc para invernadero; no hay una medida específica en ventanas de Madrid. Conviene medir con luxómetro (o la app) en la ubicación real.",
+    "Orientación norte: ninguna fuente prioritaria la menciona expresamente para Cattleya; se deduce de que es orquídea de luz alta.",
+    "Pseudobulbos nuevos arrugados: ninguna fuente prioritaria específica de Cattleya lo relaciona con raíces podridas; se marca orientativo.",
+    "Pasta de keikis, reguladores de crecimiento y propagación por pseudobulbos traseros ('backbulbs'): no se investigaron fuentes prioritarias; la app no los recomienda."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://secure.aos.org/media/Content-Images/PDFs/Cattleyas-Revised-2020.pdf",
+      "institucion": "American Orchid Society (AOS) — Culture sheet 'Cattleya' (revisada 2020)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://aos.org/explore/cattleya",
+      "institucion": "American Orchid Society (AOS) — Explore Orchids: Genus Cattleya, Care and Culture Card",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.aos.org/orchid-care/orchid-care-and-culture-sheets/cattleya-culture-sheet/cattleyas-for-the-beginner-part-2",
+      "institucion": "American Orchid Society (AOS) — Cattleyas for the Beginner, Part 2",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/cattleya",
+      "institucion": "Missouri Botanical Garden — Visual guides: Cattleya (Corsage Orchid)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://libguides.nybg.org/Cattleya",
+      "institucion": "New York Botanical Garden (NYBG), LuEsther T. Mertz Library — Plant Guide: Cattleya Orchid",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/cattleya/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox: Cattleya",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/node/4731",
+      "institucion": "ASPCA Animal Poison Control Center — Cattleya Labiata (Cattleya labiata)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/node/4852",
+      "institucion": "ASPCA Animal Poison Control Center — Easter Cattleya (Cattleya mossiae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://edis.ifas.ufl.edu/publication/IN1433",
+      "institucion": "UF/IFAS Extension (University of Florida), EDIS ENY2114/IN1433 — Caldwell y Leigh, Orchid Insect and Mite Pests in South Florida",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:622112-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Cattleya × hybrida J.Veitch f.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

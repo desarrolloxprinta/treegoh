@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ficha de especie de planta de interior",
+  "type": "object",
+  "required": [
+    "nombre_cientifico", "nombres_comunes", "familia", "origen", "clima_nativo", "categoria",
+    "dificultad", "prioridad", "rareza", "identificacion", "toxicidad", "cuidados",
+    "problemas_frecuentes", "ajustes_madrid", "lagunas", "fuentes", "fecha_investigacion"
+  ],
+  "properties": {
+    "nombre_cientifico": { "type": "string" },
+    "nombres_comunes": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "familia": { "type": "string" },
+    "origen": { "type": "string" },
+    "clima_nativo": { "type": "string" },
+    "categoria": { "type": "string", "enum": ["tropical", "suculenta", "cactus", "aromatica", "orquidea", "carnivora", "bonsai", "helecho", "palmera", "trepadora", "flor", "otra"] },
+    "dificultad": { "type": "string", "enum": ["facil", "media", "dificil"] },
+    "prioridad": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "rareza": { "type": "string", "enum": ["comun", "media", "coleccionista"] },
+    "identificacion": {
+      "type": "object",
+      "required": ["hojas", "nerviacion", "variegacion", "tallo", "habito", "tamano_adulto_interior", "confusiones"],
+      "properties": {
+        "hojas": { "type": "string" },
+        "nerviacion": { "type": "string" },
+        "variegacion": { "type": "string" },
+        "tallo": { "type": "string" },
+        "habito": { "type": "string" },
+        "tamano_adulto_interior": { "type": "string" },
+        "confusiones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["especie", "rasgo_diferenciador"],
+            "properties": { "especie": { "type": "string" }, "rasgo_diferenciador": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "toxicidad": {
+      "type": "object",
+      "required": ["perros", "gatos", "ninos", "principio_activo", "sintomas", "confianza", "fuentes"],
+      "properties": {
+        "perros": { "type": "string", "enum": ["toxica", "no_toxica", "desconocida"] },
+        "gatos": { "type": "string", "enum": ["toxica", "no_toxica", "desconocida"] },
+        "ninos": { "type": "string", "enum": ["toxica", "no_toxica", "desconocida"] },
+        "principio_activo": { "type": ["string", "null"] },
+        "sintomas": { "type": ["string", "null"] },
+        "confianza": { "$ref": "#/$defs/confianza" },
+        "fuentes": { "$ref": "#/$defs/refs" }
+      }
+    },
+    "cuidados": {
+      "type": "object",
+      "required": ["luz", "riego", "humedad", "temperatura", "sustrato", "fertilizacion", "trasplante", "poda", "reposo", "propagacion"],
+      "properties": {
+        "luz": { "$ref": "#/$defs/bloque", "properties": {
+          "tipo": { "type": "string", "enum": ["directa", "brillante_indirecta", "media", "baja"] },
+          "lux_min": { "type": ["integer", "null"] }, "lux_max": { "type": ["integer", "null"] },
+          "orientacion_hn": { "type": "string" }, "tolera_sol_directo": { "type": "string" }, "notas": { "type": "string" }
+        }, "required": ["tipo", "lux_min", "lux_max", "orientacion_hn", "tolera_sol_directo", "confianza", "fuentes"] },
+        "riego": { "$ref": "#/$defs/bloque", "properties": {
+          "criterio": { "type": "string" }, "primavera_verano": { "type": "string" }, "otono_invierno": { "type": "string" },
+          "sensibilidad_exceso": { "type": "string", "enum": ["alta", "media", "baja"] }, "sensibilidad_sequia": { "type": "string", "enum": ["alta", "media", "baja"] },
+          "calidad_agua": { "type": "string" }, "notas": { "type": "string" }
+        }, "required": ["criterio", "primavera_verano", "otono_invierno", "sensibilidad_exceso", "sensibilidad_sequia", "calidad_agua", "confianza", "fuentes"] },
+        "humedad": { "$ref": "#/$defs/bloque", "properties": {
+          "min_pct": { "type": ["integer", "null"] }, "ideal_pct": { "type": ["integer", "null"] }, "notas": { "type": "string" }
+        }, "required": ["min_pct", "ideal_pct", "confianza", "fuentes"] },
+        "temperatura": { "$ref": "#/$defs/bloque", "properties": {
+          "min_c": { "type": ["number", "null"] }, "max_c": { "type": ["number", "null"] }, "ideal_min_c": { "type": ["number", "null"] }, "ideal_max_c": { "type": ["number", "null"] }, "notas": { "type": "string" }
+        }, "required": ["min_c", "max_c", "ideal_min_c", "ideal_max_c", "confianza", "fuentes"] },
+        "sustrato": { "$ref": "#/$defs/bloque", "properties": {
+          "mezcla": { "type": "string" }, "ph": { "type": ["string", "null"] }, "drenaje": { "type": "string" }
+        }, "required": ["mezcla", "ph", "drenaje", "confianza", "fuentes"] },
+        "fertilizacion": { "$ref": "#/$defs/bloque", "properties": {
+          "tipo": { "type": "string" }, "npk": { "type": ["string", "null"] }, "primavera_verano": { "type": "string" }, "otono_invierno": { "type": "string" }, "notas": { "type": "string" }
+        }, "required": ["tipo", "npk", "primavera_verano", "otono_invierno", "confianza", "fuentes"] },
+        "trasplante": { "$ref": "#/$defs/bloque", "properties": {
+          "frecuencia": { "type": "string" }, "epoca": { "type": "string" }, "senales": { "type": "string" }
+        }, "required": ["frecuencia", "epoca", "senales", "confianza", "fuentes"] },
+        "poda": { "$ref": "#/$defs/bloque", "properties": {
+          "necesita": { "type": "string" }, "epoca": { "type": "string" }, "como": { "type": "string" }
+        }, "required": ["necesita", "epoca", "como", "confianza", "fuentes"] },
+        "reposo": { "$ref": "#/$defs/bloque", "properties": {
+          "tiene": { "type": "boolean" }, "epoca": { "type": ["string", "null"] }, "cambios": { "type": ["string", "null"] }
+        }, "required": ["tiene", "epoca", "cambios", "confianza", "fuentes"] },
+        "propagacion": { "$ref": "#/$defs/bloque", "properties": {
+          "metodos": { "type": "array", "items": { "type": "string" } }, "epoca": { "type": "string" }, "pasos": { "type": "string" }
+        }, "required": ["metodos", "epoca", "pasos", "confianza", "fuentes"] }
+      }
+    },
+    "problemas_frecuentes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sintoma_id", "causa_habitual_en_esta_especie"],
+        "properties": { "sintoma_id": { "type": "string" }, "causa_habitual_en_esta_especie": { "type": "string" } }
+      }
+    },
+    "ajustes_madrid": {
+      "type": "object",
+      "required": ["verano", "invierno", "ubicacion_recomendada"],
+      "properties": { "verano": { "type": "string" }, "invierno": { "type": "string" }, "ubicacion_recomendada": { "type": "string" } }
+    },
+    "lagunas": { "type": "array", "items": { "type": "string" } },
+    "fuentes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "institucion", "tipo", "fecha_consulta"],
+        "properties": {
+          "id": { "type": "string" },
+          "url": { "type": "string" },
+          "institucion": { "type": "string" },
+          "tipo": { "type": "string", "enum": ["prioritaria", "complementaria"] },
+          "fecha_consulta": { "type": "string" }
+        }
+      }
+    },
+    "fecha_investigacion": { "type": "string" }
+  },
+  "$defs": {
+    "confianza": { "type": "string", "enum": ["Alta", "Media", "Baja"] },
+    "refs": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "bloque": {
+      "type": "object",
+      "properties": {
+        "confianza": { "$ref": "#/$defs/confianza" },
+        "fuentes": { "$ref": "#/$defs/refs" }
+      }
+    }
+  }
+}

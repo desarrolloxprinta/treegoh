@@ -1,0 +1,349 @@
+{
+  "nombre_cientifico": "Hedera helix",
+  "nombres_comunes": [
+    "hiedra",
+    "hiedra común"
+  ],
+  "familia": "Araliaceae",
+  "origen": "Europa y región mediterránea hasta Turquía y el Cáucaso. POWO (Kew) la da como nativa en España (incluidas Baleares), Portugal, Francia, Italia, Gran Bretaña, Escandinavia, Europa central y oriental hasta Ucrania y Rusia europea, y Turquía. UF/IFAS la sitúa en regiones templadas de Europa, norte de África y oeste de Asia; NC State, de Europa y Escandinavia hasta Rusia. Introducida e invasora en buena parte de EE. UU., Australia, Nueva Zelanda y Argentina (POWO, NC State, Missouri Botanical Garden).",
+  "clima_nativo": "Templado (bioma templado según POWO), de oceánico a mediterráneo. Vive en sotobosque, bosques y muros, a la sombra o semisombra, y soporta heladas: la RHS la clasifica como rustica H5 y Missouri Botanical Garden la cultiva al aire libre en St. Louis. En interior agradece ambientes frescos (Clemson: 10-21 °C de día).",
+  "categoria": "trepadora",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Simples, alternas, perennes, coriáceas y brillantes, sin pelos. En la fase juvenil (la que se ve en interior) son palmeadas con 3-5 lóbulos, de 2,5-8 cm (NC State: 1-3 in; hasta unos 10 cm en Missouri Botanical Garden), verde oscuro brillante en el haz y con los nervios marcados en blanco grisáceo (NC State, RHS). En la fase adulta, sobre ramas que ya no trepan, las hojas son enteras, ovadas a rómbicas, sin lóbulos (NC State, Missouri Botanical Garden, UF/IFAS); en maceta de interior esta fase es rara. Hay más de 200 cultivares con formas muy distintas (UF/IFAS): 'pie de pájaro' con lóbulos estrechos ('Needlepoint', 'Asterisk'), en abanico, acorazonadas, rizadas u onduladas ('Ivalace', 'Manda Crested') y miniaturas de menos de 2,5 cm (Clemson).",
+    "nerviacion": "Palmeada en las hojas juveniles lobuladas, con un nervio principal por lóbulo que sale de la base del limbo; los nervios suelen verse más claros que la lámina (blanco grisáceo o verde pálido) (NC State, RHS). Las hojas adultas enteras tienen nerviación más pinnada (NC State).",
+    "variegacion": "La forma típica es verde oscuro liso. Muchos cultivares de interior son variegados (Clemson, UF/IFAS): 'Glacier', gris verdoso y plateado con margen blanco; 'Gold Child', margen amarillo vivo que se vuelve crema con calor; 'Anne Marie', margen blanco crema; 'Gold Heart', centro amarillo; 'Kolibri', blanco plateado moteado de verde; 'Buttercup', amarillo con sol y verde pálido a la sombra. Con poca luz las variegadas reverdecen (Clemson, UF/IFAS). En otoño-invierno las hojas pueden tomar tonos rojizos o bronce (RHS).",
+    "tallo": "Delgado, flexible, verde a marrón cobrizo, redondo en sección (NC State), con numerosas raicillas adventicias cortas en los entrenudos con las que se adhiere a paredes, troncos o tutores (NC State, Missouri Botanical Garden). Los tallos que tocan el sustrato enraízan en los nudos (Missouri Botanical Garden). Con los años se lignifica en la base.",
+    "habito": "Trepadora autoadherente o rastrera perennifolia (RHS, NC State). En interior se cultiva colgante, en cestas, como cubresuelos en jardineras o guiada en espalderas y estructuras de topiaria (Clemson, UF/IFAS). Rara vez florece en maceta: las flores (umbelas verde amarillentas en otoño) y los frutos negro azulados solo aparecen en ramas adultas no trepadoras (NC State, RHS).",
+    "tamano_adulto_interior": "Tallos de 1-2 m o más si no se poda; se mantiene al tamaño que se quiera con despuntes (Clemson). Los cultivares de hoja pequeña y crecimiento lento son los más fáciles en maceta pequeña (Clemson). Al aire libre trepa de 8-12 m (RHS) hasta 15-30 m (Missouri Botanical Garden, NC State).",
+    "confusiones": [
+      {
+        "especie": "Hedera hibernica (hiedra irlandesa, a menudo vendida como Hedera helix 'Hibernica')",
+        "rasgo_diferenciador": "Visualmente casi idéntica. Suele tener hojas más grandes y brillantes (NC State describe 'Hibernica' así). POWO la trata como especie aparte; la separación fiable requiere examinar los pelos de los brotes jóvenes con lupa. Los cuidados en interior son los mismos."
+      },
+      {
+        "especie": "Hedera canariensis / Hedera algeriensis (hiedra de Canarias)",
+        "rasgo_diferenciador": "Hojas notablemente más grandes, menos lobuladas o casi enteras, más espaciadas en el tallo; aparece en el comercio como 'hiedra' variegada de hoja grande (Illinois Extension la incluye junto a Hedera en su ficha de hiedras)."
+      },
+      {
+        "especie": "Epipremnum aureum (poto) y Philodendron hederaceum (filodendro trepador)",
+        "rasgo_diferenciador": "Hojas acorazonadas enteras, sin lóbulos, con nerviación pinnada y sin nervios blanquecinos; tallo verde más grueso con una raíz aérea gruesa por nudo, no muchas raicillas finas."
+      },
+      {
+        "especie": "Cissus rhombifolia (cissus, 'hiedra de uva')",
+        "rasgo_diferenciador": "Hojas compuestas de tres folíolos dentados y zarcillos en los nudos; la hiedra tiene hojas simples lobuladas de margen entero y se agarra con raicillas, sin zarcillos."
+      },
+      {
+        "especie": "Pelargonium peltatum (geranio hiedra, gitanilla)",
+        "rasgo_diferenciador": "Hojas carnosas, peltadas (pecíolo inserto cerca del centro), con olor al frotarlas y tallos herbáceos quebradizos; florece abundantemente. La hiedra tiene hojas coriáceas sin olor y pecíolo inserto en el borde."
+      },
+      {
+        "especie": "×Fatshedera lizei",
+        "rasgo_diferenciador": "Híbrido de Fatsia y Hedera: hojas mucho mayores (10-25 cm) con 5 lóbulos, tallo semierguido que no se adhiere con raicillas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas triterpénicas (hederagenina) (ASPCA, NC State) y compuestos poliacetilénicos (NC State). Toda la planta es tóxica: hojas, tallos, raíces, savia, flores, frutos y semillas (NC State). El follaje es más tóxico que los frutos (ASPCA, NC State).",
+    "sintomas": "Perros y gatos (ASPCA): vómitos, dolor abdominal, salivación excesiva y diarrea. Personas (NC State, toxicidad 'media'): la ingestión de frutos causa ardor de garganta; la de hojas puede causar vómitos, dolor abdominal, salivación, diarrea y, en casos graves, fiebre, erupción, delirio, estupor, convulsiones y alucinaciones. La savia provoca dermatitis de contacto con enrojecimiento, picor y ampollas, y contiene alérgenos (NC State, RHS, Clemson): usar guantes al podar o manipular. Ante una ingestión, contactar con el veterinario o con el Servicio de Información Toxicológica.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1",
+      "F5",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a ventana norte o este, o a 1-2 m de una ventana oeste o sur con visillo (Clemson cita ventanas norte, este u oeste). También crece bien con luz artificial (Clemson).",
+      "tolera_sol_directo": "Solo sol suave de primera hora. Clemson indica luz brillante pero no sol directo en interior. Al aire libre tolera sol pleno (RHS, NC State), pero tras un cristal y con el calor de Madrid el sol de mediodía o de tarde quema y favorece la araña roja.",
+      "notas": "Tolera luz baja-media (100-500 fc) pero crece menos y las variegadas reverdecen (Clemson, UF/IFAS). UF/IFAS indica que mantiene buen aspecto con solo 100 fc (≈1.076 lux) si está a 21-27 °C; con poca luz y exceso de agua y abono da tallos finos y largos (UF/IFAS). Para conservar el color de las variegadas, darles la mayor luz indirecta posible.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F8"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar a fondo y volver a regar cuando la capa superior del sustrato esté seca al tacto: Clemson habla de 1,3 cm (½ pulgada) secos, así que conviene comprobar con el dedo a 2-3 cm; si a esa profundidad aún está húmedo, esperar. La maceta debe pesar claramente menos que recién regada. No dejarla encharcada ni con agua en el plato (Clemson). UF/IFAS: dejar secar ligeramente entre riegos; crece mal si el sustrato está siempre muy húmedo o muy seco.",
+      "primavera_verano": "Con crecimiento activo y calor el sustrato se seca antes: comprobar cada 3-5 días y regar en cuanto la capa superior esté seca. Vaciar el plato a los 15-20 minutos. Con calor por encima de 30 °C puede pararse el crecimiento: no regar más por eso, solo según el sustrato.",
+      "otono_invierno": "Crece más despacio, sobre todo en habitaciones frescas: comprobar cada 7-10 días y dejar secar algo más la capa superior. Si está junto a la calefacción se secará antes; regar según el dedo y el peso, nunca por calendario.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Sirve el agua del grifo de Madrid (blanda, con cloramina que no se elimina dejándola reposar, y fluoruro <0,1 mg/L). Es sensible a la acumulación de sales del abono, que produce quemaduras en las hojas (UF/IFAS): lavar el sustrato con agua abundante cada pocos meses.",
+      "notas": "El exceso de riego y un sustrato que no drena causan pudrición de raíz (Clemson); el exceso de agua también favorece el edema, pequeñas manchas amarillas en el haz (UF/IFAS). La sequía repetida, sumada al aire seco, favorece la araña roja. Tras la compra, UF/IFAS aconseja mantener el sustrato húmedo 2-3 semanas y luego espaciar riegos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere humedad moderada pero tolera la humedad baja habitual de las casas (Clemson; Illinois Extension: humedad baja a media). En producción, UF/IFAS usa 60-100 % de humedad relativa, pero no da un valor para interior. El aire seco y cálido favorece mucho la araña roja (CT Agricultural Experiment Station, Clemson), así que con calefacción conviene un humidificador o agrupar plantas; pulverizar las hojas no sirve. Necesita buena ventilación y no debe estar apretada entre otras plantas (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F8",
+        "F9"
+      ]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": 29,
+      "ideal_min_c": 10,
+      "ideal_max_c": 21,
+      "notas": "Clemson: le va bien a 10-21 °C de día (50-70 °F) y 3-6 °C menos de noche; el frescor y la humedad alta previenen plagas aunque crece más despacio. Illinois Extension también pide temperaturas frescas. UF/IFAS: con más de 29 °C (85 °F) aparecen bordes marrones y araña roja, y el calor frena el crecimiento y el enraizamiento. Contradicción: para interiores con muy poca luz UF/IFAS recomienda 21-27 °C; se adopta el rango fresco de Clemson, más conservador frente a la araña roja, y como límite superior 29 °C. El mínimo de 7 °C es para plantas criadas en interior; la especie es rústica al aire libre (RHS H5) si se aclimata poco a poco.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato universal para plantas de interior de buena calidad, rico y que drene bien (Clemson). Una mezcla de 40-60 % de turba con perlita y vermiculita (UF/IFAS, para enraizado y producción) es una buena referencia; se puede añadir un 20-30 % de perlita al sustrato comercial.",
+      "ph": "5,5-6,5 (UF/IFAS, sustrato de producción)",
+      "drenaje": "Imprescindible: maceta con agujeros y sustrato que se seque con rapidez. Un sustrato que no drena causa pudrición de raíz (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes de interior",
+      "npk": "Proporción N-P2O5-K2O de 3-1-2 o 2-1-2 (UF/IFAS, producción)",
+      "primavera_verano": "Una vez al mes, mientras crece activamente, a ¼-½ de la dosis de la etiqueta (Clemson: mensual). No abonar si el crecimiento se para con el calor del verano (Clemson).",
+      "otono_invierno": "Nada mientras no crezca o esté en una habitación fresca (Clemson).",
+      "notas": "No abonar ni trasplantar las primeras 4 semanas tras la compra (UF/IFAS). Las sales acumuladas queman las hojas: si aparecen bordes quemados, lavar el sustrato con agua abundante antes de volver a abonar (UF/IFAS). El exceso de abono con poca luz da tallos largos y débiles (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cuando lo pida la planta, normalmente cada 1-2 años en ejemplares jóvenes.",
+      "epoca": "Preferiblemente primavera; UF/IFAS indica que se puede trasplantar en cualquier época si está apretada, pero no en las 4 primeras semanas tras la compra.",
+      "senales": "Planta que vuelca por el peso de la parte aérea, raíces que llenan la maceta o salen por los agujeros, o sustrato que se seca demasiado rápido (Clemson). La maceta nueva no debe ser más de 2,5 cm (1 in) mayor de diámetro: una maceta demasiado grande mantiene el sustrato húmedo y pudre las raíces (Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Sí, despuntes frecuentes para que ramifique y no se quede desnuda en la base (Illinois Extension, UF/IFAS). Se mantiene fácilmente al tamaño deseado (Clemson).",
+      "epoca": "Todo el año con crecimiento activo; la poda más fuerte, en primavera.",
+      "como": "Pinzar o cortar las puntas de los tallos largos justo por encima de un nudo; eliminar tallos secos y partes con plaga (Clemson). En topiarias, podar a menudo para mantener la forma (Clemson). Usar guantes: la savia irrita la piel (Clemson, NC State). Los esquejes de la poda sirven para propagar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F8",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño e invierno (aprox. de noviembre a febrero en el hemisferio norte; de mayo a agosto en el hemisferio sur). También puede pararse en pleno verano con mucho calor (Clemson).",
+      "cambios": "No es un reposo estricto: no pierde hojas, solo crece más despacio. Suspender el abono mientras no crece (Clemson), espaciar el riego dejando secar algo más la capa superior y mantenerla fresca (10-18 °C) y con luz, lejos de radiadores.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de punta",
+        "esqueje de un nudo",
+        "esqueje en agua",
+        "acodo"
+      ],
+      "epoca": "Primavera y verano; con calor moderado (21-30 °C) enraíza mejor (UF/IFAS).",
+      "pasos": "1) Cortar esquejes de punta de 8-10 cm o trozos de tallo con un nudo y su hoja (UF/IFAS: los de un nudo enraízan fácilmente). 2) Quitar las hojas de la parte que irá enterrada. 3) Ponerlos en agua, donde casi todas las hiedras enraízan con facilidad (Clemson), o en una mezcla a partes iguales de turba y perlita o vermiculita húmeda (UF/IFAS). 4) Mantenerlos a 21-30 °C, con luz brillante sin sol directo y humedad alta (UF/IFAS los enraíza bajo nebulización a 1.000-1.500 fc). 5) Cuando tengan raíces de 2-3 cm, plantar varios esquejes juntos en una maceta pequeña para que quede tupida. Acodo: los tallos que tocan el sustrato enraízan en los nudos (Missouri Botanical Garden); sujetar un nudo sobre una maceta con sustrato y cortar cuando haya enraizado.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), la plaga más grave de la hiedra en interior (Illinois Extension, Missouri Botanical Garden, CT Agricultural Experiment Station). Se dispara con aire cálido y seco, es decir, con calefacción o en verano. Revisar el envés de las hojas cada semana. Tratamiento: aislar la planta, ducharla con agua tibia, subir la humedad con humidificador y bajar la temperatura. Si hace falta un producto, usar solo uno listo para usar de uso no profesional inscrito en el Registro del MAPA para plantas de interior. Precaución con el jabón potásico: UConn IPM incluye la hiedra ornamental entre las plantas que pueden sufrir fitotoxicidad (manchas, puntas quemadas), aunque UF/IFAS y Clemson lo usan en hiedra. Probarlo antes en unas pocas hojas y esperar 24 h, y no aplicarlo nunca a más de 32 °C ni con la planta estresada por sequía (UConn IPM). Repetir aplicaciones según la etiqueta."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Moteado amarillento de las hojas, síntoma típico de la alimentación de la araña roja en el envés (CT Agricultural Experiment Station); a menudo aparece antes que la telaraña. Las mismas medidas que en S24."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por calor por encima de 29 °C y araña roja (UF/IFAS), o por sales de abono acumuladas (UF/IFAS: quemadura de hoja). Llevarla a un lugar más fresco, revisar si hay ácaros y lavar el sustrato. En Madrid no se debe al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas quemadas por exceso de sales de abono (UF/IFAS), riego irregular o aire muy seco con calefacción. Lavar el sustrato con agua abundante, reducir el abono y regar según el sustrato."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíz por riegos demasiado frecuentes, sustrato que no drena o maceta demasiado grande (Clemson). La planta amarillea y se marchita aunque el sustrato esté húmedo."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Marchitez por sequía del cepellón (frecuente en cestas colgantes junto a calefacción) o, con el sustrato húmedo, por pudrición de raíz (Clemson). Comprobar con el dedo antes de regar."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (Planococcus citri), frecuente en hiedras de interior, con masas blancas en axilas y envés (CT Agricultural Experiment Station, Clemson). Retirar con bastoncillo, podar las partes muy afectadas y usar un producto de uso doméstico autorizado. Varias aplicaciones."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo: cochinilla parda blanda (Coccus hesperidum) y cochinilla de la adelfa (Aspidiotus nerii) en hojas y tallos (CT Agricultural Experiment Station, Clemson, NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón de la hiedra (Aphis hederae) en brotes tiernos (CT Agricultural Experiment Station, Clemson)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de pulgones o cochinillas (CT Agricultural Experiment Station). Buscar la plaga en brotes, envés y tallos."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Negrilla que crece sobre la melaza de pulgones y cochinillas (CT Agricultural Experiment Station). Limpiar con un paño húmedo y eliminar la plaga que la origina."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca, citada entre las plagas habituales de la hiedra en interior (Clemson)."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha bacteriana (Xanthomonas): manchas empapadas, verde pálido con borde amarillo, que pasan a marrón o negro; en el pecíolo da lesiones negras y la hoja se marchita (CT Agricultural Experiment Station, UF/IFAS). Se ve favorecida por mojar las hojas. Retirar las hojas afectadas, regar al sustrato sin mojar el follaje y mejorar la ventilación."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Fase avanzada de la mancha bacteriana por Xanthomonas: las manchas empapadas se vuelven negras (CT Agricultural Experiment Station). Las mismas medidas que en S14."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas foliares fúngicas (Phyllosticta, Glomerella): manchas tostadas circulares, a veces con anillos (CT Agricultural Experiment Station). También quemaduras por sol directo tras el cristal, o daños de frío (manchas papiráceas marrones en el margen) en plantas expuestas a heladas (CT Agricultural Experiment Station)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Crecimiento fino y largo por poca luz combinada con exceso de agua y abono (UF/IFAS). Llevarla a un sitio más luminoso, reducir el riego y el abono y despuntar."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Los cultivares variegados reverdecen con poca luz (Clemson, UF/IFAS); en hojas viejas también ocurre con la edad. Algunos cultivares inestables cambian de forma o color: podar los brotes que revierten (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento con calor alto (UF/IFAS, frecuente en verano) o en habitaciones frescas en invierno (Clemson). Con calor, buscar un sitio más fresco y ventilado; no abonar mientras no crezca."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (Erysiphe), citado sobre todo en hiedra cultivada al aire libre (CT Agricultural Experiment Station, NC State, Missouri Botanical Garden). Retirar las hojas afectadas y separar las plantas para que circule el aire."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C la hiedra sufre: por encima de 29 °C aparecen bordes marrones y se dispara la araña roja (UF/IFAS). Ponerla en la habitación más fresca de la casa, lejos de ventanas sur y oeste y sin sol directo tras el cristal. Ventilar a primera hora, revisar el envés cada semana y comprobar el sustrato cada 3-5 días. No aplicar jabón potásico con más de 32 °C (UConn IPM). Si el crecimiento se para con el calor, no abonar (Clemson).",
+    "invierno": "La calefacción, con humedad interior por debajo del 30 %, es el principal riesgo: aire cálido y seco equivale a araña roja (CT Agricultural Experiment Station, Clemson). Lo ideal es una habitación luminosa y fresca, entre 10 y 18 °C (dormitorio poco caldeado, pasillo o galería con luz), lejos de radiadores, con humidificador si el ambiente es seco. Tolera bien el fresco junto a un cristal frío, siempre que no baje de unos 7 °C ni toque el vidrio en noches de helada. Sin abono y con riegos espaciados.",
+    "ubicacion_recomendada": "A 0,5-1 m de una ventana este o norte, o a 1-2 m de una ventana sur u oeste con visillo, en una estancia fresca y ventilada, sin corrientes de aire caliente. Muy adecuada colgante en cesta o en estantería, siempre fuera del alcance de perros, gatos y niños. Es una especie nativa de España y rústica al aire libre (POWO, RHS): en un balcón o patio a la sombra puede vivir fuera todo el año si se aclimata poco a poco."
+  },
+  "lagunas": [
+    "Nomenclatura: nombre aceptado en POWO Hedera helix L. (1753); sinónimos citados por POWO y RHS: Hedera poetica Salisb., Hedera helix var. vulgaris DC., Hedera burgalensis, Hedera caucasigena. NC State cita como nombres antiguos Hedera communis y Hedera poetica. POWO trata Hedera hibernica (antes H. helix f. hibernica o 'Hibernica') como especie distinta, y en el comercio se venden ambas como 'hiedra'.",
+    "Humedad: ninguna fuente prioritaria da un porcentaje mínimo o ideal para interior (Clemson dice 'moderada' tolerando la baja habitual; Illinois 'baja a media'; UF/IFAS solo da 60-100 % para producción en invernadero). min_pct e ideal_pct quedan en null.",
+    "Temperatura mínima en interior: Clemson da 10-21 °C de día y 3-6 °C menos de noche, pero no un mínimo absoluto; el valor de 7 °C se deduce de esa cifra.",
+    "pH: el único valor (5,5-6,5) procede de UF/IFAS para sustrato de enraizado y producción; no se encontró pH recomendado específicamente para maceta doméstica.",
+    "Sensibilidad al jabón potásico: UConn IPM lista la 'hiedra ornamental' como posiblemente sensible, sin datos de qué cultivares ni a qué concentración; UF/IFAS y Clemson sí lo emplean (lavado con solución jabonosa al 1 %). No se encontró ensayo de fitotoxicidad específico en Hedera helix.",
+    "Rasgos para diferenciar Hedera helix de H. hibernica y H. canariensis/algeriensis: las fuentes consultadas no describen los caracteres morfológicos de separación (pelos estrellados o escamosos); las diferencias de tamaño de hoja indicadas son orientativas.",
+    "No se encontró en el Registro del MAPA una lista de productos de uso no profesional específicamente autorizados para ácaros en hiedra de interior; la recomendación queda genérica."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/hedera-helix/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://hgic.clemson.edu/factsheet/growing-english-ivy-indoors/",
+      "institucion": "Clemson Cooperative Extension – Home & Garden Information Center (HGIC)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/EP243",
+      "institucion": "University of Florida IFAS Extension (EDIS) – ENH990/EP243 Cultural Guidelines for Commercial Production of Interiorscape Hedera",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276595",
+      "institucion": "Missouri Botanical Garden – Plant Finder",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/43091/hedera-helix/details",
+      "institucion": "Royal Horticultural Society (RHS) – Plant profile Hedera helix",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://powo.science.kew.org/taxon/90723-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://extension.illinois.edu/houseplants/english-ivy",
+      "institucion": "University of Illinois Extension – Houseplants: English Ivy",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://portal.ct.gov/caes/plant-pest-handbook/pphi/ivy-english-hedera",
+      "institucion": "Connecticut Agricultural Experiment Station – Plant Pest Handbook: Ivy, English (Hedera)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://ipm.cahnr.uconn.edu/wp-content/uploads/sites/3216/2023/10/2023insecticidalsoapfactsheetfinal.pdf",
+      "institucion": "University of Connecticut – UConn IPM, Insecticidal Soaps fact sheet (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

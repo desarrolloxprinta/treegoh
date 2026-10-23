@@ -1,0 +1,320 @@
+{
+  "nombre_cientifico": "Guzmania lingulata",
+  "nombres_comunes": [
+    "guzmania",
+    "bromelia guzmania",
+    "estrella escarlata"
+  ],
+  "familia": "Bromeliaceae",
+  "origen": "Sureste de México, Centroamérica, Antillas y Sudamérica tropical (Colombia, Venezuela, Guayanas, Ecuador, Perú, Bolivia, norte de Brasil); introducida en Bermudas (POWO, NC State).",
+  "clima_nativo": "Tropical húmedo de selva: crece como epífita sobre árboles en bosques lluviosos, con calor estable, humedad ambiental alta y luz filtrada por el dosel; recoge agua de lluvia en el vaso central de la roseta (NC State, POWO, RHS).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 4,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples en roseta basal, acintadas a lanceoladas, de hasta unos 45 cm, coriáceas, rígidas, brillantes y de margen entero SIN espinas ni dientes. Las bases se solapan formando un embudo o 'vaso' central que retiene agua; el color puede cambiar hacia el centro del vaso. Inflorescencia en el centro de la roseta: cabeza en forma de estrella o antorcha de brácteas rojas, naranjas, amarillas, rosadas o granates (según cultivar), con hasta unas 50 flores pequeñas blancas, tubulares, metidas entre las brácteas. La floración vistosa dura 2-4 meses (NC State).",
+    "nerviacion": "Paralela, típica de monocotiledónea; sin nervio central marcado ni red de venas visible.",
+    "variegacion": "La especie tiene hojas verdes lisas, generalmente sin dibujos ni bandas. Algunos cultivares e híbridos comerciales tienen hojas estriadas o variegadas (Clemson para el género).",
+    "tallo": "Sin tallo visible (planta acaule): la roseta nace directamente del cuello; el escapo floral sale del centro del vaso. Los hijuelos aparecen entre las hojas basales.",
+    "habito": "Epífita en roseta en forma de vaso o embudo, que forma matas por hijuelos. Monocárpica: cada roseta florece una sola vez y después decae poco a poco mientras produce hijuelos.",
+    "tamano_adulto_interior": "30-60 cm de alto y de ancho, con la inflorescencia (NC State). Crecimiento lento.",
+    "confusiones": [
+      {
+        "especie": "Vriesea splendens y otras Vriesea",
+        "rasgo_diferenciador": "Vriesea suele tener la inflorescencia en espiga plana en forma de espada (brácteas aplanadas y superpuestas en dos filas) y a menudo hojas con bandas transversales oscuras; Guzmania lingulata tiene brácteas en roseta o estrella alrededor de un capítulo y hojas verdes lisas (RHS, NC State)."
+      },
+      {
+        "especie": "Aechmea fasciata (planta urna)",
+        "rasgo_diferenciador": "Aechmea tiene hojas con espinas en el margen y cubiertas de escamas plateadas en bandas, y brácteas rosas en una espiga densa con flores azuladas; Guzmania tiene hojas verdes brillantes sin espinas (Clemson, RHS)."
+      },
+      {
+        "especie": "Tillandsia cyanea (clavel del aire rosa)",
+        "rasgo_diferenciador": "Hojas estrechas, finas y arqueadas, sin vaso que retenga agua, e inflorescencia en 'pala' aplanada de brácteas rosas de la que salen flores grandes violetas; en Guzmania las flores son pequeñas y blancas (Clemson, RHS)."
+      },
+      {
+        "especie": "Neoregelia carolinae",
+        "rasgo_diferenciador": "El centro de la roseta se tiñe de rojo intenso en la floración y las flores quedan hundidas a ras del agua del vaso, sin escapo; sus hojas suelen tener espinitas en el margen. Guzmania levanta una inflorescencia de brácteas por encima de las hojas (RHS, Clemson)."
+      },
+      {
+        "especie": "Cryptanthus zonatus (estrella de tierra)",
+        "rasgo_diferenciador": "Roseta plana pegada al suelo, hojas con bandas plateadas en zigzag y margen ondulado-dentado, sin vaso y con flores poco vistosas; es terrestre (NC State la cita como confusión; Clemson)."
+      },
+      {
+        "especie": "Tradescantia spathacea (moisés en la cuna)",
+        "rasgo_diferenciador": "Familia Commelinaceae: hojas carnosas con el envés morado intenso, flores blancas diminutas dentro de brácteas en forma de barquita en las axilas de la base, y tallo corto visible; no forma vaso ni tiene inflorescencia central vistosa (NC State la cita como confusión)."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No tóxica para perros ni gatos (ASPCA, ficha 'Orange Star', Guzmania lingulata minor: 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'; NC State la etiqueta como no tóxica para perros, gatos y caballos; la Universidad de Illinois la lista como no tóxica para perros y gatos). Si un animal come mucha hoja puede tener una molestia digestiva leve y pasajera, como con cualquier materia vegetal. En personas no se ha encontrado ficha de un centro de toxicología ni de una fuente prioritaria: se marca 'desconocida' por prudencia, aunque no hay indicios de toxicidad. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F1",
+      "F8"
+    ],
+    "notas": "Perros y gatos: Alta (ASPCA, NC State y Univ. de Illinois coinciden). La ficha de la ASPCA es para G. lingulata var. minor, variedad aceptada por POWO dentro de la misma especie. Niños: sin fuente fiable; véase lagunas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste (NYBG) o norte muy luminosa, a 1-2 m del cristal. En ventanas sur u oeste, tamizar con cortina fina en primavera-verano. Evitar el sol directo de mediodía.",
+      "tolera_sol_directo": "No. El sol fuerte de verano quema y blanquea las hojas (RHS: hojas blanqueadas o pardas por quemadura). Como mucho, sol suave de primera hora de la mañana. Una planta amarillenta o verde pálida indica exceso de luz; hojas verde oscuro, blandas y caídas indican falta de luz (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F6",
+        "F4",
+        "F1"
+      ],
+      "notas": "Las fuentes varían en intensidad: NC State la da como tolerante de sombra parcial a profunda y de luz artificial; UF/IFAS dice que sobrevive (sin crecer) semanas con muy poca luz y prospera con luz brillante difusa sin sol directo; Clemson pide 'luz moderada' para Guzmania; NYBG da como óptimo unos 1.800 fc (≈19.400 lux) de luz brillante sin sol directo para conservar el color. Se adopta la opción conservadora: luz brillante indirecta, lux_max = techo de la luz indirecta de la escala del proyecto (1.000 fc ≈ 10.760 lux) para no arriesgar quemaduras; lux_min = 100 fc (≈1.076 lux), por debajo de lo cual solo se mantiene. Para que el hijuelo llegue a florecer necesita la parte alta del rango."
+    },
+    "riego": {
+      "criterio": "Tiene dos reservas de agua. 1) Vaso central: mantener algo de agua dentro durante la temporada cálida (RHS, Clemson, NC State) y vaciarlo y renovarlo cada 1-2 meses como máximo (RHS) para que no se estanque; al rellenarlo, que el agua no empape el sustrato (Clemson). 2) Sustrato: regar solo cuando los 2-3 cm superiores estén secos al tacto y la maceta pese claramente menos que recién regada (Clemson: dejar secar el sustrato entre riegos; NC State: regar las raíces con moderación). Regar poco a poco, dejar escurrir y vaciar el plato a los 10-15 minutos. Nunca por calendario ni con la maceta encharcada: sus raíces son pequeñas y sobre todo de anclaje, y se pudren con facilidad.",
+      "primavera_verano": "Vaso con agua de forma continua, sobre todo en verano (NC State); comprobar cada pocos días que no se ha secado y renovarlo al menos cada 1-2 meses (con calor, mejor cada 2-4 semanas para que no huela). Sustrato ligeramente húmedo pero nunca empapado (RHS: 'damp but not soggy'); regar cuando se cumpla el criterio del dedo y el peso.",
+      "otono_invierno": "Regar el sustrato con más moderación, dejándolo secar entre riegos (RHS). Con poca luz o si la habitación baja de unos 15 °C, dejar el vaso con muy poca agua o vacío y solo humedecer el sustrato, porque el agua fría estancada en la roseta favorece la pudrición. Vaciar el vaso siempre si la planta puede quedar por debajo de 4-5 °C (UF/IFAS: el frío deja una línea parda en las hojas al nivel del agua).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "RHS recomienda idealmente agua de lluvia o destilada para el vaso, porque el agua dura deja marcas y sales. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve; dejarla reposar no elimina la cloramina, pero no hace falta. Usar agua a temperatura ambiente, nunca fría. Renovar el agua del vaso arrastra las sales que deja la evaporación (UF/IFAS, Clemson).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F1",
+        "F5",
+        "F6"
+      ],
+      "notas": "Contradicción: RHS, Clemson y NC State piden mantener el vaso con agua; UF/IFAS describe llenar el vaso al regar y después vaciarlo, y NYBG pide que el sustrato no llegue a secarse del todo, frente a Clemson, que pide dejarlo secar entre riegos. Opción conservadora adoptada: agua en el vaso con renovación frecuente en la época cálida y muy poca o ninguna con frío o poca luz; sustrato regado solo cuando la capa superior está seca, sin dejar que el cepellón se seque por completo durante semanas. Tolera bien periodos secos (UF/IFAS), por eso la sensibilidad a la sequía es baja; el exceso de agua y el encharcamiento causan pudrición de raíces y puntas pardas (RHS, Clemson, UF/IFAS). Tras la floración seguir regando igual para que la roseta madre produzca hijuelos (RHS)."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes piden aire húmedo de forma constante (Clemson: Guzmania es más sensible que muchas bromelias y necesita 'aire constantemente húmedo' con buena ventilación; RHS: le gusta el aire húmedo, baño o cocina luminosos; NC State: humidificador o bandeja con guijarros húmedos), pero ninguna da un porcentaje. Según la convención del proyecto, pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas; en bandeja de guijarros el agua debe quedar por debajo de la base de la maceta (RHS). Mantener buena circulación de aire.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F1"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 29,
+      "ideal_min_c": 16,
+      "ideal_max_c": 21,
+      "notas": "RHS: mínimo 10 °C en invierno; unos 21 °C en verano favorecen la floración, y una vez formada la inflorescencia unos 12 °C la hacen durar más. Clemson: las bromelias prefieren 15,5-29,4 °C (60-85 °F) y Guzmania necesita temperatura cálida y estable; NYBG: 13-29 °C (55-85 °F), evitando extremos y corrientes. Mantener lejos de radiadores, salidas de aire y corrientes frías (RHS). Por encima de 29 °C no hay datos de tolerancia: con más calor, extremar la sombra, la ventilación y la humedad. Vaciar el vaso si puede bajar de 4-5 °C (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F5"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada para epífitas: a partes iguales corteza fina compostada (o sustrato de orquídeas), grava fina y fibra de coco; o a partes iguales corteza fina y sustrato universal sin turba; o sustrato comercial para bromelias u orquídeas (RHS, NC State). El aire debe llegar a las raíces (NC State).",
+      "ph": null,
+      "drenaje": "Imprescindible y muy rápido: el sustrato no debe retener agua ni quedar empapado nunca (RHS, Clemson). Maceta pequeña con agujeros de drenaje; las raíces se pudren en sustrato húmedo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F1",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado o bajo en nitrógeno, muy diluido. Puede omitirse: en interior rara vez hace falta (UF/IFAS, RHS).",
+      "npk": null,
+      "primavera_verano": "Si se abona, ¼-½ de la dosis de etiqueta una vez al mes como máximo, solo con crecimiento activo, aplicado al sustrato húmedo. Si se echa en el vaso (RHS, NC State), usar la dilución más baja y renovar el agua del vaso unas semanas después para que no se acumulen sales. Nunca abono sólido ni granulado en el vaso: quema las hojas (RHS).",
+      "otono_invierno": "Nada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F4",
+        "F2"
+      ],
+      "notas": "Contradicción en el lugar de aplicación: RHS, NC State y NYBG aplican el abono diluido en el vaso central; UF/IFAS aconseja no echarlo en el vaso porque las sales se acumulan y queman las hojas nuevas, y aplicarlo al sustrato cada 1-2 meses a 1/3-½ de la dosis. Opción conservadora: al sustrato, muy diluido. El exceso de abono puede apagar el color de las hojas (RHS)."
+    },
+    "trasplante": {
+      "frecuencia": "Rara vez. Sistema radicular pequeño: solo cuando la planta ha superado su maceta, se vuelca por el peso o las rosetas se amontonan. La planta comprada en flor no necesita trasplante; lo habitual es trasplantar los hijuelos al separarlos.",
+      "epoca": "Verano (RHS), con calor; en hemisferio norte de mayo a agosto.",
+      "senales": "La maceta vuelca por el peso de la roseta, rosetas apiñadas o sustrato descompuesto que ya no drena. Usar una maceta solo un poco mayor: la mayoría van bien en 7,5-12,5 cm de diámetro y las grandes en unos 17,5 cm; plantar al mismo nivel que antes (RHS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda ni guía (RHS). Solo limpieza de la inflorescencia seca y de la roseta madre cuando muere.",
+      "epoca": "Cuando la inflorescencia se seca (tras 2-4 meses de floración) y cuando la roseta madre está seca, normalmente uno o dos años después de florecer.",
+      "como": "Cortar el escapo floral seco por su base con una tijera limpia. La roseta madre que amarillea y se seca tras florecer es un proceso natural (monocarpismo), no un problema que tratar: dejarla mientras siga verde porque alimenta a los hijuelos, y retirarla cuando esté seca o cuando se separen los hijuelos (RHS, UF/IFAS). Quitar hojas secas tirando suavemente o cortándolas por la base.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F1"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero. En otoño-invierno (hemisferio norte) crece menos: regar el sustrato con más moderación, menos o ninguna agua en el vaso si hace fresco o hay poca luz, y no abonar (RHS, UF/IFAS).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos (división)",
+        "semilla (muy lenta, poco práctica)"
+      ],
+      "epoca": "Separar hijuelos en primavera (RHS: abril o mayo en el Reino Unido; en Madrid, de abril a junio).",
+      "pasos": "1) Tras la floración, seguir regando: la roseta madre produce hijuelos en la base (las plantas compradas en flor rara vez los traen al principio). 2) Esperar a que el hijuelo tenga al menos un tercio del tamaño de la madre (RHS, NC State; UF/IFAS espera a la mitad); es mejor esperar de más que separarlo pequeño. 3) Con un cuchillo afilado y limpio, cortar el hijuelo por su unión con la madre, con las raíces que tenga. 4) Plantarlo en maceta pequeña con la mezcla para bromelias al mismo nivel. 5) Ponerlo en sitio cálido y luminoso sin sol directo, cubierto con bolsa transparente o en propagador para mantener humedad (RHS). 6) Si solo hay un hijuelo, puede dejarse crecer en la maceta y retirar la roseta madre seca. Un hijuelo tarda en torno a un año o más en madurar y florecer (UF/IFAS). La semilla requiere polinización manual y tarda cinco años o más en florecer (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F5",
+        "F2",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Tras florecer, la roseta madre amarillea y se seca poco a poco: es su ciclo natural (monocárpica), no una enfermedad. No hay que tratarla; seguir regando para que salgan hijuelos (RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Exceso de riego o encharcamiento del sustrato (RHS); también aire muy seco con calefacción y acumulación de sales de abono en el vaso. No se debe al cloro ni al flúor del agua de Madrid."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Sustrato que no drena o riegos demasiado frecuentes; es el problema más común de las bromelias en casa (Clemson, UF/IFAS, RHS)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición de la base de la roseta por agua fría o estancada mucho tiempo en el vaso y sustrato siempre mojado, sobre todo en invierno con poca luz. Vaciar el vaso, dejar secar el sustrato y no volver a llenar hasta que haga calor."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo en verano: hojas blanqueadas o pardas (RHS)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Planta amarillenta o verde pálida en conjunto: luz demasiado intensa (UF/IFAS). Si ocurre después de florecer, ver S02."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas verde oscuro, blandas y caídas: falta de luz (UF/IFAS). Si además la base está blanda, sospechar pudrición (S15)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Línea parda a la altura del nivel del agua del vaso por frío (UF/IFAS), quemaduras por sol, o manchas foliares (NC State)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, una de las plagas más frecuentes de las bromelias (Clemson, NC State, RHS, UF/IFAS); se esconde en las axilas de las hojas y en la base de la roseta. Retirarla a mano y, si persiste, usar solo un insecticida listo para usar de uso no profesional autorizado en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, la otra plaga más frecuente (Clemson, NC State, RHS, UF/IFAS); escudos pardos en el envés y en la base de las hojas. Retirarlas a mano; si persisten, producto listo para usar de uso no profesional autorizado por el MAPA."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Ácaros o araña roja (NC State, Clemson), favorecidos por el aire seco de la calefacción o del verano madrileño."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco, apartarla de ventanas sur y oeste sin cortina (quemaduras) y de los cristales calientes; mejor luz brillante indirecta en un este o a 1-2 m de la ventana. Mantener agua en el vaso y renovarla cada 2-4 semanas para que no huela; vigilar el sustrato con el dedo y el peso porque se seca antes, pero sin encharcar. Por encima de 29 °C no hay datos de tolerancia: dar sombra, ventilación y humedad (humidificador o agrupar plantas; pulverizar no sirve). No sacarla al exterior en pleno sol. Vigilar araña roja con el aire seco.",
+    "invierno": "Con calefacción y humedad interior a menudo por debajo del 30 %, alejarla de radiadores y salidas de aire caliente (RHS) y usar humidificador o agrupar plantas. Mantener al menos 10 °C (RHS) y no pegarla a cristales fríos ni a corrientes; ventanas sur con buena luz sin quemaduras son ahora el mejor sitio. Regar el sustrato con moderación y dejar poca o ninguna agua en el vaso si la habitación está fresca o con poca luz. Sin abono.",
+    "ubicacion_recomendada": "Junto a una ventana este u oeste con cortina fina, o un baño o cocina luminosos y cálidos (RHS), sin sol directo de mediodía, lejos de radiadores y corrientes, a 16-21 °C."
+  },
+  "lagunas": [
+    "Nomenclatura: POWO acepta Guzmania lingulata (L.) Mez (urn:lsid:ipni.org:names:115161-2), con sinónimos homotípicos Tillandsia lingulata L., Caraguata lingulata (L.) Lindl. y Tillandsia clavata D.Dietr. (nom. illeg.). POWO acepta además las variedades var. lingulata y var. minor; la ASPCA tiene su ficha como 'Guzmania lingulata minor'. Muchas plantas comerciales son híbridos y cultivares de Guzmania (Clemson), que pueden variar en tamaño y exigencias.",
+    "Ninguna fuente prioritaria da un porcentaje de humedad mínima ni ideal; solo piden 'aire húmedo' o 'constantemente húmedo'.",
+    "No hay dato de pH del sustrato en ninguna fuente consultada.",
+    "Sin datos de temperatura máxima tolerada: max_c (29 °C) es el techo del rango preferido que dan Clemson y NYBG (85 °F), no un límite de daño comprobado.",
+    "Ninguna fuente prioritaria da una frecuencia de renovación del agua del vaso más allá de 'cada 1-2 meses' (RHS) o 'periódicamente' (Clemson, UF/IFAS); la recomendación de renovarla cada 2-4 semanas con calor es una medida prudente sin fuente específica.",
+    "Toxicidad en niños/personas: no se encontró ficha de un centro de toxicología ni de una fuente prioritaria para Guzmania; se marca 'desconocida'. Solo hay fuentes de viveros que la dan como no tóxica.",
+    "Las fuentes no documentan específicamente la pudrición del cuello (S15) en Guzmania; se incluye por la sensibilidad a la pudrición de raíces que describen Clemson, RHS y UF/IFAS y por el agua estancada en el vaso.",
+    "No se pudo abrir una ficha de especie del Missouri Botanical Garden para Guzmania lingulata (no aparece en búsquedas ni en el buscador del Plant Finder)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/guzmania-lingulata/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Guzmania lingulata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/guzmania/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, género Guzmania",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/bromeliads/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center — HGIC 1501 Bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://edis.ifas.ufl.edu/publication/EP337",
+      "institucion": "UF/IFAS Extension (University of Florida) — ENH1071/EP337 Bromeliads at a Glance",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://libanswers.nybg.org/faq/222648",
+      "institucion": "New York Botanical Garden (NYBG), Plant Information Service — How do I grow Guzmania and other bromeliads?",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/orange-star",
+      "institucion": "ASPCA Animal Poison Control Center — Orange Star (Guzmania lingulata minor)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://pcf.aces.illinois.edu/crop-sciences-plant-collection/",
+      "institucion": "University of Illinois, College of ACES — Crop Sciences Plant Collection (toxicidad para mascotas)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:115161-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

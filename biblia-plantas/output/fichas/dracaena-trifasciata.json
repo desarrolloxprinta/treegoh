@@ -1,0 +1,284 @@
+{
+  "nombre_cientifico": "Dracaena trifasciata",
+  "nombres_comunes": [
+    "sansevieria",
+    "lengua de suegra",
+    "espada de San Jorge",
+    "planta serpiente"
+  ],
+  "familia": "Asparagaceae",
+  "origen": "África tropical occidental y centro-occidental: sur de Nigeria, Camerún, Gabón, Guinea Ecuatorial, República Centroafricana, Congo, R. D. del Congo y Tanzania (POWO). Sinónimo muy usado en comercio y bibliografía: Sansevieria trifasciata Prain.",
+  "clima_nativo": "Tropical estacionalmente seco; geófito rizomatoso de ambientes con estación seca marcada, adaptado a sequía y baja humedad ambiental.",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas erectas, planas, rígidas y carnosas (suculentas), en forma de espada o lanza, de hasta unos 120 cm de largo y 5-10 cm de ancho, con punta aguda; nacen en rosetas desde el rizoma, normalmente 2-6 hojas por roseta. Margen entero, sin pelos ni dientes. Superficie lisa, algo cerosa.",
+    "nerviacion": "Paralelinervia típica de monocotiledónea; los nervios no se ven en relieve. Lo visualmente dominante son las bandas transversales (horizontales) en zigzag de distintos tonos de verde, de ahí el epíteto 'trifasciata' (tres bandas).",
+    "variegacion": "Forma tipo: bandas transversales alternas verde oscuro y verde grisáceo claro. Cultivares frecuentes: 'Laurentii' (margen amarillo dorado longitudinal y zigzag verde claro), 'Futura Superba' (verde grisáceo con margen amarillo, más compacta), 'Moonshine' (gris plateado casi uniforme con margen verde oscuro estrecho), 'Bantel's Sensation' (rayas longitudinales blancas), 'Black Gold' (verde muy oscuro con borde dorado), 'Hahnii' (enana, roseta en embudo). Con poca luz las bandas se difuminan y la hoja tiende a verde oscuro uniforme.",
+    "tallo": "Sin tallo aéreo visible: crece desde un rizoma grueso subterráneo o a ras del sustrato que emite nuevas rosetas alrededor de la planta madre.",
+    "habito": "Erecto y en macolla (clumping); forma matas densas de rosetas verticales que se extienden por rizomas. Crecimiento lento a medio. Raramente florece en interior: racimos de flores tubulares blanco-verdosas o crema, fragantes, sobre un escapo largo y fino.",
+    "tamano_adulto_interior": "Habitualmente 60-120 cm de alto y 30-60 cm de ancho; la forma 'Hahnii' y otras enanas se quedan en 15-20 cm.",
+    "confusiones": [
+      {
+        "especie": "Dracaena angolensis (Sansevieria cylindrica)",
+        "rasgo_diferenciador": "Hojas cilíndricas, de sección redonda y con surcos longitudinales, no planas en forma de espada; suelen disponerse en abanico."
+      },
+      {
+        "especie": "Dracaena masoniana (Sansevieria masoniana, 'aleta de ballena')",
+        "rasgo_diferenciador": "Hojas mucho más anchas (hasta 20-25 cm) y en forma de pala, normalmente una sola hoja (o muy pocas) por roseta, con moteado claro en lugar de bandas en zigzag tan marcadas."
+      },
+      {
+        "especie": "Dracaena trifasciata 'Hahnii' (cultivar de la misma especie)",
+        "rasgo_diferenciador": "No es otra especie: roseta enana en forma de nido o embudo, con hojas cortas y anchas que se abren hacia fuera; los cuidados son los mismos."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Saponinas (presentes en hojas, raíces, savia, flores y frutos).",
+    "sintomas": "Toxicidad de gravedad baja. Ingestión: náuseas, vómitos (ocasionalmente con sangre), diarrea, pérdida de apetito, salivación excesiva, decaimiento y, en gatos, pupilas dilatadas. La savia puede irritar la piel: usar guantes al dividir o cortar hojas. Mantener fuera del alcance de niños y mascotas.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F6",
+      "F2"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 270,
+      "lux_max": 10760,
+      "orientacion_hn": "Ideal a 1-2 m de una ventana este u oeste, o junto a una ventana sur con visillo; tolera ventanas norte y rincones con poca luz, aunque allí apenas crece.",
+      "tolera_sol_directo": "Parcialmente: acepta 2-6 horas de sol directo suave (mañana o última hora) si está aclimatada; evitar el sol del mediodía en verano, que quema las hojas.",
+      "notas": "Las fuentes coinciden en que prefiere luz media a brillante indirecta y tolera luz muy baja. lux_min = 25 fc (límite inferior de 'baja' en la escala del proyecto), umbral de supervivencia; para crecimiento activo y buen contraste de bandas conviene ≥1000 lux (≈100 fc). lux_max = 1000 fc (límite superior de brillante indirecta); por encima, solo sol suave y con aclimatación progresiva. Con poca luz: hojas más largas, más blandas, tendencia a caerse o inclinarse y variegación menos marcada. Girar la maceta un cuarto de vuelta en cada riego para que no se incline hacia la luz. Los valores en lux son una traducción a la escala del proyecto; ninguna fuente da cifras numéricas propias.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F3"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco en profundidad: comprobar con el dedo a unos 5 cm (más en macetas grandes) y por el peso de la maceta, que debe notarse claramente ligera. Regar a fondo hasta que drene, vaciar el plato a los 15-20 minutos y no mojar el centro de la roseta. Nunca regar por calendario.",
+      "primavera_verano": "Con crecimiento activo, dejar secar el sustrato entre riegos; como orientación, cada 2-4 semanas según luz, temperatura y tamaño de maceta, siempre confirmando con dedo y peso.",
+      "otono_invierno": "Muy poco riego: solo lo justo para que el sustrato no se reseque por completo durante semanas; como orientación, cada 1-2 meses en interior fresco. Si está junto a calefacción y con buena luz puede necesitar algo más, siempre comprobando que el sustrato esté totalmente seco.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Tolera agua del grifo. En Madrid (Canal de Isabel II) el agua es blanda, con cloramina y flúor <0,1 mg/L: puede usarse directamente; dejarla reposar no elimina la cloramina y no es necesario. Usar agua a temperatura ambiente.",
+      "notas": "El exceso de riego es la causa principal de pudrición de raíces y de la base, y la causa nº 1 de muerte de esta planta. Ante la duda, no regar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Tolera bien la humedad baja típica de una casa con calefacción; no necesita humidificador. No pulverizar las hojas (no sirve y el agua estancada en la roseta favorece pudriciones) y evitar baños con vapor constante; agradece buena ventilación. Ninguna fuente da un porcentaje numérico.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": null,
+      "ideal_min_c": 15,
+      "ideal_max_c": 24,
+      "notas": "Rango ideal 15-24 °C (RHS). NC State indica que tolera temperaturas frescas en torno a 10 °C (50 °F); por debajo no hay que dejarla, y nunca con heladas. Evitar corrientes frías y la cercanía directa de radiadores. Con frío, el riego debe ser mínimo: frío + sustrato húmedo pudre la base. No se ha encontrado un máximo verificado en fuentes prioritarias.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas (sin turba), o 2 partes de sustrato a base de tierra/franco por 1 parte de grava fina o arena gruesa (grit). Maceta con varios agujeros de drenaje; mejor de barro o cerámica pesada, ancha, para que la planta no vuelque y el sustrato seque antes.",
+      "ph": "6,0-8,0 (neutro a ligeramente alcalino; NC State admite también >8,0)",
+      "drenaje": "Muy rápido; imprescindible. Nada de capas que retengan agua ni platos con agua estancada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5",
+        "F4"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para plantas de interior o para cactus y suculentas.",
+      "npk": null,
+      "primavera_verano": "Una vez al mes de abril a septiembre (hemisferio norte), a ¼-½ de la dosis de la etiqueta y solo si está creciendo.",
+      "otono_invierno": "No abonar.",
+      "notas": "Planta de crecimiento lento y poco exigente; el exceso de abono acumula sales en el sustrato. Ninguna fuente prioritaria especifica NPK.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada pocos años (orientativamente 2-4), solo cuando hojas y raíces llenan la maceta o empujan/deforman sus paredes; le gusta estar algo apretada.",
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte), coincidiendo con la división si se desea.",
+      "senales": "Rizomas y rosetas que ocupan toda la superficie, maceta de plástico deformada o rota por las raíces, raíces saliendo por los agujeros, planta que vuelca o sustrato que se seca en muy pocos días.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda de formación. Solo retirar hojas dañadas, podridas o muy dobladas y la vara floral seca.",
+      "epoca": "En cualquier momento para hojas dañadas; la vara floral, cuando terminan las flores.",
+      "como": "Cortar la hoja dañada desde la base con un cuchillo limpio y afilado, o la vara floral a ras de base. Usar guantes: la savia irrita la piel. Si una hoja se dobla por falta de luz, sujetarla con aro o tutor y mejorar la luz; si se inclina toda la planta, revisar la base por pudrición.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (aprox. octubre-febrero en el hemisferio norte; en Madrid, con los días cortos y fríos).",
+      "cambios": "El crecimiento se ralentiza mucho: espaciar el riego al mínimo (solo para que el sustrato no se reseque del todo durante semanas), suspender el abonado y no trasplantar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F4",
+        "F3"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de mata o hijuelos con rizoma",
+        "esqueje de hoja (secciones de hoja)"
+      ],
+      "epoca": "Primavera (marzo-mayo en el hemisferio norte), con temperatura cálida.",
+      "pasos": "División: sacar la planta, separar rosetas o hijuelos con raíces propias (con la mano o cuchillo limpio) dejando hojas en cada parte, plantar cada una en sustrato de cactus y regar poco hasta que arraigue; entutorar las secciones altas. Esqueje de hoja: cortar una hoja madura en la base y trocearla en secciones de unos 5 cm, marcando qué lado es el inferior; dejarlas 1-2 días en sitio seco para que cicatricen; enterrar la mitad inferior de cada sección (con la orientación original) en sustrato de esquejes húmedo o 50:50 sustrato y grava; dar calor de fondo de unos 18 °C o cubrir con bolsa transparente con algún agujero en lugar cálido y luz media. Enraízan en unas semanas. Importante: los esquejes de hoja de cultivares variegados (p. ej. 'Laurentii', con borde amarillo) suelen dar plantas verdes sin variegación; para conservar el cultivar, propagar por división.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato que no drena, sobre todo en invierno con frío. Es el problema principal de la especie."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Base de las hojas y rizoma blandos y oscuros por riego excesivo, agua estancada en el centro de la roseta o plato con agua, a menudo combinado con frío."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas blandas y reblandecidas como consecuencia de pudrición de raíces o base por exceso de riego; revisar raíces."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Hojas que se doblan o caen por luz insuficiente (crecen largas y blandas) o, si se inclina toda la planta, por pudrición de la base; también por larvas de otiorrinco (vine weevil) comiendo raíces."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "Bandas y variegación poco marcadas por luz baja; plantas obtenidas por esqueje de hoja de cultivares variegados que revierten a verde."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura por sol directo del mediodía en verano, sobre todo tras pasar de interior oscuro a ventana soleada sin aclimatar."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (incluida la de cola larga) escondida en la base de las hojas, dentro de la roseta."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por ambiente caluroso y seco."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo (fern scale) adherida a las hojas."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Punteado plateado por trips (banded greenhouse thrips) o por araña roja."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco la planta aguanta bien el calor y la sequedad, pero el sol del mediodía y de la tarde tras ventanas sur u oeste puede quemar las hojas: retirarla 1-2 m del cristal o usar visillo. El sustrato seca antes: comprobar con dedo y peso y regar a fondo solo cuando esté seco; no regar 'por si acaso'. Si se saca a terraza, aclimatarla de forma progresiva a semisombra y protegerla de tormentas que encharquen la maceta. Vigilar araña roja con calor seco.",
+    "invierno": "Reducir el riego al mínimo (orientativamente cada 1-2 meses, comprobando siempre que el sustrato esté totalmente seco) y no abonar. La humedad interior <30 % por la calefacción no le afecta: no pulverizar ni poner humidificador por ella. No pegarla al radiador ni al cristal frío de la ventana por la noche: debe quedar por encima de 10 °C, y frío + sustrato húmedo pudre la base. Mantenerla en el sitio más luminoso de la casa, porque los días cortos reducen mucho la luz.",
+    "ubicacion_recomendada": "Salón o dormitorio a 1-2 m de una ventana este u oeste, o junto a una ventana sur con visillo; tolera pasillos y rincones de luz baja, aunque allí no crecerá y perderá contraste. Lejos de radiadores y corrientes frías, en maceta pesada y estable fuera del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Cambio de nombre: el nombre aceptado (POWO/WCVP) es Dracaena trifasciata (Prain) Mabb. (2017); Sansevieria trifasciata Prain es sinónimo. ASPCA y RHS siguen usando Sansevieria trifasciata.",
+    "Humedad: ninguna fuente prioritaria da un porcentaje mínimo o ideal; solo que tolera humedad baja. min_pct e ideal_pct quedan en null.",
+    "Temperatura máxima: no se ha encontrado un máximo verificado en fuentes prioritarias (max_c = null). El mínimo de 10 °C procede solo de NC State; RHS da el rango ideal 15-24 °C.",
+    "Luz: ninguna fuente prioritaria consultada da cifras en fc o lux para esta especie; los valores lux_min/lux_max son una traducción de las categorías cualitativas a la escala del proyecto.",
+    "Fertilización: solo RHS da frecuencia (mensual abril-septiembre); no hay NPK específico en fuentes prioritarias.",
+    "No se pudo abrir la ficha de Missouri Botanical Garden (taxonid probado no devuelve contenido) ni la guía de producción de UF/IFAS MREC (404); no se usan."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+      "institucion": "NC State Extension – North Carolina Extension Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/sansevieria/how-to-grow-sansevieria",
+      "institucion": "Royal Horticultural Society (RHS)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/06/10/fact-sheet-sansevieria-trifasciata",
+      "institucion": "UF/IFAS Extension Nassau County (University of Florida)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://planttalk.colostate.edu/?p=1256",
+      "institucion": "Colorado State University Extension – PlantTalk Colorado",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://site.extension.uga.edu/forsyth/snake-plant-a-striking-and-durable-houseplant/",
+      "institucion": "University of Georgia Cooperative Extension (Forsyth County)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77164235-1",
+      "institucion": "Plants of the World Online (Royal Botanic Gardens, Kew)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

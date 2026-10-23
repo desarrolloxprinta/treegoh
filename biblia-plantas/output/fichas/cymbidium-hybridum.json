@@ -1,0 +1,384 @@
+{
+  "nombre_cientifico": "Cymbidium hybridum",
+  "nombres_comunes": [
+    "cymbidium",
+    "orquídea barco",
+    "orquídea de barco"
+  ],
+  "familia": "Orchidaceae",
+  "origen": "'Cymbidium hybridum' no es un nombre botánico: designa los híbridos comerciales del género Cymbidium Sw. El género es nativo de Asia tropical y subtropical (del Himalaya occidental y Pakistán a China, Japón, Corea, Indochina, Malasia, Indonesia y Filipinas) hasta Nueva Guinea y Australia (POWO, NC State); la AOS lo describe como 44 especies y NC State como 88 especies aceptadas (la diferencia se debe a criterios taxonómicos). Los híbridos grandes (estándar) derivan sobre todo de especies de flor grande del Himalaya, sudeste asiático y suroeste de China, en especial Cymbidium insigne, de altitudes elevadas y clima fresco (AOS). Los híbridos tolerantes al calor llevan C. ensifolium y especies afines (AOS).",
+  "clima_nativo": "Las especies de flor grande que están detrás de la mayoría de los híbridos modernos crecen a altitudes elevadas y prefieren condiciones frescas (AOS). Son epífitas, litófitas o semiterrestres (NC State, RHS, AOS explore); en cultivo se tratan como semiterrestres que no deben secarse del todo (AOS). Zonas USDA 10a-12b (NC State); en la escala RHS de rusticidad, H1C: se pueden sacar al exterior en verano y no soportan heladas (RHS, mínimo de la categoría 5-10 °C).",
+  "categoria": "orquidea",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas perennes, muchas, largas, estrechas, lineares o acintadas, arqueadas, de margen entero y sin pelos (NC State, AOS explore); forman un 'surtidor' o abanico de hojas del que salen las varas florales (RHS). Color correcto: verde claro amarillento; verde hierba oscuro = poca luz; amarillo pálido = exceso de luz (AOS); NC State las describe como verde vivo. Rasgo clave para visión: flores en varas erguidas, arqueadas o colgantes que salen de la base de los pseudobulbos, con 6-12 flores por vara (NC State; más en estándar), de larga duración (6-8 semanas por vara, RHS), a menudo moteadas o rayadas (RHS), con sépalos y pétalos parecidos y un labelo de tres lóbulos en forma de barca (de ahí el nombre, del griego 'kymbes') (AOS explore). Colores: blanco, rosa, rojo-burdeos, amarillo, verde lima, crema, naranja (RHS, NC State); prácticamente todos salvo morado y azul puros (AOS).",
+    "nerviacion": "Paralela, típica de monocotiledónea, a lo largo de la hoja estrecha [orientativo, sin fuente prioritaria específica de la nerviación].",
+    "variegacion": "Normalmente sin variegación: hojas verdes (NC State). Existen cultivares de colección con hojas variegadas, sobre todo en especies asiáticas tipo C. sinense [orientativo, sin fuente prioritaria]. El color está en la flor.",
+    "tallo": "Pseudobulbos prominentes, de esféricos a ovoides (RHS), en la base de las hojas y a menudo ocultos por las bases foliares persistentes (AOS explore). Raíces gruesas, carnosas y blancas (NC State, RHS, AOS explore). Crecimiento en mata (RHS: 'clump forming'); los pseudobulbos viejos sin hojas ('backbulbs') quedan en el centro de la mata (AOS).",
+    "habito": "Perenne en mata, de porte erguido a arqueado (NC State). Florece una vez al año (CSU); la mayoría de híbridos florecen de finales de otoño a primavera (RHS; AOS: de finales de octubre a mayo); algunos grupos (miniaturas tropicales) en verano (NC State). Las varas empiezan a formarse a mitad o final del verano (RHS).",
+    "tamano_adulto_interior": "Estándar: hasta 1,2 m de alto; miniatura: 30-60 cm (RHS). NC State da 30-120 cm de alto y 30-90 cm de ancho. Flores de 1,3 cm a 12,5 cm según el grupo; las estándar, 10-12,5 cm de diámetro (NC State).",
+    "confusiones": [
+      {
+        "especie": "Cymbidium asiáticos de 'hoja de hierba' (C. ensifolium, C. sinense, C. goeringii, C. kanran)",
+        "rasgo_diferenciador": "Plantas más pequeñas, de hojas más finas tipo hierba y flores pequeñas, a menudo muy perfumadas y de color discreto (NC State). Varias toleran más calor y no necesitan noches tan frescas para florecer (AOS). Para la app: si es una miniatura o un híbrido con C. ensifolium, el requisito de noches frías es menor (AOS, CSU)."
+      },
+      {
+        "especie": "Phalaenopsis (orquídea mariposa)",
+        "rasgo_diferenciador": "Phalaenopsis forma una roseta de pocas hojas anchas, planas y carnosas, sin pseudobulbos. Cymbidium tiene muchas hojas largas, estrechas y acintadas en abanico, pseudobulbos ovoides en la base y varas que salen de la base."
+      },
+      {
+        "especie": "Dendrobium tipo caña (p. ej. D. nobile)",
+        "rasgo_diferenciador": "Dendrobium tiene cañas altas y segmentadas con hojas a lo largo de la caña. Cymbidium tiene pseudobulbos cortos y redondeados casi ocultos por hojas largas acintadas."
+      },
+      {
+        "especie": "Clivia miniata y plantas de hoja acintada sin flor (Hemerocallis, Agapanthus)",
+        "rasgo_diferenciador": "Sin flor pueden parecerse por el abanico de hojas acintadas. Clivia tiene hojas más anchas, verde oscuro y brillantes, sin pseudobulbos, y flor en umbela naranja tubular; Cymbidium tiene pseudobulbos ovoides en la base y raíces blancas gruesas, y flores de orquídea con labelo [orientativo, sin fuente prioritaria para la comparación]."
+      },
+      {
+        "especie": "Híbridos con otros géneros afines o Cymbidium de flor colgante",
+        "rasgo_diferenciador": "No cambian el cuidado básico. Los Cymbidium de vara colgante, si les falta luz, sacan varas erguidas arqueadas (AOS): es un signo de poca luz, no otra especie."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "La ASPCA no tiene ficha de Cymbidium en sus listas de plantas tóxicas y no tóxicas para perros y gatos (sí de otras orquídeas, como Phalaenopsis, que figura como no tóxica), y Pet Poison Helpline tampoco tiene entrada: no hay fuente prioritaria sobre ingestión por mascotas, por lo que se deja 'desconocida'. Gardeners' World (fuente complementaria) indica 'no hay efectos tóxicos registrados'. Personas: la RHS marca el género Cymbidium (en sus fichas de C. erythraeum y de híbridos como 'Sarah Jean' y 'Dorothy Stockstill') como 'potencialmente dañino: alérgeno de la piel; usar guantes al manipular'. Es un riesgo de dermatitis de contacto, no de envenenamiento por ingestión documentado. Recomendación: usar guantes al trasplantar y dividir, lavarse las manos y mantenerla fuera del alcance de niños y animales que muerden plantas. Ante ingestión o reacción, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Media",
+    "fuentes": [
+      "F13",
+      "F5",
+      "F6",
+      "F14",
+      "F15"
+    ],
+    "notas": "Media: el aviso de alérgeno cutáneo procede de una sola institución prioritaria (RHS) y la falta de ficha en ASPCA se ha comprobado directamente en sus listas. No se marca 'no_toxica' para perros y gatos porque solo lo respalda una fuente complementaria."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 53800,
+      "lux_max": 86080,
+      "orientacion_hn": "En casa, la ventana más luminosa: este o sur (Smithsonian Gardens), con sol directo de primera hora de la mañana o última de la tarde (CSU). En verano, mejor fuera, en terraza o balcón a media sombra o sombra moteada, protegida del sol fuerte del mediodía (RHS, UC ANR, AOS novice). En invierno, la máxima luz posible: necesita buena luz todo el año, sobre todo en invierno (RHS). Norte: insuficiente para florecer [orientativo, sin fuente prioritaria explícita].",
+      "tolera_sol_directo": "Sí, sol suave de mañana o de última hora de la tarde (CSU; NC State: sol directo solo parte del día, 2-6 horas). NO el sol fuerte de verano (RHS) ni el sol pleno (AOS novice): quema las hojas. Tocar las hojas: si están calientes, hay demasiado sol (AOS novice). Al sacarla fuera en primavera, aclimatarla poco a poco para evitar quemaduras (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "F9"
+      ],
+      "notas": "Es una de las orquídeas que más luz piden. La AOS da 5000-8000 fc (50-80 % de la luz de un día claro de verano), medida para cultivo en invernadero o exterior: con la escala del proyecto (1 fc = 10,76 lux), lux_min = 53.800 lux y lux_max = 86.080 lux. Esa luz casi nunca se alcanza tras una ventana de interior, y por eso las fuentes recomiendan sacarla al exterior en la época cálida (RHS, Smithsonian Gardens, AOS novice). Señales: hoja verde claro amarillento = bien; verde oscuro = falta luz; amarillo pálido = exceso; manchas negras secas en lo alto del arco de la hoja = quemadura (AOS). La falta de luz es, tras las noches demasiado cálidas, la segunda causa de que un híbrido sano no florezca (AOS). Contradicción menor: NC State habla de 'luz brillante indirecta', mientras AOS, CSU y RHS piden la máxima luz posible sin quemar; se adopta la de AOS/CSU con protección del sol del mediodía."
+    },
+    "riego": {
+      "criterio": "Mantener el sustrato húmedo pero no encharcado: es una orquídea semiterrestre y, salvo recién trasplantada, no debe secarse del todo (AOS, AOS novice, CSU). Comprobar antes de regar: (1) dedo a 2-3 cm en el sustrato: si los primeros centímetros empiezan a estar secos, regar; si está mojado, esperar (la RHS pide que se seque un poco antes del siguiente riego); (2) peso de la maceta: ligera = toca regar; pesada = esperar. Nunca por calendario. Cómo: dejar correr agua por la maceta un minuto o más hasta empapar todo el sustrato y escurrir del todo (AOS novice); no dejar agua en el plato (RHS). Las plantas grandes y bien enraizadas gastan más agua que las recién trasplantadas (AOS).",
+      "primavera_verano": "Es cuando más agua necesita: sustrato uniformemente húmedo (AOS novice), riego abundante (NC State). Con tiempo caluroso y luminoso puede necesitar riego cada pocos días (AOS); UC ANR habla de días alternos o a diario con calor en exterior. En una terraza de Madrid en verano, comprobar peso y dedo a diario. Reducir algo el riego a finales de verano (AOS novice).",
+      "otono_invierno": "Menos agua: en otoño reducir (NC State) y en invierno mantener el sustrato apenas húmedo (AOS novice); la RHS da como orientación semanal o cada dos semanas en invierno, pero lo que manda es el peso y el dedo. Con calefacción el sustrato se seca más rápido: comprobar siempre. Mientras tenga varas y capullos, no dejar que se seque del todo [orientativo, sin fuente prioritaria específica].",
+      "sensibilidad_exceso": "media",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua templada, sin hielo (NC State, Smithsonian Gardens). No usar agua descalcificada ni destilada (AOS novice, Smithsonian Gardens). La RHS aconseja agua de lluvia o filtrada en zonas de agua dura; el agua del grifo de Madrid (Canal de Isabel II) es blanda y apta; dejarla reposar no elimina la cloramina y no hace falta. Lavar el sustrato con agua sola cada cuarto riego para arrastrar sales de abono (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "F9"
+      ],
+      "notas": "Contradicción: la AOS dice que no debe secarse nunca (salvo recién trasplantada) y la RHS que se seque 'un poco' entre riegos. Se adopta un punto intermedio conservador: regar cuando la capa superior (2-3 cm) empiece a secarse, sin dejar nunca que se seque toda la maceta ni que esté encharcada. Puntas de hoja secas y caída prematura de hojas de los pseudobulbos maduros son muy a menudo signo de falta de agua; una mata con muchos pseudobulbos sin hojas y pocas hojas en la periferia indica riego insuficiente (AOS). El exceso y el sustrato empapado pudren las raíces (NC State, CSU, RHS), sobre todo en macetas demasiado grandes (RHS)."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 60,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F9",
+        "F8"
+      ],
+      "notas": "AOS: alrededor del 50 %; Smithsonian Gardens: 50 %; CSU: 50-80 %; NC State: 40-60 %. Se adopta un mínimo del 50 % (el más conservador, coincidente en AOS, CSU y Smithsonian) y un ideal del 60 %. Cómo subirla: humidificador de habitación o agrupar plantas; bandeja con grava y agua sin que la maceta toque el agua (CSU), de efecto pequeño y local. Pulverizar no sube la humedad de forma útil (convención del proyecto). Cuidado con el exceso: con humedad alta, frío y poca ventilación aparece Botrytis en las flores; cuanto más calor, más ventilación necesita (AOS). Dejar espacio entre plantas y usar un ventilador pequeño en interior (AOS novice)."
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 30,
+      "ideal_min_c": 10,
+      "ideal_max_c": 24,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F7",
+        "F8",
+        "F9",
+        "F3"
+      ],
+      "notas": "Rango ideal: RHS 10-24 °C; AOS 10-27 °C (50-80 °F); Smithsonian Gardens 10-29 °C; CSU 13-29 °C (55-85 °F). Mínimo: se adopta min_c 10 °C (RHS en invierno 10-14 °C; Smithsonian 10 °C). La CSU da 13 °C como límite inferior de su rango preferido, pero la misma fuente pide noches de 7-10 °C (45-50 °F) durante 6-8 semanas en otoño para los estándar; por eso no se toma 13 °C como mínimo. La AOS dice que con algo de protección tolera temperaturas cercanas a 0 °C, y la RHS la clasifica H1C (exterior en verano, mínimo de categoría 5-10 °C): son valores de supervivencia en exterior, no de cultivo; nunca exponer a helada (AOS novice, UC ANR). Máximo: mantener por debajo de 30 °C en verano (RHS); la AOS admite máximas por encima de 32 °C (los '90 °F') solo durante periodos cortos y con más sombra, humedad y ventilación. FLORACIÓN (CLAVE): necesita noches frescas a finales de verano y principios de otoño para formar las varas: la AOS da noches de unos 13 °C ('mid-50s °F', máximo unos 55 °F) y, en su ficha del género, varias semanas por debajo de 12 °C; NC State, noches de 10-16 °C con días de 24-29 °C en verano; CSU, 6-8 semanas con noches de 7-10 °C en los estándar y unos 15,5 °C (60 °F) bastan en miniaturas modernas; NC State da a las miniaturas 3-5,5 °C más de tolerancia. Además hace falta diferencia entre día y noche (RHS, AOS novice, Smithsonian; NC State habla de unos 14 °C, 25 °F). Se adopta como objetivo noches de 10-13 °C durante varias semanas entre finales de agosto y octubre. CAPULLOS: mantener la planta por debajo de 15 °C mientras se desarrollan las varas para evitar que caigan los capullos (RHS); la AOS también pide días frescos con los capullos avanzados para evitar sobrecalentamiento y caída. EN FLOR: unos 21 °C; con más calor las flores duran menos (RHS). Si las noches de verano superan unos 21 °C (70 °F), conviene elegir miniaturas, más tolerantes al calor (AOS novice)."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato de corteza para orquídeas, preferiblemente uno específico para Cymbidium (RHS, NC State). Debe retener bien el agua y drenar bien (AOS): más fino y con más retención que el de Phalaenopsis o Cattleya. Ejemplos de las fuentes: 2 partes de corteza fina, 1 de corteza gruesa y 1 de perlita (Smithsonian Gardens); corteza de secuoya, carbón vegetal grueso o perlita, más musgo sphagnum sin moler o turba gruesa para retener agua (CSU); corteza de abeto, perlita y turba (UC ANR). Maceta con agujeros, con sitio para unos dos años de crecimiento (unos 10 cm más ancha que la anterior), sin pasarse de tamaño (RHS).",
+      "ph": "Ácido a neutro, sin cifra consensuada: NC State indica ácido (<6,0) y UC ANR, ácido; las fichas de planta de la RHS indican neutro.",
+      "drenaje": "Bueno pero con retención de humedad: el sustrato debe mantenerse húmedo sin encharcarse (AOS, CSU, NC State). La corteza se degrada con el tiempo y deja de drenar (RHS): por eso se cambia cada 2-3 años.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F7",
+        "F8",
+        "F9"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble para orquídeas (RHS, CSU, AOS). En crecimiento, equilibrado; desde mediados de agosto, sin exceso de nitrógeno y con más potasio para favorecer la floración (AOS, RHS).",
+      "npk": "Equilibrado tipo 20-20-20 en crecimiento (CSU, AOS novice, Smithsonian Gardens); en verano-otoño, abono para orquídeas rico en potasio (RHS). Evitar fórmulas altas en nitrógeno de mediados de agosto a principios de primavera (AOS; UC ANR también desaconseja alto nitrógeno).",
+      "primavera_verano": "Convención del proyecto: ¼-½ de la dosis de la etiqueta, una vez al mes, solo con crecimiento activo (brotes y hojas nuevas, de primavera a verano). Con el mismo ritmo, regar con agua sola y abundante para lavar sales (RHS).",
+      "otono_invierno": "Desde finales de verano, cambiar a abono rico en potasio a la misma dosis reducida mientras se forman las varas (RHS, AOS) [la frecuencia mensual es convención del proyecto]. En invierno, nada (RHS: parar del todo o solo ocasionalmente).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F9"
+      ],
+      "notas": "Las fuentes coinciden en que es una orquídea muy comedora, que admite más abono que otras (AOS), y dan frecuencias bastante más altas que la convención del proyecto: AOS, ½ dosis con los riegos habituales; RHS, ½ dosis en 3 de cada 4 riegos; AOS novice, cada dos semanas de marzo a septiembre y cada 3-4 semanas en otoño e invierno; CSU, frecuente en crecimiento y 1/3 de dosis en invierno-primavera; NC State, cada 1-2 semanas; Smithsonian, ¼ de dosis dos veces por semana. Se adopta la convención del proyecto (la opción más conservadora para la planta) y se anota como contradicción. Si la planta crece bien pero da pocas varas tras uno o dos años con luz y noches frescas correctas, se puede valorar subir la frecuencia dentro de las dosis diluidas de las fuentes [orientativo, sin fuente prioritaria]."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (AOS, CSU, Smithsonian Gardens); la RHS dice al menos cada dos años, y que una planta recién comprada puede seguir en su maceta los primeros dos años. No le gusta que la molesten: solo cuando haga falta (AOS).",
+      "epoca": "Primavera, justo después de florecer y antes de que empiece el brote nuevo (RHS, AOS, AOS novice). Cuanto antes tras la floración, más tiempo de crecimiento antes de la formación de varas en otoño (AOS).",
+      "senales": "Sustrato descompuesto (AOS, RHS), planta que no cabe en la maceta (AOS, Smithsonian) o mata muy apretada (RHS), pseudobulbos muertos y marrones (RHS). Cómo: sacar la planta, quitar la corteza vieja, cortar con herramienta desinfectada las raíces muertas o podridas (marrones, blandas, arrugadas o huecas) y acortar las sanas (blancas y firmes) a 15-20 cm (RHS); colocarla a la misma altura que estaba, con el sustrato cubriendo apenas la base redondeada del pseudobulbo (AOS), y apretar bien: debe poder levantarse por las hojas sin que se salga (AOS, RHS). Si no se divide, molestar lo mínimo (AOS). Regar bien al acabar y dejar escurrir (RHS). Usar guantes: la RHS la marca como alérgeno de la piel.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F7",
+        "F9",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca: solo cortar las varas florales pasadas y retirar hojas muertas (RHS, UC ANR).",
+      "epoca": "Cuando todas las flores de la vara se han marchitado (RHS, AOS novice, Smithsonian Gardens).",
+      "como": "Cortar la vara por la base con tijeras limpias (RHS, Smithsonian Gardens, AOS novice). Retirar hojas secas y, al trasplantar, las raíces marrones (no las blanquecinas) (UC ANR). Mientras crecen, entutorar las varas con cañas clavadas en el centro de la mata para no dañar las raíces nuevas del borde (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F3",
+        "F9",
+        "F10"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "No tiene un reposo completo, sino dos fases: enfriamiento de finales de verano a otoño (varias semanas de noches frescas para formar las varas) e invierno con menos riego y sin abono (AOS, AOS novice, RHS, CSU).",
+      "cambios": "Finales de verano-otoño: noches de 10-13 °C, mucha luz, algo menos de riego (AOS novice) y sin abono rico en nitrógeno (AOS). Invierno: sustrato apenas húmedo (AOS novice), sin abono (RHS), 10-14 °C (RHS) y la máxima luz. No es un reposo seco: no dejar que se seque del todo (AOS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de la mata",
+        "pseudobulbos traseros sin hojas (backbulbs)"
+      ],
+      "epoca": "Primavera, al trasplantar tras la floración (RHS, AOS, UC ANR).",
+      "pasos": "DIVISIÓN: sacar la planta y cortar la mata en trozos serrando el centro con un cuchillo viejo (RHS). Cada trozo debe tener al menos cinco pseudobulbos sanos (RHS; AOS: 5-6 con hojas, nunca menos de tres, o se pierde una temporada de floración). Desechar lo viejo o arrugado y plantar cada trozo en sustrato de corteza nuevo (RHS). Las divisiones tardan 2-3 años en florecer (RHS). La mejor floración se da en matas grandes: no dividir con frecuencia (AOS). PSEUDOBULBOS TRASEROS: quitarles las bases de hoja secas, revisar plagas y ponerlos de pie en corteza fina con turba o arena, con la base 1-2,5 cm enterrada; mantener uniformemente húmedo y algo cálido (noches de 14-16 °C); en uno o dos meses brota una yema y, cuando el brote mide unos 7,5 cm, echa raíces; florece al segundo o tercer año (AOS). Usar guantes (RHS: alérgeno de la piel).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F10"
+      ],
+      "notas": "UC ANR (columna de Master Gardeners) aconseja no regar las divisiones un par de semanas y pulverizarlas; no se adopta porque la AOS pide mantener los pseudobulbos traseros uniformemente húmedos y la convención del proyecto descarta pulverizar."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Muy a menudo, falta de agua: la AOS dice que las puntas que se secan son con frecuencia signo de riego insuficiente. También sales de abono acumuladas (lavar con agua sola, RHS) o aire muy seco. En Madrid no atribuirlo al agua del grifo."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Caída prematura de hojas en pseudobulbos maduros por riego insuficiente: muchos pseudobulbos sin hojas en el centro y pocas hojas en la periferia indican falta de agua (AOS). Que los pseudobulbos más viejos pierdan alguna hoja con los años es normal [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Follaje amarillo pálido generalizado por exceso de luz (AOS). Si además hay raíces blandas, revisar exceso de riego (S36)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte o paso brusco de interior a exterior: manchas negras secas en lo alto del arco de la hoja (AOS), quemaduras (NC State). Aclimatar poco a poco al sacarla (RHS) y evitar el sol del mediodía en terrazas sur u oeste."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Sustrato empapado o encharcado, maceta demasiado grande (RHS) o corteza descompuesta: pudrición de raíces (NC State, CSU, RHS). Raíces sanas = blancas y firmes; podridas = marrones, blandas, huecas (RHS). Trasplantar en primavera a corteza nueva cortando las muertas."
+    },
+    {
+      "sintoma_id": "S34",
+      "causa_habitual_en_esta_especie": "Botrytis en las flores: manchas en los pétalos con humedad alta, frío y poca ventilación, justo las condiciones frescas que le gustan (AOS). Mejorar la ventilación, no mojar las flores y retirar las flores afectadas."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Ácaros (araña roja), favorecidos por el aire seco y caliente (NC State, UC ANR); en Madrid, típico en verano en terraza y en invierno con calefacción."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo en hojas y pseudobulbos (CSU, NC State, UC ANR); revisar bajo las bases de hoja secas."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en axilas y bases de hoja (CSU)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en varas florales y capullos tiernos (NC State, UC ANR), frecuente cuando la planta pasa la primavera y el otoño en el exterior."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas marrones por riego inadecuado o por virus, como el virus del mosaico del Cymbidium (CymMV) (NC State); la CSU también señala los virus. Un mosaico o rayado clorótico-necrótico persistente en hojas nuevas sugiere virus: no tiene cura; aislar la planta y desinfectar herramientas entre plantas."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento tras un trasplante o una división: la alteración de las raíces tarda en superarse (AOS), y las divisiones de menos de tres pseudobulbos pueden saltarse una temporada de floración (AOS). Si tampoco hay brotes en primavera-verano, revisar raíces (S36) y riego. Relacionado (sin id propio en la lista): planta que crece bien pero NO florece, casi siempre por noches demasiado cálidas en la época de formación de varas (finales de verano-otoño) y, en segundo lugar, por falta de luz (AOS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Las máximas de 35-40 °C superan el máximo recomendado (por debajo de 30 °C, RHS; la AOS solo admite más de 32 °C en periodos cortos con más sombra, humedad y ventilación). En terraza o balcón: sitio protegido, a media sombra o sombra moteada, con sol de mañana y sin sol de mediodía ni de tarde (RHS, UC ANR, CSU); mejor orientación este o norte con mucha luz; evitar suelos y paredes que irradian calor y el sol de tarde en orientación sur u oeste. Riego: comprobar peso y dedo a diario; con calor puede necesitar agua a diario o en días alternos (UC ANR, AOS), sin dejarla encharcada en el plato. Con el aire tan seco (HR ≈38 % en julio) aparecen ácaros: revisar el envés. La AOS propone mojar las hojas a última hora de la tarde para enfriar por evaporación y ampliar la diferencia día-noche (AOS novice); es para enfriar, no para subir la humedad. Las noches de julio y agosto en Madrid son cálidas, así que las varas se forman sobre todo a finales de agosto, septiembre y octubre, cuando las noches bajan a 10-14 °C: dejarla fuera en ese periodo es lo que la hace florecer (RHS, AOS) [la cronología concreta de Madrid es orientativa, sin fuente prioritaria; no se ha consultado AEMET para esta ficha]. Si se cultiva siempre en interior con noches de verano y otoño por encima de unos 21 °C, elegir miniaturas o híbridos tolerantes al calor (AOS novice, CSU).",
+    "invierno": "Meterla en casa antes de las heladas: la AOS novice aconseja entrarla cuando se pronostique una helada ligera y la UC ANR protegerla por debajo de 0 °C; por prudencia, entrarla cuando las mínimas previstas bajen de unos 5 °C [umbral orientativo, sin fuente prioritaria exacta; RHS H1C indica mínimo 5-10 °C], lo que en Madrid suele ocurrir entre finales de octubre y noviembre [orientativo]. Dentro, el mayor riesgo es el calor de la calefacción: con varas en desarrollo mantenerla por debajo de 15 °C para que no se caigan los capullos (RHS) y en flor unos 21 °C como máximo para que dure (RHS). Lugar ideal: habitación sin calefacción o poco caldeada y muy luminosa, galería acristalada o dormitorio fresco, a 10-14 °C (RHS); nunca junto a radiadores ni en la corriente de aire caliente. Junto al cristal frío no debe bajar de 10 °C; si de noche el cristal se enfría mucho, separarla unos centímetros o poner una cortina entre ambos [orientativo]. Con la humedad interior por debajo del 30 %, usar humidificador o agrupar plantas; no pulverizar. Regar menos (sustrato apenas húmedo, AOS novice) y no abonar.",
+    "ubicacion_recomendada": "De primavera (cuando las mínimas se mantengan por encima de unos 7 °C, AOS novice: 'mid 40s °F') a otoño, en terraza o balcón a media sombra luminosa, con sol de mañana y protegida del sol del mediodía y de la tarde, aclimatándola poco a poco al sacarla (RHS). De finales de otoño a primavera, en interior en la ventana más luminosa (este o sur, Smithsonian Gardens) de una habitación fresca (10-15 °C), lejos de la calefacción. Si no hay exterior, elegir miniaturas y la habitación más fresca y luminosa de la casa."
+  },
+  "lagunas": [
+    "Nomenclatura: 'Cymbidium hybridum' no es un nombre botánico válido. IPNI (Kew) no devuelve ningún registro para 'Cymbidium hybridum' (búsqueda directa, 0 resultados) y en POWO solo figuran el género Cymbidium Sw. (aceptado, nativo de Asia tropical y subtropical a Australia; introducido en Hawái) y notoespecies naturales concretas (p. ej. Cymbidium × woodlandense Rolfe, C. × gammieanum King & Pantl.) que no corresponden al comercio. La ficha trata los híbridos comerciales del género (grex registrados), sobre todo los 'estándar' de flor grande y las 'miniaturas'. Recomendación para la app: mostrar 'Cymbidium (híbridos)'. Se mantiene nombre_cientifico 'Cymbidium hybridum' por indicación del proyecto. NC State lista como nombres anteriores Cymbidiopsis, Cyperorchis y × Cyperocymbidium.",
+    "Número de especies del género discrepante: AOS 44 especies (dato antiguo, DuPuy y Cribb 1988), NC State 88 aceptadas. No se ha contado en POWO (la lista de especies no carga sin JavaScript).",
+    "Toxicidad en perros y gatos: la ASPCA no tiene ficha de Cymbidium (comprobado en sus listas completas para perros y gatos) y Pet Poison Helpline tampoco; solo Gardeners' World (complementaria) dice que no hay efectos tóxicos registrados. Se deja 'desconocida'. Probablemente de bajo riesgo como otras orquídeas, pero sin fuente prioritaria.",
+    "Toxicidad en niños (ingestión): sin fuente prioritaria. La RHS solo indica 'alérgeno de la piel' (dermatitis de contacto); no se ha encontrado el compuesto responsable ni datos de ingestión. principio_activo = null.",
+    "pH del sustrato sin cifra consensuada: NC State 'ácido (<6,0)', UC ANR 'ácido', fichas de planta RHS 'neutro'.",
+    "Umbral exacto de temperatura para entrarla en casa en otoño: las fuentes dan 'cuando se pronostique helada ligera' (AOS novice), 'por debajo de 0 °C, cubrir o resguardar' (UC ANR) o 'cerca de 0 °C con algo de protección' (AOS); el umbral de 5 °C usado en ajustes_madrid es una prudencia orientativa. La cronología de temperaturas nocturnas de Madrid (cuándo bajan a 10-14 °C y a 5 °C) no se ha verificado con AEMET en esta ficha.",
+    "No se encontró la culture sheet de Cymbidium en Missouri Botanical Garden ni en UF/IFAS; tampoco datos de lux medidos en interior (solo los fc de la AOS para invernadero o exterior).",
+    "Caída de capullos (bud drop): el síntoma no está en la lista de síntomas; causas según las fuentes: calor por encima de unos 15 °C con las varas en desarrollo (RHS) y sobrecalentamiento con capullos avanzados (AOS). Se documenta en temperatura y ajustes_madrid.",
+    "Falta de floración con planta sana: no hay id de síntoma específico; se ha usado S17 de forma aproximada para recoger la causa (noches cálidas y poca luz, AOS).",
+    "La columna de UC ANR (Master Gardeners de Napa) recomienda aceite de neem u hortícola contra plagas: no se adopta (neem no aprobado en la UE; convención del proyecto). No se dan tratamientos fitosanitarios en esta ficha."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.aos.org/orchid-care/orchid-care-and-culture-sheets/cymbidium-culture-sheet/cymbidium-culture",
+      "institucion": "American Orchid Society (AOS) — Cymbidium Culture (R. McHatton, 2009)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.aos.org/explore/cymbidium",
+      "institucion": "American Orchid Society (AOS) — Explore Orchids: Genus Cymbidium, Care and Culture Card",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://sdorchids.com/wp-content/uploads/2023/10/Cymbidium_novice.pdf",
+      "institucion": "American Orchid Society (AOS) — Novice Culture Sheet 'Cymbidium' (preparada por la AOS en Fairchild Tropical Botanic Garden; copia alojada por la San Diego County Orchid Society)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/advice/profile?pid=389",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow cymbidium orchids",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/40938/cymbidium-sarah-jean-gx-ice-cascade/details",
+      "institucion": "Royal Horticultural Society (RHS) — Plant details: Cymbidium Sarah Jean gx 'Ice Cascade' (toxicidad, rusticidad H1C, tamaño)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/20363/cymbidium-erythraeum/details",
+      "institucion": "Royal Horticultural Society (RHS) — Plant details: Cymbidium erythraeum (descripción del género, toxicidad, pH, rusticidad H1C)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1348-orchid-cymbidium/",
+      "institucion": "Colorado State University Extension — PlantTalk Colorado 1348: Orchid: Cymbidium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://plants.ces.ncsu.edu/plants/cymbidium/",
+      "institucion": "NC State Extension — North Carolina Extension Gardener Plant Toolbox: Cymbidium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://gardens.si.edu/wp-content/uploads/2025/05/Cymbidium.pdf",
+      "institucion": "Smithsonian Gardens — How to care for Cymbidium (boat orchids), hoja de cuidados bilingüe",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://ucanr.edu/node/112770",
+      "institucion": "University of California ANR — UC Master Gardeners of Napa County: 'Cymbidium: The Easy Orchid' (2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:330383-2",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO): Cymbidium Sw.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F12",
+      "url": "https://ipni.org/api/1/search?q=Cymbidium%20hybridum",
+      "institucion": "International Plant Names Index (IPNI, Kew/Harvard/ANBG) — búsqueda 'Cymbidium hybridum' (0 resultados)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F13",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — listas de plantas tóxicas y no tóxicas para gatos y perros (sin entrada de Cymbidium)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F14",
+      "url": "https://www.gardenersworld.com/plants/cymbidium/",
+      "institucion": "BBC Gardeners' World Magazine — Cymbidium",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F15",
+      "url": "https://www.petpoisonhelpline.com/?s=cymbidium",
+      "institucion": "Pet Poison Helpline — búsqueda 'cymbidium' (sin entrada)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

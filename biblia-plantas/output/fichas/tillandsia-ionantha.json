@@ -1,0 +1,338 @@
+{
+  "nombre_cientifico": "Tillandsia ionantha",
+  "nombres_comunes": [
+    "clavel del aire",
+    "planta de aire",
+    "tillandsia",
+    "tillandsia ionantha"
+  ],
+  "familia": "Bromeliaceae",
+  "origen": "México y Centroamérica: Costa Rica, El Salvador, Guatemala, Honduras, México (centro, golfo, noreste, sureste y suroeste), Nicaragua y Panamá; introducida y naturalizada en Florida (POWO; NC State).",
+  "clima_nativo": "Tropical estacionalmente seco, entre 450 y 1.700 m de altitud: crece sobre todo como epífita en troncos de árboles del bosque tropical seco, matorral, chaparral y riberas, y a veces sobre roca o suelo. En su medio recibe a menudo sol pleno y muy poca lluvia, y toma el agua de lluvia, rocío y niebla a través de las escamas (tricomas) de las hojas; las raíces solo sirven de anclaje (Kew Species Profile en POWO; RHS; Penn State).",
+  "categoria": "otra",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Roseta pequeña y compacta de hojas rígidas, carnosas (suculentas), estrechamente triangulares o linear-lanceoladas, agudas, de 2,5-6 cm de largo y unos 5 mm de ancho, con la base ancha y aplanada y el margen entero (sin espinas). Toda la superficie está cubierta de escamas gris plateadas (tricomas) que dan un tacto áspero y un tono gris verdoso; mojada se ve más verde. Las hojas interiores se vuelven rojo intenso justo antes y durante la floración, y en algunos cultivares con mucha luz toda la planta se enrojece. Flores: espiga muy corta que apenas sale del centro de la roseta, con brácteas rojas y flores tubulares violeta-púrpura de pétalos de más de 4 cm, con estambres y pistilo amarillos que sobresalen. Fruto: cápsula subcilíndrica de 1,5-3 cm con semillas con un penacho plumoso (NC State, Kew Species Profile).",
+    "nerviacion": "Paralela, típica de monocotiledónea; no se ve nervio central ni red de venas, porque la lámina queda tapada por las escamas plateadas.",
+    "variegacion": "La especie no es variegada; el color cambia con la luz y la floración (verde grisáceo a rojo). Cultivares citados por NC State: 'Fuego' (rojo fuego con mucha luz), 'Rubra' (hojas rojas; formas blanda y dura), 'Druid' (flores blancas y hojas interiores amarillentas al florecer), 'Guatemala' (verde brillante que vira a rosa-rojo), 'Mexican' (verde oscuro que vira a rojo), 'Scaposa' (forma alta) y 'Vanhyningii' (hojas gruesas en estrella).",
+    "tallo": "Tallo corto y simple, casi invisible (planta prácticamente acaule); pocas raíces finas y alambradas que solo sujetan la planta al soporte y no la anclan en tierra (NC State, Kew).",
+    "habito": "Epífita (o litófita) en roseta, sin sustrato: se vende suelta, pegada o atada a corteza, madera, conchas o piedras, o dentro de un terrario de cristal abierto. Monocárpica: cada roseta florece una sola vez, produce hijuelos en la base durante o después de la floración y luego se va secando poco a poco. Si no se separan los hijuelos, forma con los años una mata o bola densa de rosetas (NC State, RHS, Penn State, UVM, Kew).",
+    "tamano_adulto_interior": "Cada roseta mide normalmente 4-10 cm de alto y de ancho (hojas de hasta 6 cm según Kew; 2,5-7,5 cm según NC State). NC State da 15-30 cm de alto y 10-20 cm de ancho, lo que corresponde a plantas en flor o a matas de varias rosetas. Crecimiento lento.",
+    "confusiones": [
+      {
+        "especie": "Tillandsia usneoides (barba de viejo, musgo español)",
+        "rasgo_diferenciador": "NC State la cita como confusión. Forma guirnaldas colgantes de tallos finos y hojas filiformes gris plata que pueden medir varios metros, sin roseta; T. ionantha es una roseta compacta de pocos centímetros (RHS, NC State)."
+      },
+      {
+        "especie": "Tillandsia caput-medusae",
+        "rasgo_diferenciador": "Hojas largas, retorcidas y tubulares que salen de una base hinchada en forma de bulbo, y espiga floral rojiza de 10-15 cm; T. ionantha no tiene base bulbosa y su espiga apenas sobresale de la roseta (RHS)."
+      },
+      {
+        "especie": "Tillandsia xerographica",
+        "rasgo_diferenciador": "Roseta mucho mayor (20-25 cm de alto y ancho) de hojas verde plateadas que se tiñen de rosa con mucha luz; T. ionantha rara vez pasa de 10 cm por roseta (RHS)."
+      },
+      {
+        "especie": "Tillandsia cyanea (clavel del aire rosa, pink quill)",
+        "rasgo_diferenciador": "Inflorescencia en forma de cabeza plana de brácteas rosa intenso (RHS, guía de bromelias), mucho mayor que la espiga corta de T. ionantha, que apenas sobresale de la roseta y lleva flores violeta con estambres amarillos (NC State, Kew)."
+      },
+      {
+        "especie": "Otras Tillandsia pequeñas de roseta del comercio (p. ej. T. brachycaulos, T. capitata)",
+        "rasgo_diferenciador": "Para la IA de visión: la combinación roseta de menos de 10 cm + hojas estrechamente triangulares cubiertas de escamas plateadas + centro rojo con flores violeta tubulares con estambres amarillos salientes es característica de T. ionantha (NC State, Kew). Las otras especies tienen hojas más largas y verdes o rosetas más grandes; la separación fina requiere ver la planta en flor y queda como laguna."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se ha encontrado ninguna fuente prioritaria que evalúe la toxicidad de Tillandsia ionantha. La ASPCA no tiene ficha de Tillandsia ni de 'air plant' en sus listas de plantas para gatos y perros (comprobado el 2026-10-21). El perfil de especie de Kew (POWO) indica 'Hazards: none known' (no se conocen peligros), y un vivero especializado afirma que las tillandsias no son tóxicas para perros ni gatos, sin citar estudios. No hay indicios de toxicidad, pero la app no debe presentarla como 'segura' mientras no haya fuente prioritaria. Si un animal o un niño muerde la planta, cabe esperar como mucho molestia digestiva leve por la fibra; riesgo de atragantamiento con trozos enteros en animales pequeños [orientativo, sin fuente prioritaria]. Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Baja",
+    "fuentes": [
+      "F9",
+      "F10",
+      "F11"
+    ],
+    "notas": "Se marca 'desconocida' en perros, gatos y niños siguiendo la regla del proyecto: sin ficha ASPCA ni otra fuente prioritaria con evaluación toxicológica. Kew 'Hazards: none known' no es una evaluación de toxicidad para mascotas. Ojo al buscar por nombre común en inglés: 'air plant' puede designar otras plantas sin relación; buscar siempre por el nombre científico."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Lo más luminoso posible sin sol fuerte del mediodía: ventana este u oeste (Penn State) o sur tras una cortina fina (RHS: 'una ventana sur tras visillo es ideal'; Clemson: este, sur u oeste con luz filtrada), a menos de 1 m del cristal. Kew la recomienda para el alféizar de la cocina con luz fuerte.",
+      "tolera_sol_directo": "Parcialmente. Tolera sol suave de primera hora o de última hora, y con más luz se enrojece y florece mejor (NC State, Kew). El sol directo intenso tras el cristal la recalienta y quema: hojas marrones o blanqueadas (RHS). Clemson y UVM dicen no ponerla al sol directo.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F9"
+      ],
+      "notas": "Contradicción entre fuentes prioritarias: NC State (género) dice que la mayoría de Tillandsia toleran sol pleno en la naturaleza y que la ventana más soleada de la casa no es demasiado sol, y Kew señala que en su medio recibe a menudo sol pleno; en cambio Clemson y UVM piden luz brillante filtrada, nunca sol directo, y RHS pide sombra ligera frente al sol directo, sobre todo tras cristal. Opción conservadora adoptada: luz brillante filtrada (500-1.000 fc ≈ 5.380-10.760 lux en la escala del proyecto) con sol directo solo suave (mañana o tarde). Más luz favorece la floración (Penn State, NC State); se pueden usar luces LED de cultivo (NC State)."
+    },
+    "riego": {
+      "criterio": "Esta planta no tiene sustrato: el criterio del proyecto de tocar la tierra a 2-3 cm y pesar la maceta NO aplica. El agua entra por las escamas de las hojas, así que se riega mojando la planta entera. Método principal: inmersión completa en agua a temperatura ambiente durante 20-60 minutos (Clemson 20-30 min, Penn State 20-60 min, UVM 30-60 min, Illinois 30 min). Alternativas: enjuagarla bajo el grifo con agua templada (Penn State, Illinois) o pulverizarla hasta que gotee (Penn State, Illinois). Después, SIEMPRE: sacudirla con suavidad y dejarla escurrir boca abajo o de lado 1-2 horas (UVM, Clemson) en un sitio ventilado, para que no quede agua en el centro de la roseta, que es lo que la pudre. Debe quedar seca del todo en unas 4 horas; no volver a meterla en un terrario cerrado o un recipiente hasta que esté seca (Penn State). Cuándo volver a regar: según el estado de la planta, no por calendario. Señales de sed: hojas que se enrollan o curvan hacia dentro, color apagado y puntas marrones (Clemson, Illinois). Hidratada, la planta está firme y algo más verde. Como orientación, las fuentes dan entre 1 y 3 riegos por semana según el calor y la sequedad del aire. Nunca dejarla en agua ni mojada de forma continua (RHS).",
+      "primavera_verano": "Inmersión 2-3 veces por semana (RHS) o al menos una vez por semana (Clemson, UVM, Penn State), más a menudo con calor y aire seco (RHS). Con aire de casa seco, Penn State dice que pulverizando haría falta mojarla hasta que gotee cada dos días. En verano se puede dejar en remojo una noche de vez en cuando, con abono para orquídeas diluido, para rehidratarla a fondo (RHS). Regar por la mañana para que se seque antes de la noche [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Menos riego con fresco y humedad alta (RHS), siempre según las señales de la planta. No regarla si la temperatura baja a 12 °C o menos, porque tarda demasiado en secarse y se pudre (RHS). Con calefacción el aire se seca mucho y puede seguir necesitando agua cada semana; alejarla de radiadores y salidas de aire (Penn State).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "RHS recomienda agua de lluvia y evitar el agua del grifo en zonas de agua dura, porque el bicarbonato disuelto se deposita sobre las escamas, las tapona y la planta se deshidrata. UVM acepta agua de lluvia, embotellada o del grifo; desaconseja el agua descalcificada (la sal la daña) y la destilada o filtrada (pocos nutrientes). Madrid: el agua del Canal de Isabel II es blanda (10-47 mg/L de CaCO3), así que el problema del agua dura que cita RHS apenas se da y se puede usar el agua del grifo. UVM aconseja dejar reposar el agua una noche para que se evapore el cloro, pero en Madrid el desinfectante es cloramina, que no se elimina dejándola reposar; ninguna fuente prioritaria estudia el efecto de la cloramina en Tillandsia (véase lagunas). No usar agua de un descalcificador doméstico. Usar agua a temperatura ambiente (UVM) o templada (Penn State, Illinois).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F1",
+        "F2"
+      ],
+      "notas": "Diferencia con la convención del proyecto: en el resto de fichas 'pulverizar' se considera un intento inútil de subir la humedad ambiental. Aquí pulverizar es un MÉTODO DE RIEGO: el agua se aplica directamente sobre las hojas, que la absorben por las escamas, porque la planta no tiene raíces que beban ni sustrato. Hay que mojarla hasta que gotee, no una niebla ligera. Contradicción entre fuentes prioritarias: Clemson, UVM e Illinois dan la pulverización como método válido por sí solo, pero RHS dice que pulverizar entre inmersiones ayuda con calor pero no aporta bastante agua y no debe sustituir a la inmersión. Opción conservadora adoptada: inmersión como método principal y pulverización como complemento. Frecuencias: Clemson y UVM dan una vez por semana; RHS de 2 a 3 veces por semana de primavera a otoño. Se usa el estado de la planta como criterio. Con la planta en flor, no mojar la flor, que se reblandece y pudre (UVM)."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "NC State dice que necesita humedad alta y RHS (guía de bromelias) que le gusta el aire húmedo, como el de un baño luminoso o una cocina; ninguna fuente prioritaria da cifras de humedad relativa (véase lagunas). Con humedad baja, el aporte de agua tiene que ser mayor: más inmersiones o pulverizar hasta que gotee (RHS, Penn State). Para subir la humedad ambiental sirven el humidificador o agrupar plantas (convención del proyecto); pulverizar no sube la humedad del aire de forma útil, aunque sí riega esta planta. Más importante que la humedad: buena ventilación, para que se seque tras el riego (RHS, Clemson, Penn State, Illinois). Evitar terrarios cerrados.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F8",
+        "F7",
+        "F3",
+        "F4"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": 30,
+      "ideal_min_c": 18,
+      "ideal_max_c": 30,
+      "notas": "Mínimos dados: Penn State, noches por encima de 55 °F (12,8 °C) y días de 65-90 °F (18-32 °C); RHS, que no baje de 12 °C y máximo 30 °C si la humedad es alta; UVM, 50-90 °F (10-32 °C); RHS (bromelias), mínimo 10 °C en invierno. Se toma el mínimo más alto (13 °C, redondeando el de Penn State) y el máximo más bajo (30 °C, RHS). Por debajo de 12 °C no se debe regar (RHS). Sin heladas: meterla en casa antes de la primera helada (UVM, Illinois). Por encima de 30 °C con aire seco se deshidrata y se quema más fácilmente (RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F7",
+        "F5",
+        "F8",
+        "F6"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Ninguna. No se planta en tierra (NC State). Se cultiva suelta, apoyada o fijada a corteza, madera, corcho, conchas o piedras, o en un plato poco hondo o un terrario abierto (Clemson, NC State, RHS, Illinois). Para fijarla, atarla con hilo o alambre o pegarla con un adhesivo, sin cubrir la base (RHS: 'tied, wired or glued'). El soporte no debe retener agua (Clemson): evitar musgo empapado o tierra pegados a la base. Si va en un terrario o recipiente, que sea abierto y la planta esté seca antes de devolverla (Penn State, Illinois).",
+      "ph": null,
+      "drenaje": "Crítico, entendido como secado: la planta debe quedar seca en pocas horas. Colocarla montada con la roseta inclinada hacia abajo para que el agua salga del centro (RHS) y nunca en un recipiente donde se acumule agua.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F7",
+        "F4",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para bromelias, orquídeas o específico de Tillandsia, o un abono líquido equilibrado de uso general, añadido al agua de inmersión o de pulverización. Opcional: no es imprescindible, pero la planta crece con más vigor y florece mejor si se abona (Clemson, Illinois, Penn State).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼ de la dosis de etiqueta (Clemson, Illinois, Penn State; NC State: a la mitad o menos durante la época de crecimiento), siguiendo la convención del proyecto (¼-½ de la dosis). RHS propone, en verano, un remojo nocturno ocasional con abono para orquídeas. Dejar escurrir y secar bien después (Clemson).",
+      "otono_invierno": "Nada en otoño e invierno (convención del proyecto; las fuentes solo lo indican en la época de crecimiento).",
+      "notas": "Penn State dice que un abono con algo más de nitrógeno favorece el crecimiento de las hojas. Nunca usar abonos granulados ni de liberación lenta sobre la planta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F1",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "No aplica: no tiene sustrato ni maceta. Solo se cambia de soporte si se estropea el soporte, si la mata ha crecido demasiado o si el soporte retiene humedad.",
+      "epoca": "En cualquier época (RHS: plantación todo el año); mejor de primavera a verano, con la planta en crecimiento.",
+      "senales": "Soporte que se queda húmedo o con moho; base de la planta oscura junto al soporte; mata de hijuelos que ya no cabe en el soporte.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F7",
+        "F3"
+      ]
+    },
+    "poda": {
+      "necesita": "Mínima: solo quitar hojas secas o dañadas y, tras la floración, la roseta madre cuando se haya secado del todo (UVM, RHS).",
+      "epoca": "Cuando aparezcan hojas secas; la roseta madre, cuando haya muerto del todo tras florecer, con los hijuelos ya formados.",
+      "como": "Retirar con los dedos o con tijeras limpias las hojas inferiores secas que se sueltan solas. Tras la floración la madre se va apagando mientras crecen los hijuelos (es normal, no una enfermedad): dejarla mientras siga verde porque alimenta a los hijuelos, y quitarla cuando esté seca del todo, o ir quitando sus hojas muertas si se quiere conservar la mata (RHS, UVM). La espiga floral seca se puede cortar.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F5",
+        "F7",
+        "F4",
+        "F3"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene un reposo propiamente dicho según las fuentes. En los meses frescos y húmedos crece menos y necesita menos agua (RHS); no regarla por debajo de 12 °C (RHS) y no abonar de otoño a invierno.",
+      "confianza": "Media",
+      "fuentes": [
+        "F7"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "hijuelos",
+        "semilla"
+      ],
+      "epoca": "Cuando los hijuelos alcanzan al menos un tercio del tamaño de la madre, normalmente durante o después de la floración; mejor en primavera o verano.",
+      "pasos": "1) Esperar a que el hijuelo mida al menos un tercio de la madre (Penn State, UVM, RHS). 2) Separarlo con un giro suave y un tirón por la base; si no sale, esperar más o cortar con una cuchilla limpia [orientativo, sin fuente prioritaria]. 3) Tratarlo desde el primer día como una planta adulta (RHS). 4) Si se prefiere, dejar los hijuelos unidos para formar una mata (Penn State, Illinois, UVM). Semilla: posible pero muy lenta (NC State); RHS explica cómo hacerlo (luz fuerte difusa, ventilación, humedad alta, unos 25 °C, pulverizar abundantemente), y faltan años hasta la floración. La floración se favorece con la máxima luz tolerable, riego suficiente y abono (Penn State). Antes de florecer, las hojas interiores se vuelven rojas (NC State, Kew).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5",
+        "F7",
+        "F2",
+        "F6",
+        "F1",
+        "F9"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del centro de la roseta: el centro o algunas hojas se vuelven marrones o negras y la planta se deshace desde dentro. Se debe a que queda agua en el centro tras el riego, junto con poca ventilación, a la inmersión demasiado larga o a meterla mojada en un terrario. Es la causa principal de muerte. Prevenir: escurrir boca abajo, buena ventilación y que se seque en unas 4 horas (RHS, Clemson, UVM, Penn State)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Deshidratación: hojas arrugadas, secas y de color apagado por riego escaso, calor y aire seco, o por usar mucho tiempo agua dura en lugar de agua de lluvia. Se puede recuperar con un remojo de una noche y ajustando el riego (RHS, Clemson, Illinois)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Hojas que se enrollan o curvan hacia dentro: falta de agua; es la primera señal de que toca regar (Clemson, Illinois)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas marrones por riego insuficiente o aire muy seco (Clemson, Illinois). En Madrid no se deben atribuir al cloro ni al flúor del agua del grifo."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Hojas marrones o blanqueadas porque la planta se recalienta al sol directo tras un cristal con humedad baja; dar más sombra y regar más (RHS)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas inferiores por estrés: cambio de condiciones o falta o exceso de agua; si las hojas salen del centro y la base está oscura, es pudrición (RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las bases de las hojas, citada como plaga habitual del género (NC State). Tratar solo con productos listos para usar de uso no profesional autorizados por el MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla con escudo adherida a las hojas, citada para el género (NC State). En la especie, NC State indica que normalmente no tiene problemas de plagas ni enfermedades."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR exterior ≈38 %), la planta pierde agua muy rápido: aumentar las inmersiones a 2-3 por semana o más, según las señales de la planta (hojas que se enrollan o color apagado) (RHS, Clemson). Con este aire se seca enseguida tras el riego, pero hay que seguir escurriéndola boca abajo. Si la habitación pasa de 30 °C, alejarla del cristal: tras un cristal al sol de una ventana sur u oeste se recalienta y se quema (RHS: hojas marrones o blanqueadas). Visillo o 1-2 m de distancia del cristal en ventanas sur y oeste de junio a septiembre. No ponerla en la corriente del aire acondicionado, que la seca (Penn State). En exterior, solo a la sombra luminosa, protegida del sol de la tarde (Illinois, Penn State) y del viento seco; vigilar caracoles y babosas (RHS).",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 % y deshidrata la planta: alejarla de radiadores y salidas de aire (Penn State, RHS) y seguir regando según su estado (a menudo una vez por semana). El cristal frío de la ventana puede bajar de 12-13 °C por la noche: separarla del cristal y no regarla cuando la temperatura esté por debajo de 12 °C (RHS). Regar por la mañana para que se seque antes de la noche [orientativo, sin fuente prioritaria]. Darle la ventana más luminosa de la casa: en invierno el sol de Madrid es suave y la ventana sur suele venirle bien (RHS, Kew).",
+    "ubicacion_recomendada": "A menos de 1 m de una ventana este u oeste, o de una sur tras un visillo (RHS), en un sitio con buena ventilación y sin corrientes de calefacción o aire acondicionado. El baño o la cocina luminosos van bien (RHS, Kew). Montada en madera o corcho con la roseta algo inclinada hacia abajo, o suelta en un plato sin agua. No en terrario cerrado ni en estanterías oscuras."
+  },
+  "lagunas": [
+    "Nombre: POWO acepta Tillandsia ionantha Planch.; sinónimos homotípicos Tillandsia erubescens H.Wendl. (nom. illeg.) y Pityrophyllum erubescens Beer; heterotípicos Pityrophyllum gracile Beer, T. ionantha var. ionantha, T. ionantha var. zebrina B.T.Foster y T. rubentifolia Poiss. & Menet. NC State cita además T. ionantha var. vanhyningii como nombre anterior. Sin cambio de nombre.",
+    "Toxicidad: la ASPCA no tiene ficha de Tillandsia ni de 'air plant' (comprobado el 2026-10-21) y no se encontró ninguna otra fuente prioritaria (NC State, Univ. Illinois, UC ANR) que la evalúe para perros, gatos o personas. Solo Kew dice 'Hazards: none known' y un vivero afirma que no es tóxica. Se deja 'desconocida'.",
+    "Humedad relativa: ninguna fuente prioritaria da cifras mínimas ni ideales de HR para T. ionantha; min_pct e ideal_pct en null.",
+    "Luz: ninguna fuente prioritaria da lux ni pies-candela para la especie; el rango sale de la escala del proyecto. Hay discrepancia sobre el sol directo (véanse las notas de luz).",
+    "Agua: ninguna fuente prioritaria estudia el efecto de la cloramina del agua del grifo sobre Tillandsia; UVM solo habla del cloro (que se evapora reposando, al contrario que la cloramina).",
+    "Riego: ninguna fuente prioritaria da un criterio objetivo (peso, color) para decidir cuándo regar aparte de las señales de deshidratación (hojas enrolladas, color apagado, puntas marrones).",
+    "Separación visual fina entre T. ionantha y otras Tillandsia pequeñas de roseta (T. brachycaulos, T. capitata, híbridos): no hay una fuente prioritaria con una clave práctica.",
+    "En el comercio se venden ejemplares teñidos artificialmente ('enhanced', de colores); no se encontró ninguna fuente prioritaria sobre su efecto en la planta ni sobre cómo distinguirlos del enrojecimiento natural previo a la floración.",
+    "pH: no aplica (sin sustrato); ninguna fuente da el pH del agua de riego.",
+    "Contradicción de dificultad: NC State y Kew la consideran fácil; RHS clasifica las Tillandsia como 'moderate to difficult'. Se adopta 'media'."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/tillandsia-ionantha/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, Tillandsia ionantha",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/tillandsia/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox, género Tillandsia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://hgic.clemson.edu/factsheet/air-plants/",
+      "institucion": "Clemson Cooperative Extension, Home & Garden Information Center — HGIC 1515 Air Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://extension.psu.edu/tillandsias-as-houseplants",
+      "institucion": "Penn State Extension (Pennsylvania State University) — Tillandsias as Houseplants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.uvm.edu/extension/news/tillandsia-captivating-world-soil-less-air-plants",
+      "institucion": "University of Vermont Extension — Tillandsia: The Captivating World of Soil-Less Air Plants (2026)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.illinois.edu/sites/default/files/infosheet_air_plants.pdf",
+      "institucion": "University of Illinois Extension — Infosheet Air Plants (Tillandsia), 2020",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/air-plants",
+      "institucion": "Royal Horticultural Society (RHS) — Air plants, RHS Advice Guide",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.rhs.org.uk/plants/bromeliads/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow bromeliads",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:125266-1/general-information",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO) y Kew Species Profile, Tillandsia ionantha Planch.",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center — listas de plantas tóxicas y no tóxicas (gatos y perros); sin ficha de Tillandsia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F11",
+      "url": "https://www.air-plants.com/blogs/air-plant-encyclopedia/are-air-plants-toxic",
+      "institucion": "Air Plants (air-plants.com), vivero especializado — Are Tillandsia air plants toxic to pets?",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

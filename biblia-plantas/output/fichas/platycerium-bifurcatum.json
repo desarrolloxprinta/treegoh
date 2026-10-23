@@ -1,0 +1,328 @@
+{
+  "nombre_cientifico": "Platycerium bifurcatum",
+  "nombres_comunes": [
+    "cuerno de alce",
+    "helecho cuerno de ciervo",
+    "helecho cuerno de alce",
+    "platicerio",
+    "staghorn fern / elkhorn fern (inglés)"
+  ],
+  "familia": "Polypodiaceae",
+  "origen": "Australia y Nueva Guinea (F2); Wisconsin lo sitúa en las selvas de Java, Nueva Guinea y el sureste de Australia (F1); NC State, desde la isla de Java por la Australia tropical hasta Nueva Caledonia (F6); MBG, Sudeste Asiático, Polinesia y Australia subtropical (F5). Naturalizado e invasor en Florida y Hawái (F1, F3). Nombre aceptado con autor: Platycerium bifurcatum (Cav.) C.Chr. (F9); sinónimos antiguos Acrostichum bifurcatum y Alcicornium bifurcatum (F6).",
+  "clima_nativo": "Tropical a subtropical húmedo de selva: vive como epífito sobre troncos, ramas o rocas, donde las lluvias aportan agua y lavan nutrientes hacia las raíces (F2). Es la especie de Platycerium más tolerante al frío: aguanta brevemente -1 a -4 °C (25-30 °F) al exterior en Florida (F2, F3), pero no heladas sostenidas. USDA 9-12 (F5); exterior todo el año solo en zona 9a o más cálida (F1). RHS: H1B (bajo cristal; puede salir al exterior en verano; mínimo 10-15 °C) (F4).",
+  "categoria": "helecho",
+  "dificultad": "media",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "DOS TIPOS DE FRONDA, rasgo clave del género (F1, F2, F6). (1) Frondas BASALES o 'escudo' (estériles): redondeadas a acorazonadas, superpuestas en capas, aplicadas contra el soporte y cubriendo las raíces y el rizoma; nacen verde mate y algo carnosas y con la edad se vuelven de color tostado a canela, secas y como de papel (F1, F2, F6). Ese marrón es NORMAL y no debe arrancarse: anclan y protegen la planta (F1). (2) Frondas FÉRTILES o 'cuernos': coriáceas, verde grisáceo, arqueadas o colgantes, que se bifurcan varias veces en segmentos en forma de cinta, como astas de ciervo (F1, F4, F5, F6); de hasta 45 cm según Wisconsin (F1), 60-90 cm en cultivo (F4, F6) y hasta 1,2 m en exterior (F6). Las fértiles están cubiertas de un fieltro blanco grisáceo de pelos estrellados (tricomas) que les da aspecto polvoriento o plateado; reduce la pérdida de agua y protege de insectos, y NO debe frotarse ni limpiarse (F1, F2, F5, F6). SOROS: masas de esporangios pardo oscuro, como un fieltro marrón, en el envés de las PUNTAS de las frondas fértiles; son normales, no plaga ni enfermedad (F1, F3, F4). Rasgo para la IA: parche pardo aterciopelado y continuo solo en el envés de las puntas = soros; bultos sueltos que se levantan con la uña a lo largo de la fronda = cochinillas (S30).",
+    "nerviacion": "Nerviación poco visible bajo el fieltro de tricomas en las frondas fértiles [orientativo, sin fuente prioritaria]. En las frondas basales jóvenes se aprecian nervios reticulados que destacan cuando la fronda se seca y queda papirácea [orientativo, sin fuente prioritaria]. Las fuentes prioritarias consultadas no describen la nerviación.",
+    "variegacion": "Sin variegación: verde grisáceo uniforme con aspecto plateado por los tricomas (F5, F6). El cultivar 'Netherlands' tiene frondas verde grisáceo y lobuladas (F6). El marrón de las frondas basales es envejecimiento natural, no variegación ni enfermedad (F1, F6).",
+    "tallo": "Sin tallo visible: rizoma corto, rastrero y a menudo ramificado, oculto bajo las frondas escudo (F6). Del rizoma salen hijuelos ('pups') que acaban formando una colonia de varias rosetas (F2, F6).",
+    "habito": "Epífito perenne y siempreverde, 'atrapa-hojarasca': las frondas escudo recogen agua, hojas caídas y restos que se descomponen y lo nutren (F2, F6). Se cultiva montado en tabla, corteza o helecho arborescente, en cesta de alambre colgada de lado o, de joven, en maceta (F1, F2, F5, F6). Produce muchos hijuelos y con los años forma un ejemplar muy grande (F2).",
+    "tamano_adulto_interior": "Unos 60-90 cm de alto y de ancho (MBG 2-3 pies, F5; RHS 0,5-1 m, F4); Wisconsin da hasta unos 90 cm de diámetro en ejemplares maduros (F1). RHS: 10-20 años hasta el tamaño adulto (F4).",
+    "confusiones": [
+      {
+        "especie": "Platycerium alcicorne (P. vassei), de Madagascar y África oriental",
+        "rasgo_diferenciador": "Frondas fértiles más erguidas y verde oscuro; semirresistente solo hasta 4,4 °C (F2), frente a P. bifurcatum, que aguanta breves heladas ligeras. MBG indica que P. bifurcatum a veces se vende como P. alcicorne (F5), pero la ASPCA y UF/IFAS los tratan como especies distintas (F2, F7). En foto la separación es difícil; la app debe pedir confirmación antes de fijar el mínimo de temperatura."
+      },
+      {
+        "especie": "Platycerium veitchii",
+        "rasgo_diferenciador": "Frondas fértiles ERGUIDAS y muy plateadas por un fieltro denso; especie semidesértica que pide mucha más luz (F2). P. bifurcatum tiene frondas fértiles arqueadas o colgantes y de un verde más oscuro (F2, F4)."
+      },
+      {
+        "especie": "Platycerium superbum y P. grande",
+        "rasgo_diferenciador": "Frondas escudo enormes, erguidas y lobuladas en la parte alta, frondas fértiles anchas y colgantes en forma de abanico, y NO producen hijuelos (F1, F2). P. bifurcatum forma colonias con muchos hijuelos (F2, F6)."
+      },
+      {
+        "especie": "Platycerium hillii",
+        "rasgo_diferenciador": "Frondas fértiles semierectas, verde oscuro, más anchas y menos divididas (F2) [la anchura relativa es orientativa, sin fuente prioritaria]. Cuidados muy parecidos, pero solo resiste hasta 4,4 °C (F2)."
+      },
+      {
+        "especie": "Cochinilla o moho sobre las puntas",
+        "rasgo_diferenciador": "El fieltro pardo de las puntas (soros) es normal (F3), y el polvo blanco grisáceo de toda la fronda son tricomas (F1, F6), no oídio (S33). No tratar ni frotar."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "desconocida",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas. La ASPCA incluye 'Common Staghorn Fern' (Platycerium bifurcatum, Polypodiaceae) en sus listas de plantas NO tóxicas para perros y para gatos (F7, F8); NC State la etiqueta como no tóxica para perros, gatos y caballos (F6). La ASPCA advierte con carácter general que comer cualquier planta puede causar vómitos y molestias digestivas leves (F7). Ante una ingestión: Servicio de Información Toxicológica (91 562 04 20) o veterinario, con foto o nombre de la planta.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F7",
+      "F8",
+      "F6"
+    ],
+    "notas": "Perros y gatos: dos fuentes prioritarias coinciden (ASPCA y NC State). Niños: ninguna fuente prioritaria trata la toxicidad en personas; se deja 'desconocida' y se recomienda mantenerla fuera del alcance de niños pequeños."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 6456,
+      "lux_max": 21520,
+      "orientacion_hn": "Ventana este, o a 1-2 m de una ventana sur u oeste tras cortina fina; una ventana norte muy luminosa puede valer en verano [orientativo, sin fuente prioritaria]. RHS admite exposición sur, oeste o este, siempre resguardada y en semisombra (F4).",
+      "tolera_sol_directo": "Solo sol filtrado o de primera hora: MBG admite varias horas de sol filtrado pero pide evitar el sol pleno (F5); Wisconsin indica que tolera más sol directo solo con humedad y temperatura altas, y entonces necesita más agua (F1). Detrás de un cristal orientado al sur u oeste en verano, no.",
+      "notas": "UF/IFAS: semisombra, luz moteada bajo un árbol o luz indirecta de porche, equivalente a 600-2000 fc (F2), es decir ≈6456-21520 lux; esta cifra es de exterior y supera la escala de interior del proyecto (brillante indirecta 500-1000 fc), lo que indica que en casa necesita la posición más luminosa posible sin sol directo. MBG y Wisconsin: luz brillante indirecta (F1, F5); NC State: sol moteado a semisombra (F6); RHS: luz brillante filtrada (F4). Con muy poca luz crece lento y aparecen enfermedades y plagas (F2, F3).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego por INMERSIÓN del soporte: sumergir el cepellón y las frondas escudo con su tabla o cesta (no las frondas fértiles) en agua unos minutos y dejar escurrir bien antes de colgar (F5); la planta absorbe agua por las frondas basales y por las raíces (F1). Volver a regar cuando el musgo o medio se haya secado bastante: comprobar con el dedo a 2-3 cm dentro del musgo, detrás de las frondas escudo, y por el PESO del soporte (un montaje húmedo pesa claramente más); el exterior puede parecer seco mientras las capas internas y las frondas basales siguen empapadas (F2). Señal tardía: las frondas fértiles se ablandan o se inclinan un poco; se recupera rápido al regar, mientras que el exceso pudre y mata la planta (F2, F3). En maceta, puede regarse por abajo (F5, F6). Nunca por calendario.",
+      "primavera_verano": "Inmersión cuando el medio esté seco a 2-3 cm y el soporte pese poco; en calor y aire seco suele coincidir con una vez por semana (F2, F3), más a menudo si recibe más luz o sol filtrado (F1).",
+      "otono_invierno": "Mucho menos: regar con moderación en invierno (F4), menos con frío (F1, F2). Mismo criterio de dedo y peso; con calefacción el musgo se seca antes de lo esperado.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Wisconsin prefiere agua de lluvia si está disponible (F1). En Madrid el agua del grifo es blanda (10-47 mg/L CaCO3) y válida; dejarla reposar no elimina la cloramina, pero no es causa de daño en esta especie según las fuentes consultadas. Usar agua a temperatura ambiente [orientativo, sin fuente prioritaria].",
+      "notas": "Contradicción: UF/IFAS pide dejar secar el medio POR COMPLETO entre riegos (F2), mientras que MBG y NC State piden que las raíces se sequen solo ligeramente y nunca del todo (F5, F6), y Wisconsin dice 'que se seque algo' (F1). Se adopta la opción intermedia y más segura para un interior: dejar secar bien la capa exterior del musgo (2-3 cm) y el peso, sin dejar el cepellón seco del todo días seguidos. Los ejemplares viejos con capas esponjosas de frondas escudo toleran mejor la sequía que los jóvenes (F2); los establecidos son bastante tolerantes a la sequía (F1, F4).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Las fuentes piden humedad moderada (Wisconsin, F1), un ambiente cálido y húmedo (MBG, F5) o humedad alta (RHS, F4), sin dar porcentajes. Demasiada humedad con frío favorece manchas negras en las frondas escudo (Rhizoctonia) (F2, F6). Wisconsin y RHS sugieren pulverizar (F1, F4), pero por convención del proyecto pulverizar no sube la humedad de forma útil: usar humidificador o agrupar plantas, sin encharcar el centro de la planta. Un baño luminoso y ventilado es una buena ubicación (F1).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F5"
+      ]
+    },
+    "temperatura": {
+      "min_c": 13,
+      "max_c": null,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "Interior: mantener por encima de 13 °C (55 °F) (F1). Puede sobrevivir a descensos breves hasta -4/-1 °C (25-30 °F) al exterior (F1, F2, F3), pero Wisconsin pide meterla en casa antes de que las noches bajen a 4-9 °C (40-49 °F) en otoño (F1). RHS H1B da un mínimo genérico de categoría de 10-15 °C (F4); se toma 13 °C, la cifra específica para interior de la especie, y no el valor alto de la banda de categoría. Ninguna fuente prioritaria da máximo ni rango ideal: max_c, ideal_min_c e ideal_max_c = null. Con calor y humedad altos tolera más luz pero pide más agua (F1).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "NO crece en tierra (F1). Montado: un montículo de musgo esfagno o turba, compost o sustrato rico (F2, F3) sobre tabla de madera, corteza, helecho arborescente o roca (F1, F2, F3), con las frondas escudo en contacto con el medio; sujetar con hilo de nailon, tiras de plástico, media de nailon o alambre que NO sea de cobre, pasando sobre las frondas escudo marrones, nunca sobre las verdes (F1, F2, F3). En cesta de alambre colgada de lado, rellena de medio orgánico (F2, F3). En maceta (plantas jóvenes): mezcla para epífitas u orquídeas o de esfagno (F5, F6), rica y muy drenante (F1). RHS, bajo cristal: partes iguales de mantillo de hojas grueso, marga y carbón vegetal (F4).",
+      "ph": "Neutro (F4)",
+      "drenaje": "Muy alto: el medio nunca debe quedar encharcado (F1, F6).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado soluble en agua (F1, F2, F4), o abono de liberación lenta en el medio (F1, F2).",
+      "npk": "Proporción 1:1:1 (p. ej. 10-10-10 o 20-20-20) (F2, F3)",
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de etiqueta, solo con crecimiento activo (convención del proyecto; las fuentes dan mensual en meses cálidos: F1, F2, F4). Aplicar en el agua de inmersión o sobre el medio [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Nada en reposo (convención del proyecto). UF/IFAS admite cada dos meses cuando el crecimiento se frena (F2, F3); se adopta la opción más conservadora.",
+      "notas": "Los ejemplares grandes o maduros se mantienen bien con una o dos aplicaciones al año de abono de liberación controlada; abonar a menudo solo hace falta si se busca crecimiento vigoroso (F2, F3).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "No se trasplanta como una planta en maceta: se remonta en un soporte mayor cuando las frondas escudo llegan a los bordes del soporte (F3). Tolera bien el apiñamiento (F3). Frecuencia en años: sin dato en fuentes prioritarias.",
+      "epoca": "Primavera, al inicio del crecimiento activo [orientativo, sin fuente prioritaria].",
+      "senales": "Frondas escudo que rebasan o envuelven el borde de la tabla; colonia de hijuelos que cubre la cesta (F2, F3). Al remontar, sujetar sobre frondas escudo viejas (marrones) y nunca con alambre de cobre (F1, F2).",
+      "confianza": "Media",
+      "fuentes": [
+        "F3",
+        "F2",
+        "F1"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda (F4). Solo retirar las frondas FÉRTILES secas o marchitas (F1).",
+      "epoca": "Cuando aparezcan frondas fértiles secas, en cualquier época (F1).",
+      "como": "Cortar la fronda fértil seca por su base con tijera limpia. NUNCA arrancar las frondas escudo marrones: dejarlas hasta que caigan solas, porque anclan y protegen la planta (F1). No frotar ni limpiar el fieltro blanco de las frondas (F1).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Reposo relativo, no obligatorio: en invierno, cuando el crecimiento se frena (F2, F4). En Madrid, aproximadamente noviembre-febrero [orientativo, sin fuente prioritaria].",
+      "cambios": "Regar con moderación (F4), menos que en verano (F1, F2); sin abono (convención del proyecto; UF/IFAS admite cada dos meses, F2). Mantener por encima de 13 °C (F1) y lejos de cristales fríos.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "división de hijuelos (pups)",
+        "esporas (lento y difícil)"
+      ],
+      "epoca": "Primavera-verano, con calor [orientativo, sin fuente prioritaria]; las fuentes solo piden mantener las divisiones cálidas y húmedas (F1).",
+      "pasos": "1) Elegir un hijuelo con raíces propias que tenga frondas escudo y frondas fértiles (F1, F2). 2) Separarlo con un cuchillo afilado y limpio (F1). 3) Envolver las raíces en esfagno húmedo y atar el cepellón a un soporte (F2). 4) Mantener cálido y húmedo hasta que arraigue, lo que puede tardar mucho; la fronda escudo acabará creciendo y agarrándose al soporte (F1, F2). Por esporas es muy lento y poco práctico en casa (F1, F2, F5); RHS indica sembrarlas maduras (F4).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "Pudrición del rizoma y de la base por exceso de riego: es lo que mata a esta especie (F1, F2, F3). El medio interior y las frondas escudo siguen empapados aunque la superficie parezca seca (F2). Espaciar las inmersiones y regar por dedo y peso."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas negras en las frondas escudo por Rhizoctonia cuando la planta está demasiado húmeda; se extienden rápido, invaden el punto de crecimiento y la matan (F2). NC State cita 'mancha negra' con humedad demasiado alta (F6). Suspender el riego y bajar la humedad (F2). No hay fungicida doméstico autorizado en España contra estas pudriciones en plantas de interior (productos.md §3; decisión de Fase 5): el tratamiento es cultural y, si invade el punto de crecimiento, desechar la planta."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas (escama del helecho), la plaga más citada (F1, F2, F4, F5, F6). Bultos sueltos que se levantan con la uña; NO confundir con los soros pardos aterciopelados del envés de las puntas (F1, F3). Retirar a mano con bastoncillo sin frotar el fieltro de tricomas [orientativo, sin fuente prioritaria]. Si hace falta producto: solo uno listo para usar de uso no profesional inscrito en el Registro del MAPA, probándolo antes en una fronda; los insecticidas pueden quemar o deformar las frondas y los aceitosos son más agresivos (F2). Nada de aceite de neem, detergente ni recetas caseras."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa (F1, F2, F6), en la base de las frondas fértiles y entre las frondas escudo. Mismo criterio de retirada y productos que en S30 (F2)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, citada por NC State (F6); más probable con aire seco de calefacción o de verano en Madrid [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón, citado por NC State (F6), en frondas fértiles jóvenes."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "FALSO POSITIVO HABITUAL: las frondas escudo se vuelven tostadas a canela y secas como papel de forma natural al envejecer (F1, F6). Es normal y no deben arrancarse (F1). Solo es problema si el marrón aparece en frondas fértiles junto con sol directo o sequía prolongada."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "FALSO POSITIVO HABITUAL: el fieltro pardo del envés de las puntas de las frondas fértiles son los soros con esporas, normales (F1, F3, F4). Puntas secas y quebradizas de verdad (no aterciopeladas) apuntan a riego irregular, aire muy seco o sales de abono acumuladas [orientativo, sin fuente prioritaria]."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Falta de agua: las frondas fértiles se ablandan e inclinan un poco cuando el medio se ha secado; se recuperan pronto tras una inmersión (F2, F3). Si el medio está húmedo y la planta está lacia, sospechar pudrición (S15)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "FALSO POSITIVO HABITUAL: el polvo o fieltro blanco grisáceo de las frondas son tricomas (pelos estrellados) protectores, no oídio (F1, F2, F6). No frotarlo ni limpiarlo (F1)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Luz muy baja: crece lento y se vuelve propensa a plagas y enfermedades (F2, F3)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo tras cristal sur u oeste en verano: MBG pide evitar el sol pleno (F5). Frondas fértiles descoloridas o blanqueadas [orientativo, sin fuente prioritaria]."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y aire muy seco (HR ≈38 % en julio), alejarla de ventanas sur y oeste con sol directo o protegerla con cortina; ventana este o interior muy luminoso. El montaje se seca mucho antes: comprobar dedo y peso cada 2-3 días y sumergir cuando toque; más luz o calor implica más agua (F1). Puede pasar el verano en una terraza o balcón en sombra o semisombra, aclimatándola poco a poco a la luz (F1, F5), protegida de sol directo de tarde y de viento seco. Humidificador o agrupar plantas; no pulverizar como método de humedad.",
+    "invierno": "Calefacción con HR interior <30 %: humidificador cerca y lejos de radiadores; el musgo se seca antes, pero riego mucho más espaciado que en verano (F4), sin abono. Mínimo 13 °C (F1): lejos de cristales fríos y corrientes. Si estuvo fuera, entrarla antes de que las noches bajen de unos 10 °C en octubre (Wisconsin: antes de que las noches bajen a 4-9 °C, F1). Dar la máxima luz indirecta disponible (sur filtrada en invierno es adecuada) [orientativo, sin fuente prioritaria].",
+    "ubicacion_recomendada": "Colgada en tabla o cesta en pared interior a 1-2 m de una ventana este, o tras cortina en sur u oeste; un baño luminoso y ventilado también sirve (F1). Colgarla donde pueda descolgarse fácilmente para la inmersión y que gotee sin dañar la pared."
+  },
+  "lagunas": [
+    "Nombre: se mantiene 'Platycerium bifurcatum' (lista maestra). GBIF lo da como aceptado: Platycerium bifurcatum (Cav.) C.Chr. (F9); NC State da como sinónimos antiguos Acrostichum bifurcatum y Alcicornium bifurcatum (F6). No se pudo abrir POWO (Kew) por bloqueo Cloudflare. MBG indica 'sinónimo de P. alcicorne y a veces vendida como tal' (F5), mientras que UF/IFAS y la ASPCA tratan P. alcicorne como especie distinta de Madagascar (F2, F7): posible confusión comercial de nombres.",
+    "Humedad: ninguna fuente prioritaria da porcentajes de humedad mínima o ideal; min_pct e ideal_pct = null.",
+    "Temperatura: ninguna fuente prioritaria da máximo tolerado ni rango ideal; max_c, ideal_min_c e ideal_max_c = null.",
+    "Toxicidad en personas (niños): sin fuente prioritaria; 'desconocida'.",
+    "Remontaje: sin frecuencia en años en fuentes prioritarias; solo la señal (frondas escudo en el borde del soporte).",
+    "Duración de la inmersión: MBG dice 'varios minutos'; las cifras de 15-20 minutos solo aparecen en fuentes complementarias no usadas.",
+    "Nerviación: no descrita en fuentes prioritarias."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://hort.extension.wisc.edu/articles/staghorn-fern-platycerium-bifurcatum/",
+      "institucion": "University of Wisconsin–Madison Extension, Horticulture — Staghorn fern, Platycerium bifurcatum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://journals.flvc.org/edis/article/download/116899/115058/169218",
+      "institucion": "UF/IFAS Extension (EDIS) — ENH36 Staghorn Ferns at a Glance (S. Park Brown, rev. 2007)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/staghorn-fern/",
+      "institucion": "UF/IFAS Gardening Solutions — Staghorn Ferns",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/13234/platycerium-bifurcatum/details",
+      "institucion": "Royal Horticultural Society (RHS) — Platycerium bifurcatum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=291406&isprofile=1&basic=Platycerium",
+      "institucion": "Missouri Botanical Garden — Plant Finder, Platycerium bifurcatum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://plants.ces.ncsu.edu/plants/platycerium-bifurcatum/",
+      "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Platycerium bifurcatum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control — lista de plantas no tóxicas para gatos (Common Staghorn Fern, Platycerium bifurcatum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "institucion": "ASPCA Animal Poison Control — lista de plantas no tóxicas para perros (Common Staghorn Fern, Platycerium bifurcatum)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://api.gbif.org/v1/species/match?name=Platycerium%20bifurcatum",
+      "institucion": "GBIF Backbone Taxonomy — Platycerium bifurcatum (Cav.) C.Chr.",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

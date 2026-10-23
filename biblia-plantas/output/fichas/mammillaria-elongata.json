@@ -1,0 +1,160 @@
+{
+  "nombre_cientifico": "Mammillaria elongata",
+  "nombres_comunes": ["mamilaria", "cactus dedos de dama", "dedos de dama", "estrella dorada", "cactus de encaje dorado"],
+  "familia": "Cactaceae",
+  "origen": "Endémica del centro de México (RHS: 'C Mexico'; Wikipedia: centro de México). Llifle (complementaria) la sitúa en Guanajuato, Hidalgo y Querétaro, a unos 1.300-2.300 m de altitud, sobre suelos calizos en matorral; es abundante y común dentro de su área limitada.",
+  "clima_nativo": "Matorral semiárido de montaña del centro de México, sobre suelos calizos (Llifle, complementaria): calor diurno en la estación de crecimiento y noches frescas y secas en invierno. La RHS la cultiva bajo cristal con humedad baja y la califica H2 (tolera temperaturas bajas pero no sobrevive a la congelación).",
+  "categoria": "cactus",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Sin hojas. Tallos cubiertos de tubérculos (mamilas) cortos y cónicos, de 2-4 mm, dispuestos en espiral, no en costillas (NC State, género; Wikipedia). En cada areola, 14-30 espinas radiales finas de 4-12 mm, en estrella y aplicadas contra el tallo como un encaje, de color blanco, amarillo dorado o pardo; espinas centrales ausentes o 1-3, amarillas a pardas (Wikipedia; Llifle). La RHS describe las espinas como amarillo crema a pardas.",
+    "nerviacion": "No aplica (cactus sin hojas). Rasgo clave: tubérculos en espiral con las espinas en estrella que tapan casi por completo el tallo verde.",
+    "variegacion": "Sin variegación en la especie. El color de las espinas varía mucho (blanco, dorado, cobrizo o pardo). Cultivares frecuentes: 'Copper King' (espinas cobrizas), f. cristata (forma crestada en abanico, 'cactus cerebro') y f. monstruosa (tallos casi sin espinas) (Llifle; Wikipedia).",
+    "tallo": "Tallos cilíndricos alargados en forma de dedo, de 1-3,7 cm de diámetro y 3-15 cm de largo, verde brillante, erguidos o algo recostados cuando se alargan (RHS: hasta 15 cm; Wikipedia; Llifle). Flores pequeñas, de unos 1-1,5 cm, acampanadas, blanco crema, amarillo pálido o teñidas de rosa, a menudo con una línea central más oscura, que forman una corona cerca del ápice en primavera (RHS; NC State; Wikipedia). Frutos rosados a rojos.",
+    "habito": "Forma matas densas de muchos tallos que salen de la base (hijuelos), de crecimiento lento (RHS: 'clump forming'; NC State: crecimiento lento).",
+    "tamano_adulto_interior": "Tallos de 15-20 cm de alto como mucho y matas de hasta unos 30 cm de ancho (RHS: altura y anchura máximas 0,1-0,5 m, de 5 a 10 años hasta la madurez; NC State: 15-20 cm de alto; Wikipedia: 15 cm de alto y 30 cm de ancho).",
+    "confusiones": [
+      {"especie": "Mammillaria gracilis (incl. M. gracilis var. fragilis, 'cactus dedal')", "rasgo_diferenciador": "Tallos más cortos y gruesos, como dedales, cubiertos de espinas blancas, con hijuelos redondos que se desprenden al rozarlos; M. elongata tiene tallos largos en dedo con espinas doradas o pardas en encaje [orientativo, sin fuente prioritaria]."},
+      {"especie": "Mammillaria longimamma ('cactus dedo')", "rasgo_diferenciador": "Tiene tubérculos muy largos y gruesos, como dedos, sobre un tallo globoso; en M. elongata los dedos son los tallos enteros y los tubérculos son diminutos (2-4 mm) [orientativo, sin fuente prioritaria para el contraste]."},
+      {"especie": "Echinopsis chamaecereus (cactus cacahuete)", "rasgo_diferenciador": "Tallos con costillas (no tubérculos en espiral) y espinas blancas cortas y blandas; flores grandes rojo-anaranjadas; M. elongata tiene tubérculos y flores pequeñas crema o amarillo pálido [orientativo, sin fuente prioritaria]."},
+      {"especie": "Echinocereus spp. de tallos cortos", "rasgo_diferenciador": "Tallos con costillas marcadas y flores grandes, a menudo magenta, que salen de los lados del tallo; Mammillaria tiene tubérculos y flores pequeñas en corona cerca del ápice (NC State, género) [orientativo, sin fuente prioritaria para Echinocereus]."},
+      {"especie": "Mammillaria elongata subsp. echinaria", "rasgo_diferenciador": "Misma especie; se distingue por tener 2-3 espinas centrales oscuras bien visibles (Llifle, complementaria). Los cuidados son los mismos."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "Sin toxicidad química descrita. NC State indica que las Mammillaria no son tóxicas para personas ni mascotas, pero que sus espinas son afiladas y pueden causar heridas. Las espinas de M. elongata son finas y numerosas: pueden clavarse en la piel, la boca o las patas y causar irritación local.",
+    "confianza": "Media",
+    "fuentes": ["F1", "F6", "F7"],
+    "notas": "ASPCA no tiene ficha de Mammillaria elongata (listas de perros y gatos revisadas el 2026-10-21); sí recoge como no tóxica para perros, gatos y caballos a un congénere, Mammillaria fragilis ('thimble cactus'). La afirmación de NC State es a nivel de género, no de especie. Por eso la confianza es Media y no Alta. Si una mascota o un niño muerde la planta, retirar las espinas de la boca y la piel y consultar si hay síntomas."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 10760,
+      "lux_max": null,
+      "orientacion_hn": "Ventana sur u oeste (máxima luz y sol); ventana este como mínimo aceptable. La RHS admite orientación este, sur o norte en exterior, pero en interior detrás de un cristal la ventana norte no da luz suficiente para que florezca [orientativo, sin fuente prioritaria].",
+      "tolera_sol_directo": "Sí: pleno sol o luz directa brillante (NC State; RHS, 'full sun'). Con calor fuerte agradece algo de sombra por la tarde (NC State). Aclimatar poco a poco si viene de un lugar con menos luz o se saca al exterior: primero a semisombra y luego al sol, evitando las horas de 11 a 15 en los primeros días (UMN).",
+      "notas": "Escala del proyecto: directa >1000 fc (>10.760 lux). La RHS indica en la ficha 'full sun' y en cultivo 'luz brillante filtrada' bajo cristal; ambas cosas encajan: mucha luz, con protección en las horas de calor extremo bajo cristal. La luz alta es necesaria para que florezca (guía de cactus RHS) y la falta de luz da tallos débiles y deformes (RHS). Llifle (complementaria) añade que la luz fuerte da espinas más densas y floración.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    },
+    "riego": {
+      "criterio": "Regar a fondo solo cuando el sustrato esté seco por completo: comprobar con el dedo o un palillo a 5 cm (hasta el fondo en macetas pequeñas) y por el peso de la maceta, que debe estar ligera. El agua debe salir por el drenaje; tirar el sobrante del plato a los pocos minutos. Nunca por calendario (NC State; UMN; guía RHS).",
+      "primavera_verano": "En crecimiento, riego moderado (RHS ficha): a fondo cada vez que el sustrato se haya secado del todo. Con más luz en primavera sube la necesidad de agua (UMN). En macetas de 8-12 cm junto a una ventana soleada de Madrid suele ocurrir cada 7-14 días en pleno verano [orientativo, sin fuente prioritaria para la frecuencia].",
+      "otono_invierno": "De noviembre a principios de marzo, reposo casi en seco: la RHS (ficha) pide mantenerla casi seca, la guía RHS dar agua solo si empieza a arrugarse, NC State suspender el riego durante el reposo y UMN dar solo lo justo para evitar que se encoja. Si está a 7-10 °C, no regar salvo que los tallos se arruguen claramente.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "La RHS recomienda agua de lluvia templada porque los minerales del grifo pueden acumularse y dejar depósitos blancos. El agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y sirve; dejar reposar el agua no elimina la cloramina, pero no es un problema para esta planta. Si aparecen costras blancas, regar a fondo dejando drenar para lavar sales.",
+      "notas": "El exceso de riego es la causa nº 1 de muerte: el agua retenida pudre raíces y base en muy poco tiempo (UMN) y causa enfermedades bacterianas o fúngicas (NC State). Llifle (complementaria) advierte que pierde las raíces con facilidad en macetas húmedas. Ante la duda, no regar.",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere humedad ambiental baja (RHS ficha: 'low humidity'). La Univ. de Minnesota indica que muchos cactus están bien adaptados a viviendas con humedad relativa baja, del 10 al 30 %. Ninguna fuente da un mínimo ni un ideal concretos (null). El aire seco de Madrid no le perjudica; lo que conviene es buena ventilación. No pulverizar.",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F4"]
+    },
+    "temperatura": {
+      "min_c": 7,
+      "max_c": null,
+      "ideal_min_c": 21,
+      "ideal_max_c": 27,
+      "notas": "En crecimiento, ideal 21-27 °C (70-80 °F, NC State, género). Reposo invernal fresco para florecer: noches de 8-10 °C (guía RHS) o 7-13 °C (45-55 °F, NC State). Mínima adoptada 7 °C, según la convención del proyecto para cactus del desierto (nunca por debajo de 5-7 °C) y el extremo inferior del reposo de NC State. Contradicción: la RHS la califica H2 (soporta 1-5 °C pero no la congelación) y Llifle (complementaria) dice que aguanta unos -5 °C en seco y pide al menos 5-8 °C en reposo; se descartan los valores más bajos por menos conservadores para una maceta. El frío excesivo causa muerte regresiva y manchas descoloridas en la piel (guía RHS). Máxima: ninguna fuente prioritaria da una cifra (max_c = null); con 35-40 °C bajo cristal conviene ventilar y dar algo de sombra por la tarde (NC State: sombra de tarde con calor).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3"]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus muy drenante y arenoso: cactus compost estándar (RHS ficha), o mezcla con arena gruesa o grava: 2 partes de sustrato a base de tierra sin turba y 1 parte de grava hortícola (guía RHS; hasta un 30 % de grava), o 1 parte de sustrato universal y 1 de arena gruesa (UMN). NC State: mezcla para cactus con grava o arena gruesa. Prueba de UMN: al apretar la mezcla húmeda en la mano debe deshacerse al soltarla. Cubrir la superficie con grava fina (guía RHS). Maceta siempre con agujero de drenaje.",
+      "ph": "Indiferente: ácido, neutro o alcalino (RHS ficha; NC State). En la naturaleza crece sobre suelos calizos (Llifle, complementaria).",
+      "drenaje": "Excelente; el agua retenida pudre las raíces en muy poco tiempo (UMN).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para cactus o abono líquido rico en potasio (guía RHS); la ficha RHS indica abono líquido equilibrado.",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo, de abril a septiembre. Convención del proyecto: ¼-½ de la dosis de etiqueta una vez al mes. Las fuentes difieren en la frecuencia: ficha RHS cada 2-3 semanas; guía RHS una vez al mes; UMN solo 1-2 veces al año a finales de primavera o en verano.",
+      "otono_invierno": "Nada.",
+      "notas": "Contradicción sobre la frecuencia (RHS ficha cada 2-3 semanas frente a UMN 1-2 veces al año); se adopta la dosis reducida mensual del proyecto, que queda entre ambas y es más prudente que la ficha RHS. El exceso de nitrógeno favorece las cochinillas (Wisconsin). Ninguna fuente da una fórmula NPK concreta (npk = null).",
+      "confianza": "Alta",
+      "fuentes": ["F2", "F3", "F4", "F5"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (NC State), o cuando la mata haya llenado la maceta (guía RHS).",
+      "epoca": "Primavera (guía RHS).",
+      "senales": "Tallos que cubren toda la superficie y llegan al borde, raíces saliendo por el drenaje o sustrato que ya no drena. Pasar a una maceta solo un poco mayor y más ancha que honda: una maceta demasiado grande se queda húmeda y pudre (guía RHS). Aprovechar para revisar las raíces por si hay cochinilla de raíz (masas blancas algodonosas).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3"]
+    },
+    "poda": {
+      "necesita": "No (RHS ficha: no necesita poda).",
+      "epoca": "Primavera-verano, si se quieren separar hijuelos o retirar tallos dañados.",
+      "como": "Retirar con unas pinzas o un cuchillo limpio los tallos podridos, secos o muy infestados, cortando por tejido sano. Los tallos sanos que se separen pueden enraizarse como esquejes (ver propagación). Protegerse las manos de las espinas.",
+      "confianza": "Media",
+      "fuentes": ["F2", "F9"]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a principios de marzo (guía RHS). Hemisferio sur: de mayo a principios de septiembre.",
+      "cambios": "Lugar fresco y muy luminoso con noches de 8-10 °C (guía RHS) o 7-13 °C (NC State), nunca por debajo de 7 °C; riego casi nulo (ver riego) y sin abono. Este reposo fresco y seco, con la máxima luz posible, estimula la floración de primavera (NC State; guía RHS; UMN, que cita Mammillaria entre los cactus fáciles de hacer florecer en casa con luz, sustrato seco y noches frescas). En una habitación con calefacción a 20 °C sigue viva, pero suele florecer poco [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F3", "F4"]
+    },
+    "propagacion": {
+      "metodos": ["hijuelos (tallos laterales)", "semilla"],
+      "epoca": "Primavera o principios de verano para los hijuelos [orientativo, sin fuente prioritaria para la época]; semilla a principios de primavera (RHS ficha).",
+      "pasos": "Hijuelos (RHS ficha; guía RHS; NC State): 1) Separar un tallo lateral, mejor si ya tiene raíces propias (guía RHS), con la mano o un cuchillo limpio. 2) Dejar que la herida se seque y cicatrice unos días si no tiene raíces (Llifle, complementaria). 3) Colocarlo sobre una mezcla de 2 partes de sustrato a base de tierra y 1 de grava hortícola (guía RHS) o en arena estéril algo húmeda (UMN). 4) Mantener el sustrato solo ligeramente húmedo para que no se pudra (guía RHS) y regar con moderación hasta que enraíce (UMN). 5) Pasar a su mezcla definitiva cuando tenga raíces. Semilla: sembrar a 19-24 °C a principios de primavera (RHS ficha) sobre sustrato con grava, cubrir con vidrio o plástico transparente, a unos 21 °C con luz pero sin sol directo y el sustrato húmedo sin encharcar (guía RHS).",
+      "confianza": "Alta",
+      "fuentes": ["F1", "F2", "F3", "F4"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S29", "causa_habitual_en_esta_especie": "Cochinilla algodonosa: masas blancas algodonosas escondidas entre los tallos apretados, en las axilas de los tubérculos y en los brotes nuevos (NC State; Wisconsin; Llifle). La cochinilla de raíz (Rhizoecus) forma masas blancas cerosas en las raíces y puede verse algodón junto a los agujeros de drenaje (Wisconsin). Tratamiento: aislar la planta, retirar los insectos con un bastoncillo empapado en alcohol y repetir (UMN; Wisconsin); si persiste, solo un producto listo para usar autorizado para uso no profesional en plantas de interior en el Registro del MAPA. Para la cochinilla de raíz, desechar la planta suele ser lo más práctico (Wisconsin); si se intenta salvar, sacar el cepellón, limpiar las raíces, separar tallos sanos y replantarlos en sustrato y maceta nuevos [orientativo, sin fuente prioritaria para el método]."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Pudrición de raíces por agua retenida en el sustrato (UMN; NC State), sobre todo si se riega durante el reposo con frío o en maceta demasiado grande (guía RHS)."},
+    {"sintoma_id": "S15", "causa_habitual_en_esta_especie": "Base de los tallos blanda, oscura o translúcida por podredumbre bacteriana o fúngica tras exceso de riego o mala ventilación (NC State). Separar y enraizar los tallos sanos."},
+    {"sintoma_id": "S17", "causa_habitual_en_esta_especie": "Crecimiento parado o enanismo por exceso de riego, que daña las raíces (guía RHS), o por cochinilla de raíz, que causa marchitez, enanismo y menos floración (Wisconsin). Revisar las raíces."},
+    {"sintoma_id": "S16", "causa_habitual_en_esta_especie": "Tallos que se alargan, adelgazan, se doblan y palidecen hacia la luz por falta de luz (guía RHS: plantas débiles y deformes), típico lejos de la ventana o en ventana norte."},
+    {"sintoma_id": "S24", "causa_habitual_en_esta_especie": "Araña roja (NC State; guía RHS), favorecida por el aire caliente y seco del verano madrileño y de la calefacción."},
+    {"sintoma_id": "S23", "causa_habitual_en_esta_especie": "Punteado o decoloración fina de la piel de los tallos por araña roja (NC State)."},
+    {"sintoma_id": "S30", "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre los tallos (NC State; guía RHS); poco frecuente en esta especie (Llifle)."},
+    {"sintoma_id": "S07", "causa_habitual_en_esta_especie": "Manchas secas y descoloridas en la piel por frío excesivo (guía RHS), por ejemplo pegada a un cristal muy frío en invierno, o por quemadura solar."},
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Quemadura solar (piel amarillenta, blanquecina o parda en la cara expuesta) al pasarla de golpe de poca luz a pleno sol, o tras un cristal sur u oeste a 35-40 °C sin ventilación; aclimatar poco a poco (UMN) y dar sombra de tarde con calor fuerte (NC State)."},
+    {"sintoma_id": "S11", "causa_habitual_en_esta_especie": "Tallos arrugados o encogidos: sed prolongada en crecimiento (guía RHS) o raíces dañadas por pudrición o cochinilla de raíz, que impiden absorber agua. Comprobar las raíces antes de regar más."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, la ventana sur u oeste le va bien si está aclimatada, pero tras el cristal sin ventilación la piel se puede quemar: abrir para ventilar y poner una cortina fina en las horas centrales de la tarde (NC State: sombra de tarde con calor). Si se saca a la terraza, empezar en semisombra y pasar al sol poco a poco, evitando de 11 a 15 h los primeros días (UMN), y protegerla de lluvias tormentosas que encharquen la maceta. Regar a fondo cuando el sustrato esté seco del todo; con el calor seco de julio puede ser cada 7-10 días [orientativo, sin fuente prioritaria]. Vigilar araña roja con el aire seco (HR exterior ≈38 %).",
+    "invierno": "Para que florezca, darle el reposo fresco: la habitación más fresca y luminosa de la casa, sin calefacción o con el radiador cerrado, con noches de 8-10 °C (guía RHS). Junto a una ventana sur, el alféizar interior fresco es un buen sitio (UMN: el alféizar da luz y noches frescas), pero que no baje de 7 °C ni toque el cristal en noches de helada. La calefacción no es un problema si está lejos del radiador (guía RHS), aunque con 20 °C constantes florecerá menos. La humedad interior <30 % no le perjudica (UMN: adaptados a 10-30 %). Riego casi nulo hasta principios de marzo y sin abono. Si pasó el verano en la terraza, meterla antes de las primeras heladas y antes de que las noches bajen de 7 °C (en Madrid, habitualmente en noviembre [orientativo, sin fuente prioritaria para la fecha]).",
+    "ubicacion_recomendada": "Alféizar o junto a una ventana sur u oeste con sol directo varias horas al día, con cortina fina disponible para las tardes de calor extremo; en invierno, la misma luz pero en una habitación fresca (8-10 °C de noche, nunca por debajo de 7 °C), lejos de radiadores."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Mammillaria elongata DC. (búsqueda en POWO consultada el 2026-10-21; la página del taxón no se pudo abrir por bloqueo y no se ha verificado allí la distribución detallada ni la lista de sinónimos). Llifle (complementaria) cita como sinónimos Chilita elongata (DC.) Orcutt, Krainzia elongata, Leptocladia elongata, Neomammillaria elongata, Mammillaria intertexta, M. stella-aurata, M. subcrocea y M. tenuis; no hay cambio de nombre. Existe un homónimo, Mammillaria elongata Hemsl., que POWO trata como sinónimo de Ariocarpus retusus (otra planta).",
+    "Distribución por estados (Guanajuato, Hidalgo, Querétaro), altitud y hábitat calizo proceden solo de Llifle (complementaria); la RHS solo indica 'centro de México'.",
+    "No se encontró ficha de la especie en el Missouri Botanical Garden ni en servicios de extensión de EE. UU.; NC State solo tiene la página del género (con una línea para M. elongata). Los cuidados generales proceden de la ficha y la guía de cactus de la RHS, de NC State (género) y de la Univ. de Minnesota.",
+    "Toxicidad: ASPCA no tiene ficha de M. elongata; la no toxicidad se apoya en NC State (a nivel de género) y en la ficha ASPCA del congénere M. fragilis. Confianza Media.",
+    "Temperatura máxima tolerada: ninguna fuente prioritaria da una cifra (max_c = null).",
+    "Humedad: ninguna fuente da mínimos ni ideales numéricos (min_pct e ideal_pct = null); solo 'humedad baja' (RHS) y adaptación a 10-30 % (UMN).",
+    "Cochinilla de raíz: no se encontró una fuente prioritaria que nombre a M. elongata como huésped; Wisconsin la describe en plantas de interior y Llifle (complementaria) la cita en esta especie. NC State solo propone imidacloprid sistémico, que no se recomienda aquí por no ser un producto de uso doméstico en interior autorizado en España.",
+    "Frecuencias de riego en Madrid, época de separación de hijuelos, fecha de entrada en casa y efecto de la calefacción en la floración sin fuente prioritaria (marcados como orientativos)."
+  ],
+  "fuentes": [
+    {"id": "F1", "url": "https://plants.ces.ncsu.edu/plants/mammillaria/", "institucion": "NC State Extension – Gardener Plant Toolbox, Mammillaria (incluye M. elongata)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F2", "url": "https://www.rhs.org.uk/Plants/10815/wd/Details", "institucion": "Royal Horticultural Society (RHS) – Mammillaria elongata, ladyfinger cactus (AGM)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F3", "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide", "institucion": "Royal Horticultural Society (RHS) – Cacti and succulents growing guide", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F4", "url": "https://extension.umn.edu/houseplants/cacti-and-succulents", "institucion": "University of Minnesota Extension – Growing cacti and succulents indoors", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F5", "url": "https://hort.extension.wisc.edu/articles/mealybugs-2/", "institucion": "University of Wisconsin–Madison Extension, Wisconsin Horticulture – Mealybugs", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F6", "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list", "institucion": "ASPCA Animal Poison Control – Toxic and Non-Toxic Plants (listas de gatos y perros)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F7", "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/thimble-cactus", "institucion": "ASPCA Animal Poison Control – Thimble Cactus (Mammillaria fragilis), congénere", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F8", "url": "https://powo.science.kew.org/results?q=Mammillaria%20elongata", "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO), búsqueda Mammillaria elongata", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F9", "url": "https://llifle.com/Encyclopedia/CACTI/Family/Cactaceae/9107/Chilita_elongata", "institucion": "LLIFLE – Encyclopedia of Living Forms, Mammillaria elongata (Chilita elongata)", "tipo": "complementaria", "fecha_consulta": "2026-10-21"},
+    {"id": "F10", "url": "https://en.wikipedia.org/wiki/Mammillaria_elongata", "institucion": "Wikipedia – Mammillaria elongata", "tipo": "complementaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

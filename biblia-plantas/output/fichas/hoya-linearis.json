@@ -1,0 +1,325 @@
+{
+  "nombre_cientifico": "Hoya linearis",
+  "nombres_comunes": [
+    "hoya linearis",
+    "hoya de hojas lineales",
+    "flor de cera de hoja fina"
+  ],
+  "familia": "Apocynaceae (subfamilia Asclepiadoideae). RHS y POWO (Kew) la sitúan en Apocynaceae; Flora of China la trata aún en Asclepiadaceae, familia hoy integrada en Apocynaceae.",
+  "origen": "Himalaya y montañas próximas: Nepal, India, Myanmar y noroeste de Yunnan (China), según Flora of China. RHS indica un área de Nepal a China e Indochina.",
+  "clima_nativo": "Montano subtropical, sin heladas. Epífita que cuelga de los árboles en bosques perennifolios entre 1500 y 2000 m de altitud (Flora of China). Por esa altitud, el clima de origen es más fresco que el de la mayoría de hoyas de tierras bajas. Las fuentes complementarias lo describen como bosque fresco y brumoso, con aire húmedo.",
+  "categoria": "trepadora",
+  "dificultad": "dificil",
+  "prioridad": 2,
+  "rareza": "coleccionista",
+  "identificacion": {
+    "hojas": "Opuestas, por parejas en cada nudo, lineales y estrechas: de 2,5 a 5 cm de largo y unos 5 mm de ancho, con base en cuña y ápice terminado en una puntita (mucronado). Peciolo muy corto, de unos 2 mm (Flora of China; RHS: hojas carnosas lineales de hasta 5 cm). Algo carnosas pero finas y blandas, verde medio a grisáceo. Las fuentes complementarias las describen cubiertas de una pelusa suave (pubescentes); Flora of China solo describe los tallos como pelosos. En conjunto, la planta parece una cortina de 'agujas' blandas colgantes.",
+    "nerviacion": "Solo se ve el nervio central; los nervios laterales no se distinguen (Flora of China: 'lateral veins obscure').",
+    "variegacion": "No variegada. La especie es verde uniforme; no se conocen cultivares variegados en las fuentes consultadas.",
+    "tallo": "Fino, flexible y colgante, de hasta 1,5 m, cubierto de pelos (Flora of China: 'hirsute, puberulent'). Sangra látex blanco al cortarlo, como todas las hoyas (RHS, guía del género). No es trepador vigoroso: cuelga.",
+    "habito": "Colgante perennifolia, epífita en origen. En casa se cultiva en cesta o maceta colgante (RHS, guía del género). Flores en umbelas terminales sin pedúnculo, de unas 10-13 flores blancas estrelladas de 0,8-1,2 cm, perfumadas, con corona central en estrella (RHS, Flora of China). Florece a final del verano (RHS; Flora of China: septiembre). A diferencia de H. carnosa, las umbelas salen en la punta de los tallos (Flora of China: 'pseudumbels terminal, sessile').",
+    "tamano_adulto_interior": "Tallos colgantes de 1-1,5 m de largo y 0,1-0,5 m de ancho, en 5-10 años (RHS, cultivo protegido). Flora of China da tallos de hasta 1,5 m en la naturaleza.",
+    "confusiones": [
+      {
+        "especie": "Hoya retusa",
+        "rasgo_diferenciador": "También de hojas lineales, pero lisas y sin pelos, más rígidas y con el ápice escotado o truncado; flores solitarias o en grupos de muy pocas. H. linearis tiene hojas blandas con pelusa, ápice mucronado y umbelas de 10-13 flores. Rasgo general, sin fuente prioritaria abierta."
+      },
+      {
+        "especie": "Hoya kentiana y Hoya wayetii",
+        "rasgo_diferenciador": "Hojas más largas, gruesas, lisas y brillantes, sin pelos, a menudo con el margen oscuro o rojizo, y tallos sin pelos. Rasgo general, sin fuente prioritaria abierta."
+      },
+      {
+        "especie": "Ceropegia linearis (incluida C. woodii, 'collar de corazones')",
+        "rasgo_diferenciador": "Tallos colgantes muy finos con tubérculos en los nudos y flores tubulares en farolillo, no estrelladas. Las hojas de C. linearis son lineales pero lisas. Rasgo general, sin fuente prioritaria abierta."
+      },
+      {
+        "especie": "Rhipsalis spp. (cactus muérdago)",
+        "rasgo_diferenciador": "Lo que cuelga son tallos cilíndricos articulados, sin hojas verdaderas ni pares de hojas opuestas, y sin látex blanco. Rasgo general, sin fuente prioritaria abierta."
+      },
+      {
+        "especie": "Hoya carnosa y otras hoyas de hoja ancha",
+        "rasgo_diferenciador": "Hojas ovadas, gruesas y céreas de 7,5-15 cm, sin pelos (ficha del proyecto de H. carnosa), frente a las hojas lineales de unos 5 mm de ancho de H. linearis."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "toxica",
+    "principio_activo": null,
+    "sintomas": "Perros y gatos: sin dato verificado para esta especie. La ASPCA no tiene ficha de Hoya linearis (revisadas sus listas de plantas para perros y gatos el 2026-10-21); solo clasifica como no tóxicas para perros y gatos a tres especies del mismo género: H. carnosa (incluida 'Krinkle Kurl'), H. kerrii y H. pubicalyx. Es probable que el riesgo sea bajo, pero la app no debe presentarla como 'segura para mascotas'. Personas: la RHS, en su guía del género Hoya, advierte que el látex lechoso es tóxico e irrita la piel, y recomienda guantes al podar o esquejar. Riesgo práctico: irritación de piel u ojos por el látex y, si se ingiere, posibles molestias leves. Ante ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Media",
+    "fuentes": [
+      "F2",
+      "F5",
+      "F6"
+    ],
+    "notas": "No se extiende a 'no_toxica' por el género: ASPCA no evalúa H. linearis, y la regla del proyecto deja 'desconocida' sin fuente prioritaria de la especie (criterio coherente con la ficha de H. carnosa, que sí tiene ficha ASPCA, y con Ceropegia woodii, de la misma familia). Una fuente complementaria (sheets.works, F7) la da como no tóxica para perros y gatos y con látex levemente irritante, pero no sustituye a una fuente veterinaria. Niños: 'toxica' de bajo riesgo, por el látex irritante (RHS, nivel de género), igual que en la ficha de H. carnosa. La confianza Media corresponde al dato de niños (una prioritaria, de género); para perros y gatos no hay dato."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. RHS admite orientación este, sur u oeste siempre protegida del sol fuerte.",
+      "tolera_sol_directo": "Poco. La RHS pide luz brillante indirecta y sombra frente al sol fuerte (ficha de la especie), y avisa de que el sol de verano quema las hojas (guía del género). Las fuentes complementarias coinciden: el sol directo quema, arruga y decolora las hojas finas.",
+      "notas": "La ficha RHS marca 'pleno sol o semisombra' como datos de jardín, pero en sus notas de cultivo pide luz brillante indirecta con sombra del sol fuerte; se adopta lo más prudente. Solo una institución prioritaria (RHS) trata la especie; la guía del género es de la misma institución, por eso la confianza es Media. Los lux salen de la escala del proyecto para luz brillante indirecta (500-1000 fc); ninguna fuente da cifras. Con poca luz no florece (RHS, guía del género) y se vuelve larguirucha (fuente complementaria F8). Luz desde arriba, en maceta colgante, evita calvas cerca del sustrato (F8).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F7",
+        "F8"
+      ]
+    },
+    "riego": {
+      "criterio": "Riego moderado, más constante que en H. carnosa pero sin encharcar nunca. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato. Volver a regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (en maceta colgante pequeña suele bastar esa comprobación) y la maceta pese claramente menos que recién regada. No dejar que el cepellón se seque del todo durante días: sus hojas finas guardan menos agua que las de las hoyas de hoja gruesa. Nunca por calendario.",
+      "primavera_verano": "Riego moderado (RHS, ficha de la especie): regar en cuanto se seque la capa superior del sustrato. Con calor y aire seco se seca mucho antes; comprobar cada 2-3 días con el dedo y el peso.",
+      "otono_invierno": "Mantener el sustrato apenas húmedo (RHS, ficha: 'keep just moist in winter'). Dejar que se seque bastante entre riegos, pero no del todo (RHS, guía del género). El frío con sustrato mojado pudre las raíces (RHS, guía del género).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente. El agua del grifo de Madrid es blanda y adecuada. Cada pocos meses, regar en abundancia con agua sola para lavar las sales del abono (RHS, guía del género).",
+      "notas": "Contraste con H. carnosa: las fuentes complementarias (F7, F8, F9, F10) coinciden en que es muy sensible al encharcamiento (raíces finas que se pudren) y, a la vez, se deshidrata antes que las hoyas de hoja gruesa. Por eso se marca sequía 'media' en vez de 'baja'. La RHS solo dice 'riego moderado en crecimiento y apenas húmedo en invierno'; el resto del criterio es la convención del proyecto. Confianza Media: una sola institución prioritaria trata la especie.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F7",
+        "F8"
+      ]
+    },
+    "humedad": {
+      "min_pct": 40,
+      "ideal_pct": 60,
+      "notas": "Cifras [orientativo, sin fuente prioritaria]. La RHS indica que las hoyas no toleran el aire seco en la época de crecimiento, sobre todo con calor (guía del género). Las fuentes complementarias coinciden en que esta especie pide más humedad que H. carnosa: la humedad baja es la causa más frecuente de que fracase en interior, con hojas arrugadas y caída de hojas (F7); sin humedad suficiente se marchita (F8); necesita ambiente húmedo (F9). Algunas plantas se adaptan a la humedad normal de una casa (F8). Por debajo del 40 %, usar humidificador o agrupar plantas; pulverizar no sirve. La RHS propone un plato con grava húmeda, con el agua por debajo de la grava para no empapar el sustrato. No mojar el sustrato para subir la humedad: el encharcamiento la pudre.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F7",
+        "F8",
+        "F9"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 24,
+      "notas": "Mínimo: la RHS clasifica la especie como H1B, es decir, necesita en invierno un mínimo de 10-15 °C y solo puede estar fuera en verano. Se adopta 15 °C, la cota alta y más conservadora, como en otras fichas H1B del proyecto. Es más alto que el de H. carnosa (13 °C en la ficha del proyecto; la RHS la da como H2, más rústica). Las fuentes complementarias dan 10 °C como límite inferior (F7; F8: evitar menos de 10 °C durante mucho tiempo). Ideal: 16-24 °C en primavera y verano (RHS, guía del género); las complementarias dan 18-25 °C (F7) o 16-29 °C (F8). Calor: ninguna fuente prioritaria da un máximo; max_c queda en null. Su origen a 1500-2000 m de altitud (Flora of China) apunta a un clima más fresco que el de otras hoyas, y la fuente complementaria F7 dice que tolera aire más fresco que la mayoría de las hoyas y que sufre en habitaciones calurosas y cargadas, sobre todo en verano. Esto no se ha confirmado con dos fuentes prioritarias: se indica como precaución, no como dato firme. Como orientación, por encima de unos 28-30 °C con aire seco aumenta el riesgo de deshidratación [orientativo, sin fuente prioritaria].",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F7",
+        "F8"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Mezcla de drenaje rápido y aireada. RHS (ficha de la especie): sustrato con base de tierra franca, sin turba, con materia orgánica añadida y drenaje rápido. RHS (guía del género): partes iguales de corteza de orquídea, sustrato universal sin turba y perlita gruesa o grava, o sustrato de cactus con perlita. Para esta especie de raíces finas conviene una mezcla que retenga algo de humedad sin apelmazarse.",
+      "ph": "Tolera sustratos ácidos, neutros o alcalinos (RHS, ficha de la especie). Sin rango numérico.",
+      "drenaje": "Imprescindible: maceta con agujeros y mezcla suelta. Una maceta demasiado grande mantiene el sustrato mojado y pudre las raíces (RHS, guía del género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado (RHS, ficha de la especie).",
+      "npk": null,
+      "primavera_verano": "Una vez al mes, a ¼-½ de la dosis de la etiqueta, solo con crecimiento activo (convención del proyecto, coherente con la RHS: abono mensual en crecimiento).",
+      "otono_invierno": "Nada en reposo, de octubre a febrero.",
+      "notas": "La guía RHS del género propone abono de orquídeas cada dos semanas en primavera y verano y mensual en invierno; la ficha de la especie dice solo 'mensual'. Se adopta lo más prudente. No abonar en las 5-6 semanas tras un trasplante. El exceso de abono acumula sales que impiden absorber agua y causa marchitez (RHS, guía del género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente. Las hoyas no toleran bien el trasplante y pueden seguir años en la misma maceta (RHS, ficha de la especie); trasplantar solo cuando las raíces llenen la maceta (RHS, guía del género).",
+      "epoca": "Primavera (RHS, guía del género), nunca con botones o flores.",
+      "senales": "Raíces que salen por los agujeros, sustrato degradado y apelmazado o que se seca en muy poco tiempo. Pasar a una maceta solo unos centímetros más ancha (RHS, guía del género).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "Poca. Solo para quitar tallos secos, débiles o demasiado largos. Las hoyas responden mal a la poda fuerte (RHS, guía del género).",
+      "epoca": "Tras la floración (RHS, ficha de la especie). La guía RHS del género indica poda ligera a final del invierno; con esta especie, que florece a final del verano, conviene esperar a que acabe la floración.",
+      "como": "Con guantes, porque el látex irrita la piel (RHS, guía del género). Cortar justo por encima de un par de hojas o de un brote lateral. No quitar las flores pasadas ni los restos de las umbelas: dejar que caigan solas (RHS, guía del género). Despuntar tallos largos y sin hojas en la base estimula ramificación (fuente complementaria F8).",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F8"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Semirreposo invernal, aproximadamente de octubre a febrero en el hemisferio norte (RHS, guía del género). En el hemisferio sur, de abril a agosto.",
+      "cambios": "Riego más escaso, con el sustrato apenas húmedo (RHS, ficha de la especie), sin abono y con la máxima luz posible. Mantener por encima de 15 °C.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "acodo simple",
+        "esqueje semileñoso de tallo (en musgo esfagno con perlita, sustrato ligero o agua)"
+      ],
+      "epoca": "Acodo en primavera o verano; esquejes semileñosos a final del verano con calor de fondo (RHS, ficha de la especie). La guía del género da primavera o principio del verano para esquejes.",
+      "pasos": "Esqueje: 1) Con guantes, cortar un tramo sano de tallo con al menos 3 nudos (F8). 2) Quitar las hojas de los nudos inferiores. 3) Enraizar en musgo esfagno con perlita o en sustrato ligero para esquejes, con calor de fondo (RHS, ficha) y humedad alta, por ejemplo bajo una bolsa transparente (F8); en agua las hoyas enraízan en 2-3 semanas (RHS, guía del género). Mantener húmedo, no empapado. 4) Raíces en 3-4 semanas (F8). Acodo: apoyar un tallo sobre una maceta con sustrato, sujetarlo con una grapa, quitar las hojas que toquen el sustrato, mantenerlo algo húmedo hasta que enraíce y separarlo de la madre (RHS, guía del género). Plantar varios esquejes juntos da una planta más llena.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F8"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga que la RHS señala para esta especie. Se esconde entre los tallos pelosos y las axilas de las hojas. Revisar a menudo y tratar con un producto listo para usar de uso no profesional inscrito en el Registro del MAPA para plantas de interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo sobre los tallos (RHS, guía del género)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca de invernadero (RHS, guía del género), sobre todo si pasa el verano en terraza."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caluroso (fuente complementaria F7): calefacción en invierno y verano seco de Madrid."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por sustrato encharcado, mal drenaje, maceta demasiado grande o frío con humedad en invierno (RHS, guía del género). Es la causa de muerte más típica en esta especie de raíces finas (F7, F8, F9). Rara vez se recupera: sacar esquejes sanos en cuanto se detecte (RHS)."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Tallos y hojas blandos y amarillentos por pudrición tras exceso de riego (F7). Revisar raíces y cuello."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas o apergaminadas por aire seco o porque el cepellón se ha secado del todo; esta especie tiene menos reserva de agua que las hoyas de hoja gruesa (F7, F10)."
+    },
+    {
+      "sintoma_id": "S12",
+      "causa_habitual_en_esta_especie": "Caída de hojas, que son frágiles y se desprenden al manipular la planta (F8), o caída de botones al moverla o cambiar la luz (RHS, guía del género). También por aire seco (F7) o por frío y encharcamiento en invierno (RHS)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Marchitez y muerte de puntas de tallo por exceso de riego o de abono (RHS, guía del género), o por falta de humedad ambiental (F8)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo tras un cristal sur u oeste en verano: hojas decoloradas o quemadas (RHS, F8)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: tallos largos con pocas hojas y sin floración (RHS, guía del género; F8)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Hojas que se ennegrecen por frío o sustrato encharcado en invierno (RHS, guía del género)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Es la estación más delicada para esta hoya de montaña. Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 %), colocarla en la habitación más fresca y luminosa de la casa, lejos de ventanas sur y oeste sin protección: el sol tras el cristal quema sus hojas finas. Evitar habitaciones cerradas y calurosas; ventilar en las horas frescas y no ponerla en la corriente directa del aire acondicionado. Comprobar el sustrato con el dedo y el peso cada 2-3 días, porque se seca rápido, pero sin encharcar: calor y sustrato mojado favorecen la pudrición. Subir la humedad con humidificador o agrupando plantas (pulverizar no sirve) y vigilar la araña roja. Si sale a una terraza, solo a sombra luminosa y resguardada, y nunca si las noches bajan de 15 °C (RHS: H1B). En las olas de calor más intensas, la terraza no es buen sitio: se deshidrata [orientativo, sin fuente prioritaria].",
+    "invierno": "Semirreposo con el sustrato apenas húmedo y sin abono. Mantenerla por encima de 15 °C, lejos del cristal frío por la noche, de corrientes y de radiadores (RHS, guía del género). Con calefacción la humedad interior baja a menudo del 30 %, muy por debajo de lo que necesita: usar humidificador o agrupar plantas; sin ello las hojas se arrugan y caen. Darle la ventana más luminosa, porque la luz invernal es débil.",
+    "ubicacion_recomendada": "Maceta colgante junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina, en una habitación fresca y sin calefacción ni aire acondicionado soplándole directamente. Un baño luminoso con ventana puede ir bien por la humedad, siempre que no baje de 15 °C en invierno."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) acepta Hoya linearis Wall. ex D.Don (Apocynaceae); solo se pudo consultar su buscador (la ficha completa devolvió error), por lo que no se han verificado sinónimos ni la distribución exacta en POWO. Flora of China la trata en Asclepiadaceae (obsoleta).",
+    "Cultivo: la única fuente prioritaria que trata la especie es la ficha RHS; el resto de datos de cultivo vienen de la guía RHS del género Hoya (misma institución) o de fuentes complementarias. Por eso ningún bloque de cuidados llega a confianza Alta. No se encontró ficha de la especie en NC State (404), Missouri Botanical Garden ni universidades.",
+    "Preferencia por temperaturas frescas y sensibilidad al calor: solo la respaldan el hábitat de altitud (Flora of China) y una fuente complementaria (sheets.works). No hay cifra prioritaria de temperatura máxima; max_c se deja en null.",
+    "Humedad: ninguna fuente prioritaria da cifras para la especie; min_pct y ideal_pct son orientativos.",
+    "Toxicidad: ASPCA no tiene ficha de H. linearis (sí de H. carnosa, H. kerrii y H. pubicalyx, todas no tóxicas). Ninguna otra fuente prioritaria evalúa la especie. Perros y gatos quedan como 'desconocida'. Principio activo del látex desconocido.",
+    "Pubescencia de las hojas: Flora of China describe pelos solo en los tallos; la pelusa de las hojas la citan fuentes complementarias (F9, F10, F8). Conviene confirmarla con un herbario o una flora.",
+    "Confusiones con Hoya retusa, H. kentiana, H. wayetii, Ceropegia linearis y Rhipsalis: rasgos generales sin fuente prioritaria abierta.",
+    "Dificultad 'dificil': basada en fuentes complementarias (F9: 'una de las hoyas más difíciles'); la RHS no da valoración.",
+    "Límite de búsquedas web agotado durante la investigación: no se pudieron buscar más fuentes prioritarias (p. ej., Pet Poison Helpline, sociedades de hoyas, revistas). Fuentes complementarias como Ohio Tropics, Foliage Factory y la tienda RHS Plants no se pudieron abrir (403/limitación) y no se citan."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://www.rhs.org.uk/plants/8856/hoya-linearis/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Hoya linearis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/hoya/how-to-grow",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo del género Hoya",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200018644",
+      "institucion": "Flora of China, vol. 16 (eFloras; Missouri Botanical Garden y Harvard University Herbaria) – Hoya linearis",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://powo.science.kew.org/api/2/search?q=Hoya%20linearis",
+      "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew – nombre aceptado",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "institucion": "ASPCA Animal Poison Control Center – listas de plantas para gatos y perros (sin ficha de H. linearis)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+      "institucion": "ASPCA Animal Poison Control Center – Wax Plant (Hoya carnosa 'Krinkle Kurl'), congénere",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://sheets.works/plant-atlas/hoya-linearis/",
+      "institucion": "Sheets Works – The Plant Atlas (divulgación)",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://www.bybrittanygoldwyn.com/hoya-linearis-care/",
+      "institucion": "Brittany Goldwyn – blog de cultivo",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://stevesleaves.com/products/hoya-linearis",
+      "institucion": "Steve's Leaves – vivero",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://getplanta.com/article/hoya-linearis-trivia",
+      "institucion": "Planta (aplicación de cuidado de plantas) – artículo divulgativo",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

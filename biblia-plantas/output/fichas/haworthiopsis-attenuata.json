@@ -1,0 +1,351 @@
+{
+  "nombre_cientifico": "Haworthiopsis attenuata",
+  "nombres_comunes": [
+    "haworthia",
+    "planta cebra suculenta",
+    "haworthia cebra",
+    "planta cebra"
+  ],
+  "familia": "Asphodelaceae (subfamilia Alooideae). Las fuentes antiguas la incluyen en Liliaceae o Aloaceae (Univ. Wisconsin, ASPCA).",
+  "origen": "Sudáfrica: provincias del Cabo (POWO), sobre todo el Cabo Oriental (SANBI). POWO la registra además como introducida en México central y suroccidental y en España. Nombre aceptado: Haworthiopsis attenuata (Haw.) G.D.Rowley (POWO). Sinónimos homotípicos: Aloe attenuata Haw. (1804), Haworthia attenuata (Haw.) Haw. (1812) y Haworthia pumila subsp. attenuata (Haw.) Halda (1997) (POWO, NC State). El género Haworthiopsis se separó de Haworthia (antiguo subgénero Hexangulares), separación confirmada con datos moleculares por Manning y colaboradores en 2014 (SANBI). En la Lista Roja de Sudáfrica figura como Vulnerable (VU) por la recolección para comercio medicinal y hortícola y por la pérdida de hábitat (SANBI).",
+  "clima_nativo": "Matorral subtropical seco sin heladas (Albany Thicket). En la localidad de la variedad 'Enon' (Cabo Oriental, unos 400 m de altitud) los veranos alcanzan 35-40 °C, los inviernos son más frescos sin heladas y llueven 300-400 mm al año, repartidos todo el año pero sobre todo en verano (SANBI). Crece en grietas y repisas de roca orientadas al sur (en el hemisferio sur, la cara más sombría), a menudo semienterrada en arena y en condiciones duras (SANBI, NC State). Rusticidad USDA 9-11; no tolera heladas (NC State).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas suculentas, duras y opacas, lineares a lanceoladas o triangular-lanceoladas, que se estrechan poco a poco hasta una punta fina (de ahí 'attenuata', 'que se adelgaza hasta una punta') (NC State, SANBI). Verde oscuro, a veces rojizas con sequía o mucho sol (SANBI). Rasgo clave: tubérculos blancos en relieve, a menudo unidos en bandas horizontales, en LAS DOS caras de la hoja (haz y envés) (NC State). El envés es convexo y lleva una quilla marcada hacia la punta; el margen también tiene tubérculos y la punta acaba en una arista fina (SANBI). Hay formas con pocos tubérculos o casi lisas, como 'Enon', con hojas más cortas de 40-50 × 15-18 mm (SANBI). Con mucha luz pueden aparecer tonos variados; con poca luz las bandas blancas se apagan y las hojas se alargan (NC State, Univ. Wisconsin).",
+    "nerviacion": "No visible: hoja suculenta gruesa sin nervios apreciables.",
+    "variegacion": "La especie no es variegada: su dibujo son los tubérculos blancos, no una variegación. Formas de cultivo citadas por NC State: f. caespitosa (puntos blancos formando bandas transversales), f. Enon (miniatura, hojas verde lima con puntos blancos en relieve) y 'Super Clone' (pequeña, hojas verdes con tubérculos blancos dispersos y bandas blancas horizontales en el envés). En comercio existen formas variegadas (con franjas amarillas o blancas), no descritas en las fuentes prioritarias consultadas.",
+    "tallo": "Sin tallo visible (acaule): las rosetas se apoyan en el sustrato (NC State). Las raíces son grises y cilíndricas (SANBI). Las flores salen en varas largas, finas y rectas como una pajita, de hasta unos 30 cm, a veces ramificadas en la parte alta (NC State, SANBI).",
+    "habito": "Rosetas compactas en forma de estrella que ahíjan mucho por la base y forman matas o tapices (NC State, SANBI). Crecimiento lento y vida larga, hasta unos 50 años (NC State). Florece de finales de primavera a principios de verano: racimos de flores pequeñas tubulares y curvadas, de dos labios, blancas con una franja central verde-púrpura o blanco-rosadas (NC State, SANBI).",
+    "tamano_adulto_interior": "Roseta individual de unos 8-10 cm de diámetro (SANBI, var. 'Enon'). La planta mide 10-30 cm de alto contando la vara floral y forma matas de 15-60 cm de ancho con los años (NC State). En maceta suele quedarse en una mata de pocas rosetas de 10-15 cm.",
+    "confusiones": [
+      {
+        "especie": "Haworthiopsis fasciata (sin. Haworthia fasciata)",
+        "rasgo_diferenciador": "La cara superior (haz) de la hoja es LISA y las bandas blancas en relieve solo están en la cara exterior (envés); flores blancas (NC State). En H. attenuata hay tubérculos en las dos caras. H. fasciata es mucho más rara en cultivo, pero muchas H. attenuata se venden con la etiqueta 'Haworthia fasciata' (NC State). La ASPCA la lista como no tóxica, igual que H. attenuata, así que la confusión no cambia el aviso de toxicidad."
+      },
+      {
+        "especie": "Híbridos de Haworthiopsis y cultivares comerciales ('Super Clone', formas variegadas)",
+        "rasgo_diferenciador": "'Super Clone' es una forma de H. attenuata con bandas blancas más anchas y marcadas (NC State). Muchas plantas de vivero son selecciones o híbridos sin nombre: la IA debe identificarlas como 'Haworthiopsis attenuata o afín' si no se ve claro el haz. Los cuidados son los mismos."
+      },
+      {
+        "especie": "Aloe vera y otros áloes jóvenes con manchas blancas",
+        "rasgo_diferenciador": "Los áloes tienen hojas más grandes y blandas, con gel en el interior y margen con dientes blandos; las haworthias son pequeñas, de hoja dura y con tubérculos en relieve [rasgo de Aloe tomado de la ficha aloe-vera del proyecto]. Importante: Aloe vera es tóxica para perros y gatos según la ASPCA, mientras que Haworthia no lo es (ASPCA)."
+      },
+      {
+        "especie": "Gasteria spp.",
+        "rasgo_diferenciador": "Hojas en forma de lengua, a menudo dispuestas en dos filas (en abanico) y con flores en forma de estómago o bolsa, rojizas [rasgo no verificado en fuente prioritaria]. H. attenuata forma rosetas en estrella de hojas estrechas y puntiagudas con flores blancas pequeñas."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "no_toxica",
+    "principio_activo": null,
+    "sintomas": "No se describen síntomas de intoxicación. La ASPCA clasifica el género Haworthia (todas las especies y cultivares) como no tóxico para perros y gatos, y su ficha de 'Zebra Haworthia' (nombre que en comercio se aplica sobre todo a H. attenuata) también como no tóxica para perros, gatos y caballos. NC State la etiqueta como no tóxica para perros, gatos y caballos y 'no tóxica para mascotas y personas'. La ASPCA no tiene ficha propia con el nombre Haworthiopsis attenuata (se cubre por la del género). Para niños solo hay una fuente prioritaria (NC State). Comer cualquier planta puede causar un leve malestar digestivo pasajero en mascotas. Ante una ingestión grande o síntomas en niños, llamar al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F10",
+      "F1"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste, con unas pocas horas de sol directo suave al día y luz brillante indirecta el resto (Univ. Wisconsin). Ventana sur válida solo con el sol filtrado por una cortina fina (Univ. Wisconsin). Norte: luz escasa; aguanta pero pierde color y se alarga.",
+      "tolera_sol_directo": "Parcialmente. Admite sol directo 2-6 h al día (sombra parcial, NC State) y lo agradece suave, pero el sol fuerte quema las hojas (NC State): se vuelven rojo intenso por estrés y, si sigue, se blanquean y se secan (NC State, ficha H. fasciata). Muchas haworthias prefieren no recibir sol directo continuo en la época cálida (Univ. Wisconsin). Si se saca al exterior tras un invierno con poca luz, acostumbrarla poco a poco durante unas semanas (Univ. Wisconsin) y evitar el sol de 11 a 15 h (Univ. Minnesota).",
+      "notas": "Es de las suculentas que mejor aguantan la luz moderada de una casa: en la naturaleza vive a la sombra de rocas y arbustos (Univ. Wisconsin, SANBI), y NC State la considera algo tolerante a poca luz. Aun así, el color más intenso y la roseta compacta se consiguen con luz brillante (Univ. Wisconsin, NC State). Con luz insuficiente las hojas se alargan y las bandas blancas se apagan (Univ. Wisconsin, NC State). El enrojecimiento con sol o sequía es una respuesta de estrés (antocianos) y es reversible si se corrige a tiempo (SANBI, NC State). Lux según la escala del proyecto (luz brillante indirecta 500-1000 fc = 5380-10760 lux) [orientativo, sin fuente prioritaria con cifras]; tolera además unas horas de sol directo suave por encima de ese valor. Discrepancia: Univ. Minnesota pide para las suculentas en general 'una ventana soleada'; las fuentes específicas de Haworthia (RHS, NC State, Univ. Wisconsin) piden luz brillante indirecta o sol parcial. Se adopta lo específico y más prudente. Con luz artificial: lámparas a 15-30 cm, 14-16 h al día (Univ. Minnesota); prefiere más intensidad que los tubos fluorescentes estándar (Univ. Wisconsin).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco: comprobarlo con el dedo a unos 5 cm (suculenta) y notar que la maceta pesa claramente menos. Entonces regar a fondo hasta que salga agua por los agujeros y vaciar el plato a los pocos minutos (Univ. Minnesota, RHS, Univ. Wisconsin). Nunca por calendario: el exceso de riego es la causa nº 1 de muerte y la pudrición de raíces es el problema más común de las haworthias (Univ. Wisconsin, NC State, RHS). Regar sobre el sustrato, sin dejar agua en las hojas ni en el centro de la roseta (NC State). Evitar los riegos cortos y frecuentes: deforman el crecimiento (Univ. Minnesota).",
+      "primavera_verano": "En crecimiento, regar a fondo cuando el sustrato se ha secado (NC State, RHS). Con un sustrato muy drenante, en verano puede llegar a necesitar riego semanal (Univ. Wisconsin), pero la frecuencia la decide el sustrato seco, no el calendario. SANBI recomienda regar bien en verano. Si con calor extremo la planta frena el crecimiento, el sustrato tardará más en secarse y hay que regar menos [orientativo, sin fuente prioritaria].",
+      "otono_invierno": "Reposo con poco riego: solo de vez en cuando y en poca cantidad, lo justo para que las hojas no se arruguen ni se caigan (RHS, Univ. Minnesota). SANBI recomienda mantenerla seca en invierno. El sustrato húmedo con frío, poca luz o sin crecimiento activo provoca pudrición de raíces (Univ. Wisconsin). Si no se respeta el reposo, crece débil y deformada (RHS).",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo de Madrid. RHS aconseja agua de lluvia o filtrada porque el flúor del agua del grifo puede dañar las hojas y los minerales se acumulan en el sustrato y dejan depósitos blancos en las hojas; en Madrid el agua es blanda (10-47 mg/L de CaCO3) y casi sin flúor (<0,1 mg/L), así que ese riesgo no aplica. No hace falta dejar reposar el agua (la cloramina no se va). Si aparecen costras blancas, la causa probable son sales de abono acumuladas: regar a fondo dejando salir agua por el drenaje.",
+      "notas": "Señales de exceso: hojas blandas, translúcidas o que se arrugan pese a tener el sustrato húmedo, parada de crecimiento y hojas cada vez más pequeñas (Univ. Wisconsin). Si la planta tiene mal aspecto, sacarla de la maceta y revisar las raíces: quitar las podridas aunque haya que llegar hasta la base, dejarla al aire sin maceta una semana y replantar en sustrato nuevo, regando con cuidado hasta que vuelva a enraizar (Univ. Wisconsin). Pulverizar no sirve y deja agua en las hojas.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "No necesita humedad extra: tolera la humedad normal de las casas (NC State) y el aire seco de las casas con calefacción (RHS, guía de suculentas). Univ. Minnesota indica que muchas suculentas se adaptan a humedades relativas del 10-30 %, dato general del grupo y no específico de esta especie. No pulverizar: no sube la humedad de forma útil y el agua en las hojas favorece manchas y hongos (NC State). Ninguna fuente da un porcentaje propio de la especie (anotado en lagunas).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F4",
+        "F6"
+      ]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 38,
+      "ideal_min_c": 16,
+      "ideal_max_c": 26,
+      "notas": "Mínima adoptada 10 °C: NC State pide evitar temperaturas por debajo de 50 °F (10 °C) y corrientes frías, y RHS dice 'mantener siempre por encima de 10 °C'. Univ. Wisconsin dice que las haworthias aguantan hasta los 5-6 °C (40-45 °F), sobre todo con el sustrato seco, y que algunas resisten alguna helada ligera y breve, pero no conviene arriesgar; no tolera heladas (NC State). Se adopta la mínima más alta (10 °C). La guía general de suculentas de RHS habla de noches a 8-10 °C en el reposo invernal, pero para Haworthia RHS fija el suelo en 10 °C. Óptimo: NC State 60-80 °F (16-27 °C) y RHS 10-26 °C; se adopta 16-26 °C. Discrepancia: Univ. Wisconsin da como óptimo 75-90 °F (24-32 °C). Máxima: Univ. Wisconsin dice que sobrevive a temperaturas de algo más de 100 °F (≈38 °C), sobre todo con algo de sombra y buena ventilación (una sola fuente prioritaria para el máximo). En su hábitat soporta veranos de 35-40 °C (SANBI). Evitar cambios bruscos de temperatura (NC State).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para cactus y suculentas, muy drenante y sin turba (NC State, RHS). Opciones: (a) sustrato universal de calidad con la misma cantidad de material drenante: perlita, pómez, gravilla o grava fina (Univ. Wisconsin); (b) 2 partes de sustrato a base de tierra por 1 de grava hortícola o arena gruesa lavada (RHS); (c) 1 parte de sustrato por 1 de arena gruesa (Univ. Minnesota). No usar arena fina: apelmaza y tapona los poros (Univ. Wisconsin). Prueba: el sustrato húmedo apretado en la mano debe deshacerse al soltarlo (Univ. Minnesota). La turba se descompone en pocos años y deja un sustrato malsano (Univ. Wisconsin).",
+      "ph": "Amplio: NC State la da por adaptable a suelos ácidos (<6), neutros y alcalinos; SANBI recomienda un sustrato arenoso ligeramente ácido. Ninguna fuente da un rango numérico propio.",
+      "drenaje": "Imprescindible: maceta con agujeros de drenaje y plato vaciado siempre (Univ. Wisconsin, Univ. Minnesota). Mejor macetas poco profundas, salvo plantas de raíces gruesas; el barro cocido seca antes que el plástico o la cerámica esmaltada (Univ. Wisconsin). Maceta del tamaño del cepellón: un volumen grande de sustrato se queda húmedo y pudre las raíces (Univ. Wisconsin, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido para cactus y suculentas, o abono líquido rico en potasio (tipo abono de tomates) (RHS); Univ. Minnesota indica un abono de plantas de interior con más fósforo que nitrógeno, a media dosis.",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo (aprox. abril-septiembre en el hemisferio norte): una vez al mes a ¼-½ de la dosis de la etiqueta (convención del proyecto). RHS indica abonar una vez al mes de abril a septiembre; Univ. Minnesota, 3-4 veces durante los meses luminosos a media dosis.",
+      "otono_invierno": "Nada durante el reposo.",
+      "notas": "Necesita poco abono: crece despacio en suelos pobres en su hábitat (SANBI, Univ. Minnesota). Discrepancia: SANBI (para 'Enon') habla de 'abonado abundante durante todo el año', preferiblemente orgánico (compost bien descompuesto); se adopta la opción más prudente de RHS y Univ. Minnesota (solo en crecimiento y diluido), porque el exceso de sales y el crecimiento blando son más arriesgados en interior. Ninguna fuente da una fórmula NPK concreta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F6",
+        "F7"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años para renovar el sustrato, aunque no haya crecido mucho: al ser lenta tiende a quedarse años en la misma maceta (Univ. Wisconsin). Pasar a una maceta algo mayor solo cuando las rosetas llenan la maceta o las raíces la ocupan (RHS, Univ. Wisconsin).",
+      "epoca": "Primavera (RHS), al empezar el crecimiento.",
+      "senales": "Mata de rosetas que ocupa toda la superficie, raíces que salen por el drenaje, sustrato compactado o degradado tras 2-3 años, o sospecha de pudrición (planta decaída, hojas que se arrugan con sustrato húmedo) (Univ. Wisconsin, RHS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F4",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No. Las suculentas de roseta no necesitan poda (RHS, guía de suculentas) y la planta requiere muy poco mantenimiento (NC State).",
+      "epoca": "Cualquier época, cuando haya hojas secas o varas florales marchitas.",
+      "como": "Retirar con la mano o con tijera limpia las hojas basales secas (es normal que las hojas viejas se sequen desde la base, SANBI) y cortar la vara floral seca por la base. Quitar restos de hojas caídas, que favorecen la pudrición (RHS). Si una roseta se ha pudrido, separarla del resto de la mata.",
+      "confianza": "Media",
+      "fuentes": [
+        "F4",
+        "F1",
+        "F7"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Hemisferio norte: de noviembre a principios de marzo (RHS, guía de suculentas). Hemisferio sur: de mayo a principios de septiembre (equivalente estacional).",
+      "cambios": "Lugar fresco y muy luminoso, por encima de 10 °C (RHS); riego mínimo, solo para que no se arrugue (RHS, Univ. Minnesota); sin abono. SANBI también recomienda mantenerla seca en invierno. Si se mantiene caliente y regada en invierno, forma brotes finos y débiles que estropean la roseta (RHS). Reposo estival: ninguna fuente prioritaria describe una parada de verano en esta especie (en su hábitat las lluvias caen sobre todo en verano, SANBI). Univ. Wisconsin avisa de que el periodo de crecimiento varía entre especies de Haworthia y que en muchas va de finales de invierno a primavera; si en pleno calor de Madrid la planta deja de crecer, se reduce el riego en proporción [orientativo, sin fuente prioritaria].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F3",
+        "F4",
+        "F6",
+        "F7",
+        "F5"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "separación de hijuelos o división de la mata",
+        "esqueje de hoja",
+        "semilla (rara vez)"
+      ],
+      "epoca": "Primavera, coincidiendo con el trasplante (RHS). SANBI indica que en su país es mejor dividir en invierno, aunque se puede hacer en cualquier época; en interior en el hemisferio norte se recomienda la primavera, cuando enraíza antes.",
+      "pasos": "1) Sacar la planta de la maceta y localizar los hijuelos de la base que ya tienen raíces propias (RHS, Univ. Wisconsin). 2) Separarlos con la mano o cortando la unión con un cuchillo limpio. 3) Si queda una herida bajo el sustrato, dejarla secar al aire unos días antes de plantar, para que no entren patógenos (Univ. Wisconsin). 4) Plantar cada hijuelo en una maceta pequeña con sustrato para suculentas y mantenerlo apenas húmedo hasta que arraigue (RHS). 5) Esqueje de hoja (más lento y menos habitual): cortar una hoja madura con un poco de tejido del tallo, dejar secar la herida y ponerla en sustrato drenante; con el tiempo puede formar una o varias plantas nuevas (Univ. Wisconsin, NC State). 6) Semilla: rara vez disponible; sembrar en sustrato drenante y mantenerlo húmedo hasta que germine (1-3 semanas) (Univ. Wisconsin, SANBI).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego o sustrato poco drenante, sobre todo con frío, poca luz o sin crecimiento activo. Es el problema más común de las haworthias (Univ. Wisconsin, NC State, RHS). Sacar la planta, cortar las raíces podridas, dejarla una semana al aire y replantar (Univ. Wisconsin)."
+    },
+    {
+      "sintoma_id": "S15",
+      "causa_habitual_en_esta_especie": "La pudrición de raíces puede subir a la base de la roseta y matar la planta (Univ. Wisconsin). Más probable con sustrato encharcado en invierno o agua retenida en el centro de la roseta."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas blandas o translúcidas por exceso de agua, a menudo como primer aviso de la pudrición."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas: por falta de agua prolongada, o, si el sustrato está húmedo, por raíces podridas que ya no absorben (Univ. Wisconsin). Comprobar el sustrato antes de regar."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Parada de crecimiento por raíces débiles o podridas (Univ. Wisconsin). También es normal un crecimiento muy lento y la parada en el reposo invernal."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Rosetas u hojas cada vez más pequeñas por un sistema radicular dañado (Univ. Wisconsin)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Falta de luz: hojas alargadas, roseta abierta y color apagado (Univ. Wisconsin, NC State)."
+    },
+    {
+      "sintoma_id": "S19",
+      "causa_habitual_en_esta_especie": "No es variegación, pero el efecto es parecido: con luz insuficiente se apaga el dibujo de bandas blancas de las hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol fuerte o paso brusco al sol: las hojas enrojecen por estrés y, si sigue, se blanquean y se secan (NC State). Típico en ventanas sur u oeste en verano o al sacarla al exterior sin aclimatar (Univ. Wisconsin)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Zonas secas y pardas por quemadura solar del sol directo (NC State)."
+    },
+    {
+      "sintoma_id": "S13",
+      "causa_habitual_en_esta_especie": "Manchas foliares y enfermedades por hongos cuando el sustrato está demasiado húmedo o queda agua sobre las hojas (NC State)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Que se sequen unas pocas hojas viejas de la base es normal: las hojas mueren desde la base de la roseta (SANBI). Si son muchas o están blandas, revisar riego y raíces."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa entre las hojas y en la base: la plaga más frecuente de las haworthias (Univ. Wisconsin, NC State). Retirarla a mano con un bastoncillo o usar un insecticida listo para usar autorizado en el Registro del MAPA para uso no profesional en plantas de interior."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas con escudo (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgones, ocasionales, sobre todo en las varas florales (SANBI)."
+    },
+    {
+      "sintoma_id": "S21",
+      "causa_habitual_en_esta_especie": "Mordeduras de babosas y caracoles si la planta pasa temporadas en el exterior (SANBI)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con 35-40 °C y sol fuerte, apartarla del sol directo de mediodía y tarde en ventanas sur y oeste: detrás del cristal se quema o enrojece (NC State, Univ. Wisconsin). Mejor ventana este, o sur/oeste con cortina fina. Aguanta el calor hasta unos 38 °C si tiene algo de sombra y buena ventilación (Univ. Wisconsin). El aire seco no es problema. Con calor el sustrato se seca antes: regar a fondo cuando esté seco a 5 cm y la maceta pese poco, sin regar 'por si acaso'; si la planta deja de crecer con el calor, regar menos [orientativo, sin fuente prioritaria]. Si se saca al balcón, aclimatarla poco a poco durante unas semanas y protegerla del sol de 11 a 15 h (Univ. Wisconsin, Univ. Minnesota).",
+    "invierno": "Reposo de noviembre a principios de marzo: riego mínimo, solo para que no se arrugue, y sin abono (RHS). Lugar fresco y luminoso pero siempre por encima de 10 °C (RHS, NC State): de noche, separarla del cristal frío de la ventana y evitar corrientes de aire frío (NC State). Lejos de radiadores (RHS). La humedad interior por debajo del 30 % con calefacción no le afecta (RHS, NC State); no pulverizar. Con calefacción y riego frecuente forma brotes débiles (RHS).",
+    "ubicacion_recomendada": "Alféizar o mesa junto a una ventana este u oeste con unas horas de sol suave, o a 1-2 m de una ventana sur con cortina fina [distancia orientativa, sin fuente prioritaria]. Ideal en maceta pequeña y poco profunda de barro con buen drenaje. Apta para casas con perros y gatos (ASPCA)."
+  },
+  "lagunas": [
+    "Nombre: el nombre del encargo (Haworthiopsis attenuata) coincide con el aceptado por POWO: Haworthiopsis attenuata (Haw.) G.D.Rowley. Sinónimos: Aloe attenuata Haw., Haworthia attenuata (Haw.) Haw. y Haworthia pumila subsp. attenuata (Haw.) Halda. Muchas plantas se venden como 'Haworthia fasciata', que es otra especie (NC State).",
+    "ASPCA no tiene ficha con el nombre Haworthiopsis attenuata; la no toxicidad se apoya en su ficha del género Haworthia, en la de 'Zebra Haworthia' (H. fasciata) y en NC State. Toxicidad para niños: una sola fuente prioritaria (NC State).",
+    "Ninguna fuente prioritaria da cifras de luz (lux o fc); los valores siguen la escala del proyecto.",
+    "Ninguna fuente prioritaria da un porcentaje de humedad propio de la especie (Univ. Minnesota da 10-30 % para suculentas en general).",
+    "Reposo estival: ninguna fuente prioritaria lo describe para H. attenuata; solo el reposo invernal (RHS, SANBI). El comportamiento con 35-40 °C en interior no está documentado.",
+    "pH del sustrato y NPK del abono sin cifras propias de la especie.",
+    "Formas variegadas comerciales sin descripción en fuentes prioritarias.",
+    "POWO no pudo leerse completo (bloqueo Cloudflare); se consultó con el proxy r.jina.ai: nombre aceptado, sinónimos y distribución (incluye 'introducida en España')."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Haworthiopsis attenuata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-fasciata/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University), ficha Haworthiopsis fasciata",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.rhs.org.uk/plants/haworthia",
+      "institucion": "Royal Horticultural Society (RHS) – guía del género Haworthia",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "institucion": "Royal Horticultural Society (RHS) – guía de cultivo de cactus y suculentas de interior",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+      "institucion": "University of Wisconsin–Madison Division of Extension – Wisconsin Horticulture, 'Haworthias – Super Succulents for Small Spaces'",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://extension.umn.edu/houseplants/cacti-and-succulents",
+      "institucion": "University of Minnesota Extension – Cacti and succulents",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://pza.sanbi.org/node/12428",
+      "institucion": "South African National Biodiversity Institute (SANBI) – PlantZAfrica, Haworthiopsis attenuata var. attenuata 'Enon' (E. van Jaarsveld, Kirstenbosch)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77138002-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/haworthia",
+      "institucion": "ASPCA Animal Poison Control – Haworthia (Haworthia species)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/zebra-haworthia",
+      "institucion": "ASPCA Animal Poison Control – Zebra Haworthia (Haworthia fasciata)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

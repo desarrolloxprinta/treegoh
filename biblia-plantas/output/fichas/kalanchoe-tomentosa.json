@@ -1,0 +1,298 @@
+{
+  "nombre_cientifico": "Kalanchoe tomentosa",
+  "nombres_comunes": [
+    "oreja de gato",
+    "planta panda",
+    "kalanchoe afelpado"
+  ],
+  "familia": "Crassulaceae",
+  "origen": "Madagascar (centro-este de la isla, según NC State; POWO y RHS la dan como nativa de Madagascar). Muy cultivada en todo el mundo como planta de interior y de maceta.",
+  "clima_nativo": "Tropical de Madagascar, en ambientes secos y bien drenados. Es suculenta, no soporta heladas y en exterior solo se cultiva en zonas USDA 9-11 (NC State). En el Reino Unido se clasifica como H1B: necesita invernadero o interior y solo puede salir fuera en verano (RHS).",
+  "categoria": "suculenta",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas carnosas y gruesas, oblongas u ovaladas, algo acucharadas, de 3-9 cm de largo y 1-3 cm de ancho (RBG Victoria, RHS, NC State). Toda la lámina está cubierta por un fieltro denso de pelos cortos de color blanco grisáceo o plateado, que le da un tacto de terciopelo. Rasgo clave: el margen, sobre todo hacia la punta, lleva manchas o festón de color marrón chocolate o rojizo, y suele tener unos pocos dientes redondeados cerca del ápice. La cara superior puede tener un surco longitudinal. Se disponen alternas y apiñadas en forma de roseta laxa en lo alto de los tallos.",
+    "nerviacion": "No visible: el fieltro de pelos y el grosor de la hoja ocultan los nervios. Como mucho se intuye un surco central en el haz.",
+    "variegacion": "La especie no es variegada: verde grisáceo plateado con margen marrón. Hay cultivares de color distinto, no variegados: 'Chocolate Soldier' (hojas más largas y estrechas con todo el borde pardo rojizo), 'Cinnamon' (hojas rojizas, casi negras a pleno sol) y 'Teddy Bear' (hojas redondeadas, pardo chocolate) (NC State).",
+    "tallo": "Tallos erguidos, ramificados, verde grisáceos y cubiertos también de pelo blanco. Con la edad la base se desnuda de hojas y se vuelve leñosa (NC State).",
+    "habito": "Mata erguida y ramificada, de crecimiento lento, con las hojas agrupadas en los extremos de los tallos. En interior casi nunca florece; si lo hace, saca en verano o primavera una vara de unos 45 cm con panículas de flores tubulares pequeñas (1 cm), verde amarillentas a pardo púrpura, con pelos glandulares (NC State, RHS, RBG Victoria).",
+    "tamano_adulto_interior": "En maceta suele quedarse en 20-60 cm de alto. En condiciones óptimas llega a 0,5-1 m de alto y 0,1-0,5 m de ancho (RHS); NC State da 30-90 cm de alto. Crece despacio (5-10 años hasta el tamaño adulto según la RHS).",
+    "confusiones": [
+      {
+        "especie": "Kalanchoe beharensis (oreja de elefante)",
+        "rasgo_diferenciador": "Hojas mucho más grandes (de un palmo o más), triangulares o en forma de punta de flecha, con el margen ondulado y lobulado, y fieltro pardo dorado o plateado sin las manchas chocolate en el borde. Llega a arbusto de más de 1 m."
+      },
+      {
+        "especie": "Kalanchoe orgyalis (cucharas de cobre)",
+        "rasgo_diferenciador": "Hojas en forma de cuchara, con el fieltro de color canela o cobrizo en el haz y plateado en el envés, sin manchas oscuras diferenciadas en el margen."
+      },
+      {
+        "especie": "Kalanchoe millotii",
+        "rasgo_diferenciador": "Hojas afelpadas pero más anchas, casi redondas, de color verde claro uniforme y con el margen entero dentado en todo el contorno, sin manchas marrones."
+      },
+      {
+        "especie": "Cotyledon tomentosa (pata de oso)",
+        "rasgo_diferenciador": "Hojas afelpadas, más cortas y gruesas, opuestas, con varios dientes rojos en la punta que parecen 'uñas' de garra. K. tomentosa tiene manchas pardas en el margen, no dientes rojos en abanico."
+      },
+      {
+        "especie": "Echeveria pulvinata y Echeveria setosa (echeverias peludas)",
+        "rasgo_diferenciador": "Forman una roseta compacta y aplanada a ras de maceta, y la punta de la hoja suele ser roja, no marrón chocolate. K. tomentosa forma tallos erguidos con las hojas en los extremos."
+      },
+      {
+        "especie": "Kalanchoe blossfeldiana (kalanchoe de floristería)",
+        "rasgo_diferenciador": "Hojas lisas, brillantes y sin pelo, con el margen festoneado, y floración abundante y vistosa. K. tomentosa tiene las hojas cubiertas de fieltro blanco y casi nunca florece en interior."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Bufadienólidos (glucósidos cardiotónicos). NC State los señala en toda la planta: hojas, tallos, raíces, savia, flores, frutos y semillas.",
+    "sintomas": "En perros y gatos: vómitos y diarrea; con poca frecuencia, alteraciones del ritmo cardiaco (ASPCA). Si comen mucha cantidad, puede haber cambios de frecuencia y ritmo cardiaco, debilidad y colapso (Pet Poison Helpline). En personas, si se ingiere: náuseas, vómitos, diarrea, arritmias y letargo; gravedad media (NC State). No causa dermatitis de contacto (NC State). Ante cualquier ingestión, llamar al veterinario o al Servicio de Información Toxicológica (91 562 04 20).",
+    "confianza": "Alta",
+    "notas": "La ASPCA clasifica la toxicidad a nivel de género (Kalanchoe spp.), no de especie. NC State la recoge a nivel de especie como tóxica para perros, gatos y niños. Coherente con la ficha de Kalanchoe blossfeldiana del proyecto. La dosis tóxica no está establecida.",
+    "fuentes": [
+      "F3",
+      "F1",
+      "F5"
+    ]
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 5380,
+      "lux_max": null,
+      "orientacion_hn": "Junto a una ventana este (sol de mañana) o sur con visillo en verano. RHS indica orientación sur o este. Evitar las ventanas oeste con sol de tarde en verano.",
+      "tolera_sol_directo": "Parcialmente. Agradece sol directo suave (mañana, invierno) y la RHS la clasifica como de pleno sol en cultivo bajo cristal en el Reino Unido. Pero NC State advierte que en climas muy calurosos hay que protegerla del sol para que no se queme la hoja, y que puede quemarse a pleno sol caliente. En Madrid, sol de tarde en verano: no.",
+      "notas": "Necesita luz intensa al menos 6 horas al día (NC State). Con poca luz se ahila: tallos largos y hojas separadas (NC State). Discrepancia: RHS dice 'pleno sol' (pensado para invernadero en el clima británico, con sol débil) y NC State dice 'luz brillante indirecta, protegida del sol en climas muy calurosos'. Se adopta la opción más conservadora para Madrid: luz brillante con sol directo solo de mañana o de invierno. Ninguna fuente da lux; lux_min se deriva de la escala del proyecto (luz brillante indirecta ≥500 fc ≈ 5380 lux) y lux_max queda en null porque tolera sol directo suave.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "riego": {
+      "criterio": "Regar solo cuando el sustrato esté seco: meter el dedo unos 5 cm (es suculenta) y comprobar que la maceta pesa claramente menos. Entonces regar a fondo, a la tierra y no sobre las hojas, hasta que salga agua por el drenaje, y vaciar el plato a los 10-15 minutos. Nunca por calendario ni con la maceta encharcada.",
+      "primavera_verano": "Riego moderado: dejar que el sustrato se seque entre riegos (NC State; RHS: regar moderadamente todo el año). Con calor el sustrato se seca antes, pero manda la comprobación del dedo y del peso.",
+      "otono_invierno": "Regar con más moderación todavía (RHS: más escaso en invierno). Con frío y poca luz el sustrato tarda mucho en secarse; espaciar los riegos y no regar si la tierra sigue húmeda a 5 cm.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "baja",
+      "calidad_agua": "Vale el agua del grifo (en Madrid, agua blanda del Canal de Isabel II; dejarla reposar no elimina la cloramina, pero tampoco hace falta). Lo importante es que drene y que no quede agua en el plato.",
+      "notas": "El exceso de riego provoca pudrición de raíz y hojas o tallos amarillos y blandos (NC State); la pudrición de raíz en sustratos mal drenados es su problema principal (ASU). Hojas arrugadas o acartonadas indican falta de agua (NC State). Es resistente a la sequía (NC State). No mojar las hojas afelpadas: el fieltro retiene el agua y la hoja tarda en secarse [orientativo, sin fuente prioritaria; recomendación de prudencia por el riesgo de oídio y roya que señala la RHS].",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "Prefiere humedad baja (NC State) y buena ventilación (RHS). La humedad baja de una casa con calefacción no le perjudica. No hay que humidificar ni pulverizar: pulverizar no sube la humedad de forma útil y deja agua en el fieltro de las hojas. Ninguna fuente da porcentajes.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": null,
+      "ideal_min_c": 16,
+      "ideal_max_c": 24,
+      "notas": "Ideal entre 60 y 75 °F, es decir, unos 16-24 °C (NC State). Mínimo: la RHS la clasifica como H1B, que corresponde a mínimas de 10-15 °C; se toma 10 °C como límite inferior que no debe sobrepasarse, y lo prudente es mantenerla por encima de 15 °C en invierno. NC State da zonas USDA 9-11, pero se refiere al cultivo en exterior en jardín y no es aplicable al interior; también dice que no resiste el frío y que hay que meterla antes de la primera helada. No tolera el calor extremo (NC State). ASU (fuente complementaria, cultivo exterior en Phoenix) indica que no tolera calor por encima de 110 °F (≈43 °C); al no haber máximo de fuente prioritaria, max_c queda en null. Revisión del orquestador: min_c fijado en 15 °C, el extremo alto de RHS H1B (10-15 °C), coherente con la recomendación de la propia ficha y con la regla del proyecto de tomar el mínimo más conservador.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "sustrato": {
+      "mezcla": "Sustrato bien drenado para cactus y suculentas (NC State), o sustrato con base de tierra franca sin turba, con arena gruesa o grava añadida (RHS).",
+      "ph": null,
+      "drenaje": "Imprescindible. Maceta con agujeros, sustrato que no se apelmace y nada de agua en el plato. La pudrición de raíz aparece en sustratos mal drenados (NC State, ASU).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas de interior (RHS).",
+      "npk": null,
+      "primavera_verano": "Solo con crecimiento activo: ¼-½ de la dosis de la etiqueta, como máximo una vez al mes (convención del proyecto). La RHS indica que bastan 2-3 aplicaciones en toda la temporada de crecimiento.",
+      "otono_invierno": "Nada.",
+      "notas": "Es de crecimiento lento y necesita poco abono. Se adopta la pauta más conservadora: 2-3 abonados al año a dosis reducida.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "trasplante": {
+      "frecuencia": "Poco frecuente: crece despacio (NC State; RHS: 5-10 años hasta el tamaño adulto). Trasplantar solo cuando las raíces llenen la maceta, a una maceta solo un poco mayor [orientativo, sin fuente prioritaria].",
+      "epoca": "Primavera, al empezar el crecimiento [orientativo, sin fuente prioritaria].",
+      "senales": "Raíces que salen por los agujeros de drenaje, planta que vuelca por peso, o sustrato viejo y apelmazado que no drena. Si hay hojas blandas o amarillas, revisar las raíces y cambiar el sustrato quitando las raíces podridas.",
+      "confianza": "Baja",
+      "fuentes": [
+        "F1",
+        "F2"
+      ]
+    },
+    "poda": {
+      "necesita": "No es necesaria (RHS). Como mucho, un despunte ligero para mantenerla compacta (ASU).",
+      "epoca": "Primavera o verano, con crecimiento activo.",
+      "como": "Despuntar ligeramente las puntas de los tallos para que ramifique y quede redondeada (ASU). Si se ha ahilado por falta de luz (NC State), cortar los tallos largos y usar las puntas como esquejes. Quitar las hojas secas de la base.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F6"
+      ]
+    },
+    "reposo": {
+      "tiene": true,
+      "epoca": "Otoño-invierno (hemisferio norte): parada relativa del crecimiento por menos luz y temperatura. No es un reposo estricto.",
+      "cambios": "Regar con más moderación (RHS), no abonar, mantenerla por encima de 10 °C (mejor por encima de 15 °C) y en el sitio más luminoso de la casa.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "esqueje de hoja",
+        "esqueje de tallo apical",
+        "hijuelos",
+        "semilla"
+      ],
+      "epoca": "Primavera o principio del verano; la semilla, a principios de primavera a 19-21 °C (RHS).",
+      "pasos": "1) Elegir hojas sanas y enteras o puntas de tallo. Según NC State, las suculentas de hoja afelpada son más difíciles de propagar que otras; los mejores métodos son esqueje de hoja e hijuelos (NC State; RHS: hijuelos o semilla; ASU: esquejes de punta de tallo y de hoja). 2) Desprender la hoja entera con la base, o cortar una punta de tallo. 3) Dejar que el corte cicatrice unos días al aire [orientativo, sin fuente prioritaria]. 4) Apoyar o clavar ligeramente en sustrato para suculentas apenas húmedo. 5) Luz brillante sin sol directo y riego muy escaso hasta que salgan raíces y plantitas. 6) Separar los hijuelos con raíz y plantarlos en su propia maceta.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego o sustrato que no drena; es el problema principal (NC State, ASU)."
+    },
+    {
+      "sintoma_id": "S10",
+      "causa_habitual_en_esta_especie": "Hojas o tallos blandos por exceso de riego (NC State)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Hojas amarillas por exceso de riego (NC State)."
+    },
+    {
+      "sintoma_id": "S11",
+      "causa_habitual_en_esta_especie": "Hojas arrugadas o acartonadas por falta de riego (NC State)."
+    },
+    {
+      "sintoma_id": "S16",
+      "causa_habitual_en_esta_especie": "Crecimiento ahilado por falta de luz (NC State)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Quemadura de hoja a pleno sol caliente (NC State), típica de ventanas sur u oeste en verano."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, la plaga principal; se esconde entre el fieltro de las hojas y en las axilas (NC State, RHS, ASU)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (NC State), más probable con aire seco y calor."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes tiernos (RHS)."
+    },
+    {
+      "sintoma_id": "S33",
+      "causa_habitual_en_esta_especie": "Oídio (RHS), sobre todo con mala ventilación."
+    },
+    {
+      "sintoma_id": "S35",
+      "causa_habitual_en_esta_especie": "Una roya (RHS)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y sol fuerte, apartarla del sol directo de la tarde en ventanas sur y oeste (visillo, o un metro hacia dentro); NC State advierte que en climas muy calurosos hay que protegerla del sol para evitar quemaduras. El sol de la mañana le viene bien. No tolera el calor extremo, así que no dejarla pegada al cristal ni en una terraza a pleno sol. El sustrato se secará antes: comprobar dedo (5 cm) y peso con más frecuencia, pero sin encharcar y sin mojar las hojas. El aire seco (HR ≈38 %) no le perjudica, pero favorece la araña roja: revisar el envés y las axilas.",
+    "invierno": "La calefacción y una humedad interior por debajo del 30 % no le afectan; prefiere humedad baja. Lo que hay que vigilar es el frío: junto a un cristal frío o en una galería sin calefacción puede bajar de 10 °C, su límite (RHS H1B). Separarla del vidrio por la noche y mantenerla, mejor, por encima de 15 °C. No ponerla encima ni al lado de un radiador. Regar muy poco, porque el sustrato tarda mucho en secarse, y no abonar. Darle la ventana más luminosa de la casa para que no se ahíle.",
+    "ubicacion_recomendada": "Ventana este, o sur con visillo en verano, con varias horas de luz intensa y sol suave de mañana. Lejos de radiadores y de cristales fríos en invierno. Fuera del alcance de perros, gatos y niños."
+  },
+  "lagunas": [
+    "Taxonomía: POWO (Kew) acepta Kalanchoe tomentosa Baker, nativa de Madagascar; GBIF también la da como aceptada. NC State indica 'Previously known as Bryophyllum triangulare'; no se ha podido verificar ese sinónimo en POWO (la página de la especie no lista sinónimos accesibles). Sin cambio de nombre.",
+    "Luz: ninguna fuente da lux; lux_min se deriva de la escala del proyecto y lux_max queda en null.",
+    "Humedad: ninguna fuente da porcentajes; min_pct e ideal_pct quedan en null.",
+    "Temperatura: no hay máximo absoluto de fuente prioritaria (solo ASU, complementaria y para exterior en Phoenix: ~43 °C); max_c queda en null.",
+    "Sustrato: ninguna fuente da un pH útil (NC State y RHS marcan ácido, neutro y alcalino); ph queda en null.",
+    "Fertilización: no hay NPK recomendado; npk queda en null. Solo la RHS da una pauta (2-3 veces en la temporada).",
+    "Riego sin mojar las hojas: es una recomendación de prudencia muy repetida en fuentes divulgativas, pero ninguna fuente prioritaria consultada lo dice expresamente.",
+    "Trasplante: ninguna fuente prioritaria da frecuencia ni época; bloque en confianza Baja.",
+    "Reposo y abonado: solo la RHS los describe (una fuente prioritaria).",
+    "Propagación: el secado del corte antes de plantar no aparece en las fuentes prioritarias consultadas.",
+    "Confusiones: los rasgos que la distinguen de K. beharensis, K. orgyalis, K. millotii, Cotyledon tomentosa y Echeveria pulvinata/setosa son morfología general, sin fuente prioritaria específica para cada comparación.",
+    "No se ha encontrado ficha de cultivo de la especie en UF/IFAS, Clemson, Wisconsin, Minnesota, Penn State ni Missouri Botanical Garden; las fuentes prioritarias de cultivo son NC State y RHS.",
+    "Toxicidad: la ASPCA la trata a nivel de género (Kalanchoe spp.); la toxicidad en niños solo la respalda NC State."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-tomentosa/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/9701/kalanchoe-tomentosa/details",
+      "institucion": "Royal Horticultural Society (RHS) – Find a plant",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+      "institucion": "ASPCA Animal Poison Control Center",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://hortflora.rbg.vic.gov.au/taxon/ad947eae-5340-11e7-b82b-005056b0018f",
+      "institucion": "Royal Botanic Gardens Victoria – HortFlora (Horticultural Flora of South-eastern Australia, Crassulaceae)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.petpoisonhelpline.com/poison/kalanchoe/",
+      "institucion": "Pet Poison Helpline",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.asu.edu/lib/camartin/plants/Plant%20html%20files/kalanchoetomentosa.html",
+      "institucion": "Arizona State University – C. A. Martin, fichas de plantas para paisajismo desértico",
+      "tipo": "complementaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:274502-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,314 @@
+{
+  "nombre_cientifico": "Anthurium andraeanum",
+  "nombres_comunes": [
+    "anturio",
+    "flor de flamenco",
+    "anthurium"
+  ],
+  "familia": "Araceae",
+  "origen": "Colombia y Ecuador (introducida en Trinidad y Tobago, Antillas venezolanas e Islas de Barlovento). La mayoría de las plantas vendidas en maceta son híbridos y cultivares del Grupo Andraeanum obtenidos por cultivo in vitro.",
+  "clima_nativo": "Selva tropical húmeda y sombreada; crece como epífita sobre otros árboles, con calor constante, alta humedad ambiental y sin heladas (zonas USDA 11-12).",
+  "categoria": "flor",
+  "dificultad": "media",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas simples, alternas, acorazonadas (cordadas) a sagitadas, de 20-30 cm de largo, verde oscuro, lisas, coriáceas y brillantes, sin pelos, de margen entero. Cada hoja sale sobre un pecíolo largo y erguido. Rasgo clave para visión: la inflorescencia, con una espata plana, cerosa y brillante en forma de corazón (roja, rosa, blanca, verde, naranja, granate o bicolor según cultivar) y un espádice recto, cilíndrico, crema o amarillo (rosado o morado en algunos cultivares) que sobresale hacia arriba desde su base.",
+    "nerviacion": "Pinnada, de tipo broquidódromo: nervio central marcado, nervios laterales que se arquean y se unen en un nervio colector paralelo al margen. Las espatas muestran también una nerviación en relieve que les da aspecto acolchado.",
+    "variegacion": "Hojas normalmente verdes sin variegación. La variegación aparece en la espata de algunos cultivares (por ejemplo, rosa con bordes verdes en 'Baron'), no en la hoja.",
+    "tallo": "Tallo corto, erguido, a menudo con raíces aéreas gruesas en la base y entrenudos muy cortos; con los años puede alargarse y quedar desnudo en la parte baja.",
+    "habito": "Herbácea perenne de porte erguido y en mata, crecimiento lento; en origen epífita. En interior forma una roseta de pecíolos que parten del cuello.",
+    "tamano_adulto_interior": "30-45 cm de alto y 23-30 cm de ancho en maceta según NC State; RHS indica hasta 60 cm. Algunos cultivares de corte o ejemplares viejos superan esa altura.",
+    "confusiones": [
+      {
+        "especie": "Spathiphyllum spp. (espatifilo, cuna de Moisés)",
+        "rasgo_diferenciador": "Espata blanca, mate y alargada en forma de vela, que rodea parcialmente al espádice; hojas lanceoladas, no acorazonadas. El anturio tiene espata en corazón, plana y muy brillante, y hojas cordadas."
+      },
+      {
+        "especie": "Anthurium scherzerianum (anturio de cola rizada)",
+        "rasgo_diferenciador": "Espádice curvado o enrollado (anaranjado o amarillo) y hojas lanceoladas, estrechas y mates; A. andraeanum tiene espádice recto y hojas acorazonadas brillantes."
+      },
+      {
+        "especie": "Anthurium clarinervium, A. crystallinum y otros anturios de follaje",
+        "rasgo_diferenciador": "Hojas aterciopeladas con nervios blancos o plateados muy contrastados y espata pequeña, verdosa y poco vistosa; A. andraeanum se cultiva por su espata grande y coloreada y tiene hojas lisas verdes."
+      },
+      {
+        "especie": "Zantedeschia aethiopica (cala)",
+        "rasgo_diferenciador": "Espata enrollada en forma de trompeta que envuelve el espádice y hojas sagitadas mates que salen de un rizoma bajo tierra; la espata del anturio es plana y abierta."
+      },
+      {
+        "especie": "Philodendron de hoja acorazonada (p. ej. Philodendron hederaceum)",
+        "rasgo_diferenciador": "Tallos trepadores o colgantes con entrenudos visibles y sin inflorescencia vistosa en interior; el anturio tiene porte en mata y espatas coloreadas casi todo el año."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "toxica",
+    "gatos": "toxica",
+    "ninos": "toxica",
+    "principio_activo": "Cristales insolubles de oxalato cálcico (rafidios) presentes en todas las partes de la planta: hojas, tallos, raíces, flores, frutos, semillas y savia.",
+    "sintomas": "Al morder o masticar: irritación y dolor intenso en boca, labios y lengua, inflamación, babeo excesivo, dificultad para tragar, pérdida de apetito y vómitos. La savia irrita piel y ojos (enrojecimiento, escozor, dermatitis de contacto). Toxicidad de gravedad baja según NC State y UF/IFAS. Usar guantes al manipularla y colocarla fuera del alcance de niños y mascotas. Si hay ingestión con síntomas, contactar con el veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F7"
+    ],
+    "notas": "NC State (F1) y RHS (F4) se refieren expresamente a A. andraeanum como tóxica para perros, gatos y niños. La ficha de la ASPCA (F7) para 'flamingo flower' figura con el nombre Anthurium scherzeranum, especie del mismo género con el mismo principio tóxico (oxalato cálcico insoluble); se aplica al género con la misma conclusión."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1076,
+      "lux_max": 10760,
+      "orientacion_hn": "Ventana este u oeste, o ventana sur tamizada con cortina fina o estor (RHS). En Madrid, en ventana oeste o sur, a 1-2 m del cristal o detrás de cortina en verano; en ventana norte florece menos.",
+      "tolera_sol_directo": "No. El sol directo de verano quema las hojas (manchas secas y pardas, centros blanqueados). Tolera como mucho sol suave de primera hora de la mañana.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F5",
+        "F6"
+      ],
+      "notas": "UF/IFAS comprobó que varios cultivares florecen de forma continua durante más de año y medio con 100 fc (≈1076 lux) en interior: por debajo de eso se esperan muchas hojas y pocas o ninguna flor. En invernadero se producen con 1000-2500 fc y con sombreo del 80-90 %; por encima de 2500 fc (≈26 900 lux) aparecen quemaduras. Para interior, con aire más seco que en invernadero, se adopta como máximo prudente el techo de la luz brillante indirecta (1000 fc ≈ 10 760 lux)."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (RHS indica comprobar hasta 5 cm y regar cuando la mezcla esté casi seca) y la maceta pese claramente menos que recién regada. Entonces regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 10-15 minutos. Nunca regar por calendario ni dejar la maceta encharcada.",
+      "primavera_verano": "Riego abundante cada vez que se cumpla el criterio; con calor y crecimiento activo el sustrato se seca antes, así que comprobarlo con más frecuencia (en Madrid en verano puede ser cada pocos días). Que se seque solo la capa superior, no el cepellón entero.",
+      "otono_invierno": "Regar con moderación (RHS: 'water sparingly in winter'), esperando a que el sustrato esté casi seco a 2-3 cm y la maceta ligera. Con calefacción fuerte el sustrato puede secarse rápido: guiarse por el dedo y el peso, no por la estación.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Agua a temperatura ambiente; nunca fría (RHS: el agua fría puede dañarla). RHS recomienda agua de lluvia o filtrada porque el agua dura y alcalina la perjudica; el agua del grifo de Madrid (Canal de Isabel II) es blanda (10-47 mg/L CaCO3) y es adecuada. Lavar el sustrato con riego abundante cada pocos meses para arrastrar sales de abono, a las que es poco tolerante (UF/IFAS).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ],
+      "notas": "El exceso de riego y el sustrato encharcado causan pudrición de raíces (NC State, RHS, UF/IFAS) y amarilleo de hojas viejas. La falta de agua produce puntas quemadas y menor crecimiento (UF/IFAS)."
+    },
+    "humedad": {
+      "min_pct": 50,
+      "ideal_pct": 70,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6"
+      ],
+      "notas": "NC State indica 60-80 % de humedad relativa. UF/IFAS advierte que si la humedad baja del 50 % durante más de unos días las hojas pierden el brillo y pueden morir. RHS atribuye los bordes marrones al aire seco de la calefacción. Las fuentes sugieren pulverizar, pero según la convención del proyecto pulverizar no sube la humedad de forma útil (solo sirve para quitar polvo): usar humidificador, agrupar plantas o una bandeja con grava húmeda sin que la maceta toque el agua. El baño luminoso es buena ubicación (RHS)."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 30,
+      "ideal_min_c": 21,
+      "ideal_max_c": 29,
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "notas": "Contradicción entre fuentes en el mínimo: UF/IFAS sitúa el daño por debajo de 13 °C (55 °F); RHS (página general) indica daño o muerte a 10 °C o menos, pero en la ficha de especie la clasifica H1A ('por encima de 15 °C todo el año') y pide mantenerla por encima de 18 °C en invierno; NC State da 18-27 °C como preferencia. Se adopta como mínimo conservador 15 °C. Máximo: UF/IFAS da óptimo de crecimiento hasta 32 °C (90 °F) y RHS hasta 30 °C; se adopta 30 °C. Ideal en interior según UF/IFAS: 21-29 °C (70-85 °F). No tolera corrientes frías, cambios bruscos ni fuentes de calor cercanas (radiadores, electrodomésticos)."
+    },
+    "sustrato": {
+      "mezcla": "Mezcla muy aireada y de drenaje rápido, tipo epífita. UF/IFAS: turba, perlita y corteza a partes iguales (1:1:1). RHS: 2 partes de sustrato ácido (para plantas acidófilas) sin turba, 1 parte de perlita o grava hortícola y 1 parte de corteza de orquídea mediana. Maceta con agujeros de drenaje, solo un tamaño mayor que la anterior.",
+      "ph": "6.0-6.5 (ligeramente ácido)",
+      "drenaje": "Excelente. Un sustrato compacto o una maceta demasiado grande mantienen la humedad y provocan pudrición de raíces.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5",
+        "F1"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido soluble equilibrado o abono para orquídeas, diluido.",
+      "npk": "20-20-20 (equilibrado) en interior según UF/IFAS; en producción se usan proporciones 3-1-2 para crecer y 1-2-2 para inducir floración.",
+      "primavera_verano": "Una vez al mes con ¼-½ de la dosis de la etiqueta mientras haya crecimiento activo (aprox. abril-octubre en Madrid).",
+      "otono_invierno": "Nada en otoño-invierno si la planta no crece. Si está en un interior cálido y luminoso y sigue sacando hojas y flores, como mucho una dosis mínima mensual.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5"
+      ],
+      "notas": "Contradicción de frecuencia entre fuentes: NC State recomienda abono líquido semanal en temporada de crecimiento, RHS cada dos semanas de primavera a otoño con abono de orquídeas, y UF/IFAS una vez al mes con 20-20-20 a 50 ppm de N para plantas en interior. Se adopta la opción más conservadora, que coincide con la convención del proyecto (mensual, ¼-½ de dosis). UF/IFAS advierte que el exceso de abono en interior acumula sales y quema puntas y bordes de las hojas; no mojar las hojas con abono (deja residuo gris)."
+    },
+    "trasplante": {
+      "frecuencia": "Puede quedarse en la maceta original 1-2 años; después, cada 2-3 años o cuando esté apretada de raíces.",
+      "epoca": "Primavera.",
+      "senales": "Raíces que salen por los agujeros de drenaje o por encima del sustrato, cepellón lleno de raíces, el agua atraviesa la maceta sin empapar, sustrato degradado y compacto o acumulación de sales.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F5"
+      ]
+    },
+    "poda": {
+      "necesita": "No necesita poda de formación.",
+      "epoca": "Todo el año, cuando aparezcan hojas secas o flores pasadas.",
+      "como": "Cortar las hojas muertas y los tallos de las flores marchitas por la base con tijera limpia. Usar guantes: la savia irrita la piel.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F4",
+        "F5"
+      ]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero: con calor y luz suficiente crece y florece todo el año (cada espata dura varias semanas). En invierno, con menos luz, el crecimiento se frena: reducir riego, suspender el abono si no crece y protegerla del frío por debajo de 15 °C.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "division de mata",
+        "esquejes de tallo o de rizoma",
+        "hijuelos",
+        "semilla (raro en interior)"
+      ],
+      "epoca": "Primavera o verano.",
+      "pasos": "División: sacar la planta de la maceta, separar con las manos una planta de varios tallos en secciones que tengan cada una sus propias raíces y plantarlas por separado en la mezcla aireada. Esqueje de tallo o rizoma: plantar el trozo en sustrato ácido y mantenerlo en un propagador cerrado y calefactado a unos 21 °C hasta que broten raíces y yemas. Esqueje de tallo con hojas y raíces aéreas: ponerlo en agua en un lugar cálido y luminoso sin sol directo y plantarlo cuando enraíce. Semilla: sembrar en cuanto madure a 24-27 °C. Comercialmente se propaga casi siempre por cultivo in vitro. Usar guantes.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F4",
+        "F5"
+      ]
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Pudrición de raíces por exceso de riego, sustrato compacto o encharcado o maceta demasiado grande. Es el problema más grave en esta especie (NC State, RHS, UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Hojas viejas cloróticas con raíces dañadas por exceso de agua (UF/IFAS); también por falta de nutrientes (NC State)."
+    },
+    {
+      "sintoma_id": "S01",
+      "causa_habitual_en_esta_especie": "Amarilleo general por exceso de riego, mal drenaje o falta de nutrientes (NC State)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Puntas quemadas por exceso de abono y sales acumuladas (hojas bajas cloróticas con puntas marrones), o por falta de agua con raíces dañadas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S06",
+      "causa_habitual_en_esta_especie": "Bordes marrones por aire seco, sobre todo con calefacción (RHS); también por sales de abono acumuladas (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S07",
+      "causa_habitual_en_esta_especie": "Manchas secas, anchas y pardas por quemadura solar al recibir sol directo o más de 2500 fc (UF/IFAS, RHS)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Centros de hoja blanqueados con puntas marrones o hojas pálidas por exceso de luz; se confunde a menudo con una carencia nutritiva (UF/IFAS)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis internerval en hojas viejas por carencia de magnesio (UF/IFAS); si aparecen manchas amarillas irregulares, posible carencia de manganeso."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa, plaga citada para esta especie por NC State y RHS."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinilla de escudo (NC State, RHS)."
+    },
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja, favorecida por el aire seco y caliente (NC State)."
+    },
+    {
+      "sintoma_id": "S27",
+      "causa_habitual_en_esta_especie": "Pulgón en brotes y espatas nuevas (NC State)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C y aire muy seco (HR exterior ≈38 % en julio), el sustrato se seca mucho antes: comprobar con el dedo y el peso cada 2-3 días y regar a fondo cuando estén secos los 2-3 cm superiores, sin dejar agua en el plato. Apartarla del sol directo de ventanas sur y oeste (1-2 m del cristal o detrás de cortina fina): el sol de tarde le quema las hojas en pocas horas. Si dentro de casa se superan los 30 °C, llevarla a la habitación más fresca y luminosa sin sol directo, sin ponerla bajo el chorro del aire acondicionado. Subir la humedad con humidificador o agrupando plantas (objetivo ≥50 %, ideal 60-80 %); vigilar araña roja.",
+    "invierno": "La calefacción baja la humedad interior por debajo del 30 %, muy por debajo del mínimo del 50 %: usar humidificador o agrupar plantas, y alejarla de radiadores y salidas de aire caliente (bordes marrones). Mantenerla por encima de 15 °C (ideal ≥18 °C), lejos de cristales fríos y corrientes de puertas y ventanas por la noche. Regar con agua a temperatura ambiente, menos a menudo, siempre comprobando sustrato y peso. Sin abono si no hay crecimiento. Es la mejor época para darle la ventana más luminosa (sur o oeste) porque el sol de invierno es suave, pero sin que las hojas toquen el cristal.",
+    "ubicacion_recomendada": "Interior todo el año, junto a una ventana este u oeste o a 1-2 m de una ventana sur con cortina fina en verano. Un baño luminoso es buena opción por la humedad. Fuera del alcance de niños y mascotas. No sacarla al exterior en Madrid salvo en noches con más de 15 °C y siempre a la sombra."
+  },
+  "lagunas": [
+    "ASPCA no tiene ficha específica con el nombre Anthurium andraeanum: su ficha 'Flamingo Flower' figura como Anthurium scherzeranum. La toxicidad para A. andraeanum se toma de NC State y RHS (con el mismo principio tóxico que da la ASPCA para el género).",
+    "Nomenclatura: POWO acepta Anthurium andraeanum Linden ex André (urn:lsid:ipni.org:names:84549-1); no se pudo cargar la ficha completa de POWO (bloqueo anti-bot) para revisar sinónimos y distribución. NC State da como sinónimos A. andraeanum var. atrosanguineum y A. venustum. Muchas plantas comerciales son híbridos interespecíficos del Grupo Andraeanum (así las nombra la RHS), por lo que algunos cultivares pueden variar en tamaño y exigencias.",
+    "Ninguna fuente prioritaria da un máximo de luz en lux para interior: lux_max es una aproximación conservadora (techo de la luz brillante indirecta), derivada del límite de 2500 fc que da UF/IFAS para producción.",
+    "NC State y RHS citan manchas foliares (leaf spot) por mala ventilación o por mojar el follaje, pero sin describir aspecto ni agente causal; no se asigna síntoma hasta tener una fuente de fitopatología (p. ej. tizón bacteriano por Xanthomonas)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+      "institucion": "NC State Extension (North Carolina State University) — Gardener Plant Toolbox",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://edis.ifas.ufl.edu/publication/EP159",
+      "institucion": "UF/IFAS Extension (University of Florida) — ENH956/EP159 Cultural Guidelines for Commercial Production of Interiorscape Anthurium",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/FP042",
+      "institucion": "UF/IFAS Extension (University of Florida) — FP042 Anthurium spp.: Tailflower, Flamingo Flower",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://www.rhs.org.uk/plants/1349/anthurium-andraeanum/details",
+      "institucion": "Royal Horticultural Society (RHS) — ficha Anthurium andraeanum",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "https://www.rhs.org.uk/plants/anthuriums/how-to-grow-anthuriums",
+      "institucion": "Royal Horticultural Society (RHS) — How to grow anthuriums",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://www.rhs.org.uk/plants/anthuriums",
+      "institucion": "Royal Horticultural Society (RHS) — Anthuriums",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "institucion": "ASPCA Animal Poison Control Center — Flamingo Flower",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84549-1",
+      "institucion": "Royal Botanic Gardens, Kew — Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Regla de Perfiles de Usuario
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == userId;
+      
+      // Validación estricta: si photoURL es null, se usa nuestro Character
+      function isValidUser() {
+        return request.resource.data.keys().hasAll(['displayName', 'createdAt'])
+          && (!('photoURL' in request.resource.data) || request.resource.data.photoURL is string || request.resource.data.photoURL == null);
+      }
+    }
+    
+    // Regla de Colección Botánica por Usuario
+    match /users/{userId}/plants/{plantId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Regla de Biblia de Plantas (Catálogo canónico público de lectura)
+    match /biblia_plantas/{speciesId} {
+      allow read: if request.auth != null;
+      allow write: if false; // Solo administradores via SDK backend
+    }
+  }
+}

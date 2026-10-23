@@ -1,0 +1,177 @@
+{
+  "nombre_cientifico": "Drosera capensis",
+  "nombres_comunes": ["drosera", "rocío de sol", "drosera del Cabo"],
+  "familia": "Droseraceae",
+  "origen": "Endémica del suroeste de la provincia del Cabo (Cabo Occidental y Cabo Oriental, Sudáfrica), en marismas, orillas de arroyos, rezumaderos permanentes y zonas húmedas del fynbos (SANBI). No amenazada en la naturaleza. Muy extendida en cultivo; se ha asilvestrado fuera de su área: en Nueva Zelanda está declarada 'organismo no deseado' por el Ministerio de Industrias Primarias, desplaza plantas nativas pequeñas de los humedales y su venta y propagación están prohibidas allí (Environment Canterbury). Por eso no conviene tirar semillas ni restos de sustrato al campo.",
+  "clima_nativo": "Mediterráneo de lluvias invernales, costero y sin heladas (zona hortícola 2 de SANBI: 'costa de lluvias de invierno, sin heladas'), con el suelo permanentemente húmedo o encharcado, arenoso, ácido y muy pobre en nutrientes. Planta subtropical de hoja perenne: crece todo el año, sin reposo invernal ni necesidad de señales de luz para sobrevivir (ICPS).",
+  "categoria": "carnivora",
+  "dificultad": "facil",
+  "prioridad": 3,
+  "rareza": "media",
+  "identificacion": {
+    "hojas": "Roseta de hojas alargadas y estrechas, en forma de espátula o tira, de unos 6,5 cm de largo (Environment Canterbury); cada hoja tiene un pecíolo verde y liso casi tan largo como la lámina (SANBI). La lámina está cubierta en el haz de tentáculos: pelos glandulares rojos o rosados, con pie y cabeza en forma de botón, que segregan una gota brillante, transparente y pegajosa de mucílago. Los tentáculos del borde son más densos y largos que los del centro; el envés es liso y sin pelos. Al capturar una presa, los tentáculos se doblan hacia ella y la lámina entera se enrolla sobre el insecto. Hojas jóvenes que se desenrollan desde la punta (prefoliación circinada). Sin gotas, la planta parece una roseta de hojas finas con pelillos rojos: la falta de gotas es un síntoma (aire seco, poca luz, sustrato seco, trasplante reciente o tocar las hojas), no un rasgo de identificación.",
+    "nerviacion": "No visible: lámina estrecha sin nervios marcados. Lo diagnóstico son los tentáculos con gota de mucílago.",
+    "variegacion": "No variegada. Hojas verde claro a verde amarillento con tentáculos rojos o rosados; con mucha luz la hoja entera se tiñe de rojo (existen formas 'roja' y 'alba', esta última de flor blanca, y una forma de hoja estrecha, recogida por la RHS). El rojo indica buena luz, no enfermedad.",
+    "tallo": "Tallo corto, algo leñoso, rizomatoso por debajo, con raíces bien desarrolladas (SANBI). En plantas viejas el tallo se alarga y queda cubierto por las hojas muertas, negras y secas de temporadas anteriores, que permanecen pegadas debajo de la roseta: es normal.",
+    "habito": "Herbácea perenne de hoja perenne, en roseta erguida o semierguida, que forma matas porque echa hijuelos en la base. Florece mucho y casi todo el año (RHS: de primavera a otoño y a veces en invierno): varas florales finas, sin hojas, de hasta unos 35 cm, con 15-30 flores rosa malva de 5 pétalos que se abren de una en una, de abajo arriba, solo unas horas con sol. Se autopoliniza y produce muchas semillas negras diminutas; es habitual que aparezcan plántulas en las macetas vecinas.",
+    "tamano_adulto_interior": "Roseta de unos 10-15 cm de alto y de diámetro (SANBI: altura habitual de unos 150 mm); RHS da 0,1-0,5 m de alto y de anchura máxima. Las varas florales pueden superar los 30 cm.",
+    "confusiones": [
+      {"especie": "Drosera aliciae y otras droseras sudafricanas de roseta plana", "rasgo_diferenciador": "Roseta plana pegada al suelo de hojas cortas en cuña, sin pecíolo largo y distinto. D. capensis tiene hojas largas y estrechas, erguidas, con pecíolo casi tan largo como la lámina."},
+      {"especie": "Drosera spatulata", "rasgo_diferenciador": "Roseta pequeña y plana de hojas en cuchara, sin pecíolo largo; D. capensis es mucho mayor y de hojas largas y estrechas."},
+      {"especie": "Drosera binata (drosera en horquilla)", "rasgo_diferenciador": "Láminas largas que se bifurcan en forma de Y o se dividen varias veces; las de D. capensis son enteras, no ramificadas."},
+      {"especie": "Drosera adelae y otras droseras australianas de hoja lanceolada", "rasgo_diferenciador": "Hojas lanceoladas que se estrechan hacia la base sin pecíolo liso diferenciado, flores pequeñas de color rojo oscuro o crema. D. capensis tiene pecíolo verde liso y flores rosa malva."},
+      {"especie": "Drosera rotundifolia (rocío del sol autóctono de España)", "rasgo_diferenciador": "Láminas redondas, casi circulares, en roseta plana, y hiberna como una yema (hibernáculo) en invierno; especie silvestre de turberas de montaña que no debe recolectarse. D. capensis tiene láminas largas en tira y no hiberna."},
+      {"especie": "Drosophyllum lusitanicum (atrapamoscas, rocío de sol ibérico)", "rasgo_diferenciador": "Mata leñosa de hojas lineares muy largas, enrolladas hacia fuera de jóvenes, que vive en suelos secos; flores amarillas grandes. D. capensis es una roseta pequeña de suelo encharcado con flores rosa malva."},
+      {"especie": "Pinguicula spp. (grasillas)", "rasgo_diferenciador": "Hojas carnosas y planas, pegajosas pero sin tentáculos con gota visibles; las de D. capensis llevan pelos rojos con gotas brillantes."}
+    ]
+  },
+  "toxicidad": {
+    "perros": "desconocida",
+    "gatos": "desconocida",
+    "ninos": "desconocida",
+    "principio_activo": "Contiene naftoquinonas: sobre todo 7-metiljuglona (ramentaceona) y algo de plumbagina, más concentradas en órganos jóvenes y reproductores y en las hojas tras capturar presas (Egan y van der Kooy, Chemistry & Biodiversity, 2012). No hay datos sobre su relevancia toxicológica por ingestión en animales ni en personas.",
+    "sintomas": null,
+    "confianza": "Media",
+    "fuentes": ["P13", "P12", "C1"],
+    "notas": "La ASPCA no tiene ficha de ninguna Drosera (solo de Dionaea muscipula, de la misma familia, que clasifica como no tóxica); no se ha encontrado ninguna otra fuente prioritaria (NC State, RHS) que clasifique Drosera capensis. No se extrapola desde Dionaea. El FAQ de Barry Rice (complementario) señala la plumbagina como el compuesto más probable de causar molestias en mascotas que comen Dionaea y recuerda que aparece también en algunas droseras. Por prudencia, mantenerla fuera del alcance de gatos, perros y niños; si un niño la come, llamar al Servicio de Información Toxicológica (91 562 04 20); si es un animal, al veterinario."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "directa",
+      "lux_min": 15000,
+      "lux_max": null,
+      "orientacion_hn": "La ventana más luminosa de la casa: sur (o este u oeste con al menos 4 h de sol directo) sin cortinas ni obstáculos; mejor aún en balcón o terraza a pleno sol o semisombra de tarde de primavera a otoño. En el interior de la habitación, lejos de la ventana, no prospera: hace falta luz LED de cultivo.",
+      "tolera_sol_directo": "Sí, lo quiere: pleno sol al aire libre (RHS, SANBI). Tras un cristal, sol pleno pero con sombra del sol más fuerte del mediodía o de la tarde en verano (RHS). Aclimatar poco a poco si viene de vivero o de interior: alguna hoja puede quemarse los primeros días.",
+      "notas": "La ICPS pide para la mayoría de Drosera 'luz intensa': unos 15.000-25.000 lux de luz blanca, de 12 a 16 h al día, si se cultiva bajo LED, y advierte que las droseras subtropicales quieren más luz de la que reciben en un alféizar normal. 15.000 lux equivalen a unos 1.400 fc, en la franja 'directa' (>1.000 fc) de la escala del proyecto. Con luz LED, preferir luz blanca o blanca con azul: la ICPS avisa de que muchas Drosera reaccionan mal a los paneles solo rojo y azul (en su página aparece precisamente D. capensis bajo un panel blanco y azul). No hay límite superior útil al aire libre; lux_max se deja en null. Con poca luz las hojas se alargan, quedan verdes sin rojo, caídas, y dejan de producir gotas.",
+      "confianza": "Alta",
+      "fuentes": ["P3", "P1", "P7", "P8", "P15"]
+    },
+    "riego": {
+      "criterio": "Riego por bandeja (por abajo): maceta de plástico con agujero siempre en un plato con agua pura. El sustrato debe estar siempre húmedo, nunca seco; comprobar a diario que el plato tiene agua y, con el dedo a 2-3 cm, que la turba está mojada (una maceta que pesa poco se ha secado). Rellenar el plato antes de que se vacíe. No regar por encima de la roseta de forma habitual (lava el mucílago); el agua debe subir desde el plato.",
+      "primavera_verano": "Mantener de forma continua 1-3 cm de agua en el plato (SANBI) y rellenar en cuanto baje; con calor fuerte y aire seco puede vaciarse en un día. Que el sustrato se seque, aunque sea poco tiempo, hace que las hojas caigan y pierdan las gotas.",
+      "otono_invierno": "Igual que en verano, porque no tiene reposo: plato con agua y sustrato siempre húmedo. Solo con frío (por debajo de unos 10-15 °C) el plato tarda más en vaciarse; se rellena con menos frecuencia, pero sin dejarlo seco.",
+      "sensibilidad_exceso": "baja",
+      "sensibilidad_sequia": "alta",
+      "calidad_agua": "Agua sin minerales: destilada, de ósmosis inversa o de lluvia limpia (NC State, RHS, US Botanic Garden). La ICPS admite el agua del grifo para las carnívoras si su total de sólidos disueltos (TDS) es menor de 90 ppm, comprobado con la compañía de aguas o con un medidor TDS; filtrar con jarras NO quita las sales. Según la Fase 4 del proyecto, el grifo de Madrid capital (≈45-55 ppm estimados) cumple ese umbral con margen escaso y el sur metropolitano (≈100-125 ppm) no: usar grifo solo tras medirlo con un medidor TDS. Nunca agua mineral embotellada ni agua dura. Dejar reposar el agua no sirve (Madrid usa cloramina).",
+      "notas": "Contradicción: NC State y el US Botanic Garden dicen 'usar siempre agua de lluvia o destilada' y 'no usar agua del grifo', mientras que la ICPS admite el grifo con TDS <90 ppm. Opción conservadora adoptada: destilada, de ósmosis o de lluvia por defecto; el grifo de Madrid capital solo como alternativa comprobada con medidor. A diferencia de casi todas las plantas de interior, en esta especie el riesgo es la sequía, no el exceso de agua: vive en suelos encharcados y tolera estar siempre en plato con agua (SANBI incluso la cita como planta semisumergida de estanque).",
+      "confianza": "Alta",
+      "fuentes": ["P8", "P7", "P9", "P10", "P6"]
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "notas": "La ICPS indica que las droseras subtropicales prefieren más humedad de la habitual en una casa y que van muy bien en terrario o invernadero, aunque hay cultivadores que las tienen en estanterías con luz artificial lejos de corrientes; el US Botanic Garden dice que casi todas las carnívoras necesitan humedad alta. Ninguna fuente prioritaria da un porcentaje. Las gotas de mucílago son el indicador práctico: si desaparecen con el sustrato húmedo y buena luz, el aire está demasiado seco. Soluciones: humidificador, agrupar plantas, o terrario o mini-invernadero con ventilación (la ICPS los hace 'con fugas' para que no se empañen; cerrados del todo se recalientan al sol). El plato con agua y la turba mojada ya crean algo de humedad local. Pulverizar no sube la humedad de forma útil y además diluye el mucílago.",
+      "confianza": "Media",
+      "fuentes": ["P1", "P10", "P15", "P8"]
+    },
+    "temperatura": {
+      "min_c": 10,
+      "max_c": 35,
+      "ideal_min_c": null,
+      "ideal_max_c": null,
+      "notas": "La ICPS da 10-35 °C como el intervalo moderado en el que las droseras subtropicales crecen bien, y 20-25 °C para germinar semillas. min_c = 10 °C es el mínimo más alto (más conservador) de las fuentes: la RHS la clasifica H3 (resiste en exterior en zonas suaves del Reino Unido, mínimos de -5 a 1 °C) y SANBI la sitúa en clima costero sin heladas, pero ambas hablan de cultivo en exterior o invernadero frío; en maceta, sin protección, no se recomienda bajar de 10 °C de forma prolongada. Proteger de heladas siempre. No hay rango ideal en fuentes prioritarias; las fuentes complementarias dan 4-27 °C (Gardenia) o >21 °C (vivero Carnivero), por lo que ideal_min_c e ideal_max_c se dejan en null. Evitar corrientes de calefacción y el cristal frío de la ventana en invierno.",
+      "confianza": "Alta",
+      "fuentes": ["P1", "P7", "P8"]
+    },
+    "sustrato": {
+      "mezcla": "Turba rubia (turba de esfagno) SIN abono ni cal, mezclada con arena de sílice o cuarzo gruesa y lavada (granos de 1,2-2 mm), aproximadamente 1:1 en volumen (la 'CP mix' de la ICPS, que admite del 30 % al 100 % de turba para droseras subtropicales; SANBI usa 1 de arena o grava silícea : 1 de turba o esfagno). Alternativa: esfagno de fibra larga puro (vivo o seco); la ICPS recomienda para las droseras grandes la mezcla turba:arena con esfagno vivo encima. Opcional: 5 mm de arena de sílice gruesa en la superficie contra los mosquitos del sustrato (las Drosera adultas lo toleran). Leer la bolsa: sin fertilizantes añadidos. NUNCA sustrato universal ni de macetas, tierra de jardín, arena de playa, de construcción, de juegos o de filtro de piscina (demasiado fina, compacta) ni arenas calizas.",
+      "ph": "Ácido: <6,0 (NC State, para el género); RHS: ácido o neutro.",
+      "drenaje": "La planta vive en suelo encharcado, así que no busca drenaje rápido, sino una mezcla que no se compacte: la arena gruesa abre la turba. Maceta de plástico con agujero, de 10-15 cm (SANBI), en plato con agua de forma permanente.",
+      "notas": "Perlita (comprobado para Drosera): la ICPS no la prohíbe para Drosera (en su página de sustratos la considera 'una buena alternativa a la arena, pero con inconvenientes'), pero avisa de que en algunas zonas es difícil encontrar perlita que no sea salina, de que el autor ha recibido perlita mortal para las carnívoras más sensibles y de que él la lava y solo la usa en plantas al aire libre que reciben lluvia; en su guía de droseras subtropicales solo cita turba, esfagno y arena de sílice. El NYBG sí usa perlita con esfagno para Drosera regia. Opción conservadora adoptada: arena de sílice gruesa lavada en lugar de perlita; si se usa perlita, lavarla y quedarse con la que flota, y nunca de marcas de fertilizantes. La turba también puede llevar sales: la ICPS recomienda lavarla si da problemas. Cambio de proporción: el US Botanic Garden da 3 de turba : 1 de arena para carnívoras en general.",
+      "confianza": "Alta",
+      "fuentes": ["P1", "P2", "P8", "P9", "P5"]
+    },
+    "fertilizacion": {
+      "tipo": "Ninguno en el sustrato. Se alimenta por las hojas: insectos que caza sola (mosquitos, moscas pequeñas, mosquitos del sustrato) o, en interior, larvas de mosquito ('gusanos de sangre') secas para peces, sin aditivos, rehidratadas con una o dos gotas de agua y escurridas, colocadas en pequeñas porciones sobre hojas con gotas.",
+      "npk": null,
+      "primavera_verano": "Si no caza sola (en interior apenas caza), poner una porción pequeña de gusano de sangre rehidratado en una o dos hojas con gotas cada 1-2 semanas [orientativo, sin fuente prioritaria para la frecuencia]. Solo en hojas con mucílago y solo comida viva o húmeda (ICPS). Si la comida enmohece, dar menos la próxima vez. En exterior caza lo suficiente sin ayuda.",
+      "otono_invierno": "Como no tiene reposo, se puede seguir alimentando igual si sigue creciendo con buena luz; con poca luz o frío, espaciar.",
+      "notas": "No abonar nunca el sustrato: la ICPS lo dice tajantemente para Drosera ('no pongas fertilizante de ningún tipo en el sustrato'; si no mata la planta, altera la química del suelo) y llama 'vivir peligrosamente' a abonar el sustrato de las droseras; NC State coincide ('no aplique fertilizantes'). Abono foliar: SANBI admite un abono foliar ácido o para epífitas a ¼ de la dosis una vez al mes, el US Botanic Garden un abono orgánico a ¼ de dosis con crecimiento activo si no hay insectos, y la ICPS dice que las plantas de más de 1 cm responden a pulverizaciones ligeras de abono diluido rico en nitrógeno, pero que es mejor usar gusanos de sangre y que el abono foliar se use 'con cuidado'. Opción conservadora adoptada: la app no recomienda abonar; alimentar con insectos o gusanos de sangre. No dar carne (no digiere proteínas complejas, US Botanic Garden).",
+      "confianza": "Alta",
+      "fuentes": ["P1", "P16", "P9", "P8", "P10"]
+    },
+    "trasplante": {
+      "frecuencia": "Cada 3-5 años en general (ICPS, para droseras subtropicales); antes si el sustrato se ha degradado, compactado o salinizado, o si la mata ha llenado la maceta.",
+      "epoca": "Primavera, con la planta en crecimiento activo (en Madrid, de marzo a mayo). Al no tener reposo, puede hacerse en otra época si es urgente, evitando el pico de calor del verano.",
+      "senales": "Mata que ocupa toda la maceta o muchos hijuelos; costra blanca de sales, musgo, algas o cianobacterias sobre la superficie; sustrato que se compacta y apesta; hojas nuevas cada vez más pequeñas y con menos gotas pese a buena luz y agua; planta que se ha alargado mucho sobre un tallo largo cubierto de hojas viejas.",
+      "notas": "Tras el trasplante es normal que la planta deje de producir gotas unos días (SANBI); vuelven con las hojas nuevas. Mojar la mezcla antes de usarla, plantar a la misma altura (se puede enterrar algo más el tallo largo de una planta vieja) y poner la maceta en el plato con agua de inmediato. No exponerla a sol fuerte los primeros días.",
+      "confianza": "Media",
+      "fuentes": ["P1", "P8", "P2"]
+    },
+    "poda": {
+      "necesita": "Solo limpieza. Las hojas viejas se secan y quedan negras bajo la roseta: es normal. Las varas florales se pueden cortar.",
+      "epoca": "Todo el año.",
+      "como": "Retirar con tijera fina o pinzas las hojas totalmente negras y secas si estorban o enmohecen, sin tocar las hojas vivas (el mucílago se pierde al tocarlas). Varas florales: la ICPS indica que quitar las varas en cuanto aparecen y alimentar bien alarga la vida de las droseras; además, cortarlas antes de que maduren las semillas evita que se siembre sola por todas las macetas cercanas. Es opcional si se quiere semilla. La RHS indica que no necesita poda.",
+      "confianza": "Media",
+      "fuentes": ["P1", "P7", "P8"]
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": null,
+      "notas": "A diferencia de Dionaea muscipula y de las droseras templadas, D. capensis es subtropical y de hoja perenne: no necesita reposo invernal ni señales de luz estacionales para sobrevivir a largo plazo (ICPS), crece todo el año y puede florecer en invierno (RHS). No meterla en frío ni dejarla secar en invierno. Es normal que algunas rosetas viejas mueran de vez en cuando: SANBI aconseja esperar unas semanas antes de tirarlas, porque suelen rebrotar desde el tallo rizomatoso.",
+      "confianza": "Alta",
+      "fuentes": ["P1", "P7", "P8"]
+    },
+    "propagacion": {
+      "metodos": ["semilla", "esqueje de hoja", "esqueje de raíz", "esqueje de tallo", "separación de hijuelos"],
+      "epoca": "Esquejes cuando la planta crece con fuerza (primavera-verano). Semilla en cuanto madura, a 20-25 °C.",
+      "pasos": "Semilla (se produce sola en abundancia): sembrar en superficie, SIN cubrir, sobre turba:arena húmeda, pulverizar ligeramente con agua pura, meter la maceta en una bolsa de plástico cerrada bajo buena luz a 20-25 °C; germina en unas semanas; sacar de la bolsa cuando las plántulas tengan algunas hojas verdaderas y sean lo bastante grandes para resistir los mosquitos del sustrato (ICPS; SANBI: luz buena, no sol directo, y abrir la bolsa poco a poco para endurecerlas). Esqueje de hoja: elegir hojas sanas, abiertas y con muchas gotas; cortarlas por el pecíolo; ponerlas flotando, con los tentáculos hacia arriba, en 1 cm de agua destilada o de ósmosis en un frasco tapado (cambiar el agua si se enturbia), o tumbarlas medio cubiertas sobre turba, esfagno o turba:arena muy mojados en bolsa cerrada con humedad del 100 %; luz abundante sin achicharrar; las plántulas salen en 1-5 meses; trasplantarlas cuando tengan algunas hojas (ICPS). Esqueje de raíz o de tallo: trozos de raíz sana o de tallo medio cubiertos por el sustrato húmedo, en bolsa cerrada; dan plantas adultas antes que las hojas (ICPS, SANBI). Hijuelos: separar al trasplantar las rosetas que salen en la base con sus raíces.",
+      "confianza": "Alta",
+      "fuentes": ["P1", "P4", "P8", "P7"]
+    }
+  },
+  "problemas_frecuentes": [
+    {"sintoma_id": "S08", "causa_habitual_en_esta_especie": "Sustrato que se ha secado (plato vacío): las hojas caen y dejan de producir gotas; al regar y mantener húmeda se recupera (SANBI). Con buen riego, la caída con hojas largas y verdes indica falta de luz."},
+    {"sintoma_id": "S16", "causa_habitual_en_esta_especie": "Falta de luz, la causa más frecuente en interior: hojas largas, blandas, verdes sin rojo, caídas y sin gotas. Pasarla a la ventana más soleada o poner LED blanco de 15.000-25.000 lux, 12-16 h al día."},
+    {"sintoma_id": "S11", "causa_habitual_en_esta_especie": "Sequía del sustrato o aire muy seco con calor o calefacción: hojas que se arrugan y secan desde la punta. Plato siempre con agua; más humedad ambiental."},
+    {"sintoma_id": "S02", "causa_habitual_en_esta_especie": "Normal: las hojas viejas de abajo se ponen negras y se secan pegadas al tallo mientras salen hojas nuevas en el centro. Solo es un problema si mueren más de las que salen."},
+    {"sintoma_id": "S17", "causa_habitual_en_esta_especie": "Poca luz, frío por debajo de 10 °C, sustrato agotado o salinizado (agua del grifo con muchas sales o abono en el sustrato) o una roseta vieja agotada tras florecer mucho. Recordar que no tiene reposo: una parada en invierno con luz y temperatura correctas no es normal."},
+    {"sintoma_id": "S18", "causa_habitual_en_esta_especie": "Pulgón, cochinilla algodonosa o trips en el brote central deforman las hojas nuevas (SANBI). También sustrato salinizado."},
+    {"sintoma_id": "S20", "causa_habitual_en_esta_especie": "Costra blanca de sales por regar con agua mineralizada o por abonar el sustrato; musgo, algas o cianobacterias sobre la turba húmeda. Cambiar el sustrato y usar agua pura; una capa de arena de sílice en superficie reduce el musgo (ICPS)."},
+    {"sintoma_id": "S22", "causa_habitual_en_esta_especie": "Quemadura al pasarla de golpe de vivero o interior a sol pleno, o sol de tarde tras un cristal en verano. Aclimatar poco a poco y sombrear el sol fuerte del mediodía o la tarde bajo cristal (RHS)."},
+    {"sintoma_id": "S27", "causa_habitual_en_esta_especie": "Pulgón en el brote central y las varas florales (SANBI). Retirar a mano o con un pincel y agua pura. SANBI desaconseja expresamente los insecticidas a base de jabón en esta especie; no se ha encontrado información sobre su tolerancia a los productos autorizados en el Registro del MAPA."},
+    {"sintoma_id": "S29", "causa_habitual_en_esta_especie": "Cochinilla algodonosa en el centro de la roseta y la base de las hojas (SANBI; la ICPS tiene página propia sobre esta plaga en carnívoras). Retirar a mano con un pincel o bastoncillo y aislar la planta."},
+    {"sintoma_id": "S31", "causa_habitual_en_esta_especie": "Mosquitos del sustrato en la turba siempre mojada. Los adultos los caza la propia planta, pero las larvas se comen plántulas y esquejes y dañan raíces (ICPS). Capa de 5 mm de arena de sílice gruesa en la superficie."},
+    {"sintoma_id": "S36", "causa_habitual_en_esta_especie": "Poco frecuente en esta especie, que tolera el encharcamiento: aparece con sustrato viejo compactado y descompuesto, agua del plato estancada y caliente en verano o sustrato inadecuado (universal, con abono). Trasplantar a mezcla nueva de turba y arena."},
+    {"sintoma_id": "S34", "causa_habitual_en_esta_especie": "Moho gris sobre hojas muertas o restos de comida enmohecidos sobre las hojas, con poca ventilación, sobre todo en terrario cerrado [orientativo, sin fuente prioritaria específica]. Retirar restos, dar menos comida y ventilar."}
+  ],
+  "ajustes_madrid": {
+    "verano": "Mantener la luz alta pero vigilar el agua: con 35-40 °C y aire muy seco (HR exterior ≈38 %), el plato se puede vaciar en un día y las hojas pierden las gotas. Revisar el plato cada día y rellenar con agua destilada, de ósmosis o de lluvia (o grifo de Madrid capital comprobado con medidor TDS <90 ppm). En ventana sur u oeste tras un cristal, sombrear las horas centrales y la tarde (cortina fina o malla) para no pasar de 35 °C junto al cristal ni quemar las hojas; al aire libre, sol de mañana y semisombra de tarde (SANBI admite pleno sol o semisombra). Evitar los suelos y paredes que acumulan calor y las macetas negras pequeñas. Si desaparecen las gotas con el sustrato húmedo, falta humedad: agrupar plantas, poner un humidificador o usar un mini-invernadero ventilado a la sombra (un terrario cerrado al sol se recalienta).",
+    "invierno": "No necesita reposo: dentro de casa, en la ventana más soleada (sur), con el plato siempre con agua. Por debajo de 10 °C se para; no dejarla en balcón o terraza en invierno en Madrid, donde hay heladas. Con calefacción, la HR interior baja a menudo del 30 % y las gotas se reducen: alejarla de radiadores y salidas de aire caliente (la ICPS avisa de que en las ventanas se alternan la corriente fría del cristal y el aire caliente y seco de la calefacción), no pegar las hojas al cristal frío por la noche y subir la humedad con humidificador o agrupando plantas. La luz de invierno en Madrid es corta: si se alarga y pierde el rojo, completar con LED blanco 12-16 h al día.",
+    "ubicacion_recomendada": "De mayo a octubre, balcón o terraza a sur o este con sol directo de mañana y algo de sombra en las tardes de julio y agosto, o alféizar interior de una ventana sur u oeste con al menos 4 h de sol. De noviembre a abril, dentro de casa en la ventana sur más luminosa, lejos de radiadores, o en una estantería bajo LED blanco de cultivo (15.000-25.000 lux, 12-16 h) dentro de un mini-invernadero ventilado. Siempre en plato con agua pura."
+  },
+  "lagunas": [
+    "Nombre: POWO (Kew) acepta Drosera capensis L. (Droseraceae), nombre común 'the Cape sundew'; no se detectan cambios de nombre. Solo se ha consultado el resultado de búsqueda de la API de POWO (la ficha de taxón está protegida y no se pudo abrir), por lo que no se han revisado los sinónimos.",
+    "Toxicidad: ASPCA no tiene ficha de ninguna especie de Drosera y no se ha encontrado otra fuente prioritaria (NC State, RHS, UC ANR, Clemson) que la clasifique; perros, gatos y niños se dejan en 'desconocida'. Está documentada la presencia de naftoquinonas (7-metiljuglona y plumbagina) en D. capensis, pero no su relevancia por ingestión.",
+    "Humedad: ninguna fuente prioritaria da porcentajes mínimo ni ideal; min_pct e ideal_pct se dejan en null.",
+    "Temperatura ideal: ninguna fuente prioritaria da un rango óptimo de cultivo (solo 10-35 °C de 'crecimiento bien' para droseras subtropicales en la ICPS y 20-25 °C para germinar); ideal_min_c e ideal_max_c se dejan en null. Tampoco hay un mínimo de supervivencia en maceta verificado.",
+    "Luz: la cifra de 15.000-25.000 lux de la ICPS es para la mayoría de Drosera bajo LED, no específica de D. capensis; no hay cifra de lux para luz natural en ventana.",
+    "Alimentación: no se ha encontrado una frecuencia de alimentación manual en fuentes prioritarias para D. capensis; la de 1-2 semanas es orientativa.",
+    "Agua: no hay fuente sobre el efecto de la cloramina del grifo de Madrid en Drosera; el umbral de 90 ppm de TDS procede de la guía de Dionaea de la ICPS, que lo da para 'tus plantas carnívoras' en general.",
+    "Fitosanitarios: SANBI desaconseja los insecticidas a base de jabón en D. capensis y habla de 'pesticida diluido' sin concretar; no se ha encontrado información sobre la tolerancia de la especie a los productos de uso doméstico autorizados en el Registro del MAPA. Se recomienda solo retirar las plagas a mano.",
+    "Invasora: no se ha comprobado si Drosera capensis figura en el Catálogo Español de Especies Exóticas Invasoras ni si se ha asilvestrado en España; sí está declarada organismo no deseado en Nueva Zelanda.",
+    "Moho gris (S34): sin fuente prioritaria específica para D. capensis.",
+    "La guía de Drosera del NYBG no trata D. capensis (solo D. regia, D. macrantha, D. cistiflora y droseras tuberosas) y la página de NC State es del género Drosera, no de la especie."
+  ],
+  "fuentes": [
+    {"id": "P1", "url": "https://www.carnivorousplants.org/grow/guides/SubtropicalDrosera", "institucion": "International Carnivorous Plant Society (ICPS) — Growing Subtropical Drosera (J. Brittnacher)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P2", "url": "https://www.carnivorousplants.org/grow/SoilsWaterLight/CPmix", "institucion": "International Carnivorous Plant Society (ICPS) — Peat, Sand, Perlite (CP mix)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P3", "url": "https://www.carnivorousplants.org/grow/SoilsWaterLight/LEDplantlighting", "institucion": "International Carnivorous Plant Society (ICPS) — LED Plant Lighting", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P4", "url": "https://www.carnivorousplants.org/grow/propagation/DroseraLeafCuttings", "institucion": "International Carnivorous Plant Society (ICPS) — Drosera Leaf Cuttings", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P5", "url": "https://www.carnivorousplants.org/grow/pests/FungusGnatLarvae", "institucion": "International Carnivorous Plant Society (ICPS) — Fungus Gnat Larvae", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P6", "url": "https://www.carnivorousplants.org/grow/guides/Dionaea", "institucion": "International Carnivorous Plant Society (ICPS) — Growing Dionaea muscipula (umbral de TDS del agua del grifo para carnívoras)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P7", "url": "https://www.rhs.org.uk/plants/6136/drosera-capensis/details", "institucion": "Royal Horticultural Society (RHS) — Drosera capensis, Cape sundew", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P8", "url": "https://pza.sanbi.org/node/10099", "institucion": "South African National Biodiversity Institute (SANBI), PlantZAfrica — Drosera capensis (M. McQuillan, Kirstenbosch National Botanical Garden, 2008)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P9", "url": "https://plants.ces.ncsu.edu/plants/drosera/", "institucion": "NC State Extension — Extension Gardener Plant Toolbox, Drosera (género)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P10", "url": "https://www.usbg.gov/cultivating-carnivorous-plants", "institucion": "United States Botanic Garden — Cultivating Carnivorous Plants", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P11", "url": "https://powo.science.kew.org/api/2/search?q=Drosera%20capensis", "institucion": "Plants of the World Online (POWO), Royal Botanic Gardens, Kew", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P12", "url": "https://researchers.westernsydney.edu.au/en/publications/coproduction-and-ecological-significance-of-naphthoquinones-in-ca/", "institucion": "Egan P.A. y van der Kooy F. (2012), Chemistry & Biodiversity 9(6):1033-1044, revista revisada por pares — naftoquinonas en Drosera capensis", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P13", "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list", "institucion": "ASPCA Animal Poison Control — Toxic and Non-Toxic Plant List (sin entrada para Drosera)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P14", "url": "https://www.ecan.govt.nz/pest-search/cape-sundew", "institucion": "Environment Canterbury (consejo regional, Nueva Zelanda) — Cape sundew, organismo no deseado (MPI)", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P15", "url": "https://www.carnivorousplants.org/grow/environs/windowsill", "institucion": "International Carnivorous Plant Society (ICPS) — Window Sill Garden", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "P16", "url": "https://www.carnivorousplants.org/grow/feed", "institucion": "International Carnivorous Plant Society (ICPS) — Feeding Plants", "tipo": "prioritaria", "fecha_consulta": "2026-10-21"},
+    {"id": "C1", "url": "https://www.sarracenia.com/faq/faq2740.html", "institucion": "The Carnivorous Plant FAQ (Barry Rice) — ¿Son peligrosas para las mascotas?", "tipo": "complementaria", "fecha_consulta": "2026-10-21"}
+  ],
+  "fecha_investigacion": "2026-10-21"
+}

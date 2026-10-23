@@ -1,0 +1,353 @@
+{
+  "nombre_cientifico": "Dypsis lutescens",
+  "nombres_comunes": [
+    "areca",
+    "palmera areca",
+    "palmera amarilla",
+    "palmera bambú",
+    "palmera mariposa"
+  ],
+  "familia": "Arecaceae",
+  "origen": "Endémica del este de Madagascar (POWO; UF/IFAS FR309). POWO la registra como introducida en Andamán, Assam, Bangladés, Comoras, República Dominicana, El Salvador, Haití, Jamaica, Islas de Sotavento, Puerto Rico, Reunión, Trinidad y Tobago y Antillas venezolanas. En su hábitat está amenazada por la pérdida de los claros de bosques húmedos y riberas donde crece (UF/IFAS FR309). Nombre aceptado actualmente por POWO: Chrysalidocarpus lutescens H.Wendl. (ver lagunas).",
+  "clima_nativo": "Trópico húmedo (POWO: bioma tropical húmedo). Crece en zonas abiertas de bosques hidrófilos y a orillas de ríos del este de Madagascar (UF/IFAS FR309). En cultivo exterior solo prospera sin heladas (zonas USDA 10a-11; UF/IFAS ENH324, NC State), donde la mínima media anual ronda 1,5-4,5 °C (35-40 °F; UF/IFAS FR309). Prefiere suelo bien drenado pero con agua abundante disponible.",
+  "categoria": "palmera",
+  "dificultad": "media",
+  "prioridad": 5,
+  "rareza": "comun",
+  "identificacion": {
+    "hojas": "Hojas pinnadas (compuestas como una pluma), grandes y arqueadas, de 90-180 cm en interior y hasta 1,8-2,4 m en exterior (NC State; UF/IFAS FR309). Llevan 40-60 pares de folíolos lanceolados, lisos y algo céreos, de hasta unos 60 cm, que se insertan semierguidos a ambos lados del raquis formando una 'V' marcada vista de frente (NC State; UF/IFAS FR309). Color verde amarillento a verde oscuro. Rasgo clave para la visión: pecíolo, raquis y nervio central de los folíolos amarillos, dorados o anaranjados (NC State; UF/IFAS FR309). Las vainas de las hojas abrazan el tallo.",
+    "nerviacion": "Paralela, típica de monocotiledónea, en cada folíolo, con un nervio central amarillento destacado (UF/IFAS ENH324; NC State).",
+    "variegacion": "No es variegada. El tono amarillo dorado de pecíolos, vainas y tallos es propio de la especie (de ahí 'lutescens', 'que amarillea'), pero se intensifica con mucho sol o con carencia de nitrógeno (UF/IFAS FR309; UF/IFAS ENH1010). Un amarilleo de los folíolos no es una variegación: es un síntoma (ver problemas_frecuentes). En Tailandia existen cultivares enanos y fastigiados, muy raros en el comercio (NC State).",
+    "tallo": "Varios tallos (estípites) que salen de la misma base formando una mata. Son lisos, cilíndricos, de 5-10 cm de diámetro en exterior y más finos en interior, con anillos marcados por las cicatrices de las hojas, como una caña de bambú (NC State; UF/IFAS FR309). Color de verde oscuro a amarillo o anaranjado; más claro cuanto más sol recibe (UF/IFAS FR309). En la maceta de vivero suelen verse muchos tallos finos porque se siembran muchas semillas juntas (UF/IFAS CFREC-Apopka).",
+    "habito": "Palmera multicaule que forma una mata densa de tallos erguidos coronados por hojas plumosas arqueadas (NC State; UF/IFAS ENH324). Crecimiento de medio a rápido (NC State; UF/IFAS ENH324). En interior rara vez florece; si lo hace, saca panículas de flores pequeñas amarillas o crema bajo las hojas, seguidas de frutos ovoides de 1,3-2,5 cm (NC State; UF/IFAS ENH324).",
+    "tamano_adulto_interior": "La Universidad de Kentucky da una mata de 1,8-9 m (6-30 ft) según condiciones; RHS, bajo cristal, 4-8 m de alto y 2,5-4 m de ancho tras 20-50 años. En exterior tropical, 6-10 m (UF/IFAS ENH324). En una vivienda la limita el techo y la maceta; no se ha encontrado una cifra verificada de altura típica en interior doméstico (ver lagunas).",
+    "confusiones": [
+      {
+        "especie": "Chamaedorea seifrizii (palmera bambú o de caña)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. También forma mata de tallos finos tipo caña, pero de color verde, sin el pecíolo ni el raquis amarillo-dorado de la areca, y con folíolos más planos que no forman la 'V' marcada. Tolera menos luz (100-300 fc según Univ. Kentucky)."
+      },
+      {
+        "especie": "Chamaedorea elegans (palmera de salón)",
+        "rasgo_diferenciador": "NC State la cita como confusión habitual. Es mucho más pequeña (hasta unos 1,8 m, crecimiento muy lento; Univ. Kentucky), con tallos verdes y finos y sin tonos amarillos en pecíolos ni raquis."
+      },
+      {
+        "especie": "Howea forsteriana (kentia)",
+        "rasgo_diferenciador": "Tronco normalmente solitario (Univ. Kentucky) o pocos tallos en maceta, verde oscuro, con folíolos colgantes y pecíolos verdes, sin el amarillo dorado de la areca. Crecimiento muy lento."
+      },
+      {
+        "especie": "Ptychosperma macarthurii (palmera Macarthur)",
+        "rasgo_diferenciador": "También forma mata, pero de aspecto mucho más ralo que la areca (Univ. Kentucky), con tallos verdes y folíolos anchos de punta truncada y dentada, como cortada."
+      },
+      {
+        "especie": "Rhapis excelsa (palmera dama)",
+        "rasgo_diferenciador": "Forma una mata de tallos finos (Univ. Kentucky), pero sus hojas son en abanico (palmeadas) y no plumosas, y los tallos van cubiertos de fibra."
+      }
+    ]
+  },
+  "toxicidad": {
+    "perros": "no_toxica",
+    "gatos": "no_toxica",
+    "ninos": "toxica",
+    "principio_activo": "Glucósidos cianogénicos (compuestos de cianuro) en el cogollo o yema terminal ('palmito') y en las yemas de las hojas jóvenes, según NC State. Las hojas desplegadas no tienen principio tóxico descrito en las fuentes consultadas.",
+    "sintomas": "Perros y gatos: no tóxica (ASPCA: 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'; NC State: no tóxica para perros, gatos y caballos). Niños y adultos: NC State le da toxicidad baja y avisa de que el cogollo terminal no se debe comer; si se ingiere, náuseas y vómitos. No causa dermatitis de contacto (NC State). Morder una hoja tiene riesgo muy bajo; el riesgo está en comer el cogollo, cosa poco probable en una planta de interior. Ante cualquier ingestión, llamar al Servicio de Información Toxicológica (91 562 04 20) o al veterinario.",
+    "confianza": "Alta",
+    "fuentes": [
+      "F9",
+      "F1"
+    ],
+    "notas": "Perros y gatos: confianza Alta (ASPCA y NC State coinciden). Personas: solo NC State, que la califica de toxicidad baja por el cogollo cianogénico; confianza Media. Se marca 'toxica' para niños por prudencia, con severidad baja. NC State incluye a la vez la etiqueta 'no tóxica para mascotas' y el aviso sobre el cogollo; ASPCA no menciona el cogollo."
+  },
+  "cuidados": {
+    "luz": {
+      "tipo": "brillante_indirecta",
+      "lux_min": 1600,
+      "lux_max": 10760,
+      "orientacion_hn": "Junto a una ventana este, o a 1-2 m de una ventana sur u oeste con cortina fina. En ventana norte solo si está pegada al cristal y es luminosa; si no, se deteriora. Hay que evitar el sol directo de mediodía y de tarde a través del cristal en verano.",
+      "tolera_sol_directo": "Parcialmente. En exterior tropical tolera pleno sol, pero prefiere semisombra (NC State; UF/IFAS ENH324); la RHS indica semisombra. El sol fuerte la amarillea (UF/IFAS FR309) y agrava la mancha foliar por Helminthosporium (UF/IFAS CFREC-Apopka). En interior le sienta bien el sol suave de primera hora; el sol de mediodía o de tarde detrás del cristal, no.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F1",
+        "F2",
+        "F6",
+        "F3",
+        "F5"
+      ],
+      "notas": "NC State y RHS: luz brillante indirecta. Univ. Kentucky: necesita 150-300 fc (≈1600-3200 lux) para crecer de forma aceptable, y la falta de luz es una causa frecuente de que la areca se deteriore en interior. Por eso lux_min es 1600 (150 fc). Por encima de 300 fc crece mejor, hasta el techo de la luz brillante indirecta de la escala del proyecto (1000 fc = 10 760 lux). En vivero se produce con 5000-6000 fc, alrededor del 50 % de sombra (UF/IFAS CFREC-Apopka). UF/IFAS (1991) dice que tolera luz relativamente baja; Kentucky, que la luz insuficiente la deteriora. Ambas cosas encajan: aguanta un tiempo, pero no prospera. Se adopta la opción conservadora: luz brillante, y nunca la luz baja como ubicación permanente."
+    },
+    "riego": {
+      "criterio": "Regar cuando los 2-3 cm superiores del sustrato estén secos al tacto (5 cm en macetas de más de 25-30 cm) y la maceta pese claramente menos. Regar a fondo hasta que salga agua por el drenaje y vaciar el plato a los 15-30 minutos. Nunca por calendario. No dejar que el cepellón se seque del todo (UF/IFAS CFREC-Apopka) ni que esté encharcado (NC State).",
+      "primavera_verano": "Riego generoso con crecimiento activo (RHS: 'water freely'), dejando que la superficie se seque un poco entre riegos (RHS) y el sustrato húmedo pero no empapado (NC State). En Madrid, con calor y mucha luz, comprobar cada 3-5 días; no regar si los 2-3 cm superiores siguen húmedos.",
+      "otono_invierno": "Riego escaso (RHS: 'water sparingly in winter'). Dejar secar más los centímetros superiores y comprobar el peso de la maceta cada 7-10 días. Con calefacción el sustrato se seca más deprisa que en un invierno sin ella: guiarse por el dedo y el peso, no por la estación.",
+      "sensibilidad_exceso": "alta",
+      "sensibilidad_sequia": "media",
+      "calidad_agua": "Es más sensible que la mayoría de las plantas de follaje a las sales solubles: las puntas se secan y se pierden raíces finas (UF/IFAS CFREC-Apopka). La RHS recomienda agua blanda o de lluvia. El agua del grifo de Madrid es blanda (10-47 mg/L CaCO3) y casi sin flúor (<0,1 mg/L), así que sirve. Dejarla reposar no elimina la cloramina, pero tampoco hace falta. El riesgo real son las sales del abono acumuladas: regar a fondo con drenaje libre y lavar el sustrato con abundante agua cada pocos meses. La areca es sensible al flúor solo con pH <6 y agua o abonos con flúor (UF/IFAS CFREC-Apopka), un caso que no se da con el agua de Madrid.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5",
+        "F6"
+      ],
+      "notas": "El exceso de riego es uno de sus principales enemigos en interior (Univ. Kentucky: 'susceptible to over watering'; ninguna palmera común lo tolera). Las podredumbres de raíz por Pythium, Phytophthora, Fusarium o Rhizoctonia se frenan con el sustrato tan seco como permita el crecimiento (UF/IFAS CFREC-Apopka). Pulverizar las hojas no sirve como riego ni sube la humedad de forma útil."
+    },
+    "humedad": {
+      "min_pct": null,
+      "ideal_pct": null,
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F6"
+      ],
+      "notas": "NC State pide humedad ambiental alta y aconseja un humidificador si hace falta. La Univ. de Kentucky señala que la araña roja prospera en la baja humedad de la mayoría de los interiores, la plaga típica de la areca. Ninguna fuente prioritaria da un porcentaje, así que min_pct e ideal_pct quedan en null (ver lagunas). Medida práctica: humidificador o agrupar plantas, sobre todo en invierno con calefacción (HR <30 %) y en verano madrileño. Pulverizar no sube la humedad de forma útil."
+    },
+    "temperatura": {
+      "min_c": 15,
+      "max_c": 35,
+      "ideal_min_c": 21,
+      "ideal_max_c": 27,
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5"
+      ],
+      "notas": "RHS la clasifica como H1A: todo el año bajo cristal, con mínimas por encima de 15 °C. UF/IFAS CFREC-Apopka: crece mejor con las raíces a 21-27 °C (70-80 °F) y aguanta aire de hasta 35 °C (95 °F). Resiste poco tiempo a 0 °C con algo de necrosis; el frío prolongado a 0 °C o menos la daña gravemente o la mata, y se transporta bien 2 semanas a 13-18 °C. Las fuentes no coinciden en el mínimo: la RHS da >15 °C y UF/IFAS describe tolerancia puntual a 0 °C. Se adopta la opción conservadora, 15 °C como mínimo seguro en interior. Evitar el contacto con cristales fríos y las corrientes junto a puertas y ventanas."
+    },
+    "sustrato": {
+      "mezcla": "Sustrato para macetas bien drenado y con materia orgánica. La RHS recomienda un sustrato a base de tierra franca y sin turba. En vivero dan buen resultado turba:arena 3:1 y turba:corteza de pino:arena 6:3:1 en volumen (UF/IFAS CFREC-Apopka). En casa equivale a un sustrato universal de calidad con un 20-30 % de corteza de pino fina o perlita. Conviene un sustrato estable que no se degrade en barro: con los años, la turba y la corteza se descomponen, se pierde aireación y aparece clorosis férrica (UF/IFAS ENH1010).",
+      "ph": "6,0-6,5 (UF/IFAS CFREC-Apopka: pH cercano a 6,0, entre 6,0 y 6,5; RHS y NC State: de ácido a neutro)",
+      "drenaje": "Imprescindible: maceta con agujeros, sin plato con agua estancada. No usar una maceta demasiado grande, porque el exceso de sustrato se mantiene mojado (UF/IFAS ENH1010).",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F1",
+        "F5",
+        "F7"
+      ]
+    },
+    "fertilizacion": {
+      "tipo": "Abono líquido equilibrado para plantas verdes o palmeras, de proporción aproximada 3-1-2 (N-P2O5-K2O, p. ej. 18-6-12), con magnesio y micronutrientes (hierro, manganeso, zinc). Alternativa: abono de liberación lenta de la misma proporción.",
+      "npk": "3-1-2 (proporción; ej. 18-6-12 o 9-3-6)",
+      "primavera_verano": "¼-½ de la dosis de la etiqueta una vez al mes, solo con crecimiento activo. La RHS es aún más prudente: 2-3 aplicaciones de abono líquido equilibrado en toda la temporada.",
+      "otono_invierno": "Nada.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F7",
+        "F6"
+      ],
+      "notas": "La areca es más sensible que la mayoría de las plantas de follaje al exceso de sales (UF/IFAS CFREC-Apopka) y propensa a la sobrefertilización (Univ. Kentucky): mejor quedarse corto. Necesita micronutrientes para no amarillear (UF/IFAS CFREC-Apopka). Las pulverizaciones foliares de micronutrientes o de cobre le causan manchas necróticas: no aplicarlas. Los pecíolos dorados y el verde claro uniforme de las hojas viejas en maceta suelen ser carencia de nitrógeno (UF/IFAS ENH1010). En maceta el magnesio se agota a los 6 meses aproximadamente si no se repone (UF/IFAS ENH1010): el abono elegido debe llevar Mg."
+    },
+    "trasplante": {
+      "frecuencia": "Cada 2-3 años (NC State), o antes si el sustrato se ha degradado (compacto, encharcadizo, con olor) o las raíces llenan la maceta.",
+      "epoca": "Primavera, al empezar el crecimiento activo.",
+      "senales": "Raíces saliendo por el drenaje o en espiral; el agua no penetra o se encharca; sustrato descompuesto en barro; amarilleo de hojas nuevas por falta de aireación (UF/IFAS ENH1010). Subir solo un tamaño de maceta (2-5 cm más de diámetro), sin sobredimensionar (UF/IFAS ENH1010). Si el sustrato está degradado, quitar con cuidado el viejo y replantar en sustrato nuevo (UF/IFAS ENH1010). La mata se planta a la misma profundidad, sin enterrar la base de los tallos.",
+      "confianza": "Media",
+      "fuentes": [
+        "F1",
+        "F7"
+      ],
+      "notas": "La época (primavera) no aparece explícita en las fuentes prioritarias consultadas para el cultivo en maceta; UF/IFAS FR309 recomienda plantar en exterior al inicio de la estación lluviosa de verano para que enraíce. Se adopta primavera-inicio de verano, con crecimiento activo."
+    },
+    "poda": {
+      "necesita": "No (RHS: no requiere poda). Solo retirar las hojas completamente secas.",
+      "epoca": "Cualquier época, cuando una hoja esté totalmente seca o marrón.",
+      "como": "Cortar el pecíolo de la hoja totalmente muerta cerca del tallo, con tijera limpia y sin dañar el tallo. No cortar hojas verdes ni medio amarillas: la palmera transloca sus nutrientes, sobre todo el potasio, de las hojas viejas a las nuevas, y la poda excesiva reduce la fotosíntesis y hace hojas y tallos más pequeños (UF/IFAS ENH1182). Hojas viejas medio amarillas que duran meses indican carencia de potasio y piden abono, no tijera (UF/IFAS ENH1182). Las puntas secas de los folíolos se pueden recortar por estética siguiendo la forma de la hoja y dejando una franja fina de tejido seco, sin cortar tejido verde.",
+      "confianza": "Alta",
+      "fuentes": [
+        "F2",
+        "F8"
+      ],
+      "notas": "En paisajismo se quitan a veces las hojas bajas para enseñar los tallos (UF/IFAS FR309). En interior no hace falta y no se recomienda con hojas verdes. El recorte estético de puntas secas no figura en las fuentes prioritarias consultadas: es una práctica común de bajo riesgo si no se toca tejido verde."
+    },
+    "reposo": {
+      "tiene": false,
+      "epoca": null,
+      "cambios": "No tiene reposo verdadero; es perennifolia. En otoño-invierno, con menos luz, el crecimiento se frena: riego escaso (RHS), sin abono, y acercarla a la luz. Riego y abono vuelven a aumentar en primavera, con el crecimiento activo (RHS; NC State).",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F1"
+      ]
+    },
+    "propagacion": {
+      "metodos": [
+        "semilla",
+        "división de la mata"
+      ],
+      "epoca": "Primavera-verano, con calor (semilla a ≥25 °C).",
+      "pasos": "Semilla (RHS; UF/IFAS CFREC-Apopka): 1) Usar semilla fresca, de amarilla a madura; la semilla almacenada en frío y seco pierde germinación. 2) Sembrar en sustrato húmedo, sin encharcar, con la parte superior de la semilla apenas visible. 3) Mantener a 27-29 °C (80-85 °F; la RHS pide al menos 25 °C); a menos temperatura la germinación tarda 2-3 veces más. 4) Germina en unas 6 semanas. El tratamiento con ácido sulfúrico caliente es solo para profesionales: no hacerlo en casa. División (NC State): 1) En primavera, sacar la mata de la maceta. 2) Separar con cuidado un grupo de tallos con buenas raíces propias, cortando con un cuchillo limpio si hace falta. 3) Plantar cada parte en su maceta con sustrato drenante. 4) Regar y mantener con luz brillante indirecta, sin abonar hasta ver hojas nuevas.",
+      "confianza": "Media",
+      "fuentes": [
+        "F2",
+        "F5",
+        "F1"
+      ],
+      "notas": "Semilla: confianza Alta (RHS y UF/IFAS coinciden). División: solo NC State la cita, sin detallar técnica; los pasos son el procedimiento general de división de matas. Como las plantas de vivero son muchas plántulas sembradas juntas en una maceta (UF/IFAS CFREC-Apopka), la división consiste en separar grupos de plántulas."
+    }
+  },
+  "problemas_frecuentes": [
+    {
+      "sintoma_id": "S24",
+      "causa_habitual_en_esta_especie": "Araña roja (Tetranychus urticae), su plaga más típica en interior; prospera con la baja humedad de las viviendas (Univ. Kentucky; NC State; RHS; UF/IFAS CFREC-Apopka). Muy probable en Madrid en invierno con calefacción y en verano."
+    },
+    {
+      "sintoma_id": "S23",
+      "causa_habitual_en_esta_especie": "Picaduras de araña roja (folíolos punteados y amarillentos; UF/IFAS CFREC-Apopka) o de trips (cicatrices plateadas; UF/IFAS CFREC-Apopka; RHS)."
+    },
+    {
+      "sintoma_id": "S30",
+      "causa_habitual_en_esta_especie": "Cochinillas de escudo, blandas (Coccus hesperidum, cochinilla teselada) y duras, en hojas, pecíolos y tallos (UF/IFAS CFREC-Apopka; NC State; RHS)."
+    },
+    {
+      "sintoma_id": "S29",
+      "causa_habitual_en_esta_especie": "Cochinilla algodonosa en las axilas y el envés; también cochinilla de raíz, que se ve al desmacetar (UF/IFAS CFREC-Apopka; RHS; Univ. Kentucky; NC State)."
+    },
+    {
+      "sintoma_id": "S25",
+      "causa_habitual_en_esta_especie": "Melaza de la cochinilla algodonosa o de escudo (UF/IFAS CFREC-Apopka)."
+    },
+    {
+      "sintoma_id": "S26",
+      "causa_habitual_en_esta_especie": "Fumagina sobre la melaza de las cochinillas (UF/IFAS CFREC-Apopka)."
+    },
+    {
+      "sintoma_id": "S28",
+      "causa_habitual_en_esta_especie": "Mosca blanca (NC State)."
+    },
+    {
+      "sintoma_id": "S09",
+      "causa_habitual_en_esta_especie": "Trips: las hojas se enrollan o deforman y muestran cicatrices plateadas (UF/IFAS CFREC-Apopka)."
+    },
+    {
+      "sintoma_id": "S05",
+      "causa_habitual_en_esta_especie": "Exceso de sales solubles por sobrefertilización; la areca es más sensible que la mayoría de las plantas de follaje (UF/IFAS CFREC-Apopka; Univ. Kentucky). También aire muy seco y riego irregular. Si solo afecta a los folíolos distales de las hojas más viejas, con amarilleo-naranja en el centro de la hoja, es carencia de potasio (UF/IFAS ENH1010). En Madrid no se debe al flúor ni al cloro del agua."
+    },
+    {
+      "sintoma_id": "S02",
+      "causa_habitual_en_esta_especie": "Carencia de nitrógeno (verde claro uniforme en hojas viejas y pecíolos dorados), de potasio (de la base verde al centro amarillo-naranja y la punta necrosada) o de magnesio (bandas amarillas anchas en el borde con el centro verde) (UF/IFAS ENH1010). Las hojas más viejas también mueren de forma natural, de una en una."
+    },
+    {
+      "sintoma_id": "S03",
+      "causa_habitual_en_esta_especie": "Carencia de hierro o manganeso en hojas nuevas, casi siempre por sustrato degradado, encharcado o poco aireado, o por raíces dañadas, más que por falta de hierro en el abono (UF/IFAS ENH1010; UF/IFAS CFREC-Apopka). Con manganeso aparecen además rayas necróticas longitudinales, más intensas hacia la base de la hoja (UF/IFAS ENH1010)."
+    },
+    {
+      "sintoma_id": "S04",
+      "causa_habitual_en_esta_especie": "Clorosis internervial de hojas nuevas por carencia de hierro (de internervial a general) o de manganeso (internervial difusa) (UF/IFAS CFREC-Apopka)."
+    },
+    {
+      "sintoma_id": "S18",
+      "causa_habitual_en_esta_especie": "Hojas nuevas pequeñas con puntas necróticas: carencia de zinc (UF/IFAS CFREC-Apopka) o, si están rizadas y necróticas, manganeso grave (UF/IFAS ENH1010)."
+    },
+    {
+      "sintoma_id": "S36",
+      "causa_habitual_en_esta_especie": "Podredumbre de raíz por Pythium, Phytophthora, Fusarium o Rhizoctonia con sustrato húmedo de forma continua; va seguida de amarilleo, marchitez y muerte (UF/IFAS CFREC-Apopka; Univ. Kentucky)."
+    },
+    {
+      "sintoma_id": "S08",
+      "causa_habitual_en_esta_especie": "Pudrición radicular por exceso de riego (UF/IFAS CFREC-Apopka) o, menos a menudo, cepellón completamente seco."
+    },
+    {
+      "sintoma_id": "S14",
+      "causa_habitual_en_esta_especie": "Mancha foliar por Helminthosporium (Bipolaris, Exserohilum), con lesiones de 3-6 mm pardo-rojizas o negras rodeadas de halo amarillo. Apenas se da sin mojar las hojas, pero empeora con sol fuerte (UF/IFAS CFREC-Apopka)."
+    },
+    {
+      "sintoma_id": "S22",
+      "causa_habitual_en_esta_especie": "Sol directo fuerte, sobre todo detrás de un cristal sur u oeste en verano: los folíolos amarillean o se blanquean (UF/IFAS FR309)."
+    },
+    {
+      "sintoma_id": "S17",
+      "causa_habitual_en_esta_especie": "Luz insuficiente (por debajo de 150 fc), la causa más frecuente de que la areca se deteriore en interior (Univ. Kentucky). También la carencia crónica de nitrógeno (UF/IFAS ENH1010)."
+    }
+  ],
+  "ajustes_madrid": {
+    "verano": "Con máximas de 35-40 °C llega a su límite (aguanta aire de hasta 35 °C; UF/IFAS CFREC-Apopka). Retirarla 1-2 m de ventanas sur y oeste o tamizar con cortina: el sol directo a través del cristal la amarillea y quema. Comprobar el sustrato cada 3-5 días y regar a fondo cuando estén secos los 2-3 cm superiores, sin dejarla secar del todo. Con HR exterior ≈38 % y aire acondicionado, revisar el envés cada semana por si hay araña roja; usar humidificador o agrupar plantas, no pulverizar. No ponerla en el chorro del aire acondicionado. Si sale a terraza, solo a sombra o semisombra luminosa, aclimatándola poco a poco, y meterla antes de que la mínima baje de 15 °C.",
+    "invierno": "Mínimo seguro de 15 °C (RHS H1A): apartarla de cristales fríos y de corrientes de puertas y ventanas, sin hojas tocando el vidrio. Alejarla al menos 1,5 m de radiadores y bombas de calor. Con la HR interior por debajo del 30 % y calefacción, la araña roja y las puntas secas se disparan: humidificador o agrupar plantas. Acercarla a la ventana más luminosa, porque con poca luz se deteriora. Riego escaso (RHS), guiado por el dedo y el peso; la calefacción seca el sustrato más de lo esperado. Sin abono de octubre a marzo.",
+    "ubicacion_recomendada": "Estancia cálida y luminosa, junto a una ventana este o a 1-2 m de una ventana sur u oeste con cortina fina, lejos de radiadores, aire acondicionado y cristales fríos. Tiene que recibir al menos 1600 lux (150 fc) durante el día; si no se puede leer con comodidad sin luz artificial en pleno día, le falta luz."
+  },
+  "lagunas": [
+    "Nombre científico: POWO (Kew) acepta ahora Chrysalidocarpus lutescens H.Wendl. (Bot. Zeitung 36: 117, 1878), siguiendo la recircunscripción publicada en Taxon en 2022 (doi:10.1002/tax.12797). Dypsis lutescens (H.Wendl.) Beentje & J.Dransf. pasa a ser sinónimo; la RHS da como sinónimo Areca lutescens. El archivo se mantiene como dypsis-lutescens.json por convención del proyecto. La app debe reconocer los nombres Dypsis lutescens, Chrysalidocarpus lutescens y Areca lutescens como la misma especie.",
+    "Humedad relativa: ninguna fuente prioritaria da un porcentaje mínimo ni ideal (NC State solo dice 'humedad alta'); min_pct e ideal_pct quedan en null. Las cifras de blogs (40-60 %) no se han usado.",
+    "Temperatura mínima: la RHS (H1A, >15 °C) y UF/IFAS CFREC-Apopka (tolera 0 °C poco tiempo) no coinciden; se adopta 15 °C, la opción conservadora. Falta una fuente prioritaria que fije el rango ideal en vivienda (21-27 °C es la temperatura de raíz para crecimiento óptimo en vivero).",
+    "Altura típica en interior doméstico: sin cifra verificada; solo rangos amplios (Univ. Kentucky 1,8-9 m; RHS 4-8 m bajo cristal).",
+    "Época de trasplante en maceta: ninguna fuente prioritaria la indica para interior; se usa primavera por criterio general.",
+    "División de la mata: NC State la cita como método, pero ninguna fuente prioritaria describe la técnica ni el porcentaje de éxito.",
+    "Toxicidad en personas: solo NC State (toxicidad baja por glucósidos cianogénicos del cogollo); no se encontró una segunda fuente prioritaria. ASPCA no menciona el cogollo.",
+    "La guía UF/IFAS CFREC-Apopka (RH-91-6, 1991) ya no está en el servidor de UF; se ha consultado la copia del Internet Archive. Es de 1991; sus datos de cultivo coinciden con las fichas EDIS actuales, pero sus recomendaciones de plaguicidas no se trasladan (son de uso profesional en EE. UU.).",
+    "Missouri Botanical Garden Plant Finder: no se encontró ficha de esta especie.",
+    "Fitosanitarios: las fuentes no indican productos autorizados en España para uso no profesional contra araña roja o cochinilla en esta especie; el tratamiento se remite al árbol de diagnóstico (solo productos listos para usar con uso no profesional inscritos en el Registro del MAPA)."
+  ],
+  "fuentes": [
+    {
+      "id": "F1",
+      "url": "https://plants.ces.ncsu.edu/plants/chrysalidocarpus-lutescens/",
+      "institucion": "NC State Extension – Extension Gardener Plant Toolbox (North Carolina State University)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "url": "https://www.rhs.org.uk/plants/128311/dypsis-lutescens/details",
+      "institucion": "Royal Horticultural Society (RHS) – ficha Dypsis lutescens",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "url": "https://edis.ifas.ufl.edu/publication/FR309/pdf",
+      "institucion": "UF/IFAS Extension – EDIS FOR247/FR309 'Dypsis lutescens, Areca Palm' (Friedman et al., 2010, revisada 2022/2025)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "url": "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH324/ST165 'Dypsis lutescens: Yellow Butterfly Palm' (Gilman et al., rev. 2023)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F5",
+      "url": "http://web.archive.org/web/20151223122602/http://mrec.ifas.ufl.edu/Foliage/folnotes/areca.htm",
+      "institucion": "UF/IFAS Central Florida Research and Education Center-Apopka – Foliage Plant Research Note RH-91-6 'Areca Palm Production Guide' (Poole, Chase y Osborne, 1991; copia archivada en Internet Archive)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F6",
+      "url": "https://horticulture.ca.uky.edu/sites/horticulture.ca.uky.edu/files/palms.pdf",
+      "institucion": "University of Kentucky Cooperative Extension – HortFacts 71-04 'Plants for Your Home and Office: Palms' (R. G. Anderson)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F7",
+      "url": "https://edis.ifas.ufl.edu/publication/EP262/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH1010 'Nutrition and Fertilization of Palms in Containers' (T. K. Broschat, rev. 2014, revisada 2020)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F8",
+      "url": "https://edis.ifas.ufl.edu/publication/EP443/pdf",
+      "institucion": "UF/IFAS Extension – EDIS ENH1182 'Pruning Palms' (T. K. Broschat, rev. 2014, revisada 2020)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F9",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+      "institucion": "ASPCA Animal Poison Control Center – Toxic and Non-Toxic Plants",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    },
+    {
+      "id": "F10",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:665962-1",
+      "institucion": "Royal Botanic Gardens, Kew – Plants of the World Online (POWO)",
+      "tipo": "prioritaria",
+      "fecha_consulta": "2026-10-21"
+    }
+  ],
+  "fecha_investigacion": "2026-10-21"
+}
