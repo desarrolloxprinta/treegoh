@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { OnboardingScreen } from './src/screens/onboarding/OnboardingScreen';
 import { TreegohCharacter } from './src/components/TreegohCharacter';
@@ -21,7 +22,8 @@ export default function App() {
 
   // Vista de bienvenida a "Mi Jardín" tras completar Onboarding
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaProvider>
+      <SafeAreaView style={styles.container}>
       <StatusBar style="dark" />
       <View style={styles.content}>
         <View style={styles.avatarWrap}>
@@ -49,6 +51,7 @@ export default function App() {
         </TouchableOpacity>
       </View>
     </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 
