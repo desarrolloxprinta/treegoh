@@ -9,15 +9,18 @@ import {
   Animated,
   Easing,
   StatusBar,
+  TextInput,
+  Modal,
+  ActivityIndicator,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import { useVideoPlayer, VideoView } from 'expo-video';
-import { BlurView } from 'expo-blur';
 import { Colors, Spacing, Typography } from '../../constants/theme';
 import { TreegohLogo } from '../../components/TreegohLogo';
 import { TreegohCharacter } from '../../components/TreegohCharacter';
 import { TreegohIcon, IconName } from '../../components/TreegohIcon';
+import * as Location from 'expo-location';
 import { OnboardingState } from '../../types/onboarding';
 
 const { width, height } = Dimensions.get('window');
@@ -37,12 +40,139 @@ const STEP_BACKGROUNDS = [
   '#F9F9F7', // Step 7: Pure Cloud White
 ];
 
+// Inferencia inteligente de zona bioclimática y dureza según GPS / Región
+const inferBioclimaticZone = (
+  city?: string | null,
+  region?: string | null,
+  country?: string | null,
+  latitude?: number,
+  longitude?: number
+): { bioclimaticZone: string; waterHardness: string } => {
+  const norm = `${city || ''} ${region || ''} ${country || ''}`.toLowerCase();
+
+  if (norm.includes('barcelona') || norm.includes('catalun') || norm.includes('tarragona') || norm.includes('girona') || norm.includes('baleares') || norm.includes('mallorca') || norm.includes('ibiza')) {
+    return {
+      bioclimaticZone: 'Litoral Mediterráneo Húmedo',
+      waterHardness: 'Muy dura (requiere reposo para cal)',
+    };
+  }
+  if (norm.includes('valencia') || norm.includes('alicante') || norm.includes('castell') || norm.includes('murcia')) {
+    return {
+      bioclimaticZone: 'Mediterráneo Costero Cálido',
+      waterHardness: 'Dura (filtrar para Marantas/Calatheas)',
+    };
+  }
+  if (norm.includes('sevilla') || norm.includes('cordoba') || norm.includes('andaluc') || norm.includes('granada') || norm.includes('malaga')) {
+    return {
+      bioclimaticZone: 'Mediterráneo Continentalizado / Valle Cálido',
+      waterHardness: 'Media-Dura (alto VPD en verano)',
+    };
+  }
+  if (norm.includes('bilbao') || norm.includes('vizcaya') || norm.includes('bizkaia') || norm.includes('guipuzcoa') || norm.includes('gipuzkoa') || norm.includes('asturias') || norm.includes('cantabria') || norm.includes('santander')) {
+    return {
+      bioclimaticZone: 'Atlántico Oceánico Templado',
+      waterHardness: 'Muy blanda (óptima para helechos)',
+    };
+  }
+  if (norm.includes('coruña') || norm.includes('galicia') || norm.includes('vigo') || norm.includes('pontevedra') || norm.includes('ourense') || norm.includes('lugo')) {
+    return {
+      bioclimaticZone: 'Atlántico Gallego Pluvioso',
+      waterHardness: 'Muy blanda (sin acumulación de sales)',
+    };
+  }
+  if (norm.includes('palmas') || norm.includes('tenerife') || norm.includes('canarias')) {
+    return {
+      bioclimaticZone: 'Subtropical Macaronésico',
+      waterHardness: 'Media (humedad marina constante)',
+    };
+  }
+  if (norm.includes('madrid') || norm.includes('toledo') || norm.includes('castilla') || norm.includes('aragon') || norm.includes('zaragoza') || norm.includes('valladolid')) {
+    return {
+      bioclimaticZone: 'Interior Mediterráneo Continental',
+      waterHardness: 'Blanda (ideal para hojas sensibles)',
+    };
+  }
+
+  // Si no está en España o región desconocida, inferir por latitud
+  if (latitude !== undefined) {
+    if (Math.abs(latitude) < 23.5) {
+      return {
+        bioclimaticZone: 'Trópico Húmedo / Ecuatorial',
+        waterHardness: 'Media (calibrada por estación)',
+      };
+    }
+    if (latitude >= 36 && latitude <= 44) {
+      return {
+        bioclimaticZone: 'Zona Templada / Mediterránea',
+        waterHardness: 'Blanda-Media',
+      };
+    }
+    if (latitude > 44) {
+      return {
+        bioclimaticZone: 'Templado Frío / Continental Nórdico',
+        waterHardness: 'Blanda (baja salinidad)',
+      };
+    }
+  }
+
+  return {
+    bioclimaticZone: 'Microclima Calibrado por Coordenadas',
+    waterHardness: 'Media (Ajuste según test o sensor)',
+  };
+};
+
+// Zonas bioclimáticas predefinidas con reglas agronómicas de agua y transpiración
+const PRESET_LOCATIONS = [
+  {
+    city: 'Madrid, España',
+    bioclimaticZone: 'Interior Mediterráneo Continental',
+    waterHardness: 'Blanda (ideal para hojas sensibles)',
+  },
+  {
+    city: 'Barcelona, España',
+    bioclimaticZone: 'Litoral Mediterráneo Húmedo',
+    waterHardness: 'Muy dura (requiere reposo para cal)',
+  },
+  {
+    city: 'Valencia, España',
+    bioclimaticZone: 'Mediterráneo Costero Cálido',
+    waterHardness: 'Dura (filtrar para Marantas/Calatheas)',
+  },
+  {
+    city: 'Sevilla, España',
+    bioclimaticZone: 'Valle del Guadalquivir (Calor extremo)',
+    waterHardness: 'Media-Dura (alto VPD en verano)',
+  },
+  {
+    city: 'Bilbao, España',
+    bioclimaticZone: 'Atlántico Oceánico Templado',
+    waterHardness: 'Muy blanda (óptima para helechos)',
+  },
+  {
+    city: 'La Coruña, España',
+    bioclimaticZone: 'Atlántico Gallego Pluvioso',
+    waterHardness: 'Muy blanda (sin acumulación de sales)',
+  },
+  {
+    city: 'Las Palmas / Tenerife',
+    bioclimaticZone: 'Subtropical Macaronésico',
+    waterHardness: 'Media (humedad marina constante)',
+  },
+];
+
 interface OnboardingScreenProps {
   onComplete: (data: OnboardingState) => void;
 }
 
 export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }) => {
   const [step, setStep] = useState<number>(1);
+  const [isLocationModalVisible, setLocationModalVisible] = useState<boolean>(false);
+  const [customCityInput, setCustomCityInput] = useState<string>('');
+  const [isDetectingLocation, setIsDetectingLocation] = useState<boolean>(false);
+  const [locationDetectionSource, setLocationDetectionSource] = useState<'gps' | 'manual'>('gps');
+  const [locationPermissionDenied, setLocationPermissionDenied] = useState<boolean>(false);
+  const hasTriggeredGps = useRef<boolean>(false);
+  
   const [state, setState] = useState<OnboardingState>({
     currentStep: 1,
     goals: ['prevent_death'],
@@ -150,6 +280,101 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
         spaces: exists ? prev.spaces.filter(s => s !== name) : [...prev.spaces, name],
       };
     });
+  };
+
+  // Detección automática de ubicación real del usuario vía GPS
+  const detectUserLocation = async (isManualRetry = false) => {
+    try {
+      setIsDetectingLocation(true);
+      setLocationPermissionDenied(false);
+
+      const { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        setLocationPermissionDenied(true);
+        setIsDetectingLocation(false);
+        return;
+      }
+
+      // Obtener posición precisa o equilibrada
+      const position = await Location.getCurrentPositionAsync({
+        accuracy: Location.Accuracy.Balanced,
+      });
+
+      const { latitude, longitude } = position.coords;
+
+      // Geocodificación inversa para nombre de ciudad y región
+      const addresses = await Location.reverseGeocodeAsync({
+        latitude,
+        longitude,
+      });
+
+      if (addresses && addresses.length > 0) {
+        const addr = addresses[0];
+        const cityName = addr.city || addr.subregion || addr.region || addr.name || 'Mi Ubicación';
+        const regionName = addr.region || addr.country || '';
+        const displayCity = regionName ? `${cityName}, ${regionName}` : cityName;
+
+        const { bioclimaticZone, waterHardness } = inferBioclimaticZone(
+          addr.city,
+          addr.region,
+          addr.country,
+          latitude,
+          longitude
+        );
+
+        setState(prev => ({
+          ...prev,
+          location: {
+            city: displayCity,
+            bioclimaticZone,
+            waterHardness,
+          },
+        }));
+
+        setLocationDetectionSource('gps');
+        if (isManualRetry) {
+          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+        }
+      }
+    } catch (err) {
+      console.warn('Error detectando ubicación real:', err);
+    } finally {
+      setIsDetectingLocation(false);
+    }
+  };
+
+  // Disparar detección real automática como primer input al entrar en la pantalla 3
+  useEffect(() => {
+    if (step === 3 && !hasTriggeredGps.current) {
+      hasTriggeredGps.current = true;
+      detectUserLocation();
+    }
+  }, [step]);
+
+  const handleSelectLocation = (loc: { city: string; bioclimaticZone: string; waterHardness: string }) => {
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    setLocationDetectionSource('manual');
+    setState(prev => ({
+      ...prev,
+      location: loc,
+    }));
+    setLocationModalVisible(false);
+  };
+
+  const handleApplyCustomCity = () => {
+    if (!customCityInput.trim()) return;
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    setLocationDetectionSource('manual');
+    setState(prev => ({
+      ...prev,
+      location: {
+        city: customCityInput.trim(),
+        bioclimaticZone: 'Calibración Automática por Coordenadas',
+        waterHardness: 'Media (Ajuste según test o sensor)',
+      },
+    }));
+    setCustomCityInput('');
+    setLocationModalVisible(false);
   };
 
   // Interpolación suave del color de fondo orgánico
@@ -306,7 +531,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     );
   };
 
-  // PANTALLA 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA
+  // PANTALLA 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA (CON EDICIÓN INTERACTIVA)
   const renderScreen3 = () => (
     <View style={styles.stepContainer}>
       <Text style={Typography.titleLarge}>¿Dónde viven{'\n'}tus plantas?</Text>
@@ -314,6 +539,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
         Conectamos con Open-Meteo para adaptar el riego a la humedad ambiental y avisarte de olas de calor (M02).
       </Text>
 
+      {/* Tarjeta de Ubicación con Botón de Edición Manual */}
       <View style={styles.locationCard}>
         <View style={styles.locationHeader}>
           <View style={styles.iconBoxAccent}>
@@ -323,6 +549,17 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
             <Text style={styles.cardTitle}>{state.location.city}</Text>
             <Text style={styles.cardSub}>Zona bioclimática: {state.location.bioclimaticZone}</Text>
           </View>
+          <TouchableOpacity
+            style={styles.editLocationBtn}
+            onPress={() => {
+              Haptics.selectionAsync();
+              setLocationModalVisible(true);
+            }}
+            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+          >
+            <TreegohIcon name="ajustes_sistema" size={16} color={Colors.eucalyptus} />
+            <Text style={styles.editLocationBtnText}>Cambiar</Text>
+          </TouchableOpacity>
         </View>
 
         <View style={styles.waterBadge}>
@@ -337,13 +574,97 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
           <Text style={styles.tipsTitle}>Precisión Fisiológica</Text>
         </View>
         <Text style={styles.tipsBody}>
-          Treegoh no usa calendarios estáticos. Si la humedad relativa desciende de forma abrupta, el sistema recalibra automáticamente el déficit de presión de vapor (VPD) foliar.
+          Treegoh no usa calendarios estáticos. Si la humedad relativa desciende de forma abrupta en tu zona, el sistema recalibra automáticamente el déficit de presión de vapor (VPD) foliar.
         </Text>
       </View>
 
       <TouchableOpacity style={[styles.btnPrimary, { marginTop: Spacing.xl }]} onPress={nextStep}>
         <Text style={styles.btnPrimaryText}>Continuar con esta zona</Text>
       </TouchableOpacity>
+
+      {/* MODAL EDITAR UBICACIÓN MANUALMENTE */}
+      <Modal
+        visible={isLocationModalVisible}
+        animationType="slide"
+        transparent={true}
+        onRequestClose={() => setLocationModalVisible(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalSheet}>
+            <View style={styles.modalHandle} />
+            
+            <View style={styles.modalHeaderRow}>
+              <Text style={Typography.titleMedium}>Seleccionar Ciudad</Text>
+              <TouchableOpacity
+                onPress={() => setLocationModalVisible(false)}
+                hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+              >
+                <Text style={styles.modalCloseText}>Cerrar</Text>
+              </TouchableOpacity>
+            </View>
+
+            {/* Botón GPS Rápido en Modal */}
+            <TouchableOpacity
+              style={styles.modalGpsBtn}
+              onPress={() => {
+                setLocationModalVisible(false);
+                detectUserLocation(true);
+              }}
+            >
+              <TreegohIcon name="temperatura_termica" size={18} color={Colors.eucalyptus} />
+              <Text style={styles.modalGpsBtnText}>Detectar mi ubicación real actual (GPS)</Text>
+            </TouchableOpacity>
+
+            {/* Input Manual */}
+            <View style={styles.inputWrapper}>
+              <TreegohIcon name="busqueda_typesense" size={18} color={Colors.eucalyptus} />
+              <TextInput
+                style={styles.textInput}
+                placeholder="Escribe tu ciudad o código postal..."
+                placeholderTextColor={Colors.mutedText}
+                value={customCityInput}
+                onChangeText={setCustomCityInput}
+                onSubmitEditing={handleApplyCustomCity}
+                returnKeyType="done"
+              />
+              {customCityInput.length > 0 && (
+                <TouchableOpacity onPress={handleApplyCustomCity} style={styles.inputApplyBtn}>
+                  <Text style={styles.inputApplyBtnText}>Aplicar</Text>
+                </TouchableOpacity>
+              )}
+            </View>
+
+            <Text style={styles.presetSectionTitle}>Zonas Bioclimáticas Frecuentes:</Text>
+            <ScrollView style={{ maxHeight: 280 }} showsVerticalScrollIndicator={false}>
+              {PRESET_LOCATIONS.map((loc, idx) => (
+                <TouchableOpacity
+                  key={idx}
+                  style={[
+                    styles.locationPresetItem,
+                    state.location.city === loc.city && styles.locationPresetItemSelected,
+                  ]}
+                  onPress={() => handleSelectLocation(loc)}
+                >
+                  <View style={{ flex: 1 }}>
+                    <Text
+                      style={[
+                        styles.presetCityName,
+                        state.location.city === loc.city && { color: Colors.eucalyptus },
+                      ]}
+                    >
+                      {loc.city}
+                    </Text>
+                    <Text style={styles.presetZoneName}>{loc.bioclimaticZone}</Text>
+                  </View>
+                  {state.location.city === loc.city && (
+                    <TreegohIcon name="tarea_completada" size={18} color={Colors.eucalyptus} />
+                  )}
+                </TouchableOpacity>
+              ))}
+            </ScrollView>
+          </View>
+        </View>
+      </Modal>
     </View>
   );
 
@@ -697,7 +1018,6 @@ const styles = StyleSheet.create({
     gap: 12,
     marginVertical: Spacing.lg,
   },
-  // Tarjetas Glassmorphism Light Luxury
   glassCard: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -757,6 +1077,74 @@ const styles = StyleSheet.create({
     lineHeight: 16,
     opacity: 0.88,
   },
+  locationStatusBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: Spacing.sm,
+    paddingBottom: 8,
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(20, 28, 25, 0.05)',
+  },
+  locationStatusBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  gpsPulseDot: {
+    width: 7,
+    height: 7,
+    borderRadius: 4,
+  },
+  locationStatusBadgeText: {
+    fontSize: 11,
+    fontWeight: '500',
+    color: Colors.mutedText,
+    letterSpacing: 0.2,
+  },
+  reDetectBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginTop: Spacing.sm,
+    paddingVertical: 4,
+    alignSelf: 'flex-start',
+  },
+  reDetectBtnText: {
+    fontSize: 11,
+    color: Colors.eucalyptus,
+    fontWeight: '600',
+    textDecorationLine: 'underline',
+  },
+  permissionDeniedBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: Spacing.sm,
+    backgroundColor: 'rgba(193, 123, 94, 0.08)',
+    padding: 8,
+    borderRadius: 10,
+  },
+  permissionDeniedText: {
+    fontSize: 11,
+    color: Colors.terracotta,
+    flex: 1,
+  },
+  modalGpsBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: 'rgba(82, 121, 111, 0.08)',
+    paddingVertical: 12,
+    borderRadius: 14,
+    marginBottom: Spacing.md,
+  },
+  modalGpsBtnText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: Colors.eucalyptus,
+  },
   locationCard: {
     backgroundColor: 'rgba(255, 255, 255, 0.88)',
     borderRadius: 22,
@@ -773,6 +1161,20 @@ const styles = StyleSheet.create({
   locationHeader: {
     flexDirection: 'row',
     alignItems: 'center',
+  },
+  editLocationBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 12,
+    backgroundColor: 'rgba(82, 121, 111, 0.08)',
+  },
+  editLocationBtnText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: Colors.eucalyptus,
   },
   waterBadge: {
     flexDirection: 'row',
@@ -914,5 +1316,105 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 16,
     marginTop: Spacing.xl,
+  },
+  // Estilos del Modal de Ubicación
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(20, 28, 25, 0.45)',
+    justifyContent: 'flex-end',
+  },
+  modalSheet: {
+    backgroundColor: '#FAF9F5',
+    borderTopLeftRadius: 28,
+    borderTopRightRadius: 28,
+    paddingHorizontal: Spacing.lg,
+    paddingTop: Spacing.sm,
+    paddingBottom: Spacing.xxl,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: -4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 16,
+    elevation: 10,
+  },
+  modalHandle: {
+    width: 40,
+    height: 4,
+    backgroundColor: 'rgba(20, 28, 25, 0.15)',
+    borderRadius: 2,
+    alignSelf: 'center',
+    marginBottom: Spacing.md,
+  },
+  modalHeaderRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: Spacing.md,
+  },
+  modalCloseText: {
+    fontSize: 14,
+    color: Colors.eucalyptus,
+    fontWeight: '600',
+  },
+  inputWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.pureWhite,
+    borderRadius: 16,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderWidth: 1,
+    borderColor: 'rgba(20, 28, 25, 0.08)',
+    marginBottom: Spacing.lg,
+    gap: 10,
+  },
+  textInput: {
+    flex: 1,
+    fontSize: 14,
+    color: Colors.darkObsidian,
+    padding: 0,
+  },
+  inputApplyBtn: {
+    backgroundColor: Colors.eucalyptus,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 10,
+  },
+  inputApplyBtnText: {
+    color: Colors.pureWhite,
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  presetSectionTitle: {
+    fontSize: 12,
+    color: Colors.mutedText,
+    fontWeight: '600',
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+    marginBottom: Spacing.sm,
+  },
+  locationPresetItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.pureWhite,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    borderRadius: 16,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: 'rgba(20, 28, 25, 0.05)',
+  },
+  locationPresetItemSelected: {
+    borderColor: Colors.eucalyptus,
+    backgroundColor: 'rgba(82, 121, 111, 0.04)',
+  },
+  presetCityName: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: Colors.darkObsidian,
+  },
+  presetZoneName: {
+    fontSize: 11,
+    color: Colors.mutedText,
+    marginTop: 2,
   },
 });
