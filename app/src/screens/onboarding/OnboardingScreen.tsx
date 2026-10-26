@@ -1,16 +1,19 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   StyleSheet,
   View,
   Text,
   TouchableOpacity,
-  StatusBar,
   Dimensions,
   ScrollView,
+  Animated,
+  Easing,
+  StatusBar,
 } from 'react-native';
-import * as Haptics from 'expo-haptics';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import * as Haptics from 'expo-haptics';
 import { useVideoPlayer, VideoView } from 'expo-video';
+import { BlurView } from 'expo-blur';
 import { Colors, Spacing, Typography } from '../../constants/theme';
 import { TreegohLogo } from '../../components/TreegohLogo';
 import { TreegohCharacter } from '../../components/TreegohCharacter';
@@ -23,24 +26,30 @@ const { width, height } = Dimensions.get('window');
 const PEXELS_VIDEO_URL =
   'https://videos.pexels.com/video-files/7013844/7013844-hd_720_1366_25fps.mp4';
 
+// Colores de fondo orgánicos y sutiles estilo TIDE para cada pantalla
+const STEP_BACKGROUNDS = [
+  '#FAF9F5', // Step 1: Warm Daylight Mist (debajo del video)
+  '#F5F7F4', // Step 2: Faint Biophilic Sage
+  '#F7F6F1', // Step 3: Faint Botanical Dew
+  '#F6F8F6', // Step 4: Serene Morning Light
+  '#FAF6F2', // Step 5: Soft Calming Peach
+  '#F4F7F5', // Step 6: Sanctuary Resonance
+  '#F9F9F7', // Step 7: Pure Cloud White
+];
+
 interface OnboardingScreenProps {
   onComplete: (data: OnboardingState) => void;
 }
 
 export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }) => {
   const [step, setStep] = useState<number>(1);
-  const player = useVideoPlayer(PEXELS_VIDEO_URL, p => {
-    p.loop = true;
-    p.muted = true;
-    p.play();
-  });
   const [state, setState] = useState<OnboardingState>({
     currentStep: 1,
     goals: ['prevent_death'],
     location: {
       city: 'Madrid, España',
       bioclimaticZone: 'Interior Mediterráneo',
-      waterHardness: 'Blanda (ideal para hojas sensibles)',
+      waterHardness: 'Blanda (óptima para hojas sensibles)',
     },
     spaces: ['Salón Luminoso'],
     safetyFilter: {
@@ -48,13 +57,67 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
       hasChildren: false,
     },
     characterCalibrated: false,
-    isGuest: false,
+    isGuest: true,
   });
+
+  // Configuración del video en loop
+  const player = useVideoPlayer(PEXELS_VIDEO_URL, p => {
+    p.loop = true;
+    p.muted = true;
+    p.play();
+  });
+
+  // Animaciones nativas de transición fluida estilo TIDE (Slide + Fade)
+  const slideAnim = useRef(new Animated.Value(0)).current;
+  const fadeAnim = useRef(new Animated.Value(1)).current;
+  const bgAnim = useRef(new Animated.Value(0)).current;
+
+  const triggerStepTransition = (targetStep: number, direction: 'forward' | 'backward' = 'forward') => {
+    const initialSlide = direction === 'forward' ? 36 : -36;
+
+    // Fade out y preparación de posición
+    Animated.parallel([
+      Animated.timing(fadeAnim, {
+        toValue: 0,
+        duration: 130,
+        useNativeDriver: true,
+      }),
+      Animated.timing(slideAnim, {
+        toValue: direction === 'forward' ? -24 : 24,
+        duration: 130,
+        useNativeDriver: true,
+      }),
+    ]).start(() => {
+      setStep(targetStep);
+      slideAnim.setValue(initialSlide);
+
+      // Fade in y slide natural con curva elástica suave
+      Animated.parallel([
+        Animated.timing(fadeAnim, {
+          toValue: 1,
+          duration: 260,
+          easing: Easing.out(Easing.cubic),
+          useNativeDriver: true,
+        }),
+        Animated.timing(slideAnim, {
+          toValue: 0,
+          duration: 280,
+          easing: Easing.out(Easing.cubic),
+          useNativeDriver: true,
+        }),
+        Animated.timing(bgAnim, {
+          toValue: targetStep - 1,
+          duration: 350,
+          useNativeDriver: false,
+        }),
+      ]).start();
+    });
+  };
 
   const nextStep = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (step < 7) {
-      setStep(step + 1);
+      triggerStepTransition(step + 1, 'forward');
     } else {
       onComplete(state);
     }
@@ -63,35 +126,39 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
   const prevStep = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (step > 1) {
-      setStep(step - 1);
+      triggerStepTransition(step - 1, 'backward');
     }
   };
 
-  const toggleGoal = (goalId: string) => {
+  const toggleGoal = (id: string) => {
     Haptics.selectionAsync();
-    setState((prev) => {
-      const exists = prev.goals.includes(goalId);
-      const newGoals = exists
-        ? prev.goals.filter((g) => g !== goalId)
-        : [...prev.goals, goalId];
-      return { ...prev, goals: newGoals.length > 0 ? newGoals : [goalId] };
+    setState(prev => {
+      const exists = prev.goals.includes(id);
+      return {
+        ...prev,
+        goals: exists ? prev.goals.filter(g => g !== id) : [...prev.goals, id],
+      };
     });
   };
 
-  const toggleSpace = (spaceName: string) => {
+  const toggleSpace = (name: string) => {
     Haptics.selectionAsync();
-    setState((prev) => {
-      const exists = prev.spaces.includes(spaceName);
-      const newSpaces = exists
-        ? prev.spaces.filter((s) => s !== spaceName)
-        : [...prev.spaces, spaceName];
-      return { ...prev, spaces: newSpaces.length > 0 ? newSpaces : [spaceName] };
+    setState(prev => {
+      const exists = prev.spaces.includes(name);
+      return {
+        ...prev,
+        spaces: exists ? prev.spaces.filter(s => s !== name) : [...prev.spaces, name],
+      };
     });
   };
 
-  // --- RENDERIZADO DE PANTALLAS ---
+  // Interpolación suave del color de fondo orgánico
+  const interpolatedBg = bgAnim.interpolate({
+    inputRange: [0, 1, 2, 3, 4, 5, 6],
+    outputRange: STEP_BACKGROUNDS,
+  });
 
-  // PANTALLA 1: WELCOME AMBIENT LOOP
+  // PANTALLA 1: WELCOME CON VIDEO BACKGROUND Y CAPA WARM MIST
   const renderScreen1 = () => (
     <View style={styles.fullScreen}>
       <VideoView
@@ -100,16 +167,16 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
         contentFit="cover"
         nativeControls={false}
       />
-      {/* Capa protectora Warm Mist para contraste limpio */}
+      {/* Capa protectora Warm Mist translúcida para contraste editorial nórdico */}
       <View style={styles.videoOverlay} />
 
       <SafeAreaView style={styles.welcomeContainer}>
         <View style={styles.welcomeContent}>
           <View style={styles.logoWrapper}>
-            <TreegohLogo width={190} height={52} color={Colors.darkObsidian} />
+            <TreegohLogo width={196} height={54} color={Colors.darkObsidian} />
           </View>
           <Text style={styles.welcomeTitle}>
-            Cuidado botánico inteligente{"\n"}para espacios vivos
+            Cuidado botánico inteligente{'\n'}para espacios vivos
           </Text>
           <Text style={styles.welcomeSub}>
             Conecta con el ritmo natural de tus plantas mediante biométrica óptica y microclimas de luz.
@@ -130,7 +197,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
             activeOpacity={0.7}
             onPress={() => {
               Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              setStep(7);
+              triggerStepTransition(7, 'forward');
             }}
           >
             <Text style={styles.btnGhostText}>Ya tengo una cuenta</Text>
@@ -140,19 +207,25 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     </View>
   );
 
-  // BARRA DE PROGRESO DISCRETA
+  // BARRA DE PROGRESO DISCRETA ESTILO TIDE
   const renderProgressBar = () => {
     if (step === 1) return null;
     const progressPercent = ((step - 1) / 5) * 100;
     return (
       <View style={styles.progressContainer}>
-        <TouchableOpacity onPress={prevStep} hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}>
-          <Text style={styles.backButtonText}>←</Text>
+        <TouchableOpacity
+          onPress={prevStep}
+          hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+          style={styles.backButtonCircle}
+        >
+          <Text style={styles.backButtonText}>‹</Text>
         </TouchableOpacity>
+
         <View style={styles.progressBarTrack}>
           <View style={[styles.progressBarFill, { width: `${Math.min(progressPercent, 100)}%` }]} />
         </View>
-        <Text style={styles.stepText}>{step - 1}/5</Text>
+
+        <Text style={styles.stepText}>{step - 1} de 5</Text>
       </View>
     );
   };
@@ -188,25 +261,25 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
 
     return (
       <View style={styles.stepContainer}>
-        <Text style={Typography.titleLarge}>¿Cuál es tu principal{"\n"}objetivo botánico?</Text>
+        <Text style={Typography.titleLarge}>¿Cuál es tu principal{'\n'}objetivo botánico?</Text>
         <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
           Personalizaremos el algoritmo de riego y tus alertas preventivas de clima.
         </Text>
 
         <View style={styles.cardsGrid}>
-          {goalOptions.map((g) => {
+          {goalOptions.map(g => {
             const isSelected = state.goals.includes(g.id);
             return (
               <TouchableOpacity
                 key={g.id}
-                style={[styles.cardItem, isSelected && styles.cardItemSelected]}
+                style={[styles.glassCard, isSelected && styles.glassCardSelected]}
                 onPress={() => toggleGoal(g.id)}
-                activeOpacity={0.85}
+                activeOpacity={0.88}
               >
                 <View
                   style={[
                     styles.iconBox,
-                    { backgroundColor: isSelected ? 'rgba(82, 121, 111, 0.14)' : 'rgba(20, 28, 25, 0.05)' },
+                    isSelected ? styles.iconBoxSelected : styles.iconBoxDefault,
                   ]}
                 >
                   <TreegohIcon
@@ -236,32 +309,39 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
   // PANTALLA 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA
   const renderScreen3 = () => (
     <View style={styles.stepContainer}>
-      <Text style={Typography.titleLarge}>¿Dónde viven{"\n"}tus plantas?</Text>
+      <Text style={Typography.titleLarge}>¿Dónde viven{'\n'}tus plantas?</Text>
       <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
         Conectamos con Open-Meteo para adaptar el riego a la humedad ambiental y avisarte de olas de calor (M02).
       </Text>
 
       <View style={styles.locationCard}>
         <View style={styles.locationHeader}>
-          <TreegohIcon name="temperatura_termica" size={26} color={Colors.eucalyptus} />
-          <View style={{ marginLeft: Spacing.md }}>
+          <View style={styles.iconBoxAccent}>
+            <TreegohIcon name="temperatura_termica" size={24} color={Colors.eucalyptus} />
+          </View>
+          <View style={{ marginLeft: Spacing.md, flex: 1 }}>
             <Text style={styles.cardTitle}>{state.location.city}</Text>
-            <Text style={styles.cardSub}>Zona: {state.location.bioclimaticZone}</Text>
+            <Text style={styles.cardSub}>Zona bioclimática: {state.location.bioclimaticZone}</Text>
           </View>
         </View>
+
         <View style={styles.waterBadge}>
-          <Text style={styles.waterBadgeText}>💧 Agua del grifo: {state.location.waterHardness}</Text>
+          <TreegohIcon name="riego_hidratacion" size={14} color={Colors.eucalyptus} />
+          <Text style={styles.waterBadgeText}>Agua corriente: {state.location.waterHardness}</Text>
         </View>
       </View>
 
       <View style={styles.tipsBox}>
-        <Text style={styles.tipsTitle}>🌿 Precisión Fisiológica:</Text>
+        <View style={styles.tipsHeader}>
+          <TreegohIcon name="humedad_vpd" size={16} color={Colors.eucalyptus} />
+          <Text style={styles.tipsTitle}>Precisión Fisiológica</Text>
+        </View>
         <Text style={styles.tipsBody}>
-          Treegoh no usa calendarios fijos. Si mañana la humedad cae al 18% en tu ciudad, el sistema ajustará automáticamente el cálculo de transpiración (VPD).
+          Treegoh no usa calendarios estáticos. Si la humedad relativa desciende de forma abrupta, el sistema recalibra automáticamente el déficit de presión de vapor (VPD) foliar.
         </Text>
       </View>
 
-      <TouchableOpacity style={styles.btnPrimary} onPress={nextStep}>
+      <TouchableOpacity style={[styles.btnPrimary, { marginTop: Spacing.xl }]} onPress={nextStep}>
         <Text style={styles.btnPrimaryText}>Continuar con esta zona</Text>
       </TouchableOpacity>
     </View>
@@ -273,30 +353,30 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
       { name: 'Salón Luminoso', desc: 'Luz brillante indirecta (1.500 - 4.000 lux)', icon: 'espacios_microclimas' as IconName },
       { name: 'Balcón Exterior', desc: 'Sol matutino directo y ventilación', icon: 'luz_natural' as IconName },
       { name: 'Dormitorio Sereno', desc: 'Luz media filtrada sin corrientes', icon: 'espacios_microclimas' as IconName },
-      { name: 'Baño Húmedo', desc: 'Alta humedad ambiental (ideal helechos)', icon: 'riego_hidratacion' as IconName },
+      { name: 'Baño Húmedo', desc: 'Alta humedad ambiental (ideal helechos)', icon: 'pulverizacion_spray' as IconName },
     ];
 
     return (
       <View style={styles.stepContainer}>
-        <Text style={Typography.titleLarge}>Configura tus{"\n"}microclimas</Text>
+        <Text style={Typography.titleLarge}>Configura tus{'\n'}microclimas</Text>
         <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
-          Las plantas en un mismo espacio comparten condiciones ambientales. Podrás crear más en cualquier momento.
+          Las plantas en un mismo espacio comparten condiciones ambientales. Podrás añadir más estancias en cualquier momento.
         </Text>
 
         <View style={styles.cardsGrid}>
-          {spacePresets.map((sp) => {
+          {spacePresets.map(sp => {
             const isSelected = state.spaces.includes(sp.name);
             return (
               <TouchableOpacity
                 key={sp.name}
-                style={[styles.cardItem, isSelected && styles.cardItemSelected]}
+                style={[styles.glassCard, isSelected && styles.glassCardSelected]}
                 onPress={() => toggleSpace(sp.name)}
-                activeOpacity={0.85}
+                activeOpacity={0.88}
               >
                 <View
                   style={[
                     styles.iconBox,
-                    { backgroundColor: isSelected ? 'rgba(82, 121, 111, 0.14)' : 'rgba(20, 28, 25, 0.05)' },
+                    isSelected ? styles.iconBoxSelected : styles.iconBoxDefault,
                   ]}
                 >
                   <TreegohIcon
@@ -323,21 +403,21 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     );
   };
 
-  // PANTALLA 5: SEGURIDAD VITAL (MASCOTAS & NIÑOS)
+  // PANTALLA 5: SEGURIDAD VITAL (MASCOTAS & FAMILIA)
   const renderScreen5 = () => (
     <View style={styles.stepContainer}>
-      <Text style={Typography.titleLarge}>Seguridad en{"\n"}el hogar</Text>
+      <Text style={Typography.titleLarge}>Seguridad en{'\n'}el hogar</Text>
       <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
-        Filtramos especies con oxalatos de calcio insolubles o savia irritante para cuidar de los más curiosos.
+        Filtramos especies con savia urticante o cristales de oxalato cálcico insoluble para proteger a quienes más quieres.
       </Text>
 
-      <View style={{ gap: Spacing.md, marginTop: Spacing.lg }}>
+      <View style={{ gap: Spacing.md, marginVertical: Spacing.xl }}>
         <TouchableOpacity
-          style={[styles.cardItem, state.safetyFilter.hasPets && styles.cardItemSelected]}
-          activeOpacity={0.85}
+          style={[styles.glassCard, state.safetyFilter.hasPets && styles.glassCardSelected]}
+          activeOpacity={0.88}
           onPress={() => {
             Haptics.selectionAsync();
-            setState((prev) => ({
+            setState(prev => ({
               ...prev,
               safetyFilter: { ...prev.safetyFilter, hasPets: !prev.safetyFilter.hasPets },
             }));
@@ -346,7 +426,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
           <View
             style={[
               styles.iconBox,
-              { backgroundColor: state.safetyFilter.hasPets ? 'rgba(82, 121, 111, 0.14)' : 'rgba(20, 28, 25, 0.05)' },
+              state.safetyFilter.hasPets ? styles.iconBoxSelected : styles.iconBoxDefault,
             ]}
           >
             <TreegohIcon
@@ -357,45 +437,48 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
           </View>
           <View style={styles.cardTexts}>
             <Text style={[styles.cardTitle, state.safetyFilter.hasPets && { color: Colors.eucalyptus }]}>
-              Hogar con perros o gatos
+              Hogar con animales de compañía
             </Text>
             <Text style={styles.cardSub}>
-              Filtro activo ASPCA: solo plantas 100% seguras (Calatheas, Helechos, Marantas).
+              Filtro botánico estricto: catálogo exclusivo de especies no tóxicas aprobadas por toxicología veterinaria (Calatheas, Helechos, Marantas).
             </Text>
           </View>
         </TouchableOpacity>
       </View>
 
-      <TouchableOpacity style={[styles.btnPrimary, { marginTop: Spacing.xxl }]} onPress={nextStep}>
+      <TouchableOpacity style={[styles.btnPrimary, { marginTop: Spacing.lg }]} onPress={nextStep}>
         <Text style={styles.btnPrimaryText}>Continuar</Text>
       </TouchableOpacity>
     </View>
   );
 
-  // PANTALLA 6: CHARACTER SYNC & RESONANCIA SENSORIAL
+  // PANTALLA 6: CHARACTER SYNC & ASISTENCIA BOTÁNICA SENSORIAL
   const renderScreen6 = () => (
     <View style={[styles.stepContainer, { alignItems: 'center', justifyContent: 'center' }]}>
       <View style={styles.characterContainer}>
         <TreegohCharacter
-          size={140}
+          size={144}
           mood="happy"
-          statusOrbColor={Colors.voiceResonance}
+          statusOrbColor={Colors.eucalyptus}
           showStatusOrb={true}
         />
       </View>
 
-      <Text style={[Typography.titleMedium, { textAlign: 'center', marginTop: Spacing.lg }]}>
+      <Text style={[Typography.titleMedium, { textAlign: 'center', marginTop: Spacing.xl }]}>
         Tu santuario está listo
       </Text>
-      <Text style={styles.voiceBadge}>
-        Asistente Botánico ElevenLabs vinculado (ID: U9tZtg3uJtVgXPkvosWR)
-      </Text>
+      
+      <View style={styles.voiceBadgeClean}>
+        <TreegohIcon name="voz_botanica" size={14} color={Colors.eucalyptus} />
+        <Text style={styles.voiceBadgeText}>Asistencia Botánica Multimodal Activa</Text>
+      </View>
+
       <Text style={styles.speechQuote}>
-        «Hola, he calibrado los microclimas de tus estancias y el calendario de tu zona. Cuidemos juntos de tus plantas.»
+        «He calibrado los microclimas de tus estancias y las condiciones meteorológicas de tu zona. Cuidemos juntos de tus plantas.»
       </Text>
 
       <TouchableOpacity
-        style={[styles.btnPrimary, { marginTop: Spacing.xl, width: '100%' }]}
+        style={[styles.btnPrimary, { marginTop: Spacing.xxl, width: '100%' }]}
         onPress={nextStep}
       >
         <Text style={styles.btnPrimaryText}>Entrar a mi santuario</Text>
@@ -403,17 +486,17 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     </View>
   );
 
-  // PANTALLA 7: AUTH & REGISTRO (FIREBASE AUTH)
+  // PANTALLA 7: AUTH & REGISTRO
   const renderScreen7 = () => (
     <View style={styles.stepContainer}>
       <View style={{ alignItems: 'center', marginBottom: Spacing.md }}>
-        <TreegohCharacter size={76} mood="happy" showStatusOrb={false} />
+        <TreegohCharacter size={80} mood="happy" showStatusOrb={false} />
       </View>
       <Text style={[Typography.titleLarge, { textAlign: 'center' }]}>
-        Guarda tu colección{"\n"}y mantén tus plantas a salvo
+        Guarda tu colección{'\n'}y mantén tus plantas a salvo
       </Text>
       <Text style={[Typography.body, { textAlign: 'center', marginTop: Spacing.xs }]}>
-        Sincronización en la nube con Firebase (treegoh-6d95a)
+        Sincroniza tus registros botánicos y alertas en la nube de forma segura.
       </Text>
 
       <View style={{ gap: Spacing.md, marginTop: Spacing.xl }}>
@@ -451,31 +534,51 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
         </TouchableOpacity>
       </View>
 
-      <TouchableOpacity
-        style={{ marginTop: Spacing.xl, alignItems: 'center' }}
-        onPress={() => {
-          Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-          onComplete({ ...state, isGuest: true });
-        }}
-      >
-        <Text style={styles.linkGuest}>Explorar primero como invitado →</Text>
-      </TouchableOpacity>
+      <View style={{ alignItems: 'center', marginTop: Spacing.xl }}>
+        <TouchableOpacity
+          onPress={() => {
+            Haptics.selectionAsync();
+            onComplete({ ...state, isGuest: true });
+          }}
+        >
+          <Text style={styles.linkGuest}>Continuar como invitado (modo local)</Text>
+        </TouchableOpacity>
 
-      <Text style={styles.legalNotice}>
-        Al continuar aceptas los Términos de Servicio y la Política de Privacidad de Treegoh.
-      </Text>
+        <Text style={styles.legalNotice}>
+          Al continuar, aceptas nuestros Términos de Servicio y Política de Privacidad Botánica.
+        </Text>
+      </View>
     </View>
   );
 
+  if (step === 1) {
+    return (
+      <View style={styles.mainWrapper}>
+        <StatusBar barStyle="dark-content" />
+        {renderScreen1()}
+      </View>
+    );
+  }
+
   return (
-    <View style={styles.container}>
+    <Animated.View style={[styles.mainWrapper, { backgroundColor: interpolatedBg }]}>
       <StatusBar barStyle="dark-content" />
-      {step === 1 ? (
-        renderScreen1()
-      ) : (
-        <SafeAreaView style={styles.safeContainer}>
-          {renderProgressBar()}
-          <ScrollView contentContainerStyle={styles.scrollContent}>
+      <SafeAreaView style={styles.safeContainer} edges={['top', 'left', 'right', 'bottom']}>
+        {renderProgressBar()}
+
+        <Animated.View
+          style={[
+            styles.animatedContent,
+            {
+              opacity: fadeAnim,
+              transform: [{ translateY: slideAnim }],
+            },
+          ]}
+        >
+          <ScrollView
+            contentContainerStyle={styles.scrollContent}
+            showsVerticalScrollIndicator={false}
+          >
             {step === 2 && renderScreen2()}
             {step === 3 && renderScreen3()}
             {step === 4 && renderScreen4()}
@@ -483,28 +586,33 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
             {step === 6 && renderScreen6()}
             {step === 7 && renderScreen7()}
           </ScrollView>
-        </SafeAreaView>
-      )}
-    </View>
+        </Animated.View>
+      </SafeAreaView>
+    </Animated.View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
+  mainWrapper: {
     flex: 1,
-    backgroundColor: Colors.warmMist,
+    backgroundColor: '#FAF9F5',
   },
   fullScreen: {
-    flex: 1,
     width,
     height,
   },
   videoOverlay: {
-    position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
-    backgroundColor: Colors.warmMist,
-    opacity: 0.45,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(235, 234, 228, 0.48)',
   },
   safeContainer: {
+    flex: 1,
+  },
+  animatedContent: {
     flex: 1,
   },
   scrollContent: {
@@ -519,16 +627,16 @@ const styles = StyleSheet.create({
     paddingBottom: Spacing.xxl,
   },
   welcomeContent: {
-    marginTop: height * 0.15,
+    marginTop: height * 0.14,
   },
   logoWrapper: {
     marginBottom: Spacing.lg,
   },
   welcomeTitle: {
-    fontSize: 26,
+    fontSize: 27,
     fontWeight: '700',
     color: Colors.darkObsidian,
-    lineHeight: 33,
+    lineHeight: 34,
     letterSpacing: -0.4,
   },
   welcomeSub: {
@@ -544,19 +652,30 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: Spacing.lg,
-    paddingTop: Spacing.sm,
-    paddingBottom: Spacing.md,
+    paddingTop: Spacing.xs,
+    paddingBottom: Spacing.sm,
     gap: Spacing.md,
   },
+  backButtonCircle: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: 'rgba(255, 255, 255, 0.72)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(20, 28, 25, 0.06)',
+  },
   backButtonText: {
-    fontSize: 20,
+    fontSize: 24,
     color: Colors.darkObsidian,
-    fontWeight: '600',
+    fontWeight: '300',
+    marginTop: -2,
   },
   progressBarTrack: {
     flex: 1,
     height: 4,
-    backgroundColor: 'rgba(20, 28, 25, 0.1)',
+    backgroundColor: 'rgba(20, 28, 25, 0.08)',
     borderRadius: 2,
     overflow: 'hidden',
   },
@@ -572,29 +691,33 @@ const styles = StyleSheet.create({
   },
   stepContainer: {
     flex: 1,
-    paddingTop: Spacing.md,
+    paddingTop: Spacing.sm,
   },
   cardsGrid: {
-    gap: Spacing.sm + 4,
+    gap: 12,
     marginVertical: Spacing.lg,
   },
-  cardItem: {
+  // Tarjetas Glassmorphism Light Luxury
+  glassCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: Colors.pureWhite,
-    padding: Spacing.md,
-    borderRadius: 20,
-    borderWidth: 1.5,
-    borderColor: 'transparent',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.03,
-    shadowRadius: 8,
+    backgroundColor: 'rgba(255, 255, 255, 0.88)',
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.95)',
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.035,
+    shadowRadius: 12,
     elevation: 2,
   },
-  cardItemSelected: {
+  glassCardSelected: {
     borderColor: Colors.eucalyptus,
-    backgroundColor: Colors.pureWhite,
+    backgroundColor: 'rgba(255, 255, 255, 0.98)',
+    shadowOpacity: 0.07,
+    shadowRadius: 16,
   },
   iconBox: {
     width: 44,
@@ -602,7 +725,21 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     justifyContent: 'center',
     alignItems: 'center',
-    marginRight: Spacing.md,
+    marginRight: 14,
+  },
+  iconBoxDefault: {
+    backgroundColor: 'rgba(20, 28, 25, 0.04)',
+  },
+  iconBoxSelected: {
+    backgroundColor: 'rgba(82, 121, 111, 0.12)',
+  },
+  iconBoxAccent: {
+    width: 44,
+    height: 44,
+    borderRadius: 14,
+    backgroundColor: 'rgba(82, 121, 111, 0.12)',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   cardTexts: {
     flex: 1,
@@ -611,29 +748,39 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '600',
     color: Colors.darkObsidian,
+    lineHeight: 20,
   },
   cardSub: {
     fontSize: 12,
-    color: Colors.mutedText,
-    marginTop: 2,
+    color: Colors.bodyText,
+    marginTop: 3,
     lineHeight: 16,
+    opacity: 0.88,
   },
   locationCard: {
-    backgroundColor: Colors.pureWhite,
-    borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.88)',
+    borderRadius: 22,
     padding: Spacing.lg,
     marginTop: Spacing.lg,
     borderWidth: 1,
-    borderColor: Colors.borderLight,
+    borderColor: 'rgba(255, 255, 255, 0.95)',
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.035,
+    shadowRadius: 12,
+    elevation: 2,
   },
   locationHeader: {
     flexDirection: 'row',
     alignItems: 'center',
   },
   waterBadge: {
-    backgroundColor: 'rgba(82, 121, 111, 0.1)',
-    paddingVertical: 6,
-    paddingHorizontal: Spacing.md,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: 'rgba(82, 121, 111, 0.09)',
+    paddingVertical: 7,
+    paddingHorizontal: 14,
     borderRadius: 99,
     marginTop: Spacing.md,
     alignSelf: 'flex-start',
@@ -646,50 +793,65 @@ const styles = StyleSheet.create({
   tipsBox: {
     backgroundColor: 'rgba(255, 255, 255, 0.65)',
     padding: Spacing.md,
-    borderRadius: 16,
-    marginTop: Spacing.lg,
+    borderRadius: 18,
+    marginTop: Spacing.md,
     borderWidth: 1,
-    borderColor: Colors.borderLight,
+    borderColor: 'rgba(20, 28, 25, 0.05)',
+  },
+  tipsHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginBottom: 6,
   },
   tipsTitle: {
     fontSize: 13,
     fontWeight: '600',
     color: Colors.darkObsidian,
-    marginBottom: 4,
   },
   tipsBody: {
     fontSize: 12,
     color: Colors.bodyText,
     lineHeight: 18,
+    opacity: 0.9,
   },
   characterContainer: {
-    width: 160,
-    height: 160,
-    borderRadius: 80,
-    backgroundColor: Colors.pureWhite,
+    width: 170,
+    height: 170,
+    borderRadius: 85,
+    backgroundColor: 'rgba(255, 255, 255, 0.92)',
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 2,
-    borderColor: 'rgba(82, 121, 111, 0.25)',
+    borderWidth: 1,
+    borderColor: 'rgba(82, 121, 111, 0.18)',
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.05,
+    shadowRadius: 20,
+    elevation: 4,
   },
-  voiceBadge: {
-    fontSize: 11,
+  voiceBadgeClean: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: 'rgba(82, 121, 111, 0.09)',
+    paddingVertical: 6,
+    paddingHorizontal: 14,
+    borderRadius: 99,
+    marginTop: Spacing.md,
+  },
+  voiceBadgeText: {
+    fontSize: 12,
     fontWeight: '600',
     color: Colors.eucalyptus,
-    backgroundColor: 'rgba(82, 121, 111, 0.1)',
-    paddingVertical: 4,
-    paddingHorizontal: Spacing.md,
-    borderRadius: 99,
-    marginTop: Spacing.sm,
   },
   speechQuote: {
     fontSize: 14,
-    fontStyle: 'italic',
     color: Colors.bodyText,
     textAlign: 'center',
     lineHeight: 22,
     marginTop: Spacing.lg,
-    paddingHorizontal: Spacing.md,
+    paddingHorizontal: Spacing.lg,
   },
   btnPrimary: {
     backgroundColor: Colors.pureWhite,
@@ -697,18 +859,19 @@ const styles = StyleSheet.create({
     borderRadius: 27,
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 1.5,
+    borderWidth: 1,
     borderColor: 'rgba(20, 28, 25, 0.12)',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.04,
-    shadowRadius: 10,
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.05,
+    shadowRadius: 14,
     elevation: 3,
   },
   btnPrimaryText: {
     fontSize: 15,
     fontWeight: '600',
     color: Colors.darkObsidian,
+    letterSpacing: -0.2,
   },
   btnGhost: {
     height: 48,
@@ -729,10 +892,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 1,
     borderColor: 'rgba(20, 28, 25, 0.1)',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.03,
-    shadowRadius: 6,
+    shadowRadius: 8,
     elevation: 2,
   },
   btnAuthText: {
