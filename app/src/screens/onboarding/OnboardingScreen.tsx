@@ -10,7 +10,7 @@ import {
   ScrollView,
 } from 'react-native';
 import * as Haptics from 'expo-haptics';
-import { Video, ResizeMode } from 'expo-av';
+import { useVideoPlayer, VideoView } from 'expo-video';
 import { Colors, Spacing, Typography } from '../../constants/theme';
 import { TreegohLogo } from '../../components/TreegohLogo';
 import { TreegohCharacter } from '../../components/TreegohCharacter';
@@ -29,6 +29,11 @@ interface OnboardingScreenProps {
 
 export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }) => {
   const [step, setStep] = useState<number>(1);
+  const player = useVideoPlayer(PEXELS_VIDEO_URL, p => {
+    p.loop = true;
+    p.muted = true;
+    p.play();
+  });
   const [state, setState] = useState<OnboardingState>({
     currentStep: 1,
     goals: ['prevent_death'],
@@ -89,15 +94,11 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
   // PANTALLA 1: WELCOME AMBIENT LOOP
   const renderScreen1 = () => (
     <View style={styles.fullScreen}>
-      <Video
-        source={{ uri: PEXELS_VIDEO_URL }}
-        rate={1.0}
-        volume={0.0}
-        isMuted={true}
-        resizeMode={ResizeMode.COVER}
-        shouldPlay={true}
-        isLooping={true}
+      <VideoView
+        player={player}
         style={StyleSheet.absoluteFill}
+        contentFit="cover"
+        nativeControls={false}
       />
       {/* Capa protectora Warm Mist para contraste limpio */}
       <View style={styles.videoOverlay} />
