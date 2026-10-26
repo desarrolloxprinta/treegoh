@@ -6,8 +6,6 @@ import {
   TouchableOpacity,
   Dimensions,
   ScrollView,
-  Animated,
-  Easing,
   StatusBar,
   TextInput,
   Modal,
@@ -15,7 +13,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
-import { useVideoPlayer, VideoView } from 'expo-video';
+import { LinearGradient } from 'expo-linear-gradient';
 import { Colors, Spacing, Typography } from '../../constants/theme';
 import { TreegohLogo } from '../../components/TreegohLogo';
 import { TreegohCharacter } from '../../components/TreegohCharacter';
@@ -25,22 +23,46 @@ import { OnboardingState } from '../../types/onboarding';
 
 const { width, height } = Dimensions.get('window');
 
-// Video Pexels 7013844 macro de hoja con rocío matutino
-const PEXELS_VIDEO_URL =
-  'https://videos.pexels.com/video-files/7013844/7013844-hd_720_1366_25fps.mp4';
-
-// Colores de fondo orgánicos y sutiles estilo TIDE para cada pantalla
-const STEP_BACKGROUNDS = [
-  '#FAF9F5', // Step 1: Warm Daylight Mist (debajo del video)
-  '#F5F7F4', // Step 2: Faint Biophilic Sage
-  '#F7F6F1', // Step 3: Faint Botanical Dew
-  '#F6F8F6', // Step 4: Serene Morning Light
-  '#FAF6F2', // Step 5: Soft Calming Peach
-  '#F4F7F5', // Step 6: Sanctuary Resonance
-  '#F9F9F7', // Step 7: Pure Cloud White
+// Zonas bioclimáticas con reglas agronómicas de agua y transpiración
+const PRESET_LOCATIONS = [
+  {
+    city: 'Madrid, España',
+    bioclimaticZone: 'Interior Mediterráneo Continental',
+    waterHardness: 'Blanda (ideal para hojas sensibles)',
+  },
+  {
+    city: 'Barcelona, España',
+    bioclimaticZone: 'Litoral Mediterráneo Húmedo',
+    waterHardness: 'Muy dura (requiere reposo para cal)',
+  },
+  {
+    city: 'Valencia, España',
+    bioclimaticZone: 'Mediterráneo Costero Cálido',
+    waterHardness: 'Dura (filtrar para Marantas/Calatheas)',
+  },
+  {
+    city: 'Sevilla, España',
+    bioclimaticZone: 'Valle del Guadalquivir (Calor extremo)',
+    waterHardness: 'Media-Dura (alto VPD en verano)',
+  },
+  {
+    city: 'Bilbao, España',
+    bioclimaticZone: 'Atlántico Oceánico Templado',
+    waterHardness: 'Muy blanda (óptima para helechos)',
+  },
+  {
+    city: 'La Coruña, España',
+    bioclimaticZone: 'Atlántico Gallego Pluvioso',
+    waterHardness: 'Muy blanda (sin acumulación de sales)',
+  },
+  {
+    city: 'Las Palmas / Tenerife',
+    bioclimaticZone: 'Subtropical Macaronésico',
+    waterHardness: 'Media (humedad marina constante)',
+  },
 ];
 
-// Inferencia inteligente de zona bioclimática y dureza según GPS / Región
+// Inferencia inteligente de zona bioclimática según GPS
 const inferBioclimaticZone = (
   city?: string | null,
   region?: string | null,
@@ -93,7 +115,6 @@ const inferBioclimaticZone = (
     };
   }
 
-  // Si no está en España o región desconocida, inferir por latitud
   if (latitude !== undefined) {
     if (Math.abs(latitude) < 23.5) {
       return {
@@ -121,45 +142,6 @@ const inferBioclimaticZone = (
   };
 };
 
-// Zonas bioclimáticas predefinidas con reglas agronómicas de agua y transpiración
-const PRESET_LOCATIONS = [
-  {
-    city: 'Madrid, España',
-    bioclimaticZone: 'Interior Mediterráneo Continental',
-    waterHardness: 'Blanda (ideal para hojas sensibles)',
-  },
-  {
-    city: 'Barcelona, España',
-    bioclimaticZone: 'Litoral Mediterráneo Húmedo',
-    waterHardness: 'Muy dura (requiere reposo para cal)',
-  },
-  {
-    city: 'Valencia, España',
-    bioclimaticZone: 'Mediterráneo Costero Cálido',
-    waterHardness: 'Dura (filtrar para Marantas/Calatheas)',
-  },
-  {
-    city: 'Sevilla, España',
-    bioclimaticZone: 'Valle del Guadalquivir (Calor extremo)',
-    waterHardness: 'Media-Dura (alto VPD en verano)',
-  },
-  {
-    city: 'Bilbao, España',
-    bioclimaticZone: 'Atlántico Oceánico Templado',
-    waterHardness: 'Muy blanda (óptima para helechos)',
-  },
-  {
-    city: 'La Coruña, España',
-    bioclimaticZone: 'Atlántico Gallego Pluvioso',
-    waterHardness: 'Muy blanda (sin acumulación de sales)',
-  },
-  {
-    city: 'Las Palmas / Tenerife',
-    bioclimaticZone: 'Subtropical Macaronésico',
-    waterHardness: 'Media (humedad marina constante)',
-  },
-];
-
 interface OnboardingScreenProps {
   onComplete: (data: OnboardingState) => void;
 }
@@ -172,13 +154,15 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
   const [locationDetectionSource, setLocationDetectionSource] = useState<'gps' | 'manual'>('gps');
   const [locationPermissionDenied, setLocationPermissionDenied] = useState<boolean>(false);
   const hasTriggeredGps = useRef<boolean>(false);
-  
+
+  const horizontalScrollRef = useRef<any>(null);
+
   const [state, setState] = useState<OnboardingState>({
     currentStep: 1,
     goals: ['prevent_death'],
     location: {
       city: 'Madrid, España',
-      bioclimaticZone: 'Interior Mediterráneo',
+      bioclimaticZone: 'Interior Mediterráneo Continental',
       waterHardness: 'Blanda (óptima para hojas sensibles)',
     },
     spaces: ['Salón Luminoso'],
@@ -190,64 +174,20 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     isGuest: true,
   });
 
-  // Configuración del video en loop
-  const player = useVideoPlayer(PEXELS_VIDEO_URL, p => {
-    p.loop = true;
-    p.muted = true;
-    p.play();
-  });
-
-  // Animaciones nativas de transición fluida estilo TIDE (Slide + Fade)
-  const slideAnim = useRef(new Animated.Value(0)).current;
-  const fadeAnim = useRef(new Animated.Value(1)).current;
-  const bgAnim = useRef(new Animated.Value(0)).current;
-
-  const triggerStepTransition = (targetStep: number, direction: 'forward' | 'backward' = 'forward') => {
-    const initialSlide = direction === 'forward' ? 36 : -36;
-
-    // Fade out y preparación de posición
-    Animated.parallel([
-      Animated.timing(fadeAnim, {
-        toValue: 0,
-        duration: 130,
-        useNativeDriver: true,
-      }),
-      Animated.timing(slideAnim, {
-        toValue: direction === 'forward' ? -24 : 24,
-        duration: 130,
-        useNativeDriver: true,
-      }),
-    ]).start(() => {
-      setStep(targetStep);
-      slideAnim.setValue(initialSlide);
-
-      // Fade in y slide natural con curva elástica suave
-      Animated.parallel([
-        Animated.timing(fadeAnim, {
-          toValue: 1,
-          duration: 260,
-          easing: Easing.out(Easing.cubic),
-          useNativeDriver: true,
-        }),
-        Animated.timing(slideAnim, {
-          toValue: 0,
-          duration: 280,
-          easing: Easing.out(Easing.cubic),
-          useNativeDriver: true,
-        }),
-        Animated.timing(bgAnim, {
-          toValue: targetStep - 1,
-          duration: 350,
-          useNativeDriver: false,
-        }),
-      ]).start();
+  // Navegación fluida por scroll horizontal continuo (sin recarga)
+  const navigateToStep = (targetStep: number) => {
+    if (targetStep < 1 || targetStep > 7) return;
+    setStep(targetStep);
+    horizontalScrollRef.current?.scrollTo({
+      x: (targetStep - 1) * width,
+      animated: true,
     });
   };
 
   const nextStep = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (step < 7) {
-      triggerStepTransition(step + 1, 'forward');
+      navigateToStep(step + 1);
     } else {
       onComplete(state);
     }
@@ -256,7 +196,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
   const prevStep = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (step > 1) {
-      triggerStepTransition(step - 1, 'backward');
+      navigateToStep(step - 1);
     }
   };
 
@@ -295,14 +235,12 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
         return;
       }
 
-      // Obtener posición precisa o equilibrada
       const position = await Location.getCurrentPositionAsync({
         accuracy: Location.Accuracy.Balanced,
       });
 
       const { latitude, longitude } = position.coords;
 
-      // Geocodificación inversa para nombre de ciudad y región
       const addresses = await Location.reverseGeocodeAsync({
         latitude,
         longitude,
@@ -343,7 +281,6 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     }
   };
 
-  // Disparar detección real automática como primer input al entrar en la pantalla 3
   useEffect(() => {
     if (step === 3 && !hasTriggeredGps.current) {
       hasTriggeredGps.current = true;
@@ -351,54 +288,96 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     }
   }, [step]);
 
-  const handleSelectLocation = (loc: { city: string; bioclimaticZone: string; waterHardness: string }) => {
-    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-    setLocationDetectionSource('manual');
+  const handleSelectLocation = (loc: typeof PRESET_LOCATIONS[0]) => {
+    Haptics.selectionAsync();
     setState(prev => ({
       ...prev,
-      location: loc,
+      location: {
+        city: loc.city,
+        bioclimaticZone: loc.bioclimaticZone,
+        waterHardness: loc.waterHardness,
+      },
     }));
+    setLocationDetectionSource('manual');
     setLocationModalVisible(false);
   };
 
   const handleApplyCustomCity = () => {
     if (!customCityInput.trim()) return;
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-    setLocationDetectionSource('manual');
+    const { bioclimaticZone, waterHardness } = inferBioclimaticZone(customCityInput);
     setState(prev => ({
       ...prev,
       location: {
         city: customCityInput.trim(),
-        bioclimaticZone: 'Calibración Automática por Coordenadas',
-        waterHardness: 'Media (Ajuste según test o sensor)',
+        bioclimaticZone,
+        waterHardness,
       },
     }));
+    setLocationDetectionSource('manual');
     setCustomCityInput('');
     setLocationModalVisible(false);
   };
 
-  // Interpolación suave del color de fondo orgánico
-  const interpolatedBg = bgAnim.interpolate({
-    inputRange: [0, 1, 2, 3, 4, 5, 6],
-    outputRange: STEP_BACKGROUNDS,
-  });
+  // Barra de progreso segmentada discreta estilo TIDE (solo visible a partir del paso 2)
+  const renderSegmentedProgressBar = () => {
+    if (step === 1) return null;
 
-  // PANTALLA 1: WELCOME CON VIDEO BACKGROUND Y CAPA WARM MIST
+    return (
+      <View style={styles.topProgressContainer}>
+        <View style={styles.progressSegmentsRow}>
+          {[2, 3, 4, 5, 6, 7].map(s => {
+            const isFilled = step >= s;
+            return (
+              <View
+                key={s}
+                style={[
+                  styles.progressSegmentPill,
+                  isFilled ? styles.progressSegmentFilled : styles.progressSegmentEmpty,
+                ]}
+              />
+            );
+          })}
+        </View>
+
+        <View style={styles.topBarControls}>
+          <TouchableOpacity
+            style={styles.backButtonCircle}
+            onPress={prevStep}
+            activeOpacity={0.7}
+            hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+          >
+            <Text style={styles.backChevronText}>‹</Text>
+          </TouchableOpacity>
+
+          {step < 7 && (
+            <TouchableOpacity
+              style={styles.skipBtn}
+              onPress={() => {
+                Haptics.selectionAsync();
+                navigateToStep(step + 1);
+              }}
+              activeOpacity={0.7}
+              hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+            >
+              <Text style={styles.skipBtnText}>Omitir</Text>
+            </TouchableOpacity>
+          )}
+        </View>
+      </View>
+    );
+  };
+
+  // FASE 1: BIENVENIDA BOTÁNICA EDITORIAL
   const renderScreen1 = () => (
-    <View style={styles.fullScreen}>
-      <VideoView
-        player={player}
-        style={StyleSheet.absoluteFill}
-        contentFit="cover"
-        nativeControls={false}
-      />
-      {/* Capa protectora Warm Mist translúcida para contraste editorial nórdico */}
-      <View style={styles.videoOverlay} />
-
-      <SafeAreaView style={styles.welcomeContainer}>
-        <View style={styles.welcomeContent}>
+    <View style={styles.phasePage}>
+      <SafeAreaView style={styles.welcomeSafeArea} edges={['top', 'left', 'right', 'bottom']}>
+        <View style={styles.welcomeTopBlock}>
           <View style={styles.logoWrapper}>
-            <TreegohLogo width={196} height={54} color={Colors.darkObsidian} />
+            {/* Solo renderizamos el logo en el paso 1 para evitar vibraciones o filtraciones visuales */}
+            {step === 1 && (
+              <TreegohLogo width={192} height={52} color={Colors.darkObsidian} />
+            )}
           </View>
           <Text style={styles.welcomeTitle}>
             Cuidado botánico inteligente{'\n'}para espacios vivos
@@ -408,21 +387,21 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
           </Text>
         </View>
 
-        <View style={styles.welcomeBottom}>
+        <View style={styles.welcomeBottomBlock}>
           <TouchableOpacity
-            style={styles.btnPrimary}
+            style={styles.btnTidePrimary}
             activeOpacity={0.88}
             onPress={nextStep}
           >
-            <Text style={styles.btnPrimaryText}>Comenzar exploración</Text>
+            <Text style={styles.btnTidePrimaryText}>Comenzar exploración</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={styles.btnGhost}
+            style={styles.btnGhostPill}
             activeOpacity={0.7}
             onPress={() => {
               Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              triggerStepTransition(7, 'forward');
+              navigateToStep(7);
             }}
           >
             <Text style={styles.btnGhostText}>Ya tengo una cuenta</Text>
@@ -432,155 +411,466 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
     </View>
   );
 
-  // BARRA DE PROGRESO DISCRETA ESTILO TIDE
-  const renderProgressBar = () => {
-    if (step === 1) return null;
-    const progressPercent = ((step - 1) / 5) * 100;
-    return (
-      <View style={styles.progressContainer}>
-        <TouchableOpacity
-          onPress={prevStep}
-          hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
-          style={styles.backButtonCircle}
-        >
-          <Text style={styles.backButtonText}>‹</Text>
-        </TouchableOpacity>
-
-        <View style={styles.progressBarTrack}>
-          <View style={[styles.progressBarFill, { width: `${Math.min(progressPercent, 100)}%` }]} />
-        </View>
-
-        <Text style={styles.stepText}>{step - 1} de 5</Text>
-      </View>
-    );
-  };
-
-  // PANTALLA 2: METAS BOTÁNICAS
+  // FASE 2: METAS BOTÁNICAS (TARJETAS GLASSMORPHISM EN GRID 2-COLUMNAS TIDE)
   const renderScreen2 = () => {
     const goalOptions: { id: string; title: string; sub: string; icon: IconName }[] = [
       {
         id: 'prevent_death',
-        title: 'Evitar que se mueran',
-        sub: 'Riego adaptado a sustrato y humedad',
+        title: 'Evitar marchitez',
+        sub: 'Riego por evaporación y humedad',
         icon: 'riego_hidratacion',
       },
       {
         id: 'maximize_growth',
-        title: 'Maximizar crecimiento & floración',
-        sub: 'Luxómetro C1 y fertilización en ciclo activo',
+        title: 'Floración & Brillo',
+        sub: 'Luxómetro C1 y ciclo de luz activa',
         icon: 'floracion_fenologia',
       },
       {
         id: 'pest_diagnosis',
-        title: 'Detectar y curar plagas a tiempo',
-        sub: 'Cámara diagnóstica en 3 tomas y MAPA seguro',
+        title: 'Sanidad & Plagas',
+        sub: 'Cámara diagnóstica en 3 tomas',
         icon: 'camara_diagnostica',
       },
       {
         id: 'wellbeing_sanctuary',
-        title: 'Santuario de bienestar & aire puro',
-        sub: 'Purificación biogénica y soundscapes',
+        title: 'Santuario Zen',
+        sub: 'Soundscapes y purificación biogénica',
         icon: 'sonido_soundscapes',
       },
     ];
 
     return (
-      <View style={styles.stepContainer}>
-        <Text style={Typography.titleLarge}>¿Cuál es tu principal{'\n'}objetivo botánico?</Text>
-        <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
-          Personalizaremos el algoritmo de riego y tus alertas preventivas de clima.
-        </Text>
+      <View style={styles.phasePage}>
+        <ScrollView
+          contentContainerStyle={styles.phaseScrollContent}
+          showsVerticalScrollIndicator={false}
+          bounces={false}
+        >
+          <View style={styles.headerTextBlock}>
+            <Text style={styles.tideMainTitle}>¿Cuál es tu principal{'\n'}objetivo botánico?</Text>
+            <Text style={styles.tideSubTitle}>
+              Personalizaremos el algoritmo bioclimático y tus recordatorios preventivos.
+            </Text>
+          </View>
 
-        <View style={styles.cardsGrid}>
-          {goalOptions.map(g => {
-            const isSelected = state.goals.includes(g.id);
-            return (
-              <TouchableOpacity
-                key={g.id}
-                style={[styles.glassCard, isSelected && styles.glassCardSelected]}
-                onPress={() => toggleGoal(g.id)}
-                activeOpacity={0.88}
-              >
-                <View
+          <View style={styles.tideGrid2Col}>
+            {goalOptions.map(g => {
+              const isSelected = state.goals.includes(g.id);
+              return (
+                <TouchableOpacity
+                  key={g.id}
                   style={[
-                    styles.iconBox,
-                    isSelected ? styles.iconBoxSelected : styles.iconBoxDefault,
+                    styles.tideGlassCard2Col,
+                    isSelected ? styles.tideGlassCardSelected : styles.tideGlassCardUnselected,
                   ]}
+                  onPress={() => toggleGoal(g.id)}
+                  activeOpacity={0.85}
                 >
-                  <TreegohIcon
-                    name={g.icon}
-                    size={22}
-                    color={isSelected ? Colors.eucalyptus : Colors.darkObsidian}
-                  />
-                </View>
-                <View style={styles.cardTexts}>
-                  <Text style={[styles.cardTitle, isSelected && { color: Colors.eucalyptus }]}>
-                    {g.title}
-                  </Text>
-                  <Text style={styles.cardSub}>{g.sub}</Text>
-                </View>
-              </TouchableOpacity>
-            );
-          })}
-        </View>
+                  <View style={[styles.iconHaloSquircle, isSelected && styles.iconHaloSquircleSelected]}>
+                    <TreegohIcon
+                      name={g.icon}
+                      size={26}
+                      color={isSelected ? Colors.eucalyptus : Colors.darkObsidian}
+                    />
+                  </View>
+                  <View>
+                    <Text style={[styles.gridCardTitle, isSelected && styles.gridCardTitleSelected]}>
+                      {g.title}
+                    </Text>
+                    <Text style={[styles.gridCardSub, isSelected && styles.gridCardSubSelected]}>
+                      {g.sub}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
 
-        <TouchableOpacity style={styles.btnPrimary} onPress={nextStep}>
-          <Text style={styles.btnPrimaryText}>Continuar</Text>
-        </TouchableOpacity>
+          <View style={styles.phaseBottomSticky}>
+            <TouchableOpacity style={styles.btnTidePrimary} onPress={nextStep} activeOpacity={0.88}>
+              <Text style={styles.btnTidePrimaryText}>Continuar</Text>
+            </TouchableOpacity>
+          </View>
+        </ScrollView>
       </View>
     );
   };
 
-  // PANTALLA 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA (CON EDICIÓN INTERACTIVA)
+  // FASE 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA (CON DETECCIÓN GPS)
   const renderScreen3 = () => (
-    <View style={styles.stepContainer}>
-      <Text style={Typography.titleLarge}>¿Dónde viven{'\n'}tus plantas?</Text>
-      <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
-        Conectamos con Open-Meteo para adaptar el riego a la humedad ambiental y avisarte de olas de calor (M02).
-      </Text>
+    <View style={styles.phasePage}>
+      <ScrollView
+        contentContainerStyle={styles.phaseScrollContent}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+      >
+        <View style={styles.headerTextBlock}>
+          <Text style={styles.tideMainTitle}>¿Dónde viven{'\n'}tus plantas?</Text>
+          <Text style={styles.tideSubTitle}>
+            Conectamos con Open-Meteo para adaptar el riego a la humedad ambiental y avisarte de olas de calor.
+          </Text>
+        </View>
 
-      {/* Tarjeta de Ubicación con Botón de Edición Manual */}
-      <View style={styles.locationCard}>
-        <View style={styles.locationHeader}>
-          <View style={styles.iconBoxAccent}>
-            <TreegohIcon name="temperatura_termica" size={24} color={Colors.eucalyptus} />
+        <View style={styles.glassmorphContainerCard}>
+          <View style={styles.locationHeaderRow}>
+            <View style={styles.locationIconBox}>
+              <TreegohIcon name="temperatura_termica" size={24} color={Colors.eucalyptus} />
+            </View>
+            <View style={{ flex: 1, marginLeft: 14 }}>
+              <Text style={styles.locationCityName}>{state.location.city}</Text>
+              <Text style={styles.locationZoneText}>{state.location.bioclimaticZone}</Text>
+            </View>
+            <TouchableOpacity
+              style={styles.editLocationPill}
+              onPress={() => {
+                Haptics.selectionAsync();
+                setLocationModalVisible(true);
+              }}
+              activeOpacity={0.8}
+            >
+              <Text style={styles.editLocationPillText}>Cambiar</Text>
+            </TouchableOpacity>
           </View>
-          <View style={{ marginLeft: Spacing.md, flex: 1 }}>
-            <Text style={styles.cardTitle}>{state.location.city}</Text>
-            <Text style={styles.cardSub}>Zona bioclimática: {state.location.bioclimaticZone}</Text>
+
+          <View style={styles.locationStatusPillRow}>
+            <View style={styles.statusIndicatorBadge}>
+              <View
+                style={[
+                  styles.statusDot,
+                  { backgroundColor: isDetectingLocation ? '#E29578' : '#52796F' },
+                ]}
+              />
+              <Text style={styles.statusBadgeLabel}>
+                {isDetectingLocation
+                  ? 'Calibrando sensores GPS...'
+                  : locationDetectionSource === 'gps'
+                  ? 'GPS Satelital Activo'
+                  : 'Ubicación Calibrada Manualmente'}
+              </Text>
+            </View>
+
+            {locationPermissionDenied && (
+              <TouchableOpacity onPress={() => detectUserLocation(true)} style={styles.retryGpsBtn}>
+                <Text style={styles.retryGpsBtnText}>Activar GPS</Text>
+              </TouchableOpacity>
+            )}
           </View>
+
+          <View style={styles.waterHardnessBox}>
+            <TreegohIcon name="riego_hidratacion" size={16} color={Colors.eucalyptus} />
+            <Text style={styles.waterHardnessText}>
+              Agua: {state.location.waterHardness}
+            </Text>
+          </View>
+        </View>
+
+        <View style={styles.glassmorphInfoCard}>
+          <View style={styles.infoCardHeader}>
+            <TreegohIcon name="humedad_vpd" size={16} color={Colors.eucalyptus} />
+            <Text style={styles.infoCardTitle}>Déficit de Presión de Vapor (VPD)</Text>
+          </View>
+          <Text style={styles.infoCardBody}>
+            Treegoh sincroniza la evapotranspiración foliar en tiempo real. Si la temperatura o la humedad cambian bruscamente, el ciclo de riego se reprograma de inmediato.
+          </Text>
+        </View>
+
+        <View style={styles.phaseBottomSticky}>
+          <TouchableOpacity style={styles.btnTidePrimary} onPress={nextStep} activeOpacity={0.88}>
+            <Text style={styles.btnTidePrimaryText}>Continuar con esta zona</Text>
+          </TouchableOpacity>
+        </View>
+      </ScrollView>
+    </View>
+  );
+
+  // FASE 4: ESPACIOS & MICROCLIMAS (CARDS EN GRID 2-COLUMNAS TIDE)
+  const renderScreen4 = () => {
+    const spacePresets = [
+      { name: 'Salón Luminoso', desc: '1.500 - 4.000 lux filtrados', icon: 'espacios_microclimas' as IconName },
+      { name: 'Balcón Exterior', desc: 'Sol matutino y aire puro', icon: 'luz_natural' as IconName },
+      { name: 'Dormitorio Zen', desc: 'Luz media sin corrientes', icon: 'espacios_microclimas' as IconName },
+      { name: 'Baño Tropical', desc: 'Humedad alta (Helechos)', icon: 'pulverizacion_spray' as IconName },
+    ];
+
+    return (
+      <View style={styles.phasePage}>
+        <ScrollView
+          contentContainerStyle={styles.phaseScrollContent}
+          showsVerticalScrollIndicator={false}
+          bounces={false}
+        >
+          <View style={styles.headerTextBlock}>
+            <Text style={styles.tideMainTitle}>Configura tus{'\n'}microclimas</Text>
+            <Text style={styles.tideSubTitle}>
+              Las plantas en un mismo espacio comparten temperatura y radiación lumínica.
+            </Text>
+          </View>
+
+          <View style={styles.tideGrid2Col}>
+            {spacePresets.map(sp => {
+              const isSelected = state.spaces.includes(sp.name);
+              return (
+                <TouchableOpacity
+                  key={sp.name}
+                  style={[
+                    styles.tideGlassCard2Col,
+                    isSelected ? styles.tideGlassCardSelected : styles.tideGlassCardUnselected,
+                  ]}
+                  onPress={() => toggleSpace(sp.name)}
+                  activeOpacity={0.85}
+                >
+                  <View style={[styles.iconHaloSquircle, isSelected && styles.iconHaloSquircleSelected]}>
+                    <TreegohIcon
+                      name={sp.icon}
+                      size={26}
+                      color={isSelected ? Colors.eucalyptus : Colors.darkObsidian}
+                    />
+                  </View>
+                  <View>
+                    <Text style={[styles.gridCardTitle, isSelected && styles.gridCardTitleSelected]}>
+                      {sp.name}
+                    </Text>
+                    <Text style={[styles.gridCardSub, isSelected && styles.gridCardSubSelected]}>
+                      {sp.desc}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
+
+          <View style={styles.phaseBottomSticky}>
+            <TouchableOpacity style={styles.btnTidePrimary} onPress={nextStep} activeOpacity={0.88}>
+              <Text style={styles.btnTidePrimaryText}>Continuar</Text>
+            </TouchableOpacity>
+          </View>
+        </ScrollView>
+      </View>
+    );
+  };
+
+  // FASE 5: SEGURIDAD VITAL (ANIMALES DE COMPAÑÍA & FAMILIA)
+  const renderScreen5 = () => (
+    <View style={styles.phasePage}>
+      <ScrollView
+        contentContainerStyle={styles.phaseScrollContent}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+      >
+        <View style={styles.headerTextBlock}>
+          <Text style={styles.tideMainTitle}>Seguridad en{'\n'}el hogar</Text>
+          <Text style={styles.tideSubTitle}>
+            Filtramos especies con savia urticante o cristales de oxalato cálcico para proteger a tu familia.
+          </Text>
+        </View>
+
+        <View style={{ marginTop: Spacing.md }}>
           <TouchableOpacity
-            style={styles.editLocationBtn}
+            style={[
+              styles.tideGlassCardFullWidth,
+              state.safetyFilter.hasPets ? styles.tideGlassCardSelected : styles.tideGlassCardUnselected,
+            ]}
+            activeOpacity={0.88}
             onPress={() => {
               Haptics.selectionAsync();
-              setLocationModalVisible(true);
+              setState(prev => ({
+                ...prev,
+                safetyFilter: { ...prev.safetyFilter, hasPets: !prev.safetyFilter.hasPets },
+              }));
             }}
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           >
-            <TreegohIcon name="ajustes_sistema" size={16} color={Colors.eucalyptus} />
-            <Text style={styles.editLocationBtnText}>Cambiar</Text>
+            <View style={[styles.iconHaloSquircle, state.safetyFilter.hasPets && styles.iconHaloSquircleSelected]}>
+              <TreegohIcon
+                name="toxicidad_mascotas"
+                size={28}
+                color={state.safetyFilter.hasPets ? Colors.eucalyptus : Colors.darkObsidian}
+              />
+            </View>
+            <View style={{ flex: 1, marginLeft: 16 }}>
+              <Text
+                style={[
+                  styles.fullWidthCardTitle,
+                  state.safetyFilter.hasPets && { color: Colors.eucalyptus },
+                ]}
+              >
+                Hogar con animales de compañía
+              </Text>
+              <Text style={styles.fullWidthCardSub}>
+                Filtro botánico estricto: catálogo exclusivo de especies no tóxicas (Calatheas, Helechos, Marantas).
+              </Text>
+            </View>
           </TouchableOpacity>
         </View>
 
-        <View style={styles.waterBadge}>
-          <TreegohIcon name="riego_hidratacion" size={14} color={Colors.eucalyptus} />
-          <Text style={styles.waterBadgeText}>Agua corriente: {state.location.waterHardness}</Text>
+        <View style={styles.phaseBottomSticky}>
+          <TouchableOpacity style={styles.btnTidePrimary} onPress={nextStep} activeOpacity={0.88}>
+            <Text style={styles.btnTidePrimaryText}>Continuar</Text>
+          </TouchableOpacity>
         </View>
-      </View>
+      </ScrollView>
+    </View>
+  );
 
-      <View style={styles.tipsBox}>
-        <View style={styles.tipsHeader}>
-          <TreegohIcon name="humedad_vpd" size={16} color={Colors.eucalyptus} />
-          <Text style={styles.tipsTitle}>Precisión Fisiológica</Text>
+  // FASE 6: RESONANCIA BOTÁNICA & TREEGOH COMPANION
+  const renderScreen6 = () => (
+    <View style={styles.phasePage}>
+      <View style={styles.characterPhaseWrapper}>
+        <View style={styles.characterOuterHalo}>
+          <View style={styles.characterInnerCard}>
+            <TreegohCharacter
+              size={136}
+              mood="happy"
+              statusOrbColor={Colors.eucalyptus}
+              showStatusOrb={true}
+            />
+          </View>
         </View>
-        <Text style={styles.tipsBody}>
-          Treegoh no usa calendarios estáticos. Si la humedad relativa desciende de forma abrupta en tu zona, el sistema recalibra automáticamente el déficit de presión de vapor (VPD) foliar.
+
+        <Text style={styles.tideMainTitleCentered}>Tu santuario está listo</Text>
+
+        <View style={styles.voiceAssistantPill}>
+          <TreegohIcon name="voz_botanica" size={15} color={Colors.eucalyptus} />
+          <Text style={styles.voiceAssistantPillText}>Asistencia Botánica Multimodal Activa</Text>
+        </View>
+
+        <Text style={styles.speechQuoteCentered}>
+          «He calibrado los microclimas de tus estancias y las condiciones meteorológicas de tu zona. Cuidemos juntos de tus plantas.»
         </Text>
+
+        <View style={styles.phaseBottomSticky}>
+          <TouchableOpacity style={styles.btnTidePrimary} onPress={nextStep} activeOpacity={0.88}>
+            <Text style={styles.btnTidePrimaryText}>Entrar a mi santuario</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </View>
+  );
+
+  // FASE 7: AUTENTICACIÓN & MODO INVITADO
+  const renderScreen7 = () => (
+    <View style={styles.phasePage}>
+      <ScrollView
+        contentContainerStyle={styles.phaseScrollContent}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+      >
+        <View style={{ alignItems: 'center', marginTop: Spacing.lg, marginBottom: Spacing.md }}>
+          <TreegohCharacter size={84} mood="happy" showStatusOrb={false} />
+        </View>
+
+        <View style={styles.headerTextBlock}>
+          <Text style={styles.tideMainTitleCentered}>
+            Guarda tu colección{'\n'}y mantén tus plantas a salvo
+          </Text>
+          <Text style={styles.tideSubTitleCentered}>
+            Sincroniza tus microclimas, biométrica foliar y alertas preventivas en la nube.
+          </Text>
+        </View>
+
+        <View style={styles.authButtonsStack}>
+          <TouchableOpacity
+            style={styles.tideAuthBtn}
+            activeOpacity={0.88}
+            onPress={() => {
+              Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+              onComplete({ ...state, isGuest: false });
+            }}
+          >
+            <Text style={styles.tideAuthBtnText}>Continuar con Apple</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.tideAuthBtn}
+            activeOpacity={0.88}
+            onPress={() => {
+              Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+              onComplete({ ...state, isGuest: false });
+            }}
+          >
+            <Text style={styles.tideAuthBtnText}>Continuar con Google</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.tideAuthBtn}
+            activeOpacity={0.88}
+            onPress={() => {
+              Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+              onComplete({ ...state, isGuest: false });
+            }}
+          >
+            <Text style={styles.tideAuthBtnText}>Continuar con Correo</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={{ alignItems: 'center', marginTop: Spacing.xl }}>
+          <TouchableOpacity
+            onPress={() => {
+              Haptics.selectionAsync();
+              onComplete({ ...state, isGuest: true });
+            }}
+            hitSlop={{ top: 10, bottom: 10, left: 14, right: 14 }}
+          >
+            <Text style={styles.linkGuestAction}>Continuar como invitado (modo local)</Text>
+          </TouchableOpacity>
+
+          <Text style={styles.legalNoticeText}>
+            Al continuar, aceptas nuestros Términos de Servicio y Política de Privacidad Botánica.
+          </Text>
+        </View>
+      </ScrollView>
+    </View>
+  );
+
+  return (
+    <View style={styles.screenRoot}>
+      <StatusBar barStyle="dark-content" />
+
+      {/* FONDO BOTÁNICO CONTINUO DESENFOCADO: MALLA DE GRADIENTES LUMINOSOS Y MIST ESTILO TIDE */}
+      <View style={StyleSheet.absoluteFill} pointerEvents="none">
+        <LinearGradient
+          colors={['#F4F7F2', '#E7EFE7', '#DAE6DC', '#CCD9CF']}
+          locations={[0, 0.35, 0.7, 1]}
+          start={{ x: 0.1, y: 0 }}
+          end={{ x: 0.85, y: 0.95 }}
+          style={StyleSheet.absoluteFill}
+        />
+        <LinearGradient
+          colors={['rgba(132, 169, 140, 0.28)', 'rgba(235, 242, 236, 0.05)', 'rgba(82, 121, 111, 0.18)']}
+          start={{ x: 0.9, y: 0.1 }}
+          end={{ x: 0.1, y: 0.9 }}
+          style={StyleSheet.absoluteFill}
+        />
+        <LinearGradient
+          colors={['rgba(255, 255, 255, 0.40)', 'rgba(255, 255, 255, 0.05)', 'rgba(82, 121, 111, 0.10)', 'rgba(244, 247, 243, 0.50)']}
+          start={{ x: 0.5, y: 0 }}
+          end={{ x: 0.5, y: 1 }}
+          style={StyleSheet.absoluteFill}
+        />
       </View>
 
-      <TouchableOpacity style={[styles.btnPrimary, { marginTop: Spacing.xl }]} onPress={nextStep}>
-        <Text style={styles.btnPrimaryText}>Continuar con esta zona</Text>
-      </TouchableOpacity>
+      <SafeAreaView style={styles.safeAreaRoot} edges={['top', 'left', 'right', 'bottom']}>
+        {renderSegmentedProgressBar()}
+
+        {/* CONTENEDOR HORIZONTAL SUPER ANCHO CON DESPLAZAMIENTO SUAVE DE FASE EN FASE */}
+        <ScrollView
+          ref={horizontalScrollRef}
+          horizontal={true}
+          pagingEnabled={true}
+          scrollEnabled={false}
+          showsHorizontalScrollIndicator={false}
+          style={styles.horizontalPagingScroll}
+          contentContainerStyle={{ width: width * 7 }}
+        >
+          {renderScreen1()}
+          {renderScreen2()}
+          {renderScreen3()}
+          {renderScreen4()}
+          {renderScreen5()}
+          {renderScreen6()}
+          {renderScreen7()}
+        </ScrollView>
+      </SafeAreaView>
 
       {/* MODAL EDITAR UBICACIÓN MANUALMENTE */}
       <Modal
@@ -592,7 +882,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
         <View style={styles.modalOverlay}>
           <View style={styles.modalSheet}>
             <View style={styles.modalHandle} />
-            
+
             <View style={styles.modalHeaderRow}>
               <Text style={Typography.titleMedium}>Seleccionar Ciudad</Text>
               <TouchableOpacity
@@ -603,7 +893,6 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
               </TouchableOpacity>
             </View>
 
-            {/* Botón GPS Rápido en Modal */}
             <TouchableOpacity
               style={styles.modalGpsBtn}
               onPress={() => {
@@ -615,7 +904,6 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
               <Text style={styles.modalGpsBtnText}>Detectar mi ubicación real actual (GPS)</Text>
             </TouchableOpacity>
 
-            {/* Input Manual */}
             <View style={styles.inputWrapper}>
               <TreegohIcon name="busqueda_typesense" size={18} color={Colors.eucalyptus} />
               <TextInput
@@ -667,615 +955,265 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }
       </Modal>
     </View>
   );
-
-  // PANTALLA 4: ESPACIOS & MICROCLIMAS
-  const renderScreen4 = () => {
-    const spacePresets = [
-      { name: 'Salón Luminoso', desc: 'Luz brillante indirecta (1.500 - 4.000 lux)', icon: 'espacios_microclimas' as IconName },
-      { name: 'Balcón Exterior', desc: 'Sol matutino directo y ventilación', icon: 'luz_natural' as IconName },
-      { name: 'Dormitorio Sereno', desc: 'Luz media filtrada sin corrientes', icon: 'espacios_microclimas' as IconName },
-      { name: 'Baño Húmedo', desc: 'Alta humedad ambiental (ideal helechos)', icon: 'pulverizacion_spray' as IconName },
-    ];
-
-    return (
-      <View style={styles.stepContainer}>
-        <Text style={Typography.titleLarge}>Configura tus{'\n'}microclimas</Text>
-        <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
-          Las plantas en un mismo espacio comparten condiciones ambientales. Podrás añadir más estancias en cualquier momento.
-        </Text>
-
-        <View style={styles.cardsGrid}>
-          {spacePresets.map(sp => {
-            const isSelected = state.spaces.includes(sp.name);
-            return (
-              <TouchableOpacity
-                key={sp.name}
-                style={[styles.glassCard, isSelected && styles.glassCardSelected]}
-                onPress={() => toggleSpace(sp.name)}
-                activeOpacity={0.88}
-              >
-                <View
-                  style={[
-                    styles.iconBox,
-                    isSelected ? styles.iconBoxSelected : styles.iconBoxDefault,
-                  ]}
-                >
-                  <TreegohIcon
-                    name={sp.icon}
-                    size={22}
-                    color={isSelected ? Colors.eucalyptus : Colors.darkObsidian}
-                  />
-                </View>
-                <View style={styles.cardTexts}>
-                  <Text style={[styles.cardTitle, isSelected && { color: Colors.eucalyptus }]}>
-                    {sp.name}
-                  </Text>
-                  <Text style={styles.cardSub}>{sp.desc}</Text>
-                </View>
-              </TouchableOpacity>
-            );
-          })}
-        </View>
-
-        <TouchableOpacity style={styles.btnPrimary} onPress={nextStep}>
-          <Text style={styles.btnPrimaryText}>Continuar</Text>
-        </TouchableOpacity>
-      </View>
-    );
-  };
-
-  // PANTALLA 5: SEGURIDAD VITAL (MASCOTAS & FAMILIA)
-  const renderScreen5 = () => (
-    <View style={styles.stepContainer}>
-      <Text style={Typography.titleLarge}>Seguridad en{'\n'}el hogar</Text>
-      <Text style={[Typography.body, { marginTop: Spacing.sm }]}>
-        Filtramos especies con savia urticante o cristales de oxalato cálcico insoluble para proteger a quienes más quieres.
-      </Text>
-
-      <View style={{ gap: Spacing.md, marginVertical: Spacing.xl }}>
-        <TouchableOpacity
-          style={[styles.glassCard, state.safetyFilter.hasPets && styles.glassCardSelected]}
-          activeOpacity={0.88}
-          onPress={() => {
-            Haptics.selectionAsync();
-            setState(prev => ({
-              ...prev,
-              safetyFilter: { ...prev.safetyFilter, hasPets: !prev.safetyFilter.hasPets },
-            }));
-          }}
-        >
-          <View
-            style={[
-              styles.iconBox,
-              state.safetyFilter.hasPets ? styles.iconBoxSelected : styles.iconBoxDefault,
-            ]}
-          >
-            <TreegohIcon
-              name="toxicidad_mascotas"
-              size={22}
-              color={state.safetyFilter.hasPets ? Colors.eucalyptus : Colors.darkObsidian}
-            />
-          </View>
-          <View style={styles.cardTexts}>
-            <Text style={[styles.cardTitle, state.safetyFilter.hasPets && { color: Colors.eucalyptus }]}>
-              Hogar con animales de compañía
-            </Text>
-            <Text style={styles.cardSub}>
-              Filtro botánico estricto: catálogo exclusivo de especies no tóxicas aprobadas por toxicología veterinaria (Calatheas, Helechos, Marantas).
-            </Text>
-          </View>
-        </TouchableOpacity>
-      </View>
-
-      <TouchableOpacity style={[styles.btnPrimary, { marginTop: Spacing.lg }]} onPress={nextStep}>
-        <Text style={styles.btnPrimaryText}>Continuar</Text>
-      </TouchableOpacity>
-    </View>
-  );
-
-  // PANTALLA 6: CHARACTER SYNC & ASISTENCIA BOTÁNICA SENSORIAL
-  const renderScreen6 = () => (
-    <View style={[styles.stepContainer, { alignItems: 'center', justifyContent: 'center' }]}>
-      <View style={styles.characterContainer}>
-        <TreegohCharacter
-          size={144}
-          mood="happy"
-          statusOrbColor={Colors.eucalyptus}
-          showStatusOrb={true}
-        />
-      </View>
-
-      <Text style={[Typography.titleMedium, { textAlign: 'center', marginTop: Spacing.xl }]}>
-        Tu santuario está listo
-      </Text>
-      
-      <View style={styles.voiceBadgeClean}>
-        <TreegohIcon name="voz_botanica" size={14} color={Colors.eucalyptus} />
-        <Text style={styles.voiceBadgeText}>Asistencia Botánica Multimodal Activa</Text>
-      </View>
-
-      <Text style={styles.speechQuote}>
-        «He calibrado los microclimas de tus estancias y las condiciones meteorológicas de tu zona. Cuidemos juntos de tus plantas.»
-      </Text>
-
-      <TouchableOpacity
-        style={[styles.btnPrimary, { marginTop: Spacing.xxl, width: '100%' }]}
-        onPress={nextStep}
-      >
-        <Text style={styles.btnPrimaryText}>Entrar a mi santuario</Text>
-      </TouchableOpacity>
-    </View>
-  );
-
-  // PANTALLA 7: AUTH & REGISTRO
-  const renderScreen7 = () => (
-    <View style={styles.stepContainer}>
-      <View style={{ alignItems: 'center', marginBottom: Spacing.md }}>
-        <TreegohCharacter size={80} mood="happy" showStatusOrb={false} />
-      </View>
-      <Text style={[Typography.titleLarge, { textAlign: 'center' }]}>
-        Guarda tu colección{'\n'}y mantén tus plantas a salvo
-      </Text>
-      <Text style={[Typography.body, { textAlign: 'center', marginTop: Spacing.xs }]}>
-        Sincroniza tus registros botánicos y alertas en la nube de forma segura.
-      </Text>
-
-      <View style={{ gap: Spacing.md, marginTop: Spacing.xl }}>
-        <TouchableOpacity
-          style={styles.btnAuth}
-          activeOpacity={0.88}
-          onPress={() => {
-            Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-            onComplete({ ...state, isGuest: false });
-          }}
-        >
-          <Text style={styles.btnAuthText}>Continuar con Apple</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.btnAuth}
-          activeOpacity={0.88}
-          onPress={() => {
-            Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-            onComplete({ ...state, isGuest: false });
-          }}
-        >
-          <Text style={styles.btnAuthText}>Continuar con Google</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.btnAuth}
-          activeOpacity={0.88}
-          onPress={() => {
-            Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-            onComplete({ ...state, isGuest: false });
-          }}
-        >
-          <Text style={styles.btnAuthText}>Continuar con Correo</Text>
-        </TouchableOpacity>
-      </View>
-
-      <View style={{ alignItems: 'center', marginTop: Spacing.xl }}>
-        <TouchableOpacity
-          onPress={() => {
-            Haptics.selectionAsync();
-            onComplete({ ...state, isGuest: true });
-          }}
-        >
-          <Text style={styles.linkGuest}>Continuar como invitado (modo local)</Text>
-        </TouchableOpacity>
-
-        <Text style={styles.legalNotice}>
-          Al continuar, aceptas nuestros Términos de Servicio y Política de Privacidad Botánica.
-        </Text>
-      </View>
-    </View>
-  );
-
-  if (step === 1) {
-    return (
-      <View style={styles.mainWrapper}>
-        <StatusBar barStyle="dark-content" />
-        {renderScreen1()}
-      </View>
-    );
-  }
-
-  return (
-    <Animated.View style={[styles.mainWrapper, { backgroundColor: interpolatedBg }]}>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.safeContainer} edges={['top', 'left', 'right', 'bottom']}>
-        {renderProgressBar()}
-
-        <Animated.View
-          style={[
-            styles.animatedContent,
-            {
-              opacity: fadeAnim,
-              transform: [{ translateY: slideAnim }],
-            },
-          ]}
-        >
-          <ScrollView
-            contentContainerStyle={styles.scrollContent}
-            showsVerticalScrollIndicator={false}
-          >
-            {step === 2 && renderScreen2()}
-            {step === 3 && renderScreen3()}
-            {step === 4 && renderScreen4()}
-            {step === 5 && renderScreen5()}
-            {step === 6 && renderScreen6()}
-            {step === 7 && renderScreen7()}
-          </ScrollView>
-        </Animated.View>
-      </SafeAreaView>
-    </Animated.View>
-  );
 };
 
 const styles = StyleSheet.create({
-  mainWrapper: {
+  screenRoot: {
     flex: 1,
     backgroundColor: '#FAF9F5',
   },
-  fullScreen: {
+  safeAreaRoot: {
+    flex: 1,
+  },
+  horizontalPagingScroll: {
+    flex: 1,
+  },
+  phasePage: {
     width,
-    height,
-  },
-  videoOverlay: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: 'rgba(235, 234, 228, 0.48)',
-  },
-  safeContainer: {
     flex: 1,
+    overflow: 'hidden',
   },
-  animatedContent: {
+  phaseScrollContent: {
+    paddingHorizontal: 22,
+    paddingTop: 12,
+    paddingBottom: 40,
+    minHeight: height * 0.88,
+    justifyContent: 'space-between',
+  },
+  // Barra de progreso superior multi-segmento discreta estilo TIDE
+  topProgressContainer: {
+    paddingHorizontal: 22,
+    paddingTop: Spacing.xs,
+    paddingBottom: Spacing.sm,
+  },
+  progressSegmentsRow: {
+    flexDirection: 'row',
+    gap: 6,
+    width: '100%',
+    marginBottom: 12,
+  },
+  progressSegmentPill: {
     flex: 1,
+    height: 3,
+    borderRadius: 2,
   },
-  scrollContent: {
-    flexGrow: 1,
-    paddingHorizontal: Spacing.lg,
-    paddingBottom: Spacing.xl,
+  progressSegmentFilled: {
+    backgroundColor: Colors.darkObsidian,
+    opacity: 0.85,
   },
-  welcomeContainer: {
+  progressSegmentEmpty: {
+    backgroundColor: 'rgba(20, 28, 25, 0.08)',
+  },
+  topBarControls: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: 38,
+  },
+  backChevronText: {
+    fontSize: 24,
+    color: Colors.darkObsidian,
+    fontWeight: '300',
+    marginTop: -2,
+  },
+  backButtonCircle: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: 'rgba(255, 255, 255, 0.55)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.75)',
+  },
+  skipBtn: {
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderRadius: 14,
+    backgroundColor: 'rgba(255, 255, 255, 0.40)',
+  },
+  skipBtnText: {
+    fontSize: 13,
+    color: Colors.mutedText,
+    fontWeight: '600',
+  },
+  // Bloques de texto tipo editorial TIDE
+  headerTextBlock: {
+    marginBottom: 20,
+  },
+  tideMainTitle: {
+    fontSize: 27,
+    fontWeight: '700',
+    color: Colors.darkObsidian,
+    letterSpacing: -0.5,
+    lineHeight: 34,
+  },
+  tideSubTitle: {
+    fontSize: 14,
+    color: Colors.bodyText,
+    marginTop: 8,
+    lineHeight: 21,
+    opacity: 0.88,
+  },
+  tideMainTitleCentered: {
+    fontSize: 26,
+    fontWeight: '700',
+    color: Colors.darkObsidian,
+    letterSpacing: -0.4,
+    lineHeight: 33,
+    textAlign: 'center',
+  },
+  tideSubTitleCentered: {
+    fontSize: 14,
+    color: Colors.bodyText,
+    marginTop: 8,
+    lineHeight: 21,
+    textAlign: 'center',
+    paddingHorizontal: 16,
+    opacity: 0.88,
+  },
+  // Grid de 2 columnas con tarjetas Glassmorph estilo TIDE
+  tideGrid2Col: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 12,
+    marginVertical: 12,
+  },
+  tideGlassCard2Col: {
+    width: (width - 44 - 12) / 2,
+    minHeight: 168,
+    borderRadius: 24,
+    padding: 18,
+    justifyContent: 'space-between',
+    elevation: 0,
+  },
+  tideGlassCardUnselected: {
+    backgroundColor: 'rgba(255, 255, 255, 0.38)',
+    borderColor: 'rgba(255, 255, 255, 0.60)',
+    borderWidth: 1,
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.03,
+    shadowRadius: 10,
+  },
+  tideGlassCardSelected: {
+    backgroundColor: 'rgba(255, 255, 255, 0.88)',
+    borderColor: Colors.eucalyptus,
+    borderWidth: 1.5,
+    shadowColor: Colors.eucalyptus,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.12,
+    shadowRadius: 16,
+  },
+  tideGlassCardFullWidth: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 18,
+    borderRadius: 24,
+    borderWidth: 1,
+    elevation: 0,
+  },
+  iconHaloSquircle: {
+    width: 44,
+    height: 44,
+    borderRadius: 14,
+    backgroundColor: 'rgba(20, 28, 25, 0.05)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  iconHaloSquircleSelected: {
+    backgroundColor: 'rgba(82, 121, 111, 0.12)',
+  },
+  gridCardTitle: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: Colors.darkObsidian,
+    lineHeight: 20,
+    letterSpacing: -0.2,
+  },
+  gridCardTitleSelected: {
+    color: Colors.eucalyptus,
+  },
+  gridCardSub: {
+    fontSize: 12,
+    color: Colors.mutedText,
+    marginTop: 4,
+    lineHeight: 16,
+  },
+  gridCardSubSelected: {
+    color: Colors.bodyText,
+  },
+  fullWidthCardTitle: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: Colors.darkObsidian,
+    lineHeight: 21,
+  },
+  fullWidthCardSub: {
+    fontSize: 12,
+    color: Colors.bodyText,
+    marginTop: 4,
+    lineHeight: 17,
+    opacity: 0.85,
+  },
+  // Botón inferior full-width pill estilo TIDE
+  phaseBottomSticky: {
+    width: '100%',
+    marginTop: Spacing.xl,
+    paddingBottom: Spacing.sm,
+  },
+  btnTidePrimary: {
+    height: 56,
+    borderRadius: 28,
+    backgroundColor: Colors.pureWhite,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(20, 28, 25, 0.08)',
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.06,
+    shadowRadius: 14,
+    elevation: 2,
+  },
+  btnTidePrimaryText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: Colors.darkObsidian,
+    letterSpacing: -0.2,
+  },
+  // Pantalla de Bienvenida
+  welcomeSafeArea: {
     flex: 1,
     justifyContent: 'space-between',
-    paddingHorizontal: Spacing.lg,
-    paddingBottom: Spacing.xxl,
+    paddingHorizontal: 22,
+    paddingBottom: Spacing.xl,
   },
-  welcomeContent: {
-    marginTop: height * 0.14,
+  welcomeTopBlock: {
+    marginTop: height * 0.13,
   },
   logoWrapper: {
     marginBottom: Spacing.lg,
   },
   welcomeTitle: {
-    fontSize: 27,
+    fontSize: 28,
     fontWeight: '700',
     color: Colors.darkObsidian,
-    lineHeight: 34,
-    letterSpacing: -0.4,
+    lineHeight: 35,
+    letterSpacing: -0.5,
   },
   welcomeSub: {
     fontSize: 14,
     color: Colors.bodyText,
     marginTop: Spacing.md,
     lineHeight: 22,
-  },
-  welcomeBottom: {
-    gap: Spacing.md,
-  },
-  progressContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: Spacing.lg,
-    paddingTop: Spacing.xs,
-    paddingBottom: Spacing.sm,
-    gap: Spacing.md,
-  },
-  backButtonCircle: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: 'rgba(255, 255, 255, 0.72)',
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'rgba(20, 28, 25, 0.06)',
-  },
-  backButtonText: {
-    fontSize: 24,
-    color: Colors.darkObsidian,
-    fontWeight: '300',
-    marginTop: -2,
-  },
-  progressBarTrack: {
-    flex: 1,
-    height: 4,
-    backgroundColor: 'rgba(20, 28, 25, 0.08)',
-    borderRadius: 2,
-    overflow: 'hidden',
-  },
-  progressBarFill: {
-    height: '100%',
-    backgroundColor: Colors.eucalyptus,
-    borderRadius: 2,
-  },
-  stepText: {
-    fontSize: 12,
-    color: Colors.mutedText,
-    fontWeight: '500',
-  },
-  stepContainer: {
-    flex: 1,
-    paddingTop: Spacing.sm,
-  },
-  cardsGrid: {
-    gap: 12,
-    marginVertical: Spacing.lg,
-  },
-  glassCard: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.88)',
-    paddingVertical: 14,
-    paddingHorizontal: 16,
-    borderRadius: 22,
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.95)',
-    shadowColor: '#141C19',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.035,
-    shadowRadius: 12,
-    elevation: 2,
-  },
-  glassCardSelected: {
-    borderColor: Colors.eucalyptus,
-    backgroundColor: 'rgba(255, 255, 255, 0.98)',
-    shadowOpacity: 0.07,
-    shadowRadius: 16,
-  },
-  iconBox: {
-    width: 44,
-    height: 44,
-    borderRadius: 14,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 14,
-  },
-  iconBoxDefault: {
-    backgroundColor: 'rgba(20, 28, 25, 0.04)',
-  },
-  iconBoxSelected: {
-    backgroundColor: 'rgba(82, 121, 111, 0.12)',
-  },
-  iconBoxAccent: {
-    width: 44,
-    height: 44,
-    borderRadius: 14,
-    backgroundColor: 'rgba(82, 121, 111, 0.12)',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  cardTexts: {
-    flex: 1,
-  },
-  cardTitle: {
-    fontSize: 15,
-    fontWeight: '600',
-    color: Colors.darkObsidian,
-    lineHeight: 20,
-  },
-  cardSub: {
-    fontSize: 12,
-    color: Colors.bodyText,
-    marginTop: 3,
-    lineHeight: 16,
-    opacity: 0.88,
-  },
-  locationStatusBar: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: Spacing.sm,
-    paddingBottom: 8,
-    borderBottomWidth: 1,
-    borderBottomColor: 'rgba(20, 28, 25, 0.05)',
-  },
-  locationStatusBadge: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-  },
-  gpsPulseDot: {
-    width: 7,
-    height: 7,
-    borderRadius: 4,
-  },
-  locationStatusBadgeText: {
-    fontSize: 11,
-    fontWeight: '500',
-    color: Colors.mutedText,
-    letterSpacing: 0.2,
-  },
-  reDetectBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    marginTop: Spacing.sm,
-    paddingVertical: 4,
-    alignSelf: 'flex-start',
-  },
-  reDetectBtnText: {
-    fontSize: 11,
-    color: Colors.eucalyptus,
-    fontWeight: '600',
-    textDecorationLine: 'underline',
-  },
-  permissionDeniedBox: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    marginTop: Spacing.sm,
-    backgroundColor: 'rgba(193, 123, 94, 0.08)',
-    padding: 8,
-    borderRadius: 10,
-  },
-  permissionDeniedText: {
-    fontSize: 11,
-    color: Colors.terracotta,
-    flex: 1,
-  },
-  modalGpsBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-    backgroundColor: 'rgba(82, 121, 111, 0.08)',
-    paddingVertical: 12,
-    borderRadius: 14,
-    marginBottom: Spacing.md,
-  },
-  modalGpsBtnText: {
-    fontSize: 13,
-    fontWeight: '600',
-    color: Colors.eucalyptus,
-  },
-  locationCard: {
-    backgroundColor: 'rgba(255, 255, 255, 0.88)',
-    borderRadius: 22,
-    padding: Spacing.lg,
-    marginTop: Spacing.lg,
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.95)',
-    shadowColor: '#141C19',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.035,
-    shadowRadius: 12,
-    elevation: 2,
-  },
-  locationHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  editLocationBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-    paddingVertical: 6,
-    paddingHorizontal: 10,
-    borderRadius: 12,
-    backgroundColor: 'rgba(82, 121, 111, 0.08)',
-  },
-  editLocationBtnText: {
-    fontSize: 12,
-    fontWeight: '600',
-    color: Colors.eucalyptus,
-  },
-  waterBadge: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    backgroundColor: 'rgba(82, 121, 111, 0.09)',
-    paddingVertical: 7,
-    paddingHorizontal: 14,
-    borderRadius: 99,
-    marginTop: Spacing.md,
-    alignSelf: 'flex-start',
-  },
-  waterBadgeText: {
-    fontSize: 12,
-    color: Colors.eucalyptus,
-    fontWeight: '600',
-  },
-  tipsBox: {
-    backgroundColor: 'rgba(255, 255, 255, 0.65)',
-    padding: Spacing.md,
-    borderRadius: 18,
-    marginTop: Spacing.md,
-    borderWidth: 1,
-    borderColor: 'rgba(20, 28, 25, 0.05)',
-  },
-  tipsHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    marginBottom: 6,
-  },
-  tipsTitle: {
-    fontSize: 13,
-    fontWeight: '600',
-    color: Colors.darkObsidian,
-  },
-  tipsBody: {
-    fontSize: 12,
-    color: Colors.bodyText,
-    lineHeight: 18,
     opacity: 0.9,
   },
-  characterContainer: {
-    width: 170,
-    height: 170,
-    borderRadius: 85,
-    backgroundColor: 'rgba(255, 255, 255, 0.92)',
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'rgba(82, 121, 111, 0.18)',
-    shadowColor: '#141C19',
-    shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.05,
-    shadowRadius: 20,
-    elevation: 4,
+  welcomeBottomBlock: {
+    gap: 12,
   },
-  voiceBadgeClean: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    backgroundColor: 'rgba(82, 121, 111, 0.09)',
-    paddingVertical: 6,
-    paddingHorizontal: 14,
-    borderRadius: 99,
-    marginTop: Spacing.md,
-  },
-  voiceBadgeText: {
-    fontSize: 12,
-    fontWeight: '600',
-    color: Colors.eucalyptus,
-  },
-  speechQuote: {
-    fontSize: 14,
-    color: Colors.bodyText,
-    textAlign: 'center',
-    lineHeight: 22,
-    marginTop: Spacing.lg,
-    paddingHorizontal: Spacing.lg,
-  },
-  btnPrimary: {
-    backgroundColor: Colors.pureWhite,
-    height: 54,
-    borderRadius: 27,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'rgba(20, 28, 25, 0.12)',
-    shadowColor: '#141C19',
-    shadowOffset: { width: 0, height: 6 },
-    shadowOpacity: 0.05,
-    shadowRadius: 14,
-    elevation: 3,
-  },
-  btnPrimaryText: {
-    fontSize: 15,
-    fontWeight: '600',
-    color: Colors.darkObsidian,
-    letterSpacing: -0.2,
-  },
-  btnGhost: {
+  btnGhostPill: {
     height: 48,
     justifyContent: 'center',
     alignItems: 'center',
@@ -1286,134 +1224,316 @@ const styles = StyleSheet.create({
     color: Colors.darkObsidian,
     opacity: 0.85,
   },
-  btnAuth: {
-    backgroundColor: Colors.pureWhite,
-    height: 52,
-    borderRadius: 26,
+  // Ubicación y Bioclima
+  glassmorphContainerCard: {
+    backgroundColor: 'rgba(255, 255, 255, 0.45)',
+    borderRadius: 24,
+    padding: 18,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.75)',
+    shadowColor: '#141C19',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.03,
+    shadowRadius: 12,
+    elevation: 0,
+  },
+  locationHeaderRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  locationIconBox: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: 'rgba(82, 121, 111, 0.12)',
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'rgba(20, 28, 25, 0.1)',
-    shadowColor: '#141C19',
-    shadowOffset: { width: 0, height: 3 },
-    shadowOpacity: 0.03,
-    shadowRadius: 8,
-    elevation: 2,
   },
-  btnAuthText: {
-    fontSize: 14,
-    fontWeight: '600',
+  locationCityName: {
+    fontSize: 16,
+    fontWeight: '700',
     color: Colors.darkObsidian,
+    lineHeight: 22,
   },
-  linkGuest: {
-    fontSize: 13,
+  locationZoneText: {
+    fontSize: 12,
+    color: Colors.bodyText,
+    marginTop: 2,
+    opacity: 0.85,
+  },
+  editLocationPill: {
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderRadius: 14,
+    backgroundColor: 'rgba(82, 121, 111, 0.1)',
+  },
+  editLocationPillText: {
+    fontSize: 12,
     fontWeight: '600',
     color: Colors.eucalyptus,
   },
-  legalNotice: {
+  locationStatusPillRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 14,
+    paddingTop: 10,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(20, 28, 25, 0.05)',
+  },
+  statusIndicatorBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  statusDot: {
+    width: 7,
+    height: 7,
+    borderRadius: 3.5,
+  },
+  statusBadgeLabel: {
+    fontSize: 11,
+    color: Colors.mutedText,
+    fontWeight: '500',
+  },
+  retryGpsBtn: {
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+  },
+  retryGpsBtnText: {
+    fontSize: 11,
+    color: Colors.eucalyptus,
+    fontWeight: '600',
+    textDecorationLine: 'underline',
+  },
+  waterHardnessBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: 'rgba(82, 121, 111, 0.08)',
+    paddingVertical: 7,
+    paddingHorizontal: 12,
+    borderRadius: 99,
+    marginTop: 12,
+    alignSelf: 'flex-start',
+  },
+  waterHardnessText: {
+    fontSize: 12,
+    color: Colors.eucalyptus,
+    fontWeight: '600',
+  },
+  glassmorphInfoCard: {
+    backgroundColor: 'rgba(255, 255, 255, 0.38)',
+    borderRadius: 20,
+    padding: 16,
+    marginTop: 14,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.65)',
+    elevation: 0,
+  },
+  infoCardHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginBottom: 6,
+  },
+  infoCardTitle: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: Colors.darkObsidian,
+  },
+  infoCardBody: {
+    fontSize: 12,
+    color: Colors.bodyText,
+    lineHeight: 18,
+    opacity: 0.9,
+  },
+  // Pantalla de Character Companion
+  characterPhaseWrapper: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 22,
+  },
+  characterOuterHalo: {
+    width: 172,
+    height: 172,
+    borderRadius: 86,
+    backgroundColor: 'rgba(255, 255, 255, 0.45)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.75)',
+    marginBottom: 28,
+  },
+  characterInnerCard: {
+    width: 148,
+    height: 148,
+    borderRadius: 74,
+    backgroundColor: 'rgba(255, 255, 255, 0.75)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  voiceAssistantPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: 'rgba(82, 121, 111, 0.12)',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 99,
+    marginTop: 12,
+    marginBottom: 16,
+  },
+  voiceAssistantPillText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: Colors.eucalyptus,
+  },
+  speechQuoteCentered: {
+    fontSize: 15,
+    fontStyle: 'italic',
+    color: Colors.bodyText,
+    textAlign: 'center',
+    lineHeight: 23,
+    paddingHorizontal: 16,
+  },
+  // Autenticación & Guest
+  authButtonsStack: {
+    gap: 12,
+    marginVertical: 18,
+  },
+  tideAuthBtn: {
+    height: 54,
+    borderRadius: 27,
+    backgroundColor: 'rgba(255, 255, 255, 0.75)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.9)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 0,
+  },
+  tideAuthBtnText: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: Colors.darkObsidian,
+  },
+  linkGuestAction: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: Colors.eucalyptus,
+    textDecorationLine: 'underline',
+    marginBottom: 12,
+  },
+  legalNoticeText: {
     fontSize: 11,
     color: Colors.mutedText,
     textAlign: 'center',
     lineHeight: 16,
-    marginTop: Spacing.xl,
+    paddingHorizontal: 24,
   },
-  // Estilos del Modal de Ubicación
+  // Modal de Ubicación
   modalOverlay: {
     flex: 1,
     backgroundColor: 'rgba(20, 28, 25, 0.45)',
     justifyContent: 'flex-end',
   },
   modalSheet: {
-    backgroundColor: '#FAF9F5',
+    backgroundColor: '#FFFFFF',
     borderTopLeftRadius: 28,
     borderTopRightRadius: 28,
-    paddingHorizontal: Spacing.lg,
-    paddingTop: Spacing.sm,
-    paddingBottom: Spacing.xxl,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: -4 },
-    shadowOpacity: 0.1,
-    shadowRadius: 16,
-    elevation: 10,
+    paddingHorizontal: 24,
+    paddingTop: 12,
+    paddingBottom: 40,
+    maxHeight: height * 0.82,
   },
   modalHandle: {
     width: 40,
-    height: 4,
+    height: 5,
+    borderRadius: 2.5,
     backgroundColor: 'rgba(20, 28, 25, 0.15)',
-    borderRadius: 2,
     alignSelf: 'center',
-    marginBottom: Spacing.md,
+    marginBottom: 18,
   },
   modalHeaderRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: Spacing.md,
+    marginBottom: 16,
   },
   modalCloseText: {
     fontSize: 14,
-    color: Colors.eucalyptus,
+    color: Colors.mutedText,
     fontWeight: '600',
+  },
+  modalGpsBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: 'rgba(82, 121, 111, 0.08)',
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    borderRadius: 16,
+    marginBottom: 16,
+  },
+  modalGpsBtnText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: Colors.eucalyptus,
   },
   inputWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: Colors.pureWhite,
+    backgroundColor: '#F5F5F0',
     borderRadius: 16,
     paddingHorizontal: 14,
-    paddingVertical: 10,
-    borderWidth: 1,
-    borderColor: 'rgba(20, 28, 25, 0.08)',
-    marginBottom: Spacing.lg,
+    height: 48,
+    marginBottom: 18,
     gap: 10,
   },
   textInput: {
     flex: 1,
     fontSize: 14,
     color: Colors.darkObsidian,
-    padding: 0,
   },
   inputApplyBtn: {
     backgroundColor: Colors.eucalyptus,
-    paddingHorizontal: 12,
     paddingVertical: 6,
+    paddingHorizontal: 12,
     borderRadius: 10,
   },
   inputApplyBtnText: {
-    color: Colors.pureWhite,
     fontSize: 12,
+    color: '#FFFFFF',
     fontWeight: '600',
   },
   presetSectionTitle: {
-    fontSize: 12,
+    fontSize: 13,
+    fontWeight: '700',
     color: Colors.mutedText,
-    fontWeight: '600',
+    marginBottom: 10,
     textTransform: 'uppercase',
     letterSpacing: 0.5,
-    marginBottom: Spacing.sm,
   },
   locationPresetItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: Colors.pureWhite,
     paddingVertical: 12,
-    paddingHorizontal: 14,
-    borderRadius: 16,
-    marginBottom: 8,
-    borderWidth: 1,
-    borderColor: 'rgba(20, 28, 25, 0.05)',
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(20, 28, 25, 0.05)',
   },
   locationPresetItemSelected: {
-    borderColor: Colors.eucalyptus,
-    backgroundColor: 'rgba(82, 121, 111, 0.04)',
+    backgroundColor: 'rgba(82, 121, 111, 0.05)',
+    borderRadius: 12,
+    paddingHorizontal: 8,
   },
   presetCityName: {
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: '600',
     color: Colors.darkObsidian,
   },
   presetZoneName: {
-    fontSize: 11,
+    fontSize: 12,
     color: Colors.mutedText,
     marginTop: 2,
   },

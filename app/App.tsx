@@ -39,7 +39,7 @@ export default function App() {
           <Text style={styles.summaryTitle}>Configuración Activa:</Text>
           <Text style={styles.summaryItem}>• Espacios: {userGardenData?.spaces.join(', ')}</Text>
           <Text style={styles.summaryItem}>• Filtro Mascotas: {userGardenData?.safetyFilter.hasPets ? 'Activado (Pet-Friendly)' : 'Sin filtro'}</Text>
-          <Text style={styles.summaryItem}>• Asistente de Voz: ElevenLabs (U9tZtg3uJtVgXPkvosWR)</Text>
+          <Text style={styles.summaryItem}>• Asistente de Voz Botánica: Calibrado y Activo</Text>
           <Text style={styles.summaryItem}>• Modo: {userGardenData?.isGuest ? 'Invitado Local' : 'Sincronizado con Firebase'}</Text>
         </View>
 
