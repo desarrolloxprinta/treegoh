@@ -358,46 +358,38 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
     </View>
   );
 
-  // FASE 2: METAS BOTÁNICAS (CARDS VERTICALES GENEROSAS SIMILARES A SEGURIDAD EN EL HOGAR)
+  // FASE 2: METAS BOTÁNICAS (GRID 2 COLUMNAS GLASSPHORPHISM, SIN SCROLL)
   const renderScreen2 = () => {
-    const goalOptions: { id: string; title: string; sub: string; trait: string; icon: IconName }[] = [
+    const goalOptions: { id: string; title: string; sub: string; icon: IconName }[] = [
       {
         id: 'prevent_death',
-        title: 'Evitar marchitez y estrés hídrico',
-        sub: 'Algoritmo de riego predictivo por evaporación ambiental y curva de absorción del sustrato.',
-        trait: 'Monitoreo biométrico continuo',
+        title: 'Evitar marchitez',
+        sub: 'Riego predictivo y curva de absorción.',
         icon: 'riego_hidratacion',
       },
       {
         id: 'maximize_growth',
-        title: 'Floración y desarrollo activo',
-        sub: 'Luxómetro C1 integrado y fotoperiodo adaptado al ciclo circadiano foliar.',
-        trait: 'Fotometría C1 y ciclo de luz activa',
+        title: 'Floración activa',
+        sub: 'Luxómetro C1 y fotoperiodo circadiano.',
         icon: 'floracion_fenologia',
       },
       {
         id: 'pest_diagnosis',
-        title: 'Sanidad foliar y alertas preventivas',
-        sub: 'Cámara diagnóstica en 3 ángulos con detección temprana de patógenos y ácaros.',
-        trait: 'Detección óptica preventiva',
+        title: 'Sanidad foliar',
+        sub: 'Detección temprana de patógenos.',
         icon: 'camara_diagnostica',
       },
       {
         id: 'wellbeing_sanctuary',
-        title: 'Santuario Zen y purificación',
-        sub: 'Soundscapes binaurales y transpiración biogénica para bienestar puro en tu hogar.',
-        trait: 'Soundscapes y calidad biogénica',
+        title: 'Santuario Zen',
+        sub: 'Soundscapes y bienestar biogénico.',
         icon: 'sonido_soundscapes',
       },
     ];
 
     return (
       <View style={styles.phasePage}>
-        <ScrollView
-          contentContainerStyle={styles.phaseScrollContent}
-          showsVerticalScrollIndicator={false}
-          bounces={false}
-        >
+        <View style={styles.phaseFixedContent}>
           <View style={styles.headerTextBlock}>
             <Text style={styles.tideMainTitle}>¿Cuál es tu principal{'\n'}objetivo botánico?</Text>
             <Text style={styles.tideSubTitle}>
@@ -405,47 +397,55 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             </Text>
           </View>
 
-          <View style={styles.verticalCardsStack}>
+          {/* GRID DE 2 COLUMNAS (4 CARDS GLASSPHORPHISM) */}
+          <View style={styles.gridTwoColumns}>
             {goalOptions.map(g => {
               const isSelected = state.goals.includes(g.id);
               return (
                 <TouchableOpacity
                   key={g.id}
                   style={[
-                    styles.verticalSpaciousCard,
-                    isSelected ? styles.verticalSpaciousCardSelected : styles.verticalSpaciousCardUnselected,
+                    styles.gridGlassCard,
+                    isSelected ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
                   ]}
                   onPress={() => toggleGoal(g.id)}
                   activeOpacity={0.82}
                 >
-                  <View style={styles.verticalCardTopRow}>
-                    <View style={[styles.iconHaloSquircle, isSelected && styles.iconHaloSquircleSelected]}>
+                  {/* Refracción Glassmorphism en estado no seleccionado */}
+                  {!isSelected && (
+                    <LinearGradient
+                      colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={StyleSheet.absoluteFill}
+                      pointerEvents="none"
+                    />
+                  )}
+
+                  <View style={styles.gridCardTopRow}>
+                    {/* Icono limpio: sin caja glow, solo el icono con su color/luz */}
+                    <View style={styles.cleanIconWrap}>
                       <TreegohIcon
                         name={g.icon}
-                        size={28}
-                        color={isSelected ? '#121A15' : '#84A98C'}
+                        size={30}
+                        color={isSelected ? '#121A15' : '#EAF4ED'}
                       />
                     </View>
-                    <View style={[styles.cardSelectionIndicator, isSelected && styles.cardSelectionIndicatorActive]}>
+                    <View style={[styles.gridCheckCircle, isSelected && styles.gridCheckCircleSelected]}>
                       {isSelected ? (
-                        <TreegohIcon name="tarea_completada" size={16} color="#121A15" />
+                        <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
                       ) : (
-                        <View style={styles.cardRadioEmpty} />
+                        <View style={styles.gridRadioDotEmpty} />
                       )}
                     </View>
                   </View>
 
-                  <Text style={[styles.verticalCardTitle, isSelected && styles.verticalCardTitleSelected]}>
-                    {g.title}
-                  </Text>
-                  <Text style={[styles.verticalCardSub, isSelected && styles.verticalCardSubSelected]}>
-                    {g.sub}
-                  </Text>
-
-                  <View style={styles.cardTraitRow}>
-                    <TreegohIcon name="floracion_fenologia" size={14} color={isSelected ? '#354F52' : '#84A98C'} />
-                    <Text style={[styles.cardTraitLabel, isSelected && { color: '#354F52' }]}>
-                      {g.trait}
+                  <View style={styles.gridCardTextWrap}>
+                    <Text style={[styles.gridCardTitle, isSelected && styles.gridCardTitleSelected]} numberOfLines={2}>
+                      {g.title}
+                    </Text>
+                    <Text style={[styles.gridCardSub, isSelected && styles.gridCardSubSelected]} numberOfLines={2}>
+                      {g.sub}
                     </Text>
                   </View>
                 </TouchableOpacity>
@@ -453,7 +453,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             })}
           </View>
 
-          <View style={styles.phaseBottomSticky}>
+          <View style={styles.phaseBottomStickyFixed}>
             <TouchableOpacity
               style={styles.btnTideGlassPrimary}
               onPress={nextStep}
@@ -462,19 +462,15 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
               <Text style={styles.btnTideGlassPrimaryText}>Continuar</Text>
             </TouchableOpacity>
           </View>
-        </ScrollView>
+        </View>
       </View>
     );
   };
 
-  // FASE 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA (CARDS VERTICALES ESPACIOSAS)
+  // FASE 3: BIOCLIMA & LOCALIZACIÓN METEOROLÓGICA (CARDS GLASSPHORPHISM SIN SCROLL)
   const renderScreen3 = () => (
     <View style={styles.phasePage}>
-      <ScrollView
-        contentContainerStyle={styles.phaseScrollContent}
-        showsVerticalScrollIndicator={false}
-        bounces={false}
-      >
+      <View style={styles.phaseFixedContent}>
         <View style={styles.headerTextBlock}>
           <Text style={styles.tideMainTitle}>¿Dónde viven{'\n'}tus plantas?</Text>
           <Text style={styles.tideSubTitle}>
@@ -482,12 +478,19 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
           </Text>
         </View>
 
-        <View style={styles.verticalCardsStack}>
-          {/* Card Vertical de Localización y Zona Bioclimática */}
-          <View style={styles.locationVerticalCard}>
-            <View style={styles.verticalCardTopRow}>
-              <View style={styles.iconHaloSquircle}>
-                <TreegohIcon name="temperatura_termica" size={28} color="#84A98C" />
+        <View style={styles.compactCardsStack}>
+          {/* Card Glassmorphic de Localización */}
+          <View style={styles.compactGlassCard}>
+            <LinearGradient
+              colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={StyleSheet.absoluteFill}
+              pointerEvents="none"
+            />
+            <View style={styles.compactCardTopRow}>
+              <View style={styles.cleanIconWrap}>
+                <TreegohIcon name="temperatura_termica" size={28} color="#EAF4ED" />
               </View>
               <TouchableOpacity
                 style={styles.editLocationPill}
@@ -503,11 +506,8 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
 
             <Text style={styles.locationCityNameLarge}>{state.location.city}</Text>
             <Text style={styles.locationZoneTextLarge}>{state.location.bioclimaticZone}</Text>
-            <Text style={styles.locationBodyText}>
-              Calibración continua con estaciones meteorológicas satelitales para determinar radiación solar, temperatura ambiente e índice UV.
-            </Text>
 
-            <View style={styles.locationStatusPillRow}>
+            <View style={styles.compactBadgeRow}>
               <View style={styles.statusIndicatorBadge}>
                 <View
                   style={[
@@ -516,39 +516,28 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
                   ]}
                 />
                 <Text style={styles.statusBadgeLabel}>
-                  {isDetectingLocation
-                    ? 'Calibrando sensores GPS...'
-                    : locationDetectionSource === 'gps'
-                    ? 'GPS Satelital Activo'
-                    : 'Ubicación Calibrada Manualmente'}
+                  {isDetectingLocation ? 'Calibrando...' : 'GPS Satelital Activo'}
                 </Text>
               </View>
-
-              {locationPermissionDenied && (
-                <TouchableOpacity onPress={() => detectUserLocation(true)} style={styles.retryGpsBtn}>
-                  <Text style={styles.retryGpsBtnText}>Activar GPS</Text>
-                </TouchableOpacity>
-              )}
-            </View>
-
-            <View style={styles.waterHardnessBoxLarge}>
-              <TreegohIcon name="riego_hidratacion" size={18} color="#84A98C" />
-              <View style={{ flex: 1 }}>
-                <Text style={styles.waterHardnessText}>
-                  Agua: {state.location.waterHardness}
-                </Text>
-                <Text style={styles.waterHardnessSub}>
-                  Optimiza la absorción de nutrientes sin acumulación nociva de cal foliar.
-                </Text>
+              <View style={styles.waterPillBadge}>
+                <TreegohIcon name="riego_hidratacion" size={13} color="#EAF4ED" />
+                <Text style={styles.waterPillBadgeText}>Agua Blanda</Text>
               </View>
             </View>
           </View>
 
-          {/* Card Vertical de Déficit de Presión de Vapor (VPD) */}
-          <View style={styles.vpdVerticalCard}>
-            <View style={styles.verticalCardTopRow}>
-              <View style={styles.iconHaloSquircle}>
-                <TreegohIcon name="humedad_vpd" size={28} color="#84A98C" />
+          {/* Card Glassmorphic de Déficit de Presión de Vapor (VPD) */}
+          <View style={styles.compactGlassCard}>
+            <LinearGradient
+              colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={StyleSheet.absoluteFill}
+              pointerEvents="none"
+            />
+            <View style={styles.compactCardTopRow}>
+              <View style={styles.cleanIconWrap}>
+                <TreegohIcon name="humedad_vpd" size={28} color="#EAF4ED" />
               </View>
               <View style={styles.vpdBadgePill}>
                 <Text style={styles.vpdBadgePillText}>Bioclima Activo</Text>
@@ -557,19 +546,12 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
 
             <Text style={styles.vpdCardTitle}>Déficit de Presión de Vapor (VPD)</Text>
             <Text style={styles.vpdCardBody}>
-              Treegoh sincroniza la tasa de evapotranspiración foliar en tiempo real. Si la temperatura o la humedad cambian bruscamente, el ciclo de riego se reprograma de inmediato para prevenir estrés estomático.
+              Treegoh sincroniza la tasa de evapotranspiración foliar en tiempo real para optimizar el ciclo de riego.
             </Text>
-
-            <View style={styles.cardTraitRow}>
-              <TreegohIcon name="tarea_completada" size={15} color="#84A98C" />
-              <Text style={styles.cardTraitLabel}>
-                Sincronización bioclimática milimétrica cada 3 horas
-              </Text>
-            </View>
           </View>
         </View>
 
-        <View style={styles.phaseBottomSticky}>
+        <View style={styles.phaseBottomStickyFixed}>
           <TouchableOpacity
             style={styles.btnTideGlassPrimary}
             onPress={nextStep}
@@ -578,26 +560,22 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             <Text style={styles.btnTideGlassPrimaryText}>Continuar con esta zona</Text>
           </TouchableOpacity>
         </View>
-      </ScrollView>
+      </View>
     </View>
   );
 
-  // FASE 4: ESPACIOS & MICROCLIMAS (CARDS VERTICALES ESPACIOSAS)
+  // FASE 4: ESPACIOS & MICROCLIMAS (GRID 2 COLUMNAS GLASSPHORPHISM, SIN SCROLL)
   const renderScreen4 = () => {
     const spacePresets = [
-      { name: 'Salón Luminoso', desc: '1.500 - 4.000 lux filtrados • Orientación Sur/Este', icon: 'sol_radiacion' as IconName },
-      { name: 'Balcón Exterior', desc: 'Sol directo matutino, brisa natural y variaciones térmicas', icon: 'sol_radiacion' as IconName },
-      { name: 'Dormitorio Zen', desc: 'Luz media difusa sin corrientes • Humedad estable', icon: 'sol_radiacion' as IconName },
-      { name: 'Baño Tropical', desc: 'Humedad ambiental alta >70% • Ideal para Helechos y Marantas', icon: 'pulverizacion_spray' as IconName },
+      { name: 'Salón Luminoso', desc: '1.500 - 4.000 lux filtrados', icon: 'luz_natural' as IconName },
+      { name: 'Balcón Exterior', desc: 'Sol directo y brisa natural', icon: 'temperatura_termica' as IconName },
+      { name: 'Dormitorio Zen', desc: 'Luz media difusa sin corrientes', icon: 'humedad_vpd' as IconName },
+      { name: 'Baño Tropical', desc: 'Humedad ambiental alta >70%', icon: 'pulverizacion_spray' as IconName },
     ];
 
     return (
       <View style={styles.phasePage}>
-        <ScrollView
-          contentContainerStyle={styles.phaseScrollContent}
-          showsVerticalScrollIndicator={false}
-          bounces={false}
-        >
+        <View style={styles.phaseFixedContent}>
           <View style={styles.headerTextBlock}>
             <Text style={styles.tideMainTitle}>Configura tus{'\n'}microclimas</Text>
             <Text style={styles.tideSubTitle}>
@@ -605,48 +583,192 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             </Text>
           </View>
 
-          <View style={styles.verticalCardsStack}>
+          {/* GRID DE 2 COLUMNAS (4 PRESETS GLASSPHORPHISM) */}
+          <View style={styles.gridTwoColumns}>
             {spacePresets.map(sp => {
               const isSelected = state.spaces.includes(sp.name);
               return (
                 <TouchableOpacity
                   key={sp.name}
                   style={[
-                    styles.verticalSpaciousCard,
-                    isSelected ? styles.verticalSpaciousCardSelected : styles.verticalSpaciousCardUnselected,
+                    styles.gridGlassCard,
+                    isSelected ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
                   ]}
                   onPress={() => toggleSpace(sp.name)}
                   activeOpacity={0.82}
                 >
-                  <View style={styles.verticalCardTopRow}>
-                    <View style={[styles.iconHaloSquircle, isSelected && styles.iconHaloSquircleSelected]}>
+                  {!isSelected && (
+                    <LinearGradient
+                      colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={StyleSheet.absoluteFill}
+                      pointerEvents="none"
+                    />
+                  )}
+
+                  <View style={styles.gridCardTopRow}>
+                    <View style={styles.cleanIconWrap}>
                       <TreegohIcon
                         name={sp.icon}
-                        size={28}
-                        color={isSelected ? '#121A15' : '#84A98C'}
+                        size={30}
+                        color={isSelected ? '#121A15' : '#EAF4ED'}
                       />
                     </View>
-                    <View style={[styles.cardSelectionIndicator, isSelected && styles.cardSelectionIndicatorActive]}>
+                    <View style={[styles.gridCheckCircle, isSelected && styles.gridCheckCircleSelected]}>
                       {isSelected ? (
-                        <TreegohIcon name="tarea_completada" size={16} color="#121A15" />
+                        <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
                       ) : (
-                        <View style={styles.cardRadioEmpty} />
+                        <View style={styles.gridRadioDotEmpty} />
                       )}
                     </View>
                   </View>
 
-                  <Text style={[styles.verticalCardTitle, isSelected && styles.verticalCardTitleSelected]}>
-                    {sp.name}
-                  </Text>
-                  <Text style={[styles.verticalCardSub, isSelected && styles.verticalCardSubSelected]}>
-                    {sp.desc}
-                  </Text>
+                  <View style={styles.gridCardTextWrap}>
+                    <Text style={[styles.gridCardTitle, isSelected && styles.gridCardTitleSelected]} numberOfLines={2}>
+                      {sp.name}
+                    </Text>
+                    <Text style={[styles.gridCardSub, isSelected && styles.gridCardSubSelected]} numberOfLines={2}>
+                      {sp.desc}
+                    </Text>
+                  </View>
                 </TouchableOpacity>
               );
             })}
           </View>
 
-          <View style={styles.phaseBottomSticky}>
+          <View style={styles.phaseBottomStickyFixed}>
+            <TouchableOpacity
+              style={styles.btnTideGlassPrimary}
+              onPress={nextStep}
+              activeOpacity={0.85}
+            >
+              <Text style={styles.btnTideGlassPrimaryText}>Continuar con estos espacios</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </View>
+    );
+  };
+
+  // FASE 5: SEGURIDAD EN EL HOGAR (2 COLUMNAS SIDE-BY-SIDE GLASSPHORPHISM, SIN SCROLL)
+  const renderScreen5 = () => {
+    const hasPets = state.safetyFilter.hasPets;
+    return (
+      <View style={styles.phasePage}>
+        <View style={styles.phaseFixedContent}>
+          <View style={styles.headerTextBlock}>
+            <Text style={styles.tideMainTitle}>Seguridad en{'\n'}el hogar</Text>
+            <Text style={styles.tideSubTitle}>
+              Filtramos especies con savia urticante o cristales de oxalato cálcico según tu convivencia.
+            </Text>
+          </View>
+
+          <View style={styles.gridTwoColumns}>
+            {/* Opción 1: Con mascotas */}
+            <TouchableOpacity
+              style={[
+                styles.gridGlassCardSafety,
+                hasPets ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
+              ]}
+              activeOpacity={0.85}
+              onPress={() => {
+                triggerHaptic();
+                setState(prev => ({
+                  ...prev,
+                  safetyFilter: { ...prev.safetyFilter, hasPets: true },
+                }));
+              }}
+            >
+              {!hasPets && (
+                <LinearGradient
+                  colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
+                  style={StyleSheet.absoluteFill}
+                  pointerEvents="none"
+                />
+              )}
+              <View style={styles.gridCardTopRow}>
+                <View style={styles.cleanIconWrap}>
+                  <TreegohIcon
+                    name="toxicidad_mascotas"
+                    size={32}
+                    color={hasPets ? '#121A15' : '#EAF4ED'}
+                  />
+                </View>
+                <View style={[styles.gridCheckCircle, hasPets && styles.gridCheckCircleSelected]}>
+                  {hasPets ? (
+                    <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
+                  ) : (
+                    <View style={styles.gridRadioDotEmpty} />
+                  )}
+                </View>
+              </View>
+
+              <View style={styles.gridCardTextWrap}>
+                <Text style={[styles.gridCardTitle, hasPets && styles.gridCardTitleSelected]} numberOfLines={2}>
+                  Con animales de compañía
+                </Text>
+                <Text style={[styles.gridCardSub, hasPets && styles.gridCardSubSelected]} numberOfLines={3}>
+                  Filtro estricto ASPCA: especies 100% no tóxicas para perros y gatos.
+                </Text>
+              </View>
+            </TouchableOpacity>
+
+            {/* Opción 2: Sin mascotas / Coleccionista */}
+            <TouchableOpacity
+              style={[
+                styles.gridGlassCardSafety,
+                !hasPets ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
+              ]}
+              activeOpacity={0.85}
+              onPress={() => {
+                triggerHaptic();
+                setState(prev => ({
+                  ...prev,
+                  safetyFilter: { ...prev.safetyFilter, hasPets: false },
+                }));
+              }}
+            >
+              {hasPets && (
+                <LinearGradient
+                  colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
+                  style={StyleSheet.absoluteFill}
+                  pointerEvents="none"
+                />
+              )}
+              <View style={styles.gridCardTopRow}>
+                <View style={styles.cleanIconWrap}>
+                  <TreegohIcon
+                    name="floracion_fenologia"
+                    size={32}
+                    color={!hasPets ? '#121A15' : '#EAF4ED'}
+                  />
+                </View>
+                <View style={[styles.gridCheckCircle, !hasPets && styles.gridCheckCircleSelected]}>
+                  {!hasPets ? (
+                    <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
+                  ) : (
+                    <View style={styles.gridRadioDotEmpty} />
+                  )}
+                </View>
+              </View>
+
+              <View style={styles.gridCardTextWrap}>
+                <Text style={[styles.gridCardTitle, !hasPets && styles.gridCardTitleSelected]} numberOfLines={2}>
+                  Sin mascotas (Coleccionista)
+                </Text>
+                <Text style={[styles.gridCardSub, !hasPets && styles.gridCardSubSelected]} numberOfLines={3}>
+                  Catálogo botánico total: 170+ especies sin restricciones.
+                </Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+
+          <View style={styles.phaseBottomStickyFixed}>
             <TouchableOpacity
               style={styles.btnTideGlassPrimary}
               onPress={nextStep}
@@ -655,140 +777,10 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
               <Text style={styles.btnTideGlassPrimaryText}>Continuar</Text>
             </TouchableOpacity>
           </View>
-        </ScrollView>
+        </View>
       </View>
     );
   };
-
-  // FASE 5: SEGURIDAD VITAL (CARDS VERTICALES GENEROSAS)
-  const renderScreen5 = () => (
-    <View style={styles.phasePage}>
-      <ScrollView
-        contentContainerStyle={styles.phaseScrollContent}
-        showsVerticalScrollIndicator={false}
-        bounces={false}
-      >
-        <View style={styles.headerTextBlock}>
-          <Text style={styles.tideMainTitle}>Seguridad en{'\n'}el hogar</Text>
-          <Text style={styles.tideSubTitle}>
-            Filtramos especies con savia urticante o cristales de oxalato cálcico según tu convivencia.
-          </Text>
-        </View>
-
-        <View style={styles.safetyCardsVerticalStack}>
-          {/* Card 1: Hogar con Mascotas */}
-          <TouchableOpacity
-            style={[
-              styles.safetyVerticalCard,
-              state.safetyFilter.hasPets ? styles.safetyVerticalCardSelected : styles.safetyVerticalCardUnselected,
-            ]}
-            activeOpacity={0.85}
-            onPress={() => {
-              triggerHaptic();
-              setState(prev => ({
-                ...prev,
-                safetyFilter: { ...prev.safetyFilter, hasPets: !prev.safetyFilter.hasPets },
-              }));
-            }}
-          >
-            <View style={styles.safetyCardTopRow}>
-              <View
-                style={[
-                  styles.iconHaloSquircle,
-                  state.safetyFilter.hasPets && styles.iconHaloSquircleSelected,
-                ]}
-              >
-                <TreegohIcon
-                  name="toxicidad_mascotas"
-                  size={30}
-                  color={state.safetyFilter.hasPets ? '#121A15' : '#84A98C'}
-                />
-              </View>
-              <View style={[styles.safetyBadgePill, state.safetyFilter.hasPets && styles.safetyBadgePillActive]}>
-                <Text style={[styles.safetyBadgePillText, state.safetyFilter.hasPets && styles.safetyBadgePillTextActive]}>
-                  {state.safetyFilter.hasPets ? 'Filtro Activado' : 'Filtro Opcional'}
-                </Text>
-              </View>
-            </View>
-
-            <Text style={[styles.safetyCardTitle, state.safetyFilter.hasPets && styles.safetyCardTitleSelected]}>
-              Hogar con animales de compañía
-            </Text>
-            <Text style={[styles.safetyCardBody, state.safetyFilter.hasPets && styles.safetyCardBodySelected]}>
-              Filtro estricto ASPCA: catálogo exclusivo de especies no tóxicas para perros y gatos curiosos (Calatheas, Helechos, Marantas y Peperomias).
-            </Text>
-
-            <View style={styles.safetyTraitRow}>
-              <TreegohIcon name="tarea_completada" size={15} color={state.safetyFilter.hasPets ? '#52796F' : '#84A98C'} />
-              <Text style={[styles.safetyTraitLabel, state.safetyFilter.hasPets && { color: '#354F52' }]}>
-                Inocuidad gástrica comprobada
-              </Text>
-            </View>
-          </TouchableOpacity>
-
-          {/* Card 2: Espacio Libre / Coleccionista */}
-          <TouchableOpacity
-            style={[
-              styles.safetyVerticalCard,
-              !state.safetyFilter.hasPets ? styles.safetyVerticalCardSelected : styles.safetyVerticalCardUnselected,
-            ]}
-            activeOpacity={0.85}
-            onPress={() => {
-              triggerHaptic();
-              setState(prev => ({
-                ...prev,
-                safetyFilter: { ...prev.safetyFilter, hasPets: false },
-              }));
-            }}
-          >
-            <View style={styles.safetyCardTopRow}>
-              <View
-                style={[
-                  styles.iconHaloSquircle,
-                  !state.safetyFilter.hasPets && styles.iconHaloSquircleSelected,
-                ]}
-              >
-                <TreegohIcon
-                  name="floracion_fenologia"
-                  size={30}
-                  color={!state.safetyFilter.hasPets ? '#121A15' : '#84A98C'}
-                />
-              </View>
-              <View style={[styles.safetyBadgePill, !state.safetyFilter.hasPets && styles.safetyBadgePillActive]}>
-                <Text style={[styles.safetyBadgePillText, !state.safetyFilter.hasPets && styles.safetyBadgePillTextActive]}>
-                  Acceso Total
-                </Text>
-              </View>
-            </View>
-
-            <Text style={[styles.safetyCardTitle, !state.safetyFilter.hasPets && styles.safetyCardTitleSelected]}>
-              Espacio sin animales (Coleccionista)
-            </Text>
-            <Text style={[styles.safetyCardBody, !state.safetyFilter.hasPets && styles.safetyCardBodySelected]}>
-              Desbloquea todo el catálogo sin restricciones: Monsteras majestuosas, Filodendros exóticos, Alocasias y Ficus de gran porte.
-            </Text>
-
-            <View style={styles.safetyTraitRow}>
-              <TreegohIcon name="tarea_completada" size={15} color={!state.safetyFilter.hasPets ? '#52796F' : '#84A98C'} />
-              <Text style={[styles.safetyTraitLabel, !state.safetyFilter.hasPets && { color: '#354F52' }]}>
-                170+ especies botánicas habilitadas
-              </Text>
-            </View>
-          </TouchableOpacity>
-        </View>
-
-        <View style={styles.phaseBottomSticky}>
-          <TouchableOpacity
-            style={styles.btnTideGlassPrimary}
-            onPress={nextStep}
-            activeOpacity={0.85}
-          >
-            <Text style={styles.btnTideGlassPrimaryText}>Continuar</Text>
-          </TouchableOpacity>
-        </View>
-      </ScrollView>
-    </View>
-  );
 
   // FASE 6: RESONANCIA BOTÁNICA & ASIGNACIÓN DE AVATAR BOTÁNICO ALEATORIO (SIN SÍMBOLOS «»)
   const renderScreen6 = () => (
@@ -940,25 +932,26 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
         <View style={styles.videoIntroDarkOverlay} />
       </View>
 
-      {/* FONDO OSCURO BOTÁNICO AMBIENTAL PARA PASOS 2 A 6 (ESTILO TIDE ATMOSFÉRICO) */}
+      {/* FONDO BOTÁNICO AMBIENTAL TIDE (50% MÁS CLARO, LUMINOSO FOREST-SAGE) */}
       {step > 1 && step < 7 && (
         <View style={styles.videoAbsoluteContainer} pointerEvents="none">
           <LinearGradient
-            colors={['#0F1612', '#15201A', '#1D2D23', '#111813']}
+            colors={['#24372B', '#2E4436', '#3A5745', '#283B2E']}
             locations={[0, 0.35, 0.7, 1]}
             start={{ x: 0.1, y: 0 }}
             end={{ x: 0.85, y: 0.95 }}
             style={styles.videoAbsoluteContainer}
           />
-          {/* Velo de resplandor difuso botánico */}
+          {/* Velo de resplandor difuso botánico luminoso */}
           <LinearGradient
-            colors={['rgba(82, 121, 111, 0.32)', 'transparent', 'rgba(132, 169, 140, 0.18)']}
-            start={{ x: 0.9, y: 0.1 }}
-            end={{ x: 0.1, y: 0.9 }}
+            colors={['rgba(132, 169, 140, 0.40)', 'transparent', 'rgba(163, 201, 168, 0.28)']}
+            start={{ x: 0.85, y: 0.05 }}
+            end={{ x: 0.15, y: 0.95 }}
             style={styles.videoAbsoluteContainer}
           />
+          {/* Suave viñeta de profundidad */}
           <LinearGradient
-            colors={['rgba(0, 0, 0, 0.25)', 'transparent', 'rgba(0, 0, 0, 0.55)']}
+            colors={['rgba(0, 0, 0, 0.05)', 'transparent', 'rgba(18, 28, 20, 0.30)']}
             start={{ x: 0.5, y: 0 }}
             end={{ x: 0.5, y: 1 }}
             style={styles.videoAbsoluteContainer}
@@ -1047,9 +1040,165 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
 };
 
 const styles = StyleSheet.create({
+  // CONTENIDO FIJO SIN SCROLL INNECESARIO
+  phaseFixedContent: {
+    flex: 1,
+    paddingHorizontal: 20,
+    paddingTop: Spacing.sm,
+    paddingBottom: Spacing.md,
+    justifyContent: 'space-between',
+  },
+  phaseBottomStickyFixed: {
+    paddingTop: 8,
+    paddingBottom: 10,
+  },
+  // GRID DE 2 COLUMNAS GLASSPHORPHISM
+  gridTwoColumns: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 12,
+    justifyContent: 'space-between',
+    marginVertical: 4,
+  },
+  gridGlassCard: {
+    width: (width - 40 - 12) / 2,
+    height: 164,
+    borderRadius: 22,
+    padding: 16,
+    justifyContent: 'space-between',
+    overflow: 'hidden',
+    position: 'relative',
+  },
+  gridGlassCardSafety: {
+    width: (width - 40 - 12) / 2,
+    height: 205,
+    borderRadius: 22,
+    padding: 16,
+    justifyContent: 'space-between',
+    overflow: 'hidden',
+    position: 'relative',
+  },
+  gridGlassCardUnselected: {
+    backgroundColor: 'rgba(255, 255, 255, 0.10)',
+    borderWidth: 1.2,
+    borderColor: 'rgba(255, 255, 255, 0.22)',
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.16,
+    shadowRadius: 10,
+  },
+  gridGlassCardSelected: {
+    backgroundColor: '#E8EFE7',
+    borderWidth: 1.2,
+    borderColor: '#FFFFFF',
+    shadowColor: '#84A98C',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.35,
+    shadowRadius: 14,
+  },
+  gridCardTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  cleanIconWrap: {
+    width: 36,
+    height: 36,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  gridCheckCircle: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1.5,
+    borderColor: 'rgba(255, 255, 255, 0.35)',
+    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  gridCheckCircleSelected: {
+    backgroundColor: '#C5D6C6',
+    borderColor: '#121A15',
+  },
+  gridRadioDotEmpty: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: 'transparent',
+  },
+  gridCardTextWrap: {
+    gap: 4,
+  },
+  gridCardTitle: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: '#FFFFFF',
+    letterSpacing: -0.2,
+    lineHeight: 19,
+  },
+  gridCardTitleSelected: {
+    color: '#121A15',
+  },
+  gridCardSub: {
+    fontSize: 11,
+    lineHeight: 15,
+    color: 'rgba(255, 255, 255, 0.68)',
+    fontWeight: '400',
+  },
+  gridCardSubSelected: {
+    color: '#3B4E41',
+  },
+  // COMPACT CARDS PARA PASO 3 (SIN SCROLL)
+  compactCardsStack: {
+    gap: 12,
+    marginVertical: 4,
+  },
+  compactGlassCard: {
+    borderRadius: 22,
+    padding: 18,
+    backgroundColor: 'rgba(255, 255, 255, 0.10)',
+    borderWidth: 1.2,
+    borderColor: 'rgba(255, 255, 255, 0.22)',
+    overflow: 'hidden',
+    position: 'relative',
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.16,
+    shadowRadius: 10,
+  },
+  compactCardTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  compactBadgeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    marginTop: 10,
+  },
+  waterPillBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: 'rgba(255, 255, 255, 0.12)',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
+  },
+  waterPillBadgeText: {
+    fontSize: 12,
+    color: '#EAF4ED',
+    fontWeight: '500',
+  },
+
   screenRoot: {
     flex: 1,
-    backgroundColor: '#0F1612',
+    backgroundColor: '#203126',
   },
   safeAreaRoot: {
     flex: 1,

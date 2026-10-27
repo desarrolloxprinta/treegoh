@@ -175,6 +175,36 @@ export const TreegohIcon: React.FC<TreegohIconProps> = ({
         </Svg>
       );
 
+    case 'tarea_completada':
+      return (
+        <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+          <Polyline points="20 6 9 17 4 12" stroke={color} strokeWidth={strokeWidth + 0.6} strokeLinecap="round" strokeLinejoin="round" />
+        </Svg>
+      );
+
+    case 'humedad_vpd':
+      return (
+        <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+          <Path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" stroke={color} strokeWidth={strokeWidth} fill={variant === 'solido' ? color : 'none'} strokeLinejoin="round" />
+          <Path d="M8 14a4 4 0 0 0 4 4" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+        </Svg>
+      );
+
+    case 'pulverizacion_spray':
+      return (
+        <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+          <Path d="M12 3v4M8 7h8v12a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V7z" stroke={color} strokeWidth={strokeWidth} strokeLinejoin="round" fill={variant === 'solido' ? color : 'none'} />
+          <Path d="M6 7l-2 2M18 7l2 2M16 4h3" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" />
+        </Svg>
+      );
+
+    case 'escudo_fitosanitario':
+      return (
+        <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+          <Path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke={color} strokeWidth={strokeWidth} strokeLinejoin="round" fill={variant === 'solido' ? color : 'none'} />
+        </Svg>
+      );
+
     default:
       return (
         <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
