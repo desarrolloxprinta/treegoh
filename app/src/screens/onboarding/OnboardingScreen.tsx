@@ -20,7 +20,7 @@ import { TreegohLogo } from '../../components/TreegohLogo';
 import { TreegohIcon, IconName } from '../../components/TreegohIcon';
 import { MicroclimateStudioModal } from '../../components/MicroclimateStudioModal';
 import * as Location from 'expo-location';
-import { OnboardingState, CustomMicroclimate } from '../../types/onboarding';
+import { OnboardingState, CustomMicroclimate, PetType } from '../../types/onboarding';
 import { BotanicalAvatar, getRandomBotanicalAvatar } from '../../constants/botanicalAvatars';
 
 const { width, height } = Dimensions.get('window');
@@ -82,6 +82,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
     customMicroclimates: [],
     safetyFilter: {
       hasPets: true,
+      petTypes: ['gato'],
       hasChildren: false,
     },
     currentStep: 1,
@@ -640,8 +641,11 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
     </View>
   );
 
-  // FASE 5: CALIBRA TUS MICROCLIMAS (EL CORE DE TREEGOH: SENSORES + ESPACIOS)
+  // FASE 5: CALIBRA TUS MICROCLIMAS (CORE BOTÁNICO: CÁMARA IA & CALIBRADO PREDOMINANTE)
   const renderScreen5 = () => {
+    const hasCustom = state.customMicroclimates && state.customMicroclimates.length > 0;
+    const latestCustom = hasCustom ? state.customMicroclimates![state.customMicroclimates!.length - 1] : null;
+
     const defaultPresets = [
       { name: 'Salón Luminoso', desc: '1.500 - 4.000 lux filtrados', icon: 'luz_natural' as IconName },
       { name: 'Balcón Exterior', desc: 'Sol directo y brisa natural', icon: 'temperatura_termica' as IconName },
@@ -655,123 +659,168 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
           <View style={styles.headerTextBlock}>
             <Text style={styles.tideMainTitle}>Calibra tus{'\n'}microclimas</Text>
             <Text style={styles.tideSubTitle}>
-              El entorno decide si tu planta vive o muere. Selecciona tus espacios o calibra un rincón con brújula.
+              El entorno decide si tu planta vive o muere. Escanea tu espacio con la cámara IA para un diagnóstico biométrico exacto.
             </Text>
           </View>
 
-          {/* BOTÓN DESTACADO: ESTUDIO DE MICROCLIMA CON SENSORES */}
-          <TouchableOpacity
-            style={styles.customStudioBtn}
-            onPress={() => {
-              triggerHaptic();
-              setMicroclimateModalVisible(true);
-            }}
-            activeOpacity={0.85}
-          >
-            <LinearGradient
-              colors={['rgba(255, 255, 255, 0.22)', 'rgba(255, 255, 255, 0.06)']}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={StyleSheet.absoluteFill}
-              pointerEvents="none"
-            />
-            <View style={styles.studioIconBadge}>
-              <TreegohIcon name="espacios_microclimas" size={24} color="#121A15" />
-            </View>
-            <View style={{ flex: 1, marginLeft: 12 }}>
-              <View style={styles.studioPillRow}>
-                <Text style={styles.studioPillTag}>ESTUDIO GUIADO</Text>
-                <Text style={styles.studioPillTagNew}>BRÚJULA & LUX</Text>
-              </View>
-              <Text style={styles.studioBtnTitle}>Calibrar rincón con sensores</Text>
-              <Text style={styles.studioBtnSub}>
-                Mide orientación solar, distancia al cristal y fuentes de estrés.
-              </Text>
-            </View>
-            <Text style={styles.studioChevron}>›</Text>
-          </TouchableOpacity>
+          {/* SECCIÓN PREDOMINANTE: HERO ESTUDIO BOTÁNICO IA */}
+          {!hasCustom ? (
+            <TouchableOpacity
+              style={styles.heroStudioCard}
+              onPress={() => {
+                triggerHaptic();
+                setMicroclimateModalVisible(true);
+              }}
+              activeOpacity={0.88}
+            >
+              <LinearGradient
+                colors={['rgba(167, 243, 208, 0.25)', 'rgba(255, 255, 255, 0.06)']}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={StyleSheet.absoluteFill}
+                pointerEvents="none"
+              />
 
-          {/* LISTA DE RINCONES CALIBRADOS POR EL USUARIO */}
-          {state.customMicroclimates && state.customMicroclimates.length > 0 && (
-            <View style={styles.calibratedListContainer}>
-              <View style={styles.calibratedHeaderRow}>
-                <Text style={styles.calibratedHeaderTitle}>TUS RINCONES CALIBRADOS</Text>
-                <View style={styles.calibratedCardBadge}>
-                  <Text style={styles.calibratedCardBadgeText}>{state.customMicroclimates.length} ACTIVO(S)</Text>
+              <View style={styles.heroCardHeaderRow}>
+                <View style={styles.heroCorePill}>
+                  <TreegohIcon name="espacios_microclimas" size={14} color="#121A15" />
+                  <Text style={styles.heroCorePillText}>CORE BOTÁNICO TREEGOH</Text>
+                </View>
+                <View style={styles.heroNewPill}>
+                  <Text style={styles.heroNewPillText}>CÁMARA IA + BRÚJULA</Text>
                 </View>
               </View>
-              {state.customMicroclimates.map(cm => (
-                <View key={cm.id} style={styles.calibratedCard}>
-                  <View style={styles.calibratedCardLeft}>
-                    <View style={styles.calibratedCardTitleRow}>
-                      <Text style={styles.calibratedCardTitle}>{cm.name}</Text>
-                      <View style={styles.calibratedCardBadge}>
-                        <Text style={styles.calibratedCardBadgeText}>{cm.orientation} {cm.headingDegrees}°</Text>
-                      </View>
-                    </View>
-                    <Text style={styles.calibratedCardSub}>
-                      {cm.windowDistance} • ~{cm.estimatedLux.toLocaleString()} lux • {cm.directSunHours ? `${cm.directSunHours}h sol directo` : 'Luz difusa'}
-                    </Text>
-                    <Text style={styles.calibratedCardVerdict} numberOfLines={1}>
-                      ✦ {cm.verdict}
-                    </Text>
-                  </View>
-                  <View style={styles.calibratedScoreBadge}>
-                    <Text style={styles.calibratedScoreNum}>{cm.habitabilityScore}</Text>
-                    <Text style={styles.calibratedScoreLabel}>/100</Text>
-                  </View>
+
+              <Text style={styles.heroCardTitle}>Calibrar Rincón con Cámara IA</Text>
+              <Text style={styles.heroCardDesc}>
+                Apunta la cámara a tu ventana o espacio. La IA computa fotones (Lux), rumbo solar y fuentes de estrés térmico automáticamente.
+              </Text>
+
+              <View style={styles.heroPillFeaturesRow}>
+                <View style={styles.heroFeaturePill}>
+                  <Text style={styles.heroFeaturePillText}>📸 Visión Espacial</Text>
                 </View>
-              ))}
+                <View style={styles.heroFeaturePill}>
+                  <Text style={styles.heroFeaturePillText}>🧭 Rumbo Solar</Text>
+                </View>
+                <View style={styles.heroFeaturePill}>
+                  <Text style={styles.heroFeaturePillText}>💡 Sensor Lux PAR</Text>
+                </View>
+              </View>
+
+              <View style={styles.btnHeroCta}>
+                <TreegohIcon name="camara_diagnostica" size={18} color="#121A15" />
+                <Text style={styles.btnHeroCtaText}>Iniciar Escáner de Microclima</Text>
+              </View>
+            </TouchableOpacity>
+          ) : (
+            /* HERO CARD AMPLIA Y PREDOMINANTE CUANDO YA ESTÁ CALIBRADO */
+            <View style={styles.heroCalibratedCardWide}>
+              <LinearGradient
+                colors={['rgba(167, 243, 208, 0.22)', 'rgba(255, 255, 255, 0.08)']}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={StyleSheet.absoluteFill}
+                pointerEvents="none"
+              />
+
+              <View style={styles.heroCalibratedTopRow}>
+                <View style={{ flex: 1 }}>
+                  <View style={styles.heroCalibratedTagBadge}>
+                    <Text style={styles.heroCalibratedTagText}>RINCÓN CALIBRADO ACTIVO</Text>
+                  </View>
+                  <Text style={styles.heroCalibratedTitle}>{latestCustom?.name}</Text>
+                  <Text style={styles.heroCalibratedSubtitle}>
+                    🧭 Orientación {latestCustom?.orientation} ({latestCustom?.headingDegrees}°) • ~{latestCustom?.directSunHours || 5}h sol directo
+                  </Text>
+                </View>
+
+                <View style={styles.heroScoreCircle}>
+                  <Text style={styles.heroScoreVal}>{latestCustom?.habitabilityScore}</Text>
+                  <Text style={styles.heroScoreLabel}>/100</Text>
+                </View>
+              </View>
+
+              {/* MATRIZ DE MÉTRICAS AMBIENTALES */}
+              <View style={styles.heroMetricsGrid}>
+                <View style={styles.heroMetricBox}>
+                  <Text style={styles.heroMetricKey}>FOTONES PAR</Text>
+                  <Text style={styles.heroMetricValue}>~{latestCustom?.estimatedLux.toLocaleString()} Lux</Text>
+                </View>
+                <View style={styles.heroMetricBox}>
+                  <Text style={styles.heroMetricKey}>DISTANCIA</Text>
+                  <Text style={styles.heroMetricValue}>
+                    {latestCustom?.windowDistance === 'junto_a_ventana' ? '< 50 cm' : latestCustom?.windowDistance === 'media_distancia' ? '1.2 m' : '> 3 m'}
+                  </Text>
+                </View>
+                <View style={styles.heroMetricBox}>
+                  <Text style={styles.heroMetricKey}>ESTRÉS TÉRMICO</Text>
+                  <Text style={styles.heroMetricValue}>
+                    {latestCustom?.thermalRisks.nearRadiator ? 'Radiador cerca' : 'Seguro'}
+                  </Text>
+                </View>
+              </View>
+
+              <View style={styles.heroVerdictSnippet}>
+                <Text style={styles.heroVerdictText} numberOfLines={2}>
+                  {latestCustom?.verdict}
+                </Text>
+              </View>
+
+              {/* ESPECIES RECOMENDADAS */}
+              <View style={styles.heroSpeciesRow}>
+                {latestCustom?.recommendedSpecies.slice(0, 3).map((sp, idx) => (
+                  <View key={idx} style={styles.heroSpeciesChip}>
+                    <Text style={styles.heroSpeciesChipText}>🌿 {sp}</Text>
+                  </View>
+                ))}
+              </View>
+
+              {/* BOTÓN SECUNDARIO: AÑADIR OTRO RINCÓN */}
+              <TouchableOpacity
+                style={styles.btnCalibrateAnother}
+                onPress={() => {
+                  triggerHaptic();
+                  setMicroclimateModalVisible(true);
+                }}
+                activeOpacity={0.8}
+              >
+                <Text style={styles.btnCalibrateAnotherText}>+ Calibrar otro espacio con IA</Text>
+              </TouchableOpacity>
             </View>
           )}
 
-          {/* GRID DE 2 COLUMNAS (PRESETS GLASSPHORPHISM) */}
-          <View style={styles.gridTwoColumns}>
+          {/* DIVISOR Y PRESETS GENÉRICOS (SECUNDARIOS Y REDUCIDOS) */}
+          <View style={styles.presetsDividerRow}>
+            <View style={styles.dividerLine} />
+            <Text style={styles.presetsDividerText}>O PRESETS RÁPIDOS GENÉRICOS</Text>
+            <View style={styles.dividerLine} />
+          </View>
+
+          <View style={styles.gridTwoColumnsCompact}>
             {defaultPresets.map(sp => {
               const isSelected = state.spaces.includes(sp.name);
               return (
                 <TouchableOpacity
                   key={sp.name}
                   style={[
-                    styles.gridGlassCard,
+                    styles.gridGlassCardCompact,
                     isSelected ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
                   ]}
                   onPress={() => toggleSpace(sp.name)}
                   activeOpacity={0.82}
                 >
-                  {!isSelected && (
-                    <LinearGradient
-                      colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
-                      start={{ x: 0, y: 0 }}
-                      end={{ x: 1, y: 1 }}
-                      style={StyleSheet.absoluteFill}
-                      pointerEvents="none"
+                  <View style={styles.compactCardRow}>
+                    <TreegohIcon
+                      name={sp.icon}
+                      size={20}
+                      color={isSelected ? '#121A15' : '#EAF4ED'}
                     />
-                  )}
-
-                  <View style={styles.gridCardTopRow}>
-                    <View style={styles.cleanIconWrap}>
-                      <TreegohIcon
-                        name={sp.icon}
-                        size={30}
-                        color={isSelected ? '#121A15' : '#EAF4ED'}
-                      />
-                    </View>
-                    <View style={[styles.gridCheckCircle, isSelected && styles.gridCheckCircleSelected]}>
-                      {isSelected ? (
-                        <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
-                      ) : (
-                        <View style={styles.gridRadioDotEmpty} />
-                      )}
-                    </View>
-                  </View>
-
-                  <View style={styles.gridCardTextWrap}>
-                    <Text style={[styles.gridCardTitle, isSelected && styles.gridCardTitleSelected]} numberOfLines={2}>
+                    <Text
+                      style={[styles.compactCardTitle, isSelected && styles.gridCardTitleSelected]}
+                      numberOfLines={1}
+                    >
                       {sp.name}
-                    </Text>
-                    <Text style={[styles.gridCardSub, isSelected && styles.gridCardSubSelected]} numberOfLines={2}>
-                      {sp.desc}
                     </Text>
                   </View>
                 </TouchableOpacity>
@@ -793,9 +842,93 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
     );
   };
 
-  // FASE 6: SEGURIDAD EN EL HOGAR (2 COLUMNAS LADO A LADO)
+    // FASE 6: SEGURIDAD EN EL HOGAR (FILTRO DETALLADO POR TIPO DE MASCOTA)
   const renderScreen6 = () => {
-    const hasPets = state.safetyFilter.hasPets;
+    const petOptions: Array<{
+      type: PetType | 'ninguna';
+      name: string;
+      emoji: string;
+      behavior: string;
+      hazard: string;
+    }> = [
+      {
+        type: 'gato',
+        name: 'Gato (Felino)',
+        emoji: '🐱',
+        behavior: 'Trepa & mastica puntas',
+        hazard: 'Filtra Lirios (letales), Pothos y Monstera.',
+      },
+      {
+        type: 'perro',
+        name: 'Perro (Canino)',
+        emoji: '🐶',
+        behavior: 'Macetas bajas & raíces',
+        hazard: 'Filtra Ficus, Cycas, bulbos de Amaryllis y hojas secas.',
+      },
+      {
+        type: 'ave',
+        name: 'Ave o Loro',
+        emoji: '🦜',
+        behavior: 'Picoteo aéreo & pulmón sensible',
+        hazard: 'Filtra plantas con terpenos intensos y savia volátil.',
+      },
+      {
+        type: 'reptil',
+        name: 'Reptil o Tortuga',
+        emoji: '🐢',
+        behavior: 'Herbívoros terrestres a ras',
+        hazard: 'Filtra Euforbiáceas y suculentas cáusticas.',
+      },
+      {
+        type: 'roedor',
+        name: 'Conejo o Roedor',
+        emoji: '🐰',
+        behavior: 'Roen tallos tiernos y leñosos',
+        hazard: 'Filtra Dieffenbachia, hiedras y látex tóxico.',
+      },
+      {
+        type: 'ninguna',
+        name: 'Sin Mascotas',
+        emoji: '🌿',
+        behavior: 'Coleccionismo libre',
+        hazard: 'Acceso total a las 170+ especies sin filtro ASPCA.',
+      },
+    ];
+
+    const currentPetTypes = state.safetyFilter.petTypes || [];
+    const isNoneSelected = !state.safetyFilter.hasPets || currentPetTypes.length === 0;
+
+    const togglePetOption = (type: PetType | 'ninguna') => {
+      triggerHaptic();
+      if (type === 'ninguna') {
+        setState(prev => ({
+          ...prev,
+          safetyFilter: {
+            hasPets: false,
+            petTypes: [],
+            hasChildren: prev.safetyFilter.hasChildren,
+          },
+        }));
+        return;
+      }
+
+      const exists = currentPetTypes.includes(type);
+      let updated: PetType[];
+      if (exists) {
+        updated = currentPetTypes.filter(t => t !== type);
+      } else {
+        updated = [...currentPetTypes, type];
+      }
+
+      setState(prev => ({
+        ...prev,
+        safetyFilter: {
+          hasPets: updated.length > 0,
+          petTypes: updated,
+          hasChildren: prev.safetyFilter.hasChildren,
+        },
+      }));
+    };
 
     return (
       <View style={styles.phasePage}>
@@ -803,112 +936,70 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
           <View style={styles.headerTextBlock}>
             <Text style={styles.tideMainTitle}>Seguridad en{'\n'}el hogar</Text>
             <Text style={styles.tideSubTitle}>
-              Filtramos especies con savia urticante o cristales de oxalato cálcico según tu convivencia.
+              Un gato trepa y un perro excava: cada animal interactúa distinto con la botánica. Selecciona quién convive contigo.
             </Text>
           </View>
 
-          <View style={styles.gridTwoColumns}>
-            {/* Opción 1: Con mascotas */}
-            <TouchableOpacity
-              style={[
-                styles.gridGlassCardSafety,
-                hasPets ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
-              ]}
-              activeOpacity={0.85}
-              onPress={() => {
-                triggerHaptic();
-                setState(prev => ({
-                  ...prev,
-                  safetyFilter: { ...prev.safetyFilter, hasPets: true },
-                }));
-              }}
-            >
-              {!hasPets && (
-                <LinearGradient
-                  colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
-                  start={{ x: 0, y: 0 }}
-                  end={{ x: 1, y: 1 }}
-                  style={StyleSheet.absoluteFill}
-                  pointerEvents="none"
-                />
-              )}
-              <View style={styles.gridCardTopRow}>
-                <View style={styles.cleanIconWrap}>
-                  <TreegohIcon
-                    name="toxicidad_mascotas"
-                    size={32}
-                    color={hasPets ? '#121A15' : '#EAF4ED'}
-                  />
-                </View>
-                <View style={[styles.gridCheckCircle, hasPets && styles.gridCheckCircleSelected]}>
-                  {hasPets ? (
-                    <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
-                  ) : (
-                    <View style={styles.gridRadioDotEmpty} />
+          {/* MATRIZ DE MASCOTAS (2 COLUMNAS) */}
+          <View style={styles.gridPetsTwoColumns}>
+            {petOptions.map(opt => {
+              const isSelected = opt.type === 'ninguna' ? isNoneSelected : currentPetTypes.includes(opt.type);
+
+              return (
+                <TouchableOpacity
+                  key={opt.type}
+                  style={[
+                    styles.petGlassCard,
+                    isSelected ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
+                  ]}
+                  activeOpacity={0.85}
+                  onPress={() => togglePetOption(opt.type)}
+                >
+                  {!isSelected && (
+                    <LinearGradient
+                      colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={StyleSheet.absoluteFill}
+                      pointerEvents="none"
+                    />
                   )}
-                </View>
-              </View>
 
-              <View style={styles.gridCardTextWrap}>
-                <Text style={[styles.gridCardTitle, hasPets && styles.gridCardTitleSelected]} numberOfLines={2}>
-                  Con animales de compañía
-                </Text>
-                <Text style={[styles.gridCardSub, hasPets && styles.gridCardSubSelected]} numberOfLines={3}>
-                  Filtro estricto ASPCA: especies 100% no tóxicas para perros y gatos.
-                </Text>
-              </View>
-            </TouchableOpacity>
+                  <View style={styles.petCardTopRow}>
+                    <View style={styles.petEmojiWrap}>
+                      <Text style={styles.petEmojiText}>{opt.emoji}</Text>
+                    </View>
+                    <View style={[styles.gridCheckCircle, isSelected && styles.gridCheckCircleSelected]}>
+                      {isSelected ? (
+                        <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
+                      ) : (
+                        <View style={styles.gridRadioDotEmpty} />
+                      )}
+                    </View>
+                  </View>
 
-            {/* Opción 2: Sin mascotas / Coleccionista */}
-            <TouchableOpacity
-              style={[
-                styles.gridGlassCardSafety,
-                !hasPets ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
-              ]}
-              activeOpacity={0.85}
-              onPress={() => {
-                triggerHaptic();
-                setState(prev => ({
-                  ...prev,
-                  safetyFilter: { ...prev.safetyFilter, hasPets: false },
-                }));
-              }}
-            >
-              {hasPets && (
-                <LinearGradient
-                  colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
-                  start={{ x: 0, y: 0 }}
-                  end={{ x: 1, y: 1 }}
-                  style={StyleSheet.absoluteFill}
-                  pointerEvents="none"
-                />
-              )}
-              <View style={styles.gridCardTopRow}>
-                <View style={styles.cleanIconWrap}>
-                  <TreegohIcon
-                    name="floracion_fenologia"
-                    size={32}
-                    color={!hasPets ? '#121A15' : '#EAF4ED'}
-                  />
-                </View>
-                <View style={[styles.gridCheckCircle, !hasPets && styles.gridCheckCircleSelected]}>
-                  {!hasPets ? (
-                    <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
-                  ) : (
-                    <View style={styles.gridRadioDotEmpty} />
-                  )}
-                </View>
-              </View>
+                  <Text style={[styles.petCardTitle, isSelected && styles.gridCardTitleSelected]} numberOfLines={1}>
+                    {opt.name}
+                  </Text>
+                  <Text style={[styles.petCardBehavior, isSelected && styles.petCardBehaviorSelected]} numberOfLines={1}>
+                    {opt.behavior}
+                  </Text>
+                  <Text style={[styles.petCardHazard, isSelected && styles.petCardHazardSelected]} numberOfLines={2}>
+                    {opt.hazard}
+                  </Text>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
 
-              <View style={styles.gridCardTextWrap}>
-                <Text style={[styles.gridCardTitle, !hasPets && styles.gridCardTitleSelected]} numberOfLines={2}>
-                  Sin mascotas (Coleccionista)
-                </Text>
-                <Text style={[styles.gridCardSub, !hasPets && styles.gridCardSubSelected]} numberOfLines={3}>
-                  Catálogo botánico total: 170+ especies sin restricciones.
-                </Text>
-              </View>
-            </TouchableOpacity>
+          {/* CHIP DE RESUMEN TOXICOLÓGICO */}
+          <View style={styles.safetyStatusBanner}>
+            <TreegohIcon name="escudo_fitosanitario" size={18} color="#A7F3D0" />
+            <Text style={styles.safetyStatusText}>
+              {state.safetyFilter.hasPets
+                ? `Filtro ASPCA activo para ${currentPetTypes.join(', ')}: bloqueando especies con savia urticante u oxalatos.`
+                : 'Modo Coleccionista libre: acceso completo a las 170+ especies del vivero Treegoh.'}
+            </Text>
           </View>
 
           <View style={styles.phaseBottomStickyFixed}>
@@ -917,7 +1008,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
               onPress={nextStep}
               activeOpacity={0.85}
             >
-              <Text style={styles.btnTideGlassPrimaryText}>Continuar</Text>
+              <Text style={styles.btnTideGlassPrimaryText}>Continuar con esta configuración</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -925,7 +1016,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
     );
   };
 
-  // FASE 7: RESONANCIA BOTÁNICA, ASIGNACIÓN DE AVATAR Y ENTRADA AL SANTUARIO
+    // FASE 7: RESONANCIA BOTÁNICA, ASIGNACIÓN DE AVATAR Y ENTRADA AL SANTUARIO
   const renderScreen7 = () => (
     <View style={styles.phasePage}>
       <View style={styles.characterPhaseWrapper}>
@@ -1784,5 +1875,331 @@ const styles = StyleSheet.create({
     fontSize: 9,
     fontWeight: '700',
     color: '#121A15',
+  },
+  gridPetsTwoColumns: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    rowGap: 10,
+    marginTop: 8,
+  },
+  petGlassCard: {
+    width: '48.5%',
+    minHeight: 115,
+    borderRadius: 20,
+    padding: 12,
+    borderWidth: 1.5,
+    justifyContent: 'space-between',
+    overflow: 'hidden',
+  },
+  petCardTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  petEmojiWrap: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  petEmojiText: {
+    fontSize: 18,
+  },
+  petCardTitle: {
+    fontSize: 13,
+    fontWeight: '800',
+    color: '#FFFFFF',
+    marginBottom: 2,
+  },
+  petCardBehavior: {
+    fontSize: 10,
+    fontWeight: '700',
+    color: '#A7F3D0',
+    marginBottom: 4,
+  },
+  petCardBehaviorSelected: {
+    color: '#2D6A4F',
+  },
+  petCardHazard: {
+    fontSize: 10,
+    color: 'rgba(255, 255, 255, 0.75)',
+    lineHeight: 13,
+  },
+  petCardHazardSelected: {
+    color: '#243A2C',
+  },
+  safetyStatusBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: 'rgba(255, 255, 255, 0.12)',
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: 'rgba(167, 243, 208, 0.35)',
+    marginVertical: 10,
+  },
+  safetyStatusText: {
+    flex: 1,
+    fontSize: 11,
+    fontWeight: '600',
+    color: '#EAF4ED',
+    lineHeight: 15,
+  },
+  heroStudioCard: {
+    backgroundColor: 'rgba(255, 255, 255, 0.14)',
+    borderRadius: 24,
+    padding: 18,
+    borderWidth: 1.5,
+    borderColor: '#A7F3D0',
+    overflow: 'hidden',
+    shadowColor: '#A7F3D0',
+    shadowOpacity: 0.25,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 4 },
+  },
+  heroCardHeaderRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  heroCorePill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: '#A7F3D0',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  heroCorePillText: {
+    fontSize: 10,
+    fontWeight: '800',
+    color: '#121A15',
+    letterSpacing: 0.8,
+  },
+  heroNewPill: {
+    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 10,
+  },
+  heroNewPillText: {
+    fontSize: 9,
+    fontWeight: '700',
+    color: '#EAF4ED',
+  },
+  heroCardTitle: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#FFFFFF',
+    marginBottom: 4,
+  },
+  heroCardDesc: {
+    fontSize: 12,
+    color: 'rgba(255, 255, 255, 0.82)',
+    lineHeight: 16,
+    marginBottom: 10,
+  },
+  heroPillFeaturesRow: {
+    flexDirection: 'row',
+    gap: 6,
+    marginBottom: 12,
+  },
+  heroFeaturePill: {
+    backgroundColor: 'rgba(255, 255, 255, 0.12)',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+  },
+  heroFeaturePillText: {
+    fontSize: 10,
+    fontWeight: '700',
+    color: '#EAF4ED',
+  },
+  btnHeroCta: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: '#E8EFE7',
+    paddingVertical: 12,
+    borderRadius: 18,
+  },
+  btnHeroCtaText: {
+    fontSize: 13,
+    fontWeight: '800',
+    color: '#121A15',
+  },
+  heroCalibratedCardWide: {
+    backgroundColor: 'rgba(255, 255, 255, 0.14)',
+    borderRadius: 24,
+    padding: 16,
+    borderWidth: 2,
+    borderColor: '#A7F3D0',
+    overflow: 'hidden',
+    shadowColor: '#A7F3D0',
+    shadowOpacity: 0.35,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 4 },
+  },
+  heroCalibratedTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  heroCalibratedTagBadge: {
+    alignSelf: 'flex-start',
+    backgroundColor: 'rgba(167, 243, 208, 0.25)',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 8,
+    marginBottom: 4,
+  },
+  heroCalibratedTagText: {
+    fontSize: 9,
+    fontWeight: '800',
+    color: '#A7F3D0',
+    letterSpacing: 0.8,
+  },
+  heroCalibratedTitle: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#FFFFFF',
+  },
+  heroCalibratedSubtitle: {
+    fontSize: 11,
+    color: 'rgba(255, 255, 255, 0.8)',
+    marginTop: 2,
+  },
+  heroScoreCircle: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#A7F3D0',
+    width: 58,
+    height: 58,
+    borderRadius: 29,
+  },
+  heroScoreVal: {
+    fontSize: 22,
+    fontWeight: '900',
+    color: '#121A15',
+    lineHeight: 24,
+  },
+  heroScoreLabel: {
+    fontSize: 9,
+    fontWeight: '800',
+    color: '#121A15',
+  },
+  heroMetricsGrid: {
+    flexDirection: 'row',
+    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    borderRadius: 14,
+    padding: 10,
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  heroMetricBox: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  heroMetricKey: {
+    fontSize: 9,
+    color: 'rgba(255, 255, 255, 0.65)',
+    fontWeight: '700',
+  },
+  heroMetricValue: {
+    fontSize: 11,
+    fontWeight: '800',
+    color: '#FFFFFF',
+    marginTop: 2,
+  },
+  heroVerdictSnippet: {
+    backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    borderRadius: 10,
+    padding: 8,
+    marginBottom: 8,
+  },
+  heroVerdictText: {
+    fontSize: 11,
+    color: '#EAF4ED',
+    lineHeight: 15,
+    fontStyle: 'italic',
+  },
+  heroSpeciesRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 6,
+    marginBottom: 10,
+  },
+  heroSpeciesChip: {
+    backgroundColor: 'rgba(255, 255, 255, 0.12)',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 10,
+  },
+  heroSpeciesChipText: {
+    fontSize: 10,
+    fontWeight: '700',
+    color: '#A7F3D0',
+  },
+  btnCalibrateAnother: {
+    alignSelf: 'center',
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+  },
+  btnCalibrateAnotherText: {
+    fontSize: 11,
+    fontWeight: '700',
+    color: '#A7F3D0',
+  },
+  presetsDividerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 12,
+    gap: 8,
+  },
+  dividerLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+  },
+  presetsDividerText: {
+    fontSize: 9,
+    fontWeight: '800',
+    color: 'rgba(255, 255, 255, 0.55)',
+    letterSpacing: 0.8,
+  },
+  gridTwoColumnsCompact: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    rowGap: 8,
+  },
+  gridGlassCardCompact: {
+    width: '48.5%',
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    borderRadius: 16,
+    borderWidth: 1.2,
+    justifyContent: 'center',
+  },
+  compactCardRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  compactCardTitle: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#FFFFFF',
+    flex: 1,
   },
 });

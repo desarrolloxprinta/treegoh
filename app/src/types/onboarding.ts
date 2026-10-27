@@ -1,5 +1,7 @@
 import { BotanicalAvatar } from '../constants/botanicalAvatars';
 
+export type PetType = 'gato' | 'perro' | 'ave' | 'reptil' | 'roedor' | 'exotico';
+
 export interface CustomMicroclimate {
   id: string;
   name: string;
@@ -21,6 +23,8 @@ export interface CustomMicroclimate {
   directSunHours?: number;
   photoUri?: string;
   iconName?: string;
+  aiAnalysisDone?: boolean;
+  detectedFeatures?: string[];
 }
 
 export interface UserAccount {
@@ -28,6 +32,12 @@ export interface UserAccount {
   email?: string;
   displayName?: string;
   isGuest: boolean;
+}
+
+export interface SafetyFilter {
+  hasPets: boolean;
+  petTypes: PetType[];
+  hasChildren: boolean;
 }
 
 export interface OnboardingState {
@@ -41,10 +51,7 @@ export interface OnboardingState {
   };
   spaces: string[];
   customMicroclimates?: CustomMicroclimate[];
-  safetyFilter: {
-    hasPets: boolean;
-    hasChildren: boolean;
-  };
+  safetyFilter: SafetyFilter;
   characterCalibrated: boolean;
   isGuest: boolean;
   assignedAvatar?: BotanicalAvatar;
