@@ -1,3 +1,5 @@
+import { BotanicalAvatar } from '../constants/botanicalAvatars';
+
 export interface OnboardingState {
   currentStep: number;
   goals: string[];
@@ -13,4 +15,5 @@ export interface OnboardingState {
   };
   characterCalibrated: boolean;
   isGuest: boolean;
+  assignedAvatar?: BotanicalAvatar;
 }
