@@ -32,7 +32,7 @@ export const BOTANICAL_AVATARS: BotanicalAvatar[] = [
     species: 'Calathea Orbifolia',
     scientificName: 'Goeppertia orbifolia',
     imageUrl:
-      'https://images.unsplash.com/photo-1599598425947-320d41829910?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=600&q=80',
     trait: 'Movimiento foliar circadiano y sensibilidad al agua',
   },
   {
@@ -41,7 +41,7 @@ export const BOTANICAL_AVATARS: BotanicalAvatar[] = [
     species: 'Lengua de Suegra',
     scientificName: 'Dracaena trifasciata',
     imageUrl:
-      'https://images.unsplash.com/photo-1593482892290-f54927ae1bf6?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=600&q=80',
     trait: 'Metabolismo CAM nocturno e inmunidad a la sequía',
   },
   {
@@ -77,7 +77,7 @@ export const BOTANICAL_AVATARS: BotanicalAvatar[] = [
     species: 'Planta de la Oración',
     scientificName: 'Maranta leuconeura',
     imageUrl:
-      'https://images.unsplash.com/photo-1620127814421-081467545ec7?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80',
     trait: 'Plegado de hojas al anochecer y nervaduras carmesí',
   },
   {
@@ -86,7 +86,7 @@ export const BOTANICAL_AVATARS: BotanicalAvatar[] = [
     species: 'Helecho Nido de Ave',
     scientificName: 'Asplenium nidus',
     imageUrl:
-      'https://images.unsplash.com/photo-1596724898162-e64e52702758?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&q=80',
     trait: 'Frondas onduladas y avidez por alta humedad',
   },
   {
@@ -95,7 +95,7 @@ export const BOTANICAL_AVATARS: BotanicalAvatar[] = [
     species: 'Planta China del Dinero',
     scientificName: 'Pilea peperomioides',
     imageUrl:
-      'https://images.unsplash.com/photo-1610444576136-1e0e84b8109d?auto=format&fit=crop&w=600&q=80',
+      'https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&w=600&q=80',
     trait: 'Discos foliares peltados y brotes multiplicadores',
   },
 ];
