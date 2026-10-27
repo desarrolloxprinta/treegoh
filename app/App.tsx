@@ -36,8 +36,15 @@ export default function App() {
         </Text>
 
         <View style={styles.summaryCard}>
-          <Text style={styles.summaryTitle}>Configuración Activa:</Text>
+          <Text style={styles.summaryTitle}>Configuración Botánica Activa:</Text>
+          <Text style={styles.summaryItem}>• Cultivador: {userGardenData?.account?.displayName || 'Invitado'}{userGardenData?.account?.email ? ` (${userGardenData.account.email})` : ''}</Text>
+          <Text style={styles.summaryItem}>• Avatar Botánico: {userGardenData?.assignedAvatar?.alias || 'Monstera Deliciosa'}</Text>
           <Text style={styles.summaryItem}>• Espacios: {userGardenData?.spaces.join(', ')}</Text>
+          {userGardenData?.customMicroclimates && userGardenData.customMicroclimates.length > 0 && (
+            <Text style={[styles.summaryItem, { color: '#2D6A4F', fontWeight: '700' }]}>
+              • Rincones Calibrados: {userGardenData.customMicroclimates.map(m => `${m.name} (${m.habitabilityScore}/100 - ${m.estimatedLux.toLocaleString()} lux)`).join('; ')}
+            </Text>
+          )}
           <Text style={styles.summaryItem}>• Filtro Mascotas: {userGardenData?.safetyFilter.hasPets ? 'Activado (Pet-Friendly)' : 'Sin filtro'}</Text>
           <Text style={styles.summaryItem}>• Asistente de Voz Botánica: Calibrado y Activo</Text>
           <Text style={styles.summaryItem}>• Modo: {userGardenData?.isGuest ? 'Invitado Local' : 'Sincronizado con Firebase'}</Text>
