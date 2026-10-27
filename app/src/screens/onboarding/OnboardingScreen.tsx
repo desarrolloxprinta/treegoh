@@ -18,7 +18,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { Colors, Spacing, Typography } from '../../constants/theme';
 import { TreegohLogo } from '../../components/TreegohLogo';
 import { TreegohIcon, IconName } from '../../components/TreegohIcon';
-import { MicroclimateStudioModal } from '../../components/MicroclimateStudioModal';
+import { MicroclimateStudioView } from '../../components/MicroclimateStudioView';
 import * as Location from 'expo-location';
 import { OnboardingState, CustomMicroclimate, PetType } from '../../types/onboarding';
 import { BotanicalAvatar, getRandomBotanicalAvatar } from '../../constants/botanicalAvatars';
@@ -66,7 +66,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
   const [searchCityQuery, setSearchCityQuery] = useState('');
 
   // Modal del Estudio Diagnóstico de Microclimas
-  const [isMicroclimateModalVisible, setMicroclimateModalVisible] = useState(false);
+  const [isStudioActive, setIsStudioActive] = useState(false);
 
   // Avatar botánico asignado aleatoriamente desde la base de datos de especies
   const [assignedAvatar] = useState<BotanicalAvatar>(() => getRandomBotanicalAvatar());
@@ -643,253 +643,66 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
 
   // FASE 5: CALIBRA TUS MICROCLIMAS (CORE BOTÁNICO: CÁMARA IA & CALIBRADO PREDOMINANTE)
   const renderScreen5 = () => {
-    const hasCustom = state.customMicroclimates && state.customMicroclimates.length > 0;
-    const latestCustom = hasCustom ? state.customMicroclimates![state.customMicroclimates!.length - 1] : null;
-
-    const defaultPresets = [
-      { name: 'Salón Luminoso', desc: '1.500 - 4.000 lux filtrados', icon: 'luz_natural' as IconName },
-      { name: 'Balcón Exterior', desc: 'Sol directo y brisa natural', icon: 'temperatura_termica' as IconName },
-      { name: 'Dormitorio Zen', desc: 'Luz media difusa sin corrientes', icon: 'espacios_microclimas' as IconName },
-      { name: 'Baño Tropical', desc: 'Humedad ambiental alta >70%', icon: 'riego_hidratacion' as IconName },
-    ];
-
     return (
       <View style={styles.phasePage}>
-        <View style={styles.phaseFixedContent}>
-          <View style={styles.headerTextBlock}>
-            <Text style={styles.tideMainTitle}>Calibra tus{'\n'}microclimas</Text>
-            <Text style={styles.tideSubTitle}>
-              El entorno decide si tu planta vive o muere. Escanea tu espacio con la cámara IA para un diagnóstico biométrico exacto.
-            </Text>
-          </View>
-
-          {/* SECCIÓN PREDOMINANTE: HERO ESTUDIO BOTÁNICO IA */}
-          {!hasCustom ? (
-            <TouchableOpacity
-              style={styles.heroStudioCard}
-              onPress={() => {
-                triggerHaptic();
-                setMicroclimateModalVisible(true);
-              }}
-              activeOpacity={0.88}
-            >
-              <LinearGradient
-                colors={['rgba(167, 243, 208, 0.25)', 'rgba(255, 255, 255, 0.06)']}
-                start={{ x: 0, y: 0 }}
-                end={{ x: 1, y: 1 }}
-                style={StyleSheet.absoluteFill}
-                pointerEvents="none"
-              />
-
-              <View style={styles.heroCardHeaderRow}>
-                <View style={styles.heroCorePill}>
-                  <TreegohIcon name="espacios_microclimas" size={14} color="#121A15" />
-                  <Text style={styles.heroCorePillText}>CORE BOTÁNICO TREEGOH</Text>
-                </View>
-                <View style={styles.heroNewPill}>
-                  <Text style={styles.heroNewPillText}>CÁMARA IA + BRÚJULA</Text>
-                </View>
-              </View>
-
-              <Text style={styles.heroCardTitle}>Calibrar Rincón con Cámara IA</Text>
-              <Text style={styles.heroCardDesc}>
-                Apunta la cámara a tu ventana o espacio. La IA computa fotones (Lux), rumbo solar y fuentes de estrés térmico automáticamente.
-              </Text>
-
-              <View style={styles.heroPillFeaturesRow}>
-                <View style={styles.heroFeaturePill}>
-                  <Text style={styles.heroFeaturePillText}>📸 Visión Espacial</Text>
-                </View>
-                <View style={styles.heroFeaturePill}>
-                  <Text style={styles.heroFeaturePillText}>🧭 Rumbo Solar</Text>
-                </View>
-                <View style={styles.heroFeaturePill}>
-                  <Text style={styles.heroFeaturePillText}>💡 Sensor Lux PAR</Text>
-                </View>
-              </View>
-
-              <View style={styles.btnHeroCta}>
-                <TreegohIcon name="camara_diagnostica" size={18} color="#121A15" />
-                <Text style={styles.btnHeroCtaText}>Iniciar Escáner de Microclima</Text>
-              </View>
-            </TouchableOpacity>
-          ) : (
-            /* HERO CARD AMPLIA Y PREDOMINANTE CUANDO YA ESTÁ CALIBRADO */
-            <View style={styles.heroCalibratedCardWide}>
-              <LinearGradient
-                colors={['rgba(167, 243, 208, 0.22)', 'rgba(255, 255, 255, 0.08)']}
-                start={{ x: 0, y: 0 }}
-                end={{ x: 1, y: 1 }}
-                style={StyleSheet.absoluteFill}
-                pointerEvents="none"
-              />
-
-              <View style={styles.heroCalibratedTopRow}>
-                <View style={{ flex: 1 }}>
-                  <View style={styles.heroCalibratedTagBadge}>
-                    <Text style={styles.heroCalibratedTagText}>RINCÓN CALIBRADO ACTIVO</Text>
-                  </View>
-                  <Text style={styles.heroCalibratedTitle}>{latestCustom?.name}</Text>
-                  <Text style={styles.heroCalibratedSubtitle}>
-                    🧭 Orientación {latestCustom?.orientation} ({latestCustom?.headingDegrees}°) • ~{latestCustom?.directSunHours || 5}h sol directo
-                  </Text>
-                </View>
-
-                <View style={styles.heroScoreCircle}>
-                  <Text style={styles.heroScoreVal}>{latestCustom?.habitabilityScore}</Text>
-                  <Text style={styles.heroScoreLabel}>/100</Text>
-                </View>
-              </View>
-
-              {/* MATRIZ DE MÉTRICAS AMBIENTALES */}
-              <View style={styles.heroMetricsGrid}>
-                <View style={styles.heroMetricBox}>
-                  <Text style={styles.heroMetricKey}>FOTONES PAR</Text>
-                  <Text style={styles.heroMetricValue}>~{latestCustom?.estimatedLux.toLocaleString()} Lux</Text>
-                </View>
-                <View style={styles.heroMetricBox}>
-                  <Text style={styles.heroMetricKey}>DISTANCIA</Text>
-                  <Text style={styles.heroMetricValue}>
-                    {latestCustom?.windowDistance === 'junto_a_ventana' ? '< 50 cm' : latestCustom?.windowDistance === 'media_distancia' ? '1.2 m' : '> 3 m'}
-                  </Text>
-                </View>
-                <View style={styles.heroMetricBox}>
-                  <Text style={styles.heroMetricKey}>ESTRÉS TÉRMICO</Text>
-                  <Text style={styles.heroMetricValue}>
-                    {latestCustom?.thermalRisks.nearRadiator ? 'Radiador cerca' : 'Seguro'}
-                  </Text>
-                </View>
-              </View>
-
-              <View style={styles.heroVerdictSnippet}>
-                <Text style={styles.heroVerdictText} numberOfLines={2}>
-                  {latestCustom?.verdict}
-                </Text>
-              </View>
-
-              {/* ESPECIES RECOMENDADAS */}
-              <View style={styles.heroSpeciesRow}>
-                {latestCustom?.recommendedSpecies.slice(0, 3).map((sp, idx) => (
-                  <View key={idx} style={styles.heroSpeciesChip}>
-                    <Text style={styles.heroSpeciesChipText}>🌿 {sp}</Text>
-                  </View>
-                ))}
-              </View>
-
-              {/* BOTÓN SECUNDARIO: AÑADIR OTRO RINCÓN */}
-              <TouchableOpacity
-                style={styles.btnCalibrateAnother}
-                onPress={() => {
-                  triggerHaptic();
-                  setMicroclimateModalVisible(true);
-                }}
-                activeOpacity={0.8}
-              >
-                <Text style={styles.btnCalibrateAnotherText}>+ Calibrar otro espacio con IA</Text>
-              </TouchableOpacity>
-            </View>
-          )}
-
-          {/* DIVISOR Y PRESETS GENÉRICOS (SECUNDARIOS Y REDUCIDOS) */}
-          <View style={styles.presetsDividerRow}>
-            <View style={styles.dividerLine} />
-            <Text style={styles.presetsDividerText}>O PRESETS RÁPIDOS GENÉRICOS</Text>
-            <View style={styles.dividerLine} />
-          </View>
-
-          <View style={styles.gridTwoColumnsCompact}>
-            {defaultPresets.map(sp => {
-              const isSelected = state.spaces.includes(sp.name);
-              return (
-                <TouchableOpacity
-                  key={sp.name}
-                  style={[
-                    styles.gridGlassCardCompact,
-                    isSelected ? styles.gridGlassCardSelected : styles.gridGlassCardUnselected,
-                  ]}
-                  onPress={() => toggleSpace(sp.name)}
-                  activeOpacity={0.82}
-                >
-                  <View style={styles.compactCardRow}>
-                    <TreegohIcon
-                      name={sp.icon}
-                      size={20}
-                      color={isSelected ? '#121A15' : '#EAF4ED'}
-                    />
-                    <Text
-                      style={[styles.compactCardTitle, isSelected && styles.gridCardTitleSelected]}
-                      numberOfLines={1}
-                    >
-                      {sp.name}
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              );
-            })}
-          </View>
-
-          <View style={styles.phaseBottomStickyFixed}>
-            <TouchableOpacity
-              style={styles.btnTideGlassPrimary}
-              onPress={nextStep}
-              activeOpacity={0.85}
-            >
-              <Text style={styles.btnTideGlassPrimaryText}>Continuar con estos espacios</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
+        <MicroclimateStudioView
+          onBack={prevStep}
+          onSave={micro => {
+            handleSaveCustomMicroclimate(micro);
+            nextStep();
+          }}
+        />
       </View>
     );
   };
 
-    // FASE 6: SEGURIDAD EN EL HOGAR (FILTRO DETALLADO POR TIPO DE MASCOTA)
   const renderScreen6 = () => {
     const petOptions: Array<{
       type: PetType | 'ninguna';
       name: string;
-      emoji: string;
+      icon: IconName;
       behavior: string;
       hazard: string;
     }> = [
       {
         type: 'gato',
         name: 'Gato (Felino)',
-        emoji: '🐱',
+        icon: 'mascota_gato',
         behavior: 'Trepa & mastica puntas',
         hazard: 'Filtra Lirios (letales), Pothos y Monstera.',
       },
       {
         type: 'perro',
         name: 'Perro (Canino)',
-        emoji: '🐶',
+        icon: 'mascota_perro',
         behavior: 'Macetas bajas & raíces',
         hazard: 'Filtra Ficus, Cycas, bulbos de Amaryllis y hojas secas.',
       },
       {
         type: 'ave',
         name: 'Ave o Loro',
-        emoji: '🦜',
+        icon: 'mascota_ave',
         behavior: 'Picoteo aéreo & pulmón sensible',
         hazard: 'Filtra plantas con terpenos intensos y savia volátil.',
       },
       {
         type: 'reptil',
         name: 'Reptil o Tortuga',
-        emoji: '🐢',
+        icon: 'mascota_reptil',
         behavior: 'Herbívoros terrestres a ras',
         hazard: 'Filtra Euforbiáceas y suculentas cáusticas.',
       },
       {
         type: 'roedor',
         name: 'Conejo o Roedor',
-        emoji: '🐰',
+        icon: 'mascota_roedor',
         behavior: 'Roen tallos tiernos y leñosos',
         hazard: 'Filtra Dieffenbachia, hiedras y látex tóxico.',
       },
       {
         type: 'ninguna',
         name: 'Sin Mascotas',
-        emoji: '🌿',
+        icon: 'mascota_libre',
         behavior: 'Coleccionismo libre',
         hazard: 'Acceso total a las 170+ especies sin filtro ASPCA.',
       },
@@ -966,9 +779,11 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
                   )}
 
                   <View style={styles.petCardTopRow}>
-                    <View style={styles.petEmojiWrap}>
-                      <Text style={styles.petEmojiText}>{opt.emoji}</Text>
-                    </View>
+                    <TreegohIcon
+                      name={opt.icon}
+                      size={26}
+                      color={isSelected ? '#121A15' : '#FFFFFF'}
+                    />
                     <View style={[styles.gridCheckCircle, isSelected && styles.gridCheckCircleSelected]}>
                       {isSelected ? (
                         <TreegohIcon name="tarea_completada" size={14} color="#121A15" />
@@ -1109,7 +924,6 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
       <SafeAreaView style={styles.safeAreaRoot} edges={['top', 'left', 'right', 'bottom']}>
         {renderSegmentedProgressBar()}
 
-        {/* CONTENEDOR HORIZONTAL SUPER ANCHO CON DESPLAZAMIENTO SUAVE DE FASE EN FASE */}
         <ScrollView
           ref={horizontalScrollRef}
           horizontal={true}
@@ -1128,13 +942,6 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
           {renderScreen7()}
         </ScrollView>
       </SafeAreaView>
-
-      {/* MODAL ESTUDIO DIAGNÓSTICO DE MICROCLIMA */}
-      <MicroclimateStudioModal
-        visible={isMicroclimateModalVisible}
-        onClose={() => setMicroclimateModalVisible(false)}
-        onSave={handleSaveCustomMicroclimate}
-      />
 
       {/* MODAL EDITAR UBICACIÓN MANUALMENTE */}
       <Modal
