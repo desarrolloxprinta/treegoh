@@ -46,7 +46,8 @@ export type IconName =
   | 'ventana_distancia'
   | 'alerta_termica'
   | 'flecha_volver'
-  | 'check_verificado';
+  | 'check_verificado'
+  | 'flecha_adelante';
 
 interface TreegohIconProps {
   name: IconName;
@@ -356,6 +357,13 @@ export const TreegohIcon: React.FC<TreegohIconProps> = ({
       return (
         <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
           <Path d="M19 12H5M12 19l-7-7 7-7" stroke={color} strokeWidth={strokeWidth + 0.4} strokeLinecap="round" strokeLinejoin="round" />
+        </Svg>
+      );
+
+    case 'flecha_adelante':
+      return (
+        <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+          <Path d="M5 12h14M12 5l7 7-7 7" stroke={color} strokeWidth={strokeWidth + 0.4} strokeLinecap="round" strokeLinejoin="round" />
         </Svg>
       );
 

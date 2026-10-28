@@ -60,6 +60,13 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
   }, [step, videoPlayer]);
 
   // Estado de detección de ubicación real del dispositivo
+  // Detección automática de GPS no opcional al alcanzar el paso 4
+  useEffect(() => {
+    if (step === 4) {
+      detectDeviceLocation();
+    }
+  }, [step]);
+
   const [isDetectingLocation, setIsDetectingLocation] = useState(false);
   const [locationDetectionSource, setLocationDetectionSource] = useState<'gps' | 'fallback' | 'manual'>('fallback');
   const [locationPermissionDenied, setLocationPermissionDenied] = useState(false);
@@ -592,17 +599,23 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
               <View style={styles.cleanIconWrap}>
                 <TreegohIcon name="espacios_microclimas" size={28} color="#EAF4ED" />
               </View>
-              <TouchableOpacity
-                style={styles.waterPillBadge}
-                onPress={detectDeviceLocation}
-                activeOpacity={0.7}
-              >
+              <View style={styles.gpsAutoStatusBadge}>
                 {isDetectingLocation ? (
-                  <ActivityIndicator size="small" color="#EAF4ED" />
+                  <View style={styles.gpsDetectingRow}>
+                    <ActivityIndicator size="small" color="#A7F3D0" />
+                    <Text style={styles.gpsDetectingText}>Detectando satélite...</Text>
+                  </View>
                 ) : (
-                  <Text style={styles.waterPillBadgeText}>Detectar GPS</Text>
+                  <TouchableOpacity
+                    style={styles.gpsDetectingRow}
+                    onPress={detectDeviceLocation}
+                    activeOpacity={0.8}
+                  >
+                    <TreegohIcon name="check_verificado" size={14} color="#A7F3D0" />
+                    <Text style={styles.gpsVerifiedText}>GPS Automático</Text>
+                  </TouchableOpacity>
                 )}
-              </TouchableOpacity>
+              </View>
             </View>
 
             <Text style={styles.gridCardTitle} numberOfLines={1}>
@@ -700,7 +713,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
   // FASE 5: CALIBRA TUS MICROCLIMAS (CONECTADO CON UBICACIÓN GPS Y PLANO SOLAR)
   const renderScreen5 = () => {
     return (
-      <View style={styles.phasePage}>
+      <View style={[styles.phasePage, { paddingHorizontal: 0 }]}>
         <MicroclimateStudioView
           userLocation={state.location}
           onBack={prevStep}
@@ -1373,6 +1386,31 @@ const styles = StyleSheet.create({
     borderColor: 'rgba(255, 255, 255, 0.20)',
     overflow: 'hidden',
     gap: 6,
+  },
+  gpsAutoStatusBadge: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+    backgroundColor: 'rgba(167, 243, 208, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(167, 243, 208, 0.25)',
+  },
+  gpsDetectingRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  gpsDetectingText: {
+    color: '#A7F3D0',
+    fontSize: 12,
+    fontWeight: '700',
+    letterSpacing: 0.3,
+  },
+  gpsVerifiedText: {
+    color: '#A7F3D0',
+    fontSize: 12,
+    fontWeight: '700',
+    letterSpacing: 0.3,
   },
   compactCardTopRow: {
     flexDirection: 'row',
