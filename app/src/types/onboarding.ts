@@ -9,6 +9,7 @@ export interface CustomMicroclimate {
   orientation: 'N' | 'S' | 'E' | 'O' | 'NE' | 'SE' | 'NO' | 'SO';
   headingDegrees: number;
   windowDistance: 'junto_a_ventana' | 'media_distancia' | 'rincon_profundo';
+  floorLevel?: 'baja' | 'media' | 'alta';
   estimatedLux: number;
   thermalRisks: {
     nearRadiator: boolean;
@@ -25,6 +26,13 @@ export interface CustomMicroclimate {
   iconName?: string;
   aiAnalysisDone?: boolean;
   detectedFeatures?: string[];
+  fullAddress?: string;
+  annualSolarSummary?: {
+    winterHours: number;
+    summerHours: number;
+    todayHours: number;
+    maxElevation: number;
+  };
 }
 
 export interface UserAccount {
@@ -40,15 +48,25 @@ export interface SafetyFilter {
   hasChildren: boolean;
 }
 
+export interface UserLocationDetails {
+  city: string;
+  bioclimaticZone: string;
+  waterHardness: string;
+  street?: string;
+  streetNumber?: string;
+  floorOrApt?: string;
+  postalCode?: string;
+  latitude?: number;
+  longitude?: number;
+  altitudeMeters?: number;
+  fullAddress?: string;
+}
+
 export interface OnboardingState {
   currentStep: number;
   account?: UserAccount;
   goals: string[];
-  location: {
-    city: string;
-    bioclimaticZone: string;
-    waterHardness: string;
-  };
+  location: UserLocationDetails;
   spaces: string[];
   customMicroclimates?: CustomMicroclimate[];
   safetyFilter: SafetyFilter;

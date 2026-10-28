@@ -10,6 +10,7 @@ import {
   TextInput,
   Modal,
   Image,
+  ActivityIndicator,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
@@ -77,6 +78,14 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
       city: 'Madrid, España',
       bioclimaticZone: 'Interior Mediterráneo Continental',
       waterHardness: 'Blanda (óptima para hojas sensibles)',
+      street: 'Avenida Nuestra Señora de Valvanera',
+      streetNumber: '93',
+      floorOrApt: '3º D',
+      postalCode: '28025',
+      latitude: 40.3884,
+      longitude: -3.7382,
+      altitudeMeters: 640,
+      fullAddress: 'Avenida Nuestra Señora de Valvanera, 93, 3º D, 28025 Madrid, España',
     },
     spaces: ['Salón Luminoso'],
     customMicroclimates: [],
@@ -240,6 +249,11 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
         const cityName = geocode.city || geocode.subregion || geocode.region || 'Madrid';
         const countryName = geocode.country || 'España';
         const fullCity = `${cityName}, ${countryName}`;
+        const street = geocode.street || state.location.street || 'Avenida Nuestra Señora de Valvanera';
+        const streetNumber = geocode.streetNumber || state.location.streetNumber || '93';
+        const postalCode = geocode.postalCode || state.location.postalCode || '28025';
+        const floorOrApt = state.location.floorOrApt || '3º D';
+        const fullAddress = `${street}, ${streetNumber}${floorOrApt ? `, ${floorOrApt}` : ''}, ${postalCode} ${cityName}, ${countryName}`;
         const { bioclimaticZone, waterHardness } = inferBioclimaticZone(cityName);
 
         setState(prev => ({
@@ -248,6 +262,14 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             city: fullCity,
             bioclimaticZone,
             waterHardness,
+            street,
+            streetNumber,
+            floorOrApt,
+            postalCode,
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+            altitudeMeters: position.coords.altitude ?? 640,
+            fullAddress,
           },
         }));
         setLocationDetectionSource('gps');
@@ -545,19 +567,19 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
     );
   };
 
-  // FASE 4: UBICACIÓN GEOGRÁFICA Y BIOCLIMA (SIN SCROLL)
+  // FASE 4: UBICACIÓN GEOGRÁFICA Y BIOCLIMA (HIPER-LOCALIZACIÓN Y PISO)
   const renderScreen4 = () => (
     <View style={styles.phasePage}>
       <View style={styles.phaseFixedContent}>
         <View style={styles.headerTextBlock}>
           <Text style={styles.tideMainTitle}>¿Dónde viven{'\n'}tus plantas?</Text>
           <Text style={styles.tideSubTitle}>
-            Conectamos con Open-Meteo para adaptar el riego a la humedad ambiental y avisarte de olas de calor.
+            Geolocalización precisa para deducir el azimut solar anual, la presión VPD y la dureza del agua.
           </Text>
         </View>
 
         <View style={styles.compactCardsStack}>
-          {/* Card 1: Ubicación Detectada */}
+          {/* Card 1: Dirección Hiper-Localizada y Piso */}
           <View style={styles.compactGlassCard}>
             <LinearGradient
               colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
@@ -568,29 +590,63 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             />
             <View style={styles.compactCardTopRow}>
               <View style={styles.cleanIconWrap}>
-                <TreegohIcon name="temperatura_termica" size={28} color="#EAF4ED" />
+                <TreegohIcon name="espacios_microclimas" size={28} color="#EAF4ED" />
               </View>
               <TouchableOpacity
                 style={styles.waterPillBadge}
-                onPress={() => setLocationModalVisible(true)}
+                onPress={detectDeviceLocation}
                 activeOpacity={0.7}
               >
-                <Text style={styles.waterPillBadgeText}>Cambiar</Text>
+                {isDetectingLocation ? (
+                  <ActivityIndicator size="small" color="#EAF4ED" />
+                ) : (
+                  <Text style={styles.waterPillBadgeText}>Detectar GPS</Text>
+                )}
               </TouchableOpacity>
             </View>
 
             <Text style={styles.gridCardTitle} numberOfLines={1}>
-              {state.location.city}
+              {state.location.street ? `${state.location.street}, ${state.location.streetNumber || ''}` : state.location.city}
             </Text>
             <Text style={styles.gridCardSub} numberOfLines={1}>
-              {state.location.bioclimaticZone}
+              {state.location.floorOrApt ? `${state.location.floorOrApt} • ` : ''}{state.location.postalCode ? `${state.location.postalCode} ` : ''}{state.location.city}
             </Text>
+
+            {/* Selector de Piso / Altura para Incidencia Solar */}
+            <View style={styles.floorAptRow}>
+              <Text style={styles.floorAptTitle}>Altura del piso:</Text>
+              <View style={styles.floorAptPills}>
+                {['Bajo', '3º D', 'Ático'].map(fl => {
+                  const isSel = (state.location.floorOrApt || '3º D').includes(fl.substring(0, 2));
+                  return (
+                    <TouchableOpacity
+                      key={fl}
+                      style={[styles.floorAptChip, isSel && styles.floorAptChipSelected]}
+                      onPress={() => {
+                        triggerHaptic();
+                        setState(prev => ({
+                          ...prev,
+                          location: { ...prev.location, floorOrApt: fl },
+                        }));
+                      }}
+                      activeOpacity={0.8}
+                    >
+                      <Text style={[styles.floorAptChipText, isSel && styles.floorAptChipTextSelected]}>
+                        {fl}
+                      </Text>
+                    </TouchableOpacity>
+                  );
+                })}
+              </View>
+            </View>
 
             <View style={styles.compactBadgeRow}>
               <View style={styles.gpsActivePill}>
                 <View style={styles.greenPulseDot} />
                 <Text style={styles.gpsActiveText}>
-                  {locationDetectionSource === 'gps' ? 'GPS Satelital Activo' : 'Predeterminado'}
+                  {locationDetectionSource === 'gps'
+                    ? `GPS: ${(state.location.latitude ?? 40.388).toFixed(3)}°N, ${Math.abs(state.location.longitude ?? -3.738).toFixed(3)}°W`
+                    : 'GPS Valvanera 93'}
                 </Text>
               </View>
               <View style={styles.waterPillBadge}>
@@ -602,7 +658,7 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             </View>
           </View>
 
-          {/* Card 2: Bioclima VPD */}
+          {/* Card 2: Bioclima VPD & Astronomía */}
           <View style={styles.compactGlassCard}>
             <LinearGradient
               colors={['rgba(255, 255, 255, 0.16)', 'rgba(255, 255, 255, 0.04)']}
@@ -622,8 +678,8 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             <Text style={styles.gridCardTitle} numberOfLines={1}>
               Déficit de Presión de Vapor (VPD)
             </Text>
-            <Text style={styles.gridCardSub} numberOfLines={3}>
-              Treegoh sincroniza la tasa de evapotranspiración foliar en tiempo real para optimizar el ciclo de riego.
+            <Text style={styles.gridCardSub} numberOfLines={2}>
+              Treegoh vincula la coordenada GPS al ciclo solar estacional para proyectar radiación y evaporación foliar.
             </Text>
           </View>
         </View>
@@ -634,18 +690,19 @@ export const OnboardingScreen: React.FC<Props> = ({ onComplete, onLoginPress }) 
             onPress={nextStep}
             activeOpacity={0.85}
           >
-            <Text style={styles.btnTideGlassPrimaryText}>Continuar con esta zona</Text>
+            <Text style={styles.btnTideGlassPrimaryText}>Continuar con esta dirección</Text>
           </TouchableOpacity>
         </View>
       </View>
     </View>
   );
 
-  // FASE 5: CALIBRA TUS MICROCLIMAS (CORE BOTÁNICO: CÁMARA IA & CALIBRADO PREDOMINANTE)
+  // FASE 5: CALIBRA TUS MICROCLIMAS (CONECTADO CON UBICACIÓN GPS Y PLANO SOLAR)
   const renderScreen5 = () => {
     return (
       <View style={styles.phasePage}>
         <MicroclimateStudioView
+          userLocation={state.location}
           onBack={prevStep}
           onSave={micro => {
             handleSaveCustomMicroclimate(micro);
@@ -1362,6 +1419,42 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: '600',
     color: '#EAF4ED',
+  },
+  floorAptRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 4,
+    marginBottom: 6,
+    paddingTop: 8,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(255, 255, 255, 0.10)',
+  },
+  floorAptTitle: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: 'rgba(255, 255, 255, 0.85)',
+  },
+  floorAptPills: {
+    flexDirection: 'row',
+    gap: 6,
+  },
+  floorAptChip: {
+    backgroundColor: 'rgba(255, 255, 255, 0.10)',
+    paddingVertical: 4,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+  },
+  floorAptChipSelected: {
+    backgroundColor: '#E8EFE7',
+  },
+  floorAptChipText: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#FFFFFF',
+  },
+  floorAptChipTextSelected: {
+    color: '#121A15',
   },
   vpdActiveBadge: {
     backgroundColor: 'rgba(132, 169, 140, 0.22)',

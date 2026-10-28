@@ -18,7 +18,9 @@ import * as Haptics from 'expo-haptics';
 import * as Location from 'expo-location';
 
 import { TreegohIcon, IconName } from './TreegohIcon';
-import { CustomMicroclimate } from '../types/onboarding';
+import { CustomMicroclimate, UserLocationDetails } from '../types/onboarding';
+import { SpatialSolarPlanView } from './SpatialSolarPlanView';
+import { generateAnnualSolarReport } from '../utils/solarEngine';
 
 const { width } = Dimensions.get('window');
 const CARD_WIDTH_2COL = (width - 40 - 12) / 2;
@@ -27,6 +29,7 @@ interface Props {
   onBack: () => void;
   onSave: (microclimate: CustomMicroclimate) => void;
   initialData?: Partial<CustomMicroclimate>;
+  userLocation?: UserLocationDetails;
 }
 
 // Perspectivas fotográficas reales de prueba para la cámara IA
@@ -36,10 +39,14 @@ const CAMERA_SNAPSHOTS = [
   'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80',
 ];
 
-export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
-  // Estado de datos biométricos
-  const [headingDegrees, setHeadingDegrees] = useState<number>(165); // Sur por defecto
+export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave, userLocation }) => {
+  // Estado de datos biométricos y solares
+  const [headingDegrees, setHeadingDegrees] = useState<number>(180); // Sur por defecto
   const [orientationMode, setOrientationMode] = useState<'S' | 'E' | 'O' | 'N'>('S');
+  const [selectedSeason, setSelectedSeason] = useState<'hoy' | 'invierno' | 'primavera' | 'verano'>('hoy');
+  const [floorLevel, setFloorLevel] = useState<'baja' | 'media' | 'alta'>(
+    userLocation?.floorOrApt?.toLowerCase().includes('ático') ? 'alta' : userLocation?.floorOrApt?.toLowerCase().includes('bajo') ? 'baja' : 'media'
+  );
   const [windowDistance, setWindowDistance] = useState<'junto_a_ventana' | 'media_distancia' | 'rincon_profundo'>('media_distancia');
   const [nearRadiator, setNearRadiator] = useState<boolean>(false);
   const [nearAC, setNearAC] = useState<boolean>(false);
@@ -87,6 +94,21 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
     } catch (_e) {}
   };
+
+  // Coordenadas hiper-locales del usuario
+  const lat = userLocation?.latitude ?? 40.3884;
+  const lon = userLocation?.longitude ?? -3.7382;
+
+  // Informe solar estacional anual para la orientación y piso actuales
+  const annualSolar = React.useMemo(() => {
+    return generateAnnualSolarReport(lat, lon, headingDegrees, windowDistance, floorLevel);
+  }, [lat, lon, headingDegrees, windowDistance, floorLevel]);
+
+  // Perfiles de sol estacionales dinámicos para las 4 orientaciones cardinales según el GPS del usuario
+  const solarSur = React.useMemo(() => generateAnnualSolarReport(lat, lon, 180, windowDistance, floorLevel), [lat, lon, windowDistance, floorLevel]);
+  const solarEste = React.useMemo(() => generateAnnualSolarReport(lat, lon, 90, windowDistance, floorLevel), [lat, lon, windowDistance, floorLevel]);
+  const solarOeste = React.useMemo(() => generateAnnualSolarReport(lat, lon, 270, windowDistance, floorLevel), [lat, lon, windowDistance, floorLevel]);
+  const solarNorte = React.useMemo(() => generateAnnualSolarReport(lat, lon, 0, windowDistance, floorLevel), [lat, lon, windowDistance, floorLevel]);
 
   // Suscripción al sensor de orientación / brújula
   useEffect(() => {
@@ -300,8 +322,16 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
       headingDegrees,
       orientation: orientData.code,
       windowDistance,
-      directSunHours: orientData.hours,
+      floorLevel,
+      fullAddress: userLocation?.fullAddress,
+      directSunHours: annualSolar.todayProfile.directWindowHours,
       estimatedLux: currentLux,
+      annualSolarSummary: {
+        winterHours: annualSolar.winterProfile.directWindowHours,
+        summerHours: annualSolar.summerProfile.directWindowHours,
+        todayHours: annualSolar.todayProfile.directWindowHours,
+        maxElevation: annualSolar.todayProfile.maxSolarElevation,
+      },
       thermalRisks: {
         nearRadiator,
         nearAC,
@@ -567,13 +597,13 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
           </View>
         </View>
 
-        {/* ORIENTACIÓN SOLAR (CARDS 2 COLUMNAS DEL SISTEMA DE DISEÑO) */}
+        {/* ORIENTACIÓN SOLAR DEDUCIDA POR GPS & PLANO ARQUITECTÓNICO ESTACIONAL */}
         <View style={styles.sectionBlock}>
           <View style={styles.sectionRowBetween}>
             <Text style={styles.sectionHeaderTitle}>Orientación cardinal y solar</Text>
             <View style={styles.compassDegreesTag}>
               <TreegohIcon name="brujula_solar" size={14} color="#A7F3D0" />
-              <Text style={styles.compassDegreesTagText}>Brújula {headingDegrees}°</Text>
+              <Text style={styles.compassDegreesTagText}>Brújula {headingDegrees}° {orientationMode}</Text>
             </View>
           </View>
 
@@ -581,29 +611,33 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
             {[
               {
                 id: 'S',
+                heading: 180,
                 name: 'Sur / SE',
-                sun: '~6-7h sol directo',
-                note: 'Máxima insolación solar',
+                sun: `Ene: ${solarSur.winterProfile.directWindowHours}h • Jun: ${solarSur.summerProfile.directWindowHours}h`,
+                note: 'Máxima insolación y rayos bajos',
                 icon: 'brujula_solar' as IconName,
               },
               {
                 id: 'E',
+                heading: 90,
                 name: 'Este',
-                sun: '~3-4h sol matutino',
-                note: 'Luz fresca sin quemar',
+                sun: `Ene: ${solarEste.winterProfile.directWindowHours}h • Jun: ${solarEste.summerProfile.directWindowHours}h`,
+                note: 'Sol matutino fresco y suave',
                 icon: 'luz_natural' as IconName,
               },
               {
                 id: 'O',
+                heading: 270,
                 name: 'Oeste',
-                sun: '~4-5h sol tarde',
-                note: 'Radiación vespertina cálida',
+                sun: `Ene: ${solarOeste.winterProfile.directWindowHours}h • Jun: ${solarOeste.summerProfile.directWindowHours}h`,
+                note: 'Sol vespertino de alta radiación',
                 icon: 'temperatura_termica' as IconName,
               },
               {
                 id: 'N',
+                heading: 0,
                 name: 'Norte',
-                sun: 'Luz difusa continua',
+                sun: `Luz difusa (${solarNorte.summerProfile.daylightHours}h luz)`,
                 note: 'Sin sol abrasivo directo',
                 icon: 'escudo_fitosanitario' as IconName,
               },
@@ -619,6 +653,7 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
                   onPress={() => {
                     triggerLightHaptic();
                     setOrientationMode(item.id as any);
+                    setHeadingDegrees(item.heading);
                   }}
                   activeOpacity={0.85}
                 >
@@ -664,6 +699,20 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
               );
             })}
           </View>
+
+          {/* PLANO CENITAL INTERACTIVO & MOTOR SOLAR DE LAS 4 ESTACIONES */}
+          <SpatialSolarPlanView
+            headingDegrees={headingDegrees}
+            orientationCode={orientationMode}
+            windowDistance={windowDistance}
+            floorLevel={floorLevel}
+            selectedSeason={selectedSeason}
+            onSelectSeason={setSelectedSeason}
+            onSelectFloorLevel={setFloorLevel}
+            solarReport={annualSolar}
+            userAddress={userLocation?.fullAddress || userLocation?.street || 'Avenida Nuestra Señora de Valvanera, 93'}
+            floorOrApt={userLocation?.floorOrApt || '3º D'}
+          />
         </View>
 
         {/* FUENTES DE ESTRÉS TÉRMICO (CARDS 2 COLUMNAS DEL SISTEMA DE DISEÑO) */}
