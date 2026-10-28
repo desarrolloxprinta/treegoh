@@ -1227,7 +1227,7 @@ const styles = StyleSheet.create({
   },
   gridGlassCard: {
     width: (width - 40 - 12) / 2,
-    height: 152,
+    height: 170,
     borderRadius: 24,
     padding: 14,
     justifyContent: 'space-between',
@@ -1236,7 +1236,7 @@ const styles = StyleSheet.create({
   },
   gridGlassCardSafety: {
     width: (width - 40 - 12) / 2,
-    height: 220,
+    height: 236,
     borderRadius: 24,
     padding: 16,
     justifyContent: 'space-between',
@@ -1297,9 +1297,9 @@ const styles = StyleSheet.create({
     color: '#121A15',
   },
   gridCardSub: {
-    fontSize: 11,
-    color: 'rgba(255, 255, 255, 0.72)',
-    lineHeight: 14,
+    fontSize: 15,
+    color: 'rgba(255, 255, 255, 0.75)',
+    lineHeight: 20,
   },
   gridCardSubSelected: {
     color: '#2A3C30',

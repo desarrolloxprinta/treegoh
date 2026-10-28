@@ -444,33 +444,37 @@ export const MicroclimateStudioView: React.FC<Props> = ({ onBack, onSave }) => {
           </View>
 
           {/* BOTONES DE DISPARO DE CÁMARA */}
-          <View style={styles.cameraButtonsRow}>
+          <View style={styles.cameraButtonsWrapper}>
             <TouchableOpacity
               style={styles.btnShutterPrimary}
               onPress={handleShutterCapture}
               activeOpacity={0.85}
             >
-              <TreegohIcon name="camara_diagnostica" size={22} color="#121A15" />
+              <TreegohIcon name="camara_diagnostica" size={24} color="#121A15" />
               <Text style={styles.btnShutterPrimaryText}>
-                {hasRealPhoto ? 'Disparar Otra Captura' : 'Disparar Cámara IA'}
+                {hasRealPhoto ? 'Disparar Nueva Captura' : 'Disparar Cámara IA'}
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity
-              style={styles.btnSystemCameraSecondary}
-              onPress={handleLaunchNativeCamera}
-              activeOpacity={0.8}
-            >
-              <TreegohIcon name="ajustes_sistema" size={18} color="#FFFFFF" />
-            </TouchableOpacity>
+            <View style={styles.cameraSecondaryActionsRow}>
+              <TouchableOpacity
+                style={styles.btnSecondaryActionPill}
+                onPress={handleLaunchNativeCamera}
+                activeOpacity={0.8}
+              >
+                <TreegohIcon name="camara_diagnostica" size={16} color="#A7F3D0" />
+                <Text style={styles.btnSecondaryActionText}>Cámara del móvil</Text>
+              </TouchableOpacity>
 
-            <TouchableOpacity
-              style={styles.btnGallerySecondary}
-              onPress={handlePickGallery}
-              activeOpacity={0.8}
-            >
-              <TreegohIcon name="galeria_evolucion" size={18} color="#FFFFFF" />
-            </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.btnSecondaryActionPill}
+                onPress={handlePickGallery}
+                activeOpacity={0.8}
+              >
+                <TreegohIcon name="galeria_evolucion" size={16} color="#A7F3D0" />
+                <Text style={styles.btnSecondaryActionText}>Subir de galería</Text>
+              </TouchableOpacity>
+            </View>
           </View>
         </View>
 
@@ -829,7 +833,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollContent: {
-    paddingHorizontal: 20,
+    paddingHorizontal: 0,
     paddingTop: 8,
     paddingBottom: 40,
   },
@@ -1038,14 +1042,12 @@ const styles = StyleSheet.create({
     position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
     backgroundColor: '#FFFFFF',
   },
-  cameraButtonsRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
+  cameraButtonsWrapper: {
     marginTop: 14,
     gap: 10,
   },
   btnShutterPrimary: {
-    flex: 1,
+    width: '100%',
     height: 52,
     flexDirection: 'row',
     alignItems: 'center',
@@ -1055,30 +1057,32 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
   },
   btnShutterPrimaryText: {
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: '700',
     color: '#121A15',
     marginLeft: 8,
   },
-  btnSystemCameraSecondary: {
-    width: 52,
-    height: 52,
-    borderRadius: 26,
-    backgroundColor: 'rgba(255, 255, 255, 0.12)',
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.20)',
-    justifyContent: 'center',
+  cameraSecondaryActionsRow: {
+    flexDirection: 'row',
     alignItems: 'center',
+    gap: 10,
   },
-  btnGallerySecondary: {
-    width: 52,
-    height: 52,
-    borderRadius: 26,
-    backgroundColor: 'rgba(255, 255, 255, 0.12)',
+  btnSecondaryActionPill: {
+    flex: 1,
+    height: 42,
+    borderRadius: 21,
+    backgroundColor: 'rgba(255, 255, 255, 0.10)',
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.20)',
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    gap: 8,
+  },
+  btnSecondaryActionText: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: '#FFFFFF',
   },
   distanceCardsCol: {
     gap: 10,
@@ -1129,10 +1133,10 @@ const styles = StyleSheet.create({
     color: '#121A15',
   },
   cardSub: {
-    fontSize: 13,
+    fontSize: 16,
     fontWeight: '500',
-    color: 'rgba(255, 255, 255, 0.70)',
-    lineHeight: 18,
+    color: 'rgba(255, 255, 255, 0.72)',
+    lineHeight: 22,
   },
   cardSubSelected: {
     color: '#2D4233',
@@ -1171,13 +1175,14 @@ const styles = StyleSheet.create({
   gridTwoColumns: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 12,
+    justifyContent: 'space-between',
+    rowGap: 14,
   },
   gridGlassCard: {
-    width: CARD_WIDTH_2COL,
-    minHeight: 148,
+    width: (width - 40 - 12) / 2,
+    minHeight: 172,
     borderRadius: 24,
-    padding: 16,
+    padding: 14,
     justifyContent: 'space-between',
     borderWidth: 1.2,
     overflow: 'hidden',
@@ -1233,19 +1238,19 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   gridCardSubHighlight: {
-    fontSize: 12,
+    fontSize: 14,
     fontWeight: '700',
     color: '#A7F3D0',
-    marginBottom: 2,
+    marginBottom: 3,
   },
   gridCardSubHighlightSelected: {
     color: '#121A15',
   },
   gridCardSub: {
-    fontSize: 12,
+    fontSize: 15,
     fontWeight: '500',
-    color: 'rgba(255, 255, 255, 0.70)',
-    lineHeight: 16,
+    color: 'rgba(255, 255, 255, 0.72)',
+    lineHeight: 20,
   },
   diagnosisWideCard: {
     borderRadius: 24,
