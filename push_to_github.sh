@@ -17,7 +17,7 @@ git add -A
 # Si hay cambios pendientes, hacer commit
 if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   echo "💾 Guardando correcciones en git..."
-  git commit -m "fix(ci): corregir validacion de app_store_connect en codemagic.yaml"
+  git commit -m "fix(deps): añadir react-native-worklets 0.13.1 para react-native-reanimated 4.7.1"
 else
   echo "ℹ️ No hay cambios pendientes."
 fi
