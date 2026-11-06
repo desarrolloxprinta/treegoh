@@ -1,13 +1,34 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "Treegoh",
+    "slug": "treegoh",
+    "scheme": "treegoh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#090E15"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.treegoh.app",
+      "appleTeamId": "855K4HU668",
+      "buildNumber": "1",
+      "entitlements": {
+        "aps-environment": "production",
+        "com.apple.developer.weatherkit": true
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "Treegoh utiliza tu ubicación GPS y brújula solar para calcular las horas de sol estacional, orientación y bioclima VPD de tu hogar.",
+        "NSCameraUsageDescription": "Treegoh utiliza la cámara para medir ópticamente la luz natural y detectar con IA la distancia a la ventana de tus plantas.",
+        "NSPhotoLibraryUsageDescription": "Treegoh analiza la fotografía de tu estancia para calcular automáticamente la distancia a la ventana, luminosidad Lux y riesgos térmicos.",
+        "NSPhotoLibraryAddUsageDescription": "Treegoh permite guardar y gestionar las fotografías del seguimiento botánico de tus plantas.",
+        "NSMicrophoneUsageDescription": "Treegoh utiliza el micrófono para permitirte realizar consultas botánicas por voz con el asistente."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -17,13 +38,32 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.app"
+      "package": "com.treegoh.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-video"
+      "expo-video",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Treegoh utiliza tu ubicación GPS y brújula solar para calcular las horas de sol estacional, orientación y bioclima VPD de tu hogar."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Treegoh utiliza la cámara para medir ópticamente la luz natural y detectar con IA la distancia a la ventana."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Treegoh analiza la foto de tu espacio para deducir automáticamente la distancia a la ventana y luminosidad."
+        }
+      ],
+      "expo-web-browser"
     ]
   }
 }

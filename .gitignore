@@ -3,3 +3,7 @@ node_modules/
 .env.local
 .firebase/
 credenciales.txt
+build/
+.expo/
+*.ipa
+*.xcarchive

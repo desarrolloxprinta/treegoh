@@ -10,6 +10,7 @@ export interface CustomMicroclimate {
   headingDegrees: number;
   windowDistance: 'junto_a_ventana' | 'media_distancia' | 'rincon_profundo';
   floorLevel?: 'baja' | 'media' | 'alta';
+  floorNumber?: number;
   estimatedLux: number;
   thermalRisks: {
     nearRadiator: boolean;
@@ -35,11 +36,21 @@ export interface CustomMicroclimate {
   };
 }
 
+export type BotanicalExperienceLevel =
+  | 'principiante'
+  | 'habitual'
+  | 'experto';
+
 export interface UserAccount {
+  uid?: string;
   authProvider: 'apple' | 'google' | 'email' | 'guest';
   email?: string;
   displayName?: string;
+  photoURL?: string | null;
+  experienceLevel?: BotanicalExperienceLevel;
   isGuest: boolean;
+  createdAt?: string;
+  lastLoginAt?: string;
 }
 
 export interface SafetyFilter {
@@ -55,6 +66,8 @@ export interface UserLocationDetails {
   street?: string;
   streetNumber?: string;
   floorOrApt?: string;
+  floorNumber?: number;
+  propertyType?: 'casa' | 'edificio';
   postalCode?: string;
   latitude?: number;
   longitude?: number;

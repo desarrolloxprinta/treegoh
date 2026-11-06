@@ -32,6 +32,7 @@ export interface FullAnnualSolarReport {
   headingDegrees: number;
   orientationCode: 'N' | 'S' | 'E' | 'O' | 'NE' | 'SE' | 'NO' | 'SO';
   floorLevel: 'baja' | 'media' | 'alta';
+  floorNumber?: number;
   todayPosition: SolarPosition;
   todayProfile: SeasonalSolarProfile;
   winterProfile: SeasonalSolarProfile;
@@ -127,7 +128,8 @@ export function calculateDirectWindowHours(
   latitude: number,
   dayOfYear: number,
   windowHeading: number,
-  floorLevel: 'baja' | 'media' | 'alta' = 'media'
+  floorLevel: 'baja' | 'media' | 'alta' = 'media',
+  floorNumber?: number
 ): { directHours: number; maxElevation: number; daylightHours: number } {
   const dec = calculateSolarDeclination(dayOfYear) * RAD;
   const lat = latitude * RAD;
@@ -152,8 +154,31 @@ export function calculateDirectWindowHours(
   // Planta baja: sombra de fachadas opuestas (min 14° de elevacion requerida)
   // 3º D / Medio: equilibrio urbano (min 8° de elevacion)
   // Atico: horizonte libre (min 4° de elevacion)
-  const minElev = floorLevel === 'baja' ? 14 : floorLevel === 'media' ? 8 : 4;
-  const floorFactor = floorLevel === 'alta' ? 1.05 : floorLevel === 'media' ? 0.95 : 0.8;
+  // Cálculo dinámico de corte solar por piso exacto (0 a 50+) o nivel
+  let minElev = 8;
+  let floorFactor = 0.95;
+  if (typeof floorNumber === 'number') {
+    if (floorNumber <= 0) {
+      minElev = 14;
+      floorFactor = 0.8;
+    } else if (floorNumber <= 2) {
+      minElev = 11;
+      floorFactor = 0.88;
+    } else if (floorNumber <= 5) {
+      minElev = 8;
+      floorFactor = 0.95;
+    } else if (floorNumber <= 15) {
+      minElev = 5;
+      floorFactor = 1.05;
+    } else {
+      // Torre o rascacielos alto (16 a 50+)
+      minElev = 3;
+      floorFactor = 1.15;
+    }
+  } else {
+    minElev = floorLevel === 'baja' ? 14 : floorLevel === 'media' ? 8 : 4;
+    floorFactor = floorLevel === 'alta' ? 1.05 : floorLevel === 'media' ? 0.95 : 0.8;
+  }
 
   // Muestreo horario de 5:00 a 22:00
   let directHoursCount = 0;
@@ -198,7 +223,8 @@ export function generateAnnualSolarReport(
   longitude: number = -3.7038,
   windowHeading: number = 180, // Sur por defecto
   windowDistance: 'junto_a_ventana' | 'media_distancia' | 'rincon_profundo' = 'media_distancia',
-  floorLevel: 'baja' | 'media' | 'alta' = 'media'
+  floorLevel: 'baja' | 'media' | 'alta' = 'media',
+  floorNumber?: number
 ): FullAnnualSolarReport {
   const now = new Date();
   const dayOfYearToday = getDayOfYear(now);
@@ -219,27 +245,27 @@ export function generateAnnualSolarReport(
   const distLuxMult = windowDistance === 'junto_a_ventana' ? 1.0 : windowDistance === 'media_distancia' ? 0.55 : 0.22;
 
   // 1. Invierno (Solsticio: ~21 de Diciembre / Enero, n = 15)
-  const winterMetrics = calculateDirectWindowHours(latitude, 15, windowHeading, floorLevel);
+  const winterMetrics = calculateDirectWindowHours(latitude, 15, windowHeading, floorLevel, floorNumber);
   const winterLuxBase = orientationCode === 'S' || orientationCode === 'SE' ? 4500 : orientationCode === 'E' || orientationCode === 'O' ? 2200 : 900;
   const winterLux = Math.round(winterLuxBase * distLuxMult);
 
   // 2. Primavera (Equinoccio: ~21 de Marzo, n = 80)
-  const springMetrics = calculateDirectWindowHours(latitude, 80, windowHeading, floorLevel);
+  const springMetrics = calculateDirectWindowHours(latitude, 80, windowHeading, floorLevel, floorNumber);
   const springLuxBase = orientationCode === 'S' ? 6500 : orientationCode === 'E' || orientationCode === 'O' ? 5200 : 2400;
   const springLux = Math.round(springLuxBase * distLuxMult);
 
   // 3. Verano (Solsticio: ~21 de Junio, n = 172)
-  const summerMetrics = calculateDirectWindowHours(latitude, 172, windowHeading, floorLevel);
+  const summerMetrics = calculateDirectWindowHours(latitude, 172, windowHeading, floorLevel, floorNumber);
   const summerLuxBase = orientationCode === 'O' ? 8800 : orientationCode === 'E' ? 7500 : orientationCode === 'S' ? 7200 : 3400;
   const summerLux = Math.round(summerLuxBase * distLuxMult);
 
   // 4. Otoño (Equinoccio: ~23 de Septiembre, n = 266)
-  const autumnMetrics = calculateDirectWindowHours(latitude, 266, windowHeading, floorLevel);
+  const autumnMetrics = calculateDirectWindowHours(latitude, 266, windowHeading, floorLevel, floorNumber);
   const autumnLuxBase = orientationCode === 'S' ? 5800 : orientationCode === 'E' || orientationCode === 'O' ? 4400 : 2000;
   const autumnLux = Math.round(autumnLuxBase * distLuxMult);
 
   // 5. Hoy
-  const todayMetrics = calculateDirectWindowHours(latitude, dayOfYearToday, windowHeading, floorLevel);
+  const todayMetrics = calculateDirectWindowHours(latitude, dayOfYearToday, windowHeading, floorLevel, floorNumber);
   const currentPos = calculateSolarPosition(latitude, longitude, now);
   const todayLuxRatio = (todayMetrics.directHours / (summerMetrics.directHours || 1));
   const todayLux = Math.round((winterLux + (summerLux - winterLux) * Math.max(0.1, Math.min(1, todayLuxRatio))));
@@ -250,6 +276,7 @@ export function generateAnnualSolarReport(
     headingDegrees: windowHeading,
     orientationCode,
     floorLevel,
+    floorNumber,
     todayPosition: currentPos,
     todayProfile: {
       seasonKey: 'hoy',
