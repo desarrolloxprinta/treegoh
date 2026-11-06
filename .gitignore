@@ -7,3 +7,9 @@ build/
 .expo/
 *.ipa
 *.xcarchive
+*.p8
+*.cer
+*.p12
+*.key
+*.pem
+*.mobileprovision
