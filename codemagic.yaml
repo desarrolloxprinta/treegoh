@@ -76,14 +76,13 @@ workflows:
     publishing:
       email:
         recipients:
-          - dev@treegoh.com
+          - desarrolloxprinta@gmail.com
         notify:
           failure: true
           success: true
       app_store_connect:
         auth: integration
         submit_to_testflight: true
-        expire_build_submitted_for_testing: false
 
   ios-build-check:
     name: Treegoh iOS Verification (Simulator / Dry Run)
