@@ -9,9 +9,8 @@ workflows:
     instance_type: mac_mini_m2
     max_build_duration: 60
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.treegoh.app
+      groups:
+        - app_store_credentials
       vars:
         BUNDLE_ID: "com.treegoh.app"
         APPLE_TEAM_ID: "855K4HU668"
@@ -49,10 +48,22 @@ workflows:
           echo "🍎 Instalando CocoaPods nativos de iOS..."
           cd app/ios
           pod install
+
+      - name: Set up keychain for code signing
+        script: |
+          echo "🔐 Inicializando llavero temporal para certificados de firma..."
+          keychain initialize
+      
+      - name: Fetch / create signing files from Apple Developer Portal
+        script: |
+          echo "📥 Obteniendo certificados y provisioning profile para $BUNDLE_ID..."
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
       
       - name: Set up code signing settings on Xcode project
         script: |
-          echo "🔐 Configurando perfiles de aprovisionamiento y certificados de firma..."
+          echo "📝 Aplicando perfiles de firma al proyecto Xcode..."
           xcode-project use-profiles
       
       - name: Increment iOS Build Number
@@ -81,7 +92,9 @@ workflows:
           failure: true
           success: true
       app_store_connect:
-        auth: integration
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
         submit_to_testflight: true
 
   ios-build-check:

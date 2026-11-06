@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 
 echo "🌿 ========================================================"
 echo "   Treegoh — Sincronización y Subida a GitHub"
-echo "   Repositorio: https://github.com/ruyx/treegoh"
+echo "   Repositorio: https://github.com/desarrolloxprinta/treegoh"
 echo "   ========================================================"
 
 git branch -M main
