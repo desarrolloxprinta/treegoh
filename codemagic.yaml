@@ -61,6 +61,11 @@ workflows:
             --type IOS_APP_STORE \
             --create
       
+      - name: Add certificates to keychain
+        script: |
+          echo "📥 Importando certificados de distribución al llavero temporal..."
+          keychain add-certificates
+      
       - name: Set up code signing settings on Xcode project
         script: |
           echo "📝 Aplicando perfiles de firma al proyecto Xcode..."

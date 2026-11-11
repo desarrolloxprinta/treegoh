@@ -17,7 +17,7 @@ git add -A
 # Si hay cambios pendientes, hacer commit
 if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   echo "💾 Guardando correcciones en git..."
-  git commit -m "fix(build): configurar ruta de proyecto en use-profiles, babel worklets y sanear entitlements"
+  git commit -m "fix(ci): añadir paso keychain add-certificates tras fetch-signing-files en codemagic.yaml"
 else
   echo "ℹ️ No hay cambios pendientes."
 fi
