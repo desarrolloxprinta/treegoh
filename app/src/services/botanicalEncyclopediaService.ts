@@ -341,7 +341,16 @@ function ensureBibliaIndexed(): void {
 
   try {
     // Carga perezosa del corpus maestro de 173 especies y 36 síntomas clínicos
-    const rawBiblia = require('../../../biblia-plantas/output/biblia.json');
+    let rawBiblia: any = null;
+    try {
+      rawBiblia = require('../constants/biblia.json');
+    } catch (_e1) {
+      try {
+        rawBiblia = require('../../../biblia-plantas/output/biblia.json');
+      } catch (_e2) {
+        rawBiblia = null;
+      }
+    }
     const especies: BibliaSpeciesMonograph[] = Array.isArray(rawBiblia?.especies)
       ? rawBiblia.especies
       : [];

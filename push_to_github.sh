@@ -10,14 +10,21 @@ echo "   ========================================================"
 
 git branch -M main
 
-# Añadir cambios (incluyendo codemagic.yaml corregido)
+# Asegurar biblia.json dentro de app/src/constants/ para Metro
+if [ -f "biblia-plantas/output/biblia.json" ]; then
+  echo "📖 Copiando biblia.json en app/src/constants/..."
+  mkdir -p app/src/constants
+  cp "biblia-plantas/output/biblia.json" "app/src/constants/biblia.json"
+fi
+
+# Añadir cambios (incluyendo package.json, metro.config.js, babel.config.js y codemagic.yaml)
 echo "📦 Añadiendo archivos..."
 git add -A
 
 # Si hay cambios pendientes, hacer commit
 if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   echo "💾 Guardando correcciones en git..."
-  git commit -m "fix(metro): actualizar a Node 22 para Expo 58/RN 0.88 y sanear metro.config.js"
+  git commit -m "fix(metro): instalar babel-preset-expo y @expo/metro-config, sanear watchFolders y normalizar imports"
 else
   echo "ℹ️ No hay cambios pendientes."
 fi

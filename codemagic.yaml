@@ -24,10 +24,10 @@ workflows:
         - push
         - tag
       branch_patterns:
-        - pattern: 'main'
+        - pattern: "main"
           include: true
           source: true
-        - pattern: 'release/*'
+        - pattern: "release/*"
           include: true
           source: true
     scripts:
@@ -35,14 +35,19 @@ workflows:
         script: |
           echo "📦 Instalando dependencias de Node.js en el directorio /app..."
           cd app
+          mkdir -p src/constants
+          if [ -f "../biblia-plantas/output/biblia.json" ]; then
+            echo "📖 Copiando biblia.json a app/src/constants/..."
+            cp "../biblia-plantas/output/biblia.json" src/constants/biblia.json
+          fi
           npm install --legacy-peer-deps
-      
+
       - name: Expo Prebuild (Generate native iOS Xcode project)
         script: |
           echo "🛠️ Ejecutando Expo Prebuild para generar app/ios/Treegoh.xcworkspace..."
           cd app
           npx expo prebuild --platform ios --clean
-      
+
       - name: Install CocoaPods
         script: |
           echo "🍎 Instalando CocoaPods nativos de iOS..."
@@ -53,30 +58,30 @@ workflows:
         script: |
           echo "🔐 Inicializando llavero temporal para certificados de firma..."
           keychain initialize
-      
+
       - name: Fetch / create signing files from Apple Developer Portal
         script: |
           echo "📥 Obteniendo certificados y provisioning profile para $BUNDLE_ID..."
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create
-      
+
       - name: Add certificates to keychain
         script: |
           echo "📥 Importando certificados de distribución al llavero temporal..."
           keychain add-certificates
-      
+
       - name: Set up code signing settings on Xcode project
         script: |
           echo "📝 Aplicando perfiles de firma al proyecto Xcode..."
           xcode-project use-profiles --project "app/ios/Treegoh.xcodeproj"
-      
+
       - name: Increment iOS Build Number
         script: |
           echo "🔢 Actualizando número de compilación con Codemagic BUILD_NUMBER ($BUILD_NUMBER)..."
           cd app/ios
           agvtool new-version -all $(($BUILD_NUMBER + 1))
-      
+
       - name: Build IPA for TestFlight
         script: |
           echo "🚀 Compilando archivo IPA con xcode-project build-ipa..."
@@ -84,12 +89,12 @@ workflows:
             --workspace "app/ios/Treegoh.xcworkspace" \
             --scheme "Treegoh" \
             --verbose
-            
+
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - app/ios/*.xcarchive
-      
+
     publishing:
       email:
         recipients:
@@ -115,12 +120,16 @@ workflows:
       events:
         - pull_request
       branch_patterns:
-        - pattern: '*'
+        - pattern: "*"
           include: true
     scripts:
       - name: Install Node dependencies
         script: |
           cd app
+          mkdir -p src/constants
+          if [ -f "../biblia-plantas/output/biblia.json" ]; then
+            cp "../biblia-plantas/output/biblia.json" src/constants/biblia.json
+          fi
           npm install --legacy-peer-deps
       - name: Expo Prebuild (Generate native iOS project)
         script: |
@@ -139,4 +148,3 @@ workflows:
             -destination "generic/platform=iOS Simulator" \
             CODE_SIGNING_ALLOWED=NO \
             build
-
