@@ -17,10 +17,6 @@
       "bundleIdentifier": "com.treegoh.app",
       "appleTeamId": "855K4HU668",
       "buildNumber": "1",
-      "entitlements": {
-        "aps-environment": "production",
-        "com.apple.developer.weatherkit": true
-      },
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "NSLocationWhenInUseUsageDescription": "Treegoh utiliza tu ubicación GPS y brújula solar para calcular las horas de sol estacional, orientación y bioclima VPD de tu hogar.",

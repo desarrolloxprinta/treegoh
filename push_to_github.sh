@@ -17,7 +17,7 @@ git add -A
 # Si hay cambios pendientes, hacer commit
 if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   echo "💾 Guardando correcciones en git..."
-  git commit -m "fix(deps): añadir react-native-worklets 0.13.1 para react-native-reanimated 4.7.1"
+  git commit -m "fix(build): configurar ruta de proyecto en use-profiles, babel worklets y sanear entitlements"
 else
   echo "ℹ️ No hay cambios pendientes."
 fi

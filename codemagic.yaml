@@ -64,7 +64,7 @@ workflows:
       - name: Set up code signing settings on Xcode project
         script: |
           echo "📝 Aplicando perfiles de firma al proyecto Xcode..."
-          xcode-project use-profiles
+          xcode-project use-profiles --project "app/ios/Treegoh.xcodeproj"
       
       - name: Increment iOS Build Number
         script: |
@@ -77,7 +77,8 @@ workflows:
           echo "🚀 Compilando archivo IPA con xcode-project build-ipa..."
           xcode-project build-ipa \
             --workspace "app/ios/Treegoh.xcworkspace" \
-            --scheme "Treegoh"
+            --scheme "Treegoh" \
+            --verbose
             
     artifacts:
       - build/ios/ipa/*.ipa
