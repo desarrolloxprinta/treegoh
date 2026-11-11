@@ -30,6 +30,7 @@ import { generateAnnualSolarReport, calculateSolarPosition } from '../utils/sola
 import {
   analyzeSpacePhotoWithOpenRouter,
   SpatialVisionAnalysis,
+  getFallbackAstronomicalVision,
 } from '../services/openRouterVision';
 
 interface Props {
@@ -409,48 +410,49 @@ export const MicroclimateStudioView: React.FC<Props> = ({
     setIsAnalyzingAI(true);
     setAiErrorMsg(null);
 
+    const visionContext = {
+      city: userLocation?.city,
+      latitude: userLat,
+      longitude: userLon,
+      floorNumber,
+      currentSunAzimuth: currentSunPos.azimuth,
+      currentSunElevation: currentSunPos.elevation,
+      deviceHeadingDegrees: capturedHeading,
+    };
+
     const res = await analyzeSpacePhotoWithOpenRouter(
       base64Data,
-      {
-        city: userLocation?.city,
-        latitude: userLat,
-        longitude: userLon,
-        floorNumber,
-        currentSunAzimuth: currentSunPos.azimuth,
-        currentSunElevation: currentSunPos.elevation,
-        deviceHeadingDegrees: capturedHeading,
-      },
+      visionContext,
       mimeType
     );
 
     setIsAnalyzingAI(false);
 
-    if (res.ok) {
-      const vision = res.data;
-      setAiAnalysis(vision);
-      setWindowDistance(vision.windowDistance);
-      setSelectedRoomType(vision.detectedRoomType);
-      if (!hasCustomEditedName) {
-        setName(vision.suggestedSpaceName);
-      }
-      setNearRadiator(vision.thermalRisksDetected.nearRadiator);
-      setNearAC(vision.thermalRisksDetected.nearAC);
-      setHasDrafts(vision.thermalRisksDetected.drafts);
-      if (vision.highHumidityLikely) {
-        setHighHumidity(true);
-      }
-      if (typeof capturedHeading !== 'number' && vision.inferredOrientationMode) {
-        const mode = vision.inferredOrientationMode;
-        const degMap: Record<'S' | 'E' | 'O' | 'N', number> = { S: 180, E: 90, O: 270, N: 0 };
-        setOrientationMode(mode);
-        setHeadingDegrees(degMap[mode]);
-        setIsOrientationLocked(true);
-        setOrientationSource('ia_solar');
-      }
-      triggerMediumHaptic();
-    } else {
-      setAiErrorMsg(res.error);
+    const vision: SpatialVisionAnalysis = res.ok
+      ? res.data
+      : getFallbackAstronomicalVision(visionContext);
+
+    setAiAnalysis(vision);
+    setWindowDistance(vision.windowDistance);
+    setSelectedRoomType(vision.detectedRoomType);
+    if (!hasCustomEditedName) {
+      setName(vision.suggestedSpaceName);
     }
+    setNearRadiator(vision.thermalRisksDetected.nearRadiator);
+    setNearAC(vision.thermalRisksDetected.nearAC);
+    setHasDrafts(vision.thermalRisksDetected.drafts);
+    if (vision.highHumidityLikely) {
+      setHighHumidity(true);
+    }
+    if (typeof capturedHeading !== 'number' && vision.inferredOrientationMode) {
+      const mode = vision.inferredOrientationMode;
+      const degMap: Record<'S' | 'E' | 'O' | 'N', number> = { S: 180, E: 90, O: 270, N: 0 };
+      setOrientationMode(mode);
+      setHeadingDegrees(degMap[mode]);
+      setIsOrientationLocked(true);
+      setOrientationSource('ia_solar');
+    }
+    triggerMediumHaptic();
   };
 
   const handleOpenBubbleCamera = () => {
@@ -485,34 +487,39 @@ export const MicroclimateStudioView: React.FC<Props> = ({
       await new Promise(resolve => setTimeout(resolve, 380));
     }
     try {
-      const perm = await ImagePicker.requestMediaLibraryPermissionsAsync();
-      if (!perm.granted) {
-        setAiErrorMsg('Activa el permiso de Fotos para cargar una imagen de tu galería.');
-        return;
+      if (Platform.OS === 'android') {
+        const perm = await ImagePicker.getMediaLibraryPermissionsAsync();
+        if (!perm.granted) {
+          const req = await ImagePicker.requestMediaLibraryPermissionsAsync();
+          if (!req.granted) {
+            setAiErrorMsg('Activa el permiso de Fotos para cargar una imagen de tu galería.');
+            return;
+          }
+        }
       }
       const result = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ['images'],
+        allowsEditing: Platform.OS === 'android',
         quality: 0.6,
         base64: true,
       });
       if (!result.canceled && result.assets?.[0]) {
         const asset = result.assets[0];
         setCapturedPhotoUri(asset.uri);
-        if (asset.base64) {
-          setModalFrozenUri(asset.uri);
-          setIsBubbleModalOpen(true);
-          await runVisionAnalysisOnBase64(
-            asset.base64,
-            asset.mimeType || 'image/jpeg',
-            undefined
-          );
-          setIsBubbleModalOpen(false);
-          setTimeout(() => {
-            setModalFrozenUri(null);
-          }, 320);
-        }
+        setModalFrozenUri(asset.uri);
+        setIsBubbleModalOpen(true);
+        await runVisionAnalysisOnBase64(
+          asset.base64 || '',
+          asset.mimeType || 'image/jpeg',
+          undefined
+        );
+        setIsBubbleModalOpen(false);
+        setTimeout(() => {
+          setModalFrozenUri(null);
+        }, 320);
       }
-    } catch (_err) {
+    } catch (err: any) {
+      console.warn('[Treegoh] Error cargando imagen en onboarding:', err);
       setIsBubbleModalOpen(false);
       setModalFrozenUri(null);
       setAiErrorMsg('No se pudo cargar la imagen desde la galería.');

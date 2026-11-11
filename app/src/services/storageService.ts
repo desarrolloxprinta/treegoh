@@ -13,6 +13,7 @@ const STORAGE_KEYS = {
   USER_PROFILE: '@treegoh_user_profile_v1',
   IS_ONBOARDING_DONE: '@treegoh_is_onboarding_done_v1',
   LAST_LOGIN_TIMESTAMP: '@treegoh_last_login_v1',
+  PLANTS_BY_SPACE: '@treegoh_plants_by_space_v1',
 };
 
 // Intento dinámico de carga de AsyncStorage
@@ -167,6 +168,36 @@ export async function loadPersistedUserSession(): Promise<{
 }
 
 /**
+ * Persiste la colección de plantas organizadas por espacio
+ */
+export async function persistPlantsBySpace(
+  plantsBySpace: Record<string, any[]>
+): Promise<boolean> {
+  try {
+    return await setItem(STORAGE_KEYS.PLANTS_BY_SPACE, plantsBySpace);
+  } catch (err) {
+    console.warn('[TreegohStorage] Error persistiendo plantas por espacio:', err);
+    return false;
+  }
+}
+
+/**
+ * Carga la colección de plantas organizadas por espacio guardadas localmente
+ */
+export async function loadPersistedPlantsBySpace<T = any>(): Promise<Record<string, T[]> | null> {
+  try {
+    const data = await getItem<Record<string, T[]>>(STORAGE_KEYS.PLANTS_BY_SPACE);
+    if (data && typeof data === 'object' && !Array.isArray(data)) {
+      return data;
+    }
+    return null;
+  } catch (err) {
+    console.warn('[TreegohStorage] Error cargando plantas persistidas:', err);
+    return null;
+  }
+}
+
+/**
  * Limpia la sesión local (logout o reseteo de onboarding)
  */
 export async function clearUserSession(): Promise<void> {
@@ -174,5 +205,6 @@ export async function clearUserSession(): Promise<void> {
   await removeItem(STORAGE_KEYS.USER_PROFILE);
   await removeItem(STORAGE_KEYS.IS_ONBOARDING_DONE);
   await removeItem(STORAGE_KEYS.LAST_LOGIN_TIMESTAMP);
+  await removeItem(STORAGE_KEYS.PLANTS_BY_SPACE);
 }
 

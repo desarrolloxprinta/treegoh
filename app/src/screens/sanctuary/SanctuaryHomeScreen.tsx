@@ -64,6 +64,11 @@ import {
 import { UserProfileModal } from '../../components/UserProfileModal';
 import { SoundscapePracticeModal, SOUND_SCENES, SoundScene } from '../../components/SoundscapePracticeModal';
 import { savePlantToCloud, syncSanctuaryToCloud } from '../../services/firebaseAuthService';
+import {
+  persistUserSession,
+  persistPlantsBySpace,
+  loadPersistedPlantsBySpace,
+} from '../../services/storageService';
 import { FloatingBlobNavBar, NavTabItem } from '../../components/FloatingBlobNavBar';
 import { fetchLiveWeather, WeatherData } from '../../services/weatherService';
 
@@ -374,7 +379,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
       triggerHaptic();
       const res = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ['images'],
-        allowsEditing: true,
+        allowsEditing: Platform.OS === 'android',
         quality: 0.7,
         base64: true,
       });
@@ -659,9 +664,10 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   const [customSpacesList, setCustomSpacesList] = useState<CustomMicroclimate[]>(() =>
     initialSpaces.length > 0 ? initialSpaces : [fallbackSpace]
   );
+  const hasUserModifiedSpacesRef = useRef<boolean>(false);
 
   useEffect(() => {
-    if (initialSpaces.length > 0) {
+    if (!hasUserModifiedSpacesRef.current && initialSpaces.length > 0) {
       setCustomSpacesList(initialSpaces);
     }
   }, [initialSpaces]);
@@ -887,6 +893,18 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     ],
   });
 
+  // Carga inicial de plantas persistidas en almacenamiento local
+  useEffect(() => {
+    (async () => {
+      try {
+        const persisted = await loadPersistedPlantsBySpace<UserPlant>();
+        if (persisted && typeof persisted === 'object' && Object.keys(persisted).length > 0) {
+          setPlantsBySpace(persisted);
+        }
+      } catch (_e) {}
+    })();
+  }, []);
+
   const currentSpacePlants = plantsBySpace[activeSpace?.name] || [];
 
   const triggerHaptic = (heavy = false) => {
@@ -899,14 +917,23 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
   const handleAddPlant = (newPlant: UserPlant) => {
     triggerHaptic(true);
+    const spaceKey = newPlant.spaceName || activeSpace?.name || 'Salón';
     setPlantsBySpace(prev => {
-      const spaceKey = newPlant.spaceName || activeSpace?.name || 'Salón';
       const existing = prev[spaceKey] || [];
-      return {
+      const updated = {
         ...prev,
         [spaceKey]: [newPlant, ...existing],
       };
+      persistPlantsBySpace(updated);
+      return updated;
     });
+
+    // Enfocar automáticamente el espacio donde se alojó la nueva planta
+    const targetIdx = customSpacesList.findIndex(s => s.name === spaceKey);
+    if (targetIdx >= 0) {
+      setSelectedSpaceIndex(targetIdx);
+    }
+
     // Sincronización en la nube con Google Cloud Firestore (/users/{userId}/plants/{plantId})
     if (onboardingData.account?.uid) {
       savePlantToCloud(onboardingData.account.uid, newPlant);
@@ -979,6 +1006,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           const targetList = updated[targetSpace.name] || [];
           updated[targetSpace.name] = [movedPlantRef, ...targetList];
         }
+        persistPlantsBySpace(updated);
         return updated;
       });
 
@@ -1086,7 +1114,6 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     };
 
     handleAddPlant(newPlant);
-    setSelectedPlantForDetail(newPlant);
   };
 
   // Reconocimiento botánico REAL con OpenRouter multimodal desde la galería
@@ -1136,7 +1163,6 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     };
 
     handleAddPlant(newPlant);
-    setSelectedPlantForDetail(newPlant);
   };
 
   const handleWaterPlant = (plantId: string) => {
@@ -1154,7 +1180,9 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             }
           : p
       );
-      return { ...prev, [spaceKey]: updated };
+      const nextDict = { ...prev, [spaceKey]: updated };
+      persistPlantsBySpace(nextDict);
+      return nextDict;
     });
 
     if (selectedPlantForDetail && selectedPlantForDetail.id === plantId) {
@@ -1193,6 +1221,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               Object.keys(prev).forEach(spKey => {
                 updated[spKey] = (prev[spKey] || []).filter(p => p.id !== plantId);
               });
+              persistPlantsBySpace(updated);
               return updated;
             });
             setSelectedPlantForDetail(null);
@@ -1203,26 +1232,29 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   };
 
   const handleDeleteSpace = (spaceIndex: number) => {
-    if (customSpacesList.length <= 1) {
-      Alert.alert(
-        'Espacio Principal',
-        'Tu santuario botánico debe conservar al menos un espacio en el hogar.'
-      );
-      return;
-    }
-
     const spaceToDelete = customSpacesList[spaceIndex];
     if (!spaceToDelete) return;
     const spaceName = spaceToDelete.name;
     const plantsInSpace = plantsBySpace[spaceName] || [];
+    const isLastSpace = customSpacesList.length <= 1;
+    const remainingTarget = customSpacesList.find((_, idx) => idx !== spaceIndex);
+    const targetSpaceName = remainingTarget?.name;
+
+    const confirmMessage = isLastSpace
+      ? plantsInSpace.length > 0
+        ? `¿Eliminar «${spaceName}»? Al ser el único espacio registrado, sus ${plantsInSpace.length} ${
+            plantsInSpace.length === 1 ? 'planta también se retirará' : 'plantas también se retirarán'
+          } del santuario.`
+        : `¿Eliminar «${spaceName}» de tu santuario?`
+      : plantsInSpace.length > 0
+      ? `¿Eliminar «${spaceName}»? Sus ${plantsInSpace.length} ${
+          plantsInSpace.length === 1 ? 'planta se reubicará' : 'plantas se reubicarán'
+        } automáticamente en «${targetSpaceName}».`
+      : `¿Eliminar «${spaceName}» de los espacios de tu hogar?`;
 
     Alert.alert(
       'Eliminar Espacio',
-      plantsInSpace.length > 0
-        ? `¿Eliminar «${spaceName}»? Sus ${plantsInSpace.length} ${
-            plantsInSpace.length === 1 ? 'planta se reubicará' : 'plantas se reubicarán'
-          } automáticamente en el espacio principal.`
-        : `¿Eliminar «${spaceName}» de los espacios de tu hogar?`,
+      confirmMessage,
       [
         { text: 'Cancelar', style: 'cancel' },
         {
@@ -1230,10 +1262,10 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           style: 'destructive',
           onPress: () => {
             triggerHaptic(true);
+            hasUserModifiedSpacesRef.current = true;
             const updatedSpaces = customSpacesList.filter((_, idx) => idx !== spaceIndex);
-            const targetSpaceName = updatedSpaces[0]?.name || 'Salón';
 
-            if (plantsInSpace.length > 0) {
+            if (plantsInSpace.length > 0 && targetSpaceName) {
               setPlantsBySpace(prev => {
                 const targetList = prev[targetSpaceName] || [];
                 const reallocated = plantsInSpace.map(p => ({
@@ -1243,12 +1275,14 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                 const nextState = { ...prev };
                 delete nextState[spaceName];
                 nextState[targetSpaceName] = [...targetList, ...reallocated];
+                persistPlantsBySpace(nextState);
                 return nextState;
               });
             } else {
               setPlantsBySpace(prev => {
                 const nextState = { ...prev };
                 delete nextState[spaceName];
+                persistPlantsBySpace(nextState);
                 return nextState;
               });
             }
@@ -1256,11 +1290,23 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             setCustomSpacesList(updatedSpaces);
             setSelectedSpaceIndex(0);
 
+            const updatedOnboardingData = {
+              ...onboardingData,
+              customMicroclimates: updatedSpaces,
+              spaces: updatedSpaces.map(s => s.name),
+            };
+
+            try {
+              if (onboardingData) {
+                onboardingData.customMicroclimates = updatedSpaces;
+                onboardingData.spaces = updatedSpaces.map(s => s.name);
+              }
+            } catch (_e) {}
+
+            persistUserSession(updatedOnboardingData);
+
             if (onboardingData.account?.uid) {
-              syncSanctuaryToCloud(onboardingData.account.uid, {
-                ...onboardingData,
-                customMicroclimates: updatedSpaces,
-              });
+              syncSanctuaryToCloud(onboardingData.account.uid, updatedOnboardingData);
             }
           },
         },
@@ -1270,16 +1316,29 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
   const handleSaveNewSpaceFromStudio = (newSpace: CustomMicroclimate) => {
     triggerHaptic();
+    hasUserModifiedSpacesRef.current = true;
     const updatedList = [...customSpacesList, newSpace];
     setCustomSpacesList(updatedList);
-    setSelectedSpaceIndex(customSpacesList?.length || 0);
+    setSelectedSpaceIndex(updatedList.length - 1);
     setIsAddSpaceModalOpen(false);
 
+    const updatedOnboardingData = {
+      ...onboardingData,
+      customMicroclimates: updatedList,
+      spaces: updatedList.map(s => s.name),
+    };
+
+    try {
+      if (onboardingData) {
+        onboardingData.customMicroclimates = updatedList;
+        onboardingData.spaces = updatedList.map(s => s.name);
+      }
+    } catch (_e) {}
+
+    persistUserSession(updatedOnboardingData);
+
     if (onboardingData.account?.uid) {
-      syncSanctuaryToCloud(onboardingData.account.uid, {
-        ...onboardingData,
-        customMicroclimates: updatedList,
-      });
+      syncSanctuaryToCloud(onboardingData.account.uid, updatedOnboardingData);
     }
   };
 
@@ -1300,6 +1359,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             : p
         );
       });
+      persistPlantsBySpace(updated);
       return updated;
     });
   };
@@ -1313,6 +1373,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           p.id === plantId ? { ...p, needsPruning: false } : p
         );
       });
+      persistPlantsBySpace(updated);
       return updated;
     });
   };
@@ -1326,6 +1387,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           p.id === plantId ? { ...p, needsRepotting: false } : p
         );
       });
+      persistPlantsBySpace(updated);
       return updated;
     });
   };
@@ -1339,6 +1401,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           p.id === plantId ? { ...p, emergencyAlert: undefined } : p
         );
       });
+      persistPlantsBySpace(updated);
       return updated;
     });
   };
@@ -1458,7 +1521,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     if (plantListFilter === 'Tareas') {
       return list.filter(p => p.needsPruning || p.needsRepotting || p.emergencyAlert);
     }
-    if (plantListFilter === 'Pet Friendly') {
+    if (plantListFilter === 'Pet Friendly' || plantListFilter === 'Mascotas') {
       return list.filter(p => p.isPetSafe);
     }
     return list;
@@ -1943,7 +2006,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               </View>
               <View style={styles.tideActionTextWrap}>
                 <Text style={styles.tideActionTitle}>Pausa Zen</Text>
-                <Text style={styles.tideActionSub}>Soundscapes</Text>
+                <Text style={styles.tideActionSub}>Paisajes Sonoros</Text>
               </View>
             </TouchableOpacity>
           </ScrollView>
@@ -1954,7 +2017,9 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           <View style={styles.spacesSectionHeaderRow}>
             <Text style={styles.sectionTitle}>Espacios del hogar</Text>
             <Text style={styles.sectionCounter}>
-              {selectedSpaceIndex + 1} de {customSpacesList.length}
+              {customSpacesList.length === 0
+                ? '0'
+                : `${selectedSpaceIndex + 1} de ${customSpacesList.length}`}
             </Text>
           </View>
 
@@ -2028,9 +2093,11 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             <View style={styles.plantsSectionTitleCol}>
               <View style={styles.plantsSectionTitleRow}>
                 <Text style={styles.sectionTitle}>
-                  Plantas en {activeSpace?.name || 'Salón Principal'}
+                  {customSpacesList.length === 0
+                    ? 'Sin espacios registrados'
+                    : `Plantas en ${activeSpace?.name || 'Salón Principal'}`}
                 </Text>
-                {customSpacesList.length > 1 && (
+                {customSpacesList.length > 0 && (
                   <TouchableOpacity
                     style={styles.deleteSpaceMiniBtn}
                     onPress={() => handleDeleteSpace(selectedSpaceIndex)}
@@ -2094,8 +2161,8 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                   icon: 'escudo_fitosanitario' as IconName,
                 },
                 {
-                  key: 'Pet Friendly',
-                  label: `Pet Friendly (${
+                  key: 'Mascotas',
+                  label: `Mascotas (${
                     currentSpacePlants.filter(p => p.isPetSafe).length
                   })`,
                   icon: 'mascota_libre' as IconName,
@@ -2137,7 +2204,30 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             </ScrollView>
           )}
 
-          {currentSpacePlants.length === 0 ? (
+          {customSpacesList.length === 0 ? (
+            <TouchableOpacity
+              style={styles.emptySpaceCtaCard}
+              onPress={() => {
+                triggerHaptic();
+                setIsAddSpaceModalOpen(true);
+              }}
+              activeOpacity={0.85}
+            >
+              <GlassCardSheen />
+              <View style={styles.emptyIconCircle}>
+                <TreegohIcon name="espacios_microclimas" size={28} color="#FFFFFF" glow={true} />
+              </View>
+              <Text style={styles.emptyCardTitle}>
+                No tienes espacios registrados
+              </Text>
+              <Text style={styles.emptyCardSub}>
+                Crea una estancia en tu hogar para calibrar su orientación solar e incorporar tus plantas.
+              </Text>
+              <View style={styles.emptyButtonInside}>
+                <Text style={styles.emptyButtonInsideText}>Añadir primer espacio</Text>
+              </View>
+            </TouchableOpacity>
+          ) : currentSpacePlants.length === 0 ? (
             <TouchableOpacity
               style={styles.emptySpaceCtaCard}
               onPress={() => {
@@ -2230,7 +2320,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                       <View style={styles.plantGridRightBadges}>
                         {plant.isPetSafe && (
                           <View style={styles.plantPetBadge}>
-                            <Text style={styles.plantPetBadgeText}>ASPCA</Text>
+                            <Text style={styles.plantPetBadgeText}>SEGURA</Text>
                           </View>
                         )}
                         {plant.needsPruning && (
@@ -2749,7 +2839,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             },
           ]}
         >
-          <Text style={styles.assistantHypelistTitle}>ASK TREEGOH</Text>
+          <Text style={styles.assistantHypelistTitle}>CONSULTA A TREEGOH</Text>
           {!isConversationEmpty && (
             <TouchableOpacity
               style={styles.assistantResetPill}
@@ -3233,51 +3323,53 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
       </View>
 
       {/* Tarjeta Brújula y Orientación Cardinal Activa */}
-      <View style={styles.compassHeroCard}>
-        <GlassCardSheen />
-        <View style={styles.compassTopRow}>
-          <View style={styles.compassBadgePill}>
-            <TreegohIcon name="brujula_solar" size={15} color="#FFFFFF" glow={false} />
-            <Text style={styles.compassBadgeText}>
-              {activeSpace.orientation || 'Sur'} ({activeSpace.headingDegrees || 180}°)
-            </Text>
+      {customSpacesList.length > 0 && (
+        <View style={styles.compassHeroCard}>
+          <GlassCardSheen />
+          <View style={styles.compassTopRow}>
+            <View style={styles.compassBadgePill}>
+              <TreegohIcon name="brujula_solar" size={15} color="#FFFFFF" glow={false} />
+              <Text style={styles.compassBadgeText}>
+                {activeSpace.orientation || 'Sur'} ({activeSpace.headingDegrees || 180}°)
+              </Text>
+            </View>
+            <Text style={styles.compassRoomTitle}>{activeSpace.name}</Text>
           </View>
-          <Text style={styles.compassRoomTitle}>{activeSpace.name}</Text>
-        </View>
 
-        <View style={styles.compassVisualWrap}>
-          <View style={styles.compassCircleOuter}>
-            <View style={styles.compassCircleInner}>
-              <TreegohIcon name="brujula_solar" size={32} color="#FFFFFF" glow={true} />
-              <Text style={styles.compassDegreeNum}>{activeSpace.headingDegrees || 180}°</Text>
-              <Text style={styles.compassCardinalLabel}>{activeSpace.orientation || 'Sur'}</Text>
+          <View style={styles.compassVisualWrap}>
+            <View style={styles.compassCircleOuter}>
+              <View style={styles.compassCircleInner}>
+                <TreegohIcon name="brujula_solar" size={32} color="#FFFFFF" glow={true} />
+                <Text style={styles.compassDegreeNum}>{activeSpace.headingDegrees || 180}°</Text>
+                <Text style={styles.compassCardinalLabel}>{activeSpace.orientation || 'Sur'}</Text>
+              </View>
+            </View>
+          </View>
+
+          <View style={styles.compassMetricsGrid}>
+            <View style={styles.compassMetricCell}>
+              <Text style={styles.compassMetricVal}>~{(activeSpace.estimatedLux || 3200).toLocaleString()}</Text>
+              <Text style={styles.compassMetricSub}>Lux estimados</Text>
+            </View>
+            <View style={styles.compassMetricDivider} />
+            <View style={styles.compassMetricCell}>
+              <Text style={styles.compassMetricVal}>{activeSpace.habitabilityScore || 92}/100</Text>
+              <Text style={styles.compassMetricSub}>Índice VPD</Text>
+            </View>
+            <View style={styles.compassMetricDivider} />
+            <View style={styles.compassMetricCell}>
+              <Text style={styles.compassMetricVal}>
+                {activeSpace.windowDistance === 'junto_a_ventana'
+                  ? '< 1 m'
+                  : activeSpace.windowDistance === 'media_distancia'
+                  ? '1–2.5 m'
+                  : '> 3 m'}
+              </Text>
+              <Text style={styles.compassMetricSub}>A ventana</Text>
             </View>
           </View>
         </View>
-
-        <View style={styles.compassMetricsGrid}>
-          <View style={styles.compassMetricCell}>
-            <Text style={styles.compassMetricVal}>~{(activeSpace.estimatedLux || 3200).toLocaleString()}</Text>
-            <Text style={styles.compassMetricSub}>Lux estimados</Text>
-          </View>
-          <View style={styles.compassMetricDivider} />
-          <View style={styles.compassMetricCell}>
-            <Text style={styles.compassMetricVal}>{activeSpace.habitabilityScore || 92}/100</Text>
-            <Text style={styles.compassMetricSub}>Score VPD</Text>
-          </View>
-          <View style={styles.compassMetricDivider} />
-          <View style={styles.compassMetricCell}>
-            <Text style={styles.compassMetricVal}>
-              {activeSpace.windowDistance === 'junto_a_ventana'
-                ? '< 1 m'
-                : activeSpace.windowDistance === 'media_distancia'
-                ? '1–2.5 m'
-                : '> 3 m'}
-            </Text>
-            <Text style={styles.compassMetricSub}>A ventana</Text>
-          </View>
-        </View>
-      </View>
+      )}
 
       {/* Lista de todos los microclimas registrados en el hogar */}
       <View style={styles.allSpacesListBlock}>
@@ -3297,46 +3389,67 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         </View>
 
         <View style={styles.allSpacesCardsCol}>
-          {(customSpacesList || []).map((sp, idx) => {
-            const isSelected = idx === selectedSpaceIndex;
-            const count = (plantsBySpace[sp.name] || []).length;
-            return (
-              <TouchableOpacity
-                key={sp.id || sp.name}
-                style={[styles.allSpaceCardItem, isSelected && styles.allSpaceCardItemSelected]}
-                onPress={() => {
-                  triggerHaptic();
-                  setSelectedSpaceIndex(idx);
-                }}
-                activeOpacity={0.82}
-              >
-                <GlassCardSheen selected={isSelected} />
-                <View style={styles.allSpaceCardTopRow}>
-                  <View style={styles.allSpaceCardLeft}>
-                    <View style={styles.allSpaceCardIconWrap}>
-                      <TreegohIcon name="espacios_microclimas" size={20} color="#FFFFFF" glow={isSelected} />
-                    </View>
-                    <View style={styles.allSpaceCardTexts}>
-                      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                        <Text style={styles.allSpaceCardName}>{sp.name}</Text>
-                        {isSelected && (
-                          <View style={styles.activeSpaceDotPill}>
-                            <Text style={styles.activeSpaceDotText}>Activo</Text>
-                          </View>
-                        )}
+          {customSpacesList.length === 0 ? (
+            <TouchableOpacity
+              style={styles.emptySpaceCtaCard}
+              onPress={() => {
+                triggerHaptic();
+                setIsAddSpaceModalOpen(true);
+              }}
+              activeOpacity={0.85}
+            >
+              <GlassCardSheen />
+              <View style={styles.emptyIconCircle}>
+                <TreegohIcon name="espacios_microclimas" size={28} color="#FFFFFF" glow={true} />
+              </View>
+              <Text style={styles.emptyCardTitle}>No hay espacios en tu santuario</Text>
+              <Text style={styles.emptyCardSub}>
+                Crea tu primera estancia con el visor de cámara y la trayectoria solar GPS.
+              </Text>
+              <View style={styles.emptyButtonInside}>
+                <Text style={styles.emptyButtonInsideText}>Añadir primer espacio</Text>
+              </View>
+            </TouchableOpacity>
+          ) : (
+            (customSpacesList || []).map((sp, idx) => {
+              const isSelected = idx === selectedSpaceIndex;
+              const count = (plantsBySpace[sp.name] || []).length;
+              return (
+                <TouchableOpacity
+                  key={sp.id || sp.name}
+                  style={[styles.allSpaceCardItem, isSelected && styles.allSpaceCardItemSelected]}
+                  onPress={() => {
+                    triggerHaptic();
+                    setSelectedSpaceIndex(idx);
+                  }}
+                  activeOpacity={0.82}
+                >
+                  <GlassCardSheen selected={isSelected} />
+                  <View style={styles.allSpaceCardTopRow}>
+                    <View style={styles.allSpaceCardLeft}>
+                      <View style={styles.allSpaceCardIconWrap}>
+                        <TreegohIcon name="espacios_microclimas" size={20} color="#FFFFFF" glow={isSelected} />
                       </View>
-                      <Text style={styles.allSpaceCardSub}>
-                        {sp.roomType} · {sp.orientation || 'Sur'} · {count} {count === 1 ? 'planta' : 'plantas'}
-                      </Text>
+                      <View style={styles.allSpaceCardTexts}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                          <Text style={styles.allSpaceCardName}>{sp.name}</Text>
+                          {isSelected && (
+                            <View style={styles.activeSpaceDotPill}>
+                              <Text style={styles.activeSpaceDotText}>Activo</Text>
+                            </View>
+                          )}
+                        </View>
+                        <Text style={styles.allSpaceCardSub}>
+                          {sp.roomType} · {sp.orientation || 'Sur'} · {count} {count === 1 ? 'planta' : 'plantas'}
+                        </Text>
+                      </View>
                     </View>
-                  </View>
 
-                  <View style={styles.allSpaceRightWrap}>
-                    <View style={styles.allSpaceScoreWrap}>
-                      <Text style={styles.allSpaceScoreNum}>{sp.habitabilityScore || 92}</Text>
-                      <Text style={styles.allSpaceScoreSub}>VPD</Text>
-                    </View>
-                    {customSpacesList.length > 1 && (
+                    <View style={styles.allSpaceRightWrap}>
+                      <View style={styles.allSpaceScoreWrap}>
+                        <Text style={styles.allSpaceScoreNum}>{sp.habitabilityScore || 92}</Text>
+                        <Text style={styles.allSpaceScoreSub}>VPD</Text>
+                      </View>
                       <TouchableOpacity
                         style={styles.deleteSpaceListItemBtn}
                         onPress={e => {
@@ -3348,29 +3461,29 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                       >
                         <TreegohIcon name="menos" size={12} color="rgba(255, 255, 255, 0.45)" glow={false} />
                       </TouchableOpacity>
-                    )}
+                    </View>
                   </View>
-                </View>
 
-                {/* BOTÓN DIRECTO: AÑADIR PLANTA A ESTE MICROCLIMA */}
-                <View style={styles.allSpaceCardBottomActionsRow}>
-                  <TouchableOpacity
-                    style={styles.addPlantToThisSpaceBtn}
-                    onPress={e => {
-                      e.stopPropagation?.();
-                      triggerHaptic();
-                      setSelectedSpaceIndex(idx);
-                      setIsAddPlantModalOpen(true);
-                    }}
-                    activeOpacity={0.8}
-                  >
-                    <TreegohIcon name="mas" size={11} color="#86EFAC" glow={false} />
-                    <Text style={styles.addPlantToThisSpaceText}>Añadir planta a {sp.name}</Text>
-                  </TouchableOpacity>
-                </View>
-              </TouchableOpacity>
-            );
-          })}
+                  {/* BOTÓN DIRECTO: AÑADIR PLANTA A ESTE MICROCLIMA */}
+                  <View style={styles.allSpaceCardBottomActionsRow}>
+                    <TouchableOpacity
+                      style={styles.addPlantToThisSpaceBtn}
+                      onPress={e => {
+                        e.stopPropagation?.();
+                        triggerHaptic();
+                        setSelectedSpaceIndex(idx);
+                        setIsAddPlantModalOpen(true);
+                      }}
+                      activeOpacity={0.8}
+                    >
+                      <TreegohIcon name="mas" size={11} color="#86EFAC" glow={false} />
+                      <Text style={styles.addPlantToThisSpaceText}>Añadir planta a {sp.name}</Text>
+                    </TouchableOpacity>
+                  </View>
+                </TouchableOpacity>
+              );
+            })
+          )}
         </View>
       </View>
     </ScrollView>
@@ -3449,7 +3562,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                 const ImagePicker = await import('expo-image-picker');
                 const res = await ImagePicker.launchImageLibraryAsync({
                   mediaTypes: ['images'],
-                  allowsEditing: true,
+                  allowsEditing: Platform.OS === 'android',
                   aspect: [4, 3],
                   quality: 0.65,
                   base64: true,
@@ -4038,6 +4151,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         onSaveSpace={handleSaveNewSpaceFromStudio}
         userLocation={onboardingData?.location}
         userCity={onboardingData?.location?.city || 'Madrid'}
+        existingSpaces={customSpacesList}
       />
 
       {/* VISOR ÓPTICO EN BURBUJA ESTILO BITEPAL CONECTADO A OPENROUTER IA */}
@@ -4054,7 +4168,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           const ImagePicker = await import('expo-image-picker');
           const res = await ImagePicker.launchImageLibraryAsync({
             mediaTypes: ['images'],
-            allowsEditing: true,
+            allowsEditing: Platform.OS === 'android',
             aspect: [4, 3],
             quality: 0.65,
             base64: true,

@@ -110,19 +110,11 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
         easing: Easing.bezier(0.22, 1, 0.36, 1),
         useNativeDriver: true,
       }).start();
-    } else if (isMounted) {
+    } else {
       setTorchEnabled(false);
       setFocusPoint(null);
-      Animated.timing(bubbleExpandAnim, {
-        toValue: 0,
-        duration: 320,
-        easing: Easing.bezier(0.32, 0, 0.67, 0),
-        useNativeDriver: true,
-      }).start(({ finished }) => {
-        if (finished) {
-          setIsMounted(false);
-        }
-      });
+      setIsMounted(false);
+      bubbleExpandAnim.setValue(0);
     }
     return () => {
       if (focusResetTimerRef.current) clearTimeout(focusResetTimerRef.current);
@@ -135,16 +127,9 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
     try {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     } catch (_e) {}
-    Animated.timing(bubbleExpandAnim, {
-      toValue: 0,
-      duration: 310,
-      easing: Easing.bezier(0.32, 0, 0.67, 0),
-      useNativeDriver: true,
-    }).start(() => {
-      setIsMounted(false);
-      onClose();
-    });
-  }, [bubbleExpandAnim, onClose]);
+    setIsMounted(false);
+    onClose();
+  }, [onClose]);
 
   // Respiración orgánica muy sutil para las 4 esquinas del visor
   useEffect(() => {
@@ -336,15 +321,20 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
     `M ${w - strokePad - cornerLen} ${h - strokePad} L ${w - strokePad - cornerR} ${h - strokePad} Q ${w - strokePad} ${h - strokePad} ${w - strokePad} ${h - strokePad - cornerR} L ${w - strokePad} ${h - strokePad - cornerLen}`,
   ].join(' ');
 
+  if (!visible && !isMounted) return null;
+
   return (
     <Modal
-      visible={isMounted}
+      visible={Boolean(visible && isMounted)}
       animationType="none"
       transparent={true}
       statusBarTranslucent={true}
       onRequestClose={handleSmoothDismiss}
     >
-      <View style={styles.overlayRoot}>
+      <View
+        style={styles.overlayRoot}
+        pointerEvents={visible && isMounted ? 'auto' : 'none'}
+      >
         {/* FONDO DIFUMINADO SUAVE QUE MANTIENE LA APP INTEGRADA DETRÁS */}
         <Animated.View
           style={[

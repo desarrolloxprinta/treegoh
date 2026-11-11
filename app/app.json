@@ -16,8 +16,10 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.treegoh.app",
       "appleTeamId": "855K4HU668",
-      "buildNumber": "1",
+      "buildNumber": "2",
       "infoPlist": {
+        "CFBundleDevelopmentRegion": "es",
+        "CFBundleAllowMixedLocalizations": true,
         "ITSAppUsesNonExemptEncryption": false,
         "NSLocationWhenInUseUsageDescription": "Treegoh utiliza tu ubicación GPS y brújula solar para calcular las horas de sol estacional, orientación y bioclima VPD de tu hogar.",
         "NSCameraUsageDescription": "Treegoh utiliza la cámara para medir ópticamente la luz natural y detectar con IA la distancia a la ventana de tus plantas.",
@@ -28,7 +30,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#E6E8C4",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"

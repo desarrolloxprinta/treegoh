@@ -264,7 +264,7 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
     try {
       const res = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ['images'],
-        allowsEditing: true,
+        allowsEditing: Platform.OS === 'android',
         aspect: [4, 3],
         quality: 0.75,
       });
@@ -619,7 +619,7 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
                   {[
                     { id: 'todas' as QuickFilterType, label: `Todas (${displayedSpecies.length})` },
                     { id: 'optimas' as QuickFilterType, label: `Óptimas para ${targetSpaceName}` },
-                    { id: 'pet_safe' as QuickFilterType, label: 'Pet-Safe (ASPCA)' },
+                    { id: 'pet_safe' as QuickFilterType, label: 'Aptas Mascotas' },
                     { id: 'poca_luz' as QuickFilterType, label: 'Poca luz (<800 lx)' },
                     { id: 'purificadoras' as QuickFilterType, label: 'Purificadoras NASA' },
                     { id: 'colgantes' as QuickFilterType, label: 'Colgantes & Guías' },
@@ -663,7 +663,7 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
                       No encontramos especies para «{searchQuery}»
                     </Text>
                     <Text style={styles.emptySearchSub}>
-                      Prueba buscando términos como «Poto», «Monstera», «Pet-Safe» o añade tu planta desde la pestaña Manual.
+                      Prueba buscando términos como «Poto», «Monstera», «Mascotas» o añade tu planta desde la pestaña Manual.
                     </Text>
                   </View>
                 ) : (
@@ -691,7 +691,7 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
                               <View style={styles.plantGridBadgeTopRow}>
                                 {sp.isPetSafe ? (
                                   <View style={styles.petBadgeSafe}>
-                                    <Text style={styles.petBadgeSafeText}>ASPCA</Text>
+                                    <Text style={styles.petBadgeSafeText}>SEGURA</Text>
                                   </View>
                                 ) : (
                                   <View style={styles.petBadgeTox}>
@@ -870,7 +870,7 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
                       try {
                         const res = await ImagePicker.launchImageLibraryAsync({
                           mediaTypes: ['images'],
-                          allowsEditing: true,
+                          allowsEditing: Platform.OS === 'android',
                           aspect: [4, 3],
                           quality: 0.65,
                           base64: true,
@@ -1003,9 +1003,9 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
                   </ScrollView>
                 </View>
 
-                {/* Seguridad para mascotas (ASPCA) */}
+                {/* Seguridad para mascotas */}
                 <View style={styles.manualFormGroup}>
-                  <Text style={styles.manualFormLabel}>Seguridad para mascotas (ASPCA)</Text>
+                  <Text style={styles.manualFormLabel}>Seguridad para mascotas</Text>
                   <View style={styles.manualDualCardsRow}>
                     <TouchableOpacity
                       style={[
@@ -1036,7 +1036,7 @@ export const AddPlantModal: React.FC<AddPlantModalProps> = ({
                         adjustsFontSizeToFit={true}
                         minimumFontScale={0.85}
                       >
-                        Pet-Safe (Segura)
+                        Segura para Mascotas
                       </Text>
                       <Text style={styles.manualChoiceSub} numberOfLines={2}>
                         No presenta riesgo para perros ni gatos.

@@ -259,11 +259,11 @@ export const BotanicalAssistantModal: React.FC<BotanicalAssistantModalProps> = (
       case 'listening':
         return 'Sintonizando biomasa...';
       case 'curious':
-        return 'Analizando con OpenRouter IA...';
+        return 'Consultando inteligencia botánica...';
       case 'thirsty':
         return 'Atención: Déficit Hídrico';
       case 'warning':
-        return 'Precaución Botánica / ASPCA';
+        return 'Precaución Botánica / Seguridad';
       case 'happy':
         return 'Armonía Circadiana Óptima';
       default:

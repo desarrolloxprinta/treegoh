@@ -34,7 +34,7 @@ export interface UserProfileDocument extends UserAccount {
 const FIREBASE_PROJECT_ID =
   process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID || 'treegoh-6d95a';
 const FIREBASE_API_KEY =
-  process.env.EXPO_PUBLIC_FIREBASE_API_KEY || ''; // Si se añade en .env
+  process.env.EXPO_PUBLIC_FIREBASE_API_KEY || 'AIzaSyDphfR6tnmsKK5EB7malwFDdaZO9JlUchw';
 
 // Memoria de sesión local del usuario activo
 let activeSessionUser: UserProfileDocument | null = null;

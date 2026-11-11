@@ -25,6 +25,10 @@ import { WeatherConditionType } from '../services/weatherService';
 import { OnboardingState, BotanicalExperienceLevel } from '../types/onboarding';
 import { persistUserSession } from '../services/storageService';
 import {
+  BotanicalCameraBubbleModal,
+  CapturedBubbleFrame,
+} from './BotanicalCameraBubbleModal';
+import {
   IOSAlarmConfig,
   getIOSAlarms,
   updateIOSAlarm,
@@ -84,6 +88,7 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
   const [cloudSync, setCloudSync] = useState(!isGuest);
   const [iosAlarms, setIosAlarms] = useState<IOSAlarmConfig[]>([]);
   const [iosPermissionsGranted, setIosPermissionsGranted] = useState<boolean>(true);
+  const [isBubbleCameraOpen, setIsBubbleCameraOpen] = useState<boolean>(false);
 
   useEffect(() => {
     if (account?.photoURL !== undefined) {
@@ -107,87 +112,114 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
 
   const handlePickFromGallery = async () => {
     triggerHaptic();
+    let result: ImagePicker.ImagePickerResult | null = null;
     try {
-      const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
-      if (status !== 'granted') {
-        Alert.alert(
-          'Permisos necesarios',
-          'Treegoh necesita acceso a tu galería para que puedas seleccionar tu fotografía de perfil.'
-        );
-        return;
+      if (Platform.OS === 'android') {
+        const perm = await ImagePicker.getMediaLibraryPermissionsAsync();
+        if (!perm.granted) {
+          const req = await ImagePicker.requestMediaLibraryPermissionsAsync();
+          if (!req.granted) {
+            Alert.alert(
+              'Permisos necesarios',
+              'Treegoh necesita acceso a tu galería para que puedas seleccionar tu fotografía de perfil.'
+            );
+            return;
+          }
+        }
       }
 
-      const result = await ImagePicker.launchImageLibraryAsync({
+      result = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ['images'],
-        allowsEditing: true,
-        aspect: [1, 1],
+        allowsEditing: Platform.OS === 'android',
         quality: 0.85,
       });
+    } catch (err: any) {
+      console.warn('[Treegoh] Error al abrir la galería:', err);
+      Alert.alert('Error', 'No se pudo abrir la galería de fotos.');
+      return;
+    }
 
-      if (!result.canceled && result.assets && result.assets[0]?.uri) {
-        const newUri = result.assets[0].uri;
-        setPhotoUri(newUri);
-        if (account) {
-          account.photoURL = newUri;
-        }
-        if (onboardingData.account) {
-          onboardingData.account.photoURL = newUri;
-        }
-        await persistUserSession(onboardingData);
-        onUpdateProfilePhoto?.(newUri);
-        triggerHaptic(true);
-      }
-    } catch (_err) {
-      Alert.alert('Error', 'No se pudo seleccionar la fotografía de la galería.');
+    if (!result || result.canceled || !result.assets?.[0]?.uri) {
+      return;
+    }
+
+    try {
+      const newUri = result.assets[0].uri;
+      setPhotoUri(newUri);
+
+      try {
+        if (account) account.photoURL = newUri;
+      } catch (_e) {}
+      try {
+        if (onboardingData.account) onboardingData.account.photoURL = newUri;
+      } catch (_e) {}
+
+      const updatedData: OnboardingState = {
+        ...onboardingData,
+        account: onboardingData.account
+          ? { ...onboardingData.account, photoURL: newUri }
+          : undefined,
+      };
+
+      await persistUserSession(updatedData);
+      onUpdateProfilePhoto?.(newUri);
+      triggerHaptic(true);
+    } catch (saveErr) {
+      console.warn('[Treegoh] Aviso al persistir fotografía de perfil:', saveErr);
     }
   };
 
-  const handleTakePhoto = async () => {
+  const handleTakePhoto = () => {
     triggerHaptic();
+    setIsBubbleCameraOpen(true);
+  };
+
+  const handleBubbleCapture = async (frame: CapturedBubbleFrame) => {
+    setIsBubbleCameraOpen(false);
+    triggerHaptic(true);
+    const newUri = frame.uri;
+    setPhotoUri(newUri);
+
     try {
-      const { status } = await ImagePicker.requestCameraPermissionsAsync();
-      if (status !== 'granted') {
-        Alert.alert(
-          'Permisos de cámara',
-          'Treegoh necesita acceso a tu cámara para capturar tu nueva fotografía de perfil.'
-        );
-        return;
-      }
+      if (account) account.photoURL = newUri;
+    } catch (_e) {}
+    try {
+      if (onboardingData.account) onboardingData.account.photoURL = newUri;
+    } catch (_e) {}
 
-      const result = await ImagePicker.launchCameraAsync({
-        allowsEditing: true,
-        aspect: [1, 1],
-        quality: 0.85,
-      });
+    const updatedData: OnboardingState = {
+      ...onboardingData,
+      account: onboardingData.account
+        ? { ...onboardingData.account, photoURL: newUri }
+        : undefined,
+    };
 
-      if (!result.canceled && result.assets && result.assets[0]?.uri) {
-        const newUri = result.assets[0].uri;
-        setPhotoUri(newUri);
-        if (account) {
-          account.photoURL = newUri;
-        }
-        if (onboardingData.account) {
-          onboardingData.account.photoURL = newUri;
-        }
-        await persistUserSession(onboardingData);
-        onUpdateProfilePhoto?.(newUri);
-        triggerHaptic(true);
-      }
-    } catch (_err) {
-      Alert.alert('Error', 'No se pudo capturar la fotografía con la cámara.');
+    try {
+      await persistUserSession(updatedData);
+      onUpdateProfilePhoto?.(newUri);
+      triggerHaptic(true);
+    } catch (saveErr) {
+      console.warn('[Treegoh] Aviso al persistir fotografía capturada:', saveErr);
     }
   };
 
   const handleRemovePhoto = async () => {
     triggerHaptic(true);
     setPhotoUri(null);
-    if (account) {
-      account.photoURL = null;
-    }
-    if (onboardingData.account) {
-      onboardingData.account.photoURL = null;
-    }
-    await persistUserSession(onboardingData);
+    try {
+      if (account) account.photoURL = null;
+    } catch (_e) {}
+    try {
+      if (onboardingData.account) onboardingData.account.photoURL = null;
+    } catch (_e) {}
+
+    const updatedData: OnboardingState = {
+      ...onboardingData,
+      account: onboardingData.account
+        ? { ...onboardingData.account, photoURL: null }
+        : undefined,
+    };
+    await persistUserSession(updatedData);
     onUpdateProfilePhoto?.('');
   };
 
@@ -245,27 +277,44 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
     triggerHaptic(true);
     setIsEditingName(false);
     if (displayName.trim()) {
-      if (account) {
-        account.displayName = displayName.trim();
-      }
-      if (onboardingData.account) {
-        onboardingData.account.displayName = displayName.trim();
-      }
-      await persistUserSession(onboardingData);
-      onUpdateProfileName?.(displayName.trim());
+      const cleanName = displayName.trim();
+      try {
+        if (account) account.displayName = cleanName;
+      } catch (_e) {}
+      try {
+        if (onboardingData.account) onboardingData.account.displayName = cleanName;
+      } catch (_e) {}
+
+      const updatedData: OnboardingState = {
+        ...onboardingData,
+        account: onboardingData.account
+          ? { ...onboardingData.account, displayName: cleanName }
+          : undefined,
+      };
+
+      await persistUserSession(updatedData);
+      onUpdateProfileName?.(cleanName);
     }
   };
 
   const handleSelectExperienceLevel = async (lvl: BotanicalExperienceLevel) => {
     triggerHaptic();
     setSelectedLevel(lvl);
-    if (account) {
-      account.experienceLevel = lvl;
-    }
-    if (onboardingData.account) {
-      onboardingData.account.experienceLevel = lvl;
-    }
-    await persistUserSession(onboardingData);
+    try {
+      if (account) account.experienceLevel = lvl;
+    } catch (_e) {}
+    try {
+      if (onboardingData.account) onboardingData.account.experienceLevel = lvl;
+    } catch (_e) {}
+
+    const updatedData: OnboardingState = {
+      ...onboardingData,
+      account: onboardingData.account
+        ? { ...onboardingData.account, experienceLevel: lvl }
+        : undefined,
+    };
+
+    await persistUserSession(updatedData);
   };
 
   const handleExportSanctuaryData = async () => {
@@ -357,7 +406,7 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
                 ]}
               />
               <Text style={styles.topCloudSyncText} numberOfLines={1}>
-                {isGuest ? 'Modo Local' : 'Google Cloud Sync'}
+                {isGuest ? 'Modo Local' : 'Nube Sincronizada'}
               </Text>
             </View>
           </View>
@@ -901,6 +950,18 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
           </ScrollView>
         </View>
       </CircadianBackground>
+
+      {/* VISOR DE CÁMARA BOTÁNICO EN BURBUJA INTEGRADA (100% EN ESPAÑOL, CERO TEXTOS EN INGLÉS) */}
+      <BotanicalCameraBubbleModal
+        visible={isBubbleCameraOpen}
+        isAnalyzing={false}
+        liveHeadingDegrees={180}
+        liveCompassLabel="Sur"
+        estimatedLux={3200}
+        onClose={() => setIsBubbleCameraOpen(false)}
+        onCaptureFrame={handleBubbleCapture}
+        onPickGalleryInsideModal={handlePickFromGallery}
+      />
     </Modal>
   );
 };

@@ -103,7 +103,8 @@ export async function identifyPlantWithOpenRouter(
     '   - Si hay hojas con polvo o bichitos: limpiar las hojas con un **paño suave humedecido con agua tibia y una gotita de jabón neutro de lavar platos**, o usar un **bastoncillo de algodón** si hay alguna cochinilla.\n' +
     '   - Para proteger cortes o tierra muy húmeda del moho: espolvorear una pizca de **canela en polvo de cocina**.\n' +
     '   - Para mejorar el agua de riego o la humedad: dejar **reposar el agua del grifo en una jarra de un día para otro**, o poner un **plato con piedritas o tapones de botella y un poquito de agua** debajo sin que el culo de la maceta toque el agua.\n' +
-    '5. Cero emojis. Responde UNICAMENTE con un objeto JSON válido.';
+    '5. REGLA ESTRICTA DE IDIOMA: Todo el texto generado, nombre común, notas, diagnósticos y consejos DEBEN ESTAR 100% EN ESPAÑOL. Queda terminantemente prohibido responder en inglés.\n' +
+    '6. Cero emojis. Responde UNICAMENTE con un objeto JSON válido.';
 
   const questionClause = userQuestion?.trim()
     ? `\nPregunta o comentario del usuario junto a la foto: "${userQuestion.trim()}" (Respóndele directamente con cercanía y soluciones caseras dentro de "conversationalDiagnosis").`

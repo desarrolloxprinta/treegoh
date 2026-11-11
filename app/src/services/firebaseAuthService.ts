@@ -16,7 +16,7 @@ import { setItem, getItem, removeItem } from './storageService';
 const FIREBASE_PROJECT_ID =
   process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID || 'treegoh-6d95a';
 const FIREBASE_API_KEY =
-  process.env.EXPO_PUBLIC_FIREBASE_API_KEY || '';
+  process.env.EXPO_PUBLIC_FIREBASE_API_KEY || 'AIzaSyDphfR6tnmsKK5EB7malwFDdaZO9JlUchw';
 
 const AUTH_STORAGE_KEYS = {
   ID_TOKEN: '@treegoh_auth_id_token_v1',

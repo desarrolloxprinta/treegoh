@@ -102,7 +102,7 @@ export const SpeciesEncyclopediaDetailModal: React.FC<SpeciesEncyclopediaDetailM
     };
   }, [visible, species, monograph]);
 
-  if (!visible || !species) return null;
+  const isVisible = Boolean(visible && species);
 
   const triggerHaptic = (heavy = false) => {
     try {
@@ -113,10 +113,10 @@ export const SpeciesEncyclopediaDetailModal: React.FC<SpeciesEncyclopediaDetailM
   };
 
   const activePhotoItem = galleryPhotos[selectedPhotoIdx] || null;
-  const heroImageUri = activePhotoItem?.url || species.imageUrl;
+  const heroImageUri = activePhotoItem?.url || species?.imageUrl || '';
 
-  const minLux = monograph?.cuidados?.luz?.lux_min ?? species.minLux ?? 800;
-  const maxLux = monograph?.cuidados?.luz?.lux_max ?? species.maxLux ?? 6000;
+  const minLux = monograph?.cuidados?.luz?.lux_min ?? species?.minLux ?? 800;
+  const maxLux = monograph?.cuidados?.luz?.lux_max ?? species?.maxLux ?? 6000;
   const isSpaceLuxCompatible =
     activeSpaceLux >= minLux * 0.7 && (maxLux === null || activeSpaceLux <= maxLux * 1.35);
 
@@ -132,23 +132,24 @@ export const SpeciesEncyclopediaDetailModal: React.FC<SpeciesEncyclopediaDetailM
   };
 
   const dogTox = formatToxicityPill(
-    monograph?.toxicidad?.perros || (species.isPetSafe ? 'no_toxica' : 'toxica')
+    monograph?.toxicidad?.perros || (species?.isPetSafe ? 'no_toxica' : 'toxica')
   );
   const catTox = formatToxicityPill(
-    monograph?.toxicidad?.gatos || (species.isPetSafe ? 'no_toxica' : 'toxica')
+    monograph?.toxicidad?.gatos || (species?.isPetSafe ? 'no_toxica' : 'toxica')
   );
   const childTox = formatToxicityPill(
-    monograph?.toxicidad?.ninos || (species.isPetSafe ? 'no_toxica' : 'toxica')
+    monograph?.toxicidad?.ninos || (species?.isPetSafe ? 'no_toxica' : 'toxica')
   );
 
   return (
     <Modal
-      visible={visible}
+      visible={isVisible}
       animationType="slide"
       transparent={true}
       onRequestClose={onClose}
     >
-      <View style={styles.modalBackdrop}>
+      {species ? (
+        <View style={styles.modalBackdrop}>
         <View
           style={[
             styles.sheetRoot,
@@ -1143,6 +1144,7 @@ export const SpeciesEncyclopediaDetailModal: React.FC<SpeciesEncyclopediaDetailM
           </ScrollView>
         </View>
       </View>
+      ) : null}
     </Modal>
   );
 };

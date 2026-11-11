@@ -32,12 +32,14 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
+    "sync:icons": "node scripts/sync-icons.js",
+    "prestart": "node scripts/sync-icons.js",
     "start": "expo start --clear",
     "iphone": "expo start --go --tunnel --clear",
     "iphone:clear": "expo start --go --tunnel --clear",
     "iphone:ngrok": "expo start --go --tunnel ngrok",
-    "prebuild": "expo prebuild --clean",
-    "prebuild:ios": "expo prebuild --platform ios --clean",
+    "prebuild": "node scripts/sync-icons.js && expo prebuild --clean",
+    "prebuild:ios": "node scripts/sync-icons.js && expo prebuild --platform ios --clean",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "build:ios": "expo run:ios --configuration Release",

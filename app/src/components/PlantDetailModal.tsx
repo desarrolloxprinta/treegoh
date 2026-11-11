@@ -41,7 +41,7 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
   const insets = useSafeAreaInsets();
   const safeBottom = Math.max(insets.bottom, Platform.OS === 'ios' ? 28 : 16);
 
-  if (!plant) return null;
+  const isVisible = Boolean(plant);
 
   const triggerHaptic = (heavy = false) => {
     try {
@@ -51,17 +51,26 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
     } catch (_e) {}
   };
 
-  const isWateredRecently = plant.wateringStatus === 'hidratada' || plant.daysUntilNextWatering >= 6;
+  const isWateredRecently = plant
+    ? plant.wateringStatus === 'hidratada' || plant.daysUntilNextWatering >= 6
+    : false;
 
   return (
     <Modal
-      visible={Boolean(plant)}
+      visible={isVisible}
       animationType="slide"
       transparent={true}
       onRequestClose={onClose}
     >
-      <View style={styles.modalOverlay}>
-        <View style={[styles.sheetContainer, { paddingBottom: safeBottom + 16 }]}>
+      {plant ? (
+        <View style={styles.modalOverlay}>
+          {/* Telón táctil para cerrar al pulsar fuera */}
+          <TouchableOpacity
+            style={StyleSheet.absoluteFill}
+            activeOpacity={1}
+            onPress={onClose}
+          />
+          <View style={[styles.sheetContainer, { paddingBottom: safeBottom + 16 }]}>
           {/* 1. BARRA SUPERIOR CON RETROCESO */}
           <View style={styles.sheetTopRow}>
             <View style={styles.sheetSpaceTag}>
@@ -168,14 +177,14 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
               </Text>
             </View>
 
-            {/* 5. TARJETA DE SEGURIDAD PARA MASCOTAS (ASPCA) */}
+            {/* 5. TARJETA DE SEGURIDAD PARA MASCOTAS */}
             <View style={styles.detailGlassCard}>
               <GlassCardSheen />
               <View style={styles.cardHeaderRow}>
                 <View style={styles.iconCircleSmall}>
                   <TreegohIcon name="escudo_fitosanitario" size={18} color="#FFFFFF" glow={true} />
                 </View>
-                <Text style={styles.cardTitle}>Seguridad Doméstica ASPCA</Text>
+                <Text style={styles.cardTitle}>Seguridad Doméstica y Mascotas</Text>
               </View>
 
               <View style={styles.badgeRow}>
@@ -195,7 +204,7 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
                       { color: plant.isPetSafe ? '#86EFAC' : '#FCA5A5' },
                     ]}
                   >
-                    {plant.isPetSafe ? 'Pet-Safe (No tóxica)' : 'Precaución con mascotas'}
+                    {plant.isPetSafe ? 'Apta para mascotas (No tóxica)' : 'Precaución con mascotas'}
                   </Text>
                 </View>
               </View>
@@ -324,7 +333,8 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
           </ScrollView>
         </View>
       </View>
-    </Modal>
+    ) : null}
+  </Modal>
   );
 };
 

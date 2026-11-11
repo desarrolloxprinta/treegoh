@@ -65,7 +65,7 @@ export const SpaceDestinationPickerModal: React.FC<SpaceDestinationPickerModalPr
   const safeTop = Math.max(insets.top, Platform.OS === 'ios' ? 50 : 24);
   const safeBottom = Math.max(insets.bottom, Platform.OS === 'ios' ? 34 : 20);
 
-  if (!plant) return null;
+  const isVisible = Boolean(visible && plant);
 
   const triggerHaptic = (heavy = false) => {
     try {
@@ -75,8 +75,8 @@ export const SpaceDestinationPickerModal: React.FC<SpaceDestinationPickerModalPr
     } catch (_e) {}
   };
 
-  const minL = Number(plant.minLux) || 800;
-  const maxL = Number(plant.maxLux) || 3500;
+  const minL = Number(plant?.minLux) || 800;
+  const maxL = Number(plant?.maxLux) || 3500;
 
   const computeAffinity = (space: CustomMicroclimate) => {
     const lux = space.estimatedLux || 3200;
@@ -108,19 +108,20 @@ export const SpaceDestinationPickerModal: React.FC<SpaceDestinationPickerModalPr
 
   return (
     <Modal
-      visible={visible}
+      visible={isVisible}
       animationType="slide"
       transparent={false}
       statusBarTranslucent={true}
       onRequestClose={onClose}
     >
-      {/* FONDO CIRCADIANO ANIMADO IDÉNTICO A LA APP CON VELO 50% MÁS CLARO */}
-      <CircadianBackground
-        coords={coords}
-        theme={theme}
-        currentTime={currentTime}
-        weatherCondition={weatherCondition}
-      >
+      {plant ? (
+        /* FONDO CIRCADIANO ANIMADO IDÉNTICO A LA APP CON VELO 50% MÁS CLARO */
+        <CircadianBackground
+          coords={coords}
+          theme={theme}
+          currentTime={currentTime}
+          weatherCondition={weatherCondition}
+        >
         <View style={styles.translucentLightVeil}>
           {/* 1. BARRA SUPERIOR DE NAVEGACIÓN AÉREA */}
           <View style={[styles.topNavBarRow, { paddingTop: safeTop + 6 }]}>
@@ -332,6 +333,7 @@ export const SpaceDestinationPickerModal: React.FC<SpaceDestinationPickerModalPr
           </ScrollView>
         </View>
       </CircadianBackground>
+      ) : null}
     </Modal>
   );
 };

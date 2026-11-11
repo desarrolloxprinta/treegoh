@@ -14,7 +14,7 @@ import { requireOptionalNativeModule } from 'expo-modules-core';
 const ELEVENLABS_API_KEY =
   process.env.EXPO_PUBLIC_ELEVENLABS_API_KEY ||
   process.env.ELEVENLABS_API_KEY ||
-  '';
+  'sk_9d156ac997af7be46af35f1afd5d3c07caa902b50bc63cc4';
 
 const ELEVENLABS_VOICE_ID = 'a7NxsR5B1mpwgpVa10g3';
 

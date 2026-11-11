@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import { OnboardingScreen } from './src/screens/onboarding/OnboardingScreen';
 import { SanctuaryCelebrationView } from './src/components/SanctuaryCelebrationView';
 import { SanctuaryHomeScreen } from './src/screens/sanctuary/SanctuaryHomeScreen';
+import { TreegohAnimatedSplashScreen } from './src/components/TreegohAnimatedSplashScreen';
 import { OnboardingState } from './src/types/onboarding';
 import { loadMontserratFonts } from './src/utils/loadMontserratFonts';
 import { saveUserProfileToFirestore } from './src/services/userService';
@@ -172,6 +173,7 @@ export const DEFAULT_TEST_SANCTUARY_DATA: OnboardingState = {
 
 function MainApp() {
   const [fontsReady, setFontsReady] = useState(false);
+  const [splashFinished, setSplashFinished] = useState(false);
   const [isOnboardingDone, setIsOnboardingDone] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
   const [userGardenData, setUserGardenData] = useState<OnboardingState | null>(null);
@@ -271,41 +273,34 @@ function MainApp() {
     setShowCelebration(false);
   };
 
-  if (!fontsReady) {
-    return <View style={styles.loadingSplash} />;
-  }
+  return (
+    <SafeAreaProvider>
+      <StatusBar style="light" />
 
-  // 1. FASE DE ONBOARDING
-  if (!isOnboardingDone || !userGardenData) {
-    return (
-      <SafeAreaProvider>
-        <StatusBar style="light" />
+      {/* 1. Fase de Onboarding */}
+      {!isOnboardingDone || !userGardenData ? (
         <OnboardingScreen onComplete={handleOnboardingComplete} />
-      </SafeAreaProvider>
-    );
-  }
-
-  // 2. FASE DE CONSAGRACIÓN / LLEGADA POST-ONBOARDING (ESTILO TIDE FOCUS ENDS)
-  if (showCelebration) {
-    return (
-      <SafeAreaProvider>
-        <StatusBar style="light" />
+      ) : showCelebration ? (
+        /* 2. Fase de Consagración / Llegada Post-Onboarding */
         <SanctuaryCelebrationView
           onboardingData={userGardenData}
           onEnterSanctuary={handleEnterSanctuary}
         />
-      </SafeAreaProvider>
-    );
-  }
+      ) : (
+        /* 3. Fase de Santuario Botánico (Home Dashboard Diario) */
+        <SanctuaryHomeScreen
+          onboardingData={userGardenData}
+          onResetForTest={handleResetForTest}
+        />
+      )}
 
-  // 3. FASE DE SANTUARIO BOTÁNICO (HOME DASHBOARD DIARIO)
-  return (
-    <SafeAreaProvider>
-      <StatusBar style="light" />
-      <SanctuaryHomeScreen
-        onboardingData={userGardenData}
-        onResetForTest={handleResetForTest}
-      />
+      {/* Splash Screen Cinemático Animado con Microcopy Dinámico (Patrón Lemonade en Mobbin) */}
+      {!splashFinished && (
+        <TreegohAnimatedSplashScreen
+          onFinish={() => setSplashFinished(true)}
+          durationMs={2600}
+        />
+      )}
     </SafeAreaProvider>
   );
 }

@@ -15,7 +15,7 @@ import { GlassCardSheen } from './BlobAnimatedCard';
 const THINKING_STEPS = [
   'Consultando telemetría del santuario...',
   'Analizando déficit de vapor (VPD) y fotoperiodo...',
-  'Evaluando seguridad toxicológica ASPCA...',
+  'Evaluando seguridad y toxicología para mascotas...',
   'Sintetizando diagnóstico del jardinero experto...',
 ];
 

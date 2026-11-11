@@ -43,6 +43,7 @@ import {
 import {
   analyzeSpacePhotoWithOpenRouter,
   SpatialVisionAnalysis,
+  getFallbackAstronomicalVision,
 } from '../services/openRouterVision';
 import {
   generateAnnualSolarReport,
@@ -57,6 +58,7 @@ export interface CreateSpaceStudioModalProps {
   onSaveSpace: (newSpace: CustomMicroclimate) => void;
   userLocation?: UserLocationDetails;
   userCity?: string;
+  existingSpaces?: CustomMicroclimate[];
 }
 
 interface RoomPreset {
@@ -192,12 +194,72 @@ function degreesToCardinal(deg: number): CardinalOrientation {
   return 'Norte';
 }
 
+function getSuggestedNameForPreset(
+  preset: RoomPreset,
+  existingSpaces?: CustomMicroclimate[]
+): string {
+  const existingNames = new Set((existingSpaces || []).map(s => s.name.trim().toLowerCase()));
+  if (!existingNames.has(preset.defaultName.toLowerCase())) {
+    return preset.defaultName;
+  }
+  let counter = 2;
+  let candidate = `${preset.defaultName} ${counter}`;
+  while (existingNames.has(candidate.toLowerCase())) {
+    counter++;
+    candidate = `${preset.defaultName} ${counter}`;
+  }
+  return candidate;
+}
+
+function getNextAvailablePreset(existingSpaces?: CustomMicroclimate[]): {
+  preset: RoomPreset;
+  suggestedName: string;
+} {
+  const spaces = existingSpaces || [];
+  const existingNames = new Set(spaces.map(s => s.name.trim().toLowerCase()));
+  const existingRoomTypes = new Set(
+    spaces.map(s => (s.roomType || '').trim().toLowerCase())
+  );
+
+  // 1. Buscar un preset cuyo roomType ni defaultName existan aún
+  const unusedPreset = ROOM_PRESETS.find(
+    p =>
+      !existingRoomTypes.has(p.name.toLowerCase()) &&
+      !existingNames.has(p.defaultName.toLowerCase())
+  );
+  if (unusedPreset) {
+    return {
+      preset: unusedPreset,
+      suggestedName: unusedPreset.defaultName,
+    };
+  }
+
+  // 2. Buscar cualquier preset cuyo defaultName no esté repetido
+  const unusedNamePreset = ROOM_PRESETS.find(
+    p => !existingNames.has(p.defaultName.toLowerCase())
+  );
+  if (unusedNamePreset) {
+    return {
+      preset: unusedNamePreset,
+      suggestedName: unusedNamePreset.defaultName,
+    };
+  }
+
+  // 3. Si ya se usaron todos los nombres, ciclar y generar numeración limpia
+  const fallbackPreset = ROOM_PRESETS[spaces.length % ROOM_PRESETS.length] || ROOM_PRESETS[0];
+  return {
+    preset: fallbackPreset,
+    suggestedName: getSuggestedNameForPreset(fallbackPreset, spaces),
+  };
+}
+
 export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
   visible,
   onClose,
   onSaveSpace,
   userLocation,
   userCity: userCityProp,
+  existingSpaces,
 }) => {
   const insets = useSafeAreaInsets();
   const safeTop = Math.max(insets.top, Platform.OS === 'ios' ? 48 : 24);
@@ -209,10 +271,6 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
   const floorNumber = userLocation?.floorNumber ?? 1;
   const floorLevel: 'baja' | 'media' | 'alta' =
     floorNumber <= 0 ? 'baja' : floorNumber >= 6 ? 'alta' : 'media';
-
-  const [rendered, setRendered] = useState(visible);
-  const slideAnim = useRef(new Animated.Value(SCREEN_HEIGHT)).current;
-  const fadeBackdrop = useRef(new Animated.Value(0)).current;
 
   // Estados del formulario
   const [selectedPreset, setSelectedPreset] = useState<RoomPreset>(ROOM_PRESETS[0]);
@@ -263,39 +321,25 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
     };
   }, [visible]);
 
-  // Animación de slide in / slide out
+  // Reset reactivo al abrir
   useEffect(() => {
     if (visible) {
-      setRendered(true);
-      Animated.parallel([
-        Animated.timing(slideAnim, {
-          toValue: 0,
-          duration: 380,
-          easing: Easing.out(Easing.cubic),
-          useNativeDriver: true,
-        }),
-        Animated.timing(fadeBackdrop, {
-          toValue: 1,
-          duration: 320,
-          useNativeDriver: true,
-        }),
-      ]).start();
-    } else if (rendered) {
-      Animated.parallel([
-        Animated.timing(slideAnim, {
-          toValue: SCREEN_HEIGHT,
-          duration: 300,
-          easing: Easing.in(Easing.cubic),
-          useNativeDriver: true,
-        }),
-        Animated.timing(fadeBackdrop, {
-          toValue: 0,
-          duration: 260,
-          useNativeDriver: true,
-        }),
-      ]).start(() => {
-        setRendered(false);
-      });
+      const nextChoice = getNextAvailablePreset(existingSpaces);
+      setSelectedPreset(nextChoice.preset);
+      setSpaceName(nextChoice.suggestedName);
+      setHasCustomEditedName(false);
+      setWindowDistance(nextChoice.preset.defaultDistance);
+      setHumidityLevel(nextChoice.preset.defaultHumidity);
+      setOrientation('Sur');
+      setHeadingDegrees(180);
+      setNearRadiator(false);
+      setNearAC(false);
+      setDrafts(false);
+      setCapturedPhotoUri(null);
+      setAiAnalysis(null);
+      setAiErrorMsg(null);
+      setIsAnalyzingAI(false);
+      setIsBubbleCameraOpen(false);
     }
   }, [visible]);
 
@@ -303,22 +347,7 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
     try {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     } catch (_e) {}
-    Animated.parallel([
-      Animated.timing(slideAnim, {
-        toValue: SCREEN_HEIGHT,
-        duration: 300,
-        easing: Easing.in(Easing.cubic),
-        useNativeDriver: true,
-      }),
-      Animated.timing(fadeBackdrop, {
-        toValue: 0,
-        duration: 260,
-        useNativeDriver: true,
-      }),
-    ]).start(() => {
-      setRendered(false);
-      onClose();
-    });
+    onClose();
   };
 
   // Posición solar en tiempo real (Azimut y Elevación)
@@ -344,68 +373,81 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
     setAiErrorMsg(null);
 
     const degToUse = typeof lockedHeading === 'number' ? lockedHeading : liveHeading;
+    const visionContext = {
+      city,
+      latitude: userLat,
+      longitude: userLon,
+      floorNumber,
+      currentSunAzimuth: currentSunPos.azimuth,
+      currentSunElevation: currentSunPos.elevation,
+      deviceHeadingDegrees: degToUse,
+    };
 
     const res = await analyzeSpacePhotoWithOpenRouter(
       base64Data,
-      {
-        city,
-        latitude: userLat,
-        longitude: userLon,
-        floorNumber,
-        currentSunAzimuth: currentSunPos.azimuth,
-        currentSunElevation: currentSunPos.elevation,
-        deviceHeadingDegrees: degToUse,
-      },
+      visionContext,
       mimeType
     );
 
     setIsAnalyzingAI(false);
 
-    if (res.ok) {
-      const vision = res.data;
-      setAiAnalysis(vision);
+    const vision: SpatialVisionAnalysis = res.ok
+      ? res.data
+      : getFallbackAstronomicalVision(visionContext);
 
-      // Autocompletar automáticamente todos los parámetros sin que el usuario tenga que adivinar
-      setWindowDistance(vision.windowDistance);
+    setAiAnalysis(vision);
 
-      const matchedPreset = ROOM_PRESETS.find(p => p.name === vision.detectedRoomType) || ROOM_PRESETS[0];
-      setSelectedPreset(matchedPreset);
+    // Autocompletar automáticamente todos los parámetros sin que el usuario tenga que adivinar
+    setWindowDistance(vision.windowDistance);
 
-      if (!hasCustomEditedName) {
-        setSpaceName(vision.suggestedSpaceName);
+    const matchedPreset = ROOM_PRESETS.find(p => p.name === vision.detectedRoomType) || ROOM_PRESETS[0];
+    setSelectedPreset(matchedPreset);
+
+    if (!hasCustomEditedName) {
+      let suggested = vision.suggestedSpaceName || matchedPreset.defaultName;
+      if (
+        existingSpaces &&
+        existingSpaces.some(s => s.name.trim().toLowerCase() === suggested.trim().toLowerCase())
+      ) {
+        let counter = 2;
+        let candidate = `${suggested} ${counter}`;
+        while (existingSpaces.some(s => s.name.trim().toLowerCase() === candidate.toLowerCase())) {
+          counter++;
+          candidate = `${suggested} ${counter}`;
+        }
+        suggested = candidate;
       }
-
-      setNearRadiator(vision.thermalRisksDetected.nearRadiator);
-      setNearAC(vision.thermalRisksDetected.nearAC);
-      setDrafts(vision.thermalRisksDetected.drafts);
-
-      if (vision.highHumidityLikely) {
-        setHumidityLevel('alta');
-      }
-
-      // Si la orientación se capturó con la brújula o la infirió la IA
-      if (typeof lockedHeading === 'number') {
-        setHeadingDegrees(lockedHeading);
-        setOrientation(degreesToCardinal(lockedHeading));
-      } else if (vision.inferredOrientationMode) {
-        const mode = vision.inferredOrientationMode;
-        const degMap: Record<'S' | 'E' | 'O' | 'N', number> = { S: 180, E: 90, O: 270, N: 0 };
-        const cardMap: Record<'S' | 'E' | 'O' | 'N', CardinalOrientation> = {
-          S: 'Sur',
-          E: 'Este',
-          O: 'Oeste',
-          N: 'Norte',
-        };
-        setHeadingDegrees(degMap[mode]);
-        setOrientation(cardMap[mode]);
-      }
-
-      try {
-        Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-      } catch (_e) {}
-    } else {
-      setAiErrorMsg(res.error);
+      setSpaceName(suggested);
     }
+
+    setNearRadiator(vision.thermalRisksDetected.nearRadiator);
+    setNearAC(vision.thermalRisksDetected.nearAC);
+    setDrafts(vision.thermalRisksDetected.drafts);
+
+    if (vision.highHumidityLikely) {
+      setHumidityLevel('alta');
+    }
+
+    // Si la orientación se capturó con la brújula o la infirió la IA
+    if (typeof lockedHeading === 'number') {
+      setHeadingDegrees(lockedHeading);
+      setOrientation(degreesToCardinal(lockedHeading));
+    } else if (vision.inferredOrientationMode) {
+      const mode = vision.inferredOrientationMode;
+      const degMap: Record<'S' | 'E' | 'O' | 'N', number> = { S: 180, E: 90, O: 270, N: 0 };
+      const cardMap: Record<'S' | 'E' | 'O' | 'N', CardinalOrientation> = {
+        S: 'Sur',
+        E: 'Este',
+        O: 'Oeste',
+        N: 'Norte',
+      };
+      setHeadingDegrees(degMap[mode]);
+      setOrientation(cardMap[mode]);
+    }
+
+    try {
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    } catch (_e) {}
   };
 
   // Captura desde la burbuja óptica
@@ -424,13 +466,19 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
   const handlePickFromGallery = async () => {
     try {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-      const perm = await ImagePicker.requestMediaLibraryPermissionsAsync();
-      if (!perm.granted) {
-        setAiErrorMsg('Permite acceso a Fotos para seleccionar la imagen del rincón.');
-        return;
+      if (Platform.OS === 'android') {
+        const perm = await ImagePicker.getMediaLibraryPermissionsAsync();
+        if (!perm.granted) {
+          const req = await ImagePicker.requestMediaLibraryPermissionsAsync();
+          if (!req.granted) {
+            setAiErrorMsg('Permite acceso a Fotos para seleccionar la imagen del rincón.');
+            return;
+          }
+        }
       }
       const result = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ['images'],
+        allowsEditing: Platform.OS === 'android',
         quality: 0.65,
         base64: true,
       });
@@ -438,11 +486,10 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
       if (!result.canceled && result.assets?.[0]) {
         const asset = result.assets[0];
         setCapturedPhotoUri(asset.uri);
-        if (asset.base64) {
-          await runVisionAnalysisOnBase64(asset.base64, asset.mimeType || 'image/jpeg');
-        }
+        await runVisionAnalysisOnBase64(asset.base64 || '', asset.mimeType || 'image/jpeg');
       }
-    } catch (_err) {
+    } catch (err: any) {
+      console.warn('[Treegoh] Error cargando foto de rincón:', err);
       setAiErrorMsg('No se pudo cargar la imagen desde la galería.');
     }
   };
@@ -501,9 +548,25 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     } catch (_e) {}
 
+    let finalName = spaceName.trim();
+    if (
+      existingSpaces &&
+      existingSpaces.some(s => s.name.trim().toLowerCase() === finalName.toLowerCase())
+    ) {
+      let counter = 2;
+      let candidate = `${finalName} (${counter})`;
+      while (existingSpaces.some(s => s.name.trim().toLowerCase() === candidate.toLowerCase())) {
+        counter++;
+        candidate = `${finalName} (${counter})`;
+      }
+      finalName = candidate;
+    }
+
+    const uniqueId = `space_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`;
+
     const newSpace: CustomMicroclimate = {
-      id: `space_${Date.now()}`,
-      name: spaceName.trim(),
+      id: uniqueId,
+      name: finalName,
       roomType: selectedPreset.name,
       orientation: (orientation === 'Sur' ? 'S' : orientation === 'Este' ? 'E' : orientation === 'Oeste' ? 'O' : 'N') as any,
       headingDegrees,
@@ -537,39 +600,28 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
     };
 
     onSaveSpace(newSpace);
-    handleClose();
   };
 
-  if (!rendered) return null;
+  if (!visible) return null;
 
   return (
-    <Modal visible={rendered} transparent={true} animationType="none" statusBarTranslucent={true}>
+    <Modal
+      visible={visible}
+      transparent={true}
+      animationType="slide"
+      statusBarTranslucent={true}
+      onRequestClose={handleClose}
+    >
       <View style={styles.modalOverlay}>
-        {/* Telón de fondo con fundido suave */}
-        <Animated.View
-          style={[
-            styles.backdropOverlay,
-            {
-              opacity: fadeBackdrop,
-            },
-          ]}
-        >
-          <TouchableOpacity
-            style={StyleSheet.absoluteFill}
-            onPress={handleClose}
-            activeOpacity={1}
-          />
-        </Animated.View>
+        {/* Telón de fondo superior */}
+        <TouchableOpacity
+          style={styles.backdropOverlay}
+          onPress={handleClose}
+          activeOpacity={1}
+        />
 
         {/* Pantalla deslizante completa */}
-        <Animated.View
-          style={[
-            styles.sheetContainer,
-            {
-              transform: [{ translateY: slideAnim }],
-            },
-          ]}
-        >
+        <View style={styles.sheetContainer}>
           <LinearGradient
             colors={['#181E25', '#10141A', '#090C10']}
             style={styles.sheetGradient}
@@ -904,7 +956,7 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
                           try { Haptics.selectionAsync(); } catch (_e) {}
                           setSelectedPreset(preset);
                           if (!hasCustomEditedName) {
-                            setSpaceName(preset.defaultName);
+                            setSpaceName(getSuggestedNameForPreset(preset, existingSpaces));
                           }
                         }}
                         activeOpacity={0.82}
@@ -1204,7 +1256,7 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
               </TouchableOpacity>
             </View>
           </LinearGradient>
-        </Animated.View>
+        </View>
 
         {/* VISOR ÓPTICO EN BURBUJA PARA FOTOGRAFIAR EL ESPACIO */}
         <BotanicalCameraBubbleModal
@@ -1229,10 +1281,14 @@ export const CreateSpaceStudioModal: React.FC<CreateSpaceStudioModalProps> = ({
 const styles = StyleSheet.create({
   modalOverlay: {
     flex: 1,
+    backgroundColor: 'rgba(5, 8, 12, 0.76)',
   },
   backdropOverlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(5, 8, 12, 0.76)',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: 18,
   },
   sheetContainer: {
     flex: 1,
