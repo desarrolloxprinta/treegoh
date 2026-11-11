@@ -17,7 +17,7 @@ git add -A
 # Si hay cambios pendientes, hacer commit
 if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   echo "💾 Guardando correcciones en git..."
-  git commit -m "fix(ci): añadir paso keychain add-certificates tras fetch-signing-files en codemagic.yaml"
+  git commit -m "fix(metro): actualizar a Node 22 para Expo 58/RN 0.88 y sanear metro.config.js"
 else
   echo "ℹ️ No hay cambios pendientes."
 fi
