@@ -64,13 +64,30 @@ workflows:
           node scripts/sync-icons.js || true
           echo "🛠️ Ejecutando Expo Prebuild para generar app/ios/Treegoh.xcworkspace..."
           npx expo prebuild --platform ios --clean
+          NODE_PATH=$(command -v node || which node)
+          echo "export NODE_BINARY=$NODE_PATH" > ios/.xcode.env.local
           echo "export ENTRY_FILE=index.js" >> ios/.xcode.env.local
+          echo "📄 Configuración generada en ios/.xcode.env.local:"
+          cat ios/.xcode.env.local
 
       - name: Install CocoaPods
         script: |
           echo "🍎 Instalando CocoaPods nativos de iOS..."
           cd app/ios
           pod install
+
+      - name: Verify Metro JavaScript Bundle
+        script: |
+          echo "🔍 Verificando empaquetado de JavaScript con Metro..."
+          cd app
+          npx react-native bundle \
+            --entry-file index.js \
+            --platform ios \
+            --dev false \
+            --reset-cache \
+            --bundle-output /tmp/main.jsbundle \
+            --assets-dest /tmp
+          echo "✅ Metro bundle verificado con éxito."
 
       - name: Set up keychain for code signing
         script: |
@@ -98,7 +115,7 @@ workflows:
         script: |
           echo "🔢 Actualizando número de compilación con Codemagic BUILD_NUMBER ($BUILD_NUMBER)..."
           cd app/ios
-          agvtool new-version -all $(($BUILD_NUMBER + 1))
+          agvtool new-version -all $((${BUILD_NUMBER:-1} + 1))
 
       - name: Build IPA for TestFlight
         script: |
@@ -155,7 +172,10 @@ workflows:
           cd app
           node scripts/sync-icons.js || true
           npx expo prebuild --platform ios --clean
+          NODE_PATH=$(command -v node || which node)
+          echo "export NODE_BINARY=$NODE_PATH" > ios/.xcode.env.local
           echo "export ENTRY_FILE=index.js" >> ios/.xcode.env.local
+          cat ios/.xcode.env.local
       - name: Install CocoaPods
         script: |
           cd app/ios

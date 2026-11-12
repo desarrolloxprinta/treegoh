@@ -14,6 +14,9 @@ module.exports = function (api) {
   }
   return {
     presets: [expoPreset],
+    plugins: [
+      'react-native-worklets/plugin',
+    ],
   };
 };
 
