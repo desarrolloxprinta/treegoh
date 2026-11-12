@@ -41,6 +41,10 @@ import { SpaceDestinationPickerModal, PlantToPlaceTarget } from '../../component
 
 import { searchBotanicalWithTypesense, searchBotanicalSync } from '../../services/typesenseService';
 import { syncWateringAlarmWithSanctuary } from '../../services/iosNotificationAlarmService';
+import { BotanicalRitualsModal } from '../../components/BotanicalRitualsModal';
+import { syncSanctuaryWidgetData } from '../../services/widgetBridgeService';
+import { syncAppIconWithSanctuary } from '../../services/appIconService';
+import { getCareStreak, recordRitualCompletion, CareStreakData } from '../../services/reminderService';
 import { BotanicalAssistantModal } from '../../components/BotanicalAssistantModal';
 import {
   AssistantSanctuaryContext,
@@ -119,6 +123,8 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   const [isProfileModalOpen, setIsProfileModalOpen] = useState<boolean>(false);
   const [isSoundscapeModalOpen, setIsSoundscapeModalOpen] = useState<boolean>(false);
   const [isAssistantModalOpen, setIsAssistantModalOpen] = useState<boolean>(false);
+  const [isRitualsModalOpen, setIsRitualsModalOpen] = useState<boolean>(false);
+  const [careStreak, setCareStreak] = useState<CareStreakData | null>(null);
   const [circadianPreviewPhase, setCircadianPreviewPhase] = useState<CircadianPhaseId | null>(null);
   const [userPhotoUrl, setUserPhotoUrl] = useState<string | null>(
     onboardingData?.account?.photoURL || null
@@ -1051,11 +1057,22 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     }
   };
 
-  // Sincronización de alarmas de iOS con el estado hídrico de las plantas
+  // Sincronización de alarmas de iOS, WidgetKit nativo e icono dinámico con el santuario
   useEffect(() => {
     const allPlants = Object.values(plantsBySpace).flat();
     syncWateringAlarmWithSanctuary(allPlants);
-  }, [plantsBySpace]);
+
+    getCareStreak().then(streak => {
+      setCareStreak(streak);
+      syncSanctuaryWidgetData(
+        allPlants,
+        streak,
+        activeSpace?.name || 'Santuario',
+        liveWeather ? { temperature: liveWeather.temperature, condition: liveWeather.condition } : undefined
+      );
+      syncAppIconWithSanctuary(allPlants, streak.currentStreak);
+    });
+  }, [plantsBySpace, activeSpace?.name, liveWeather]);
 
   // Reconocimiento botánico REAL con OpenRouter multimodal desde la cámara en burbuja
   const handleCaptureFromBubble = async (frame: CapturedBubbleFrame) => {
@@ -1196,6 +1213,26 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             }
           : null
       );
+    }
+  };
+
+  const handleUpdatePlant = (updatedPlant: UserPlant) => {
+    setPlantsBySpace(prev => {
+      const updated: Record<string, UserPlant[]> = {};
+      Object.keys(prev).forEach(spKey => {
+        updated[spKey] = (prev[spKey] || []).map(p =>
+          p.id === updatedPlant.id ? updatedPlant : p
+        );
+      });
+      persistPlantsBySpace(updated);
+      return updated;
+    });
+
+    setSelectedPlantForDetail(updatedPlant);
+
+    // Sincronización en la nube si hay usuario activo
+    if (onboardingData?.account?.uid) {
+      savePlantToCloud(onboardingData.account.uid, updatedPlant);
     }
   };
 
@@ -1360,6 +1397,14 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         );
       });
       persistPlantsBySpace(updated);
+
+      recordRitualCompletion(plantId, 'riego').then(newStreak => {
+        setCareStreak(newStreak);
+        const all = Object.values(updated).flat();
+        syncSanctuaryWidgetData(all, newStreak, activeSpace?.name || 'Santuario');
+        syncAppIconWithSanctuary(all, newStreak.currentStreak);
+      });
+
       return updated;
     });
   };
@@ -1374,6 +1419,13 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         );
       });
       persistPlantsBySpace(updated);
+
+      recordRitualCompletion(plantId, 'limpieza_foliar').then(newStreak => {
+        setCareStreak(newStreak);
+        const all = Object.values(updated).flat();
+        syncSanctuaryWidgetData(all, newStreak, activeSpace?.name || 'Santuario');
+      });
+
       return updated;
     });
   };
@@ -1388,6 +1440,13 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         );
       });
       persistPlantsBySpace(updated);
+
+      recordRitualCompletion(plantId, 'trasplante').then(newStreak => {
+        setCareStreak(newStreak);
+        const all = Object.values(updated).flat();
+        syncSanctuaryWidgetData(all, newStreak, activeSpace?.name || 'Santuario');
+      });
+
       return updated;
     });
   };
@@ -1402,6 +1461,14 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         );
       });
       persistPlantsBySpace(updated);
+
+      recordRitualCompletion(plantId, 'riego').then(newStreak => {
+        setCareStreak(newStreak);
+        const all = Object.values(updated).flat();
+        syncSanctuaryWidgetData(all, newStreak, activeSpace?.name || 'Santuario');
+        syncAppIconWithSanctuary(all, newStreak.currentStreak);
+      });
+
       return updated;
     });
   };
@@ -1640,6 +1707,19 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           </View>
 
           <View style={styles.tideTopRightRow}>
+            {/* Pill de Rituales Botánicos & Racha */}
+            <TouchableOpacity
+              style={styles.tideGlassPillBtn}
+              onPress={() => {
+                triggerHaptic();
+                setIsRitualsModalOpen(true);
+              }}
+              activeOpacity={0.8}
+            >
+              <TreegohIcon name="calendario_agenda" size={16} color="#E6E8C4" glow={false} />
+              {activeAlerts.length > 0 && <View style={styles.tideAlertDot} />}
+            </TouchableOpacity>
+
             {/* Pill de Soundscape y Espacios */}
             <TouchableOpacity
               style={styles.tideGlassPillBtn}
@@ -1755,6 +1835,18 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               </View>
               <Text style={styles.careAlertsTitle}>Atención prioritaria</Text>
             </View>
+
+            <TouchableOpacity
+              style={styles.openRitualsHeaderBtn}
+              onPress={() => {
+                triggerHaptic();
+                setIsRitualsModalOpen(true);
+              }}
+              activeOpacity={0.75}
+            >
+              <TreegohIcon name="calendario_agenda" size={13} color="#E6E8C4" glow={false} />
+              <Text style={styles.openRitualsHeaderText}>Rituales</Text>
+            </TouchableOpacity>
           </View>
 
           {/* Chips de filtro de alertas a ancho completo */}
@@ -2015,12 +2107,26 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         {/* 4. SELECTOR DE MICROCLIMAS / ESPACIOS DEL HOGAR */}
         <View style={styles.spacesSection}>
           <View style={styles.spacesSectionHeaderRow}>
-            <Text style={styles.sectionTitle}>Espacios del hogar</Text>
-            <Text style={styles.sectionCounter}>
-              {customSpacesList.length === 0
-                ? '0'
-                : `${selectedSpaceIndex + 1} de ${customSpacesList.length}`}
-            </Text>
+            <View style={styles.spacesSectionTitleGroup}>
+              <Text style={styles.sectionTitle}>Espacios del hogar</Text>
+              <Text style={styles.sectionCounter}>
+                {customSpacesList.length === 0
+                  ? '0'
+                  : `${selectedSpaceIndex + 1} de ${customSpacesList.length}`}
+              </Text>
+            </View>
+
+            {customSpacesList.length > 1 && (
+              <TouchableOpacity
+                style={styles.deleteSpaceHeaderBtn}
+                onPress={() => handleDeleteSpace(selectedSpaceIndex)}
+                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                activeOpacity={0.7}
+              >
+                <TreegohIcon name="menos" size={10} color="rgba(255, 255, 255, 0.55)" glow={false} />
+                <Text style={styles.deleteSpaceHeaderText}>Eliminar activo</Text>
+              </TouchableOpacity>
+            )}
           </View>
 
           <ScrollView
@@ -2091,24 +2197,12 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         <View style={styles.plantsSectionWrap}>
           <View style={styles.plantsSectionHeaderRow}>
             <View style={styles.plantsSectionTitleCol}>
-              <View style={styles.plantsSectionTitleRow}>
-                <Text style={styles.sectionTitle}>
-                  {customSpacesList.length === 0
-                    ? 'Sin espacios registrados'
-                    : `Plantas en ${activeSpace?.name || 'Salón Principal'}`}
-                </Text>
-                {customSpacesList.length > 0 && (
-                  <TouchableOpacity
-                    style={styles.deleteSpaceMiniBtn}
-                    onPress={() => handleDeleteSpace(selectedSpaceIndex)}
-                    hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-                    activeOpacity={0.7}
-                  >
-                    <TreegohIcon name="menos" size={11} color="rgba(255, 255, 255, 0.45)" glow={false} />
-                  </TouchableOpacity>
-                )}
-              </View>
-              <Text style={styles.sectionSubtitle}>
+              <Text style={styles.sectionTitle} numberOfLines={1}>
+                {customSpacesList.length === 0
+                  ? 'Sin espacios registrados'
+                  : `Plantas en ${activeSpace?.name || 'Salón Principal'}`}
+              </Text>
+              <Text style={styles.sectionSubtitle} numberOfLines={1}>
                 {filteredCurrentSpacePlants.length}{' '}
                 {filteredCurrentSpacePlants.length === 1 ? 'especie' : 'especies'}{' '}
                 {plantListFilter !== 'Todas' ? `(${plantListFilter.toLowerCase()})` : 'adaptadas a este rincón'}
@@ -3431,15 +3525,18 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                         <TreegohIcon name="espacios_microclimas" size={20} color="#FFFFFF" glow={isSelected} />
                       </View>
                       <View style={styles.allSpaceCardTexts}>
-                        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                          <Text style={styles.allSpaceCardName}>{sp.name}</Text>
+                        <View style={styles.allSpaceNameRow}>
+                          <Text style={styles.allSpaceCardName} numberOfLines={1}>
+                            {sp.name}
+                          </Text>
                           {isSelected && (
                             <View style={styles.activeSpaceDotPill}>
+                              <View style={styles.activeSpaceDot} />
                               <Text style={styles.activeSpaceDotText}>Activo</Text>
                             </View>
                           )}
                         </View>
-                        <Text style={styles.allSpaceCardSub}>
+                        <Text style={styles.allSpaceCardSub} numberOfLines={1}>
                           {sp.roomType} · {sp.orientation || 'Sur'} · {count} {count === 1 ? 'planta' : 'plantas'}
                         </Text>
                       </View>
@@ -4059,6 +4156,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         onClose={() => setSelectedPlantForDetail(null)}
         onWaterPlant={handleWaterPlant}
         onDeletePlant={handleDeletePlant}
+        onUpdatePlant={handleUpdatePlant}
         onRelocatePlant={plant => {
           setSelectedPlantForDetail(null);
           setTimeout(() => {
@@ -4226,6 +4324,23 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         onClose={() => setIsAssistantModalOpen(false)}
         context={assistantContext}
       />
+
+      {/* MODAL DE RITUALES BOTÁNICOS, ALARMAS Y RACHA DUOLINGO */}
+      <BotanicalRitualsModal
+        visible={isRitualsModalOpen}
+        onClose={() => setIsRitualsModalOpen(false)}
+        plantsBySpace={plantsBySpace}
+        onUpdatePlantsBySpace={updated => {
+          setPlantsBySpace(updated);
+          persistPlantsBySpace(updated);
+        }}
+        sanctuaryName={activeSpace?.name || 'Mi Santuario'}
+        weather={
+          liveWeather
+            ? { temperature: liveWeather.temperature, condition: liveWeather.condition }
+            : undefined
+        }
+      />
     </CircadianBackground>
   );
 };
@@ -4327,6 +4442,32 @@ const styles = StyleSheet.create({
     width: 1,
     height: 14,
     backgroundColor: 'rgba(255, 255, 255, 0.22)',
+  },
+  tideAlertDot: {
+    position: 'absolute',
+    top: 6,
+    right: 8,
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: '#F87171',
+  },
+  openRitualsHeaderBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    backgroundColor: 'rgba(230, 232, 196, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(230, 232, 196, 0.25)',
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    borderRadius: 14,
+  },
+  openRitualsHeaderText: {
+    fontFamily: Fonts.regular,
+    fontSize: 11,
+    color: '#E6E8C4',
+    letterSpacing: 0.3,
   },
   tideAvatarOrbBtn: {
     width: 44,
@@ -5276,6 +5417,27 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  spacesSectionTitleGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  deleteSpaceHeaderBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.14)',
+    paddingVertical: 4,
+    paddingHorizontal: 9,
+    borderRadius: 12,
+  },
+  deleteSpaceHeaderText: {
+    fontFamily: Fonts.light,
+    fontSize: 11,
+    color: 'rgba(255, 255, 255, 0.65)',
+  },
   sectionTitle: {
     fontFamily: Fonts.light,
     fontSize: 18,
@@ -5478,6 +5640,7 @@ const styles = StyleSheet.create({
   plantsSectionTitleCol: {
     gap: 2,
     flex: 1,
+    marginRight: 10,
   },
   plantsSectionTitleRow: {
     flexDirection: 'row',
@@ -6030,10 +6193,10 @@ const styles = StyleSheet.create({
     lineHeight: 19,
   },
   compassHeroCard: {
-    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    backgroundColor: 'rgba(10, 16, 12, 0.72)',
     borderRadius: 24,
     borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.20)',
+    borderColor: 'rgba(255, 255, 255, 0.14)',
     padding: 22,
     alignItems: 'center',
     gap: 18,
@@ -6173,10 +6336,10 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   allSpaceCardItem: {
-    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    backgroundColor: 'rgba(10, 16, 12, 0.72)',
     borderRadius: 18,
     borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.18)',
+    borderColor: 'rgba(255, 255, 255, 0.12)',
     padding: 14,
     overflow: 'hidden',
     gap: 10,
@@ -6188,14 +6351,15 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   allSpaceCardItemSelected: {
-    backgroundColor: 'rgba(255, 255, 255, 0.16)',
-    borderColor: 'rgba(255, 255, 255, 0.55)',
+    backgroundColor: 'rgba(18, 28, 20, 0.88)',
+    borderColor: 'rgba(134, 239, 172, 0.40)',
   },
   allSpaceCardLeft: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 12,
     flex: 1,
+    paddingRight: 8,
   },
   allSpaceCardIconWrap: {
     width: 40,
@@ -6204,27 +6368,47 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.10)',
     alignItems: 'center',
     justifyContent: 'center',
+    flexShrink: 0,
   },
   allSpaceCardTexts: {
     gap: 3,
     flex: 1,
+  },
+  allSpaceNameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    flexShrink: 1,
   },
   allSpaceCardName: {
     fontFamily: Fonts.regular,
     fontSize: 15,
     fontWeight: '400',
     color: '#FFFFFF',
+    flexShrink: 1,
   },
   activeSpaceDotPill: {
-    backgroundColor: 'rgba(134, 239, 172, 0.22)',
-    paddingHorizontal: 6,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: 'rgba(134, 239, 172, 0.18)',
+    borderWidth: 1,
+    borderColor: 'rgba(134, 239, 172, 0.35)',
+    paddingHorizontal: 7,
     paddingVertical: 2,
-    borderRadius: 6,
+    borderRadius: 8,
+    flexShrink: 0,
+  },
+  activeSpaceDot: {
+    width: 5,
+    height: 5,
+    borderRadius: 2.5,
+    backgroundColor: '#86EFAC',
   },
   activeSpaceDotText: {
-    fontFamily: Fonts.light,
+    fontFamily: Fonts.regular,
     fontSize: 10,
-    fontWeight: '300',
+    fontWeight: '500',
     color: '#86EFAC',
   },
   allSpaceCardSub: {
@@ -6233,9 +6417,16 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     color: 'rgba(255, 255, 255, 0.58)',
   },
+  allSpaceRightWrap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    flexShrink: 0,
+    marginLeft: 10,
+  },
   allSpaceScoreWrap: {
     alignItems: 'center',
-    paddingLeft: 8,
+    paddingLeft: 4,
   },
   allSpaceScoreNum: {
     fontFamily: Fonts.light,
@@ -6248,6 +6439,16 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: '300',
     color: 'rgba(255, 255, 255, 0.50)',
+  },
+  deleteSpaceListItemBtn: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.16)',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   allSpaceCardBottomActionsRow: {
     flexDirection: 'row',
