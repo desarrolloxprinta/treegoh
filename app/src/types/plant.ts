@@ -32,6 +32,20 @@ export interface UserPlant {
   pruningNote?: string;
   needsRepotting?: boolean;
   repottingNote?: string;
+  lastFertilizedDate?: string;
+  daysUntilNextFertilization?: number;
+  needsFertilization?: boolean;
+  fertilizationNote?: string;
+  lastCleanedDate?: string;
+  daysUntilNextCleaning?: number;
+  needsCleaning?: boolean;
+  cleaningNote?: string;
+  lastRotatedDate?: string;
+  purchasedAt?: string;
+  lastRepottedDate?: string;
+  potDiameterCm?: number;
+  photoGallery?: string[];
+  clinicalLog?: PlantClinicalEvent[];
   emergencyAlert?: {
     type: 'temperatura' | 'plaga' | 'deshidratacion' | 'luz_excesiva';
     message: string;
@@ -51,4 +65,24 @@ export interface RecommendedSpaceSpecies {
   wateringIntervalDays: number;
   trait: string;
   suitableRooms: string[];
+}
+
+export type PlantClinicalEventType =
+  | 'riego'
+  | 'fertilizacion'
+  | 'trasplante'
+  | 'poda'
+  | 'limpieza'
+  | 'diagnostico'
+  | 'foto'
+  | 'adopcion'
+  | 'correccion_especie';
+
+export interface PlantClinicalEvent {
+  id: string;
+  type: PlantClinicalEventType;
+  date: string;
+  title: string;
+  notes?: string;
+  photoUri?: string;
 }

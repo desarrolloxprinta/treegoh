@@ -17,7 +17,9 @@ export type IOSAlarmType =
   | 'riego_matutino'
   | 'radiacion_cenital'
   | 'zen_circadiano'
-  | 'estres_termico';
+  | 'estres_termico'
+  | 'nutricion_quincenal'
+  | 'limpieza_estomas';
 
 export interface IOSAlarmConfig {
   id: string;
@@ -80,6 +82,34 @@ export const DEFAULT_IOS_ALARMS: IOSAlarmConfig[] = [
     badge: false,
     repeatDays: [1, 2, 3, 4, 5, 6, 0],
     categoryIdentifier: 'TREEGOH_ZEN_ALARM',
+  },
+  {
+    id: 'alarm_nutricion_quincenal',
+    type: 'nutricion_quincenal',
+    title: 'Nutrición Botánica Quincenal',
+    body: 'Fase de asimilación activa. Aplica fertilizante suave con micronutrientes para vigorizar raíces.',
+    timeHour: 10,
+    timeMinute: 30,
+    enabled: true,
+    sound: true,
+    vibrate: true,
+    badge: false,
+    repeatDays: [6],
+    categoryIdentifier: 'TREEGOH_NUTRITION_ALARM',
+  },
+  {
+    id: 'alarm_limpieza_estomas',
+    type: 'limpieza_estomas',
+    title: 'Higiene Foliar y Respiración',
+    body: 'Retira el polvo de las hojas con paño humedecido para liberar estomas y acelerar la fotosíntesis.',
+    timeHour: 18,
+    timeMinute: 0,
+    enabled: true,
+    sound: true,
+    vibrate: true,
+    badge: false,
+    repeatDays: [0],
+    categoryIdentifier: 'TREEGOH_CLEANING_ALARM',
   },
 ];
 
