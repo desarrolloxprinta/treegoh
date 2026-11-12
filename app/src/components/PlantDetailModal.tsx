@@ -15,7 +15,7 @@
  * - Feedback háptico en cada acción clínica.
  */
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -27,6 +27,10 @@ import {
   Platform,
   TextInput,
   Alert,
+  Animated,
+  PanResponder,
+  Dimensions,
+  Easing,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { BlurView } from 'expo-blur';
@@ -101,6 +105,114 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
       }
     } catch (_e) {}
   };
+
+  // Control de arrastre y salida táctil (PanResponder + Animated)
+  const translateY = useRef(new Animated.Value(0)).current;
+  const isClosingRef = useRef(false);
+  const scrollOffsetY = useRef(0);
+
+  // Reiniciar estado de arrastre y posición al abrir/cambiar planta
+  useEffect(() => {
+    if (plant) {
+      translateY.setValue(0);
+      isClosingRef.current = false;
+      scrollOffsetY.current = 0;
+    }
+  }, [plant?.id]);
+
+  const resetPosition = () => {
+    Animated.spring(translateY, {
+      toValue: 0,
+      bounciness: 4,
+      speed: 16,
+      useNativeDriver: true,
+    }).start();
+  };
+
+  const handleDismiss = () => {
+    if (isClosingRef.current) return;
+    isClosingRef.current = true;
+    triggerHaptic();
+    Animated.timing(translateY, {
+      toValue: Dimensions.get('window').height,
+      duration: 220,
+      easing: Easing.out(Easing.cubic),
+      useNativeDriver: true,
+    }).start(() => {
+      onClose();
+      setTimeout(() => {
+        translateY.setValue(0);
+        isClosingRef.current = false;
+      }, 150);
+    });
+  };
+
+  // PanResponder táctil para la barra de agarre superior
+  const dragPanResponder = useRef(
+    PanResponder.create({
+      onStartShouldSetPanResponder: () => true,
+      onMoveShouldSetPanResponder: (_evt, gestureState) => {
+        return Math.abs(gestureState.dy) > 3;
+      },
+      onPanResponderMove: (_evt, gestureState) => {
+        if (gestureState.dy > 0) {
+          translateY.setValue(gestureState.dy);
+        } else {
+          translateY.setValue(gestureState.dy * 0.12);
+        }
+      },
+      onPanResponderRelease: (_evt, gestureState) => {
+        if (Math.abs(gestureState.dy) < 5 && Math.abs(gestureState.dx) < 5) {
+          handleDismiss();
+          return;
+        }
+        if (gestureState.dy > 70 || (gestureState.dy > 20 && gestureState.vy > 0.45)) {
+          handleDismiss();
+        } else {
+          resetPosition();
+        }
+      },
+      onPanResponderTerminate: () => {
+        resetPosition();
+      },
+    })
+  ).current;
+
+  // PanResponder para deslizar desde la foto principal hacia abajo
+  const photoPanResponder = useRef(
+    PanResponder.create({
+      onStartShouldSetPanResponder: () => false,
+      onMoveShouldSetPanResponder: (_evt, gestureState) => {
+        return (
+          scrollOffsetY.current <= 5 &&
+          gestureState.dy > 12 &&
+          Math.abs(gestureState.dy) > Math.abs(gestureState.dx) * 1.5
+        );
+      },
+      onPanResponderTerminationRequest: () => false,
+      onPanResponderMove: (_evt, gestureState) => {
+        if (gestureState.dy > 0) {
+          translateY.setValue(gestureState.dy);
+        }
+      },
+      onPanResponderRelease: (_evt, gestureState) => {
+        if (gestureState.dy > 80 || (gestureState.dy > 25 && gestureState.vy > 0.5)) {
+          handleDismiss();
+        } else {
+          resetPosition();
+        }
+      },
+      onPanResponderTerminate: () => {
+        resetPosition();
+      },
+    })
+  ).current;
+
+  const backdropOpacity = translateY.interpolate({
+    inputRange: [0, 350],
+    outputRange: [1, 0.15],
+    extrapolate: 'clamp',
+  });
 
   // Especies filtradas para el modal de corrección de especie
   const matchingSpecies = useMemo(() => {
@@ -449,15 +561,34 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
       visible={isVisible}
       animationType="slide"
       transparent={true}
-      onRequestClose={onClose}
+      onRequestClose={handleDismiss}
     >
       <View style={styles.modalOverlay}>
-        <TouchableOpacity style={StyleSheet.absoluteFill} activeOpacity={1} onPress={onClose} />
+        <Animated.View
+          style={[
+            StyleSheet.absoluteFill,
+            { backgroundColor: 'rgba(8, 14, 10, 0.85)', opacity: backdropOpacity },
+          ]}
+        />
+        <TouchableOpacity style={StyleSheet.absoluteFill} activeOpacity={1} onPress={handleDismiss} />
 
-        <View style={[styles.sheetContainer, { paddingBottom: safeBottom + 16 }]}>
-          {/* Indicador de agarre zen */}
-          <View style={styles.dragHandleWrap}>
+        <Animated.View
+          style={[
+            styles.sheetContainer,
+            { paddingBottom: safeBottom + 16 },
+            { transform: [{ translateY }] },
+          ]}
+        >
+          {/* Indicador de agarre zen e interactivo para arrastrar hacia abajo */}
+          <View
+            style={styles.dragHandleWrap}
+            {...dragPanResponder.panHandlers}
+          >
             <View style={styles.dragHandleBar} />
+            <View style={styles.dragHintRow}>
+              <TreegohIcon name="flecha_abajo" size={11} color="rgba(255, 255, 255, 0.45)" glow={false} />
+              <Text style={styles.dragHintText}>Desliza hacia abajo para salir</Text>
+            </View>
           </View>
 
           {/* BARRA SUPERIOR DE ACCIONES */}
@@ -481,15 +612,15 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
                 <Text style={styles.correctSpeciesQuickText}>Corregir especie</Text>
               </TouchableOpacity>
 
+              {/* Botón explícito e inconfundible de cerrar ficha */}
               <TouchableOpacity
                 style={styles.sheetCloseBtn}
-                onPress={() => {
-                  triggerHaptic();
-                  onClose();
-                }}
+                onPress={handleDismiss}
                 activeOpacity={0.75}
+                hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+                accessibilityLabel="Cerrar ficha de la planta"
               >
-                <TreegohIcon name="flecha_volver" size={16} color="#FFFFFF" glow={false} />
+                <TreegohIcon name="cierre" size={15} color="#FFFFFF" glow={false} />
               </TouchableOpacity>
             </View>
           </View>
@@ -498,9 +629,21 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
             style={styles.sheetScroll}
             contentContainerStyle={styles.sheetScrollContent}
             showsVerticalScrollIndicator={false}
+            bounces={true}
+            scrollEventThrottle={16}
+            onScroll={(e) => {
+              scrollOffsetY.current = e.nativeEvent.contentOffset.y;
+            }}
+            onScrollEndDrag={(e) => {
+              const y = e.nativeEvent.contentOffset.y;
+              const vy = e.nativeEvent.velocity?.y || 0;
+              if (y < -45 || vy < -0.6) {
+                handleDismiss();
+              }
+            }}
           >
-            {/* HERO CARD: FOTO + IDENTIDAD + ACCIONES FOTOGRÁFICAS */}
-            <View style={styles.photoContainer}>
+            {/* HERO CARD: FOTO + IDENTIDAD + ACCIONES FOTOGRÁFICAS (con soporte de arrastre hacia abajo) */}
+            <View style={styles.photoContainer} {...photoPanResponder.panHandlers}>
               <BotanicalImage
                 uri={plant.imageUrl}
                 style={styles.plantHeroImage}
@@ -1029,13 +1172,23 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
                 </TouchableOpacity>
               )}
 
+              {/* Botón explícito para cerrar la ficha al final */}
+              <TouchableOpacity
+                style={styles.closeSheetBottomBtn}
+                onPress={handleDismiss}
+                activeOpacity={0.8}
+              >
+                <TreegohIcon name="cierre" size={14} color="#E6E8C4" glow={false} />
+                <Text style={styles.closeSheetBottomText}>Cerrar ficha de la planta</Text>
+              </TouchableOpacity>
+
               {/* Retirar planta */}
               <TouchableOpacity
                 style={styles.deletePlantBtn}
                 onPress={() => {
                   triggerHaptic(true);
                   onDeletePlant(plant.id);
-                  onClose();
+                  handleDismiss();
                 }}
                 activeOpacity={0.8}
               >
@@ -1043,7 +1196,7 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
               </TouchableOpacity>
             </View>
           </ScrollView>
-        </View>
+        </Animated.View>
 
         {/* ======================================================== */}
         {/* SUB-MODAL 1: CORREGIR ESPECIE SI LA IA SE EQUIVOCÓ */}
@@ -1326,14 +1479,28 @@ const styles = StyleSheet.create({
   dragHandleWrap: {
     width: '100%',
     alignItems: 'center',
-    paddingTop: 2,
-    paddingBottom: 6,
+    paddingTop: 4,
+    paddingBottom: 8,
+    gap: 4,
   },
   dragHandleBar: {
-    width: 40,
-    height: 4,
-    borderRadius: 2,
-    backgroundColor: 'rgba(255, 255, 255, 0.22)',
+    width: 44,
+    height: 5,
+    borderRadius: 2.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.35)',
+  },
+  dragHintRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    marginTop: 2,
+    opacity: 0.65,
+  },
+  dragHintText: {
+    fontFamily: Fonts.light,
+    fontSize: 10.5,
+    color: 'rgba(255, 255, 255, 0.8)',
+    letterSpacing: 0.2,
   },
   sheetTopRow: {
     flexDirection: 'row',
@@ -1380,10 +1547,12 @@ const styles = StyleSheet.create({
     color: '#E6E8C4',
   },
   sheetCloseBtn: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.18)',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1913,6 +2082,24 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: '#FFFFFF',
     letterSpacing: 0.1,
+  },
+  closeSheetBottomBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.14)',
+    borderRadius: 16,
+    paddingVertical: 14,
+    marginTop: 6,
+  },
+  closeSheetBottomText: {
+    fontFamily: Fonts.regular,
+    fontSize: 13,
+    color: '#E6E8C4',
+    letterSpacing: 0.2,
   },
   deletePlantBtn: {
     paddingVertical: 15,

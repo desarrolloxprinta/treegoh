@@ -49,6 +49,8 @@ export type IconName =
   | 'flecha_volver'
   | 'check_verificado'
   | 'flecha_adelante'
+  | 'cierre'
+  | 'flecha_abajo'
   | 'mas'
   | 'menos'
   | 'google';
@@ -580,6 +582,16 @@ export const TreegohIcon: React.FC<TreegohIconProps> = React.memo(({
             <Circle cx="12" cy="12" r="9" stroke={activeColor} strokeWidth={sw} fill={useFill ? activeColor : 'none'} />
             <Polyline points="8 12 11 15 16 9" stroke={innerDarkContrast} strokeWidth={sw + 0.4} strokeLinecap="round" strokeLinejoin="round" />
           </>
+        );
+
+      case 'cierre':
+        return (
+          <Path d="M18 6L6 18M6 6l12 12" stroke={activeColor} strokeWidth={sw + 0.4} strokeLinecap="round" strokeLinejoin="round" />
+        );
+
+      case 'flecha_abajo':
+        return (
+          <Path d="M6 9l6 6 6-6" stroke={activeColor} strokeWidth={sw + 0.4} strokeLinecap="round" strokeLinejoin="round" />
         );
 
       case 'mas':
