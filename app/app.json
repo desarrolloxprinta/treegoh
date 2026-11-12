@@ -17,6 +17,11 @@
       "bundleIdentifier": "com.treegoh.app",
       "appleTeamId": "855K4HU668",
       "buildNumber": "2",
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.com.treegoh.app"
+        ]
+      },
       "infoPlist": {
         "CFBundleDevelopmentRegion": "es",
         "CFBundleAllowMixedLocalizations": true,
@@ -61,7 +66,8 @@
           "photosPermission": "Treegoh analiza la foto de tu espacio para deducir automáticamente la distancia a la ventana y luminosidad."
         }
       ],
-      "expo-web-browser"
+      "expo-web-browser",
+      "./plugins/withIosWidget"
     ]
   }
 }

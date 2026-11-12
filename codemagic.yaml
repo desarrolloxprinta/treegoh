@@ -80,6 +80,8 @@ workflows:
         script: |
           echo "🔍 Verificando empaquetado de JavaScript con Metro..."
           cd app
+          echo "🧪 Verificando react-native cli config..."
+          node -e "require('./node_modules/react-native/cli.js')" || true
           npx react-native bundle \
             --entry-file index.js \
             --platform ios \
@@ -87,7 +89,15 @@ workflows:
             --reset-cache \
             --bundle-output /tmp/main.jsbundle \
             --assets-dest /tmp
-          echo "✅ Metro bundle verificado con éxito."
+          echo "✅ Metro bundle generado correctamente."
+          echo "🧪 Verificando compilador Hermes con el bundle generado..."
+          HERMESC=$(find node_modules/hermes-compiler -name "hermesc" -type f 2>/dev/null | head -n 1 || find ios/Pods/hermes-engine -name "hermesc" -type f 2>/dev/null | head -n 1 || true)
+          if [ -n "$HERMESC" ]; then
+            chmod +x "$HERMESC" || true
+            echo "Ejecutando hermesc ($HERMESC)..."
+            "$HERMESC" -emit-binary -max-diagnostic-width=80 -O -out /tmp/main.hbc /tmp/main.jsbundle
+            echo "✅ Compilación de bytecode Hermes validada con éxito."
+          fi
 
       - name: Set up keychain for code signing
         script: |
@@ -120,10 +130,24 @@ workflows:
       - name: Build IPA for TestFlight
         script: |
           echo "🚀 Compilando archivo IPA con xcode-project build-ipa..."
-          xcode-project build-ipa \
+          set -o pipefail
+          if ! xcode-project build-ipa \
             --workspace "app/ios/Treegoh.xcworkspace" \
             --scheme "Treegoh" \
-            --verbose
+            --verbose; then
+              echo "❌ ===================== XCODE ERROR EXTRACTOR ====================="
+              echo "--- Buscando en /tmp/xcodebuild_logs/ ---"
+              for f in /tmp/xcodebuild_logs/*.log; do
+                if [ -f "$f" ]; then
+                  echo "Archivo: $f"
+                  grep -E -C 3 -i "error:" "$f" | tail -n 80 || true
+                fi
+              done
+              echo "--- Buscando en DerivedData Logs ---"
+              find /Users/builder/Library/Developer/Xcode/DerivedData -name "*.log" -exec grep -H -E -C 3 -i "error:" {} + | tail -n 80 || true
+              echo "================================================================="
+              exit 65
+          fi
 
     artifacts:
       - build/ios/ipa/*.ipa
