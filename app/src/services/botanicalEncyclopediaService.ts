@@ -345,11 +345,7 @@ function ensureBibliaIndexed(): void {
     try {
       rawBiblia = require('../constants/biblia.json');
     } catch (_e1) {
-      try {
-        rawBiblia = require('../../../biblia-plantas/output/biblia.json');
-      } catch (_e2) {
-        rawBiblia = null;
-      }
+      rawBiblia = null;
     }
     const especies: BibliaSpeciesMonograph[] = Array.isArray(rawBiblia?.especies)
       ? rawBiblia.especies

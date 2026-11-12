@@ -16,6 +16,7 @@ workflows:
         APPLE_TEAM_ID: "855K4HU668"
         XCODE_WORKSPACE: "app/ios/Treegoh.xcworkspace"
         XCODE_SCHEME: "Treegoh"
+        ENTRY_FILE: "index.js"
       node: 22
       xcode: latest
       cocoapods: default
@@ -63,6 +64,7 @@ workflows:
           node scripts/sync-icons.js || true
           echo "🛠️ Ejecutando Expo Prebuild para generar app/ios/Treegoh.xcworkspace..."
           npx expo prebuild --platform ios --clean
+          echo "export ENTRY_FILE=index.js" >> ios/.xcode.env.local
 
       - name: Install CocoaPods
         script: |
@@ -153,6 +155,7 @@ workflows:
           cd app
           node scripts/sync-icons.js || true
           npx expo prebuild --platform ios --clean
+          echo "export ENTRY_FILE=index.js" >> ios/.xcode.env.local
       - name: Install CocoaPods
         script: |
           cd app/ios
