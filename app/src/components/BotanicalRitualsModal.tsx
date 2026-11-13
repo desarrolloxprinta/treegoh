@@ -83,8 +83,6 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
   const [currentIcon, setCurrentIcon] = useState<AppIconState>('default');
   const [autoIconEnabled, setAutoIconEnabled] = useState(true);
 
-  // Animación suave de entrada
-  const pulseAnim = useRefAnim();
 
   // Lista plana de todas las plantas
   const allPlants: UserPlant[] = useMemo(() => {
@@ -531,18 +529,6 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
   );
 };
 
-// Helper hook para animaciones sutiles
-function useRefAnim() {
-  const anim = React.useRef(new Animated.Value(0)).current;
-  useEffect(() => {
-    Animated.timing(anim, {
-      toValue: 1,
-      duration: 350,
-      useNativeDriver: true,
-    }).start();
-  }, [anim]);
-  return anim;
-}
 
 const styles = StyleSheet.create({
   modalOverlay: {
