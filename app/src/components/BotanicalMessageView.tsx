@@ -44,7 +44,7 @@ function formatDurationBadge(seconds?: number, fallbackText?: string): string {
   return `${mins}:${rem < 10 ? '0' : ''}${rem}`;
 }
 
-export const BotanicalMessageView: React.FC<BotanicalMessageViewProps> = ({
+export const BotanicalMessageView: React.FC<BotanicalMessageViewProps> = React.memo(({
   message,
   isLatestAssistant = false,
   isSpeakingThis = false,
@@ -451,7 +451,7 @@ export const BotanicalMessageView: React.FC<BotanicalMessageViewProps> = ({
       )}
     </Animated.View>
   );
-};
+});
 
 const styles = StyleSheet.create({
   // Prompt del usuario fluido sin burbuja (inspiración Cash App "Round Ups waiting")

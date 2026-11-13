@@ -74,12 +74,12 @@ export const BotanicalAssistantModal: React.FC<BotanicalAssistantModalProps> = (
   const sonicRingAnim1 = useRef(new Animated.Value(0.8)).current;
   const sonicRingAnim2 = useRef(new Animated.Value(0.8)).current;
 
-  // Barras del ecualizador vocal animado
-  const eqBar1 = useRef(new Animated.Value(6)).current;
-  const eqBar2 = useRef(new Animated.Value(14)).current;
-  const eqBar3 = useRef(new Animated.Value(22)).current;
-  const eqBar4 = useRef(new Animated.Value(12)).current;
-  const eqBar5 = useRef(new Animated.Value(8)).current;
+  // Barras del ecualizador vocal animado (scaleY con useNativeDriver: true)
+  const eqBar1 = useRef(new Animated.Value(0.2)).current;
+  const eqBar2 = useRef(new Animated.Value(0.35)).current;
+  const eqBar3 = useRef(new Animated.Value(0.5)).current;
+  const eqBar4 = useRef(new Animated.Value(0.3)).current;
+  const eqBar5 = useRef(new Animated.Value(0.2)).current;
 
   // 1. Ciclo orgánico 3D continuo de respiración
   useEffect(() => {
@@ -157,32 +157,32 @@ export const BotanicalAssistantModal: React.FC<BotanicalAssistantModalProps> = (
     return () => ringLoop.stop();
   }, [isListeningVoice, isSpeakingVoice, sonicRingAnim1, sonicRingAnim2]);
 
-  // 3. Ecualizador bioacústico vocal interactivo
+  // 3. Ecualizador bioacústico vocal interactivo (100% Native Driver)
   useEffect(() => {
     if (!isSpeakingVoice && !isListeningVoice) {
-      eqBar1.setValue(6);
-      eqBar2.setValue(8);
-      eqBar3.setValue(12);
-      eqBar4.setValue(8);
-      eqBar5.setValue(6);
+      eqBar1.setValue(0.2);
+      eqBar2.setValue(0.25);
+      eqBar3.setValue(0.35);
+      eqBar4.setValue(0.25);
+      eqBar5.setValue(0.2);
       return;
     }
 
     const eqLoop = Animated.loop(
       Animated.sequence([
         Animated.parallel([
-          Animated.timing(eqBar1, { toValue: 18, duration: 200, useNativeDriver: false }),
-          Animated.timing(eqBar2, { toValue: 32, duration: 240, useNativeDriver: false }),
-          Animated.timing(eqBar3, { toValue: 26, duration: 180, useNativeDriver: false }),
-          Animated.timing(eqBar4, { toValue: 36, duration: 220, useNativeDriver: false }),
-          Animated.timing(eqBar5, { toValue: 16, duration: 190, useNativeDriver: false }),
+          Animated.timing(eqBar1, { toValue: 0.6, duration: 200, useNativeDriver: true }),
+          Animated.timing(eqBar2, { toValue: 0.95, duration: 240, useNativeDriver: true }),
+          Animated.timing(eqBar3, { toValue: 0.8, duration: 180, useNativeDriver: true }),
+          Animated.timing(eqBar4, { toValue: 1.0, duration: 220, useNativeDriver: true }),
+          Animated.timing(eqBar5, { toValue: 0.5, duration: 190, useNativeDriver: true }),
         ]),
         Animated.parallel([
-          Animated.timing(eqBar1, { toValue: 8, duration: 220, useNativeDriver: false }),
-          Animated.timing(eqBar2, { toValue: 14, duration: 190, useNativeDriver: false }),
-          Animated.timing(eqBar3, { toValue: 34, duration: 250, useNativeDriver: false }),
-          Animated.timing(eqBar4, { toValue: 12, duration: 210, useNativeDriver: false }),
-          Animated.timing(eqBar5, { toValue: 6, duration: 230, useNativeDriver: false }),
+          Animated.timing(eqBar1, { toValue: 0.25, duration: 220, useNativeDriver: true }),
+          Animated.timing(eqBar2, { toValue: 0.45, duration: 190, useNativeDriver: true }),
+          Animated.timing(eqBar3, { toValue: 0.95, duration: 250, useNativeDriver: true }),
+          Animated.timing(eqBar4, { toValue: 0.35, duration: 210, useNativeDriver: true }),
+          Animated.timing(eqBar5, { toValue: 0.2, duration: 230, useNativeDriver: true }),
         ]),
       ])
     );
@@ -377,13 +377,13 @@ export const BotanicalAssistantModal: React.FC<BotanicalAssistantModalProps> = (
             </View>
           </View>
 
-          {/* ECUALIZADOR BIOACÚSTICO SÓNICO EN VIVO */}
+          {/* ECUALIZADOR BIOACÚSTICO SÓNICO EN VIVO (GPU NATIVE DRIVER) */}
           <View style={styles.equalizerRow}>
-            <Animated.View style={[styles.eqBar, { height: eqBar1 }]} />
-            <Animated.View style={[styles.eqBar, { height: eqBar2 }]} />
-            <Animated.View style={[styles.eqBar, { height: eqBar3, backgroundColor: '#86EFAC' }]} />
-            <Animated.View style={[styles.eqBar, { height: eqBar4 }]} />
-            <Animated.View style={[styles.eqBar, { height: eqBar5 }]} />
+            <Animated.View style={[styles.eqBar, { transform: [{ scaleY: eqBar1 }] }]} />
+            <Animated.View style={[styles.eqBar, { transform: [{ scaleY: eqBar2 }] }]} />
+            <Animated.View style={[styles.eqBar, { transform: [{ scaleY: eqBar3 }], backgroundColor: '#86EFAC' }]} />
+            <Animated.View style={[styles.eqBar, { transform: [{ scaleY: eqBar4 }] }]} />
+            <Animated.View style={[styles.eqBar, { transform: [{ scaleY: eqBar5 }] }]} />
           </View>
 
           {/* TARJETA DE SABIDURÍA BOTÁNICA HABLADA (SERENA Y LIMPIA) */}
@@ -661,6 +661,7 @@ const styles = StyleSheet.create({
   },
   eqBar: {
     width: 4,
+    height: 28,
     borderRadius: 2,
     backgroundColor: 'rgba(255, 255, 255, 0.45)',
   },

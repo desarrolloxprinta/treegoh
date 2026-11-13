@@ -196,9 +196,6 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   const prevNavTabForDarkRef = useRef<number>(0);
   const [visitedTabs, setVisitedTabs] = useState<Record<number, boolean>>({
     0: true,
-    1: true,
-    2: true,
-    3: true,
   });
   const [bibliaDisplayLimit, setBibliaDisplayLimit] = useState<number>(20);
   const horizontalNavScrollRef = useRef<any>(null);

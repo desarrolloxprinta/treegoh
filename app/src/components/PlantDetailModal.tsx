@@ -57,7 +57,7 @@ interface PlantDetailModalProps {
 
 type ClinicalTab = 'historia' | 'cuidados' | 'bitacora';
 
-export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
+export const PlantDetailModal: React.FC<PlantDetailModalProps> = React.memo(({
   plant,
   spaceLux = 3200,
   onClose,
@@ -214,8 +214,9 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
     extrapolate: 'clamp',
   });
 
-  // Especies filtradas para el modal de corrección de especie
+  // Especies filtradas para el modal de corrección de especie (cálculo diferido solo al abrir)
   const matchingSpecies = useMemo(() => {
+    if (!isCorrectSpeciesOpen) return [];
     const q = speciesSearchQuery.trim().toLowerCase();
     if (!q) return BOTANICAL_DATABASE.slice(0, 30);
     return BOTANICAL_DATABASE.filter(
@@ -224,7 +225,7 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
         sp.scientificName.toLowerCase().includes(q) ||
         sp.family.toLowerCase().includes(q)
     ).slice(0, 30);
-  }, [speciesSearchQuery]);
+  }, [isCorrectSpeciesOpen, speciesSearchQuery]);
 
   if (!plant) return null;
 
@@ -1199,263 +1200,271 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
         </Animated.View>
 
         {/* ======================================================== */}
-        {/* SUB-MODAL 1: CORREGIR ESPECIE SI LA IA SE EQUIVOCÓ */}
+        {/* SUB-MODAL 1: CORREGIR ESPECIE (CARGA DIFERIDA BAJO DEMANDA) */}
         {/* ======================================================== */}
-        <Modal
-          visible={isCorrectSpeciesOpen}
-          animationType="slide"
-          transparent={true}
-          onRequestClose={() => setIsCorrectSpeciesOpen(false)}
-        >
-          <View style={styles.subModalOverlay}>
-            <BlurView intensity={80} tint="dark" style={StyleSheet.absoluteFill} />
-            <View style={[styles.subModalSheet, { paddingTop: Math.max(insets.top, 20), paddingBottom: safeBottom + 10 }]}>
-              <View style={styles.subModalHeader}>
-                <View>
-                  <Text style={styles.subModalTitle}>Corregir Especie</Text>
-                  <Text style={styles.subModalSubtitle}>
-                    Selecciona la especie correcta de nuestro catálogo botánico
-                  </Text>
-                </View>
-                <TouchableOpacity
-                  style={styles.subModalCloseBtn}
-                  onPress={() => setIsCorrectSpeciesOpen(false)}
-                >
-                  <TreegohIcon name="flecha_volver" size={16} color="#FFFFFF" glow={false} />
-                </TouchableOpacity>
-              </View>
-
-              {/* Buscador de especies */}
-              <View style={styles.searchBarBox}>
-                <TreegohIcon name="busqueda_typesense" size={15} color="#94A3B8" glow={false} />
-                <TextInput
-                  style={styles.searchBarInput}
-                  value={speciesSearchQuery}
-                  onChangeText={setSpeciesSearchQuery}
-                  placeholder="Buscar por nombre común o científico (ej: Monstera, Ficus...)"
-                  placeholderTextColor="rgba(255, 255, 255, 0.4)"
-                  autoCapitalize="none"
-                />
-              </View>
-
-              <ScrollView style={styles.speciesListScroll} showsVerticalScrollIndicator={false}>
-                {matchingSpecies.map(sp => (
+        {isCorrectSpeciesOpen && (
+          <Modal
+            visible={isCorrectSpeciesOpen}
+            animationType="slide"
+            transparent={true}
+            onRequestClose={() => setIsCorrectSpeciesOpen(false)}
+          >
+            <View style={styles.subModalOverlay}>
+              <BlurView intensity={80} tint="dark" style={StyleSheet.absoluteFill} />
+              <View style={[styles.subModalSheet, { paddingTop: Math.max(insets.top, 20), paddingBottom: safeBottom + 10 }]}>
+                <View style={styles.subModalHeader}>
+                  <View>
+                    <Text style={styles.subModalTitle}>Corregir Especie</Text>
+                    <Text style={styles.subModalSubtitle}>
+                      Selecciona la especie correcta de nuestro catálogo botánico
+                    </Text>
+                  </View>
                   <TouchableOpacity
-                    key={sp.id}
-                    style={styles.speciesItemRow}
-                    onPress={() => handleSelectCorrectSpecies(sp)}
-                    activeOpacity={0.8}
+                    style={styles.subModalCloseBtn}
+                    onPress={() => setIsCorrectSpeciesOpen(false)}
                   >
-                    <Image source={{ uri: sp.imageUrl }} style={styles.speciesItemThumb} />
-                    <View style={styles.speciesItemInfoCol}>
-                      <Text style={styles.speciesItemCommon}>{sp.commonName}</Text>
-                      <Text style={styles.speciesItemScientific}>
-                        {sp.scientificName} · {sp.family}
-                      </Text>
-                      <Text style={styles.speciesItemTrait} numberOfLines={1}>
-                        {sp.trait}
-                      </Text>
-                    </View>
-                    <TreegohIcon
-                      name="flecha_adelante"
-                      size={14}
-                      color="rgba(255, 255, 255, 0.5)"
-                      glow={false}
-                    />
+                    <TreegohIcon name="flecha_volver" size={16} color="#FFFFFF" glow={false} />
                   </TouchableOpacity>
-                ))}
-              </ScrollView>
-            </View>
-          </View>
-        </Modal>
-
-        {/* ======================================================== */}
-        {/* SUB-MODAL 2: GESTIÓN FOTOGRÁFICA (CÁMARA / GALERÍA / OFICIAL) */}
-        {/* ======================================================== */}
-        <Modal
-          visible={isPhotoMenuOpen}
-          animationType="fade"
-          transparent={true}
-          onRequestClose={() => setIsPhotoMenuOpen(false)}
-        >
-          <View style={styles.subModalOverlay}>
-            <TouchableOpacity
-              style={StyleSheet.absoluteFill}
-              activeOpacity={1}
-              onPress={() => setIsPhotoMenuOpen(false)}
-            />
-            <View style={[styles.photoActionCard, { paddingBottom: safeBottom + 12 }]}>
-              <Text style={styles.photoActionTitle}>Actualizar Fotografía de la Planta</Text>
-              <Text style={styles.photoActionSub}>
-                Elige el origen para registrar el estado visual de tu especie:
-              </Text>
-
-              <TouchableOpacity style={styles.photoOptionBtn} onPress={handlePickFromCamera} activeOpacity={0.8}>
-                <TreegohIcon name="camara_diagnostica" size={17} color="#E6E8C4" glow={false} />
-                <View style={styles.photoOptionTexts}>
-                  <Text style={styles.photoOptionLabel}>Hacer foto con la cámara</Text>
-                  <Text style={styles.photoOptionDesc}>Captura el estado actual de tus hojas en vivo</Text>
                 </View>
-              </TouchableOpacity>
 
-              <TouchableOpacity style={styles.photoOptionBtn} onPress={handlePickFromGallery} activeOpacity={0.8}>
-                <TreegohIcon name="galeria_evolucion" size={17} color="#E6E8C4" glow={false} />
-                <View style={styles.photoOptionTexts}>
-                  <Text style={styles.photoOptionLabel}>Elegir foto de la galería</Text>
-                  <Text style={styles.photoOptionDesc}>Selecciona una imagen guardada en tu dispositivo</Text>
+                {/* Buscador de especies */}
+                <View style={styles.searchBarBox}>
+                  <TreegohIcon name="busqueda_typesense" size={15} color="#94A3B8" glow={false} />
+                  <TextInput
+                    style={styles.searchBarInput}
+                    value={speciesSearchQuery}
+                    onChangeText={setSpeciesSearchQuery}
+                    placeholder="Buscar por nombre común o científico (ej: Monstera, Ficus...)"
+                    placeholderTextColor="rgba(255, 255, 255, 0.4)"
+                    autoCapitalize="none"
+                  />
                 </View>
-              </TouchableOpacity>
 
-              <TouchableOpacity style={styles.photoOptionBtn} onPress={handleApplyOfficialPhoto} activeOpacity={0.8}>
-                <TreegohIcon name="biblia_plantas" size={17} color="#86EFAC" glow={false} />
-                <View style={styles.photoOptionTexts}>
-                  <Text style={styles.photoOptionLabel}>Seleccionar foto oficial automática</Text>
-                  <Text style={styles.photoOptionDesc}>Asigna la fotografía de alta resolución del catálogo</Text>
-                </View>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={styles.cancelPhotoBtn}
-                onPress={() => setIsPhotoMenuOpen(false)}
-              >
-                <Text style={styles.cancelPhotoText}>Cancelar</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </Modal>
-
-        {/* ======================================================== */}
-        {/* SUB-MODAL 3: SELECTOR DE FECHAS RELATIVAS */}
-        {/* ======================================================== */}
-        <Modal
-          visible={isDatePickModalOpen}
-          animationType="fade"
-          transparent={true}
-          onRequestClose={() => setIsDatePickModalOpen(false)}
-        >
-          <View style={styles.subModalOverlay}>
-            <TouchableOpacity
-              style={StyleSheet.absoluteFill}
-              activeOpacity={1}
-              onPress={() => setIsDatePickModalOpen(false)}
-            />
-            <View style={[styles.photoActionCard, { paddingBottom: safeBottom + 12 }]}>
-              <Text style={styles.photoActionTitle}>
-                {datePickTarget === 'compra'
-                  ? '¿Cuándo compraste o adoptaste la planta?'
-                  : datePickTarget === 'riego'
-                  ? '¿Cuándo realizaste el último riego?'
-                  : '¿Cuándo aplicaste fertilizante?'}
-              </Text>
-
-              {[
-                { label: 'Hoy', days: 0 },
-                { label: 'Ayer', days: 1 },
-                { label: 'Hace 3 días', days: 3 },
-                { label: 'Hace 1 semana', days: 7 },
-                { label: 'Hace 2 semanas', days: 14 },
-                { label: 'Hace 1 mes', days: 30 },
-                { label: 'Hace 3 meses', days: 90 },
-                { label: 'Hace 6 meses', days: 180 },
-                { label: 'Hace 1 año', days: 365 },
-              ].map(opt => (
-                <TouchableOpacity
-                  key={opt.label}
-                  style={styles.dateOptionBtn}
-                  onPress={() => handleSetPurchasedRelative(opt.days, opt.label)}
-                  activeOpacity={0.8}
-                >
-                  <Text style={styles.dateOptionLabel}>{opt.label}</Text>
-                  <TreegohIcon name="check_verificado" size={13} color="#E6E8C4" glow={false} />
-                </TouchableOpacity>
-              ))}
-
-              <TouchableOpacity
-                style={styles.cancelPhotoBtn}
-                onPress={() => setIsDatePickModalOpen(false)}
-              >
-                <Text style={styles.cancelPhotoText}>Cerrar</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </Modal>
-
-        {/* ======================================================== */}
-        {/* SUB-MODAL 4: REGISTRAR TRASPLANTE Y SUSTRATO */}
-        {/* ======================================================== */}
-        <Modal
-          visible={isRepotModalOpen}
-          animationType="slide"
-          transparent={true}
-          onRequestClose={() => setIsRepotModalOpen(false)}
-        >
-          <View style={styles.subModalOverlay}>
-            <BlurView intensity={80} tint="dark" style={StyleSheet.absoluteFill} />
-            <View style={[styles.subModalSheet, { paddingTop: Math.max(insets.top, 20), paddingBottom: safeBottom + 12 }]}>
-              <View style={styles.subModalHeader}>
-                <View>
-                  <Text style={styles.subModalTitle}>Registrar Trasplante</Text>
-                  <Text style={styles.subModalSubtitle}>
-                    Indica el diámetro de la nueva maceta y el sustrato empleado
-                  </Text>
-                </View>
-                <TouchableOpacity
-                  style={styles.subModalCloseBtn}
-                  onPress={() => setIsRepotModalOpen(false)}
-                >
-                  <TreegohIcon name="flecha_volver" size={16} color="#FFFFFF" glow={false} />
-                </TouchableOpacity>
-              </View>
-
-              <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
-                <Text style={styles.formSectionLabel}>Diámetro de la nueva maceta</Text>
-                <View style={styles.potChipsRow}>
-                  {[12, 14, 16, 18, 20, 22, 25, 30].map(dia => (
+                <ScrollView style={styles.speciesListScroll} showsVerticalScrollIndicator={false}>
+                  {matchingSpecies.map(sp => (
                     <TouchableOpacity
-                      key={dia}
-                      style={[
-                        styles.potChip,
-                        plant.potDiameterCm === dia && styles.potChipActive,
-                      ]}
-                      onPress={() => {
-                        handleApplyRepot(dia, plant.substrateType || 'Sustrato Universal Aireado con Perlita');
-                      }}
+                      key={sp.id}
+                      style={styles.speciesItemRow}
+                      onPress={() => handleSelectCorrectSpecies(sp)}
+                      activeOpacity={0.8}
                     >
-                      <Text style={[styles.potChipText, plant.potDiameterCm === dia && styles.potChipTextActive]}>
-                        {dia} cm
-                      </Text>
+                      <Image source={{ uri: sp.imageUrl }} style={styles.speciesItemThumb} />
+                      <View style={styles.speciesItemInfoCol}>
+                        <Text style={styles.speciesItemCommon}>{sp.commonName}</Text>
+                        <Text style={styles.speciesItemScientific}>
+                          {sp.scientificName} · {sp.family}
+                        </Text>
+                        <Text style={styles.speciesItemTrait} numberOfLines={1}>
+                          {sp.trait}
+                        </Text>
+                      </View>
+                      <TreegohIcon
+                        name="flecha_adelante"
+                        size={14}
+                        color="rgba(255, 255, 255, 0.5)"
+                        glow={false}
+                      />
                     </TouchableOpacity>
                   ))}
-                </View>
+                </ScrollView>
+              </View>
+            </View>
+          </Modal>
+        )}
 
-                <Text style={[styles.formSectionLabel, { marginTop: 24 }]}>Tipo de sustrato utilizado</Text>
+        {/* ======================================================== */}
+        {/* SUB-MODAL 2: GESTIÓN FOTOGRÁFICA (CARGA DIFERIDA BAJO DEMANDA) */}
+        {/* ======================================================== */}
+        {isPhotoMenuOpen && (
+          <Modal
+            visible={isPhotoMenuOpen}
+            animationType="fade"
+            transparent={true}
+            onRequestClose={() => setIsPhotoMenuOpen(false)}
+          >
+            <View style={styles.subModalOverlay}>
+              <TouchableOpacity
+                style={StyleSheet.absoluteFill}
+                activeOpacity={1}
+                onPress={() => setIsPhotoMenuOpen(false)}
+              />
+              <View style={[styles.photoActionCard, { paddingBottom: safeBottom + 12 }]}>
+                <Text style={styles.photoActionTitle}>Actualizar Fotografía de la Planta</Text>
+                <Text style={styles.photoActionSub}>
+                  Elige el origen para registrar el estado visual de tu especie:
+                </Text>
+
+                <TouchableOpacity style={styles.photoOptionBtn} onPress={handlePickFromCamera} activeOpacity={0.8}>
+                  <TreegohIcon name="camara_diagnostica" size={17} color="#E6E8C4" glow={false} />
+                  <View style={styles.photoOptionTexts}>
+                    <Text style={styles.photoOptionLabel}>Hacer foto con la cámara</Text>
+                    <Text style={styles.photoOptionDesc}>Captura el estado actual de tus hojas en vivo</Text>
+                  </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.photoOptionBtn} onPress={handlePickFromGallery} activeOpacity={0.8}>
+                  <TreegohIcon name="galeria_evolucion" size={17} color="#E6E8C4" glow={false} />
+                  <View style={styles.photoOptionTexts}>
+                    <Text style={styles.photoOptionLabel}>Elegir foto de la galería</Text>
+                    <Text style={styles.photoOptionDesc}>Selecciona una imagen guardada en tu dispositivo</Text>
+                  </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.photoOptionBtn} onPress={handleApplyOfficialPhoto} activeOpacity={0.8}>
+                  <TreegohIcon name="biblia_plantas" size={17} color="#86EFAC" glow={false} />
+                  <View style={styles.photoOptionTexts}>
+                    <Text style={styles.photoOptionLabel}>Seleccionar foto oficial automática</Text>
+                    <Text style={styles.photoOptionDesc}>Asigna la fotografía de alta resolución del catálogo</Text>
+                  </View>
+                </TouchableOpacity>
+
+                <TouchableOpacity
+                  style={styles.cancelPhotoBtn}
+                  onPress={() => setIsPhotoMenuOpen(false)}
+                >
+                  <Text style={styles.cancelPhotoText}>Cancelar</Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </Modal>
+        )}
+
+        {/* ======================================================== */}
+        {/* SUB-MODAL 3: SELECTOR DE FECHAS RELATIVAS (CARGA DIFERIDA) */}
+        {/* ======================================================== */}
+        {isDatePickModalOpen && (
+          <Modal
+            visible={isDatePickModalOpen}
+            animationType="fade"
+            transparent={true}
+            onRequestClose={() => setIsDatePickModalOpen(false)}
+          >
+            <View style={styles.subModalOverlay}>
+              <TouchableOpacity
+                style={StyleSheet.absoluteFill}
+                activeOpacity={1}
+                onPress={() => setIsDatePickModalOpen(false)}
+              />
+              <View style={[styles.photoActionCard, { paddingBottom: safeBottom + 12 }]}>
+                <Text style={styles.photoActionTitle}>
+                  {datePickTarget === 'compra'
+                    ? '¿Cuándo compraste o adoptaste la planta?'
+                    : datePickTarget === 'riego'
+                    ? '¿Cuándo realizaste el último riego?'
+                    : '¿Cuándo aplicaste fertilizante?'}
+                </Text>
+
                 {[
-                  'Sustrato Universal Aireado con Perlita',
-                  'Mezcla Aroid (Corteza de pino + Perlita + Arlita)',
-                  'Fibra de Coco con Humus de Lombriz',
-                  'Sustrato Drenante para Cactus y Suculentas',
-                  'Musgo Sphagnum Vivo para Epífitas',
-                ].map(subName => (
+                  { label: 'Hoy', days: 0 },
+                  { label: 'Ayer', days: 1 },
+                  { label: 'Hace 3 días', days: 3 },
+                  { label: 'Hace 1 semana', days: 7 },
+                  { label: 'Hace 2 semanas', days: 14 },
+                  { label: 'Hace 1 mes', days: 30 },
+                  { label: 'Hace 3 meses', days: 90 },
+                  { label: 'Hace 6 meses', days: 180 },
+                  { label: 'Hace 1 año', days: 365 },
+                ].map(opt => (
                   <TouchableOpacity
-                    key={subName}
-                    style={styles.substrateOptionBtn}
-                    onPress={() => {
-                      handleApplyRepot(plant.potDiameterCm || 16, subName);
-                    }}
+                    key={opt.label}
+                    style={styles.dateOptionBtn}
+                    onPress={() => handleSetPurchasedRelative(opt.days, opt.label)}
                     activeOpacity={0.8}
                   >
-                    <TreegohIcon name="sustrato_aireacion" size={15} color="#E6E8C4" glow={false} />
-                    <Text style={styles.substrateOptionText}>{subName}</Text>
+                    <Text style={styles.dateOptionLabel}>{opt.label}</Text>
+                    <TreegohIcon name="check_verificado" size={13} color="#E6E8C4" glow={false} />
                   </TouchableOpacity>
                 ))}
-              </ScrollView>
+
+                <TouchableOpacity
+                  style={styles.cancelPhotoBtn}
+                  onPress={() => setIsDatePickModalOpen(false)}
+                >
+                  <Text style={styles.cancelPhotoText}>Cerrar</Text>
+                </TouchableOpacity>
+              </View>
             </View>
-          </View>
-        </Modal>
+          </Modal>
+        )}
+
+        {/* ======================================================== */}
+        {/* SUB-MODAL 4: REGISTRAR TRASPLANTE (CARGA DIFERIDA) */}
+        {/* ======================================================== */}
+        {isRepotModalOpen && (
+          <Modal
+            visible={isRepotModalOpen}
+            animationType="slide"
+            transparent={true}
+            onRequestClose={() => setIsRepotModalOpen(false)}
+          >
+            <View style={styles.subModalOverlay}>
+              <BlurView intensity={80} tint="dark" style={StyleSheet.absoluteFill} />
+              <View style={[styles.subModalSheet, { paddingTop: Math.max(insets.top, 20), paddingBottom: safeBottom + 12 }]}>
+                <View style={styles.subModalHeader}>
+                  <View>
+                    <Text style={styles.subModalTitle}>Registrar Trasplante</Text>
+                    <Text style={styles.subModalSubtitle}>
+                      Indica el diámetro de la nueva maceta y el sustrato empleado
+                    </Text>
+                  </View>
+                  <TouchableOpacity
+                    style={styles.subModalCloseBtn}
+                    onPress={() => setIsRepotModalOpen(false)}
+                  >
+                    <TreegohIcon name="flecha_volver" size={16} color="#FFFFFF" glow={false} />
+                  </TouchableOpacity>
+                </View>
+
+                <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
+                  <Text style={styles.formSectionLabel}>Diámetro de la nueva maceta</Text>
+                  <View style={styles.potChipsRow}>
+                    {[12, 14, 16, 18, 20, 22, 25, 30].map(dia => (
+                      <TouchableOpacity
+                        key={dia}
+                        style={[
+                          styles.potChip,
+                          plant.potDiameterCm === dia && styles.potChipActive,
+                        ]}
+                        onPress={() => {
+                          handleApplyRepot(dia, plant.substrateType || 'Sustrato Universal Aireado con Perlita');
+                        }}
+                      >
+                        <Text style={[styles.potChipText, plant.potDiameterCm === dia && styles.potChipTextActive]}>
+                          {dia} cm
+                        </Text>
+                      </TouchableOpacity>
+                    ))}
+                  </View>
+
+                  <Text style={[styles.formSectionLabel, { marginTop: 24 }]}>Tipo de sustrato utilizado</Text>
+                  {[
+                    'Sustrato Universal Aireado con Perlita',
+                    'Mezcla Aroid (Corteza de pino + Perlita + Arlita)',
+                    'Fibra de Coco con Humus de Lombriz',
+                    'Sustrato Drenante para Cactus y Suculentas',
+                    'Musgo Sphagnum Vivo para Epífitas',
+                  ].map(subName => (
+                    <TouchableOpacity
+                      key={subName}
+                      style={styles.substrateOptionBtn}
+                      onPress={() => {
+                        handleApplyRepot(plant.potDiameterCm || 16, subName);
+                      }}
+                      activeOpacity={0.8}
+                    >
+                      <TreegohIcon name="sustrato_aireacion" size={15} color="#E6E8C4" glow={false} />
+                      <Text style={styles.substrateOptionText}>{subName}</Text>
+                    </TouchableOpacity>
+                  ))}
+                </ScrollView>
+              </View>
+            </View>
+          </Modal>
+        )}
       </View>
     </Modal>
   );
-};
+});
 
 const styles = StyleSheet.create({
   modalOverlay: {

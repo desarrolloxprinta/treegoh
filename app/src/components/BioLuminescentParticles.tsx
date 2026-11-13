@@ -44,9 +44,9 @@ interface BioLuminescentParticlesProps {
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
 
-// 24 x 28 = 672 partículas individuales de 1px repartidas al 100% por todo el lienzo de la pantalla
-const GRID_COLS = 24;
-const GRID_ROWS = 28;
+// 13 x 15 = 195 partículas individuales de 1px (Óptima densidad botánica y 0% lag en JS)
+const GRID_COLS = 13;
+const GRID_ROWS = 15;
 
 const SILKY_EASE_OUT = Easing.bezier(0.22, 1, 0.36, 1);
 
@@ -201,17 +201,34 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
     thinkingBlend: 0,
   });
 
-  // Cálculo de un fotograma y envío directo por setNativeProps (0 React re-renders)
+  // Cálculo de un fotograma y envío directo por setNativeProps (optimizado a 30fps para liberar el hilo JS)
   useEffect(() => {
     let rafId: number | null = null;
     let lastTime = Date.now();
+    let lastFrameTimestamp = 0;
+    const FRAME_BUDGET_MS = 32; // ~30fps sereno y 90% libre de CPU
 
     const computeAndApplyFrame = () => {
       const now = Date.now();
+      const current = stateRef.current;
+
+      // Si la pestaña no está enfocada ni activa, no procesar cálculo
+      if (!current.isFocused || !current.isActive) {
+        return;
+      }
+
+      // Control de tasa de refresco para no saturar ProMotion 120Hz
+      if (now - lastFrameTimestamp < FRAME_BUDGET_MS) {
+        if (!isReducedMotion) {
+          rafId = requestAnimationFrame(computeAndApplyFrame);
+        }
+        return;
+      }
+      lastFrameTimestamp = now;
+
       const dt = Math.min(0.05, Math.max(0.001, (now - lastTime) * 0.001));
       lastTime = now;
 
-      const current = stateRef.current;
       const ps = phaseStateRef.current;
 
       const isVoice =
