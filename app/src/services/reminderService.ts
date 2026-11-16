@@ -365,49 +365,143 @@ export function generateBotanicalTasks(plants: UserPlant[]): BotanicalTask[] {
 }
 
 /**
- * Ejecuta el ritual de riego en el modelo de datos
+ * Evalúa si una planta se encuentra en el periodo de protección biológica Anti-Sobre-Riego (18 horas)
  */
-export function applyWateringRitual(plant: UserPlant, intervalDays = 7): UserPlant {
+export function getPlantOverwateringCooldown(
+  plant: UserPlant,
+  cooldownHours = 18
+): {
+  isProtected: boolean;
+  hoursRemaining: number;
+  minutesAgo: number;
+  wateredBy: string;
+  formattedTime: string;
+} {
+  const isoSource = plant.lastWateredAtIso || plant.lastWateredDate;
+  if (!isoSource || plant.wateringStatus === 'necesita_riego') {
+    return {
+      isProtected: false,
+      hoursRemaining: 0,
+      minutesAgo: 0,
+      wateredBy: plant.lastWateredBy || 'Miembro del santuario',
+      formattedTime: '',
+    };
+  }
+
+  const ts = new Date(isoSource).getTime();
+  if (Number.isNaN(ts)) {
+    return {
+      isProtected: false,
+      hoursRemaining: 0,
+      minutesAgo: 0,
+      wateredBy: plant.lastWateredBy || 'Miembro del santuario',
+      formattedTime: '',
+    };
+  }
+
+  const elapsedMs = Date.now() - ts;
+  const cooldownMs = cooldownHours * 3600 * 1000;
+  if (elapsedMs < 0 || elapsedMs >= cooldownMs) {
+    return {
+      isProtected: false,
+      hoursRemaining: 0,
+      minutesAgo: 0,
+      wateredBy: plant.lastWateredBy || 'Miembro del santuario',
+      formattedTime: '',
+    };
+  }
+
+  const minutesAgo = Math.max(1, Math.round(elapsedMs / 60000));
+  const hoursRemaining = Math.max(1, Math.ceil((cooldownMs - elapsedMs) / 3600000));
+  const d = new Date(ts);
+  const formattedTime = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+
+  return {
+    isProtected: true,
+    hoursRemaining,
+    minutesAgo,
+    wateredBy: plant.lastWateredBy || 'Miembro de la Colmena',
+    formattedTime,
+  };
+}
+
+/**
+ * Ejecuta el ritual de riego en el modelo de datos (con registro de co-cuidado en Modo Colmena)
+ */
+export function applyWateringRitual(
+  plant: UserPlant,
+  intervalDays = 7,
+  performedBy = 'Tú'
+): UserPlant {
+  const nowIso = new Date().toISOString();
   return {
     ...plant,
     wateringStatus: 'hidratada',
     daysUntilNextWatering: intervalDays,
-    lastWateredDate: new Date().toISOString(),
+    lastWateredDate: nowIso,
+    lastWateredAtIso: nowIso,
+    lastWateredBy: performedBy,
+    lastCareBy: performedBy,
+    lastCareAction: 'Riego e hidratación',
+    lastCareAtIso: nowIso,
   };
 }
 
 /**
  * Ejecuta el ritual de fertilización en el modelo de datos
  */
-export function applyFertilizationRitual(plant: UserPlant, intervalDays = 21): UserPlant {
+export function applyFertilizationRitual(
+  plant: UserPlant,
+  intervalDays = 21,
+  performedBy = 'Tú'
+): UserPlant {
+  const nowIso = new Date().toISOString();
   return {
     ...plant,
     needsFertilization: false,
     daysUntilNextFertilization: intervalDays,
-    lastFertilizedDate: new Date().toISOString(),
+    lastFertilizedDate: nowIso,
+    lastCareBy: performedBy,
+    lastCareAction: 'Nutrición y abono',
+    lastCareAtIso: nowIso,
   };
 }
 
 /**
  * Ejecuta el ritual de trasplante en el modelo de datos
  */
-export function applyRepottingRitual(plant: UserPlant): UserPlant {
+export function applyRepottingRitual(
+  plant: UserPlant,
+  performedBy = 'Tú'
+): UserPlant {
+  const nowIso = new Date().toISOString();
   return {
     ...plant,
     needsRepotting: false,
     repottingNote: undefined,
+    lastCareBy: performedBy,
+    lastCareAction: 'Renovación de maceta',
+    lastCareAtIso: nowIso,
   };
 }
 
 /**
  * Ejecuta la limpieza foliar en el modelo de datos
  */
-export function applyFoliarCleaningRitual(plant: UserPlant, intervalDays = 28): UserPlant {
+export function applyFoliarCleaningRitual(
+  plant: UserPlant,
+  intervalDays = 28,
+  performedBy = 'Tú'
+): UserPlant {
+  const nowIso = new Date().toISOString();
   return {
     ...plant,
     needsCleaning: false,
     daysUntilNextCleaning: intervalDays,
-    lastCleanedDate: new Date().toISOString(),
+    lastCleanedDate: nowIso,
+    lastCareBy: performedBy,
+    lastCareAction: 'Higiene de estomas',
+    lastCareAtIso: nowIso,
   };
 }
 

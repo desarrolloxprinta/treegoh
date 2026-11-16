@@ -28,6 +28,11 @@ export interface UserPlant {
   healthAssessment?: string;
   confidenceScore?: number;
   lastWateredDate?: string;
+  lastWateredBy?: string;
+  lastWateredAtIso?: string;
+  lastCareBy?: string;
+  lastCareAction?: string;
+  lastCareAtIso?: string;
   needsPruning?: boolean;
   pruningNote?: string;
   needsRepotting?: boolean;
@@ -85,4 +90,5 @@ export interface PlantClinicalEvent {
   title: string;
   notes?: string;
   photoUri?: string;
+  performedBy?: string;
 }

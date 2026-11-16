@@ -42,9 +42,19 @@ import { SpaceDestinationPickerModal, PlantToPlaceTarget } from '../../component
 import { searchBotanicalWithTypesense, searchBotanicalSync } from '../../services/typesenseService';
 import { syncWateringAlarmWithSanctuary } from '../../services/iosNotificationAlarmService';
 import { BotanicalRitualsModal } from '../../components/BotanicalRitualsModal';
+import { SanctuaryOpticalSeedModal } from '../../components/SanctuaryOpticalSeedModal';
+import {
+  OpticalSeedPayload,
+  recordColmenaCareAction,
+} from '../../services/sanctuarySyncService';
 import { syncSanctuaryWidgetData } from '../../services/widgetBridgeService';
 import { syncAppIconWithSanctuary } from '../../services/appIconService';
-import { getCareStreak, recordRitualCompletion, CareStreakData } from '../../services/reminderService';
+import {
+  getCareStreak,
+  recordRitualCompletion,
+  CareStreakData,
+  getPlantOverwateringCooldown,
+} from '../../services/reminderService';
 import { BotanicalAssistantModal } from '../../components/BotanicalAssistantModal';
 import {
   AssistantSanctuaryContext,
@@ -124,6 +134,9 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   const [isSoundscapeModalOpen, setIsSoundscapeModalOpen] = useState<boolean>(false);
   const [isAssistantModalOpen, setIsAssistantModalOpen] = useState<boolean>(false);
   const [isRitualsModalOpen, setIsRitualsModalOpen] = useState<boolean>(false);
+  const [isOpticalSeedModalOpen, setIsOpticalSeedModalOpen] = useState<boolean>(false);
+  const [isSeedScannerHintActive, setIsSeedScannerHintActive] = useState<boolean>(false);
+  const [recentlyScannedSeed, setRecentlyScannedSeed] = useState<OpticalSeedPayload | null>(null);
   const [careStreak, setCareStreak] = useState<CareStreakData | null>(null);
   const [circadianPreviewPhase, setCircadianPreviewPhase] = useState<CircadianPhaseId | null>(null);
   const [userPhotoUrl, setUserPhotoUrl] = useState<string | null>(
@@ -1377,23 +1390,38 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   };
 
   // Acciones rápidas de cuidado prioritario (Riego, Poda, Trasplante, Emergencias)
-  const handleQuickWater = (plantId: string) => {
+  const executeQuickWater = (plantId: string) => {
     triggerHaptic(true);
+    const nowIso = new Date().toISOString();
+    let actedPlant: UserPlant | null = null;
+
     setPlantsBySpace(prev => {
       const updated: Record<string, UserPlant[]> = {};
       Object.keys(prev).forEach(spKey => {
-        updated[spKey] = (prev[spKey] || []).map(p =>
-          p.id === plantId
-            ? {
-                ...p,
-                wateringStatus: 'hidratada',
-                daysUntilNextWatering: 7,
-                lastWateredDate: new Date().toISOString(),
-              }
-            : p
-        );
+        updated[spKey] = (prev[spKey] || []).map(p => {
+          if (p.id === plantId) {
+            actedPlant = p;
+            return {
+              ...p,
+              wateringStatus: 'hidratada',
+              daysUntilNextWatering: 7,
+              lastWateredDate: nowIso,
+              lastWateredAtIso: nowIso,
+              lastWateredBy: userName || 'Tú',
+            };
+          }
+          return p;
+        });
       });
       persistPlantsBySpace(updated);
+
+      if (actedPlant) {
+        recordColmenaCareAction({
+          plant: actedPlant,
+          actionType: 'riego',
+          performedByName: userName || 'Tú',
+        });
+      }
 
       recordRitualCompletion(plantId, 'riego').then(newStreak => {
         setCareStreak(newStreak);
@@ -1404,6 +1432,31 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
       return updated;
     });
+  };
+
+  const handleQuickWater = (plantId: string) => {
+    const all = Object.values(plantsBySpace).flat();
+    const target = all.find(p => p.id === plantId);
+    if (target) {
+      const cooldown = getPlantOverwateringCooldown(target, 18);
+      if (cooldown.isProtected) {
+        triggerHaptic(false);
+        Alert.alert(
+          'Especie protegida contra sobre-riego',
+          `Esta planta ya fue hidratada hoy a las ${cooldown.formattedTime} h por ${cooldown.wateredBy} (quedan ${cooldown.hoursRemaining} h de protección).\n\nUn segundo riego saturará el sustrato y podría asfixiar las raíces.`,
+          [
+            { text: 'Proteger raíces (Cancelar)', style: 'cancel' },
+            {
+              text: 'Registrar riego igualmente',
+              style: 'destructive',
+              onPress: () => executeQuickWater(plantId),
+            },
+          ]
+        );
+        return;
+      }
+    }
+    executeQuickWater(plantId);
   };
 
   const handleQuickPrune = (plantId: string) => {
@@ -2098,6 +2151,25 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                 <Text style={styles.tideActionSub}>Paisajes Sonoros</Text>
               </View>
             </TouchableOpacity>
+
+            {/* Card 5: Semilla Óptica (Modo Colmena) */}
+            <TouchableOpacity
+              style={styles.tideActionGlassCard}
+              onPress={() => {
+                triggerHaptic();
+                setIsOpticalSeedModalOpen(true);
+              }}
+              activeOpacity={0.82}
+            >
+              <GlassCardSheen />
+              <View style={styles.tideActionIconWrap}>
+                <TreegohIcon name="espacios_microclimas" size={24} color="#86EFAC" glow={true} glowColor="#86EFAC" />
+              </View>
+              <View style={styles.tideActionTextWrap}>
+                <Text style={styles.tideActionTitle}>Modo Colmena</Text>
+                <Text style={styles.tideActionSub}>Semilla Óptica QR</Text>
+              </View>
+            </TouchableOpacity>
           </ScrollView>
         </View>
 
@@ -2113,17 +2185,34 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               </Text>
             </View>
 
-            {customSpacesList.length > 1 && (
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
               <TouchableOpacity
                 style={styles.deleteSpaceHeaderBtn}
-                onPress={() => handleDeleteSpace(selectedSpaceIndex)}
+                onPress={() => {
+                  triggerHaptic();
+                  setIsOpticalSeedModalOpen(true);
+                }}
                 hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-                activeOpacity={0.7}
+                activeOpacity={0.8}
               >
-                <TreegohIcon name="menos" size={10} color="rgba(255, 255, 255, 0.55)" glow={false} />
-                <Text style={styles.deleteSpaceHeaderText}>Eliminar activo</Text>
+                <TreegohIcon name="espacios_microclimas" size={11} color="#86EFAC" glow={false} />
+                <Text style={[styles.deleteSpaceHeaderText, { color: '#86EFAC' }]}>
+                  Colmena · QR
+                </Text>
               </TouchableOpacity>
-            )}
+
+              {customSpacesList.length > 1 && (
+                <TouchableOpacity
+                  style={styles.deleteSpaceHeaderBtn}
+                  onPress={() => handleDeleteSpace(selectedSpaceIndex)}
+                  hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                  activeOpacity={0.7}
+                >
+                  <TreegohIcon name="menos" size={10} color="rgba(255, 255, 255, 0.55)" glow={false} />
+                  <Text style={styles.deleteSpaceHeaderText}>Eliminar activo</Text>
+                </TouchableOpacity>
+              )}
+            </View>
           </View>
 
           <ScrollView
@@ -2400,7 +2489,9 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                         />
                         <Text style={styles.plantWaterPillText}>
                           {plant.wateringStatus === 'hidratada'
-                            ? 'Hoy ✓'
+                            ? plant.lastWateredBy
+                              ? `Hoy · ${plant.lastWateredBy.split(' ')[0]}`
+                              : 'Hoy ✓'
                             : plant.wateringStatus === 'necesita_riego' || plant.daysUntilNextWatering <= 0
                             ? 'Hoy'
                             : `${plant.daysUntilNextWatering}d`}
@@ -4249,14 +4340,26 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         existingSpaces={customSpacesList}
       />
 
-      {/* VISOR ÓPTICO EN BURBUJA ESTILO BITEPAL CONECTADO A OPENROUTER IA */}
+      {/* VISOR ÓPTICO EN BURBUJA ESTILO BITEPAL CONECTADO A OPENROUTER IA + ESCÁNER SEMILLA ÓPTICA */}
       <BotanicalCameraBubbleModal
         visible={isBubbleCameraOpen}
         isAnalyzing={isAiAnalyzing}
         liveHeadingDegrees={activeSpace.headingDegrees || 180}
         liveCompassLabel={activeSpace.orientation || 'Sur'}
         estimatedLux={activeSpace.estimatedLux || 3200}
-        onClose={() => setIsBubbleCameraOpen(false)}
+        isSeedScannerHintActive={isSeedScannerHintActive}
+        onClose={() => {
+          setIsBubbleCameraOpen(false);
+          setIsSeedScannerHintActive(false);
+        }}
+        onDetectOpticalSeed={seed => {
+          setIsBubbleCameraOpen(false);
+          setIsSeedScannerHintActive(false);
+          setRecentlyScannedSeed(seed);
+          setTimeout(() => {
+            setIsOpticalSeedModalOpen(true);
+          }, 180);
+        }}
         onCaptureFrame={handleCaptureFromBubble}
         onPickGalleryInsideModal={async () => {
           // Si el usuario presiona la galería dentro del visor
@@ -4332,11 +4435,33 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           persistPlantsBySpace(updated);
         }}
         sanctuaryName={activeSpace?.name || 'Mi Santuario'}
+        userName={userName}
         weather={
           liveWeather
             ? { temperature: liveWeather.temperature, condition: liveWeather.condition }
             : undefined
         }
+        onOpenOpticalSeedModal={() => setIsOpticalSeedModalOpen(true)}
+      />
+
+      {/* MODAL DE SEMILLA ÓPTICA Y CO-CUIDADO EN MODO COLMENA */}
+      <SanctuaryOpticalSeedModal
+        visible={isOpticalSeedModalOpen}
+        onClose={() => setIsOpticalSeedModalOpen(false)}
+        userName={userName}
+        sanctuaryName={activeSpace?.name || 'Mi Santuario'}
+        spacesCount={customSpacesList.length}
+        plantsBySpace={plantsBySpace}
+        onUpdatePlantsBySpace={updated => {
+          setPlantsBySpace(updated);
+          persistPlantsBySpace(updated);
+        }}
+        onOpenCameraScanner={() => {
+          setIsSeedScannerHintActive(true);
+          setIsBubbleCameraOpen(true);
+        }}
+        recentlyScannedSeed={recentlyScannedSeed}
+        onClearScannedSeed={() => setRecentlyScannedSeed(null)}
       />
     </CircadianBackground>
   );

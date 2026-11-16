@@ -42,6 +42,8 @@ import { GlassCardSheen } from './BlobAnimatedCard';
 import { BotanicalImage } from './BotanicalImage';
 import { UserPlant, PlantClinicalEvent, PlantClinicalEventType } from '../types/plant';
 import { BOTANICAL_DATABASE, ComprehensiveSpecies } from '../constants/botanicalDatabase';
+import { getPlantOverwateringCooldown } from '../services/reminderService';
+import { recordColmenaCareAction } from '../services/sanctuarySyncService';
 
 interface PlantDetailModalProps {
   plant: UserPlant | null;
@@ -398,22 +400,52 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = React.memo(({
     }
   };
 
-  // 3. REGISTROS RÁPIDOS DE FECHAS CLAVE
-  const handleLogWateringNow = () => {
+  // 3. REGISTROS RÁPIDOS DE FECHAS CLAVE (con Escudo Anti-Sobre-Riego de Modo Colmena)
+  const overwateringCooldown = getPlantOverwateringCooldown(plant, 18);
+
+  const executeWateringNow = () => {
     triggerHaptic(true);
+    const nowIso = new Date().toISOString();
     onWaterPlant(plant.id);
+    recordColmenaCareAction({
+      plant,
+      actionType: 'riego',
+      performedByName: 'Tú',
+    });
     savePlantUpdates(
       {
         wateringStatus: 'hidratada',
         daysUntilNextWatering: 7,
-        lastWateredDate: new Date().toISOString(),
+        lastWateredDate: nowIso,
+        lastWateredAtIso: nowIso,
+        lastWateredBy: 'Tú',
       },
       {
         type: 'riego',
-        title: 'Riego hidrodinámico completado',
-        notes: 'Sustrato humedecido uniformemente. Drenaje capilar verificado.',
+        title: 'Riego hidrodinámico completado (Modo Colmena)',
+        notes: 'Sustrato humedecido uniformemente. Escudo Anti-Sobre-Riego activado por 18 horas.',
       }
     );
+  };
+
+  const handleLogWateringNow = () => {
+    if (overwateringCooldown.isProtected) {
+      triggerHaptic(false);
+      Alert.alert(
+        'Especie protegida contra sobre-riego',
+        `Esta planta ya fue hidratada hoy a las ${overwateringCooldown.formattedTime} h por ${overwateringCooldown.wateredBy} (quedan ${overwateringCooldown.hoursRemaining} h de protección).\n\nUn segundo riego saturará el sustrato y podría asfixiar las raíces.`,
+        [
+          { text: 'Proteger raíces (Cancelar)', style: 'cancel' },
+          {
+            text: 'Registrar riego igualmente',
+            style: 'destructive',
+            onPress: executeWateringNow,
+          },
+        ]
+      );
+      return;
+    }
+    executeWateringNow();
   };
 
   const handleLogFertilizationNow = () => {
@@ -796,6 +828,15 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = React.memo(({
                         : `En ${plant.daysUntilNextWatering} días`}
                     </Text>
                   </View>
+
+                  {overwateringCooldown.isProtected && (
+                    <View style={styles.colmenaShieldBanner}>
+                      <TreegohIcon name="escudo_fitosanitario" size={14} color="#86EFAC" glow={false} />
+                      <Text style={styles.colmenaShieldBannerText}>
+                        Escudo Colmena activo ({overwateringCooldown.hoursRemaining} h restantes) · Hidratada hoy a las {overwateringCooldown.formattedTime} h por {overwateringCooldown.wateredBy}
+                      </Text>
+                    </View>
+                  )}
 
                   <View style={styles.cardButtonsDoubleRow}>
                     <TouchableOpacity
@@ -2333,5 +2374,23 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.regular,
     fontSize: 12.5,
     color: '#FFFFFF',
+  },
+  colmenaShieldBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: 'rgba(134, 239, 172, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(134, 239, 172, 0.34)',
+    paddingVertical: 9,
+    paddingHorizontal: 12,
+    borderRadius: 14,
+  },
+  colmenaShieldBannerText: {
+    flex: 1,
+    fontFamily: Fonts.light,
+    fontSize: 12,
+    color: '#E6E8C4',
+    lineHeight: 16,
   },
 });

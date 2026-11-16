@@ -56,6 +56,7 @@ import {
   AppIconState,
 } from '../services/appIconService';
 import { syncSanctuaryWidgetData } from '../services/widgetBridgeService';
+import { recordColmenaCareAction } from '../services/sanctuarySyncService';
 
 interface BotanicalRitualsModalProps {
   visible: boolean;
@@ -63,7 +64,9 @@ interface BotanicalRitualsModalProps {
   plantsBySpace: Record<string, UserPlant[]>;
   onUpdatePlantsBySpace: (updated: Record<string, UserPlant[]>) => void;
   sanctuaryName?: string;
+  userName?: string;
   weather?: { temperature: number; condition: string };
+  onOpenOpticalSeedModal?: () => void;
 }
 
 type TabType = 'todos' | 'riego' | 'fertilizacion' | 'trasplante' | 'limpieza_foliar';
@@ -74,7 +77,9 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
   plantsBySpace,
   onUpdatePlantsBySpace,
   sanctuaryName = 'Mi Santuario',
+  userName = 'Tú',
   weather,
+  onOpenOpticalSeedModal,
 }) => {
   const insets = useSafeAreaInsets();
   const [activeTab, setActiveTab] = useState<TabType>('todos');
@@ -153,20 +158,30 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
   const handleCompleteTask = async (task: BotanicalTask) => {
     triggerHaptic(true);
 
+    let actedPlant: UserPlant | null = null;
     const updatedPlantsBySpace: Record<string, UserPlant[]> = {};
     Object.keys(plantsBySpace).forEach(spKey => {
       updatedPlantsBySpace[spKey] = (plantsBySpace[spKey] || []).map(p => {
         if (p.id !== task.plantId) return p;
 
-        if (task.type === 'riego') return applyWateringRitual(p);
-        if (task.type === 'fertilizacion') return applyFertilizationRitual(p);
-        if (task.type === 'trasplante') return applyRepottingRitual(p);
-        if (task.type === 'limpieza_foliar') return applyFoliarCleaningRitual(p);
+        actedPlant = p;
+        if (task.type === 'riego') return applyWateringRitual(p, 7, userName);
+        if (task.type === 'fertilizacion') return applyFertilizationRitual(p, 21, userName);
+        if (task.type === 'trasplante') return applyRepottingRitual(p, userName);
+        if (task.type === 'limpieza_foliar') return applyFoliarCleaningRitual(p, 28, userName);
         return p;
       });
     });
 
     onUpdatePlantsBySpace(updatedPlantsBySpace);
+
+    if (actedPlant) {
+      await recordColmenaCareAction({
+        plant: actedPlant,
+        actionType: task.type,
+        performedByName: userName,
+      });
+    }
 
     // Actualizar racha
     const newStreak = await recordRitualCompletion(task.plantId, task.type);
@@ -289,6 +304,27 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
                 <Text style={styles.duoBodyText}>{duoMessage.message}</Text>
                 <Text style={styles.duoEmphasisText}>{duoMessage.streakEmphasis}</Text>
               </View>
+
+              {/* Acceso directo a Semilla Óptica y Modo Colmena */}
+              {onOpenOpticalSeedModal && (
+                <TouchableOpacity
+                  style={styles.colmenaBannerBtn}
+                  onPress={() => {
+                    triggerHaptic(false);
+                    onClose();
+                    setTimeout(() => {
+                      onOpenOpticalSeedModal();
+                    }, 160);
+                  }}
+                  activeOpacity={0.85}
+                >
+                  <TreegohIcon name="espacios_microclimas" size={15} color="#08120C" glow={false} />
+                  <Text style={styles.colmenaBannerBtnText}>
+                    Modo Colmena · Vincular con Semilla Óptica
+                  </Text>
+                  <TreegohIcon name="flecha_adelante" size={13} color="#08120C" glow={false} />
+                </TouchableOpacity>
+              )}
             </View>
 
             {/* 2. Filtros de Rituales */}
@@ -992,6 +1028,23 @@ const styles = StyleSheet.create({
     fontSize: 9,
     color: 'rgba(255, 255, 255, 0.5)',
     textAlign: 'center',
+  },
+  colmenaBannerBtn: {
+    marginTop: 14,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 8,
+    backgroundColor: '#86EFAC',
+    paddingVertical: 11,
+    paddingHorizontal: 14,
+    borderRadius: 14,
+  },
+  colmenaBannerBtnText: {
+    flex: 1,
+    fontFamily: Fonts.regular,
+    fontSize: 12.5,
+    color: '#08120C',
   },
 });
 

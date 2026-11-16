@@ -25,6 +25,10 @@ import * as Haptics from 'expo-haptics';
 
 import { Fonts } from '../constants/theme';
 import { TreegohIcon } from './TreegohIcon';
+import {
+  OpticalSeedPayload,
+  parseOpticalSeedData,
+} from '../services/sanctuarySyncService';
 
 export interface CapturedBubbleFrame {
   uri: string;
@@ -39,9 +43,11 @@ interface BotanicalCameraBubbleModalProps {
   liveHeadingDegrees: number;
   liveCompassLabel: string;
   estimatedLux: number;
+  isSeedScannerHintActive?: boolean;
   onClose: () => void;
   onCaptureFrame: (frame: CapturedBubbleFrame) => Promise<void> | void;
   onPickGalleryInsideModal: () => Promise<void> | void;
+  onDetectOpticalSeed?: (seed: OpticalSeedPayload) => void;
 }
 
 export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProps> = ({
@@ -51,9 +57,11 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
   liveHeadingDegrees,
   liveCompassLabel,
   estimatedLux,
+  isSeedScannerHintActive = false,
   onClose,
   onCaptureFrame,
   onPickGalleryInsideModal,
+  onDetectOpticalSeed,
 }) => {
   const { width: winW, height: winH } = useWindowDimensions();
   const insets = useSafeAreaInsets();
@@ -65,6 +73,8 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
   const [torchEnabled, setTorchEnabled] = useState<boolean>(false);
   const [isShooting, setIsShooting] = useState<boolean>(false);
   const [frozenUri, setFrozenUri] = useState<string | null>(null);
+  const [detectedSeed, setDetectedSeed] = useState<OpticalSeedPayload | null>(null);
+  const lastScannedCodeRef = useRef<string>('');
 
   // Control de montaje y animación suave de despliegue tipo burbuja integrada
   const [isMounted, setIsMounted] = useState<boolean>(visible);
@@ -101,6 +111,8 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
       setFrozenUri(null);
       setIsShooting(false);
       setFocusPoint(null);
+      setDetectedSeed(null);
+      lastScannedCodeRef.current = '';
       if (cameraPermission && !cameraPermission.granted && cameraPermission.canAskAgain) {
         requestCameraPermission();
       }
@@ -113,6 +125,8 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
     } else {
       setTorchEnabled(false);
       setFocusPoint(null);
+      setDetectedSeed(null);
+      lastScannedCodeRef.current = '';
       setIsMounted(false);
       bubbleExpandAnim.setValue(0);
     }
@@ -383,6 +397,22 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
               autofocus={focusMode}
               zoom={zoomLevel}
               selectedLens={selectedLens}
+              barcodeScannerSettings={{
+                barcodeTypes: ['qr'],
+              }}
+              onBarcodeScanned={event => {
+                if (isAnalyzing || isShooting || detectedSeed) return;
+                const raw = event?.data;
+                if (!raw || raw === lastScannedCodeRef.current) return;
+                const parsed = parseOpticalSeedData(raw);
+                if (parsed) {
+                  lastScannedCodeRef.current = raw;
+                  try {
+                    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+                  } catch (_e) {}
+                  setDetectedSeed(parsed);
+                }
+              }}
               onAvailableLensesChanged={e => {
                 if (e?.lenses && Array.isArray(e.lenses)) {
                   setAvailableLenses(e.lenses);
@@ -451,13 +481,68 @@ export const BotanicalCameraBubbleModal: React.FC<BotanicalCameraBubbleModalProp
                   <Path
                     d={cornersPath}
                     fill="none"
-                    stroke={isAnalyzing ? 'rgba(134, 239, 172, 0.92)' : 'rgba(255, 255, 255, 0.86)'}
-                    strokeWidth={2.2}
+                    stroke={
+                      isAnalyzing || detectedSeed || isSeedScannerHintActive
+                        ? 'rgba(134, 239, 172, 0.96)'
+                        : 'rgba(255, 255, 255, 0.86)'
+                    }
+                    strokeWidth={detectedSeed ? 3 : 2.2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </Svg>
               </Animated.View>
+
+              {/* Píldora sutil de modo Resonancia Semilla Óptica */}
+              {isSeedScannerHintActive && !detectedSeed && (
+                <View style={styles.seedScannerHintPill} pointerEvents="none">
+                  <TreegohIcon name="espacios_microclimas" size={13} color="#86EFAC" glow={false} />
+                  <Text style={styles.seedScannerHintText}>
+                    Enfoca la Semilla Óptica QR del otro dispositivo
+                  </Text>
+                </View>
+              )}
+
+              {/* Tarjeta flotante de Resonancia cuando la cámara detecta una Semilla Óptica */}
+              {detectedSeed && (
+                <View style={styles.seedResonanceCard}>
+                  <View style={styles.seedResonancePill}>
+                    <TreegohIcon name="check_verificado" size={13} color="#08120C" glow={false} />
+                    <Text style={styles.seedResonancePillText}>SEMILLA ÓPTICA DETECTADA</Text>
+                  </View>
+                  <Text style={styles.seedResonanceTitle}>{detectedSeed.sanctuaryName}</Text>
+                  <Text style={styles.seedResonanceSub}>
+                    Código {detectedSeed.seedCode} · Compartido por {detectedSeed.hostName}
+                  </Text>
+                  <Text style={styles.seedResonanceMeta}>
+                    {detectedSeed.plantsCount} plantas en {detectedSeed.spacesCount} espacios · Modo Colmena
+                  </Text>
+
+                  <TouchableOpacity
+                    style={styles.seedResonanceAcceptBtn}
+                    onPress={() => {
+                      triggerHaptic(true);
+                      onDetectOpticalSeed?.(detectedSeed);
+                    }}
+                    activeOpacity={0.85}
+                  >
+                    <Text style={styles.seedResonanceAcceptText}>
+                      Vincularme a esta Colmena
+                    </Text>
+                  </TouchableOpacity>
+
+                  <TouchableOpacity
+                    style={styles.seedResonanceDismissBtn}
+                    onPress={() => {
+                      setDetectedSeed(null);
+                      lastScannedCodeRef.current = '';
+                    }}
+                    activeOpacity={0.75}
+                  >
+                    <Text style={styles.seedResonanceDismissText}>Seguir escaneando</Text>
+                  </TouchableOpacity>
+                </View>
+              )}
 
               {/* Retícula minimalista de enfoque donde toca el usuario */}
               {focusPoint && (
@@ -955,5 +1040,88 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '300',
     color: 'rgba(255, 255, 255, 0.85)',
+  },
+  seedScannerHintPill: {
+    position: 'absolute',
+    bottom: 134,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: 'rgba(8, 18, 12, 0.82)',
+    borderWidth: 1,
+    borderColor: 'rgba(134, 239, 172, 0.42)',
+    paddingVertical: 8,
+    paddingHorizontal: 14,
+    borderRadius: 18,
+  },
+  seedScannerHintText: {
+    fontFamily: Fonts.light,
+    fontSize: 12,
+    color: '#E6E8C4',
+  },
+  seedResonanceCard: {
+    width: '86%',
+    backgroundColor: 'rgba(9, 18, 13, 0.94)',
+    borderRadius: 26,
+    padding: 20,
+    borderWidth: 1.5,
+    borderColor: '#86EFAC',
+    alignItems: 'center',
+    gap: 8,
+  },
+  seedResonancePill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: '#86EFAC',
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+    borderRadius: 12,
+  },
+  seedResonancePillText: {
+    fontFamily: Fonts.regular,
+    fontSize: 10.5,
+    color: '#08120C',
+    letterSpacing: 0.8,
+  },
+  seedResonanceTitle: {
+    fontFamily: Fonts.light,
+    fontSize: 20,
+    color: '#FFFFFF',
+    textAlign: 'center',
+    marginTop: 2,
+  },
+  seedResonanceSub: {
+    fontFamily: Fonts.regular,
+    fontSize: 12.5,
+    color: '#E6E8C4',
+    textAlign: 'center',
+  },
+  seedResonanceMeta: {
+    fontFamily: Fonts.light,
+    fontSize: 12,
+    color: 'rgba(255, 255, 255, 0.68)',
+    textAlign: 'center',
+    marginBottom: 6,
+  },
+  seedResonanceAcceptBtn: {
+    width: '100%',
+    backgroundColor: '#86EFAC',
+    paddingVertical: 13,
+    borderRadius: 18,
+    alignItems: 'center',
+  },
+  seedResonanceAcceptText: {
+    fontFamily: Fonts.regular,
+    fontSize: 14,
+    color: '#08120C',
+  },
+  seedResonanceDismissBtn: {
+    paddingVertical: 6,
+  },
+  seedResonanceDismissText: {
+    fontFamily: Fonts.light,
+    fontSize: 12,
+    color: 'rgba(255, 255, 255, 0.60)',
   },
 });
