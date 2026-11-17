@@ -1,16 +1,17 @@
 /**
  * Sanctuary Optical Seed & Colmena Co-Care Modal — Treegoh
  *
- * Hub interactivo para vinculación óptica entre convivientes ("Semilla Óptica" QR Bioluminiscente),
- * gestión de miembros del hogar en Modo Colmena Abierta y bitácora con escudo Anti-Sobre-Riego.
+ * Diagramación editorial amplia, limpia y respirada para la vinculación entre convivientes
+ * ("Semilla Óptica" QR Bioluminiscente), gestión del hogar en Modo Colmena y bitácora
+ * con escudo biológico Anti-Sobre-Riego.
  *
  * Cumplimiento estricto:
  * - Cero emojis en código, comentarios e interfaz.
- * - Tipografía Fonts.light (300) y Fonts.regular (400).
- * - Animaciones en hilo nativo (useNativeDriver: true).
+ * - Tipografía institucional Fonts.light (300) y Fonts.regular (400).
+ * - Animaciones en hilo nativo (useNativeDriver: true) y cierre fluido deslizando hacia abajo.
  */
 
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import {
   Modal,
   View,
@@ -23,11 +24,13 @@ import {
   Platform,
   Animated,
   Easing,
+  PanResponder,
+  Dimensions,
   Alert,
 } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import Svg, { Circle, Rect, Path, Defs, RadialGradient, Stop } from 'react-native-svg';
+import Svg, { Circle, Rect, Defs, RadialGradient, Stop } from 'react-native-svg';
 import * as Haptics from 'expo-haptics';
 
 import { Fonts } from '../constants/theme';
@@ -62,6 +65,8 @@ interface SanctuaryOpticalSeedModalProps {
 
 type ColmenaTab = 'semilla' | 'convivientes' | 'bitacora';
 
+const SCREEN_HEIGHT = Dimensions.get('window').height;
+
 const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProps> = ({
   visible,
   onClose,
@@ -81,8 +86,68 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
   const [newMemberName, setNewMemberName] = useState('');
   const [statusBanner, setStatusBanner] = useState<string | null>(null);
 
-  // Animación bioluminiscente en GPU (useNativeDriver: true)
+  // Animación de arrastre hacia abajo y halo bioluminiscente en GPU
+  const translateY = useRef(new Animated.Value(0)).current;
   const haloBreathAnim = useRef(new Animated.Value(0)).current;
+
+  const triggerHaptic = useCallback((success = false) => {
+    try {
+      if (Platform.OS !== 'web') {
+        if (success) {
+          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+        } else {
+          Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+        }
+      }
+    } catch (_e) {}
+  }, []);
+
+  const handleDismiss = useCallback(() => {
+    triggerHaptic(false);
+    Animated.timing(translateY, {
+      toValue: SCREEN_HEIGHT,
+      duration: 240,
+      easing: Easing.out(Easing.cubic),
+      useNativeDriver: true,
+    }).start(() => {
+      translateY.setValue(0);
+      onClose();
+    });
+  }, [onClose, translateY, triggerHaptic]);
+
+  const resetPosition = useCallback(() => {
+    Animated.spring(translateY, {
+      toValue: 0,
+      useNativeDriver: true,
+      bounciness: 4,
+      speed: 16,
+    }).start();
+  }, [translateY]);
+
+  const dragPanResponder = useRef(
+    PanResponder.create({
+      onStartShouldSetPanResponder: () => true,
+      onMoveShouldSetPanResponder: (_evt, gs) =>
+        gs.dy > 4 && Math.abs(gs.dy) > Math.abs(gs.dx),
+      onPanResponderMove: (_evt, gs) => {
+        if (gs.dy > 0) {
+          translateY.setValue(gs.dy);
+        }
+      },
+      onPanResponderRelease: (_evt, gs) => {
+        if (gs.dy > 75 || (gs.dy > 24 && gs.vy > 0.5)) {
+          handleDismiss();
+        } else if (Math.abs(gs.dy) < 5 && Math.abs(gs.dx) < 5) {
+          handleDismiss();
+        } else {
+          resetPosition();
+        }
+      },
+      onPanResponderTerminate: () => {
+        resetPosition();
+      },
+    })
+  ).current;
 
   const allPlants = useMemo(() => {
     return Object.values(plantsBySpace || {}).flat();
@@ -99,6 +164,7 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
 
   useEffect(() => {
     if (!visible) return;
+    translateY.setValue(0);
     let mounted = true;
 
     getColmenaSanctuaryState(userName || 'Propietario', sanctuaryName || 'Mi Santuario').then(
@@ -113,13 +179,13 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
       Animated.sequence([
         Animated.timing(haloBreathAnim, {
           toValue: 1,
-          duration: 2800,
+          duration: 3000,
           easing: Easing.inOut(Easing.sin),
           useNativeDriver: true,
         }),
         Animated.timing(haloBreathAnim, {
           toValue: 0,
-          duration: 2800,
+          duration: 3000,
           easing: Easing.inOut(Easing.sin),
           useNativeDriver: true,
         }),
@@ -131,15 +197,12 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
       mounted = false;
       loop.stop();
     };
-  }, [visible, userName, sanctuaryName, haloBreathAnim]);
+  }, [visible, userName, sanctuaryName, haloBreathAnim, translateY]);
 
-  // Si venimos de escanear una Semilla Óptica desde la cámara, vincular automáticamente
   useEffect(() => {
     if (visible && recentlyScannedSeed) {
       (async () => {
-        try {
-          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-        } catch (_e) {}
+        triggerHaptic(true);
         const updated = await joinColmenaByOpticalSeed(
           recentlyScannedSeed,
           userName || 'Cuidador'
@@ -147,26 +210,13 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
         setColmenaState(updated);
         setActiveTab('convivientes');
         setStatusBanner(
-          `Resonancia completada: Vinculado a «${recentlyScannedSeed.sanctuaryName}» (${recentlyScannedSeed.seedCode}) junto a ${recentlyScannedSeed.hostName}.`
+          `Vinculación completada con «${recentlyScannedSeed.sanctuaryName}» (${recentlyScannedSeed.seedCode}) junto a ${recentlyScannedSeed.hostName}.`
         );
         onClearScannedSeed?.();
       })();
     }
-  }, [visible, recentlyScannedSeed, userName, onClearScannedSeed]);
+  }, [visible, recentlyScannedSeed, userName, onClearScannedSeed, triggerHaptic]);
 
-  const triggerHaptic = (success = false) => {
-    try {
-      if (Platform.OS !== 'web') {
-        if (success) {
-          Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-        } else {
-          Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-        }
-      }
-    } catch (_e) {}
-  };
-
-  // URI codificada en la Semilla Óptica
   const opticalSeedUri = useMemo(() => {
     const seedCode = colmenaState?.seedCode || 'SALVIA-742';
     return buildOpticalSeedUri({
@@ -178,7 +228,6 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
     });
   }, [colmenaState, sanctuaryName, userName, allPlants.length, spacesCount]);
 
-  // Matriz QR ISO/IEC 18004 real para escaneo óptico instantáneo
   const qrMatrix = useMemo(() => {
     return generateOpticalSeedQrMatrix(opticalSeedUri);
   }, [opticalSeedUri]);
@@ -258,15 +307,20 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
 
   const haloScale = haloBreathAnim.interpolate({
     inputRange: [0, 1],
-    outputRange: [0.98, 1.045],
+    outputRange: [0.97, 1.04],
   });
   const haloOpacity = haloBreathAnim.interpolate({
     inputRange: [0, 1],
-    outputRange: [0.42, 0.88],
+    outputRange: [0.35, 0.82],
+  });
+  const backdropOpacity = translateY.interpolate({
+    inputRange: [0, 340],
+    outputRange: [1, 0.15],
+    extrapolate: 'clamp',
   });
 
-  // Geometría de renderizado del QR Bioluminiscente
-  const qrSizePx = 216;
+  // Geometría del QR Bioluminiscente con margen generoso
+  const qrSizePx = 220;
   const matrixLen = qrMatrix.length;
   const quietZone = 2;
   const totalModules = matrixLen + quietZone * 2;
@@ -323,88 +377,106 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
       visible={visible}
       animationType="slide"
       transparent={true}
-      onRequestClose={onClose}
+      onRequestClose={handleDismiss}
     >
       <View style={styles.modalOverlay}>
-        <BlurView
-          intensity={Platform.OS === 'ios' ? 72 : 100}
-          tint="dark"
-          style={StyleSheet.absoluteFill}
-        />
+        <Animated.View
+          style={[
+            StyleSheet.absoluteFill,
+            { backgroundColor: 'rgba(5, 10, 7, 0.82)', opacity: backdropOpacity },
+          ]}
+        >
+          <BlurView
+            intensity={Platform.OS === 'ios' ? 68 : 95}
+            tint="dark"
+            style={StyleSheet.absoluteFill}
+          />
+          <TouchableOpacity
+            style={StyleSheet.absoluteFill}
+            activeOpacity={1}
+            onPress={handleDismiss}
+          />
+        </Animated.View>
 
-        <View
+        <Animated.View
           style={[
             styles.modalSheet,
             {
-              paddingTop: Math.max(insets.top, 20),
-              paddingBottom: Math.max(insets.bottom, 20),
+              marginTop: Math.max(insets.top + 8, 28),
+              paddingBottom: Math.max(insets.bottom + 12, 24),
+              transform: [{ translateY }],
             },
           ]}
         >
-          {/* Cabecera */}
-          <View style={styles.modalHeader}>
-            <View style={styles.headerLeft}>
-              <View style={styles.headerPill}>
-                <TreegohIcon name="espacios_microclimas" size={12} color="#86EFAC" glow={false} />
-                <Text style={styles.headerPillText}>Modo Colmena · Co-Cuidado</Text>
-              </View>
-              <Text style={styles.modalTitle}>Santuario Compartido</Text>
+          {/* Barra superior de arrastre interactiva */}
+          <View style={styles.dragHandleArea} {...dragPanResponder.panHandlers}>
+            <View style={styles.dragHandleBar} />
+          </View>
+
+          {/* Cabecera limpia y espaciada */}
+          <View style={styles.modalHeader} {...dragPanResponder.panHandlers}>
+            <View style={styles.headerTextCol}>
+              <Text style={styles.headerEyebrow} numberOfLines={1}>
+                MODO COLMENA · CO-CUIDADO
+              </Text>
+              <Text style={styles.modalTitle} numberOfLines={1}>
+                Santuario Compartido
+              </Text>
             </View>
 
             <TouchableOpacity
               style={styles.closeBtn}
-              onPress={onClose}
+              onPress={handleDismiss}
               activeOpacity={0.75}
-              hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+              hitSlop={{ top: 14, bottom: 14, left: 14, right: 14 }}
             >
               <TreegohIcon name="cierre" size={16} color="#FFFFFF" glow={false} />
             </TouchableOpacity>
           </View>
 
-          {/* Selector de pestañas */}
-          <View style={styles.tabsBar}>
-            {(
-              [
-                { id: 'semilla' as const, label: 'Semilla Óptica' },
-                {
-                  id: 'convivientes' as const,
-                  label: `Colmena (${colmenaState?.members.length || 1})`,
-                },
-                {
-                  id: 'bitacora' as const,
-                  label: `Escudo (${protectedPlants.length})`,
-                },
-              ] as const
-            ).map(tab => {
-              const isSel = activeTab === tab.id;
-              return (
-                <TouchableOpacity
-                  key={tab.id}
-                  style={[styles.tabPill, isSel && styles.tabPillActive]}
-                  onPress={() => {
-                    triggerHaptic(false);
-                    setActiveTab(tab.id);
-                  }}
-                  activeOpacity={0.82}
-                >
-                  <Text style={[styles.tabPillText, isSel && styles.tabPillTextActive]}>
-                    {tab.label}
-                  </Text>
-                </TouchableOpacity>
-              );
-            })}
+          {/* Selector de navegación en cápsula de una sola línea (sin saltos de línea) */}
+          <View style={styles.segmentedBarWrap}>
+            <View style={styles.segmentedTrack}>
+              {(
+                [
+                  { id: 'semilla' as const, label: 'Semilla' },
+                  { id: 'convivientes' as const, label: 'Colmena' },
+                  { id: 'bitacora' as const, label: 'Bitácora' },
+                ] as const
+              ).map(tab => {
+                const isSel = activeTab === tab.id;
+                return (
+                  <TouchableOpacity
+                    key={tab.id}
+                    style={[styles.segmentItem, isSel && styles.segmentItemActive]}
+                    onPress={() => {
+                      triggerHaptic(false);
+                      setActiveTab(tab.id);
+                    }}
+                    activeOpacity={0.85}
+                  >
+                    <Text
+                      style={[styles.segmentLabel, isSel && styles.segmentLabelActive]}
+                      numberOfLines={1}
+                    >
+                      {tab.label}
+                    </Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </View>
           </View>
 
           {/* Banner de confirmación si hubo un evento reciente */}
           {statusBanner && (
             <View style={styles.statusBannerCard}>
-              <TreegohIcon name="check_verificado" size={15} color="#86EFAC" glow={false} />
+              <TreegohIcon name="check_verificado" size={16} color="#86EFAC" glow={false} />
               <Text style={styles.statusBannerText}>{statusBanner}</Text>
               <TouchableOpacity
                 onPress={() => setStatusBanner(null)}
-                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
               >
-                <TreegohIcon name="cierre" size={12} color="rgba(255,255,255,0.6)" glow={false} />
+                <TreegohIcon name="cierre" size={13} color="rgba(255,255,255,0.6)" glow={false} />
               </TouchableOpacity>
             </View>
           )}
@@ -414,25 +486,35 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
             contentContainerStyle={styles.scrollContent}
             showsVerticalScrollIndicator={false}
             keyboardShouldPersistTaps="handled"
+            onScrollEndDrag={e => {
+              const offsetY = e.nativeEvent.contentOffset.y;
+              const velY = e.nativeEvent.velocity?.y ?? 0;
+              if (offsetY < -45 || (offsetY <= 0 && velY < -0.6)) {
+                handleDismiss();
+              }
+            }}
           >
             {/* ============================================================
-                PESTAÑA 1: SEMILLA ÓPTICA (QR BIOLUMINISCENTE Y ESCÁNER)
+                SECCIÓN 1: SEMILLA ÓPTICA (QR BIOLUMINISCENTE Y ESCÁNER)
                ============================================================ */}
             {activeTab === 'semilla' && (
-              <View style={styles.sectionBlock}>
-                <View style={styles.opticalSeedStageCard}>
-                  <Text style={styles.stageCardEyebrow}>RESONANCIA ÓPTICA DE SANTUARIO</Text>
-                  <Text style={styles.stageCardTitle}>
+              <View style={styles.sectionStack}>
+                {/* Tarjeta Principal de la Semilla Óptica */}
+                <View style={styles.heroSeedCard}>
+                  <Text style={styles.heroCardEyebrow} numberOfLines={1}>
+                    SEMILLA ÓPTICA BIOLUMINISCENTE
+                  </Text>
+                  <Text style={styles.heroCardTitle} numberOfLines={1}>
                     {colmenaState?.sanctuaryName || sanctuaryName}
                   </Text>
-                  <Text style={styles.stageCardMeta}>
+                  <Text style={styles.heroCardMeta} numberOfLines={1}>
                     {allPlants.length} {allPlants.length === 1 ? 'planta' : 'plantas'} ·{' '}
                     {Math.max(1, spacesCount)} {spacesCount === 1 ? 'espacio' : 'espacios'} en
                     sincronía
                   </Text>
 
-                  {/* Halo Bioluminiscente + QR Orgánico */}
-                  <View style={styles.qrOrbContainer}>
+                  {/* Orbe central con QR Orgánico y Halo de Respiración */}
+                  <View style={styles.qrOrbStage}>
                     <Animated.View
                       pointerEvents="none"
                       style={[
@@ -453,34 +535,30 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
                           </RadialGradient>
                         </Defs>
 
-                        {/* Fondo clorofila profundo para alto contraste óptico */}
                         <Rect
                           x={0}
                           y={0}
                           width={qrSizePx}
                           height={qrSizePx}
-                          rx={24}
+                          rx={26}
                           fill="url(#bioGlow)"
                         />
 
-                        {/* Anillo sutil perimetral */}
                         <Rect
                           x={3}
                           y={3}
                           width={qrSizePx - 6}
                           height={qrSizePx - 6}
-                          rx={21}
+                          rx={23}
                           fill="none"
-                          stroke="rgba(134, 239, 172, 0.28)"
+                          stroke="rgba(134, 239, 172, 0.25)"
                           strokeWidth={1}
                         />
 
-                        {/* 3 Patrones de búsqueda (Finder Patterns) orgánicos */}
                         {renderBioFinderPattern(0, 0, 'finder_tl')}
                         {renderBioFinderPattern(0, matrixLen - 7, 'finder_tr')}
                         {renderBioFinderPattern(matrixLen - 7, 0, 'finder_bl')}
 
-                        {/* Módulos de datos como esporas bioluminiscentes */}
                         {qrMatrix.map((row, rIdx) =>
                           row.map((isDark, cIdx) => {
                             if (!isDark || isInFinderArea(rIdx, cIdx)) return null;
@@ -502,23 +580,22 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
                     </View>
                   </View>
 
-                  {/* Código de Semilla Legible */}
-                  <View style={styles.seedCodeBadge}>
-                    <Text style={styles.seedCodeLabel}>CÓDIGO SEMILLA</Text>
-                    <Text style={styles.seedCodeValue}>
-                      {colmenaState?.seedCode || 'SALVIA-742'}
+                  {/* Cápsula limpia de una sola línea para el código */}
+                  <View style={styles.seedCodeCapsule}>
+                    <Text style={styles.seedCodeCapsuleText} numberOfLines={1}>
+                      CÓDIGO · {colmenaState?.seedCode || 'SALVIA-742'}
                     </Text>
                   </View>
 
-                  <Text style={styles.seedInstructionText}>
-                    Tu conviviente solo tiene que abrir la Burbuja Óptica de la cámara en su
-                    Treegoh y enfocar esta Semilla Óptica para vincular vuestras plantas.
+                  <Text style={styles.heroCardDescription}>
+                    Abre la Burbuja Óptica de la cámara en el teléfono de tu conviviente y enfoca
+                    esta semilla para compartir el cuidado de vuestras plantas.
                   </Text>
 
-                  {/* Botones de Acción Principal */}
-                  <View style={styles.seedButtonsRow}>
+                  {/* Botones amplios y espaciados */}
+                  <View style={styles.actionButtonsStack}>
                     <TouchableOpacity
-                      style={styles.scanSeedPrimaryBtn}
+                      style={styles.primaryActionButton}
                       onPress={() => {
                         triggerHaptic(false);
                         onClose();
@@ -528,282 +605,323 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
                       }}
                       activeOpacity={0.85}
                     >
-                      <TreegohIcon name="camara_diagnostica" size={16} color="#08120C" glow={false} />
-                      <Text style={styles.scanSeedPrimaryBtnText}>
+                      <TreegohIcon name="camara_diagnostica" size={17} color="#08120C" glow={false} />
+                      <Text style={styles.primaryActionButtonText} numberOfLines={1}>
                         Escanear Semilla con Cámara
                       </Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity
-                      style={styles.shareSeedSecondaryBtn}
+                      style={styles.secondaryActionButton}
                       onPress={handleShareSeedLink}
                       activeOpacity={0.8}
                     >
-                      <TreegohIcon name="compartir_exportar" size={15} color="#E6E8C4" glow={false} />
-                      <Text style={styles.shareSeedSecondaryBtnText}>
-                        Enviar invitación a distancia
+                      <TreegohIcon name="compartir_exportar" size={16} color="#E6E8C4" glow={false} />
+                      <Text style={styles.secondaryActionButtonText} numberOfLines={1}>
+                        Compartir invitación a distancia
                       </Text>
                     </TouchableOpacity>
                   </View>
                 </View>
 
-                {/* Entrada manual de Código de Semilla */}
-                <View style={styles.manualCodeCard}>
-                  <Text style={styles.manualCodeTitle}>
-                    ¿Tu conviviente te envió un código de semilla?
+                {/* Tarjeta espaciada para vincular por código manual */}
+                <View style={styles.relaxedCard}>
+                  <Text style={styles.relaxedCardTitle}>Vincular mediante código</Text>
+                  <Text style={styles.relaxedCardBody}>
+                    Si tu conviviente no se encuentra contigo ahora mismo, introduce aquí el código
+                    de semilla que te haya compartido:
                   </Text>
-                  <Text style={styles.manualCodeSub}>
-                    Introdúcelo aquí para sincronizar vuestros espacios si no estáis juntos en este
-                    momento:
-                  </Text>
-                  <View style={styles.manualInputRow}>
-                    <TextInput
-                      style={styles.manualTextInput}
-                      placeholder="Ej: SALVIA-742"
-                      placeholderTextColor="rgba(255, 255, 255, 0.35)"
-                      value={manualSeedInput}
-                      onChangeText={setManualSeedInput}
-                      autoCapitalize="characters"
-                      autoCorrect={false}
-                    />
-                    <TouchableOpacity
-                      style={styles.manualJoinBtn}
-                      onPress={handleJoinManualCode}
-                      activeOpacity={0.85}
-                    >
-                      <Text style={styles.manualJoinBtnText}>Vincular</Text>
-                    </TouchableOpacity>
-                  </View>
+
+                  <TextInput
+                    style={styles.fullWidthInput}
+                    placeholder="Ejemplo: SALVIA-742"
+                    placeholderTextColor="rgba(255, 255, 255, 0.35)"
+                    value={manualSeedInput}
+                    onChangeText={setManualSeedInput}
+                    autoCapitalize="characters"
+                    autoCorrect={false}
+                  />
+
+                  <TouchableOpacity
+                    style={styles.fullWidthConfirmBtn}
+                    onPress={handleJoinManualCode}
+                    activeOpacity={0.85}
+                  >
+                    <Text style={styles.fullWidthConfirmBtnText} numberOfLines={1}>
+                      Sincronizar con este código
+                    </Text>
+                  </TouchableOpacity>
                 </View>
               </View>
             )}
 
             {/* ============================================================
-                PESTAÑA 2: CONVIVIENTES EN MODO COLMENA
+                SECCIÓN 2: CONVIVIENTES EN MODO COLMENA
                ============================================================ */}
             {activeTab === 'convivientes' && (
-              <View style={styles.sectionBlock}>
-                <View style={styles.colmenaPhilosophyCard}>
-                  <View style={styles.philosophyHeaderRow}>
-                    <TreegohIcon name="escudo_fitosanitario" size={16} color="#86EFAC" glow={false} />
-                    <Text style={styles.philosophyTitle}>Filosofía de Colmena Abierta</Text>
+              <View style={styles.sectionStack}>
+                {/* Tarjeta Editorial de Filosofía Colmena */}
+                <View style={styles.philosophyCard}>
+                  <View style={styles.philosophyHeader}>
+                    <View style={styles.philosophyIconCircle}>
+                      <TreegohIcon name="escudo_fitosanitario" size={17} color="#86EFAC" glow={false} />
+                    </View>
+                    <Text style={styles.philosophyTitle} numberOfLines={1}>
+                      Dinámica de Colmena Abierta
+                    </Text>
                   </View>
                   <Text style={styles.philosophyBody}>
-                    Todas las plantas pendientes son visibles para los miembros del hogar. El
-                    primero que riega una especie suma +1 día a la racha común de la casa y activa
-                    automáticamente el bloqueo protector de 18 horas para evitar que otro
-                    conviviente vuelva a regarla por error.
+                    Todas las tareas de cuidado son compartidas. El primer miembro del hogar que
+                    hidrata una planta mantiene viva la racha común de toda la casa y activa el
+                    escudo protector durante 18 horas para evitar que otro conviviente la riegue de
+                    nuevo por error.
                   </Text>
                 </View>
 
-                <Text style={styles.subSectionHeader}>
-                  Cuidadores vinculados ({colmenaState?.members.length || 1})
-                </Text>
+                {/* Lista amplia de Cuidadores */}
+                <View style={styles.groupBlock}>
+                  <Text style={styles.groupSectionTitle}>
+                    Miembros del santuario ({colmenaState?.members.length || 1})
+                  </Text>
 
-                {(colmenaState?.members || []).map(member => (
-                  <View key={member.userId} style={styles.memberCard}>
-                    <View
-                      style={[
-                        styles.memberAvatarCircle,
-                        { borderColor: member.avatarColor || '#86EFAC' },
-                      ]}
-                    >
-                      <Text
+                  {(colmenaState?.members || []).map(member => (
+                    <View key={member.userId} style={styles.memberCard}>
+                      <View
                         style={[
-                          styles.memberAvatarInitials,
-                          { color: member.avatarColor || '#86EFAC' },
+                          styles.memberAvatarCircle,
+                          { borderColor: member.avatarColor || '#86EFAC' },
                         ]}
                       >
-                        {(member.displayName || 'C').slice(0, 2).toUpperCase()}
-                      </Text>
-                    </View>
-
-                    <View style={styles.memberInfoCol}>
-                      <View style={styles.memberNameRow}>
-                        <Text style={styles.memberNameText}>{member.displayName}</Text>
-                        <View style={styles.roleBadge}>
-                          <Text style={styles.roleBadgeText}>
-                            {member.role === 'propietario' ? 'Anfitrión' : 'Co-cuidador'}
-                          </Text>
-                        </View>
+                        <Text
+                          style={[
+                            styles.memberAvatarInitials,
+                            { color: member.avatarColor || '#86EFAC' },
+                          ]}
+                        >
+                          {(member.displayName || 'C').slice(0, 2).toUpperCase()}
+                        </Text>
                       </View>
-                      <Text style={styles.memberStatsText}>
-                        {member.ritualsCompletedCount}{' '}
-                        {member.ritualsCompletedCount === 1
-                          ? 'ritual completado'
-                          : 'rituales completados'}{' '}
-                        en la Colmena
-                      </Text>
+
+                      <View style={styles.memberTextCol}>
+                        <Text style={styles.memberNameText} numberOfLines={1}>
+                          {member.displayName}
+                        </Text>
+                        <Text style={styles.memberRoleAndStatsText} numberOfLines={1}>
+                          {member.role === 'propietario' ? 'Anfitrión' : 'Co-cuidador'} ·{' '}
+                          {member.ritualsCompletedCount}{' '}
+                          {member.ritualsCompletedCount === 1 ? 'ritual' : 'rituales'}
+                        </Text>
+                      </View>
+
+                      {member.role !== 'propietario' && (
+                        <TouchableOpacity
+                          style={styles.removeMemberBtn}
+                          onPress={() => handleRemoveMember(member.userId, member.displayName)}
+                          hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+                        >
+                          <TreegohIcon
+                            name="cierre"
+                            size={13}
+                            color="rgba(255,255,255,0.48)"
+                            glow={false}
+                          />
+                        </TouchableOpacity>
+                      )}
                     </View>
-
-                    {member.role !== 'propietario' && (
-                      <TouchableOpacity
-                        style={styles.removeMemberBtn}
-                        onPress={() => handleRemoveMember(member.userId, member.displayName)}
-                        hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-                      >
-                        <TreegohIcon
-                          name="cierre"
-                          size={13}
-                          color="rgba(255,255,255,0.45)"
-                          glow={false}
-                        />
-                      </TouchableOpacity>
-                    )}
-                  </View>
-                ))}
-
-                {/* Añadir un conviviente manualmente */}
-                <View style={styles.manualCodeCard}>
-                  <Text style={styles.manualCodeTitle}>Añadir conviviente del hogar</Text>
-                  <Text style={styles.manualCodeSub}>
-                    Registra el nombre de tu pareja, familiar o compañero de piso para asignarle
-                    perfil en la bitácora:
-                  </Text>
-                  <View style={styles.manualInputRow}>
-                    <TextInput
-                      style={styles.manualTextInput}
-                      placeholder="Nombre (ej: Lucía, Carlos...)"
-                      placeholderTextColor="rgba(255, 255, 255, 0.35)"
-                      value={newMemberName}
-                      onChangeText={setNewMemberName}
-                    />
-                    <TouchableOpacity
-                      style={styles.manualJoinBtn}
-                      onPress={handleAddRoommate}
-                      activeOpacity={0.85}
-                    >
-                      <Text style={styles.manualJoinBtnText}>Añadir</Text>
-                    </TouchableOpacity>
-                  </View>
+                  ))}
                 </View>
 
-                {/* Simulador instantáneo para probar la experiencia multi-usuario */}
-                <TouchableOpacity
-                  style={styles.simulateColmenaBtn}
-                  onPress={handleSimulateRoommateCare}
-                  activeOpacity={0.85}
-                >
-                  <TreegohIcon name="riego_hidratacion" size={16} color="#86EFAC" glow={false} />
-                  <View style={{ flex: 1 }}>
-                    <Text style={styles.simulateColmenaBtnTitle}>
-                      Probar riego de conviviente en vivo
+                {/* Añadir un conviviente */}
+                <View style={styles.relaxedCard}>
+                  <Text style={styles.relaxedCardTitle}>Registrar conviviente del hogar</Text>
+                  <Text style={styles.relaxedCardBody}>
+                    Añade el nombre de tu pareja, familiar o compañero de piso para asignarle su
+                    propio perfil dentro de la bitácora compartida:
+                  </Text>
+
+                  <TextInput
+                    style={styles.fullWidthInput}
+                    placeholder="Nombre del conviviente (ej: Lucía)"
+                    placeholderTextColor="rgba(255, 255, 255, 0.35)"
+                    value={newMemberName}
+                    onChangeText={setNewMemberName}
+                  />
+
+                  <TouchableOpacity
+                    style={styles.fullWidthConfirmBtn}
+                    onPress={handleAddRoommate}
+                    activeOpacity={0.85}
+                  >
+                    <Text style={styles.fullWidthConfirmBtnText} numberOfLines={1}>
+                      Añadir a la Colmena
                     </Text>
-                    <Text style={styles.simulateColmenaBtnSub}>
-                      Simula que tu compañero riega ahora mismo una planta y activa el escudo
-                      Anti-Sobre-Riego de 18 horas.
+                  </TouchableOpacity>
+                </View>
+
+                {/* Tarjeta limpia para simular el cuidado de un conviviente */}
+                <View style={styles.simulationCard}>
+                  <View style={styles.philosophyHeader}>
+                    <View style={styles.philosophyIconCircle}>
+                      <TreegohIcon name="riego_hidratacion" size={17} color="#86EFAC" glow={false} />
+                    </View>
+                    <Text style={styles.philosophyTitle} numberOfLines={1}>
+                      Simulación de cuidado en vivo
                     </Text>
                   </View>
-                  <TreegohIcon name="flecha_adelante" size={14} color="#86EFAC" glow={false} />
-                </TouchableOpacity>
+                  <Text style={styles.philosophyBody}>
+                    Comprueba cómo responde tu santuario cuando un conviviente riega una de tus
+                    plantas y activa la protección biológica Anti-Sobre-Riego de 18 horas.
+                  </Text>
+                  <TouchableOpacity
+                    style={styles.simulationTriggerBtn}
+                    onPress={handleSimulateRoommateCare}
+                    activeOpacity={0.85}
+                  >
+                    <Text style={styles.simulationTriggerBtnText} numberOfLines={1}>
+                      Simular riego de conviviente ahora
+                    </Text>
+                  </TouchableOpacity>
+                </View>
               </View>
             )}
 
             {/* ============================================================
-                PESTAÑA 3: ESCUDO ANTI-SOBRE-RIEGO Y BITÁCORA EN VIVO
+                SECCIÓN 3: ESCUDO ANTI-SOBRE-RIEGO Y BITÁCORA EN VIVO
                ============================================================ */}
             {activeTab === 'bitacora' && (
-              <View style={styles.sectionBlock}>
-                <Text style={styles.subSectionHeader}>
-                  Escudo Biológico Anti-Sobre-Riego (18 h)
-                </Text>
+              <View style={styles.sectionStack}>
+                {/* Bloque 1: Plantas con Escudo Activo */}
+                <View style={styles.groupBlock}>
+                  <Text style={styles.groupSectionTitle}>
+                    Escudo Anti-Sobre-Riego activo ({protectedPlants.length})
+                  </Text>
 
-                {protectedPlants.length === 0 ? (
-                  <View style={styles.emptyShieldCard}>
-                    <TreegohIcon name="escudo_fitosanitario" size={20} color="#93C5FD" glow={false} />
-                    <Text style={styles.emptyShieldTitle}>
-                      Ninguna planta en bloqueo temporal ahora mismo
-                    </Text>
-                    <Text style={styles.emptyShieldSub}>
-                      Cuando cualquier miembro de la Colmena riegue una planta, aparecerá aquí
-                      protegida durante 18 horas para evitar que otro conviviente vuelva a regarla.
-                    </Text>
-                  </View>
-                ) : (
-                  protectedPlants.map(({ plant, cooldown }) => (
-                    <View key={`prot_${plant.id}`} style={styles.protectedPlantCard}>
-                      <View style={styles.protectedTopRow}>
-                        <View style={styles.protectedBadge}>
-                          <TreegohIcon
-                            name="escudo_fitosanitario"
-                            size={12}
-                            color="#08120C"
-                            glow={false}
-                          />
-                          <Text style={styles.protectedBadgeText}>
-                            Protegida ({cooldown.hoursRemaining} h restantes)
-                          </Text>
-                        </View>
-                        <Text style={styles.protectedSpaceText}>{plant.spaceName}</Text>
+                  {protectedPlants.length === 0 ? (
+                    <View style={styles.emptyStateCard}>
+                      <View style={styles.emptyIconCircle}>
+                        <TreegohIcon
+                          name="escudo_fitosanitario"
+                          size={22}
+                          color="#93C5FD"
+                          glow={false}
+                        />
                       </View>
-                      <Text style={styles.protectedPlantName}>
-                        {plant.nickname
-                          ? `«${plant.nickname}» · ${plant.commonName}`
-                          : plant.commonName}
+                      <Text style={styles.emptyStateTitle}>
+                        Ninguna planta en enfriamiento hídrico
                       </Text>
-                      <Text style={styles.protectedMetaText}>
-                        Hidratada hoy a las {cooldown.formattedTime} h por{' '}
-                        <Text style={styles.protectedAuthorHighlight}>{cooldown.wateredBy}</Text>.
+                      <Text style={styles.emptyStateBody}>
+                        Cuando cualquier miembro de la Colmena riegue una planta, aparecerá aquí
+                        protegida durante 18 horas para evitar que otro conviviente vuelva a
+                        regarla por accidente.
                       </Text>
                     </View>
-                  ))
-                )}
-
-                <Text style={[styles.subSectionHeader, { marginTop: 12 }]}>
-                  Bitácora de Cuidados de la Colmena
-                </Text>
-
-                {!colmenaState?.careLogs || colmenaState.careLogs.length === 0 ? (
-                  <View style={styles.emptyShieldCard}>
-                    <TreegohIcon name="historial_clinico" size={20} color="#E6E8C4" glow={false} />
-                    <Text style={styles.emptyShieldTitle}>Bitácora lista para estrenar</Text>
-                    <Text style={styles.emptyShieldSub}>
-                      Cada vez que tú o tus convivientes completéis un riego, abono o limpieza
-                      foliar, quedará registrado aquí con hora y autor.
-                    </Text>
-                  </View>
-                ) : (
-                  colmenaState.careLogs.map(log => {
-                    const d = new Date(log.timestampIso);
-                    const timeStr = `${String(d.getHours()).padStart(2, '0')}:${String(
-                      d.getMinutes()
-                    ).padStart(2, '0')}`;
-                    return (
-                      <View key={log.id} style={styles.logItemCard}>
-                        <View style={styles.logIconCircle}>
-                          <TreegohIcon
-                            name={
-                              log.actionType === 'riego'
-                                ? 'riego_hidratacion'
-                                : log.actionType === 'fertilizacion'
-                                ? 'fertilizante_nutricion'
-                                : log.actionType === 'trasplante'
-                                ? 'maceta_trasplante'
-                                : 'limpieza_foliar'
-                            }
-                            size={14}
-                            color="#86EFAC"
-                            glow={false}
-                          />
-                        </View>
-                        <View style={{ flex: 1 }}>
-                          <Text style={styles.logTitleText}>
-                            {log.performedByUserName} · {log.actionLabel}
-                          </Text>
-                          <Text style={styles.logSubText}>
-                            {log.plantName} ({log.spaceName}) · {timeStr} h
+                  ) : (
+                    protectedPlants.map(({ plant, cooldown }) => (
+                      <View key={`prot_${plant.id}`} style={styles.protectedPlantCard}>
+                        <View style={styles.protectedHeaderRow}>
+                          <View style={styles.protectedPill}>
+                            <TreegohIcon
+                              name="escudo_fitosanitario"
+                              size={12}
+                              color="#08120C"
+                              glow={false}
+                            />
+                            <Text style={styles.protectedPillText} numberOfLines={1}>
+                              Protegida · {cooldown.hoursRemaining} h restantes
+                            </Text>
+                          </View>
+                          <Text style={styles.protectedSpaceLabel} numberOfLines={1}>
+                            {plant.spaceName}
                           </Text>
                         </View>
+
+                        <Text style={styles.protectedPlantName} numberOfLines={1}>
+                          {plant.nickname
+                            ? `«${plant.nickname}» · ${plant.commonName}`
+                            : plant.commonName}
+                        </Text>
+
+                        <Text style={styles.protectedMetaText}>
+                          Hidratada hoy a las {cooldown.formattedTime} h por{' '}
+                          <Text style={styles.protectedAuthorHighlight}>{cooldown.wateredBy}</Text>.
+                        </Text>
                       </View>
-                    );
-                  })
-                )}
+                    ))
+                  )}
+                </View>
+
+                {/* Bloque 2: Bitácora Cronológica */}
+                <View style={styles.groupBlock}>
+                  <Text style={styles.groupSectionTitle}>
+                    Actividad reciente del hogar
+                  </Text>
+
+                  {!colmenaState?.careLogs || colmenaState.careLogs.length === 0 ? (
+                    <View style={styles.emptyStateCard}>
+                      <View style={styles.emptyIconCircle}>
+                        <TreegohIcon
+                          name="historial_clinico"
+                          size={22}
+                          color="#E6E8C4"
+                          glow={false}
+                        />
+                      </View>
+                      <Text style={styles.emptyStateTitle}>Bitácora lista para estrenar</Text>
+                      <Text style={styles.emptyStateBody}>
+                        Cada vez que tú o tus convivientes completéis un riego, abono o limpieza
+                        foliar, quedará registrado aquí con fecha, hora y autor.
+                      </Text>
+                    </View>
+                  ) : (
+                    colmenaState.careLogs.map(log => {
+                      const d = new Date(log.timestampIso);
+                      const timeStr = `${String(d.getHours()).padStart(2, '0')}:${String(
+                        d.getMinutes()
+                      ).padStart(2, '0')}`;
+                      return (
+                        <View key={log.id} style={styles.logItemCard}>
+                          <View style={styles.logIconCircle}>
+                            <TreegohIcon
+                              name={
+                                log.actionType === 'riego'
+                                  ? 'riego_hidratacion'
+                                  : log.actionType === 'fertilizacion'
+                                  ? 'fertilizante_nutricion'
+                                  : log.actionType === 'trasplante'
+                                  ? 'maceta_trasplante'
+                                  : 'limpieza_foliar'
+                              }
+                              size={16}
+                              color="#86EFAC"
+                              glow={false}
+                            />
+                          </View>
+                          <View style={styles.logTextCol}>
+                            <Text style={styles.logTitleText} numberOfLines={1}>
+                              {log.performedByUserName} · {log.actionLabel}
+                            </Text>
+                            <Text style={styles.logSubText} numberOfLines={1}>
+                              {log.plantName} ({log.spaceName}) · {timeStr} h
+                            </Text>
+                          </View>
+                        </View>
+                      );
+                    })
+                  )}
+                </View>
               </View>
             )}
 
-            <View style={{ height: 36 }} />
+            {/* Cierre inferior tranquilo */}
+            <TouchableOpacity
+              style={styles.bottomDismissButton}
+              onPress={handleDismiss}
+              activeOpacity={0.8}
+            >
+              <Text style={styles.bottomDismissButtonText}>Cerrar ventana de Colmena</Text>
+            </TouchableOpacity>
           </ScrollView>
-        </View>
+        </Animated.View>
       </View>
     </Modal>
   );
@@ -814,332 +932,345 @@ export const SanctuaryOpticalSeedModal = React.memo(SanctuaryOpticalSeedModalCom
 const styles = StyleSheet.create({
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.72)',
     justifyContent: 'flex-end',
   },
   modalSheet: {
     flex: 1,
-    backgroundColor: '#09120D',
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
+    backgroundColor: '#0A130E',
+    borderTopLeftRadius: 36,
+    borderTopRightRadius: 36,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.12)',
     overflow: 'hidden',
+  },
+  dragHandleArea: {
+    width: '100%',
+    alignItems: 'center',
+    paddingTop: 12,
+    paddingBottom: 6,
+  },
+  dragHandleBar: {
+    width: 44,
+    height: 5,
+    borderRadius: 2.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.26)',
   },
   modalHeader: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 22,
-    paddingBottom: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: 'rgba(255, 255, 255, 0.08)',
+    paddingHorizontal: 28,
+    paddingTop: 6,
+    paddingBottom: 20,
   },
-  headerLeft: {
+  headerTextCol: {
     flex: 1,
+    paddingRight: 16,
+    gap: 4,
   },
-  headerPill: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    alignSelf: 'flex-start',
-    backgroundColor: 'rgba(134, 239, 172, 0.12)',
-    borderWidth: 1,
-    borderColor: 'rgba(134, 239, 172, 0.28)',
-    paddingHorizontal: 10,
-    paddingVertical: 3,
-    borderRadius: 12,
-    marginBottom: 6,
-  },
-  headerPillText: {
+  headerEyebrow: {
     fontFamily: Fonts.regular,
-    fontSize: 11,
+    fontSize: 10.5,
     color: '#86EFAC',
-    letterSpacing: 0.4,
+    letterSpacing: 1.5,
   },
   modalTitle: {
     fontFamily: Fonts.light,
-    fontSize: 22,
+    fontSize: 25,
     fontWeight: '300',
     color: '#FFFFFF',
-    letterSpacing: -0.3,
+    letterSpacing: -0.4,
   },
   closeBtn: {
-    width: 38,
-    height: 38,
-    borderRadius: 19,
-    backgroundColor: 'rgba(255, 255, 255, 0.10)',
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    backgroundColor: 'rgba(255, 255, 255, 0.09)',
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.18)',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  tabsBar: {
-    flexDirection: 'row',
-    paddingHorizontal: 22,
-    paddingVertical: 12,
-    gap: 8,
+  segmentedBarWrap: {
+    paddingHorizontal: 28,
+    marginBottom: 22,
   },
-  tabPill: {
-    flex: 1,
-    paddingVertical: 9,
-    paddingHorizontal: 10,
-    borderRadius: 18,
+  segmentedTrack: {
+    flexDirection: 'row',
     backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    borderRadius: 24,
+    padding: 5,
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.12)',
+  },
+  segmentItem: {
+    flex: 1,
+    height: 40,
+    borderRadius: 19,
     alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 8,
   },
-  tabPillActive: {
+  segmentItemActive: {
     backgroundColor: '#86EFAC',
-    borderColor: '#86EFAC',
   },
-  tabPillText: {
+  segmentLabel: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
+    fontSize: 13.5,
     color: 'rgba(255, 255, 255, 0.78)',
   },
-  tabPillTextActive: {
+  segmentLabelActive: {
     fontFamily: Fonts.regular,
     color: '#08120C',
   },
   statusBannerCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 10,
-    marginHorizontal: 22,
-    marginBottom: 8,
-    paddingVertical: 10,
-    paddingHorizontal: 14,
-    borderRadius: 16,
-    backgroundColor: 'rgba(134, 239, 172, 0.14)',
+    gap: 12,
+    marginHorizontal: 28,
+    marginBottom: 18,
+    paddingVertical: 14,
+    paddingHorizontal: 18,
+    borderRadius: 20,
+    backgroundColor: 'rgba(134, 239, 172, 0.12)',
     borderWidth: 1,
-    borderColor: 'rgba(134, 239, 172, 0.35)',
+    borderColor: 'rgba(134, 239, 172, 0.32)',
   },
   statusBannerText: {
     flex: 1,
     fontFamily: Fonts.light,
-    fontSize: 12.5,
+    fontSize: 13,
     color: '#E6E8C4',
-    lineHeight: 17,
+    lineHeight: 19,
   },
   scrollView: {
     flex: 1,
   },
   scrollContent: {
-    paddingHorizontal: 22,
-    paddingTop: 6,
+    paddingHorizontal: 28,
+    paddingTop: 4,
+    paddingBottom: 56,
   },
-  sectionBlock: {
+  sectionStack: {
+    gap: 28,
+  },
+  groupBlock: {
     gap: 16,
   },
-  opticalSeedStageCard: {
-    backgroundColor: 'rgba(16, 29, 21, 0.88)',
-    borderRadius: 28,
-    padding: 22,
+  groupSectionTitle: {
+    fontFamily: Fonts.regular,
+    fontSize: 15.5,
+    color: '#E6E8C4',
+    letterSpacing: 0.2,
+    marginBottom: 2,
+  },
+  heroSeedCard: {
+    backgroundColor: 'rgba(16, 29, 21, 0.78)',
+    borderRadius: 32,
+    paddingVertical: 32,
+    paddingHorizontal: 26,
     borderWidth: 1,
-    borderColor: 'rgba(134, 239, 172, 0.24)',
+    borderColor: 'rgba(134, 239, 172, 0.22)',
     alignItems: 'center',
   },
-  stageCardEyebrow: {
+  heroCardEyebrow: {
     fontFamily: Fonts.regular,
     fontSize: 10.5,
     color: '#86EFAC',
-    letterSpacing: 1.4,
-    marginBottom: 4,
+    letterSpacing: 1.5,
+    marginBottom: 8,
   },
-  stageCardTitle: {
+  heroCardTitle: {
     fontFamily: Fonts.light,
-    fontSize: 21,
+    fontSize: 23,
     color: '#FFFFFF',
     textAlign: 'center',
+    letterSpacing: -0.3,
   },
-  stageCardMeta: {
+  heroCardMeta: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
+    fontSize: 13.5,
     color: 'rgba(230, 232, 196, 0.72)',
-    marginTop: 2,
-    marginBottom: 18,
+    marginTop: 6,
   },
-  qrOrbContainer: {
-    width: 244,
-    height: 244,
+  qrOrbStage: {
+    width: 256,
+    height: 256,
     alignItems: 'center',
     justifyContent: 'center',
-    marginVertical: 4,
+    marginVertical: 28,
   },
   qrBioluminescentHalo: {
     position: 'absolute',
-    width: 240,
-    height: 240,
-    borderRadius: 42,
-    backgroundColor: 'rgba(134, 239, 172, 0.12)',
+    width: 252,
+    height: 252,
+    borderRadius: 46,
+    backgroundColor: 'rgba(134, 239, 172, 0.10)',
     borderWidth: 1.5,
-    borderColor: 'rgba(134, 239, 172, 0.42)',
+    borderColor: 'rgba(134, 239, 172, 0.38)',
   },
   qrInnerFrame: {
-    padding: 8,
-    borderRadius: 30,
+    padding: 12,
+    borderRadius: 34,
     backgroundColor: '#07120C',
     borderWidth: 1,
-    borderColor: 'rgba(230, 232, 196, 0.25)',
+    borderColor: 'rgba(230, 232, 196, 0.24)',
   },
-  seedCodeBadge: {
-    marginTop: 16,
-    paddingVertical: 8,
-    paddingHorizontal: 18,
-    borderRadius: 16,
+  seedCodeCapsule: {
+    paddingVertical: 10,
+    paddingHorizontal: 22,
+    borderRadius: 20,
     backgroundColor: 'rgba(255, 255, 255, 0.06)',
     borderWidth: 1,
     borderColor: 'rgba(230, 232, 196, 0.24)',
-    alignItems: 'center',
+    marginBottom: 20,
   },
-  seedCodeLabel: {
-    fontFamily: Fonts.light,
-    fontSize: 9.5,
-    color: 'rgba(230, 232, 196, 0.65)',
-    letterSpacing: 1.2,
-  },
-  seedCodeValue: {
+  seedCodeCapsuleText: {
     fontFamily: Fonts.regular,
-    fontSize: 17,
+    fontSize: 14.5,
     color: '#E6E8C4',
-    letterSpacing: 1.5,
-    marginTop: 2,
+    letterSpacing: 1.6,
   },
-  seedInstructionText: {
+  heroCardDescription: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
-    color: 'rgba(255, 255, 255, 0.68)',
+    fontSize: 14,
+    color: 'rgba(255, 255, 255, 0.72)',
     textAlign: 'center',
-    lineHeight: 18,
-    marginTop: 14,
-    marginBottom: 18,
+    lineHeight: 22,
+    marginBottom: 28,
+    paddingHorizontal: 6,
   },
-  seedButtonsRow: {
+  actionButtonsStack: {
     width: '100%',
-    gap: 10,
+    gap: 14,
   },
-  scanSeedPrimaryBtn: {
+  primaryActionButton: {
+    width: '100%',
+    height: 54,
+    borderRadius: 22,
+    backgroundColor: '#86EFAC',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 8,
-    backgroundColor: '#86EFAC',
-    paddingVertical: 14,
-    borderRadius: 20,
+    gap: 10,
+    paddingHorizontal: 20,
   },
-  scanSeedPrimaryBtnText: {
+  primaryActionButtonText: {
     fontFamily: Fonts.regular,
-    fontSize: 14,
+    fontSize: 14.5,
     color: '#08120C',
   },
-  shareSeedSecondaryBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-    backgroundColor: 'rgba(255, 255, 255, 0.07)',
+  secondaryActionButton: {
+    width: '100%',
+    height: 52,
+    borderRadius: 22,
+    backgroundColor: 'rgba(255, 255, 255, 0.06)',
     borderWidth: 1,
     borderColor: 'rgba(230, 232, 196, 0.24)',
-    paddingVertical: 12,
-    borderRadius: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+    paddingHorizontal: 20,
   },
-  shareSeedSecondaryBtnText: {
+  secondaryActionButtonText: {
     fontFamily: Fonts.light,
-    fontSize: 13.5,
+    fontSize: 14,
     color: '#E6E8C4',
   },
-  manualCodeCard: {
+  relaxedCard: {
     backgroundColor: 'rgba(255, 255, 255, 0.05)',
-    borderRadius: 22,
-    padding: 18,
+    borderRadius: 28,
+    padding: 26,
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.12)',
-    gap: 8,
+    gap: 14,
   },
-  manualCodeTitle: {
+  relaxedCardTitle: {
     fontFamily: Fonts.regular,
-    fontSize: 14.5,
+    fontSize: 16.5,
     color: '#FFFFFF',
   },
-  manualCodeSub: {
+  relaxedCardBody: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
-    color: 'rgba(255, 255, 255, 0.62)',
-    lineHeight: 17,
+    fontSize: 13.5,
+    color: 'rgba(255, 255, 255, 0.68)',
+    lineHeight: 21,
   },
-  manualInputRow: {
-    flexDirection: 'row',
-    gap: 10,
-    marginTop: 6,
-  },
-  manualTextInput: {
-    flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.35)',
+  fullWidthInput: {
+    width: '100%',
+    height: 52,
+    backgroundColor: 'rgba(0, 0, 0, 0.36)',
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.18)',
-    borderRadius: 14,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-    fontFamily: Fonts.regular,
-    fontSize: 14,
-    color: '#FFFFFF',
-  },
-  manualJoinBtn: {
-    backgroundColor: '#E6E8C4',
+    borderRadius: 18,
     paddingHorizontal: 18,
-    borderRadius: 14,
+    fontFamily: Fonts.regular,
+    fontSize: 15,
+    color: '#FFFFFF',
+    marginTop: 4,
+  },
+  fullWidthConfirmBtn: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#E6E8C4',
+    borderRadius: 18,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  manualJoinBtnText: {
+  fullWidthConfirmBtnText: {
     fontFamily: Fonts.regular,
-    fontSize: 13.5,
+    fontSize: 14,
     color: '#08120C',
   },
-  colmenaPhilosophyCard: {
-    backgroundColor: 'rgba(134, 239, 172, 0.08)',
-    borderRadius: 22,
-    padding: 18,
+  philosophyCard: {
+    backgroundColor: 'rgba(134, 239, 172, 0.07)',
+    borderRadius: 28,
+    padding: 26,
     borderWidth: 1,
-    borderColor: 'rgba(134, 239, 172, 0.26)',
-    gap: 8,
+    borderColor: 'rgba(134, 239, 172, 0.24)',
+    gap: 14,
   },
-  philosophyHeaderRow: {
+  philosophyHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    gap: 12,
+  },
+  philosophyIconCircle: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    backgroundColor: 'rgba(134, 239, 172, 0.14)',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   philosophyTitle: {
+    flex: 1,
     fontFamily: Fonts.regular,
-    fontSize: 14.5,
+    fontSize: 16,
     color: '#86EFAC',
   },
   philosophyBody: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
-    color: 'rgba(255, 255, 255, 0.78)',
-    lineHeight: 18,
-  },
-  subSectionHeader: {
-    fontFamily: Fonts.regular,
     fontSize: 14,
-    color: '#E6E8C4',
-    letterSpacing: 0.2,
+    color: 'rgba(255, 255, 255, 0.78)',
+    lineHeight: 22,
   },
   memberCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 12,
+    gap: 16,
     backgroundColor: 'rgba(255, 255, 255, 0.06)',
-    borderRadius: 18,
-    padding: 14,
+    borderRadius: 24,
+    paddingVertical: 20,
+    paddingHorizontal: 22,
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.12)',
   },
   memberAvatarCircle: {
-    width: 42,
-    height: 42,
-    borderRadius: 21,
+    width: 48,
+    height: 48,
+    borderRadius: 24,
     backgroundColor: 'rgba(0, 0, 0, 0.35)',
     borderWidth: 1.5,
     alignItems: 'center',
@@ -1147,132 +1278,130 @@ const styles = StyleSheet.create({
   },
   memberAvatarInitials: {
     fontFamily: Fonts.regular,
-    fontSize: 14,
+    fontSize: 15,
   },
-  memberInfoCol: {
+  memberTextCol: {
     flex: 1,
-    gap: 3,
-  },
-  memberNameRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+    gap: 5,
   },
   memberNameText: {
     fontFamily: Fonts.regular,
-    fontSize: 15,
+    fontSize: 16,
     color: '#FFFFFF',
   },
-  roleBadge: {
-    backgroundColor: 'rgba(230, 232, 196, 0.14)',
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: 8,
-  },
-  roleBadgeText: {
+  memberRoleAndStatsText: {
     fontFamily: Fonts.light,
-    fontSize: 10.5,
-    color: '#E6E8C4',
-  },
-  memberStatsText: {
-    fontFamily: Fonts.light,
-    fontSize: 12,
-    color: 'rgba(255, 255, 255, 0.62)',
+    fontSize: 13,
+    color: 'rgba(230, 232, 196, 0.76)',
   },
   removeMemberBtn: {
-    width: 30,
-    height: 30,
-    borderRadius: 15,
-    backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: 'rgba(255, 255, 255, 0.07)',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  simulateColmenaBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 12,
-    backgroundColor: 'rgba(134, 239, 172, 0.11)',
-    borderRadius: 20,
-    padding: 16,
+  simulationCard: {
+    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+    borderRadius: 28,
+    padding: 26,
     borderWidth: 1,
-    borderColor: 'rgba(134, 239, 172, 0.34)',
+    borderColor: 'rgba(134, 239, 172, 0.26)',
+    gap: 14,
   },
-  simulateColmenaBtnTitle: {
+  simulationTriggerBtn: {
+    width: '100%',
+    height: 50,
+    borderRadius: 18,
+    backgroundColor: 'rgba(134, 239, 172, 0.16)',
+    borderWidth: 1,
+    borderColor: 'rgba(134, 239, 172, 0.42)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 4,
+  },
+  simulationTriggerBtnText: {
     fontFamily: Fonts.regular,
     fontSize: 14,
     color: '#86EFAC',
   },
-  simulateColmenaBtnSub: {
-    fontFamily: Fonts.light,
-    fontSize: 12,
-    color: 'rgba(255, 255, 255, 0.68)',
-    marginTop: 2,
-    lineHeight: 16,
-  },
-  emptyShieldCard: {
+  emptyStateCard: {
     backgroundColor: 'rgba(255, 255, 255, 0.05)',
-    borderRadius: 20,
-    padding: 20,
+    borderRadius: 28,
+    paddingVertical: 30,
+    paddingHorizontal: 26,
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.10)',
     alignItems: 'center',
-    gap: 8,
+    gap: 12,
   },
-  emptyShieldTitle: {
+  emptyIconCircle: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    backgroundColor: 'rgba(255, 255, 255, 0.07)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 2,
+  },
+  emptyStateTitle: {
     fontFamily: Fonts.regular,
-    fontSize: 14,
+    fontSize: 16,
     color: '#FFFFFF',
     textAlign: 'center',
   },
-  emptyShieldSub: {
+  emptyStateBody: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
-    color: 'rgba(255, 255, 255, 0.62)',
+    fontSize: 13.5,
+    color: 'rgba(255, 255, 255, 0.66)',
     textAlign: 'center',
-    lineHeight: 18,
+    lineHeight: 21,
   },
   protectedPlantCard: {
-    backgroundColor: 'rgba(134, 239, 172, 0.09)',
-    borderRadius: 18,
-    padding: 15,
+    backgroundColor: 'rgba(134, 239, 172, 0.08)',
+    borderRadius: 26,
+    padding: 24,
     borderWidth: 1,
-    borderColor: 'rgba(134, 239, 172, 0.32)',
-    gap: 5,
+    borderColor: 'rgba(134, 239, 172, 0.30)',
+    gap: 10,
   },
-  protectedTopRow: {
+  protectedHeaderRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    gap: 12,
   },
-  protectedBadge: {
+  protectedPill: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 5,
+    gap: 6,
     backgroundColor: '#86EFAC',
-    paddingHorizontal: 9,
-    paddingVertical: 3,
-    borderRadius: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 5,
+    borderRadius: 12,
   },
-  protectedBadgeText: {
+  protectedPillText: {
     fontFamily: Fonts.regular,
-    fontSize: 10.5,
+    fontSize: 11.5,
     color: '#08120C',
   },
-  protectedSpaceText: {
+  protectedSpaceLabel: {
     fontFamily: Fonts.light,
-    fontSize: 11.5,
+    fontSize: 12.5,
     color: 'rgba(230, 232, 196, 0.78)',
   },
   protectedPlantName: {
     fontFamily: Fonts.regular,
-    fontSize: 15,
+    fontSize: 17,
     color: '#FFFFFF',
     marginTop: 2,
   },
   protectedMetaText: {
     fontFamily: Fonts.light,
-    fontSize: 12.5,
-    color: 'rgba(255, 255, 255, 0.75)',
+    fontSize: 13.5,
+    color: 'rgba(255, 255, 255, 0.78)',
+    lineHeight: 20,
   },
   protectedAuthorHighlight: {
     fontFamily: Fonts.regular,
@@ -1281,30 +1410,50 @@ const styles = StyleSheet.create({
   logItemCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 12,
+    gap: 16,
     backgroundColor: 'rgba(255, 255, 255, 0.05)',
-    borderRadius: 16,
-    padding: 13,
+    borderRadius: 24,
+    paddingVertical: 18,
+    paddingHorizontal: 22,
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.10)',
   },
   logIconCircle: {
-    width: 34,
-    height: 34,
-    borderRadius: 17,
+    width: 42,
+    height: 42,
+    borderRadius: 21,
     backgroundColor: 'rgba(134, 239, 172, 0.12)',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  logTextCol: {
+    flex: 1,
+    gap: 4,
+  },
   logTitleText: {
     fontFamily: Fonts.regular,
-    fontSize: 13.5,
+    fontSize: 14.5,
     color: '#FFFFFF',
   },
   logSubText: {
     fontFamily: Fonts.light,
-    fontSize: 12,
-    color: 'rgba(255, 255, 255, 0.60)',
-    marginTop: 2,
+    fontSize: 12.5,
+    color: 'rgba(255, 255, 255, 0.62)',
+  },
+  bottomDismissButton: {
+    marginTop: 32,
+    width: '100%',
+    height: 50,
+    borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.14)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  bottomDismissButtonText: {
+    fontFamily: Fonts.light,
+    fontSize: 13.5,
+    color: 'rgba(255, 255, 255, 0.76)',
   },
 });

@@ -2185,34 +2185,17 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               </Text>
             </View>
 
-            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+            {customSpacesList.length > 1 && (
               <TouchableOpacity
                 style={styles.deleteSpaceHeaderBtn}
-                onPress={() => {
-                  triggerHaptic();
-                  setIsOpticalSeedModalOpen(true);
-                }}
+                onPress={() => handleDeleteSpace(selectedSpaceIndex)}
                 hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-                activeOpacity={0.8}
+                activeOpacity={0.7}
               >
-                <TreegohIcon name="espacios_microclimas" size={11} color="#86EFAC" glow={false} />
-                <Text style={[styles.deleteSpaceHeaderText, { color: '#86EFAC' }]}>
-                  Colmena · QR
-                </Text>
+                <TreegohIcon name="menos" size={10} color="rgba(255, 255, 255, 0.55)" glow={false} />
+                <Text style={styles.deleteSpaceHeaderText}>Eliminar activo</Text>
               </TouchableOpacity>
-
-              {customSpacesList.length > 1 && (
-                <TouchableOpacity
-                  style={styles.deleteSpaceHeaderBtn}
-                  onPress={() => handleDeleteSpace(selectedSpaceIndex)}
-                  hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-                  activeOpacity={0.7}
-                >
-                  <TreegohIcon name="menos" size={10} color="rgba(255, 255, 255, 0.55)" glow={false} />
-                  <Text style={styles.deleteSpaceHeaderText}>Eliminar activo</Text>
-                </TouchableOpacity>
-              )}
-            </View>
+            )}
           </View>
 
           <ScrollView
@@ -2277,6 +2260,32 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               <Text style={styles.spaceAddPillText}>Añadir espacio</Text>
             </TouchableOpacity>
           </ScrollView>
+
+          {/* Tarjeta amplia y respirada para compartir el Santuario en Modo Colmena */}
+          <TouchableOpacity
+            style={styles.colmenaWideCard}
+            onPress={() => {
+              triggerHaptic();
+              setIsOpticalSeedModalOpen(true);
+            }}
+            activeOpacity={0.84}
+          >
+            <GlassCardSheen />
+            <View style={styles.colmenaWideIconCircle}>
+              <TreegohIcon name="espacios_microclimas" size={18} color="#86EFAC" glow={false} />
+            </View>
+            <View style={styles.colmenaWideTextCol}>
+              <Text style={styles.colmenaWideTitle} numberOfLines={1}>
+                Santuario compartido · Modo Colmena
+              </Text>
+              <Text style={styles.colmenaWideSub} numberOfLines={1}>
+                Sincroniza espacios y riegos mediante Semilla Óptica QR
+              </Text>
+            </View>
+            <View style={styles.colmenaWideArrowWrap}>
+              <TreegohIcon name="flecha_adelante" size={14} color="#E6E8C4" glow={false} />
+            </View>
+          </TouchableOpacity>
         </View>
 
         {/* 6. PLANTAS EN EL ESPACIO ACTIVO (DIAGRAMACIÓN AÉREA EN 2 COLUMNAS CON FOTO CARD) */}
@@ -7053,6 +7062,54 @@ const styles = StyleSheet.create({
     height: 32,
     borderRadius: 16,
     backgroundColor: 'rgba(255, 255, 255, 0.14)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  colmenaWideCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 16,
+    marginTop: 6,
+    backgroundColor: 'rgba(255, 255, 255, 0.07)',
+    borderRadius: 24,
+    borderWidth: 1,
+    borderColor: 'rgba(134, 239, 172, 0.26)',
+    paddingVertical: 18,
+    paddingHorizontal: 20,
+    overflow: 'hidden',
+  },
+  colmenaWideIconCircle: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: 'rgba(134, 239, 172, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(134, 239, 172, 0.28)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  colmenaWideTextCol: {
+    flex: 1,
+    gap: 4,
+  },
+  colmenaWideTitle: {
+    fontFamily: Fonts.regular,
+    fontSize: 15,
+    fontWeight: '400',
+    color: '#FFFFFF',
+    letterSpacing: -0.1,
+  },
+  colmenaWideSub: {
+    fontFamily: Fonts.light,
+    fontSize: 12.5,
+    fontWeight: '300',
+    color: 'rgba(255, 255, 255, 0.66)',
+  },
+  colmenaWideArrowWrap: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: 'rgba(255, 255, 255, 0.08)',
     alignItems: 'center',
     justifyContent: 'center',
   },
