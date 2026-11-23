@@ -66,9 +66,6 @@ export interface AssistantSanctuaryContext {
   petTypes?: string[];
 }
 
-const DEFAULT_OPENROUTER_API_KEY =
-  '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';
-
 const EMOJI_STRIP_REGEX =
   /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F900}-\u{1F9FF}]/gu;
 
@@ -422,7 +419,7 @@ function generateOfflineBotanicalReply(
     const treatments = (mainCause?.tratamiento || []).slice(0, 3).map(t => `• ${t}`).join('\n');
 
     return {
-      text: ` por lo que describes, el cuadro coincide con **${matchedSymptom.nombre}**.\n\n**Cómo confirmarlo:** ${matchedSymptom.como_se_ve} Fíjate especialmente en: *${matchedSymptom.donde_mirar}*.\n\n**Causa principal:** ${
+      text: `Por lo que describes, el cuadro coincide con **${matchedSymptom.nombre}**.\n\n**Cómo confirmarlo:** ${matchedSymptom.como_se_ve} Fíjate especialmente en: *${matchedSymptom.donde_mirar}*.\n\n**Causa principal:** ${
         mainCause?.causa || 'Desequilibrio de humedad o ventilación'
       }${secondCause ? ` (o en segundo lugar, ${secondCause.causa.toLowerCase()})` : ''}.\n\n**Pasos recomendados:**\n${treatments}`,
       mood: 'warning',
@@ -450,7 +447,13 @@ function generateOfflineBotanicalReply(
       return {
         text: mustBePetSafe
           ? `Para un rincón de **luz baja o contenida** y que además sea **100% segura para tus mascotas**, las tres mejores elecciones son:\n\n• **Aspidistra (*Aspidistra elatior*):** Prácticamente indestructible, tolera desde 400 Lux y ambientes secos.\n• **Calathea Lancifolia o Maranta Fascinator:** Viven muy bien con luz filtrada suave y cierran sus hojas de noche.\n• **Chamaedorea (Palmera de Salón):** Aporta volumen verde elegante en sombras luminosas y no es tóxica.`
-          : `Para zonas con **poca luz natural** (< 1.000 Lux), estas especies mantienen su follaje impecable sin estirarse:\n\n• **Zamioculcas (*Planta ZZ*):** Almacena agua en sus rizomas y tolera rincones alejados de la ventana regándola solo cada 12–15 días.\n• **Sansevieria (*Lengua de Suegra*):** Purifica el aire de noche y resiste tanto sombra como olvidos de riego.\n• **Aglaonema Silver Bay:** Hojas plateadas muy ornamentales adaptadas a luz interior baja.`;
+          : `Para zonas con **poca luz natural** (< 1.000 Lux), estas especies mantienen su follaje impecable sin estirarse:\n\n• **Zamioculcas (*Planta ZZ*):** Almacena agua en sus rizomas y tolera rincones alejados de la ventana regándola solo cada 12–15 días.\n• **Sansevieria (*Lengua de Suegra*):** Purifica el aire de noche y resiste tanto sombra como olvidos de riego.\n• **Aglaonema Silver Bay:** Hojas plateadas muy ornamentales adaptadas a luz interior baja.`,
+        mood: 'curious',
+        suggestedFollowUps: [
+          '¿Cada cuánto se riegan en un rincón con poca luz?',
+          '¿Cómo están mis plantas actuales?',
+        ],
+      };
     }
 
     return {
@@ -519,7 +522,7 @@ export async function queryBotanicalAssistant(
   const apiKey =
     process.env.EXPO_PUBLIC_OPENROUTER_API_KEY ||
     process.env.OPENROUTER_API_KEY ||
-    DEFAULT_OPENROUTER_API_KEY;
+    '';
 
   const configuredModel =
     process.env.EXPO_PUBLIC_OPENROUTER_MODEL ||

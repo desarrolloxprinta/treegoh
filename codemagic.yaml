@@ -42,8 +42,7 @@ workflows:
             cp "../biblia-plantas/output/biblia.json" src/constants/biblia.json
           fi
           echo "🔑 Configurando variables de entorno públicas para Expo..."
-          OR_DEFAULT=$(echo "c2stb3ItdjEtYTFiMDZjZTA3NjRhODY5M2JlODFmYzRmZTFhOWFmMTQ2ZjFkMmExNGNhOTc1OWZhM2I3NDNhYzBlYWYyNzQyYw==" | base64 -d 2>/dev/null || echo "")
-          echo "EXPO_PUBLIC_OPENROUTER_API_KEY=${EXPO_PUBLIC_OPENROUTER_API_KEY:-$OR_DEFAULT}" > .env
+          echo "EXPO_PUBLIC_OPENROUTER_API_KEY=${EXPO_PUBLIC_OPENROUTER_API_KEY}" > .env
           echo "EXPO_PUBLIC_OPENROUTER_MODEL=${EXPO_PUBLIC_OPENROUTER_MODEL:-google/gemini-2.5-flash}" >> .env
           echo "EXPO_PUBLIC_FIREBASE_PROJECT_ID=${EXPO_PUBLIC_FIREBASE_PROJECT_ID:-treegoh-6d95a}" >> .env
           echo "EXPO_PUBLIC_FIREBASE_APP_ID=${EXPO_PUBLIC_FIREBASE_APP_ID:-1:68871982875:web:6be331828bab0109a08dbe}" >> .env
