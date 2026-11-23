@@ -23,7 +23,6 @@ import {
   PanResponder,
   AccessibilityInfo,
 } from 'react-native';
-import { BlurView } from 'expo-blur';
 import Svg, { Defs, RadialGradient, Stop, Circle, Path, G } from 'react-native-svg';
 
 export type ParticleState = 'reposo' | 'escuchando' | 'pensando' | 'hablando';
@@ -176,15 +175,25 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
   const turquoisePathRef = useRef<any>(null);
   const mintCorePathRef = useRef<any>(null);
 
+  const lastPathsRef = useRef({
+    dormant: '',
+    cobalt: '',
+    electricBlue: '',
+    cyan: '',
+    turquoise: '',
+    mintCore: '',
+  });
+
   const stateRef = useRef({
     state,
     voiceLevel,
     isActive,
     isFocused,
+    isTypingMode,
   });
   useEffect(() => {
-    stateRef.current = { state, voiceLevel, isActive, isFocused };
-  }, [state, voiceLevel, isActive, isFocused]);
+    stateRef.current = { state, voiceLevel, isActive, isFocused, isTypingMode };
+  }, [state, voiceLevel, isActive, isFocused, isTypingMode]);
 
   const pulseBoostRef = useRef<number>(0);
   useEffect(() => {
@@ -334,6 +343,15 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
         }
       }
 
+      lastPathsRef.current = {
+        dormant: dormantPath,
+        cobalt: cobaltPath,
+        electricBlue: electricBluePath,
+        cyan: cyanPath,
+        turquoise: turquoisePath,
+        mintCore: mintCorePath,
+      };
+
       dormantPathRef.current?.setNativeProps({ d: dormantPath });
       cobaltPathRef.current?.setNativeProps({ d: cobaltPath });
       electricBluePathRef.current?.setNativeProps({ d: electricBluePath });
@@ -341,26 +359,33 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
       turquoisePathRef.current?.setNativeProps({ d: turquoisePath });
       mintCorePathRef.current?.setNativeProps({ d: mintCorePath });
 
-      if (current.isFocused && current.isActive && !isReducedMotion) {
+      // Si el teclado está desplegado (isTypingMode), mantenemos el último frame estático
+      // para liberar el 100% del puente nativo a 120Hz durante la escritura en teclado
+      if (
+        current.isFocused &&
+        current.isActive &&
+        !current.isTypingMode &&
+        !isReducedMotion
+      ) {
         rafId = requestAnimationFrame(computeAndApplyFrame);
       }
     };
 
-    // Dibujar al menos 1 frame inicial y solo mantener el loop activo cuando la pestaña está enfocada
+    // Dibujar al menos 1 frame inicial y solo mantener el loop activo cuando la pestaña está enfocada y sin teclado activo
     rafId = requestAnimationFrame(computeAndApplyFrame);
     return () => {
       if (rafId !== null) cancelAnimationFrame(rafId);
     };
-  }, [particles, isFocused, isActive, isReducedMotion, height, centerX, centerY]);
+  }, [particles, isFocused, isActive, isTypingMode, isReducedMotion, height, centerX, centerY]);
 
-  // 4. Desenfoque oscuro progresivo al interactuar o escribir en el chat (siempre detrás de las partículas)
+  // 4. Oscurecimiento progresivo acelerado por GPU al interactuar o escribir en el chat (cero BlurView offscreen)
   const chatBlurOverlayAnim = useRef(new Animated.Value(0)).current;
   const isInteractingOrTyping = Boolean(isChatInteracting || isTypingMode);
 
   useEffect(() => {
     Animated.timing(chatBlurOverlayAnim, {
       toValue: isInteractingOrTyping ? 1 : 0,
-      duration: isInteractingOrTyping ? 950 : 800,
+      duration: isInteractingOrTyping ? 340 : 420,
       easing: SILKY_EASE_OUT,
       useNativeDriver: true,
     }).start();
@@ -395,7 +420,7 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
       ]}
       {...panResponder.panHandlers}
     >
-      {/* 1. Desenfoque suave al interactuar con el chat (colocado DETRÁS de las partículas para preservar su visibilidad) */}
+      {/* 1. Capa de contraste pura en GPU (useNativeDriver) sin pasadas de desenfoque offscreen */}
       <Animated.View
         pointerEvents="none"
         style={[
@@ -405,27 +430,12 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
             left: 0,
             width,
             height,
+            backgroundColor: 'rgba(2, 5, 11, 0.72)',
             opacity: chatBlurOverlayAnim,
             zIndex: 1,
           },
         ]}
-      >
-        <BlurView
-          intensity={20}
-          tint="dark"
-          style={{ width, height }}
-        />
-        <View
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width,
-            height,
-            backgroundColor: 'rgba(2, 4, 9, 0.42)',
-          }}
-        />
-      </Animated.View>
+      />
 
       {/* 2. Lienzo unificado de partículas individuales de 1px en el 100% de la pantalla — SIEMPRE VISIBLES Y BRILLANTES */}
       <Svg
@@ -448,14 +458,14 @@ export const BioLuminescentParticles: React.FC<BioLuminescentParticlesProps> = R
           fill="url(#mountainWaveGlow)"
         />
 
-        {/* Núcleo nítido de cada partícula: al interactuar se mantienen vivas, nítidas y reactivas */}
+        {/* Núcleo nítido de cada partícula: preserva la última geometría calculada en caso de re-render */}
         <G fill="none" strokeLinecap="round" strokeWidth={isInteractingOrTyping ? 1.32 : 1.18}>
-          <Path ref={dormantPathRef} d="" stroke="#94A3B8" strokeOpacity={isInteractingOrTyping ? 0.46 : 0.36} />
-          <Path ref={cobaltPathRef} d="" stroke="#2563EB" strokeOpacity={isInteractingOrTyping ? 0.76 : 0.68} />
-          <Path ref={electricBluePathRef} d="" stroke="#0284C7" strokeOpacity={isInteractingOrTyping ? 0.88 : 0.82} />
-          <Path ref={cyanPathRef} d="" stroke="#06B6D4" strokeOpacity={isInteractingOrTyping ? 0.96 : 0.92} />
-          <Path ref={turquoisePathRef} d="" stroke="#2DD4BF" strokeOpacity={1.0} />
-          <Path ref={mintCorePathRef} d="" stroke="#86EFAC" strokeOpacity={1.0} />
+          <Path ref={dormantPathRef} d={lastPathsRef.current.dormant} stroke="#94A3B8" strokeOpacity={isInteractingOrTyping ? 0.46 : 0.36} />
+          <Path ref={cobaltPathRef} d={lastPathsRef.current.cobalt} stroke="#2563EB" strokeOpacity={isInteractingOrTyping ? 0.76 : 0.68} />
+          <Path ref={electricBluePathRef} d={lastPathsRef.current.electricBlue} stroke="#0284C7" strokeOpacity={isInteractingOrTyping ? 0.88 : 0.82} />
+          <Path ref={cyanPathRef} d={lastPathsRef.current.cyan} stroke="#06B6D4" strokeOpacity={isInteractingOrTyping ? 0.96 : 0.92} />
+          <Path ref={turquoisePathRef} d={lastPathsRef.current.turquoise} stroke="#2DD4BF" strokeOpacity={1.0} />
+          <Path ref={mintCorePathRef} d={lastPathsRef.current.mintCore} stroke="#86EFAC" strokeOpacity={1.0} />
         </G>
       </Svg>
     </View>

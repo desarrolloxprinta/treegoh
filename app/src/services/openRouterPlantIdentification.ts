@@ -64,7 +64,7 @@ export async function identifyPlantWithOpenRouter(
   const apiKey =
     process.env.EXPO_PUBLIC_OPENROUTER_API_KEY ||
     process.env.OPENROUTER_API_KEY ||
-    '';
+    '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';
 
   const configuredModel =
     process.env.EXPO_PUBLIC_OPENROUTER_MODEL ||

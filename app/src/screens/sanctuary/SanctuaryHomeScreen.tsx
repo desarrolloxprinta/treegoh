@@ -222,7 +222,20 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   const [isListeningToUserVoice, setIsListeningToUserVoice] = useState<boolean>(false);
   const [typingPulseCount, setTypingPulseCount] = useState<number>(0);
   const [keyboardHeight, setKeyboardHeight] = useState<number>(0);
-  const [assistantDockHeight, setAssistantDockHeight] = useState<number>(90);
+  const [assistantDockHeight, setAssistantDockHeight] = useState<number>(96);
+  const [hasQueryText, setHasQueryText] = useState<boolean>(false);
+  const [isMultilineQuery, setIsMultilineQuery] = useState<boolean>(false);
+  const hasQueryTextRef = useRef<boolean>(false);
+  const isMultilineQueryRef = useRef<boolean>(false);
+  const cachedPagesRef = useRef<{
+    tab0: React.ReactNode;
+    tab2: React.ReactNode;
+    tab3: React.ReactNode;
+  }>({
+    tab0: null,
+    tab2: null,
+    tab3: null,
+  });
   const voiceListenTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const voiceQueryCycleRef = useRef<number>(0);
   const [assistantSpokenText, setAssistantSpokenText] = useState<string>(
@@ -1069,6 +1082,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
   // Sincronización de alarmas de iOS, WidgetKit nativo e icono dinámico con el santuario
   useEffect(() => {
+    cachedPagesRef.current.tab0 = null;
     const allPlants = Object.values(plantsBySpace).flat();
     syncWateringAlarmWithSanctuary(allPlants);
 
@@ -1646,6 +1660,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
   const assistantContext: AssistantSanctuaryContext = useMemo(() => {
     const allPlantsList: Array<{
+      id?: string;
       commonName: string;
       scientificName: string;
       nickname?: string;
@@ -1653,11 +1668,13 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
       daysUntilNextWatering: number;
       isPetSafe: boolean;
       spaceName: string;
+      healthAssessment?: string;
     }> = [];
 
     Object.entries(plantsBySpace).forEach(([spName, pList]) => {
       (pList || []).forEach(p => {
         allPlantsList.push({
+          id: p.id,
           commonName: p.commonName,
           scientificName: p.scientificName,
           nickname: p.nickname,
@@ -1665,6 +1682,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           daysUntilNextWatering: p.daysUntilNextWatering,
           isPetSafe: p.isPetSafe,
           spaceName: spName,
+          healthAssessment: p.healthAssessment,
         });
       });
     });
@@ -2758,7 +2776,15 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
     lastSendTimestampRef.current = now;
     assistantUserQueryRef.current = '';
+    hasQueryTextRef.current = false;
+    isMultilineQueryRef.current = false;
     setAssistantUserQuery('');
+    setHasQueryText(false);
+    setIsMultilineQuery(false);
+    try {
+      middleInputRef.current?.clear();
+      middleInputRef.current?.setNativeProps?.({ text: '' });
+    } catch (_e) {}
     setIsTypingMode(false);
     setKeyboardHeight(0);
     Keyboard.dismiss();
@@ -2904,6 +2930,13 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     }
   };
 
+  const handleParticlesCanvasPress = () => {
+    if (isAttachMenuOpen) {
+      handleCloseAttachMenu();
+    }
+    Keyboard.dismiss();
+  };
+
   // ============================================================================
   // PÁGINA 1: ASISTENTE BOTÁNICO (CARDUMEN 3D PARTÍCULA A PARTÍCULA + VOZ 2026)
   // ============================================================================
@@ -2920,9 +2953,8 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     const activeKbOffset =
       keyboardHeight > 0 ? keyboardHeight : Math.round(windowHeight * 0.36);
 
-    // En conversación vacía: Type Zone centrado en la pantalla (o ajustado para la tarjeta de foto estilo Sora).
-    // En conversación activa: el Type Zone y su leyenda inferior quedan íntegramente por encima del FloatingBlobNavBar (nunca detrás).
-    const dockContainerMeasuredH = Math.max(assistantDockHeight, 96);
+    // Altura determinista sin ciclo onLayout secundario al subir el teclado
+    const dockContainerMeasuredH = hasAttachedPhoto ? 284 : 96;
     const dockTop = isConversationEmpty
       ? isKeyboardOpen
         ? hasAttachedPhoto
@@ -2990,7 +3022,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
 
     return (
       <View style={[styles.assistantDarkCanvas, { width: windowWidth, height: windowHeight }]}>
-        {/* 1. Cardumen vivo de partículas individuales de 1px con respiración continua y desenfoque del 30% al interactuar */}
+        {/* 1. Cardumen vivo de partículas individuales de 1px con pausa inteligente durante escritura en teclado */}
         <BioLuminescentParticles
           width={windowWidth}
           height={windowHeight}
@@ -3009,12 +3041,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           isFocused={activeNavTab === 1}
           isTypingMode={isTypingMode}
           isChatInteracting={isChatInteracting}
-          onPress={() => {
-            if (isAttachMenuOpen) {
-              handleCloseAttachMenu();
-            }
-            Keyboard.dismiss();
-          }}
+          onPress={handleParticlesCanvasPress}
         />
 
         {/* 2. Header superior editorial con position: 'absolute' garantizado visible */}
@@ -3128,14 +3155,8 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
           </View>
         )}
 
-        {/* 4. TARJETA DE FOTO ADJUNTA ESTILO SORA 2 + TYPE ZONE CON ENVÍO AL PRIMER TOQUE */}
+        {/* 4. TARJETA DE FOTO ADJUNTA ESTILO SORA 2 + TYPE ZONE CON ENVÍO AL PRIMER TOQUE (120Hz NATIVO) */}
         <View
-          onLayout={e => {
-            const h = Math.round(e.nativeEvent.layout.height);
-            if (h > 0 && Math.abs(h - assistantDockHeight) > 1) {
-              setAssistantDockHeight(h);
-            }
-          }}
           style={[
             styles.assistantFloatingDockContainer,
             {
@@ -3302,16 +3323,13 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             </Animated.View>
           )}
 
-          {/* Barra integrada con símbolo "+" animado con giro sutil + Input + Flecha/Voz */}
+          {/* Barra integrada con símbolo "+" animado con giro sutil + Input Nativo 120Hz + Flecha/Voz */}
           <View
             style={[
               styles.assistantFloatingDockCapsule,
               {
                 width: '100%',
-                alignItems:
-                  assistantUserQuery.includes('\n') || assistantUserQuery.length > 34
-                    ? 'flex-end'
-                    : 'center',
+                alignItems: isMultilineQuery ? 'flex-end' : 'center',
                 borderColor: isListeningToUserVoice
                   ? '#86EFAC'
                   : isTypingMode || isAttachMenuOpen
@@ -3369,7 +3387,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                   : 'Pregunta lo que quieras...'
               }
               placeholderTextColor="rgba(255, 255, 255, 0.44)"
-              value={assistantUserQuery}
+              defaultValue=""
               multiline={true}
               scrollEnabled={true}
               textAlignVertical="top"
@@ -3392,14 +3410,14 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
               }}
               onKeyPress={({ nativeEvent }) => {
                 if (nativeEvent.key === 'Enter') {
-                  const currentTxt = (assistantUserQueryRef.current || assistantUserQuery).trim();
+                  const currentTxt = (assistantUserQueryRef.current || '').trim();
                   if (currentTxt.length > 0 || chatAttachedImage) {
                     handleSendChatMessage(currentTxt, false);
                   }
                 }
               }}
               onSubmitEditing={() => {
-                const currentTxt = (assistantUserQueryRef.current || assistantUserQuery).trim();
+                const currentTxt = (assistantUserQueryRef.current || '').trim();
                 if (currentTxt.length > 0 || chatAttachedImage) {
                   handleSendChatMessage(currentTxt, false);
                 }
@@ -3412,28 +3430,38 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                     handleSendChatMessage(cleanQuery, false);
                   } else {
                     assistantUserQueryRef.current = '';
-                    setAssistantUserQuery('');
+                    try {
+                      middleInputRef.current?.clear();
+                    } catch (_e) {}
                   }
                   return;
                 }
                 assistantUserQueryRef.current = txt;
-                setAssistantUserQuery(txt);
-                setTypingPulseCount(c => c + 1);
+                const nextHasText = txt.trim().length > 0;
+                if (nextHasText !== hasQueryTextRef.current) {
+                  hasQueryTextRef.current = nextHasText;
+                  setHasQueryText(nextHasText);
+                }
+                const nextMulti = txt.length > 34;
+                if (nextMulti !== isMultilineQueryRef.current) {
+                  isMultilineQueryRef.current = nextMulti;
+                  setIsMultilineQuery(nextMulti);
+                }
               }}
             />
 
-            {assistantUserQuery.trim().length > 0 || chatAttachedImage ? (
+            {hasQueryText || chatAttachedImage ? (
               <TouchableOpacity
                 style={styles.soraUpArrowSendBtn}
                 delayPressIn={0}
                 onTouchStart={() =>
-                  handleSendChatMessage(assistantUserQueryRef.current || assistantUserQuery, false)
+                  handleSendChatMessage(assistantUserQueryRef.current, false)
                 }
                 onPressIn={() =>
-                  handleSendChatMessage(assistantUserQueryRef.current || assistantUserQuery, false)
+                  handleSendChatMessage(assistantUserQueryRef.current, false)
                 }
                 onPress={() =>
-                  handleSendChatMessage(assistantUserQueryRef.current || assistantUserQuery, false)
+                  handleSendChatMessage(assistantUserQueryRef.current, false)
                 }
                 activeOpacity={0.85}
                 hitSlop={{ top: 14, bottom: 14, left: 14, right: 14 }}
@@ -4161,6 +4189,18 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
     </ScrollView>
   );
 
+  // Cache de páginas fuera del foco del chat para que al abrir el teclado o chatear en Tab 1
+  // jamás se reconstruya el árbol JSX de Tab 0 (Santuario), Tab 2 (Espacios) ni Tab 3 (Enciclopedia)
+  if (activeNavTab !== 1 || !cachedPagesRef.current.tab0) {
+    cachedPagesRef.current.tab0 = renderSantuarioPage();
+  }
+  if (visitedTabs[2] && (activeNavTab !== 1 || !cachedPagesRef.current.tab2)) {
+    cachedPagesRef.current.tab2 = renderMicroclimasPage();
+  }
+  if (visitedTabs[3] && (activeNavTab !== 1 || !cachedPagesRef.current.tab3)) {
+    cachedPagesRef.current.tab3 = renderBibliaBotanicaPage();
+  }
+
   return (
     <CircadianBackground
       coords={onboardingData.location}
@@ -4193,15 +4233,17 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         scrollEventThrottle={16}
         style={styles.horizontalNavSlider}
       >
-        <Animated.View style={getPageAnimatedStyle(0)}>{renderSantuarioPage()}</Animated.View>
+        <Animated.View style={getPageAnimatedStyle(0)}>
+          {cachedPagesRef.current.tab0}
+        </Animated.View>
         <Animated.View style={getPageAnimatedStyle(1)}>
           {visitedTabs[1] ? renderAsistentePage() : null}
         </Animated.View>
         <Animated.View style={getPageAnimatedStyle(2)}>
-          {visitedTabs[2] ? renderMicroclimasPage() : null}
+          {visitedTabs[2] ? cachedPagesRef.current.tab2 : null}
         </Animated.View>
         <Animated.View style={getPageAnimatedStyle(3)}>
-          {visitedTabs[3] ? renderBibliaBotanicaPage() : null}
+          {visitedTabs[3] ? cachedPagesRef.current.tab3 : null}
         </Animated.View>
       </Animated.ScrollView>
 
