@@ -2,7 +2,8 @@
 //  TreegohSanctuaryWidget.swift
 //  TreegohWidgetExtension — iOS WidgetKit (Home Screen & Lock Screen)
 //
-//  Soporta 4 familias de widgets nativos de iOS estilo Duolingo y Spotify:
+//  Soporta 4 familias de widgets nativos de iOS estilo Duolingo y Spotify
+//  con compatibilidad completa para iOS 16, iOS 17 y iOS 18+ (containerBackground):
 //  - systemSmall (2x2): Racha Botánica Duolingo + Estado de Riego
 //  - systemMedium (4x2): Radar del Santuario estilo Spotify + Próximas especies
 //  - accessoryCircular (Lock Screen): Anillo de Racha del Santuario
@@ -73,13 +74,32 @@ struct SanctuaryTimelineProvider: TimelineProvider {
     }
 
     private func loadFromSharedDefaults() -> SanctuaryWidgetData {
-        guard let sharedDefaults = UserDefaults(suiteName: appGroupId),
-              let jsonString = sharedDefaults.string(forKey: payloadKey),
-              let jsonData = jsonString.data(using: .utf8),
-              let decoded = try? JSONDecoder().decode(SanctuaryWidgetData.self, from: jsonData) else {
-            return .placeholder
+        if let sharedDefaults = UserDefaults(suiteName: appGroupId),
+           let jsonString = sharedDefaults.string(forKey: payloadKey),
+           let jsonData = jsonString.data(using: .utf8),
+           let decoded = try? JSONDecoder().decode(SanctuaryWidgetData.self, from: jsonData) {
+            return decoded
         }
-        return decoded
+        if let standardJson = UserDefaults.standard.string(forKey: payloadKey),
+           let jsonData = standardJson.data(using: .utf8),
+           let decoded = try? JSONDecoder().decode(SanctuaryWidgetData.self, from: jsonData) {
+            return decoded
+        }
+        return .placeholder
+    }
+}
+
+extension View {
+    @ViewBuilder
+    func treegohContainerBackground<BG: View>(@ViewBuilder backgroundView: () -> BG) -> some View {
+        if #available(iOSApplicationExtension 17.0, *) {
+            self.containerBackground(for: .widget) {
+                backgroundView()
+            }
+        } else {
+            self.padding(14)
+                .background(backgroundView())
+        }
     }
 }
 
@@ -129,7 +149,7 @@ struct TreegohSmallWidgetView: View {
 
             Spacer(minLength: 2)
 
-            HStack {
+            HStack(spacing: 5) {
                 Circle()
                     .fill(isUrgent ? Color(red: 0.97, green: 0.44, blue: 0.44) : Color(red: 0.53, green: 0.94, blue: 0.67))
                     .frame(width: 6, height: 6)
@@ -140,8 +160,7 @@ struct TreegohSmallWidgetView: View {
                     .lineLimit(1)
             }
         }
-        .padding(14)
-        .background(
+        .treegohContainerBackground {
             LinearGradient(
                 colors: isSalviaTheme
                     ? [Color(red: 0.90, green: 0.91, blue: 0.77), Color(red: 0.84, green: 0.88, blue: 0.72)]
@@ -149,7 +168,7 @@ struct TreegohSmallWidgetView: View {
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
-        )
+        }
     }
 }
 
@@ -162,8 +181,7 @@ struct TreegohMediumWidgetView: View {
     }
 
     var body: some View {
-        HStack(spacing: 14) {
-            // Columna Izquierda: Racha Duolingo y Mensaje del Santuario
+        HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 6) {
                 HStack(spacing: 6) {
                     Text("treegöh")
@@ -195,7 +213,6 @@ struct TreegohMediumWidgetView: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
 
-            // Columna Derecha: Tarjetas tipo Spotify de Próximo Riego y Colección
             VStack(spacing: 8) {
                 VStack(alignment: .leading, spacing: 3) {
                     Text(isUrgent ? "RIEGO URGENTE HOY" : "PRÓXIMO RIEGO")
@@ -216,7 +233,7 @@ struct TreegohMediumWidgetView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(
                     RoundedRectangle(cornerRadius: 14)
-                        .fill(Color.white.opacity(0.07))
+                        .fill(Color.white.opacity(0.08))
                 )
 
                 HStack {
@@ -234,13 +251,12 @@ struct TreegohMediumWidgetView: View {
                 .padding(.vertical, 8)
                 .background(
                     RoundedRectangle(cornerRadius: 12)
-                        .fill(Color.white.opacity(0.05))
+                        .fill(Color.white.opacity(0.06))
                 )
             }
-            .frame(width: 144)
+            .frame(width: 140)
         }
-        .padding(15)
-        .background(
+        .treegohContainerBackground {
             LinearGradient(
                 colors: [
                     Color(red: 0.04, green: 0.09, blue: 0.06),
@@ -249,7 +265,7 @@ struct TreegohMediumWidgetView: View {
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
-        )
+        }
     }
 }
 
@@ -267,6 +283,9 @@ struct TreegohLockScreenCircularView: View {
                 Text("DÍAS")
                     .font(.system(size: 7.5, weight: .regular))
             }
+        }
+        .treegohContainerBackground {
+            Color.clear
         }
     }
 }
@@ -286,6 +305,9 @@ struct TreegohLockScreenRectangularView: View {
                 .font(.system(size: 10, weight: .light))
                 .foregroundColor(.secondary)
                 .lineLimit(1)
+        }
+        .treegohContainerBackground {
+            Color.clear
         }
     }
 }

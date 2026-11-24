@@ -63,6 +63,8 @@ workflows:
           node scripts/sync-icons.js || true
           echo "🛠️ Ejecutando Expo Prebuild para generar app/ios/Treegoh.xcworkspace..."
           npx expo prebuild --platform ios --clean
+          echo "🧩 Inyectando target nativo TreegohWidgetExtension (iOS WidgetKit)..."
+          ruby scripts/inject-ios-widget-target.rb
           NODE_PATH=$(command -v node || which node)
           echo "export NODE_BINARY=$NODE_PATH" > ios/.xcode.env.local
           echo "export ENTRY_FILE=index.js" >> ios/.xcode.env.local
@@ -105,8 +107,13 @@ workflows:
 
       - name: Fetch / create signing files from Apple Developer Portal
         script: |
-          echo "📥 Obteniendo certificados y provisioning profile para $BUNDLE_ID..."
+          echo "📥 Verificando y registrando Bundle ID de WidgetKit (com.treegoh.app.TreegohWidget)..."
+          python3 app/scripts/ensure-widget-bundle-id.py || true
+          echo "📥 Obteniendo certificados y provisioning profiles para $BUNDLE_ID y WidgetKit..."
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+          app-store-connect fetch-signing-files "com.treegoh.app.TreegohWidget" \
             --type IOS_APP_STORE \
             --create
 
@@ -195,6 +202,7 @@ workflows:
           cd app
           node scripts/sync-icons.js || true
           npx expo prebuild --platform ios --clean
+          ruby scripts/inject-ios-widget-target.rb
           NODE_PATH=$(command -v node || which node)
           echo "export NODE_BINARY=$NODE_PATH" > ios/.xcode.env.local
           echo "export ENTRY_FILE=index.js" >> ios/.xcode.env.local
