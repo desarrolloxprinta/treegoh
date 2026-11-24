@@ -10,6 +10,22 @@ import { getItem, setItem } from './storageService';
 import { UserPlant } from '../types/plant';
 import { CareStreakData } from './reminderService';
 
+export type IOSWidgetThemeId =
+  | 'clorofila_nocturna'
+  | 'salvia_duolingo'
+  | 'cristal_circadiano';
+
+export type IOSWidgetFocusMode =
+  | 'racha_duolingo'
+  | 'radar_spotify'
+  | 'planta_insignia';
+
+export interface IOSWidgetPreferences {
+  theme: IOSWidgetThemeId;
+  focusMode: IOSWidgetFocusMode;
+  featuredSpaceName?: string;
+}
+
 export interface SanctuaryWidgetPayload {
   sanctuaryName: string;
   streakDays: number;
@@ -26,10 +42,38 @@ export interface SanctuaryWidgetPayload {
   totalPlantsCount: number;
   temperatureCelsius?: number;
   weatherCondition?: string;
+  widgetTheme?: IOSWidgetThemeId;
+  widgetFocusMode?: IOSWidgetFocusMode;
 }
 
 const STORAGE_WIDGET_KEY = '@treegoh_widget_data_v1';
+const STORAGE_WIDGET_PREFS_KEY = '@treegoh_widget_prefs_v1';
 export const APP_GROUP_ID = 'group.com.treegoh.app';
+
+export async function getIOSWidgetPreferences(): Promise<IOSWidgetPreferences> {
+  try {
+    const raw = await getItem(STORAGE_WIDGET_PREFS_KEY);
+    if (raw) {
+      const parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
+      if (parsed && parsed.theme && parsed.focusMode) {
+        return parsed;
+      }
+    }
+  } catch (_e) {}
+  return {
+    theme: 'clorofila_nocturna',
+    focusMode: 'racha_duolingo',
+  };
+}
+
+export async function saveIOSWidgetPreferences(
+  prefs: IOSWidgetPreferences
+): Promise<IOSWidgetPreferences> {
+  try {
+    await setItem(STORAGE_WIDGET_PREFS_KEY, prefs);
+  } catch (_e) {}
+  return prefs;
+}
 
 /**
  * Prepara el paquete de datos estructurado para el Widget de iOS

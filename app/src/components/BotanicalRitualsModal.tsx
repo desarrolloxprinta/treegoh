@@ -67,6 +67,7 @@ interface BotanicalRitualsModalProps {
   userName?: string;
   weather?: { temperature: number; condition: string };
   onOpenOpticalSeedModal?: () => void;
+  onOpenWidgetsModal?: () => void;
 }
 
 type TabType = 'todos' | 'riego' | 'fertilizacion' | 'trasplante' | 'limpieza_foliar';
@@ -80,6 +81,7 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
   userName = 'Tú',
   weather,
   onOpenOpticalSeedModal,
+  onOpenWidgetsModal,
 }) => {
   const insets = useSafeAreaInsets();
   const [activeTab, setActiveTab] = useState<TabType>('todos');
@@ -496,17 +498,30 @@ export const BotanicalRitualsModal: React.FC<BotanicalRitualsModalProps> = ({
                       trackColor={{ false: '#334155', true: '#86EFAC' }}
                       thumbColor={alarm.enabled ? '#0B130E' : '#94A3B8'}
                     />
-                    <TouchableOpacity
-                      style={styles.testAlarmBtn}
-                      onPress={() => handleTestAlarm(alarm)}
-                      activeOpacity={0.7}
-                    >
-                      <Text style={styles.testAlarmBtnText}>Probar</Text>
-                    </TouchableOpacity>
                   </View>
                 </View>
               ))}
             </View>
+
+            {onOpenWidgetsModal && (
+              <TouchableOpacity
+                style={[styles.colmenaBannerBtn, { marginTop: 18 }]}
+                onPress={() => {
+                  triggerHaptic(false);
+                  onClose();
+                  setTimeout(() => {
+                    onOpenWidgetsModal();
+                  }, 160);
+                }}
+                activeOpacity={0.85}
+              >
+                <TreegohIcon name="calendario_agenda" size={15} color="#08120C" glow={false} />
+                <Text style={styles.colmenaBannerBtnText}>
+                  Configurar Widgets para Pantalla de Inicio iOS
+                </Text>
+                <TreegohIcon name="flecha_adelante" size={13} color="#08120C" glow={false} />
+              </TouchableOpacity>
+            )}
 
             {/* 5. Icono Dinámico de la App & Favicon */}
             <View style={styles.sectionDivider} />

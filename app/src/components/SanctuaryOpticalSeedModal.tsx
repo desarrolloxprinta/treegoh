@@ -757,31 +757,6 @@ const SanctuaryOpticalSeedModalComponent: React.FC<SanctuaryOpticalSeedModalProp
                     </Text>
                   </TouchableOpacity>
                 </View>
-
-                {/* Tarjeta limpia para simular el cuidado de un conviviente */}
-                <View style={styles.simulationCard}>
-                  <View style={styles.philosophyHeader}>
-                    <View style={styles.philosophyIconCircle}>
-                      <TreegohIcon name="riego_hidratacion" size={17} color="#86EFAC" glow={false} />
-                    </View>
-                    <Text style={styles.philosophyTitle} numberOfLines={1}>
-                      Simulación de cuidado en vivo
-                    </Text>
-                  </View>
-                  <Text style={styles.philosophyBody}>
-                    Comprueba cómo responde tu santuario cuando un conviviente riega una de tus
-                    plantas y activa la protección biológica Anti-Sobre-Riego de 18 horas.
-                  </Text>
-                  <TouchableOpacity
-                    style={styles.simulationTriggerBtn}
-                    onPress={handleSimulateRoommateCare}
-                    activeOpacity={0.85}
-                  >
-                    <Text style={styles.simulationTriggerBtnText} numberOfLines={1}>
-                      Simular riego de conviviente ahora
-                    </Text>
-                  </TouchableOpacity>
-                </View>
               </View>
             )}
 

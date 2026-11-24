@@ -738,13 +738,6 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
                       <Text style={styles.alarmFooterRepeatText}>
                         Diario · Sonido y Vibración háptica
                       </Text>
-                      <TouchableOpacity
-                        style={styles.alarmTestButton}
-                        onPress={() => handleTestAlarm(alarm)}
-                        activeOpacity={0.8}
-                      >
-                        <Text style={styles.alarmTestButtonText}>Probar en iOS</Text>
-                      </TouchableOpacity>
                     </View>
                   </View>
                 ))}
@@ -888,7 +881,7 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
               </View>
             </View>
 
-            {/* 8. ACCIONES DE RESPALDO Y REINICIO DE PRUEBAS */}
+            {/* 8. ACCIONES DE RESPALDO DEL SANTUARIO */}
             <View style={styles.actionsSectionBlock}>
               {/* Botón Exportar Santuario */}
               <TouchableOpacity
@@ -907,45 +900,6 @@ export const UserProfileModal: React.FC<UserProfileModalProps> = ({
                   </Text>
                 </View>
               </TouchableOpacity>
-
-              {/* Botón Recalibrar Onboarding */}
-              {onResetOnboarding && (
-                <TouchableOpacity
-                  style={styles.actionCardButtonDanger}
-                  onPress={() => {
-                    triggerHaptic(true);
-                    Alert.alert(
-                      'Recalibrar Santuario',
-                      '¿Deseas reiniciar la configuración inicial y repetir el onboarding de prueba?',
-                      [
-                        { text: 'Cancelar', style: 'cancel' },
-                        {
-                          text: 'Recalibrar',
-                          style: 'destructive',
-                          onPress: () => {
-                            onClose();
-                            setTimeout(() => {
-                              onResetOnboarding();
-                            }, 240);
-                          },
-                        },
-                      ]
-                    );
-                  }}
-                  activeOpacity={0.8}
-                >
-                  <GlassCardSheen />
-                  <View style={styles.actionButtonIconWrapDanger}>
-                    <TreegohIcon name="espacios_microclimas" size={17} color="#FCA5A5" glow={false} />
-                  </View>
-                  <View style={styles.actionButtonTextCol}>
-                    <Text style={styles.actionButtonTitleDanger}>Recalibrar Santuario (Repetir Onboarding)</Text>
-                    <Text style={styles.actionButtonSubDanger} numberOfLines={1}>
-                      Vuelve a calibrar la orientación solar, estancias y perfil.
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              )}
             </View>
           </ScrollView>
         </View>

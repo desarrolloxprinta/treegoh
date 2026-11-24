@@ -43,6 +43,7 @@ import { searchBotanicalWithTypesense, searchBotanicalSync } from '../../service
 import { syncWateringAlarmWithSanctuary } from '../../services/iosNotificationAlarmService';
 import { BotanicalRitualsModal } from '../../components/BotanicalRitualsModal';
 import { SanctuaryOpticalSeedModal } from '../../components/SanctuaryOpticalSeedModal';
+import { IOSWidgetsGalleryModal } from '../../components/IOSWidgetsGalleryModal';
 import {
   OpticalSeedPayload,
   recordColmenaCareAction,
@@ -135,6 +136,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
   const [isAssistantModalOpen, setIsAssistantModalOpen] = useState<boolean>(false);
   const [isRitualsModalOpen, setIsRitualsModalOpen] = useState<boolean>(false);
   const [isOpticalSeedModalOpen, setIsOpticalSeedModalOpen] = useState<boolean>(false);
+  const [isWidgetsGalleryOpen, setIsWidgetsGalleryOpen] = useState<boolean>(false);
   const [isSeedScannerHintActive, setIsSeedScannerHintActive] = useState<boolean>(false);
   const [recentlyScannedSeed, setRecentlyScannedSeed] = useState<OpticalSeedPayload | null>(null);
   const [careStreak, setCareStreak] = useState<CareStreakData | null>(null);
@@ -2188,6 +2190,25 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
                 <Text style={styles.tideActionSub}>Semilla Óptica QR</Text>
               </View>
             </TouchableOpacity>
+
+            {/* Card 6: Widgets iOS (Estilo Duolingo y Spotify) */}
+            <TouchableOpacity
+              style={styles.tideActionGlassCard}
+              onPress={() => {
+                triggerHaptic();
+                setIsWidgetsGalleryOpen(true);
+              }}
+              activeOpacity={0.82}
+            >
+              <GlassCardSheen />
+              <View style={styles.tideActionIconWrap}>
+                <TreegohIcon name="calendario_agenda" size={24} color="#E6E8C4" glow={true} glowColor="#E6E8C4" />
+              </View>
+              <View style={styles.tideActionTextWrap}>
+                <Text style={styles.tideActionTitle}>Widgets iOS</Text>
+                <Text style={styles.tideActionSub}>Inicio y Bloqueo</Text>
+              </View>
+            </TouchableOpacity>
           </ScrollView>
         </View>
 
@@ -2642,17 +2663,6 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             </View>
           )}
         </View>
-
-        {/* 6. BOTÓN PARA REINICIAR TEST */}
-        {onResetForTest && (
-          <TouchableOpacity
-            style={styles.testResetBtn}
-            onPress={onResetForTest}
-            activeOpacity={0.8}
-          >
-            <Text style={styles.testResetText}>Reiniciar Onboarding para Test</Text>
-          </TouchableOpacity>
-        )}
       </ScrollView>
     );
   };
@@ -4493,6 +4503,7 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
             : undefined
         }
         onOpenOpticalSeedModal={() => setIsOpticalSeedModalOpen(true)}
+        onOpenWidgetsModal={() => setIsWidgetsGalleryOpen(true)}
       />
 
       {/* MODAL DE SEMILLA ÓPTICA Y CO-CUIDADO EN MODO COLMENA */}
@@ -4513,6 +4524,20 @@ export const SanctuaryHomeScreen: React.FC<SanctuaryHomeScreenProps> = ({
         }}
         recentlyScannedSeed={recentlyScannedSeed}
         onClearScannedSeed={() => setRecentlyScannedSeed(null)}
+      />
+
+      {/* GALERÍA Y CONFIGURADOR DE WIDGETS DE IOS (ESTILO DUOLINGO Y SPOTIFY) */}
+      <IOSWidgetsGalleryModal
+        visible={isWidgetsGalleryOpen}
+        onClose={() => setIsWidgetsGalleryOpen(false)}
+        plantsBySpace={plantsBySpace}
+        sanctuaryName={activeSpace?.name || 'Mi Santuario'}
+        activeSpaceLux={activeSpace?.estimatedLux || 3200}
+        weather={
+          liveWeather
+            ? { temperature: liveWeather.temperature, condition: liveWeather.condition }
+            : undefined
+        }
       />
     </CircadianBackground>
   );
