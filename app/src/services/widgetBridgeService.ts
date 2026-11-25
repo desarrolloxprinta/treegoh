@@ -26,6 +26,13 @@ export interface IOSWidgetPreferences {
   featuredSpaceName?: string;
 }
 
+export interface WidgetPlantSummaryItem {
+  name: string;
+  spaceName: string;
+  daysUntilWatering: number;
+  status: string;
+}
+
 export interface SanctuaryWidgetPayload {
   sanctuaryName: string;
   streakDays: number;
@@ -44,6 +51,7 @@ export interface SanctuaryWidgetPayload {
   weatherCondition?: string;
   widgetTheme?: IOSWidgetThemeId;
   widgetFocusMode?: IOSWidgetFocusMode;
+  topPlants?: WidgetPlantSummaryItem[];
 }
 
 const STORAGE_WIDGET_KEY = '@treegoh_widget_data_v1';
@@ -115,6 +123,13 @@ export function buildWidgetPayload(
     duoBody = `${name} necesitará hidratación en las próximas 24 horas.`;
   }
 
+  const topPlants: WidgetPlantSummaryItem[] = sortedByWatering.slice(0, 4).map(p => ({
+    name: p.nickname || p.commonName,
+    spaceName: p.spaceName,
+    daysUntilWatering: Math.max(0, p.daysUntilNextWatering),
+    status: p.wateringStatus,
+  }));
+
   return {
     sanctuaryName,
     streakDays: streak?.currentStreak || 1,
@@ -131,6 +146,7 @@ export function buildWidgetPayload(
     totalPlantsCount: allPlants.length,
     temperatureCelsius: weather?.temperature,
     weatherCondition: weather?.condition,
+    topPlants,
   };
 }
 

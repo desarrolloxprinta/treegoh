@@ -236,6 +236,7 @@ const IOSWidgetsGalleryModalComponent: React.FC<IOSWidgetsGalleryModalProps> = (
     : '#86EFAC';
 
   const topTwoPlants = sortedPlants.slice(0, 2);
+  const topFourPlants = sortedPlants.slice(0, 4);
 
   const backdropOpacity = translateY.interpolate({
     inputRange: [0, 340],
@@ -612,7 +613,208 @@ const IOSWidgetsGalleryModalComponent: React.FC<IOSWidgetsGalleryModalProps> = (
                   </View>
                 </View>
 
-                {/* 3. WIDGETS DE PANTALLA DE BLOQUEO (LOCK SCREEN BAJO EL RELOJ) */}
+                {/* 3. WIDGET CUADRADO GRANDE (4x4 — PANEL COMPLETO DEL SANTUARIO) */}
+                <View style={styles.previewSectionBlock}>
+                  <View style={styles.previewLabelRow}>
+                    <Text style={styles.previewFormatTitle}>
+                      Widget Cuadrado Grande (4×4 · Panel Completo)
+                    </Text>
+                    <Text style={styles.previewFormatTag}>Cuadrado Grande</Text>
+                  </View>
+
+                  <View
+                    style={[
+                      styles.largeWidgetFrame,
+                      {
+                        backgroundColor: widgetBgColor,
+                        borderColor: widgetBorderColor,
+                      },
+                    ]}
+                  >
+                    {/* Cabecera superior */}
+                    <View style={styles.largeHeaderRow}>
+                      <View style={{ flex: 1, gap: 2 }}>
+                        <Text
+                          style={[
+                            styles.widgetBrandWord,
+                            { color: isSalvia ? '#0A140E' : '#E6E8C4', fontSize: 14 },
+                          ]}
+                        >
+                          treegöh
+                        </Text>
+                        <Text
+                          style={[styles.largeSubMeta, { color: widgetSecondaryText }]}
+                          numberOfLines={1}
+                        >
+                          {livePayload.sanctuaryName} · {livePayload.temperatureCelsius ?? 22}°C · ~{activeSpaceLux.toLocaleString()} lx
+                        </Text>
+                      </View>
+
+                      <View
+                        style={[
+                          styles.widgetStreakPill,
+                          {
+                            backgroundColor: isSalvia
+                              ? 'rgba(10, 20, 14, 0.10)'
+                              : 'rgba(134, 239, 172, 0.16)',
+                            paddingHorizontal: 12,
+                            paddingVertical: 5,
+                          },
+                        ]}
+                      >
+                        <Text
+                          style={[
+                            styles.widgetStreakPillText,
+                            { color: widgetAccentColor },
+                          ]}
+                        >
+                          Racha {livePayload.streakDays} d
+                        </Text>
+                      </View>
+                    </View>
+
+                    {/* Tarjeta Hero de Estado */}
+                    <View
+                      style={[
+                        styles.largeHeroStatusBox,
+                        {
+                          backgroundColor: isSalvia
+                            ? 'rgba(10, 20, 14, 0.07)'
+                            : 'rgba(255, 255, 255, 0.07)',
+                        },
+                      ]}
+                    >
+                      <View style={styles.largeHeroTitleRow}>
+                        <Text
+                          style={[styles.largeHeroTitleText, { color: widgetPrimaryText }]}
+                          numberOfLines={1}
+                        >
+                          {livePayload.duoMessageTitle}
+                        </Text>
+                        <Text
+                          style={[styles.largeHeroLevelTag, { color: widgetAccentColor }]}
+                          numberOfLines={1}
+                        >
+                          {livePayload.streakTitle}
+                        </Text>
+                      </View>
+                      <Text
+                        style={[styles.largeHeroBodyText, { color: widgetSecondaryText }]}
+                        numberOfLines={2}
+                      >
+                        {livePayload.duoMessageBody}
+                      </Text>
+                    </View>
+
+                    {/* Calendario de 4 especies */}
+                    <Text
+                      style={[styles.largeScheduleEyebrow, { color: widgetAccentColor }]}
+                    >
+                      CALENDARIO DE ESPECIES ({livePayload.totalPlantsCount})
+                    </Text>
+
+                    <View style={styles.largePlantsListCol}>
+                      {topFourPlants.map(plant => {
+                        const needsNow =
+                          plant.wateringStatus === 'necesita_riego' ||
+                          plant.daysUntilNextWatering <= 0;
+                        return (
+                          <View
+                            key={`w_lrg_${plant.id}`}
+                            style={[
+                              styles.largePlantItemRow,
+                              {
+                                backgroundColor: isSalvia
+                                  ? 'rgba(10, 20, 14, 0.07)'
+                                  : 'rgba(255, 255, 255, 0.06)',
+                              },
+                            ]}
+                          >
+                            {plant.imageUrl ? (
+                              <Image
+                                source={{ uri: plant.imageUrl }}
+                                style={styles.largePlantThumb}
+                              />
+                            ) : (
+                              <View
+                                style={[
+                                  styles.smallStatusDot,
+                                  {
+                                    backgroundColor: needsNow ? '#F87171' : widgetAccentColor,
+                                  },
+                                ]}
+                              />
+                            )}
+                            <View style={{ flex: 1, gap: 1 }}>
+                              <Text
+                                style={[
+                                  styles.largePlantNameText,
+                                  { color: widgetPrimaryText },
+                                ]}
+                                numberOfLines={1}
+                              >
+                                {plant.nickname || plant.commonName}
+                              </Text>
+                              <Text
+                                style={[
+                                  styles.largePlantSpaceText,
+                                  { color: widgetSecondaryText },
+                                ]}
+                                numberOfLines={1}
+                              >
+                                {plant.spaceName}
+                              </Text>
+                            </View>
+
+                            <View
+                              style={[
+                                styles.largePlantStatePill,
+                                {
+                                  backgroundColor: needsNow
+                                    ? 'rgba(248, 113, 113, 0.18)'
+                                    : isSalvia
+                                    ? 'rgba(10, 20, 14, 0.08)'
+                                    : 'rgba(255, 255, 255, 0.08)',
+                                },
+                              ]}
+                            >
+                              <Text
+                                style={[
+                                  styles.largePlantStateText,
+                                  {
+                                    color: needsNow
+                                      ? isSalvia
+                                        ? '#B91C1C'
+                                        : '#F87171'
+                                      : widgetAccentColor,
+                                  },
+                                ]}
+                              >
+                                {needsNow
+                                  ? 'Riego hoy'
+                                  : plant.wateringStatus === 'hidratada'
+                                  ? 'Hidratada'
+                                  : `En ${plant.daysUntilNextWatering}d`}
+                              </Text>
+                            </View>
+                          </View>
+                        );
+                      })}
+                    </View>
+
+                    {/* Pie del Cuadrado Grande */}
+                    <Text
+                      style={[styles.largeFooterSummary, { color: widgetSecondaryText }]}
+                      numberOfLines={1}
+                    >
+                      {livePayload.pendingWateringsCount > 0
+                        ? `${livePayload.pendingWateringsCount} especies piden hidratación hoy`
+                        : 'Todas tus especies se encuentran en equilibrio hídrico'}
+                    </Text>
+                  </View>
+                </View>
+
+                {/* 4. WIDGETS DE PANTALLA DE BLOQUEO (LOCK SCREEN BAJO EL RELOJ) */}
                 <View style={styles.previewSectionBlock}>
                   <View style={styles.previewLabelRow}>
                     <Text style={styles.previewFormatTitle}>
@@ -800,7 +1002,7 @@ const IOSWidgetsGalleryModalComponent: React.FC<IOSWidgetsGalleryModalProps> = (
                     {
                       step: '3',
                       title: 'Busca Treegoh y elige el tamaño',
-                      desc: 'Desliza entre el Widget Pequeño (2×2 Racha Duolingo) o el Widget Mediano (4×2 Radar Spotify) y pulsa Añadir widget.',
+                      desc: 'Desliza entre el Widget Pequeño (2×2 Racha Duolingo), el Mediano (4×2 Radar Spotify) o el Cuadrado Grande (4×4 Panel Completo con 4 especies) y pulsa Añadir widget.',
                     },
                   ].map(item => (
                     <View key={item.step} style={styles.stepRowCard}>
@@ -1316,5 +1518,96 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.light,
     fontSize: 13.5,
     color: 'rgba(255, 255, 255, 0.76)',
+  },
+  // Widget Cuadrado Grande 4x4 (systemLarge)
+  largeWidgetFrame: {
+    width: '100%',
+    borderRadius: 32,
+    borderWidth: 1.5,
+    padding: 22,
+    gap: 14,
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 14 },
+    shadowOpacity: 0.40,
+    shadowRadius: 22,
+  },
+  largeHeaderRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 12,
+  },
+  largeSubMeta: {
+    fontFamily: Fonts.light,
+    fontSize: 11.5,
+  },
+  largeHeroStatusBox: {
+    borderRadius: 18,
+    padding: 14,
+    gap: 5,
+  },
+  largeHeroTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 10,
+  },
+  largeHeroTitleText: {
+    fontFamily: Fonts.regular,
+    fontSize: 16,
+    letterSpacing: -0.2,
+  },
+  largeHeroLevelTag: {
+    fontFamily: Fonts.light,
+    fontSize: 11.5,
+  },
+  largeHeroBodyText: {
+    fontFamily: Fonts.light,
+    fontSize: 12.5,
+    lineHeight: 18,
+  },
+  largeScheduleEyebrow: {
+    fontFamily: Fonts.regular,
+    fontSize: 10.5,
+    letterSpacing: 1.2,
+    marginTop: 2,
+  },
+  largePlantsListCol: {
+    gap: 8,
+  },
+  largePlantItemRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    paddingVertical: 9,
+    paddingHorizontal: 12,
+    borderRadius: 15,
+  },
+  largePlantThumb: {
+    width: 34,
+    height: 34,
+    borderRadius: 9,
+  },
+  largePlantNameText: {
+    fontFamily: Fonts.regular,
+    fontSize: 13.5,
+  },
+  largePlantSpaceText: {
+    fontFamily: Fonts.light,
+    fontSize: 11,
+  },
+  largePlantStatePill: {
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  largePlantStateText: {
+    fontFamily: Fonts.regular,
+    fontSize: 11,
+  },
+  largeFooterSummary: {
+    fontFamily: Fonts.light,
+    fontSize: 11.5,
+    marginTop: 2,
   },
 });
